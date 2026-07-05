@@ -93,8 +93,16 @@ Sports, pink for TNT Sports, gold for Amazon Prime Video.
    Google News RSS feed and the top 5 "hot" posts from its subreddit.
 2. Categorises each article by regex on its headline: `transfer`,
    `rumour`, `fitness`, `manager`, `match`, or `general`.
-3. Writes the combined result to `data/team-news/{slug}.json`.
-4. If a transfer window is open (summer: 10 Jun – 2 Sep, or all of
+3. For each article, best-effort fetches the publisher page and pulls its
+   `og:description`/`og:image` link-preview meta tags (the same technique
+   used for chat-app link unfurling) so the Teams tab can show a snippet
+   and thumbnail in-app, while the tap-through still opens the original
+   publisher's site — no full article text is scraped or republished.
+   This step degrades silently: if a publisher blocks the request or a
+   Google News redirect can't be followed, `description`/`image` are
+   just `null` and the frontend renders the card without them.
+4. Writes the combined result to `data/team-news/{slug}.json`.
+5. If a transfer window is open (summer: 10 Jun – 2 Sep, or all of
    January), also recomputes `data/transfer-heat.json` — clubs ranked by
    a heat score weighted toward `transfer`/`rumour` article volume.
 
