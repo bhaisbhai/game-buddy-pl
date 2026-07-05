@@ -1,0 +1,22 @@
+[
+  { "slug": "arsenal", "name": "Arsenal", "short": "ARS", "espn_id": 359, "reddit": "Gunners", "google_query": "Arsenal FC" },
+  { "slug": "aston-villa", "name": "Aston Villa", "short": "AVL", "espn_id": 362, "reddit": "avfc", "google_query": "Aston Villa FC" },
+  { "slug": "bournemouth", "name": "Bournemouth", "short": "BOU", "espn_id": 349, "reddit": "afcb", "google_query": "AFC Bournemouth" },
+  { "slug": "brentford", "name": "Brentford", "short": "BRE", "espn_id": 337, "reddit": "Brentford", "google_query": "Brentford FC" },
+  { "slug": "brighton", "name": "Brighton", "short": "BHA", "espn_id": 331, "reddit": "BrightonHoveAlbion", "google_query": "Brighton and Hove Albion" },
+  { "slug": "chelsea", "name": "Chelsea", "short": "CHE", "espn_id": 363, "reddit": "chelseafc", "google_query": "Chelsea FC" },
+  { "slug": "crystal-palace", "name": "Crystal Palace", "short": "CRY", "espn_id": 384, "reddit": "crystalpalace", "google_query": "Crystal Palace FC" },
+  { "slug": "everton", "name": "Everton", "short": "EVE", "espn_id": 368, "reddit": "Everton", "google_query": "Everton FC" },
+  { "slug": "fulham", "name": "Fulham", "short": "FUL", "espn_id": 370, "reddit": "fulhamfc", "google_query": "Fulham FC" },
+  { "slug": "ipswich", "name": "Ipswich Town", "short": "IPS", "espn_id": 373, "reddit": "IpswichTown", "google_query": "Ipswich Town FC" },
+  { "slug": "leicester", "name": "Leicester City", "short": "LEI", "espn_id": 375, "reddit": "lcfc", "google_query": "Leicester City FC" },
+  { "slug": "liverpool", "name": "Liverpool", "short": "LIV", "espn_id": 364, "reddit": "LiverpoolFC", "google_query": "Liverpool FC" },
+  { "slug": "man-city", "name": "Manchester City", "short": "MCI", "espn_id": 382, "reddit": "MCFC", "google_query": "Manchester City FC" },
+  { "slug": "man-united", "name": "Manchester United", "short": "MUN", "espn_id": 360, "reddit": "reddevils", "google_query": "Manchester United FC" },
+  { "slug": "newcastle", "name": "Newcastle United", "short": "NEW", "espn_id": 361, "reddit": "NUFC", "google_query": "Newcastle United FC" },
+  { "slug": "nottm-forest", "name": "Nottingham Forest", "short": "NFO", "espn_id": 393, "reddit": "nffc", "google_query": "Nottingham Forest FC" },
+  { "slug": "southampton", "name": "Southampton", "short": "SOU", "espn_id": 366, "reddit": "SaintsFC", "google_query": "Southampton FC" },
+  { "slug": "tottenham", "name": "Tottenham Hotspur", "short": "TOT", "espn_id": 367, "reddit": "coys", "google_query": "Tottenham Hotspur FC" },
+  { "slug": "west-ham", "name": "West Ham United", "short": "WHU", "espn_id": 371, "reddit": "Hammers", "google_query": "West Ham United FC" },
+  { "slug": "wolves", "name": "Wolverhampton Wanderers", "short": "WOL", "espn_id": 380, "reddit": "WWFC", "google_query": "Wolverhampton Wanderers FC" }
+]

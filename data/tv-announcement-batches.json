@@ -1,0 +1,14 @@
+[
+  { "batch_number": 1, "period_label": "Matchweeks 2-5", "matchweek_start": 2, "matchweek_end": 5, "expected_release_date": "2026-07-13", "expected_release_type": "week_commencing", "status": "planned" },
+  { "batch_number": 2, "period_label": "Matchweeks 6-9", "matchweek_start": 6, "matchweek_end": 9, "expected_release_date": "2026-08-17", "expected_release_type": "week_commencing", "status": "planned" },
+  { "batch_number": 3, "period_label": "Matchweeks 10-13", "matchweek_start": 10, "matchweek_end": 13, "expected_release_date": "2026-09-14", "expected_release_type": "week_commencing", "status": "planned" },
+  { "batch_number": 4, "period_label": "Matchweeks 14-16", "matchweek_start": 14, "matchweek_end": 16, "expected_release_date": "2026-10-12", "expected_release_type": "week_commencing", "status": "planned" },
+  { "batch_number": 5, "period_label": "Matchweeks 17-19", "matchweek_start": 17, "matchweek_end": 19, "expected_release_date": "2026-11-09", "expected_release_type": "week_commencing", "status": "planned" },
+  { "batch_number": 6, "period_label": "Matchweeks 20-22", "matchweek_start": 20, "matchweek_end": 22, "expected_release_date": "2026-12-07", "expected_release_type": "week_commencing", "status": "planned" },
+  { "batch_number": 7, "period_label": "Matchweeks 23-25", "matchweek_start": 23, "matchweek_end": 25, "expected_release_date": "2027-01-04", "expected_release_type": "week_commencing", "status": "planned" },
+  { "batch_number": 8, "period_label": "Matchweeks 26-28", "matchweek_start": 26, "matchweek_end": 28, "expected_release_date": "2027-01-25", "expected_release_type": "week_commencing", "status": "planned" },
+  { "batch_number": 9, "period_label": "Matchweeks 29-31", "matchweek_start": 29, "matchweek_end": 31, "expected_release_date": "2027-02-15", "expected_release_type": "week_commencing", "status": "planned" },
+  { "batch_number": 10, "period_label": "Matchweeks 32-34", "matchweek_start": 32, "matchweek_end": 34, "expected_release_date": "2027-03-08", "expected_release_type": "week_commencing", "status": "planned" },
+  { "batch_number": 11, "period_label": "Matchweeks 35-36", "matchweek_start": 35, "matchweek_end": 36, "expected_release_date": "2027-03-29", "expected_release_type": "week_commencing", "status": "planned" },
+  { "batch_number": 12, "period_label": "Matchweek 37", "matchweek_start": 37, "matchweek_end": 37, "expected_release_date": "2027-04-26", "expected_release_type": "conditional", "status": "planned" }
+]

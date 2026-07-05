@@ -1,0 +1,12 @@
+{
+  "name": "game-buddy-pl",
+  "version": "1.0.0",
+  "private": true,
+  "engines": { "node": "22" },
+  "scripts": {
+    "scrape": "node scripts/scrape-tv-picks.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.48.0"
+  }
+}
