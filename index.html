@@ -215,8 +215,18 @@ table.standings td.num { text-align: center; font-variant-numeric: tabular-nums;
   border-radius: 12px;
   padding: 12px;
   margin-bottom: 8px;
-  display: block;
+  display: flex;
+  gap: 10px;
   text-decoration: none;
+}
+.news-article .na-body { flex: 1; min-width: 0; }
+.news-article .na-img {
+  width: 76px;
+  height: 76px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+  background: var(--bg-elev-2);
 }
 .news-article .na-cat {
   font-size: 10px;
@@ -226,6 +236,15 @@ table.standings td.num { text-align: center; font-variant-numeric: tabular-nums;
   letter-spacing: .04em;
 }
 .news-article h3 { font-size: 14px; margin: 4px 0; color: var(--text); font-weight: 600; }
+.news-article .na-desc {
+  font-size: 12px;
+  color: var(--text-dim);
+  margin-bottom: 4px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 .news-article .na-meta { font-size: 11px; color: var(--text-dim); }
 
 .heat-strip {
@@ -411,6 +430,15 @@ nav.tabbar button .icon { font-size: 19px; }
 
   function normalizeTeamName(name) {
     return (name || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  }
+
+  var escapeDiv = document.createElement('div');
+  function escapeHtml(str) {
+    escapeDiv.textContent = str || '';
+    return escapeDiv.innerHTML;
+  }
+  function escapeAttr(str) {
+    return escapeHtml(str).replace(/"/g, '&quot;');
   }
 
   async function fetchJson(url) {
@@ -753,21 +781,27 @@ nav.tabbar button .icon { font-size: 19px; }
       (filtered.length === 0 ? '<div class="empty-state">No articles yet.</div>' :
         filtered.map(function (a) {
           return (
-            '<a class="news-article" href="' + a.link + '" target="_blank" rel="noopener">' +
-              '<div class="na-cat">' + a.category + '</div>' +
-              '<h3>' + a.title + '</h3>' +
-              '<div class="na-meta">' + (a.source || '') + '</div>' +
+            '<a class="news-article" href="' + escapeAttr(a.link) + '" target="_blank" rel="noopener">' +
+              (a.image ? '<img class="na-img" src="' + escapeAttr(a.image) + '" alt="" loading="lazy">' : '') +
+              '<div class="na-body">' +
+                '<div class="na-cat">' + escapeHtml(a.category) + '</div>' +
+                '<h3>' + escapeHtml(a.title) + '</h3>' +
+                (a.description ? '<div class="na-desc">' + escapeHtml(a.description) + '</div>' : '') +
+                '<div class="na-meta">' + escapeHtml(a.source || '') + '</div>' +
+              '</div>' +
             '</a>'
           );
         }).join('')
       ) +
       (reddit.length > 0 ?
-        '<div class="section-title">From r/' + team.reddit + '</div>' +
+        '<div class="section-title">From r/' + escapeHtml(team.reddit) + '</div>' +
         reddit.map(function (r) {
           return (
-            '<a class="news-article" href="' + r.permalink + '" target="_blank" rel="noopener">' +
-              '<h3>' + r.title + '</h3>' +
-              '<div class="na-meta">▲ ' + r.score + ' · ' + r.num_comments + ' comments</div>' +
+            '<a class="news-article" href="' + escapeAttr(r.permalink) + '" target="_blank" rel="noopener">' +
+              '<div class="na-body">' +
+                '<h3>' + escapeHtml(r.title) + '</h3>' +
+                '<div class="na-meta">▲ ' + r.score + ' · ' + r.num_comments + ' comments</div>' +
+              '</div>' +
             '</a>'
           );
         }).join('')
