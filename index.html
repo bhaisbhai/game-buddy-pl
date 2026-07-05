@@ -12,9 +12,8 @@
   --bg-elev: #141416;
   --bg-elev-2: #1c1c1f;
   --accent: #00ff87;
-  --accent-dim: rgba(0,255,135,.12);
-  --purple: #a78bfa;
   --blue: #64c8ff;
+  --neutral-bar: rgba(245,245,247,.25);
   --gold: #ffd700;
   --text: #f5f5f7;
   --text-dim: rgba(245,245,247,.45);
@@ -249,7 +248,7 @@ table.standings td.num { text-align: center; font-family: var(--mono); font-vari
   font-size: 10px;
   font-weight: 700;
   text-transform: uppercase;
-  color: var(--purple);
+  color: var(--blue);
   letter-spacing: .05em;
 }
 .news-article h3 { font-size: 14px; margin: 4px 0; color: var(--text); font-weight: 600; }
@@ -359,7 +358,7 @@ nav.tabbar button .icon { font-size: 19px; }
 .stat-row .sr-labels { display: flex; justify-content: space-between; margin-bottom: 4px; color: var(--text-dim); font-family: var(--mono); }
 .stat-bar { display: flex; height: 6px; border-radius: 3px; overflow: hidden; background: var(--border); }
 .stat-bar .home { background: var(--accent); transition: width .7s var(--ease); }
-.stat-bar .away { background: var(--purple); transition: width .7s var(--ease); }
+.stat-bar .away { background: var(--neutral-bar); transition: width .7s var(--ease); }
 .lineup-col { display: flex; gap: 20px; }
 .lineup-col ul { list-style: none; font-size: 12px; flex: 1; }
 .lineup-col li { padding: 5px 0; border-bottom: 1px solid var(--border); color: var(--text-dim); }
