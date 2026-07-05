@@ -1,7 +1,9 @@
 # Game Buddy PL
 
 A Premier League fan web app — a single-page HTML app backed by Vercel
-serverless functions, styled with a dark purple theme.
+serverless functions, styled with a near-black background, neon-green
+accent, and monospace tabular numbers on scores/stats/standings, with
+semantic win/draw/loss colour coding throughout.
 
 ## Features
 
