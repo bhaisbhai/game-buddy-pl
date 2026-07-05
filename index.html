@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+<title>Game Buddy PL</title>
+<meta name="theme-color" content="#0f0a1e">
+<link rel="manifest" href="data:application/manifest+json,{}">
+<style>
+:root {
+  --bg: #0f0a1e;
+  --bg-elev: #171025;
+  --bg-elev-2: #1f1735;
+  --accent: #7c3aed;
+  --accent-2: #a78bfa;
+  --text: #f1edfb;
+  --text-dim: #9d94c0;
+  --border: #2b2145;
+  --green: #22c55e;
+  --red: #ef4444;
+  --amber: #f59e0b;
+  --sky: #0ea5e9;
+  --tnt: #ec4899;
+  --amazon: #d4af37;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: 72px;
+}
+a { color: inherit; }
+button { font-family: inherit; }
+
+header.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: linear-gradient(180deg, var(--bg) 80%, transparent);
+  padding: 16px 16px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header.topbar h1 {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  background: linear-gradient(90deg, var(--accent-2), var(--accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+header.topbar .date-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--text-dim);
+}
+header.topbar .date-nav button {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 8px;
+  width: 28px;
+  height: 28px;
+  cursor: pointer;
+}
+
+main { padding: 0 16px; max-width: 640px; margin: 0 auto; }
+.view { display: none; }
+.view.active { display: block; }
+
+.match-card {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: border-color .15s ease;
+}
+.match-card:active { border-color: var(--accent); }
+.match-card .mc-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+.status-pill {
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 11px;
+}
+.status-pill.live { background: rgba(239,68,68,.15); color: var(--red); }
+.status-pill.upcoming { background: rgba(124,58,237,.15); color: var(--accent-2); }
+.status-pill.final { background: rgba(157,148,192,.12); color: var(--text-dim); }
+
+.mc-teams { display: flex; flex-direction: column; gap: 8px; }
+.mc-team-row { display: flex; align-items: center; justify-content: space-between; }
+.mc-team-info { display: flex; align-items: center; gap: 10px; }
+.mc-team-info img { width: 24px; height: 24px; object-fit: contain; }
+.mc-team-info span { font-weight: 600; font-size: 15px; }
+.mc-score { font-weight: 800; font-size: 17px; font-variant-numeric: tabular-nums; }
+.mc-scorers { font-size: 11px; color: var(--text-dim); margin-top: 2px; }
+
+.tv-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 10px;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 999px;
+  margin-top: 8px;
+}
+.tv-pill.sky { background: rgba(14,165,233,.15); color: var(--sky); }
+.tv-pill.tnt { background: rgba(236,72,153,.15); color: var(--tnt); }
+.tv-pill.amazon { background: rgba(212,175,55,.15); color: var(--amazon); }
+
+.empty-state {
+  text-align: center;
+  color: var(--text-dim);
+  padding: 60px 20px;
+  font-size: 14px;
+}
+
+/* Table */
+table.standings { width: 100%; border-collapse: collapse; font-size: 13px; }
+table.standings th {
+  text-align: left;
+  color: var(--text-dim);
+  font-weight: 600;
+  font-size: 11px;
+  padding: 8px 6px;
+  text-transform: uppercase;
+}
+table.standings td { padding: 8px 6px; border-top: 1px solid var(--border); }
+table.standings tr.zone-ucl td:first-child { box-shadow: inset 3px 0 0 var(--green); }
+table.standings tr.zone-uel td:first-child { box-shadow: inset 3px 0 0 var(--sky); }
+table.standings tr.zone-rel td:first-child { box-shadow: inset 3px 0 0 var(--red); }
+.standings-team { display: flex; align-items: center; gap: 8px; }
+.standings-team img { width: 18px; height: 18px; object-fit: contain; }
+.pos-num { color: var(--text-dim); width: 18px; display: inline-block; }
+table.standings td.num { text-align: center; font-variant-numeric: tabular-nums; }
+.legend { display: flex; gap: 14px; font-size: 11px; color: var(--text-dim); margin-top: 14px; flex-wrap: wrap; }
+.legend span { display: flex; align-items: center; gap: 5px; }
+.legend .dot { width: 8px; height: 8px; border-radius: 50%; }
+
+/* Teams grid */
+.teams-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-top: 8px;
+}
+.team-tile {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+.team-tile img { width: 36px; height: 36px; object-fit: contain; }
+.team-tile span { font-size: 10px; font-weight: 700; color: var(--text-dim); }
+
+.news-view-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.back-btn {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 13px;
+}
+.news-view-header img { width: 32px; height: 32px; object-fit: contain; }
+.news-view-header h2 { font-size: 18px; }
+
+.cat-filters { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 10px; margin-bottom: 10px; }
+.cat-chip {
+  flex-shrink: 0;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  border-radius: 999px;
+  padding: 6px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.cat-chip.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+.news-article {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 8px;
+  display: block;
+  text-decoration: none;
+}
+.news-article .na-cat {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--accent-2);
+  letter-spacing: .04em;
+}
+.news-article h3 { font-size: 14px; margin: 4px 0; color: var(--text); font-weight: 600; }
+.news-article .na-meta { font-size: 11px; color: var(--text-dim); }
+
+.heat-strip {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  margin-bottom: 16px;
+  padding-bottom: 4px;
+}
+.heat-chip {
+  flex-shrink: 0;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 8px 10px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-dim);
+}
+.heat-chip img { width: 16px; height: 16px; object-fit: contain; }
+.heat-chip .flame { color: var(--amber); font-weight: 700; }
+
+/* Tab bar */
+nav.tabbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 30;
+  background: var(--bg-elev);
+  border-top: 1px solid var(--border);
+  display: flex;
+  padding: 6px 4px calc(6px + env(safe-area-inset-bottom));
+}
+nav.tabbar button {
+  flex: 1;
+  background: none;
+  border: none;
+  color: var(--text-dim);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 6px 0;
+  cursor: pointer;
+  border-radius: 10px;
+}
+nav.tabbar button.active { color: var(--accent-2); }
+nav.tabbar button .icon { font-size: 19px; }
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.6);
+  z-index: 40;
+  display: none;
+  align-items: flex-end;
+}
+.modal-overlay.open { display: flex; }
+.modal-sheet {
+  background: var(--bg-elev);
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  border-radius: 20px 20px 0 0;
+  padding: 18px;
+}
+.modal-close {
+  display: block;
+  margin: 0 auto 12px;
+  width: 36px;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--border);
+  border: none;
+}
+.modal-teams { display: flex; align-items: center; justify-content: center; gap: 20px; margin-bottom: 14px; }
+.modal-teams .mt-team { display: flex; flex-direction: column; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; }
+.modal-teams img { width: 40px; height: 40px; object-fit: contain; }
+.modal-score { font-size: 28px; font-weight: 800; }
+.modal-tabs { display: flex; gap: 6px; margin-bottom: 14px; border-bottom: 1px solid var(--border); }
+.modal-tabs button {
+  background: none; border: none; color: var(--text-dim);
+  padding: 8px 4px; font-size: 13px; font-weight: 600; cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+.modal-tabs button.active { color: var(--accent-2); border-color: var(--accent); }
+.stat-row { margin-bottom: 12px; font-size: 12px; }
+.stat-row .sr-labels { display: flex; justify-content: space-between; margin-bottom: 4px; color: var(--text-dim); }
+.stat-bar { display: flex; height: 6px; border-radius: 3px; overflow: hidden; background: var(--border); }
+.stat-bar .home { background: var(--accent-2); }
+.stat-bar .away { background: var(--text-dim); }
+.lineup-col { display: flex; gap: 20px; }
+.lineup-col ul { list-style: none; font-size: 12px; flex: 1; }
+.lineup-col li { padding: 5px 0; border-bottom: 1px solid var(--border); color: var(--text-dim); }
+.highlight-thumb {
+  width: 100%; border-radius: 10px; margin-bottom: 14px; display: block;
+  border: 1px solid var(--border);
+}
+
+.loading { text-align: center; padding: 40px; color: var(--text-dim); font-size: 13px; }
+.section-title { font-size: 13px; font-weight: 700; color: var(--text-dim); text-transform: uppercase; letter-spacing: .04em; margin: 18px 0 8px; }
+.placeholder-card {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 30px 16px;
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 13px;
+}
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <h1>Game Buddy PL</h1>
+  <div class="date-nav" id="dateNav"></div>
+</header>
+
+<main>
+  <section id="view-today" class="view active"></section>
+  <section id="view-table" class="view"></section>
+  <section id="view-teams" class="view"></section>
+  <section id="view-stats" class="view">
+    <div class="placeholder-card">Stats hub coming soon.</div>
+  </section>
+  <section id="view-favs" class="view">
+    <div class="placeholder-card">Favourite a team to see it here.</div>
+  </section>
+</main>
+
+<div class="modal-overlay" id="matchModal">
+  <div class="modal-sheet" id="matchModalBody"></div>
+</div>
+
+<nav class="tabbar">
+  <button data-tab="today" class="active"><span class="icon">⚽</span>Today</button>
+  <button data-tab="table"><span class="icon">📊</span>Table</button>
+  <button data-tab="teams"><span class="icon">🛡️</span>Teams</button>
+  <button data-tab="stats"><span class="icon">📈</span>Stats</button>
+  <button data-tab="favs"><span class="icon">⭐</span>Favs</button>
+</nav>
+
+<script>
+(function () {
+  'use strict';
+
+  var state = {
+    tab: 'today',
+    currentDate: new Date(),
+    scoreboard: null,
+    standings: null,
+    tvPicks: null,
+    teamsData: [],
+    teamsNewsCache: {},
+    teamsHeatData: null,
+    teamsView: 'grid',
+    selectedTeamSlug: null,
+    teamsCatFilter: 'all',
+    refreshTimer: null,
+    hasLive: false,
+  };
+
+  function fmtDateKey(d) {
+    var y = d.getFullYear();
+    var m = String(d.getMonth() + 1).padStart(2, '0');
+    var day = String(d.getDate()).padStart(2, '0');
+    return '' + y + m + day;
+  }
+
+  function fmtDateLabel(d) {
+    var today = new Date();
+    var isToday = d.toDateString() === today.toDateString();
+    if (isToday) return 'Today';
+    return d.toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short' });
+  }
+
+  function normalizeTeamName(name) {
+    return (name || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+  }
+
+  async function fetchJson(url) {
+    try {
+      var r = await fetch(url);
+      if (!r.ok) return null;
+      return await r.json();
+    } catch (e) {
+      return null;
+    }
+  }
+
+  // ---------- Data loading ----------
+
+  async function loadTvPicks() {
+    state.tvPicks = await fetchJson('/data/tv-picks.json');
+  }
+
+  async function loadScoreboard() {
+    var dateKey = fmtDateKey(state.currentDate);
+    var data = await fetchJson('/api/scoreboard?dates=' + dateKey);
+    state.scoreboard = data;
+    renderToday();
+    scheduleRefresh();
+  }
+
+  async function loadStandings() {
+    if (!state.standings) {
+      state.standings = await fetchJson('/api/standings');
+    }
+    renderTable();
+  }
+
+  async function loadTeamsData() {
+    state.teamsData = await fetchJson('/data/pl-teams.json') || [];
+    state.teamsHeatData = await fetchJson('/data/transfer-heat.json');
+    renderTeams();
+  }
+
+  async function loadTeamNews(slug) {
+    if (state.teamsNewsCache[slug]) return state.teamsNewsCache[slug];
+    var data = await fetchJson('/data/team-news/' + slug + '.json');
+    state.teamsNewsCache[slug] = data;
+    return data;
+  }
+
+  // ---------- TV picks matching ----------
+
+  function findTvPick(home, away, dateStr) {
+    if (!state.tvPicks || !state.tvPicks.picks) return null;
+    var nHome = normalizeTeamName(home);
+    var nAway = normalizeTeamName(away);
+    var d = new Date(dateStr);
+    return state.tvPicks.picks.find(function (p) {
+      if (normalizeTeamName(p.home) !== nHome) return false;
+      if (normalizeTeamName(p.away) !== nAway) return false;
+      if (!p.date) return true;
+      var pd = new Date(p.date);
+      return pd.toDateString() === d.toDateString();
+    }) || null;
+  }
+
+  function tvPillHtml(pick) {
+    if (!pick) return '';
+    var cls = 'sky', label = pick.broadcaster;
+    if (/tnt/i.test(pick.broadcaster)) cls = 'tnt';
+    else if (/amazon/i.test(pick.broadcaster)) cls = 'amazon';
+    return '<div class="tv-pill ' + cls + '">📺 ' + label + '</div>';
+  }
+
+  // ---------- Today tab ----------
+
+  function renderDateNav() {
+    var nav = document.getElementById('dateNav');
+    nav.innerHTML =
+      '<button id="prevDay">‹</button>' +
+      '<span>' + fmtDateLabel(state.currentDate) + '</span>' +
+      '<button id="nextDay">›</button>';
+    document.getElementById('prevDay').onclick = function () {
+      state.currentDate.setDate(state.currentDate.getDate() - 1);
+      loadScoreboard();
+      renderDateNav();
+    };
+    document.getElementById('nextDay').onclick = function () {
+      state.currentDate.setDate(state.currentDate.getDate() + 1);
+      loadScoreboard();
+      renderDateNav();
+    };
+  }
+
+  function statusInfo(event) {
+    var status = event.status || {};
+    var type = status.type || {};
+    var state_ = type.state; // 'pre' | 'in' | 'post'
+    if (state_ === 'in') {
+      var clock = status.displayClock || '';
+      return { cls: 'live', label: clock ? clock + "'" : 'LIVE' };
+    }
+    if (state_ === 'post') {
+      var comp = event.competitions && event.competitions[0];
+      var period = status.period || 0;
+      var wentToET = period >= 3 || hasPenalties(comp) || hasLateGoal(comp);
+      return { cls: 'final', label: wentToET ? (hasPenalties(comp) ? 'FT (Pens)' : 'FT (AET)') : 'FT' };
+    }
+    var d = new Date(event.date);
+    return { cls: 'upcoming', label: d.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' }) };
+  }
+
+  function hasPenalties(comp) {
+    if (!comp || !comp.details) return false;
+    return comp.details.some(function (d) {
+      return d.type && /penalty shootout|shootout/i.test(d.type.text || '');
+    });
+  }
+
+  function hasLateGoal(comp) {
+    if (!comp || !comp.details) return false;
+    return comp.details.some(function (d) {
+      var min = d.clock && d.clock.value ? d.clock.value / 60 : (d.time && d.time.value) || 0;
+      return d.type && /goal/i.test(d.type.text || '') && min > 90;
+    });
+  }
+
+  function scorersFor(comp, teamId) {
+    if (!comp || !comp.details) return '';
+    var goals = comp.details.filter(function (d) {
+      return d.type && /goal/i.test(d.type.text || '') && d.team && String(d.team.id) === String(teamId);
+    });
+    return goals.map(function (g) {
+      var scorer = g.athletesInvolved && g.athletesInvolved[0] ? g.athletesInvolved[0].displayName : '';
+      var min = g.clock && g.clock.displayValue ? g.clock.displayValue : '';
+      return scorer ? (scorer + ' ' + min) : '';
+    }).filter(Boolean).join(', ');
+  }
+
+  function renderToday() {
+    var el = document.getElementById('view-today');
+    var data = state.scoreboard;
+    if (!data) {
+      el.innerHTML = '<div class="loading">Loading matches…</div>';
+      return;
+    }
+    var events = data.events || [];
+    state.hasLive = events.some(function (e) { return e.status && e.status.type && e.status.type.state === 'in'; });
+
+    if (events.length === 0) {
+      el.innerHTML = '<div class="empty-state">No Premier League matches on this day.</div>';
+      return;
+    }
+
+    el.innerHTML = events.map(function (event) {
+      var comp = event.competitions && event.competitions[0];
+      if (!comp) return '';
+      var competitors = comp.competitors || [];
+      var home = competitors.find(function (c) { return c.homeAway === 'home'; }) || competitors[0];
+      var away = competitors.find(function (c) { return c.homeAway === 'away'; }) || competitors[1];
+      var st = statusInfo(event);
+      var pick = findTvPick(home.team.displayName, away.team.displayName, event.date);
+      var showScore = st.cls !== 'upcoming';
+
+      return (
+        '<div class="match-card" data-event-id="' + event.id + '">' +
+          '<div class="mc-top">' +
+            '<span>' + (comp.notes && comp.notes[0] ? comp.notes[0].headline : 'Premier League') + '</span>' +
+            '<span class="status-pill ' + st.cls + '">' + st.label + '</span>' +
+          '</div>' +
+          '<div class="mc-teams">' +
+            '<div class="mc-team-row">' +
+              '<div class="mc-team-info"><img src="' + (home.team.logo || '') + '" alt=""><span>' + home.team.displayName + '</span></div>' +
+              (showScore ? '<div class="mc-score">' + home.score + '</div>' : '') +
+            '</div>' +
+            '<div class="mc-team-row">' +
+              '<div class="mc-team-info"><img src="' + (away.team.logo || '') + '" alt=""><span>' + away.team.displayName + '</span></div>' +
+              (showScore ? '<div class="mc-score">' + away.score + '</div>' : '') +
+            '</div>' +
+          '</div>' +
+          (showScore ? '<div class="mc-scorers">' + scorersFor(comp, home.team.id) + '</div>' : '') +
+          (showScore ? '<div class="mc-scorers">' + scorersFor(comp, away.team.id) + '</div>' : '') +
+          tvPillHtml(pick) +
+        '</div>'
+      );
+    }).join('');
+
+    Array.prototype.forEach.call(el.querySelectorAll('.match-card'), function (card) {
+      card.addEventListener('click', function () {
+        openMatchModal(card.getAttribute('data-event-id'));
+      });
+    });
+  }
+
+  function scheduleRefresh() {
+    if (state.refreshTimer) clearInterval(state.refreshTimer);
+    var interval = state.hasLive ? 15000 : 60000;
+    state.refreshTimer = setInterval(function () {
+      if (state.tab === 'today') loadScoreboard();
+    }, interval);
+  }
+
+  // ---------- Table tab ----------
+
+  function zoneClass(rank, total) {
+    if (rank <= 4) return 'zone-ucl';
+    if (rank === 5 || rank === 6) return 'zone-uel';
+    if (rank > total - 3) return 'zone-rel';
+    return '';
+  }
+
+  function renderTable() {
+    var el = document.getElementById('view-table');
+    var data = state.standings;
+    if (!data) {
+      el.innerHTML = '<div class="loading">Loading table…</div>';
+      return;
+    }
+    var group = (data.children && data.children[0]) || data;
+    var entries = (group.standings && group.standings.entries) || [];
+    if (entries.length === 0) {
+      el.innerHTML = '<div class="empty-state">Standings unavailable.</div>';
+      return;
+    }
+
+    function statVal(entry, name) {
+      var s = (entry.stats || []).find(function (s) { return s.name === name; });
+      return s ? s.displayValue : '-';
+    }
+
+    var rows = entries.map(function (entry, idx) {
+      var rank = idx + 1;
+      var team = entry.team || {};
+      return (
+        '<tr class="' + zoneClass(rank, entries.length) + '">' +
+          '<td class="num"><span class="pos-num">' + rank + '</span></td>' +
+          '<td><div class="standings-team"><img src="' + ((team.logos && team.logos[0] && team.logos[0].href) || '') + '" alt=""><span>' + (team.shortDisplayName || team.displayName) + '</span></div></td>' +
+          '<td class="num">' + statVal(entry, 'gamesPlayed') + '</td>' +
+          '<td class="num">' + statVal(entry, 'pointDifferential') + '</td>' +
+          '<td class="num"><strong>' + statVal(entry, 'points') + '</strong></td>' +
+        '</tr>'
+      );
+    }).join('');
+
+    el.innerHTML =
+      '<table class="standings">' +
+        '<thead><tr><th>#</th><th>Club</th><th>P</th><th>GD</th><th>Pts</th></tr></thead>' +
+        '<tbody>' + rows + '</tbody>' +
+      '</table>' +
+      '<div class="legend">' +
+        '<span><span class="dot" style="background:var(--green)"></span>Champions League</span>' +
+        '<span><span class="dot" style="background:var(--sky)"></span>Europa/Conference</span>' +
+        '<span><span class="dot" style="background:var(--red)"></span>Relegation</span>' +
+      '</div>';
+  }
+
+  // ---------- Teams tab ----------
+
+  function isTransferWindow() {
+    var now = new Date();
+    var md = String(now.getMonth() + 1).padStart(2, '0') + '-' + String(now.getDate()).padStart(2, '0');
+    return (md >= '06-10' && md <= '09-02') || now.getMonth() === 0;
+  }
+
+  function renderTeams() {
+    var el = document.getElementById('view-teams');
+    if (state.teamsView === 'news') {
+      renderTeamNewsView(el);
+      return;
+    }
+
+    var heatHtml = '';
+    if (isTransferWindow() && state.teamsHeatData && state.teamsHeatData.clubs && state.teamsHeatData.clubs.length) {
+      heatHtml =
+        '<div class="section-title">🔥 Transfer Heat</div>' +
+        '<div class="heat-strip">' +
+          state.teamsHeatData.clubs.slice(0, 10).map(function (c) {
+            var team = state.teamsData.find(function (t) { return t.slug === c.slug; });
+            return '<div class="heat-chip"><img src="' + teamCrestUrl(team) + '" alt=""><span>' + c.name + '</span><span class="flame">' + c.heat + '</span></div>';
+          }).join('') +
+        '</div>';
+    }
+
+    el.innerHTML =
+      heatHtml +
+      '<div class="teams-grid">' +
+        state.teamsData.map(function (team) {
+          return (
+            '<div class="team-tile" data-slug="' + team.slug + '">' +
+              '<img src="' + teamCrestUrl(team) + '" alt="">' +
+              '<span>' + team.short + '</span>' +
+            '</div>'
+          );
+        }).join('') +
+      '</div>';
+
+    Array.prototype.forEach.call(el.querySelectorAll('.team-tile'), function (tile) {
+      tile.addEventListener('click', function () {
+        state.selectedTeamSlug = tile.getAttribute('data-slug');
+        state.teamsView = 'news';
+        state.teamsCatFilter = 'all';
+        renderTeams();
+      });
+    });
+  }
+
+  function teamCrestUrl(team) {
+    if (!team) return '';
+    return 'https://a.espncdn.com/i/teamlogos/soccer/500/' + team.espn_id + '.png';
+  }
+
+  async function renderTeamNewsView(el) {
+    var team = state.teamsData.find(function (t) { return t.slug === state.selectedTeamSlug; });
+    if (!team) { state.teamsView = 'grid'; renderTeams(); return; }
+
+    el.innerHTML =
+      '<div class="news-view-header">' +
+        '<button class="back-btn" id="teamsBackBtn">‹ Teams</button>' +
+        '<img src="' + teamCrestUrl(team) + '" alt="">' +
+        '<h2>' + team.name + '</h2>' +
+      '</div>' +
+      '<div class="loading">Loading news…</div>';
+
+    document.getElementById('teamsBackBtn').onclick = function () {
+      state.teamsView = 'grid';
+      renderTeams();
+    };
+
+    var news = await loadTeamNews(team.slug);
+    if (state.teamsView !== 'news' || state.selectedTeamSlug !== team.slug) return;
+
+    var articles = (news && news.articles) || [];
+    var reddit = (news && news.reddit) || [];
+    var categories = ['all'].concat(Array.from(new Set(articles.map(function (a) { return a.category; }))));
+
+    var filtered = state.teamsCatFilter === 'all' ? articles : articles.filter(function (a) { return a.category === state.teamsCatFilter; });
+
+    var body =
+      '<div class="cat-filters">' +
+        categories.map(function (c) {
+          return '<button class="cat-chip' + (c === state.teamsCatFilter ? ' active' : '') + '" data-cat="' + c + '">' + c + '</button>';
+        }).join('') +
+      '</div>' +
+      (filtered.length === 0 ? '<div class="empty-state">No articles yet.</div>' :
+        filtered.map(function (a) {
+          return (
+            '<a class="news-article" href="' + a.link + '" target="_blank" rel="noopener">' +
+              '<div class="na-cat">' + a.category + '</div>' +
+              '<h3>' + a.title + '</h3>' +
+              '<div class="na-meta">' + (a.source || '') + '</div>' +
+            '</a>'
+          );
+        }).join('')
+      ) +
+      (reddit.length > 0 ?
+        '<div class="section-title">From r/' + team.reddit + '</div>' +
+        reddit.map(function (r) {
+          return (
+            '<a class="news-article" href="' + r.permalink + '" target="_blank" rel="noopener">' +
+              '<h3>' + r.title + '</h3>' +
+              '<div class="na-meta">▲ ' + r.score + ' · ' + r.num_comments + ' comments</div>' +
+            '</a>'
+          );
+        }).join('')
+        : '');
+
+    el.innerHTML =
+      '<div class="news-view-header">' +
+        '<button class="back-btn" id="teamsBackBtn">‹ Teams</button>' +
+        '<img src="' + teamCrestUrl(team) + '" alt="">' +
+        '<h2>' + team.name + '</h2>' +
+      '</div>' +
+      body;
+
+    document.getElementById('teamsBackBtn').onclick = function () {
+      state.teamsView = 'grid';
+      renderTeams();
+    };
+    Array.prototype.forEach.call(el.querySelectorAll('.cat-chip'), function (chip) {
+      chip.addEventListener('click', function () {
+        state.teamsCatFilter = chip.getAttribute('data-cat');
+        renderTeamNewsView(el);
+      });
+    });
+  }
+
+  // ---------- Match modal ----------
+
+  var currentModalEventId = null;
+  var modalTab = 'overview';
+
+  async function openMatchModal(eventId) {
+    currentModalEventId = eventId;
+    modalTab = 'overview';
+    var overlay = document.getElementById('matchModal');
+    var body = document.getElementById('matchModalBody');
+    overlay.classList.add('open');
+    body.innerHTML = '<button class="modal-close"></button><div class="loading">Loading match…</div>';
+
+    var event = findEventInScoreboard(eventId);
+    if (!event) { body.innerHTML = '<button class="modal-close" id="modalCloseBtn"></button><div class="empty-state">Match not found.</div>'; bindModalClose(); return; }
+
+    var summary = await fetchJson('/api/summary?event=' + eventId);
+    renderModal(event, summary);
+  }
+
+  function findEventInScoreboard(eventId) {
+    if (!state.scoreboard || !state.scoreboard.events) return null;
+    return state.scoreboard.events.find(function (e) { return String(e.id) === String(eventId); });
+  }
+
+  function bindModalClose() {
+    document.getElementById('modalCloseBtn').addEventListener('click', closeMatchModal);
+  }
+
+  function closeMatchModal() {
+    document.getElementById('matchModal').classList.remove('open');
+    currentModalEventId = null;
+  }
+
+  function renderModal(event, summary) {
+    var comp = event.competitions && event.competitions[0];
+    var competitors = (comp && comp.competitors) || [];
+    var home = competitors.find(function (c) { return c.homeAway === 'home'; }) || competitors[0] || {};
+    var away = competitors.find(function (c) { return c.homeAway === 'away'; }) || competitors[1] || {};
+    var st = statusInfo(event);
+    var showScore = st.cls !== 'upcoming';
+
+    var highlightImg = summary && summary.header && summary.header.competitions &&
+      summary.header.competitions[0] && summary.header.competitions[0].thumbnail;
+
+    var body = document.getElementById('matchModalBody');
+    body.innerHTML =
+      '<button class="modal-close" id="modalCloseBtn"></button>' +
+      (highlightImg ? '<img class="highlight-thumb" src="' + highlightImg + '" alt="">' : '') +
+      '<div class="modal-teams">' +
+        '<div class="mt-team"><img src="' + (home.team && home.team.logo || '') + '" alt=""><span>' + (home.team && home.team.shortDisplayName || '') + '</span></div>' +
+        '<div class="modal-score">' + (showScore ? (home.score + ' - ' + away.score) : st.label) + '</div>' +
+        '<div class="mt-team"><img src="' + (away.team && away.team.logo || '') + '" alt=""><span>' + (away.team && away.team.shortDisplayName || '') + '</span></div>' +
+      '</div>' +
+      '<div class="modal-tabs">' +
+        '<button data-mtab="overview" class="active">Overview</button>' +
+        '<button data-mtab="lineups">Lineups</button>' +
+      '</div>' +
+      '<div id="modalTabContent"></div>';
+
+    bindModalClose();
+    renderModalTabContent(summary, home, away);
+
+    Array.prototype.forEach.call(body.querySelectorAll('[data-mtab]'), function (btn) {
+      btn.addEventListener('click', function () {
+        modalTab = btn.getAttribute('data-mtab');
+        Array.prototype.forEach.call(body.querySelectorAll('[data-mtab]'), function (b) { b.classList.toggle('active', b === btn); });
+        renderModalTabContent(summary, home, away);
+      });
+    });
+  }
+
+  function renderModalTabContent(summary, home, away) {
+    var el = document.getElementById('modalTabContent');
+    if (!summary) { el.innerHTML = '<div class="loading">No further data available.</div>'; return; }
+
+    if (modalTab === 'overview') {
+      var boxscore = summary.boxscore || {};
+      var teams = boxscore.teams || [];
+      var homeStats = (teams[0] && teams[0].statistics) || [];
+      var awayStats = (teams[1] && teams[1].statistics) || [];
+
+      if (homeStats.length === 0) {
+        el.innerHTML = '<div class="empty-state">No match stats available yet.</div>';
+        return;
+      }
+
+      el.innerHTML = homeStats.map(function (stat, i) {
+        var awayStat = awayStats[i] || {};
+        var hv = parseFloat(stat.displayValue) || 0;
+        var av = parseFloat(awayStat.displayValue) || 0;
+        var total = hv + av || 1;
+        var hPct = (hv / total) * 100;
+        return (
+          '<div class="stat-row">' +
+            '<div class="sr-labels"><span>' + stat.displayValue + '</span><span>' + (stat.label || stat.name) + '</span><span>' + (awayStat.displayValue || '') + '</span></div>' +
+            '<div class="stat-bar"><div class="home" style="width:' + hPct + '%"></div><div class="away" style="width:' + (100 - hPct) + '%"></div></div>' +
+          '</div>'
+        );
+      }).join('');
+    } else if (modalTab === 'lineups') {
+      var rosters = summary.rosters || [];
+      var homeRoster = rosters[0] || {};
+      var awayRoster = rosters[1] || {};
+
+      function playerList(roster) {
+        var players = (roster.roster || []).filter(function (p) { return p.starter; });
+        if (players.length === 0) return '<li>Lineup not yet available</li>';
+        return players.map(function (p) {
+          return '<li>' + (p.athlete && p.athlete.displayName || '') + '</li>';
+        }).join('');
+      }
+
+      el.innerHTML =
+        '<div class="lineup-col">' +
+          '<ul>' + playerList(homeRoster) + '</ul>' +
+          '<ul>' + playerList(awayRoster) + '</ul>' +
+        '</div>';
+    }
+  }
+
+  // ---------- Tab switching ----------
+
+  function switchTab(tab) {
+    state.tab = tab;
+    Array.prototype.forEach.call(document.querySelectorAll('.view'), function (v) { v.classList.remove('active'); });
+    document.getElementById('view-' + tab).classList.add('active');
+    Array.prototype.forEach.call(document.querySelectorAll('nav.tabbar button'), function (b) {
+      b.classList.toggle('active', b.getAttribute('data-tab') === tab);
+    });
+    document.getElementById('dateNav').style.display = tab === 'today' ? 'flex' : 'none';
+
+    if (tab === 'today' && !state.scoreboard) loadScoreboard();
+    if (tab === 'table') loadStandings();
+    if (tab === 'teams' && state.teamsData.length === 0) loadTeamsData();
+  }
+
+  Array.prototype.forEach.call(document.querySelectorAll('nav.tabbar button'), function (btn) {
+    btn.addEventListener('click', function () { switchTab(btn.getAttribute('data-tab')); });
+  });
+
+  document.getElementById('matchModal').addEventListener('click', function (e) {
+    if (e.target === this) closeMatchModal();
+  });
+
+  // ---------- Init ----------
+
+  async function init() {
+    renderDateNav();
+    await loadTvPicks();
+    await loadScoreboard();
+
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/sw.js').catch(function () {});
+    }
+  }
+
+  init();
+})();
+</script>
+</body>
+</html>
