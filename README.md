@@ -72,20 +72,25 @@ file proxies one ESPN endpoint through `api/_proxy.js`, which forwards
 query params, sets a short `Cache-Control`, and returns a `502`/upstream
 status on failure instead of throwing.
 
-| Route | ESPN endpoint | Used for |
-|---|---|---|
-| `/api/scoreboard?dates=YYYYMMDD` | `.../eng.1/scoreboard` | Today tab match cards |
-| `/api/standings` | `.../eng.1/standings` | Table tab |
-| `/api/summary?event={id}` | `.../eng.1/summary` | Match modal (stats/lineups) |
-| `/api/highlights?event={id}` | `.../eng.1/news` | Match highlight thumbnail |
-| `/api/team-news?espnId={id}` | `.../eng.1/news?team={id}` | (supplementary; primary team news comes from `data/team-news/`) |
+| Route | ESPN endpoint | Cache-Control | Used for |
+|---|---|---|---|
+| `/api/scoreboard?dates=YYYYMMDD` | `.../eng.1/scoreboard` | `s-maxage=10, swr=10` | Today tab match cards (live scores) |
+| `/api/standings` | `.../eng.1/standings` | `s-maxage=120, swr=60` | Table tab (changes far less often than live scores) |
+| `/api/summary?event={id}` | `.../eng.1/summary` | `s-maxage=10, swr=10` | Match modal (stats/lineups) |
+| `/api/highlights?event={id}` | `.../eng.1/news` | `s-maxage=300, swr=150` | Match highlight thumbnail |
+| `/api/team-news?espnId={id}` | `.../eng.1/news?team={id}` | `s-maxage=600, swr=600` | (supplementary; primary team news comes from `data/team-news/`) |
 
 ### TV picks matching
 
 `index.html` loads `/data/tv-picks.json` once at startup and matches
-picks to matches by **date + normalised home/away team name**. A
-matched pick renders as a coloured pill on the match card: blue for Sky
-Sports, pink for TNT Sports, gold for Amazon Prime Video.
+picks to matches primarily by **ESPN team id** (`home_espn_id`/
+`away_espn_id`, resolved during scraping via `pl-teams.json`), falling
+back to normalised home/away team name matching if a scraped team name
+couldn't be resolved to an id. Anchoring on id avoids the false
+negatives that plain name matching is prone to across data providers
+(e.g. "Spurs" vs "Tottenham Hotspur"). A matched pick renders as a
+coloured pill on the match card: blue for Sky Sports, pink for TNT
+Sports, gold for Amazon Prime Video.
 
 ### Team news pipeline
 
@@ -120,8 +125,20 @@ using Playwright/Chromium:
 3. Otherwise it navigates the Premier League news list, finds "fixture
    changes announced" articles, parses the fixtures table on each
    article for home/away team, date, kickoff time, and broadcaster
-   (Sky Sports / TNT Sports / Amazon Prime Video), and merges the result
-   into `data/tv-picks.json` (deduped by date + home + away).
+   (Sky Sports / TNT Sports / Amazon Prime Video).
+4. Resolves each scraped team name to its `pl-teams.json` entry (with a
+   small alias table for common short forms like "Spurs"/"Man Utd") and
+   stores `home_espn_id`/`away_espn_id` alongside the raw names, then
+   merges the result into `data/tv-picks.json` (deduped by id when
+   resolved, otherwise by date + normalised name as a fallback).
+5. If candidate "fixture changes announced" articles were found but
+   zero picks could be parsed out of them, the run **fails loudly**
+   (non-zero exit) instead of silently doing nothing — this surfaces a
+   broken selector as a red X in the Actions tab rather than a quiet
+   no-op. A run with genuinely no candidate articles (nothing announced
+   yet within the window) is not treated as a failure. Either way, a
+   failed run never overwrites existing `tv-picks.json` data — the
+   merge is additive, so an empty scrape just leaves prior picks as-is.
 
 **Batch 1 (Matchweeks 2–5) is expected to drop Monday 13 July 2026** —
 the scraper will pick it up automatically that week.

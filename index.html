@@ -504,14 +504,17 @@ nav.tabbar button .icon { font-size: 19px; }
 
   // ---------- TV picks matching ----------
 
-  function findTvPick(home, away, dateStr) {
+  function findTvPick(homeTeam, awayTeam, dateStr) {
     if (!state.tvPicks || !state.tvPicks.picks) return null;
-    var nHome = normalizeTeamName(home);
-    var nAway = normalizeTeamName(away);
+    var nHome = normalizeTeamName(homeTeam.displayName);
+    var nAway = normalizeTeamName(awayTeam.displayName);
     var d = new Date(dateStr);
     return state.tvPicks.picks.find(function (p) {
-      if (normalizeTeamName(p.home) !== nHome) return false;
-      if (normalizeTeamName(p.away) !== nAway) return false;
+      var idMatch = p.home_espn_id && p.away_espn_id &&
+        String(p.home_espn_id) === String(homeTeam.id) &&
+        String(p.away_espn_id) === String(awayTeam.id);
+      var nameMatch = !idMatch && normalizeTeamName(p.home) === nHome && normalizeTeamName(p.away) === nAway;
+      if (!idMatch && !nameMatch) return false;
       if (!p.date) return true;
       var pd = new Date(p.date);
       return pd.toDateString() === d.toDateString();
@@ -620,7 +623,7 @@ nav.tabbar button .icon { font-size: 19px; }
       var home = competitors.find(function (c) { return c.homeAway === 'home'; }) || competitors[0];
       var away = competitors.find(function (c) { return c.homeAway === 'away'; }) || competitors[1];
       var st = statusInfo(event);
-      var pick = findTvPick(home.team.displayName, away.team.displayName, event.date);
+      var pick = findTvPick(home.team, away.team, event.date);
       var showScore = st.cls !== 'upcoming';
       var homeCls = scoreClass(home.score, away.score, st.cls === 'final');
       var awayCls = scoreClass(away.score, home.score, st.cls === 'final');
