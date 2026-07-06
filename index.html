@@ -718,6 +718,50 @@ nav.tabbar button .icon { font-size: 19px; }
     }).filter(Boolean).join(', ');
   }
 
+  function eventInvolvesFavorite(event) {
+    var comp = event.competitions && event.competitions[0];
+    if (!comp) return false;
+    return (comp.competitors || []).some(function (c) {
+      var slug = teamSlugByEspnId(c.team.id);
+      return slug && isFavorite(slug);
+    });
+  }
+
+  function matchCardHtml(event) {
+    var comp = event.competitions && event.competitions[0];
+    if (!comp) return '';
+    var competitors = comp.competitors || [];
+    var home = competitors.find(function (c) { return c.homeAway === 'home'; }) || competitors[0];
+    var away = competitors.find(function (c) { return c.homeAway === 'away'; }) || competitors[1];
+    var st = statusInfo(event);
+    var pick = findTvPick(home.team, away.team, event.date);
+    var showScore = st.cls !== 'upcoming';
+    var homeCls = scoreClass(home.score, away.score, st.cls === 'final');
+    var awayCls = scoreClass(away.score, home.score, st.cls === 'final');
+
+    return (
+      '<div class="match-card" data-event-id="' + event.id + '">' +
+        '<div class="mc-top">' +
+          '<span>' + (comp.notes && comp.notes[0] ? comp.notes[0].headline : 'Premier League') + '</span>' +
+          '<span class="status-pill ' + st.cls + '">' + st.label + '</span>' +
+        '</div>' +
+        '<div class="mc-teams">' +
+          '<div class="mc-team-row">' +
+            '<div class="mc-team-info team-link" data-team-espn-id="' + home.team.id + '"><img src="' + (home.team.logo || '') + '" alt=""><span>' + home.team.displayName + '</span></div>' +
+            (showScore ? '<div class="mc-score ' + homeCls + '">' + home.score + '</div>' : '') +
+          '</div>' +
+          '<div class="mc-team-row">' +
+            '<div class="mc-team-info team-link" data-team-espn-id="' + away.team.id + '"><img src="' + (away.team.logo || '') + '" alt=""><span>' + away.team.displayName + '</span></div>' +
+            (showScore ? '<div class="mc-score ' + awayCls + '">' + away.score + '</div>' : '') +
+          '</div>' +
+        '</div>' +
+        (showScore ? '<div class="mc-scorers">' + scorersFor(comp, home.team.id) + '</div>' : '') +
+        (showScore ? '<div class="mc-scorers">' + scorersFor(comp, away.team.id) + '</div>' : '') +
+        tvPillHtml(pick) +
+      '</div>'
+    );
+  }
+
   function renderToday() {
     var el = document.getElementById('view-today');
     var data = state.scoreboard;
@@ -733,40 +777,15 @@ nav.tabbar button .icon { font-size: 19px; }
       return;
     }
 
-    el.innerHTML = events.map(function (event) {
-      var comp = event.competitions && event.competitions[0];
-      if (!comp) return '';
-      var competitors = comp.competitors || [];
-      var home = competitors.find(function (c) { return c.homeAway === 'home'; }) || competitors[0];
-      var away = competitors.find(function (c) { return c.homeAway === 'away'; }) || competitors[1];
-      var st = statusInfo(event);
-      var pick = findTvPick(home.team, away.team, event.date);
-      var showScore = st.cls !== 'upcoming';
-      var homeCls = scoreClass(home.score, away.score, st.cls === 'final');
-      var awayCls = scoreClass(away.score, home.score, st.cls === 'final');
+    var favEvents = state.favorites.length ? events.filter(eventInvolvesFavorite) : [];
+    var restEvents = state.favorites.length ? events.filter(function (e) { return !eventInvolvesFavorite(e); }) : events;
 
-      return (
-        '<div class="match-card" data-event-id="' + event.id + '">' +
-          '<div class="mc-top">' +
-            '<span>' + (comp.notes && comp.notes[0] ? comp.notes[0].headline : 'Premier League') + '</span>' +
-            '<span class="status-pill ' + st.cls + '">' + st.label + '</span>' +
-          '</div>' +
-          '<div class="mc-teams">' +
-            '<div class="mc-team-row">' +
-              '<div class="mc-team-info team-link" data-team-espn-id="' + home.team.id + '"><img src="' + (home.team.logo || '') + '" alt=""><span>' + home.team.displayName + '</span></div>' +
-              (showScore ? '<div class="mc-score ' + homeCls + '">' + home.score + '</div>' : '') +
-            '</div>' +
-            '<div class="mc-team-row">' +
-              '<div class="mc-team-info team-link" data-team-espn-id="' + away.team.id + '"><img src="' + (away.team.logo || '') + '" alt=""><span>' + away.team.displayName + '</span></div>' +
-              (showScore ? '<div class="mc-score ' + awayCls + '">' + away.score + '</div>' : '') +
-            '</div>' +
-          '</div>' +
-          (showScore ? '<div class="mc-scorers">' + scorersFor(comp, home.team.id) + '</div>' : '') +
-          (showScore ? '<div class="mc-scorers">' + scorersFor(comp, away.team.id) + '</div>' : '') +
-          tvPillHtml(pick) +
-        '</div>'
-      );
-    }).join('');
+    el.innerHTML =
+      (favEvents.length ?
+        '<div class="section-title">⭐ Your Teams</div>' + favEvents.map(matchCardHtml).join('') :
+        '') +
+      (favEvents.length && restEvents.length ? '<div class="section-title">All Matches</div>' : '') +
+      restEvents.map(matchCardHtml).join('');
 
     Array.prototype.forEach.call(el.querySelectorAll('.match-card'), function (card) {
       card.addEventListener('click', function () {
