@@ -1,141 +1,111 @@
 {
   "slug": "brentford",
-  "updated": "2026-07-06T09:58:18.798Z",
+  "updated": "2026-07-06T19:46:17.976Z",
   "articles": [
     {
       "title": "Breaking news: Michael Kayode signs new long-term Brentford contract",
       "source": "Brentford FC",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYVUteHN0WFhXa1NaamJUdTVIMFFPYm5VRWtoNHVXQ0tFMm1UcHdhOTNGaGdJUmVFb21DSE1lX19FSmt3aWx3RFpXbGR5aEh2d2MtQWhEY29yUk53N2pXak9OYW5fYldNN0hNNG13TGJaUFl0NW5zZFpVUHRtXzJ2NG54aGJYanpDYWhJMi1rU1JmRnM5bVlyUFJoTnRBNldpS3RRekJCNzFWQk9HX1g0dDdGWQ?oc=5",
       "pubDate": "Fri, 03 Jul 2026 11:59:00 GMT",
-      "category": "transfer",
-      "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+      "category": "transfer"
     },
     {
       "title": "Brentford lead race for Celtic forward Daizen Maeda",
       "source": "Celtic Shorts",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZHo2c3haYUdzNXBpZllfbHpDaWdmSmNfbFlmLS1vaUFoS2NaWnBKMEs1NW8tTVdqRVNSNW55aDZMZFVheXRtRkE2d05RZ0lCeWFOazl5cDBfd3lLNXVVRjVjcUQwYXpZQ1BjNFFvZjlJOTAxUHU3UWU2c3dxd3hkeDBzMWkwUUdwSnBCUGtR?oc=5",
       "pubDate": "Sat, 04 Jul 2026 17:29:17 GMT",
-      "category": "general",
-      "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+      "category": "general"
     },
     {
       "title": "‘Come on you Irons!’: Guardiola turns West Ham fan as Man City keep title race alive",
       "source": "The Telegraph",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNY3pYWGc3WjhKeGxIelZ5SEtDd2p0TG9zT1JaelJ3NzFlWExQRVc0UXJwVHVHQ2Z0UUF0a0w3N0YtUlFuczZGLXNFMU1JX29nOHQySV9ubkhIczFHbVo0T2tlcnBqZlVpSmpqVW1PVHFpLVhaNV9qNmN2ZWFvUmZCcDF2cUFoMzRCdlAwWFJFRUF5QU41U1lucjBzMlJ0OW9ORG14aVI0cw?oc=5",
       "pubDate": "Sat, 09 May 2026 07:00:00 GMT",
-      "category": "general",
-      "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+      "category": "general"
     },
     {
       "title": "Major development emerges in Brentford's pursuit of Burnley's Jaidon Anthony",
       "source": "Burnley Express",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZDZiSnl0RU9kbExoSU1BSE51blg3Y0pOX0ozZGxZOVhZYUlnazRJMllxX0h6ajRmRzlEYWVoNnBGcTBLTDZTOUQ3RVJrazl6U2ladUtTU3djSlowRFFlcnMyd1pMWF9fV1ltVW4wLVFSZ2tTVDVYbzUwbU01bUJ1WHkxXzhyNjdERmRyaGFFc1Q5R25fTndzWGMxQmJQM3kwS3U3cG12dENFMVBtSGtLTWhnbEg4QQ?oc=5",
       "pubDate": "Sun, 05 Jul 2026 09:31:00 GMT",
-      "category": "general",
-      "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+      "category": "general"
     },
     {
       "title": "Man City vs Brentford LIVE: Result and reaction from crucial Premier League clash",
       "source": "The Independent",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMW1mSDFpVFM5cjJHMDFIOWpZRlpiX3lLWnpaWW5XcTBoRGNsT0k4V19HcXQ1VHRPcUZ3dzRDUUlsMDRzREdROGY2cDI3M2J4YUN0NzV2VjJFdnV4R0loc2lUSkM0c25qNlJvOWVjMGNHNjI2YWV0dGxPd3JrT0h5NVZXRWpvcWFKcGdLN19uRjU4NWpjVlBlWUgxRVprYzVPRk9IRkNjYzVWbkZoV21zaWwwS0h3UkVNR3RPN1FLQ1l4dw?oc=5",
       "pubDate": "Sun, 10 May 2026 07:00:00 GMT",
-      "category": "match",
-      "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+      "category": "match"
     },
     {
       "title": "Mohamed Salah in tears as he and Andy Robertson get guards of honour on Liverpool farewells",
       "source": "Liverpool Echo",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeE9sbm5faG9ick5kOURRcUV1T2NOZG9OQnFGRW9CTnNTc1lDRElnM2tkVkNtWTBsNWR4dWtUOGxtN0FxbmtzTmVsck1nVloxajMxUTN6SGNHbENJamxCWjU0VDVCQ0tiYTB2ZXZqam16VHdYVnJVZE42ODFpYnk5T1R4T3gycG5qWFZmVFdYOXpRbUx0RWRBWjQtdXBiSFdHUHdNZk1ldThPa0HSAbABQVVfeXFMUFQxOXhFWFUtbjhoNWl2bk9zVDBiWUR2SGM1bHBIdW5aMXlxOENwTTRwQkM5RUltSnN5NlRvZUdLcVJvQ05NSlNJQU84djlScnFvSjZFaTc5S1RScjhjM3JZZkF4NFRyaGx0WUUwQlBFU1FmYlp4NTFjc2dMTlREY0lodnZ1N1MtaVdLcVo1YzNNQUxDdmhRUF9fbEZJMHl2b24yYmJzUDRqOEZ4TlZDWmg?oc=5",
       "pubDate": "Sun, 24 May 2026 07:00:00 GMT",
-      "category": "general",
-      "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+      "category": "general"
     },
     {
       "title": "Manchester City 3-0 Brentford: Premier League – as it happened",
       "source": "The Guardian",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNclYtSjczTEpldmNac2hLa3l3NTdUZnhEVGZhYi1ZcWRyNFR1WlNaWHVmMlF1SFRhYXFwakJLRFR5Y2hGSy1pNkRBaW90N05lOGJFeEtfdGNENEY3eExiRDhzY2QxYUt5REFHQlpTR1gzQ0VFdF9JNXBXd3dvZFBOSml0QjFsV2Z6SXBLYmtqOVY0X2IwM0JCSjVYR3FLSlhLNG80?oc=5",
       "pubDate": "Sat, 09 May 2026 07:00:00 GMT",
-      "category": "general",
-      "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+      "category": "general"
     },
     {
       "title": "Man City vs Brentford: Reaction to vital win as Doku-inspired Blues ask title question of Arsenal",
       "source": "Manchester Evening News",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZ2RUNXdrX3NxN3pmWEdUekN2djBDTEYzWmZudDlWVl9WSDdva3VXNU5fZmt1MHgwdUs1b0xDY2VPVDdzbG40b3AzbmxOcFd5bDVQcWVDZ3hQeTl2U201TlhlT1JqNFh2dldUUWhsNUlCNGRRNWF2YWlZVmYwOFpJNTdoMEd0bDM5X2lSUEh0bm5FUFlHRTdJT3FaRlA?oc=5",
       "pubDate": "Sat, 09 May 2026 07:00:00 GMT",
-      "category": "match",
-      "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+      "category": "match"
     },
     {
       "title": "Liverpool target signs new contract at rising Premier League power",
       "source": "CaughtOffside",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbjN0MzgyekQxblJKaFB0ay1iTVF2SGwtUFJjYjdtLXUwaHhBOGhNWXlySENZdm83bkp4ckFPUUR4NW85cENUeDhYY2Q3cGtfZGU0d0F1bk9NU2dDOUt6X0tIcGpMcnJ4VUVqXzlaZmhvX3UxaFR6djFBWnFrMFViY3pZQjE0ZThHZWNydkdxZTVPUnFlUDU5NtIBngFBVV95cUxNTHB5aUFHM1BJaHQ4ZHEyaEFYTUJaczliOFRGNG5tRF9kNE05UEE2UEtlNmJnU3lwN2t1QkZYczBsUFdWeE5DY1JKd09uMW9fckxpSFdoREdlUEFDTEd6Q2RNd2tkYV85b1pYbVF2Mlg1Q0tQX3g2YXhmV1p4U0JjcjZjNGRWV19wdURORDJUc19RQjFJYU9wMmdwU041QQ?oc=5",
       "pubDate": "Fri, 03 Jul 2026 10:50:15 GMT",
-      "category": "transfer",
-      "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
-    },
-    {
-      "title": "Analysis: Kayode one of Premier League's standout full-backs",
-      "source": "Brentford FC",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZDc3VmdPU1VIcTV1TEg2dElQMFM2eEJqSW1RQUJJX25KSU9mYlFyMzhsMTc1V1ViQmRSQ3AtcXlZVi1XVmt1RVRfcVN5bzlfRGxzNmdqcTNFQ1l3dTZva1J0aWNTeFVyTUdoUHVCQnYzUXFkT0s0UmhPR0tCSVpBajhzcGVzM3J1RmZYR2lhbWp3dDQ1cU54YU5CcFhxMTZVS3c?oc=5",
-      "pubDate": "Fri, 03 Jul 2026 11:00:05 GMT",
-      "category": "general",
-      "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+      "category": "transfer"
     },
     {
       "title": "Brentford Football Club extend official sleeve partnership with Cazoo",
       "source": "Brentford FC",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWGY0Y3BoaW8tV3Y3RWxmcWZTU3UyamtiejR3TWJXYzAwRDAzOGQtT1ZnWmQ5dVp4VmFYME9KSjA3OXdycEVfbE5lUXJTMHVsR0dnTW1HTy12enFCVVRjcHFZRzMtLTdOdkZzMlpneWl5XzhRNy1LRTlGSURjMmlIaUlHcWVyU1dOUWktRmhJQTV4RnhIZ3ZxeG8ySmM0WFRZN2ZOc0JQYWdqdw?oc=5",
       "pubDate": "Fri, 03 Jul 2026 09:00:22 GMT",
-      "category": "general",
-      "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+      "category": "general"
+    },
+    {
+      "title": "World Cup: Kristoffer Ajer's Norway set for England quarter-final after beating Igor Thiago's Brazil",
+      "source": "Brentford FC",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQd1ByU0xOazRIRUlGX0otMW82WjE4ckZYRXh6WUIzRmVBSWZoR3dibGFUbHVKTHVra1ljOE9Iak01MEFtREpnQ3RaV0VCU0pycmEzV2VtZEZ2aDgwVHFlSzNFMTV6M3NwOTVUUHpGUFZyenpIMlRPVi11TEZPcW5jaXhPa3psM2lVcXBnRVNXZTRxb3JCRVJHNm9uM0U5aTNRM0N5LU45VEI2ZndsbHc?oc=5",
+      "pubDate": "Mon, 06 Jul 2026 17:12:53 GMT",
+      "category": "general"
     },
     {
       "title": "Brentford transfers, latest news, rumours and gossip: Live updates, goals and highlights",
       "source": "Sky Sports",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPM1pRVzYzejBSaTdvM2x4VjkzM0pHck5mQUxKU3dYc2pELVFhVXNwZmdhX3pOejljdllKajFLd3ROWDlpT2pOTndSUWo1cy1CbDh5X1lYSnQxZUZ6bEVlcWoyV3dfdkhDeVlsaGxjRjAzMEhhcTYzcGx2endhdWdkM09VVGRUVXNmYWd4UHBkSXNXazQ0VEh4bmIydV9ZOTFGdXpZSUxpeWdJcnhMRDdYUkNjWUloWWdXWEZzWGlEbktybExJdE9aOTFRVTRaVWVVdnl1Qkxza1U1eGNB?oc=5",
       "pubDate": "Fri, 03 Jul 2026 11:10:55 GMT",
-      "category": "general",
-      "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+      "category": "general"
     },
     {
       "title": "Cazoo extends sleeve partnership with Brentford FC",
       "source": "motortrader.com",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNC1lRGs5enlianpLeXJTTWNVWGZodmNPNXhNcTVTZXJ5d0V6cVhHSEVURGdiYmQ3ckdzMkFtdW4yVDVaT0p1RGtfS3otVm1BV1N1NGFQVkNsTlB6OG80R1o2emM3UWlWczR0VGFqVHl1QlNCMGd5X19MbkFNSFRoZzR2akgzb1JVcDB3Q0JPVm4yWngxd1B4MjBiZlJ2bVhGbm1mek92bUVWZXAzT0VQeVVJM29QS2NDOWJJaEhhN3k?oc=5",
       "pubDate": "Fri, 03 Jul 2026 09:14:12 GMT",
-      "category": "general",
-      "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+      "category": "general"
     },
     {
-      "title": "Brentford ‘to sign’ Jaidon Anthony in £20m deal, McCarron ‘to get’ St Johnstone trial",
+      "title": "Brentford ‘agree £20m deal’ for Jaidon Anthony, Bielsa youngster ‘to get’ SPL trial",
       "source": "OneFootball",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMUhray1lWlh2MHR3TFQ3V0Q3RmlNOThBQzhDanBibGxqQUU4M25BdF9ZbHI5dmFtSEZVZml0eUtsdnNySGhRMXJJeW94QmUwZm54Z0E3SjlHZmtWU0NFNnZXQzEyVGgwQ05rRjVaTmR4dzdkMmxUQVhaVGVkb1BNV3BPc1VYampMOW92bTZtOW1ZVk5EZHVyUnNoMnZxSHQtVlFTX0JRQ29URVJwTXJHdlJkUm5zQW82SG12Tw?oc=5",
-      "pubDate": "Mon, 06 Jul 2026 05:45:30 GMT",
-      "category": "transfer",
-      "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNNXFnU0RRY2IzYkpIZ05GbTZaQm5VZTU2aWdJMV9hTUJNTl9sZ0lrVGl4V2gzS2pIM2RyRWJlbUxrUFp6SHJiQzJ3ZWFWcS1RajlhTXN4VE11UWRJcTRndHo0eklwamNMSDEtRTBvOHQ5b0NfX0RpX1pLbDVpTmNZck5pZXBfN01Hc1ZZZTZsUHFSdUpEZTg1QnNqWmpMYnFYOW4tUnF5bWpJUlh0NnJLR2FvT2dzXzUxbkE?oc=5",
+      "pubDate": "Mon, 06 Jul 2026 19:06:17 GMT",
+      "category": "general"
     },
     {
       "title": "Michael Kayode on new long-term contract: Brentford is like a family to me",
       "source": "Brentford FC",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOb0ZfazB0QUpVUGkxN1Fza0lyaHpaS2dMZlpocDRjOFVrcC12eUNKU1F1MndEQ0RVS2JoR2RhMlBCbDV0d3JSakNUU21fUGdEN3VEMlF6WGs0UkwtT19YbENveS1TLWs1VGxySE9LR0w1VzlqcmV2R3NiUTRRQU1aRmx4ZTRFb0J6T0hyeURJZVUwVDhMSWNZYUJ0MWFqUQ?oc=5",
       "pubDate": "Fri, 03 Jul 2026 11:00:10 GMT",
-      "category": "general",
-      "description": "Comprehensive up-to-date news coverage, aggregated from sources all over the world by Google News.",
-      "image": "https://lh3.googleusercontent.com/J6_coFbogxhRI9iM864NL_liGXvsQp2AupsKei7z0cNNfDvGUmWUy20nuUhkREQyrpY4bEeIBuc=s0-w300"
+      "category": "general"
     }
   ],
   "reddit": []
