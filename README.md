@@ -12,10 +12,18 @@ semantic win/draw/loss colour coding throughout.
   Amazon Prime Video).
 - **Table** — full league standings with zone colour-coding (Champions
   League, Europa/Conference League, relegation).
-- **Teams** — a grid of all 20 club crests. Tapping a club opens a news
-  feed combining categorised Google News articles and hot posts from the
-  club's subreddit, plus a transfer-heat view during transfer windows.
+- **Teams** — a grid of all 20 club crests. Tapping a club opens its page
+  with **News** and **Squad** sub-tabs: News combines categorised Google
+  News articles and hot posts from the club's subreddit (plus a
+  transfer-heat view during transfer windows); Squad lists the full
+  current roster grouped by position, fetched live from ESPN so
+  transfers/injuries show up without any scheduled refresh.
 - **Stats** / **Favs** — placeholders for future features.
+- Team names are clickable everywhere they appear (match cards, standings
+  rows, squad cards) and jump straight to that team's page. Player names
+  are clickable everywhere they appear (goal scorers, starting lineups,
+  squad list) and open a player modal with position, age, nationality,
+  and injury status.
 - Tapping a match opens a modal with an Overview (stat bars) and Lineups
   tab, plus a highlights thumbnail when available.
 
@@ -70,7 +78,12 @@ game-buddy-pl/
 The frontend never calls `site.api.espn.com` directly. Each `api/*.js`
 file proxies one ESPN endpoint through `api/_proxy.js`, which forwards
 query params, sets a short `Cache-Control`, and returns a `502`/upstream
-status on failure instead of throwing.
+status on failure instead of throwing. `roster.js` and `player.js` don't
+use the shared `_proxy.js` factory since the team/player id is part of
+the ESPN URL path rather than a query string, but follow the same
+pattern — including reading live from ESPN on every cache miss rather
+than from a scheduled scrape, so squad changes/transfers/injuries show
+up automatically as soon as ESPN's own data updates.
 
 | Route | ESPN endpoint | Cache-Control | Used for |
 |---|---|---|---|
@@ -79,6 +92,8 @@ status on failure instead of throwing.
 | `/api/summary?event={id}` | `.../eng.1/summary` | `s-maxage=10, swr=10` | Match modal (stats/lineups) |
 | `/api/highlights?event={id}` | `.../eng.1/news` | `s-maxage=300, swr=150` | Match highlight thumbnail |
 | `/api/team-news?espnId={id}` | `.../eng.1/news?team={id}` | `s-maxage=600, swr=600` | (supplementary; primary team news comes from `data/team-news/`) |
+| `/api/roster?teamId={espn_id}` | `.../eng.1/teams/{id}/roster` | `s-maxage=10800, swr=3600` | Team page Squad tab |
+| `/api/player?playerId={id}` | `.../eng.1/athletes/{id}` | `s-maxage=10800, swr=3600` | Player modal |
 
 ### TV picks matching
 
@@ -182,3 +197,12 @@ npm run scrape                       # scrape-tv-picks.js (requires Playwright b
 - **Promoted/relegated clubs**: `data/pl-teams.json` should be updated
   each close season if the promoted clubs differ from the current
   20-team list.
+- **`SEASON_START_DATE`** in `index.html` is a placeholder guess at the
+  2026/27 opening weekend (currently `2026-08-15`), used only to pick
+  the Today tab's default date *before* the real season starts — while
+  today's real date is earlier than this, the app shows this date's
+  fixtures instead of an empty "no matches" screen, purely so there's
+  real data to look at while developing in the off-season. Once the
+  real date passes, the app reverts to genuinely using today's date.
+  Update the constant if the actual opening weekend turns out to be
+  different.
