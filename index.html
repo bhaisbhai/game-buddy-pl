@@ -12,9 +12,8 @@
   --bg-elev: #141416;
   --bg-elev-2: #1c1c1f;
   --accent: #00ff87;
-  --accent-dim: rgba(0,255,135,.12);
-  --purple: #a78bfa;
   --blue: #64c8ff;
+  --neutral-bar: rgba(245,245,247,.25);
   --gold: #ffd700;
   --text: #f5f5f7;
   --text-dim: rgba(245,245,247,.45);
@@ -116,6 +115,9 @@ main { padding: 0 16px; max-width: 640px; margin: 0 auto; }
 .mc-team-info { display: flex; align-items: center; gap: 10px; }
 .mc-team-info img { width: 24px; height: 24px; object-fit: contain; }
 .mc-team-info span { font-weight: 600; font-size: 15px; }
+.team-link, .player-link { cursor: pointer; }
+.team-link:active, .player-link:active { opacity: .6; }
+.player-link { text-decoration: underline; text-decoration-color: var(--border); text-underline-offset: 2px; }
 .mc-score {
   font-weight: 800;
   font-size: 18px;
@@ -194,6 +196,24 @@ table.standings td.num { text-align: center; font-family: var(--mono); font-vari
 .team-tile img { width: 36px; height: 36px; object-fit: contain; }
 .team-tile span { font-size: 10px; font-weight: 700; color: var(--text-dim); }
 
+.squad-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.squad-card {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.squad-num { font-family: var(--mono); font-size: 16px; font-weight: 800; color: var(--accent); min-width: 20px; }
+.squad-name { font-size: 13px; font-weight: 600; }
+
 .news-view-header {
   display: flex;
   align-items: center;
@@ -249,7 +269,7 @@ table.standings td.num { text-align: center; font-family: var(--mono); font-vari
   font-size: 10px;
   font-weight: 700;
   text-transform: uppercase;
-  color: var(--purple);
+  color: var(--blue);
   letter-spacing: .05em;
 }
 .news-article h3 { font-size: 14px; margin: 4px 0; color: var(--text); font-weight: 600; }
@@ -359,10 +379,26 @@ nav.tabbar button .icon { font-size: 19px; }
 .stat-row .sr-labels { display: flex; justify-content: space-between; margin-bottom: 4px; color: var(--text-dim); font-family: var(--mono); }
 .stat-bar { display: flex; height: 6px; border-radius: 3px; overflow: hidden; background: var(--border); }
 .stat-bar .home { background: var(--accent); transition: width .7s var(--ease); }
-.stat-bar .away { background: var(--purple); transition: width .7s var(--ease); }
+.stat-bar .away { background: var(--neutral-bar); transition: width .7s var(--ease); }
 .lineup-col { display: flex; gap: 20px; }
 .lineup-col ul { list-style: none; font-size: 12px; flex: 1; }
 .lineup-col li { padding: 5px 0; border-bottom: 1px solid var(--border); color: var(--text-dim); }
+.lineup-col li.player-link { color: var(--text); }
+
+.player-hero { display: flex; flex-direction: column; align-items: center; gap: 8px; margin-bottom: 16px; }
+.player-photo {
+  width: 72px; height: 72px; border-radius: 50%; object-fit: cover;
+  background: var(--bg-elev-2); border: 1px solid var(--border);
+}
+.player-photo-placeholder { display: flex; align-items: center; justify-content: center; font-size: 28px; font-weight: 800; color: var(--text-dim); }
+.player-name { font-size: 18px; font-weight: 800; }
+.player-jersey { font-family: var(--mono); color: var(--accent); font-weight: 800; font-size: 14px; }
+.pl-info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.pl-info-row { background: var(--bg-elev); border: 1px solid var(--border); border-radius: 10px; padding: 10px 12px; }
+.pl-info-k { color: var(--text-dim); font-size: 10px; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 4px; }
+.pl-info-v { font-size: 13px; font-weight: 700; }
+.pl-info-v.injured { color: var(--red); }
+.pl-info-v.fit { color: var(--accent); }
 .highlight-thumb {
   width: 100%; border-radius: 10px; margin-bottom: 14px; display: block;
   border: 1px solid var(--border);
@@ -404,6 +440,10 @@ nav.tabbar button .icon { font-size: 19px; }
   <div class="modal-sheet" id="matchModalBody"></div>
 </div>
 
+<div class="modal-overlay" id="playerModal">
+  <div class="modal-sheet" id="playerModalBody"></div>
+</div>
+
 <nav class="tabbar">
   <button data-tab="today" class="active"><span class="icon">⚽</span>Today</button>
   <button data-tab="table"><span class="icon">📊</span>Table</button>
@@ -416,16 +456,31 @@ nav.tabbar button .icon { font-size: 19px; }
 (function () {
   'use strict';
 
+  // 2026/27 opening-weekend date. Until this date arrives, the Today tab
+  // defaults here instead of the real "today" so there's actual fixture
+  // data to look at while developing in the off-season; once the real
+  // date passes, it defaults back to the genuine current date.
+  var SEASON_START_DATE = new Date('2026-08-21T00:00:00');
+
+  function pickInitialDate() {
+    var now = new Date();
+    return now < SEASON_START_DATE ? new Date(SEASON_START_DATE) : now;
+  }
+
   var state = {
     tab: 'today',
-    currentDate: new Date(),
+    currentDate: pickInitialDate(),
     scoreboard: null,
     standings: null,
     tvPicks: null,
     teamsData: [],
+    teamsListLoaded: false,
+    teamsDataLoaded: false,
     teamsNewsCache: {},
+    teamsSquadCache: {},
     teamsHeatData: null,
     teamsView: 'grid',
+    teamsSubView: 'news',
     selectedTeamSlug: null,
     teamsCatFilter: 'all',
     refreshTimer: null,
@@ -490,9 +545,19 @@ nav.tabbar button .icon { font-size: 19px; }
     renderTable();
   }
 
+  async function loadTeamsMeta() {
+    if (!state.teamsListLoaded) {
+      state.teamsData = await fetchJson('/data/pl-teams.json') || [];
+      state.teamsListLoaded = true;
+    }
+  }
+
   async function loadTeamsData() {
-    state.teamsData = await fetchJson('/data/pl-teams.json') || [];
-    state.teamsHeatData = await fetchJson('/data/transfer-heat.json');
+    await loadTeamsMeta();
+    if (!state.teamsDataLoaded) {
+      state.teamsHeatData = await fetchJson('/data/transfer-heat.json');
+      state.teamsDataLoaded = true;
+    }
     renderTeams();
   }
 
@@ -503,16 +568,45 @@ nav.tabbar button .icon { font-size: 19px; }
     return data;
   }
 
+  async function loadTeamSquad(team) {
+    if (state.teamsSquadCache[team.slug]) return state.teamsSquadCache[team.slug];
+    var data = await fetchJson('/api/roster?teamId=' + team.espn_id);
+    state.teamsSquadCache[team.slug] = data;
+    return data;
+  }
+
+  function teamBySlug(slug) {
+    return state.teamsData.find(function (t) { return t.slug === slug; }) || null;
+  }
+
+  function teamSlugByEspnId(espnId) {
+    var t = state.teamsData.find(function (t) { return String(t.espn_id) === String(espnId); });
+    return t ? t.slug : null;
+  }
+
+  function goToTeam(espnId) {
+    var slug = teamSlugByEspnId(espnId);
+    if (!slug) return;
+    state.selectedTeamSlug = slug;
+    state.teamsView = 'news';
+    state.teamsCatFilter = 'all';
+    state.teamsSubView = 'news';
+    switchTab('teams');
+  }
+
   // ---------- TV picks matching ----------
 
-  function findTvPick(home, away, dateStr) {
+  function findTvPick(homeTeam, awayTeam, dateStr) {
     if (!state.tvPicks || !state.tvPicks.picks) return null;
-    var nHome = normalizeTeamName(home);
-    var nAway = normalizeTeamName(away);
+    var nHome = normalizeTeamName(homeTeam.displayName);
+    var nAway = normalizeTeamName(awayTeam.displayName);
     var d = new Date(dateStr);
     return state.tvPicks.picks.find(function (p) {
-      if (normalizeTeamName(p.home) !== nHome) return false;
-      if (normalizeTeamName(p.away) !== nAway) return false;
+      var idMatch = p.home_espn_id && p.away_espn_id &&
+        String(p.home_espn_id) === String(homeTeam.id) &&
+        String(p.away_espn_id) === String(awayTeam.id);
+      var nameMatch = !idMatch && normalizeTeamName(p.home) === nHome && normalizeTeamName(p.away) === nAway;
+      if (!idMatch && !nameMatch) return false;
       if (!p.date) return true;
       var pd = new Date(p.date);
       return pd.toDateString() === d.toDateString();
@@ -593,9 +687,14 @@ nav.tabbar button .icon { font-size: 19px; }
       return d.type && /goal/i.test(d.type.text || '') && d.team && String(d.team.id) === String(teamId);
     });
     return goals.map(function (g) {
-      var scorer = g.athletesInvolved && g.athletesInvolved[0] ? g.athletesInvolved[0].displayName : '';
+      var athlete = g.athletesInvolved && g.athletesInvolved[0];
+      if (!athlete || !athlete.displayName) return '';
       var min = g.clock && g.clock.displayValue ? g.clock.displayValue : '';
-      return scorer ? (scorer + ' ' + min) : '';
+      var label = escapeHtml(athlete.displayName) + (min ? ' ' + escapeHtml(min) : '');
+      if (athlete.id) {
+        return '<span class="player-link" data-player-id="' + escapeAttr(athlete.id) + '">' + label + '</span>';
+      }
+      return label;
     }).filter(Boolean).join(', ');
   }
 
@@ -621,7 +720,7 @@ nav.tabbar button .icon { font-size: 19px; }
       var home = competitors.find(function (c) { return c.homeAway === 'home'; }) || competitors[0];
       var away = competitors.find(function (c) { return c.homeAway === 'away'; }) || competitors[1];
       var st = statusInfo(event);
-      var pick = findTvPick(home.team.displayName, away.team.displayName, event.date);
+      var pick = findTvPick(home.team, away.team, event.date);
       var showScore = st.cls !== 'upcoming';
       var homeCls = scoreClass(home.score, away.score, st.cls === 'final');
       var awayCls = scoreClass(away.score, home.score, st.cls === 'final');
@@ -634,11 +733,11 @@ nav.tabbar button .icon { font-size: 19px; }
           '</div>' +
           '<div class="mc-teams">' +
             '<div class="mc-team-row">' +
-              '<div class="mc-team-info"><img src="' + (home.team.logo || '') + '" alt=""><span>' + home.team.displayName + '</span></div>' +
+              '<div class="mc-team-info team-link" data-team-espn-id="' + home.team.id + '"><img src="' + (home.team.logo || '') + '" alt=""><span>' + home.team.displayName + '</span></div>' +
               (showScore ? '<div class="mc-score ' + homeCls + '">' + home.score + '</div>' : '') +
             '</div>' +
             '<div class="mc-team-row">' +
-              '<div class="mc-team-info"><img src="' + (away.team.logo || '') + '" alt=""><span>' + away.team.displayName + '</span></div>' +
+              '<div class="mc-team-info team-link" data-team-espn-id="' + away.team.id + '"><img src="' + (away.team.logo || '') + '" alt=""><span>' + away.team.displayName + '</span></div>' +
               (showScore ? '<div class="mc-score ' + awayCls + '">' + away.score + '</div>' : '') +
             '</div>' +
           '</div>' +
@@ -652,6 +751,18 @@ nav.tabbar button .icon { font-size: 19px; }
     Array.prototype.forEach.call(el.querySelectorAll('.match-card'), function (card) {
       card.addEventListener('click', function () {
         openMatchModal(card.getAttribute('data-event-id'));
+      });
+    });
+    Array.prototype.forEach.call(el.querySelectorAll('.team-link'), function (link) {
+      link.addEventListener('click', function (e) {
+        e.stopPropagation();
+        goToTeam(link.getAttribute('data-team-espn-id'));
+      });
+    });
+    Array.prototype.forEach.call(el.querySelectorAll('.player-link'), function (link) {
+      link.addEventListener('click', function (e) {
+        e.stopPropagation();
+        openPlayerModal(link.getAttribute('data-player-id'));
       });
     });
   }
@@ -698,7 +809,7 @@ nav.tabbar button .icon { font-size: 19px; }
       return (
         '<tr class="' + zoneClass(rank, entries.length) + '">' +
           '<td class="num"><span class="pos-num">' + rank + '</span></td>' +
-          '<td><div class="standings-team"><img src="' + ((team.logos && team.logos[0] && team.logos[0].href) || '') + '" alt=""><span>' + (team.shortDisplayName || team.displayName) + '</span></div></td>' +
+          '<td><div class="standings-team team-link" data-team-espn-id="' + team.id + '"><img src="' + ((team.logos && team.logos[0] && team.logos[0].href) || '') + '" alt=""><span>' + (team.shortDisplayName || team.displayName) + '</span></div></td>' +
           '<td class="num">' + statVal(entry, 'gamesPlayed') + '</td>' +
           '<td class="num">' + statVal(entry, 'pointDifferential') + '</td>' +
           '<td class="num"><strong>' + statVal(entry, 'points') + '</strong></td>' +
@@ -716,6 +827,12 @@ nav.tabbar button .icon { font-size: 19px; }
         '<span><span class="dot" style="background:var(--sky)"></span>Europa/Conference</span>' +
         '<span><span class="dot" style="background:var(--red)"></span>Relegation</span>' +
       '</div>';
+
+    Array.prototype.forEach.call(el.querySelectorAll('.team-link'), function (link) {
+      link.addEventListener('click', function () {
+        goToTeam(link.getAttribute('data-team-espn-id'));
+      });
+    });
   }
 
   // ---------- Teams tab ----------
@@ -763,6 +880,7 @@ nav.tabbar button .icon { font-size: 19px; }
         state.selectedTeamSlug = tile.getAttribute('data-slug');
         state.teamsView = 'news';
         state.teamsCatFilter = 'all';
+        state.teamsSubView = 'news';
         renderTeams();
       });
     });
@@ -773,25 +891,52 @@ nav.tabbar button .icon { font-size: 19px; }
     return 'https://a.espncdn.com/i/teamlogos/soccer/500/' + team.espn_id + '.png';
   }
 
-  async function renderTeamNewsView(el) {
-    var team = state.teamsData.find(function (t) { return t.slug === state.selectedTeamSlug; });
-    if (!team) { state.teamsView = 'grid'; renderTeams(); return; }
-
-    el.innerHTML =
+  function teamPageHeaderHtml(team) {
+    return (
       '<div class="news-view-header">' +
         '<button class="back-btn" id="teamsBackBtn">‹ Teams</button>' +
         '<img src="' + teamCrestUrl(team) + '" alt="">' +
-        '<h2>' + team.name + '</h2>' +
+        '<h2>' + escapeHtml(team.name) + '</h2>' +
       '</div>' +
-      '<div class="loading">Loading news…</div>';
+      '<div class="cat-filters">' +
+        '<button class="cat-chip' + (state.teamsSubView === 'news' ? ' active' : '') + '" data-subtab="news">News</button>' +
+        '<button class="cat-chip' + (state.teamsSubView === 'squad' ? ' active' : '') + '" data-subtab="squad">Squad</button>' +
+      '</div>'
+    );
+  }
 
+  function bindTeamPageHeader(el) {
     document.getElementById('teamsBackBtn').onclick = function () {
       state.teamsView = 'grid';
       renderTeams();
     };
+    Array.prototype.forEach.call(el.querySelectorAll('[data-subtab]'), function (btn) {
+      btn.addEventListener('click', function () {
+        state.teamsSubView = btn.getAttribute('data-subtab');
+        renderTeams();
+      });
+    });
+  }
 
+  async function renderTeamNewsView(el) {
+    var team = teamBySlug(state.selectedTeamSlug);
+    if (!team) { state.teamsView = 'grid'; renderTeams(); return; }
+
+    el.innerHTML = teamPageHeaderHtml(team) + '<div id="teamSubContent"><div class="loading">Loading…</div></div>';
+    bindTeamPageHeader(el);
+
+    if (state.teamsSubView === 'squad') {
+      await renderTeamSquadContent(team);
+    } else {
+      await renderTeamNewsContent(team);
+    }
+  }
+
+  async function renderTeamNewsContent(team) {
     var news = await loadTeamNews(team.slug);
-    if (state.teamsView !== 'news' || state.selectedTeamSlug !== team.slug) return;
+    if (state.teamsView !== 'news' || state.selectedTeamSlug !== team.slug || state.teamsSubView !== 'news') return;
+    var contentEl = document.getElementById('teamSubContent');
+    if (!contentEl) return;
 
     var articles = (news && news.articles) || [];
     var reddit = (news && news.reddit) || [];
@@ -799,7 +944,7 @@ nav.tabbar button .icon { font-size: 19px; }
 
     var filtered = state.teamsCatFilter === 'all' ? articles : articles.filter(function (a) { return a.category === state.teamsCatFilter; });
 
-    var body =
+    contentEl.innerHTML =
       '<div class="cat-filters">' +
         categories.map(function (c) {
           return '<button class="cat-chip' + (c === state.teamsCatFilter ? ' active' : '') + '" data-cat="' + c + '">' + c + '</button>';
@@ -834,22 +979,78 @@ nav.tabbar button .icon { font-size: 19px; }
         }).join('')
         : '');
 
-    el.innerHTML =
-      '<div class="news-view-header">' +
-        '<button class="back-btn" id="teamsBackBtn">‹ Teams</button>' +
-        '<img src="' + teamCrestUrl(team) + '" alt="">' +
-        '<h2>' + team.name + '</h2>' +
-      '</div>' +
-      body;
-
-    document.getElementById('teamsBackBtn').onclick = function () {
-      state.teamsView = 'grid';
-      renderTeams();
-    };
-    Array.prototype.forEach.call(el.querySelectorAll('.cat-chip'), function (chip) {
+    Array.prototype.forEach.call(contentEl.querySelectorAll('.cat-chip'), function (chip) {
       chip.addEventListener('click', function () {
         state.teamsCatFilter = chip.getAttribute('data-cat');
-        renderTeamNewsView(el);
+        renderTeamNewsContent(team);
+      });
+    });
+  }
+
+  function positionGroupLabel(player) {
+    var pos = (player.position && (player.position.displayName || player.position.name)) || '';
+    if (/keeper/i.test(pos)) return 'Goalkeepers';
+    if (/back|defender/i.test(pos)) return 'Defenders';
+    if (/mid/i.test(pos)) return 'Midfielders';
+    if (/forward|striker|winger/i.test(pos)) return 'Forwards';
+    return 'Squad';
+  }
+
+  function flattenRosterPlayers(roster) {
+    if (!roster) return [];
+    // ESPN's roster shape varies: sometimes a flat `athletes` array, sometimes
+    // grouped by position via `athletes: [{ position, items: [...] }]`.
+    var athletes = roster.athletes || roster.team && roster.team.athletes || [];
+    if (athletes.length > 0 && athletes[0].items) {
+      var flat = [];
+      athletes.forEach(function (group) { flat = flat.concat(group.items || []); });
+      return flat;
+    }
+    return athletes;
+  }
+
+  async function renderTeamSquadContent(team) {
+    var contentEl = document.getElementById('teamSubContent');
+    if (!contentEl) return;
+    var roster = await loadTeamSquad(team);
+    if (state.teamsView !== 'news' || state.selectedTeamSlug !== team.slug || state.teamsSubView !== 'squad') return;
+    contentEl = document.getElementById('teamSubContent');
+    if (!contentEl) return;
+
+    var players = flattenRosterPlayers(roster);
+    if (players.length === 0) {
+      contentEl.innerHTML = '<div class="empty-state">Squad unavailable right now.</div>';
+      return;
+    }
+
+    var groups = {};
+    var order = ['Goalkeepers', 'Defenders', 'Midfielders', 'Forwards', 'Squad'];
+    players.forEach(function (p) {
+      var g = positionGroupLabel(p);
+      (groups[g] = groups[g] || []).push(p);
+    });
+
+    contentEl.innerHTML = order.filter(function (g) { return groups[g] && groups[g].length; }).map(function (g) {
+      return (
+        '<div class="section-title">' + g + '</div>' +
+        '<div class="squad-grid">' +
+          groups[g].map(function (p) {
+            var name = p.displayName || p.fullName || '';
+            var jersey = p.jersey || (p.jersey === 0 ? '0' : '');
+            return (
+              '<div class="squad-card player-link" data-player-id="' + escapeAttr(p.id) + '">' +
+                '<span class="squad-num">' + escapeHtml(jersey || '—') + '</span>' +
+                '<span class="squad-name">' + escapeHtml(name) + '</span>' +
+              '</div>'
+            );
+          }).join('') +
+        '</div>'
+      );
+    }).join('');
+
+    Array.prototype.forEach.call(contentEl.querySelectorAll('.player-link'), function (card) {
+      card.addEventListener('click', function () {
+        openPlayerModal(card.getAttribute('data-player-id'));
       });
     });
   }
@@ -963,8 +1164,13 @@ nav.tabbar button .icon { font-size: 19px; }
         var players = (roster.roster || []).filter(function (p) { return p.starter; });
         if (players.length === 0) return '<li>Lineup not yet available</li>';
         return players.map(function (p) {
-          return '<li>' + (p.athlete && p.athlete.displayName || '') + '</li>';
-        }).join('');
+          var athlete = p.athlete || {};
+          if (!athlete.displayName) return '';
+          if (athlete.id) {
+            return '<li class="player-link" data-player-id="' + escapeAttr(athlete.id) + '">' + escapeHtml(athlete.displayName) + '</li>';
+          }
+          return '<li>' + escapeHtml(athlete.displayName) + '</li>';
+        }).filter(Boolean).join('');
       }
 
       el.innerHTML =
@@ -972,8 +1178,87 @@ nav.tabbar button .icon { font-size: 19px; }
           '<ul>' + playerList(homeRoster) + '</ul>' +
           '<ul>' + playerList(awayRoster) + '</ul>' +
         '</div>';
+
+      Array.prototype.forEach.call(el.querySelectorAll('.player-link'), function (li) {
+        li.addEventListener('click', function () {
+          closeMatchModal();
+          openPlayerModal(li.getAttribute('data-player-id'));
+        });
+      });
     }
   }
+
+  // ---------- Player modal ----------
+
+  function closePlayerModal() {
+    document.getElementById('playerModal').classList.remove('open');
+  }
+
+  function calcAge(dobStr) {
+    if (!dobStr) return null;
+    var dob = new Date(dobStr);
+    if (isNaN(dob.getTime())) return null;
+    return Math.floor((Date.now() - dob.getTime()) / (365.25 * 24 * 3600 * 1000));
+  }
+
+  function bindPlayerModalClose() {
+    var btn = document.getElementById('playerModalCloseBtn');
+    if (btn) btn.addEventListener('click', closePlayerModal);
+  }
+
+  async function openPlayerModal(playerId) {
+    if (!playerId) return;
+    var overlay = document.getElementById('playerModal');
+    var body = document.getElementById('playerModalBody');
+    overlay.classList.add('open');
+    body.innerHTML = '<button class="modal-close" id="playerModalCloseBtn"></button><div class="loading">Loading player…</div>';
+    bindPlayerModalClose();
+
+    var data = await fetchJson('/api/player?playerId=' + playerId);
+    if (!overlay.classList.contains('open')) return;
+
+    var athlete = (data && data.athlete) || null;
+    if (!athlete || !athlete.id) {
+      body.innerHTML = '<button class="modal-close" id="playerModalCloseBtn"></button><div class="empty-state">Player details unavailable.</div>';
+      bindPlayerModalClose();
+      return;
+    }
+
+    var name = athlete.displayName || athlete.fullName || 'Unknown player';
+    var position = (athlete.position && (athlete.position.displayName || athlete.position.name)) || '';
+    var jersey = athlete.jersey;
+    var age = calcAge(athlete.dateOfBirth);
+    var nationality = athlete.citizenship || (athlete.birthPlace && athlete.birthPlace.country) || '';
+    var headshot = athlete.headshot && athlete.headshot.href;
+    var injury = (athlete.injuries || [])[0];
+
+    body.innerHTML =
+      '<button class="modal-close" id="playerModalCloseBtn"></button>' +
+      '<div class="player-hero">' +
+        (headshot ?
+          '<img class="player-photo" src="' + escapeAttr(headshot) + '" alt="">' :
+          '<div class="player-photo player-photo-placeholder">' + escapeHtml(name.slice(0, 1)) + '</div>') +
+        '<div class="player-name">' + escapeHtml(name) + '</div>' +
+        (jersey || jersey === 0 ? '<div class="player-jersey">#' + escapeHtml(String(jersey)) + '</div>' : '') +
+      '</div>' +
+      '<div class="pl-info-grid">' +
+        (position ? '<div class="pl-info-row"><div class="pl-info-k">Position</div><div class="pl-info-v">' + escapeHtml(position) + '</div></div>' : '') +
+        (age ? '<div class="pl-info-row"><div class="pl-info-k">Age</div><div class="pl-info-v">' + age + '</div></div>' : '') +
+        (nationality ? '<div class="pl-info-row"><div class="pl-info-k">Nationality</div><div class="pl-info-v">' + escapeHtml(nationality) + '</div></div>' : '') +
+        '<div class="pl-info-row"><div class="pl-info-k">Status</div><div class="pl-info-v ' + (injury ? 'injured' : 'fit') + '">' +
+          (injury ? escapeHtml(injury.status || injury.type || 'Injured') : 'Available') +
+        '</div></div>' +
+      '</div>' +
+      (injury && injury.details && (injury.details.detail || injury.details.type) ?
+        '<div class="section-title">Injury note</div><div class="empty-state" style="padding:14px;text-align:left;">' + escapeHtml(injury.details.detail || injury.details.type) + '</div>' :
+        '');
+
+    bindPlayerModalClose();
+  }
+
+  document.getElementById('playerModal').addEventListener('click', function (e) {
+    if (e.target === this) closePlayerModal();
+  });
 
   // ---------- Tab switching ----------
 
@@ -988,7 +1273,7 @@ nav.tabbar button .icon { font-size: 19px; }
 
     if (tab === 'today' && !state.scoreboard) loadScoreboard();
     if (tab === 'table') loadStandings();
-    if (tab === 'teams' && state.teamsData.length === 0) loadTeamsData();
+    if (tab === 'teams') { if (state.teamsDataLoaded) renderTeams(); else loadTeamsData(); }
   }
 
   Array.prototype.forEach.call(document.querySelectorAll('nav.tabbar button'), function (btn) {
@@ -1003,6 +1288,7 @@ nav.tabbar button .icon { font-size: 19px; }
 
   async function init() {
     renderDateNav();
+    await loadTeamsMeta();
     await loadTvPicks();
     await loadScoreboard();
 

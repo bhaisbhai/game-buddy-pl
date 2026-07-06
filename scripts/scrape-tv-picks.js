@@ -9,6 +9,22 @@ const { chromium } = require('playwright');
 const DATA_DIR = path.join(__dirname, '../data');
 const BATCHES_FILE = path.join(DATA_DIR, 'tv-announcement-batches.json');
 const PICKS_FILE = path.join(DATA_DIR, 'tv-picks.json');
+const TEAMS_FILE = path.join(DATA_DIR, 'pl-teams.json');
+
+// Common short forms that don't match pl-teams.json's `name` field directly.
+const TEAM_ALIASES = {
+  'spurs': 'tottenham',
+  'man utd': 'man-united',
+  'man united': 'man-united',
+  'man city': 'man-city',
+  'wolves': 'wolves',
+  'wolverhampton': 'wolves',
+  "nott'm forest": 'nottm-forest',
+  'nottm forest': 'nottm-forest',
+  'villa': 'aston-villa',
+  'palace': 'crystal-palace',
+  'saints': 'southampton',
+};
 
 const NEWS_LIST_URL = 'https://www.premierleague.com/news';
 const RELEASE_WINDOW_DAYS = 14;
@@ -41,8 +57,26 @@ function normalizeTeamName(name) {
   return name.replace(/\s+/g, ' ').trim();
 }
 
+// Resolves a scraped team name (e.g. "Spurs", "Man Utd") to its pl-teams.json
+// entry so tv-picks.json can anchor matches on espn_id instead of fuzzy name
+// strings, which drift across data providers ("Tottenham Hotspur" vs "Spurs").
+function resolveTeam(name, teams) {
+  const norm = normalizeTeamName(name).toLowerCase();
+  const aliasSlug = TEAM_ALIASES[norm];
+  if (aliasSlug) {
+    const bySlug = teams.find((t) => t.slug === aliasSlug);
+    if (bySlug) return bySlug;
+  }
+  return teams.find((t) => {
+    return t.name.toLowerCase() === norm || t.short.toLowerCase() === norm || t.slug === norm.replace(/\s+/g, '-');
+  }) || null;
+}
+
 function makePickKey(pick) {
-  return `${pick.date}|${normalizeTeamName(pick.home).toLowerCase()}|${normalizeTeamName(pick.away).toLowerCase()}`;
+  if (pick.home_espn_id && pick.away_espn_id) {
+    return `id|${pick.date}|${pick.home_espn_id}|${pick.away_espn_id}`;
+  }
+  return `name|${pick.date}|${normalizeTeamName(pick.home).toLowerCase()}|${normalizeTeamName(pick.away).toLowerCase()}`;
 }
 
 async function findFixtureChangeArticles(page) {
@@ -138,10 +172,11 @@ async function main() {
 
   const browser = await chromium.launch();
   let newPicks = [];
+  let articles = [];
 
   try {
     const page = await browser.newPage();
-    const articles = await findFixtureChangeArticles(page);
+    articles = await findFixtureChangeArticles(page);
     console.log(`Found ${articles.length} candidate article(s).`);
 
     for (const article of articles) {
@@ -151,6 +186,17 @@ async function main() {
   } finally {
     await browser.close();
   }
+
+  const teams = JSON.parse(fs.readFileSync(TEAMS_FILE, 'utf8'));
+  newPicks = newPicks.map((pick) => {
+    const homeTeam = resolveTeam(pick.home, teams);
+    const awayTeam = resolveTeam(pick.away, teams);
+    return {
+      ...pick,
+      home_espn_id: homeTeam ? homeTeam.espn_id : null,
+      away_espn_id: awayTeam ? awayTeam.espn_id : null,
+    };
+  });
 
   const merged = dedupePicks(existingData.picks || [], newPicks);
 
@@ -163,6 +209,15 @@ async function main() {
 
   fs.writeFileSync(PICKS_FILE, JSON.stringify(output, null, 2) + '\n');
   console.log(`Wrote ${merged.length} total picks (${newPicks.length} new/updated this run).`);
+
+  // Candidate articles existed but nothing could be parsed out of them —
+  // the page structure likely changed and the table-parsing selectors need
+  // updating. Fail loudly so this shows as a red X in Actions instead of
+  // silently doing nothing every run.
+  if (articles.length > 0 && newPicks.length === 0) {
+    console.error(`Found ${articles.length} fixture-change article(s) but extracted zero picks from them — scraping selectors likely need updating.`);
+    process.exitCode = 1;
+  }
 }
 
 main().catch((e) => {
