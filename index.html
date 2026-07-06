@@ -478,6 +478,7 @@ nav.tabbar button .icon { font-size: 19px; }
     selectedTeamSlug: null,
     teamsCatFilter: 'all',
     favorites: loadFavorites(),
+    seenGoals: null,
     refreshTimer: null,
     hasLive: false,
   };
@@ -502,9 +503,13 @@ nav.tabbar button .icon { font-size: 19px; }
 
   function toggleFavorite(slug) {
     var idx = state.favorites.indexOf(slug);
-    if (idx === -1) state.favorites.push(slug);
+    var adding = idx === -1;
+    if (adding) state.favorites.push(slug);
     else state.favorites.splice(idx, 1);
     saveFavorites();
+    if (adding && 'Notification' in window && Notification.permission === 'default') {
+      Notification.requestPermission();
+    }
   }
 
   function fmtDateKey(d) {
@@ -554,8 +559,51 @@ nav.tabbar button .icon { font-size: 19px; }
     var dateKey = fmtDateKey(state.currentDate);
     var data = await fetchJson('/api/scoreboard?dates=' + dateKey);
     state.scoreboard = data;
+    notifyFavoriteGoals(data);
     renderToday();
     scheduleRefresh();
+  }
+
+  // Fires an in-app notification for goals scored by favourited teams in
+  // live matches. Only works while this tab/PWA is open — no server-side
+  // push is involved. The first scoreboard load just seeds the "seen" set
+  // silently so pre-existing goals don't all fire notifications at once;
+  // only goals discovered from the second poll onward are new events.
+  function notifyFavoriteGoals(data) {
+    var isFirstLoad = state.seenGoals === null;
+    if (isFirstLoad) state.seenGoals = {};
+    if (!state.favorites.length || !data || !data.events) return;
+
+    data.events.forEach(function (event) {
+      var comp = event.competitions && event.competitions[0];
+      if (!comp || !comp.details) return;
+      var st = statusInfo(event);
+      if (st.cls !== 'live') return;
+
+      comp.details.forEach(function (d) {
+        if (!d.type || !/goal/i.test(d.type.text || '') || !d.team) return;
+        var slug = teamSlugByEspnId(d.team.id);
+        if (!slug || !isFavorite(slug)) return;
+
+        var athlete = d.athletesInvolved && d.athletesInvolved[0];
+        var key = event.id + '|' + d.team.id + '|' + (athlete && athlete.id || '') + '|' + (d.clock && (d.clock.value || d.clock.displayValue) || '');
+        if (state.seenGoals[key]) return;
+        state.seenGoals[key] = true;
+
+        if (!isFirstLoad && 'Notification' in window && Notification.permission === 'granted') {
+          var team = teamBySlug(slug);
+          var scorer = (athlete && athlete.displayName) || 'Goal';
+          var minute = (d.clock && d.clock.displayValue) || '';
+          try {
+            new Notification((team ? team.name : 'Your team') + ' score!', {
+              body: scorer + (minute ? ' ' + minute : ''),
+              icon: team ? teamCrestUrl(team) : undefined,
+              tag: key,
+            });
+          } catch (e) { /* Notification constructor unsupported in this context */ }
+        }
+      });
+    });
   }
 
   async function loadStandings() {

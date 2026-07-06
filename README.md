@@ -21,7 +21,12 @@ semantic win/draw/loss colour coding throughout.
 - **Stats** — placeholder for a future feature.
 - **Favs** — favourite any team from its page (☆ button next to the
   team name) and it shows up here as a shortcut grid. Favourites persist
-  in `localStorage`, no account/backend needed.
+  in `localStorage`, no account/backend needed. Favourited teams' matches
+  are pinned above the rest on the Today tab, and favouriting a team
+  prompts for browser notification permission — goal notifications name
+  the scorer and only fire for favourited teams in live matches, while
+  the app is open (see "In-app goal notifications" below for why this
+  isn't full background push).
 - Team names are clickable everywhere they appear (match cards, standings
   rows, squad cards) and jump straight to that team's page. Player names
   are clickable everywhere they appear (goal scorers, starting lineups,
@@ -97,6 +102,31 @@ up automatically as soon as ESPN's own data updates.
 | `/api/team-news?espnId={id}` | `.../eng.1/news?team={id}` | `s-maxage=600, swr=600` | (supplementary; primary team news comes from `data/team-news/`) |
 | `/api/roster?teamId={espn_id}` | `.../eng.1/teams/{id}/roster` | `s-maxage=10800, swr=3600` | Team page Squad tab |
 | `/api/player?playerId={id}` | `.../eng.1/athletes/{id}` | `s-maxage=10800, swr=3600` | Player modal |
+
+### In-app goal notifications
+
+`notifyFavoriteGoals()` runs on every scoreboard fetch (every 15s while a
+match is live). For each goal in a **live** match belonging to a
+favourited team, it fires a browser `Notification` naming the scorer and
+minute, deduped by `eventId|teamId|athleteId|clockValue` so the same goal
+never notifies twice across polls.
+
+This is deliberately **not** background push — there's no server-side
+subscription store, no VAPID keys, and no scheduled poller independent of
+an open tab. It only fires while the app is open (foreground or recently
+backgrounded), the same way the existing 15s live-refresh already only
+runs then. True background push (notifications arriving with the app
+fully closed) would need a persistent store for subscriptions
+(e.g. Vercel KV or Upstash Redis) plus a standalone poller — a real
+infrastructure step up from the static-JSON-and-serverless-functions
+architecture everything else here uses, so it was deferred rather than
+built speculatively.
+
+The very first scoreboard load of a session seeds the "already seen"
+goal set silently (no notifications), so pre-existing goals in an
+already-live match don't all fire at once when the app is opened
+mid-match — only goals discovered on the second poll onward are treated
+as new.
 
 ### TV picks matching
 
