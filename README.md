@@ -197,9 +197,9 @@ npm run scrape                       # scrape-tv-picks.js (requires Playwright b
 - **Promoted/relegated clubs**: `data/pl-teams.json` should be updated
   each close season if the promoted clubs differ from the current
   20-team list.
-- **`SEASON_START_DATE`** in `index.html` is a placeholder guess at the
-  2026/27 opening weekend (currently `2026-08-15`), used only to pick
-  the Today tab's default date *before* the real season starts — while
+- **`SEASON_START_DATE`** in `index.html` is the 2026/27 opening weekend
+  (`2026-08-21`), used only to pick the Today tab's default date
+  *before* the real season starts — while
   today's real date is earlier than this, the app shows this date's
   fixtures instead of an empty "no matches" screen, purely so there's
   real data to look at while developing in the off-season. Once the

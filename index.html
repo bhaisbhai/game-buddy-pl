@@ -456,12 +456,11 @@ nav.tabbar button .icon { font-size: 19px; }
 (function () {
   'use strict';
 
-  // Placeholder 2026/27 opening-weekend date — update if the real fixture
-  // release lands on a different Saturday. Until this date arrives, the
-  // Today tab defaults here instead of the real "today" so there's actual
-  // fixture data to look at while developing in the off-season; once the
-  // real date passes, it defaults back to the genuine current date.
-  var SEASON_START_DATE = new Date('2026-08-15T00:00:00');
+  // 2026/27 opening-weekend date. Until this date arrives, the Today tab
+  // defaults here instead of the real "today" so there's actual fixture
+  // data to look at while developing in the off-season; once the real
+  // date passes, it defaults back to the genuine current date.
+  var SEASON_START_DATE = new Date('2026-08-21T00:00:00');
 
   function pickInitialDate() {
     var now = new Date();
