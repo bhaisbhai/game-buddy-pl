@@ -230,7 +230,19 @@ table.standings td.num { text-align: center; font-family: var(--mono); font-vari
   font-size: 13px;
 }
 .news-view-header img { width: 32px; height: 32px; object-fit: contain; }
-.news-view-header h2 { font-size: 18px; }
+.news-view-header h2 { font-size: 18px; flex: 1; }
+.fav-btn {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  border-radius: 8px;
+  width: 36px;
+  height: 36px;
+  font-size: 18px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.fav-btn.active { color: var(--gold); border-color: var(--gold); }
 
 .cat-filters { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 10px; margin-bottom: 10px; }
 .cat-chip {
@@ -257,14 +269,6 @@ table.standings td.num { text-align: center; font-family: var(--mono); font-vari
   text-decoration: none;
 }
 .news-article .na-body { flex: 1; min-width: 0; }
-.news-article .na-img {
-  width: 76px;
-  height: 76px;
-  object-fit: cover;
-  border-radius: 8px;
-  flex-shrink: 0;
-  background: var(--bg-elev-2);
-}
 .news-article .na-cat {
   font-size: 10px;
   font-weight: 700;
@@ -273,15 +277,6 @@ table.standings td.num { text-align: center; font-family: var(--mono); font-vari
   letter-spacing: .05em;
 }
 .news-article h3 { font-size: 14px; margin: 4px 0; color: var(--text); font-weight: 600; }
-.news-article .na-desc {
-  font-size: 12px;
-  color: var(--text-dim);
-  margin-bottom: 4px;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
 .news-article .na-meta { font-size: 11px; color: var(--text-dim); }
 
 .heat-strip {
@@ -432,7 +427,6 @@ nav.tabbar button .icon { font-size: 19px; }
     <div class="placeholder-card">Stats hub coming soon.</div>
   </section>
   <section id="view-favs" class="view">
-    <div class="placeholder-card">Favourite a team to see it here.</div>
   </section>
 </main>
 
@@ -483,9 +477,35 @@ nav.tabbar button .icon { font-size: 19px; }
     teamsSubView: 'news',
     selectedTeamSlug: null,
     teamsCatFilter: 'all',
+    favorites: loadFavorites(),
     refreshTimer: null,
     hasLive: false,
   };
+
+  function loadFavorites() {
+    try {
+      return JSON.parse(localStorage.getItem('gbpl_favorites') || '[]');
+    } catch (e) {
+      return [];
+    }
+  }
+
+  function saveFavorites() {
+    try {
+      localStorage.setItem('gbpl_favorites', JSON.stringify(state.favorites));
+    } catch (e) { /* localStorage unavailable — favorites just won't persist */ }
+  }
+
+  function isFavorite(slug) {
+    return state.favorites.indexOf(slug) !== -1;
+  }
+
+  function toggleFavorite(slug) {
+    var idx = state.favorites.indexOf(slug);
+    if (idx === -1) state.favorites.push(slug);
+    else state.favorites.splice(idx, 1);
+    saveFavorites();
+  }
 
   function fmtDateKey(d) {
     var y = d.getFullYear();
@@ -892,11 +912,13 @@ nav.tabbar button .icon { font-size: 19px; }
   }
 
   function teamPageHeaderHtml(team) {
+    var fav = isFavorite(team.slug);
     return (
       '<div class="news-view-header">' +
         '<button class="back-btn" id="teamsBackBtn">‹ Teams</button>' +
         '<img src="' + teamCrestUrl(team) + '" alt="">' +
         '<h2>' + escapeHtml(team.name) + '</h2>' +
+        '<button class="fav-btn' + (fav ? ' active' : '') + '" id="teamFavBtn" aria-label="Favourite this team">' + (fav ? '★' : '☆') + '</button>' +
       '</div>' +
       '<div class="cat-filters">' +
         '<button class="cat-chip' + (state.teamsSubView === 'news' ? ' active' : '') + '" data-subtab="news">News</button>' +
@@ -905,11 +927,15 @@ nav.tabbar button .icon { font-size: 19px; }
     );
   }
 
-  function bindTeamPageHeader(el) {
+  function bindTeamPageHeader(el, team) {
     document.getElementById('teamsBackBtn').onclick = function () {
       state.teamsView = 'grid';
       renderTeams();
     };
+    document.getElementById('teamFavBtn').addEventListener('click', function () {
+      toggleFavorite(team.slug);
+      renderTeams();
+    });
     Array.prototype.forEach.call(el.querySelectorAll('[data-subtab]'), function (btn) {
       btn.addEventListener('click', function () {
         state.teamsSubView = btn.getAttribute('data-subtab');
@@ -923,7 +949,7 @@ nav.tabbar button .icon { font-size: 19px; }
     if (!team) { state.teamsView = 'grid'; renderTeams(); return; }
 
     el.innerHTML = teamPageHeaderHtml(team) + '<div id="teamSubContent"><div class="loading">Loading…</div></div>';
-    bindTeamPageHeader(el);
+    bindTeamPageHeader(el, team);
 
     if (state.teamsSubView === 'squad') {
       await renderTeamSquadContent(team);
@@ -954,11 +980,9 @@ nav.tabbar button .icon { font-size: 19px; }
         filtered.map(function (a) {
           return (
             '<a class="news-article" href="' + escapeAttr(a.link) + '" target="_blank" rel="noopener">' +
-              (a.image ? '<img class="na-img" src="' + escapeAttr(a.image) + '" alt="" loading="lazy">' : '') +
               '<div class="na-body">' +
                 '<div class="na-cat">' + escapeHtml(a.category) + '</div>' +
                 '<h3>' + escapeHtml(a.title) + '</h3>' +
-                (a.description ? '<div class="na-desc">' + escapeHtml(a.description) + '</div>' : '') +
                 '<div class="na-meta">' + escapeHtml(a.source || '') + '</div>' +
               '</div>' +
             '</a>'
@@ -1274,6 +1298,37 @@ nav.tabbar button .icon { font-size: 19px; }
     if (tab === 'today' && !state.scoreboard) loadScoreboard();
     if (tab === 'table') loadStandings();
     if (tab === 'teams') { if (state.teamsDataLoaded) renderTeams(); else loadTeamsData(); }
+    if (tab === 'favs') { if (state.teamsListLoaded) renderFavs(); else loadTeamsMeta().then(renderFavs); }
+  }
+
+  async function renderFavs() {
+    var el = document.getElementById('view-favs');
+    if (state.favorites.length === 0) {
+      el.innerHTML = '<div class="placeholder-card">Favourite a team to see it here — tap the ☆ on any team\'s page.</div>';
+      return;
+    }
+    var teams = state.favorites.map(teamBySlug).filter(Boolean);
+    el.innerHTML =
+      '<div class="teams-grid">' +
+        teams.map(function (team) {
+          return (
+            '<div class="team-tile" data-slug="' + team.slug + '">' +
+              '<img src="' + teamCrestUrl(team) + '" alt="">' +
+              '<span>' + team.short + '</span>' +
+            '</div>'
+          );
+        }).join('') +
+      '</div>';
+
+    Array.prototype.forEach.call(el.querySelectorAll('.team-tile'), function (tile) {
+      tile.addEventListener('click', function () {
+        state.selectedTeamSlug = tile.getAttribute('data-slug');
+        state.teamsView = 'news';
+        state.teamsCatFilter = 'all';
+        state.teamsSubView = 'news';
+        switchTab('teams');
+      });
+    });
   }
 
   Array.prototype.forEach.call(document.querySelectorAll('nav.tabbar button'), function (btn) {

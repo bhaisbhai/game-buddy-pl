@@ -69,48 +69,13 @@ function parseRssItems(xml) {
   return items;
 }
 
-// Best-effort link-preview metadata (og:/twitter: meta tags), the same
-// technique chat apps use to unfurl links. Falls back to nulls if the
-// publisher blocks the request or the Google News redirect can't be
-// followed to a real article page — never blocks the overall fetch.
-function extractMetaTag(html, names) {
-  for (const name of names) {
-    const patterns = [
-      new RegExp(`<meta[^>]+(?:property|name)=["']${name}["'][^>]+content=["']([^"']*)["']`, 'i'),
-      new RegExp(`<meta[^>]+content=["']([^"']*)["'][^>]+(?:property|name)=["']${name}["']`, 'i'),
-    ];
-    for (const pattern of patterns) {
-      const match = html.match(pattern);
-      if (match && match[1]) return decodeEntities(match[1]);
-    }
-  }
-  return null;
-}
-
-async function fetchArticleMeta(url) {
-  try {
-    const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' }, redirect: 'follow', signal: AbortSignal.timeout(6000) });
-    if (!r.ok) return { description: null, image: null };
-    const html = await r.text();
-    return {
-      description: extractMetaTag(html, ['og:description', 'twitter:description', 'description']),
-      image: extractMetaTag(html, ['og:image', 'twitter:image', 'twitter:image:src']),
-    };
-  } catch (e) {
-    return { description: null, image: null };
-  }
-}
-
 async function fetchGoogleNews(query) {
   const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=en-GB&gl=GB&ceid=GB:en`;
   try {
     const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(10000) });
     if (!r.ok) return [];
     const xml = await r.text();
-    const items = parseRssItems(xml).slice(0, ARTICLE_LIMIT);
-
-    const metas = await Promise.all(items.map((item) => fetchArticleMeta(item.link)));
-    return items.map((item, i) => ({ ...item, description: metas[i].description, image: metas[i].image }));
+    return parseRssItems(xml).slice(0, ARTICLE_LIMIT);
   } catch (e) {
     console.error(`Google News fetch failed for "${query}": ${e.message}`);
     return [];
