@@ -1,54 +1,89 @@
 {
   "slug": "chelsea",
-  "updated": "2026-07-07T09:25:50.260Z",
+  "updated": "2026-07-07T19:45:41.367Z",
   "articles": [
     {
-      "title": "Transfer news LIVE: Arsenal prep HUGE bids; Man Utd in Santos boost",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVkQ1dUMyWnFfci1aZ2RRRHc0QUhadGxfSEFfOWx0c2dpYVFKei1QVUxvM0l6NjFHeUtHSmdHcnl3d1l4VU5sY3pQYnJ2UjdtMmwtNHFoY2NfVlZVTkJ6MzhwMkZmMTNYYzViWkhLOVVDUlpqanJWOUU0RW8xX3kyaTRHLWtPNGxpbGRZODN5X25vRGhHWDJqZDU4WnQybHd2U1BWYlJ0Vm5VYnR0ZWJXOG96SzM1RGJ0S3ppWm96aVk2TlZUSkI3N2JKeW00dw?oc=5",
-      "pubDate": "Tue, 07 Jul 2026 06:24:20 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Man Utd send new message to Chelsea over Andrey Santos transfer",
-      "source": "Metro.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVEUtZnlrTWIyX1kzTUt0ajVSSU44cE1ZQk4takl1S2xRVmozd2R1Z0dGU2ZGMld0SEI2dl9ITzd0UXh1VENCVFkzTnV6SldDT1ZkeVZUTF91akVSVjZUdzR3Qzc4QlAzRzVKVUx5eHVJWEVvYlJsMnJTTnlIUG1lMURZdkNHaXYydXZLSDBoU3lwUXlsYUdmbXRwY2rSAaIBQVVfeXFMT0x5OE9JRjFPUmxVbDhKdmpkZlIzYWM4cE42TFdxd0l0Wk1nM3dyNVZtMFRZUTMtUm1Xc0NWNFVCT0otYlIzV1c3YXY2ZUN2UE5NRnVlWXBqblU2NXlWWWliaWpGOW1BdkVNZmNNUnd6Q2tIX1pweWJWZXhqbUtXUGE4dWc5cUNVazdXbWN3eEtSLWlzUGNnc0llUEg5LUpxRGl3?oc=5",
-      "pubDate": "Mon, 06 Jul 2026 07:57:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Chelsea midfielder keen on Man U move as rumours about departure intensify",
-      "source": "Talk Chelsea",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRGNPZUhoR2JldmVaekdTZVYzaHg1UFUxQ1drVGlNWTdfQ0pTam5CdTZVYllHRW9USkkwUF8zNXhGTXR6eWlZQ2FVM1NGVW1XYWVkR0pfaUJGYUtWRnR5cUxXSFZWdGNIck9waG9TRl9JeF80ZFdpUGY2YUR5QTMwczVzdXB1NWNBdFRlQkYwY09tNEE?oc=5",
-      "pubDate": "Mon, 06 Jul 2026 13:27:07 GMT",
+      "title": "Chelsea's Premier League TV selections for August and September | News | Official Site",
+      "source": "Chelsea",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOVJhWmRXRkw3QW54SHNHZ25hNzFJbnQ5WjhLWHBIVWI4US0xb3lKWEJobjlUOE5ub0NrZEZCcnp1Y1EyVmZUWUU3VUs3Mk1SZUZWdEowcVkwMzNaa0hIQVJPVWJoa1NIRkNSeVNPVWVWUFZSc2hvMjlUd2NERmdfQXBNMThtLUJ1ZXhJSEoyaG83Yl9Pb3VSc2dFQnRFYWl1aG1tbTlJbw?oc=5",
+      "pubDate": "Tue, 07 Jul 2026 14:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "Glenn Van der Kraan appointed Chelsea Academy Director | News | Official Site",
-      "source": "Chelsea",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc19KUEItcnJfRHE0RW9iYmxCUVduQ1o4YzhkcWJZQWdhVEpQMEF4b3FMNU5EZENOSVl4aW10c3NwNjRHMGpDaFZwRGI5cjhncGw0am04Q0JMY3FsRzNVVVhPTUl3SG5mN2NLWERVbk45WVB6ZjRGbXl3XzdsNUFBZ21rNjV2SFp5dGxYX0kwQkYwY0hOSnhqaGhSUTM?oc=5",
-      "pubDate": "Mon, 06 Jul 2026 11:00:00 GMT",
-      "category": "manager"
+      "title": "Man Utd face Premier League rival for Santos after Chelsea transfer decision",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdjhsby1hdzhWNzRvZWRCU1d3TkM1MmJKQi02NXBzczVDQmNJdERPX1pxRjhSRWMxV2pQVTlMcFJHT215eEF4OUFIVHB2QnhyeEdJMUxkWExVRFpYN1d0NHdGQk1EV1FCSjk1SjhkWWxacTNhaDNsTG5wdGZoYUd6TXgwMWYtQ2l6WllmQklCM3pjTVhacHJWNzhtdUYxUVdw?oc=5",
+      "pubDate": "Tue, 07 Jul 2026 12:47:50 GMT",
+      "category": "transfer"
     },
     {
-      "title": "Liam Rosenior: Former Chelsea manager named Paris FC manager",
+      "title": "Chelsea can secure £300m transfer kitty for Xabi Alonso with five deals",
+      "source": "Football London",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPS3pzVm9XMVhlNWxmZWpCb3VUZzlIRFdaMVNHV3hGY1VORDVsd1lzLVJSOUJaTFVhUmViM05HeEpwWk9RSU51T29xellIdXNMaUs0NnFORDdoWXc2R0hHUjBNX2MxSnpvWUtYSzBjVW5ncmpaU3Q3bFpNQ0FMMExQakJzSEZpY3B5bzJ2MFlUZmZLc2ppZmJVUnh30gGfAUFVX3lxTE9hZ3RBSVZmNlhIb29kYTI0VFQ4b2p4cmp6dVlVc2FKS1gxNG5wcXJfQlR5dzNBRUxYZVFFbWlSUWFfcGUtOXEyQkhkam1nY0p6UDVYdUtVaS1aSHFmeE9NYkR1VU5NT0hwdEJIZmRLelVKSE12bnBOcGJrMnVOUmdUMHF3RVpDRE1PaVJsMHdVX0tObkVBRFk5bTlvVy1Vdw?oc=5",
+      "pubDate": "Mon, 06 Jul 2026 10:25:06 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Transfer news LIVE: Arsenal done deal; Man Utd get Santos boost",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPa2c3VVlfUEdTdk9FREJzTE5lU2VNaXo2b1VUN282akRSMnUxaGhsNWNrVUwyNlk2S1ZscVh5U0ttZlRqekE5SUxhTFo0a044LVJoZXdUSW83Yk0zMHhBWkJjR3VSSTFCRi1WTms1NXN0bEdUdVNnNjNmV1BUNEpNbFFkLTJNdkN4My1oU21DWDZyQ3lWSnRfemtEcldHaVZKc3N6TlBaUXNJNW9mazlmMThDd0pXZTZMb2xJRm1yU0czZUVWVXJqTURaZWdrLVZDNmlRUWVNaw?oc=5",
+      "pubDate": "Tue, 07 Jul 2026 17:21:54 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Enzo Fernandez scores late winner as Argentina reach 2026 World Cup quarter-finals | News | Official Site",
+      "source": "Chelsea",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWWxoNklRRUE0UTdhM0ZzSzNHbHdDMmFqbmU1Z1FFLTROTmcybHk2SGRrdFlsdHlEeFExRTdGc3BzM2dadGpqQ05yOE1iLWRsb2lnd2FxM3hKTjEwMjZpbXM4b0tmY0VHa1NuZ1dCeFlyWkZJdmdKR0VseWZVMFplS3F3TUVEMlBYRHdYWGVST0NTN1F5TUhsYVpmNmdUdnM0d3pWN1BJNUg0ZGk4VExTQ19VXzJEYjd6?oc=5",
+      "pubDate": "Tue, 07 Jul 2026 18:30:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Chelsea Women investor Alexis Ohanian speaks exclusively to the We Are Chelsea podcast | News | Official Site",
+      "source": "Chelsea",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdmZBS0RXc2Q3Vkp4dktfS1gzYVo5NEg5MFM4S2VheUhvTjBmVUl5VWVmVzhZM2pOeDc2MnlnbTkxUnYzWU5yMkNMLWM2eHFnQTFXN1kzU2pXbnVrS2I2MldGRXZoSko2MHJ0cjFlV1NacDI0UXcwbU5fbE04cm5ybGN4Qy1JNEZXYzZwNG14d3J5Q2ZIUEtKaUoyZVhIVHNRVHlEc1RMUFpqRVVSSnhxVEZR?oc=5",
+      "pubDate": "Tue, 07 Jul 2026 15:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Former Chelsea boss Rosenior named Paris FC manager",
       "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA2RzItLWNkRl9XeTBWX2FfQzJQZUJMcEFkV2VNVlF1djN1SVZ3SG51VWJPN1k4djRoWnBjM254OW5Qd2lVXy1RSFpqUFh6eGZFdzR3ci11TzNXT1FpTlRReEpiWE9kSnFQZlE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GM3BLVXhqU2xzdENBalFZNW5ONjB5NFItTHpEdnZoY2xZNnJ4aGx5S2wxZnM5aGJGa0hFWUh2bk01dHpZZUlxd2p1NkY2ejJickNoS0dHWEZ2cDB1QVpKV29lZFdOOVE?oc=5",
       "pubDate": "Tue, 07 Jul 2026 08:58:21 GMT",
       "category": "manager"
     },
     {
-      "title": "2026 World Cup, Round of 16: Argentina vs. Egypt; Switzerland vs. Colombia",
-      "source": "We Ain't Got No History",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQTXh6azM3S2JUY1hJNVcxeUhmVUJSVWFybVRNdzE2T19Ebnd5ajZHbU9VbVBOY2pyVWo5OVJGenlxaUFYMGd5M3lEcDAyZmdmVW1IVkFXU2xfMHNSaEdLSzIxaV9CSXdkYnRFQTdkUTNqZ1ZKWjVoTHJRTzk3QkpBUzVVVDRnR0FPTjhzdy1jRUszdnF2ak11RnhBc0dEejFUYmY4Y0p2R0I0Q2VOM0dDeE1QdlU0c2lpWF9wQnVuRVNUY0hheDVKR0FMT3RST2xMMHlNVTB3bGJpOWZ6Y3ZZ?oc=5",
-      "pubDate": "Tue, 07 Jul 2026 05:34:00 GMT",
-      "category": "match"
+      "title": "Chelsea waiting on two things for Maxence Lacroix transfer and £75m problem looming",
+      "source": "Football London",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNa0x6UjRxZW42dXRSWUJ1bVI5emdHbmk3UWxtbmtzOVZFdTBRUGRxRlM5X1FGWVhJX1ZLV01ab1dKZTUzWVRDWklvOEtadF9qY3p1bnV4RjVqZXh0WWtBa2xYS2dRWjhwcFlta2NRVFl4ajhrNlQ3UlcwYTNJcENsUTdQN1I0QWlIYTFGcWEzRXBmalgwamUwR0tRMXLSAaIBQVVfeXFMTThKWm9xYk9PbjdoZENPMk9YTnB6bUoxclkyc1drSk1UcnA0WEQwQUxsMHM2X0RRenVLd1NhT1JqdnlhaTFldkV5eUZ1bE01elZTMnZSQk15cTlLRzgwMjROWjRUSjBvVUEwelJiUzY4UGMtV2VNZ0lGOTNxX3RsWTFVc2xlR0NjT3RCeFJzV3lyaGRPWWJqYzBVUzhRLXg0dzBn?oc=5",
+      "pubDate": "Tue, 07 Jul 2026 13:31:41 GMT",
+      "category": "transfer"
     },
     {
-      "title": "Report: Chelsea ready to hand English star new contact amid Bayern Munich interest",
-      "source": "CaughtOffside",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRVhwZjREY1lPX25pZEkwdXE4ak15blNRUVlIVUtwcjIyTnJfNkJNQ3hJamFGZl9qbTQyWGJNRHhRdGNjTVBldkNmNl8zcWhvSkVrUUZqN0NlWGxLR2JnVEpEWVNBVkw4UjQ5RF9CdFRlZE9OVlNVc0RUby1ERjdmQ2JMY3otb0tidExBN3hLZ01IeGtReC1rdkFhSQ?oc=5",
-      "pubDate": "Tue, 07 Jul 2026 07:55:02 GMT",
+      "title": "Chelsea make Alejandro Garnacho transfer decision as Xabi Alonso clear out continues",
+      "source": "Football London",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYmRfWW5tclhwenc1Q0VnSGJBRENWa1FSUUNRaEVpWHJrS0ktNHlWLW9mcnI3X1loX0MxaWpHYjdzaFQ2ejFPbDJPVzZ1eFBwOXRJMEkwYU5BalJDZloxaDJ3Nm9GamFrSVZIbmVJSTdGSFhNSmljUWxVOXNBbjhhS3oxSWdERmNJMEcxdHpKejNCX1pkdWtYUm1QMHluREZVeVB6bNIBqgFBVV95cUxQS3BWS2poT3pyNDBjaGZLaXZtTmFYb3ZoRlVYb3RyUVpHYktpem9TQzh3Yk9sTmFub1o5a0dJSVd3THNKcGNva1N4SU5ydmo2ajd1bHkyczFBSmZOYlFfbnI1NW1RRTd5UVgwYXlZSU1fb2IwVUJHNWhEanhsMWRUeTBXYzV1YkY4NlIwUW55RmluOWhqOTdsR3cweVk4dWhQYk83X0JHZ0txUQ?oc=5",
+      "pubDate": "Mon, 06 Jul 2026 14:52:47 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Set to be sold - How much market value has Alejandro Garnacho lost since joining Chelsea?",
+      "source": "Transfermarkt",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONTJFakllS0x1bWI3dXpoOC1wdThEUHVNT0ZxbkNMOGt3WGduZklJVlZodXptd3MzbXROUWdCV1U2bTZHaGpBR003SmN0LXNlRDBseWxhV2hPVS02YlY2MXJPQmMyLWFYczJicVVPUHNvRWJpWjZzM3lHRzkwLXZJRTlmMGV2ZmVfUGsxWDNGU3RzUE9EalRQWlQzVXhOU0FRRE02RXlGT0pBaTc4N2dwb0ZlYWxyd2VBbEZrRGxCS3J5OWo1aDh0NXpBYVgyS0E?oc=5",
+      "pubDate": "Tue, 07 Jul 2026 11:17:18 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Two Champions League clubs interested in winger Chelsea are prepared to sell",
+      "source": "Talk Chelsea",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUWtpT0dhYUJjUC04LXk4eHMyNi1XN3o2elVRbU1scEp6Qk9OcUxObXNmdGgtS2RQWjItcFpoa3NPVEJEN0FEUHFuSk9GaXRieTN1V2w1YU53RXdpSk9ERlBrNzhwQjdQVkRPYnRrMnQyclVOOUlyQ0xXangwaWxVZEpR?oc=5",
+      "pubDate": "Tue, 07 Jul 2026 11:04:56 GMT",
+      "category": "rumour"
+    },
+    {
+      "title": "'Chelsea through and through' - Blues tie homegrown star Aggie Beever-Jones to long-term contract",
+      "source": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVW90N3EyWE1VaWdJYlpvTGxfZWhCRTZQTGdGelNTTFJHX2h4YjhDSkdwT0p5c2JYMXQ1dnhnOTFhZmFfWWFVN2p0ZEpRdllweFJXb2g2RXJOSXJnUHR3Z0dxam0tVjkzMnhhX3FMbXFYbUo4R1JCZkZILWJYTTR5bEVPWkpjR2RlaGJVenJiQU1ldzkyRjRhQnFadFBTRFJCelh3Q3M5cS10ZFZoU0hHYVg0NTctaDFxQ0xKLWtmV3Q?oc=5",
+      "pubDate": "Mon, 06 Jul 2026 16:45:47 GMT",
       "category": "match"
     },
     {
@@ -59,52 +94,17 @@
       "category": "transfer"
     },
     {
-      "title": "Tyrique George departs Chelsea for Everton | News | Official Site",
-      "source": "Chelsea",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTnhxS3hodElJZTlOVnlsWWZHUXZRRHhkczRJdWpYRF9OOS1LQVAxMndLWVF0V2o1UFJvZmt2Mk5HcjVoajZzdnZxZ2JhbFdWLXpoeGUtaVNRYmRYbTFvS1RjdFc0eWM2ZC1oNlBiWWtpaVhiX3FHZjY0VmFnaC1NbHJNUUt0clVEaDJQRg?oc=5",
-      "pubDate": "Mon, 06 Jul 2026 15:00:00 GMT",
+      "title": "Bayern Munich News: DFB flying to New York for Jürgen Klopp meeting",
+      "source": "Bavarian Football Works",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPeTdJVTJJX3lQZFc4UTY4MlJSWERYNXNhVC1EQVNxNlFhclRKYmV3OEpUUXNlZzFXZExtcVRjV0xURi1ab1o1VEVxM183dzF6MU9sOEstdUpnVXhUdVpVcHVERmNXRnFrdzBzam92TjlVOW5GTFVGRVdCY25JemkybE5qY294d3B5VFd2cV9STWlucC1ocFR0SGpVNFF2NFg4eUZqZU1nZnNiSGVZOVlGeks5RDFhX3E3TDZ1cGM4YUhsNUtuMUVzTFF3TXJrQ0ZQclN0MlcwMl90NFdU?oc=5",
+      "pubDate": "Tue, 07 Jul 2026 12:30:00 GMT",
       "category": "general"
     },
     {
-      "title": "Medical completed: Chelsea £25m+ deal close to completion at last",
-      "source": "Talk Chelsea",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQUnlXOXdrRnhaTVRKMkVNWnBna2lObUs4a2RycDBXNXl1dUlHVnVPMkZqVTdLWlc4VEZyQi0wNlpJRTFHVWNqbXhHYjB2MHctSGY0bjJlUmY3X3RtVHVueGRUM1lTLWJkdi1tcmEtMDlTRHNUbC1ZTzFZeWJLaTdhZQ?oc=5",
-      "pubDate": "Mon, 06 Jul 2026 12:27:07 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Official: Everton sign Tyrique George from Chelsea",
-      "source": "We Ain't Got No History",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMDJTQWxILXlWMTkzS0xWSjRicWpJSkYyeExMbGdyTG9iV2tUMm1GZFc5ODRDTTl0OHExQU9ndXFhVmk5dUVWSFQ3Z1V3QmZJeExrN3VOenc0eXduWC1IUDZ3aHlMelE3UHZKc0JLZkNFb2lLblA3QmZZZlNVTkgzSFNCajhmcFJDNWdDdTdMOUplWW5VbGFHX3A0LUMxcFNrT1BHdHFZbGpadGVhMWNyRHFOdEN6aUs5aUtPemFCTFVaVU1GdEdzRw?oc=5",
-      "pubDate": "Mon, 06 Jul 2026 15:39:51 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Women's Super League: Beever-Jones signs new contract until 2030 with Chelsea",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBCYTFLUV9oQmxSdTJBZldCTU0wQ0YtZkhGaW9yOHlXZjlhQVhSMTF4eTdBdmRfMVNFczRwM3lUbl9fT3JWZ1J2ZTd4OWlLb296eWlkUjFsaklXQ0tZSmlha3BnWHRoSUU?oc=5",
-      "pubDate": "Mon, 06 Jul 2026 14:00:57 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Chelsea securing £50m transfer means one thing for Xabi Alonso this summer",
-      "source": "Football London",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQT3U1eGVtRTVKTHhOZnJlYWIya2JTTE5TMklURnZSYXBpbFVzMlo0aHQ4NnpJOVdycmNjb3dhbkpoNFpDRF9ZeGU1c05kZGx5VTJSbThsMGFVYktacjRzMy0xdXBtQkVsMnJlWHhYcXB5cENwenJyZnF4Y0RwZEVGZFVYNUFpVTk3R0NDMUdMRDI3WlA3WV9weGJOdng4QdIBowFBVV95cUxNYXh4eTdiam9UTzJoUFNiT1RBWklTeFVzMmM1Wi1aMXoyWUkzUEotcV9DNkEzZkZaeXhtVnA0SzM1eDNaY0tkVV9ZMUdIRE0xbXNLcjFESU9BWHoyR0hfMkJibmx0MFhIWHVzQnBqQ2hzQWhocjB4Q2NUNU84TlZVUi1KMGYyT0RhQ0dGc3pXZWVoOGVaZ0NDSF9EaGRabjlqTy1N?oc=5",
-      "pubDate": "Mon, 06 Jul 2026 11:40:16 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "€285m market value - Chelsea's five-man shortlist for Xabi Alonso after Granit Xhaka snub",
-      "source": "Transfermarkt",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYUpmcnBmSTJqUnVIbG5NRDlmVXM5R3FrNlpJTzdFanpkX1pDaEQwQ2hSajRNcG1xYnZmZ0FVUXVGRmNqZnBhMUxvaVNsSHVvMTFJOG4ySEY3LUg1TXJyOE9WYVZHN2pDUFdtLVJucjIyT0NCQ2JCUmh5RENGZTEzdEJyQ0FRYzViNTdlOWVId3B4RGRXZFZBRGNXaENkd3dnemtnS2Mzd1A1NTVxVjNSQ3dvOG13YkRGYlVVZVVUblhtcVdUWG1RanlUZ0I1MHBmdGl6bQ?oc=5",
-      "pubDate": "Sat, 04 Jul 2026 17:42:24 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Chelsea launches on Strava – a Premier League and WSL first | News | Official Site",
+      "title": "Dante Waite agrees new deal | News | Official Site",
       "source": "Chelsea",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdXV5dGhvZmJCZkpEWk9MY3ZGeXpfbnBDdllBdHl3NzJKMC1nM0FhMU5fQ0NCT3ExVWdBY0xMb1piNlNmV3l4THhTMVRKRlNhemZaVU5KR1Rjbjd6bWd6Q1QySFNaN2lEZE42eUhLa0d6NXctYU9HaVhDU0JabTBjelVEV1dJTnA4ZVFac0RiNlpVY2piNkZyUGNjeTZibG1N?oc=5",
-      "pubDate": "Tue, 07 Jul 2026 08:00:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBNUmxNTGx2czNsREh1ZlFWWVJPdW5BWjVaa0g5RVZvTDEtMWhWQVFDaE92SWd5QU9xdWxvcmw4YWV0QVdKa3hicmptbDRiMGZ1d0dJQ2tQWVRIZzBpaHBQbUJHc0NqZVBOZ000RTlSNDhyM0EtbFNsYQ?oc=5",
+      "pubDate": "Tue, 07 Jul 2026 14:30:00 GMT",
       "category": "general"
     }
   ],
