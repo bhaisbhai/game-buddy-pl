@@ -1,26 +1,12 @@
 {
   "slug": "wolves",
-  "updated": "2026-07-09T09:22:55.537Z",
+  "updated": "2026-07-09T19:27:24.113Z",
   "articles": [
     {
       "title": "Pond departs for Chesterfield | Under-21 | News",
       "source": "Wolverhampton Wanderers FC",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NU1k4U1h4ZmRJcnA5d2lMWEpfamI2VHBnbDhNS25ENExWQWdfbFBQbEJiUGhleHRUMzMxYWdYVG1kS1czN2VSbFlCems5UHJkbm9uSGJxeG1EQzMzaTV0MUZDVm1DNDJpeDc1OVdlLVhJcVZNMzBUdjdYZGlJbzA?oc=5",
       "pubDate": "Mon, 06 Jul 2026 13:02:12 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Trippier | ‘I’ll try and have that positive impact on them’ | Men's First-Team | News",
-      "source": "Wolverhampton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUlpDOWQ5d0NEZXNYWGFpU3ZzQTk0VDE1ekZtbUk0ei1hWC1JTGtseV94T3pyLWR5bThGa3h5VFF4enVMbWR1d0RlQXZyNDc2dUhhSENMc01NdTJ1ODEwY2dZNWViWVU3T3drOTJVU1c1NnJrMllUUHhsaUYzb181X05GeTFXU29VNFJkU2tfX1VUZlBja1NtLUJsXzZnaVVWc0xPZ2J5ak9wRVl6RXBWSQ?oc=5",
-      "pubDate": "Thu, 09 Jul 2026 07:01:51 GMT",
-      "category": "general"
-    },
-    {
-      "title": "The Story of Wolves | An iconic home kit (part 1) | Features | News",
-      "source": "Wolverhampton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPT2MxcjBYRzNhRnhsV3Q0dzhxbVlhdzJHa3NZaV8zWFZGdzdHZXdEd0FCSGlPWjlVY1NJUWI1aldkc0RjZ1JsSkVoQ1VJM1VfaUR3Nl85U0VnY1o4d3pKdGtlRWhpaE9Ic0xRUmViR1cyTEZyZGZlZFBHeHY3YkY0dDA2RjRRT0t4Rndnb2tRSEVlQ2luLUZaRDRB?oc=5",
-      "pubDate": "Thu, 09 Jul 2026 08:02:08 GMT",
       "category": "general"
     },
     {
@@ -31,6 +17,20 @@
       "category": "transfer"
     },
     {
+      "title": "Layla Proctor joins Wolves Women | Women's First-Team | News",
+      "source": "Wolverhampton Wanderers FC",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdXdiUFJvdTQ1VHlxb0JlM0ZZYUx6a25TZ3hSWkJpcmROV3VNdGozS1J6STBpWnVFMnVGdy1ldU5iaGNBTVgxYXpJQ25KWDdoT0xrRjJTYl93Y1MyMWs3Q3lCbzJDUERJOU9HMV9LbVFEYTZ4aFBBVks5cHlIVE5yVDhXeTNDQ0ZDQUhaamg1Yw?oc=5",
+      "pubDate": "Thu, 09 Jul 2026 13:59:10 GMT",
+      "category": "general"
+    },
+    {
+      "title": "The Story of Wolves | An iconic home kit (part 1) | Features | News",
+      "source": "Wolverhampton Wanderers FC",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPT2MxcjBYRzNhRnhsV3Q0dzhxbVlhdzJHa3NZaV8zWFZGdzdHZXdEd0FCSGlPWjlVY1NJUWI1aldkc0RjZ1JsSkVoQ1VJM1VfaUR3Nl85U0VnY1o4d3pKdGtlRWhpaE9Ic0xRUmViR1cyTEZyZGZlZFBHeHY3YkY0dDA2RjRRT0t4Rndnb2tRSEVlQ2luLUZaRDRB?oc=5",
+      "pubDate": "Thu, 09 Jul 2026 08:02:08 GMT",
+      "category": "general"
+    },
+    {
       "title": "Hollie Olding signs for Wolves | Women's First-Team | News",
       "source": "Wolverhampton Wanderers FC",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRExYUklzbU90WVVia2Z0ZnhEcmQ2QzVnWHhCOGEzTnNHZFJneHJnQVptME9RTE44NmNsMHk1X1RWUGN0ajA2U1JLeVdtcEpEdVZtTmpzQnlkWkE0aXFQODZCTkJ5cXFPUktuTGdDNE1kUUgzLWVtR1lKWXhWTTgzYXVYNWNhM0xMd1htSVdzSnc5QXhR?oc=5",
@@ -38,17 +38,24 @@
       "category": "transfer"
     },
     {
-      "title": "Wolves Unpacked | A new era begins | Club | News",
-      "source": "Wolverhampton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQ3pkamczak5wMTdkNTNYT0Jyd0N6RzE3WDNqVTFxbWhqTWRDQWU5ZnZsUGlrYXpUeHJnendoTF9ycWJxSjJlQmVDOTlNSnlBVmgxNXF6NnpVbXVtcVlXNWFhMUw0UUlFdU4wRkJ1SEUtdV9ibV9NWVpXeTJNWUJwdEpnTQ?oc=5",
-      "pubDate": "Tue, 07 Jul 2026 13:13:49 GMT",
-      "category": "general"
-    },
-    {
       "title": "The man behind Wolves’ 150th anniversary designs | Club | News",
       "source": "Wolverhampton Wanderers FC",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVjRfZlNxRjlBYmpxOTQ0V2tkN2ttbEhrMW5GZXB2VG9uYjFkNU1ud0N4MDNXZlBiQjZQN3c4YlBqZ1lFN1kxMUVxalpmOUF3QnBQU2txVTRJTEpncnFLNkpIQ2VCZlZxR28tcnRHUW9jUGVGNjdtd2F3a1FYVWxwSERJazZmdURiTU1tU1NSWTlkMGJlc2tj?oc=5",
       "pubDate": "Wed, 08 Jul 2026 11:02:15 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Gallery | Wolves Women return to pre-season as professionals | Women's First-Team | News",
+      "source": "Wolverhampton Wanderers FC",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQ1E3UEVPLWVFbTBDRWFTeHNPZDBIazB3QXY4cHRRSUxRanB2SjBxRC1xRFpKZkhoSVZLcHpYcVRYTW5kTkwyWlIwRkljNkZhZWtEeXNTTml3WFBOc0RtUU8xcUlHYnJsRjhhaEJwRlJiQ2YxcnY3UDI2VW9ydVo5MEtjN3pzdmI4V0tKN05Fcl9uck51UnFPUDNiNWw3dWVmVHYwRDZ0V3lXZFhxZmt6ZHBBNE9taTZOb3c?oc=5",
+      "pubDate": "Thu, 09 Jul 2026 14:10:34 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Trippier | ‘I’ll try and have that positive impact on them’ | Men's First-Team | News",
+      "source": "Wolverhampton Wanderers FC",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUlpDOWQ5d0NEZXNYWGFpU3ZzQTk0VDE1ekZtbUk0ei1hWC1JTGtseV94T3pyLWR5bThGa3h5VFF4enVMbWR1d0RlQXZyNDc2dUhhSENMc01NdTJ1ODEwY2dZNWViWVU3T3drOTJVU1c1NnJrMllUUHhsaUYzb181X05GeTFXU29VNFJkU2tfX1VUZlBja1NtLUJsXzZnaVVWc0xPZ2J5ak9wRVl6RXBWSQ?oc=5",
+      "pubDate": "Thu, 09 Jul 2026 07:01:51 GMT",
       "category": "general"
     },
     {
@@ -59,17 +66,10 @@
       "category": "general"
     },
     {
-      "title": "Beautiful Game | Simon Osborn | Features | News",
+      "title": "Gallery | Pre-season preparations continue at Compton | Men's First-Team | News",
       "source": "Wolverhampton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdnhEZ0FfVUdxWVlDYy1nc2VpdUJhRWdtdHlaMDR6eUNlVDYwRFIzRlUzSDJuODlNbk1JWF84d2RZazJGSTlBQnNGaVlBdmtVSjcycGZLNGRCc3p2a3BNYTd3V19pNDBaQWFxQ2JoTS1fOXV5Mk1LOGNNWHZ4R2g2Sk5n?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 07:03:28 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Melisa Filis becomes Part of the Pack | Women's First-Team | News",
-      "source": "Wolverhampton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNd3hONmUtaGw5bk9aT3ROd0hBRzFBb3NaMVl2dWd2VV9KbVp4cmJHaHM2R2UwaFh0VkNQdVByRWNmUjkzS1pOaUNGM29YRmNXUXVROVE3RFRoTDN1bGkwTFRBRXJrYlZHV3Y2WXV4ZE1GdEF0MWlHRGc3WVRwZjV0M3g1V1pvQUVVdFE?oc=5",
-      "pubDate": "Tue, 07 Jul 2026 16:03:47 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWEZIRV9XcXo4b3JlWWRSZm1BWVZORGhmOWNSSmZLUkt3ZDRjcEJQZjQwaUd5OGdIOWlxUW9Dem5YUnF5UktrekVHNFZDS0dMUlBGTndjOEVEUkIzZ0ZGVzRmUFFXYXVZeXZza2hGUVZ5Sk1ROFk5NlJkR011elRfTG9jdFFtNGdTc1c1dWdLd1ljcElpRUo0VG81LVVGUGNUakxaZkxwVzF4cHM?oc=5",
+      "pubDate": "Thu, 09 Jul 2026 07:32:00 GMT",
       "category": "general"
     },
     {
@@ -87,24 +87,24 @@
       "category": "general"
     },
     {
+      "title": "Wolves Unpacked | A new era begins | Club | News",
+      "source": "Wolverhampton Wanderers FC",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQ3pkamczak5wMTdkNTNYT0Jyd0N6RzE3WDNqVTFxbWhqTWRDQWU5ZnZsUGlrYXpUeHJnendoTF9ycWJxSjJlQmVDOTlNSnlBVmgxNXF6NnpVbXVtcVlXNWFhMUw0UUlFdU4wRkJ1SEUtdV9ibV9NWVpXeTJNWUJwdEpnTQ?oc=5",
+      "pubDate": "Tue, 07 Jul 2026 13:13:49 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Matchday Diary | Abbi Jenner | Features | News",
+      "source": "Wolverhampton Wanderers FC",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQM3hJTU1OTm1VcHVacGZLZW14eGNDc3VtQlZrRTdoR1pnQjEtaEF6XzFMcDBsNEstNl9VLWx0ZGlPTy1CeEVGRTBfR1VaeGpIOXZPRUdIaHBBMTRmbkgxdTh2OFpMYW45TlFhSU9wRWdFSGtya0tPQ0FPOXJsLVEzdA?oc=5",
+      "pubDate": "Sun, 05 Jul 2026 07:00:51 GMT",
+      "category": "general"
+    },
+    {
       "title": "All Around The World | Hugo Bueno | Features | News",
       "source": "Wolverhampton Wanderers FC",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTEs2ZWtLejkwWk92a1RSemtQUlRCWkM3b3FobFRJZ2VGU0NsdUdYN0x0MFI2TE50RlhnQmxXUjZFOTk0MGhXdGxlRGYtNHhOcDRmYmFBRE11b0h6RTc0dXFFWGxFRmNwYV9kY0JLVXRZOFkyNkt1R2JmWHNHVnNGZkdGcEZnNFU?oc=5",
       "pubDate": "Mon, 15 Jun 2026 07:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Fixture release day this week | Men's First-Team | News",
-      "source": "Wolverhampton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZElDN3JDZ3dWWmdFcEZXT2h0NTRWTVByaTZTT1B3U3VFN0JFZEZ4aHJ5NmtaVmJpWThhcEdzXzAtMlBadWs1aHRmQ041bTE0bVU4c0FhTXRUdU5FWlF3S0lPaHI2YWtZcGFNVXhfblA4QVJ4YmJVSmlMR3dpV1hyYkJQZEp6WkRPdEdLU25n?oc=5",
-      "pubDate": "Mon, 22 Jun 2026 07:00:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "‘An Evening of Abba’ comes to Molineux | Club | News",
-      "source": "Wolverhampton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVXJObVRJTlFBQUpLNnFwYjE3V05vUkM5WkdKRXJXbWJ4UDI0ckxmTURlejVGNjVSTHhJWGdra2RVaXNHY21ERHZOb244MlBXRC1haVRRdkp4Um9kUkZycHk3WUJFdjJfU2xYLXRzLW54MXk0cTBDTW5Rb0huTG8wSEV4ekFwSGFT?oc=5",
-      "pubDate": "Wed, 24 Jun 2026 07:00:00 GMT",
       "category": "general"
     }
   ],
