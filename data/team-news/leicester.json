@@ -1,75 +1,19 @@
 {
   "slug": "leicester",
-  "updated": "2026-07-10T19:19:05.185Z",
+  "updated": "2026-07-11T07:41:38.552Z",
   "articles": [
-    {
-      "title": "Danny Ings to join League One side Leicester City",
-      "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcmN6UWU1ZXVCSE9aa2Z2bEtOS2w0TzNULTAxODBicE5Ia01BVEFVeXdONVlyYUhtd19MTHM1QU5rRlI5N2JVRHFVb0poT3hrNGFqdU0zTHk3VDVLeDhNNDgyQlVSbk56UHk0dHpvNHlKQ3UyekFuM25mN1RYajRELVY4UVlaZlFtaFdRTXlhajJlZDVDN0R0dnI5Y2dDQ1E?oc=5",
-      "pubDate": "Thu, 09 Jul 2026 07:21:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Danny Ings to join shock EFL club as ex-Premier League star risks contract termination",
-      "source": "talkSPORT",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRkU0bnFLdGZNVnl0emdJUGNUS0RpRWdBRFozUy1pUVU1VmZlYzVzTFp1a2o3RWhDaUJuQ25KUVNmYlRGYWxBRXB4YVRfUG1KYU9nNmhnOWtHc19kOEdsUlktRnN6TkgxSE0yN3JiQ2cydFBnQmtDVnVtSFUxNkl1a2x0SUozWTJrOHk1YUZ3?oc=5",
-      "pubDate": "Thu, 09 Jul 2026 09:12:56 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Leicester City set to complete first transfer of summer as 11-player rebuild underway",
-      "source": "Leicester Mercury",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTTdUWmZyejRGRzF3c0JwN0oydFA4dlR1WXFKZVdwQnZUSWhleTdFUG1vd0ZjcnZ0X1JDTklBR3l4SHJSM2U3TDNkX1o2dkJlNEhfcnpac3RmQ0stRnZGRU4wR21jVzdFUlRqUVIyNXJLUGNfeEJ2MWJnRjBpR1ZFUnViRURfa2lJZ29tZzBCc1MzTHhVVW1lMnhNUVh1eW5UbGhoTTFQVXlyOTQ?oc=5",
-      "pubDate": "Thu, 09 Jul 2026 08:28:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Exciting duo, forgotten star, tempo set - Thing spotted in Leicester City pre-season training",
-      "source": "Leicester Mercury",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWXU5ancwc0tDdUMzeXBXbDJLVS1LdVp3ZVUtcUxrS3FqN2tDX2hUdmRQZldVTWdkOHhIMU9VSXNDWlhLMUgteXJ3eEk1YWFQSnh1X29reG1zMzFETFY5M1dLZVJRdjlXMWlOMTRpVmVEbmhqUHhLX2xrUzhtZEdVaWZSb0ttX3MyY3Zpd3FLeHZmTW0wS1lqaVhVMC0ydGZYZ0dGYWhKbW5Pd1RTQ25rTA?oc=5",
-      "pubDate": "Thu, 09 Jul 2026 07:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Report Nelson eager for Torino, despite first Leicester City refusal",
-      "source": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNamxCazdBcXhzUmY1dTlzMG8ySF9QUEhKelFCRmNHQWdRWXZQRXg3eW8tb1UtdGlaMEx5bzdBT1U2akNxYmZZaFZWaUtUMHV1a1ZSLTgyQWc2VTBjRDNRNXdPMC1vVXFxTG9HZXhWMWd5RnZmODFPMTRWTHBOdkV2VnVBQmxtZWZoaGFB?oc=5",
-      "pubDate": "Fri, 10 Jul 2026 14:45:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "How good is Monga and what role could he play at Man City?",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UVU1wMjNkV0Z2Q2Iyb3FKLXd2aU13NlB4VnNkSGJwUDhIZTQ5SVFLUC1xbXlBR0tzWDA0ZzE1VENQS1Z4b0J6SXgtRnpGRDF6MHZ4OHhGeWlkUW0wQ0NEVExIMDcyWE0?oc=5",
-      "pubDate": "Fri, 10 Jul 2026 06:06:42 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Josh Murphy tackles Pompey future year on from Leicester City and West Brom talk",
-      "source": "portsmouth.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNUFMS0ZvMkxDR1RLU1FGVlg4Ujg0REI5T1d3bUs4OE9rQk0yd2FHN014VjFJMVI4U2pMemV4Q1M3SE1naXlYVTZVWV8xelFqakVWY1ZleGc1eFRHakNOVW1OZURyZDZkdWVsMUgwVmpvWVNiVGdYYWpmTXVaMWg4Ri1XWUlEOEtWSTdQd19NcWJINU53UEhYWnhTMi1uUEhUdGhsWGdUWWEzbjB1Z2lVb3M2Z3VPQ1BibWM3ZHppckxROWJNNVlENXF6Q0llUQ?oc=5",
-      "pubDate": "Fri, 10 Jul 2026 04:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Tom Weal: Former Sunderland goalkeeping coach joins Leicester City",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE01UlhzbFBKNjMxSmY1WVJ6bzBVRkJkTUhzZEdYaVNEelRlSWVqek96eDhhUk9aS2R4djhrcGRWNEtUN3h5Q19RLU5sNkluelo4M2o3RDlMR0taOXRkeWVIQlI3TUM3WWRyOHc?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 15:44:29 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Watch Every Pre-Season Friendly Live On Foxes Hub",
-      "source": "LCFC | Official Website",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVWp5dGdfYUpYUnRqMTVBM1BISG5WU3pGMEk1Z0kyREREdjVxdDVjTnFiU1pSRDJZT0NSSWYzNnRxaXVXWHlZRmI1YkF4WEl1YnF4bzY2VzczbnhLaDQ3ekV6QkJSaDVuYTE4cmZtTkp5Z3M3dnRqdWU2eGoyMzNoU2JRdm41bzUxdDlsYQ?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 18:30:00 GMT",
-      "category": "general"
-    },
     {
       "title": "Jamie Vardy Leicester City return truth revealed after training footage emerges",
       "source": "Leicester Mercury",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdWxfZU01SW5IVkpxbG4wNjg4b2dxXzI0UnVYQ0NPUGNXYkVaLUhBa1YwbXRxWDR1TmpZMWFDODB5ajMtZGVXaE1hU2FpS1REaHpsbGE0V3hmSFh6YjBrWEdjVWVNRlVHMzBQNnNCWW1xNzJvRkY0SkdKNlpqRGI3dTgwcm9Uc1JBd00tTnowb3hfTXdFQ0xSbDI1UV85d09rOEd1alpQVWlUVGVF?oc=5",
       "pubDate": "Fri, 10 Jul 2026 14:47:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Danny Ings to join League One side Leicester City",
+      "source": "The Telegraph",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcmN6UWU1ZXVCSE9aa2Z2bEtOS2w0TzNULTAxODBicE5Ia01BVEFVeXdONVlyYUhtd19MTHM1QU5rRlI5N2JVRHFVb0poT3hrNGFqdU0zTHk3VDVLeDhNNDgyQlVSbk56UHk0dHpvNHlKQ3UyekFuM25mN1RYajRELVY4UVlaZlFtaFdRTXlhajJlZDVDN0R0dnI5Y2dDQ1E?oc=5",
+      "pubDate": "Thu, 09 Jul 2026 07:21:00 GMT",
       "category": "general"
     },
     {
@@ -80,25 +24,74 @@
       "category": "transfer"
     },
     {
-      "title": "Ex-Wanderers coach takes up new role at La Liga club after Leicester City exit",
-      "source": "The Bolton News",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNX0R5U3lMUmhLdGFTUTdsekhzZktTaUhoa3JlOFZ0Z1RMZk5yOGVkWHZBWE04ZnYyTko3M05FUlRxczFYazZVX3hWeHptWlJla0UyUlhjbFRfdjZwRXVaeFd4WGc0Vm5taEt2RWZDMW9KLWNIT2Q2YnV6ZzgtZXFNNTA4UEU4bFJhUlhuS19WXzVYc05vMUdmcjFqVkctOGM?oc=5",
-      "pubDate": "Tue, 07 Jul 2026 11:30:00 GMT",
+      "title": "Josh Murphy tackles Pompey future year on from Leicester City and West Brom talk",
+      "source": "portsmouth.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNUFMS0ZvMkxDR1RLU1FGVlg4Ujg0REI5T1d3bUs4OE9rQk0yd2FHN014VjFJMVI4U2pMemV4Q1M3SE1naXlYVTZVWV8xelFqakVWY1ZleGc1eFRHakNOVW1OZURyZDZkdWVsMUgwVmpvWVNiVGdYYWpmTXVaMWg4Ri1XWUlEOEtWSTdQd19NcWJINU53UEhYWnhTMi1uUEhUdGhsWGdUWWEzbjB1Z2lVb3M2Z3VPQ1BibWM3ZHppckxROWJNNVlENXF6Q0llUQ?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 04:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "Leicester City Confirm Evolved Leadership Structure",
+      "title": "How good is Monga and what role could he play at Man City?",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UVU1wMjNkV0Z2Q2Iyb3FKLXd2aU13NlB4VnNkSGJwUDhIZTQ5SVFLUC1xbXlBR0tzWDA0ZzE1VENQS1Z4b0J6SXgtRnpGRDF6MHZ4OHhGeWlkUW0wQ0NEVExIMDcyWE0?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 06:06:42 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Jamie Vardy undergoes fitness check at EFL club in full kit as striker eyes summer move",
+      "source": "talkSPORT",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYUdmd2NFLVZTQ3RKdzVTR3U2bjJxN0pIalFRUXdpNUpXNGtJVHZXR05FN3pZUmZhWkRPdU1BWlBydF9KRXIzbEpqNGFxTUFhajlRS05scVdNTjYwcHFndVhYc05OenJVUGtvYU84TnpJRlRzRnRvZUxtdXBSMHo2Mm4wQUdXZlNwYzJaVmROeGVCMVZkYTRaSQ?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 18:20:23 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "Tom Weal Joins Leicester City Coaching Staff",
       "source": "LCFC | Official Website",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQRzlaR1NYeU5fMjJtUTVEazVzSThhZ1F5eURKTUxhdFY3U2I4bEdSbUpVZm10cHBCRjQwalpOc2tPYXpONkdYcFg2V0lZdlRGT1MtZ1RNQlRubkpQT0dDUUdxTVZYT2FWN1REdUUzcHcxMHBuajFVaTNfbW4tUUxra1ZacXFyMHhTdTlFRDRjQklpcHZlZzgyQkU5QmdMSkRJVGFJdG51N2JhMUY4SXM2RE1weUtBQlpnS3dUSGRETHBKWExtSzlnR3Rya3dlVkp1RWJHRU1nSkFYZktsclVwUmhyYl9Wdw?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 18:30:48 GMT",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaEZudHltNkxSZ0ZFWmJWZ01HZU81SmhTMzV3bUhJSnNpeksydVhfYjlmUDhhSW9rUV9oWko4SWhreUNJaGk1MEotSUxPV3BvcjlRTTNPNWJzVmsxQ1V2NXVVRGlHSGwzc2RQcmltT1d2UDBQV09HSktHVFVuUkxWbmpkZlAxUmM4eVlHdW9FZ0l4aGV3YWc?oc=5",
+      "pubDate": "Thu, 09 Jul 2026 18:00:32 GMT",
       "category": "general"
     },
     {
-      "title": "Next Leicester City manager odds: Who could lead the Foxes in League One?",
-      "source": "Squawka",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeVdIU1VwZ0FBc0ZFeWtqc3BUUHdNbm00aHN1SlFjMWs0ci1EVThRVUxDLUFpUVpGbk4tSkltOUNYUWI2TWxUNVl5SWpwTVdGdHdfTENCaUcyUURuYWtpSEt0a3pGS1BIeHZGQjZDUTdLSGtqTXJ4N1UyaFNhd3psRnJkNA?oc=5",
-      "pubDate": "Fri, 10 Jul 2026 10:31:03 GMT",
-      "category": "manager"
+      "title": "Report Nelson eager for Torino, despite first Leicester City refusal",
+      "source": "Football Italia",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zczQzR1loMW5mQmxPNTA2MWVLc3lKXzNuS0tmS0o2SXFoT2lZaDE3WDVxX21zNnJUWG5rLXJYcktoMnhRdUFrOWs3UGd4dUhlcXBiS08xSXRiN3lpeW9VV3Fta0lqTElIeVRveGdVaW5GRy1HclZodFRLSVNIYmfSAYQBQVVfeXFMT29MTVhRNjhCM2k5YnY2REFaOXdDQk9XaFpVVFF5MnJOeEhSRHdNVWluOGZXbkJTVE1heVR0SjVRNzNzbkdzSDFIREFUMEI2RElYVmVobGJBWC1iWEZHU2JqOG5jdE5pNHZ3ZDVXY1dqOHNSdVNIb2FLcGppUUpYTzdQeHNV?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 14:40:44 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Tom Weal: Former Sunderland goalkeeping coach joins Leicester City",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE01UlhzbFBKNjMxSmY1WVJ6bzBVRkJkTUhzZEdYaVNEelRlSWVqek96eDhhUk9aS2R4djhrcGRWNEtUN3h5Q19RLU5sNkluelo4M2o3RDlMR0taOXRkeWVIQlI3TUM3WWRyOHc?oc=5",
+      "pubDate": "Wed, 08 Jul 2026 15:44:29 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Exciting duo, forgotten star, tempo set - Thing spotted in Leicester City pre-season training",
+      "source": "Leicester Mercury",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWXU5ancwc0tDdUMzeXBXbDJLVS1LdVp3ZVUtcUxrS3FqN2tDX2hUdmRQZldVTWdkOHhIMU9VSXNDWlhLMUgteXJ3eEk1YWFQSnh1X29reG1zMzFETFY5M1dLZVJRdjlXMWlOMTRpVmVEbmhqUHhLX2xrUzhtZEdVaWZSb0ttX3MyY3Zpd3FLeHZmTW0wS1lqaVhVMC0ydGZYZ0dGYWhKbW5Pd1RTQ25rTA?oc=5",
+      "pubDate": "Thu, 09 Jul 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Jeremy Monga: Manchester City agree deal to sign Leicester City winger - gossip",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9JaTlwbldNS1MzQmwzdkxtVEUxak53TXpUR05XYWxHY05rSEl0bWdDMV83eDhIeTJUcUhiVjFsYXI1WTN6bkk2WmlJb19DMXdBTWloT1pOc3VyRjhzNnhyRTBtOGJyX3c?oc=5",
+      "pubDate": "Thu, 09 Jul 2026 10:39:37 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Ex-Leicester City captain Ricardo Pereira subject of two-way battle for transfer",
+      "source": "Leicester Mercury",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOHNYQUs5eFR6emxaMmNwMWUxMnJobEVSYVYteF9Jbl83aF96RXl6enRKdklLNGgzNDE2RUYzVmR5S0UzT25VcUwxUTdQZC1kbFl6Z0pxbkN5Q3lyV0JGQ1I3OFZjQ01pd295SVBRX1hDdUQtUktXMFY3M21KdUFDUWRCRWJ2YmRIczBUMXNmbzFKMnBNUWFuYlc1YUpEUHFXZG50RkpRcjhEdVBkZXF6RGxn?oc=5",
+      "pubDate": "Thu, 09 Jul 2026 10:00:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "5000/1 Anniversary Match To Support Local Causes",
+      "source": "LCFC | Official Website",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMmktUGZ4YndIS0kxcThjYkJOMExJZEZ4VWppSjFGaWpjeDB1MnlwOTN2bWVRbUgzRnJTYmNBa3lDanBxN0ZrUWJ3bzV6TkpqbzBZRVE0WGxIcmhLdXNZdXpGYm9pdDdFT05WWlRxLXNwbHZZbk5yaTM0cWZfTWJGT296UTVQanpTWFdmTTFKeUxLYXpyUEw2bGhndmVXd1RsLU9pajdCbWc5eTRROXc3dWUzSXpORExPLVlIRTQyQm5SdGJk?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 12:00:51 GMT",
+      "category": "match"
     },
     {
       "title": "Northampton Town Football Club",
@@ -106,6 +99,13 @@
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNa2pKX0dmVklFZ09FV20yTGNHOTY1alYycmRWU2VGWFZ1OHpoV0FReXE0OXB5aUVaZ3lFSzNIUHZVNkxRWUdiR0tTdFM4N0tNOGFOOGxSWVJ5MEZoMHVTaTUwNWVpZ3FPT2VwNUJPSmdxelViWHNrNlpEWERLTkZFX0plTjBrTkVVUWduUFc4dG1LQV9yOWxSekJCb2E?oc=5",
       "pubDate": "Thu, 09 Jul 2026 09:41:08 GMT",
       "category": "general"
+    },
+    {
+      "title": "Manchester City agree £12.5m deal to sign Jeremy Monga from Leicester City",
+      "source": "OneFootball",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORm1WdUd6OGZjTmJWZG9kVVQ0YXE5Z3M3YmVKS0lBeGxWT3lJdGxuRzBtaFV6UXJvbnR1VG5weTdaWVVOQzN1Z2V3SmJ4RHJvWGdienl3R1dqTzJXb2hPdEhzWlZ0eFZJX191VFBtaS03bWhMZEZjNlZWa0lrV2hlSEI0SGFhckVvX19TQm5leTBjSl83bWwtdm5FZjlGMEhIM0hXMHEtQ0JlSldSM2NfV21VYw?oc=5",
+      "pubDate": "Sat, 11 Jul 2026 04:43:32 GMT",
+      "category": "transfer"
     }
   ],
   "reddit": []
