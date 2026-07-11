@@ -1,14 +1,7 @@
 {
   "slug": "liverpool",
-  "updated": "2026-07-11T07:41:38.552Z",
+  "updated": "2026-07-11T18:51:14.031Z",
   "articles": [
-    {
-      "title": "Liverpool news: Bradley Barcola agreement emerges as Reds told to pay huge fee",
-      "source": "The Mirror",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONFNzdW45cVUzMV9McmtVY18tc3F2RmlhUERKdjAzWkdhVFkwclZidVZoeWMwU3lteUE1a05LUXI5V3ZzMnRDQTlQNmxPSXVtX3ZlQkYzS1ZIOHBKSHphWG5adk1TNU5uQ1o5VS1RRWNLT1FwSlFaMjI0cVdBUmlkZjRVTVlaM1dCM0NkcnBjU1pnMG1mWXFWLXhB0gGfAUFVX3lxTE9la0UwLThWdkdYVjRXY3MtSGxSajhYS2otRllfRTllWTBOSXNaYWtVa0Q2dVM5eVVXUVMzdklNSWFkbWtnRmx2cXBDYUJzcVZiRTdFUkJ2RHpVbjM2a0xOQWJOYy1HeHlXMHpkRmNtYUUydEZnb1BMeXE1cjd6azFhNkcweTBHSUlsb0h3bm5Ba2FVRFpWaGdfN19fRjZ1SQ?oc=5",
-      "pubDate": "Fri, 10 Jul 2026 04:01:43 GMT",
-      "category": "general"
-    },
     {
       "title": "Liverpool transfer news LIVE: Michael Edwards quits, Bradley Barcola green light, Curtis Jones latest",
       "source": "Liverpool Echo",
@@ -17,67 +10,53 @@
       "category": "transfer"
     },
     {
-      "title": "Liverpool plan bid for Gambian winger as FSG learn record-breaking fee for Bradley Barcola",
+      "title": "Interview: Will Wright's LFC story so far, pre-season aims and 'best weekend of my life'",
       "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbU8wR3YyWDFodTMwOEcxNnU2VlpPT0VXM1JUc0pEaXVEeXNaY18xS3M0YXFjX0Z6Z1VJQTlKVmo3YURFRW9xMEI0dTB2Q25WbV9ldTNSSlBVWTNMWkhXTTItZGlsWDFDU3k0eXZsOFl0bk0ybklkdlNTWDFBcGkxY2NDWEJNRlJ5RWVjVThjRGhmdE95OE16cVRfdW05LTFSQlpFblR1NzRPYW13VjhCLVhB0gG6AUFVX3lxTFB2cGxSazBReS1DV1h6eGpZRkFqaHVzUW00MHlzSWJ3a1QzWkRGMkFZR0t2ejRaNjRVb3poZWp2a0FJQkd6Y0VVZXU1cV9IeVA5eGhLSi1qbXkwanZkVHJiSC04d0FYSFhlUWltMERpY3NDOWhIZW5PdE9SZW9Jazg0Q0hlYU5SWnhYcUdTZTlsSlByTEl0Q1p3RGxjMFN6RlVabzF3TGFHWlI5TmlXUllaZlNZQnQ3YzhSQQ?oc=5",
-      "pubDate": "Thu, 09 Jul 2026 07:58:25 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Photos: LFC U21s continue pre-season work as Andoni Iraola watches on",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYXZlQ3hFMDY5ZklZNm1naEpzbHJNbksySEo5T25GczlVZXpBdXBLUGc3TVpVUTBvMGd0WkJQeG1LQTRnREF3RVF3eG9FZk96RjlDYmtuTmNHVG1vb205bGFNVGVoaUItTU4wRkpCelNnWHRmOGZpcjVWUkVvVlR4QnR4Yld4WGVIbFJRZ3pHSXlwVWRQYnpiSXU3c9IBowFBVV95cUxOM09LM19KNEZ6WU5YYTRsQXJoYk1Qb1BSaElHRkJ6X0xrRkZoSnFrWDhheDBfelBEcDFsS1p5bUEzVjhwTGZxS2dZSndnWjNEeHF1QzBXSmY5ZlFnLWR0dVFWeHNqVmZ0WURrcVE3N2dhbV9TdzNaNXpjTXJqOXdpOUJhNG90VnYtYUxXRVU0V1JZU2tZRlpMdzZJQWN2Qno1YXV3?oc=5",
-      "pubDate": "Thu, 09 Jul 2026 15:08:49 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNd2ZSOFRldXpxcWkyNndBeXZUcllCcXBaTlFQWGhjbTNSUWU5SV9WbmJPZ01ZM2JheHpLdXl1SDIwTDZfWXFyMGFIcXZaa25xUUxzelVzNm1yZlRMcVhJRmo3UjFSMjBNR2loSW5EX0tzOVA4Y1RkSzcyODlwd04tdnM0TGFxQmN5UWRFc2VoUVJyZTFVZjctQ09UakdiOVZqOTF2QTNCRkxncTZvRkpuZHBFWdIBuwFBVV95cUxQR0ZuWkM1bkQ1NUVETlNEeEJjbkRxMlVIRnFIdmh5X21idlRwQ3ZyTW4xeEtobWRFNDFiSDBRRmhJZnNTR3hLYllCU1NpN1V3X3I1RElwdlZCdURkZlB5WHpMRDdpaFZDd1pUY1FmbDZMM2VQSlNBWENUUzIzZ1lzMWdkTVc1Q0RoNWNLbkVIOGV5MmFyMk9fS1VxbXhrNUZURGFvWF9LMkc3VjZpc0Jtc1lSeDh1SWhPUzVZ?oc=5",
+      "pubDate": "Sat, 11 Jul 2026 10:05:37 GMT",
       "category": "general"
     },
     {
-      "title": "Andoni Iraola told Premier League duo would be 'perfect fit' in transfer advice",
-      "source": "Liverpool.com",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMXRhSDFZbkxjb0kwUU5qT3BaZDd3eTkzSnNmVUtteHc3YjJ2M3ZvcXZaNGNUQzFtTVdLdi1VbUhCY05IbHR3VmkwZ2xBaWZ1ZVF3ZmIyM3NqQ0FWNi1aRl9ITktSRHloNkJJQy1kRFhsSjRIY3R3VlJobjRtcmhRYU54OUlzamtCMktjdHhhWFpNZHQ1TmdVNVd6SW44NmNCRTNTTzhkaFRjYjg?oc=5",
-      "pubDate": "Sat, 11 Jul 2026 05:12:30 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Andoni Iraola handed early injury boost before Liverpool pre-season commences",
+      "title": "Transfer news LIVE: Arsenal agree Guimaraes deal; Man Utd medical; Barcola decision; Chelsea, Liverpool latest",
       "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOXzRaVGMwMzZNUkNnX09iT0pNQmxoOUhIczkzb0tqUnBkaGNYcW92U3E1ZmcwZ0RNUFZhRXp0WkNIYzZmNW1PSXNKcG1FV09XaHAza1JvdUk1UVZYOUFfRXFHdHhKbFRveWtwT0QwcmNqak5QenBOZmJZbkwtekVyU3JYWDFMU1Y1cEtKMk5Ob0N4TXlfZUo1ckY3NXZMVHls?oc=5",
-      "pubDate": "Fri, 10 Jul 2026 11:23:11 GMT",
-      "category": "fitness"
-    },
-    {
-      "title": "Pre-season stadium guide: GEODIS Park, Nashville",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQLXVJZm1ZNm5nUnlBaG9wcUswaXA3andwWk02TUhCMlhMTWZXRC0zaEhJdzJKcU1hYV9EdGducDVIYVFENUx3LUV0TXM5VDBucHZqVXpicDhtYUEyQTFwLWdxY3VwWVk0TVRvRVFvWk9OM0tlS0w1Y3dzSTRxODYtcXh4UnVrQdIBjgFBVV95cUxOcGw4UVJOelJZQUt3OEZwbDI1V0JrMHA2YlVvSVdyWTRISUZtQ3hEdElra2RzYUl0T2ZiSXlmOTlvNDZUU3hES3l5TzZPY1hxbVBCTy1XbFdtQ3VMNDN6RDgtWUtZYVZFNEtKZDJWVnR6SHlBV2xfSkQ0YUtyVmxGSTlEcjV2VWh6S1VRMk9n?oc=5",
-      "pubDate": "Sat, 11 Jul 2026 07:30:31 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Why tragedy chanting over the Ibrox disaster must finally be eradicated",
-      "source": "The Herald",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNcFhocHpjUk1MMENWT3ZQdjhJX2daYm9TckZ3WVcxYkM5Uzg0YTR5SUNMaHlTNEJCRkxBTDlGbWdVc05JekRBWTRqai03aUF1cW5DclpFakthMHRmUHVMVHZlT1VfeWM3dHJSaGNPbkp1VnVwV1J0S1JTQkxWTkpuYWpJUlFfd1J3MnM4WnBBeWo4a3RxTEE?oc=5",
-      "pubDate": "Sat, 11 Jul 2026 05:07:05 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Liverpool transfer warning over Alexander Isak and Hugo Ekitike - 'two unhappy players'",
-      "source": "Yahoo Sports UK",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcWoyM3pGSm9pZDRPc0o4LVZXZi1NTi1YNXJTcm0wWWNvWmVaTmV3N3BIMWdaOFU2anZ3OGJfaGEzWGNkUzlLY0NaZ2xQbFdyWWg1SVQwYk9fMV9QY1ZYWHNRaW5KRW1FRU5uS2syd1FxdXowT2Fld2s1MWpHOXJ3bWR3dy13TllINEdhWGFBY21reDQ?oc=5",
-      "pubDate": "Sat, 11 Jul 2026 05:00:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNb2tMdHUzX29RSTl4bERfd0ZsVXRkVXpSQjg2YjlDeTc2ZTd2QVpmNWFZUXg1UUQyRzFjNEtISWVvZ3c0YzhReFE3Wkt6V1Utc3FxdEJ5cllBODlpUThOdURTeGVsdXptb1lVU05mdW95UVlmM3Zrcmd4eVNyX1FrbG9pbWpETUZ1dklkd3JORllQQUktTHY5Vmtpc1UweExOclh5elVuckFiR3JhdFUtanQzbGswS1FxaGtFeDBLcGZCMzFmdzRCalpkeXI?oc=5",
+      "pubDate": "Sat, 11 Jul 2026 07:15:36 GMT",
       "category": "transfer"
     },
     {
-      "title": "Mohamed Salah breaks silence on controversial World Cup exit as Liverpool icon makes promise",
-      "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMlhWaWIwN2FySnZQYlZWU3BUSEdCaGVoV0hvb0hyVl80SG05T3d3NVJjRGh1cFFNNExjMHNvODMzbnNiSkJIajJUSzFHVW5aWXIzdGxxaU1iRnpzWTJQUTB6TzYxUk04X1pmQ25qd1pCcVRFdllqMWJadXNtUE5GSFFfSG5Eb3EwalExbFFhQkZsNzBIRkRYNlBQNkotclNuUmZPWHp3LTMxSm04RE11WU5R0gG3AUFVX3lxTE55dGNpVFRjLUR5WUNPSk9aVjVpV29LY096MGlOUnpSUXlOcTlsZFZyVUZwbmdhdkhQdFlIRkJheFpLVFJfR1N5dHAwc29KMUhWaHpPcXNpbU55ZUYwYTVqRUEzaFB6RGpTQ290NjNsUUpvbXgxWmdpVE9TdHpVMVR6ak9NalFCU2YzZndsRmxSZi15X29Kb0FtanNpM2xIT3NFaWNrQV85cm5oVUFnWHpwMklNV3VXWQ?oc=5",
-      "pubDate": "Fri, 10 Jul 2026 10:48:00 GMT",
+      "title": "From Brazil: Liverpool initiate contact for Joao Gomes after £34m transfer collapse",
+      "source": "This Is Anfield",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSkxWRjJZTjA2bXlrTnZsaVVZSHdGZUJaVDJUMF85VUFObjVaUGcyMEZmS1lYemwtV21GcnFDSTFEd2RaWEVLQ0ZodDV2R19JSTlHZnVYTXVTWWFSOVh6dndTSWlxU0VlWVJjZHBWSVUyNmk2WjBCWTM3Tk4xN2pTQWdMQW1HUmdPUjJmVg?oc=5",
+      "pubDate": "Sat, 11 Jul 2026 08:51:21 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Transfer Rumour Mongering: Liverpool Join the Fray For Brazilian Midfielder",
+      "source": "The Liverpool Offside",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNRTdSSTFXSnE2emxRQ01ZRG9tTWt4VC1zNVJzZ0EwMkpsU2RQVWFVR0ZfVUhicGM2c3I0aUlHSFRwVFpHYUhvU3JHS05ObS1tNmhtOFlSb3JtUHpJSnNISFlvRDc5eGJmWDZyakxGRmtWQ096VDFFdnA0bS1EckFvTGVwTEhEdWwybGxRRlpKLVpXV2tCRE5wY3FKX1ZMeHdOSUNoM3JGWm1GSi1BNkM4Ti1ya2xGRVJERzBHUUcxNWc1NGNQWnBpMlNvNGZvdUZJQTdObndnc2lXUQ?oc=5",
+      "pubDate": "Sat, 11 Jul 2026 15:45:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Man Utd enter race with Liverpool to sign Joao Gomes",
+      "source": "Liverpool FC",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNX1NNT1gxNUo3WjhoNWt0RmdMak1pQ2Y2blYxR0tnal9VNzhsMVhfZlJYMU9peVdxTEY5N2pIZ3pqSEE2SnJwT1dFaWRRUGxjdlpldXgzZnhRVXNPS3lxQ05RekRhbzhkRS1DMnhJMENES0JISVJQdUpwbUtJNzNURkx3UdIBiwFBVV95cUxQaVZJYVNwVE5LQjNydW9jZTNNejA0UGlmenN3ZTZmTlY0RXFUaHVFdWpwWDdUdXJ3alh0ZF9naVcyMG8zTEh2amQ0a1ZlVWdYYjJSSWJ4UlBBZXJlVnBpbk1kMm4wbHRWejFEaTRfcTdDWTRaWF9RaTNCQ2VWaGVNVThsdEk4VVU2bktN?oc=5",
+      "pubDate": "Sat, 11 Jul 2026 09:51:15 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Pep Ljinders set to land new job weeks after Premier League exit",
+      "source": "talkSPORT",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMnBPQmNxVDdMMllnbTVGR3IxQTREN3A0QXVVRkR3V1pwXy1RdGtvQV9CTEFlOTExY0RjSmZKdkcwZXdYLUVSVzJ6Y0lnTGZLWWU1emQ2c1ZZME90V1hPSU8zU1RLalZGaDRVbXpKRWdpM1VnVjBuVWx1RHJFQmdHMDlzdjVhWDFtOXdBMzVEZDB0OV9kU2VfeUJlcnBuclE?oc=5",
+      "pubDate": "Sat, 11 Jul 2026 16:08:59 GMT",
       "category": "general"
     },
     {
-      "title": "Mo Salah leaves Liverpool with best win percentage of any club great",
-      "source": "This Is Anfield",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORENBZEVNV1NZWW9uTVp6Zmk0YkZPTFpPMl9wN3BvVmdEVEFTblAybUhtRXV6S0xKODlZOWRnMmZXS1pWMGd6eEc0SDBpNzFMZTFOTW5ZYzhtdnQyOGNIS1BHdldmNXJhdWQ2WDY4a3piNWtHVUVTdFVFRG1DdGVyVEg0dVJIdw?oc=5",
-      "pubDate": "Sat, 11 Jul 2026 06:03:43 GMT",
-      "category": "match"
+      "title": "New frontrunner emerges in race to sign Mo Salah",
+      "source": "Anfield Watch",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSlRtWi1UakZYWDQxNkdlUGFZYnp4OGt1TFRKZUR3UjJuQ2h5bDFjYnZmRjRJQk1WcFJBVTFrVUdYZkM5dUxjMEdmMjlBV2RkX0Q3SC02YWxCbXRiOWk2eHBwQUFFNlU5eHpFMkFkTXM1VEFqbmk0MEluZkttaUQ5WGhPbmR1V2NidWZXSFRMc1BBTG1FamVhQjMwVEFKNUlHRjdtRkRxZGdzMEJTcncxUVlvXy00UktsRzU3MGZBS2VaQ2ctUW45aXUwR2JhbmtxdXVxbTVTODJsU1RSTWgxQw?oc=5",
+      "pubDate": "Sat, 11 Jul 2026 15:00:00 GMT",
+      "category": "transfer"
     },
     {
       "title": "Mo Salah's salary demands risk scuppering dream reunion in Saudi Arabia as Liverpool icon seeks free transfer",
@@ -87,24 +66,45 @@
       "category": "transfer"
     },
     {
-      "title": "Liverpool latest: Michael Edwards leaves as chief executive officer of football for Fenway Sports Group",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxObHNKX1JUYkcwblJJZk12TEVDZW9VZ2REUGJ0eXZweWs0bmE3dVg3T0REUW1ha3J6eEIxVjlyY3dad2xnOVRPVU43bHRZa1VJak1PdlhEd3lvcGV5SGVROWtESVJmcVdoOV9idFVEMmRBTWs1NW1TYXBXOVdCMldkSy0tMFlvWmtzRkJ0X180WUdlbWlXMll5bTJmN0FHM2ZoUk5LTjY3VTIwMHBGaHRoYnBiOGwzOXZ6RFRvYlJRSXZxWUVZaE0tT3BLb3dqVm15a2Y5TURRT0ZPUWNhVndSemRpTzhaYU50RDVsQ1V3?oc=5",
-      "pubDate": "Fri, 10 Jul 2026 16:10:04 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Man Utd begin talks to sign £38m Liverpool target after Ederson transfer collapse",
-      "source": "Metro.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPR0NxeS1rRmV2RHZIeUpPdkhWMFRqVmcwR19ENF9oYjZXZUdqdWI2YWkxMlFNNS11U0pTSnZ5TWRNT1kwM3c0b1RXalhYVU5rbFlxMkt0bnlBZzBNZ21kT3RiWENTWTdsVjZnRlllcUFJcnQ0WGd2ZEliamV3bXoxZkFYb3g3YWFRLTQzRXFqOFZSNURTX1ZzOTJoRy1TRHRGcV93bGxJMU1HODRwS2lFYldR0gG3AUFVX3lxTFBZMFBYSTFwb3VyMW14Nm1qeVZ2Ry1FMEladkxtVTJuZ1lWSkZqTmpYaVpPSXd5YUlHc0tQbHRhU0pyeElDa0tCdFVCNWs0a2hQTlBMSzNXSkNieE9Ob0JlOVNWM1FaQjJ3dkpMS213V0tiMi1jSjNfZzU1UlJVbXpJS2hLTmJtUFZaOVA0RGozM2FPM2NaWGdNanZHTF85LVRqVnNxd2FSSHVjVmVpemtDMWVxVkNIMA?oc=5",
-      "pubDate": "Sat, 11 Jul 2026 02:20:00 GMT",
+      "title": "Mohamed Salah replacement 'has enormous potential' as Liverpool transfer understood",
+      "source": "Liverpool Echo",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPWkJneVYwWkhYR0ZUMkpTN3BRNjVpcmJQMmJmSnFyOGxodWtDT0R4WGpoUnJQZWpNSEMzZTBqb25LY1VkejM1YUp3dnNBc0R6Rnd5b1pHZko1TzBOMlVtM3RWalVPMXFWVHZZcUdYbGZfbXJndFp1VkVHdjJ4NEd6V2NTUFNNQ3Zhb0RfX2ltTFJHUGY4Ynl0dTY1MUFDaUFPTWpLWTlWMk5CZXhq0gGyAUFVX3lxTFB4VGZ6YXQzSHozYUhBaklfNmI2elRqbUpGZm1nRXc0cHEwRUNRTG53Tjd1ZG40ZGhPRkJfVjJ3UVkxN0lwYU53WUNUQjIyOWl1a2drLXRhajE5SXRLWUJpT1l1ajlSOGttRl9sbGIyUEpXankxYjEyRWcxdjIwS0xPZ0dBQVptVzQ0dUctR3VFbDBodlRtZ2tva3BpdzBsaENNV01jY2QycmQ3R29mSm9GWEE?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 11:46:00 GMT",
       "category": "transfer"
     },
     {
-      "title": "Transfer news LIVE: Arsenal agree Guimaraes deal; Man Utd medical; Barcola decision; Chelsea, Liverpool latest",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNRW9nVWxWZHRyc0RlR3g2OXY3SVphM3MxZDhtSjVYeERLaHY2aDRHdFZNN2xBOTNkMS1Ca1h4T2V6SUpEdHlDVms4QnkzQzZpMGNrVl9sWm93MXpzUXYwY1JDT3R3WkRMRlVjaUtYa3phVTdtT05yQ1FIMWN5TjJHZVpJdHQ4c19ySjkybWRLYU82WlRMSDBLRVlkRXZsR2FKcTNzaGd1dDludlRtTjhwcmtFRXFCYV9TZU9hMXZfNXFzREltbVJLb1RYempRcUI4b0JtZmJB?oc=5",
-      "pubDate": "Sat, 11 Jul 2026 07:17:12 GMT",
+      "title": "Massive news: Liverpool agree midfielder deal",
+      "source": "Anfield Watch",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQS1NyNVgxR2llOGhCUTZrRXpfLThWcHJ0OGxuejZySV9QaXhSRjI0WGRBTDRyYnVJSTlwUXcxQjUtQTA1Vnhwby02ZUlaSHNDekIySmVCOTNxdnR5TTZpdzFwZUtOa1JDbFAzZXNEMW1aNHctQzZyamxzMlpmTGZLWVR1ZjVYOWFwVWlSdWY5dVg0MGluSXBMU3JR?oc=5",
+      "pubDate": "Sat, 11 Jul 2026 10:30:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Rangers Stand Together With Liverpool and Manchester United To Challenge Tragedy Abuse",
+      "source": "Rangers Football Club",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPR0puNlRzN3VUdWYyWkNjMS1OMTJEekVVOVJ4LW5WRW0tT0pxVnU4b3N0VXV4RkgtMGI5R2hRb2lmU1ZfdXlTQXdrOU5NZjd3VGZ3b1F5cGJfZ1VnZWRRMF9LM0JMb2xpUFBhWk5pcERxbE9aNlcyR1h6bHVfbUlsOW9KNEtoU2pRbmVmVXlhTkZHZnFPT1h6NFVOUHd5WXlmRjRyVVdweFV6Nm9kcWVRQVRBcEwzbzViYjBFRWZqaEgyLVBGMjI3enVmMEdNc0F1bVU2NFU4ek1hQTA?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 13:57:32 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Huge Barcola blow for Liverpool with Arsenal ‘top of the race’ to sign PSG winger",
+      "source": "Football365",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZWV1OTdIcmRIMU91ZmozSHkzSjZ1T1RWd3BydUdLUFo4cnhFNGNTdHktNlkzTFBCWDI0LVA4VEd2UG1rYlNZSFdFdzFKYU9zdWZSOVlrbXVJeXFDUlhiMU1iekdmSXNpMXJ5QzFMMUY5NEdybVNRbkVoQk9KSzVFRkpQbUQ1S0lCek5BTnhB?oc=5",
+      "pubDate": "Sat, 11 Jul 2026 07:28:56 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Liverpool get significant green light to sign Bradley Barcola as PSG demand mammoth price",
+      "source": "Liverpool FC",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNTVYeFIwVnNyMUZ6bl85Vmh2a0VaLTJXVF9uM1lHMVYxR2k1M1F2Tkd1SVByZzhNSnJibUtJQWtTem5aUjNqZHJPckprc0pob0JyQmZjTnRNY1c5SjRnSHV2dEZod0dmU0ZJWnp4VjZ3VGxaSnRuQW16X3I2ZEZLYTlFUUIwUEJIaWhCSnduWVlHQ1N2eW8zandEZlF1WWt0UWw0aTR0QmJEODZHSWg5Njl6Z0F6UkHSAb8BQVVfeXFMTURZN2hZVm1xQVFVcWh2a0VPZE1YalVTaDl4ZlljSHNyVVJfeHJLeG16alhpMzA2ZlRZdlRlcGU5WThaWjk1VHNrQ2MzMlQ4SldEdTJpWGpuSTJYQW9ILUhLQnk4SHdPYUNIWXJiQmtraVVhRG5nb1gtQUVEbEY3bjNoYXdjOGR1U0szaDBBaS1WeEIzRVV4QVJkNEw0U1V4TlZXZFk2VlVUclc2OXMtNTF5THNCUUliRDJqSUl5RGM?oc=5",
+      "pubDate": "Thu, 09 Jul 2026 10:13:31 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Liverpool latest: Bradley Barcola transfer gets green light as Reds told to pay huge fee",
+      "source": "Liverpool Echo",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONTA0VGdmOXVCU2VfcnBNQWRaZlc2akZPS0dLcHJrU3hRWjVEc2VSc3dEZ3FEQnFRU2ZpQ1Nla1JaNXR0OTVjSXlhc2pfT0N4Qm5DX0s5WXNveHQ2cW9WcS04S0NqZkk3dExWV29waUp2Z0VWaDEySi1yaWFLQklOWHh2d3NrVWZ4RWt3cEUyVWk4UGVKWloyRlpBRDR4aXZ3a2sxUXlwVEFsYnFfTi1z0gG0AUFVX3lxTFB4Zlprd0FUZlN2ME5HZ19XTHc3ZkxGUlotZEU2SDBPbEhPTmtXWmZydTJNQ3d0ZmZQeHhFS0lVVEJ6VlUzQVdXNDhyUExJYmZYSWRZbEJrRFM1SDJTQ2syelBIMzZ5M3FqaWlROXYtMUpwank5QjNGeUdBQUxmZ3BreV9qRUxMODg5SFo5YkpEYnlVc1FSa04xbmZsNTJnbVp4Z2xTUkFTSjdlQ0J1RlY4OGxEZw?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 05:06:46 GMT",
       "category": "transfer"
     }
   ],
