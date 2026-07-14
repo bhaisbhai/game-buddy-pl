@@ -1,76 +1,55 @@
 {
   "slug": "leicester",
-  "updated": "2026-07-13T19:16:16.431Z",
+  "updated": "2026-07-14T07:48:31.841Z",
   "articles": [
     {
-      "title": "'Perfect sense' - Leicester City plot loan move for Premier League winger as conditions clear",
+      "title": "Leicester City may have been handed transfer advantage after Enzo Maresca comments",
       "source": "Leicester Mercury",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSW5mdlNqQmo4UTJRNFNqbTh6ZUh3WU5UQ28wRXlhNU1ZVDc1cGZlQ25JWkoyUThYYkhldTdsU2lWc1lYdmlxYlRHcWp2ZzNFalNUZnJkSmUyQjl3c2J6NkYzUmRNM29YWUdIcGJNRVpPRUhQaUh4M3NxMTM1NmtRVzhyb2lCVlF5ci16cTduRXh3d0N5Rlh0ekJhSmktN1VCSndpeFZiTHg?oc=5",
-      "pubDate": "Sun, 12 Jul 2026 09:36:22 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Leicester fans will likely laugh or cry amid shirt sponsor report",
-      "source": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON0Z0ZGRxTGgyRUJwTHp4OUtEZk1lN1dwMHRwbmxrTDRpcDVzcmE0TzdoOG9OUzNOdTM0a0pab2hUSnB3STZ6S1pUdkhqSk1mUnc0R05Ed2JRNWd1bERLQ0hkVEpNdVlleEVhaVZDZDA3NFlQY3oxWmVSeG5WbExkdFJraVNnbEk?oc=5",
-      "pubDate": "Mon, 13 Jul 2026 14:09:52 GMT",
-      "category": "match"
-    },
-    {
-      "title": "John Percy says Leicester signing perfect attacking recruit",
-      "source": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcDhIRU1TZkZjdm5UeTNLVUxIakdkN0pnM2ZrVUg3NEJONmlxcTA5eFdDS2VaTUJuaGlLWDZKQ3pTc1l2YnVwR01DNXdtSmJnTFItcWxoRGxjSDhOZzRpNE95eWIxNFJrTVBHNUNBQmYxTFQySmR3d1RNUUJfRDNuenM1NklwMXZSZlE?oc=5",
-      "pubDate": "Mon, 13 Jul 2026 10:51:38 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Russell Martin knows Conor Chaplin's perfect Leicester City role in starting XI - 'Attacking glue'",
-      "source": "Leicester Mercury",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQUNNWVNoSVZFTDNxZ3hBSkpWNnRlc0gzbVQyQTRDYTRnUzZuek5VZllMTV9COE5yaGtOZEl2TW5fS3lGUm5KUE15LXBIZUdHX1hwalE3WWlyWUdRSWZVX09aWWV3MnhWNE5obFVQOEVtX2ZsM0N6WXdubzN4cHFQWnBjQW02WVpyZTJrTWNIcE1QN1JHaWdObHIxWUtvbjZvaW9LemhET2VOWWN4aWFj?oc=5",
-      "pubDate": "Mon, 13 Jul 2026 16:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Contract Length Revealed In Leicester City Free Agent Swoop",
-      "source": "Football Lowdown",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQlJIbzJGWXY5TUE5NUZRc2I3NlJoMTJyTzVpTjhOOUhTYVlRVDNuNHE1RmRKYnRYNGxIS250amo5ZWI3bV9YdHhPSmY1R294cHRidTBLUWQ5TWEwUGI1dnd2UE1aeGRvLWlsRWlpeHgxREZqZ1d0QXJpRmM4Y2E5blJYbEdCQjlDWDIwMG9SYzJSdw?oc=5",
-      "pubDate": "Mon, 13 Jul 2026 12:18:17 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Leicester City 26-27 Away Kit Released",
-      "source": "Footy Headlines",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVW9JUVEzUHlkX3ZPTHNUTWJSMGU4SVdQalY4V2xIeThoSnBQZGdxWkRFN2NOako3YzZ6RUNhVTF4dWRVandSWV95c0taWFRZUWJrUnJjNmFwS0NrZ183cDlOa1M1X016bTJQLVY4VmppSnU4MEtEYU9PNFRUNFF4V19sOWF0eC1QS0ZETDNR?oc=5",
-      "pubDate": "Sun, 12 Jul 2026 19:16:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Jeremy Monga transfer: Man City complete signing of 17-year-old Leicester City winger for £10m",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTW04czdJdUFaUGloM0hCTzJkUFpQU2JHRUM4MzJVOFU2a3REanV2X0VYclNyb0J2Tm54U1NMZGxpb3k3anNLTlZrejBJUmc5WW9sR0xUVS00UnM3bjlZM28zdmxxNHU1VVdnb2pkTzdnMWVlSE53V0hzTDdHa09qaHZzbDV2VHRLTW5uSUI4OUw1cmNHeWpyeUtZZUFHaV9vZkpYUVpvb1RLeFMxWTZuc0JrM2FMTHZJR0RlUEFZSmhRUF9UX3YzTXZUN0Q0N1I3QV9Td09n?oc=5",
-      "pubDate": "Sat, 11 Jul 2026 10:28:18 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Manchester City beat Arsenal to signing of 17-year-old Jeremy Monga from Leicester",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQejVNX1RsdE1ZNWhCTjhkQW03dU1heVJHeVQ0bHdJSHVpUldpMGRITG50UkwySk9obUt4U193S1dRS3R2QkRqVzlYUWo1OGtmSWloUW5vUExnMHhJNXpPak5HQXBER3JkeEc2bkRDWmxpa0xDSDhGSHgtUFl2VDhnMENfLXV0WEhUQmF1YTQzNTE4NXFtWG1JS0tJN2h1eU1oaFNCVTdnSzZGU0V3MkpJaHZfRlhPTU5uN1p3NGtNLXUwTHVPZTBkOEVqYw?oc=5",
-      "pubDate": "Sat, 11 Jul 2026 22:11:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Jordan James and Leicester City players respond to emotional statement after transfer confirmed",
-      "source": "Leicester Mercury",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQc1dnOS1ia0xqZUVvWjA5YmdwZE5XdVRmTTdjVTJiWFJjejBKZDNMU2V6RzRyc0ZYdVlkejJnODdsQmpNMlFxeGo5Z0Q2Zm5EaDdvRmhQbndjVldiVk9vZDRSR1N3VEU0RHpWdkJGTDlYRDVSMExEbmcwN2lSZ3ZqTU1FMk1pZ2ZHcDNYaWVqZE1aMGRoQnI0MnNDOURnbHB1ODNwYzlrcmUxY3pFZHfSAbMBQVVfeXFMTmNLaURzeFFPZENzZTlUMGtlS1YySHBEMk5RQUkya0tzUEU2MlY2dDQ3ZURwYWxVN0Zfcm52cEg1bFpvbnZlSkhCN3ZGZ3ozdl82aVMxanJnYXExTjhWTFdCVjVYN01DdWZDMFZwWFdsTE1LVWx5NjItU040U3U4QkpnOWNjQWFuUFFmR3EtWWJpUjc4UE9mM3BJX0w1cmZvcXcyZUpUTHlLWi1HN3puQ0Y4SDg?oc=5",
-      "pubDate": "Sat, 11 Jul 2026 19:16:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUW9uSmtQN2Z3WDBMNEV6THVfSVBYZ2NNYWdtTl9tTU5WYmU1MTg2TF9Cb3hFRHB6dDdTYTFiVDg0V3RtR2hWZXJ1TVlrUDhZOFY0MnN4NThoc21BSG9KOU5sYk1tbVBsbVluLWpQMElRQl84SXJTeEZTRXo3QktVNXJWVnowRHM0WkVHdEdlSGRobG1UMzFwT0Q2NW1ZYklTbVVQUWVsbHTSAa4BQVVfeXFMT09tUnB3OXhNOTVZRzA1OUZQRDFlelgzM3VCTkJ1dndKRTYxOEdoN0N4TkpjdEdxRFpPckRROHgxTVVBSFUwT0xGVVdjeTc5V0JYTjRxNWRyV3RJTElJYTRxQlp1OW52elpjRXA3RWpMVFhyY3AyNjBMNlQ1WEdzZlEyOTFvcTRKR0RUOW9HWjR6LWNyZ0xKbHYzVFA4ZFNidFRUbHlOOWZ0OFhUNXh3?oc=5",
+      "pubDate": "Sun, 12 Jul 2026 10:00:00 GMT",
       "category": "transfer"
     },
     {
       "title": "Match Preview | Bristol Rovers v Leicester City",
       "source": "Bristol Rovers Football Club",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOR0R2UWlzYVRLeHplWURtNUhuaXE0V3M3cVdXMXJVWFNYNklwSzlCb0lnSzd6b0ZkMGJKUlBBZnVJYjVTLXluNmN3blF1YkpTOVdUYmsycmdWQWVCdm5CaDhzc2VFQjRUc0NpOEgtMXBTU1lsTEhIYTFPMFVoSU9xUkNIbksxQ2s5UEE?oc=5",
-      "pubDate": "Mon, 13 Jul 2026 13:13:45 GMT",
+      "pubDate": "Mon, 13 Jul 2026 14:57:26 GMT",
       "category": "match"
+    },
+    {
+      "title": "Jeremy Monga is Next Up.",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPUE1RUFluck1udXZuZjk2TzlSVkMzcGNnZGU4RnYtdGt2bHQyVkMzSHlhZmlwdWI0d3hQV3VQOUFMY0tkaDdHNUhISFkxWHY1QlBGRHpVekFsMndoLS1nek9DejAweHcxak0xVjZFcFl2eC1TTG5OdGU1RzExUUNYU0xoejVzbXVVdDQySmFpa1pKOWRHbUJTWlV2aktJT1ktZm5zY21NbFpsWC1nejVITV8tZ01ucjdhVlk1TDRtUzVHNnVKZU1tSUVabWwyWnJjR1gtTEtadXJNSTNHR2dBaF9xR0pNSUIxanJGVmM3ekxIZS1RZkFfNXVXR0RVUUxrZlE2QmdXYVpwcWlKTk11TmNn?oc=5",
+      "pubDate": "Sat, 11 Jul 2026 09:16:30 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Leicester City Face Disadvantage In Jeremy Monga Replacement Chase",
+      "source": "Football Lowdown",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPczZhNi0yWHd1V2dWNmVZTWFLdTZpMGFhcGR2enVSQ2w1LUhHa3k1VncyRnU4VTR3YlNqNU5LY0NiWHdlOGY2Um00bjN4OVBiZDF3bmZpTGdGLWlrQWdfbjlXZW94YmlNMDR0Wl8zX0FOMTJoYkFxc3JnbExDZTY3ZE11b3VMMlJBS2hYT1lQNnMtOGJYQlhVMUhXSQ?oc=5",
+      "pubDate": "Sun, 12 Jul 2026 10:54:34 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Why Jeremy Monga has chosen wisely as Man City beat Arsenal to teen star",
+      "source": "manchestercity.news",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPak5wTlp1akdxUXVFZmpuUDVxX094MGNZalVsaVhaRW53UEx1emVfTVI2cVd6c25ZUmxObWs1SEMtSzRlZkc0c1hYdzV5VXBLX3pyS2VkaFJxbnltbmU3ZmkwSTNxMFB3ZmdYYllMSkJselMxSFF4SUUtTzFYOVRMekJxT2RZbnJUZTJPaDd5RHNwN2RDME9oc1MwUFdzdzZCYVhmMDVOM3I?oc=5",
+      "pubDate": "Mon, 13 Jul 2026 06:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Leicester City 26-27 Away Kit Revealed - Classic Crest",
+      "source": "Footy Headlines",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSkpHY2tfQXlJQ2tvaXpmUmdiclI1Ynpvd002YTcwekdwR2dwVUpmR0s0bjlybzU4TTJLWlp3cGdFV3hDM2xzbjZSenNpX1VoV0VKei1HZ0pZT0VqR3dKOEVOa0dncTI4dFpCZ0w4TFdyNjVwbWpySXBiWGJaLWJlSFVnbHA0dW03cHRGYXhPTTZ5aHVXM2VoZlBEdy1XZWRF?oc=5",
+      "pubDate": "Mon, 13 Jul 2026 20:11:51 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Leicester City 3-0 Northampton notebook: Player ratings and Josh Holland's key talking point",
+      "source": "Leicester Mercury",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOEk5T0lzMHoweHRIb2hfS196LTZ0SkVPZVQtRlRBVlJ6WWdPcnpCS21ROFk5Q3FWcjRRc29hMkRoMjhNN185ZFFNMFk3VWk2YWVsSFY2dGVDc0kzdmx4V2xLRVFYeGY4Nmp0Zk45T0RWVUlKNDUzQ0lPUFVHVVpVVXhOQVJuMzI0RFBuYndkdjB5cWpjaVZ3NHpqVF9hZmlxeGtPQ3BrMzB5ZzJKakd4TkFXdDY?oc=5",
+      "pubDate": "Sat, 11 Jul 2026 13:07:00 GMT",
+      "category": "general"
     },
     {
       "title": "Leicester 3-0 Northampton (11 Jul, 2026) Final Score",
@@ -80,25 +59,46 @@
       "category": "general"
     },
     {
-      "title": "City Beat Northampton In Pre-Season Opener",
+      "title": "Team News: Leicester City vs. Northampton Town",
       "source": "LCFC | Official Website",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeko1cjJxT0NkNDJBUkp1YUpheldvNGdFcWRyQ1k4ZDZPcnpTdnBNYVFhSXlLV0t4NmdyUHE4OExFR1ZHYmN2ZWhzN19FSXNYWm0wTERpZGJjWUp0N3EyQ3ZvNkQzV3RmUWRqNDhyS1h5LW5oVlhQSHdtQnFGNmxkc3piSWJnWDZaQ25PbkpLMlJrRExDSXJzZlFhNVdYT1RUQnFvODdJSnoxREpFd1RJM2h3T3pUTGpEUkZoRUZFRG5CX2g0dXVfeWdBN3dWd2xiaG1z?oc=5",
-      "pubDate": "Mon, 13 Jul 2026 11:00:31 GMT",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOWkttdWtMZ3R4YVJ2YUZCXzBzYjBCRmJQWFZEYzVRa2ljempYTzBoUWtSelF5LVQ5b295TnBSTVYxN1lacjRsblhvX1ZaYmVEMnJIcEFVekFUc0dtLXdLa3I3VmJqck9kUkJKQkpRRllqcE1MQlhwR1lseXdnT0RiWnVzZF8wT05nclpKUWlFbE03amVSQlhqTDhFZlVhQWQxS0tSV05rN3BJYmNCRHJYR1NsQnpKaDF6TDNhZjAwRXdsNWY3c0l2RVI1aWNHdHpZUmNoZmo5Yw?oc=5",
+      "pubDate": "Sat, 11 Jul 2026 09:45:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Leicester City agree deal for Premier League veteran as summer transfer nears",
+      "source": "CaughtOffside",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWlVIV2Y3Z3dQQ3NxQ0JKRURVZC1Pa1E3TXh0ZXBVOXBTY1VBNHlBZTY2WEVjOG5QczdCWGo1RG9XVk9yU0VobVpURGtqUVk4WjYxTWVVZ2dpUnY2Q3VyWENneTRkWFh1UkVDOTdBMVk5RUhBRjN4WGpyTlF3eFJ6MUVidmF5UDcwQnJwYlN3SmowQld1YTBQLVhQTmtMcGhYOGk3S1FxeUlRQVh3MG1zQWVQREIxbS0zcmV30gHAAUFVX3lxTE1YT1M4dW9nS0VsNUc1Y0VEQ0hXdUZCNnpaYnBlcXM0eHBNYmQwdHJFMDJhSGZ2UFJmS3lVSlc1SFZuc28zdHlEX1dacVdmUXRTallRYlRNbFdDeHA4bkQ5My14dlFIOWJKbkxvekVua2xJelMtb0Y0VGVibWFDdDRvRFduZkhIWFdUSGxCUHRGMXRLU1BNeTQzakw4SnR0TGVmdHFLNE1NWWFJQkRRUFVfTDB6NFdrQjB3U0JyeU5yeQ?oc=5",
+      "pubDate": "Sun, 12 Jul 2026 08:00:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "West Ham, Derby County and Leicester City among SIX clubs keen on Sunderland play-off hero",
+      "source": "Sunderland Echo",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPQ2NyMlhFaldoUkx1RS1rZzJrUWJpQUZESEpRSkNNdlViM2xsRm5BZzE1d1k3bXA1TUtRVjFDdU42ZXVTem45TUFVT0h1WmF1S1d0S25QYlltWnQwQS1PTHFlTWV3YWdKekVxUTZuRi1vWDlMempJVVVYMlJjbWs4SFpTVW9NbzNzeFFNb3JwQ2RXcklzT0lzY2loYlVPSkZEVmctOE5faGlKMHlUTWd5RlBoQTl1Y0J5elVFWmRRaG1mTUREMkpFWHJNM21CcEhsaXFrR09HeG11cFY0WDFrVEpCWTBpeUROOUMzOUs2VQ?oc=5",
+      "pubDate": "Sat, 11 Jul 2026 16:31:00 GMT",
       "category": "general"
     },
     {
-      "title": "Gary Rowett: Leicester City Appoint New Manager Until The End Of The Season",
-      "source": "LCFC | Official Website",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbE94OS1DbmZUWWRaRG11YmQwelBROGs3b2I4bENKUU9GcnptZk5NVjVnSE5oUnhlOVFhWTJBUXN2aXlseTE2T2JQWjBzdi13Yl9yVUc3LTY0X0RrVGlZOWVUTlVKUEVldmR5UmhfODJFV09ELUFsTHRfenZXUUN0VGpNMXE0cnFCTUpwTEplaDFiQTlaVG9j?oc=5",
-      "pubDate": "Mon, 13 Jul 2026 11:00:15 GMT",
-      "category": "manager"
+      "title": "Leicester City confirm Victor Kristiansen exit as loan agreement explained",
+      "source": "Leicester Mercury",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSDk4TENZak44NXAtQVRLcG1uQ2pZSTNJcXBGeW5xcU91dEIzQjhCYjhJYTFBLXRsX0tPazBHcy0wU3RPcUpaRGdVSExVdGZXWWE1VmoySENGNkZINng3YlBaTDhGU09DNVF0akFVbEFzMnJaWTVnZGhjWUs1QlFLcmRIbWV3NTIyMzlpYW9wQzI5dXFtOGFQeXYxbW5iRVpoZXVQT01ZX1o1QmZHTEpTdQ?oc=5",
+      "pubDate": "Mon, 13 Jul 2026 16:50:00 GMT",
+      "category": "general"
     },
     {
-      "title": "Manchester United set to finalise Youri Tielemans move from Aston Villa due to £35m release clause",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQU3lHaTE0RDBkRGJwdlRRVklLeXRnSU9Od011X1pIdWlJcGdEdzJ1Zy1QS3ZuT3QxWGV0NlhiVVYxdHlaR3lXTnBpMG5lUGFSd3BVMmFGenVxM2NpVjU0Tk95MUZ2RzNZLVBiczBfS2xQNWU5Z2dfTktTc3lweGR6ZVR4N3NTSV8zQk9xWFhUQXZ1M3cwcmptUDgtVVNNSXMybjROVlUwb3VWWTA?oc=5",
-      "pubDate": "Mon, 13 Jul 2026 15:19:27 GMT",
-      "category": "general"
+      "title": "Harry Winks on the verge of European transfer to end Leicester nightmare",
+      "source": "talkSPORT",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWHNSOF82M0hodERxMEdHU0EwRFpBd0hYQjg2Tzl3YU5Pc2IxMThKNk1La3JkRGl1cjBPa0lQck1ONkI4cHlBZmktRjR6MGhlLVlyY3pNbHFLWVBGcm81OGE3SU9wNFdRaElHTGdYWmNjOWVyMFJlOXdHTi16SWFCVS02bEY5WGRaYVJ6NjhaemM3QkE?oc=5",
+      "pubDate": "Sat, 11 Jul 2026 07:47:39 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Conor Chaplin to Leicester City close to completion as 'medical' booked",
+      "source": "Leicester Mercury",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbmZ1aklzT1BtWUtOejJDb01BbUY2TEg4TFh2OXZyMkJNeTZwalNLZWtRdTdrNk9qOEFUVk9VSmJaa1ltX1FWaU9IX252RFJyT1padmttaTg5dEx5dGVvZmNFZDd1c0tSN3pxSkRBSEo2VTJndk1kNWlYYXRkN1I0akdQX1VLdzVrUEx5VG93UER6RTczOUc2SUZHUGdyT25HWGJMT2xSRVlVdGRCZ1E?oc=5",
+      "pubDate": "Mon, 13 Jul 2026 10:00:00 GMT",
+      "category": "transfer"
     },
     {
       "title": "Next Leicester City manager odds: Who could lead the Foxes in League One?",
