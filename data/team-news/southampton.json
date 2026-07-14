@@ -1,14 +1,7 @@
 {
   "slug": "southampton",
-  "updated": "2026-07-14T07:48:31.841Z",
+  "updated": "2026-07-14T19:07:38.839Z",
   "articles": [
-    {
-      "title": "Six foot four, twelve grand a week; Southampton must stop wasting this asset",
-      "source": "Saints Marching",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRUNmMW9MYWZsQnY2clBMczZFZENGOWVaVGFOeU04YTE3MHhLeU96cHludzBBcElQcU1oS3l0c3Qzd25hQVh0a0psUlpIdkJGdHd5NFR3NW52SWdLVkM2enc3c2hrX0NrY3hteWNoSlh5SlhrdUJyNS1zT2lBTW0xemh5MUlSYmR6MDZpeGR0b1FDQlBBRmNvM0sxZ0dUc0M2bUQ4?oc=5",
-      "pubDate": "Sat, 11 Jul 2026 13:00:04 GMT",
-      "category": "general"
-    },
     {
       "title": "Tonda Eckert’s Southampton future unclear as FA investigation into spygate continues",
       "source": "The Guardian",
@@ -31,18 +24,25 @@
       "category": "match"
     },
     {
+      "title": "Shea Charles transfer latest with Leeds United warning for Southampton",
+      "source": "Leeds Live",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcjhhRy0yUmJwVWttQktVVHZoNXozZ0dCTGlkWVlrR1doNnJidTI4anh6REFjZjQyVm0zcUw3cFRQaWNnTnlCWENnemljaFJ5RDRuMEphMnVIRFcyWVluN0t5QXZ4QW43azRDN0dQLTdUZ2Utdlo1N3p3WFhWdFFraExUTUNUV2VoSHdvTVFiRERsc2F5c0E?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 09:43:53 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Dragan Solak Makes Huge Statement About Keeping Leo Scienza",
+      "source": "FansNetwork.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZ0luTk9abE1JeHd5Q0h6bjFBNjNVN01sTC1XcWFaN1JWOHVDcDlUdXl0S0t6NndkZE9tdHpvWm9rZ1lJOWhkMnFuLTRPbmhJVThOY21pYl84VkdJU0FvNTZDRjNWTGpZSGlvT3RRX2ZzMjBlUnN4UVNZWVloa3VrUEVXbmtEa0tkQ2hDNE11VWZzS3VGREswXy1hSEhWRUFtNGRZWHBleVlKRkdrXzdpVnR6eTdESDFxZzhGLTV3?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 12:22:36 GMT",
+      "category": "general"
+    },
+    {
       "title": "Boro's Kim Hellberg forgives Saints and Tonda Eckert and closes book on Spygate",
       "source": "The Sun",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNekRwYW5RWGZwR0dyX09vSFdqVl9kN3Q3LTc5VUhBOGN1X1dqMlhwRlZDR2Y5VTlBcFBXbFlPVnRtSnlOanRIODhYNV9iZm9zWVFlR3lhLVpKV2I0ZGo5YXd3c2NSVUNDakF6MjdiNlBTM2JEY1Jzd1NKZUVuRnFEbGhMTzhrd3k5NVUycnJ1Ti0?oc=5",
       "pubDate": "Mon, 13 Jul 2026 16:00:00 GMT",
       "category": "general"
-    },
-    {
-      "title": "Shea Charles decision a major step forward to Leeds United transfer",
-      "source": "Leeds Live",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMFlfVFJXdmItWDY1aWpnN3oza0VxSV94MHdrRXB3cVBQNmtzQTNBbmRHWXF3UFJ6ZWwzdjNBRDlxdm1lTEcxcVB6NVdBdTIzbGI2ZzlaX29Kdm9hNVFMMGMydFplQnItbzNBVUVPR2NPUFFLcDl0ZHg1S0liNzJBc184bUFFamRQNEdhSldhRTVHOTQ?oc=5",
-      "pubDate": "Sun, 12 Jul 2026 12:16:41 GMT",
-      "category": "transfer"
     },
     {
       "title": "SOUTHAMPTON TICKETS ON SALE TUESDAY",
@@ -53,23 +53,23 @@
     },
     {
       "title": "Southampton's Spygate intern lands permanent job with Saints despite play-off axe",
-      "source": "Mirror",
+      "source": "The Mirror",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNajhmejhvaUJ1ZlRjMWdYdlVhMWZXajhnUGl5Vm44ZGJHektpaFF2NlMzOVMwQUNtb1R0RUJuQjFXbi1QaWQ1RWVwQnpLSEdLSDZIajRRSEdxTHgyQ1RVOVZnSkR1S1VPUk9VNzYyLXRmMUQ0TVMwZUc5amJVaDhTUjk5WTVwQXhZM3N3OXc1Y2tYU3RvVHlN0gGcAUFVX3lxTE81c0RaWFVLOVpzQ2NFT0Z0M3FoQUotUTU5WEYxZW1QLS1aV0RGdGhVWFc5bTJocGZpSkZFVnY5NFllSEdBTDlhamxsUzhiNWQwbkFrNUY3aUNXVHVmaTJTQVU0UHFFalZ1ZGZZa1ZsdVlhbWk4TFJpb3Q2eGNpSmt6YlFWMWU0RC1hazhaYXc2dXJPSC1Nd05FZE1DeQ?oc=5",
       "pubDate": "Sun, 12 Jul 2026 20:46:00 GMT",
       "category": "general"
-    },
-    {
-      "title": "Former Saints favourite Romeu completes transfer to Japanese club",
-      "source": "Daily Echo",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeGVCdDZmOGdOSDZPOEZkZFZFZFVMcXdwaXNWMWRXeDQ2Ymg4b1Q0MG9mb2puMUxralBVQ2pqV0tWWFlxazZMMWJsRzVrVk82Q01sb2FLRUdzbWVfUFdFTkZSRTAtWFRhOXU4UzdxaGloYnhhR0lJZ3ZxNXNoVlhhWFNKa1hYQlNJYk8wak9LWHhNc3FjTzg3TkxzTkE?oc=5",
-      "pubDate": "Mon, 13 Jul 2026 15:58:44 GMT",
-      "category": "transfer"
     },
     {
       "title": "Saints agree deal to sign Aston Villa forward ahead of Championship rivals",
       "source": "Daily Echo",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZ0U4V1o3OF8xeldZSDBIYWVoTnp1Z0RiTU9sNlBaSjdNbE9PQnJsLWhFbmNsTFp4Z3BKU3lvd2pfRmNZN2x3NVdjTkgybk5ZU1lZbnJXdHI4ZG5TcGpHSk5yYUNEY2Q4UEtZek1JVS1lb2V5VEVtRnA5NDdjeGZFYW5HaF9VbXBtUmVISHVIb25zb1R1LXc?oc=5",
       "pubDate": "Mon, 13 Jul 2026 08:12:24 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Former Saints favourite Romeu completes transfer to Japanese club",
+      "source": "Daily Echo",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeGVCdDZmOGdOSDZPOEZkZFZFZFVMcXdwaXNWMWRXeDQ2Ymg4b1Q0MG9mb2puMUxralBVQ2pqV0tWWFlxazZMMWJsRzVrVk82Q01sb2FLRUdzbWVfUFdFTkZSRTAtWFRhOXU4UzdxaGloYnhhR0lJZ3ZxNXNoVlhhWFNKa1hYQlNJYk8wak9LWHhNc3FjTzg3TkxzTkE?oc=5",
+      "pubDate": "Mon, 13 Jul 2026 15:58:44 GMT",
       "category": "transfer"
     },
     {
@@ -80,11 +80,18 @@
       "category": "general"
     },
     {
-      "title": "Eintracht Braunschweig vs Southampton",
-      "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUllkX2FzUUx5SHppQ1g3OVBtdGZkT3ZwbjRGbUVMczhKdzRPSTZ1aHJaeWlyRjNJR2NBXzJyZ1NDSTNkYW1UbVFxd0NDZUhSVUVBUUJwX0k2cFkyVEZHZmlLeUc4SEZvRjJyRGkzR2s5MDA4aloxdTRwS3o5aThzaFVQVE1nR1A3cVVEbWlQTGc4dw?oc=5",
-      "pubDate": "Mon, 13 Jul 2026 09:42:23 GMT",
-      "category": "match"
+      "title": "From training ground to courtroom: The legal lessons behind ‘Spygate’",
+      "source": "Legal Cheek",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcjRkM3NQUjc5dE5JRkFKNXNIMlJ5V3pGaTdUX0wtdGtGNFI2TTZnYnZUZkhWVkhtZTNQNHJhMldkZ0FWYmZlaWc0TWViZV9GSGxaYy02cXRDSklSSmJoR3djYnZaWU5zWWswbUh3Uk1aVklvQUpNY24xOTdOWi1NQWxFbGRnVTY2NDRrN284TWhRMG5GUUxMWkdDX1puZEhtdERTNzRxaEVuUmRKOVJOVVhfSW4yRDAyOGxr?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 07:55:37 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Southampton opens talks to sign Iván Azón from Como for €10M",
+      "source": "Crypto Briefing",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5oOXhXR0U3TWJVckZZZFNScDFvVkxQMXdlRlNfaWpSaExqTGx0U1JmbXZFNXhpdzBCUks2UFBYU3J5TTBEeDYzT2VoZ3RoTjJud2c5aEtmU1hkdHdpVXZFc1Q2aUlESFJwWWxCMEREdTg?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 17:33:39 GMT",
+      "category": "transfer"
     },
     {
       "title": "12 first year scholars sign for 2026/27 season",
@@ -94,17 +101,10 @@
       "category": "transfer"
     },
     {
-      "title": "Saints reveal new men's home kit and sale details for 2026/27 season",
-      "source": "Daily Echo",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU0pKSjRLaEdkSDdYZnhDbHRBUzQ4M1d3RFA0UWFYR3RwWXZMeXF5TC1RQ3ZSQTZROV9zTnViU2NJVTBIeVJKTXNBakZqNi14a1Z2LV8yOFd4UTNFdndtR1RiOXl5NldNRkdickI0bTBtUTVFanhuME92WDJaNVNFb1RGRm00aXB5VkR4dUlIdUhYeTFHN2VkREd1UXc0S0Zf?oc=5",
-      "pubDate": "Thu, 09 Jul 2026 08:56:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Digital tickets are moving into the Official Southampton FC app | Southampton FC | News",
+      "title": "Saints set for second German pre-season friendly",
       "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTHZOeXJoRnRHVUkweXB3bVRrNEQwWnBLd0xmaVNjczA0QlZuV25rUHZLc1pZcFl0WlhjZ0JFcGZRWWtZYkE2SERIQjV1MmhlbFo1bXhUMFlZajR6NG00SGdSSWRYVkZmbHZMaWE2ZnlSeHBFVjEwSkpJdGNqRGhjSzlrdTlVcGhycFR5bnFKWlVSekZUcVdWU3V4NXlrVFJyTUhWSTZ1aExqZWZ4TGc?oc=5",
-      "pubDate": "Fri, 10 Jul 2026 10:58:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQnNsb1ZXQmhKZXFWOExFRGlKelN0d3B5TERMWmNCeS01NVZ1TDV2Slp4X0Y4Z3dtWThtdnVzUHZPYkZtdXVldjR4SExVYlBWSmY4WVBoaFpnZDJvaHlqMXBybXpyanNEVDJHOHpwUm1NclJOOGptVlptTVB1emt0dEw0MnVid3hCYkpLZUU2cXlJR1hvR0k2d3N3?oc=5",
+      "pubDate": "Sun, 12 Jul 2026 09:00:00 GMT",
       "category": "general"
     }
   ],
