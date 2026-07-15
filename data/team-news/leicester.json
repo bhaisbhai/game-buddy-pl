@@ -1,12 +1,26 @@
 {
   "slug": "leicester",
-  "updated": "2026-07-14T19:07:38.839Z",
+  "updated": "2026-07-15T07:52:12.833Z",
   "articles": [
     {
       "title": "Russell Martin welcomes Leicester City errors as players adapt to new demands",
       "source": "Leicester Mercury",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNk0xR0FZQlJRaC1YMG9HTmtENXBiVHA0TUhLekozQ1NRRllFSHZiUGVNRThqSjdnd0YzQmtuaG91Z3hrUkZKd0N4N05uYnJfTkJCQTJrSEFKM1dPRXBzakRUZWFMYW51THdBdENuM0puZEE2YnNoMnNBVk1SLWdTTkNtQlk2YWxKYUk4aFdwbFpnX3YxZEFweVRJcGpESTRuQ0VKS1NvMTYyZVJfSVE?oc=5",
       "pubDate": "Tue, 14 Jul 2026 10:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Women's Super League: Everton sign Leicester's Noemie Mouchon",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13X1BIVjIzenJSWjFtd0YtNWo1YnEwR052c0Z0bzdEdHE1VldXNk1ycTlUNkFQd1lWQ2tEZnAybVItcFlnYV96d3ptVnN5VjZLalg1bUV3Sy1sWlc3ZkJ3YXNLU3M2NUx2Zmc?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 15:44:03 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "£7m development emerges as Rangers eye shock deal to land Leicester City star Stephy Mavididi",
+      "source": "rangersnews.uk",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOWmt5T1JwaXJGdVNXeWxPZG8wdUpWbzRMaXFFbkFVM2NlU2lGVnpoam9NR1NPWnF5VlhiQmVKU1FTTjRqNG5hUGswOUljWHhxT3RZZGtWOFhUbE0tMWJSRkFmbkZUZ3IwbVpVSG90eDNNcXcyV19sajVVN21ZcG9TTThraU1nd043Q1hJRV9wbUF4dVFJOTFtUk4tTDJ2UFp1YXgwTTMwNExQV3RWNXJmX1ZNdmRKWHg2bU5odmlnazVGMW1JU0dfbHFOWU55SGM?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 20:06:29 GMT",
       "category": "general"
     },
     {
@@ -17,23 +31,30 @@
       "category": "transfer"
     },
     {
-      "title": "Women's Super League: Everton sign Leicester's Noemie Mouchon",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE83Uy05Nmxwc1dnM3cyUkNSdl9WZUpuMzlQRGpMY3UxcXVvQUIxalVMN3BVeVlCRmU5a1VQS2U3aDhkUjNMemh1V2ZMS0otcVd0aWJWaUhUMVl5TUh2MXJZNHVjbnZ4cG8?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 15:44:03 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Bristol Rovers vs Leicester City live: Team news, live updates and post-match reaction from The Mem",
+      "title": "Bristol Rovers 1-2 Leicester City recap: The Gas fall to defeat",
       "source": "Bristol Live",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOc1JjeEVibThhcGlraHRWbWVuUFlFd01iOGNCanJHa3UyZGdQRm8zTVhTXzRlNlBhcmg0MU5HZkt6TjZOMmFJcFV0OVYwX0tXWGZvYjVjdjlBMGFTcXNzb3lHc0FpWmJTaGZkUmYxYlZqai12ckxuYlFqWjRUUjBZMnhOenlfRkxkV29TRThhcy1fUHh6Y3pnYU42Q3FyTURqZ3c?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 16:13:27 GMT",
+      "pubDate": "Tue, 14 Jul 2026 22:56:57 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Bristol Rovers 1-2 Leicester City notebook: Player ratings and Josh Holland's key talking point",
+      "source": "Leicester Mercury",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObzhYSHVmaHdzWC02NEM5cndyY2pUazFkdmp3bG5lTG9WMkpqcEhwWXMxa2xnamR3Rl9UV1hxb3BHX2QweVNCd3pCaXZtMnZ2YjhwSW14QWdQNk9YWHdLRGRwYTRUQVM4aDRBYzRSV3hjMHlBM08xYXpzOUstMi1ZbHZJZVBWN3FraTdhX3JCREVBTUZBQ09qUnc1UFVIaGNVWkRrOU1OaFlVQU9iVldR?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 20:33:11 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Match Preview | Bristol Rovers v Leicester City",
+      "source": "Bristol Rovers Football Club",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOR0R2UWlzYVRLeHplWURtNUhuaXE0V3M3cVdXMXJVWFNYNklwSzlCb0lnSzd6b0ZkMGJKUlBBZnVJYjVTLXluNmN3blF1YkpTOVdUYmsycmdWQWVCdm5CaDhzc2VFQjRUc0NpOEgtMXBTU1lsTEhIYTFPMFVoSU9xUkNIbksxQ2s5UEE?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 12:06:54 GMT",
       "category": "match"
     },
     {
       "title": "Victor Kristiansen: Leicester City defender joins Panathinaikos on loan",
       "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1wRE9nZkp4YjF3YlBvbThEMjRLdVh0QUptTXdEdzlLT2c1TEZBbk5OUW9qc2JXMzktUzNLdTVpM1RLZHlmRVNnREZMS1RiUGgxYXJqZHNpM2txOVZQY19Nek15Vk5nYU9VNVE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE91ZXpmeldEd3V5aU5qYjl1Sk0zNXpQYXQ3LTVNSC1Jb2NOcG9IckQ2NWkyUFZaVm81QUhMTTVaUm5oZXJkcW5kSnlmOEg0ejdIQzlxSGJ1R1JWYzBaNlM5WTk5RGRHdzg?oc=5",
       "pubDate": "Tue, 14 Jul 2026 07:52:18 GMT",
       "category": "general"
     },
@@ -41,15 +62,8 @@
       "title": "Leicester City 26-27 Away Kit Revealed - Classic Crest",
       "source": "Footy Headlines",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSkpHY2tfQXlJQ2tvaXpmUmdiclI1Ynpvd002YTcwekdwR2dwVUpmR0s0bjlybzU4TTJLWlp3cGdFV3hDM2xzbjZSenNpX1VoV0VKei1HZ0pZT0VqR3dKOEVOa0dncTI4dFpCZ0w4TFdyNjVwbWpySXBiWGJaLWJlSFVnbHA0dW03cHRGYXhPTTZ5aHVXM2VoZlBEdy1XZWRF?oc=5",
-      "pubDate": "Mon, 13 Jul 2026 14:50:25 GMT",
+      "pubDate": "Mon, 13 Jul 2026 07:23:00 GMT",
       "category": "general"
-    },
-    {
-      "title": "Match Preview | Bristol Rovers v Leicester City",
-      "source": "Bristol Rovers Football Club",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOR0R2UWlzYVRLeHplWURtNUhuaXE0V3M3cVdXMXJVWFNYNklwSzlCb0lnSzd6b0ZkMGJKUlBBZnVJYjVTLXluNmN3blF1YkpTOVdUYmsycmdWQWVCdm5CaDhzc2VFQjRUc0NpOEgtMXBTU1lsTEhIYTFPMFVoSU9xUkNIbksxQ2s5UEE?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 05:35:10 GMT",
-      "category": "match"
     },
     {
       "title": "Leicester City Face Disadvantage In Jeremy Monga Replacement Chase",
@@ -59,17 +73,17 @@
       "category": "general"
     },
     {
+      "title": "Leicester City boss Russell Martin explains Wout Faes captaincy decision amid transfer reality",
+      "source": "Leicester Mercury",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPaTdJcW1QbEdGYmUtMDFDLWpibVhWWnQzVGtYZ3htdkFLV2FzUVg4Mlc1dDRkRzF6TW80Mkdpb1EzbU5DZDdycFdUMXdLU2FYVGNYV3VuejcxLVFCa0pPYWdEY1VEX2pNaTVSR1dPeGwwSWMtY3RmcFNGVU84Qmt1ckpmZWVVS2pCOHhZQUtnN3BpRWI2dTRidzJMYVJMcGxHZXI0a2o0R2rSAa4BQVVfeXFMT0FlbTBTNWdNRTgxYmI1TDY4N3daRXU5bmd4M1J1eEg4eXpQSk5kRFctU0ZEOUppQnVieGhEcnlMbVVqSXNua1BGZG5UWWVaVmdzSDRXTExVa0V6Zm1Xc0djSV9GTW0wOFg4SW94LUZ0Z01WbXdXZGRQU1VFdXBxd09YRjFucFJCS1ZSWXZDMk5ONVY0R25mQ1kzNkQtNHE3a1RsS2NuZ2ZXbE5TbkN3?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 21:28:04 GMT",
+      "category": "transfer"
+    },
+    {
       "title": "Leicester City agree deal for Premier League veteran as summer transfer nears",
       "source": "CaughtOffside",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWlVIV2Y3Z3dQQ3NxQ0JKRURVZC1Pa1E3TXh0ZXBVOXBTY1VBNHlBZTY2WEVjOG5QczdCWGo1RG9XVk9yU0VobVpURGtqUVk4WjYxTWVVZ2dpUnY2Q3VyWENneTRkWFh1UkVDOTdBMVk5RUhBRjN4WGpyTlF3eFJ6MUVidmF5UDcwQnJwYlN3SmowQld1YTBQLVhQTmtMcGhYOGk3S1FxeUlRQVh3MG1zQWVQREIxbS0zcmV30gHAAUFVX3lxTE1YT1M4dW9nS0VsNUc1Y0VEQ0hXdUZCNnpaYnBlcXM0eHBNYmQwdHJFMDJhSGZ2UFJmS3lVSlc1SFZuc28zdHlEX1dacVdmUXRTallRYlRNbFdDeHA4bkQ5My14dlFIOWJKbkxvekVua2xJelMtb0Y0VGVibWFDdDRvRFduZkhIWFdUSGxCUHRGMXRLU1BNeTQzakw4SnR0TGVmdHFLNE1NWWFJQkRRUFVfTDB6NFdrQjB3U0JyeU5yeQ?oc=5",
       "pubDate": "Sun, 12 Jul 2026 08:00:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Jeremy Monga transfer: Man City complete signing of 17-year-old Leicester City winger for £10m",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOTW04czdJdUFaUGloM0hCTzJkUFpQU2JHRUM4MzJVOFU2a3REanV2X0VYclNyb0J2Tm54U1NMZGxpb3k3anNLTlZrejBJUmc5WW9sR0xUVS00UnM3bjlZM28zdmxxNHU1VVdnb2pkTzdnMWVlSE53V0hzTDdHa09qaHZzbDV2VHRLTW5uSUI4OUw1cmNHeWpyeUtZZUFHaV9vZkpYUVpvb1RLeFMxWTZuc0JrM2FMTHZJR0RlUEFZSmhRUF9UX3YzTXZUN0Q0N1I3QV9Td09n?oc=5",
-      "pubDate": "Sat, 11 Jul 2026 10:28:18 GMT",
       "category": "transfer"
     },
     {
@@ -80,32 +94,18 @@
       "category": "match"
     },
     {
-      "title": "OPPOSITION INSPECTION 26/27: LEICESTER CITY",
-      "source": "Burton Albion FC",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTmFaWWc1WS10TU1wMUNLSUx6WDR0d1RFNW95MC1uNUtCUzRSZVBRU3ZvOUc4NGc4OENOZTdEajdqRlk5MkxNNWxLTkZON3ZKUVZYOHFtR243SnpJUUdodnFkRXNvbGRzdFV4dTZzbkdWZkZES255VmNSSF9FQURpN01OWVFkSDFkZmt5VXpCempYV0lsRTRHYVRZNA?oc=5",
-      "pubDate": "Sat, 11 Jul 2026 01:01:23 GMT",
+      "title": "Leicester City analysis: A story of financial, cultural and strategic decline",
+      "source": "Squawka",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZWN2MzN0NmZWcUZ2TE9aZ2o5cUNsZzVVV0l2bEU3OWJHR19VYlJvazNGNXFhaDFrR29JLVZIOEJoZUxkelhJQWdXZUVNYVZzc21PY2doNUYzekpraEdKSHB6b3lkbk9uV0xLYnlrNVdVM2hRa1Zfd3RyalNWMGtONXVGT01KQkpwWnp2Mk9hR1A?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 22:32:13 GMT",
       "category": "general"
     },
     {
-      "title": "Noémie Mouchon joins the Toffees | BWSL",
-      "source": "WSL Football",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9FZzV2RUNiTDRiSzFtZDNESEdJVzdLTV9wdWhCX1oxT3RNWUtTbzc2VjFiUjVKRGZQbTU3VmhaQ0NfTXVjVzhjNUZERk9uTzZJdzVqY0JrVFl1ZzdZYWtsZXlkUHhNRVAtZS13cXB1Qm5ZMlhpV0huWg?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 16:05:12 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Northampton Town Football Club",
-      "source": "Northampton Town FC",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNa2pKX0dmVklFZ09FV20yTGNHOTY1alYycmRWU2VGWFZ1OHpoV0FReXE0OXB5aUVaZ3lFSzNIUHZVNkxRWUdiR0tTdFM4N0tNOGFOOGxSWVJ5MEZoMHVTaTUwNWVpZ3FPT2VwNUJPSmdxelViWHNrNlpEWERLTkZFX0plTjBrTkVVUWduUFc4dG1LQV9yOWxSekJCb2E?oc=5",
-      "pubDate": "Thu, 09 Jul 2026 09:41:08 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Leicester City 26-27 Away Kit Released",
-      "source": "Footy Headlines",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVW9JUVEzUHlkX3ZPTHNUTWJSMGU4SVdQalY4V2xIeThoSnBQZGdxWkRFN2NOako3YzZ6RUNhVTF4dWRVandSWV95c0taWFRZUWJrUnJjNmFwS0NrZ183cDlOa1M1X016bTJQLVY4VmppSnU4MEtEYU9PNFRUNFF4V19sOWF0eC1QS0ZETDNR?oc=5",
-      "pubDate": "Sun, 12 Jul 2026 19:16:00 GMT",
-      "category": "general"
+      "title": "Bristol Rovers 1, Leicester 2, Positives and Negatives, Player Ratings and Match Report, Pre-Season Friendly - tcf",
+      "source": "tcf - filbert way",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ3NUbkc2SnJjMnhRQXExOV9tanVhOTkwcmtRSm5MQmtjcDNXekFZcGw2SlZSLXZpMHlRYzdwUUFnUzZRZDBJOTBwbzNBMDBOazRtQjRKUEUxcWt2WW1uTVU5dlgtMDlBY2xqVVFGN2htS1FqWlZsdXRTQ2E0NDZad3d1VG1WM0tJdlVoLUFvdkpRTjRIbzY4dEFpLU56WWZaUW40RmdlXzlJekdIX0lzX2MtVzNGV0VlcXRaeU5yVFh5dUo4czhMYWxaOFE3elRpaHQzLVln?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 21:53:42 GMT",
+      "category": "match"
     }
   ],
   "reddit": []

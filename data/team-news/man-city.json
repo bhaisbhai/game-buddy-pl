@@ -1,14 +1,7 @@
 {
   "slug": "man-city",
-  "updated": "2026-07-14T19:07:38.839Z",
+  "updated": "2026-07-15T07:52:12.833Z",
   "articles": [
-    {
-      "title": "Monga signs for City",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KT3dpY1RPd1VMN2M1LTBva0ZEZnpVRURwc0tMUzF3NVRyLTZlWF9Jc3dPR3Fiazl3S0haUVNiaHRzSjAwdmwwZDYyYWN5Z0J0UVhSaWktNVVDS00yYl9oR0pfM1NRQ1NmXzBGVEtTQnAyMUh3cmNsamc1ZmZBNlE?oc=5",
-      "pubDate": "Sat, 11 Jul 2026 09:00:00 GMT",
-      "category": "transfer"
-    },
     {
       "title": "Forgotten Man City star's new role could be just what he needs",
       "source": "Manchester Evening News",
@@ -17,31 +10,38 @@
       "category": "general"
     },
     {
-      "title": "Ayyoub Bouaddi to Man City latest: Transfer interest, price tag, midfield dilemma",
+      "title": "Rodri: Spanish media react to Man City star's performance vs France as full stats emerge",
+      "source": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNTnNhdGJ1RDN4YWh3MUF4dGxjVTUza3hwWWhyYmpUTVJMR1o4NkgyckRIQTFNMG13czBGOWVFb190b20zVVRmejFUVWM1RVRIQ01NMEJSVnM2aXEzc0dGeWJpT0NFWGZVcU00eGFDRjN2Ym5fQVFUaTBIRU9MNjFJTlNLYk8?oc=5",
+      "pubDate": "Wed, 15 Jul 2026 05:40:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Man City legend's comments on Youri Tielemans are what Manchester United needed to hear",
       "source": "Manchester Evening News",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTWl5ZVpTdFZxRlBMM3Jzb1o2QWJVamhyVkg3MXZHTWRQb3RuNVZoYzJtbGpiQkx6N1dvaS0tMDhieXZndHJtNVRVekZoc3ZSTEJfWlNBSEtVUjFkaUdabHlxR3VjdVNOMEVlVkZmYVpHTkgyekZYaEpBbTA5eXozNWRSZW1ybnlKbHJZa3dwUzFCenMyNm40U3dYYlBLaEc2R0VZT0lxalBKbnRt?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 15:27:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYmVHSVloNXJndVNBNWZuZVJELUIxVW5TSk5KYzN1VVVQUzh3ZnM0UTlSQ0ZFSFlOYXVzUjdfcWcxQ1VvcV9pUm5SS3E3Uk5iUGl4SUNSSVkxSWtBT3pvUUxMNE9COTJxOGw3TzF5amIxd0F2XzlsbFZfQ1dHd2dqM1hHTEhJM0U1bXpvZ2JZRVNrSnVVMXV3M1Bvb0hvUWJmRWJHY25MSmtxYmpOTnfSAbMBQVVfeXFMUERyVnVXMG82S1ppTFRDUFllaUdsMmZHOUdtdDZEOEFGUENyWFpUS0hTbC1LdTFnYWhTWVlPR1pSNVdBOTQwRkZVaXFoXzRQbXUxaFVmazBENldaU2FHQmF0a2FYWDY5ZGxNOXQ4dGhiTUxfTE1QcXlMbGo3dlIxS2NVeTFSdFF2ZmFYRUhSOEFkUjVmelN6V3NIaHpQb3lIdk1NWV9yOHdtZllUcFN2U0ZmX1E?oc=5",
+      "pubDate": "Wed, 15 Jul 2026 03:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "The Transfer DealSheet: Latest on Man Utd, Arsenal, Liverpool, Real Madrid and more - The Athletic",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSTZqS3RJUklXWk5icW1DaDZ5bEx0LTVDV29FemdSZER4bnc3d2Y4Nmg4NjFLQnNwalV2eEVKVGhNcVNEUWQ2UzFXbzdyV2ZITmVxTFZaUzRVYnlzcjBQRHV6bTUtRDQtTG9SNjltUllsVHRqcjFVTmJLMGt4MmE0Sks2VkZKd3dLaWk4TzJwZFg1SE9nM2d5R0FQRTZubXhvNjZGMUxia2UwNVZaWXBWOWVnY0VweTk0TUF1UlM3a0Qtc0p4YmpaNmRLZw?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 14:06:49 GMT",
       "category": "transfer"
+    },
+    {
+      "title": "2nd most valuable U18 star - Man City pushing for €100m Ayyoub Bouaddi deal from Lille",
+      "source": "Transfermarkt",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSTRiclJkUW5CLWtlTV9URVdtS0lfUzVab2JLOVBVR3NnSnpFUVZzSVNmU2o5eEFCMUM1YXFwcDB4aEFjazMwX21OZUdHMW5wZWkxbGFtR1Rra24xaEpLY3M2ZjdzbmRaRXl2TjZ0TlZ5dUdjWDZLMUNPUGRzVnFmWW1NamhVQXBfMTRPOUVjZTFLVUxMMFo3bk9LU2VuS1dBMDh1Si1nNjNZNDZjOFZXcG1CdUtPVF9ZeWo5bmhfWEdMZk1lT2ZTaXF2bWR2aHZl?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 10:18:48 GMT",
+      "category": "general"
     },
     {
       "title": "Lionesses starlet Khiara Keating completes Liverpool transfer after rejecting new contract at Manchester City",
       "source": "Goal.com",
       "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNVVhxSERmVmVLQzI2RV83eF8weHRQaXNiXzRMYW50Y2hpaXA0Q1MtYXRiQVc5cU8zVjlzYzN0TnpfaVJ2MmVucXhzM1VDQUNFOFJlWi01d2ZOaW02dExWUzdNUHlhMi15N0toRExEckppTThfVUtyck1OT256RVBRU2ZYLXdQLVRtNnRWcEZha2xiS3JSaWRfWEVaUzQzOXFpZ2J6U2JjSkt3SzRENGQ0NUxLWm9ZV0xycXMtSlhlY2llekQxOVlhN285LXVVMUN3WElGS0kzdEFpSFpxU2dDRGx6dVhBTF9ZZURXaC1hdUw5NWVr?oc=5",
       "pubDate": "Tue, 14 Jul 2026 08:48:08 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Jack Grealish has 'unfinished business' with Everton ahead of Man City return",
-      "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVG5PRTNiOTM3N01iakV4NU5HaG5sTGItd0VQandLN2lQYVRMckVUZGMwN2o2Ql9pRGhVVTJ2bmttX0ZQZXhKN29Yc1ZOTXdsMXFVNXVuM0pOaXVzTHNCQ0VLSkdIVGw1ZEt1YU5qaGZDZTR0VTlRdldNVXY5ZlhhbzM3d1oxa1BjM1k3SmxrRkdBSzVZNTdBdW9SUC01Y3k3UUZ3WGprSzNIaEQ0LS01NNIBtgFBVV95cUxOb3Ryd1FHVzVQaTVOZTJHODNTaThrVUFpeE1lcmYxMU5IczVlQU84bUpJNWM1Z1FkMXo3VWFxQlJXZ05vOFNmN0xyak9SZmtYd1pKb2pzT0ZSajZyOWpkSm4yanl6akZxcF9MQ0R1U3NMTnduWjFNcXJ4c1JZY2c2MUtEWjF2aUNuQWxYNFZBQXdsbURWWGNSRmM1bU1sYWZVUTRUSkVUaFhwTi1UVHROcjg2TldTQQ?oc=5",
-      "pubDate": "Mon, 13 Jul 2026 09:54:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Manchester City pushing to sign €100million Liverpool target",
-      "source": "DaveOCKOP",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUDVQNFRtUEtRQldLQ2tPbTVwYTlvLUhNZGRvUTVPLW5vQ0JCNG4zX195NF9vaHZURDVOeXBmUUk4LS1VcWVVOEg4cmk4Z2ZRbXl6WDIxMXU4SGVUVFdOUEo0ZUMtajZEYXo0TXJySVNuSy1rSk9qb2xrU2IzSjVRRHBreHVDLUwzUGxES01ic0RFUlI5TmFlc0lEdERhY1BoelU0?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 09:40:23 GMT",
       "category": "transfer"
     },
     {
@@ -52,10 +52,10 @@
       "category": "general"
     },
     {
-      "title": "2nd most valuable U18 star - Man City pushing for €100m Ayyoub Bouaddi deal from Lille",
-      "source": "Transfermarkt",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNSTRiclJkUW5CLWtlTV9URVdtS0lfUzVab2JLOVBVR3NnSnpFUVZzSVNmU2o5eEFCMUM1YXFwcDB4aEFjazMwX21OZUdHMW5wZWkxbGFtR1Rra24xaEpLY3M2ZjdzbmRaRXl2TjZ0TlZ5dUdjWDZLMUNPUGRzVnFmWW1NamhVQXBfMTRPOUVjZTFLVUxMMFo3bk9LU2VuS1dBMDh1Si1nNjNZNDZjOFZXcG1CdUtPVF9ZeWo5bmhfWEdMZk1lT2ZTaXF2bWR2aHZl?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 10:18:48 GMT",
+      "title": "UEFA Women’s Champions League: League Phase Information",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPN0pOUTR5c1BsNWpHdDRfRmNSbjJZcEgwcWJyX1R0eF94RmhDa182WEZvTndaU3pxOFlhMjdCbk9CRDJNQkw1SndpUnJZSm9mMFhjek5CMnZJM2NqU004LUc3blZST0JRT1JYMUdreXJjSzNEd0d5WFVCbVgzeTY5OS10RXc1WWtNSHZYR3VtV3Q1TXRvWTBWZlNoZXgxeUgzNEl4bw?oc=5",
+      "pubDate": "Sun, 12 Jul 2026 15:00:00 GMT",
       "category": "general"
     },
     {
@@ -66,18 +66,18 @@
       "category": "general"
     },
     {
-      "title": "Pep Guardiola latest: Man City manager reveals reasons for leaving - and says father will be honoured by club tribute",
-      "source": "Sky News",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdVotNlc1bUoxdTQ2Z0Y3bkRmRThDdE9qN2xRTmpfeVJadnpQVm1KaURtNlNfRmlha0dWc3VJb0pKQzRDQmRZUDZ2VUtlUTNzM0s1SnFrRUVSUGRwY20xS1dzdWpUZmtVbkZLcDNNVUY3Nm8wS0NaZVh3R2NUamtDU3BtRGpTRmgyTWNJd0d2c2xXQTdlQno1dloxTUtDZE92RFJEWjRZUGtWN1RCNVFkblhZS21SN1pYNlpBQnZGakh5eW5icy1HNVlpRFpiR2p0MDgzZlpObXlfOUYwMVE0dUFoeXM?oc=5",
-      "pubDate": "Fri, 22 May 2026 07:00:00 GMT",
-      "category": "manager"
+      "title": "Manchester City pushing to sign €100million Liverpool target",
+      "source": "DaveOCKOP",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUDVQNFRtUEtRQldLQ2tPbTVwYTlvLUhNZGRvUTVPLW5vQ0JCNG4zX195NF9vaHZURDVOeXBmUUk4LS1VcWVVOEg4cmk4Z2ZRbXl6WDIxMXU4SGVUVFdOUEo0ZUMtajZEYXo0TXJySVNuSy1rSk9qb2xrU2IzSjVRRHBreHVDLUwzUGxES01ic0RFUlI5TmFlc0lEdERhY1BoelU0?oc=5",
+      "pubDate": "Tue, 14 Jul 2026 09:40:23 GMT",
+      "category": "transfer"
     },
     {
-      "title": "The Transfer DealSheet: Latest on Man Utd, Arsenal, Liverpool, Real Madrid and more - The Athletic",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSTZqS3RJUklXWk5icW1DaDZ5bEx0LTVDV29FemdSZER4bnc3d2Y4Nmg4NjFLQnNwalV2eEVKVGhNcVNEUWQ2UzFXbzdyV2ZITmVxTFZaUzRVYnlzcjBQRHV6bTUtRDQtTG9SNjltUllsVHRqcjFVTmJLMGt4MmE0Sks2VkZKd3dLaWk4TzJwZFg1SE9nM2d5R0FQRTZubXhvNjZGMUxia2UwNVZaWXBWOWVnY0VweTk0TUF1UlM3a0Qtc0p4YmpaNmRLZw?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 14:06:49 GMT",
-      "category": "transfer"
+      "title": "Full confirmed list of Man City ins and outs this summer as spending passes £150m",
+      "source": "Manchester Evening News",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVkszUUtZQWMyOTB4Ni02cFl3emhrMllCQnVUWWNWVzE0Qlg2c1pWc3dlWFA1cEdhUjEyeDVxVU4ycHhLbjN0U2dVUG1uUmFLYWFqZVY1U1ZqSmtjREZoeGg3cVl1T1dKR1VzWFZQcGpjX0dlV2cyYVVhZmFDdnpiaDZsNUhNNlA1QkdEOVFhYmRiZjVZSGxvOVhJWmN5TWZRYWJvUVZ6NjlFd9IBrwFBVV95cUxOWXRTME9HYUZITng5VFpLZWxGYVc1ZkpraV9mMnNaM000c1B0U1NvUFFyUk1zMEVxVXJnTG5oZTcxbTRBcVJ6TmZSaWk3NTVRNDZfUzBIbWluNUJyWmFOSG9LS1F0bGo2ak9VN2hFdUVxT0tPTFEtNzRFS3BmX25uelRnV25hY0UwUEpMelRNb1k1cU1JZjVicGVYWkJ6eVM1UlhNa0ZwSTZfTTZoeFZv?oc=5",
+      "pubDate": "Sun, 12 Jul 2026 07:00:00 GMT",
+      "category": "general"
     },
     {
       "title": "City sign goalkeeper Charles",
@@ -87,11 +87,11 @@
       "category": "transfer"
     },
     {
-      "title": "Man City strike £550k off wage bill and break transfer record as four players quit club",
-      "source": "Manchester Evening News",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbVgtdUg1SVZ5b09XTjhaX2hMODR0VDZGOGJWRkhRX2xUT1ZCWXg5VEdmUXZIVUNuLUt3UnctMlFvcW4xUHVkRFZiNElEVU5SMTFhUmQxVmYwSjdTQXg5RFpzNzRqRlh6bmVKSmlFbi1RcnJ6OU5KQ3VzOGNFUjlCcGU1VlJRQy04Ny1PazUzT0VKSFNRWWxrZ1ktYk1NaWhORWxObFBQdno2OUk4QktUS3pRUlJlZ9IBuwFBVV95cUxPNFJXV1Q4T3BnYmN1QjVzcUNETVcyX3IyMjFNNjU3LXh4dEsxdGtEbWNrb2Zqakt0YktpbVBMUTNLcjRqNU91eDdnUS1XM1M0alpvb2NkRTdRVU1FeFdkQzV2a1gycFFZUUc4MmYxSHBQM2VyYVRCcHZWRUhqWXV2ejZMa1AxbnVQU0lxN1IzT1BtQ2RQSm1OZFdwNTk2dEUxMldzaF9iVXUtaEh4LTQ5YjBZM1l4NUxwOTUw?oc=5",
-      "pubDate": "Thu, 02 Jul 2026 07:00:00 GMT",
-      "category": "transfer"
+      "title": "Pierce Charles joins Manchester CIty",
+      "source": "Sheffield Wednesday FC",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTERHb0FwT3llMF9qTVQzSDZRZlhjdWZoZVAzOGthSkJhNEFTQ1JPekRObE1ja0VPWFVkQUFxbk1BYmJreWs0NXNvWjlCdEZ0NWR2dWFpTVUxM2Y1Z1FfVDU2Q1ZMWmxuMjBjWU5kZHlmNGY3blZZbThBdG9tSS1PREUyaEc?oc=5",
+      "pubDate": "Fri, 10 Jul 2026 09:15:08 GMT",
+      "category": "general"
     },
     {
       "title": "Ayyoub Bouaddi: Manchester City interested in Morocco and Lille wonderkid after impressive World Cup",
@@ -101,10 +101,10 @@
       "category": "rumour"
     },
     {
-      "title": "Pierce Charles joins Manchester CIty",
-      "source": "Sheffield Wednesday FC",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTERHb0FwT3llMF9qTVQzSDZRZlhjdWZoZVAzOGthSkJhNEFTQ1JPekRObE1ja0VPWFVkQUFxbk1BYmJreWs0NXNvWjlCdEZ0NWR2dWFpTVUxM2Y1Z1FfVDU2Q1ZMWmxuMjBjWU5kZHlmNGY3blZZbThBdG9tSS1PREUyaEc?oc=5",
-      "pubDate": "Fri, 10 Jul 2026 09:15:08 GMT",
+      "title": "A World Cup master-class from a Manchester City midfielder is a reminder of what City simply must do",
+      "source": "OneFootball",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNVUVvaUUyMVZEZDJtY25CMVltajdCOTlEbDBfdGZDV1hzNGQtTmxKcFZ5T3Z5V0Ywd29RRVJZTXBOUGJXRi15VDVPQkpTUWJhdmU5d2g3QnNZd1B2XzlMUWNGb0llRmh5cjQxaHBNWmRoZDJQaW9ndHR5N3BuUjVTVVgyM3JZZGZTbkx3YTZXN2V4NXZOYUNvZVNvQmVVakpkMXN5U3RXdDdQdVozbXF0RVp6WFdMXzNaMjgzSTZBSm92am5YZ2hFM3BBbnJFbTdsT1ZyV3c3a28?oc=5",
+      "pubDate": "Wed, 15 Jul 2026 05:24:58 GMT",
       "category": "general"
     }
   ],
