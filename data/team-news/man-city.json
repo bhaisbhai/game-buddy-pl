@@ -1,41 +1,55 @@
 {
   "slug": "man-city",
-  "updated": "2026-07-16T07:57:37.948Z",
+  "updated": "2026-07-16T19:00:13.588Z",
   "articles": [
-    {
-      "title": "Forgotten Man City star's new role could be just what he needs",
-      "source": "Manchester Evening News",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdUNTN0g0QzJQNnA3OEUxeWc0VmRTc0QzZXBMTTFieVpjZnNkSU9fQkZvdG1KR1FWcWFrd3FwWWtzc3hycHNTek1DcU83OXZzVFlZOTVnWlg4b1FXX3cyWWxkdG1waVR5V2wxdk5MZlpVM3pvZHNHNlJwb0VLcTdjMTJkNmdaMllZQVBjWlVNMGdNckpnTUExSVRqbjRqTFF6NzM3aWk0S3FhZ9IBrwFBVV95cUxQSXI5ZEdVRU9FTkk3RTJRM1czUFJIVlg2MGpzV2dleWNLZ0x2anZSbV9rc0wtZ3h3bTNRNm1OX3NpTkM5alRtT2FXd1lSVzQ3OVdlVDlGa29CbVVwMDl5ek5ENF9tQ1IzMDBvcFlmdTJRMzNiQV9OaDhyelBVaXhPdUQtUnZLSTFfTXVDblhsbVcyaUhfeU5TVTNxMEJIS3h1NTBoMUZBWTdjQnpfTXk0?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 15:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Inside Man City plan to beat Arsenal and Man Utd to £85m transfer for World Cup star",
-      "source": "The Mirror",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNEFaSkp6RnNUTTFwclpzeHRSUGdxcV8xTmh4bUNwSi1YMi00OGl2b3FwLVV3TDVtekRRdlpTeGNWMmNMT2lCZlNNX1l2aWR3NkxmbjJwclNPOFJ5cUhiZlNNeGQ0U1AyV3dEMTd6ZkhDQ1pST3BoVjdEeHV6T2pTZGg1TFZXVUdveFd1emUxRnZEU1g4d1pFaHU5Ym9od9IBowFBVV95cUxOOVBtYzkwLTlIY24tOGNpX0FraTJ4QW1kZ0xBbmE1N2dEd2VIVTU1dmFNaFhNTU45MUstS0lmZHgwWTBPQjV3aXM2emgydzdQZWd6TnBCWTA1Vld0ZldzdVdCbGp5YXVzbDBVYmFIdDlIelhrdFdnLVpXWl9rSmxIRVdkcU5GRldFb0VVUkprSk81S01uSDIyTTJjVUk0TGlYX0I0?oc=5",
-      "pubDate": "Wed, 15 Jul 2026 13:48:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Manchester City interested in signing former Liverpool target",
-      "source": "DaveOCKOP",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONU4tNktHTTdYMDd0dGtNQk5LdU54N2FVeXBoZXN6S1cwVl80TE40MDlpRXZ4NFlaaHYwaGVOaHFxdFZsTHd0WFI0bHhXTWNYZnNudUVuenA1emJOR0w4ejc1WlpKUFc3M3F3R1BWbWFyNHNhSFRZZHdtYTVOMUJZLXQzUUtCSG5uMGhoa0JIS2dpWi02ek5VaEgyUkhOdDBsalZOYw?oc=5",
-      "pubDate": "Wed, 15 Jul 2026 17:28:13 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Köln eye move for Manchester City winger Reigan Heskey",
-      "source": "Bulinews",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9oNVducWNHcXZoVTBCMXVzTW5NSjV6Y3BrTWxacTMxYkt1YmowRWpjVlBqWDBZaTBlaVhsUHhWX1VRR2VBcGRYdzd0d3VGTzhXWHd2dm1vS1JTUy0tQldleUFiVlcyb2thZHRGRTl3?oc=5",
-      "pubDate": "Wed, 15 Jul 2026 10:43:00 GMT",
-      "category": "general"
-    },
     {
       "title": "New talks held: Man City communicate plans to £85m star, Arsenal also still firmly in race for transfer",
       "source": "CaughtOffside",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVTREVXI3dE10UzhvSjF2elBQRFhYX05uVy1fQVBhNW04RjBQNWtJekw1bms0RnJVOUNPVjdUUnRCaTViTkF5ZTZpZGtSSGJXdFN3Y3dHN2xaMlNhSVhUQnN4YmxWdGY4VjJ0cjN0T2VKaVotSWtTOEhRV0JYT1FMNkR4WGs0cFZKSDRvRlpaajXSAZYBQVVfeXFMTjRJRmRVbnFNYVpuQ1RaVlg1cmEzR0RISWM4NUpOMDRwTXpHTlFnYzl0d3ZVSGV0UkcxTmxlcHFTTTZlRnJkOG52T293T3BVZ2RFdko4VEY4VDNLMlZwM3QxVERPVVg2YkV5TXRHelJNVDczclBKSTVsRVRMdERPVXNhQkxodldaT2pTN05fQUZjbW5CLWNR?oc=5",
       "pubDate": "Wed, 15 Jul 2026 13:32:28 GMT",
       "category": "transfer"
+    },
+    {
+      "title": "Enzo Maresca to assess Man City defender on pre-season tour amid doubts over future",
+      "source": "cityxtra.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVE5fTDhlbXpFY0JjZjI5c2MtM1Q1WWFONTZOS0pFUDNhMk1XbjdxbUtlUU9HdFc2d0djQm1fR3pPY1VZbkVuaGFlV0draGRzSXdGakc0YXZqSTREN3BGTnd6dWFGYVlva0lQZ0ZHQ0NWWXM0YjNzSlB1LWVoMDRhRVBMM25HZU4tNk9nRnR6QlEyZjl0dWtISm9jSDl6aFpmcC16ZlEteVNWVlJ2c3JqUGhZcw?oc=5",
+      "pubDate": "Wed, 15 Jul 2026 21:31:50 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Could Ayyoub Bouaddi be the missing piece to Manchester City's midfield rebuild?",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWFN2dExucEgwc3RTOWVnaGx2RkdtRDZKNDNhLWRNamhsLWF6LUh3MVFxUV9GMVhBeHNPY1hUT29sU2lpTXFFQVBCaGxiTEE4UTFaRENZQWpZTkVnZXVxRG9MZjhsdFFiT1hTSnp5amN2czNDMXFad0xmd3NtSmFJOHV6YVhVWTgwMGZ2QkVIZE5IRG1PMmtXdzI2TVJRVnlzMkRHd3M3SGdCMUNZVV9FRS1NLXdJbFFTSndpNG1Wc3pvY0xoLWpfQ1ZNSkpFb28?oc=5",
+      "pubDate": "Thu, 16 Jul 2026 14:31:20 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Why Everton have made Rico Lewis transfer priority as Man City stance emerges",
+      "source": "Goodison News",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcnl2bXd5QUJSNTBMTDRKTmx0Q0NTU1F2SE95OURXYU14S01pdmgwbGpTRml6cGlkXzBFT1J6YU8zai1mMXpyYnEzZzdmY1FpNTUzdzZxN3h5NFZ4cXFndWZDTVJhOW5FZ0FuTEpaR0dxWmxNT2dPa1ZUNGxLXzJaWDNyZTEweUpsMTRRLTNtUFpNSFBiNGhoY3Z4RllCRlM4eDhfNkl5TURFZk4xZmE0R3gwN05la1E?oc=5",
+      "pubDate": "Thu, 16 Jul 2026 15:44:47 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Transfer news LIVE: Arsenal done deal, Rogers boost; Man Utd latest",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVFNBX1NpTU5tY2JNczBKYzlrQ2N0dzBiYnRldzlldXdtOU9UbEVyNVFjR3g4LUtNYWNQQ0w3NG9YVi1udDBhSzdPclpUaUxpOGMza0lUeU14cFhLN0dZaTlkSllYREdEd2t3cGtKcjFCc2NGajg4YmRsdVFtck1aU2ZoQ1kzRF9VZGNvLWxjako3MDFPVHhDZ1BDcVpxNmwzek9sLTlfSmFLWk9NZFFaZ3JWWmZWdFN2S213dUZBdkpleENtUm9HcERFUHFMdw?oc=5",
+      "pubDate": "Thu, 16 Jul 2026 18:00:35 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Grealish, Foden and youngsters - the players out to impress Enzo Maresca in Man City pre-season",
+      "source": "Manchester Evening News",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcktoalUyc3dlNVJqMkIxdXRHVjBFaTFQcURKazBhdUFkRkZCVjlOaWJ1bWgxWi1xRWc5WjViVUFFZ3d0V3p2WUQya2MzMTUxM3hlTDRFZU1YQlNzb0xqUVFsbHEzS0J2SUxreTBwWDI2MXg1RjA4ZlFzMWNiVDhHb1RMUWhvaC03RVEwYjdLQWF2aUkySzN5OU9YSWRGaGRtU0RR?oc=5",
+      "pubDate": "Thu, 16 Jul 2026 14:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "City's England quartet suffer World Cup semi-final heartbreak",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSzBuUmJZaVVfMmIxcDVUak9CSDl2S2JLd3ZTVW04UWRfaFFpYmlWTUtLRkxaNTRfVDVaS1JOX1FyS3NwdE9odl9VcGJIcGx3Z1lyVzhHVUxLVjM0c2NjX0xVNlB0T2tjQU5Dd3dnZ0FiamtuUHZaZ0NXZjFBOHVwVUEyUU80QQ?oc=5",
+      "pubDate": "Wed, 15 Jul 2026 21:20:00 GMT",
+      "category": "general"
     },
     {
       "title": "Manchester City 3-0 Crystal Palace: Premier League – as it happened",
@@ -59,20 +73,6 @@
       "category": "general"
     },
     {
-      "title": "Manager line-up complete for 2026/27 season",
-      "source": "Premier League",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORllwdHNuOFJUTzFUdFN2MkgwU3FFbTN2SnNtVXRFTm0wQkhzbUwyRGVRU2NvVG42em1XR2xhX0xoRllyZlVfOVBOaGhpTWw0X2h4Qm5MVjNNR2F2V2ZCOFFiM3FkNnRGMnk4SGhXVzMwUWM4T3hrQmFESlhWb1RYMUFrZWZrWHlCQVJhNFlueFM5dw?oc=5",
-      "pubDate": "Mon, 13 Jul 2026 18:13:27 GMT",
-      "category": "manager"
-    },
-    {
-      "title": "Lionesses starlet Khiara Keating completes Liverpool transfer after rejecting new contract at Manchester City",
-      "source": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNVVhxSERmVmVLQzI2RV83eF8weHRQaXNiXzRMYW50Y2hpaXA0Q1MtYXRiQVc5cU8zVjlzYzN0TnpfaVJ2MmVucXhzM1VDQUNFOFJlWi01d2ZOaW02dExWUzdNUHlhMi15N0toRExEckppTThfVUtyck1OT256RVBRU2ZYLXdQLVRtNnRWcEZha2xiS3JSaWRfWEVaUzQzOXFpZ2J6U2JjSkt3SzRENGQ0NUxLWm9ZV0xycXMtSlhlY2llekQxOVlhN285LXVVMUN3WElGS0kzdEFpSFpxU2dDRGx6dVhBTF9ZZURXaC1hdUw5NWVr?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 08:48:08 GMT",
-      "category": "transfer"
-    },
-    {
       "title": "Full confirmed list of Man City ins and outs this summer as spending passes £150m",
       "source": "Manchester Evening News",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVkszUUtZQWMyOTB4Ni02cFl3emhrMllCQnVUWWNWVzE0Qlg2c1pWc3dlWFA1cEdhUjEyeDVxVU4ycHhLbjN0U2dVUG1uUmFLYWFqZVY1U1ZqSmtjREZoeGg3cVl1T1dKR1VzWFZQcGpjX0dlV2cyYVVhZmFDdnpiaDZsNUhNNlA1QkdEOVFhYmRiZjVZSGxvOVhJWmN5TWZRYWJvUVZ6NjlFd9IBrwFBVV95cUxOWXRTME9HYUZITng5VFpLZWxGYVc1ZkpraV9mMnNaM000c1B0U1NvUFFyUk1zMEVxVXJnTG5oZTcxbTRBcVJ6TmZSaWk3NTVRNDZfUzBIbWluNUJyWmFOSG9LS1F0bGo2ak9VN2hFdUVxT0tPTFEtNzRFS3BmX25uelRnV25hY0UwUEpMelRNb1k1cU1JZjVicGVYWkJ6eVM1UlhNa0ZwSTZfTTZoeFZv?oc=5",
@@ -87,25 +87,25 @@
       "category": "transfer"
     },
     {
-      "title": "The Transfer DealSheet: Latest on Man Utd, Arsenal, Liverpool, Real Madrid and more - The Athletic",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSTZqS3RJUklXWk5icW1DaDZ5bEx0LTVDV29FemdSZER4bnc3d2Y4Nmg4NjFLQnNwalV2eEVKVGhNcVNEUWQ2UzFXbzdyV2ZITmVxTFZaUzRVYnlzcjBQRHV6bTUtRDQtTG9SNjltUllsVHRqcjFVTmJLMGt4MmE0Sks2VkZKd3dLaWk4TzJwZFg1SE9nM2d5R0FQRTZubXhvNjZGMUxia2UwNVZaWXBWOWVnY0VweTk0TUF1UlM3a0Qtc0p4YmpaNmRLZw?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 14:06:49 GMT",
-      "category": "transfer"
-    },
-    {
       "title": "Man City set asking price for goalkeeper James Trafford",
       "source": "TribalFootball",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZ2dzcmtnLVR3ekhlbTdQeXdnWVZaWWtGcFJrZ2tWLTA2WTAtUnlwMlZBWUlOT0NUMnhlQU8wT29KVi1qZF9oNWJfRFVZaUl4M2lfSkVBTW9qYzlTNDJ2dEFzdjZSd0ZUY2pqUTg0dGtSWkV3SGRpR2s5LU1JWDZOZmxSUHdVUHJkVEw4bTRnR0JlUEJfVTdOYzFqNzZJRUFmbWhmUGhXV0E3eG5oTjlObDdUX2J1T2lLRjNfR1RkcHFQZDRZVG0wVkRDbw?oc=5",
-      "pubDate": "Fri, 03 Jul 2026 07:00:00 GMT",
+      "pubDate": "Fri, 03 Jul 2026 18:19:06 GMT",
       "category": "general"
     },
     {
-      "title": "We love the optimism in Freight Island this evening 🙌 These were the pre-match vibes in Manchester as fans sang out It's Coming Home! We really hope they're right 🤞 #manchestereveningnews #football #worldcup #manchester",
-      "source": "facebook.com",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPdzJyekVROTM5aTliaXI2UXg2Y3ZPeHhvODc5cW05RmpUblpwOFF4WGZfSTBDc2NONVRVbXBVXzliVXRHRGF0VHluSDdoUTNoSXhWZlc0cExuTGtmd2w0OHlWczZNYUZVcUdBS0FJcm5QMFVGSDlndzFzQklMcjFNY0lHU1B1UmdaQUF1WWFEMG5LdmQxMV8yV1JCS3JNTXd6Y1c1TkZuU0FZMHRhSVRvMkQzdndhYWdMQ3VWQzhNN3FzaDVBMDNyTFcxVGJld3ZSbWVDSHdjdl9Od2I2QWlOYU9YN21HUQ?oc=5",
-      "pubDate": "Wed, 15 Jul 2026 19:22:59 GMT",
-      "category": "match"
+      "title": "The World Cup has shown why Manchester City are prepared to spend big to bolster their midfield",
+      "source": "OneFootball",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPb0l2RkVRbjVPNFlVV3liUXRSSmhVSzVZYzY4bDhkaS1NWmtwZnRoSmZpRmpKUU5jbGE5WS16dGFmRnBUX2p5U0d1QmxXdkJoWjYyUkZhcXpEX2dPV2RBWVl6dWlpZUpiQ2s5Q3BGdDE2MW5qaHhLWGFKMDJfQzFCSm1MWTZhdXp3THZVLS1OdE0wWnNvRkhickpMNUR3U3JrbGFtMGNDRmgyZEVLN2hncDBOUThhTm9PMjR5U0lHX1JFVVVfX1lUdGFTem9CV3lZOXc?oc=5",
+      "pubDate": "Thu, 16 Jul 2026 10:44:24 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Experience every moment: Matchday Hospitality now on sale!",
+      "source": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONGRjWTdFNVNtVFNKWEpYOFdneDhHMkd3S1dOd2ZiTzVkbkJzQ1kxYlRyQjFtTm9wRXoyM2Z6dTlIUC1ralBfb0VmTF9QeUQxS1N3cjJEMkhZQ1VGZjZobDM2cjVZUDZ0NWpyOFlHYWlkeG5wRzh5dW1yQ1B6SXQ1SEpvTFdMVm83bklNS3k1Qzl5YUFLWUJoNA?oc=5",
+      "pubDate": "Thu, 16 Jul 2026 10:15:00 GMT",
+      "category": "general"
     }
   ],
   "reddit": []
