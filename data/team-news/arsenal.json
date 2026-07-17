@@ -1,40 +1,61 @@
 {
   "slug": "arsenal",
-  "updated": "2026-07-17T07:54:06.572Z",
+  "updated": "2026-07-17T18:57:18.987Z",
   "articles": [
     {
-      "title": "Transfer news LIVE: Arsenal done deal, Rogers boost; Man Utd latest",
+      "title": "Transfer news LIVE: Arsenal done deal, Rogers bid; new Man Utd targets",
       "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVFNBX1NpTU5tY2JNczBKYzlrQ2N0dzBiYnRldzlldXdtOU9UbEVyNVFjR3g4LUtNYWNQQ0w3NG9YVi1udDBhSzdPclpUaUxpOGMza0lUeU14cFhLN0dZaTlkSllYREdEd2t3cGtKcjFCc2NGajg4YmRsdVFtck1aU2ZoQ1kzRF9VZGNvLWxjako3MDFPVHhDZ1BDcVpxNmwzek9sLTlfSmFLWk9NZFFaZ3JWWmZWdFN2S213dUZBdkpleENtUm9HcERFUHFMdw?oc=5",
-      "pubDate": "Thu, 16 Jul 2026 22:42:42 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMmxRZUtGWl9XRC1uOENoLTR4NXlpdmNYNk15ZmpKNjRTenFRemJwS3VUd0EtWkdPckNEZ1dGRDdGTmRHQ04xNF9WVVc0Yk8wbEhkLTNlMkJYRWtRRnJEN2VERnNRNV9jWmJ3ME96UTkxRVJKaE9CYVZDZ210WTdCUmg3OE9QTlVxTmM3d2tEX3ZLeWtOZTRiZmg1VjN6dDFQSkFtRGR5aXRpMGQ1ZHYybEJ6X3g1MktfU0p6Q18tRnJiNXlTN2xHaWVn?oc=5",
+      "pubDate": "Fri, 17 Jul 2026 15:47:54 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Josh Ogunnaike signs first professional contract",
+      "source": "Arsenal.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUWFsSlRtNDVINXFtckpMM3o0TUxKUV9veEdTRXVLVGkyX1Z5cHk4VzdyczJlRC10Zm1feXh4T3N3TkhvTzBpZlpIVmpYYU95MlZvT1FJWkVFcXkzV3FtdWlJSW5KaWdzT0RqVEJZV04xSG4yOXRHNHRIQzV3WUs0MTF2UkR3TElyMzRaQ0VoLWxOY29D?oc=5",
+      "pubDate": "Fri, 17 Jul 2026 15:09:47 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Chelsea were keen - Arsenal to sign ex-Tottenham starlet with England international dad",
+      "source": "Transfermarkt",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQREVRdGhmUVhYcUx5b2MwWkpOSnRadWRrRlJJT0xldk5waWtKQ3J4VnZtbExIaGItMjBuX1BZRmlxUk1yTklOdHV2T3FfM2hYYVAtdWRncUJmcFNfT3F1OTcyZEZDM0FpcE0xMkdrUmpDdXhHVHFQQlYtNGw3WjVELUVuNU9qZkYwcVJIUTZ0T1hnV0FjOWNtRzE5bjFjak13LXdpWEFUSG9vZmtnNkxCZzJsamlESzIzQ3pKMFpna3pqa3FQczlvbk1qSl8?oc=5",
+      "pubDate": "Fri, 17 Jul 2026 14:44:31 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Club Brugge make sudden Christos Tzolis decision ahead of Arsenal medical",
+      "source": "Football London",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQak02djVWVmR6MjNNYXhHQU1SSEhKV1JzeXFGRlN2Mm1UUzIzbUFHU0MyaERSS3p3bm5zaktCMXpNUl9fOXZhb1l1eXU5U2FjUF95Y0kxaDZDOUd5UnAyT3ZJZjREQkJKcDk1a2dzdGVaRThoQTNDSGVmTWFxRU9uaGxGajk4eWxMRjdHaG9TeEhXdV9E0gGaAUFVX3lxTFB1aUFlTTZSaFp1Z3hheXJOdEwxLUY1NEtzODFEVUt2SkRsbDRwRWt1YmUwSGZubjgtbGFSTzhuQnozSHhES21ibnF6QldSZTlRTllFNFlPbEFzNDlwQ2hCSi1ld3owdmhoMWMxUVdtaFVyam1ZQm96UkNpRjE5M21uNnRqYmMya0c2QUhBcnZtVkE3RlR3RHVqeFE?oc=5",
+      "pubDate": "Fri, 17 Jul 2026 14:22:13 GMT",
       "category": "transfer"
     },
     {
       "title": "Christos Tzolis: Arsenal agree fee with Club Brugge to sign Greek winger as replacement for Leandro Trossard",
       "source": "Sky Sports",
       "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOTnFJZEdRV3hGR2dHUUF5cHVxbkkwcEYzZVZWbnU5dXB1QlJ6cktwS09LelEwYzUwd1VybHJNVXhmR2tuQ0cyZ2o1MmRDQVUtU0Y2VUo0UXNITkRfM0dGNk9ZSVhGMEJjVVVwMXh0M1U4RU5tanlRMmd5WDdtMmZidUZNRHZiWTFHajNER0Y0ZnVnM3hzZEkzVF9rdExKZVN2Mkc1MzM0d0dwNzU1VmhvbWlMVlZERXhEdE43TF9KV3dwQzRZQnFIaW5nODZjOVNLUXRWa3pzaHRraVp0ai0tSkJFMjlRN2NQWUdJelpmbjdjdTVj?oc=5",
-      "pubDate": "Thu, 16 Jul 2026 15:09:05 GMT",
+      "pubDate": "Fri, 17 Jul 2026 08:34:46 GMT",
       "category": "transfer"
     },
     {
-      "title": "Arsenal transfer news LIVE: Gunners prepare Morgan Rogers BID, talks 'continue' for Alvarez, Tzolis to have MEDICAL",
-      "source": "The Sun",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObGFzN2g5SVBfQmZ0RmZGa0tkMThxVXkwZlhzUEprekNxclhIMXJkUEtLR05kb3hydUowdlVSbzc5ZGR3V3JNaWItSndSdEpUNWNNTzZhOVpseVdMRGJkR3lMNXZySGVtN2V5NXdqaDA0emU0YWRXUXZHRzlpMnNzeHBIZktmdmRHLVZRMUJ1dU1RdjdSMnhUMTFDM1pjUQ?oc=5",
-      "pubDate": "Fri, 17 Jul 2026 07:34:08 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Arsenal failed in transfers for European champion and £88m star who joined Chelsea",
-      "source": "The Mirror",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWml2LTdoWW02RGJ2b3hQdDJZelhIMFhmdDdYMEY3bkZQRkdrRGZuY3h6RDBsUml4Z2d4bDctUkpfeUVyT0VIWjkwYUZGbGkwTk5FNnVlQ1FMdXpPNGRTeTBqd0d2Q1JEVEVxYndDN0IzMEp6akk2eHNES1ZocHFyM0Z4ekJ0OVVxSnpTdHY0RVQxTmF60gGaAUFVX3lxTE01Y0hya3JROUZ5eWt4LTFQLWdvMGRESDdYbUVuZldOV2RvdFJCZVVMNzY4TW80NGpzYjhDaVFvOHUyYUlzQTI5eGp4YXBLaUR4OU5ZSy1yRlVhY2xXVC1oQWdhcUdOQjNmMjE0c3dTT0NkQnplVzkxQUdwaWN2c3NiaFJQbzIyMUhsZU12Vm5fZmpMaUZiTi0zdHc?oc=5",
-      "pubDate": "Fri, 17 Jul 2026 04:30:00 GMT",
+      "title": "Arsenal agree £34m deal for Club Brugge winger Christos Tzolis",
+      "source": "The Telegraph",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQb0F2TGRUWDlBQ0VteVBYcnd1aGFqRW5VMV8xNTdXT0dyWnczY0JnUFFtLWRtNzFUYUM2bzZHUGxEaWtFUWM5VHl0MkZpZVZuVHVzbm5FOGwtOXZXVjZjMEdrcVVpZUpEMDF5SUpWU1RkLTRNOURxTVlBWkNvWVd0b1MzQzB0LVNpS3pSS0VzVWw1bGx3eUpPSmZpc0l4V2lpdS1Kdl9JUQ?oc=5",
+      "pubDate": "Thu, 16 Jul 2026 20:16:00 GMT",
       "category": "general"
     },
     {
-      "title": "Stream part 4 of our 2025/26 season review!",
-      "source": "Arsenal.com",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRW1qWHJwSWR0RlRNUjVBNkxVS0NXR1RuNFJJNWoxYzRlaXg0TlNlSUd1V05Vc1ZJODRCZ3NDTEFBVkpSWVhVM0JvOGwtWUhfS0VveTdmRFQ3SDJINGpDX0pHOXBVbkV3c0hOZmpKZ1NwSHJWV3MxemRKSlQtYmVlbTBuZ051dURieklV?oc=5",
-      "pubDate": "Thu, 16 Jul 2026 15:13:24 GMT",
+      "title": "Arsenal officially sign one of Europe’s best young goalkeepers",
+      "source": "Read Arsenal",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUXJxLU9CYnNfSUMwcEFibmdXSkZLaVRaTkRyb1l4MndSSzdzczFmMWFhak81WG1NT2V2Ui00LVg3Q2RYYlJDSXUtZnZUM0ZiWGF3MElyNGhOdUpJVVBycFZseGhFQ2p5Vk1jOE16T3NTel9qdVd3WVZzTkdHdWd1cWEyRmtFdDM1Wko3Yk5OU25PdW1Bd2h3dThsM1otQQ?oc=5",
+      "pubDate": "Fri, 17 Jul 2026 10:08:14 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Arsenal chief commercial officer Juliet Slot to leave after almost five years",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNGlaVlphMjJkVWZzeldsdTJSakdZTF96MFM4SktZa1lGVkNvVUVkV2xDSnNrLVBYWTA5Vjd2M2dWc3J2ZjhwNEhVNV8xMFpwSWFuTGRiOU1JSkZiY3RmZHlSRUNjTENBcG1TUkUtbERBNXJTdTQwMnpqd3BFWjB1UEVfYw?oc=5",
+      "pubDate": "Fri, 17 Jul 2026 15:07:00 GMT",
       "category": "general"
     },
     {
@@ -45,66 +66,45 @@
       "category": "match"
     },
     {
-      "title": "Transfer news LIVE: Michael Olise wants Real Madrid as Man Utd ready Manu Koné bid",
-      "source": "Transfermarkt",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQb0xPeUZWTS1HY2Q2Z2FuVmdlQjczaWJZZGJPX3g5Z3IycENHNVYtVVRFM05hWmh1SnI2ejJJNWNPVUY0ZUtlbUxuY0FLNGZwMk1XZUtFT0J3TVdLWE1kYzZJYXV0eHlWZlJRY0g5VGppMWNPSFhxSG16V0NHZ1haQ2Zkel8tRjl0TTJyYW9BLXpHaUsyVUNLUXFsT0tHYmZxQjZjeVJpY2dia2VyY1RJZE9DQkJId0RtTFg1ZHpyRkE1RzdjdGdR?oc=5",
-      "pubDate": "Wed, 15 Jul 2026 07:00:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Summer Arsenal target joins Ligue 1 club",
-      "source": "Daily Cannon",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5SVlU0bzlqblR2ZGJxczRZdF96RHF0b2RUQm4wU0hxU2w0TE1wdFBsRDBRZ0oxWlRTbElKM0MxTlZKRXFWWWs1QWJmUS0tbUdLTG9yUnhDb1QxZTJlNzBWMndYYVdwYXAwVkg5aQ?oc=5",
-      "pubDate": "Thu, 16 Jul 2026 12:01:00 GMT",
-      "category": "rumour"
-    },
-    {
-      "title": "Andoni Iraola sent clear Arsenal and Man City message before first season — 'Out of the question'",
-      "source": "Liverpool.com",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNLTM0bWRMSVR6Q3ZIa0ROWlM3LVdhSUVRVF9XcGJGQlRlcVhzS215Zi03NFVfUWRKYmp2SDhESTltNDZLWXVfNTVLSTk4V3NLOXFPRWNLNGktd2VBVTlFVG44NERlbWg1TEE0QUJwYlNuTDkwTHprdUx3d0NpTWNuWDFsb1g0cHBST2FmMTF2UDh6SFZSenFF0gGcAUFVX3lxTE5EZ1I4YzlsS1poRi0tZHM1bldYSl9Bb0hRajJaZ3ZNUVQ3WjFtaWNWVk12MTJkOEt2SVYyY3lKSE04Ti1xRjVyVUJsQ3hMRnFmMmRLZjF4dDlRODJEQlhyU090TE5FS0loZE96X2h5dUdaa2tfUnNxTkFjQlZDVjhLQzUzaXpvOVd6RndTMGlvcTZmeHcybU9vbFBXdA?oc=5",
-      "pubDate": "Thu, 16 Jul 2026 19:51:11 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Everton dealt potential Ben White transfer blow as news emerges from the World Cup",
-      "source": "everton.news",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObVVkUlRZdTFRZUNISU56MXMwdzg2RVNsRlEzcWttYlQ1X29INk9iY2lMeEdpVHFzTXkxYm43Qm9TT2tycXh6VzFuVmQxaHVFZHhQNzNXXzlIT0tQekxadFNScXdySWFXal9MaXlsWFhJdU1nQTE2OWFZRkZRQmpfSmhaYkNwOUNEa09XQjhVMGY2TzFaTWRfVV9SOUhZZzRQLVFkaHFoVG9HN0tz?oc=5",
-      "pubDate": "Thu, 16 Jul 2026 11:30:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Rosa Kafaji leaves Arsenal",
-      "source": "Arsenal.com",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5kMV8xczFEOVdsNWw0NGtqeWtaaUxhTDVmdlNxRk1PUFA1YVZRdS1iRENKVV9DNFNZTjZHam5XaFE1VEhlN2M5VXRkZktSNG56cGxlZk1Yc1g2WjF0RUxucFBoRHg1aWpTSUwtQmNIVGNjZG9IMzB3?oc=5",
-      "pubDate": "Thu, 16 Jul 2026 16:13:30 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Arsenal news: £25m reunion plan takes turn as PSG star makes transfer decision",
+      "title": "William Saliba 'faces FIVE MONTHS on sidelines' in crushing Arsenal injury blow",
       "source": "The Mirror",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNGtiVGpwZF9LeWhtS0Vaa1M5dU1fRGJMVnh4emlMTTVMQ01SVUlRdVhWTFB6UkZ1VUJFSXdRVk9OS0hieWRXbkw0a2xFUFhVSlhCNmNnclFpSEZhanJDS0VRMlJVYkVDUjBhUkRhVkV3elpkUVVZZElOTE1hWWg2WGNjdW16Y2t1amlWMXRUUkR2QdIBlwFBVV95cUxPcUtTOHNDay1UZ0FUTHp4ZkM0dEw0cEJEbG1jQWk1Wk8wQTJBelVOc183ZTBfSkRkNUQyUGhwWTBydTFnSEpIWTNnZ3ZoMWxZSHIwWTBqT1pES2p0OEQzZ1BCVGVCcnpyRWdKMnNfWDhiM3pVMExEY1UwSTJLY3NjOGU0R2lWS2tSUXRSVXl2a09Wd1JaQUZz?oc=5",
-      "pubDate": "Fri, 17 Jul 2026 03:00:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcW1sQlFBeGRCU2QzakNCem1LVUNfWFZvSnJlWTdrODdjZFJnU0pNZmg3eXdHWnFPSUVQb2xsRmRuUXJ6SjdCRGRtdEpWd0lEYmN0a2dnTTViYzhfWEVHblRTSDdtNGJMbl85RUo5aHhRYVYxX1lYdUljeHQ5OTgtOHk0WVdhNUNUQ3FXMDN0aVFKSUQ10gGaAUFVX3lxTE9jZGtPSnlWX2JOd3p6cDlrWkwwb0lpejBKN0VSWlZ2Ujk3dlNKbTE0cjE4aTlva2JQdXB1LUVNSlU1cDNsc1BlV2dLdERBYk1ZeVFYVEN1OXhzUU9reE96S0VtUFJReFdESU9SaUxNa2FlckZXWkpLcE9pOVdpblV3eHN4RWdNT2RJRS1YQjNIb1ZCVnlZSTRpQ1E?oc=5",
+      "pubDate": "Thu, 16 Jul 2026 08:48:00 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "The transfer Arsenal must sacrifice to ensure Mikel Arteta gets William Saliba replacement",
+      "source": "Football London",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcmpNQkdfNHB4U3JtTVoycmJEcHp2SmJFUVBya3NxR0RIRFhfVGNsUEZkbzFDLW5VUEpMbkZ4RGRKZXA4T0JTQ3gzeHd3OHZRWEpMN2xSbFNRb202dEhQRFZFdW1WY3RtTEZLcjFzdEhrOWtQQnl2NkRsWks2TGVuM3B0dkFBNjdtV2xmbTVEaUVJazFVa3fSAZsBQVVfeXFMTnFVc2t5NGw4RGZtTjlRekFlMTVBVWNaOTd4VkxGdDFjYURBNThIT0p3S2VIVDc0RFpiTHk1R1ZTeVlONXFLcnZEMFpNeTczWUVfd0Z0ZEZUcUlFQzNOc01lMUZJQ21nOFlvUzE2VmtTMFBsdXhKeHExOG5qOWM5Ulk0WW9vQmg0alpmUmFyT3J4aFl5My01cnJldkU?oc=5",
+      "pubDate": "Thu, 16 Jul 2026 12:12:16 GMT",
       "category": "transfer"
     },
     {
-      "title": "Arsenal confirm transfer as first hurdle cleared for Rogers arrival",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbFFWa2c0SUVBdUJLRlF0dkRrNTU2d3JYQ3d0RmRLSmJlSzJJWEhqWTVxTWZwLXE1UEtmMG5aTHNEUS01QVdSU1lIYWZlTFBlWDZZenJmZGNkZDVHZU92cDBrTXdoY192RTQ3b2Q0LXYwODRBYkdKcW9ORHhGVkNBNDFzb0NBMm9PMEhpMzBYbGlwamZ1MWE1UDhFRVA?oc=5",
-      "pubDate": "Thu, 16 Jul 2026 19:46:53 GMT",
+      "title": "Sources: Arsenal set to “intensify” transfer mission due to “real concern” emerging…",
+      "source": "CaughtOffside",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcVpSN2kzR29Ja1BXeU40ZHpGc09CWS1vNV9ZdktmTGN1S2VlQ1otVDItWUtlM0NPWFg1WVFReVlYdk1lOV9IM0dKeGRrNjFMQkhGSmgxQUliUEl2djRxaURfQnR0dWNQVEtjUHhvSUhKcFB0MWpoOTVUTVEtLXdlM2EwRnnSAYoBQVVfeXFMUHMwekZNVXN5UXdrSFpVanZsTkJuQzZ3WXpRTGVxNERtbmpPZllUMW5xanNwYmkyMXFRMGxMZjFIQm1ESmRncUg0UXFQM2tqOHJCQ3FoSG4yakFESmFvZWYzb0lKY01JVDVlaDhlRHBMaW1sMkVNZVVJVEZJMmxUZlI4QkJmY3M3NUFn?oc=5",
+      "pubDate": "Fri, 17 Jul 2026 08:46:27 GMT",
       "category": "transfer"
     },
     {
-      "title": "Lisa Baum joins Arsenal",
-      "source": "Arsenal.com",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4tdy1JUldjVzlKaWd5V1MtbFNLOTI0ZEltUHhvSXFCRkdwOHUtY2k4bjVCaHVyS0R0dzNMTWQ1YS1waEItbzhCQnVzQVZIbWNRUDRBYmNrakVmbmdpWU1mRlJB?oc=5",
-      "pubDate": "Tue, 14 Jul 2026 11:03:56 GMT",
+      "title": "Arsenal’s Premier League trophy parade: title celebrations in north London – as it happened",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNakxtcEFjeVZpZU5yMHhkeDlpdURmOFk4eEJuN2dpS3h2Z3FET2tDT3dzR2pCN0pJVngyNm5FZnV0MGRJeFA2S0ZvMV9nU0RTeTREZ1g0S3FlM2htWDZnQ0MzSklwZk9xdllXUGIzdlhsYkhhSlFHZGtId1pBWGhkX0Y3Wjg1Ql9ET3RDUkFUZm1makFWbm1odkZnVzFSLVczWV9hY280MzVwbENxZ2pGRUdPZVFkNXN3YUhpcDZKX2t0a29fMUFNdHN3?oc=5",
+      "pubDate": "Sun, 31 May 2026 07:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "Kobbie Mainoo: England boss Thomas Tuchel was unimpressed by unused Manchester United midfielder during World Cup training - Paper Talk",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMiqgJBVV95cUxPVUk2V2NRSVhSdU1aRG5FSDRobk9CYS1ZTVlTRkpmLWk3U3k5a0owaV8ydklwV3NmbmZUVWE5ZEpwV0NmcGlCS2JWMkVpazQxWVBfeEpmRUdHeDVHeWZyX3NQY0RFME42NlBCaVl5cWdhRkZ6NzlPUEFqb0RSRnl6M0xXeHpxc01EbGM0NEc2N0xNZHluU3RIX29tcWxLNW1HNVVjdHFJdnpwZG51Y1M4UjBodU1tM1VGTWNxQUJXZllPTHBUUUJ0R3JuM19WeFlGMVBuaUxidmtIenFBRkxyb0d6UXhISndfZGVVTFlEYjBJZjBGWEFxTHBvdWk4VEdXR1IweXczcjlkRzZ5OWttT0w1amdOcEZUZG9WZmlxanNnMldrdjdVanR3?oc=5",
-      "pubDate": "Fri, 17 Jul 2026 06:51:25 GMT",
+      "title": "Arsenal misses out on PSG prodigy after chasing him for months",
+      "source": "Just Arsenal News",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQV1VZZEpJa29UOU1KRkRDLXZ3NU5rMTFaWmk0V2lYZjR0X1VFZG1meWM1RzQxRndfQWJMYXRzcWZjWVVscnp5MThuQU9uQlA0aU5EMGlJTlRIb1pZRUhfZGpMdDlybEhxNG9jd2dZbThoQkRkYkp3RW5sMkVwclNPUl9BUkM2aU5sUjM5VXZaVHFRVy1iNWpBR19DNEhVZ9IBowFBVV95cUxPUmZzNjhJWE1UNlpqOUV3cHZUdXpfZFF0dU41QlEwVXlZeUplZWFJN05FcGlBQ1gwWXBGWDBJQlVaT3dIMktKZkMzWHVvUjFiWEdIWmZUVkZMVzBRb1JkS0Q4QWQ2eHNvbGNEcFNfZE92SldfV0hzd2ZCTmRIWnNJRlJaMzRrZFBxRVByZHllZk8yU3pQdkc4ZUlpZkxVMGl0N0RJ?oc=5",
+      "pubDate": "Fri, 17 Jul 2026 11:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Stream our game against Boreham Wood tonight",
+      "source": "Arsenal.com",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNU0JRUmVRUUhIcGJVV19tb3hQUThtdmxRaWlQV3VtdUNrMEg2bGtRVENqWUFoQTdhRHQyZm8yM3hzakZ4b2k0S2lqVU5SUVRFbVNiVXdFcTRBa0dRdS02RFpiTXh5T0I1b1duQ0tpMkVXX0U5TFFDS0VlV1lEU3VCYkJsY1NJdkZiUHhhdHAxTQ?oc=5",
+      "pubDate": "Fri, 17 Jul 2026 17:15:18 GMT",
       "category": "general"
     }
   ],
