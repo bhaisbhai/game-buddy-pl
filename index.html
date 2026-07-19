@@ -532,6 +532,7 @@ nav.tabbar button .icon { font-size: 19px; }
     fplLeague: null,
     fplSquadCache: {},
     fplPriceWatch: null,
+    fplXg: null,
     fplPlannerSwaps: loadFplPlannerState().swaps,
     fplPlannerFreeTransfers: loadFplPlannerState().freeTransfers,
   };
@@ -1497,6 +1498,23 @@ nav.tabbar button .icon { font-size: 19px; }
     return state.fplBootstrap;
   }
 
+  async function loadFplXg() {
+    if (!state.fplXg) {
+      state.fplXg = await fetchJson('/data/fpl-xg.json');
+    }
+    return state.fplXg;
+  }
+
+  function combinedXgXa(players, xgData) {
+    if (!xgData || !xgData.players) return null;
+    var total = 0, any = false;
+    players.forEach(function (p) {
+      var stat = xgData.players[p.id];
+      if (stat) { total += stat.xG + stat.xA; any = true; }
+    });
+    return any ? total : null;
+  }
+
   function currentGameweek(bootstrap) {
     if (!bootstrap || !bootstrap.events) return null;
     return bootstrap.events.find(function (e) { return e.is_current; }) ||
@@ -1721,8 +1739,11 @@ nav.tabbar button .icon { font-size: 19px; }
     }).join('');
   }
 
-  function fplPlayerLabel(p) {
-    return p.web_name + ' (£' + (p.now_cost / 10).toFixed(1) + 'm)';
+  function fplPlayerLabel(p, xgData) {
+    var label = p.web_name + ' (£' + (p.now_cost / 10).toFixed(1) + 'm)';
+    var stat = xgData && xgData.players && xgData.players[p.id];
+    if (stat) label += ' · xG ' + stat.xG.toFixed(1) + ' xA ' + stat.xA.toFixed(1);
+    return label;
   }
 
   async function renderFplPlanner() {
@@ -1741,15 +1762,18 @@ nav.tabbar button .icon { font-size: 19px; }
       return;
     }
 
-    renderFplPlannerUI(bootstrap, picks);
+    var xgData = await loadFplXg();
+    renderFplPlannerUI(bootstrap, picks, xgData);
   }
 
   // Manual scenario comparison, not an auto-optimizer: builds a hypothetical
   // squad by applying up to 2 user-picked swaps to the real squad, and
   // compares projected points (FPL's own ep_next field — its official
   // "expected points next fixture" metric, not a scraped/invented one)
-  // against squad value and the -4-per-extra-transfer hit.
-  function renderFplPlannerUI(bootstrap, picks) {
+  // against squad value and the -4-per-extra-transfer hit. When Understat
+  // xG/xA data is available (data/fpl-xg.json), also shows a combined
+  // xG+xA comparison — the "why" behind ep_next's opaque single number.
+  function renderFplPlannerUI(bootstrap, picks, xgData) {
     var contentEl = document.getElementById('fplSubContent');
     var squadPlayers = picks.map(function (p) { return fplPlayerById(bootstrap, p.element); }).filter(Boolean);
 
@@ -1765,6 +1789,9 @@ nav.tabbar button .icon { font-size: 19px; }
 
     var scenarioEp = scenarioPlayers.reduce(function (sum, p) { return sum + (parseFloat(p.ep_next) || 0); }, 0);
     var scenarioValue = scenarioPlayers.reduce(function (sum, p) { return sum + p.now_cost; }, 0);
+
+    var baselineXg = combinedXgXa(squadPlayers, xgData);
+    var scenarioXg = combinedXgXa(scenarioPlayers, xgData);
 
     var numTransfers = state.fplPlannerSwaps.length;
     var freeTransfers = state.fplPlannerFreeTransfers;
@@ -1783,11 +1810,11 @@ nav.tabbar button .icon { font-size: 19px; }
     }).join('');
 
     var outOptionsHtml = squadPlayers.map(function (p) {
-      return '<option value="' + p.id + '">' + escapeHtml(fplPlayerLabel(p)) + '</option>';
+      return '<option value="' + p.id + '">' + escapeHtml(fplPlayerLabel(p, xgData)) + '</option>';
     }).join('');
 
     var datalistHtml = (bootstrap.elements || []).map(function (p) {
-      return '<option data-id="' + p.id + '" value="' + escapeHtml(fplPlayerLabel(p)) + '"></option>';
+      return '<option data-id="' + p.id + '" value="' + escapeHtml(fplPlayerLabel(p, xgData)) + '"></option>';
     }).join('');
 
     contentEl.innerHTML =
@@ -1798,8 +1825,16 @@ nav.tabbar button .icon { font-size: 19px; }
           '<div><span class="n' + (hit > 0 ? ' fpl-rank-down' : '') + '">-' + hit + '</span><span class="l">Hit</span></div>' +
           '<div><span class="n ' + (netEv >= 0 ? 'fpl-rank-up' : 'fpl-rank-down') + '">' + (netEv >= 0 ? '+' : '') + netEv.toFixed(1) + '</span><span class="l">Net</span></div>' +
         '</div>' +
+        (baselineXg !== null ?
+          '<div class="fpl-hero-stats" style="margin-top:10px;">' +
+            '<div><span class="n">' + baselineXg.toFixed(1) + '</span><span class="l">Current xG+xA</span></div>' +
+            '<div><span class="n ' + (scenarioXg >= baselineXg ? 'fpl-rank-up' : 'fpl-rank-down') + '">' + scenarioXg.toFixed(1) + '</span><span class="l">Scenario xG+xA</span></div>' +
+          '</div>'
+          : '') +
       '</div>' +
-      '<p class="fpl-setup-help">Squad value: £' + (baselineValue / 10).toFixed(1) + 'm → £' + (scenarioValue / 10).toFixed(1) + 'm. "xPts" is FPL\'s own <code>ep_next</code> expected-points figure, not an independently modelled prediction.</p>' +
+      '<p class="fpl-setup-help">Squad value: £' + (baselineValue / 10).toFixed(1) + 'm → £' + (scenarioValue / 10).toFixed(1) + 'm. "xPts" is FPL\'s own <code>ep_next</code> expected-points figure, not an independently modelled prediction.' +
+        (baselineXg !== null ? ' xG/xA is combined chance quality + assist quality from Understat' + (xgData.season ? ' (' + xgData.season + '/' + (parseInt(xgData.season, 10) + 1) + ' season)' : '') + ' — the "why" behind a player\'s form, separate from finishing luck.' : ' xG/xA data not available yet.') +
+      '</p>' +
       '<div class="section-title">Free transfers available</div>' +
       '<input type="number" min="0" max="5" id="fplFreeTransfers" class="fpl-id-input" style="max-width:100px;" value="' + freeTransfers + '">' +
       '<div class="section-title">Planned swaps</div>' +
@@ -1819,14 +1854,14 @@ nav.tabbar button .icon { font-size: 19px; }
     document.getElementById('fplFreeTransfers').addEventListener('change', function (e) {
       state.fplPlannerFreeTransfers = parseInt(e.target.value, 10) || 0;
       saveFplPlannerState();
-      renderFplPlannerUI(bootstrap, picks);
+      renderFplPlannerUI(bootstrap, picks, xgData);
     });
 
     Array.prototype.forEach.call(contentEl.querySelectorAll('[data-remove-swap]'), function (btn) {
       btn.addEventListener('click', function () {
         state.fplPlannerSwaps.splice(parseInt(btn.getAttribute('data-remove-swap'), 10), 1);
         saveFplPlannerState();
-        renderFplPlannerUI(bootstrap, picks);
+        renderFplPlannerUI(bootstrap, picks, xgData);
       });
     });
 
@@ -1843,7 +1878,7 @@ nav.tabbar button .icon { font-size: 19px; }
         var inId = parseInt(inOption.getAttribute('data-id'), 10);
         state.fplPlannerSwaps.push({ outId: outId, inId: inId });
         saveFplPlannerState();
-        renderFplPlannerUI(bootstrap, picks);
+        renderFplPlannerUI(bootstrap, picks, xgData);
       });
     }
   }

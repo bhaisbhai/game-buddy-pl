@@ -79,18 +79,21 @@ game-buddy-pl/
 │   ├── tv-announcement-batches.json    # Expected release dates for each TV-picks batch
 │   ├── transfer-heat.json              # Transfer-window heat map, refreshed by team-news.yml
 │   ├── fpl-price-watch.json            # Confirmed FPL price changes, refreshed by fpl-prices.yml
+│   ├── fpl-xg.json                     # Understat xG/xA by FPL element id, refreshed by fpl-xg.yml
 │   └── team-news/
 │       └── {slug}.json × 20            # Per-club Google News + Reddit feed
 ├── scripts/
 │   ├── fetch-team-news.js              # Google News RSS + Reddit scraper -> data/team-news/, data/transfer-heat.json
 │   ├── scrape-tv-picks.js              # Playwright TV-picks scraper -> data/tv-picks.json
 │   ├── init-team-news.js               # One-off: creates empty team-news files for all clubs
-│   └── fetch-fpl-prices.js             # Diffs FPL prices day over day -> data/fpl-price-watch.json
+│   ├── fetch-fpl-prices.js             # Diffs FPL prices day over day -> data/fpl-price-watch.json
+│   └── fetch-xg-data.js                # Scrapes Understat xG/xA, matched to FPL ids -> data/fpl-xg.json
 └── .github/
     └── workflows/
         ├── team-news.yml               # Runs fetch-team-news.js at 06:00 + 18:00 UTC daily
         ├── tv-picks-refresh.yml        # Runs scrape-tv-picks.js at 08:00 + 15:00 UTC daily
-        └── fpl-prices.yml              # Runs fetch-fpl-prices.js at 03:00 UTC daily
+        ├── fpl-prices.yml              # Runs fetch-fpl-prices.js at 03:00 UTC daily
+        └── fpl-xg.yml                  # Runs fetch-xg-data.js at 04:00 UTC daily
 ```
 
 ## How the pieces fit together
@@ -305,6 +308,40 @@ and it shows:
 - **Squad value** before/after.
 - **The -4 hit**: `max(0, transfers - free transfers) × 4`.
 - **Net**: the scenario's point gain minus the hit.
+- **xG+xA** (when `data/fpl-xg.json` has data): a combined expected-goals
+  + expected-assists total for the current squad vs. the scenario squad,
+  and per-player `xG`/`xA` shown right in the swap picker. This is the
+  "why" behind `ep_next`'s single opaque number — chance quality and
+  assist quality, separate from finishing luck. Degrades silently to
+  just `ep_next` if a player has no Understat match yet.
+
+### FPL xG/xA data pipeline
+
+`scripts/fetch-xg-data.js` runs once daily. Understat has no public API —
+like every hobby xG tool (including the Python `understat` package), it
+gets data by fetching `understat.com/league/EPL/{season}` and parsing a
+JSON blob Understat embeds in a `<script>` tag as `var playersData =
+JSON.parse('...')`, hex-escaped (`\xHH` per byte) rather than using
+normal JSON string escapes — same "scheduled Action, static JSON, no
+database" shape as `fetch-team-news.js`.
+
+Scope: season-aggregate xG/xA/npxG per player, not shot-by-shot maps —
+those would need a separate per-player scrape (600+ requests instead of
+one) and the Planner doesn't need shot locations.
+
+The fiddly part isn't the scraping, it's **matching Understat's players
+to FPL's `element` ids** — two systems with no shared id, matched by
+normalized name + club. This has the same failure modes as the TV-picks
+team matching (short club names not matching `pl-teams.json`'s fuller
+`name` field, e.g. Understat's "West Ham" vs "West Ham United") and was
+caught by testing against a full 240-player synthetic squad before
+shipping, the same way the TV-picks aliasing bugs were only visible at
+scale. If the match rate against real Understat data ever falls below
+~200 players, the run **fails loudly** (non-zero exit, writes nothing)
+rather than silently shipping a mostly-empty file — matching the
+TV-picks scraper's fail-loud convention. A handful of individual misses
+(nicknames, transliteration differences) is normal and expected; a
+collapse to near-zero matches means Understat's page structure changed.
 
 ## Local development
 
@@ -323,6 +360,7 @@ node scripts/init-team-news.js       # one-off: seed empty team-news files
 node scripts/fetch-team-news.js      # fetch Google News + Reddit for all clubs
 npm run scrape                       # scrape-tv-picks.js (requires Playwright browsers)
 node scripts/fetch-fpl-prices.js     # diff FPL prices against yesterday's snapshot
+node scripts/fetch-xg-data.js        # scrape Understat xG/xA, matched to FPL element ids
 ```
 
 ## Deployment
