@@ -400,6 +400,14 @@ node scripts/fetch-fpl-prices.js     # diff FPL prices against yesterday's snaps
 node scripts/fetch-xg-data.js        # scrape Understat xG/xA, matched to FPL element ids
 ```
 
+To run the unit tests (currently just the self-heal watchdog's logic —
+mapping/validation/log-fetching/patch-decision — all against mocked
+GitHub and Anthropic responses, no real network calls):
+
+```bash
+npm test
+```
+
 ## Deployment
 
 1. Import this repo into Vercel — framework preset **Other**, root

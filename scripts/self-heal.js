@@ -20,7 +20,13 @@ const path = require('path');
 const vm = require('vm');
 const Anthropic = require('@anthropic-ai/sdk');
 
-const REPO_ROOT = path.join(__dirname, '..');
+// Resolved fresh on every call (not cached at module-load time) so tests
+// can point it at a throwaway temp dir via SELF_HEAL_TEST_ROOT, set *after*
+// this module is first required, without ever touching the real scripts/
+// directory.
+function repoRoot() {
+  return process.env.SELF_HEAL_TEST_ROOT || path.join(__dirname, '..');
+}
 
 // Workflow display name -> the script it runs. Keep in sync with the
 // `name:` field in each .github/workflows/*.yml and its `run: node ...` step.
@@ -89,7 +95,7 @@ async function main() {
 
   const fullLog = await fetchFailedJobLog(owner, repo, runId, githubToken);
   const logTail = fullLog.slice(-LOG_TAIL_CHARS);
-  const scriptPath = path.join(REPO_ROOT, scriptRelPath);
+  const scriptPath = path.join(repoRoot(), scriptRelPath);
   const originalSource = fs.readFileSync(scriptPath, 'utf8');
 
   const client = new Anthropic();
@@ -185,7 +191,11 @@ ${result.diagnosis}
   writeOutput('title', `${workflowName} broke -- proposed fix for ${scriptRelPath}`);
 }
 
-main().catch((e) => {
-  console.error(e);
-  process.exit(1);
-});
+module.exports = { WORKFLOW_TO_SCRIPT, isSyntacticallyValid, fetchFailedJobLog, main };
+
+if (require.main === module) {
+  main().catch((e) => {
+    console.error(e);
+    process.exit(1);
+  });
+}

@@ -4,7 +4,8 @@
   "private": true,
   "engines": { "node": "22" },
   "scripts": {
-    "scrape": "node scripts/scrape-tv-picks.js"
+    "scrape": "node scripts/scrape-tv-picks.js",
+    "test": "node --test '**/*.test.js'"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.68.0"
