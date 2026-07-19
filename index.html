@@ -249,6 +249,11 @@ table.standings td.num { text-align: center; font-family: var(--mono); font-vari
 .fpl-hero-stats div { display: flex; flex-direction: column; gap: 2px; }
 .fpl-hero-stats .n { font-family: var(--mono); font-size: 20px; font-weight: 800; color: var(--accent); }
 .fpl-hero-stats .l { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--text-dim); }
+.fpl-row-me td { background: rgba(0,255,135,.05); }
+.fpl-league-manager { font-size: 11px; color: var(--text-dim); }
+.fpl-rank-up { color: var(--accent); }
+.fpl-rank-down { color: var(--red); }
+.fpl-rank-same { color: var(--text-dim); }
 
 .news-view-header {
   display: flex;
@@ -1522,6 +1527,8 @@ nav.tabbar button .icon { font-size: 19px; }
 
     if (state.fplSubView === 'myteam') {
       await renderFplMyTeam();
+    } else if (state.fplSubView === 'league') {
+      await renderFplLeague();
     } else {
       document.getElementById('fplSubContent').innerHTML = '<div class="placeholder-card">Coming soon.</div>';
     }
@@ -1610,6 +1617,75 @@ nav.tabbar button .icon { font-size: 19px; }
       '<button class="back-btn" id="fplChangeId2" style="margin-top:16px;">Change Team ID</button>';
 
     bindFplChangeId('fplChangeId2');
+  }
+
+  function bindFplLeagueChange() {
+    var btn = document.getElementById('fplLeagueChange');
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+      state.fplLeagueId = null;
+      try { localStorage.removeItem('gbpl_fpl_league_id'); } catch (e) { /* no persistence available */ }
+      renderFplLeague();
+    });
+  }
+
+  async function renderFplLeague() {
+    var contentEl = document.getElementById('fplSubContent');
+
+    if (!state.fplLeagueId) {
+      contentEl.innerHTML =
+        '<div class="fpl-setup">' +
+          '<p class="fpl-setup-help">Enter a classic mini-league ID to see its standings — find it in the URL when you open a league on the official site: fantasy.premierleague.com/leagues/<b>12345</b>/standings/c.</p>' +
+          '<div class="fpl-id-row">' +
+            '<input type="text" inputmode="numeric" pattern="[0-9]*" id="fplLeagueIdInput" placeholder="e.g. 314" class="fpl-id-input">' +
+            '<button class="fpl-id-btn" id="fplLeagueIdSave">Load</button>' +
+          '</div>' +
+        '</div>';
+      document.getElementById('fplLeagueIdSave').addEventListener('click', function () {
+        var val = document.getElementById('fplLeagueIdInput').value.trim();
+        if (!/^\d+$/.test(val)) return;
+        state.fplLeagueId = val;
+        saveFplLeagueId(val);
+        renderFplLeague();
+      });
+      return;
+    }
+
+    contentEl.innerHTML = '<div class="loading">Loading league…</div>';
+    var data = await fetchJson('/api/fpl-league?leagueId=' + encodeURIComponent(state.fplLeagueId));
+    if (!data || !data.standings) {
+      contentEl.innerHTML = '<div class="empty-state">Couldn’t load that league.<br><button class="back-btn" id="fplLeagueChange" style="margin-top:10px;">Change League ID</button></div>';
+      bindFplLeagueChange();
+      return;
+    }
+
+    var results = data.standings.results || [];
+    var rows = results.map(function (r) {
+      var isMe = state.fplTeamId && String(r.entry) === String(state.fplTeamId);
+      var rankDelta = r.last_rank && r.last_rank > 0 ? r.last_rank - r.rank : 0;
+      var arrow = rankDelta > 0 ? '▲' : (rankDelta < 0 ? '▼' : '—');
+      var arrowCls = rankDelta > 0 ? 'fpl-rank-up' : (rankDelta < 0 ? 'fpl-rank-down' : 'fpl-rank-same');
+      return (
+        '<tr class="' + (isMe ? 'fpl-row-me' : '') + '">' +
+          '<td class="num">' + r.rank + '</td>' +
+          '<td><div>' + escapeHtml(r.entry_name || '') + '</div><div class="fpl-league-manager">' + escapeHtml(r.player_name || '') + '</div></td>' +
+          '<td class="num ' + arrowCls + '">' + arrow + '</td>' +
+          '<td class="num">' + r.event_total + '</td>' +
+          '<td class="num"><strong>' + r.total + '</strong></td>' +
+        '</tr>'
+      );
+    }).join('');
+
+    contentEl.innerHTML =
+      '<div class="section-title">' + escapeHtml((data.league && data.league.name) || 'League') + '</div>' +
+      '<div style="overflow-x:auto;">' +
+      '<table class="standings">' +
+        '<thead><tr><th>#</th><th>Team</th><th></th><th>GW</th><th>Pts</th></tr></thead>' +
+        '<tbody>' + rows + '</tbody>' +
+      '</table>' +
+      '</div>' +
+      '<button class="back-btn" id="fplLeagueChange" style="margin-top:16px;">Change League ID</button>';
+    bindFplLeagueChange();
   }
 
   Array.prototype.forEach.call(document.querySelectorAll('nav.tabbar button'), function (btn) {
