@@ -74,17 +74,19 @@ async function fetchUnderstatPlayers(season) {
   const players = extractJsonVar(html, 'playersData');
   if (!players) {
     if (process.env.DEBUG_UNDERSTAT) {
-      let jsDump = '';
+      let apiDump = '';
       try {
-        const jsUrl = `https://understat.com/js/league.min.js?t=1765269520`;
-        const jr = await fetch(jsUrl, { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(15000) });
-        jsDump = `\n\n---js status=${jr.status}---\n` + (await jr.text());
+        const apiUrl = `https://understat.com/getLeagueData/EPL/${season}`;
+        const ar = await fetch(apiUrl, { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(15000) });
+        const text = await ar.text();
+        let parsed = null;
+        try { parsed = JSON.parse(text); } catch (e) {}
+        apiDump = `\n\n---getLeagueData status=${ar.status}---\nplayersCount=${parsed && parsed.players ? parsed.players.length : 'n/a'}\nfirstPlayerKeys=${parsed && parsed.players && parsed.players[0] ? JSON.stringify(Object.keys(parsed.players[0])) : 'n/a'}\nfirstPlayer=${parsed && parsed.players ? JSON.stringify(parsed.players[0]) : 'n/a'}\n\n---raw first 2000 chars---\n${text.slice(0, 2000)}`;
       } catch (e) {
-        jsDump = `\n\n---js fetch error---\n${e}`;
+        apiDump = `\n\n---getLeagueData fetch error---\n${e}`;
       }
-      const varMatches = [...html.matchAll(/var\s+(\w+)\s*=\s*JSON\.parse/g)].map((m) => m[1]);
       fs.writeFileSync(path.join(DATA_DIR, 'debug-understat.txt'),
-        `status=${r.status}\nlength=${html.length}\nhasPlayersDataSubstring=${html.includes('playersData')}\nvarJsonParseNames=${JSON.stringify(varMatches)}${jsDump}`);
+        `status=${r.status}\nlength=${html.length}${apiDump}`);
     }
     throw new Error('Could not find/parse playersData on the Understat league page -- page structure likely changed.');
   }
