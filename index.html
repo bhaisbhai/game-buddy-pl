@@ -532,6 +532,8 @@ nav.tabbar button .icon { font-size: 19px; }
     fplLeague: null,
     fplSquadCache: {},
     fplPriceWatch: null,
+    fplPlannerSwaps: [],
+    fplPlannerFreeTransfers: 1,
   };
 
   function loadFavorites() {
@@ -1535,6 +1537,8 @@ nav.tabbar button .icon { font-size: 19px; }
       await renderFplPrices();
     } else if (state.fplSubView === 'news') {
       await renderFplNews();
+    } else if (state.fplSubView === 'planner') {
+      await renderFplPlanner();
     } else {
       document.getElementById('fplSubContent').innerHTML = '<div class="placeholder-card">Coming soon.</div>';
     }
@@ -1695,6 +1699,130 @@ nav.tabbar button .icon { font-size: 19px; }
         '</a>'
       );
     }).join('');
+  }
+
+  function fplPlayerLabel(p) {
+    return p.web_name + ' (£' + (p.now_cost / 10).toFixed(1) + 'm)';
+  }
+
+  async function renderFplPlanner() {
+    var contentEl = document.getElementById('fplSubContent');
+    contentEl.innerHTML = '<div class="loading">Loading planner…</div>';
+
+    var bootstrap = await loadFplBootstrap();
+    if (!bootstrap) { contentEl.innerHTML = '<div class="empty-state">FPL data unavailable.</div>'; return; }
+    var gwEvent = currentGameweek(bootstrap);
+    if (!gwEvent) { contentEl.innerHTML = '<div class="empty-state">Season data unavailable.</div>'; return; }
+
+    var picksData = await fetchJson('/api/fpl-picks?teamId=' + encodeURIComponent(state.fplTeamId) + '&gw=' + gwEvent.id);
+    var picks = (picksData && picksData.picks) || [];
+    if (picks.length === 0) {
+      contentEl.innerHTML = '<div class="empty-state">Couldn’t load your squad.</div>';
+      return;
+    }
+
+    renderFplPlannerUI(bootstrap, picks);
+  }
+
+  // Manual scenario comparison, not an auto-optimizer: builds a hypothetical
+  // squad by applying up to 2 user-picked swaps to the real squad, and
+  // compares projected points (FPL's own ep_next field — its official
+  // "expected points next fixture" metric, not a scraped/invented one)
+  // against squad value and the -4-per-extra-transfer hit.
+  function renderFplPlannerUI(bootstrap, picks) {
+    var contentEl = document.getElementById('fplSubContent');
+    var squadPlayers = picks.map(function (p) { return fplPlayerById(bootstrap, p.element); }).filter(Boolean);
+
+    var baselineEp = squadPlayers.reduce(function (sum, p) { return sum + (parseFloat(p.ep_next) || 0); }, 0);
+    var baselineValue = squadPlayers.reduce(function (sum, p) { return sum + p.now_cost; }, 0);
+
+    var scenarioPlayers = squadPlayers.slice();
+    state.fplPlannerSwaps.forEach(function (swap) {
+      var outIdx = scenarioPlayers.findIndex(function (p) { return p.id === swap.outId; });
+      var inPlayer = fplPlayerById(bootstrap, swap.inId);
+      if (outIdx !== -1 && inPlayer) scenarioPlayers[outIdx] = inPlayer;
+    });
+
+    var scenarioEp = scenarioPlayers.reduce(function (sum, p) { return sum + (parseFloat(p.ep_next) || 0); }, 0);
+    var scenarioValue = scenarioPlayers.reduce(function (sum, p) { return sum + p.now_cost; }, 0);
+
+    var numTransfers = state.fplPlannerSwaps.length;
+    var freeTransfers = state.fplPlannerFreeTransfers;
+    var hit = Math.max(0, numTransfers - freeTransfers) * 4;
+    var netEv = (scenarioEp - baselineEp) - hit;
+
+    var swapRowsHtml = state.fplPlannerSwaps.map(function (swap, i) {
+      var outP = fplPlayerById(bootstrap, swap.outId);
+      var inP = fplPlayerById(bootstrap, swap.inId);
+      return (
+        '<div class="squad-card">' +
+          '<span class="squad-name">' + escapeHtml(outP ? outP.web_name : '?') + ' → ' + escapeHtml(inP ? inP.web_name : '?') + '</span>' +
+          '<button class="back-btn" data-remove-swap="' + i + '" style="margin-left:auto;">Remove</button>' +
+        '</div>'
+      );
+    }).join('');
+
+    var outOptionsHtml = squadPlayers.map(function (p) {
+      return '<option value="' + p.id + '">' + escapeHtml(fplPlayerLabel(p)) + '</option>';
+    }).join('');
+
+    var datalistHtml = (bootstrap.elements || []).map(function (p) {
+      return '<option data-id="' + p.id + '" value="' + escapeHtml(fplPlayerLabel(p)) + '"></option>';
+    }).join('');
+
+    contentEl.innerHTML =
+      '<div class="fpl-hero">' +
+        '<div class="fpl-hero-stats">' +
+          '<div><span class="n">' + baselineEp.toFixed(1) + '</span><span class="l">Current xPts</span></div>' +
+          '<div><span class="n ' + (scenarioEp >= baselineEp ? 'fpl-rank-up' : 'fpl-rank-down') + '">' + scenarioEp.toFixed(1) + '</span><span class="l">Scenario xPts</span></div>' +
+          '<div><span class="n' + (hit > 0 ? ' fpl-rank-down' : '') + '">-' + hit + '</span><span class="l">Hit</span></div>' +
+          '<div><span class="n ' + (netEv >= 0 ? 'fpl-rank-up' : 'fpl-rank-down') + '">' + (netEv >= 0 ? '+' : '') + netEv.toFixed(1) + '</span><span class="l">Net</span></div>' +
+        '</div>' +
+      '</div>' +
+      '<p class="fpl-setup-help">Squad value: £' + (baselineValue / 10).toFixed(1) + 'm → £' + (scenarioValue / 10).toFixed(1) + 'm. "xPts" is FPL\'s own <code>ep_next</code> expected-points figure, not an independently modelled prediction.</p>' +
+      '<div class="section-title">Free transfers available</div>' +
+      '<input type="number" min="0" max="5" id="fplFreeTransfers" class="fpl-id-input" style="max-width:100px;" value="' + freeTransfers + '">' +
+      '<div class="section-title">Planned swaps</div>' +
+      (swapRowsHtml || '<div class="empty-state">No swaps yet — add one below.</div>') +
+      (state.fplPlannerSwaps.length < 2 ?
+        '<div class="section-title">Add a swap</div>' +
+        '<div class="fpl-id-row" style="margin-bottom:8px;">' +
+          '<select id="fplSwapOut" class="fpl-id-input"><option value="">Player out…</option>' + outOptionsHtml + '</select>' +
+        '</div>' +
+        '<div class="fpl-id-row">' +
+          '<input list="fplPlayerList" id="fplSwapIn" class="fpl-id-input" placeholder="Player in…">' +
+          '<datalist id="fplPlayerList">' + datalistHtml + '</datalist>' +
+          '<button class="fpl-id-btn" id="fplAddSwap">Add</button>' +
+        '</div>'
+        : '<p class="fpl-setup-help">Remove a swap to add another (max 2 for this comparison).</p>');
+
+    document.getElementById('fplFreeTransfers').addEventListener('change', function (e) {
+      state.fplPlannerFreeTransfers = parseInt(e.target.value, 10) || 0;
+      renderFplPlannerUI(bootstrap, picks);
+    });
+
+    Array.prototype.forEach.call(contentEl.querySelectorAll('[data-remove-swap]'), function (btn) {
+      btn.addEventListener('click', function () {
+        state.fplPlannerSwaps.splice(parseInt(btn.getAttribute('data-remove-swap'), 10), 1);
+        renderFplPlannerUI(bootstrap, picks);
+      });
+    });
+
+    var addBtn = document.getElementById('fplAddSwap');
+    if (addBtn) {
+      addBtn.addEventListener('click', function () {
+        var outSel = document.getElementById('fplSwapOut');
+        var inInput = document.getElementById('fplSwapIn');
+        var outId = parseInt(outSel.value, 10);
+        var inLabel = inInput.value;
+        var playerList = document.getElementById('fplPlayerList');
+        var inOption = Array.prototype.find.call(playerList.options, function (o) { return o.value === inLabel; });
+        if (!outId || !inOption) return;
+        var inId = parseInt(inOption.getAttribute('data-id'), 10);
+        state.fplPlannerSwaps.push({ outId: outId, inId: inId });
+        renderFplPlannerUI(bootstrap, picks);
+      });
+    }
   }
 
   function bindFplChangeId(btnId) {

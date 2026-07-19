@@ -287,6 +287,25 @@ Both sources use the same standard 3-letter PL club codes though, so
 `short` field — the same "match on a stable code, not a fuzzy name"
 lesson learned from ID-anchoring the TV-picks scraper.
 
+### Fantasy transfer planner
+
+The Planner sub-tab is a manual scenario comparator, not an
+auto-optimizer — it doesn't search transfer combinations for you. You
+pick up to 2 swaps (a player out from your real squad, a player in from
+all ~600+ FPL players via a `<datalist>` search, no framework needed),
+enter how many free transfers you have (FPL's public API has no way to
+read this without an authenticated session, so it's a manual input),
+and it shows:
+
+- **Projected points**: the sum of FPL's own `ep_next` field (their
+  official "expected points, next fixture" figure) for the current
+  squad vs. the scenario squad. This is FPL's number, not an
+  independently modelled prediction — worth knowing since it's a
+  simpler metric than true multi-gameweek xPts.
+- **Squad value** before/after.
+- **The -4 hit**: `max(0, transfers - free transfers) × 4`.
+- **Net**: the scenario's point gain minus the hit.
+
 ## Local development
 
 This is a static site + serverless functions with no build step. To run
