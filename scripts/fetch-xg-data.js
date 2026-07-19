@@ -1,10 +1,19 @@
-// Scrapes understat.com's league players page for season-aggregate xG/xA
-// (expected goals/assists), matched to FPL element ids, and writes
-// data/fpl-xg.json. Understat has no public API -- every hobby xG tool
-// (including the Python `understat` package) gets data by fetching the page
-// and parsing a JSON blob understat embeds in a <script> tag, so that's what
-// this does. No API key, no account, no cost -- same "scheduled Action,
-// static JSON" shape as fetch-team-news.js and scrape-tv-picks.js.
+// Fetches understat.com's internal getLeagueData JSON endpoint for
+// season-aggregate xG/xA (expected goals/assists), matched to FPL element
+// ids, and writes data/fpl-xg.json. Understat has no public API, but the
+// league page's own front-end calls a same-origin JSON endpoint
+// (GET /getLeagueData/{league}/{season}, gated behind an
+// X-Requested-With: XMLHttpRequest header) to populate its player table --
+// that's what this hits directly. No API key, no account, no cost -- same
+// "scheduled Action, static JSON" shape as fetch-team-news.js and
+// scrape-tv-picks.js.
+//
+// Note: Understat used to embed this data as a hex-escaped JSON.parse('...')
+// blob directly in the page's <script> tag (the technique every older hobby
+// xG scraper documents). They've since moved to client-side rendering that
+// fetches this same data from the endpoint below, which turned out to be a
+// simpler integration once found -- confirmed live via a throwaway debug
+// dump committed and inspected through a GitHub Actions run, not guessed.
 //
 // Scope: season-aggregate xG/xA/npxG per player, not shot-by-shot maps.
 // Shot maps would need a separate per-player scrape (600+ requests instead
@@ -52,58 +61,22 @@ function normalizeName(name) {
     .trim();
 }
 
-// Understat embeds page data as `var X = JSON.parse('...')`, with the
-// string hex-escaped (\xHH) rather than using normal JSON string escapes.
-function extractJsonVar(html, varName) {
-  const regex = new RegExp("var\\s+" + varName + "\\s*=\\s*JSON\\.parse\\('(.+?)'\\);");
-  const match = html.match(regex);
-  if (!match) return null;
-  const decoded = match[1].replace(/\\x([0-9A-Fa-f]{2})/g, (_, hex) => String.fromCharCode(parseInt(hex, 16)));
-  try {
-    return JSON.parse(decoded);
-  } catch (e) {
-    return null;
-  }
-}
-
 async function fetchUnderstatPlayers(season) {
-  const url = `https://understat.com/league/EPL/${season}`;
-  const r = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(15000) });
-  if (!r.ok) throw new Error(`Understat returned ${r.status}`);
-  const html = await r.text();
-  const players = extractJsonVar(html, 'playersData');
-  if (!players) {
-    if (process.env.DEBUG_UNDERSTAT) {
-      const candidates = [
-        `https://understat.com/getLeagueData/EPL/${season}`,
-        `https://understat.com/league/getLeagueData/EPL/${season}`,
-        `https://understat.com/getLeagueData/EPL/${season}/`,
-      ];
-      let apiDump = '';
-      for (const apiUrl of candidates) {
-        try {
-          const ar = await fetch(apiUrl, {
-            headers: {
-              'User-Agent': 'Mozilla/5.0',
-              'X-Requested-With': 'XMLHttpRequest',
-              'Referer': `https://understat.com/league/EPL/${season}`,
-            },
-            signal: AbortSignal.timeout(15000),
-          });
-          const text = await ar.text();
-          let parsed = null;
-          try { parsed = JSON.parse(text); } catch (e) {}
-          apiDump += `\n\n---${apiUrl} status=${ar.status}---\nplayersCount=${parsed && parsed.players ? parsed.players.length : 'n/a'}\nfirstPlayerKeys=${parsed && parsed.players && parsed.players[0] ? JSON.stringify(Object.keys(parsed.players[0])) : 'n/a'}\nraw first 500 chars: ${text.slice(0, 500)}`;
-        } catch (e) {
-          apiDump += `\n\n---${apiUrl} fetch error---\n${e}`;
-        }
-      }
-      fs.writeFileSync(path.join(DATA_DIR, 'debug-understat.txt'),
-        `status=${r.status}\nlength=${html.length}${apiDump}`);
-    }
-    throw new Error('Could not find/parse playersData on the Understat league page -- page structure likely changed.');
+  const url = `https://understat.com/getLeagueData/EPL/${season}/`;
+  const r = await fetch(url, {
+    headers: {
+      'User-Agent': 'Mozilla/5.0',
+      'X-Requested-With': 'XMLHttpRequest',
+      'Referer': `https://understat.com/league/EPL/${season}`,
+    },
+    signal: AbortSignal.timeout(15000),
+  });
+  if (!r.ok) throw new Error(`Understat getLeagueData returned ${r.status}`);
+  const data = await r.json();
+  if (!data || !Array.isArray(data.players)) {
+    throw new Error('Understat getLeagueData response had no players array -- endpoint shape likely changed.');
   }
-  return players;
+  return data.players;
 }
 
 async function fetchFplElements() {
@@ -126,11 +99,16 @@ function understatTeamToSlug(teamTitle, plTeams) {
 
 function buildFplNameIndex(elements, teams, plTeams) {
   // Keyed by "normalized full name|team slug" to disambiguate common surnames.
+  // Anchored on FPL's 3-letter short_name code matched to pl-teams.json's
+  // `short` field -- FPL team names are informal nicknames ("Man City",
+  // "Spurs") that don't fuzzy-match pl-teams.json's fuller names, so name
+  // matching here would silently drop entire clubs. Same anchor already
+  // used by fplTeamToSlug() in index.html.
   const index = {};
   const fplTeamSlugById = {};
   teams.forEach((t) => {
-    const norm = normalizeName(t.name);
-    const match = plTeams.find((p) => normalizeName(p.name) === norm || normalizeName(p.short) === norm);
+    const code = (t.short_name || '').toUpperCase();
+    const match = plTeams.find((p) => (p.short || '').toUpperCase() === code);
     if (match) fplTeamSlugById[t.id] = match.slug;
   });
   elements.forEach((el) => {

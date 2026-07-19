@@ -20,14 +20,11 @@ jobs:
 
       - name: Fetch Understat xG/xA data
         run: node scripts/fetch-xg-data.js
-        env:
-          DEBUG_UNDERSTAT: '1'
-        continue-on-error: true
 
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/fpl-xg.json data/debug-understat.txt
+          git add data/fpl-xg.json
           git diff --cached --quiet || git commit -m "Update FPL xG/xA data [skip ci]"
           git push
