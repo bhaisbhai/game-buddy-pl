@@ -64,22 +64,33 @@ game-buddy-pl/
 │   ├── standings.js                    # /api/standings  -> ESPN standings
 │   ├── summary.js                      # /api/summary    -> ESPN match summary
 │   ├── highlights.js                   # /api/highlights -> ESPN news/highlights
-│   └── team-news.js                    # /api/team-news  -> ESPN team news
+│   ├── team-news.js                    # /api/team-news  -> ESPN team news
+│   ├── roster.js                       # /api/roster     -> ESPN team roster
+│   ├── player.js                       # /api/player     -> ESPN athlete detail
+│   ├── fpl-bootstrap.js                # /api/fpl-bootstrap -> FPL bootstrap-static
+│   ├── fpl-entry.js                    # /api/fpl-entry     -> FPL manager summary
+│   ├── fpl-picks.js                    # /api/fpl-picks     -> FPL gameweek squad
+│   ├── fpl-live.js                     # /api/fpl-live      -> FPL live points
+│   ├── fpl-fixtures.js                 # /api/fpl-fixtures  -> FPL fixtures
+│   └── fpl-league.js                   # /api/fpl-league    -> FPL mini-league standings
 ├── data/
 │   ├── pl-teams.json                   # 20 PL teams: slug, name, ESPN id, subreddit, Google News query
 │   ├── tv-picks.json                   # TV broadcaster picks, refreshed by tv-picks-refresh.yml
 │   ├── tv-announcement-batches.json    # Expected release dates for each TV-picks batch
 │   ├── transfer-heat.json              # Transfer-window heat map, refreshed by team-news.yml
+│   ├── fpl-price-watch.json            # Confirmed FPL price changes, refreshed by fpl-prices.yml
 │   └── team-news/
 │       └── {slug}.json × 20            # Per-club Google News + Reddit feed
 ├── scripts/
 │   ├── fetch-team-news.js              # Google News RSS + Reddit scraper -> data/team-news/, data/transfer-heat.json
 │   ├── scrape-tv-picks.js              # Playwright TV-picks scraper -> data/tv-picks.json
-│   └── init-team-news.js               # One-off: creates empty team-news files for all clubs
+│   ├── init-team-news.js               # One-off: creates empty team-news files for all clubs
+│   └── fetch-fpl-prices.js             # Diffs FPL prices day over day -> data/fpl-price-watch.json
 └── .github/
     └── workflows/
         ├── team-news.yml               # Runs fetch-team-news.js at 06:00 + 18:00 UTC daily
-        └── tv-picks-refresh.yml        # Runs scrape-tv-picks.js at 08:00 + 15:00 UTC daily
+        ├── tv-picks-refresh.yml        # Runs scrape-tv-picks.js at 08:00 + 15:00 UTC daily
+        └── fpl-prices.yml              # Runs fetch-fpl-prices.js at 03:00 UTC daily
 ```
 
 ## How the pieces fit together
@@ -238,6 +249,28 @@ using Playwright/Chromium:
 **Batch 1 (Matchweeks 2–5) is expected to drop Monday 13 July 2026** —
 the scraper will pick it up automatically that week.
 
+### FPL price watch pipeline
+
+`scripts/fetch-fpl-prices.js` runs once daily (03:00 UTC, safely after
+FPL's usual overnight price-update window):
+
+1. Fetches `bootstrap-static` and reads every player's `now_cost`.
+2. Diffs it against yesterday's stored snapshot in
+   `data/fpl-price-watch.json`. Any player whose price differs is a
+   **confirmed** change (rise or fall) — this deliberately doesn't try to
+   *predict* tonight's changes in advance the way some hobby trackers
+   heuristically do from transfer volume, since FPL's real prediction
+   algorithm isn't public and a wrong guess is worse than no guess.
+3. Writes the new snapshot (for tomorrow's diff) plus the list of
+   changes found this run.
+
+The Fantasy tab's Price Watch view reads this file directly, and if a
+connected Team ID's squad contains a player who moved, highlights that
+card and fires an in-app notification (same mechanism as goal
+notifications) — deduped against the data's own `updated` timestamp in
+`localStorage` so reopening the tab doesn't re-notify for the same
+update.
+
 ## Local development
 
 This is a static site + serverless functions with no build step. To run
@@ -254,6 +287,7 @@ To run the data pipelines manually:
 node scripts/init-team-news.js       # one-off: seed empty team-news files
 node scripts/fetch-team-news.js      # fetch Google News + Reddit for all clubs
 npm run scrape                       # scrape-tv-picks.js (requires Playwright browsers)
+node scripts/fetch-fpl-prices.js     # diff FPL prices against yesterday's snapshot
 ```
 
 ## Deployment

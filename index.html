@@ -250,10 +250,12 @@ table.standings td.num { text-align: center; font-family: var(--mono); font-vari
 .fpl-hero-stats .n { font-family: var(--mono); font-size: 20px; font-weight: 800; color: var(--accent); }
 .fpl-hero-stats .l { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--text-dim); }
 .fpl-row-me td { background: rgba(0,255,135,.05); }
+.squad-card.fpl-row-me { background: rgba(0,255,135,.06); border-color: var(--accent); }
 .fpl-league-manager { font-size: 11px; color: var(--text-dim); }
 .fpl-rank-up { color: var(--accent); }
 .fpl-rank-down { color: var(--red); }
 .fpl-rank-same { color: var(--text-dim); }
+.fpl-price-info { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
 
 .news-view-header {
   display: flex;
@@ -1529,9 +1531,91 @@ nav.tabbar button .icon { font-size: 19px; }
       await renderFplMyTeam();
     } else if (state.fplSubView === 'league') {
       await renderFplLeague();
+    } else if (state.fplSubView === 'price') {
+      await renderFplPrices();
     } else {
       document.getElementById('fplSubContent').innerHTML = '<div class="placeholder-card">Coming soon.</div>';
     }
+  }
+
+  async function mySquadElementIds() {
+    if (!state.fplTeamId) return null;
+    var bootstrap = await loadFplBootstrap();
+    var gwEvent = bootstrap && currentGameweek(bootstrap);
+    if (!gwEvent) return null;
+    var picksData = await fetchJson('/api/fpl-picks?teamId=' + encodeURIComponent(state.fplTeamId) + '&gw=' + gwEvent.id);
+    if (!picksData || !picksData.picks) return null;
+    var ids = {};
+    picksData.picks.forEach(function (p) { ids[p.element] = true; });
+    return ids;
+  }
+
+  async function renderFplPrices() {
+    var contentEl = document.getElementById('fplSubContent');
+    contentEl.innerHTML = '<div class="loading">Loading price watch…</div>';
+
+    var data = await fetchJson('/data/fpl-price-watch.json');
+    if (!data) {
+      contentEl.innerHTML = '<div class="empty-state">Price watch data unavailable.</div>';
+      return;
+    }
+
+    var mySquadIds = await mySquadElementIds();
+    var changes = data.changes || [];
+
+    if (changes.length === 0) {
+      contentEl.innerHTML = '<div class="empty-state">No price changes since the last check' +
+        (data.updated ? ' (' + escapeHtml(new Date(data.updated).toLocaleString()) + ')' : '') + '.</div>';
+      return;
+    }
+
+    var risers = changes.filter(function (c) { return c.direction === 'rise'; });
+    var fallers = changes.filter(function (c) { return c.direction === 'fall'; });
+
+    function priceRowHtml(c) {
+      var mine = mySquadIds && mySquadIds[c.id];
+      var detail = (c.team_name ? escapeHtml(c.team_name) + ' · ' : '') +
+        '£' + (c.old_price / 10).toFixed(1) + 'm → £' + (c.new_price / 10).toFixed(1) + 'm' +
+        (mine ? ' · in your squad' : '');
+      return (
+        '<div class="squad-card' + (mine ? ' fpl-row-me' : '') + '">' +
+          '<span class="squad-num ' + (c.direction === 'rise' ? 'fpl-rank-up' : 'fpl-rank-down') + '">' + (c.direction === 'rise' ? '▲' : '▼') + '</span>' +
+          '<div class="fpl-price-info">' +
+            '<div class="squad-name">' + escapeHtml(c.web_name) + '</div>' +
+            '<div class="fpl-league-manager">' + detail + '</div>' +
+          '</div>' +
+        '</div>'
+      );
+    }
+
+    contentEl.innerHTML =
+      (data.updated ? '<div class="fpl-setup-help">Last checked ' + escapeHtml(new Date(data.updated).toLocaleString()) + '</div>' : '') +
+      (risers.length ? '<div class="section-title">Risers</div><div class="squad-grid">' + risers.map(priceRowHtml).join('') + '</div>' : '') +
+      (fallers.length ? '<div class="section-title">Fallers</div><div class="squad-grid">' + fallers.map(priceRowHtml).join('') + '</div>' : '');
+
+    notifySquadPriceChanges(changes, mySquadIds, data.updated);
+  }
+
+  // Notifies once per price-watch update (not once per view) about changes
+  // affecting the user's own squad, using the same in-app-only approach as
+  // goal notifications — deduped via localStorage against the data's own
+  // "updated" timestamp so re-opening this tab doesn't re-notify.
+  function notifySquadPriceChanges(changes, mySquadIds, updatedAt) {
+    if (!mySquadIds || !updatedAt || !('Notification' in window) || Notification.permission !== 'granted') return;
+    var notifiedKey = 'gbpl_price_notified_ts';
+    var lastNotified = null;
+    try { lastNotified = localStorage.getItem(notifiedKey); } catch (e) { /* no persistence available */ }
+    if (lastNotified === updatedAt) return;
+
+    var mine = changes.filter(function (c) { return mySquadIds[c.id]; });
+    if (mine.length) {
+      try {
+        new Notification('Price change in your squad', {
+          body: mine.map(function (c) { return c.web_name + ' ' + (c.direction === 'rise' ? '↑' : '↓') + ' £' + (c.new_price / 10).toFixed(1) + 'm'; }).join(', '),
+        });
+      } catch (e) { /* Notification constructor unsupported in this context */ }
+    }
+    try { localStorage.setItem(notifiedKey, updatedAt); } catch (e) { /* no persistence available */ }
   }
 
   function bindFplChangeId(btnId) {
