@@ -1,13 +1,15 @@
 status=200
-length=18644
+length=18654
 
----getLeagueData status=404---
+---https://understat.com/getLeagueData/EPL/2025 status=200---
+playersCount=537
+firstPlayerKeys=["id","player_name","games","time","goals","xG","assists","xA","shots","key_passes","yellow_cards","red_cards","position","team_title","npg","npxG","xGChain","xGBuildup"]
+raw first 500 chars: {"teams":{"71":{"id":"71","title":"Aston Villa","history":[{"h_a":"h","xG":0.318601,"xGA":1.40098,"npxG":0.318601,"npxGA":1.40098,"ppda":{"att":227,"def":12},"ppda_allowed":{"att":146,"def":24},"deep":2,"deep_allowed":6,"scored":0,"missed":0,"xpts":0.42579999999999996,"result":"d","date":"2025-08-16 11:30:00","wins":0,"draws":1,"loses":0,"pts":1,"npxGD":-1.082379},{"h_a":"a","xG":0.976852,"xGA":1.12964,"npxG":0.976852,"npxGA":1.12964,"ppda":{"att":92,"def":17},"ppda_allowed":{"att":302,"def":28}
+
+---https://understat.com/league/getLeagueData/EPL/2025 status=404---
 playersCount=n/a
 firstPlayerKeys=n/a
-firstPlayer=n/a
-
----raw first 2000 chars---
-<!DOCTYPE html>
+raw first 500 chars: <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<link href="/css/errors.css" rel="stylesheet" media="screen">
@@ -23,3 +25,8 @@ firstPlayer=n/a
 		</div>
 	</body>
 </html>
+
+---https://understat.com/getLeagueData/EPL/2025/ status=200---
+playersCount=537
+firstPlayerKeys=["id","player_name","games","time","goals","xG","assists","xA","shots","key_passes","yellow_cards","red_cards","position","team_title","npg","npxG","xGChain","xGBuildup"]
+raw first 500 chars: {"teams":{"71":{"id":"71","title":"Aston Villa","history":[{"h_a":"h","xG":0.318601,"xGA":1.40098,"npxG":0.318601,"npxGA":1.40098,"ppda":{"att":227,"def":12},"ppda_allowed":{"att":146,"def":24},"deep":2,"deep_allowed":6,"scored":0,"missed":0,"xpts":0.42579999999999996,"result":"d","date":"2025-08-16 11:30:00","wins":0,"draws":1,"loses":0,"pts":1,"npxGD":-1.082379},{"h_a":"a","xG":0.976852,"xGA":1.12964,"npxG":0.976852,"npxGA":1.12964,"ppda":{"att":92,"def":17},"ppda_allowed":{"att":302,"def":28}
