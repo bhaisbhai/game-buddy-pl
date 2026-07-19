@@ -532,8 +532,8 @@ nav.tabbar button .icon { font-size: 19px; }
     fplLeague: null,
     fplSquadCache: {},
     fplPriceWatch: null,
-    fplPlannerSwaps: [],
-    fplPlannerFreeTransfers: 1,
+    fplPlannerSwaps: loadFplPlannerState().swaps,
+    fplPlannerFreeTransfers: loadFplPlannerState().freeTransfers,
   };
 
   function loadFavorites() {
@@ -558,6 +558,26 @@ nav.tabbar button .icon { font-size: 19px; }
   }
   function saveFplLeagueId(id) {
     try { localStorage.setItem('gbpl_fpl_league_id', id); } catch (e) { /* no persistence available */ }
+  }
+
+  // Draft transfer planner state — persisted so a refresh or an accidental
+  // tab close doesn't lose swaps you were still comparing.
+  function loadFplPlannerState() {
+    try {
+      var raw = JSON.parse(localStorage.getItem('gbpl_fpl_planner') || 'null');
+      if (raw && Array.isArray(raw.swaps)) {
+        return { swaps: raw.swaps, freeTransfers: typeof raw.freeTransfers === 'number' ? raw.freeTransfers : 1 };
+      }
+    } catch (e) { /* fall through to defaults */ }
+    return { swaps: [], freeTransfers: 1 };
+  }
+  function saveFplPlannerState() {
+    try {
+      localStorage.setItem('gbpl_fpl_planner', JSON.stringify({
+        swaps: state.fplPlannerSwaps,
+        freeTransfers: state.fplPlannerFreeTransfers,
+      }));
+    } catch (e) { /* no persistence available */ }
   }
 
   function saveFavorites() {
@@ -1798,12 +1818,14 @@ nav.tabbar button .icon { font-size: 19px; }
 
     document.getElementById('fplFreeTransfers').addEventListener('change', function (e) {
       state.fplPlannerFreeTransfers = parseInt(e.target.value, 10) || 0;
+      saveFplPlannerState();
       renderFplPlannerUI(bootstrap, picks);
     });
 
     Array.prototype.forEach.call(contentEl.querySelectorAll('[data-remove-swap]'), function (btn) {
       btn.addEventListener('click', function () {
         state.fplPlannerSwaps.splice(parseInt(btn.getAttribute('data-remove-swap'), 10), 1);
+        saveFplPlannerState();
         renderFplPlannerUI(bootstrap, picks);
       });
     });
@@ -1820,6 +1842,7 @@ nav.tabbar button .icon { font-size: 19px; }
         if (!outId || !inOption) return;
         var inId = parseInt(inOption.getAttribute('data-id'), 10);
         state.fplPlannerSwaps.push({ outId: outId, inId: inId });
+        saveFplPlannerState();
         renderFplPlannerUI(bootstrap, picks);
       });
     }
