@@ -74,9 +74,17 @@ async function fetchUnderstatPlayers(season) {
   const players = extractJsonVar(html, 'playersData');
   if (!players) {
     if (process.env.DEBUG_UNDERSTAT) {
+      let jsDump = '';
+      try {
+        const jsUrl = `https://understat.com/js/league.min.js?t=1765269520`;
+        const jr = await fetch(jsUrl, { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(15000) });
+        jsDump = `\n\n---js status=${jr.status}---\n` + (await jr.text());
+      } catch (e) {
+        jsDump = `\n\n---js fetch error---\n${e}`;
+      }
       const varMatches = [...html.matchAll(/var\s+(\w+)\s*=\s*JSON\.parse/g)].map((m) => m[1]);
       fs.writeFileSync(path.join(DATA_DIR, 'debug-understat.txt'),
-        `status=${r.status}\nlength=${html.length}\nhasPlayersDataSubstring=${html.includes('playersData')}\nvarJsonParseNames=${JSON.stringify(varMatches)}\n\n---full html---\n${html}`);
+        `status=${r.status}\nlength=${html.length}\nhasPlayersDataSubstring=${html.includes('playersData')}\nvarJsonParseNames=${JSON.stringify(varMatches)}${jsDump}`);
     }
     throw new Error('Could not find/parse playersData on the Understat league page -- page structure likely changed.');
   }
