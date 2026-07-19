@@ -1533,6 +1533,8 @@ nav.tabbar button .icon { font-size: 19px; }
       await renderFplLeague();
     } else if (state.fplSubView === 'price') {
       await renderFplPrices();
+    } else if (state.fplSubView === 'news') {
+      await renderFplNews();
     } else {
       document.getElementById('fplSubContent').innerHTML = '<div class="placeholder-card">Coming soon.</div>';
     }
@@ -1616,6 +1618,83 @@ nav.tabbar button .icon { font-size: 19px; }
       } catch (e) { /* Notification constructor unsupported in this context */ }
     }
     try { localStorage.setItem(notifiedKey, updatedAt); } catch (e) { /* no persistence available */ }
+  }
+
+  // FPL's own team ids don't match ESPN's espn_id at all, but both use the
+  // same standard 3-letter PL club codes, so short_name is a reliable
+  // anchor between the two data sources -- same lesson as ID-anchoring the
+  // TV picks scraper's team names.
+  function fplTeamToSlug(fplTeamId, bootstrap) {
+    var fplTeam = (bootstrap.teams || []).find(function (t) { return t.id === fplTeamId; });
+    if (!fplTeam) return null;
+    var short = (fplTeam.short_name || '').toUpperCase();
+    var match = state.teamsData.find(function (t) { return t.short.toUpperCase() === short; });
+    return match ? match.slug : null;
+  }
+
+  async function renderFplNews() {
+    var contentEl = document.getElementById('fplSubContent');
+    contentEl.innerHTML = '<div class="loading">Loading squad news…</div>';
+
+    var bootstrap = await loadFplBootstrap();
+    if (!bootstrap) { contentEl.innerHTML = '<div class="empty-state">FPL data unavailable.</div>'; return; }
+    var gwEvent = currentGameweek(bootstrap);
+    if (!gwEvent) { contentEl.innerHTML = '<div class="empty-state">Season data unavailable.</div>'; return; }
+
+    var picksData = await fetchJson('/api/fpl-picks?teamId=' + encodeURIComponent(state.fplTeamId) + '&gw=' + gwEvent.id);
+    var picks = (picksData && picksData.picks) || [];
+    if (picks.length === 0) {
+      contentEl.innerHTML = '<div class="empty-state">Couldn’t load your squad.</div>';
+      return;
+    }
+
+    await loadTeamsMeta();
+
+    var slugSet = {};
+    picks.forEach(function (p) {
+      var player = fplPlayerById(bootstrap, p.element);
+      if (!player) return;
+      var slug = fplTeamToSlug(player.team, bootstrap);
+      if (slug) slugSet[slug] = true;
+    });
+    var slugs = Object.keys(slugSet);
+
+    if (slugs.length === 0) {
+      contentEl.innerHTML = '<div class="empty-state">Couldn’t match your squad’s clubs.</div>';
+      return;
+    }
+
+    var newsLists = await Promise.all(slugs.map(function (slug) { return loadTeamNews(slug); }));
+    var items = [];
+    slugs.forEach(function (slug, i) {
+      var news = newsLists[i];
+      var team = teamBySlug(slug);
+      ((news && news.articles) || []).forEach(function (a) {
+        if (a.category === 'fitness' || a.category === 'manager') {
+          items.push({ article: a, team: team });
+        }
+      });
+    });
+
+    items.sort(function (a, b) { return new Date(b.article.pubDate) - new Date(a.article.pubDate); });
+
+    if (items.length === 0) {
+      contentEl.innerHTML = '<div class="empty-state">No fitness or manager news for your squad’s clubs right now.</div>';
+      return;
+    }
+
+    contentEl.innerHTML = items.map(function (item) {
+      var a = item.article;
+      return (
+        '<a class="news-article" href="' + escapeAttr(a.link) + '" target="_blank" rel="noopener">' +
+          '<div class="na-body">' +
+            '<div class="na-cat">' + escapeHtml(item.team ? item.team.short : '') + ' · ' + escapeHtml(a.category) + '</div>' +
+            '<h3>' + escapeHtml(a.title) + '</h3>' +
+            '<div class="na-meta">' + escapeHtml(a.source || '') + '</div>' +
+          '</div>' +
+        '</a>'
+      );
+    }).join('');
   }
 
   function bindFplChangeId(btnId) {

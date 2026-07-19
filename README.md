@@ -271,6 +271,22 @@ notifications) — deduped against the data's own `updated` timestamp in
 `localStorage` so reopening the tab doesn't re-notify for the same
 update.
 
+### Fantasy squad news digest
+
+The Squad News sub-tab resolves each player in your connected squad to
+their real-world club, then filters that club's existing
+`data/team-news/{slug}.json` articles down to the `fitness`/`manager`
+categories — no new scraper needed, this reuses the team-news pipeline
+that already exists for the Teams tab.
+
+The one non-obvious part is matching FPL's own team ids to this repo's
+`pl-teams.json` slugs — they're two unrelated numbering schemes (FPL's
+`bootstrap-static` teams and ESPN's `espn_id` don't correspond at all).
+Both sources use the same standard 3-letter PL club codes though, so
+`fplTeamToSlug()` anchors on FPL's `short_name` against `pl-teams.json`'s
+`short` field — the same "match on a stable code, not a fuzzy name"
+lesson learned from ID-anchoring the TV-picks scraper.
+
 ## Local development
 
 This is a static site + serverless functions with no build step. To run
