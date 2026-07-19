@@ -214,6 +214,42 @@ table.standings td.num { text-align: center; font-family: var(--mono); font-vari
 .squad-num { font-family: var(--mono); font-size: 16px; font-weight: 800; color: var(--accent); min-width: 20px; }
 .squad-name { font-size: 13px; font-weight: 600; }
 
+.fpl-setup { padding: 10px 2px 20px; }
+.fpl-setup-help { font-size: 13px; color: var(--text-dim); line-height: 1.55; margin: 10px 0 16px; }
+.fpl-id-row { display: flex; gap: 8px; }
+.fpl-id-input {
+  flex: 1;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  color: var(--text);
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 15px;
+}
+.fpl-id-btn {
+  background: var(--accent);
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 18px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.fpl-hero {
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 18px;
+  margin-bottom: 8px;
+}
+.fpl-hero-name { font-size: 16px; font-weight: 700; margin-bottom: 12px; }
+.fpl-hero-stats { display: flex; gap: 24px; flex-wrap: wrap; }
+.fpl-hero-stats div { display: flex; flex-direction: column; gap: 2px; }
+.fpl-hero-stats .n { font-family: var(--mono); font-size: 20px; font-weight: 800; color: var(--accent); }
+.fpl-hero-stats .l { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; color: var(--text-dim); }
+
 .news-view-header {
   display: flex;
   align-items: center;
@@ -423,9 +459,7 @@ nav.tabbar button .icon { font-size: 19px; }
   <section id="view-today" class="view active"></section>
   <section id="view-table" class="view"></section>
   <section id="view-teams" class="view"></section>
-  <section id="view-stats" class="view">
-    <div class="placeholder-card">Stats hub coming soon.</div>
-  </section>
+  <section id="view-fantasy" class="view"></section>
   <section id="view-favs" class="view">
   </section>
 </main>
@@ -442,7 +476,7 @@ nav.tabbar button .icon { font-size: 19px; }
   <button data-tab="today" class="active"><span class="icon">⚽</span>Today</button>
   <button data-tab="table"><span class="icon">📊</span>Table</button>
   <button data-tab="teams"><span class="icon">🛡️</span>Teams</button>
-  <button data-tab="stats"><span class="icon">📈</span>Stats</button>
+  <button data-tab="fantasy"><span class="icon">🎯</span>Fantasy</button>
   <button data-tab="favs"><span class="icon">⭐</span>Favs</button>
 </nav>
 
@@ -481,6 +515,16 @@ nav.tabbar button .icon { font-size: 19px; }
     seenGoals: null,
     refreshTimer: null,
     hasLive: false,
+    fplTeamId: loadFplTeamId(),
+    fplLeagueId: loadFplLeagueId(),
+    fplSubView: 'myteam',
+    fplBootstrap: null,
+    fplEntry: null,
+    fplPicks: null,
+    fplLive: null,
+    fplLeague: null,
+    fplSquadCache: {},
+    fplPriceWatch: null,
   };
 
   function loadFavorites() {
@@ -489,6 +533,22 @@ nav.tabbar button .icon { font-size: 19px; }
     } catch (e) {
       return [];
     }
+  }
+
+  function loadFplTeamId() {
+    try { return localStorage.getItem('gbpl_fpl_team_id') || null; } catch (e) { return null; }
+  }
+  function saveFplTeamId(id) {
+    try { localStorage.setItem('gbpl_fpl_team_id', id); } catch (e) { /* no persistence available */ }
+  }
+  function clearFplTeamId() {
+    try { localStorage.removeItem('gbpl_fpl_team_id'); } catch (e) { /* no persistence available */ }
+  }
+  function loadFplLeagueId() {
+    try { return localStorage.getItem('gbpl_fpl_league_id') || null; } catch (e) { return null; }
+  }
+  function saveFplLeagueId(id) {
+    try { localStorage.setItem('gbpl_fpl_league_id', id); } catch (e) { /* no persistence available */ }
   }
 
   function saveFavorites() {
@@ -1366,6 +1426,7 @@ nav.tabbar button .icon { font-size: 19px; }
     if (tab === 'table') loadStandings();
     if (tab === 'teams') { if (state.teamsDataLoaded) renderTeams(); else loadTeamsData(); }
     if (tab === 'favs') { if (state.teamsListLoaded) renderFavs(); else loadTeamsMeta().then(renderFavs); }
+    if (tab === 'fantasy') renderFantasy();
   }
 
   async function renderFavs() {
@@ -1396,6 +1457,159 @@ nav.tabbar button .icon { font-size: 19px; }
         switchTab('teams');
       });
     });
+  }
+
+  // ---------- Fantasy tab ----------
+
+  async function loadFplBootstrap() {
+    if (!state.fplBootstrap) {
+      state.fplBootstrap = await fetchJson('/api/fpl-bootstrap');
+    }
+    return state.fplBootstrap;
+  }
+
+  function currentGameweek(bootstrap) {
+    if (!bootstrap || !bootstrap.events) return null;
+    return bootstrap.events.find(function (e) { return e.is_current; }) ||
+      bootstrap.events.find(function (e) { return e.is_next; }) ||
+      bootstrap.events[bootstrap.events.length - 1] ||
+      null;
+  }
+
+  function fplPlayerById(bootstrap, id) {
+    return (bootstrap.elements || []).find(function (p) { return p.id === id; }) || null;
+  }
+
+  var FPL_SUBTAB_LABELS = { myteam: 'My Team', league: 'League', price: 'Price Watch', news: 'Squad News', planner: 'Planner' };
+
+  async function renderFantasy() {
+    var el = document.getElementById('view-fantasy');
+
+    if (!state.fplTeamId) {
+      el.innerHTML =
+        '<div class="fpl-setup">' +
+          '<div class="section-title" style="margin-top:4px;">Connect your FPL team</div>' +
+          '<p class="fpl-setup-help">Enter your public FPL Team ID — find it in the URL when you open your team on the official site or app: fantasy.premierleague.com/entry/<b>1234567</b>/event/1. No login, and nothing is ever written back to your real team.</p>' +
+          '<div class="fpl-id-row">' +
+            '<input type="text" inputmode="numeric" pattern="[0-9]*" id="fplTeamIdInput" placeholder="e.g. 1234567" class="fpl-id-input">' +
+            '<button class="fpl-id-btn" id="fplTeamIdSave">Connect</button>' +
+          '</div>' +
+        '</div>';
+      document.getElementById('fplTeamIdSave').addEventListener('click', function () {
+        var val = document.getElementById('fplTeamIdInput').value.trim();
+        if (!/^\d+$/.test(val)) return;
+        state.fplTeamId = val;
+        saveFplTeamId(val);
+        renderFantasy();
+      });
+      return;
+    }
+
+    el.innerHTML =
+      '<div class="cat-filters">' +
+        Object.keys(FPL_SUBTAB_LABELS).map(function (v) {
+          return '<button class="cat-chip' + (state.fplSubView === v ? ' active' : '') + '" data-fplsub="' + v + '">' + FPL_SUBTAB_LABELS[v] + '</button>';
+        }).join('') +
+      '</div>' +
+      '<div id="fplSubContent"><div class="loading">Loading…</div></div>';
+
+    Array.prototype.forEach.call(el.querySelectorAll('[data-fplsub]'), function (btn) {
+      btn.addEventListener('click', function () {
+        state.fplSubView = btn.getAttribute('data-fplsub');
+        renderFantasy();
+      });
+    });
+
+    if (state.fplSubView === 'myteam') {
+      await renderFplMyTeam();
+    } else {
+      document.getElementById('fplSubContent').innerHTML = '<div class="placeholder-card">Coming soon.</div>';
+    }
+  }
+
+  function bindFplChangeId(btnId) {
+    var btn = document.getElementById(btnId);
+    if (!btn) return;
+    btn.addEventListener('click', function () {
+      clearFplTeamId();
+      state.fplTeamId = null;
+      renderFantasy();
+    });
+  }
+
+  async function renderFplMyTeam() {
+    var contentEl = document.getElementById('fplSubContent');
+    var bootstrap = await loadFplBootstrap();
+    if (!bootstrap) {
+      contentEl.innerHTML = '<div class="empty-state">FPL data unavailable right now.</div>';
+      return;
+    }
+    var gwEvent = currentGameweek(bootstrap);
+    if (!gwEvent) {
+      contentEl.innerHTML = '<div class="empty-state">Season data unavailable.</div>';
+      return;
+    }
+    var gw = gwEvent.id;
+
+    var entry = await fetchJson('/api/fpl-entry?teamId=' + encodeURIComponent(state.fplTeamId));
+    if (!entry || !entry.id) {
+      contentEl.innerHTML = '<div class="empty-state">Couldn’t find that FPL Team ID.<br><button class="back-btn" id="fplChangeId1" style="margin-top:10px;">Change Team ID</button></div>';
+      bindFplChangeId('fplChangeId1');
+      return;
+    }
+
+    var picksData = await fetchJson('/api/fpl-picks?teamId=' + encodeURIComponent(state.fplTeamId) + '&gw=' + gw);
+    var liveData = await fetchJson('/api/fpl-live?gw=' + gw);
+    var liveByPlayer = {};
+    ((liveData && liveData.elements) || []).forEach(function (e) { liveByPlayer[e.id] = e.stats; });
+
+    var picks = (picksData && picksData.picks) || [];
+    var liveTotal = picks.reduce(function (sum, p) {
+      var stats = liveByPlayer[p.element];
+      var pts = stats ? stats.total_points : 0;
+      return sum + pts * (p.multiplier || 0);
+    }, 0);
+
+    var starters = picks.filter(function (p) { return p.position <= 11; });
+    var bench = picks.filter(function (p) { return p.position > 11; });
+
+    function pickCardHtml(p) {
+      var player = fplPlayerById(bootstrap, p.element);
+      if (!player) return '';
+      var stats = liveByPlayer[p.element];
+      var pts = stats ? stats.total_points : 0;
+      // Shows each player's raw gameweek points, not multiplied by captaincy —
+      // the (C)/(VC) badge signals captaincy, and the hero total above
+      // already applies the real multiplier (0 for bench, 2/3 for captain).
+      // Multiplying here too would make a benched player (multiplier 0)
+      // display as if their points had counted.
+      var badge = p.is_captain ? ' (C)' : (p.is_vice_captain ? ' (VC)' : '');
+      return (
+        '<div class="squad-card">' +
+          '<span class="squad-num">' + pts + '</span>' +
+          '<span class="squad-name">' + escapeHtml(player.web_name) + escapeHtml(badge) + '</span>' +
+        '</div>'
+      );
+    }
+
+    var rankDisplay = typeof entry.summary_overall_rank === 'number' ? entry.summary_overall_rank.toLocaleString() : '—';
+    var pointsDisplay = typeof entry.summary_overall_points === 'number' ? entry.summary_overall_points : '—';
+
+    contentEl.innerHTML =
+      '<div class="fpl-hero">' +
+        '<div class="fpl-hero-name">' + escapeHtml(entry.name || '') + '</div>' +
+        '<div class="fpl-hero-stats">' +
+          '<div><span class="n">' + liveTotal + '</span><span class="l">GW' + gw + ' Live</span></div>' +
+          '<div><span class="n">' + pointsDisplay + '</span><span class="l">Total Pts</span></div>' +
+          '<div><span class="n">' + rankDisplay + '</span><span class="l">Overall Rank</span></div>' +
+        '</div>' +
+      '</div>' +
+      '<div class="section-title">Starting XI</div>' +
+      '<div class="squad-grid">' + starters.map(pickCardHtml).join('') + '</div>' +
+      (bench.length ? '<div class="section-title">Bench</div><div class="squad-grid">' + bench.map(pickCardHtml).join('') + '</div>' : '') +
+      '<button class="back-btn" id="fplChangeId2" style="margin-top:16px;">Change Team ID</button>';
+
+    bindFplChangeId('fplChangeId2');
   }
 
   Array.prototype.forEach.call(document.querySelectorAll('nav.tabbar button'), function (btn) {

@@ -18,7 +18,10 @@ semantic win/draw/loss colour coding throughout.
   transfer-heat view during transfer windows); Squad lists the full
   current roster grouped by position, fetched live from ESPN so
   transfers/injuries show up without any scheduled refresh.
-- **Stats** — placeholder for a future feature.
+- **Fantasy** — a read-only FPL companion. Enter your public FPL Team ID
+  (no login) to see your live gameweek score, squad, and overall rank.
+  See "Fantasy tab" below for the full feature set and what it deliberately
+  doesn't do.
 - **Favs** — favourite any team from its page (☆ button next to the
   team name) and it shows up here as a shortcut grid. Favourites persist
   in `localStorage`, no account/backend needed. Favourited teams' matches
@@ -102,6 +105,51 @@ up automatically as soon as ESPN's own data updates.
 | `/api/team-news?espnId={id}` | `.../eng.1/news?team={id}` | `s-maxage=600, swr=600` | (supplementary; primary team news comes from `data/team-news/`) |
 | `/api/roster?teamId={espn_id}` | `.../eng.1/teams/{id}/roster` | `s-maxage=10800, swr=3600` | Team page Squad tab |
 | `/api/player?playerId={id}` | `.../eng.1/athletes/{id}` | `s-maxage=10800, swr=3600` | Player modal |
+
+### Fantasy tab
+
+A set of `api/fpl-*.js` proxies hit FPL's public (unauthenticated,
+undocumented but stable) API directly — same live-proxy pattern as
+`roster.js`/`player.js`, no scheduled scrape:
+
+| Route | FPL endpoint | Cache-Control | Used for |
+|---|---|---|---|
+| `/api/fpl-bootstrap` | `bootstrap-static/` | `s-maxage=3600, swr=1800` | Master data: every player, team, and gameweek |
+| `/api/fpl-entry?teamId={id}` | `entry/{id}/` | `s-maxage=300, swr=150` | Manager summary (name, overall points/rank) |
+| `/api/fpl-picks?teamId={id}&gw={gw}` | `entry/{id}/event/{gw}/picks/` | `s-maxage=60, swr=60` | Active squad for a gameweek |
+| `/api/fpl-live?gw={gw}` | `event/{gw}/live/` | `s-maxage=10, swr=10` | Live per-player points ("second screen") |
+| `/api/fpl-fixtures?gw={gw}` | `fixtures/?event={gw}` | `s-maxage=120, swr=60` | Fixture difficulty for a gameweek |
+| `/api/fpl-league?leagueId={id}` | `leagues-classic/{id}/standings/` | `s-maxage=60, swr=60` | Mini-league standings |
+
+**This is a read-only planning/analysis companion, not a remote control
+for your real FPL team.** Connecting is just entering your public numeric
+Team ID (found in the URL when you open your team on the official
+site/app) — stored in `localStorage`, exactly like Favs. FPL's *write*
+endpoints (making transfers, setting your captain, playing a chip) all
+require an authenticated session with FPL's login cookies, which this
+app deliberately never touches — so every feature here is view/simulate
+only; actually making changes still happens in the official app.
+
+Three PRD requirements were deliberately scoped down rather than built
+as originally specified, because the literal spec didn't fit a
+zero-database, static-JSON-and-serverless-functions project:
+
+- **Live Effective Ownership (EO)** wanted true EO broken down by rank
+  tier, which real EO tools compute by sampling picks across thousands
+  of managers — a heavy scraping/compute problem on its own. Built
+  instead: `bootstrap-static`'s `selected_by_percent` per player, which
+  is real overall-ownership data with zero extra scraping, just not
+  broken down by rank band.
+- **Aggregated pre-deadline lineup leaks** wanted scraping many
+  journalists'/fan accounts' social posts — a much bigger and flakier
+  scraping surface than anything else in this repo. Built instead: a
+  squad-news digest reusing the existing team-news pipeline's `fitness`/
+  `manager`-categorised articles, filtered to the clubs in your squad.
+- **Multi-gameweek auto-optimizing transfer solver** wanted a
+  combinatorial search across future fixtures and hundreds of players —
+  a serious standalone project. Built instead: manual scenario
+  comparison — build 1–2 hypothetical squads and see the point/price/-4
+  hit math side by side, no auto-optimizer.
 
 ### In-app goal notifications
 
