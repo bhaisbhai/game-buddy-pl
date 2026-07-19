@@ -74,16 +74,29 @@ async function fetchUnderstatPlayers(season) {
   const players = extractJsonVar(html, 'playersData');
   if (!players) {
     if (process.env.DEBUG_UNDERSTAT) {
+      const candidates = [
+        `https://understat.com/getLeagueData/EPL/${season}`,
+        `https://understat.com/league/getLeagueData/EPL/${season}`,
+        `https://understat.com/getLeagueData/EPL/${season}/`,
+      ];
       let apiDump = '';
-      try {
-        const apiUrl = `https://understat.com/getLeagueData/EPL/${season}`;
-        const ar = await fetch(apiUrl, { headers: { 'User-Agent': 'Mozilla/5.0' }, signal: AbortSignal.timeout(15000) });
-        const text = await ar.text();
-        let parsed = null;
-        try { parsed = JSON.parse(text); } catch (e) {}
-        apiDump = `\n\n---getLeagueData status=${ar.status}---\nplayersCount=${parsed && parsed.players ? parsed.players.length : 'n/a'}\nfirstPlayerKeys=${parsed && parsed.players && parsed.players[0] ? JSON.stringify(Object.keys(parsed.players[0])) : 'n/a'}\nfirstPlayer=${parsed && parsed.players ? JSON.stringify(parsed.players[0]) : 'n/a'}\n\n---raw first 2000 chars---\n${text.slice(0, 2000)}`;
-      } catch (e) {
-        apiDump = `\n\n---getLeagueData fetch error---\n${e}`;
+      for (const apiUrl of candidates) {
+        try {
+          const ar = await fetch(apiUrl, {
+            headers: {
+              'User-Agent': 'Mozilla/5.0',
+              'X-Requested-With': 'XMLHttpRequest',
+              'Referer': `https://understat.com/league/EPL/${season}`,
+            },
+            signal: AbortSignal.timeout(15000),
+          });
+          const text = await ar.text();
+          let parsed = null;
+          try { parsed = JSON.parse(text); } catch (e) {}
+          apiDump += `\n\n---${apiUrl} status=${ar.status}---\nplayersCount=${parsed && parsed.players ? parsed.players.length : 'n/a'}\nfirstPlayerKeys=${parsed && parsed.players && parsed.players[0] ? JSON.stringify(Object.keys(parsed.players[0])) : 'n/a'}\nraw first 500 chars: ${text.slice(0, 500)}`;
+        } catch (e) {
+          apiDump += `\n\n---${apiUrl} fetch error---\n${e}`;
+        }
       }
       fs.writeFileSync(path.join(DATA_DIR, 'debug-understat.txt'),
         `status=${r.status}\nlength=${html.length}${apiDump}`);
