@@ -1,0 +1,47 @@
+name: Self-Heal Scraper
+
+on:
+  workflow_run:
+    workflows: ["Team News", "TV Picks Refresh", "FPL Price Watch", "FPL xG/xA Data"]
+    types: [completed]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  heal:
+    if: github.event.workflow_run.conclusion == 'failure'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Diagnose and patch
+        id: heal
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FAILED_WORKFLOW_NAME: ${{ github.event.workflow_run.name }}
+          FAILED_RUN_ID: ${{ github.event.workflow_run.id }}
+          REPO: ${{ github.repository }}
+        run: node scripts/self-heal.js
+
+      - name: Open pull request with proposed fix
+        if: steps.heal.outputs.patched == 'true'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Self-heal: fix ${{ steps.heal.outputs.script }}"
+          branch: self-heal/${{ steps.heal.outputs.branch_slug }}
+          delete-branch: false
+          title: "🤖 ${{ steps.heal.outputs.title }}"
+          body-path: /tmp/self-heal-pr-body.md
+          labels: self-heal

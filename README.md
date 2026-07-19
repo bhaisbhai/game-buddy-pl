@@ -87,13 +87,15 @@ game-buddy-pl/
 │   ├── scrape-tv-picks.js              # Playwright TV-picks scraper -> data/tv-picks.json
 │   ├── init-team-news.js               # One-off: creates empty team-news files for all clubs
 │   ├── fetch-fpl-prices.js             # Diffs FPL prices day over day -> data/fpl-price-watch.json
-│   └── fetch-xg-data.js                # Scrapes Understat xG/xA, matched to FPL ids -> data/fpl-xg.json
+│   ├── fetch-xg-data.js                # Scrapes Understat xG/xA, matched to FPL ids -> data/fpl-xg.json
+│   └── self-heal.js                    # Diagnoses a failed scraper run via Claude, opens a fix PR
 └── .github/
     └── workflows/
         ├── team-news.yml               # Runs fetch-team-news.js at 06:00 + 18:00 UTC daily
         ├── tv-picks-refresh.yml        # Runs scrape-tv-picks.js at 08:00 + 15:00 UTC daily
         ├── fpl-prices.yml              # Runs fetch-fpl-prices.js at 03:00 UTC daily
-        └── fpl-xg.yml                  # Runs fetch-xg-data.js at 04:00 UTC daily
+        ├── fpl-xg.yml                  # Runs fetch-xg-data.js at 04:00 UTC daily
+        └── self-heal.yml               # Watches the 4 scraper workflows, runs self-heal.js on failure
 ```
 
 ## How the pieces fit together
@@ -317,13 +319,20 @@ and it shows:
 
 ### FPL xG/xA data pipeline
 
-`scripts/fetch-xg-data.js` runs once daily. Understat has no public API —
-like every hobby xG tool (including the Python `understat` package), it
-gets data by fetching `understat.com/league/EPL/{season}` and parsing a
-JSON blob Understat embeds in a `<script>` tag as `var playersData =
-JSON.parse('...')`, hex-escaped (`\xHH` per byte) rather than using
-normal JSON string escapes — same "scheduled Action, static JSON, no
-database" shape as `fetch-team-news.js`.
+`scripts/fetch-xg-data.js` runs once daily. Understat has no public API,
+so it hits the same JSON endpoint Understat's own league page calls
+client-side: `GET understat.com/getLeagueData/EPL/{season}/`, gated
+behind an `X-Requested-With: XMLHttpRequest` header — same "scheduled
+Action, static JSON, no database" shape as `fetch-team-news.js`.
+
+(Older hobby xG scrapers, including this one's first version, instead
+parsed a hex-escaped `var playersData = JSON.parse('...')` blob embedded
+directly in the page's `<script>` tag — that was Understat's shape until
+they moved the player table to client-side rendering. The endpoint above
+was found by committing a throwaway debug dump of the live page and
+inspecting it through a real GitHub Actions run, since this technique
+can't be verified from a sandboxed dev environment that blocks
+`understat.com` outbound.)
 
 Scope: season-aggregate xG/xA/npxG per player, not shot-by-shot maps —
 those would need a separate per-player scrape (600+ requests instead of
@@ -342,6 +351,34 @@ rather than silently shipping a mostly-empty file — matching the
 TV-picks scraper's fail-loud convention. A handful of individual misses
 (nicknames, transliteration differences) is normal and expected; a
 collapse to near-zero matches means Understat's page structure changed.
+
+### Self-healing scraper watchdog
+
+All four scrapers above hit a page or endpoint the app doesn't control,
+and site redesigns (like Understat's above) are the recurring failure
+mode — not a hypothetical, since it's already happened once. Rather than
+a broken scraper sitting silently stale until someone happens to notice,
+`.github/workflows/self-heal.yml` watches all four scraper workflows via
+`workflow_run` and fires `scripts/self-heal.js` whenever one fails.
+
+The watchdog pulls the failed run's job log via the GitHub API, hands it
+to Claude (Opus 4.8) alongside the current script's source, and asks for
+a root-cause diagnosis plus a corrected file — via structured output so
+the response is guaranteed-parseable JSON, not free text. It's
+deliberately conservative rather than autonomous:
+
+- If the log looks transient (a timeout, a one-off 5xx, a rate limit)
+  rather than structural, no patch is proposed — a re-run is cheaper and
+  safer than a low-confidence auto-edit.
+- Any proposed patch is syntax-checked (`vm.Script`) before it's used;
+  a patch that doesn't even parse as valid JS is discarded.
+- It never commits to `main`. A confident, valid patch opens (or updates,
+  if one's already open) a PR on a fixed `self-heal/<script-name>`
+  branch for human review — the same "propose, don't auto-merge"
+  discipline as everywhere else this app touches production.
+
+Requires an `ANTHROPIC_API_KEY` repo secret (Settings → Secrets and
+variables → Actions) — the workflow is otherwise inert without one.
 
 ## Local development
 
@@ -368,11 +405,16 @@ node scripts/fetch-xg-data.js        # scrape Understat xG/xA, matched to FPL el
 1. Import this repo into Vercel — framework preset **Other**, root
    directory `/`. Vercel redeploys automatically on every push to the
    default branch.
-2. The two GitHub Actions workflows run on their own schedules once the
-   repo is on GitHub — no additional setup needed beyond the default
-   `GITHUB_TOKEN` permissions already declared in each workflow
-   (`contents: write`, so they can commit refreshed data back to the
-   repo).
+2. The scraper GitHub Actions workflows (team news, TV picks, FPL price
+   watch, FPL xG/xA) run on their own schedules once the repo is on
+   GitHub — no additional setup needed beyond the default `GITHUB_TOKEN`
+   permissions already declared in each workflow (`contents: write`, so
+   they can commit refreshed data back to the repo).
+3. To enable the self-healing watchdog (optional but recommended), add
+   an `ANTHROPIC_API_KEY` repo secret — see
+   [Self-healing scraper watchdog](#self-healing-scraper-watchdog) above.
+   Without it, scrapers still run and still fail loudly on breakage; the
+   only thing missing is the automatic diagnosis-and-PR step.
 
 ## Maintenance notes
 
