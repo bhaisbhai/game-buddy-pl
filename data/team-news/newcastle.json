@@ -1,75 +1,19 @@
 {
   "slug": "newcastle",
-  "updated": "2026-07-22T08:09:57.352Z",
+  "updated": "2026-07-22T19:01:44.712Z",
   "articles": [
+    {
+      "title": "Latest. Our club crest: An update",
+      "source": "Newcastle United",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE40ekI5anBfVC1Qb3gxOG9LX3lHQUkwS0RjUTRUSlJ3MVpvU21LLV9pdGl6M2JzcHE3Zjk4dlRpVnllNDU3Z29aSkNYYU1rNW9FVEJTcVNaaF85LXY1V1I2UDc5MVRiNklZaG1uXzdIc2VZdw?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 10:34:14 GMT",
+      "category": "general"
+    },
     {
       "title": "Why Newcastle are changing club badge",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ZMUhydW9qQUYxb0NQVHVCcjh5RTNXeTBSQW1sUXljOXl0aWVxWlY1YlQtaERjX3phZEhuSXVPeW9SMll4UnhUOVpVd1JCbk52RHNOVlh0SWVYeVNQN3Y4cHVLNVJRTWZQZkE?oc=5",
       "pubDate": "Tue, 21 Jul 2026 12:34:13 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Newcastle youngster given green light for pre-season audition amid key quality and transfer silence",
-      "source": "Chronicle Live",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNR2s2T2xDemtjQ0JRLVZxQWNpZ21ubUpZQ1A5UlI4Nkl1aXZmbE13N1JrelJ0ZVBNNDJTZHJadDlNaXV4cl9UZFhaOVpTVG0yRE91OWZIb3dDSXA2M1VRalZvcDVZOEM1UmtzM0JBQWJGVVRNa0tBaURrbmNMTFZRbWFQSENGMzFkR3R3WXdEUHVPd0hjM3AtWHdhVVRFR1V2RzlWRFROWS1xa2fSAbABQVVfeXFMTUduYjgyN042NTlsTThfYlVYdzZxUVk2YTB1RWRoNkF1VGtld3YySzRjSEpyWFhIc1d0SGtoUUlFU0FxRzVkZTc5NHF6R2M0Z2dHUzl1Q00zZ3h0QTNINVIwbGJnVjYxRGZZRkVmRktyVTNfQTFTNnhBYWgtSjV4a0gxelQwOWk5WmJBalhobVNGTUN5bTZoNGIxVllhT0FRYkZmU0llaWdBRUZtUDdSUDY?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 06:50:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Newcastle United preparing to hijack move for Brighton player",
-      "source": "Read Newcastle",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN0hqQi1WaFZ2MGhZanV5NDlxeGwwT1ozRXM2RTVsSEU2X3BQRnA2OHBwbTZrM3ExOUpwRWJJRWVBZmxGR3E0S044dnc3NnlTZThwR2Y4T3Blcm9Malc2dkIwZDA0dUJ1NEtxUWFnT1lZQ09TdTFuMnJjc2FtcmlscVJYamdESTVrenQwR1VR?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 06:48:10 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Women's Super League: Newcastle in talks to sign Leanne Kiernan",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ubWg3eFN3VDRSMDlzdFo0UXJWY2YwMm9Ma0JfTWdGbnROWk92d1NfZ25iOWN5d19lTXh5SkdpU3ItaHo5a0NBTmZrbi1JTlhXOWM2cHpjQk95YWpseUVPN2twQUlrdms?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 06:47:34 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Danilo keen on Premier League move amid Newcastle interest - Report",
-      "source": "NUFC Blog",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNd0lwcF82SFdfb1hiQUpVb2FzZ2M0ODlSNTJrUGppS00tU3AxQkxkYktsb1cydVR5ZXdMYUN6M2Zoa3hzSm9FTlNtY19tVTNrVEVUR2otY2wyZ0dKVXQyT3gtNWIzYWFnZkV4NG93dXl6cVpIR0o3STIwTkV0eDFnRmxDYThINmlqSDlQYU5TU09WM0lQem1GV3B3?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 06:25:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Kevin Keegan: Sir Alex Ferguson reflects on former rival's time at Newcastle",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMXNtZEFZTmM5eC1CZm9aSEo2R0d2TEpWUEM0bGJvRTl0eVhyN2NpRGhtM3RKUEY1d2FfdzBrQlRyUHhSLTZ5OHBlZWwwS3ByQzctSGM5ZEdmYUMwU0xObVBpZWNPamVPRjhGQ2lWbEhBTjVIdDIwdlpyd21TaFYxRy12NENoVlJLLXJRNEdCby1RczlXRmJ4aWNhYVdUbXdENGltcTY0QzBtMS12V09iR0FpTS1KRFFEb1ZydURfSEhvN0pndzByaFl3?oc=5",
-      "pubDate": "Tue, 21 Jul 2026 14:15:36 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Arsenal open talks with Newcastle to sign Bruno Guimaraes",
-      "source": "The Times",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOemE5aXZjY3prV3JUR2NXc1ZYWmNSVTVFcGdNU0M4M0EzVVY4WFloTHpNam9ZTVRESE93X3BUSnpScFdQTWRtSENzbkZrVU41dDFoUWJBS0JfVE1IN28zZE5YWmVSSkRGSlE5dnVJTDU1eE95eUpoTlJad2FLaWhpb2JFM3R6UzVKZ2RvNlROWm1DTFU3cHVScTNCamlReUk4S1E?oc=5",
-      "pubDate": "Tue, 21 Jul 2026 10:26:46 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Newcastle United transfer target fails medical as door opens for fresh approach",
-      "source": "NewcastleWorld",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQc3RqUmlTR20xUWZYazg3Y3JsRldEMHFXdHRKbWRUTU5jZG04MnFJczdDZEV0azlrUENqMC1KczY1TlVUcHplQVZ2cVdQbFpxcjg4WERwRllNdWtKVVZEX1l2Q0JBamdiUzc3aHNpQllfcE9PcHlBb0pMSGdRR1FzVHVwNUVTQl9JWktLSU5XWFA1MEZkVjFQY2NYTnI3Y3R5MGgwRjc0TDYzeG0wRjRQTXNKN1BkRnJlQ3RSLUxFY21UaFg4bkI2T2xEUUdJUk1vb1AtblZOT0NuNk0?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 16:30:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Premier League table predicted by AI with new Leeds United and Hull City verdicts",
-      "source": "Yorkshire Post",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVnRxWTJuTzA3QW9pd2c1U2FDZ2VlNUZqeTBfOHJkckJyZ0s5QW9aQUtkZjhyemM2Rks1N2VkeUJSY2R0S3JEbEMzcjhNYlhqUnVKSGR5NjdxTV9KZUhlMDVWbHo4eWEtSnhpX25WWXRoNTczRE5tUlpEX2VRcjMxcEd2ZUIwTDBxYmRvSThtaEhWaHdGR09fMUJ1V1JhVThHSEp1clF0VjhKTUxHZ1l0dXFVSVAzTGpJVjFyeWM4OGhSWFcxUXNGUEpLWjg?oc=5",
-      "pubDate": "Tue, 21 Jul 2026 07:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Latest. Our club crest: An update",
-      "source": "Newcastle United",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE40ekI5anBfVC1Qb3gxOG9LX3lHQUkwS0RjUTRUSlJ3MVpvU21LLV9pdGl6M2JzcHE3Zjk4dlRpVnllNDU3Z29aSkNYYU1rNW9FVEJTcVNaaF85LXY1V1I2UDc5MVRiNklZaG1uXzdIc2VZdw?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 01:30:04 GMT",
       "category": "general"
     },
     {
@@ -80,32 +24,88 @@
       "category": "general"
     },
     {
-      "title": "Newcastle United to Update Club Crest",
-      "source": "Footy Headlines",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaWZoSkg1SkpINnA3bjI0WjZUdkRBdTRfQ3BTcGpTX1p1WW1xUXRuQmx2Snh5QWRVTWJQRERLT1BydnJJY040R2lIUWtDeTFKOGpjUTdDenF5Y3NBdG9oMVhnTWFsc2JPbF9xZ2N1VWJXSy1xNVJmYmVaSkN4RHlrNHpqX1BHQ3E4T1RIZQ?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 15:39:00 GMT",
-      "category": "general"
+      "title": "Newcastle frustrated by Arsenal's pursuit of Bruno Guimaraes and will demand transfer fee of £80m for captain",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOcndyQndBYzRuUTk1Q1N2SnE4bGY3VmdGY2dBRkhDLUNVSF9RWjVVS2RhMnNWbXluaE8xcVlLemY0X3c2V2V5N3ZuQ3hDM2U4cEFOZnEzRDk2blNta1gtMmszUUhDRzVCX1dtRVdRMU1xSkM3SHJMaUV0OXlQOE5lOVd5cUFkYk1fTGYzejlPUHI5UEpqdXhGaEFVU2JLWm5maUNrNVVrOFljQlhRZXUxWndYeThaZ0tGcmQwUjh2MXhpUnJQN1EyV0x2aW5GUkRfRUtLMUNaM2JmbHNzOEVTSGdGLVBwaE9JWWowZEdqUWtTSVlxdkdj?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 13:43:51 GMT",
+      "category": "transfer"
     },
     {
-      "title": "Why Newcastle are changing club badge",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53bFNRWWROZ05JREx3bDFZVGZXU2pPTE14b1AzdlZvWjVKd3F3T3BSb3dscHRqeHRFSWF4cEZhQjZaUXNrYVdKV2xjMFpIVkZ2MUtnVWlzRlhPQzNHR2N2bHJlYWhHTGs?oc=5",
-      "pubDate": "Tue, 21 Jul 2026 12:34:13 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Newcastle United's pre-season win hints at new role for star who 'flowered' last season",
-      "source": "Chronicle Live",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUWZMRHhKYXRqUm4wdFRtNHVHTHlFZy1kbzNGWGYwSi00emtMSHFHcXM1LXZnemhjZ0VYcEQzamlXVENJWVlBcnBDdkk1eVYtVWFVc2lYWUpMX2RXM0NJYlQzOTdBaEdVU05EQ2FfYzVEVnpHcm9YM3ZTOHBxXzlGVVhBUG5sYkFhQXNNbkpHM1BvTVZiMDFkeGwxVG1tMXJyVWFoZ9IBqgFBVV95cUxPbU1tbGcxbHBsWjg0b3hjVnd4RlRIUjRpbjR4SzQ2XzlyV2dMOTFVY0l6WnI2TGlMZUxhMEZnZVl6eW5UNjRxdFZncnN1Ny1xLThnaUZCTkl4NGlhMW4tdnJxX1lSSmZjbXMtbExwbmJZVXhINmhhaGVWMC1mU2hDeXo4NGhuNHBWQ2VLRXlDeFc3WTJJb3BJT1h2clIzM2tibWlHemxBbEhldw?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 05:00:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Our Newcastle United writers/fans on Kevin Keegan, why he was so special",
+      "title": "Newcastle United fans informed by club on leaving tributes to Kevin Keegan at St James’ Park as kit launch postponed",
       "source": "The Mag",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMUxoNGJjUkhhMTZmSUIzWHc4Vk9xeTVmWmk5and1TktyVzBuY3JzZms4QjZDOHBLTTI4cXhmVXk1Wk9wbnROZWNaQU9ySFJYd1dMUTYxY1B2dVlNQ3Z3VTlxWHNYcHFuU1oxNVpfQUlqb3Q4eGl2VGowZjlzWkVUVTU4SlZuNS1RMFlhSnJoR0hJQVRmdXhSajhYbW5aMjhzcVdnUXJoUmk?oc=5",
-      "pubDate": "Tue, 21 Jul 2026 10:58:43 GMT",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNU2RnV1JBZ0NLSXJEcGlzV01mOVpyWUdQbDFxR0h4TWpReWFldk1UNW1XQ0dpQUVFWG11LVdhS2xTZ3kzUXkydVNWbTd0RzBmVEtGMUN4d01FbDVtWk9UZ0hfczFqLV9yVzdWbUpXQTRaTV9lV3hJU3RENmE1RW1TdldSU0N1ZTFkemxXMnZYcmxDMTdhLTN3ek1nRWtDRkNsN3BPUk5sZ1o4NEhHUENZd2xVS0hzcjZjeWVobHYtYnh5UTUtenB3UVBRUlFySkN1X2w2ZmJHbmNHYTd0dlBtNnM2MA?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 06:05:53 GMT",
       "category": "general"
+    },
+    {
+      "title": "Kevin Keegan: Sir Alex Ferguson reflects on former rival's time at Newcastle",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMXNtZEFZTmM5eC1CZm9aSEo2R0d2TEpWUEM0bGJvRTl0eVhyN2NpRGhtM3RKUEY1d2FfdzBrQlRyUHhSLTZ5OHBlZWwwS3ByQzctSGM5ZEdmYUMwU0xObVBpZWNPamVPRjhGQ2lWbEhBTjVIdDIwdlpyd21TaFYxRy12NENoVlJLLXJRNEdCby1RczlXRmJ4aWNhYVdUbXdENGltcTY0QzBtMS12V09iR0FpTS1KRFFEb1ZydURfSEhvN0pndzByaFl3?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 14:15:36 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Kevin Keegan's Newcastle United Harley-Davidson sells for £30,500 days after football legend's death",
+      "source": "Visordown",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWWdrNWh4Z0VmNDVWWFFzR2twM1k4cFRBWUZ5WlZDQ21mcDg4cnpwNU95Y1M1QnJDd0k4X3NwUEs3a2FoQ1lEM1ZCNXdFa2ZiY3E3Y3FSclctVDRLb3N5MW1CYzd1anNtLVlxODU1dHJQdW1tQ0s5NU9tLUlJcTdxSVlyZTlybXJJb1RjLVp0VFk5NzJRRGxrUQ?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 14:26:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Newcastle United urged to make surprise transfer move for £55m Man United star - 'very good'",
+      "source": "Chronicle Live",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQmFIbmZUS1pNdDZ3Q3Q2SUNKTlM2b1JFMnYxSkF2MWdZdUpQeW9xV3FyRVBZTkh6WFBqME04VFlXeFhVSWpYX1NOcDlyZ09TTHhrWDM4SkMzeHplRThMSVd0UzNPNVFRcGw1THoyVW5QbHZWeW53cHNsMThWQ28xRmpSS0xpZHZXa2NZZWNLMkdRcGxLZjluVnlzS21MSl9oZGU1T0h1N3ZYZ9IBrwFBVV95cUxOb1VSVUc1Q19Yd01uVktEcFZVTFB4QV85NWVLZmpuT1d6amFqQkxBaDFROGtraEx2ZmVIWkpZWmo2VUdxbWFVZ3NyczI3Z25iUGt3b0lnX1VHUmttRVlfY2JHZ203RVpoWWdyN0JiR1RvMzlmY3ZzWGV2X3lCbWQ1VVZJaTZMd3VJbEQ1cy1DU0RFbVRJTDNLZTVaUzVkYTFpTkIyTVUyYUxpMWdyUmhR?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 15:00:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Where are Newcastle in bid to be the best by 2030?",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DeEJ2WlpQeG5FdlNhWUszY1VaNGtpUWtWREMydGZhalhnb2ZTOGdZZ2JIdkJSS3FINkRiTHVvOXVCTzlTSWdkd1pkMjlwb2wzaGRTS1hTVlJjRXJsbUFNOHBZZExNbTg?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 08:41:21 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Newcastle United stance on Leeds United transfer target as £50m 'demand' emerges",
+      "source": "Yorkshire Evening Post",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSmp3THZuVWRtM3M4WmxFSTZDeWJCY21KanV4blh6d2dVQ29fYnFGeTg1eEd4NVllSG8waEpUbFFON3NZYjZub0t2eU1DazZVS1ZKX2VoWjVXTl9WNWhORXVBc09pQ0M4WEFvRW9saHR5dHBmZkcyZkFxdmlSS09ob0N3WnBaVTQxd1RBTDU0Q1RYbkxFNjZlaHNwMlhRRFZMRW1rUjdVbHdISlkwRXY0Y3FMQk04SUw3el94SUQyMEdFUTNqNjNPTA?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 13:28:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Newcastle United preparing to hijack move for Brighton player",
+      "source": "Read Newcastle",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN0hqQi1WaFZ2MGhZanV5NDlxeGwwT1ozRXM2RTVsSEU2X3BQRnA2OHBwbTZrM3ExOUpwRWJJRWVBZmxGR3E0S044dnc3NnlTZThwR2Y4T3Blcm9Malc2dkIwZDA0dUJ1NEtxUWFnT1lZQ09TdTFuMnJjc2FtcmlscVJYamdESTVrenQwR1VR?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 06:48:10 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Wrexham to appoint Newcastle's Nickson as sporting director",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1MY21PUXBlZzlsNDNmbndRT2ppZkJnaTBkTTR4ME5PR0hWOTVZclNMeURKdkRrTzR3N280NTNOLTdZMmJYNVkxQXpTdEZLekdRWlo5Y1pzTUtRdGYxcmxFckFqSkRfWjg?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 11:14:06 GMT",
+      "category": "manager"
+    },
+    {
+      "title": "Steve Nickson departure date confirmed as Newcastle chief agrees to Wrexham role",
+      "source": "NUFC Blog",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWVM2RDR1Wjh4d25XS2o3X1Z1V2p6YjZGOWJwMzJ1cWhvaE1sR3ZpOTZKZkZTbVhuVnMzbU0wdDFra0VMdmdDRHRPR1RLZjFsdndLdEE0bjJpZ3ZYY0NqZ0RiSmxaemRwdkpQLWVoSWYtVDRfZ3hkZExrNkt3dlIyUG90eUdHdVRVQzBDZmlFdklqTldjUnNWeFhLaUxQRkNNemJMamI2OGtwSmZneHc?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 14:15:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Newcastle United transfer chief to quit as Magpies negotiate September 2 exit",
+      "source": "Chronicle Live",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTXBOcnVOcERTQWIyUEc4TGFHMktnSENpQTh2ZVV6Y3c4TUpnWTZQT1BaV3VVZ2p5R1NBSDVDaUJMb2swd0VyUFFXZFBFanhUZmF5d20tV1Z6SWN6ZGYtQVg1MklRUTFLc1NfSVhabzYtXzRNdG1vWTYyWkZxT2pJYWVMeGtIUVpEMzNmQjlZODdQUG44SlRpR1l2X2tvcF9JWElnTVd5UlJOUdIBrwFBVV95cUxNSEw2UVdXMVR6ZXlGLXhYWnNSZkFtWEV3YjdZWmNJYzFOWHU0NThNVDlnU0JZVkRTZ1dYd0F3S0Y4V1hpSHRDamNZalI5bkgtOG44eXFuVGxWSTcxRENGcE5DaHhHQjV2Y2FQYkcyYk5VVktwTHhEazNiamJqVUxRdHljTmtpclhxRE5xRFJJMHNVc1dTdmsxZ3prRU5Lbnd1Tnd6RmU0NjlESzJZOXZF?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 11:26:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Newcastle United in advanced talks to sign Liverpool forward",
+      "source": "DaveOCKOP",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQakVna1duZFBIdW5yRGJHeVNkQ1VrWFpMNWlwUUFGdUxnRVJVN203c2s0OWQ4eElPdlZKcWlFZlA4VFFYZ2R2eGQ3OUdUNWVWY0gzRklLQWQ5QnZVZkZCaVFRSVZVLVVNVHVfWFFWR1lsNEUxUGRJMWdHYUNxdWM1bFJHU2V2Y25BOG11Wl91RngwUERwMUw3b1h4dzJIb3R4ODhv?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 08:37:50 GMT",
+      "category": "transfer"
     }
   ],
   "reddit": []
