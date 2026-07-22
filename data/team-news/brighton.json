@@ -1,21 +1,7 @@
 {
   "slug": "brighton",
-  "updated": "2026-07-21T19:08:04.142Z",
+  "updated": "2026-07-22T08:09:57.352Z",
   "articles": [
-    {
-      "title": "Brighton sell-on fee revealed as Valentin Barco 'agrees' Chelsea move from Strasbourg",
-      "source": "SussexWorld",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQcnVpRktZeXhhdjIyVlloTW1mZUxiRHVWVVUzQ2ZYSnpSZVpSeGhTekxYOHlYM0xRa2pHWGdBTmROZDBwOWhoNVI0VUk1TjJ2ZUMwRFRMS0dIU25mX1pJVG9PMWNtZmVianZYazlBWVZGQ2d5WFh6RElLYlVmS24zME95NUNrV2xmSHN0LURPWlBic1o0UVF6c25TTE9zcE0xWnZDRm53VHZTTmNXY19CQnJoazVYckhQbGUyMUtkY090RmVFQ2VMb0N0RFl0R25Ha1lRdm1OOUNleXVIc2tmUzV0WkNoS3hROVdhcUducVdLeFNvVWc?oc=5",
-      "pubDate": "Tue, 21 Jul 2026 14:15:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Wycombe Wanderers take on Premier League Brighton in behind-closed-doors friendly",
-      "source": "Bucks Free Press",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLVhyMnB3Y2dsbFBxWVlnNEo1NUZPYzhFNkJRY2VpLTlydUgwdklJQS1FcEZCN0lQcVJJSTc0TzgwbmJHVnAwN2Y0dFZUMmtPMF9HTDYwUTZCb1FacTl4ZktQRWZuT255bHFGUzh1U2x6bVoxaGdCNWlSLVJ0amZUSG4wOF9ScUV2Zy03R3llVTdZTkJ1V2dHUkw1TzlzOWZp?oc=5",
-      "pubDate": "Mon, 20 Jul 2026 07:08:04 GMT",
-      "category": "general"
-    },
     {
       "title": "Claude AI predicts Premier League 2026-27 table: Where Brighton, Chelsea and Crystal Palace will finish",
       "source": "SussexWorld",
@@ -31,6 +17,48 @@
       "category": "general"
     },
     {
+      "title": "'Disappointed' - Tottenham swoop on Brighton again as key man exits",
+      "source": "SussexWorld",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZHl4Tlh3RWpCQmNaaHFJNVdINDJFNEpjSUh3TDhuUHVsMjhZcmVVV1pIM3hkUEh1NlFPWmMyWGloM0R6NFdfcGNHbUR3LUpYZnlKM0NMdHlWYk81VGhJeGp3LTFyTmp3RFRHR3VqN3E0OUdzTDBZNDltRS1HS2NXVzd3REJpQkgtekJWWEc0RDlYRklaWU5BS0hIWFBCd29zbmt4LTZCbGFCQTZVUzlnNW9nMVpLQWlpTHhJeEw0dW9GajZmUXRrZHBVVVVYMUFTNzF0RGtLM0p5S2c?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 10:00:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Tottenham add Brighton assistant Andrew Crofts to Roberto De Zerbi’s coaching team",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOdVVUNS1SUXJKTmE1Z1RhekVoYUpJUGJmMGg5dlFOSF8wcEZGekMxUWc4R09rUmh6ZXZhQVVDYmJUeWYtT21vX25RM1I4eVRHT0RPa01KcnpwckJkbmU3RHRiSEV1bklxLUpaY0V2OC1sdWVCWXRMUldsWVI2Y242WFYxVmJxOThsUERmMUZOaklaT00wOHc?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 10:16:18 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Newcastle United preparing to hijack move for Brighton player",
+      "source": "Read Newcastle",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQN0hqQi1WaFZ2MGhZanV5NDlxeGwwT1ozRXM2RTVsSEU2X3BQRnA2OHBwbTZrM3ExOUpwRWJJRWVBZmxGR3E0S044dnc3NnlTZThwR2Y4T3Blcm9Malc2dkIwZDA0dUJ1NEtxUWFnT1lZQ09TdTFuMnJjc2FtcmlscVJYamdESTVrenQwR1VR?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 06:48:10 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Brighton transfer rumours: Carlos Baleba interest cools",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPVEZJWnRVYWUydDQ1SHMtUVZxU2Z1X3JMRnQ5X0R1dWJJRVltN25zWkxlY0NmbTRWWVE3bTQtNUpKQlpfOTlaMmNibDFaTzlhU3hjaU4wNy1kTUNyYXRYenZFdE53MjFTSWhwdjg5ODhaM0Y1dmhuQ2VJWlJMbDZwT0VQeDljZmtTR3VldTFKSHpENmlxN0FtVmZvalVHd05aaDFsNUs3eVRNSUxBNzZwbDlvZzhtMTlBVjVjUlJkTV82dHpJMUk0a3YxSjlXUXcxcmdDVm1VTGtBYWxtenhwTnByTm1DcDJUYjlHdTdlQXg?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 07:09:39 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Premier League ticket news: Brighton at home | News | Official Site",
+      "source": "Chelsea Football Club",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPX1I4cHdzVmhjR0RFVk41WE1BUVEwRFk2ZXNHc2Q4NGNFNnBvTG5EXzZyTHpCaTRGX0NOMENnWmxreGRwNFV2dDdfcHJUYU1mLWFRZGlQV0pmZHpoam1HNF9oLTh4YnFqRUZYRHZzZENaemNQRXlyRDdNMFNHaGQ2dWhqZkVaby1ObkNfTHNhczhSbXBKWmtXaw?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 19:30:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Coventry confident they’ll sign Brighton star before Newcastle, Leeds",
+      "source": "TEAMtalk",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNblNrc1JZaU1ZZjdxR00yUVJRNUh0aHpnT1R6dWV1QjluVXJWemVQTlBCSnA0bV8yTldqVzlvN21BTlhXQ2RmM2FLRlFKWEhxbXFmaDdXaUxBTTd1b2JFbGpyVzYxNG5YeloyRmZFWVFLai1vdUVfdkVJRzF2THlJamdEemJCR3RPUUpEdTNzY013bE5McDI2WGVEeWhNM05MOUYtOWZRaXlsUQ?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 19:40:05 GMT",
+      "category": "transfer"
+    },
+    {
       "title": "Brighton 'reject approach' from Belgium for Cozier-Duberry after impressive loan",
       "source": "The Bolton News",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObUl4dXlXOTRGS2xiOFBqdFNhWmY2WTk4bGlQLVFGMDNqeFhfZFRlUVBlTllTVFN2U0laOGJoMDdDZlNFRUxkYUdEamw1TkdSSEc1YWlKbmtYRHdmWnQ5Q2hKQWlTMXFMVFh2aGplbVNUNkRsMEZZWTliT3loRmZRWUlZUllmc0ZQY3hNV2lQX2FKblVyc2NDVUZvTXVRX1U?oc=5",
@@ -38,24 +66,10 @@
       "category": "general"
     },
     {
-      "title": "Bart Verbruggen was an unusual signing for Brighton – will he be a usual sale?",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMjdvVE9ybnV0X0kxSkJWMzBBVm9DS1Ywd1RMUFpiLTk3TWR1QmRyVWVoOG96ci1CZ0VGNzNQRktTS3UxQzUwaUVKSFhiX1BmVHFjTUswa1YtajExdndseEJkZXpPY3RiUFlyQWgyX0lpb3FNSnpDcW9MZ3pnM3hYd012QzNVZ2l6dllXWVlmZHhtTUczSnNXUVlGbEpRMDJZbEE?oc=5",
-      "pubDate": "Tue, 21 Jul 2026 04:28:49 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Carlos Baleba: Why Man United won’t sign “outstanding” Brighton star",
-      "source": "The Peoples Person",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVU1GemZncjQxR2I1VDNvS1pyVmZsLU5QU2hMLU9NcFRMbmJoRXhsNWttZjlXeEVLMzM5Qk85YmUzRldfWkZNbjNPNDJiLXRoTGRNcVFmc2EyN2Z1a0FwdnlWanV6RWhfUk1tU1ctcTRUOXY1QVBmWFFRbkxoanVWbzFrZHRLQnJkZVRvdEhORG5VZGRfVTdJY0dnWFFLaWxYeEFqUnlHdXN4SlV1ank1MmJB?oc=5",
-      "pubDate": "Tue, 21 Jul 2026 13:42:15 GMT",
-      "category": "transfer"
-    },
-    {
       "title": "City Women sign Elliana Martin from Brighton",
       "source": "Norwich City Football Club",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1XT2hNWncyWHUyeXlXSkVRd3dYLWlWbGl5RGNnZjdRUUpMYTZhd3NKeEVabWlaRXlTSTJoUW5iVG5ZeGluY2ZrT3Y5YTdXWXV2eUtRUktxeGFuVHRnUk5sV3IwQUNmZ3ZabExmNlhXdEp5ejhQdGNxNnlDaw?oc=5",
-      "pubDate": "Tue, 21 Jul 2026 16:00:32 GMT",
+      "pubDate": "Tue, 21 Jul 2026 16:06:27 GMT",
       "category": "transfer"
     },
     {
@@ -66,45 +80,31 @@
       "category": "transfer"
     },
     {
-      "title": "Amario Cozier-Duberry to Rangers transfer state of play as Brighton reject £5m bid",
-      "source": "rangersnews.uk",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNc3N4b0VoemhZUmItMWpBd3pSZTIwMldDTk9GY3RwbGtsdXlmOTFYampwV2ZqRkxCRnNRLVJKcXpUYWNPQ1IzOGsxWUc4eXJPeHN3QUtxVGRweW1VWS16UUtudDFpRWlLaWdlVzJJZHhtYjJDbGk0b0hYU2JsUi00NE1VYWsxUWVUUkZXMnlrMWhzSnpLd3B4QWRESEFLUVA2dDFicGp5ckJvWU5DYjYybTVGRU9oZlJaN0RKOWZad2s?oc=5",
-      "pubDate": "Tue, 21 Jul 2026 07:47:14 GMT",
+      "title": "Bart Verbruggen was an unusual signing for Brighton – will he be a usual sale?",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMjdvVE9ybnV0X0kxSkJWMzBBVm9DS1Ywd1RMUFpiLTk3TWR1QmRyVWVoOG96ci1CZ0VGNzNQRktTS3UxQzUwaUVKSFhiX1BmVHFjTUswa1YtajExdndseEJkZXpPY3RiUFlyQWgyX0lpb3FNSnpDcW9MZ3pnM3hYd012QzNVZ2l6dllXWVlmZHhtTUczSnNXUVlGbEpRMDJZbEE?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 04:28:49 GMT",
       "category": "transfer"
+    },
+    {
+      "title": "Brighton and Hove Albion coach joins De Zerbi at Spurs",
+      "source": "Brighton and Hove News",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWUhDbVFfbXNnRFBxb3dNOVRtcnI4ZTNfWTJjcDRoVDdFWDJaamZQNTIydG4yd0djcUhsZk00UV9xZFZUN3ZycXdaV3ItYklzd2JVM012cnNVLWhlV1c1cFdUWERiTGU0ZmxSRDV0LUlDb3FNay1LWDNmaDhqQ1NnWVB4WUM3LVpTRzhObF8xanBjSmk4SjR0emM3SmtCdUtmYzdVQQ?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 11:21:47 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Arsenal train ahead of Brighton & Hove Albion",
+      "source": "Arsenal.com",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZzNxR0ZEcXdmM25KU0l0MFY0U0VscGRJY0NPOFctMVBBWHo3dnZXVldTeGRVbTZtX094YUJwb1Z4WElBNXBSMEpHR1NZUGVwcmJsdzZka2w3SjNPS01ldnRwUXVtbFVPakg1cW9Xbkk5YWhneWE0dDJJRERQTVZJbWg1NHJGZ0VWWlRnWlZKaXk?oc=5",
+      "pubDate": "Tue, 21 Jul 2026 03:29:36 GMT",
+      "category": "general"
     },
     {
       "title": "Brighton news: Fan views on one player in and one player out of squad",
       "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQb0pEYXJ6LWk5VUZPZ0NOT1pjUG9zWEhLaDFKSlExRDFBWjl0QXpGYTdpRFZQQTVUVE9QYWpTQ09sRm93bnpTRzREMC1FQlVpbXItMkpVQ1ZZRXRwdjlGc3I0SktJOXlLRF9EUFdUNHQ4Qkw3dlAyZnFlaHk3VGNtaUs4c0R6a1RRTUFKWUphcVlma3ZZYW5HekNRcW12R0VoMm90NF9RQS1nQUFmNUZ2di1PWjVBS0lBaUxtYlB0VXV1RnNUWG9tWkxoWWxyaGNxbW80S0VzVy1UYjNkc0RwdUo0Skk1Vzc3a1FBaUtLaEw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5OZFRpQWZfN25QMnRnRWZDaFdvT1ZyN2NqUElGR3lrbEljSnpwZlRXYjZmYURZNklkOUlMdzk3YUZ5RzVQWlNvZF9GdzdzaDZleUF0N0sxZ0g2RU1KQWtyWHBMbVpHYmx3dVE?oc=5",
       "pubDate": "Tue, 21 Jul 2026 17:27:19 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Are Brighton fans right to be angry about Andrew Crofts going to Spurs?",
-      "source": "WeAreBrighton.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMDU2MmFsMXdHZ1A5U1JJVzJBa3djZzNDbDg0b1pHY2JJTmxaOFFManNkWWpJQUNQSUs2R0RvWWZ4MFI5d3dlTkxKemNRY1hVclI4dUZnbDR5SGIyc0lKYTFYbl9fai1veHVOR2daYzkwc0lGbHF2SG1aNkR6VmZIQkRnWlVoMndIdHBWVkJ3ZkpsdGppQ2YxcW5WZmI2U3FHY1N1WHZYX08xemNTbnVEMnE4RQ?oc=5",
-      "pubDate": "Tue, 21 Jul 2026 17:34:44 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Brighton transfers, latest news, rumours and gossip: Live updates, goals and highlights",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPQ0U5aDJ5elNVM0hFdmo4NTFkR1o3NmJ2VEE2bmpPQ19GLXp4WEU3V0dYOGN4MXhhTHdJWlRVYTE2VlZxSnVPX1o0Vk5QVEtScHlJZ0VxTnAzaUR1NU9IanhJSTFsbzhiX3JNbERGSm9tS3RDMjB0RlRhaUc3TVVwcnRwZEptbXRYWU5MZTBVVHpCWThzaTZib0dvdWg5cllaRGFHMThhc0s0dlFwU1I2WElrNXRvWlZIYmo1b21seWRXS1FxV0FQYmc0WUtvbnB5Y2pneVliWVBVY3M?oc=5",
-      "pubDate": "Thu, 16 Jul 2026 09:49:39 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Pascal Struijk joins Brighton & Hove Albion",
-      "source": "Leeds United",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQkZSTGNyZ3M0LUxtVW9YZVNxdWN4TVJSZzJNWm1meWJuNy0tRzBhbUdKNzRkcE5uMU5wVFVHVlNiTXQ4d0dzYUFPaTNnSFZPVk05MGN0YVM1QWY5aDI4Y3FTVWtUZmhfRlkyNWdVRzFjMXVuRURkemxMbmFZZTdzSGpYZjQtQ1pP?oc=5",
-      "pubDate": "Tue, 30 Jun 2026 07:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "'Supporting Brighton & Hove Albion has been a rollercoaster'",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51WmYyd0VWYjlOVVU1cXRrT3dsZ3ZZQmpGZ2h5M1llbHdPZGdVMklJbEVIUHRERGJmY05Jd0p5NVpzbmFuVU1GWWhtV0wzb292M2l2TWZtOWpEcmNL?oc=5",
-      "pubDate": "Wed, 24 Jun 2026 07:00:00 GMT",
       "category": "general"
     }
   ],
