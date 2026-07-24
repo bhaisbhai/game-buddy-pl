@@ -1,13 +1,27 @@
 {
   "slug": "southampton",
-  "updated": "2026-07-24T08:09:49.998Z",
+  "updated": "2026-07-24T19:15:37.804Z",
   "articles": [
     {
-      "title": "Five new numbers confirmed",
+      "title": "Travelling squad confirmed for Germany trip",
       "source": "Southampton FC",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBwb0NxYU0zVnhhMmtXXzNYazhzMmxuWGFURnhnWjRiVTNrVFFnNHpsN2dNcEV1TV9LWnNGcnlqODN4cG9nNFFQRXFYalllVVhPWEUtc3Y1elFKQWxZTE9Sa3E3Uk9ZREVWcFFwWm11UVVnTmo3SV9zVGpUN0Q?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 16:00:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa3RJaHNYaVhucTh2aGg5bkxpQ2xuTEVXQ1NwWi1xUmhBbDB2dGxKT1d4MUlxeC0tZFc4djVRUlZMUDluREVwN2UydlBxbXdGS1ZTdFEwTXZQdDE5RUNHS3lETkJQWExndmUwejYtSkhYY2w4ZE5fcGZmRHY1NnBNeHZTWlpSVVRKd2hrX29iVUhDbTA?oc=5",
+      "pubDate": "Fri, 24 Jul 2026 11:00:00 GMT",
       "category": "general"
+    },
+    {
+      "title": "Charles in, Jander out: Saints confirm travelling squad for Germany pre-season trip",
+      "source": "Daily Echo",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdG42dk1OaGxRNVp0dW84Qk40X0ZnemNjU05ZWTZMTF9BNTRuWW5JYzdpZVRLeGY2LVpoWnk1SWM0V19OSXFDakpfdE5xVllHY1VDN0RiUjNxMTJPamhIZDVOb1p5Vk9lMWI1cHJ6amlUWEJja25JNzZwTlNwaGVYM0g0eS1DZ3BHS0FUTko1VFpSb2hJNVJXN0Fnel9ySEhUbExDMmNvSXE?oc=5",
+      "pubDate": "Fri, 24 Jul 2026 11:16:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Southampton FC: Caspar Jander, Finn Azaz and Sam Edozie out injured",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBzaGd4Z2Y2enltNl9Gc19CblZaempkcXdFNk10bWdaNGxnelZfZ29fQkxNVmViN3hrN1FrVUVOdlBTTEd4dktMOEEyTXNCenJFNFVjWlJOWndLZk1JdTk2U1h4MWRCNVB2cmc?oc=5",
+      "pubDate": "Fri, 24 Jul 2026 12:39:55 GMT",
+      "category": "fitness"
     },
     {
       "title": "Peretz, Scienza and Jander take upgraded shirt numbers for 2026/27 season",
@@ -17,24 +31,10 @@
       "category": "general"
     },
     {
-      "title": "Southampton head coach Eckert faces six-month ban after FA ‘spygate’ charge",
-      "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWksxdmxCZm11VXplVlZlLXQwdGJ0WUJSTzF5UFBVMnlVTVBFYnRyMTFsRVR4LXdUejVhWVZTakpnVy1WTkQzTk9qQzdEbjRRQXRYZnNDQTVLR1hSXzhLSm1Ud2xHU0dqWG5WVGNXWVRjZXFOMTNFZ3FyTGZjbnRTMnZmQmx3YU1mRExqdjFGWTNhT3FZd3ozTV9nMEhNbTlGemtuTm1ZLThCdw?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 11:13:00 GMT",
-      "category": "manager"
-    },
-    {
-      "title": "Saints reveal 2026/27 third kit with historic Southampton civic crest",
-      "source": "Daily Echo",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQUlETHI1Ni1zdWtwcHhFUW44Z21sSEZWVEZBaWxjM3pDaUROMDNMRkoxTV9GWEFtR0hFZVc4QV9SMnc0YmtpbE5pYnBOX0g0X2tVMXJnRFBZZVpBanFQbnJQc2xTcHUyeW1mZFJYUFpaTm5yUE04TVZiRm9MN2NxT0x4bjZHVlhnQlBveVd3Zk5yYTQzc2prOUhwUlRoTHc?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 09:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Saints unveil 2026/27 third kit inspired by the Bargate",
+      "title": "Five new numbers confirmed",
       "source": "Southampton FC",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPYnB6S0hyY19jeG5rcm5DTDdNdzJUQ2VxMTVpNkZXdUlRX252ODBERGNJc29RbTZDOGk3V0hkRDdRUXRvYTM5OVFiZEQ1cnBLSlhHZTF5M1ctRUNKdC1uZFhYb0hkOXpYNjk3RWNOZ2NmSGFBcm15TzdURVJlejJqNEV2eWVsZ0dVQkVtNzJQb0pKRUl2dk1sMkRKaWtTOVc5UGJj?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 08:58:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBwb0NxYU0zVnhhMmtXXzNYazhzMmxuWGFURnhnWjRiVTNrVFFnNHpsN2dNcEV1TV9LWnNGcnlqODN4cG9nNFFQRXFYalllVVhPWEUtc3Y1elFKQWxZTE9Sa3E3Uk9ZREVWcFFwWm11UVVnTmo3SV9zVGpUN0Q?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 16:00:00 GMT",
       "category": "general"
     },
     {
@@ -45,25 +45,18 @@
       "category": "general"
     },
     {
-      "title": "Leeds United's Shea Charles pursuit sees major development as 49ers put on alert",
-      "source": "Leeds Live",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRHBZRnhqVjNVNDlSTmN2THRZT2RralBxcnVPcGM5QnVYU3Z6ajN0SGtIZDlGMkhwYjlZYzRTenRjWWlKbi1FWmhFX3RremlPTmZFQTBLc3N1MnM2eHp6YWttcXBTOHF1aVQ2N3ZoSUk1QTNRQWx0MER0WmVXUjVTMUN5Q1o5SWNEMmlCeHU1aklhOVkySFHSAZsBQVVfeXFMTWZxNmlDRXdac25rZTE3VE5xTXpQTmlnX2xjSHpvUENTSTFpZzdLMF9kbTZTVFFBSXhZOC1iM29weHVpckhOX1M1R3haa3hiMkxJUFVQZ1UxMWJBZUN2Xy1IWF9YNXVnbHV2cUZuTFlmUUtpOGFBMmpwWXV1Q1NKMXJXUGJseDgxeDROdEdBZGhGcVZJTWp5M09JNTA?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 10:55:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "How to watch Eintracht Braunschweig vs Saints",
-      "source": "Southampton FC",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMnEzQnVoaTBaVWJLNm9DQUl1UklTX3pyeW52UmtxdlItTnJBbmZGLTFHVm0ydjg2YXNqWmd2MXpMdmQtc0dmZ2pRZDZETjJ2NDNRVnBTZmMyTWVxMkkyTlF3NUdwQ28zWmFXX1lLV2xHaDdfN2dkNVVEcWpSel9aSFF4YmpnNEVYb0EtbGZXSkFxS09DVUE?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 13:00:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "'Love the club' - Ballard wanted to stay at Saints even as 'second or third-choice'",
+      "title": "Friendly - Live updates as Saints visit Eintracht Braunschweig in Germany",
       "source": "Daily Echo",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQjJnd1FETG5ZY0hVSmlpZ0I4b1pNM0ZmU2k2OUJfWjFpOEJjeGNJOXZZYzQtbkJqWExEem9FUDBSZk02OFRJU0MxdVlNMEhPcllLT3NfYm9LVEk4cGNGdUxnWVB3QldfeW0xZHB6bHhLTUZPdDY0ZVZMaV93UFg0bWN1cEFDQnRyVm8tczlyd3FjdEJiNEJZQzZWUkZqcUZ1cGc?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 10:05:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQX1JZbjJsZHdmVVQzc1d3blFmbWVSWEFGTGdWTVVWOE15RkZHX2MzNTNNczV2OGcxUXcwcXZsMVZTNkZ3YkZkTng0aENWWHhIeHE0T3RuLUxYVENVYXV5Q1BxTUtNbmxvODhVQ0xuckxtRmZ6Z0VGcEFfVlMzeFZoejhaZGxCWHEtcGNqcXY1NUF5ZVJnb045c3FxRWNIRHBPYXc?oc=5",
+      "pubDate": "Fri, 24 Jul 2026 16:00:00 GMT",
       "category": "general"
+    },
+    {
+      "title": "Southampton head coach Eckert faces six-month ban after FA ‘spygate’ charge",
+      "source": "The Telegraph",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWksxdmxCZm11VXplVlZlLXQwdGJ0WUJSTzF5UFBVMnlVTVBFYnRyMTFsRVR4LXdUejVhWVZTakpnVy1WTkQzTk9qQzdEbjRRQXRYZnNDQTVLR1hSXzhLSm1Ud2xHU0dqWG5WVGNXWVRjZXFOMTNFZ3FyTGZjbnRTMnZmQmx3YU1mRExqdjFGWTNhT3FZd3ozTV9nMEhNbTlGemtuTm1ZLThCdw?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 11:13:00 GMT",
+      "category": "manager"
     },
     {
       "title": "Saints reportedly reject latest Charles transfer bid from Premier League side",
@@ -73,17 +66,17 @@
       "category": "transfer"
     },
     {
-      "title": "Club statement: 1st June 2026",
-      "source": "Southampton FC",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BXzB6a0FpRDllVXVPVE9ZYndmdmF0UTZXMlQ4emZXWWFmU2hNV2hiSWZFbmJON1FYY29QTHBUT3lRb0pkaDJJNXpCbTJraEFDeEFETkF3SDc2REppTzQzVXJyNDJMMUVGTTMtb3poLXNfQ3B2eE05Yjk5WXV3dWs?oc=5",
-      "pubDate": "Mon, 01 Jun 2026 07:00:00 GMT",
+      "title": "Saints fan says 'there is a nasty smell coming from the EFL' - Letter",
+      "source": "Daily Echo",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSkRiR0luSFNzY1ExRVJROUM1RTRWWm40M3VKc0c0dWVnYUhnek1DZVdNdHpndXRSZFF4dEkzNFhIeHVVQXh2b04yODRfdk9vMWczb3hfd3lacWxxTjJTRjV0ZHRzalhwaEtQM0dOYUV2c1NiZU02bC1UQVpyaElBd0x3bEN6X3lW?oc=5",
+      "pubDate": "Fri, 24 Jul 2026 02:30:00 GMT",
       "category": "general"
     },
     {
-      "title": "Southampton 26-27 Third Kit Released",
-      "source": "Footy Headlines",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTTNqdF9MeEJhUURuX2ZIWkJOXzA0Y2lKT1dVSWtENDJfcGs4UjFtSW1iSnVZTWkyZGNZNmNhaU5YNzJ6SmVtOHZZSEhYdGhFejhxc1BFeDVSUmRFS0FJRzlEb0llbFpIeDY4YWJGMUs0QXRmcWpZdG4tSTlKbEZPemNDam42RFZwSXdV?oc=5",
-      "pubDate": "Thu, 23 Jul 2026 09:07:00 GMT",
+      "title": "P&O Cruises Presents: Men's First Team Open Training returns to St Mary's",
+      "source": "Southampton FC",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUU8zbmtneHdZOTQtajlHRURpYUdvVFRWcXBaRXMtMVlEM29NSTJfVFJ0ZjJwcnN6WjZmSnV5M1pnTW9xb3pOTUNadTJGMXBWVDYweUh6Smk4anlrcWNibU45WV8tVnlyVjloekFzaWxrTU9YdUc3ck9Md2tiS0NIVGt2emM4SkI2ZW5pNmZDQVNjUi1PY0ItRUI4c1JVTWU2RXFveGdqd0FRQ2pHM2dWNjFsUDJoa3FRZFprcg?oc=5",
+      "pubDate": "Fri, 24 Jul 2026 08:00:00 GMT",
       "category": "general"
     },
     {
@@ -94,18 +87,25 @@
       "category": "general"
     },
     {
-      "title": "'It hurts' - Saints boss Eckert on Spygate judgement",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3QUdSZHJEUENQejNHb2NaMm5rRXpCVUpzaUhSREVpNnBWNUJPZ1cxU1JDTWdZX1ZESlpFSmU4OE1SU25qZGZZUm9sb044VDhnaE92Vlhrdk5pdEw0TWJZOXBxbWRPMFprcUE?oc=5",
-      "pubDate": "Fri, 17 Jul 2026 17:36:52 GMT",
+      "title": "How to watch Eintracht Braunschweig vs Saints",
+      "source": "Southampton FC",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMnEzQnVoaTBaVWJLNm9DQUl1UklTX3pyeW52UmtxdlItTnJBbmZGLTFHVm0ydjg2YXNqWmd2MXpMdmQtc0dmZ2pRZDZETjJ2NDNRVnBTZmMyTWVxMkkyTlF3NUdwQ28zWmFXX1lLV2xHaDdfN2dkNVVEcWpSel9aSFF4YmpnNEVYb0EtbGZXSkFxS09DVUE?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 13:00:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Club statement: 1st June 2026",
+      "source": "Southampton FC",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BXzB6a0FpRDllVXVPVE9ZYndmdmF0UTZXMlQ4emZXWWFmU2hNV2hiSWZFbmJON1FYY29QTHBUT3lRb0pkaDJJNXpCbTJraEFDeEFETkF3SDc2REppTzQzVXJyNDJMMUVGTTMtb3poLXNfQ3B2eE05Yjk5WXV3dWs?oc=5",
+      "pubDate": "Mon, 01 Jun 2026 07:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "Southampton head coach charged with misconduct by FA over 'Spygate' scandal",
-      "source": "Sky News",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWkpicUg4blNSZ3BWMl9ndlJ2MzJidzhEWnZadmtmSDZJNy1WLU9EelZXUFhfS0h1NkItalV0ZjlWNUJ0TGxpajBEWi1vbmFLNVJENlhDVlMtTjh6U1NBSnY0UXljRURMSVYyX2JyTUNiSjdnVFFrY01yUXdJNERjQ083WGViWXdydmp0TWdyVHQtUTFELVVVclhzZzBfM1lDVGR6VzlLa2tETTRWRHc?oc=5",
-      "pubDate": "Wed, 22 Jul 2026 12:08:45 GMT",
-      "category": "manager"
+      "title": "Tonda Eckert update",
+      "source": "TheFA.com",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE91eUFhd0VOVTFEMTdma05vYjRIalEyMTA3V1JBcXVIUnBfUW51NkY4SklzVmp1blRSaGJnSzZWbi15OVZkbVI3OGE5UWVxTkppWDR6QXU5T0FoazB5Nm9VMEMwd2FUcmdvSHdZQl9mZ2pxd1RE?oc=5",
+      "pubDate": "Wed, 22 Jul 2026 10:31:28 GMT",
+      "category": "general"
     }
   ],
   "reddit": []
