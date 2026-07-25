@@ -1,30 +1,25 @@
 {
   "window": "summer",
-  "updated": "2026-07-24T19:15:37.804Z",
+  "updated": "2026-07-25T07:52:04.911Z",
   "clubs": [
     {
-      "slug": "newcastle",
-      "name": "Newcastle United",
-      "heat": 20
-    },
-    {
-      "slug": "arsenal",
-      "name": "Arsenal",
+      "slug": "chelsea",
+      "name": "Chelsea",
       "heat": 18
     },
     {
       "slug": "man-city",
       "name": "Manchester City",
-      "heat": 17
-    },
-    {
-      "slug": "chelsea",
-      "name": "Chelsea",
       "heat": 16
     },
     {
-      "slug": "brighton",
-      "name": "Brighton",
+      "slug": "arsenal",
+      "name": "Arsenal",
+      "heat": 15
+    },
+    {
+      "slug": "newcastle",
+      "name": "Newcastle United",
       "heat": 12
     },
     {
@@ -33,14 +28,14 @@
       "heat": 12
     },
     {
-      "slug": "ipswich",
-      "name": "Ipswich Town",
+      "slug": "brighton",
+      "name": "Brighton",
       "heat": 11
     },
     {
-      "slug": "fulham",
-      "name": "Fulham",
-      "heat": 10
+      "slug": "liverpool",
+      "name": "Liverpool",
+      "heat": 11
     },
     {
       "slug": "bournemouth",
@@ -48,9 +43,9 @@
       "heat": 9
     },
     {
-      "slug": "liverpool",
-      "name": "Liverpool",
-      "heat": 9
+      "slug": "leicester",
+      "name": "Leicester City",
+      "heat": 8
     },
     {
       "slug": "man-united",
@@ -60,16 +55,16 @@
     {
       "slug": "aston-villa",
       "name": "Aston Villa",
-      "heat": 6
+      "heat": 7
     },
     {
-      "slug": "leicester",
-      "name": "Leicester City",
-      "heat": 6
+      "slug": "ipswich",
+      "name": "Ipswich Town",
+      "heat": 7
     },
     {
-      "slug": "tottenham",
-      "name": "Tottenham Hotspur",
+      "slug": "everton",
+      "name": "Everton",
       "heat": 6
     },
     {
@@ -78,8 +73,8 @@
       "heat": 4
     },
     {
-      "slug": "everton",
-      "name": "Everton",
+      "slug": "tottenham",
+      "name": "Tottenham Hotspur",
       "heat": 4
     },
     {
@@ -88,19 +83,24 @@
       "heat": 4
     },
     {
+      "slug": "wolves",
+      "name": "Wolverhampton Wanderers",
+      "heat": 4
+    },
+    {
       "slug": "brentford",
       "name": "Brentford",
       "heat": 2
     },
     {
-      "slug": "southampton",
-      "name": "Southampton",
-      "heat": 2
+      "slug": "fulham",
+      "name": "Fulham",
+      "heat": 0
     },
     {
-      "slug": "wolves",
-      "name": "Wolverhampton Wanderers",
-      "heat": 2
+      "slug": "southampton",
+      "name": "Southampton",
+      "heat": 0
     }
   ]
 }
