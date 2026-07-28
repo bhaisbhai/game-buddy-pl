@@ -1,54 +1,12 @@
 {
   "slug": "man-city",
-  "updated": "2026-07-27T19:16:48.387Z",
+  "updated": "2026-07-28T08:16:29.628Z",
   "articles": [
     {
       "title": "How do Manchester City manage the Rodri dilemma?",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1KaEctWkRJdy1pM2s3VnlEM1hCUU5EQm0zY25ReXhsRVRYTjFkRXQydjF2RGhVNmNOSWdfUUFuNU1wYnMtVUFMbUc4VTVKUDBkb1RnR3lXNGlrU0hQZmZnenZROTBFNDA?oc=5",
       "pubDate": "Sat, 25 Jul 2026 05:36:46 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Khusanov pens new City contract",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbGZZYVgxWHZRVHRrRldFTVBuZUJRV2VPODIzRnVIM2lxelFtbDlKRmhDQnlDaUltNFZyZDVud0JCaXVQd1NxWXgySWthRmRCOEV1TFE3NHVOTDEyOGloazZfLUxtc3ZocHkzdlZQdTMyMzdoVThVb01MWnhidGdZeWcxX1p3UXB5dXZwWjFmYloxd0JI?oc=5",
-      "pubDate": "Sat, 25 Jul 2026 10:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Transfer news LIVE: Chelsea lead Jordan Henderson race as Tottenham eye Savinho",
-      "source": "Transfermarkt",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWUxEZXM1eG44eF8xX2pEaDhNWm1abGdzd2FLOEF3N2lCajNadlVWTlRnalFWWmZRakVBekR6YXNQb05ta21LMUdKWnlOdDg0SjhMbFhFVGdsN09TaTJBZTNTaEVZOUUyTXlsWmVvTmJpNXY3S2dlRE00RmdvaEJMQzgwLUdPck5VLWFqTDNiaE5VRjBpbmd1Qm40YlIyM1VZOTJDVEVXN3F3c1dSaGxIZEVJY09YRktFcEVybFhhSnJKV1k?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 17:50:44 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Man City could land Enzo Maresca transfer bonus if two deals are completed",
-      "source": "Manchester Evening News",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdDZmTzVLQTJKLXNCRkNwWUxIVy1OUmNJQTRjZ29YYU84R0lyanhOU2hUNmV2REdheDh3V1h6X2Zqc2NnbFh6ekpaV1J3ek43WVBHak1mQ2tNUk9SOW1qMURmRUFoaUpTdWlyVDMxS1V6RkszNTR4RTd5a2E3YUk4U3VzRFB6VjJLWlViZ2I0bjMzay1xVEV4V0Q3N3l0dVRLTTdSRtIBqgFBVV95cUxQVW8xZ05RTnRSVjRIMC01cFI3ZWxjVlhsWV9VTXJCa29aWHQ4UEYtSlpfdkxMWnQyWjBKb2l4YzRqU0x4REV6U0ZDNExVMTZhcVYwVk1feTZsc0N4ZU95aFlKd2Rlcjh2c3JjQVhZMW9xVHEyYk9iWlRrXzRiUHNJSTVmRVNQR3Z0VFdhXzBCZ2daTGM0R1RCMWI2a2lyMVJWSGVxYVE0TDBPUQ?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 16:29:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Pedro Neto linked with Manchester City, Liverpool — report",
-      "source": "We Ain't Got No History",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObGRlelR0d1M3aTZSUGt4Vmlmd2pCOWEyNFpQVlBUM1lhdUpEbnM4bGRXUElrT0dZSUJRM25QV3h4aUhHdDVSakxfM2MxdjlPa3pwcUxNMFl4XzNoREZwNU5GSGdkckVKSGVXUGJaRHF5aHN4MWl6b25aU2V3QUtLMTlSbllJSTZjQ1VvSEpTaEM5ZUhmSUlpTzRoU1doN0tFUkU3TFhzNEdScE45OHNzSnRvR1NmMjV1ZFFaNUtGWURjdC1EbjdYT0FhX1NoNzlJ?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 04:22:00 GMT",
-      "category": "rumour"
-    },
-    {
-      "title": "Chelsea, Man City and Liverpool set for £42m transfer battle for PSG World Cup wonderkid",
-      "source": "The Sun",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNmtaempBSWIzYmZqLU1Yb3ZsTU9vdms2bnJmOV85QWp3SXFiQ2I2Um9ONlU3RG82U0JyT2liTHg0LTdRRElBQm4ySXczcHktV0RiUUh6TG4wVlhaQlhxTFhVaEFkV0JyWFRqS2JjdGd0UndoTWFCY1BoWllTdHp4STI3Z3ZSN3I3VHRXRE12bW5veUpDYy0tTzlEMVhJR0I1dHpQTDBFN19SUjg?oc=5",
-      "pubDate": "Sun, 26 Jul 2026 22:01:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Chelsea outline Pedro Neto stance as Man City and Liverpool consider offers",
-      "source": "The Mirror",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOblN6X0l5OTViLVIzQ1Q3bDlDck1kSjZFSUNidWgta2NFYzVrT05HSVREbmdIQkNIc1g2MU5qbEJWNVlGODkzdFJCRGtEc3FVRjJsSk0tZVNkRTRTVFhTR3ZibjFOdTg3TkxrVXRnT0hUY01kcHdqNnNLR25yMFhXSFRhZTV0MGtfUTdhQ3JQQkU3NnoxM2tOMmVKWdIBoAFBVV95cUxNOEhOdkR1dlZnbjJ0eTMwSHZLeC1jYmZPQ2plOXNWcTNTMDZSQ09XTW0wZ1gtNUJ6UzBNcGpPdU1EZ3BNQnZsMGIwRktBODd6TmF6eEVUeUtsZkhoVFM1S0E5c2JnV1RpWnc2RGJhNFI4c2pJeHF1b0l5U3pSc1lRVUV2elRyZzlkVjVFTWpZcGNhUkpvcm9mY2sweWIzZEhY?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 08:17:00 GMT",
       "category": "general"
     },
     {
@@ -59,18 +17,67 @@
       "category": "general"
     },
     {
-      "title": "Darren Motsi: Man City pip Liverpool to sign Leicester City star",
-      "source": "cityxtra.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNGdiZHBOSlhIOVZlcXBpVUg2dC1senl5aUhNczIxSUJXeU1KYXQ4bF9QaUk3WkFNUmlEMjVpbWNtOHdVcGY4YWlOUHViTXZzVElzdG94SmU5bE5WSnctWWhTSW5xbFJENDM3OHVqUTNFSmQ4U0dqcVV5ck8tWWwwYUc5dUZUN1gxQ3RRQXQ4dmR0MFBlZ3hNQ0ZvM01hTmNjYi1LQkxjMUhaUlZWZUpvQw?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 11:32:55 GMT",
+      "title": "Sources: Man City make Spaniard their standout candidate to replace Rodri",
+      "source": "CaughtOffside",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcWMtWUdvVmJSVldWZVluc0lrZExhQzJoVHVOaUVYeGxrZmwxV2ZzRWE0LVI4cmNiSFFkc0xhMUh0emxlaWxacFM4ZGJQOGVxMjQzRHdRVVl5Ml91cjlDaW1mWVNpTVlja3VaSU9HU2VIVlFKdXc1WDQyWmRIWXhZN3BZR0hUMHdTb2pzOUFzT19hOXlEUnfSAZsBQVVfeXFMUEdDQXRHVzN1Tmg0WU9UT0V1emgxcUhVLXNrYlBycFkwdW5YbkxFS0x5RDh4RDg5X1NncFFoSGU0U0VLY3hCOVoyY29raUxtYVJoTXFEZ2FKOVA3VjIxbnViOEZFY0VRYUF3MWQwZ2VmU1NPLTFTOWRGdEZ2WUtsbXNBbFFwX1V1ZlVxMTV4OWMtWGdFTk9oeWZKMWs?oc=5",
+      "pubDate": "Tue, 28 Jul 2026 06:14:15 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Transfer news LIVE: Arsenal make Vinicius decision; New Chelsea target",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNZVFkSE56dFJxTGZrZEJFVUR3cExlUmVHbzdGa2ZOUnZnRkE2WlZKTkwzYmtjTnZMWWJBODFzNmx6NV80c0NzWDF0ZVR6QU9FNEZhdk0tQzJybHZvT2J4Mk52cGhlNkFTM0NlaHh0R0d2dllqeWJwQjFFMTZsVlBndFpXd0RHdUtkSzZpNDdZQWlfYTBjWlc2VlpTWXN4VFVRYVRKcXV4azBEZUxXbDJVblRyWjhHMmJ6T0Q4Nm5JcWNjM01naFUycFNWLU9CVWFYdElkMV90RmExMWRadFYxNzFncXQ?oc=5",
+      "pubDate": "Tue, 28 Jul 2026 06:06:12 GMT",
       "category": "transfer"
     },
     {
-      "title": "Pep Guardiola latest: Man City manager reveals reasons for leaving - and says father will be honoured by club tribute",
-      "source": "Sky News",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdVotNlc1bUoxdTQ2Z0Y3bkRmRThDdE9qN2xRTmpfeVJadnpQVm1KaURtNlNfRmlha0dWc3VJb0pKQzRDQmRZUDZ2VUtlUTNzM0s1SnFrRUVSUGRwY20xS1dzdWpUZmtVbkZLcDNNVUY3Nm8wS0NaZVh3R2NUamtDU3BtRGpTRmgyTWNJd0d2c2xXQTdlQno1dloxTUtDZE92RFJEWjRZUGtWN1RCNVFkblhZS21SN1pYNlpBQnZGakh5eW5icy1HNVlpRFpiR2p0MDgzZlpObXlfOUYwMVE0dUFoeXM?oc=5",
-      "pubDate": "Fri, 22 May 2026 07:00:00 GMT",
-      "category": "manager"
+      "title": "Man City 'now poised to sell Savinho to Tottenham' and boost Enzo Maresca’s transfer budget",
+      "source": "Manchester Evening News",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVlJFUGdZbVRyOHVkV1REcEE1Z1hzRjVZQnBZX3RwQ1NCUjdCdW41cmhwUTI2N0R0OW5veThwZVFuTnVrV0NERzU2LUtwVnZZZXV6a2N2dUlXc0Ewbm9zeWlndzlUZGJKcXZUMkJtdnRaVXhqS3p5ODFETXJmb1VtUFR2Z0drU1RPTUp1dm1fdzZCa1Z3cE5nVnJHUFAzaG9fSDVpN2lPMjNVZjFaY28tRkpR0gG3AUFVX3lxTE9obDliOEJtTVhLYnYtbDNQN2daUlNhanpqOTlUeFNDVFNkOEhHa1NVLWZfSFhwTHJpbkFSdkJFcWFSMVlMeUVQUlFDQ2F5V294TFJiUTE5UXl6UHlTUmdjN183V1k3aTl6TEpNb2tZcTJaVU9BSFhob0FxN0lXMzlwVGcxenkyWVBneWxQRFUyTW9qOXhaaE5EZ0tqaGJQTzNKVllQM0JKOFBjOHZuU3lBdDdsSW1xQQ?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 10:29:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Inter in talks to sign John Stones as free agent following Manchester City exit",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRHdGazZ3emJoSTlxV1dZZ2RpWXZreHFDR2JSVV92SGVCX0hxUjhzZXhuNUxlN1hlLXd4VGtBNHdYQmVaVDdQcEdJdkZaV2JVeG43X1NoSlNDMVB3bHpqbUhMLU5zMUc3Yy14Z1VUSnV6YVFFcU5YR3hwX3FJOS1IWHhxS1FpdW5UekgxX1MxMGVPUnpEYnAwZQ?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 19:03:01 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Man City weigh up shock move for Chelsea star Fernandez; 'first bid' for Rodri imminent",
+      "source": "Football365",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd090OWZFX2RTUlhIeU1IUUE5Q20ta09WVXV3ZGRUeldhdTNXQnhKaEtHOHpXUkNyZ2JIQzVEaWdHT3JiOGVlT1MyLWNPMHBzb2hZTFRKbzRycDRkU3lnc254MmZ4aFkwa1NycWp4YW84WUctWW1OQXk4cXp5NG9pTFZzQTdMX1k1MzRpblRfVDZUOEdQRzV4ZWdwc1lxbmVneklCSEtkY1hkUG1lNEE?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 11:48:26 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Aurelien Tchouameni agreement hampers Man Utd after transfer checks made",
+      "source": "Daily Express",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd0FWX2FZVHdJS2gxUUxtRWdLSlBuUXlQTnRrNTcxU2RBc1NwS0RMbUN1aGdickNVWGtIVzNZYk5wR2VUU3ExUy1MNi1Wc2Ita2FtOHhrMTFUQ1BiZ1hiY1l1NnJKajFBR3RMUS1iNi1MSmN5NktEelF0TDBrcDhUTmZyM1NtT2pkTmk0VTdWLVZHUTY5QlJDXzRWRm9wUdIBowFBVV95cUxNamNVS3NfZ3Z3OUdoM1R3X3NPekZvVU5IeE82cWNCbzJqZXI3SmdocW81VkZ3a3dDSEVWbnFydXZXamJsQnYzR0VPcVJUVUVING85YTgtbTB4LU4yQUd6OTF6bVI3aWZialFCZWU4bHRUeW1pZE9GZ1RNMXh5R0lEeHZmV25DYUNYR2xqaTNCbldUY0NhLW5ULVpXQWU2VWlxdXd3?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 19:45:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Chelsea outline Pedro Neto stance as Man City and Liverpool consider offers",
+      "source": "Mirror",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOblN6X0l5OTViLVIzQ1Q3bDlDck1kSjZFSUNidWgta2NFYzVrT05HSVREbmdIQkNIc1g2MU5qbEJWNVlGODkzdFJCRGtEc3FVRjJsSk0tZVNkRTRTVFhTR3ZibjFOdTg3TkxrVXRnT0hUY01kcHdqNnNLR25yMFhXSFRhZTV0MGtfUTdhQ3JQQkU3NnoxM2tOMmVKWdIBoAFBVV95cUxNOEhOdkR1dlZnbjJ0eTMwSHZLeC1jYmZPQ2plOXNWcTNTMDZSQ09XTW0wZ1gtNUJ6UzBNcGpPdU1EZ3BNQnZsMGIwRktBODd6TmF6eEVUeUtsZkhoVFM1S0E5c2JnV1RpWnc2RGJhNFI4c2pJeHF1b0l5U3pSc1lRVUV2elRyZzlkVjVFTWpZcGNhUkpvcm9mY2sweWIzZEhY?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 08:17:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Layzell makes Everton loan move",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZnRySDdsd1diQWFOMktqR0pXajY4NlpuQXJQcWM2MVhXc0xtczFSNVNqbmY5d0tWMFRHSDNwa3N0WUc3ckVQbHplOFBwemdiUFdDR2djT29ZUVlzcm5HUVQ2eVlnbnNPRnh4Mk5pNUQwR0EtVFpBWHBlT1JYRHZpUUFORXMySGM?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 14:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Khusanov pens new City contract",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbGZZYVgxWHZRVHRrRldFTVBuZUJRV2VPODIzRnVIM2lxelFtbDlKRmhDQnlDaUltNFZyZDVud0JCaXVQd1NxWXgySWthRmRCOEV1TFE3NHVOTDEyOGloazZfLUxtc3ZocHkzdlZQdTMyMzdoVThVb01MWnhidGdZeWcxX1p3UXB5dXZwWjFmYloxd0JI?oc=5",
+      "pubDate": "Sat, 25 Jul 2026 10:00:00 GMT",
+      "category": "general"
     },
     {
       "title": "Man City could be about to get Manchester United help in transfer window",
@@ -80,31 +87,24 @@
       "category": "transfer"
     },
     {
-      "title": "No Haaland or Rodri, but Manchester City will have plenty of big names on their Asian tour - The Athletic",
+      "title": "No Haaland or Rodri, but Manchester City will have plenty of big names on their Asian tour",
       "source": "The New York Times",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNckF3T3RrcVBoTDhLMVc4SHBjMGRrbmlpc2hwUnI0Z3loLWpVaDJ3c2llUmFRdGZ6eDNrQ0tlMFh0UDNxQU91V1U2dmNKUTdxZXlaUW5QQ05DRUtYaXlTX2dDbkE4WkFiOHhmUWJZZWlYN2Z2OWkzUzNpZmZkVzlIaWJuRF9hSzdDSzB3dXFpNUdLZkRKbkMxUw?oc=5",
       "pubDate": "Mon, 27 Jul 2026 14:30:20 GMT",
       "category": "general"
     },
     {
-      "title": "Man City news: What if Rodri leaves this summer?",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ZX1djRHlrV0g1UUoxZzIxYy1nVGoxa1NpV0l2dHNsdlBkcUlTR3JlMUNzRzMtNXNkbW54V2h4Ym44SXRDT0JvdWVta2Vua3l3ZkhlRjJoOWdheEtXTXc2VzMxT21taTI5S0E?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 08:50:40 GMT",
+      "title": "‘You need to evolve’: Enzo Maresca plots life after Pep at Manchester City",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdl9kLXhXQnJ4aG1fQ3lad2FHSm1fb0V3aXl4SDN1V0hXM044MkJURkEzcTk0UWNVd0dieVMxU0l6WUlMWFFaMG9ZZzJWM3gwQXEyeE1XaldCVFp2VWxoWS1pUWhQYW82dkdjRWZ3NXdTcmxGQlRiZzQxU21qa1djQ1ZMdGM5bXNGbjhYQWJGSWFSUWpLenc?oc=5",
+      "pubDate": "Fri, 24 Jul 2026 20:22:00 GMT",
       "category": "general"
     },
     {
-      "title": "Asia Summer Tour 2026",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1KaWdZLU9oNFdpQkkwYV9KMzJtUHNvNVVsWWhERW8wc3RUN3l3MXV0MFR4d1JYb1NhT2pwUkozTzR2TDNpRGU3SHA2YzZYSm4y?oc=5",
-      "pubDate": "Fri, 24 Jul 2026 02:58:22 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Man City news: Fan views on Rodri's Real Madrid links",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOLVNMbzE5MTFLN0pKMklmbm5xVkMtdHI5N2x2QUNzbE1NN3pvVGJxWFhUY0pDRUhnb19MdVdtazl6bTJmV1BWRHpkbEN0RWdzRXBHZFRlTHZuZ3BpMkd1MmFHZ0hIbDkzVEtIenJ6N1B1ZVJZN1NLbHZXamNDR2FvUUxQLXQtMGt3LXhwOTk2SkxLUjJLc0xoM0tPZ09ZUEJrZ1lCZEE4bFkxREJudFVOdnVKOW9lZjE2NVI5RkNCS1Y5eUhCanhGeEs0YnNYMTQ0M1RERWVQcTJocEdNQ3hmUV9SbjVVcFp2S2VGMUdwMFo?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 14:13:27 GMT",
+      "title": "Guardiola opens up and explains why he left Manchester City",
+      "source": "Mundo Deportivo",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeS1OWDFkdDdoalgxS0pRSHdMcjJYenJjMWxadVJVajkyWTF6cWp0OFZrbkJqUkMyV3JXbXVZNVlWUzllTm1CbDNjVkRYa0lPS3NEYmNwSUFSQk5CNk5QYnhvRXZFUVdfSWQ3ek5NY25HMGoxOEI3RVJGdkNTRmFNSGtRanNMMkF6c3FSclQ5WGVveVVuSzdUdEVhX1AtSmhNWWNYQkQ2QkozUUJxTHpraEN5U1BNYXNsdlHSAccBQVVfeXFMT19DOXNsVExSazZ4aVdRbDRLRlpZQ3ctdmJGRkZ4UVpCVnA2M3FiNlkxR0VsOC1BMDIwaVNBR1Q0SzlSZDBJT3o4eTJxbF9xNmRtQUUtcjZManNvdXhIRHRIRUhwYzJGSnZhYmFJWFpzX2hMbE9Dejc2WWJ5cS1XNHpuUGJkcUM1b2EyNThFcV9BRXk1VVZoM0duNFBreEhmQjNjenZOS0VoanhHODRyb1lwQ2dJREZVMUVGZlhxRUFjXy1wWVFWdw?oc=5",
+      "pubDate": "Sat, 18 Jul 2026 07:00:00 GMT",
       "category": "general"
     }
   ],
