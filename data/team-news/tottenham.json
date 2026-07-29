@@ -1,33 +1,61 @@
 {
   "slug": "tottenham",
-  "updated": "2026-07-28T19:12:42.474Z",
+  "updated": "2026-07-29T08:23:05.930Z",
   "articles": [
     {
-      "title": "Romano reveals how many more players Tottenham ‘will sign’ as one deal is ruled out",
+      "title": "New squad numbers confirmed",
+      "source": "Tottenham Hotspur",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRFFLVDk4czgzN2d6WG04QzhPcG0tNWxqeUEzRGdEb0tMNGFLeFFGbzBqQjk2LVEwV21yV1BnT29tUHpVQzVFOElwekxKc1BDYzZQWDFnSlNYZVZvOWNTWHVjUEx4dGw0RHBNaDFnSk1fZ2tNb2FpNXpnSTZQMVdTU0s5UVgxUQ?oc=5",
+      "pubDate": "Wed, 29 Jul 2026 07:59:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Ledley King: ‘Andy Robertson can help Spurs youngsters, like Edgar Davids did’",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbm5qWHA5LTFhOUFHenI1VktKYjVYNnJpQWZrTFQ2WlFpcHpPR0otRHhCQ2pqUEctSDExNGRDbDFTWWplRkk0YWFWa2psMV9yRGxYX0duRHRpdlQ5NVFrOGJTMGZ4Rmw2ZU9lV3d2TnVkSHlxMGtOdms5NFlMNlhDcGRPa3RoN2poaXRpMw?oc=5",
+      "pubDate": "Wed, 29 Jul 2026 04:24:07 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Tottenham predicted line-up vs Sydney FC as Tonali and Gray start in strong De Zerbi XI",
+      "source": "Football London",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVjlybHZDTzhXSlpvbXA5NTVJNXd4OF94ak5wUEJIcVJMTWQtUjY4QkZnQzByNm5BaXRYRTNJQzVEbXRlV0p1WlBWSjZGOTdyNjFwZzBqLTlIcFRhRlh2SGRwRTFhSGlmNU5qMHI3c2dYTmI5YzlFNWhjaE9YZ3J3MGozWjNSbmoxN3VSazVlYXlCX2lMZ2dVZW9OdGx3dnpERXViODhGbzhsb1pTMmZnaFZBaWJvZm_SAbwBQVVfeXFMTUtWcjhpWWxWcUxYeWgwVjZaZktvbURRcmNSMGhKV0RFbEhiZV9FSWM3azdSSXJfUXNZRzdrZkFEbk9zOTlyYzYtb2RIcFZkUnplNVB4TWhTM2ZCdVJzRHZ4U1pQUExNTU5TMW9VU3dNQXZGbGRBaEM2cTR1U0daX0l0RVJ0T0ZScWpRY3VWTVlEajRpWGU0elhKWnlHZUpab294UVZPN0NtRWp3R29hZndUd3JITFl6elVJeWk?oc=5",
+      "pubDate": "Wed, 29 Jul 2026 07:15:51 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Tottenham XI vs Sydney FC: Predicted lineup and confirmed team news",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPUFFHaGU2WkgxTjhKNWxpUkFtQlhrNlo5T0FVTjZ2eGg3cXFCd1hHYXJ2VmUzX0d3MXpXUlltTEJpejFUdGFJVXk5RFZVV1E0bXl2aFY5RlNoRXdIbE9RUmJwZ0diUVNxOE1MTGFjX0ROUk5zdk1ZNDMtVHZIalh5cWlrTllaUHFxcFBXakpRZTJVQmpOUWJXaEtKeDdZN1NKZU0zcGtrMUJWdmtqY19CcW5HMGRkVmNYRU1JSFJSNkE4RGF6Z1U2YmljYWZGVDJsekMwbw?oc=5",
+      "pubDate": "Wed, 29 Jul 2026 05:19:24 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Sydney FC vs. Tottenham Hotspur: match thread and how to watch preseason friendly",
+      "source": "Cartilage Free Captain",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxONmhTSlN1cjFNemVHd0JnU2NtdkRHVnEyTnVUekgxRHpuWnE3ZFoyUEtmMGRSYVhhcVdwR0RiQ3g4NkJ6V2w3TFMta3pWLVZnbFg2WDVVTU1BYm1PVGxqaXU1akJBY1hEemIzT3RkTGJTc2dpVEFSMm1haFp0eEF5azU0azhVcVd6bG9NVGxETnZVYmplMGR5Z1hJcGRQY28tTmpVSDBJM2ZING0yMjZldm9MaWVlUVAwbjdNR3g1S002NHBiZkxlUUJaeGJsV01kQW9YYjVfSVpUN3FFLWN2cGhBemxxVnc1bGpKRXhNVUc?oc=5",
+      "pubDate": "Wed, 29 Jul 2026 06:45:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Giant Tottenham signing coming after top target ‘informs’ club he’s leaving",
       "source": "Football365",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTmtCOU1JMVRRZVZWNXplVEVPc0NQM1hnM2xpLWJPWEN4OHFnM3hqaXlxMmlGUDEyT1VSM3FUWlhUVWo0bFFaNXI3OVZJSHZMVlZpRURxeVRJRzhzS2YtSFFMWTJIY0wzVUJ1NVdWZ0hQNnZyYmt0UTFTcTdjelBXUlU2cXkyTlRvbUNTWDVJdnc1Z0Zz?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 08:55:11 GMT",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQY19fNVN4S3pqbFJsUHJFV25PWjhfZ2c0a1preU55RnMtY1JNbmhaNlJqLVpWNGtBUGpZbWlwdTBRZDBBSFRTT0RDOXctMXJpZk5WdkZRMDlOZjh1M29TUXBKRGtzSzI5ZlNpUk5FWnV0d0FZT2VrSTA4SUloWi1oZjFxQzRxUS10X3BMcW9NTDRLbms?oc=5",
+      "pubDate": "Tue, 28 Jul 2026 16:52:52 GMT",
       "category": "transfer"
     },
     {
-      "title": "Spurs’ plans for new training facility in London park blocked by high court",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONlU2TFRuTmpGZ1VhLTFUTWJXejdrcTE5Uk5MMi03RjYyTmgtUUxuSHY5WkkxSW8wdXlxUlczbEpnRHIwSXRTeDlTMmJsd1Q0ZkI0ay1lUkQ3NVlla1JLcUJoZEc0VFhxSXJQU2xkakhDSmlvMjMtRWNCWFRrRU9uX0dOQW80Q2w1RnZmSWMtU01iek9xM0x4RzFLSzY3Ny16R0N2ZC1CbHB1R3U2LUFfRjFBMkZOU0R6MWwzcHlVTVRibm5LX3J1WGRkMzV0NG9nM3p3WUZnYw?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 17:30:00 GMT",
-      "category": "general"
+      "title": "Tottenham 'now lead Savinho transfer race' with Man City deal expected",
+      "source": "Football London",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZURsR29KbDBiQ2pfNGJsbEhpUEFGSW1HeWM3elhZS3VKZW91d2ZvVkhxUGZaWE5yWHRUdms3UjFodnhuSjg3NDhGVmxXVWVqTG5EcURXU0ZtN25BUWhWSjFDdnJTeWZidW5GclJLZDRtVDVNRmI1cWFmYXpCOUt5NFBZMU9PUU5hak40LWVfUVBUcEtYVkNrYlRGTXdudEk1cW000gGoAUFVX3lxTE9LWDZic3JzQktHZEVaLUN5clhoczV1bkZjNUFuNDlLNGJrWjF2RjFDM3h5VTYzbGlZQUg0YUN3ZlZ2YW9PM3RMSUlMRFQzQnNaLUoxMkltWDN1elNxWU5sYzVmdXNMWFVFN1BJRHptWWhkUmJLUXR0dzkyeEdRcTdZT01IcldKc3gzYURxNWxXaURvUWZRemlCNEtMQjNqTHhZS3c0emwzRQ?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 10:06:08 GMT",
+      "category": "transfer"
     },
     {
-      "title": "Official Spurs Website",
-      "source": "Tottenham Hotspur",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbGNUQUk0OWlnV0VmY2NIa180aUlWaUtSc3JhcEx6dTZiYlBNUGxrTFZfS0tPN01tbkhoSFF0WXM0WVZPWXJOc1Y4SVpGZXhpUlQ4RzIxSnJOalNBdWlpOUFTLW5LbjdwajhJeURGSS02cDlhTWFhVmF0MVFoYUZKR2N2ZFJOQUxBdWJnZmp4RFhNcFRIWVNrLQ?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 18:12:58 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Tottenham working on £60m deal to sign Savinho from Manchester City",
-      "source": "The Times",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPa2EybTdsMlZpUVp1clZZZ1BpV2JqTHRpX3BlMTlEa3pBTnlFWTVuUVN2cVNXVlZ4ZmlmVk5sWm8xTE9aNy02NzQ1QjJERGlXZ04zdXRDeEVrbFhraDF4WGhEaGNOX0NmNktKampMSXRMOXBiTVpNR0FCSzhfQ0JtNVY2RXk3M3h0SHhqQ0MzcHJjTDA2WkxXeThOYWF1a0ZzbUwyU3g0MnBGbTFVcTlsQVh5RQ?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 17:00:26 GMT",
+      "title": "Tottenham dream 2026/27 squad as Micky van de Ven signs new deal and star striker arrives",
+      "source": "The Mirror",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZnA0c0lYOGp0SnlPcnJaMHBCZk9VSFBRTWlVOHh6YUNKZnJHNV9uaFlCRXdLVHZfMExLYk5XWS1RQnhUTVpGVUp5dXRTekVtUkJmQmk5VHNScnhLbUhWNGlrZ3pmSVRRZVJoS0RDNVdOQVpESmNlc0Z2dk15bW43cjNXVjNyWnc2RmdPZ1RrTGRxZVZxZjdF0gGcAUFVX3lxTFBwcVVJMGl2SFo2OGNXVWF5MGlBeVgzcXN6NEd3VFhiSXd1d1hKTmFYbDgxbC1HV1pxWWV1TEJVcnAwdG11WGw0WXF4QmNXYU5nTWFUaVFWaEN3ZzJQMTkxZ1lvYzlXOVNWdmdMREJOWEZXQXozTUZiYnVUU3JDeTktdG9GNzQybWV6dmhkZUZOZk1GNVRVSGtLMjV2Wg?oc=5",
+      "pubDate": "Wed, 29 Jul 2026 04:45:00 GMT",
       "category": "transfer"
     },
     {
@@ -38,11 +66,11 @@
       "category": "match"
     },
     {
-      "title": "Scarlett and Richarlison secure victory at Eden Park",
-      "source": "Tottenham Hotspur",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSFhORzJfai0zVWwwZjRseGVTS3NOYTRkRjNyMHFrMWpMVmZhZVBTU05NNVhWTnFKbzdIaHlCa1B4aTkwZVNPUEg0SjBNME4zMDkyVjd2eWJEbE1ac0NjeTAwX3NZN1I0Q2xKblM3Mk5ZUmtHTE1wM0dBUmRMQXNMZTVPYllNWV9NSUFtWWJfbk01ZlJQbGNXaXZCejRxMlk?oc=5",
-      "pubDate": "Sun, 26 Jul 2026 07:16:34 GMT",
-      "category": "general"
+      "title": "Three Tottenham players who impressed De Zerbi during Auckland win",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNY1N5a0cwUUVFak94YkczNDdJbnNvN0VKb0Z4RTcxX1ZXSmRXREVtTVNYTnpQbEcyUEVJb3BIU1FhTVdkZk01dDhrVmk0MERyQVU0OFFISVlscFd5LTZka1Q0RmpXSkpHT1czVUlLMk1tazJ1NDVoOEFOaXFUSHlWUGpEaS05cjFzTG5aRmFaMUNBWlJoWW1oekh0Ym9lYmhqdkZmaTdPWVQ?oc=5",
+      "pubDate": "Wed, 29 Jul 2026 07:22:36 GMT",
+      "category": "match"
     },
     {
       "title": "Tottenham begin tour with victory over Auckland FC in front of record crowd",
@@ -52,25 +80,18 @@
       "category": "general"
     },
     {
-      "title": "Tottenham XI vs Sydney FC: Confirmed team news, predicted lineup and injury latest for pre-season friendly",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUmpaX20tcWRuNjhVSk1LOXRuY1FRYmgwa0lhLTN4OHRXUG5FWHMxU1pWdGhjZmRWWFB0R2w0dUxWZy15aS0xTkpJMzhIbnRhcmhLbDE0WkdfT29pTDNGS3NRcjF0SndRZW00bEk2Wl91OTBFdXZodEMzOHRLYzcwSmo2MzgxaDlaMEFieWh2SXRkQUVZNkpZbkZteUZDam5mN0FKd3RkSjBmUFgtT01Yb05fUWp0TGFsem9yLXAyNHEyeHFSSkJFWmFYSENNZGFMSVd6T1MxTkJMQQ?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 17:17:49 GMT",
-      "category": "fitness"
-    },
-    {
-      "title": "Archie Gray and Lucas Bergvall go on an adventure and the unusual thing Tottenham found in Sydney",
-      "source": "Football London",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOY1BQckl5Yk9sV2p4MnFPbUN3QjRFNTBzaFltdm5RVWxQUXBRYnlEQ1pCbnFLa0dtSXhkUEpiRjF3cUpULVZGLVdSY3Q3VmM2YkZmT2kwb1lxeWJTUm4xQ3AzWkNvRGpxZmpELVVnLUtYMEJWS2pCanJWbjh2UmNmNjZ4eGRjUVlmVklZNHhEVnJQWWtjbGZJ0gGcAUFVX3lxTE5TSW1QN2pTQmFZVmY1cmxOM1RtVmlvazFsVUZnc1Y4RTh1bnZDTncxbTRhOG1TYl9vYlMtcjJlaHhZamF3YVpVdDRGLURsbXFINS1ELVotalhOMkdlTDdpakRnaWdkZENMX19nblZ6VWFmZjRSOE5HcVhTMksxaHo5dS1IbXlFRXVWYjh1cDdLa0stb19la1dtT0w1ZA?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 10:00:22 GMT",
+      "title": "Spurs’ plans for new training facility in London park blocked by high court",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONlU2TFRuTmpGZ1VhLTFUTWJXejdrcTE5Uk5MMi03RjYyTmgtUUxuSHY5WkkxSW8wdXlxUlczbEpnRHIwSXRTeDlTMmJsd1Q0ZkI0ay1lUkQ3NVlla1JLcUJoZEc0VFhxSXJQU2xkakhDSmlvMjMtRWNCWFRrRU9uX0dOQW80Q2w1RnZmSWMtU01iek9xM0x4RzFLSzY3Ny16R0N2ZC1CbHB1R3U2LUFfRjFBMkZOU0R6MWwzcHlVTVRibm5LX3J1WGRkMzV0NG9nM3p3WUZnYw?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 17:30:00 GMT",
       "category": "general"
     },
     {
-      "title": "Manor Solomon’s agent says player wants to leave Spurs permanently this summer",
-      "source": "Cartilage Free Captain",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNUl9LS21QRy1qbll2UC1kWGxXVnNtOHhhVHI4YlZhd1JTa1FtN1U1TWhlUXhDdzMyT3lpY2hFY21nOENuTV91czVkdGhsOUNYRlJIc1lEcHJOR1FuTk5rRm1fRG5NeHJ0Nk1WUmRwd3dPdEgzcUtmUU5zRmtyUWNnYWV0RDI5bE9CUUJzY21RSDJ4dVBNMkhTajQ0QnllNmsyQnAtRTZFRnlGMklOY3FoUlUwN011TnRwNnVtYVdPWjlhdVdJMUlpSmxJUlZjb1I3TmZ1ZHdUR3B4emJ0Rkt2ZHNKaUZId3pGNGxiUXEwcGMxellHOXZIRnM0WjluQQ?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 18:15:51 GMT",
-      "category": "general"
+      "title": "Romano reveals how many more players Tottenham ‘will sign’ as one deal is ruled out",
+      "source": "Football365",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTmtCOU1JMVRRZVZWNXplVEVPc0NQM1hnM2xpLWJPWEN4OHFnM3hqaXlxMmlGUDEyT1VSM3FUWlhUVWo0bFFaNXI3OVZJSHZMVlZpRURxeVRJRzhzS2YtSFFMWTJIY0wzVUJ1NVdWZ0hQNnZyYmt0UTFTcTdjelBXUlU2cXkyTlRvbUNTWDVJdnc1Z0Zz?oc=5",
+      "pubDate": "Tue, 28 Jul 2026 08:55:11 GMT",
+      "category": "transfer"
     },
     {
       "title": "Micky van de Ven speaks out on Tottenham Hotspur future after Liverpool transfer links",
@@ -80,32 +101,11 @@
       "category": "transfer"
     },
     {
-      "title": "Tottenham's Cristian Romero sale agreed, with bizarre £7.5m hole breaking Spurs' transfer logic",
-      "source": "FourFourTwo",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUmlSZUsxcEJSUVlxQ1I2aGhLX0ZoZ09zMXRILW5pY0VRdlg5ZHhocENvTlZJOXBtUmRjVm5QRnVrQWRrVUEyazRPN0RVWGh2TUl4LWtnckJndDFFUEREeTFvSkQ3S0FqdFFtdW1YU0pHRDBnUHZLSlZIN0pEb2w1cnpqWERIc25tNVhTa0l2OFA3ZUxYNnJoOTZYaTlzR1JBRGx1RWFnWkZVdDUtVV9DY0ctQkVqa2JNdWxibjJ3RlcySWU1Tm5taVVJYw?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 14:00:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Tottenham Makes a Strong Bet After Historic Crisis with Record Signings and New Ambition",
-      "source": "beIN SPORTS",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPdGo5cE1GVXBNYkZlVlVMZ1hfajlUU0M2V0xkR3lhalFDMkRPbEhtV21EX0dLby0zTUNhcUstM2xoTXFGRXFwSGlseVVrUXFRc2J0TU02aG9PeVYtSzBmcUJRTjQ5aGgwWjRNTlJWRGstZ0k0b2wyS0d5MVdSWTliQ2wzZU5pZWwzOTl1Wk9EWllBdjdweV9VeHlEZ0JwSUxfLTVtTk1uNFAxVWExWjJSaklsTG9sV2FEclhpN2EtMWZQOU5USENNTzROckNTS3YzeVlhVHNKbFg2czJEaXd5X1JMTzNfc0RCenlhaVBTTVFCQlpiQnc?oc=5",
-      "pubDate": "Mon, 27 Jul 2026 13:54:42 GMT",
-      "category": "general"
-    },
-    {
-      "title": "'The next part will be up to him' - King excited by starlet Williams-Barnett",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBxQ0lRN19tNkhBRjNwV1Zha2xWMVVYOE5kc3JRSnViTTRxYmRXR05jUkx4SDdWYTdRS1l5SFFjeVJibjJ1V09OZHhBcC1WbjY3OElOLWxPc1ZOTU15VGNibDNKdlVKR3ZldXc?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 10:15:23 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Court overturns decision to approve F3-designed Spurs women’s football academy",
-      "source": "Building Design",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTzI0b3Z0TVpNTl9aUndfNGF2TWlaNTZqZDVIcWlqMVN5SndRYXNEcmJLN2JJMFlicXd3RkhKdlo0alR0bkZFUU5nZFFOcmFIbHczcXdPRXVLbFA0OFlFSFU4QTdhd1gwczZ4MDBiZU90NWZmTlliTWZMamlocFVjLWtSYWh4XzZQYVAzMm40cFlsZjVHSjhxNnNBNXZYMTB4T3pRay03Q0U2UmVNZlNUS1Fyc21VUE9fVHNkNU9wdGRYcWc?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 10:53:39 GMT",
-      "category": "general"
+      "title": "How to watch Tottenham vs Sydney - TV channel, live stream and kick-off time",
+      "source": "The Mirror",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSVExX3R0R2FxSGs2ZmxYUm54WXhPOTJ0aTRGNEhxaDBDaE5jZy1hb3RySDNZYU45S2FWWUhGTlZzMUpjRURvR2NHM3YzU0p6TzNRQzcwem1FMlFvblptVE5ySWtnNUNHZDhqcmlSeDVzZUJneWw1VzR2QkZTVk9vZkllV0o2TVVldmdXRw?oc=5",
+      "pubDate": "Wed, 29 Jul 2026 06:00:00 GMT",
+      "category": "match"
     }
   ],
   "reddit": []
