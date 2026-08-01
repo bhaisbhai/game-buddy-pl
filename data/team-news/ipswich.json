@@ -1,68 +1,89 @@
 {
   "slug": "ipswich",
-  "updated": "2026-08-01T08:05:25.566Z",
+  "updated": "2026-08-01T18:58:36.117Z",
   "articles": [
-    {
-      "title": "TOWN 1 CA OSASUNA 2",
-      "source": "Ipswich Town FC",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbGpKRUo3NFY3TE5najY4S2FpV0NfVjc1Y3ZtWklfZTlQamVBSHdfbk8taU15djk0OGNGX0dld0hUdHBKRzJPbWJrd2dRRVNHSjBVdXF3ZjNfeUZQc1FLaFkzY1BlbV9TZFVGN0k5TEpGLUJOSHBIUjJYMjltYUI4US1IV1BFMUtPZEhIbTBJc3Rwc1JuQWhBZncwUQ?oc=5",
-      "pubDate": "Wed, 29 Jul 2026 20:55:40 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Town fall to 2-1 defeat against Osasuna as fans return for friendly at Colchester",
-      "source": "Ipswich Star",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaHE3Z0ZhZ2pYTHk3U2FaQXFWMjdJTnNOUkNGTkNldkRQT0MzTWRiMXdIMGIxMTIzbktkdDdjV3FETWNUdHIyakhGb2lkeUtNaDhOU1pGNjdqV1pHOWMweHFPSEdfbUtBNlVYUFRBcjN0Tzc1MmJFSm44Q2NZMUxhNkg1Z1RtdFBPZklYa0xGek5aQUtCTUZjUmJnQjV6UnFORkhxQ19NU0E?oc=5",
-      "pubDate": "Wed, 29 Jul 2026 20:39:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Who is Charlie Compton? Meet the teenager who featured for Town against Osasuna",
-      "source": "East Anglian Daily Times",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYzl2M2pTUVFJRk4wVUgxdXlKT1dfRUd6MTVnS2ZmTFdqdmhPM3dhNTVTWjVBdzdsWHU3SVhiNEE3Ql9nbEVoOVNQanFoSW82dlRHUlo2YllOdHhheFpFNlRnVVk2RmZTbDZkOS1WMjA5ODhZZHdKXy1NRVl4WHhFMHVIYWpjd1djejZXYm15dFRKX05OT1c5VF9R?oc=5",
-      "pubDate": "Thu, 30 Jul 2026 12:30:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Who could play in Town's pre-season double-header against Oxford and Wycombe today?",
-      "source": "East Anglian Daily Times",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMTZkOGFuNXM5NHNfS3FiS0ZvZmxLbGdOclZsNnNhQVFVVzZyVGFjcVZvelBZWkVrZkxYalg4VFlfTHptSjEwRE9MNExPQjlKejlrTEluWXh1OW1BT1dxSl9KOVppOE84alNKZ1RCcDNLd0xENkVLVmNtZ3dESkFkVHRGM2YxQXZnTVgzRXp1ZGpKdElvNW1uejlEZ2dCREljUmpySjFLamdQQQ?oc=5",
-      "pubDate": "Sat, 01 Aug 2026 05:00:00 GMT",
-      "category": "general"
-    },
     {
       "title": "Oxford United vs Ipswich Town | Match Preview",
       "source": "Oxford United",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA4d0NpcmFrcE9hbm5MN1NCM29MMXlmeGVxSTNHVnc3Yk1pUFMwV3N2UFlaTnc3cks5bDJScW5PSWFfX2w3ZEdEaFVfUmVRbEVJQi1ZX24xRkdHd05mX015VmRac1hWbnc0RVhMU09IMG1ydkFaWktNcF9FbVZjZw?oc=5",
-      "pubDate": "Fri, 31 Jul 2026 11:39:34 GMT",
+      "pubDate": "Fri, 31 Jul 2026 11:03:52 GMT",
       "category": "match"
     },
     {
-      "title": "O'Neil: We'll Need to Be Adaptable",
-      "source": "TWTD",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ1VMd19MNDlZS0ZNbUFDNVVLR0EtbFdRZU5adUxvVVByaGhqSkNVM2gtbnRuUU9YSWpLeFBFak9GY1d3Z29CYnNfWHVYTU1URXVFdlBGMEdSbC1NSXFEWnNCMDczTnVtb2V2cE1zc2hUeHlENWRmOGhLRUtrdWRoZFVrLVU?oc=5",
-      "pubDate": "Thu, 30 Jul 2026 10:31:00 GMT",
+      "title": "Three observations from Town's pre-season defeat to Oxford",
+      "source": "Ipswich Star",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNeGpCcTRYVmRCeE1CQUhzbU13WFozbnJoR2c5OXEzTThmV0c4bmExOWZiVmM0OC02b09Ub0VuOFJLM3lCRUhkY0tfUXNVU2h0S1JmVkwwb0ljcU1JYmdLb2IyMVdxY1llZDlCLWZ6bk8wMk9HQmI0X3EwNFN0VXY0SXk0UFN0LVZ5TmFhbjNEWTVTSkJNYVVoOGZFNWpzSndnSFd5UG1BYw?oc=5",
+      "pubDate": "Sat, 01 Aug 2026 12:50:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "OXFORD UNITED 2 TOWN 0",
+      "source": "itfc.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1FRWsxRDlLVl9UMEZuVVM4MV9aazFQNXk0X2NJZ0o3bFZCRkM0eVZLbG9VNUJSZVhZbU05a3pxSUEtSHpsbDU1NmhhaFotc0U0dDc4eWx2MldLbm5lQkpBbzhXVkpEVmJBZ3pSRGNlZmRJelh2?oc=5",
+      "pubDate": "Sat, 01 Aug 2026 12:49:10 GMT",
       "category": "general"
     },
     {
-      "title": "Ipswich Town promotion-winner draws Birmingham City interest",
-      "source": "The72",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZmx4NDZXUVlRbFRFX1JyajUtY2I0d0hsalVURWdobjI1MWZQdXFDT3EtMW5YRUo3N2JtRnEzVG9mWGNCc0FzRlFoWG1kQ01uT2dTUUFDeFR3cms1M0lRcE0wa3dkMzVuMlZTNjNpOUpPY2Jwd2ZPTFpGQTJuMWltSUQtNldXNXFWTm0w?oc=5",
-      "pubDate": "Thu, 30 Jul 2026 12:35:34 GMT",
+      "title": "Sam Szmodics: Derby County re-sign Ipswich Town forward on loan",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBFVFdpeUhZUkxwZU54Y0xBelAxY3hvVVpZWXRkWGZxZnFub0lSSHB4NEpYYzF2NWtuTnpiSzRwd2pYN3Y5c05od05OTmVOMUpfNjJaNjZWd2lLVlpDMUNWaXpmWjFQXzJvb0E?oc=5",
+      "pubDate": "Sat, 01 Aug 2026 09:17:08 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "DONE DEAL! Town attacker Sam Szmodics re-joins Derby on loan with obligation to buy",
+      "source": "East Anglian Daily Times",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNVYwU0M4WHRqSWZtYUhDcVhva21qMnhtdWhwcmoxeEtQVl9XU1BsbHJvSmFvbDBwbEY5dWlfREJnM2FWeFdHdWZkdkl4czZJY01oX2p5T3ZwUDBsT0NEZVVZMDZrY2d6X25rTkhpNjZGOFdFcDlaVm1zVU54ZDBnSFM5LU1xT3V3Mk93aVRfeVdYOWZXeEEw?oc=5",
+      "pubDate": "Sat, 01 Aug 2026 08:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "Preview: Oxford United vs Ipswich Town - prediction, team news, lineups",
+      "title": "SZMODICS JOINS DERBY ON LOAN",
+      "source": "itfc.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ORWJpRTVVOHZkV0pQTTRDQjZXWmszVzhIaHpYVUF1QzFtYkp2cFJLQWxKblA3NGtvTDNhVkYtVzVoSERJdkVIcU5oSGdJMFZmY3IxOTJaQ1VWdzhERFZZeHZtNHdIblJqbVVpMXYyZU0yVUNEUi0xRldPMXo?oc=5",
+      "pubDate": "Sat, 01 Aug 2026 07:57:04 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Ipswich Town news: Cameron Humphreys scores brace to seal pre-season win",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0yY21BS3JUNmMxNldGYXZFOVBNQ3RNLWVPYzZGTGlZRkxXTlVjU2h1RmtoSG9wNnh0SXVKVERmazZqVGJENWNiMXZfZmE3THl4N3lCZmkzU0hmenhKRzhWclR1TUpmbFA1TXc?oc=5",
+      "pubDate": "Sat, 01 Aug 2026 17:53:23 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Three observations as Town come from behind to beat Wycombe in pre-season",
+      "source": "East Anglian Daily Times",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPS0xUM0JLUHE2YU9mTVUwSkRIaGdSLV83YVpia3RxMWdfM1ZUNHBOaWdvYjJ2NjF6UmZuSkZtT1Fhd0JRZ2dTdGJkLU9ucWdXWHNQaXhiWi1OYzk3eHJjZEtKMkx5WXZ2TkE3cnAyVEVjaGNvT2J3VVFNaUpEaVVyOW9rNURQTzZyWDhwVEx2THNEM3kxX1NuaXNoVVdJYjRVZl9N?oc=5",
+      "pubDate": "Sat, 01 Aug 2026 16:55:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Preview: Wycombe Wanderers vs Ipswich Town - prediction, team news, lineups",
       "source": "Sports Mole",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOR2dNbVlrS18zR2RmMy15SUZVUXlMU3g2WG1RSUV2Ti1FZERBRnpPNmsyb1QwR1I4blp2SjZUaExXT0RiUVp2am91T2x0MEc2TlJLQXg3ZWtOWl8wV0dhXzd5M3ZRY2pPZUZmdnBGalA2U0dyTEVtckIzQUhEcnROWTZKRG5vLVVGR3E0MmViYXZNYUE2VFZZV3FFNUNJNjdYWUtRV0JmWGJZZFRoMFZOTTFTaXJBUjRBcW1BdkhRMA?oc=5",
-      "pubDate": "Thu, 30 Jul 2026 21:44:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVmNzQW1Gcnh0TEVOUGN0QmVCUGM2VVQxU0Qwd3NMX0pFNEVyOWdfRHlnaDI4WVktanhPbUV4Qk1MYXRSekFZanZYdERuTnBTWmwxR2FuRmY2ckhoWk9aZTB4U1Y1UmVTS0JGOEpCUEZYSzN2TndPS01PcjNoZVg2UUtoT25lcWIzOWFMYjllLXhQNHlVVTZaNy12dDhFYVNKYVZPZXNFYXhtVTVYM3JrdnJvTXUteU11Z3BoMWVJa2s?oc=5",
+      "pubDate": "Thu, 30 Jul 2026 22:43:00 GMT",
       "category": "match"
     },
     {
-      "title": "Ipswich Town transfer rumours: Henry Lawrence",
-      "source": "bbc.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9fOWNMdWoxeUlQcmxDX2hRRWNyREdUN1UxemNOTlJYWjNoMVpHTmZPLVY2UkRRc0dvLUprOVQ2T0xQTFZkNGI3Wmx3NnppY3pKUVF1RkN5NU96WDJSSlBJWUw2ZmtIUTg?oc=5",
-      "pubDate": "Thu, 30 Jul 2026 07:17:26 GMT",
+      "title": "Stoke City eyeing ambitious move for promotion-winning forward",
+      "source": "The72",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOb3c3VllSVzVQa3pHb0s0ejY1aEVlSk10ODJzZkotZnZXdDBTWmlqUnlmaFhBWU8tc29hLUJ4SldoYVZ5cVVPbG1EUTY5RzVHbnVBdE9DTkxmXzJaSlpwaFpIV0pUX3lMZlhlYmpyQXFHcENxeU1IdE5ZbUtNd1BhWWVIYWxreXZfd0E?oc=5",
+      "pubDate": "Fri, 31 Jul 2026 14:19:11 GMT",
+      "category": "rumour"
+    },
+    {
+      "title": "Enciso and Lukic plus two exits possible for Town - The latest as we understand it...",
+      "source": "East Anglian Daily Times",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbnVROUpWcXpiLW03VE54bG9UY0NrVU1pcHoxOTBvNk51X3ExdC1iRWNCTmdxdzh0VWxuSjFrN2hoalVfVGMwUlA3Y3Q0bFVSM3hfRFNuMlBqU3hseVUwT2FITXBDdDBOUGJFcENFQU9LbHVQZGRmNzBnOXFHcmZ4VDhwclNKRzhzVTlFOWVaTmttT1hjT0VQaQ?oc=5",
+      "pubDate": "Sat, 01 Aug 2026 13:14:41 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Transfer news and rumours: Ipswich Town 'want' Strasbourg star, Coventry City 'in talks' over reunion",
+      "source": "Sports Mole",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxORlk3eVE1QWtRX3NsdkZ4azVqN1p3bUZYUlFXZzZETmItcXNkelZpd1hJTkFhZjA3LU92OUd2Y2lVTWtqTmdsaUpZTktjaEh4b0ZkWnZYU0FXSFZlczdVbF9nTGxoWFNkOUs5encwZTRQcVp2N1dOZUd2SzBUTlNqc185YUU2djc5NmRUTmk5cHhuVmxBVm40WWpSOGQyZjVNUFF3eTRKM09ONUt5QURxY1hhNmlyRTVtMzc3TGoySlg0dGJrb1FwM1YtUy1WS3NQM1llNmJnZFdZbUQ0NlVZaEdqUXlsdE1vWjF1QTJHdmNVbURQR2FxNFZfWQ?oc=5",
+      "pubDate": "Fri, 31 Jul 2026 08:52:46 GMT",
       "category": "transfer"
     },
     {
@@ -73,39 +94,18 @@
       "category": "general"
     },
     {
-      "title": "Town reportedly expected to sign Fulham's Sasa Lukic and Strasbourg's Julio Enciso",
+      "title": "'Makes me feel good' - Town youngster loving life with the first team in pre-season",
       "source": "East Anglian Daily Times",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQW5ZdHZMZERhZm1IMVk4NTJZM1doWXROZUZaNU9mRjNmcHpCTUpnUzdMbWRsLXhaTmE1OW9PM1Jvc3RsTXU3X0hEdmRlUmFLbm5WcDlXQ1B3RWQtLXpDMnIta09XYzAyMkNZQlJwSWtCdTlZMHlyQWFIbE54d2xRdDRtaWkzbGJLOGswQ2tJQkpFSGpVQWJIalc2VlA?oc=5",
-      "pubDate": "Fri, 31 Jul 2026 21:40:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "'Really happy' - Ex-Town loanee makes shock move to Norfolk non-league club",
-      "source": "East Anglian Daily Times",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOS1JLbVNUX0cyeUVvYlIwWTh3TUl2VXFJVHF6V3A2bHJMSlZwX1NkWlBlRG1fSXBmUHRYV1h3Z3RUczJXYzl2ZlNSVWlqNkhPQ3ZwYVdEYkpnVEtSX0lXTEU1Wkl4djBkc0JQWlVGcXdkdVp5N24zakdWZlI2RVRkMlVPQUlqd2gyQ0RFUjZ0MTJsTlZ3bHowTHBoOA?oc=5",
-      "pubDate": "Fri, 31 Jul 2026 09:00:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "TICKETS AVAILABLE ON THE DAY AT OXFORD & WYCOMBE",
-      "source": "Ipswich Town FC",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcFdQbkplNlpqQk1NbGw4SzJoTFdjZUVhUE1EeXRSOVFEU2pfNzVzcW42bEIyZ0NfZkZwYjREUWlRWEphTlRxOVFuN0hOcUZZMnhlMXU2Y05VRnlzVWVtV0NCeW4tZi0yZk8tcGFpTklkN3QyUktKNXRITVA5MFp3WlZHN1VibE5XM0pQaG1kTGpDVWtF?oc=5",
-      "pubDate": "Fri, 31 Jul 2026 14:53:51 GMT",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZnNVUE0ySTFuSXBTU2VjS1pVbFNwNjhqU3dNMVBqaWlhVi1pWVRGejdTbTduX3JvSlE5WXExQ0RLUkxuaVZBdTRkbmUybl9pOHV3UE5DSUMySDIwOTB3aDFpNVFjLWQwdnRFaFgwYnU4NTE1WWlHNmJQTWticTkxYnU0UWRLd09uZGVNdEMzdGJzZnF3amc?oc=5",
+      "pubDate": "Fri, 31 Jul 2026 14:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "MATCHDAY GUIDE | CA OSASUNA",
-      "source": "Ipswich Town FC",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE02Q0NtQ0NFZ1VmRWtNN2Vmd1d4MFJFMEdyckU1T1dEei05Y0FzdG9BRzlPU19uOUFzRks1dVVILVFWUi0wV21OYmQ0Y3cybllfSm5UMlN4Q1RlZFRWNmZjTkNpRzJxT01IMXYySXNzdXdYZGtLaWVGOA?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 19:21:46 GMT",
+      "title": "'Everyone has to earn it' - O'Neil on battle to be Town's starting goalkeeper",
+      "source": "East Anglian Daily Times",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORFl3QWlqVlY1M05nZ1ZnTzFKUktYek9CeWtIY3IzQ1I2QTMwYkg2M1dQYU5iWTR3d0Z6a09DaXprZXJuZWNQUEVJVUg5MkVhdzhhZmRPbmFkQkU4dVU3TXVDOGM3VE05REh5MXlYWDFpdzNUZks0em40R2JJbVRVekhVb1JHbEE?oc=5",
+      "pubDate": "Fri, 31 Jul 2026 05:00:00 GMT",
       "category": "general"
-    },
-    {
-      "title": "TOWN SIGN KEEPER KJELL",
-      "source": "Ipswich Town FC",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0wR1p2dU0tRFl6bjhvNzQ4aUhTTllfU1RQMzFXT2h0b185cHBVNWZMWERNMzdXSDU3aC1PNFhyaFFPLVd6cVNnMEJaWG1USklDY2ExQ2U3ZmxrWURZZUN4VmpyU0dPWFBSdTlJWG1qdElKS3pfT2xIZ20zVQ?oc=5",
-      "pubDate": "Tue, 28 Jul 2026 11:00:00 GMT",
-      "category": "transfer"
     }
   ],
   "reddit": []
