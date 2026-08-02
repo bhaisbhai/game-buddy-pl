@@ -1,54 +1,40 @@
 {
   "slug": "leicester",
-  "updated": "2026-08-01T18:58:36.117Z",
+  "updated": "2026-08-02T08:07:11.836Z",
   "articles": [
     {
-      "title": "Leicester City suffer narrow Coventry City defeat in behind-closed-doors friendly",
-      "source": "Leicester Mercury",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVkN5NUZDblJjbEJKMTBKSlFiTlZDd0kxNHVVaTJFUHdGZDNzZDdaeVF4a1ZFMlBCZ0JhalJ6a2lKYW5IdXhtdndxOG9PUkV6Slo1Yk5IbHBBaC1MekllZzBWQ2NjR1NzUEU3WGU4R0I5R19Ddmt1aWpSU1pkbzVyX29lZC0ySllYTHJVVktYWUhRaWhBODRyVjVIYWZNM0xMZFhYcnlEREI5eHROeVNiY3d3?oc=5",
-      "pubDate": "Sat, 01 Aug 2026 17:00:00 GMT",
-      "category": "match"
+      "title": "Leicester City 0-1 Coventry City",
+      "source": "Coventry City Football Club",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSjUxLTFJSGtHQTA5MlhFekFudVJPM3dkNWZtUnR4b0dDQTF6cEZRMjlWUDNHMTNqMlRKN2J1OW03U0JhVlItUVBQYzZiUHdRWUtTdUpXQUZVYkRlUmlRcnNWR1ZoTkVZbzdLRllTSGRhQURaejduREo0LUNDazNBSTRR?oc=5",
+      "pubDate": "Sat, 01 Aug 2026 19:04:44 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Leicester sign Cullen from Swansea on three-year deal",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jNGwtTXhrWDdYVm5EWC16WlBLcDV4NkVKcmM2S2FrOVB0VjIybnh2RjJzcERYYkRscmdBYXFJRmxfUHM0a2ZZRHVTaW9zWFFJWmQ1dVduM3JaMXRYN0RIbWpuUUNudnVFRnc?oc=5",
+      "pubDate": "Fri, 31 Jul 2026 09:42:15 GMT",
+      "category": "transfer"
     },
     {
       "title": "Swansea City: Liam Cullen's Leicester City move leaves gap after 19 years",
       "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUd2hYS0xHWXlKMHZMdlk2Y2NHTzk0RzFRUEZqTGI5MG4xaUdweXRPMk0wQU9WSV92a240bGEtZ1QyVmMtY3F6Qk5tX0RxRnlCMXFKVC1aSXFOdmVQQXEtbHNCblJlYUVfdEE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9VNVdLTEJIQmhua1dCWEJtNzJUekdHM1QxZXVqVDIwaTFhOTBoRWFEM1Nwc21SejBoaktibUgxNDB1OVJERG1aU0hlM3FKenFjOE9JY3JOWXZfV0Z2ZWJ3Qm9mZkZOZUk?oc=5",
       "pubDate": "Fri, 31 Jul 2026 09:28:57 GMT",
       "category": "general"
     },
     {
       "title": "Liam Cullen completes Leicester City move as Swansea City pay tribute",
-      "source": "Wales Online",
+      "source": "walesonline.co.uk",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWUhhSWduNVNLeTJkMnRmdHg1SkR4WFFlWVZYUFdOUnY2a19nNmdXN000cFVNU0dLcWhBR2Voenlnc0VWVnotS0NjdXFlNkpoemE0dnlOUmtnckdmdHRYSW9mZV9vMGFPREFZMHg0Vm5pdkNCUjRhTE9BdE1IZ01KUHltRVdtNS01bWl0c0pyNkdNVTFjOWtSc0Y3YWtXQks1cmdrY19tWdIBrAFBVV95cUxPeGFfNC1tdlFIdDdpNmMxQ204RzM0OEtJU2VVRHR5UGU4WV9nXzAyMndsM05Jbkw1UXpjbmgtN1dFNDdRcUVyZmZvdGhuNXF5Zm5qcEpjdlFLZ0txekd6bDl4dVBjamwweHViam5EdXZSdC1kMzU3Ni0wQzBobUpWQXBwSXVtTnI2VkE2d1BDY3NRQzltT0lLSUVFTmwyTVkzR0xGR3ZvTGpPQjBS?oc=5",
       "pubDate": "Fri, 31 Jul 2026 09:26:30 GMT",
       "category": "general"
     },
     {
-      "title": "Leicester City sign Liam Cullen from Swansea City to bolster striker options",
-      "source": "Leicester Mercury",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWFRvYUFqTm1zY0hWNlpJRXJSUEN1TklPcHhaTnFHMzVPdzZnczNXWnJpZjd1cU80TDJBRnFSYS1YRzFOdG45LXNVOTd6ZlJZMlNNU2k5TE9NNDh2UTRMNEZnSUJFREk1NUxxVGwtSFgxaC1Jbzc1RE1zakprMTU4V0d3N1RDV3ZDNEhWeUdIdGZqY1RGMXBKY3F0ZjJCS0pZY0hvQzRpOA?oc=5",
-      "pubDate": "Fri, 31 Jul 2026 10:52:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Coventry City behind-closed-doors friendly at Leicester - result, details and absentees",
-      "source": "Coventry Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaGtrRWFEVzR3MEs1TnRpbDNucDJYZ29kODRIcTc3SDNraFVpeEs2SkozVlNjMUUyZzRZNlRMRlBLSWVLOXp0dGJHemVoanZBX3BBb0NvZWFKV1VLYnpfVHMtUnZQcHNNQUxzcU1DNmpmUVhhVVBvLUdCaHh4UGc4UnFBclptWVMtTENlTDlRWmdRWF9qRGVIOHc3bUVmTUFKMGlueFIyNEtGbGpLUHlz?oc=5",
-      "pubDate": "Sat, 01 Aug 2026 17:01:51 GMT",
-      "category": "general"
-    },
-    {
       "title": "Tommy Watson: Leicester City sign Brighton winger on loan",
       "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9IcnJHYk5NWV9OcVlMN0JxRTViYTdkVVhlUFAxSFlGYlBqZ3I3QU55S3lTTXNCZzNKSVVOdE43LXA4NUx2U0hYVzIyZ0xuYndMOUJqdDF0cmRuakNsQ1N6Y2hyOUNfU3FHVEE?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1ZM3NTOHFoemhqOEFCcmNpbUkwUVZIeHl5MWZXeGEwblpma1BrZUFVZVlxY1pONVh1d2lFblpycm5NLUxVallEWUVrOGlJSm5ud2hWQzdfQmhxSzlCQmdSeGhJRWFFUTA?oc=5",
       "pubDate": "Sat, 01 Aug 2026 18:07:17 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Man City confirm transfer exit as defender departs - and five more could follow",
-      "source": "Manchester Evening News",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOUpuNDZyODZfal9PM01yWk1uay1jdVBQSEhKT2NKN19IYUxqQU9tLVQxd0U2UURhQjB3N1VOUXA2aDc3SmJSME9mN2FBUnh3cXNLb1pBcE1tOXNYVEVsbm1ZeUNMOVdkeEY3SXgweVY4TFFsV1BDR0d0cFh5bmZZb04tcHI3TDluR3pFR21SUlJoTW9sdTZzWGgzWTJVS1RoYWJXRFZrXy1ENlhX?oc=5",
-      "pubDate": "Thu, 30 Jul 2026 04:00:00 GMT",
       "category": "transfer"
     },
     {
@@ -59,24 +45,31 @@
       "category": "transfer"
     },
     {
-      "title": "Leicester City vs Genoa LIVE updated and Tommy Watson joins on loan from Brighton",
+      "title": "Leicester City 'agree' loan deal for Premier League winger as Russell Martin gets transfer wish",
       "source": "Leicester Mercury",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMXVTU3M4YkU2NkdzMlZoR2hFWU0tVmNKelE1LUJObEpCZnA1S25PRXk2bGg2NWhtSlk2SVhzVE9TSGUzY01tTnpTbnVHZldtSzJpTU1tRVVfYnpha2xTU1JRVVJLd2doUEpBZW1qc28xaGpzR2VGWkxYVnN0eUp5SkdpZDZrUDB3akpNS0NrMGRBS2dQeFpOelhrbFZiUzk5NkQw0gGoAUFVX3lxTE9UZnVMbTJpTklyOHBINjJ0ZWQ2X2ZFMXVEbG5iRGxlOFZqMzB0UGZDWkd5TVFRa0U2QVJaR1pmQUszb25oSFRKQ2pxVUZaRUxlTGl3alRJTFpNY1pOemN6cmpqR3RTVWNPUDlpc1hEeXVVaV9YR0JRODRrT3gwTWpwVTlwSWlyRnl2QmVlOEhyaHBWMTdRUEVhbTZnSjZJRTlScTBTb0tjRw?oc=5",
-      "pubDate": "Sat, 01 Aug 2026 16:30:00 GMT",
-      "category": "match"
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYjhKa191TmVjLTFVWXZhUEFWSGFDeFlCSDRFUG5HZFNxczk2VENKOVNpZEZZcGNFdklHTFN3UWotWHIzOEFIQ2hGOF9xR2h5ejVCWFktaGtWTEk1Qm1XdXBRTm0yQXppWUtsaVBnNEhsNXVlaUhUU1gtWk93Nl9qOGJQYVJ2VkhfbVZqN3NTMWZ5NVFnalpsU0RJSWFLOW4tYXNmaG9jVGjSAa4BQVVfeXFMT1NDdzJMNE1vRGVrVGprTjVXbGRXSXBZNFNkZ0FRNDY4WHAwWWlNS2NydGxmN3F1WkN4Q1YyQ0d0QkJEUmNqSkdrWGoyam1sRXd4QU9IY3VWMFBxRFNPWDZSMEdkMGFJdk1CenhMdTJkX2tqenhpY0ozdEYwZFplNlNmOXhKb3dUZ1ZZckhZdmNrRjlGSEp2QXF3dG1mREN1aU1FcDhieEFLUVZoXzdn?oc=5",
+      "pubDate": "Thu, 30 Jul 2026 15:16:00 GMT",
+      "category": "transfer"
     },
     {
-      "title": "Leicester City 0-1 Coventry City",
-      "source": "Coventry City Football Club",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSjUxLTFJSGtHQTA5MlhFekFudVJPM3dkNWZtUnR4b0dDQTF6cEZRMjlWUDNHMTNqMlRKN2J1OW03U0JhVlItUVBQYzZiUHdRWUtTdUpXQUZVYkRlUmlRcnNWR1ZoTkVZbzdLRllTSGRhQURaejduREo0LUNDazNBSTRR?oc=5",
-      "pubDate": "Sat, 01 Aug 2026 17:18:21 GMT",
-      "category": "general"
+      "title": "Russell Martin provides injury update on four Leicester City players after Ben Nelson blow",
+      "source": "Leicester Mercury",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPeEZZTFZuWWQ5UEp1Wjk5d1FSZDRvckZIZ0Zvazc2bHV2VVV3c2ZsYkVmcEFkblVYa1ZiVHdGLS1YUkExZWMzLU1yZjRJRGEzRUoxU0FYOFJ6ZnJGUFFLcnJiTzZjN1oyLW9OaDgxMnFwamJPdnBjaFRRRVRDN3pGZEY0QUVXWVZWajRwWHZZLVFqMGprN21WUkFxaFdad0pzRzRZYU9oRUZyNlk?oc=5",
+      "pubDate": "Sat, 01 Aug 2026 22:01:33 GMT",
+      "category": "fitness"
     },
     {
       "title": "Middlesbrough 'join' Southampton and Leicester City in midfielder race",
       "source": "Yorkshire Post",
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbzFWLV90T2R6MmhnNDVDc0VNVGJzRTlhMzZlM0tMN25FZktma3dBenBldl9JSFVYcUxOMFhxMHgxNDFVZU1zSHctUmN5NUE3cXF5N3VGOGlIMVZlX25yclJHcGh4dVJuU2ExMGtKQkhLbHMwYVZTVjU3U3BsNEtMdlBjWkxmd2p1NkZhZ3BlaUtnOUJZWGI5ZVluR3VhV3pFUG5hWVBEYVM1ZEF3Q09jbTk2OVE0ZXpVUnE3U3lQdEFRRVVGYnFB?oc=5",
       "pubDate": "Sat, 01 Aug 2026 12:45:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Coventry City behind-closed-doors friendly at Leicester - result, details and absentees",
+      "source": "Coventry Telegraph",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaGtrRWFEVzR3MEs1TnRpbDNucDJYZ29kODRIcTc3SDNraFVpeEs2SkozVlNjMUUyZzRZNlRMRlBLSWVLOXp0dGJHemVoanZBX3BBb0NvZWFKV1VLYnpfVHMtUnZQcHNNQUxzcU1DNmpmUVhhVVBvLUdCaHh4UGc4UnFBclptWVMtTENlTDlRWmdRWF9qRGVIOHc3bUVmTUFKMGlueFIyNEtGbGpLUHlz?oc=5",
+      "pubDate": "Sat, 01 Aug 2026 17:01:51 GMT",
       "category": "general"
     },
     {
@@ -87,25 +80,32 @@
       "category": "general"
     },
     {
+      "title": "Deal Done, Latest On Adebayo to Leicester, Bristol City Match Explained, Swansea Attacker and Brighton Youngster Linked - tcf",
+      "source": "tcf - filbert way",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQZzM5Tzk3NUJFTVlMbUp3bkdpVVNQMG5ZYTg0T0NxWnBXenRtOGx4QnFWcld0T3BYNVFXSGZzNXM2dUhQRWFsSzdvVjdaWl9hdkNaTTlaTUJoQ1Q3M1kwM2dIZ1RHZWVudkRCU2c4MUFiWnQyckxiTWN4T01xaGNHeHFQQV9ZQV9oc3RlQVJXTF82MkRyLWY3aDJpLXlmNWFuRVdPM1NrMkYzUVdCTjdiTU5kME5PSmVMdjhyZ3BpQXNLd2lHUjJfYVFzU2NnZF9penduQkJIZW9VcmpxMjU1WlVXTTVKUQ?oc=5",
+      "pubDate": "Thu, 30 Jul 2026 19:29:30 GMT",
+      "category": "rumour"
+    },
+    {
       "title": "Middlesbrough look to beat Southampton and Leicester City to 22-year-old star",
-      "source": "The72",
+      "source": "the72.co.uk",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5OcmpVdVBfTmlQUFJ0cFF6eldvUUdRc3RFaHJhUVRLb3B1ampEYjNUaVVNbGZ0TnZON1ZSbnZ2Z3pvT00yRG0zSXc1SkNLZm5leFRkNHBWaldIMks1VDNOd3FqZG5UT25oSlhKelV2cUl0aDNpZ0xEd2N3?oc=5",
       "pubDate": "Sat, 01 Aug 2026 13:28:07 GMT",
       "category": "general"
     },
     {
-      "title": "Russell Martin explains the Leicester City game model with Enzo Maresca admission",
-      "source": "Leicester Mercury",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOU2hrWGo3ODF4Yi1naUFCTVFfOVpQSi1FYUdGQm51WkZTcEFDTEloUnVtMVR0ekV0QTkwaldQaExqMmJTT2hnWXJwVFdEZUVTLXU1ZzFnaGVuYnZKeHBxWnFMZ3BrQ002U0NMTEZzVHNsYThxa3FwOHNEVW5PZVd6RUZLd2Fyb2l2ZWswX1Npd1p2MUlDT0hLdTB3U3pmS2wyRndBaFZ1WTFSYmI4MEVKLW1paw?oc=5",
-      "pubDate": "Sat, 01 Aug 2026 05:59:58 GMT",
-      "category": "general"
+      "title": "Man City confirm transfer exit as defender departs - and five more could follow",
+      "source": "Manchester Evening News",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQOUpuNDZyODZfal9PM01yWk1uay1jdVBQSEhKT2NKN19IYUxqQU9tLVQxd0U2UURhQjB3N1VOUXA2aDc3SmJSME9mN2FBUnh3cXNLb1pBcE1tOXNYVEVsbm1ZeUNMOVdkeEY3SXgweVY4TFFsV1BDR0d0cFh5bmZZb04tcHI3TDluR3pFR21SUlJoTW9sdTZzWGgzWTJVS1RoYWJXRFZrXy1ENlhX?oc=5",
+      "pubDate": "Thu, 30 Jul 2026 04:00:00 GMT",
+      "category": "transfer"
     },
     {
-      "title": "Leicester 3-0 Northampton (11 Jul, 2026) Final Score",
-      "source": "ESPN",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNTJ3Sl9NY1hucXc1SnladE44SE9JUU9rZHdCUTBKT1BJOWRqbmRCaFVadW5KYVYzdVYxYUR2THNaOTFRdG5LZG82dnBHWkVqZHVyb1pGRjJUWXZGNGl4cVpPMzhyODM4b1pSYTNKZE1DMGR4RXlIRkhZRWhDOXFlRjI5Z2s2TC00OUgwZ0ZCN2t3QQ?oc=5",
-      "pubDate": "Thu, 30 Jul 2026 19:16:17 GMT",
-      "category": "general"
+      "title": "Full match replay | Albion v Leicester City",
+      "source": "West Bromwich Albion",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9KMVRTZFdVMGNMNEdhYUF1SjE3dG8yNWJGeFd1WjFfZ3A0Z1pHbVl2Mkw0N1JFYmJReF9kN250ZnlYcmtraF9NT1dFQkthYW9Sa1E?oc=5",
+      "pubDate": "Fri, 31 Jul 2026 16:21:33 GMT",
+      "category": "match"
     }
   ],
   "reddit": []

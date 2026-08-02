@@ -1,70 +1,7 @@
 {
   "slug": "fulham",
-  "updated": "2026-08-01T18:58:36.117Z",
+  "updated": "2026-08-02T08:07:11.836Z",
   "articles": [
-    {
-      "title": "Diary of a Fulham FC journo from the Algarve",
-      "source": "Fulhamish",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE04TXNVUU9mVFNPdXd4RzBvQ0hXMFlPbHhZdDY4bmpDYlFCejY2aTlHNVF5NEtmOEluUzlLRkliTU5wajR6WlNLWXM5Y3RNN2c4N2JwbjZDdFB5SHJwVFNuTWpsOE5TYS02dm8yTEJJdw?oc=5",
-      "pubDate": "Wed, 29 Jul 2026 09:12:40 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Real Madrid ‘Sell’ Two Gems to Alvaro Arbeloa’s Fulham—And They Might Regret It",
-      "source": "Sports Illustrated",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQWpLSUlCd1pneUE3R2UxOEUxUUNUX3ZIWjlKTmtUVUhxZEwyOXkxZXBVcE9Eem53NnprRTJfbE0xbzNTNWVFdmhlcTU1NS1QYXpMbTl2am10RnNQTjZkMTQyY1g2OW14eXlLdGtWZ2gwM2FOcVI2M20zSl92VUxHc1BDeG95TTBXYV85Wkc1Qk13Zzg?oc=5",
-      "pubDate": "Thu, 30 Jul 2026 19:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Fulham set to equal club record transfer for Real Madrid striker Gonzalo García",
-      "source": "Transfermarkt",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeFBlNVY5RFF6RW5LQkpBVE1ncDRNWUdoaFBuLUNtbHp2T1M0WXdBSlJ4LU1lbHROWkhSS0dnTXE3ZE53eTFGdjhqNXpXNFhqRHk4OE9sMExkeWYxVzlDLWsxNXdGTWUxN044N1Jfcm1zVjRhU3NNTHNLbERtcVVkU0FTM0VLX3Fla1NaODNsOFNFVHZOaUNPVjdXTXhpSlFZSUpZcWNya2NjNG9nRkRCbEROMmRiVmR4amdLYnNpXzNfQl9j?oc=5",
-      "pubDate": "Thu, 30 Jul 2026 12:41:44 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Burnley star wanted by another Premier League club as exit talk grows",
-      "source": "The72",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE54S09udkZ6UUFheXJnWlh5NUhvYUFQdHlUVTVhaW1zZkNBUzBtUm5obk9DZmhIa2xmMGN4bVVsajBnYXVVdjAwaG5Kbk52WmlXYlJtQlhBUFlqVmEzbEVQV1cwNWJBTUU0bWQ4TnNFOUNoVmEyNU5kRlBGZw?oc=5",
-      "pubDate": "Fri, 31 Jul 2026 12:42:22 GMT",
-      "category": "general"
-    },
-    {
-      "title": "'A no-brainer for me' - Released Tractor Girl signs for new club",
-      "source": "East Anglian Daily Times",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUkRuNFpWTE1RbUxuQ09kM0lwb0pNZlNudW96dUU2UW1aY1o3bmZqY2gwS2NweHpjNzBRSkdJRl82UWdjWGFPUUxPWGRIZW9ZSWlFd08ycjVtRU02UlVGbXBLN251U0RZLW42U2V4ZFhIWGpLVC1lUzBUeWxpQ09YcU5fNTVONWYtNnlEcQ?oc=5",
-      "pubDate": "Fri, 31 Jul 2026 08:58:54 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Málaga and Fulham to contest the Cervezas Victoria Costa del Sol Cup",
-      "source": "Málaga CF",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaHVYSjRMZ3J5TG1PMWFEdXdXT0NYQndRRTdnS1JJNExUdUZJUlVHNUZGMUp1bzRSNnZsckZYWEw5MGtwSjNJczRYVlFJRnQ4bDhzYXBYelRONW9ZdnJ2VWJ3b2NkYWZUMGRZa0xSQ1gwcW90bmYyZWItVU5OLTlnT1NQMXZwdDN2Ym0yTy1tRjl3WUdqcm9SMUQxU0d0WXZORlQw?oc=5",
-      "pubDate": "Wed, 29 Jul 2026 20:47:13 GMT",
-      "category": "general"
-    },
-    {
-      "title": "€40m double Spanish swoop could change Premier League team’s near future",
-      "source": "CaughtOffside",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8tTjBVd0M5Q1NNLUVtWnZIemRoemJtNm5BcG5mRjhHbHpsUEZKbDJvMjB6YTNxcXJjT2s4blQyZGJ2VUhoZVhTZUM2Nm1TX3NHdFVYT3dGTlJ5aXVKRXJmVlRhR3daWnFIVE9pcEszeTF4OWM5a0wyVThnTHJrZ9IBgwFBVV95cUxQb3pmWUViUkFZQWVnTnZSR0kxV1NEbkZ1dGNZQTRjVm9CTmZfWVR2MTNxZDFzaHNaYW0wWkxqV05kMnNrMlRWWERhZ1JVenJfRjJDTGxSZUc1OEFVcGZQaldnSFR4MWNOeC00ei1INkRIN3BKOFJ0bjFzMGp6TndDeFJGSQ?oc=5",
-      "pubDate": "Fri, 31 Jul 2026 14:21:11 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Fulham officially confirm signing of former Liverpool forward",
-      "source": "DaveOCKOP",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQ0VqYXhNMGRFVUg3VkdpM0dqOURSdzBfWFFKTlRFRm13U05kTkJER0dQT29xQU4yUW9RQXpWRkc5Q3Z0bXFHNVhxb2tSLUlVbzU3ZmtqRlRWWVBxeW9aMlNMc2hFUEpQQklYOVFZWEl3VFA3MldaOV9WYkl3UmlfZ0RJNDZoNnVjTUladTNuTFpvNXpqekJtRGNwY3hjY01kY0tsQQ?oc=5",
-      "pubDate": "Thu, 30 Jul 2026 20:21:58 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Fulham eye Toulouse’s Charlie Cresswell",
-      "source": "Get French Football News",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSzhJNWo5TjRlYlpBNS1tMTBQMmNqU2dtTlRzdEdnWkVNYjZmeHFZNFY4WUUta3VvdmNkMmpiWk9aSDc5ZXpNd2RBNVBNbW9aZ3d1c0RvREdSSy1CTEVlZmJZeE9kNV80MEQxMlU4emR4cGlTRGF4eFBDMnNCNFJaZGtIMnNaWlE2T2c?oc=5",
-      "pubDate": "Wed, 29 Jul 2026 12:29:54 GMT",
-      "category": "general"
-    },
     {
       "title": "Farense 1-2 Fulham",
       "source": "Fulham FC",
@@ -87,13 +24,6 @@
       "category": "general"
     },
     {
-      "title": "Queen of the South loan move for Dair",
-      "source": "Fulham FC",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE16dHl6M3VUcTRXOElDSnZhQk9yVEw3UTFKUjZIamVtbFJzWUt6aHFDTGV6U09aUXVLdTNGVTFaQVczZ0o3NnpSVnJaOWVEdzFiZVJKLVAtZUhWbk92X2c?oc=5",
-      "pubDate": "Fri, 31 Jul 2026 19:59:00 GMT",
-      "category": "general"
-    },
-    {
       "title": "Fulham to head to Spain for Málaga friendly",
       "source": "Fulham FC",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaWRHWWx4OGhUYWhnM3NxS3UwSGY0MGdDcXVGMFI2b01VZnFzM2NxeVNFYVY3N1hYRm9SZnNsbVNkc1FLT3ZxOENVZVFZY1ZJV0hMdEhGQzFDWEtjMWp6bHpiYXNuaEJfQlpvZkt0dzVCM1N1Z1ZoUlVWR205MU9qcnplbC1Jb0I4aHpPVFI0a1E?oc=5",
@@ -105,6 +35,76 @@
       "source": "Fulham FC",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBwcmpTNDlxSTI4WGh0aFV2YWYwRFlINF9RNDNVWkFDU2FsOTVpY0wxN2xHRE1NM1JXVmdxY0RqcGlFTDNzamxLMThqX1AtTDhteTNvWkhoTGlvVHBlNUlldGJJZHpKSzU0QjdyUzkxb3VGOGRJ?oc=5",
       "pubDate": "Fri, 31 Jul 2026 08:25:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Queen of the South loan move for Dair",
+      "source": "Fulham FC",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE16dHl6M3VUcTRXOElDSnZhQk9yVEw3UTFKUjZIamVtbFJzWUt6aHFDTGV6U09aUXVLdTNGVTFaQVczZ0o3NnpSVnJaOWVEdzFiZVJKLVAtZUhWbk92X2c?oc=5",
+      "pubDate": "Fri, 31 Jul 2026 19:59:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Fulham U21 1-2 PFA XI",
+      "source": "Fulham FC",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBySlU0TVV1dkxHWGFCRjFQc3RSNlhiT0VvS0RLeVdRbW5weU40QmVYbHJHZnhRMk9veHRKRmlIWFZYZ2N3M2RXNFlWQm5lckR6aDhvYjR3dDRUMUNBcVJpTVNqc0pDMEY1M3BpaW1XTUxweG8?oc=5",
+      "pubDate": "Fri, 31 Jul 2026 14:43:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Rianna Dean signs with Fulham FC Women",
+      "source": "Fulham FC",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYWtRdmlvTmJqTGdOQk1ydkdYYVRZQk9UUmdXS2k2aE5zU2FqQk1xSzRhTzV5OUtjVjFLUzE3bE1hUFY5ZUVVWFB6V1FUMk9nazhvYXVJUVJFRkZkQlVVQVJHQ3RQNzZwazk1QVpxVHktR09vNlk0SzBLaFUxN09ScHR2NFdYTldoUXc?oc=5",
+      "pubDate": "Thu, 30 Jul 2026 06:56:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Sunderland (A) tickets",
+      "source": "Fulham FC",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5HNF9ESnVYaXgzLVF1M3VKVlNKT05NdmUtblVKaGJtMDdHLXM3N1ppTHp0Rm1rdUZKblFTTzJ4alVQZTE4dTRHQjZzQnRtX3BNX3RxaGNMeTI3b0RmcHBOVkNjaU1FQWctWUNsaXB3SjBkMzJ0NEE?oc=5",
+      "pubDate": "Tue, 28 Jul 2026 16:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Fulham 0-2 Norwich",
+      "source": "Fulham FC",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5NYTVHR28yTXBTME1qS2t5d1o2Y1JfSHRubENLVUJTWHYxUEFkeWktRXB4Q2hvUzFqalBnN25Yd2RHQ1NfNVlscjF5MG03SWJOWHJrV1lxQmJ4cEI3NGVQQXU3bEJZMmtCaVZiWkJKTQ?oc=5",
+      "pubDate": "Sat, 25 Jul 2026 13:16:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Jess Gray signs For Fulham FC Women",
+      "source": "Fulham FC",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPanpkOXI3bmE2NjBBV0paMlRwYTFVcFdOZjJpakRnTWZSMlA2ei1kQ0MybmxZZk5DMVhlamU1R2RsLTRGcTl5TnR1MGhodkYwWm9YbEFPbG1QOUh6clJRWVVsNi1MRmN1Wl9jS2M1d3haUldyOVhQVFJJLW5EaGlMRHJnaW95UQ?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 09:20:47 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Diary of a Fulham FC journo from the Algarve",
+      "source": "Fulhamish",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE04TXNVUU9mVFNPdXd4RzBvQ0hXMFlPbHhZdDY4bmpDYlFCejY2aTlHNVF5NEtmOEluUzlLRkliTU5wajR6WlNLWXM5Y3RNN2c4N2JwbjZDdFB5SHJwVFNuTWpsOE5TYS02dm8yTEJJdw?oc=5",
+      "pubDate": "Wed, 29 Jul 2026 09:12:40 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Pre-season update",
+      "source": "Fulham FC",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA2UzkxV0JvaFhDNEtvNm42QzRzeTVnMTVhbmdKSEFDQzVTeHZWbnFvZWtXY29XblFqRklYX2kxNkNGUzhuM0dGWWt2NHdZWlFlNFVReVJDN1Q0WFRjOHVpcXhwdlhXcW5pNG55WDhn?oc=5",
+      "pubDate": "Fri, 24 Jul 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Hot Seat: Luc de Fougerolles",
+      "source": "Fulham FC",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ORXp2ZGNGYVMwWDFZdXRETmgwLTkxSDNhb3J6cEZvdFpBYWJjZENMSXNocUZJS0dmNHpDbVpNanZfbF83RXZrbjJxT2JRcnU2cW5nZmdlYjQ0aS1GSEFyUlBiY1RudDd0c3RIMWZuaVZiQnRpZzNpZ3JNOWE?oc=5",
+      "pubDate": "Mon, 27 Jul 2026 15:42:22 GMT",
+      "category": "general"
+    },
+    {
+      "title": "26/27 Home Kit revealed",
+      "source": "Fulham FC",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9LQmV5eEozdWNVZnhXOEJUd2FmdUMyekxLWm9VQ0VrV0hlRERyZHUxR2ZjbzRlQ0tWNVdrSzh5bzRXR0laWDFMZnZ0OE5PM3o4bkl5czRvcmMydWlrRHJzQUhLX2d5cE5DWU9pZTBwbmxtUGxFaFE?oc=5",
+      "pubDate": "Thu, 23 Jul 2026 07:00:00 GMT",
       "category": "general"
     }
   ],
