@@ -1,54 +1,61 @@
 {
   "slug": "liverpool",
-  "updated": "2026-08-02T18:59:15.681Z",
+  "updated": "2026-08-03T09:24:40.859Z",
   "articles": [
     {
-      "title": "Andoni Iraola backed to complete £80m Liverpool transfer after Chelsea bid rejected",
+      "title": "Leeds come from 2-0 down to beat Liverpool 4-2 in pre-season friendly",
+      "source": "The Telegraph",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQ1hFMTd2aDF2dHdydERtdThHVWF1VFQ3N1Nqc2JvRGdScU9PR1BPOUowaEpuRF9OSUJDcmJNZG1KTWEwN0VsN1BldW56eVBEc2xBcGl5S1FqYlgtX21uWURyZ28teVhnNW9JVjhtcTRBVmxZSUZya0JQdVoxZk80RFBKU3hZSW1Rb1hwQWQ2dGF6NWdHNDNod0dJU0pUM1FaWnZtWjhR?oc=5",
+      "pubDate": "Sun, 02 Aug 2026 22:18:28 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Cody Gakpo: Tottenham interested in signing Liverpool forward as Roberto De Zerbi aims to improve Spurs attack",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQUzlUWjZzOVhKUWFLVFQ2OVRxNWVhQUNmV2NSdExPdGh6Zm5PYXExOHVtNDJVMzA3c24yQkl6Yy1kVFc2b2V6aWJtaDEyVk9KNFo3MXdrcUJyQnZreGh6YktmSzZ3WElLeHNGNGU2RndqNjNsT0tuNmxlUGMzT2UzTWJUYmdpMVpBV3JMeWpFVHhjRkgtZTZwRU5KdTFVRzVWcUU0VXBKWnZCczRfUEpJVUl0UGpNTERnb2Y0SE5ydUdNRGtzN3dHOFg0SUdOQ2pheVFDWm5Qbkx1YUcxWHEyaU8zZmRpLWM0TnJUTGpnVGU2bV94QnU0?oc=5",
+      "pubDate": "Mon, 03 Aug 2026 09:04:01 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Cody Gakpo: Liverpool “huge” bid stance as Tottenham set to step up interest",
+      "source": "thisisanfield.com",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSjYzanRiYk1qRXU2REJlQzRKbWt6M1o5RlMzY1BWYnpOdERCelN4OUJ2QXZ4a3didDBOX1pjbGFPNTgxczV6NG40aFRzNW5SdllOd2VxWUVUenR1cHhoUUg1RnNXOE80aWNSY3dIX0N5VG0yTUhiY0FRSi15WVBLcm1fZUJrVFM0NUZRNFpmdUNyNW5NZG9fLQ?oc=5",
+      "pubDate": "Mon, 03 Aug 2026 09:03:21 GMT",
+      "category": "general"
+    },
+    {
+      "title": "5 Liverpool replacements for Cody Gakpo as Tottenham steps up transfer interest",
+      "source": "Liverpool.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdXFkX3FXZS1IRXJIS0NuTVRKRm9fVGRadzA0SDBNdm5PN1BHMkluUEZTYW5PNFotOVR3TTZQZzJCV2lJVDZIcko0SHdfR093QjdlSlZSMWM3Ry1qSEpqenRfS3I0ZndpNk16eGRkYlJEZlpLa2o1TTZZZXpfZ09GV3JzVkViczlIMGJQQjhRbHo4ZEtwMVF5c0dUNURHNnpUWXE3bGxNMFJweW1NX2ZuMWtCcjfSAboBQVVfeXFMTkJYRnNLUUNycW1KWEE1RDZYRWlKZkJ3cHNBUGNRcTZ0V3FVVy1qazdlNVprejZmcEVVWHp1MnMxSC1uQzlaQ0hUOVRLbUYxVWE5UlJpX09YUVBxZVdRYVg0TlFQT19rSTVtTm5YbUFIYVdMX3o5S29iNEVwUjREbVJYZXNxakNrWlRhcFlrMGREU2VIbTBXNFdTcWZycm5FQ19jTlgzZ3JObndIU290UU9lYlpUbktVQlBn?oc=5",
+      "pubDate": "Sun, 02 Aug 2026 10:01:17 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Liverpool handed Bradley Barcola transfer hint as PSG take action and personal terms agreed",
       "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOd2N3ZmNsT01WQkdaVGdzOXJwd0x6ZUNoLXlERHA5VHcxa3Ztdm9VNXU2Ry1ZaHo4MkNBLXM2ZGk3QWdsazhpVnZaTUFIV2g2VWtTQWdybVU2a1hmZmxLX01ucWRwWlRNbkZIVEFmSHJ0ZXRLWThtWVdOSU5hSEtvaFNOdXpCMnA2ckxyLUpmek5fWFYwVVRCYmtiMXlsNzZwaFNpZUZvcjFETHPSAbABQVVfeXFMT195b1B0aEktLVlUWmdqLUE2cEFaa283N2drd0JtLXpXc0YtNktKa3JEaWlxZTN4VlFySm05eWJvLU1BcTNzSWxPdW5JZ2JEdTRiZ1JLZDFzZU54TDlSa3ZoX3g5elpueWozdkZSVDRuSC00MGcxNExCcjh1Y25EamFGako4a3k4c0lxRzdKMVl5QUtYb3Z3TmxieU1Yd1dMQmF3VF9tdXh1c1N5UHVuaFo?oc=5",
-      "pubDate": "Sun, 02 Aug 2026 05:00:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMHp5TXJXYlpBXzZkZlcxbWJTN1dteWQ2eWFWNVFRX0Y2T1A2Zl93NjRjTDlua3hFSjZiYXJjbGh0X2lTMjJUVGV1NHI0TjZuOTltUUQwUjZCa3BIQlFfM1hxLUpmMkNzWm9mZE9MSG9sLXFkUUJ0UXM1ZnJ3d1JWM1ZJbmJmY24yR3pQV1JPQWhkM0FDcktfbkxqQVRsNlg4X2E5UUt1UnlRRlJIZ2fSAbMBQVVfeXFMUEtmV3Z1d0tVZVJPMUxSY3NiaTZsVXFuLWtrYVIzSTYzWkNncmY5U2xHNldnRzNpWUVjZlMtMFNTOENGYjZDZUswc0VkUFcweVE3UDNGcUFrVFNWTDNEMkROOEdpdFFUQ2RzQmNMUFdtMVNlS1k1ajFIbndfbURvYVAtV3pZTmpSNjVPYl84blh6bXFpSFBSZmNEY2F4X1B4OEEyYy04QVBILWNLXy1JVS1fRGs?oc=5",
+      "pubDate": "Sun, 02 Aug 2026 16:38:00 GMT",
       "category": "transfer"
     },
     {
-      "title": "Andoni Iraola reveals return dates for Victor Munoz, Alisson Becker and Alexis Mac Allister",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLVF4X1lvWkxMZWhPdjhscGFRNWgtNzl0bVlqY1lBaDV5eHowRUs0a2pFbDdvVXlTbUwtM2h3anJxYl9rQ0NXcDRtQk9aMG1tRUQtTnpDTjRhbnBBSVdBejdNYU5KOG82R3RwNlAwYXFWRW91SktxNUF5Z09NcGdISnR3a01IY2FqZzBYRGM4amVJUllObkMzV0d0UWhjTjVzTy1pM2VGeDlTUFJBdjl2R1Q1REFqVm9mbU1J0gHDAUFVX3lxTE9qblFyYXNfcXRmdFBzSGdfRTdHaDVPR1M4djd1VTNZZWRBR1NTV1lPT0UxWnFPcFZNSFF4SU83N0pNX21JWHI5MlBjTnRQRW0tM1pNd3E0OEprcE1SSlFFOFZhSHRmT3RKamluSHVZZ0d6a3lTLTFkUS00MzY2Vzg0NFNsMW50MDRWc3VpbVFNc2ZPVWNTdEtMaDg2ZThrcnpEdE5OOFNVUTlJemdaTkV3b3VnR3U5V1BOMnFrTHBTMTZkNA?oc=5",
-      "pubDate": "Sat, 01 Aug 2026 21:43:22 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Liverpool fans will absolutely love Andoni Iraola’s comments on Victor Munoz",
-      "source": "readliverpoolfc.com",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMTNuYnh0X3JBTmk1SW9oSEpxQV9hN3ZEOThXemFOTWpsNTdGa2E0eTlabEY1VGszc2sxZlBPcXVyeFNsQTZ6VTM4SlFVdTBpLVlNWkZ1OHNEOVg3OENlcklPWHRtWDd6My1FV0ZRVWp2dVg0MUF5d0VPekVwSnk3RTF1RFlYLUphOUhEdFRpRUMwNVBoeDgzWFlpcDE3UHlVSDJsZVFlVWJBUUFNTUE?oc=5",
-      "pubDate": "Sun, 02 Aug 2026 15:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Mr. Beef, The Dark Knight and more - Bradley and Woodman's Chicago sightseeing tour",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeTNuOHhaSDlwMWY2d3ZSck1IVTRFVWwyaTJTWDh1X1RQU1g5dmRaaEllV3M0OGY2VkVDMlpXbDlLQl9MM1RwUGVubk5Ba055OFAzX3JpNnhHWWl1SDJ2YlczSnE2STd1eEh0SUJPOTZpLVBUT09TeExmSUdTUFFnWEI4WUlTS0RTdTFCSGxqTHhVQUU4ZXhPdVZsSEpDODR6R2x0Um5XSEFTQmPSAbMBQVVfeXFMTzl4TkZaek5yVzVQdko2SjBtVExkT0VNaWRBMzRrcUF4cm9CR3JZWTRuTWpUdHp0SGIwVURHcUtpaVVOZTR3M1hNeWpKNXQwYlFaRnFzWjg1RElUbG9RYmhlWlFiYVJtaHFkNzBNaWhKQ0F5LVBIMGhXR3hjS0wxUVJZNjdIZlNfZlBCQjhrU21GUHZjUy1EV0lSWHBYSlBOd0daZWxhcEcwaG5oZDN2VU1FNVU?oc=5",
-      "pubDate": "Sun, 02 Aug 2026 15:36:14 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Fabrizio Romano reveals Tottenham plan to sign two more stars, including attacker with 50 goals and 23 assists",
+      "title": "Fabrizio Romano issues fresh Bradley Barcola to Liverpool transfer update",
       "source": "CaughtOffside",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQaHd4WkFIVXU1SXFWcmJaRFk5aEE4cVlwWkpiZ2ZlWndtN2pNSXA3RGFvM21ENFBlYnUzTDk1R3JIRGkwbXJwNGZWcC1PVk95amdSVEZNNkhxb21nSkRRX0ZkckRUQXVtV0ZqRFFYcXROdmhma250cWtkOFBqUE5zZXYySk1aVWJZZ3pmeGpyUU5KX1BEM2tOblAzOE0tMC1uWnA0bk82SC1ZaERJb2c2aFFCUjFYY0dxMXFVV05nR19EeEFBWDBfOXBveTROdk9YR3Q2RWVjaklmSW9iQUxxN3lSTHdpZ9IB6wFBVV95cUxQYmN6VTRLMEhUU0l2MkIzalhTNTVvaW1HZ0VMaDhkYWlKcERYUEoyZlF2ZUh4d0tHbDZwVnNqVU90YmVhU1dsWHpnQlluUW5hUFlUbTZnMm9jUnZIZmNQRXpvNU00MzFxNGN2MER3WnBEWXZNNHRhcHZmaFVJTHdUOExIVFhLZFJiTlZtSy1LdG5NN3JNRFJaNjZWY0xJQnBDcVRHVGpPMW1TaHhNMWdnbDVPbHRvaEpjeHZiN1lNY3RNcWU2MEJUMnN4VExZQUpwZV8wRnlBck1VaFVtaUhWX3QtS1ZZdnZJREJr?oc=5",
-      "pubDate": "Sun, 02 Aug 2026 18:24:16 GMT",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZWlPaVZ2UEpjbGM2ZFlTd2VtV09JQkZBLXpnNFBwU0V2ZmYxQ3NQcE5aZ0tTNDRZLWRyc3lqU3dNSUFXYjZ1ZU5NLVFUM3R4OVU5TU5WSEI3bUhiZG1FcVZlVjdfbWprTTFlSkQwcGpDU1BvWnNQcEhtMzZRMHgzSkQ3M2hSQXFJclA1UW40Q3JPWmxSWHFEQmNnb3lONHhyVGxYMlo0Wi10bXBCempDeWhR?oc=5",
+      "pubDate": "Sun, 02 Aug 2026 19:16:11 GMT",
       "category": "transfer"
     },
     {
-      "title": "Liverpool ready to let star leave for free, it's just crazy",
-      "source": "Anfield Watch",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOOHFtemRYNUdFWFdtRU9WMUs4UVV0WUVaRnVILWt5TVdyQm5MLXc4bmNua1F3Mzk1UUN2V0hmTkxLUUJzdEltd3FlZC1JZml4dHF4YUh1MkpLSTZKSW9Bemw2MmFPR3hhSFY3eUpWZWltU3pfSGlTdmVNcmhJUDhCSVhYc0NWdmxFWGwyMnVKdVNBN3ZwSDlaWUZ0U3dBY0wtMWd0dVp0QXFva2s?oc=5",
-      "pubDate": "Sun, 02 Aug 2026 08:30:00 GMT",
-      "category": "general"
+      "title": "Liverpool can now complete five transfer deals after Bradley Barcola approval",
+      "source": "Daily Express",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOFZsVk9ETl9DR1hkSjJNLUpwc3E2V1pYM211aHpsVWVkSmh6VnVyXzNadTRIZ0NFbHFQeTBNU1k3RWs0WmoyaUU4dmJUb21GaEU1bmg1SXNuX19tY2xoTkxpWjZjVzlUQUcxZTNJc3pLQmlUcUpYS293SjJTSlRlSHZVMDNucWJMTGkwaEc2NNIBlAFBVV95cUxORGNzQ2w0Y1BSZ0JCU1I2cVJIWTZEMFFGWmRSTWFOeFV6ZDVZR1JnRkN5d1c1YnF6UzRmRWxiZDNMNkpGdV9rMDBadTItZXVrX180aWxCWjM5NjdCSjZlMUpXYlZoRHhKWU1IMl9MekpYY0otWnhYUl9BdTdOUU9WWXJMOGFtVC02WEltaG9TVFJzdGhD?oc=5",
+      "pubDate": "Mon, 03 Aug 2026 05:00:00 GMT",
+      "category": "transfer"
     },
     {
-      "title": "Liverpool Pull Out of Jones Loan, Blocking Frattesi Move",
-      "source": "SempreInter.com",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYS04Z0M5NnpIZW1iU3pNSVlLdUNpckNaMXhqa3ZRcEwzMWpiTXpTczh2VjhmMGNxSDdWakRXV0hOQVJ3cjJWZTJJMUowcXRCa1lTcFFIc0x4ODhaemU0RnRLQzNCZHF2Ny01ZUZiaUtyTEYwRWNHbXp3NnRkVUVURFI5QW1QcjZsd250c1k4dC0?oc=5",
-      "pubDate": "Sun, 02 Aug 2026 16:12:30 GMT",
+      "title": "Game over as Liverpool midfielder turns down new contract deal",
+      "source": "Anfield Watch",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdU5wX2Y4TWp5eERCZFA5WlRiWGVxLU9NNk45SlBUZVQ5OUVHSW5aSGtFbnl6TVd3MVVBQUJkVjhlR1VuMnIxM2VSZHNrQ213YVdyajZ6TUxKb2EtTW03NEtsNHU2eGRPaUN6WU9yS1czMlFOWmViSlRoTTlnN240RmwxbGxWZFRhbkpHM2F1SnByV3dIWWtrUnN6NmdKSzJMR000bEozM1JBalEyckhtRU9tVDItVGdnSU5OMmNQWVpPaFVheUpnN01XUkRoYUxwTWtGZg?oc=5",
+      "pubDate": "Mon, 03 Aug 2026 06:00:00 GMT",
       "category": "general"
     },
     {
@@ -59,24 +66,17 @@
       "category": "general"
     },
     {
-      "title": "Transfer news LIVE: Arsenal done deal, Vinicius agreed; Man Utd shock bid",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTFRnVDBXeFlsd3UtdkpjN3YxRDA3ZnpvNVJ3dEpKWGhFczhQQzNRYmtsc3lUckZQQkwwMklwdUwzNXJtb1dEOEd3ZnFfOW1YYnkxV0FKcHpMTk1uQXZBcEdScUxUcmFGczN0S2xjLWNKQ3piNy1CaHp0ZTRSNEJTZUF0aUJUbU5iZTBra2xNQ3o4WVRidmdCWHVlZVJtN1h6NHJLaVYxd3dOaGJtemF1LXFRVUFhS3QxejFtUnc0d2U5NGtzdmROUWdjeHJpRG1Zc2c?oc=5",
-      "pubDate": "Sun, 02 Aug 2026 16:02:41 GMT",
-      "category": "transfer"
+      "title": "Liverpool Pull Out of Jones Loan, Blocking Frattesi Move",
+      "source": "SempreInter.com",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYS04Z0M5NnpIZW1iU3pNSVlLdUNpckNaMXhqa3ZRcEwzMWpiTXpTczh2VjhmMGNxSDdWakRXV0hOQVJ3cjJWZTJJMUowcXRCa1lTcFFIc0x4ODhaemU0RnRLQzNCZHF2Ny01ZUZiaUtyTEYwRWNHbXp3NnRkVUVURFI5QW1QcjZsd250c1k4dC0?oc=5",
+      "pubDate": "Sun, 02 Aug 2026 21:03:05 GMT",
+      "category": "general"
     },
     {
-      "title": "Liverpool vs. Leeds: TV channel, how to watch in UK, kickoff time, live stream, team news",
-      "source": "ESPN",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVXBwcWp6MjFJaVk2R3ltSVhraDlXTnFEMnhTcHNscGdIN3JCSW9QSHhGaURMcE1jZWhpSDVlMFRfYjU1SmZvQl83YlU5TzlpeHozTV9vRTVuNUFSZDZFMkRqYTNpbEJfWmdvZVl0a1NCdHZqaXRQV0tsMlZEdUtQUTdhS09OLVlQcFFqTmVLN25ra20wcUVrc2huaEpyM1dhWkRyU1FPNFVtVkdlblYtckZDUFhENExWLVpzQWRCMlMtQQ?oc=5",
-      "pubDate": "Sun, 02 Aug 2026 18:49:01 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Bad news: New Liverpool signing suffers injury setback",
-      "source": "Anfield Watch",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOU3ZUd0RRMGlZX1dPZGhWdVNSaERTY0ltVU11RjBOUjRoRG91OHk5R3g1LUlTdS02dklMVEtOQUY3WU05UW5sTDBBUm9hT3pYakswYmxwM25OalFpMFZ1NWJPS1h6OU5jR1B2Qm5XTXpPWHdDaFBSbTRNRFlVMUMtZGp2U1lUc3lFenoxNHo2V3NUZDkzWGNoejA4dGZYcXE1RWVnRlV5ZF9ISTNseFhmSGtINA?oc=5",
-      "pubDate": "Sun, 02 Aug 2026 10:00:00 GMT",
+      "title": "Liverpool transfer 'cancelled' as Andoni Iraola proven right with frustrations after U-turn",
+      "source": "The Mirror",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZlBJVmQ2VFV2dkprVUQ4NTVsZVAwSGlNcG8yOHNKaEg3Y0hYOW9WZnlJR3YwX2F0SFI4aXBhOVUxMk1rd29UZXZRSmhmdGYzbTF3ZGxzY1N5d19GSms4c190SmNFc3BfWEdNbkVWY3V3T2lDMXRkd1ZQeUYtZE5kQUREQVNtdkkzNk1HX3BQZVJQQ2h3NXBRSWRSVzQ5bm1jc0HSAacBQVVfeXFMUDhhRU1RdUJxeXktSnN6WFd3TlhGM19lM25mYzBLMTMwMVZfajl2RmRjUElHSU01MzZCSnVkRjk5MEphd3ctelpCUHBJelhWT21jTW9Za0JiTl9STlhaVjhYX2NQbkZvcDNVUGZ3WE9rZml4dVFzYklFcXBGTGJZbmhvU0tNWUpGaVB4OGRkdllfeXh1eVhGYUZONXdET0NDWDBadV9FeWc?oc=5",
+      "pubDate": "Sun, 02 Aug 2026 20:57:00 GMT",
       "category": "transfer"
     },
     {
@@ -87,24 +87,24 @@
       "category": "general"
     },
     {
-      "title": "3 deals Liverpool still need to complete after Bradley Barcola signing",
-      "source": "Liverpool.com",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMjd4ZVY1UFVONXBjOWNwUDlITzQyRGQ1LWcyaFNoV0kzYjlZQ0ppWExRZzNaaHhvYndYQU1lckdjZG5rLUdZOWs2MGI2OWRsX2ItaDdOSTNNci0xcHhabzloSXQ2SFZFVDVhWUhhOHpNTVpnVjhwZ095dWZ2UHZvaUZEXzFzZURIV1g2X3M5dXFCQ1NwNi1wQkk3Qk00X3ZrWEJCUWQ0czI0cFd30gGyAUFVX3lxTE1XUmhBR09sclpacFZyTUJGREZneXR0dmpxMG8zanBxMzR1V2JnMzEwZkw4ekJla25QMWE3WlctcXFHcTNzTVVseG9Gd3NLb2NSVmhmWFZsYVNXWWFBeE9TSm5HVHNYVXU4SXlPVnNrcTNwRkxITGIyUktRTjVqQXN5ZGEtd0pTNlM2Sm11WTZ5NmZZYmtjaF9ETk1tcW1Eei1zTWcyNWFwd2JPQnFVcFNjRXc?oc=5",
-      "pubDate": "Sun, 02 Aug 2026 10:42:32 GMT",
+      "title": "Liverpool fans will be fuming after Sky Sports’ latest transfer update",
+      "source": "readliverpoolfc.com",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWktneEFReFUxNjY1VGNyNnUtWVluN0N2Y0U0anNwak1KOUx3cmtYUm02ZGQ3VERvNFVBRDlBQi1JUHgwQjczOGQ0RzJNQlEyVE9OWmxOOWxDNFlxU0hnc3hLUE5FRHZBNnl4VlVuTUo5VnQ3dlNEMEJaaTJKb3pMVlBoWE9Qa2lqRWVKN3R5RE1TeE82bEpkV0o0Zkp2YzE2cWh6MndR?oc=5",
+      "pubDate": "Sun, 02 Aug 2026 13:26:27 GMT",
       "category": "transfer"
     },
     {
-      "title": "Arsenal urged to hijack Liverpool’s move for Bradley Barcola as they close in on £80m transfer",
-      "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYzI5QWZic2tOZ1ZwLVhoR3hwcGFxNG1qMXQ1cTN0YlNfR3UxaW53MzNYc3liWVNCUHctMkQtR25ybVNQbmtnakJmUElvMk8tcEVWcFBZVHAwQ0E5RUk0bEk3U0c5ZDhobzQtV08zNzZaOTdpSUk5VXNUWjAtSDRvTEFCVnpZaVRKT0ptU1YzbElzV2VFU2tWTW5GWEVHNXpEZDJmNVVTUmVGOUlGTlZvaTh30gG3AUFVX3lxTFBrYWhVWl9sSlg2eXB0QVJKOElWSE9xMlpCcnoyUG1YUXc2VmJLYm1nSU9YU1hlNXJQQTlLOFNJcjZDU3JmeThiejNsR3NMd0RVOV9NU2hhUnp4ZFI4NkxIcXJEdFI2cWRTRGtUSHBIMEp1c2dtS01EblV4RHloTkRLRTdVSTdsZzhUVnVNdUZFYkwyX0hFZWpsQzRWMjhLeEdwTDZvRU5oV2FDNGdtSmlobFI4Zi05OA?oc=5",
-      "pubDate": "Sun, 02 Aug 2026 10:23:00 GMT",
-      "category": "transfer"
+      "title": "Chiesa set to stay at Liverpool despite Serie A and Atlético links",
+      "source": "Football Italia",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBIZ2pseWVSaVU2OXRvNnh2Ty1qTXpRaTBUbUQzZm5vdlFlcTYxMnpubVdVMUZpQ3htWGpGUWowMmNucDlneGhWSmVualZTdjdEbWxsRkFGOV9nQVF6X1hRZ0R5dUFibDFHS1dUadIBckFVX3lxTE5sODlWQVVMYXRrRy1aMjdnbXZTWEpIeVRpRjNZdzBVSUhyV2lXSWFFYlZRajdCV2hCQl96T0pSQ1RZTXVVWFhhQzhQSHd1TzdTVFIzMXJtbVZkLXc1N3ZfdVExQmluMGVZcjhNVDBlMFhjZw?oc=5",
+      "pubDate": "Sun, 02 Aug 2026 18:00:00 GMT",
+      "category": "general"
     },
     {
-      "title": "Romano reveals Liverpool's next Barcola move as Reds make firm Cody Gakpo transfer decision",
-      "source": "TEAMtalk",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQN1ZPejZjV2YwcFdEd08wakFtb0JvZXU5eDlpdkFxWjVrclcxbTV6Y3RISm5IMXkzUUQzYXAyTXZVbWtJQW9tZzF2TWQ3NEEzT1RIS3BxQWRmdUpaWjUwWEk4ZE9mY2tUUDdvVTJmRm5ac0tMZ1NqemhSY3duT2dqYlFuSGFUTHExM215bUU4Q2FsUUhLN3N1U2wxbUlTZ1pxOERJMnJES1dPeGFx?oc=5",
-      "pubDate": "Sun, 02 Aug 2026 17:40:38 GMT",
+      "title": "Transfer news LIVE: Arsenal done deal, Vinicius agreed; Man Utd shock bid",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTFRnVDBXeFlsd3UtdkpjN3YxRDA3ZnpvNVJ3dEpKWGhFczhQQzNRYmtsc3lUckZQQkwwMklwdUwzNXJtb1dEOEd3ZnFfOW1YYnkxV0FKcHpMTk1uQXZBcEdScUxUcmFGczN0S2xjLWNKQ3piNy1CaHp0ZTRSNEJTZUF0aUJUbU5iZTBra2xNQ3o4WVRidmdCWHVlZVJtN1h6NHJLaVYxd3dOaGJtemF1LXFRVUFhS3QxejFtUnc0d2U5NGtzdmROUWdjeHJpRG1Zc2c?oc=5",
+      "pubDate": "Sun, 02 Aug 2026 22:33:36 GMT",
       "category": "transfer"
     }
   ],
