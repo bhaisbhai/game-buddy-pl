@@ -1,21 +1,7 @@
 {
   "slug": "southampton",
-  "updated": "2026-08-05T08:20:03.114Z",
+  "updated": "2026-08-05T19:19:20.347Z",
   "articles": [
-    {
-      "title": "Flynn Downes: Southampton 'chip on shoulder' can help win Championship",
-      "source": "bbc.com",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBuMmMxWDNmTlBmem53RExaT1JUeDN1V2RwVUxOY2lYdE1uSzBnVVl3ZVdoUmpyU0F0Tmt4X2w0WEgyZzlmcWJPV3lHWmRXaThieHRQMTRPQjNqQmU1T3NnRGRWYmVzT3c?oc=5",
-      "pubDate": "Tue, 04 Aug 2026 08:39:11 GMT",
-      "category": "match"
-    },
-    {
-      "title": "This under the radar Southampton attacker will play a key role next season",
-      "source": "Saints Marching",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUnZ5RzJ3SVBON1RPeTRILXkyUXZlcVhsd3NDS2taZjBTYkxsdkthNGIyTms4OTBYTWx4eVBrelFtUDYyOXNzQVZQUkdzYjYwcEljWlJRN3lmQnVfV2UtSDY4VnAyOFRpaENDR3B3UVZfTk5FWjRyY0p3aVZvdW1DSktfdzZxZmR1a3pIRGZ2bEsxczZkd3oxOUdzcHo5bzdNWXpZMG85MHRhMHlUNnZrX3VoeEQ?oc=5",
-      "pubDate": "Tue, 04 Aug 2026 05:00:00 GMT",
-      "category": "general"
-    },
     {
       "title": "Saints reportedly in advanced talks with Fulham over sale of Shea Charles",
       "source": "Daily Echo",
@@ -24,17 +10,66 @@
       "category": "rumour"
     },
     {
-      "title": "The low profile Southampton youngster who could soon break into the first team",
-      "source": "Saints Marching",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdTFFaHlpUTBfbGYyOTRzVTVGQ21JS3BnSW1CQVJDd1hoai1fX3N5WHluSURCUExYZEJISS15QjdNUkVtUDVNSV9rcHZZWW90cFo5QlJyYTV3RmhKSU45dEJmQy03MTFMWDk5WkhOa1Baa0Q0STFteUZ2MDdhRmIySk8xWG1Ea3JjNUlRT1ozZEt1WnZHSTFVemM2ZG5CSlloOTM2YUJsR0g?oc=5",
-      "pubDate": "Wed, 05 Aug 2026 06:00:00 GMT",
+      "title": "Saints academy graduate Dom Ballard joins Championship rivals in reported £5m deal",
+      "source": "Daily Echo",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMm5wbElZTEJrU3dYZ28xSFZqRGpyc2UxMkZJYkpoZDZLdkhNUXVfOGo5cnB2Q3U0ZW15ZmJDQ0RwdjltSFRZZVotSEJBTG1pSWJtVl9mbS03c1JWU0NKeThOWE9pMDRtQmYwdWItU2RYWGNMME1YM0ViN25iM3p2cTlPRzEtTERaMnJtX0pQUWN5U3duSlpOQUNhYUxteENTYWxN?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 07:39:02 GMT",
+      "category": "general"
+    },
+    {
+      "title": "South coast derby ticketing information",
+      "source": "Southampton FC Official Site",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNd1FUX2JBeDFEcFVRV0NuTHlLNlVZR1BsMmJvYTg4OTNLZTQ5ZklOZ1lpaWlSd1Y4ZjVPLTAzTEM3NVFsNXN4ZzFqcVQ5dHlSeEZndVlDSnZJNkY5RjZ0MUxtd1JfZExpNkRpQ2JibmhtSUEwSFFwVDVGZXRFM3Q2cU9HNTlxd0VzX2owN0p3?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 14:58:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Birmingham City, Wrexham and Southampton battling European interest to sign Premier League striker",
+      "source": "The72",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWE1XQ3c5SGNYaXdmSEk1OEw1djdGRFFfQVVDVzBQNUhDNGZlUUdvdUZ3RXRTWDVEVlVhMm1SbkdhZTZLVTdzX0EzRGNFSkxXd0hab1BBdTZqRTJTajlGSnk2RWtZcGFPcmVaNjZlVFUycWZ3dGlsYkJhODN0ZXZLS0pPd01hWmczRHB4VzVtcGVvdw?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 17:49:16 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Saints reportedly interested in signing AFC Bournemouth striker",
+      "source": "Daily Echo",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWFEtRENHTWoybWxmUWptNnRIOFd4czFtdmZDcEVqS25vUGktZnFFc21nRDZvaHNHVHdJdHRrODZ1NWVaLVJ3MkRTZVRrZFJrTGFLT1ZKMlBGMW9YXzhKWW4xeWlOWFRIMzBNRVFkMnN2VlNRZDZGd3RycTBBeTcwQjZCN0NFWV8wY0M2dnpoOVFpRTJ1ZFg2V0o4dkVrRVJqdU1qd21qaXVBQmhf?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 16:22:24 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Flynn Downes: Southampton 'chip on shoulder' can help win Championship",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAwWTBXeUJsRi1DRl85RHAtUHAxejJfWi1YQURheVZiWXFFQmxzTTdDYWc4ZFNheTVsVkdEWnpPdWFOV2pkRUllX0pJdWJXbVhSY3AwNzltVEdSc3FmWTBIeVNlYVpudGtZWlE?oc=5",
+      "pubDate": "Tue, 04 Aug 2026 08:39:11 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Tonda Eckert sets out Lewis Dobbin prediction as Saints arrival hits ground running",
+      "source": "Daily Echo",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQUdQWTJUdjlxbS10ZVpDUnhPMWRQRHdfeU5nYi1uRmMxZk9iSGlSZFQ3S0M5bFNVaVNjQURBSVR2Rjl1UXJvSzlRelpSYzFmMlBXMGFKOVVXMUotT3FkM0xrVnYxalh2US1fRnhFLTVNSFZKMEpPcGZHMWNIYkp0N0dBb2dURlZneHJENGNFbWNCTkpGN2M3Z1hB?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 12:00:00 GMT",
       "category": "general"
     },
     {
       "title": "Eckert: Dobbin can be \"a massive player\" for Saints",
-      "source": "southamptonfc.com",
+      "source": "Southampton FC Official Site",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZ0ZCd1NpVS1NQ0NBcjNkT2JjVEp4bEVCUzRRbHUxZ1ozNFNzczRuWFFzYUNYYm1CQTN5cGFBcmxLemRlUFJSS3Q0RzVGeTVVYldsYkUzOEw1ZnYyQmM3Y1Rvem5DX3ZMcXVrZG5COEN0dGlialpTSFlvdFhxRjZCa1JmWmRZYm5YeUMwRDROVWhpRkdVZ0F5cmlR?oc=5",
       "pubDate": "Tue, 04 Aug 2026 15:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Southampton tickets on sale as Tonda Eckert prepares for first league clash in 65 years",
+      "source": "Saints Marching",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNd0VaSTJXNW5Xc2c4azN1b0JHVE5SVzZteW9wdkJ4bDBqZWFFbmt4VkNGZDFnaldQbXJwYmNXQmhnUFFuTURDNTUwVXRfcmNEUXhMNFNHVjJTa3JRT2ZTZV9ERmp0a2xtNVl4NDVDLXYtWWJORnVMeGtvYnpxeHZmeFN6QkR6NmktdG1NSTBYVmtzZ3dqRVhIS0xpQlYwQ3BCVTlWNFhxRXM4YlhjUURBSDhoR1I?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 14:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Less Tickets For Away Fans At South Coast Derby",
+      "source": "FansNetwork.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQXlQU0lyVWxzeTFoZy1EWWNrZm5pT1BUeXpJNEFKbGxVWFJ1TnZQOHFLSlByUnJQOVVPOHNmN05kRlQ1Tjk2X1lFZGNiV1J5eUo3ellwZmp2LXRSOWZNTzV3YWpvNDNySEVxbWUxZXVBUllOa2JDU19IdGZJR3hvUTkzODdTWmhud1A2Z3dLNnRPOEh2aUVkYTM5R1lKdEh0VVM4dkN6S3dTMzl4S1E?oc=5",
+      "pubDate": "Tue, 04 Aug 2026 19:41:00 GMT",
       "category": "general"
     },
     {
@@ -46,66 +81,31 @@
     },
     {
       "title": "Tonda Eckert sent death threats after Spygate and warned by police not to drive",
-      "source": "The Sun",
+      "source": "thesun.co.uk",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZldKUE1IS1hQRjNZS0NKdllpbkk0VDd4YllvYTh1X2otRE14SzBsazZlbWJ6blI3QURmdDdYU1gtcjljSE5vcW9VN1A2YWxoVzRpVDQxMTJ1b1Y0b0JKTkQwZFgwUHZZWWJuRlJMeUVuNmMwV3VyQ1BSVS1LSzBXYmU5TUdYWFF2OTRSckRzeEFYbDVpc2c0?oc=5",
       "pubDate": "Mon, 03 Aug 2026 17:12:00 GMT",
       "category": "general"
     },
     {
-      "title": "Swansea City close in on free agent striker after Southampton exit",
-      "source": "The72",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUmxicU9vYlFzWnBlWWczYlc5dXV2d0NSS0hmR1MzX1ZqdDJhcVJjV2lRSTJDdXprSG53eUVaOFQzR3FieFNzQTdKQ2ZzdUFnYzlMbXFIMlVhUlR4bEhBZnlKMUo2XzNWc2ZRemRNN2l3QTA4MnFDbnppeG9qUXpQak1wM0NWcGVSVVBXbldyZkc0RUFKS3c?oc=5",
-      "pubDate": "Mon, 03 Aug 2026 11:12:36 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Southampton boss addresses Ben Brereton Diaz future amid Derby County transfer pursuit",
-      "source": "Derbyshire Live",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYnVnT3o2Smd3NlY5VUtNR29Gak5wd3J4YW16ZG14VkhfRnoxUXF3RTRYTTBnbFVZVmR0RU9yRlp2cnJDY1RzdVhKalJRM2JkRXc2anpDeHBUeHVwc2lPLWVfOExmMnBGc1ExNjVsaGNGV3pKUzlyVFl2WVpSeFJnWDdRQlMxTUxMLWFzNEl1QlR1UEREUmRnZ3Nob3BjODhqbE42WW9NbHhFdw?oc=5",
-      "pubDate": "Sun, 02 Aug 2026 11:24:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Southampton fans name their greatest ever ultimate Saints XI",
+      "title": "Saints confirm details for south coast derby fixtures against Portsmouth",
       "source": "Daily Echo",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZHh3UUtISm1kR3JQd1liZkJQbG1Qb3Jra1BJMEl1MGRqX0ZUZjU1VVlQTGVscGVvNTV1RjhmVmxhcmNnTzNUV3VjSTg4QXh3WURGQlltbFBMd3NOTzFzQ1RFZlhsNENCVFlQTXJ3QVpsMVk1UTJla1o3YjNDRnl3TzM0bndlckZsdnJrellaYkFpdlNqUDBxT3cwa0YyNVlDYm9sTUtIU1I?oc=5",
-      "pubDate": "Wed, 05 Aug 2026 02:30:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWTRycndrOEstMXVoVGp2QzhfWjhVTW13UE1lRnVpYU9kV3RDeEY2LU9pRXpsbFpUYkpDaTRyLXpwbXhjNUYzWHo2b0VmVjdQcUZad2ZpNndjMTJPRmpXbVpPc2FlRjJHS25wOG0zai11VlZabkJ6eUtfQU50NTl1NGs2RExxeWFVaVJiXzI1cFJGUmpWVi1SNmdB?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 15:02:55 GMT",
       "category": "general"
     },
     {
       "title": "Report: Pre-season concludes with Münster win",
-      "source": "southamptonfc.com",
+      "source": "Southampton FC Official Site",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQ1pRSEZlY0JlRWNrVmI1M1l2UVZtX1JULXc5eE5HY2N6NkppVkJCdHktQzFDNWJ6YWhDSVBKODRDUjhiTkpBaTlhTWFEaXJiSjFJMHBHSVNyck9kcU05NEVSMVlfVHBFYnc0Y1g3YndZNEUzNlFldG1FQzh4Y0xEb0VxRlFZZWszWlU0R1pZaDhvVXhhZWc?oc=5",
       "pubDate": "Sat, 01 Aug 2026 14:55:00 GMT",
       "category": "match"
     },
     {
-      "title": "Saints academy graduate Dom Ballard joins Championship rivals in reported £5m deal",
-      "source": "Daily Echo",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPMm5wbElZTEJrU3dYZ28xSFZqRGpyc2UxMkZJYkpoZDZLdkhNUXVfOGo5cnB2Q3U0ZW15ZmJDQ0RwdjltSFRZZVotSEJBTG1pSWJtVl9mbS03c1JWU0NKeThOWE9pMDRtQmYwdWItU2RYWGNMME1YM0ViN25iM3p2cTlPRzEtTERaMnJtX0pQUWN5U3duSlpOQUNhYUxteENTYWxN?oc=5",
-      "pubDate": "Wed, 05 Aug 2026 07:39:02 GMT",
+      "title": "2026/27 BBC Radio Solent Fans' Forum",
+      "source": "Southampton FC Official Site",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR3JSbXBNSDRZQV9WWEFRQnNVcDhNWWp2bDJvZVpxNXo4UXd3OHViLVVZbHdPQzZfaFB1a1BQdUdSN3JpQlZwTHEtVGZSMHJlOWtBejNJX1dZT0ZrdkdTR3hPR2ZzUEVjRTVXUjJJTDdrZkJIT3ZqdmQwUWtiQ2xwa0VuVEZPaU1w?oc=5",
+      "pubDate": "Sat, 01 Aug 2026 08:30:00 GMT",
       "category": "general"
-    },
-    {
-      "title": "South coast derby to be live on ITV",
-      "source": "southamptonfc.com",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRTkzWGswclIyd20zTmxNUVVkUmxES2toZS0wLTBXY2RtM1p2NkptUklWUUtyeUtMMDJGcWNDQ3pWUmdiMUVseS1vSF8tNEZDVlotRXFnSVJ6YzRWZlJTbzExUllaRTl0Q3FTZjdqWlkyckVSa1lQNUI2S1RKbGFLOEQzcVdJNWI1T3dxLVctTQ?oc=5",
-      "pubDate": "Tue, 04 Aug 2026 13:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Six Saints fixtures selected for Sky Sports coverage",
-      "source": "southamptonfc.com",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQnJVN1Z2NEFYR3JtT0x3YVRsTU1EOTlDREtOcFZsYUwxMFdsME1ZZkVoeE9ZUEZOeW1uY3JMRjQwNGVtZjhwWHdfeDktQTdmeHRGZGRJMGJTS0M3VW9sU3ZwMmRIcU1zakFueUVjNU44YnhadVdTdWVSOFQ2TUlDSHY1dEZBcDFhQ1FPdE1vSkdtRGVaV3R1cjV4OHBHa0E?oc=5",
-      "pubDate": "Thu, 30 Jul 2026 16:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Jay Robinson reportedly set to join former Saints boss in Serie A loan deal",
-      "source": "Daily Echo",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTDVOaTFlNWZGNXJza2hIVFJqQ05vV1ZtWUtxcE1yNzZPZEFOVWNuYVR0QXlfSTdnTU5DRTB5ZWUtRF9MX0p6ZFMzNV9jaTVtWGlTTXlGR0tnbi1CaXYxMUhXZnBKcFBWZm5JdnpneFdydEtucnUzaEtZbEJ0MG0yOEtIQndfZ1U1VFRDblA4bGh0MXJXblFGREVB?oc=5",
-      "pubDate": "Wed, 05 Aug 2026 07:54:01 GMT",
-      "category": "rumour"
     }
   ],
   "reddit": []
