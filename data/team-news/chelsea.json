@@ -1,61 +1,40 @@
 {
   "slug": "chelsea",
-  "updated": "2026-08-04T19:21:32.540Z",
+  "updated": "2026-08-05T08:20:03.114Z",
   "articles": [
     {
-      "title": "Chelsea XI vs Juventus: Confirmed team news and predicted lineup",
+      "title": "Chelsea XI vs Juventus: Predicted lineup and confirmed team news",
       "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOS3NhV1ROWUoxeHRxZjZsSTl0ZEltZ1FkM2JrZVBVc09kT1VPazhRTk9YRmU3ai1Kb2tmbUlzMWJ6LXZ0Sk13N0dDT2xpMjd5MFZEN3NibXJoc1JoY1N0ZGlxcnFHOFFvb1h1MlRXb1h1U0lmZTgyd0JmUTZwVFlubzJzb09iRDltWHI4Slo4bWQyTGo3RWlsSnU3by1NZ3VmNDVsUUk4Q20zVGtXMVhXN3g5bFlpRGU5MG9rbFlaWEJMWlVReUs1R196d01pTFpfVGtMbXhlamY3TmxGMGNfQ2d5bnR0Zw?oc=5",
-      "pubDate": "Tue, 04 Aug 2026 16:48:46 GMT",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQekMtdEtfSmJzVmR0ODhEdFR3NF9yQXNnOTgzRFQ5Nng1YnVGSmNhX2R5TV9jQXIxbXhyZ1psblU0SGFKdXZJMzkzMVhSWjRucjF6a1VhaV9wLTZrbTg3MGo1RDMybjZqMExnUmdRTDJfNVJkeVFpLXdVQ19QQU9tUTVLd1M5SkRmcl9nUjYtTkJEVkdKU2RoSnJfTHFvWDVFMjk4bEs0elRNQjQycUl3WGFLRWZwWHl2Q2VSaVZJUDlWdEdjemtZWmgyQVFXekplLWt0S0c0V0RLM1pzTHJCdW1sLTNxUGhybVBlVzZR?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 06:45:08 GMT",
       "category": "match"
     },
     {
-      "title": "Jordan Henderson transfer news: Chelsea confirm signing of midfielder following Brentford exit",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOYXNGaFRaRHZGRWdwTHdRREZqRllBcXJGN3ZqRTl3Z2c1YjRFTEl2U0RDTTNEaFJ5YVI1VEFEQ1IzMFFlRW9PYlBEUHpkVlQ2QWNQaFl2WUhpNU1JWjRtX1VOaEJMSjFfTkVVakNNRk1WZlZHOUw2WHVzaVRKdVc3WVBiMzh0U2oxYUdBbEZGQWNyWlZvMkJ0MEl4YVlWLWhmUHFVZVdtQzRaY2Q3TW9fM0l4anVKQVBPc2YyLUtjaTczcVJpODIyQ0Z3WTVwMlo2QmV2LUtscEkyaFZTUHhSSV9R?oc=5",
-      "pubDate": "Mon, 03 Aug 2026 16:26:02 GMT",
+      "title": "Alonso: 'The feeling is that we will start in a good way' | News | Official Site",
+      "source": "Chelsea Football Club",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcVV2V3owVThBNXQ3NlhSX3Nmc05FUFM5RDU0RUw4ZVFkVEQyc2tmeWVPN3NTeGFrVkd4Y0ZtNktneHQ5ODVObkY5aVdtNS1UZFJHYzBpQ0d3RWtWekwtcE5kU0JwNmJkZml1cTJhTldlV19sX2ZQdi1tY3ZaYnJiVXpnWGNteUtaTURBMjhDU3NCbXQ4T20wYVo4X2w?oc=5",
+      "pubDate": "Tue, 04 Aug 2026 22:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Chelsea can make £261m from fire sale as Nicolas Jackson axed and Dastan Satpayev eyes key role",
+      "source": "Football London",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNM2hkN0RGRFlNbzE4dF9CQTJ6OG1PaWlNOEpiQVhoejB1Y0s1SXRqTmY3VXVnOWRKbkg2NU1JaDZxN2Z4bEJKMXJ0WG0tVVc3N1dlUmVjUkFIVkxqSUdydjVDMHFhcjJuek9Dd2x4Q1d0eFpYNTRfSklZLXFLMXhCdW9uSEd6Y0N6MUFucGdtYVNMQQ?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 06:02:48 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Transfer news LIVE: Arsenal done deal, Guimaraes fee agreed, Mbaye bid",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTUlhOGd5Nkp5b1lrQ2tlZ0dXYzFUWkN3a2ZtTHljQWNld2dtOWt6eVZ3bnpwYjF3b2J2S3JpZWdQZGhUQVhsSWVyaU1KTW1TaUVod0d1UXNkQ3o2Qk8yT2ZVTC01a2VpR0FhWE84YkhkRjhra1ZmOHgtZUoyUzdFZVhRX1FoYnVWYndGZDBPNUNpeV9NZ25TalN6czBlR3dWUHM1d1FmMnJBazJUdC1XbEY3UzIwN2g3SHBlZm9GRGI2Y1RqRzdQY1dEV2UxbEhxNmI5QVFB?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 06:17:03 GMT",
       "category": "transfer"
     },
     {
-      "title": "Jordan Henderson interview: On going full circle, fuelling the fire and his next chapter | News | Official Site",
-      "source": "Chelsea Football Club",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbE9OdG5kSjB3N1dLYWgyOWVHRTIzaHpHMnRRSXBtRUhwaTZHR3NnMDZHc3NwdjUyaXdSdGg4VDQtc3dQMkZpSzJJcTd2U0FhNFhPa3RWdzRQZXhSYnBPVTJoNEh5LTFyWE1QN0ItUjBQaWxrbWhQSWFZYUoxZUp1cC1rQm8zMHJ2clhQcGJGMGs1QVdUQmdV?oc=5",
-      "pubDate": "Mon, 03 Aug 2026 16:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Jordan Henderson speaks out on how shock Chelsea move happened",
-      "source": "Metro.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeldtTWczb3hQNGJxMXN5NWM4cWJVVWo2Qm5PM3JVU1lBM3k3MjFvWEtma1l5MEMyaE5DTS04TnVjNzhQLTFBZWt2UW8yZmFrYkhuN1owdVdOVGlNa1ZnZ1NmcTNPRExXVHdXNEFVZXQ5MmVSMl9FTTgtUEszS1BJRE03eUlGOHdOTDM3Tzh4NEQxSk1MTDhj0gGcAUFVX3lxTE9VMG13M1ZteU5FQ3J6WTc4a1BLQW9YSzhXVDI5N09xTTE4MDZMVElyWlhWdjhVQWs2SzFrOFBHekNOeGlaWVF1cUhtN0lFSy04U1J1WjdPU0w4dHU1dW5OYUt1SFB4azNPNlBfcWlRUmNQcTFMem1URXF6M2JuUWMwMUludXljTy1SNm1aMFpyQkJFUTE4Rmg5MGVaUw?oc=5",
-      "pubDate": "Mon, 03 Aug 2026 15:39:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Romano confirms Chelsea deal “99%” done as Blue keep up tempo in busy week",
-      "source": "Talk Chelsea",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pNnNHRVR4VzdkX2hhSGp3bmFqcUYyWnhQN3ZhWjBlN3gxdktnOFJFSEx2UW1LVVZCR0xRdEtTb2hVbjZiZzJwbkw2endvZFpsSmVaX3dRc3E3akJiZjFUS0VYZkFjVS03dnI2VG5IdGlveHFpYzFMa2s0SkVKaHPSAYQBQVVfeXFMTVNTMkRia19NZUZfUWVfNWpDd1hQaWJNdXNjS010X0M0RnFkS2tHaEEzT1RRaURpMGRrdlpRV2NFZGhzcjYzOUwtMFNydThidlFjenVQSTJfcXF5S01vRm1fOHRnVUdxUU02Vnl6aGdCZUdnbGdGTkk5VHR5djV6VXRDRkdJ?oc=5",
-      "pubDate": "Tue, 04 Aug 2026 14:46:26 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Chelsea files: Blues out to exorcise infamous ghost & Maignan transter update",
-      "source": "thesun.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa2VzUlRxMnRVMmZxUl9jV0dDWXdIT0xDVUk0VGlpMllyLVpXUFZwNW1ncVFrSDRDRzlJS0FWSjRSQ1RWRHNfeUtBd2RJWUE0RW1iaThseU5QZnZ4T3l4dW5tZURQOE8zNlNPS3BYT1dWN0lBQVpreDBSSFNPV3dPSUJfYXhWWTRJdWo1bGxXbWRxdXYxUEFvUzdVWmRhbDFSZWtLME9aeUI?oc=5",
-      "pubDate": "Tue, 04 Aug 2026 16:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Manchester City stepping up Pedro Neto interest — report",
-      "source": "We Ain't Got No History",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOdFdGdHRuNG9YMW5nUmFsTXRBS21ZWGFuQk5pU3B5M3M3c2tpNGZNanBnbUhlSmRyUEhpbjFiVzJZWHExek9yX1F3M1lWaFdENjlwLVpLTGZBY1N4M2dEOEJ3emk4c1FVQmdBSGdRcUVFZUNiV1BmMkgtSmQtbVpkVGtwVUZyZW5IMDN6Q2ZkSnVDM05La19fbVR6NU5GdnpTZVo1TFpwM0RZM1JsQzVseFY4X2Q5dUtwdmdHT1MtdVlIZWRrcmhVQklnVFlvekE?oc=5",
-      "pubDate": "Tue, 04 Aug 2026 18:31:41 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Moises Caicedo makes Enzo Fernandez feelings crystal clear as Chelsea star sent transfer message",
-      "source": "Football London",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWWFqbVIyTFhieHFScDVyZVVLZzYwTGF6Tnd6bUdTR1V5NnVLT2FtQVkyQTVzdS1GSFJjVWlJMWoxamREaHRUc2NfRVR1aTYxVW9Bc3czODdRVTZPQXB0Vlk5SEcxX2RHQWt0WW9BdVo1ajNwR3NpcFlVMmNBZlVLOEUtUFkxejRzLTRTb29aWU55QdIBlwFBVV95cUxNSVdwQW9pdkVsbGJhb3drMzV2eDFZcGpZZmlGUjVJdFByU05RLUo4c2diUlFpV19xdTBYd1R1YnZOUXlvQklRSWhxRjZfU3I1ak1PQW53bEJaNzhlaGFYOC1QcTNjNHpkUlprWFhCa0RKT1BSbndpZVhacXhTaWNQa3NPeXdNT1ptWG14NlBqZjdDUlB6NkZn?oc=5",
-      "pubDate": "Tue, 04 Aug 2026 13:22:33 GMT",
+      "title": "Transfer news LIVE: Arsenal done deal, Vinicius talks; new Man Utd target",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQy10bzU1dGRsbmZUaWZJM1J6SUcwZWF2cDVOVEE3VXRkTFVZU0tzN2ktNi1fNkZFcko5X2xHU0lRTEdqc2xRTVJEWW5EVFc1aHhyeGw0OUxyWm4zMDN2Q1RSeDFyc2JRUlNfUHBtYWVvUWpDbVhoOXdtcGZGYXpqZUFOZ293Wk5kS0hWN0JXNHBha2hHa25vZi16SUYyWC0xNlRPV1ZlNTRyWDV4QzZXZ280bVFHUFpjOS1HU014YXV2N2Exbmd2SEdDLW00Zl9MTDF6Zw?oc=5",
+      "pubDate": "Tue, 04 Aug 2026 22:33:38 GMT",
       "category": "transfer"
     },
     {
@@ -66,18 +45,18 @@
       "category": "transfer"
     },
     {
-      "title": "Man Utd told they can win the Premier League - if they sign £120m Chelsea star",
-      "source": "Metro.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUlE2QVpDTE5NdHk1SEpfaW5SUEFhLWVxbmVHV1ZwcmdpOTl0Q2NkTkxmaEU1N01vVUt2aHJ5cnJZb2NPdUdZeUh4dWdyd3JmNi1rcjBrTzNQNENkdTgyV2ZiRlQzVThMblhZRTREeE1DeVdRMFhNcUFGbGdPSkh5VGpSMjJzejIxWWpQVHZ1YXhRVWFNekx1c2NvQ25FdGJT0gGmAUFVX3lxTE9RbDEzbndjVXRkUVBYVS0xdEtLVkd4SzRjQll6d0pXcXNFd2FRZV80R2F0c2lMT1laU05wUXlUMGlnMml3RmdTYnk1cUxPWVN2VFg3cHJ2cGhZUnF5ZUNUV2NpZHp2R3U2RndjVV9BZlhiclgwNFVNM0h0bURFUW13b2dXdzBtVWZqaDhpNU5CSTFjRjI3RmtUcVV4emtldGxEU3g1b2c?oc=5",
-      "pubDate": "Mon, 03 Aug 2026 06:08:00 GMT",
-      "category": "transfer"
+      "title": "How to watch Chelsea vs Juventus: TV channel and live stream for pre-season friendly today",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNT290U05KczlfOS1JWFRYS250TlVjZDJ5ZEllc1k2Y3BqYXVRcWxpTGZOc1RzazZ4aXIxSmNPMklkU1poM3k5VjhGdmpWbDRteHVTNTdvSWhUQ240UWlmS3l5amh5enZEMExINU8xOURxZ3hRQmdBZEY5QVNUZ3JLQ0thX19Eb1FsR1dNWGdyd3ktbWxQa2FVeFJEd0QzTEw4WFdNOGZjSl9iNEloRkV6MWZLRDdiS3VsSnpjajM3UlJEaUVRQlFFXw?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 07:06:14 GMT",
+      "category": "match"
     },
     {
-      "title": "Transfer news LIVE: Arsenal done deal, Vinicius talks; new Man Utd target",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQQy10bzU1dGRsbmZUaWZJM1J6SUcwZWF2cDVOVEE3VXRkTFVZU0tzN2ktNi1fNkZFcko5X2xHU0lRTEdqc2xRTVJEWW5EVFc1aHhyeGw0OUxyWm4zMDN2Q1RSeDFyc2JRUlNfUHBtYWVvUWpDbVhoOXdtcGZGYXpqZUFOZ293Wk5kS0hWN0JXNHBha2hHa25vZi16SUYyWC0xNlRPV1ZlNTRyWDV4QzZXZ280bVFHUFpjOS1HU014YXV2N2Exbmd2SEdDLW00Zl9MTDF6Zw?oc=5",
-      "pubDate": "Tue, 04 Aug 2026 18:02:31 GMT",
-      "category": "transfer"
+      "title": "Romano confirms Chelsea deal “99%” done as Blue keep up tempo in busy week",
+      "source": "Talk Chelsea",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pNnNHRVR4VzdkX2hhSGp3bmFqcUYyWnhQN3ZhWjBlN3gxdktnOFJFSEx2UW1LVVZCR0xRdEtTb2hVbjZiZzJwbkw2endvZFpsSmVaX3dRc3E3akJiZjFUS0VYZkFjVS03dnI2VG5IdGlveHFpYzFMa2s0SkVKaHPSAYQBQVVfeXFMTVNTMkRia19NZUZfUWVfNWpDd1hQaWJNdXNjS010X0M0RnFkS2tHaEEzT1RRaURpMGRrdlpRV2NFZGhzcjYzOUwtMFNydThidlFjenVQSTJfcXF5S01vRm1fOHRnVUdxUU02Vnl6aGdCZUdnbGdGTkk5VHR5djV6VXRDRkdJ?oc=5",
+      "pubDate": "Tue, 04 Aug 2026 15:01:02 GMT",
+      "category": "general"
     },
     {
       "title": "Charlie Austin goes on HILARIOUS rant after Chelsea set-piece coach announcement",
@@ -87,11 +66,18 @@
       "category": "general"
     },
     {
-      "title": "Linklaters, Northridge and Centrefield on call in Chelsea/FA dispute",
-      "source": "The Lawyer",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBDSnNmNkg1UUJrN212NmhpZXI2NHBEa0xadVp4UW1FWGxVMDNEVTd0X1VFVEp5eWU2UlNjaXdjX3NrYUNXQURoejYxTTM4V05hNDIxRFNKSFBMQVRwcl9F?oc=5",
-      "pubDate": "Tue, 04 Aug 2026 06:42:53 GMT",
+      "title": "Chelsea being ‘sensitive’ in Mykhailo Mudryk situation",
+      "source": "We Ain't Got No History",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUzJ4Q1dGMFEzN3dRN2JEcnZ6TTdlVHdaOXlQMFFzYms2Q3ZhaVhSZ1JBQVh4a25Ga1hwQU90MWM3bXhEWkxhUVlhVGZTRnM4bHVka1EwRGFiWE5WeFZralN4U29uTWlGNkg0aEw5UTF1VXFaQ1doejdSR0xUTVdsVFpGRy1qb2hVelhQdnFndEt1bkZtUW52aUFRd3RPVElqWWtUODNWUGpaY2lIT1dB?oc=5",
+      "pubDate": "Tue, 04 Aug 2026 21:38:31 GMT",
       "category": "general"
+    },
+    {
+      "title": "Xabi Alonso press conference LIVE: Chelsea boss on Mudryk arrival, Welbeck addition and Henderson",
+      "source": "Football London",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRXJ4QnpuVFhrVVdUVERBZXNNT21DR0hkalV6bDBSemFHNVE3aVNCa002VXIzTTd3T1d3RzAwVWxEa3FKdk1lUFJYbzdieW91dnJpOU9MbzJCZjU0Y2FKaDJVMTBHZ0dGTEdsYUtPc040ZWptWjMyY0RUdjhLWFk3NVhtdllCYXI4OHRZcmF5SzE2N3U0Ry1QYzU1TdIBoAFBVV95cUxQeGFPM3RjN3BrZXl6SEZjcFZhaXRYTEE3YkphTFpHbVZQVkdkWHVJeGRBb25RSFNNcWlUT1NxTVVTNUJyZkpENFdGQWppbTluZk1xTjlsRl90Nld4U1hqTVdnYUY3T2dteWlMWTJFNG1lUkVJcnd3UFp3VzFGUTRvSU9jLURsMnAzZVMyOW9LVF9JRGpieENnS040alJaVkFI?oc=5",
+      "pubDate": "Tue, 04 Aug 2026 13:33:57 GMT",
+      "category": "manager"
     },
     {
       "title": "Alonso on Mudryk and Welbeck tour involvement and Henderson plan | News | Official Site",
@@ -101,10 +87,24 @@
       "category": "general"
     },
     {
-      "title": "Mudryk poised for first Chelsea appearance since drugs suspension",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObzl6NzkyVzNUbG1yNGxRYzU4Q1lFUGhZWkJHNkNfczdTbWNYbEF4QlNkU3czVmtFQTNlb0YxYUs2MkE2U2Z4cGRyUWpEWlNlcEEyUGZXRTEtMVhsc2ZqNFV3enFWZ3pRVUVPb2NrMnpJWWRXY1VNcWUxR00wWFByQzdZVEFlOWZOS0E?oc=5",
-      "pubDate": "Tue, 04 Aug 2026 18:58:10 GMT",
+      "title": "Xabi Alonso's task at Chelsea: 46-player squad, baffling transfers and confusing hierarchy",
+      "source": "Daily Mirror",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYXFuVjYtZVJ5a3FLNVlfeGVLYzAzT3ZZYXZ6eHFMTUtxUVU1SjVCeEhvQkNac3I2ZGh4LVRDNFRqMjlsaW9RVUxWTXpHeEo4TTR0Qk8teWpwOW9LTUxySVhiczRnS0traG44dnVLd0hYb3pfMzMtLU4yOUR5bXlGdTc0VlVBcEJpYjBrWTN4endSR1dX?oc=5",
+      "pubDate": "Tue, 04 Aug 2026 15:01:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "The real reason Chelsea signed Jordan Henderson",
+      "source": "The Independent",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOXF5RXhseU9CR3NkdkV5WU1wcFgzTGxJN0ZaMmlwYTF4cmlfcGk2OElNTzUweGI0cFJCR2VhOVhBVGp6andrWFFiZ2dvd2RLOWE4NVczY044aXREc2p0N3c4eFgwamx0SmtEeVdEdFZUZzM5UUNfUzVvS2pISjgzZnBVRWhHNFZHRk9UQmtjOUdaRG5lckZHT3NiRTczTmZnX01VcFd3?oc=5",
+      "pubDate": "Tue, 04 Aug 2026 15:48:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Caicedo's thanks for Hong Kong support | News | Official Site",
+      "source": "Chelsea Football Club",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPX1Zlc0FmN3IyZjkwWFNhdWdwVS1wd1RiUl9RdDJNMWFpVlE3N3JrUUljWE5VcEFWZmktNEo4OEVBbDN6R1FvNWoxSk1lRWRwclFsamdZNTk2Um9OVkoySlVLaUhtOGpTNHdqdEpuUnc0OTQ3ck5ubmxvdl9lZk45WkdJT2FQZw?oc=5",
+      "pubDate": "Wed, 05 Aug 2026 03:00:00 GMT",
       "category": "general"
     }
   ],
