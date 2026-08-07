@@ -1,41 +1,26 @@
 {
   "window": "summer",
-  "updated": "2026-08-06T23:52:29.546Z",
+  "updated": "2026-08-07T07:01:06.385Z",
   "clubs": [
     {
       "slug": "liverpool",
       "name": "Liverpool",
-      "heat": 20
-    },
-    {
-      "slug": "man-united",
-      "name": "Manchester United",
-      "heat": 19
+      "heat": 22
     },
     {
       "slug": "tottenham",
       "name": "Tottenham Hotspur",
-      "heat": 15
+      "heat": 17
     },
     {
       "slug": "man-city",
       "name": "Manchester City",
-      "heat": 14
+      "heat": 16
     },
     {
-      "slug": "nottm-forest",
-      "name": "Nottingham Forest",
-      "heat": 11
-    },
-    {
-      "slug": "west-ham",
-      "name": "West Ham United",
-      "heat": 11
-    },
-    {
-      "slug": "ipswich",
-      "name": "Ipswich Town",
-      "heat": 10
+      "slug": "man-united",
+      "name": "Manchester United",
+      "heat": 16
     },
     {
       "slug": "leicester",
@@ -48,8 +33,8 @@
       "heat": 9
     },
     {
-      "slug": "newcastle",
-      "name": "Newcastle United",
+      "slug": "nottm-forest",
+      "name": "Nottingham Forest",
       "heat": 9
     },
     {
@@ -68,9 +53,14 @@
       "heat": 8
     },
     {
+      "slug": "newcastle",
+      "name": "Newcastle United",
+      "heat": 7
+    },
+    {
       "slug": "southampton",
       "name": "Southampton",
-      "heat": 8
+      "heat": 7
     },
     {
       "slug": "brighton",
@@ -78,8 +68,18 @@
       "heat": 6
     },
     {
-      "slug": "aston-villa",
-      "name": "Aston Villa",
+      "slug": "ipswich",
+      "name": "Ipswich Town",
+      "heat": 6
+    },
+    {
+      "slug": "west-ham",
+      "name": "West Ham United",
+      "heat": 6
+    },
+    {
+      "slug": "bournemouth",
+      "name": "Bournemouth",
       "heat": 5
     },
     {
@@ -88,19 +88,19 @@
       "heat": 5
     },
     {
-      "slug": "bournemouth",
-      "name": "Bournemouth",
-      "heat": 3
+      "slug": "everton",
+      "name": "Everton",
+      "heat": 4
+    },
+    {
+      "slug": "aston-villa",
+      "name": "Aston Villa",
+      "heat": 2
     },
     {
       "slug": "wolves",
       "name": "Wolverhampton Wanderers",
       "heat": 2
-    },
-    {
-      "slug": "everton",
-      "name": "Everton",
-      "heat": 0
     }
   ]
 }
