@@ -1,54 +1,12 @@
 {
   "slug": "man-united",
-  "updated": "2026-08-10T07:12:45.486Z",
+  "updated": "2026-08-10T18:45:50.983Z",
   "articles": [
     {
-      "title": "Transfer news LIVE: Arsenal hijack Barcola bid, Liverpool medical",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUGNLbjhJeURRTWJqck5rdWlENnM5czREaEdVdUZMaHVJYjZOamdTcjJ3N0FPUG05aFd3bU5fekZTSUtpRWotWk5kQlFySU5KUHlLekc5a1BsbE9nQmpyQnhQdTlMVWpxNm9JWVNBRDhkLXhscGx5aUw3Y1JOOHBmRHFBVmJxZGQ0TGdxaFd2akdQYUhBZmhBM2tiQ2FRQzZnVlJXdUpZQ3prRE1adFdBY1hCYWllSHY3MHRVNG9zbmtEZTFHU3c?oc=5",
-      "pubDate": "Mon, 10 Aug 2026 05:02:29 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Manchester United player ratings vs PSG as Bryan Mbeumo stars but four 5/10s",
-      "source": "Manchester Evening News",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdGhKb1RSTzJMT3BDRUx3RlNLMk5YUGRPRmFqcnh2TWR4RnllQ2txeDJmcnhBYmg5OVJqOUF0NjRRd0VJVWZTM0VmZl9ZeEtMUXltaDZRNUlkX2xlQW5OdjJFZUdwR2dpSUF0d2V6djU4amJ4UlotcU1pYXdfUkMwS3RQV205SndEb3oyc3JqaTc3QnVXUVJvNVRiY3REa3BC0gGmAUFVX3lxTE1FVC1RZmgyYkpHRFl1TVM5YWlfYU1RTDBKVUtxRVRFOHZiMkI5X2wzVTQ2ZlJDR1RFQzFTbEx6czhBeko3OUdGZUE4RnU5Wnh5cUdOZDFlSmJ3NWRvdWNCN28wS2ZCZXlMRkMzLWZJM1NGOGZCcW16cG9fQzNVV3J2djVURElXaERFNW1EaUJQYk9weDB5U0RCaFNUVHo1eVloVFBUOWc?oc=5",
-      "pubDate": "Sat, 08 Aug 2026 16:52:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Report: PSG 1 United 1",
-      "source": "Manchester United Website",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ibU4xaDI5X2M3THlpd1lkdkN0SWlvOHlMZHBKU1RiWkVBLTN0ZTFyOFMySGxmbS1uX05WZE5OSFRDbWpQZFF0ejlmbHNYQmVsaGE4NUNFMHltcmJIb2JoOEl2cHJkQklnTHIwVVczSXM0eERONWpjS3pEUzY?oc=5",
-      "pubDate": "Sat, 08 Aug 2026 06:54:04 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Man Utd impress in draw against PSG but injury worries mount",
-      "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNM2FsRU0xbXpRLTV2cjJHNDhzWTdOSVdqSExZUG9mRXNoSHY1NXoyU1EyeGhkOFdPZFo4Ti1QdF9YVkR0QTFrdk05WnJJX1ZEWDZJcl9fZnJWTzJfN1YxaERKS01GRnpxWWJQZWNnaXEwdVRfVVRXQWxPTk80Z1JCR2xjOUNlNXdSdlpGNEpPQ2RhM25NYUFLQlFyZ2FWZ25vMkxqNQ?oc=5",
-      "pubDate": "Sat, 08 Aug 2026 16:58:10 GMT",
-      "category": "fitness"
-    },
-    {
-      "title": "Revealed: Mourinho agreed to replace Ferguson after Man Utd retirement",
-      "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZXN0ZDg5M1M0aGFvUFlvY3pUUWdwS2dxUjJRMWVCTlJzazdYckg2WmFBSG1Rd2xsY1JKMklwV29LREhTVmFiYXlpMGUtX1lDemdNWkI0RHozR0ZUcTdHVnJ1UmxsTUdnMms1RUlLNkxCc1FWNGtOQ05vUlJ3bnZqTUVvX3I2UXU2Rm80MGh2WnA3dEZ0U1Iyd0F4TFA5c2hwZ05NTEJmeUo4QQ?oc=5",
-      "pubDate": "Sun, 09 Aug 2026 23:01:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Jose Mourinho's tearful phone call with Man Utd manager and Roman Abramovich feud revealed",
-      "source": "mirror.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRUF2Y1k4OXlkbkRnSzRObDUxSmZjOWhnT0VHYjVKQ2N5R0Jnb0w5WXVCd25CVTRKYTFuY0NLYmNLNUpNWUplY1RNUnhNYzJQYmNDOG93aVVoQTdPMDJTS0dNMk9pUmswRXRxVTJSUjVFMFRuUkhsMUZjRXA3YXAwWnlEWkd3TVc4S1NlaFRGdUVTdjVVTFllS2JmVQ?oc=5",
-      "pubDate": "Mon, 10 Aug 2026 06:06:05 GMT",
-      "category": "manager"
-    },
-    {
-      "title": "José Mourinho reveals he signed contract to succeed Alex Ferguson at Manchester United in 2013",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPY2FhU01iSHY2SVB6Vi13eUJGMmRmV1ZOQ2lFMkZpM241TFhsbDkxVmFLaFRuSHA4SHp5ZXNjcVNXSXdmVGVIQWpJdVlvYVBuQWoybmlaNnQyTUR1dVdKeG1JSFVXYnk5clRRN01GYzRWczN4bjRIMWJIUWVfa0YyRmNxckxyTVdhdHNpMkhSRWk3Y2hMSVdwdWhSRkRRTlVPbUZvblRWWndwVnFOS21ZOGdvMFdrcmM0endQdVlqSGR3MFhqZmUwVUJNOA?oc=5",
-      "pubDate": "Mon, 10 Aug 2026 00:09:00 GMT",
+      "title": "Marcus Rashford returns to Manchester United training",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRXF4c1VzQmpwcENudWlPNDk0WTJyXzFxSV81Zkx2dVhTR0xvM1FRcEJ0N0k3MjFOOW85NG92Tm54X0VSSkVwSExFUEEzVWx6U3hNeDFadVJFMmVwZ0NNbUNlcFdjZzZRWjhsVXpsRlB1clo4aDAzcW1vcGdVYnQwSXR1azdVRTg1OXRmcERZMXNrUkVvTm9iSVdIX19vODNydXpITFBsVThwN3NueXRCdmRBcms?oc=5",
+      "pubDate": "Sun, 09 Aug 2026 10:39:35 GMT",
       "category": "general"
     },
     {
@@ -59,6 +17,55 @@
       "category": "transfer"
     },
     {
+      "title": "Man United transfer news LIVE: Marcus Rashford update, double Lewis Hall blow, Endrick 'contact'",
+      "source": "Manchester Evening News",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRXlKZjl6RDdQNWtLS2VpMHlLUmNNZXhyTWxROHlQUFhITXFCVkppcTQtdUs0ZEl2ZXljbXB5VlozWkZxSU91WWxSZ2xFR0RDSVJyNkl1VnlqOGx2UFRvN2NiY3Y0TGE0WEFfR0dTTTBUNWVEWjJINTM0elZtWnk2OERWdXlLbC1meWhzSXNaMnF1WmRZUDNhNjlZczNvU3VtNFFIaGItUQ?oc=5",
+      "pubDate": "Mon, 10 Aug 2026 16:00:12 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Are Manchester United returning to relevance under Michael Carrick? | Jonathan Wilson",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVnhUeUxmNnJ2VkpwSjZNclZsdEN5SUFQYTkwcU9acmZXcHR4Mlh4REJTZi14ZDhYR2ltX0dpYnI0SDNaWEx6M1FKNEgtdE12ZGxtZ2cwS0NaUlFQTUVjVjlYdllYWWhsSmpCODdiU19HZmNNak53VVItOTNDdzdtcmZtZ25tQ3hXbm5FcUJkZ2xYS25HXzVLMQ?oc=5",
+      "pubDate": "Mon, 10 Aug 2026 15:15:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Shocking truths on Adam Wharton to Man Utd for £85m revealed by two trusted sources",
+      "source": "Football365",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM2ZPclRnQ1NFTHZwVjFVVWk4OEtpQndha1Y4TmRPdFVIY2dWRXRvMlZ0RmF5cjNVTXlNUGZtNnd2RGNkb2RkbnMzbHBaWlVWaFhmREg2dDNQX0RNQmlHeWUyaWFnb0ZlVzF3b0tBOXRCVFFzcjNQN2tKaFVoLTVaRlVzcmh1bGFHVm9YUlZfenZ3WjBlcFBVYW4wMFRZNjgzcWlMNGpBTENVZ3ViNjJxbQ?oc=5",
+      "pubDate": "Mon, 10 Aug 2026 17:36:14 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Transfer news LIVE: Liverpool complete transfer, Arsenal 'make contact', Man Utd £35m enquiry",
+      "source": "mirror.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVTRpRFVEWGVOT2JmSjN4Q2dYeHMyd09UUnN5bXZYU1VTMG1FXzlKcEIzMG9CRkpyWWpITE5YYTN1TDdjWm9TbExqUUpDSkZGUkUxMnhjM2JOS0xLOW1ld2UtSEV1V3U2TWFRTjhLVFBsM09iWDd5NkdmOFhHajc3cVVvNG1Sdk8yWXZCVzRfcVdZMEnSAZgBQVVfeXFMTzZoYWU3RkVfcHhnYkV6RV9FUHhjT1RrX1AzZDc0UElmNWNGeGZhY3k0RjY3bUhWVXlFODZWbFpEWnJOWDFXUWJxa2pSRkJjMzRyOG1iX2VrTC1YejFmem1VZ1V3TDdleE9BTWpzam1iM19sY2ZaQkhDNnZTbHV0VWtHd2pzQlhIQzV3clVmbjBGV3h1aDd4Vlo?oc=5",
+      "pubDate": "Mon, 10 Aug 2026 17:57:18 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Man Utd name surprise player in squad for Leeds clash as reason explained",
+      "source": "Daily Express",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWV8ySWZoZEdGcVdOdzE3RWxTU0NlUmtlZ0MwM3dsX2JRaUo5NzlWUlhMUUxYcFRWeDhJN254dk9sVnY2VmhDSWNnZEhxTTQ1NG1Fb29yNGhWU0JnMGl3NEg2N0tHcUlZU2draEw5b1FGd09uWmJyWGZRMHBLLTRqN01nYjBHcktDZTJVaTlKa9IBlAFBVV95cUxPbnlZUlhIR3ppSmlXNW9GSUZSRG4tcDY0UF9HTGloMHhfMUwwRkdWZnRRQm5SdUJaX1dCUVZjNDdha29rZU56NXpQOVVyczNacWdqVnJGUDJnUFJRTEhIeWdQTkRiS2w0OXVySXRXSFB5d3l2b1gyenlSdzBiSHZtYXBsWHlNQW0yVDladWpJbjFVb0RB?oc=5",
+      "pubDate": "Mon, 10 Aug 2026 09:41:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Preview: Leeds United vs Manchester United - prediction, team news, lineups",
+      "source": "Sports Mole",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdFJyejZzV3Q4b0xLa0puR19vZFBEYWI1MFRfU2tHTGpaNFFkS28zMldCejBpT3FFd05pVXdWTkJoQ3VjU3JZUHdUR3NVTWhSc19DaGM4SFVFNTE0TzV1Z0YtbnhuLXJfOGxncjVrYTkxRnJKbXpzb002NXdZVUNTcHRvNU1ldm5xZ2tvMVhTYkxYWmd3bVJJc0lmMmlseHdITmYxd3NVYzE4YUwwZzVTMw?oc=5",
+      "pubDate": "Mon, 10 Aug 2026 13:34:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "'Not a friendly' - Leeds set for spiky reunion as Man Utd confirm Dublin squad",
+      "source": "Yorkshire Evening Post",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTGFORDhfaG1JSGx1RjN5YlUzR1VMSjhxTDRpcEJXQ01mTDlmZjdodEk5T3ZMdEk1azNCbENNenpOZ0FEb3ZQUTJjNkwwUEkyX0dqUEJvbDVWZUVCcXJNOXdvbHhXZ2NIVnBFejlVOTRQTlhKUUVJeThiT1BwZl9mSUM0czY2STY5U3U2Q0RiV3ZJZ2hDb1VDM0ZKQndKR242ZV9jUkZRay01blNMLUt4eV9oSlJHZkwzcFYtbw?oc=5",
+      "pubDate": "Mon, 10 Aug 2026 14:59:00 GMT",
+      "category": "general"
+    },
+    {
       "title": "Man Utd working on deal to sign Leicester teenager Page",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zRUxVTVVVLWhPUk1TeHd4OUE1N0dKOTRQZDRrbGFVZ1NJaWtBaXZYZEZqNzdZelE2Qlh5ckV4aDc5VnhrLWotaXRWRjlEYUdJelFTT1JhMk85anQ3Y0JIc2Zjb2pzOE4wQ3c?oc=5",
@@ -66,45 +73,38 @@
       "category": "transfer"
     },
     {
-      "title": "Midfielder ‘keen’ to join Man Utd amid ongoing talks over agreement",
+      "title": "Man Utd ‘favourites’ to sign midfielder who’s ‘keen on move’ after INEOS submit 'bid'",
       "source": "Football365",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSnJyemsxaUo3a2xydXVBZTRIWlMtLWJjSmFWSXU1dXFKSTNmUE9TQzFBZ21DV21TNlp3aEFzRkFEOVBCbmZkVnlWaWhYU01zMF9uRC0yQUk5akktNjZWSFR1OEVpemVTLXd0SmUzYnBlZWJmb1dJVW1FVmpaMk5kM0pHN3Jna0VmbnBFMzhlc1BqWndEdVFUNg?oc=5",
-      "pubDate": "Sun, 09 Aug 2026 16:05:56 GMT",
-      "category": "general"
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNc0VDLW9pWG9XRUwtbzhNaEZuZnlXb0paU0tUYW1KMmVwY0NTT3ZKNWFtcXNITTg3SWtoUjQzUmlvYWg5b1d0ZjgzVmVTMThXUGlJZVRTdndmYW1DdlJSeHpJWnRtRER4eXB4TGFTWk9vckQzNF9oLXZNeGpvM0VuUm56eUl1Q1MxQkR1VUpWZFZMZW01TW1LQzZlank0LWdIRFE?oc=5",
+      "pubDate": "Mon, 10 Aug 2026 09:31:13 GMT",
+      "category": "transfer"
     },
     {
-      "title": "Man Utd working on stunning transfer for teen superstar Louis Page 'with Arsenal also keen on Leicester ace'",
-      "source": "The Sun",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWWJKMGNGZ2pPRVFZX2V5RGtYUzI4N2VobjBQR251QkJUdWxQRmhiclhIbDlTLVgxbDVVSGI2TEwteTd2TDZXOEZwVzB4OEVGMDI3ZnF6Y3VzdkxyLUtNdThOcGk2bVFtU3dhOGpOempvZnJZNjhZQTBQSzNWMmZrcHFNcXM2RE9ocU5DaUlMcF9FSGhQZ0E?oc=5",
-      "pubDate": "Sun, 09 Aug 2026 13:49:00 GMT",
+      "title": "Transfer rumors, news: Manchester United turn to youth in chase for Leicester, Club Brugge stars",
+      "source": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdVBORWdvWHFTMVVwQmMzdU5vem9STEkwQjNkRVdXQ3g3WHNDVEIySmgzenhXcE1wNkFpVEVyMkhPekpGaENEZ0Z2b2tybVRKZWlzT0syOWtrNktWQkQ2WUROVWc0RzBJY3ZzRDN2TVFDUVAzVkQ1Q2tXRFJyZnRDUV8tTnVJeWNjcXpOU2ZUbThTQlBtT19rUk01Qi1FV0JOYmRRdXhhRUc4WEZGYmdUNlgxclJ3bzVZX3dPTHJlbGloeWNnY2o3QU5EOWpBQWkw?oc=5",
+      "pubDate": "Mon, 10 Aug 2026 07:49:42 GMT",
       "category": "transfer"
     },
     {
       "title": "Nine Reds join squad in Ireland",
       "source": "Manchester United Website",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9haHA2dl9tNjd4N3NFTnlEYndCUHBUdDZNNU4waE1DVEdzc3lLdVk4Y1VSV1Z0d05uNzdGbTNPUmF5bGFjT2tVT2hCdUlDeW9VOWtHUVh3cmRXT1RNVFROeFpfWHUzZ3p5WEQyVjZZdw?oc=5",
-      "pubDate": "Sat, 08 Aug 2026 23:00:00 GMT",
+      "pubDate": "Sat, 08 Aug 2026 17:35:18 GMT",
       "category": "general"
     },
     {
-      "title": "Andrey Santos makes Chelsea claim after £48m Manchester United transfer",
-      "source": "metro.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTjJCV2FZYno2cWg0NkhjSXpLUG1YV2xHNDdqVXhUbjk3eFNpZUNCc01lYTlJMFRhOFVBaXVtU3pXb21ZcTEtYnI5LVVBd2otMUVVaDQtOEgxTlAzQzlEQ0FMcFpOUjEzLUlodDNPRDZ0OTBGbGJSdmdkYjBpejJoOUh6UXhxR3RtRmMyNVA3Z1dscXNVWW04WEppSlEzaXpqQzk5RmV3VmvSAa4BQVVfeXFMTlIyWVVJV0hSUW41U3lfTXlvT3ZmNEF4cEhaVVExMjJSb2hwMHdiMURZSTJBLWgwRWtpNC1iVVRzQUc1c2xvQUJCOVpxUVdLbmltejhoLTRTdXhkNmdhU0ZOaHF0bnlSWmt3amdWZ0hDQXpwU0poQXU0ak9MakhfdGdrdDBnUC1hejBWYXFhNnlaUGJCMkVOeERzX2p3elBoQ29JQ3Y1SWdJandtV25R?oc=5",
-      "pubDate": "Sun, 09 Aug 2026 12:39:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Man Utd Eyeing Move to Sign 'Superstar' as £86m Asking Price Emerges",
-      "source": "GiveMeSport",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZi15ODVUSDAwZXJvcVZxMVYyOUlRbFVNWXNoT2lzYXA1Q3hNUW94OGRXNVVScEkyQnZMSC1jNkVDbFAxd2hGQTRNczdBWGtCejJMNDJYRlFnU1A5S1lNOEVrSzVqUGx5SnE3aldUdXNueUlaR0xsODFNS2ZtaWhlRWxYbldJNGM?oc=5",
-      "pubDate": "Mon, 10 Aug 2026 05:16:13 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Manchester United’s greatest players: No 5, Roy Keane",
+      "title": "Is Jose Mourinho still ‘box office’? His latest Man Utd revelation shows he can be",
       "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZkZDWV9kRlhaYl9yUk9PeTRaek9PeUtKclZuNjBaeWlvRE5qM1hKNGVXcExzTnU4OGIwdnRRYVpGN1JJdEdpeXo5QlNHX0h5V04zanZlelVBOG5SVWFXRlVsMml2MVVvX3hJTzBfWWE3NXEzdTNqaDVnaTRHS3Vjc0hUVVQ2c3VLYm9TQ2E5Vk5kUnFjMVZoUmx2QWZqZw?oc=5",
-      "pubDate": "Mon, 10 Aug 2026 04:16:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM3Q1STRlOHlZa3FQaFdiWWdtWWlPaWdjc19SLXBvSGlJb3JNQXo4eE1hUl9JQm1MZDhNaHdBaE50Yjk1aXNYT1FfZ2dGczdfdEJJQ0Y3UEEzT01feWVIQ3BaYjV3LXE1eDFGWkl4NGtnQWg1QTMydjN4YWtVTVJ0OUJseWlBNG1PLTdlcnFuVnBFWlJwNVF2bDJwQjcwRzgtcDBtdEFhcFR2NGJ2VzllVA?oc=5",
+      "pubDate": "Mon, 10 Aug 2026 08:46:12 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Jose Mourinho reveals Manchester United secret ahead of documentary",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcG9qU1o0LWNQQXFodU9Bc1JoTEYxTVhrX0lGUDBxOURDc2J5eVdZeE11ekJnSW9Ia0ZXOHkxWG1XQ3Y4a2xXQm9EQmh2cTAwSW1iME9jUnNTVGxIX1M4Mk0yUnhoUzhQNktLY3RRU0IzWGk1MW5uUXFDZm9VLXFTa3BBME1wUF9wUzBVUnJYcWNWTUJPbnkzR1pvaUlaejU1WTFLSjJ4UFl4dHBkcGhnX2gxN3JTR2R4WGRXMFh6X3k0dw?oc=5",
+      "pubDate": "Mon, 10 Aug 2026 11:09:09 GMT",
       "category": "general"
     }
   ],
