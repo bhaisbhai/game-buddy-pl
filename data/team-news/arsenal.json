@@ -1,12 +1,47 @@
 {
   "slug": "arsenal",
-  "updated": "2026-08-11T06:50:47.395Z",
+  "updated": "2026-08-11T18:52:37.053Z",
   "articles": [
     {
-      "title": "Transfer news LIVE: Arsenal want Yildiz, Barcola hijack; Chelsea done deal; Man Utd, Liverpool latest",
+      "title": "Myles Lewis-Skelly transfer news: Chelsea make enquiry for Arsenal teenager amid long-term interest from Blues and Man Utd",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOazBqQi0yaGN0VGNIZWc4SkQ1R21Hd1BPZ0NmWmZLMllwc1o3R0JKZnB0bmFWMkdtSXh1enVOdjRDNlFseGdsOUFQNTctN1BhTmtPSFdYdUhWMGFvVExaeW16NkJZZWp0aE05SFhKYzZUZzNWdHpNMVF2Sk40Q1lWMHZ2RjNzeHFvYWMyZ1pObjItUlZKWmg0cVd3bDk2SXFXV0dtTUFDajFLM0pPRHBGMS1uVXV0OXliMDRnbWdKSGdybTIxdTNmM1BBcnN3NG5VWnJTMk02b3Z2ZVd4bi1xdHItTmFQa1c1NDdCMFpmLXBRb3NJZGpyTGhpNE1pZzl1STZablFDWQ?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 16:37:22 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Jenna Nighswonger leaves Arsenal",
+      "source": "Arsenal.com",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9NSVRlZDhYUk5sbTRYdDBOX0syMW9xRnlYR19VSm1mRk9Db3pQTGFoUVRFd2hjNDVoY3JQcktCQmR1anhadFcyRnI5RkFMdVNidTFsS19oWmxPMHBUXzhBLXA1VkhaS2VzU01nX2pYSTdqTEUzX2VYZDRzRk1HYzg?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 06:50:12 GMT",
+      "category": "general"
+    },
+    {
+      "title": "The Sky Sports supercomputer predicts the Premier League table for 2026/27",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQSGo5NGNzY2ZoLXNZaDZrODloRzl6UFhkejBLRzM1dW4xMUJ0R1EtN0lZNlJodzZaZ05oaDh1VWJEMmpwX09zM0haOUhJR3FlU3dTaUtUaWpkZ3kxYXVUUXZvYzF5ODdud0pqQlY4TExPb0xwcVEzWFZ6MTZZSzdYTE1fY3RQcExucV90WHJCT3BlVkpOTjVqU00zY2NZa1h3X0tHblN3Rk1Ta3czdXcydzE1OFkwaThIVnRTYjJNT25PTmhDVk9TNGFiWDJHbzB5VDF6eTNkNHc0UkgxaHdVcFlreE5QMjQ0OUFZZm1EcVVZWmxacUlBQm9sT0lVanNOc1VSMWZNaGRuNDBqeW9YRU9UaW5BcnRiaEtVODdVdnZOMzg?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 16:21:56 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Arsenal & West Ham transfer talks for 26yo continue",
+      "source": "Daily Cannon",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8wTVFWc3RCNEl6Rkt6QU5HNUxSWXh2N2NobTZzS1p3ZFhQeWJkRnlWWmFJOVF1TlUxZGpkenFUa2dPZ0t2Tnh6ZkJVcVpGVDFOUmVJY0pPc0pfbnVHSDNOOHZrazFhX3VQcFQwcWNQbTgxYjBZMGk0?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 18:01:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Arsenal vs Como: Club Friendlies stats & head-to-head",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE12LWFKaUZpMEU3QkdQY2dWRTZuMHE1elFXRWZNelVqWW9NSjdJOXFiUmtKSnM5MjBsd0pqLTFQUUc2VTBDTHNNYmkxVFlKSzRST1pKUC1BZHpnV2ZHcVZ3M0hTY2NZQQ?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 15:56:18 GMT",
+      "category": "match"
+    },
+    {
+      "title": "'I have big plans': Mikel Arteta transfer target issues update with Arsenal in 'pole position' for £85m deal",
       "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcXpCOVJLMXJsSHQ5U3Nvb0ZYdE1uYll1Z3FLSTQ4Y2hqYUx2YVcyZXFFWWRRRGtBbkxKSW9yaXVZVUJUc09pX3pfaW9xallROFlUTldUc2VrUzN5Yjg5LWZ4bHZtTWExSWxGVGpCZG54VEQydkpoa2xFaGlEQm13QkZxTndIVTIyUFNYVUl6endKeW9UbGRzY0lkVjNTNjRJWWJkcEdrbGtTdkVsZ3N0X2RCZ09RZ0J6Q04wNmU3bGtBOTQz?oc=5",
-      "pubDate": "Tue, 11 Aug 2026 06:26:38 GMT",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPeUJ3UjI2bkhfZ0l2by0zYkdoQ0N1TUdHMGN2WEE3ZTNhWExGdlgwS0pOM1o1dlllSDBfeFU3ejdYMGZod0ROSHhZZlR0dWM2UFJfdy1JdndFSHl3TFgxbVFlLTdoUGJPVHQwazQ5a1FLQW80RW5Nc2l2V29tczNWTkRlZHZWeXlfZXktQ2U2d0Q4SlFTd3BhSVJR?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 15:57:58 GMT",
       "category": "transfer"
     },
     {
@@ -17,95 +52,60 @@
       "category": "general"
     },
     {
-      "title": "Arsenal vs Como: Club Friendlies stats & head-to-head",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE12LWFKaUZpMEU3QkdQY2dWRTZuMHE1elFXRWZNelVqWW9NSjdJOXFiUmtKSnM5MjBsd0pqLTFQUUc2VTBDTHNNYmkxVFlKSzRST1pKUC1BZHpnV2ZHcVZ3M0hTY2NZQQ?oc=5",
-      "pubDate": "Tue, 11 Aug 2026 03:13:25 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Vinicius Jr backup plan, Pedro Neto deal, six leave – Arsenal to-do list before deadline day",
-      "source": "Football London",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaFdJSWFJbmczQTRxTmh2Q3QtbTZRQ2k1RDRkQWdkeEdUakp6T2RpUDc5ay14ek5YbEVMaERHc0d4S05QT1NjcTdiMzdnOE1OaEVMQ05qZk0xM1BfMGJvOEJqbENHWnZZSm9KZTZUcVFWUmhtdjkxUzBPcXBSdlZfYnVob082dE1pWmU4TFI0OTV3VUNEdHfSAZsBQVVfeXFMTXBjQVZ6S29yWkc1eFNkV1JISHhRVXZOeVBxWE1wWTdZNjh3dkxZQ2hWbXljamxEY1o5WkpwajZMdmtIcTVuS2VENFpKeGtXeW83U3AydElXcFA1bWlJSkd0ckRUMFQweFl1MUU0Uno0MDlEcTBCNWE2djczUmdCLW5CQ1NzV3FLYXo2cFdEdHVaMkVXbGowbWxXWUk?oc=5",
-      "pubDate": "Tue, 11 Aug 2026 05:01:47 GMT",
-      "category": "general"
+      "title": "Arsenal mean business! Arteta wants to fix his biggest problem with €80m signing",
+      "source": "footballtransfers.com",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNTRSTzZod3UzZVBsaVVwQjl3Rzh3clc2RGUwQ1RtXzR6dkZ1RjJYSkZDYW54SENKM3BKaTJJMC03V3Q2NjQxYmJuTGNHc0NkWmo3VXc1NWt3NHZNb0dVQTUxdDFPTGlDaHN6VGY2QTRyMVlWX19tN2taTnFhV0ZSMzZLTEllTU9nbjBYSzZ6ODl4bWt6cXZmLXVLQUx3X2VkMXhsMTk2V3pJMXREVWFkdDdRWThnNnY5ck5nRlIxNlBPQ3B1RjJDV2FsTVhEa0psZDFyVTN3?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 15:32:00 GMT",
+      "category": "transfer"
     },
     {
       "title": "Go Inside Training for Bruno's first session",
       "source": "Arsenal.com",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTWF3dVZXQzNneTdQSzhUUXplOGU4SVd5eXd0ZXdhOUlzRjhXbHdXaGVveHVuOXI1UExpUjdDTWJ5NFJwTkRIdGpaT0FZMUs3YklKRHoyZHJWQ2JjVnd4WnJXVjFucXV6eU5iSU1HcDBVenoxUHJqSnZpOXV6MnA4TXdQY3lCQktlWTg2bjlB?oc=5",
-      "pubDate": "Mon, 10 Aug 2026 14:03:47 GMT",
+      "pubDate": "Tue, 11 Aug 2026 06:50:12 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Transfer news: Liverpool Barcola agreement, Hall to Man Utd, Arsenal talks confirmed",
+      "source": "Daily Express",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVzd6VkVFZ1c1cmZ2aVJHS2JGMXRTZkc5OXliZHIyenQ1V1NIRXI4cjBLdXI1eU5yWGFZRWV4OWtPYjY0dEtYajZvaUJocDE3NUEwX3pva0s0em5rMGJuVC1YTnpnbWFnUzV0NjllcDFWX1pqdGZ4aXRFUG1qTVYtRkZtN0NNT1VaZmtEaV9QOHBjSnhJTFNGSURnaTM5T0RSOE440gGoAUFVX3lxTFBNaGlRZU9uTHFoTXNtSXpqZnpXQmNJT2p0cnc3ZkNscjBlMk0xMFlFS3ZYd0NMdEs0ZVVGekZQYVpqWUQzUEl1akRZaHBKd0xvbXhWeWRsNUNqdlZXOTJXdFBNX2JaQ1F0Y2c5TVlYS3R5eXRkM3JsbXV2LTNYZWxMbEc2dGRrNDhOVWRjd1VzQkZiczZQdWpJaUEyX1l0d21yTjh6YWNZUA?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 15:54:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Arsenal secure surprise signing of teenage striker after impressive breakthrough",
+      "source": "CaughtOffside",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZWRWRUQ2dG1oNHVQNkw5U3p1bXhrY0Z6UTdURW5GVE93bm8yS1Bxa3BrVnZ3emNMVTgwZnM3dnlwbE1wVEpvc3NhbVlLX3V0UnFvbGZfb2c1ZjFEMlFNdW5mbHdmM1ZLSXVEcVFDY1J5dERiVTYxWldaVWxtdTZLTkw3YXhmOGxjcTA3MmVsMGQzeXFld0lfV1NvVWhLOURPUHg4SDZ5QWwtTEd4eDYzRHV2ZFlBQ1QtVWxoWUh2TdIBxAFBVV95cUxOWlpTTW1Jd2RoVjJCamNXbFU0QVBCakFYSUtlN2piZ3VsNmwwekhUMXl5TmlQLUJpXzF1Q3EwbWtPRGttX3ZENzJKMWtNQlgxWUFJTGYwbGtuSEF6UDN6b1gxNTR2bXBOVUpkZnRQUEZQRHgzQnNEMVhUMlcwSFk3WjB0N2pvWU1kUlpndjFKZXJfUGhYOEVzeWJ1V1g0UEh4Z0VaUndIaUdfOFJyQVFEUEZ3ZDhjU0N1Q2tXS3lJTndPS1ps?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 13:00:24 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Sources: Arsenal Table Bids to Sign 'Talented' Wolves Starlet",
+      "source": "GiveMeSport",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOczBHWldGYVBjRktqc2Z4NzA3b2RzSjYtRHRhOHJZZnJPc05jU3dIS3pYRmtJQmtORmVTQVNGemhvcVM2alVweEFWVF9Oc2VCc19yX05NVU5rT0VxR0lfZHNDYkxYS1lKWnlGUTdzS2tyS3RjVEdhX0pTUTltX0hIT2RPUnhnVjNGTUNsWWpJckpUUQ?oc=5",
+      "pubDate": "Mon, 10 Aug 2026 16:36:14 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Go Inside Training ahead of final pre-season clash",
+      "source": "Arsenal.com",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTk56TUVWWi1fQWt1QXpUR2pSRTRyRDlZbUVockEzNndQcVpGRW9Ec0o1dG1yd19oWk52emEzdWFLUTVlY2F3ZHl5RDBiUnFVU1FKSmszZGVna3htTFVadUQ2MU96S09UcVhkdlZVYUdDZmZuRnRGcFN0SUpzamVrVkE2Vkd3RlBGMS1DN2pvenZ4cDZ5elFJ?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 16:03:18 GMT",
       "category": "general"
     },
     {
       "title": "Arsenal step up push for defensive cover with Timber and Saliba sidelined",
-      "source": "The Guardian",
+      "source": "theguardian.com",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPd1poM0NnU2FueW9Tc1BudFM5VGZKMzc5WVdmV1hJeDJLWmpxZmkxTjl0VDh6ZHZiX0RxSk5zNVRxdmtibzFKNTI0NnJWOUtTV0lRdlhoMVFNQmJFa0ZxdElQWUVZU1hxNnMwQXVpRmtEU0pjTnUxTWdDdTBDcG9ITFJXTmpLYWM5a084UDZleGI3Unp4NVdPUkxpTERsODFPcUtjdnpSb1B1VmREZHFJNUNmX3FBU0lnZmJuNVF4VXJOQ3pVQlJGYg?oc=5",
-      "pubDate": "Mon, 10 Aug 2026 09:48:00 GMT",
+      "pubDate": "Tue, 11 Aug 2026 01:30:00 GMT",
       "category": "fitness"
     },
     {
-      "title": "Emirates Recycles Airbus A380 & Boeing 777 Parts In 8-Foot Arsenal FC Badge Sculpture",
-      "source": "Simple Flying",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE15WXBkUk12MkN5Mll0YWhZem4zVXlZQmE0SFcwdU9pNXB5TDdXNThQWXVVZWp3TDVCcHRCNnE1M2E4Q2gtUzFYdWNJeWs3UXV2V0k3Yk9MWHF2dmF5dnlybmFQd2p1Q1pHRERNSnhDVVlOb0V0TlNrcmFwYl9MQQ?oc=5",
-      "pubDate": "Mon, 10 Aug 2026 09:47:25 GMT",
+      "title": "England and Spain stars return to training",
+      "source": "Arsenal.com",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOERfaXYxZE01R1I4bm14WURQbkpudGF0Qnl0VFE3b25hWXZFa0NiYXFmcjBvQWFWcm9laktfWWFLakhtVkpLczRSaU1mR0RCdWtqZE41RVJTMkVwSnZHWXFpT1dIT05iOVFMN1hVT1NZekhZejhYZVFHdWpZTkhCa2tQUGpqX09HZUJKMg?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 14:06:22 GMT",
       "category": "general"
-    },
-    {
-      "title": "Arsenal in talks with West Ham over Reiss Nelson transfer as Mikel Arteta steps up squad clear-out",
-      "source": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYWsxQWV6WWhjRUZOcVBuRmNKNHlIUTZPblg0Q2RJSE5TcVNtSWRiQThsWXlwQ3E2Qm92UG41MklfQ3hwYloxTG5WUHFQbnJLWnU3TVRlZFVBRUtzUldES21CeERGdU5neFc3V2tTNUxEQ3lTeDAtWk9kOWtDanRxb0NXT2NnV1F0T3V2VXhyN1NRR1ZFTDMxMjVjZ1FPN1B3anc2R0tVaGhtXzItaUZxcTJyYXpoWHR1dUtuZQ?oc=5",
-      "pubDate": "Mon, 10 Aug 2026 15:37:24 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Arsenal enter transfer talks as decision made over four players",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMWJIMTFJYnQ3a29iNWEzcF9nQkxVVl9WMGZRLVFFUVRtczNmYy1sZjZfWkdwRDhreFpKdlZBd3BYUmR1MXpwVTBZU1ZwWkp1RVpuRUxyaDdneVlZclVsRWxmNFpqSm1QekM2WGpZWG1nU05pcUJjbE9TUm9KcXVlOGpScU5jY2ctbHlwclVxWXFNdmhuZXk0QWxPZmI?oc=5",
-      "pubDate": "Tue, 11 Aug 2026 05:30:20 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "West Ham United Eye £100k-A-Week Arsenal Outcast After Dortmund Snub: Can Nuno Actually Use Him In His System?",
-      "source": "The 4th Official",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOekF4V2p1Z2QtbFJiYWI1X0xXSUFvbFdIZm14V0J5VXBCWjVfZmwyOGU5UlVkeVBDSUhEME9jcEcyeUlDM1BHeTQyLUpEZnRBWm1xYlNoYTltbzMzd1lORHBMU0xxaWJHY0xyaDExa1lDXzVZeHQxaXd4cXVaTi1SX1NnWEtDY2RCek1uREJuOHNFR3RSQ3VtX1pyZlJkUkdfWVRNVDV5NlpsLU9yMkdPSm5VZnhmcnBBVGJIdDJLZXdKdkZ0MDJzQXJld0RfWUNlN2tCVHp2d1JVbTQ?oc=5",
-      "pubDate": "Mon, 10 Aug 2026 19:15:43 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Arsenal stance on Martin Zubimendi to Real Madrid transfer as Mikel Arteta outlines plan",
-      "source": "Football London",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV3dWTUVMdTBrVHE5eExOeEtTOVdMTDRneEh5OW4tcEgzbExfVGpFamJPTG5majZMbXJmMnJuSHhaTmdrRGlJSmpMOXVoWHVVWHJfdXZPOXE2cUhlOEVMeTZhYVd4NmVaM1c3R2Z5UjJ3YnpiM2VLenJuX3VNQkw4dzN0VXpzWGZsT05UQXdfTlRtVnJrU1pWTTNwZXRZRnfSAaQBQVVfeXFMTUl1ZkRjREd4NE1KeDRBMFpuRkhRUWNoN0l5M0dFZFJHeFduUDNIczRIWFJmOXVZTTJ6OVdiMEVnQVBKZk4taUwwMVRaWXhpeTVYblM4Vy1sMHo0V0dmWmdSQ2hzR0xhMTlVYVpUZ1I5bURQbHZmQjMzbmtmTzlfQ0hPOFg5V2YzOTJQZy1aWWF1cFFlNzRPMHpoczhVdm9XQmJ5QU4?oc=5",
-      "pubDate": "Mon, 10 Aug 2026 11:21:17 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Real Madrid ready to attempt £77m move for ‘top’ Arsenal player who could be available",
-      "source": "CaughtOffside",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTWRxUko5MWFTc3lTazUwUUE0SW8zYk1ZSkxUSG9GM294d3pfZmhSUUZfcm9ELW4yaXBlNlFKVWhHMkVKRDN5OXBpeXpwSTJDaGktc0dpWDZpUi1fa3RVRzl3QWdfd2dPSDRDZnB5Z09FblJKMGtySUVLdm4tMTd1S21BdjdQMkJlNHk3RlpOSDRDU0JhckHSAZsBQVVfeXFMUHl6YWE5OGlHYXhuZ3FDRzBHRkY3bEtJR0U1dVFSeGJ0VjFEVGpmajdsc3RvaERWVE9RWm11RGFOdmQ0dDJHZlBWNHQ5TGF5WjVBSmFacG1WWGY5UjVYc1RiR0NaMUpTemRxN0FJVWhVYkRlazZMSkVYb01fTjRqazJkazBjaU5sTUROUW9tTnlrNmxid3dvcWJUZ1U?oc=5",
-      "pubDate": "Tue, 11 Aug 2026 05:49:19 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Arsenal set price for Chelsea to sign Martin Zubimendi after Real Madrid approach",
-      "source": "Metro.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWEZ2empwV3JNMkJXQTJlZV9IVXBfcTdsQ2Q1RXRHV3pZZ2MyNjB0VHM4NVY0b09icTZIeEIweVhtYmNZc1J0VUxzMF9jQ2lmS0otd2lobXRNWjNpRU02Y09ZcVF5YzR1Z0hTZlltUDBDMkN3Ym9LNWNPTDRFTmM3RDRiQkx6a1FuZHhFNUtBd0x0c3QzS0N2VHJQV3B6YUdYZElGeHZnTnNzajFKTnfSAbMBQVVfeXFMTmlhME9DSXhGLXNKWVdiUXhWWkIxeEprVDg5RHRKamdyZ0xJa25DWDA2MFdYLU5ZaDVJVzVRWTZyaVVSSENJaWZrU0VyVklqTXFYYXpRX2VkUFdNTzlsYktNMnRvbnZuQ2NKU0c0My15TTU3a2E2WndhVGItNHMzazNjNUNoZzQwTWRtbHV0bEF4cDFpSUc1ZERvN0J5MkVvUV9NNU41QlJkXzdlVGFkMElhbFU?oc=5",
-      "pubDate": "Sun, 09 Aug 2026 07:13:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Pre-season weekend round-up – Man Utd held, Arsenal beaten and red card brawl",
-      "source": "dailystar.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUHdEQzk5bG81T3R2T2NoTEdMekRuXzNYVFRtSmxteDF1cGY3bXRBWlBQVnBUWDlBVWl2Rl81eTB6bXZMMTB4VUNwd21lRVlIOWRteGhpcnFnNjhXdXVLeXVBbHJfYmpnT3pnS2FUMmtxWjhUZlIzaHhJbU5BajJsY0tWekpESDJQV1RUMWRfZ2F5cklSNVB0dQ?oc=5",
-      "pubDate": "Mon, 10 Aug 2026 11:33:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Arsenal have new transfer priority after Dortmund defeat",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYlRBdFA2T0tjbE1jMHNNdHFHVFVRTzVlUENjSnYtbFZRd1lNbHZEQ3l4U2NhSTNmM3lacWR0bERLamh4YzBuYXNpYUFYOG1zYTRkallnRGdsajh2ZlVDenRZOGMtMldYaFV5dEtaTVJ4ZWtTbVRnM3Jza01lOWVXZWVNWDcxVW1naXFxUlZKTzY2bktyWlNCY3JFdW85aEhJa1E?oc=5",
-      "pubDate": "Tue, 11 Aug 2026 04:17:58 GMT",
-      "category": "transfer"
     }
   ],
   "reddit": []

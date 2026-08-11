@@ -1,19 +1,89 @@
 {
   "slug": "everton",
-  "updated": "2026-08-11T06:50:47.395Z",
+  "updated": "2026-08-11T18:52:37.053Z",
   "articles": [
     {
-      "title": "Stuttgart 3-1 Everton: Match Report & Instant Reaction | Attack missing, defence shambles",
-      "source": "Royal Blue Mersey",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNeTJCWFU2eXQ4dWRLaVR5ZVJ0TE85TzNnRUVOOGxUMk1tVkRxQTEtOGg1UUFFdzBjY2xQRHNnWGtLSDVNaUVJcW9DbndTM29Icl8yRzVzVUlSX01xQnRiVEQ0TXJsakg1OHl0cFlCajQ2alowZktOWi13OVhVdVhVMXpXSTZ2azZDUkRUanZVVjY1Ri1VME5ZZXNQdHlLUTlsNFhhc2ZHS0ljVkpnSDBQTjVoSG8zS0F0bUtENFlPTGZ5LXYzTHlhT1psdC1HNEJobnVvLVltOHdRVHFVTWphc2QxcEpYdw?oc=5",
-      "pubDate": "Sat, 08 Aug 2026 17:47:28 GMT",
+      "title": "Everton’s squad overhaul: Four targets, Moyes tensions and Grealish latest",
+      "source": "The i Paper",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbDVBa1MzcUZmNXlNNy1pU0hBeFpsUGwycEpKQUFoaHN4Nlp6bWVGbk9tTEptcWhGNTd4WC02WGF6WHl2VDJ0Q2U0TmF4WG1RLVA0M2RwTnoydkZvTVFWVzh0Nk9yOXhPY0VtdEN4TklzNUY3U1R2WUx5all0NmZPR3N4QXRkUWtObDlVTlhSVV8zZw?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 05:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "“A myth!” – talkSPORT pundits take aim at Everton’s McNeil-Johnson swap",
+      "source": "Read Everton",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVUQ2N3NUbXR3VjdSSkxpQnl3X0VGay1UVnRNX09IQk1EY2lfX2R4bmMwMXlsQU5LbVAtdVRRYmVzQ0FXOTA1SVRIYklxeFFLMkNZaEtGaEhTOEVuZUctMzd2OGZUWmF1WWRnS3oyNUtHclBxeWZaeFZ0Q0JDblV1RWNVLTZ2Skk5?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 14:55:48 GMT",
+      "category": "general"
+    },
+    {
+      "title": "'I was sold instantly' - former Everton defender becomes latest academy graduate to find new club",
+      "source": "Liverpool Echo",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQajlwd1pFVUZFVXlpUWFyaVMzM2gtV3FOcVdPT2pKU1dPb0tyQkc4OUQ3SE9WZHdwOG9MbFZWdzZPNHczcm0wOWMwQm5FNFhDbDNualpoMjA3bmdzcGtESHhndGdUUFdIZmlqNFpMVklOZUxPdkNYQXpvUHF3SGFUVXNRaWp6ZWI4RG5uOVdXeHNoVzBzU1BOWnA4VjlWN1kwOU0w0gGoAUFVX3lxTFBTemY5a0JENDRVUnNmQTJ5WS1KdkkyUFRhTGUxbWFJY0pRMTQ3ZzhRRGZXSWRtQ2owb2tFeUxaLWpSOTJzWG9rWGRGcDBUN01ZZW0tSmthNzhzZVprSTdIdTJpM05hOWJIWGk4cFVMX0RhOHV5M2hEZ2U5andXMGtEUjNFSndUVFBCQWhwVDJma2FLcldBMEpUT3dYaWlKUzZaNmVKX3NQag?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 14:17:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "David Moyes ready to unleash Everton's secret weapon with youngster set to play a big role - Exclusive",
+      "source": "TEAMtalk",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWXR1bXR1QmlmVmNLN2pLMmtFWFhaLVdXNzNxb01tS1EyX3RLem1PS09SdUttVUkxcmJmYzBXWFVWOGVIX1A3aW9Vdy1YQzZ1VzNjNlRvbFA4ZnRkeFNrQzI1b0x2ZDRFaXZubEFQSjdBYUhVZTdTbEE4bmhya3o2aU0wRmt4aF9YNXFvVG82Q1ZsRlBscUdSTmpYUTk?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 14:20:39 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Everton vs Newcastle United: How to watch Murrayfield friendly and kick-off time",
+      "source": "goodisonnews.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQOWlEdUZHMFcxUXp1cmRHNHVKUl9BTDd5d2tXc0FvRXhfUEFrQnozV1ZlMExLcndSVnlYNGgxakZYeGxaVzE4Q3JveHJfb2RqbUFLa1h3alRhQ3dEbEYyazF0VVZ4Z0RCQ0NDNlRlZnF3cEFuOEVhRnM5dTdWUkNvbjdaLTY4dE9OeElobTNacE9pTEYtWjFYbW13cDNYUVpIYnJ2bkl6RGNkYjJId1RNYXdxXzU?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 15:10:00 GMT",
       "category": "match"
     },
     {
-      "title": "Stuttgart 3 Everton 1 REACTION - Blues beaten in Germany as Thierno Barry penalty proves in vain",
-      "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNenZTZGx3TUN0WHFFTFVIY0s1OEs0Sk9tRGJISEFsSmFuRjNycklaZThPUmVYWjUtekxrLUtMcEZUclVWSWVrakxlVmtzbDFlZVFHUjUtQVJqSkE5QVJGeW11djl3SUFzYjFUUlJvdmdRVEtudGFZdlpDSy13QlZKbGx1TFpjeWtJUHpqSUQ1QVZMeUZOWkozVEk4MlZBcHpkV282SG95Ul_SAa4BQVVfeXFMTlR1SERIVjB5a3BzS3BGcVBnZWRyel9LVzhkaldWTE1OLVdaWUJTTWgwRTFQVTQ5YllDV0MyajNvdE5BWTU4Rk1veE5MSlp5SFRvQkFjcnkwYkhnRmpsbzRWNVJwYXF6QWE2dzgtRUw2UGFJSVk4eGpDaVQtdnpsX2E2eFRrbkFsU3kzaHR5TVdoNUJuY1dubHYteXI3WXZlRERUcXMxajJManJmSHVn?oc=5",
-      "pubDate": "Sat, 08 Aug 2026 13:02:03 GMT",
+      "title": "Man Utd now 'well placed' to hijack deal as Romano reveals 'decision made'",
+      "source": "Football365",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV0YwX2FMeGdZSUhua2dQWkU3M2dGeGlPWTAtY0lUSnM2WXlpVlgwZkFFZGRaN0tpYXJDS3ZUd3hETFJ2aFYxdU0zTTdFazdYZzBqeXhVUXRLckhJblE3cXBVTDVCdzQzYWpQTEZ6MHdCUHYxb0d6MklPaGQ3dHFrX3FWOGtxTEttS0FGcXh3dXozREEwem5BcmJ4ck9adw?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 13:20:45 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Gallery: Brennan Johnson Is A Blue!",
+      "source": "Everton FC",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQV0YwcFFOQUJPZHF3YVhuM010dDVINUpTRTlwV2tObVRic3NiMVJwLXNwbkM1RXFlN2JiUF9SbDRvdi1zdk5KQVJzdWFVczBNQzBUT0d6NWRxdGQ5clpITHlrVWhZT05TMlF1YXd6aXMtSHp5UFc5cGdVWl94MTg3SGdYYTRScFBGS1E?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 12:19:35 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Tuesday’s Everton News: Munoz transfer rumours, Fort and Murphy linked",
+      "source": "royalbluemersey.sbnation.com",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbG9TZXhNTVZKbGptUFoxekFLaTJhbTFUWHkwMkJEVHRjUVBhVVdnekVVZDVFZkdXQWp5UlFiNzc2Q3NPQkRSNnU1X3NfVWFIZ2tJbUJTWFlFUTRKa1JQZEZ2eDF1NkJPeXE2Q3Z3RXBBMGlGc09RTWlmQzZjM2QyX1FDTDVDUDFJaUN6ZF9XQkV4bE14cmZwWm1WRTF6VGcwLTRiWTgzbGlEc0VBakRiSjh6elJsZGV4MG9uWF9tSUo0d0JuWmc4RHZGbTZjN3FiTjEw?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 06:30:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Everton are drawn away to Preston North End in the Carabao Cup",
+      "source": "ToffeeWeb",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBGMTM0akdBQnN1aWlBYVVoaDZCNEpjdzJ6X29PTG5zTUVKUUR1R2JsbkpDaS13REVyaWIxY19Fa0ZVRVY3M0FwdWFGOHN0ZEdoRTZyVGhsMlRwQXhKR3pRd3o3QjU?oc=5",
+      "pubDate": "Mon, 10 Aug 2026 21:19:51 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Homegrown Everton star returns to the club",
+      "source": "clickliverpool.com",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObnZSanhPSFA5YmU0OGhaM3FMZVdXVUEzS05NOG12T0x4RllqdEhzTDdaVXVZVFhZQ3UzVlR1NnNZdnk4LXZYelZNN1l0cGFPUGlkc0dmb3VEMTZhMmVESWJvaFEwT3BfUUEtOXJ1V3hmMmZycHVMdDFFMkhGNXI1cWdtbFNRamJsTEMyNnFqYmtnVGxsZlBEc09hLXdMdw?oc=5",
+      "pubDate": "Mon, 10 Aug 2026 12:58:38 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Latest. Important fan information for Everton clash at Murrayfield",
+      "source": "Newcastle United",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUThCUEZ2d0paeFJwYkRscnNuN2dQMFpueWpJUjIzblRyeGVVUEd2WUQ1dV80MVUtZjFVdnZjbF9lcFUxNVcwdzEwR3l1VlNETHFoYVU4X2dJUUgwOXF1UkFmczdzcXNKcXhic1ZVbVVFV2hoLUxDODNTQUZnc29UMnBzc285TTZWVHJ4eG9LdnRxWld2b28tdnU4azB0Q3M?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 08:54:39 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Nørgaard Set To Join Men In Blazers Live At Hill Dickinson Stadium",
+      "source": "Everton FC",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTDBCX3pHZHBHb2dwRW9kOHBTd1pNODNqOUlTZmJmZ2JzbjcwRlNlQlBwZlJ2cExXNzQxWXQ1M0ZXYTdoOUZ1ek5reXg5czB3RE9NOE1SNEFPdU9RRjRQRUV5Q2tkbTBmdFFjMnB3SlcycjdlMXhFWFNLV0lWZ3dObzl6M3VrblFCNnFETFdfWTRkdFhkX3ZzNk1pR3NoYVNtbXJWeFo2VVVVM0pzcUJWNldFTQ?oc=5",
+      "pubDate": "Tue, 11 Aug 2026 08:13:25 GMT",
       "category": "general"
     },
     {
@@ -24,87 +94,17 @@
       "category": "general"
     },
     {
-      "title": "Newcastle United vs Everton: Club Friendlies stats & head-to-head",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5TU9UNHgtdTBUU21lQ01ha1loTGRxYUtwbmtrb3p5eEZGb29ubE5TbHExcnBvc2pYeXJFY0t2a3VnQ2Qta21Xdk03LXpaYjVUQ2VEUkd2LWxDRU5nTTVJcEhRSGV1dw?oc=5",
-      "pubDate": "Tue, 11 Aug 2026 03:13:27 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Preston vs Everton: Goodison Park rumours shut down after Carabao Cup draw",
-      "source": "goodisonnews.com",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMC1sYkt2eTlHdVk2aUJ5QWxYbC1pb0xXY3Y3N1RTMmw4MGZmYzFSY2l6QmpNZm9SN2hoeUdfQjB4QUdZSFFHbWxqakdjejBDNEY1bVhYaElONl9NTW5YU0Q0SktsNU8wT3JjYmJKTzVhMDc1V2NBakVwSVR1ajd5ZEtuMGVPSkE2dVBSQkxPcFBUeFZpdm1zVUxJM0tnMHV0SUpCbW5acEZyakpZ?oc=5",
-      "pubDate": "Tue, 11 Aug 2026 05:40:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Carabao Cup 2nd round draw in full as Everton discover opponents",
-      "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNelBocWZ4ZWpZNHNqbDZmbDRabGd6WEViYl9GYUhKdWFaWWhwZmFwbXM4QnQyZ0I2c1ktQXN4Skh3c0F5UUxPbGRrZC16YnpmQlNOVVF4ek1FNE1Mcm9KOHBqVWZiTEdvbDYyR0E0TU5KQUpocWQybGs5dmNWbFhkWUwxTHBKWmtJZnRlYlR6SnpfMVhYX1NIN1lIT293OFVz?oc=5",
-      "pubDate": "Mon, 10 Aug 2026 19:08:14 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Everton at home in Carabao Cup Round Two",
-      "source": "pnefc.net",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZmNwUzhEcm1qUDVrQ01PU3lOMW12TjJXcGdqSGxRRkY4RTVKWWM3VUpCRWxkV2s1R1JhZi12cEVmOW51SjFTUl80Rk85X3E0alU5RmhsTGNESWJKckNjandyNmp3VUhPZGdFMGs3OUpuci1QVXNGbkFJdEM0eXRwb19Bd0pNWkg2RllN?oc=5",
-      "pubDate": "Mon, 10 Aug 2026 06:54:22 GMT",
+      "title": "Dewsbury-Hall Chooses New Everton Squad Number",
+      "source": "Everton FC",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTTJwbFVhU01pTEZHOEFKVU5yb0Y2VkgwV05SUmVSeGNpWFFsb0dsWFF2cFJPSnpndG5PMlhZZk9nNS1FQTY2WXh2N191MUJMLWhPM0JMbkQ4ZGZxVndZa2RoT3QxN1diWEY2eGRnd0xLeTBaYzRmaXJreGtfbG1hd3R1UFktSTVVcWRkNE9UZUF5emNsZHhFdQ?oc=5",
+      "pubDate": "Mon, 10 Aug 2026 18:19:55 GMT",
       "category": "general"
     },
     {
-      "title": "Tuesday’s Everton News: Munoz transfer rumours, Fort and Murphy linked",
-      "source": "Royal Blue Mersey",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbG9TZXhNTVZKbGptUFoxekFLaTJhbTFUWHkwMkJEVHRjUVBhVVdnekVVZDVFZkdXQWp5UlFiNzc2Q3NPQkRSNnU1X3NfVWFIZ2tJbUJTWFlFUTRKa1JQZEZ2eDF1NkJPeXE2Q3Z3RXBBMGlGc09RTWlmQzZjM2QyX1FDTDVDUDFJaUN6ZF9XQkV4bE14cmZwWm1WRTF6VGcwLTRiWTgzbGlEc0VBakRiSjh6elJsZGV4MG9uWF9tSUo0d0JuWmc4RHZGbTZjN3FiTjEw?oc=5",
-      "pubDate": "Tue, 11 Aug 2026 06:30:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Homegrown Everton star returns to the club",
-      "source": "clickliverpool.com",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObnZSanhPSFA5YmU0OGhaM3FMZVdXVUEzS05NOG12T0x4RllqdEhzTDdaVXVZVFhZQ3UzVlR1NnNZdnk4LXZYelZNN1l0cGFPUGlkc0dmb3VEMTZhMmVESWJvaFEwT3BfUUEtOXJ1V3hmMmZycHVMdDFFMkhGNXI1cWdtbFNRamJsTEMyNnFqYmtnVGxsZlBEc09hLXdMdw?oc=5",
-      "pubDate": "Mon, 10 Aug 2026 12:58:38 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Why Everton have benefited from McNeil and Johnson swap deal",
-      "source": "VAVEL.com",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWkRBbFBRYXlBeFRtdmswaGFCS013OHBnRm4wTV9kSEFjVHd3RDl5VDIxUExRX2JpSWliQTZVb3dnYzMzTERROXpjNll0MUw2TDhuMUNZa1pDX19aV3pJTFBDLTlDTmFyY1pmSEJkRDVybEU5Q1JGUXBnb3lFc2w1Y2ZKMC1Dd2FzT0Q0SXBwWml3aDhnRHpZWUFvbnh5a3FXNXFjQ0RmMlh2VTdoZV9IME5VNVFLRHh1QjczSDlnOVRkcFd5?oc=5",
-      "pubDate": "Mon, 10 Aug 2026 20:59:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Everton make approach to sign second Crystal Palace player after Brennan Johnson",
-      "source": "goodisonnews.com",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTUpIZklfOVdYZnpFZ0NtQmhiYThlUHZTRDloSlIwM1ZTZ2NzSjFNalNvaW9xb1pycmZreWlPU1RFbnNTS1YtYUpRX3htWGNCV3RmdE9VTjBqR1d5b1ZkQzVzX2lZZ21pRXJUSU1xNkJXUm1YVnd5TmZfQmRjSnJHZFNhVmUxNTM2aEwzVDFPdVAteWVJaV9rY0ZZQ0R6TFRKdGI4dlMxMjJzMjRpWXIyempFWExfZXlFOVdv?oc=5",
-      "pubDate": "Mon, 10 Aug 2026 18:22:26 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Everton and Crystal Palace agree McNeil-Johnson swap deal",
-      "source": "Read Everton",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5ObkdkNXhlRUZxMWlRQjRMNENjaVZ2Z3ZKQ3FIb0kwNHloQmVteHRxQ3l2NjRUY3JCVTg4MEZCem5FTzM0a2ZsZi16OG8zZUNpRVRkUU1MVS1FNm51NkR6LUR1Q09KLVVGcjNsZjlfS2M5WHdtUmVETW1hWEU?oc=5",
-      "pubDate": "Mon, 10 Aug 2026 11:44:34 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Latest. Important fan information for Everton clash at Murrayfield",
-      "source": "Newcastle United",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUThCUEZ2d0paeFJwYkRscnNuN2dQMFpueWpJUjIzblRyeGVVUEd2WUQ1dV80MVUtZjFVdnZjbF9lcFUxNVcwdzEwR3l1VlNETHFoYVU4X2dJUUgwOXF1UkFmczdzcXNKcXhic1ZVbVVFV2hoLUxDODNTQUZnc29UMnBzc285TTZWVHJ4eG9LdnRxWld2b28tdnU4azB0Q3M?oc=5",
-      "pubDate": "Tue, 11 Aug 2026 04:20:26 GMT",
-      "category": "general"
-    },
-    {
-      "title": "The Analysis Series: Systemic risk in inter-club football litigation",
-      "source": "theesk.org",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNFFyTnI2QzNYOEExTUt3NC1DWkhPbHhSYkNTZVdxLUE1cnVkWDRJRGdMU2FyOHYyanQzM2hNZmx0YzBjMElFM192NDBHMk5ESHozSGFBYmdXUWxYcjQ0RFpHM1N5MERaendnNzVSZjNGVVh1Z3cyaVVyTDZUUzRMakhFdkIwR2F5amJrNGxMN1hpRjRFV09VZS1rTWM0TU3SAaQBQVVfeXFMTy1aVGIxcUpBa3IyTndPY1M1M0pkSWwwbVVlQldzeVV3a2xvU0Zhb3VkSkhJNW1rN1JqUUtaWnJlc1oyODlKb05fdTZCOVVWWWdfMjBid0RDTHpabHh6dTljQmtLc3RUUDIzSWJTakRpNnEzSnFPUVdWdThIb2xkWXZ5czExeGtsV2R0NGNzYm92NlJiQzVnMnRQalQ2Wi1PSEVjYzQ?oc=5",
-      "pubDate": "Mon, 10 Aug 2026 06:38:20 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Everton Alerted As £20m-rated 20-Year-Old Is Told To Leave In Shock Twist: Should Moyes Go For Him?",
-      "source": "The 4th Official",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNeWxXOW9maktWdGh4V0JDRFVDaDdvMDRTbTZQYXI0cTJfOW5GUTRFYnVNbG9Lb2xyQXlFT2dOeTFYRVB3STQ2WlFqNjVWY0Y0Wnh0bWZrUU1YM195TVhBa0xmWkJseUxfY3dkanByblRGWFNBVVdPNHN1cF96X19hWHRPeG1nSXRlZW03RG5RdzFEeThjS0Z1dnBVdGFheGpEM3hIekhJVThmSHMxRDU2WldYRHpUTWxaQVg4OHVsSktWZlJqdDRMcjVHT2o?oc=5",
-      "pubDate": "Mon, 10 Aug 2026 18:40:18 GMT",
+      "title": "Highlights: Stuttgart 3-1 Everton Men | 1 day ago",
+      "source": "Everton FC",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQd1pzVWZoN2R2OUdsQTJUNTI1ZUpjeDVYUDl1MlF4QnpnYlVoYXBaUUdxYXRzZXRqR0hPQXNqd0YycXRWV083VmZYQ0d0b2xhLXJ3YTh0T1NmcU1lYWszUWFjbmlfczktdnZZd2FteU9iRmdxSjd3S3RpV3A2NENmenNOVnNWbFk?oc=5",
+      "pubDate": "Sat, 08 Aug 2026 21:39:47 GMT",
       "category": "general"
     }
   ],
