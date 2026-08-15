@@ -1,97 +1,34 @@
 {
   "slug": "west-ham",
-  "updated": "2026-08-14T18:43:09.179Z",
+  "updated": "2026-08-15T06:21:32.561Z",
   "articles": [
     {
-      "title": "West Ham news: Uncertainty in boardroom before Championship return",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rVmpZTVVldkhOeXJOTVo0WFBkbnJVUlZ4eWkxZkNaeVJrcS0wdlUtd2hBZ0RYeVZvV0ZKUEtGTVhZM0M5Z1lyQzJ6ZDRPNEpFUXotaVZmc2ZpczB2UmNST2NGNjNJRFk?oc=5",
-      "pubDate": "Thu, 13 Aug 2026 15:02:56 GMT",
+      "title": "West Ham Now 'Confident' of Signing 'Top-Tier' Star After Arne Engels",
+      "source": "GiveMeSport",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbjRCWnA3eG5xWHhIdGJHcnFYU3JCanpuVXR3Z3RnODQyVEFmSVhmRmc2LWRoVnBwQjlzRlRVZkFlMTlyclJmYnNpYkp0SWlZbjZuMGFBXzV3enRZSzBVSkloeWl0a0RWVFMwWGFFZkU0X1BhRTBKZnlVdHFvSU5SY2RmdTUxQTJza0pORTlheEZpR1gy?oc=5",
+      "pubDate": "Fri, 14 Aug 2026 17:15:14 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Jarrod Bowen exclusive: West Ham captain on his decision to remain with the Hammers after relegation from the Premier League | Football News",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbHl1dXRnY2tLZjhld2toRFN6amQ0OEJIdEw1cVhoWEoyR3lvQjNSNEJ4b0lVbW1pS25DRkVKa1NGaVkxWXUyYThyNFJPQi05RmhLU1NfZHN3MXFMcUVHUXkzNkFSR2M5dEJVUW56d2YyZVpKRUZqcnVPcmo4QnVoLWo1WjVSc0NXaXVpbnREZE5xbGVEbnl2WUt3?oc=5",
+      "pubDate": "Fri, 14 Aug 2026 11:00:52 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Team News | Souček and Lamadrid to miss Burnley",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQ2p0ci1VTVFyMXRUZTRsSGxlOFJabFowbjluNElEOTZRbVEwRVlNUkZFYTQ5dldTekt3OHB4QmFwY3NXR1RTZHVPU0FMTzZoV0IwMFE2cFlhVGc4WDdTTlh6ZlR4dzNyeW5EZDQzTVFhM2JFWTRpai1tVUREaXI3SGhYOEY?oc=5",
+      "pubDate": "Fri, 14 Aug 2026 13:25:52 GMT",
       "category": "general"
     },
     {
       "title": "Celtic's Engels poised for West Ham transfer",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5DRFdrMmR4TWR6WDhMTlpLdmZXbEYteVA4MTZ5RUl4VDZOc1ZoMnhaeE1RTDJMMmtKRkhnZDRNX2xOeWFiM3BKdEFsWkpCaVpWeG9teXpLWDFIa0ZkQ3dIT0g3ZHNlclFURFE?oc=5",
+      "source": "bbc.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBmLWFGQWl5bFdsX29ObXZ2b3F3aXF1eV9vQUl6T01aeG15dVBNSzJVZHRfbzI5UW1YNWtCakhoazNxeF91cW5feGZYZER6Vmsyb3lWODJoVzNhMHNJRjdpUzRXcHFfMG8?oc=5",
       "pubDate": "Fri, 14 Aug 2026 14:51:01 GMT",
       "category": "transfer"
-    },
-    {
-      "title": "Ironworks Gazette | Back from the Ted",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBxc0lRU21YRktIQU40WGxKclBmMHhRYUdxeUpBdHB4ZGNGdzlCSWhBYWx4dEx4OFh6SmZpQVhjRGV0eU5RMmxWeUdHVWdUbVI0UHJLNjFFdW1LbWhBdnNjdXdOV1VIRlFjdlVFa003T2xnYXM0TVBr?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 18:16:10 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Championship predictions: West Ham to dominate and Blackburn relegated",
-      "source": "telegraph.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOT2FvM1hENG5jZDV0QWpTakdwV2JOdVNJSWVPLU1adGY3OVhPbDAyQ290SnhVNnU0YTRzTkhpUlZEM0FrVEFMQkZXaVlhVDdiZVpHamtmLVRKb1U3cFk3a1ptY0ViTjdRMk9IV21Sa2trcVFEUV84b0MwellEV3pUUDhWbngyVC1oanVYWm9TRlNJTnJvQkdoRURCWUpnQWh6TlY2dlBJdlk?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 08:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "West Ham bans much mocked half-and-half scarves from stadium for new season",
-      "source": "The Sun",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUU03bEZmbmh5dkNMN2J2Si1JYXVMMnVlVHNKU1lqS1kyMVNCWXRUQzQ3akc1SGtfZy1wYk5MQTVBbl9aeE1CWmRyOU9pUnlYMU12QnY0Tnl1UmxJZHNWYVEyOXItbGJzOF9ZM0FBWk5QRGVIUXpRMkN1U2VVSVNYVTB0QVV4U28?oc=5",
-      "pubDate": "Thu, 13 Aug 2026 20:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "West Ham will be weaker than two Championship rivals unless they make double signing",
-      "source": "talkSPORT",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUGN5ZGFOV3RFd2FJVm5Pb1Rjeml5SHZGUmtuOVRadGs5YjM4TFZsWnBqS3gzMHV6Ym83TTBvYklOYUNyTHgzc1NvRUxheXE1TDJxbVd1MC1WTWpIM0p2cVVtUDdfT1gxdmc5SWZYaGNfS2FaY05ZQVFfbXlQdUhNM2x1empDRUpnU0dZR2ZXR2VmbDhTRnJLUENxSQ?oc=5",
-      "pubDate": "Thu, 13 Aug 2026 13:04:49 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Burnley forced to make major kit change hours before Championship opener against West Ham",
-      "source": "SPORTbible",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPR2NkZlh3ejAzSHBacnVxOFdJd1ZRalVPNXYyeE8tdlJ1Rl9oYndfS3IxNG1sWWNKZW5yb3ZJOG05MnVpblg1eGloN3ZlVVU5dXBYSzFUQTNjT3pZd2FtVzlVRXd3NDFMeU96cUFiWEFmMnFkX29ZbFFkUnpLX25PLU5MQ2hXM1Z5cDE1ZnNBY2luZmVZdzJxVG15NzVhTDNsZ0VpLUdKeDVlQQ?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 12:47:28 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Carabao Cup Ticket Chaos For West Ham Cup Tie At St Mary's",
-      "source": "FansNetwork.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUEJxaWZVdGQ3cENGRnJ1THhOTTBWUWFiZjMtcmpxZ3NfMDV3MWdwWWxWQnVYc2M4X2c5WURlekVEbWx1SGtMY1R4WmFNQjJqdy1YLWQ0OXlYNU5od0d6MXJCOEpkTVhMcmlrQXFsbzZSU3E0NkpyVUNpR3lUU2xQYnZUNGxSblVseVpWNkVSQ3ZuR2F5ZnJlTzFnTVMwNzdnXzJWNU9aVGozc1JnMFREd2RqOXlyWXVreURN?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 12:42:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Knights names banking partner in Kings Hill - advised on West Ham stadium move",
-      "source": "Insider Media Ltd",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTEdOSFVhLUQ4aVVFOE4yUm5oZFYzX3U0TEVDSVZ4VjNFakFYckJDZnFLNTFDVDVJcjdKRXVGdnRldF8yaGNHT2xxblIxVm8tYm11cHBtQXc3TlIzYXRjYjk4bmlyNlNvSkI4ZmIteFRkRUVudjVOeTJMa0lVaGlLU3Q0NldtVFhkd0VhdzkwZUttU0t3OVpUdmJ1R1JGWkV0Q3pVMDRiN0VqcjVKX1ZGRnN4T1VnV2s4ZUZXa0hB?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 05:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Pro-Palestine football fans lament West Ham for signing Manor Solomon",
-      "source": "Al Jazeera",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNOXo3LVBSZExsbndId0VaRUJEaW84SVpXbmtHNHNNVU1aVmJ4QXd4aGVTZ1pNNWMtOXRyMmRraUsxM19PTnRhd0FfY3l5eTZ5bHNHMVBkVkhFRGxqVmZfb0NOQ3UtamYtQUJDSzlRYVUzcXZiQTZzMXp1bDhuWjVqVVVtUnU2clZ6UzNxWEZjMEVabmJZYnJsbVJHVjVSVVl2TXRsZzY5Q3ZDc01wRFg00gG0AUFVX3lxTE9lUkNJNUdjQ1ZESVdIb3ZnLU54ZjZ1blNsbTJ6UEd5MGZvOWRsV3JVODJmcjMwZHc2VW80NWMwRXNQcnlzSzFyODFIZDF1M3pJY1p3QVlWNEFnSVNYMk9GbkxlVXY4Vl9VMERXcldmMFdIOXUxakRPdFFqLWVzdDJuMFFVWWE1RnU2cFE2cnkwd21qcEsxcmgtaVp3b2xvSUVzeWhkbFNVR0ZLUFltRkV0eGhrZw?oc=5",
-      "pubDate": "Thu, 13 Aug 2026 14:48:01 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Pick of the stats: Burnley v West Ham United",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNS3VlUFAydDhRNFh2Y3pUZUNQZzl5SzdaNXd6cFhMVnVRRDg3VVlGUmhVcGJ2bm9DNDBGSXhaaVZ6cDlGN1ZoWEw5alRLXzE2X2ozbzNnT2p2QUp1TFFQUzNhbi1FeVNOM3dsRlAzbTZrOTRGcXNQUVVaSG1mTmhScHM0S0ZHdUI2dFg0ZXp4SFFHQQ?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 12:36:20 GMT",
-      "category": "general"
-    },
-    {
-      "title": "West Ham transfer news, rumours and gossip: Live updates and latest on deals, signings, loans and contracts",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNNWFya19GN2lCNEM5WURyN0R2VktrOGsxZkhZOU5tb19WckNaRDluUlFXQzJwY3FwWmhwX0hTRnVYYVl0ZWZWZkZoRUc4WS1YQUdNSWFVX3ZBS09iUFo1ME5IeXVpTS1zLURzNTZHc2FCWFJxQ3hoNm9kYW1vbXloQ19YWjVmbW8?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 16:05:12 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "HAYEN'S PRESS POINTS: WEST HAM UNITED",
-      "source": "Burnley FC",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQS0paYlRmNFE0azROZ0hJbmNMS25WRld6UHJlNHY0cUtMZW1XQ3p3cVo5Q2JIaUl6empwQnpsZHZfMTZMS3dMSzNjZ09yS1N6dVRNOHRzR0o0MTFxbzJMMWFMMnYxWG5hMmlxSlV4eVEyd0t0ZTlfX00xdkhHYnczOEQwNHJYOWFUbE1LQnZB?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 13:30:00 GMT",
-      "category": "general"
     },
     {
       "title": "Burnley v West Ham United | All You Need To Know",
@@ -101,11 +38,74 @@
       "category": "general"
     },
     {
+      "title": "West Ham news: Uncertainty in boardroom before Championship return",
+      "source": "bbc.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rVmpZTVVldkhOeXJOTVo0WFBkbnJVUlZ4eWkxZkNaeVJrcS0wdlUtd2hBZ0RYeVZvV0ZKUEtGTVhZM0M5Z1lyQzJ6ZDRPNEpFUXotaVZmc2ZpczB2UmNST2NGNjNJRFk?oc=5",
+      "pubDate": "Thu, 13 Aug 2026 15:02:56 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Ironworks Gazette | Back from the Ted",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBxc0lRU21YRktIQU40WGxKclBmMHhRYUdxeUpBdHB4ZGNGdzlCSWhBYWx4dEx4OFh6SmZpQVhjRGV0eU5RMmxWeUdHVWdUbVI0UHJLNjFFdW1LbWhBdnNjdXdOV1VIRlFjdlVFa003T2xnYXM0TVBr?oc=5",
+      "pubDate": "Fri, 14 Aug 2026 18:16:10 GMT",
+      "category": "general"
+    },
+    {
+      "title": "I’ll Never Forget… Keiber Lamadrid",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9SdVVINTh2a2RsMzdid05uQkdrdEZmbGxyZDlWZzd0aExwZ3VwUDVraTdhTkNrWVAzUk1GTXN5TWRqUjl6eFozZTd6bENVaXk3U1NvWUV2amU2MGpNLWhoWWR1Qy1TanhjLXNzYlI5OA?oc=5",
+      "pubDate": "Thu, 13 Aug 2026 05:34:46 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Selin Cemal joins Aberdeen on loan",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5HbnVpSnFHZEU3cXprM01MMjRGN2RmMmJMZkJtU0VYb1lOUWkyNUdLUlJGQVNvV1ltVDBNaHNCazdsNkVtcVBNZDQwUUFhUnY5QmIxVDhReWNGbUY0M1ZxUTRaOTA3WXhGY3N0V3dKUUhVZw?oc=5",
+      "pubDate": "Thu, 13 Aug 2026 09:04:50 GMT",
+      "category": "general"
+    },
+    {
+      "title": "West Ham United sign Manor Solomon",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5adi10Q0dfZEFQS1E1VEk4Z3p6eDdmVDJRSXJQaTNfZkF6X1J4ejBqRE1GclVnNUp6Q2FldzF6cnJLeXdxZ25YWHFpYkxDeTBFTmFCNEhqMHNHd1JDT1Y1UElWNUVlQm9hWldKT012WDNZZw?oc=5",
+      "pubDate": "Mon, 10 Aug 2026 18:02:16 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "West Ham United to make London FA Senior Cup return",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdVBQckN6Sks1WkdpMHl3eUJFcXVCczMxb3UtSnNUWXllVWF0WW9HbzdRWm4xZW1aWUV3Q3gtM25xV1N6cmVmaEIwMHFUWGVpcUpnbmp4blNWbmQ1dVE3Y2p6akNnZW03SnRramlUY01HVGsyNl92d1FxQ3JTbW9HOGpaamhtWFFZ?oc=5",
+      "pubDate": "Wed, 12 Aug 2026 10:02:52 GMT",
+      "category": "general"
+    },
+    {
       "title": "Third Kit. First Matchday. Get free printing until Sunday",
       "source": "West Ham United",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTU5pV0YyTzk1cVVLemlrTGR3c3IzeXVDQjhLM0Z1UkI2RUJkOTRGVExXQVp6OXplQXhwTVhFUkgzeGFUVFhOcm9lNjAxLWRkWS1fRFh0TF90OTAyVFFUTlFVNmxabW02Z0hfNlhVWFBKTVc5R2xzOFVLY1dhbjJaQjR6NVNrdWl1enRhLTBR?oc=5",
       "pubDate": "Fri, 14 Aug 2026 12:15:50 GMT",
       "category": "general"
+    },
+    {
+      "title": "Preview | U18s kick-off 2026/27 season with Crystal Palace derby",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNXg0aHhqVFpweDZNVlAtdmlUT0Frbk9WanNBdWVNRHg0NDB4NUdrU3R5d0psbXJjdFNrTmVFcGRzbS1zZGc0dEVjbFphVXo4YWl6VnZsbGNHMnI2QkludmRTZG9FanM5ZFdHWFRGRFNRaHJneE5OeGZxQW1qNU5YZ3p6VkMzLU5MY2hVUzJ4czd1Qml3d1JUNi1hVQ?oc=5",
+      "pubDate": "Fri, 14 Aug 2026 10:50:48 GMT",
+      "category": "match"
+    },
+    {
+      "title": "West Ham United's 2026/27 U21 Premier League 2 fixtures confirmed",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQM2tWN3J6U1lhWENWbG1yYzdnMFQtWlVLZW5LUzE3VExYOGxGRDBIVEQzVFAwRFVkN2FQTkVsZE5mdjNVYUh1dmNQc1lsUG5IclgxazJ2dW9ENzYwd1dMcVk5aFVMSG94SFlqeTI3WWNWdE5rYkNhS3oxeENQUlJ6dmZ1TDI5dWk4a0pkUWNITVo0ckNOU005Q2dB?oc=5",
+      "pubDate": "Mon, 10 Aug 2026 08:03:51 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Talking Points | Nuno on the big kick-off, transfer activity and stopping the Clarets",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPOTROV0xMRHdoWElLUDZjNzh1aFBjNXJseTRiUWJOb3pVYU1TMng2SS1aTm82SXVIOUE2MUx6M3VXTjQ0LTNNblpiNG1CSlhBUFlNTm5rSEthU3p1V1hRYWpZT0xpend1dUlLTW9EOHctd0o3WDNVNC16OEt0clRxWDV5czd6LVgxU1U0SUxYQWp0ejdmUHhsc2pGdW16bVdoclJkc1JmeUswS2xKbGRfWkJHSXVNQQ?oc=5",
+      "pubDate": "Fri, 14 Aug 2026 14:30:52 GMT",
+      "category": "transfer"
     }
   ],
   "reddit": []
