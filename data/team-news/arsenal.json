@@ -1,41 +1,83 @@
 {
   "slug": "arsenal",
-  "updated": "2026-08-15T06:21:32.561Z",
+  "updated": "2026-08-15T18:17:41.561Z",
   "articles": [
     {
-      "title": "Transfer news LIVE: Chelsea’s Fernandez deadline passes, Arsenal open Quansah talks",
-      "source": "The Independent",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUVJ0Rm5ueGplMnQ5bkw5WF9xSFZsdkd2ejV0M2FGSmREb3lrUkthSkIzREFZRU56RnlxZTB0NTRxNmlsUVYwYTFOLXVadVg2SmhxQ2pyclFobUYzX3A5WEQzS2lIUldoZE4ySUhiM2FXcVl3SmcwMkNhY1ZWdWpTc3lLXzFwYVFMN0tGWGwwRno1Rk9qNElfMkNqclgtNVBKeGlXTUdXdG5zY0NIbWU2OA?oc=5",
-      "pubDate": "Sat, 15 Aug 2026 03:01:11 GMT",
+      "title": "Transfer news LIVE: Alvarez to Arsenal; Liverpool get Barcola boost",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPUGFpcWJTcjVFUmVVVVJRc2ljcGZYczRvb1Znb1V0Wk56QzQ0QkRQMkQtazRvcGJLNVlSSFh6anoxanpGeWtTMUx3Tms1LXNNZjBzTUg5eHFQSWhsaXJQM05Sc2FzUzBBMVR4d1JHc1RZLVNwZVhZcXBHX2dhZTliV0NLZjFSeGk0ejlfYlVOdTMxMGlHSWVZdjNKMmVSWmtNSGY3amgtVmNoSDc1U2dlc0dyQnI4REhVSkNUZ0lWMnJFMFlpU1JiZjlWM2EtNjhtVlliT1VZWQ?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 13:54:53 GMT",
       "category": "transfer"
+    },
+    {
+      "title": "Transfer news LIVE: Tottenham close to €180m double deal as Arsenal chase Hinshelwood",
+      "source": "Transfermarkt",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPejFfUWRUV0lfVy02RWxydVB3eWN5SnpEb2NpTTRYWnlHcExZbGthSHJiRDJkMU9Oa0tDaGtTOFNKRHhLMlNmWnhFSXdwYmh5dzh1SlJBemdSdTlkb3ZQRzVNVWZmSUQyNmwxOUlZQk1Jc1hMbEtEcmJ1NTJ1SjZZZGRMcW5Fd3hSRGN0bUVNRXRPWmxoTGM1dGxCQ3lHVWVyb3dSRmk3ZUxpMkVOcFVpTnFkclp6SlB2b1oxR1E2SmdvemJIZHF5M2x5QlUtdGdK?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 16:54:38 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Community Shield preview: Arsenal v Man City",
+      "source": "Arsenal.com",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRDJuSXdPb2o2RW1XZEV0d2hPSlowazVaVV9kWFFqZVBOYml3RjlhMHZLMXBmZ2hFblFBNXhGZVBERTl0SnM4bzV0RkE4X1pWUWpyTGVTZTg1c0lHdTh1NnRQcFh1RHpvVmVLb3pxVkdiekNOc3NyUUxWT1JQeW92OHNjSTdLQkZvLW1tYXhn?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 07:04:50 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Ismeal Kabia joins on season-long loan from Arsenal",
+      "source": "St.Mirren Football Club",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1valRnMmVFTEZZdHY2TTVfTkdMcmU2alVBdUg1dlBlRHN6MUp0NDYtbkRfU19Yd2l6bWNqcjhpQmdUWV9wZWl2c2E2dExKZ2JfamtBd1prR0thWkhnd1NWVFBoLWFiaGs?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 15:01:11 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Arsenal prepared to drop fee for 26yo",
+      "source": "Daily Cannon",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Gem1JVkVGX3Z6QnYyaG5ORXJURzZ5b0lGNlBycGxyMUIwRmZmN09tckhSRUpFY1cyR1p2eFV3bTNNRWZYSXpJUVFlaTdSMXBCVm5tSUFjT3JEQTZjNHFrRmFqY2JMNVNm?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 16:01:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Transfer news LIVE: Arsenal ‘lead race’ to sign £50m target, Tottenham reach Gakpo agreement, Fernandez latest",
+      "source": "The Independent",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQVVjbjhJdjRMTmM0VnpaNzZuTVYxd0U1TUxad3pacUMxYVJKNzcwWmt0TmhuT3BCY1o0bWFneVA5cXJhRU1hQzZRUGkwV0l0bmlqa2NtYVh6VUtEODBTQ3FZWTdaT3hJOEt4Q0liWDFpU002OHh1UzY1Y3c0b1AxU29ZLWNPcU1PQlYydDJwM1VFMVdPekRqNjBhTG0zNnZrN2drN2ctU0hrZEJTbjZCTQ?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 11:43:34 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Arteta assesses youth player prospects for new season",
+      "source": "VAVEL.com",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbU92OU80V0gtdHJLSEtBMEVUOVFrNkx0amZ3S2NEb1dvYkVwSVVRLUpzTmNDSEt3dWtHS05SYjF0eF8xNkMyeFFGWGdaRlNUeFpvMXk5QWJER1RvUlctQU92X3gxbno3ODlYNVR2QXp0T2k2ejZjbXpScDlORFVjNnJhbGE3UkpDaGcybGRSMGotNzVpaGhJZ2ZkeU01emFYWlJqbGMwaGd4M2NtTm9IU25GazBQMW9xNHNV?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 15:26:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Victor Osimhen responds to Arsenal transfer links as Gunners hold talks over £58m deal",
+      "source": "Football London",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNXAwMWRQSTdOcC1jS1FNekxuak9EeGRkWkFuSDRPd3ByWHI1Z2RCaE9Sd1BvbS15X0NlMmhvT0liNzVnZ0dCa2xpb1hydHpGSlJPQnBERnNhRVJId1dsal92UWNaV1VReHk3Ny16S3l5UEVMVVpudGhNNUxmTndFaDFsX2xoN28zSmxVYU9ISjJUWmxFWGhidGxIWHBMR2VUdDhtRk1TUzXSAa4BQVVfeXFMTUs0RVhOVVltOGZlUjBhQXptSC1xSzltTHFwejRmRWxkMS1XN2RJMi1OQy1scW1IRjBYT2ZibnQ4MFhqMUUyczlGdVlxVHhaMlliT21WR2xpT1NaVmN4bTdwb1dseGRmSThGaGdZNGN1T2RGTFpocnNVMFpwQWhCR19hNXBlaUtoblcxVDdtSndXQWNNMzBhZkh6STFydzk1d09NcUxGRnh6SVRWQTZn?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 07:07:51 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Arsenal Risk Repeating Past Mistakes With Shock Links to Long-Term Striker Target",
+      "source": "Sports Illustrated",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUlhYSjkxamZQZ0U1eThOQlUySVZkVk5oRFIyVGhNYVRhNUlsWHY1cWlWOVZKMnJmODExbmxBMXBscEFMNTdJTV9zVjdCaUZiNURRd3RYVGFSMHRWWmtXS2VDODhESlQtTjAwQXBuZ09mUGFJUy0xZkVMczFBcGJ2MUxTa1Uyb1lHanMwQ1MtZmJQeDFVOVAzcl9B?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 13:30:00 GMT",
+      "category": "rumour"
     },
     {
       "title": "Transfer news LIVE: Arsenal done deal, Osimhen twist; Fernandez update",
       "source": "London Evening Standard",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOGl1Wi16ZFdtRVZEZS1hQ0MwNlcwbEtPRUJpYnMyaWhFNXZUY1UzaVJ1SVBGWlhkTjFUSmJRZ2xOam5oM0FOQTFmNDhLeHpZZXNJS0ZDMW5qQWFSVzd0ZU0wWWdfNlpiZ0hkNVZvYi1NMlJwdHo2WnNZTjJrLXFDSkFrZWZwSHBIZl9qek1MWkF3b2dxSXdoVEtCUkZnQzhhWFozSEc3SzRhTHdaUlVTTG1MNElta19FWnRkVVpzTW9ydUEzTlp0SnZWa1VISWFqeHZDR2tJQ2RnQQ?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 22:26:20 GMT",
+      "pubDate": "Fri, 14 Aug 2026 22:28:22 GMT",
       "category": "transfer"
     },
     {
-      "title": "Transfer news LIVE: Arsenal agreement; Liverpool get Barcola boost",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQakxUb2JXZ2c1QWN0MnBOY3FpYzVUaWhfWUl4YnZnNkZaYVRqMEVHeExzWnFlRlZlOXZRQ1FtaElSb2kxTGNPLWhRekNNVHhwUFBjU0tkb2VidGFPXzBYcEZua2JpdDFlSjRQT0pzQWpCTUZXVjFxeFI2RXJhUG8zN0tGRDJYNjZpelNyUHBqLUNNVEVKZ3RFV2UxWjdaanJKallJVzA1SkxYZXZ1ekxUYWRnUzctdUtLblVPU1JSX2tWWUViZFhGWW9HYU9OWGNH?oc=5",
-      "pubDate": "Thu, 13 Aug 2026 22:24:43 GMT",
+      "title": "Transfer news LIVE: Hall to Man Utd breakthrough, Arsenal want Quansah, Chelsea £51m bid",
+      "source": "Daily Express",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMzJuM0pvZS10TWJmZ1lVNXJEeU8zQXF6cTJqYUJCR2tlMkNwbEZDQi1fdzFUNjFOSlRqZi1xY2czOWRmX3VLeHNIX04tMUw0MlY5c2M3andQWE9NWm5nQWhoYk1wWkt0SUFqSENzX3BwTmxwQ2tBLUlKak5Fb1lGaXUxQUpzMXE3cFJJZDlQb2ZQMkozNld5anNEYjJoX05EdXhR0gGoAUFVX3lxTE11eEotWDh6UU1JYU4tYVdzQnkyOV9WZnBBdXE2VzFRU3Y3eEkwYjNDTHFyUTRKaG5pN1dMZEVlYUI1cG1PRnN4TFAwNElVNDdCZW5PbW1VbmVSN0ZfU2FITVRBNFl3VVpNc0RqZGFPNGtHN053Z1RMY0p4VWgzZU1TY1R0dDJPOFdfN1Yzekx3U28taWpaY2JSa3pvY0pIQ2s3LUtHMlE4QQ?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 14:48:00 GMT",
       "category": "transfer"
-    },
-    {
-      "title": "Mikel Arteta confirms major new triple Arsenal boost for Man City showdown",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVkZYaHJUN0ttVEJOSXp2TTRYMDdoUjNVTXZUNlk2emRQSll3Mnh3MW1BNHkyZnYzSDBOX0RlS2dhYXBxb3JvR21TM0hSM0Y5V2I3aEdxLWlWLXdTNzBOcDBTTFpvdmo2OGZxVXRYYjNFZC00NTdaS2VwYThtUU5FdFVxaVJXMXJ1UE1KMFBnUXU5RlZPcWkxMGpUYUZtZG8?oc=5",
-      "pubDate": "Sat, 15 Aug 2026 04:23:44 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Arsenal told to promote from within after William Saliba injury blow",
-      "source": "football.london",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOS2pEY1VoRy1PT1R3b2VfNHNqaDBRaGZBWm5mMVVnaTFLR3NwdXNRb3lob08yOHRteWRoWE1QZHI2WHFXbWMtemhabEt1NTQ3RWRZRlVlLWxsdGlDdGpuZ0Jyb2NmVEJ1V20xXzcxbnhTdE1EelkxLVJvRDZKbWIyVjZZV0gyd3VxSEhB?oc=5",
-      "pubDate": "Sat, 15 Aug 2026 03:02:34 GMT",
-      "category": "fitness"
     },
     {
       "title": "Jarell Quansah: Arsenal in talks with Bayer Leverkusen over signing England and former Liverpool defender",
@@ -45,67 +87,25 @@
       "category": "transfer"
     },
     {
-      "title": "Arsenal in talks for Jarell Quansah: Liverpool hold buy-back option",
-      "source": "This Is Anfield",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOR01pZmtQODA1M1Q2d0dsU1haMXRHd19TeWZ5aGgxem5qM1dmdDlJUk5wcTQ5RDI1UGNUYWVzd3pIVXZya184Qk9DLS11bmxEcmVoMGRPS3prSlNMN2xxakliWUR1d203S3V2WG9kNkJrd2hva1lKWWREWkZwSm45YVdJUkFuTU5Td2pLQy1FZVhNYXJRTm1GVQ?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 10:02:51 GMT",
+      "title": "Bayer Leverkusen blocks Arsenal move for their key man",
+      "source": "Just Arsenal News",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZXB4bXBKcHNCazZFSGFVUExqbDQyOFQwTmxVRDdqWURBRlplVjBLU3RTaVFTczh5RXdQNHRLX2kweFJPYmpjenZnWkZHMXhkZUlXcDZfQnpOcUpHT3NnUzhlOEllMUpZMG9sVDliMkt3dEpPTUhZUlZqT3JyWXdJbHFVT1FmVUtaeUN5eVdqZEJsYnfSAZgBQVVfeXFMTjFYcUZYZnpIMjQyRE9WbWFVMWNsXzd2WmxiTi0ydGhSUnh1bGxkSGhmbnVYSFlxUG1hZjYxbGEtQlN4cTl6ME1mUjhqVUZ1S2hHWWVtb0hleFhlQ3g2YS1lMjdBUEwwUXpuaWpScmYyQTFSNjEtQnI4cFl6QVVJUWxLU08xRmhFLTRuUGd3MHhYMTUtMjY4QXU?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 17:00:00 GMT",
       "category": "general"
     },
     {
       "title": "Arsenal interested in shock Quansah deal as key Konsa issue remains",
       "source": "London Evening Standard",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMmNWRlJVMFhrbWZtaEpDeXhkQzhUb1VtMndpS3Q1SHFNXzk0cFhIcDVfTzNjdHU1UHB6d2diWE5mYXZYQV9CdmhLVHE0YXR3WTYtR0Nkd3VfUzN1X1dSekNOSFNoOFU2am9rMG0zQ292NExKc0wwTHlpeWFFLWhDRXZVNTk2ZXRkSTk1YkNmVnowYTZweEE5cEVuZkY4R0l5RERaUkpBQTNldw?oc=5",
-      "pubDate": "Sat, 15 Aug 2026 04:46:45 GMT",
+      "pubDate": "Sat, 15 Aug 2026 01:46:20 GMT",
       "category": "rumour"
     },
     {
-      "title": "Mikel Arteta virtually confirms new contract extension with Arsenal manager set for huge pay rise",
-      "source": "thesun.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX1VnOXItOFdTY0ZDOVB6RWZpeUczOXN2QXV6RnM5aWQ2ZFotRHp0UThoUnpGejFzME1KcEJMUF81Yy1wWV9sTmtwVjRJYUpaTllzMk8weDNnYkxjbFo2VVR5TGd3Tjc3NkQyWkQ2UkVwYm9YRXlBb2VHNG80REE5Mkh4UGxkeU0tY2Fn?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 21:30:00 GMT",
-      "category": "manager"
-    },
-    {
-      "title": "Manhunt for suspects after Arsenal store near Emirates Stadium broken into",
-      "source": "Islington Gazette",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYWoyb3Y5WUlBc0c3SHhtcE4zUVJuVzJOenh6NTcyakwyM3Z4UlQyd2g5Zzk4cFpWTDVZNmNhbFhJeVItTEtuRDAxRHZFTVVBeGV2bWVWWjU1R0dKUGFPSVhNY0VadFlRMFU0d3YwRkJ0ckwzSDdjVk9QOFZiMm5makh6QkNqWUhZV0ZzZF9WMTJUcGtZR1FEZWJETTFzZFZRUmtncw?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 14:33:19 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Arsenal informed that Gabriel Martinelli has no interest in Galatasaray move - The Athletic",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVUNnYjExRGRPSmVNRXk5QU9wd0t4ZzVWMDZnbVpSd014UUV5ZW4tQ0hpSU52anFnRzRVYnFTemhPSFN2R003LThFTWszeU85Zmc3bHBOUFlOV2RoZ3VnS3dsT2VpSllJM3lodWU0bmcyQWFKc1UxTkV1dGx1R01aWUhkeVUteDFEM0hlTHljMjVBa2t4aGMwaUhMY0FiRzZIS0E?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 16:16:02 GMT",
-      "category": "rumour"
-    },
-    {
-      "title": "Arsenal face huge transfer decision as bid made for statement signing",
+      "title": "Arsenal vs Man City: Community Shield prediction, kick-off time, team news, odds, h2h",
       "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZmkweUFXc1MyR0FQTzJKWnlIYmpnS0NrbGFmckNzeXVKSmhlMHdsbzRZdkpPTFVIb0NGU2NmOXBfT2dsNWZhTHV6S0ItZEk3cXlyNjAwZGIwYTRKY0VOYTJlQTVfZG9GclFfa3VTN3NzS2NpTDRPRGg1S2FMb2dOZWV2SHRfUHMxYmtEakU5UjB1S04ybGNnNUJIZjNnX0xGdWVDTkpKeDcwQmhldW1lRg?oc=5",
-      "pubDate": "Thu, 13 Aug 2026 08:08:17 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Arsenal transfer latest: Why Martinelli rejected Galatasaray - and could it affect Barcola pursuit?",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSU9Bc1NHenJ1TDRZc0Q5endTemZTcDY0ZGVXV0pQQVlRSTIzUFFlaU54NnVwLVYwNzFybmVyZWxUc1UxTkhHNTlYS0JWX2tVa2NGNElkLU15X0VMYmIxSEs0VHN0U3d1N2o4V2c2QVktbDZYM2t4eFNJWW84dmlkR0NnUEQ1QXVTLVBXdTI5cGZQUnVmY2s2OHpIa0ZveDNhR05rRE5jLU5LZmRxb2ZR?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 18:39:32 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Victor Osimhen to Arsenal transfer fee demand as Andrea Berta could strike triple deal",
-      "source": "football.london",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSWF3UXBnYjhnaUh2TUE3WHZtT2FhVF9SQloyZzNpRnh0UVM2Wm5oc2VCcEJLQnR5ZU1HbmJqVGdsX3hoTTBMSlZSV2FPWl9qdzVlcXBhUElrbEpyaHZGZTBQdmd3RnFTQVBqVmZwd0x0RnVjdHJ5LVdnVGRob1pMSDdxcUtLbnFzdThERVJGT0djSHFMaTJkQ2IyUjBkTGPSAaQBQVVfeXFMUFJnWXpkM0ZjSGtSNlNIZUpjS3RXVER6M0locm5FbG8zVjh6M01TX1MxMDNwVy1wLTFXaGtNTlkzOVFpVl9FVWRUR0xmN0N4MDFvczJUUTZKTUVCcXRjVl9iSFZ3WE1HM2N3c0FUWlRuMWt4YW9EY29USi01cWIzaVkySjhvNEJWREdyZjB2WEs1Ml9xYThpWnozMXpVZFJILTY2SFo?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 12:40:51 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Victor Osimhen bid rejected amid Arsenal and Galatasaray 'talks' over £38m deal",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeHBLTDdHa2cwTk0tNDhBTnNLak9MV0dYdUpySnU3Ym9qUVpUa1pBRFU3Q1lvNGU3SHlvZGxVYk9xcmtDQkpaUHA2QVFwYnpYZDJUM18tZHZneUtLYjJ3ckpDeEY2bXlLU1J4c2hzSlZYTUlZNHc1MXp4ZHNJM1pmbmVFZUR0c2R3WE5IQ24tU0UxQWx6YjZZeG5JM2lDNXBt?oc=5",
-      "pubDate": "Sat, 15 Aug 2026 04:09:36 GMT",
-      "category": "general"
+      "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPSk9HRThBTF84MUEzaXBxeGFkSnFyZGJjcWlsWjVneTkxVld4MGNpOE1SSlZVak12SmxXVnpXb2Z2WlVQTDZ0VUhVWDAtOVhLd0JadVFJbTdCYzF1Z1NkLVMyeU9Jb3YzbWF5amI4T1BZeUpzVlNEc2FLenUxcjhWTFJUaS1LWkVOTW1WZXZPU25ISGF5b3JfNWUtSVVfQWp4M0t5Szk0YjJtR1FvWHJDTlh2UDk4QUxKb0stLVNRT3RMLUZXMFlvbC00d0o2NW1NYUEzcC1jME5pcWxrRVJtSVpFdFNTbzlBU2pzendmMkY1M0ViSnZ6RlByZ24zVFMxT0lhLS0zLTBNMmJNSi1R?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 17:22:45 GMT",
+      "category": "match"
     }
   ],
   "reddit": []
