@@ -1,12 +1,26 @@
 {
   "slug": "ipswich",
-  "updated": "2026-08-15T18:17:41.561Z",
+  "updated": "2026-08-16T06:24:34.261Z",
   "articles": [
     {
-      "title": "Five observations as Town end pre-season with 4-2 win at Union Berlin",
-      "source": "eadt.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNnJlOWxnSGEyTjRIQjZkZDNlYk5oai1QMlpiVEJfQ1YzbmFsUUtrclZmbVA1dUZsbHp3al9MZkdwQXJ6b19BZkxQVC16RU1Lc3JTeUVUOXFJNUgxREsxNFRYYlNXUXFIdWhDQzdTVTNrX04zTHFycXBuQVI4US1WZVZ2RlhYRHROWmlCRzVYQmt4VVlxZ3l6RzNUUQ?oc=5",
-      "pubDate": "Sat, 15 Aug 2026 15:31:00 GMT",
+      "title": "Matchday Recap: How Town's 4-2 win at Union Berlin played out",
+      "source": "East Anglian Daily Times",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQnA4MWhEQWtDc2prZ2MtcnptazdMYW9ZbjlYSUI2NjE4cGVGZ0RKNVdNZmxkUlZRLWw5YWloN2Q0VnVlV2JnNEU4RTlObDROMERFZVZCbGlNcktZOXM4V3RESk1OcmRZQTlFV003UXpKbVBwNi1hT2JMVk91ZldsVm04MTVSSlE2ai1TbUNZOXUwZ3R2?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 12:41:05 GMT",
+      "category": "match"
+    },
+    {
+      "title": "UNION BERLIN 2 TOWN 4",
+      "source": "itfc.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPR29MWUVkaUJxWFZvUFZpMS0zTGpvY3VMM3dFWXJyM1hRU003bnNsYkJsaTVnUS1NcFF6NVR0cVdYUms4NnRnVHdpcEt6ZGJlNThVR21IMDROUU1McVRxVFBRSHJzN0MzMjNqczdxUnh4dWdqQXh6T1J6N2lhU2M1UllR?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 15:22:51 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Union Berlin 2-4 Ipswich Town - Match Report",
+      "source": "TWTD",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNjZfTVpxaHFtRVA1X2NZUHFRRXJzOXdxalY5dmhSb3VaWXpLSUFfdi1TWmt4dHNGT2tCaWZuUFRlb09lZExCaWtBMUNHREhZT1dWY0JFZUttYjZ3Ql8yR2tJSFBJNnIzU3lNMVpwNy0zR1FUOVRXLUpDc200SFloMVN3RXRhaFBZZlZsTTd1bk5mWkpo?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 15:33:00 GMT",
       "category": "match"
     },
     {
@@ -17,95 +31,81 @@
       "category": "transfer"
     },
     {
-      "title": "'I worry about Ipswich' - Pundit Goodman insists Town are set to struggle in top tier",
-      "source": "Ipswich Star",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbHVjM1pLc1cwMEVaWEFWTkJiclVYUi1ESmVFa2ZNUlRNZ0pDejhpMHFCN2F5VEJzMnB1Z055dHBKQnh3cnBhSC1SWUlQajltc0Juc2FPTm9zSkJtOTgzUm1fVTdvakJEMF83RkNzdGJISUc1NldOczgzVzlReDdBT0ZIZHVVM0VwWDBEMm5UTkRMd3BVUm5v?oc=5",
-      "pubDate": "Thu, 13 Aug 2026 11:00:00 GMT",
+      "title": "How will the three promoted teams fare in the Premier League?",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc0gxbnJIOEpPdGtOcHBQZU9HSk81cTJkS3RRSkdxT242THFoUk9IVG0yMXFGM1VlRzF0WXpRbjhDeDhUTEtmWHFCci1mUGtJSEFJWDFiakM5RUFQNHNqVk9jb0RGVThvV3pReHZPczdLSklBTlNkWFFXQW1TVDZoeVlJc2w3bnJuZ0EtblYzNlFSWXR2b0VjZ2Voa2VZWU5wR2ItS0JWN0pCVzFhMml4eU9DZG56RFE?oc=5",
+      "pubDate": "Fri, 14 Aug 2026 11:37:00 GMT",
       "category": "general"
     },
     {
-      "title": "Ipswich Town transfer rumour: Blues linked to towering Man City defender",
-      "source": "eadt.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVU5GZWIyN3NFU3JkQnFLTk5uZFZ4N1gwMDM4MHpFVnBIZ29CRC0yM2dQWG55X0tMQUVWQTdYenVMd1FZYnNaOFJYbDY1TndqWWZoeWFSNXM3dnhQSk5kaWExbXMtdk91TWlZZFJVTHBqbklGa0lHNU5pQ0w4Tk9VejZ3VjRnMlNUek04OVJ3?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 06:10:49 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "TOWN FACE LEICESTER CITY IN CARABAO CUP",
-      "source": "Ipswich Town FC",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObWNmaHlSaUJDME9KZURUajFNS2JnN2dCOENrdTg0Tnp5QjhNNDhPZ21BeTV3MWlxOGpOb05zejJ5NkczVWowSzZuMGFPV1BrSVRDOVc2MTlpQ1BNeVZmV2xBT05XcHFQbm9pWkcyeEpPQV9ZeWdFekFBekd4VW9PWU1pQnppU3l0ejBr?oc=5",
-      "pubDate": "Wed, 12 Aug 2026 15:43:00 GMT",
+      "title": "Ipswich Town’s biggest gamble isn’t the £107m spent",
+      "source": "The i Paper",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9TSThGekM2cmtxb0lkWXlId1ZjMkJLWm8tUzI0X0o4a28xc19DOTBPVFhtQTdZelI3YkFJWkF2NFdZX3ZJcWFoM1hIOHNqR2RhdXg0Q2czR0VCMTNWVENHdXRfZkpkWGhuMHpqcmlrRl9NZmFzNkU5WFRB?oc=5",
+      "pubDate": "Fri, 14 Aug 2026 05:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "'I'll always be one of you' - Clarke's heartfelt farewell message to Town fans",
-      "source": "Ipswich Star",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZTlRRmlMaUppdFNuV1I5dHluM2k2VlhOenNIRC1sZk1DR0JJMDgwVURmUTNtM1YtbUJxMDFOQ0thWHp4cmw2VGVkTU1tUmgwT3lwNDgwMnh6VmtpY09UV2U2alVYRVgzN2hOVF9DWnVNd3pES2ZFblkzXzZUVWhwVERSN0dhZmNlWWVYQ21RYVBkWUpQMkRJXzEtRm8?oc=5",
-      "pubDate": "Sat, 15 Aug 2026 06:46:44 GMT",
+      "title": "FPL promoted teams: Who are the best Ipswich midfielders + forwards?",
+      "source": "fantasyfootballscout.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSWpiRjhSbkMzVl9SdmZyTlN0Y1gzdWpqQmhNMHhnNUlOZUpZOEItYjM5RHAzN05PTm52NmxzRmpaZE9BcHpyMGlaVC16aVVyYWthaEsxQVRrc0o5cXZCOGFTaFZTSHp3eG15a3pJZzFGTUZQMUtPMUJXa0ljenIzQnVQNWJvUzRIYXM5ZVVBemtTUDBuQi0wRUFWSWhzUFIzOUdpZlpXdHYxMWI5REJSVGM5SThVQQ?oc=5",
+      "pubDate": "Fri, 14 Aug 2026 06:51:14 GMT",
       "category": "general"
     },
     {
-      "title": "CLARKE JOINS PRESTON",
-      "source": "Ipswich Town FC",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8wMlBZeXppX2Y2UzZ6bEtOV0xnelZIZDhyVlZoNjhjREw0dWctNEVCMHdMXzdiZ0hEZG5QOGVLOTJCV3RheEkycXN2MEdSdFFDeFpkdm9iZmNNRm41eG9BM1U1Zl9rTDY2WExrUGZ1ZEJaUQ?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 17:56:24 GMT",
+      "title": "The last Sunderland XI to face Ipswich Town at Portman Road - including £14m winger",
+      "source": "Sunderland Echo",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUExlemVJNV9wdXNITThWc2dZWnpYOV83SURqRkItenRRaTRqUnZXTVhUaTdwQUlIaEhFYnRZTUtCdUlIZS1BYnlCN2JjYkgtcGRXSTJnNXdtcHlZckJSaV9YM0dsMXRUTE0tYS11NF9jN1Vad2k5cjZtY3l5U0dnQ3dhaklCMWpfQmhMU214Tm5OcFRZdWc1d0ZCbVo3cnVzN3hvRVZud1ZMajlIUk5hMjNSdVJaWnBDbmc?oc=5",
+      "pubDate": "Fri, 14 Aug 2026 18:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Carabao Cup draw as Leicester City draw Ipswich Town in Second Round",
+      "source": "Leicester Mercury",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNnluMG1pQzc2c1BsVHJmbURoRG42RlJEYV93X3JSMU1JRDBpNVhEMjJjemwtencwODVfdnZkaHZZcjZaOVlYSjhIUmlDVXQyemdrcFVkV1JZQjNvV3FyY21VN2tnYkVjRHRnN3BCWnBPckxyRE0zeC04V3ZmbTlBZndUcV85TTlwWTdlYlhxa2JxUzJBQ3k0bWxhZWhBN0laeWRJWGxCbUJ2TFXSAbABQVVfeXFMTUtyZXdieVRSa0NKZENJZ2t5aXJVZWI0aEllaEZ6X1h0YS1Haks2NGYtR251dDgya0gyeVdoQTdXaHFiVUlTWl81N1ljNDJDTV9hNmpKNVdSQlBNV3JhZkl6OGdWcU1WaHVWQ04wS09QV2V6R3FCWW5HdDBvZ1gwN3BJenVLQ0J2bHBkUndqNW1MLU1OV2pxeDZLRW9PLS0xcVVuNHI1Mmx4SHVNRW9lRU8?oc=5",
+      "pubDate": "Mon, 10 Aug 2026 18:39:57 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Strasbourg’s Abdoul Ouattara set to join Ipswich Town",
+      "source": "Get French Football News",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPT1JuemZuaWhRVHd3QzJxT2JxZkhzS2FabTFLZDkzWFhFMXZLaHlMOFBMUS1PU2JpUHBLckZxU3ROOGZwZGhtdGpqSFZ5TTdpc29OVEdiYmNWZGRUclFMWnRyWWRwb1laZm9oQi1xSWdfSHRxVmpYWjl1WnlkcEJzTVZuc2FrSWpLWmRzeE52TjgxN0lZMVNKMmxSbnI?oc=5",
+      "pubDate": "Thu, 13 Aug 2026 11:56:04 GMT",
+      "category": "general"
+    },
+    {
+      "title": "BALLOT INFO | CRYSTAL PALACE (A)",
+      "source": "itfc.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYlphWlpUV1pRQUxYbXRLUXZoSkdteGQ3bThQdk0xN0JlT0wxX3M0eWVYNS1jeWd2bTAtT0xDaHhLSkkyQ201bWVLNV84Vi1wckJRR1BneUVrejFvN2lhX3h1OE1mc2JRQkJabnh4dW05cC11YVhIdllvcS1ZYUVXQkJ3?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 12:26:07 GMT",
       "category": "general"
     },
     {
       "title": "Transfer rumour round-up: World Cup wing-back to AC Milan midfield man",
-      "source": "eadt.co.uk",
+      "source": "East Anglian Daily Times",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUnpyS1RRUkNKSmVTMHZPT1lJRUlyQWo0MVNnaUV5bnJpUlI3TTc2UmZVVTB6cWgwM1hwaVg2YWJVTkljTFVoQjNPUUpGZGZoMmJwZDlnQlFYVHd1LTNZSjRFRXo2WmEwMW9xMXpBdU14QUdSbm1URUNMMTFlS3RqaS1FY21fTk5nRlBESVVqNnNnWW5wb0VkWktYZEVWM3c?oc=5",
       "pubDate": "Fri, 14 Aug 2026 11:00:00 GMT",
       "category": "transfer"
     },
     {
-      "title": "SEASON TICKET DOWNLOADS",
-      "source": "Ipswich Town FC",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5icUdwb0JOcDR5U1NnUUpLY082VF8zeTZmNEhYTk9TUDA4ZUY5ZzJaUnpCdGZRMWY3eHNXS2JlWDB0Zm15YjJRN0VnMERGOWpEeWhlRU11NFJWa00wRk1MN05MQVZVdGY1MmRHMmJ1elNjcHdqSkE?oc=5",
-      "pubDate": "Wed, 12 Aug 2026 08:59:49 GMT",
+      "title": "FOLLOW UNION BERLIN CLASH LIVE ON TOWNTV",
+      "source": "itfc.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSFNBX2RWWmViWWM1cE15akktWmRxbmhKUXMtN1RKSzRlYTQ0V1RVdG5oclRBNnFYU2N2b2o5RmE3SklMWE5VX2d3M0NpMlpqUGNTSmNyanVxaVI0Y3BoMGhpMzVXMHo4dlVyY3k3bjdFNHdZOHo5RzQyN1VaN3hUYkhiU3pvcWs4eHBOUw?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 10:32:12 GMT",
       "category": "general"
     },
     {
-      "title": "'We're not finished' - Ashton on £100m+ spend, new data system and owners' ambition",
-      "source": "eadt.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTEx0dUkyeHFESkx1NVpZVnhOYUd6UkVvS041THpDcW5PbnBBcUh3RWI4eGdvbjA5b2pHcFc4aHNwY25sNy16ZzZSMmRhbmlhaEhwRGNrUmc1S3pid3VYbXozcEJPRG5DZGpsbWVzT0MwcDEzLUhwRjloMWRzaV9sVDQxTHdpVGc3QUVVc25obGVQN3J6a0E?oc=5",
-      "pubDate": "Thu, 13 Aug 2026 05:00:00 GMT",
+      "title": "Lukic impresses as Town finish pre-season on a high - Stu's ratings from Berlin",
+      "source": "East Anglian Daily Times",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMVE1UlF5eU1SM2hLX2hGb3FMWjAtRW9Fb2RNUVdVNDJ6OXdqR2xTZm8yWGxkQndLZ29EenVRZGJ1WWJHbDI4V0lOX1BINEFia2lXVVFWUnhNZjZISTdCY2lzUnJTVGg0Y0ZwRGFiNFZsbWFCMTY2ampvRkpucFpEbFBBUkZiM01kUTUyQmFUQ3k?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 15:41:56 GMT",
       "category": "general"
     },
     {
-      "title": "U21S GET SEASON UNDERWAY",
-      "source": "Ipswich Town FC",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA4WWoyajBkZnhfbXFaMzVWYWh0N2NwNlB2U0dZZzU2THc3MXU1YVAzYXdxREtOakhXTmhheXg2a2Y0My1IQ0RRbWZ0VHI1eUFLVjJsWjdLTVZkV2dpeFhVT0dUTTVvUjVESTlLTUtlNTN2bVFlUHVr?oc=5",
-      "pubDate": "Thu, 13 Aug 2026 13:11:09 GMT",
-      "category": "general"
-    },
-    {
-      "title": "TOURS ON SALE FOR 2026/27",
-      "source": "Ipswich Town FC",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhb204UU9WNWxvMnU0WWtRUElKXzlBWi1pTzd5MVJHTDBmMjdFNFNJUXhJT05kcXNvSmROcEp2Zzd6NDNaeFFmMWNBXy1UQTgtNERINXFadUZjNEwxaWRlWnhFMjJUVzBzaWdMMFFzbjBIVG9OWVo4Uw?oc=5",
-      "pubDate": "Thu, 13 Aug 2026 08:57:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "TICKET DETAILS | CRYSTAL PALACE (A)",
-      "source": "Ipswich Town FC",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPVjQ3TEhQc0NLbHBXNmhUMENrV1dyYzZzeFFlbmRjSXByOFZtV292MUl0U3BhVHRMUnF5UUQ0TnFwMGp4eEx0VkdTN0FtcEE1Q0ZTbGthN2E1VUJ0NlVPQTZEemFRczg1Y0xEdHdzUC0zWUZpb2JObk1scTIwQURqMDZTNG1zUQ?oc=5",
-      "pubDate": "Mon, 10 Aug 2026 12:47:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "TOWN U21S PL INTERNATIONAL CUP AND PL CUP OPPONENTS CONFIRMED",
-      "source": "Ipswich Town FC",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOWkxwUDVlRGc0M2tFU0xkeDRBUnFFTHNPM2NSWmFrckVDaU4wa3djajQ0RmpaUGJFQnlYSjFKbEVZX1Qtb2JjOUtUb2NmTVF3ZThCYWlXTG90NWQyZmlDWDNyRm9qdnNkV1R2SmphbFo2TEZBNVpUQ2RnRUFPaXJuS2V5d1U4bVdfaWFTd1NCMVBUb1V1bVphVmtDZE5oS3NjVEFQNHR3ZDI?oc=5",
-      "pubDate": "Wed, 12 Aug 2026 11:15:13 GMT",
-      "category": "general"
-    },
-    {
-      "title": "TOWN SIGN SAŠA LUKIC",
-      "source": "Ipswich Town FC",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE00T0lDQTBpRDdmOVVuM21mTDVpX2RLSTdIZHlOakY3cU81R3lrSW53YzF5dXpxZFhhX1JYWHlLY0NPMHlQMW14WFN1Wk1BZVJCRGJwMTZ3YVY4bUZjeG5DdkpuZmZQXzBpYU9wMkR4MzF5Zw?oc=5",
-      "pubDate": "Sat, 08 Aug 2026 10:30:00 GMT",
-      "category": "transfer"
+      "title": "Ipswich news: Tractor Boys conclud pre-season with win over Union Berlin",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE54Wlp1ZEdoZTBBZmE5VEl6MGVkVUcwNXlUbHlONy12VFdXcFdKdXhlZVI4bFM4bjNXdW5nS1drWENrY3ZuWTREc1JSWmpzdWRhaU1valc0aHNOQWRHMVFaU1dNOVZvdnM?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 16:08:25 GMT",
+      "category": "match"
     }
   ],
   "reddit": []
