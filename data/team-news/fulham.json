@@ -1,33 +1,12 @@
 {
   "slug": "fulham",
-  "updated": "2026-08-16T06:24:34.261Z",
+  "updated": "2026-08-16T18:17:54.136Z",
   "articles": [
     {
       "title": "Four things learned from Fulham's 1-0 win over Stuttgart",
       "source": "VAVEL.com",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVmYybm1XYWFOX25fc085RDBPQnlTVy1TQWFkNHNGcFEtaVF4RFdsTVJGenJiNkVHa2h2OVQ4T3FUaHI0dlo1Sjl1YjhHZmoyMG92d19tVmp3MFZ5S1JVeDg5UXlpM1hjV0dObGpKOVVvUnBDRHE0WFNNcExzLWhJX2NraWZGanlhMmxoQ0Nzd1g1WHg2V1R0QU1vVWZrUlpJX0VsdVh2cjlxVlJPdVQ5QkNJT3gzQ0loakJOS1hR?oc=5",
       "pubDate": "Sat, 15 Aug 2026 20:59:37 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Fulham FC owner’s jaw-dropping £2.4m-a-week superyacht seen in Mallorca",
-      "source": "Majorca Daily Bulletin",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSEo5SzloR1BVOUNiQXByVWd1YW9ybVotVXdLOE8zbDFWWFdub29teWFSeXJwSVZ6QlpPbXQ5TVlWTGJiVVI4a3BVSzJKazUyTm9IZXlmV3FKWmxnQjVkTDhoaUYwdEJhdnNtbFRmZW9OQ01WWktTMHZCQ0RBRWV5c3NQc3p0WUZVRVR4UTdQYzUtaXZjVzdaMW93WDRjWlRfTmhZakdmYVV3X2pXSHg0NnFzTUpKUW5SN050MGlNOGppUEk1cmxzdnhB?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 13:44:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Fulham live score, schedule & player stats",
-      "source": "Sofascore",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE85WTZOaHhwd0lONW50T2wyWUVTdTdrMDVCT3FMcTVUNEdfRWVIY0FoYWJvdlBLdnRpOWhPd2x2VFlTc05WSThxdHpieTdZWExsdEdnc29CREVCQ3ZPSUE?oc=5",
-      "pubDate": "Wed, 05 Nov 2025 21:38:25 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Fulham vs. VfB Stuttgart Lineups, Live Streaming, How & Where to Watch on TV",
-      "source": "Athlon Sports",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY3ZOVzJNOTFwRXEtRkxaWEFDcG15cnMxZV9CbmR0VFRORzVuUE5wbW1MZGtrRkZ2eFp3c1B1dTZtcEtqa3pUMkh2TXJPMTBkcFE5UEpXNmJMSkdwaV9SMDZjTTVPSGpGX0N2RGV0TGp4UWd4cS1hX0FIeFAtcC13S1FiRl94UDBnN00wS0MydWxFcllKbm9DU2ZoTFlIQWVkeGdVY0Jn?oc=5",
-      "pubDate": "Sat, 15 Aug 2026 13:30:00 GMT",
       "category": "match"
     },
     {
@@ -38,11 +17,39 @@
       "category": "general"
     },
     {
-      "title": "'Better than any transfer' - Premier League fans hail stadium upgrade announcement as 'filthy' issue finally dealt with",
-      "source": "The Sun",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUGtIbmJsSF92cjh5Z0g3SWtKMEZGT2ZyRkVBZFBNVjBRMzU1aUZlLUJEMjdab3hITzZta25yMmJLeFlGREQyOEZpYTlibThpZkVnMThXUG5GQkloUnpqaUItQ1o0V2RnX2s5WGRlR1N1NFAyWXItd3BpbDdPSkZPNGJR?oc=5",
-      "pubDate": "Sat, 15 Aug 2026 11:45:00 GMT",
-      "category": "transfer"
+      "title": "Castagne heads Fulham home in solid win over Stuttgart",
+      "source": "Fulhamish",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBsUkRBVXFLZV9aVmF0ek9TQlYyYmdRZEh2ZVRXeFpBT0M4RXBpOEExQzZfR0VfRWY4NEhndUpTcHJNVzdBQ3RQeXo4c3FacW9fWERGYjdUeUpjYUdBblR4N2plZjd5YllCMHhQbG5EMjI3Y28?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 17:22:42 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Fulham vs. VfB Stuttgart Lineups, Live Streaming, How & Where to Watch on TV",
+      "source": "Athlon Sports",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY3ZOVzJNOTFwRXEtRkxaWEFDcG15cnMxZV9CbmR0VFRORzVuUE5wbW1MZGtrRkZ2eFp3c1B1dTZtcEtqa3pUMkh2TXJPMTBkcFE5UEpXNmJMSkdwaV9SMDZjTTVPSGpGX0N2RGV0TGp4UWd4cS1hX0FIeFAtcC13S1FiRl94UDBnN00wS0MydWxFcllKbm9DU2ZoTFlIQWVkeGdVY0Jn?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 13:30:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Fulham 1-0 VfB Stuttgart: Castagne goal enough for victory",
+      "source": "VAVEL.com",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYUJob0VFeTR5NWg1VDNFUXIwb0ZsSTJBZTVYdkZ5Ym9QWEJTRjFZZ1dZNGs5N2ZWczRyWlRxdTFtVHRtRXpjbFpuWGh2MlpvdUVCRmZKR1FhYXBIUkNyMlQ4dWoya1F6Tk54dTNOa0lTelYwQnIyX0xzTW0xd2VnSG1DSEF6ZHdrZlkyWnRwY2h2WWlzd1R0YnlIZXZzOC1faVdJR2NSUF9zbk1ISFU1SkEydGpVcGVLOVoyUElFWQ?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 15:50:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Fulham live score, schedule & player stats",
+      "source": "Sofascore",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE85WTZOaHhwd0lONW50T2wyWUVTdTdrMDVCT3FMcTVUNEdfRWVIY0FoYWJvdlBLdnRpOWhPd2x2VFlTc05WSThxdHpieTdZWExsdEdnc29CREVCQ3ZPSUE?oc=5",
+      "pubDate": "Wed, 05 Nov 2025 21:38:25 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Fulham FC owner’s jaw-dropping £2.4m-a-week superyacht seen in Mallorca",
+      "source": "Majorca Daily Bulletin",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSEo5SzloR1BVOUNiQXByVWd1YW9ybVotVXdLOE8zbDFWWFdub29teWFSeXJwSVZ6QlpPbXQ5TVlWTGJiVVI4a3BVSzJKazUyTm9IZXlmV3FKWmxnQjVkTDhoaUYwdEJhdnNtbFRmZW9OQ01WWktTMHZCQ0RBRWV5c3NQc3p0WUZVRVR4UTdQYzUtaXZjVzdaMW93WDRjWlRfTmhZakdmYVV3X2pXSHg0NnFzTUpKUW5SN050MGlNOGppUEk1cmxzdnhB?oc=5",
+      "pubDate": "Fri, 14 Aug 2026 13:44:00 GMT",
+      "category": "general"
     },
     {
       "title": "Ticket exchange update: Members priority for Brighton match, Fulham away opens | News | Official Site",
@@ -52,11 +59,11 @@
       "category": "match"
     },
     {
-      "title": "Olympique Marseille ready to rival Fulham and Bournemouth for Scally",
-      "source": "Bulinews",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMklPTV83czh3SHdoZTlYdllxV3cyUnViemhZZ1hHaEZzNHRXTGZ5NGprVG9Yb2p2aVhOOUFlaWpTVHlRNGF0UndBRzFpclZNT1lQUDl6N0VtTFlUQ1o2UW1ObVlnQkVzUGpTdWtNLTJDZ0RwOHZZS2RsSGVqTE90eEVEOHZ2U3duX0l0am90MA?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 11:34:00 GMT",
-      "category": "general"
+      "title": "'Better than any transfer' - Premier League fans hail stadium upgrade announcement as 'filthy' issue finally dealt with",
+      "source": "The Sun",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUGtIbmJsSF92cjh5Z0g3SWtKMEZGT2ZyRkVBZFBNVjBRMzU1aUZlLUJEMjdab3hITzZta25yMmJLeFlGREQyOEZpYTlibThpZkVnMThXUG5GQkloUnpqaUItQ1o0V2RnX2s5WGRlR1N1NFAyWXItd3BpbDdPSkZPNGJR?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 11:45:00 GMT",
+      "category": "transfer"
     },
     {
       "title": "Wigan Athletic set to complete loan swoop for Fulham midfielder",
@@ -66,45 +73,38 @@
       "category": "transfer"
     },
     {
-      "title": "\"An insult and a lack of respect\": Arbeloa becomes \"the laughing stock of Spain\" after the Malaga incident",
-      "source": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPZXBkUUZvWUU0VGR1OXJzTEwwQXQ0SkU5Q3laaTZ1cjVSSjBJU2ppVG9vNTZRY0xySnZZSXVwN0ZLRFljazJuNU4tODMxSF90U1BWbEpDaTlsamNSbDhNT2ZtQ0l6LTl3WXNzV2REdm5yWWdCVFhMdFdWNENIT0dQWWttWnRUWEhYbkNEZGFaUTJBOElNU1FwbTRIUnpEQk1HR1VieFBoRkRSRHVhS3M3NlBZTlFwM01GN252ZXU0Q285TElvR1ZWUGpXa0RsRl90S2czNFFLNnpWTkZybWx2VkJyV3Q?oc=5",
-      "pubDate": "Thu, 13 Aug 2026 13:01:27 GMT",
-      "category": "match"
-    },
-    {
       "title": "Fulham 1-0 Stuttgart",
-      "source": "fulhamfc.com",
+      "source": "Fulham FC",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxOHlIbnVUdnRCZTExeklFNHlFbnJla0Zma2xZQU8zaUZ3aUk0akU3bklZV3BuUHpTMWVXLUxlblU1YVNjdEpBeUVWZjBZRW1wOUNscTA4aHJsOG9jajdVZ1BabHdIdDRvTjB5eXI2ejhiWWE5?oc=5",
       "pubDate": "Sat, 15 Aug 2026 16:55:00 GMT",
       "category": "general"
     },
     {
       "title": "🎥 Live Now: Fulham FC v VFB Stuttgart",
-      "source": "fulhamfc.com",
+      "source": "Fulham FC",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMFJNODQ1RTFXTkZFdVlha0VIeTZCRDJHSGZMV2dFUUJuRngyMGIwOXFVb3hFMTAwa2NFM19zaUZfQmpKdjRtcEE1YmJpVTllcjVwczFoN3ZDanpnUGhrbGZScUZ5eU04UjFyLTdFa3JnZ2VxNnE0SkVISm9EalR3QmZ6LUtzRFRh?oc=5",
       "pubDate": "Sat, 15 Aug 2026 13:13:04 GMT",
       "category": "general"
     },
     {
-      "title": "Extended Highlights: Stuttgart",
-      "source": "fulhamfc.com",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Jb2NKX1V5ZTdjd28zS0pLWVItSjVWNzI3YVVKSVZXQmQ0bDVBZHAyZnlodHRhNEQ4YUs2ZTdnSFdoUDBzcWlaWDRuM2h0bUxTM01kU09hOFh1ZE1nSjE2eWtkNzZfc3pTRVctZXlJaTdTUG8t?oc=5",
-      "pubDate": "Sat, 15 Aug 2026 20:14:16 GMT",
+      "title": "Matchday Preview: Stuttgart",
+      "source": "Fulham FC",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8wVFV0c1F5UmxXa1gyRm9Bamhlc2g0WXVKOGVrMkFlWllKRk1sdm9yUXNqVk4wOXVlNVZZVjRTZGJWRjEyaFY0Tnp1VTVxZlhIOEJPOExFcjNvTURMQ0VOV1ZOYzJsMG1UTC1mM0RaZF9vUjY2TnFVZzMtSkM?oc=5",
+      "pubDate": "Fri, 14 Aug 2026 09:45:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Carabao Cup Tickets: AFC Wimbledon",
+      "source": "Fulham FC",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kU1lONkxVYWxYTkFVZmRKR2NaZTBkSmxMOHoyQ1RHZTcxNi1MSDd1WGhaYnFFZGM1bG9FSTRmbHRoQ252UkwtdXNjOGxNT1BaQzhfVjBXQVFUZGMzMTl6Z0F0MVZ5UzROVmE3c2RyTEJNYzRaQmc?oc=5",
+      "pubDate": "Fri, 14 Aug 2026 11:11:00 GMT",
       "category": "general"
     },
     {
-      "title": "Álvaro's Stuttgart review",
-      "source": "fulhamfc.com",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9JSDYwdXpscHFuenp0SlF3QzkyaEtsdDloZUF2TkF0RTNkZE1CVkdfQTJuOHRvSnVEYUtrVFV0RDF3bGx2bEtGdjRFcTdybEJvWFJqbk02S3pEOVF0NDVZT0FsMWo1Y0gyYi10YW96MXJIZU0zYmhMajBn?oc=5",
-      "pubDate": "Sat, 15 Aug 2026 17:37:17 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Ipswich U18 2-5 Fulham U18",
-      "source": "fulhamfc.com",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1SQkFhU1hjcVVHcE8wQlFEM0RrWkdRMy0zaTFsVXd2a0ZCUEhBcmx4NDNHVGI5RklqVmR3Ti1kd0JTSnpzYnZ3MlowSFJHOWJ3RnVpbUt1a1RocFNZTmNvMmYxMmVvazFWTjVUN1RWaWRycFZ3MGRDOE1DLTBQYzg?oc=5",
-      "pubDate": "Sat, 15 Aug 2026 16:30:00 GMT",
+      "title": "Málaga 2-2 Fulham",
+      "source": "Fulham FC",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50QmpLMG5BVlNSaENocWtqZHlVaWRnQWR5b19aNVNBcE9UbWVIU0VNbUFaMVZUMmJLNkdabnk1QVRFYkNMUFNtTWtDR1RlSzYtaGdCMlZGN1B4c2FReDBmVGdTNEJ2Zk92X1ZiOC1iQVk?oc=5",
+      "pubDate": "Wed, 12 Aug 2026 21:00:00 GMT",
       "category": "general"
     }
   ],
