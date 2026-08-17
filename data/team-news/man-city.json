@@ -1,41 +1,55 @@
 {
   "slug": "man-city",
-  "updated": "2026-08-16T18:17:54.136Z",
+  "updated": "2026-08-17T06:35:29.117Z",
   "articles": [
     {
-      "title": "Arsenal vs Man City LIVE: Latest score and updates from Community Shield",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaUl1dXJkUXc0WnR5YkVDaEw0ZV8yT1RWaDVZNlhfNEMtdmNRVkVpWjl2SGUwLVRJbU84bmpydktudERmUWZWeVFjM0dib3dzbnZHZzZPbDFTZXdJN3JoRjIxS1FFNXN3cUtLMFlLQmNSajlXbGdYZ3BjZjVhcWtBSk1RNFk5S05YVVFURnYyWHU4Q3U5M1BnLWJoem9CR2VSX2stVDExX2oyd3pLcXhUREVrTmhkRzRYSHc2YXhZVURCNEJpcTJGYUozOHBLa1FOaWlOLXVfWQ?oc=5",
-      "pubDate": "Sun, 16 Aug 2026 16:50:54 GMT",
+      "title": "Arsenal vs Man City LIVE! Community Shield commentary, live score and team news",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWk1YbVhIQTdFLVFLLWZKQVlUZzNnXy1HZHRtY0lxWEVIaXpZaVo0N2NWREFVQlpEd25TNW5RU3RCYWRCM2Rkc1UwdUJWRU93RWIyNnVrS1lSNVNUdEN1UE8wVzJHM1NTNjB5Mkk4LUFVb1l0RGRlNzFUODJta1hfcXN3b0JDYUlTTFNXR1ZDbmtOdXlUT2pOalhoYTdjd2RQdFNENi02Z3VmQnNReHdBSmF2dnA5SDViQ1M2eE01Z1hZTzRWekJuSmk0V01fTnF5LUpZ?oc=5",
+      "pubDate": "Sun, 16 Aug 2026 12:14:07 GMT",
       "category": "match"
     },
     {
+      "title": "Transfer news LIVE: Liverpool’s Barcola boost, Man City identify Rodri replacement, Arsenal to sell Martinelli?",
+      "source": "independent.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYmpRcHFGRlF4dXJUd0tlWGEtRGhPb1ZtQUtabG10aUtERjczNjhKOTRXdmhQb2ZaU203OXJVaGZhMGVva08xWXkxa2dnMDZBY1RyNTJHc1JETHhLZ0VVUGdhbWRmLTFUaVNoNzNPMERmWVprLUdsRjVqbllQNWdlQmdyTS1peDRjQVdHWkZnSVFPcDN5V1hRMlQ1eGJuajRmdzZ2NkxnazI2OU1TX190WA?oc=5",
+      "pubDate": "Mon, 17 Aug 2026 06:21:16 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Arsenal",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNVZuWDBKSDczWXJyNTJaZGJ3enloX0hncGF3bW1yaFVlbTRhME9KRlAxbUQ5RE9tNjM0blh4djhibmFha3lKcXZTbDl6Sml0T0RGcUF1cmVFSmY4MjBwZndYc0JaQ0RfQ3NGTHQycElGUmtvRGVtUWlWWHFMM3kxVUtXdDZTRGJfTERtOU1Fdng4ektJSlpnMWFvY1RoNFNr?oc=5",
+      "pubDate": "Sun, 16 Aug 2026 23:57:37 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Chelsea respond as Man City refuse to give up on Enzo Fernandez transfer",
+      "source": "Metro.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUDBhbXdYTy1scnpQUTB4XzFBN045V21JQ1FOenQ0VXZoLTI5OXVHWlZPYWxnSEhpc1ZYYjlwVlVyek40R2Y1WVItMVkwOThyLXNWdExyb3BsVkIyUU1aZ3h5UnFmdDB1ZFJONzFtcWlHY0V3SlE1TW0tdFhvSmMxaHBmUUszWUQyZGl0VDZ0aE1XSHpHWHU2d2sxWXFMcWk0eXA00gGoAUFVX3lxTE5nTnAwOTNEcy1EeldGcmkzUlo5WjNwdWw4NUhMRjVwMmQ4Szk5NllSWHhNSjZPRWhyRFhUak44cURjd2k3S2tmZWRsUEwzRU9FSnhnT2c2S3VybU00b3hjUGJfX0VyT3V4Tjg2cW9RUF9GMXlzT0VQUTE4elZLY2RpMlJwSGxET1R4MEVpTlZOQ29oN0NGR1l0TFVqTlhzM29TanVMTXotVg?oc=5",
+      "pubDate": "Sun, 16 Aug 2026 22:20:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Rodri set to join Barcelona after Man City accept £61m offer",
+      "source": "The Times",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeHJkbE9zbkNPbmE4YkxDMFVyM2tYeDRjaEFTbUFsWXFtQi1Tb21YXzNMdEI3WGlTeFdsV1lNTVRRWkJvOVdiUU5UY0plNU1WZjh5MWxrNlBvQXNQR25qc25NUkItazRYMnNBWG83eXp3OVJKcXV0QnB4aUlnaFNnMGFFOUxveGVEdWg5NVV5ejBSSFBNNmE2NzdwX1dxbHBZTWFCVDB3?oc=5",
+      "pubDate": "Sun, 16 Aug 2026 20:10:50 GMT",
+      "category": "general"
+    },
+    {
       "title": "Jack Grealish sent fresh Everton transfer message as major Man City decision confirmed",
-      "source": "Liverpool Echo",
+      "source": "liverpoolecho.co.uk",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSmZIV0hyZVhIYlRQN2lJWEkxejQzRE9RamU5XzY3cWphZ3Q4eFA2cVdYSkowZk9lcUd6S1BwRE1ySVgyNk12NHZTcERrZTRsU2Q3c3VkSWNRZ1Z6eVhVNnk5elIyblNLT005Wi1hTmxXUlNPY3F3WHNZMzhDNmQ0cmZsM0o0NEVRbU1laVlJbTByWGNyQzBCdnBUdzZmenk1dnVv0gGoAUFVX3lxTE9xMlNmdHJQU0taNXlYR1VPZkxrc3laX3ZMZnlPSFM4Umd2RzA1V2tmVmFYbU9DUWhXbDZOOXp4QzhmR20ySU9qYkVGaE4xQ2E0MjNyZlpGdkNYdHVnNXNiOTZpeU9LSXVCN2g1TmRYTUpfRk1fLVpFOS1OMndTdE5lZkRNOTFCM0dUaHlkcTc0OWFVZzl2dnJjdlpQRmQxSng0Tzg0YUx2aQ?oc=5",
       "pubDate": "Sun, 16 Aug 2026 14:55:52 GMT",
       "category": "transfer"
     },
     {
-      "title": "Why is Arsenal vs Man City not at Wembley? Community Shield venue change explained",
-      "source": "Manchester Evening News",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUVJoQ2hxWkpkck5NOEdtUTVtcUlOSG44cFpDd3BZUXVYLWVsN1lFU2dQbUpkYmZLVTVQYll1U1NFSGhHb2ZiLUJvMWFVd3NKeHE5VXEybVdFYlFxa2NvMlJ3Uk1NeHZHNjRoQUE2aC1LcjhjZFhOLXN0S0YxdV9CNHQtS0Yxb3I2QU1tekNsdmdLeWNPZWF3bk1JUUVFS09nYnk00gGoAUFVX3lxTFBNRUkwQzdfaGJFMGdJSU9NdU5RMS1zSEV2MHd3R2tVU0FkOHFRRWxnb0lTUXpEVTcwQ2lSdE9QOXdnV3UwV3V2dmdqWXFVengzbzFJWEN6azlQYjRBVXlYTVI5MnVqSGFvY3BMVFdDcGdiREV3SEZuX0w1bllmZ3pwTnVldEhHYlJiUzItQzY5QTZNZWgzcXBaVVVTYUhQU0MzRjI2aENzMA?oc=5",
-      "pubDate": "Sun, 16 Aug 2026 12:20:00 GMT",
+      "title": "Man City 1-1 Inter Milan: Enzo Maresca's first match ends in shootout defeat",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBwSWNES3N4SVRSYUNoNEZCcUt3bm5WNEhsck9IX0ZXZ2hHOHVsdXh5alV2YzBzdkFFLVFHTUR0SGFNOTVyQWc5bXduY3M1ejZMN01pQUhWUkVhQmkwUk5EdWdVNUo?oc=5",
+      "pubDate": "Sat, 01 Aug 2026 07:00:00 GMT",
       "category": "match"
-    },
-    {
-      "title": "Community Shield Verdict | Arsenal dominant but cause for concern for Manchester City?",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOT1VyQ0JyZE1HVGkzeC1fV3o5bTIxNDFudzlXRGRHUWxmeHliUW5Ha3hyWFBoNFVZRDFYTnhreDA4dHdvazJ5N0pQeG9SbWdER3FFMW1VX3NOOUZ1MF85N1hwX292b1VsUGNlTVptV2dsUVlLTzU5NWhjVVJXb2dub1B3YWxMNElQdXhxN1NsR1h0RkRRZVNUU2NQVFVaaXFpZ0tLYXljZXJ1M1c0aFYyWXRjemlkU3publkxTnIxdm9OaG1iQkZBMENjbUNCX3FHaEx3c3Zn?oc=5",
-      "pubDate": "Sun, 16 Aug 2026 17:27:32 GMT",
-      "category": "general"
-    },
-    {
-      "title": "New season… new era",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYlVJWmhJSHp6ajM2STkwMmc2SHFsNFFiYV93Ql9tajdybjlqbU9jaTBhajhYQkZNTkdMZ2lvWGktZkNSMFJpUTF3bU5ocTZ4MFBzY2dxeWl3bzVTM3IxWm9Ed21HMVdCendCdGtmNFhGV3RzTWVjNDJyTW03LWxIcTljcERlTXJ5WmprVUFhT3RZbkJwYl84?oc=5",
-      "pubDate": "Sun, 16 Aug 2026 07:00:00 GMT",
-      "category": "general"
     },
     {
       "title": "115 charges, five seasons – Man City saga is a stain on the Premier League",
@@ -45,67 +59,53 @@
       "category": "general"
     },
     {
-      "title": "Will Manchester City begin the Maresca era with a Community Shield win over Arsenal? - The Athletic",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYUFmelltNzlib0UtYXg4UGhHOENPR0xsX0dPdjRnbFQwMG9BYzdhb1AwemxBWENRTGhTQlhvMEtETzgzZElZckVTYTN6WG5mazdrMGtEUjJRUE1vN3dBX25qNmtXYnFIOF8xaWFBTzVoR3VjZEQ2azRjcVBfbVdvTTJZNU92dVpZRXhReVpxVEZraTBrSGgyTg?oc=5",
-      "pubDate": "Sun, 16 Aug 2026 12:11:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Arsenal ratings vs Man City: Odegaard stars as debutants impress",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZVZuZGJ6aWtJTGg4TmV2YUtCbVJLeU1QR2hXSjdJMmRzUm9aMkU0YXZIZFpOc3UzV1JWVlhyeVBZZ0lJTXVRVkVnaFN2Q0RudVJUNFZQSXMtMVA3cm0xVjRHRFpxQ0VqVWN3azRHUms4MExBbG1aMl9TQVljWVVwMzk0TmFNVDNwZ214NHNiOWZWSDJyRXZ5OXZ5TG44ZVVwS0wxRF9DTEFPaUgwOWplLTAtdFI4aFJXaDJjTQ?oc=5",
-      "pubDate": "Sun, 16 Aug 2026 16:08:28 GMT",
-      "category": "match"
-    },
-    {
-      "title": "City defeated in 2026 Community Shield",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONjNib2hBaXVnd29ac2hRSzNLUGFmT0Y0Smo2bjJTcG5TajZsZWlJVldDbk9QX2RaWHJZUl9BVzZKSGEyQnUwZmQ0bzl3SElxQWlFU3ZicTNZeWl2Q0xOb2dkajAyMzlNU1ltbWtyeGs3ck5uLS1WVlhRNy1vdHF2VVVpc2Utc2FrSTVJeFplN0dGU18wVGVWelpkRVc?oc=5",
-      "pubDate": "Sun, 16 Aug 2026 15:55:00 GMT",
+      "title": "Chelsea expect Enzo Fernández to stay after Manchester City opt not to meet deadline",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcWlUTnNIbHdOV09Fc3hBX1NRRDlXNzdIU0lSZUR6OV95YlJvWndNSFdWWTc3T1REaXk0OTJfSjVuMjdCY2xKNGREZVhISDdYYnZsU2VkVmYtZjNWZXFJcVdWcGp5eTBMMkgzS0l2MmxfWktfQ0VuUlRmX3NkZjQzZ3JFZTd1UEsyb1hKOUNWM25OTDdKWEF1M2JfdExfUE4xMC1keHRaQ2t1d29GNGpZ?oc=5",
+      "pubDate": "Fri, 14 Aug 2026 11:25:00 GMT",
       "category": "general"
     },
     {
-      "title": "Arsenal 3-0 Man City: How the players rated after Gunners comfortably win Community Shield",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5UcW1POVVJUG5EZXBiSlVIOERDLTNNVXNtaFR4cDlIUnFFZWpiWm5OZVl5LThrVXE3bWVpckJBZkJ1ck9lckgxU29wb0Z5ZmhVN0o4bE9wdGZkZXc3TUlpRDUzcXpqMlU?oc=5",
-      "pubDate": "Sun, 16 Aug 2026 16:18:45 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Man City lineup vs Arsenal predicted as big calls made for Community Shield clash",
-      "source": "Manchester Evening News",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcW1Pcl9FVUVHR3JZREpZVS1abTR0ai05Ymc1ZFhpUElkR0J3S2pFallkSUxrTWFYV0l5VkFEZ21Bc0VobXNKYU54M0dNdlNVTUlNWnRWekNVWkNGN25iSmdFSFd6ekVZXzhYSDVoZFI1N1JGTF9nbmMyd1Z4UWh1Rmc2dFBSeFRkQ3FXUmIxYjJoODhOLTJyQzF6cWJEdnh0dUVXYldjSdIBrAFBVV95cUxON2JsRWY0aXlQNHF5cW9HTjQxaUlYSlVQN2VKTTY0MWxuSkc5U3ZJRzVjLWhPdEdWaGlsamJ3dFBsUEVFNkhXUEpTRW9DWGd1SzlNcGliSHhyQW1NN1JJcklweHJ0RTZCd3NWNWh4c0otQ1hxOHBuSFcycE5VQzJ5THk2YmtoTmJJR1c0aXFwbWJOYnV2WktPbUExT1BiMEE3cXJZUU5OTFBCeHZa?oc=5",
-      "pubDate": "Sun, 16 Aug 2026 06:00:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Maresca expects City to sign at least one or two more players",
+      "title": "City seal signing of Gerónimo Rulli",
       "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbERiNHFFTURGQXQ4NzM5UGhmbVpyUmRCVnJDQmphUXRNNV9BM0pmUGZWOEVlWGdpaXdhXzBYaEd5WHBEWHlIeUxzN0NQZGl6aVczT1ZuV3Z3Z3Jrb1Q5ZWdOMlRTMXJ0VXZ1eVNCQ05BcmM0cGxZQ1RFQi1JT2gtZ001endPLU9zTHprQVU5M3dfQmdLZGc?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 09:00:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeUlSeldqQnRmWUx4R2NqTEtxejc4dGlFeS1hc1RsbjV3NkxEaFRxTmhTRVc0bV93U0RjNWJZV1ZIcE1YWk1LQ3lkdHpqdUxVOWJuNlU2VkRycWZ5QnlOS1pFekNNUTFxbXVlNGRPYmNlcFp4M0ZfSE4wR09kLVVkeFJCT2s?oc=5",
+      "pubDate": "Wed, 12 Aug 2026 10:00:00 GMT",
       "category": "transfer"
     },
     {
-      "title": "Anderson to make City debut in Community Shield",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVklrRkF4bzVXNWNKaG9wS1VZc2tpeUdMdFM4Z3RpeDM3WVVrR0dUeUJGVHIxanRQWDJ3Mlpjb2pTLTFrV0ZSZThpOGVHMmJtaDVlaXRlaGRNQWFZOXh4Sy1yekdGWjA2TGlsWEFfLVI2cGxyY1NSemtCb1J3ekxuWVBabmhoMElMYVQwZW9yTUx0eHVUV3dxUw?oc=5",
-      "pubDate": "Sun, 16 Aug 2026 13:00:00 GMT",
+      "title": "Report: Arsenal 3-0 Manchester City",
+      "source": "Arsenal.com",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSnhZeUZpRDVfZ0RDbS1GWnBSR0JCLVhXN3lZWDdINndRaUJ3MjRsSTgxVVBYdFJBY0hFTXpYYTdfRmFkZlFlTV8zbXFWUEpkR2FFcFI1a2ZiQUExbFhkaEsxazl5R3BDU3J5enBJNWxZNHppOGp3c2hlMlhMdmZaa1RB?oc=5",
+      "pubDate": "Sun, 16 Aug 2026 16:09:36 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Will Manchester City begin the Maresca era with a Community Shield win over Arsenal? - The Athletic",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYUFmelltNzlib0UtYXg4UGhHOENPR0xsX0dPdjRnbFQwMG9BYzdhb1AwemxBWENRTGhTQlhvMEtETzgzZElZckVTYTN6WG5mazdrMGtEUjJRUE1vN3dBX25qNmtXYnFIOF8xaWFBTzVoR3VjZEQ2azRjcVBfbVdvTTJZNU92dVpZRXhReVpxVEZraTBrSGgyTg?oc=5",
+      "pubDate": "Sun, 16 Aug 2026 22:17:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Arsenal ease past Man City in Community Shield masterclass",
+      "source": "beIN SPORTS",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWHZxZTV2MFBuVnA1WW5kY3JEUG1aYW9pemZESXhRRUY3Snp4RE13TDV3aEhUdE1KR2czUVpldkIxYW5MNEtoUXp1V0hkTUNMYlIyaXIxaXNCaUhuMTZEanN5NGdvTUU1N2t2ZUljUF9JVVA4Tlc2bFhUUzB0amFGNG5lZFp3SjhrWTdmaXZPX2J2blBkNmYweldzU1pSRlRqenkzeWZpSEoxWEFraHZqUDd2UlNuZXRuSWZNUmFGcGdtMDJldGJSTFpFel9Oa1BEaHAtWHI5ODZLME82cnc?oc=5",
+      "pubDate": "Mon, 17 Aug 2026 04:05:53 GMT",
       "category": "general"
     },
     {
-      "title": "City battle back to earn pre-season friendly draw with Barcelona",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMVZQR1MxU3VaX2dtcEcwTW1fTjAyMnM3U00wRFh4S0tSazBSSElRcVpHRVgxTHpHZ2wySGM5OU5YeXRlUER3MUowYnlua2FWMTNQQldJYTRmZG9LUmJWVVNnLVRRWHE2UVBHRXhSUmtsSWF2UzlDb1gzRi1CYmdhdEtSLTFjOW1faXFfNDhpcw?oc=5",
-      "pubDate": "Sat, 15 Aug 2026 17:00:00 GMT",
-      "category": "match"
+      "title": "Three things we learned from Arsenal trashing Man City in Community Shield",
+      "source": "Metro.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPY1pFd0xXQ01QM3ZFVDYwcW9GWm5ZTllLQjRoclhsZi1lSUpxLTVaZHV4X3J6cmlnNXR5YWJSR3AxVFVLRXlMZ3Qza2VfeUE2X2NrdnA0b3VTVkNjM0tLR1BhbGRnVjlhcU01N0VibC16aUdsNnVmYzFBekxJNUpydFRXR2xfd09valhtNXh0NmwzNk9xTzU3dmtsWG1mRHc3YXdvMmdfa9IBrAFBVV95cUxQZ2p5SElPd0Jxd1EwNE9pYW82RkpITUZFbV85MzRxYXBpTzlJTGRZU1VZY21qQmQ0TzU0a1VMZFk1bXBiRmE0TDdGckJ0SVJmRm4yZDRVOGh2SWhWdHBEVVAwenk3SnB5Uk10Q09QM1V4OHFjeWhINkp0bGVoNXNuN25MOE5kWm1nOUxsblVnbHBYYkpqejZxdXZTZlpLZU95QVhiSldHMjFURFJk?oc=5",
+      "pubDate": "Sun, 16 Aug 2026 16:06:00 GMT",
+      "category": "general"
     },
     {
-      "title": "Manchester City XI vs Arsenal – Predicted lineup and team news",
-      "source": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZjNzQ3FMa1FCYUx1U1VrZXEzZkR3OE5hbjVBSnRRbVJCeUt2em1uTkVubkRQbTFXcUtDQ0dwZ0E5M0FYSUlZUUpMVElCWWxoWk81d0VQbklUQ0FqSk5XX1dXVktjRWU2SFE2RjhSSXlJbFFsbUtURVRITTJMYUxjQXN2cDc?oc=5",
-      "pubDate": "Sun, 16 Aug 2026 04:30:00 GMT",
-      "category": "match"
+      "title": "Watch: Maresca's press conference after Community Shield",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONzNucm9VYjVDR3lJSmd0aU1nODFDUkRVUGU0ZlVrRzJ1Z1FxaFVBVWRpTW5zTk9QYkUxSTRwR2Qtd21RdG5ocmVaUTRCQWdZWFZzdWRSc3djck5LY0ZYWExwdzhNLUpTQk5ncm9rMkdQbk9zY3gtZzh5UWVkbkE4WkxNOHZIS2Rnc21DNERFODZLdw?oc=5",
+      "pubDate": "Sun, 16 Aug 2026 16:00:00 GMT",
+      "category": "manager"
     }
   ],
   "reddit": []

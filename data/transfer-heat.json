@@ -1,55 +1,60 @@
 {
   "window": "summer",
-  "updated": "2026-08-16T18:17:54.136Z",
+  "updated": "2026-08-17T06:35:29.117Z",
   "clubs": [
     {
       "slug": "chelsea",
       "name": "Chelsea",
-      "heat": 13
+      "heat": 18
     },
     {
       "slug": "man-united",
       "name": "Manchester United",
-      "heat": 12
-    },
-    {
-      "slug": "tottenham",
-      "name": "Tottenham Hotspur",
-      "heat": 12
-    },
-    {
-      "slug": "aston-villa",
-      "name": "Aston Villa",
-      "heat": 10
-    },
-    {
-      "slug": "liverpool",
-      "name": "Liverpool",
-      "heat": 10
-    },
-    {
-      "slug": "arsenal",
-      "name": "Arsenal",
-      "heat": 8
-    },
-    {
-      "slug": "leicester",
-      "name": "Leicester City",
-      "heat": 8
+      "heat": 18
     },
     {
       "slug": "brighton",
       "name": "Brighton",
-      "heat": 6
+      "heat": 11
+    },
+    {
+      "slug": "tottenham",
+      "name": "Tottenham Hotspur",
+      "heat": 11
+    },
+    {
+      "slug": "arsenal",
+      "name": "Arsenal",
+      "heat": 10
     },
     {
       "slug": "everton",
       "name": "Everton",
+      "heat": 10
+    },
+    {
+      "slug": "west-ham",
+      "name": "West Ham United",
+      "heat": 10
+    },
+    {
+      "slug": "man-city",
+      "name": "Manchester City",
+      "heat": 8
+    },
+    {
+      "slug": "aston-villa",
+      "name": "Aston Villa",
       "heat": 6
     },
     {
-      "slug": "ipswich",
-      "name": "Ipswich Town",
+      "slug": "leicester",
+      "name": "Leicester City",
+      "heat": 6
+    },
+    {
+      "slug": "liverpool",
+      "name": "Liverpool",
       "heat": 6
     },
     {
@@ -58,13 +63,18 @@
       "heat": 6
     },
     {
+      "slug": "crystal-palace",
+      "name": "Crystal Palace",
+      "heat": 5
+    },
+    {
       "slug": "fulham",
       "name": "Fulham",
       "heat": 4
     },
     {
-      "slug": "man-city",
-      "name": "Manchester City",
+      "slug": "ipswich",
+      "name": "Ipswich Town",
       "heat": 4
     },
     {
@@ -78,18 +88,8 @@
       "heat": 2
     },
     {
-      "slug": "crystal-palace",
-      "name": "Crystal Palace",
-      "heat": 2
-    },
-    {
       "slug": "southampton",
       "name": "Southampton",
-      "heat": 2
-    },
-    {
-      "slug": "west-ham",
-      "name": "West Ham United",
       "heat": 2
     },
     {
