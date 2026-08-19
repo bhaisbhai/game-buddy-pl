@@ -1,12 +1,68 @@
 {
   "slug": "southampton",
-  "updated": "2026-08-19T06:27:50.653Z",
+  "updated": "2026-08-19T18:23:01.879Z",
   "articles": [
     {
-      "title": "Saints confirm permanent departure of young midfielder to League Two club",
+      "title": "Saints transfer latest: Centre-midfield priority as Harwood-Bellis situation cools",
       "source": "Daily Echo",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM1F6NEFZSlBpX09Vc2NjbGxVcllOdExEdVpNYXVxemhSSHhjVDBJcjFsYm9nQndHNlI5T1l4Q2FJOHF0MkxXQ2R0WjNvWURTREU5QUtMNnM1SU1zUGxDbXl2VGxUY0oyNDZic2RuQnkwY0VsQU9PQlpWUl9vYVI1SkZyZk1ZRm5qTFhrNWxPYnZGdEJ2SGJtX19XSDNlQQ?oc=5",
-      "pubDate": "Mon, 17 Aug 2026 17:12:18 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOW91ZGgxVWV1YkloOTB6Um93eUJTak1yTVJxMHJnZ3otWWNkWTRYeEdmbE9VclRqNEZLN18xdGRBaTctd3hEUTdEdjJKT0tvVkcxYTczSUE2VjhXSVU1bTViRFlzSGlfVmM4YUZnVWlXQWtxSTBRRm12STZZaDhBbzR2ajJoc2xCb0VFZ0RxX0FfcTlhNTlBTzAzSWF6WG5KVFU4aHZxWjc?oc=5",
+      "pubDate": "Wed, 19 Aug 2026 09:24:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Official History Of Southampton FC Now Available To Pre Order",
+      "source": "FansNetwork.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNYVpwa29ZeFJVdjk4LUpsZE1qTFNjVVNBck1oRkxtbm9pOGxmNmZrejIyRHJYbmtLR2VJV1J0cFZGdk5GN0pvdG94M1g3SkVHc2x2a2xiYm1HOTV6eTNpeW5mZ0s5cmxZMzM5RE5UWk1SRDNTTG8tdGVpZEtMTFE3WnpPa1RFZGkyc3FwRUwzaHlkWVMxQzc1SUdwempEc044V2didl8zaE4zMGZ0WkpUN21pcnktcjQ2SUwtem53VEw?oc=5",
+      "pubDate": "Tue, 18 Aug 2026 14:30:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "How did this Southampton youngster fare on his starting debut at his new loan team?",
+      "source": "Saints Marching",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcHdENXlJMlJqQkZPWjFhdHpwYW5ZcC16Y1hBR3VtQWZBVF9SVVY3NUgzTndfM3pJeFJiLU1qUG9teExDOTdOdGJkWUZ5eVhUVTZMNDlLRjlqRDh5XzNnaGltM25VUzctYzNzQ0xMZkVKbW9KRk1wakNmXzM5TE41U1l4cjlKdVJ6TWRvRi1zTjFTLWxDdlZaNlBGallrY3luTUhPd2NNdXVGT0tkS0E?oc=5",
+      "pubDate": "Wed, 19 Aug 2026 14:00:02 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Chapel end sponsored as Saints announce club's first 'official stand partner'",
+      "source": "Daily Echo",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOXzhmT1Z5UUk5Ujk4d1dTamJ1UDU3ZXlNNVVFNUZ3ZzhwbFFJbFpBWERjMGtHQm1mYTlWcWRiMGd1U3FybnQ4dWd2Rng5OFRiS2NYYVYzUjBBOFJLam5WWEpVWWhQZ1pwMTVhbDBSTURhQm9WVkRTaDdrSktfZG5hTkR6ejhtYUQyemIxU04wQ2RlZ0t0Y21oQmxNRHVOQnY0bE5Qa1J4Ni04UGduek80?oc=5",
+      "pubDate": "Wed, 19 Aug 2026 15:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "'Saints won't be adrift for long'",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAtbW5RZlA4dndaOEVnUy1KdVpZVXBDVWF2RVl0OENJRnUyci1ZRUZyem9FcEtSLXNWeGRUbE5ISENVQ21YMWVzdk9uMExhR01vM2V4RWdzN1BEbzVpVFFMR2hSYmpCOXZqSWc?oc=5",
+      "pubDate": "Wed, 19 Aug 2026 12:20:01 GMT",
+      "category": "general"
+    },
+    {
+      "title": "O'Brien-Whitmarsh joins Northampton",
+      "source": "Southampton FC Official Site",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNzlsOGlBaXpIcmlKUXBpNlNIYlhQOXV3eXV6YmR6bFlGbVBhcVdzWWl6U1hKemVlNUx4cHhKX2s2TTBiOWQ5NWIwRzd4eW9WNnRNR0JYUTV0ZGdLODljeVllREhpQjhHSnE3MWNpVHcwcVE4OTJlcHFoZ0hWSTVaM3pZUHBudnM?oc=5",
+      "pubDate": "Mon, 17 Aug 2026 17:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Burnley 'join race' for Sheffield United and Southampton-linked defender",
+      "source": "Yorkshire Post",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHVzaGU2cElTN0h3QlRtdHR6MnA3QVRFQ3ZTR3Y1MXBvSk5NX3J4MDRQU0diZU1hLWVFUGQxVnpYckctWE5ja05rNU1vaGNqbzZfTi1oZ2lHV2pFUXVERUVlZ2Q4TUhFUlIwRVpqcHJkMS1fQmRlZ3pwMFhfYmxnY3A0aTgyS0RYRC1QS21IUHZLN2c4SVJ0VVBPSUgxQ2ZrQjczWGlkRlFvU2Fz?oc=5",
+      "pubDate": "Tue, 18 Aug 2026 14:09:00 GMT",
+      "category": "rumour"
+    },
+    {
+      "title": "Southampton’s exit stance emerged as European club target 24-year-old",
+      "source": "The72",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdnlSejREY1VjVHl1WGhTOUVjTDg0VS1UYWNGRi1tSVhFaV9rVnNKR1JNdjVFVTBLa1B5Z1VqaGZUREVMZDllRWloMk5ITWd3LUlBd25hcGJQS0E3TndnQ3dKWVhFX2dpZGVfZ3ZUa1M0U3E3Y0JhZTBJamdwMXZqVEJYTQ?oc=5",
+      "pubDate": "Wed, 19 Aug 2026 06:20:33 GMT",
+      "category": "rumour"
+    },
+    {
+      "title": "'Type of s***housery football needs back' - Brilliant moment Watford mascot pretends to SPY on Southampton fans",
+      "source": "The Sun",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWE53d2RNVWR4cWZYX25xOXdlcmhNYmR5Q1NBOHc5OG5RNXNkOVA4S0I4SUtvNTF0alhhcHRqUWdnU2hodDVqX0k4T05xRDRNbVVqZmFjQ1ZiUGh2N1J0a243SlJPMjF2b0c5ODNoTUt3bWFKSFpMeXVFbFBmZkk2R2V5LVlpa2J1UmxsZ3d3?oc=5",
+      "pubDate": "Mon, 17 Aug 2026 10:31:00 GMT",
       "category": "general"
     },
     {
@@ -17,6 +73,13 @@
       "category": "general"
     },
     {
+      "title": "Report: Saints suffer losing start at Watford",
+      "source": "Southampton FC Official Site",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWWd6ZVNmZkF1ejJGMm9reUlGemE5VndCdXdGUDBLb0kzMGxzaVhjUUt5LVpKX0l3dEloRWJ3U3Z3aHNpTWNtd3g1UzdCRWktTTkyYzZvaWNfMEtjb0pKZDQzbUFZYjFHbUtlSXpLSng1bUN3NTJ4NzRvWUphN3d6VkE0b2hWc1liZnNaMVVCclJqUl9E?oc=5",
+      "pubDate": "Sun, 16 Aug 2026 14:30:00 GMT",
+      "category": "match"
+    },
+    {
       "title": "Pre-order the Official History of Southampton FC book",
       "source": "Southampton FC Official Site",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZUo5eWhKTFROVkRzdGJQd3J5NkFkNjJjTmd2a3gxOEpxTV9OQkhHWWRobkNWSjQ0X0FJNEIzTHVxSGJqb1BnS2VnelRieWhWV01feW5ZRk12ZzJQNWhVUUYzNkNDUmdaLVZSdF95QnJudWxTRlZJdllHbnlDNFp1M0F5WUtBTVdMSTY5R0JxbXhBbnBUR1lxMTVpLXdDMVZm?oc=5",
@@ -24,52 +87,10 @@
       "category": "general"
     },
     {
-      "title": "Southampton could finally be getting rid of this nuisance as next destination named",
-      "source": "Saints Marching",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObHRKNUdQbzV3bUpVYmxlSDFObUQzVGFXd0RZZFFYUld5RVo2bUhlaXdwVXhjNXJQejBBVXg4dXRiR19VbDBCb1daZ01xRHlFaUEwaUg2eDN4SFpldC1teElRYTBBeDlZUkhvMk1mY0stdnVZc2wzU3hEWFg5cUF4TTNrbV9Ca0Z4OENpMzNONFJQYnI4cFo0ZU9zUzJwNXNMb3hDRmtIamZrOGRIeDlv?oc=5",
-      "pubDate": "Tue, 18 Aug 2026 16:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Rivals plot Bolton swoop ahead of Pompey contest as Southampton suffer transfer blow",
-      "source": "portsmouth.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQRXp4YTJjR2hKSlFWeUxMaVBIckxYWHRWRk1WYXB3OFZQdnR6aGJzN3ZtUnprZ00ydTN0YkRMTmRrU2ZHdENkZjRuZTdGcEVVYUxKY0liekliRnk4aDRGdUJLNS1aU0FHcWZMTGJBeXBLaTVaeXU4dWN4TmFyYjZZam9jSldqOVhtVWdmYUxrcmI3N3ZjbXI2bVNkdGlBcHJSWHNiMWVkdkFnOTJRV0tMSmJacE1HTnpBT01EMnNBLVV4dHg3eUkwWmtSSXVmUFZmbEV3UzBDYTBFYzVrUUtqNjBMX0Y3dmlCdW5vZmFMQUZ3TTlFR1J2NkJzUlJHNU1jdzB4QWd2SjgxYnBqQ3BfOXc1dTdodUlqUllz?oc=5",
-      "pubDate": "Mon, 17 Aug 2026 14:00:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Six talking points as Saints start Championship campaign with defeat at Watford",
-      "source": "Daily Echo",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcy13TmVnTkpNbFpBNlVFZWdPZ0ZoRG9leGdxQW5aYzRPN0w1cFBHOXlVTDRwRVJZSWpOSDdjMXEzaWFXTHRMaUJ4d1VIcXU0NG9KWWU5SGxXcWxGSGhtbEN5dTBFcE9aeXB4b0xCZF9CYWphaGV2YUdTdEZLdDFVMXVnUlNINnhhNmdYT1pRWjNlX0lDejJJ?oc=5",
-      "pubDate": "Mon, 17 Aug 2026 10:16:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "'Type of s***housery football needs back' - Brilliant moment Watford mascot pretends to SPY on Southampton fans",
-      "source": "The Sun",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWE53d2RNVWR4cWZYX25xOXdlcmhNYmR5Q1NBOHc5OG5RNXNkOVA4S0I4SUtvNTF0alhhcHRqUWdnU2hodDVqX0k4T05xRDRNbVVqZmFjQ1ZiUGh2N1J0a243SlJPMjF2b0c5ODNoTUt3bWFKSFpMeXVFbFBmZkk2R2V5LVlpa2J1UmxsZ3d3?oc=5",
-      "pubDate": "Mon, 17 Aug 2026 10:31:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Why are Southampton on -4 points? Championship points deduction explained",
-      "source": "Daily Mirror",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTjloNU1oOWVOZlJWM0EybTRDOEpqTTgzMVFSREpObktwaWxrd2sta3hIN2pSdTNCVmlTalljT0FoZVdIek1fLUJrNXFUeTRUWFJYazVhTTgtTjcyeTcxVmFPZC1GNV9ZdXdMMjhWS25oVUJ3Nk9aVDd3SjdwOWp2b21LVk85akc0Z2pVVnpobHBsWWZSNUEtZFZoTk1OR2JuaWR3Mmh3?oc=5",
-      "pubDate": "Sun, 16 Aug 2026 11:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Watford 2-1 Southampton | Championship highlights",
-      "source": "skysports.com",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbjZ2NmREOE9KLTFtb25DRVZVbEhteFVwakktcVFMM082MV9XU3BXLXYyYmpBX3pTQVNCUFJJZm5MMGJVY0U0SkFtM0VNS0VTSEExWmdKcm5iajlvSjRYbW0xVmtTWkpRMTNzY0RkTWJsRE4tVG9MWnlJeHNNTjdKQkJOTnBScDFjOUpVdkxrbWd1NGJsUHlrYUJhelkxR1VEVmlUSExR?oc=5",
-      "pubDate": "Sun, 16 Aug 2026 14:40:44 GMT",
-      "category": "general"
-    },
-    {
-      "title": "U21 Highlights: Saints 4-0 Blackburn",
+      "title": "Men’s squad numbers confirmed for 2026/27",
       "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5pNTg2UlFtMUZ5bVNBSklSYmFGRVRmV3pJakZiaG1xYW1BaW1nai03bFRxTlo1b0JiVC1yOEdqQy1vTDZGQ1N3UERUb3RRSkU5RE4tUGdkMjV0akFjbUprR0x5U1RpZFkzQWJCZThoZm93eVd4bTk4LVVLSnlrQmc?oc=5",
-      "pubDate": "Mon, 17 Aug 2026 10:38:54 GMT",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRFZaaHJyb29mR05qVnlCQVhMN0ZxRGdPazhCNzNOZDIyVm9PNGxJZHNTWTdBUTFvQUVYNjMxYkRfclc0cTF3bGk5NnVvQl85NUFNRjhoQkxSVlNuNzRveVJEeDNkVmdoUW5lWXFGdl9jOXRodFFqWWVmamRqYlNhdVl0aFBjakZKV2VnR3g5TQ?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 15:58:00 GMT",
       "category": "general"
     },
     {
@@ -80,32 +101,11 @@
       "category": "general"
     },
     {
-      "title": "Saints reportedly interested in signing former Sheffield United defender",
-      "source": "Daily Echo",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONUpyQU82c0ZVRGx5WnoyNXNHdENaSGk3QVF4S0Ryelp1b1NlV0tObFU2bzUtM05GR0FxNkgyMU5mREgtbUlfaC1Oa1liQXA5TVhhcGcxaEFaVDdZOExvNjhKeEhHTG9tc2hxRlgxX2c1dDZHRFFobmRWbUtSZU41QUdlcU1ZRWoxSVZFd3ZMRmU1VTkyb1Ffc2tOTVRrNU5MekFqazROY181Q2xjVElz?oc=5",
-      "pubDate": "Sat, 15 Aug 2026 07:53:37 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Report: Saints suffer losing start at Watford",
+      "title": "How to watch Watford vs Southampton",
       "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWWd6ZVNmZkF1ejJGMm9reUlGemE5VndCdXdGUDBLb0kzMGxzaVhjUUt5LVpKX0l3dEloRWJ3U3Z3aHNpTWNtd3g1UzdCRWktTTkyYzZvaWNfMEtjb0pKZDQzbUFZYjFHbUtlSXpLSng1bUN3NTJ4NzRvWUphN3d6VkE0b2hWc1liZnNaMVVCclJqUl9E?oc=5",
-      "pubDate": "Sun, 16 Aug 2026 14:30:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOanpCbHZXSllXSy1qcXdMY0lHRDVEcFdSLWF2d3doUjhwLWRpcVkwQ3p0VGxQMnpzQVVkVmJLSGFKZnpianlJb1lOUmxpRWtIQ3BZVzNxMnRUUy16UEdsRUZGU2xlTGxpMmtVbDJOUlZoT1lEWGVobU9PYnd0cUxlVmxYbkREaGZU?oc=5",
+      "pubDate": "Fri, 14 Aug 2026 11:00:00 GMT",
       "category": "match"
-    },
-    {
-      "title": "Men’s squad numbers confirmed for 2026/27",
-      "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRFZaaHJyb29mR05qVnlCQVhMN0ZxRGdPazhCNzNOZDIyVm9PNGxJZHNTWTdBUTFvQUVYNjMxYkRfclc0cTF3bGk5NnVvQl85NUFNRjhoQkxSVlNuNzRveVJEeDNkVmdoUW5lWXFGdl9jOXRodFFqWWVmamRqYlNhdVl0aFBjakZKV2VnR3g5TQ?oc=5",
-      "pubDate": "Sat, 15 Aug 2026 15:58:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Members window open for West Ham Carabao Cup clash",
-      "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSFBhU0x5WFh6TDd4MUluNG9nVU5UYlAxTFBVbXdiYVpTbTV3dHp6UWZQRTRoV2F2di0wVkVhMHRvaXRucXdXeHVOT0RJVU14TlQ2RU5kdWV6eElqM0lPTk1oRE14TUNYZG5LajhOcmtrZ0xFWFlPV21uTl9RZ19MaVMyQmNwRVRlaGtpY2Jfc0VlWXVLUlhzeU5iUzE?oc=5",
-      "pubDate": "Tue, 18 Aug 2026 09:30:00 GMT",
-      "category": "general"
     }
   ],
   "reddit": []
