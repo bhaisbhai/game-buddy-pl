@@ -1,41 +1,20 @@
 {
   "slug": "nottm-forest",
-  "updated": "2026-08-20T18:27:59.133Z",
+  "updated": "2026-08-21T06:30:18.950Z",
   "articles": [
     {
-      "title": "Nottingham Forest latest: Olver Glasner says he has already targeted more signings",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUXZ5V2wxYUhMa0lnVGlGbjRWVUFNNVB0Yjk5d1dtWXBDYllMMVlmejJSX0pLd2xsR1J4WU1ieTJfUjU1b0pqcmlveVVHb0drNUtqT2J6RmZqeUM5VTExX1RWM0xFdFNnSTZsQ3RZWlAyOGlYVjJUMnRTM1VwOEZ3d2I1YnBUZFhHTkVFbnNSSjRyb0pQTmxBZ3E3X2VPMXpqYTl0d0lJV1pZNlhQalhxTDJRaDh1cVNmNGNZQmdTcTVBX0psaG1FdVYtTDg?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 14:35:52 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Nottingham Forest make Arnaud Kalimuendo transfer decision",
-      "source": "Nottingham Post",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNS1RlN19SbkJEdnNQejlmSDFKRFlGQ29HazJSaXpPT295aWtNZmR4b0FvLXVVQmNSVll5MHhQTmxXOWFZYnoyUEtYTlpkQUdSUklwb0RPTHlBam5YWXhqMVdRRF92eVlzcVJKZkNmajIyWWt1Nk52UzJudzB2cnFrRjBUbFhPZ1VhZXBDdDI3b09Pa043M3czeHFMekxSLXJ3MUhIM0lSLVFNelpaOXZ2dnlFVkk?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 15:31:04 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Oliver Glasner sets out Nottingham Forest transfer plan as deadline day looms",
-      "source": "Nottingham Post",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPcU9mdXd1dnNpRnIta0Q0Q2JPZWJxV0VRcmtCNE1MNUFocHZTcFJOQnRyVkdycE42US1nU005ZUhWbWtjcUpydk85UTNSdWFBQ1FBSmc5MHgzV0Q4UmhtdndXbDFUcFR0X2xfYUk0SEo2dEJFY3lycmx4VVA2UWFGaVdPdHFsbjA2c3VlQzZRVl9pMlE0MlBNOXQ0c0ZYTGUzY3B1aXJKQUFNX1hZ?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 14:32:57 GMT",
-      "category": "transfer"
+      "title": "Nottingham Forest vs Leeds United: Premier League preview, team news, stats & head-to-head",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9rWEdpb1hkcU9PY1J3X3ZQUTlabGJtcklDLTZXSU9QaUhVZVBRYk9idm56Q3lzMWRWQ1dTOW95YU1uelJwaW0xN0JfRlhVNWVISy1VRHlnbG5TS0JfbEF0OEh1MA?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 02:41:32 GMT",
+      "category": "match"
     },
     {
       "title": "EARLY TEAM NEWS FOR FOREST'S CLASH WITH LEEDS",
       "source": "Nottingham Forest FC",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONXl0azhjODV2U09ZV29WcW42NW13enkxMl9zQllFeWE1VUxYWTNFZS1MNEZLM2RWQkJjVkxWSWotdU01aXgyNmV2dDBsc2pkZEZzWGxPY3dTZkllRkxVd0t2MF9CZVl2MUotUWJvRHhqTFV2dzhhYUtaSmlKXzZ5VjlwNUlFNzh5V09uOFFJYUJ5cVRiZW5USGE1dzlmTzJkT1lN?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 13:41:44 GMT",
+      "pubDate": "Wed, 19 Aug 2026 15:38:59 GMT",
       "category": "general"
-    },
-    {
-      "title": "Nottingham Forest vs Leeds United: Premier League preview, team news, stats & head-to-head",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBDMDcxLXhDSEdNSV9QU1praGJYZmM1WndLMEx5eWJLTTBBVk5MSTVxS1hKMUp2a2xzOGxsMlNiT3VkSFFxT0YzTy1SbUpCOXVlenJnZUFsaTdfRm9SWVRPamVCTUpsQQ?oc=5",
-      "pubDate": "Wed, 19 Aug 2026 03:09:11 GMT",
-      "category": "match"
     },
     {
       "title": "Leeds United, Nottingham Forest, Everton in £40-50m ‘race’ for Liam Delap — report",
@@ -43,13 +22,6 @@
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOSi1vQTVENm1GV0lzWlZXWGdabFpCdzlWMDZFYm1uTnd4OUx4RjFCTTJVN1B2NkZVWjVkS1pkUFhoMzNCcWNwcFphVjI3TUN2cnAzSGJKOVczWnJmMXJBRkwzZEU1VXBodnhLREpqbTNXZkd6a1liUm0tMFpjdS1RVzlMbkE4QklNX2VKX3dhXzVCd0U5VkFVSEROeHhGUXpIdXBQWjZMV2lEdlNSSTNhd2EyejJTUEtDd3BMdXhzSW9IOEh0ZlFEUjByOHFuTWJkYmpIYjZfMkFrYzQ5N2xCSGprNmlGZ2VwLXA4QW1OdVc?oc=5",
       "pubDate": "Thu, 20 Aug 2026 18:18:00 GMT",
       "category": "match"
-    },
-    {
-      "title": "Nottingham Forest announce new front of shirt sponsor ahead of 2026/27 Premier League season",
-      "source": "Nottingham Post",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORkdiaEF0NmFNb2lXemxjcU0xcGNGQU1FVENHUnR1Z05QNU9GR2psS2dEY0NKaHhuM0hyNlpPcGVNSDdwb1hkZ2dyV2NSYlkyYWJNcU1KZHZFcWlFUXFtTW5kVnRqa01kZUxQRk1nRmswSlZUQlczRUZBODhJZ01qS2s4ZVZGM1BLZmotVi1sTFBEMGpabUc1MVV2b1FuM2hWZk5FQnJqTmM?oc=5",
-      "pubDate": "Tue, 18 Aug 2026 11:52:42 GMT",
-      "category": "general"
     },
     {
       "title": "FOREST ANNOUNCES MAREX AS PRINCIPAL PARTNER",
@@ -66,11 +38,32 @@
       "category": "general"
     },
     {
-      "title": "Premier League pair consider move for Liam Delap after Chelsea exile",
-      "source": "The Independent",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOR2UwQXFUdWxEcThZb3k2V3NKOUwyU1pLYXRMeWt1NEl3QWc1ck5BY25Gb3V2RzBoV3R2Z25HOEk4UTN1N09oeXNjUVVwRmxoNFY1SXM0Q2dhdmhQajVRR0xZMElfOFdmWTF5LVFHZUYzakRYT0pOOUgxUUtJSnVHeVpsUnVlN2E5UTNENU1NNlEyU0tMZE1qYjBHVm9CeXBTb0t3SDZB?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 10:30:00 GMT",
+      "title": "Nottingham Forest announce new shirt sponsor four days before Premier League opener",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNOTNLdjlBTGVVeVFNOHRmZ3dEV0QtR0V3SmlTSU1POVVqem5jZ3ItellyX1pUNFh1QVY2blpkNGZEcnctdlI4Q3UtQ0QyNkhDQUJhamdqdnlRekpuclY3SERDSmpoUWI5cVZGYkFuU1FqS3hpNzRCVDVMS0FzZGpjNGFiQWFtR3VQWG1RRw?oc=5",
+      "pubDate": "Tue, 18 Aug 2026 12:00:58 GMT",
       "category": "general"
+    },
+    {
+      "title": "Nottingham Forest latest: Olver Glasner says he has already targeted more signings",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUXZ5V2wxYUhMa0lnVGlGbjRWVUFNNVB0Yjk5d1dtWXBDYllMMVlmejJSX0pLd2xsR1J4WU1ieTJfUjU1b0pqcmlveVVHb0drNUtqT2J6RmZqeUM5VTExX1RWM0xFdFNnSTZsQ3RZWlAyOGlYVjJUMnRTM1VwOEZ3d2I1YnBUZFhHTkVFbnNSSjRyb0pQTmxBZ3E3X2VPMXpqYTl0d0lJV1pZNlhQalhxTDJRaDh1cVNmNGNZQmdTcTVBX0psaG1FdVYtTDg?oc=5",
+      "pubDate": "Thu, 20 Aug 2026 14:35:52 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Nottingham Forest live score, schedule & player stats",
+      "source": "Sofascore",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qbnZQYU1sYlFtWHNtdnNMSWM4a21zbmt1Skh1U1pybXRlY3cxbEtzeFdtTFpYS3NTanJQVTlEQ3ViWEtGU3gxbjNnSEt3NHIweTRjOWZBWHJmeDhsTUpQWEtRZjhZbGVxczVwYQ?oc=5",
+      "pubDate": "Wed, 05 Nov 2025 21:38:25 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Nottingham Forest make Arnaud Kalimuendo transfer decision",
+      "source": "Nottingham Post",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNS1RlN19SbkJEdnNQejlmSDFKRFlGQ29HazJSaXpPT295aWtNZmR4b0FvLXVVQmNSVll5MHhQTmxXOWFZYnoyUEtYTlpkQUdSUklwb0RPTHlBam5YWXhqMVdRRF92eVlzcVJKZkNmajIyWWt1Nk52UzJudzB2cnFrRjBUbFhPZ1VhZXBDdDI3b09Pa043M3czeHFMekxSLXJ3MUhIM0lSLVFNelpaOXZ2dnlFVkk?oc=5",
+      "pubDate": "Thu, 20 Aug 2026 15:31:04 GMT",
+      "category": "transfer"
     },
     {
       "title": "Nottingham Forest’s six-transfer wish list – and the most important deal of all",
@@ -80,8 +73,29 @@
       "category": "transfer"
     },
     {
+      "title": "FPL 2026/27 – Nott’m Forest: Best players, set-piece takers, predicted XI + more",
+      "source": "fantasyfootballscout.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxObENiSjNYaEd4ZnlXaVhWSThKOHQ2YlFzNF9WYTJsSWp2c1IyRVVBWGJmMGtGR2p6dzJnOVNUYmJwSTJrNm9uQ1ZlbDl0RFBJc0dqQk00NkJqaVpZLVFMNEhwVGk0c0ViUDZOMjdwc2xhRWNxRHlrRWNVVzdhQWxEbF9UdFpBWXhHLVlWNFdtaHR2SFF5dWNGZWxWcHlJcTQ4NFc4RHI5X3c2ZFhYSHBxQ1dEa3M2RkZwVi00YXB0RUg?oc=5",
+      "pubDate": "Thu, 20 Aug 2026 21:48:48 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Premier League pair consider move for Liam Delap after Chelsea exile",
+      "source": "The Independent",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOR2UwQXFUdWxEcThZb3k2V3NKOUwyU1pLYXRMeWt1NEl3QWc1ck5BY25Gb3V2RzBoV3R2Z25HOEk4UTN1N09oeXNjUVVwRmxoNFY1SXM0Q2dhdmhQajVRR0xZMElfOFdmWTF5LVFHZUYzakRYT0pOOUgxUUtJSnVHeVpsUnVlN2E5UTNENU1NNlEyU0tMZE1qYjBHVm9CeXBTb0t3SDZB?oc=5",
+      "pubDate": "Thu, 20 Aug 2026 10:30:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Nottingham Forest 2026-27 preview: Europe and trophies are the ultimate goal under Glasner",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdnBBLUlQQ0drMWVtTlVYY3UxSEtvd0U5bkpvYWp0LThHUEhSQ0VHdklTc2VnX1UtZWNnS1NsNEJNQ3FLRGxCQ3BpVUd3Q09xaU1VMEpNUUFnNHBWRjBHU1o4VUI4Qmdxb1Ytb3JTM0doQ0NxdWl4NzItQk0xUlFHTjd0Uk1MTklOMDRFOFdSMkFBaUZsUDlYM3l4bENmMEJkN2szeEJTc0dhRHBtRUxiREpsOE5lTk56dzQyZUpjOER5b2JGd1UzYTk2NGhaTnpPRnRIREdBVnRhUQ?oc=5",
+      "pubDate": "Wed, 19 Aug 2026 04:26:33 GMT",
+      "category": "match"
+    },
+    {
       "title": "Match Officials Appointed: Nottingham Forest (A)",
-      "source": "Leeds United | Official Website",
+      "source": "Leeds United",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOU0FXdXVjQW9WcU9fZmZMRXhIbmlfU0VzV2toV3VzbjRUZzlZOWw3VlNHTjFYVVVxOUM3NUV6NlpWTnRWMUtualVDVU9qbHBraEIyOUgtSDByaFhpR0F6a1BDRm12WjU1b3c0a2xLRmh1OGttSEFjbWZoSk0yMkJUYmFmczA2VDNl?oc=5",
       "pubDate": "Thu, 20 Aug 2026 10:26:41 GMT",
       "category": "manager"
@@ -92,20 +106,6 @@
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNTnFLaTNMVG41bk9sS3diUTYtTS1jSGZVN1lERnpnckhWN3pJUDR3T00xcEMyWGwyVWJ1QjgzTGxCblo1bHBPcXpwaXU1eFVnQkgzeVRqeXpKWHFhQXotb1phRENwRFFfYXU0cGZhLVdFSWg0MElrV0xYbnpXZzRKNF9aSHFZTG14eUdiMzl5c3RWNVFlcXJyMS1naWg1V0hxRnZSUlhXamQ5R2F5b21fbExQQWJSVWxuX1IwNg?oc=5",
       "pubDate": "Tue, 18 Aug 2026 17:00:00 GMT",
       "category": "transfer"
-    },
-    {
-      "title": "Hull City approach Nottingham Forest over winger as talks held",
-      "source": "Hull Live",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWXRBZTNHNk1yeEFOOHFhbUd5X1J5cHNwUW9fOVZxbFlZbVNOM2VwRi00Smk3ZXExUGVoQnhlY05vZzN5blN5aHJkUTlZSlV6NTQwMWN4NXdLanE4UmlQNU5mVFRlWWlleG9qZ0hmamtKX3NEdE1FOGItSGVaWExGN3NiLVhWSmQ1Ti1HcGdVSU1oVHBiVkRR?oc=5",
-      "pubDate": "Wed, 19 Aug 2026 08:45:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "City Women can be 'surprise packages'",
-      "source": "Eastern Daily Press",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSmRoT0U5WllYeVR6eE9ab0t5dV93QnlSbWVmQTJBeTdaMGJ0aWZ3ZDFrcGJTajEzSTlScjJTSDMydFBDaGZzMGJlZ0VWT1VoTWVuQm9FMl9JcXRWNjllVmpsR0JPUUdaVW9jWGw1cW1ONkNOSFpMWVpoU045Nkl2NVhYRXFRVXlNc2U5bkx2c241Yy0xSElKXzA2VQ?oc=5",
-      "pubDate": "Wed, 19 Aug 2026 09:21:00 GMT",
-      "category": "general"
     }
   ],
   "reddit": []

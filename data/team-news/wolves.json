@@ -1,27 +1,20 @@
 {
   "slug": "wolves",
-  "updated": "2026-08-20T18:27:59.133Z",
+  "updated": "2026-08-21T06:30:18.950Z",
   "articles": [
-    {
-      "title": "Wolves target move for Premier League attacker",
-      "source": "The72",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZUtWSXo1RTdiMk1TQ1dHWXg0a3ptbkpXRmo4S0pjM2ZDMzlMZjRqMm8tT0l0aVJpNlJDLXN6XzFUU2RlOVJ4eDBRYnViQlhZTDFwWjJOcExDdXhWYi03SWtVNF9vcjh1X1JWYWd2aHlCUjhkaVlqTC1rWldwYUhhb0hsNjdyQQ?oc=5",
-      "pubDate": "Wed, 19 Aug 2026 10:13:14 GMT",
-      "category": "rumour"
-    },
-    {
-      "title": "Manager's Press Conference | Wolverhampton Wanderers (H)",
-      "source": "Watford Football Club",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUmtQaF9Jd3YtMlUwTGI1UHQxY0hFLTF5d2tyekVlMTJ6V0hjSmg3cDJGcE5Jd0N0VEZvSERERjZFbHd4WjRYWnFqWHJoM2hBbW5RUkdBTWxiWTBDalJMSlRmeURyUmp4WG1yUC01WFlDTTUxZS10eFVCbkkzNU9xOW8tcnZPdUNyaXVjVlZhWUxMemdaNlJmbmtrWUZEaDE4?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 17:04:46 GMT",
-      "category": "manager"
-    },
     {
       "title": "Italian giants show interest in Wolves star",
       "source": "The72",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbUZGcEdlZkNsQU5kOXJHVDdxSS1BeEZJQVYwTEpaVDVUWkdsWDlPcWFLbE9uYmRmdG5UNXl2ci05cERTc0NqNWdIVG5yTW9lemU5emkyZGJoWGFkRDZDQm9oVGszZ1BxMEdvaGJ4UUtDZmtmZVRRU0JNeWRneWVzMjJR?oc=5",
       "pubDate": "Thu, 20 Aug 2026 14:20:31 GMT",
       "category": "rumour"
+    },
+    {
+      "title": "‘It’s bulls**t’: Wolves’ swearing ban has totally lost their fans",
+      "source": "The i Paper",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSi1iMFp3NFBfMEgydkpManpEeEZUakwyeGN5aGZGYnJxM2QzcWtVeGs1MzE4aVM1bUhpZF9IOVhlcGFMSmItT0E3WGREMVRUQ05HTjdCeEdZSDgyWmFjY2ZWblUyaFhJci10OFM2UUhCVmNKZzRqWk9GbnMtMVVhanRSTlo?oc=5",
+      "pubDate": "Thu, 20 Aug 2026 11:13:21 GMT",
+      "category": "general"
     },
     {
       "title": "Wolves 2-2 Blackburn: Jimenez penalty denies Blackburn away victory",
@@ -31,11 +24,11 @@
       "category": "general"
     },
     {
-      "title": "‘It’s bulls**t’: Wolves’ swearing ban has totally lost their fans",
-      "source": "The i Paper",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOSi1iMFp3NFBfMEgydkpManpEeEZUakwyeGN5aGZGYnJxM2QzcWtVeGs1MzE4aVM1bUhpZF9IOVhlcGFMSmItT0E3WGREMVRUQ05HTjdCeEdZSDgyWmFjY2ZWblUyaFhJci10OFM2UUhCVmNKZzRqWk9GbnMtMVVhanRSTlo?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 11:13:21 GMT",
-      "category": "general"
+      "title": "Manager's Press Conference | Wolverhampton Wanderers (H)",
+      "source": "Preston North End FC",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUmtQaF9Jd3YtMlUwTGI1UHQxY0hFLTF5d2tyekVlMTJ6V0hjSmg3cDJGcE5Jd0N0VEZvSERERjZFbHd4WjRYWnFqWHJoM2hBbW5RUkdBTWxiWTBDalJMSlRmeURyUmp4WG1yUC01WFlDTTUxZS10eFVCbkkzNU9xOW8tcnZPdUNyaXVjVlZhWUxMemdaNlJmbmtrWUZEaDE4?oc=5",
+      "pubDate": "Thu, 20 Aug 2026 17:04:46 GMT",
+      "category": "manager"
     },
     {
       "title": "Wolves 'closing in' on Middlesbrough-linked midfielder as £1.7m loan deal 'agreed'",
@@ -50,6 +43,13 @@
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUjc1QWdtX1ZVRll0bmlvWWtOOXp0WjRIWmFjdkFSTWFCX1pSay1yeXJ0UmxYaWVidlpfQVdZNkdTT2hDRnFpcFJFZEZzbGZmeFN1TEl1OXZKbVg5TlQzSFZZbXI0Vlc0d3ZNVWxEamxjU3VrM08tLVdtYkhrVzNvQUZZU3dRWHVLSTQ0emxhbTdqNFZHY1Y1YUNRSDVlZ9IBowFBVV95cUxON3hKa1k4S0p2cGQwMTR3VWhnbG00V2hoTUo1enJyZkE1QmQ4YmxzbmZYS09hN1NhbWZDMm5NeFhHcVczb3VzOXJwVGJCaXFDeFFjdEFPR3BSdmdzNXFMbW94ZmRMRGJJaFFkbkxpQnNZWEZmZDdHMkthV1F5WndVekpXNWFnYWFqZ0Zrd0l3VUtSYmVSdmliM0tPSXdMVmIzMFI0?oc=5",
       "pubDate": "Thu, 20 Aug 2026 04:06:00 GMT",
       "category": "general"
+    },
+    {
+      "title": "Preston vs Wolves Prediction, Betting Tips, Lineups & Odds | 22 Aug 2026",
+      "source": "Sportsgambler",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObzFJenFKOVVwTVhXNnF2bmZkaEZFZ1NRbEVhNEw1dElRTVZuS1hVWDI0ZkVLZEk5MElLQkQ2UG5pTHdmU0QyWkU2SUs4UXdPR2lFWF9GQU9VNE40aUJudV9HUWNVZk5zVUlDQXVnLXpTU0x1U2otcG9HSEZ4UF9oUGg0TkxsQUdxYnNNeGxtYzFYTXJBYjdUU2ZhSWpmbzNYdWJUeUZneUs?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 00:23:26 GMT",
+      "category": "match"
     },
     {
       "title": "Raul Jimenez’s late penalty seals share of spoils for Wolves against Blackburn",
@@ -94,17 +94,17 @@
       "category": "fitness"
     },
     {
-      "title": "The Story of Wolves | A changing away kit (part 3) | Features | Latest News",
-      "source": "Wolverhampton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbWhsYXRlbE13U3pWR2YtZkZSY0I4RDNSclJmbHpkdFliUHFHVHY4ZXBGNC1NSjdSUkpxclBHX1dRWllEM3FZVTZGMmZhNXZrNms1RHItbW1zbURRRnlKXzhCSEVaUnFNV21PZElpSVlWR0xkT1FkZmlfLTJuT3VfZU1PdnBfRE1JQ1NxQnV6MHZOUjBMTlIxRGdfOA?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 07:00:26 GMT",
-      "category": "general"
-    },
-    {
       "title": "Wolves Express | James becomes latest addition | Club | Latest News",
       "source": "Wolverhampton Wanderers FC",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVVFfbVpmWVRESmlhd0xDQkgwRnQwcjhWNndHc3ZBblVZdzJiaUFCNTJqeUJES3huWGlPSGh6U3hhUlROYTM0dlZFc1ptR1lxeDJmVk5YTG9OTXN6Tm9hcmxfMGluczZYblZkQVgtLXNfVmloODVBdkF5azhYQXI0b1FpSGZ0bmRaU0Nqc05ma1pCLUU?oc=5",
       "pubDate": "Thu, 20 Aug 2026 08:40:20 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Mike Bailey | 1942-2026 | Club | Latest News",
+      "source": "Wolverhampton Wanderers FC",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBiN3U4VXhzTmF2UjdTX2ljLXB6aXhaS0h0N3F5dEpFNElIUm9wZ0FrbzkzbmJHc201VUsyZjlxUXF5S2tMUkY0bmZJMXVJbzV4eVJkWGFveUl5NnpKUUZiMXhSTUpjVHNQTEoxT0w4cnJwelUt?oc=5",
+      "pubDate": "Mon, 17 Aug 2026 19:33:38 GMT",
       "category": "general"
     }
   ],
