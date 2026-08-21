@@ -1,26 +1,75 @@
 {
   "slug": "liverpool",
-  "updated": "2026-08-21T06:30:18.950Z",
+  "updated": "2026-08-21T18:25:55.725Z",
   "articles": [
     {
-      "title": "Liverpool finally strike bombshell deal after just hours of negotiations",
-      "source": "Anfield Watch",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbjdDNFZqNXNKQUhlRG5MWUpORVdHenFvQkpZVmxpbU1RNDdDTVdBQmVQNnFxUFMxVG01TkZrcm1wbk1obkVHOHZqMUFDWl9vZ2xLQkJfTXdMa3FTNk1ReHh5eVNiQ2RGdGdkUmNxUFduV2xhRURScm81MTZHQktTZHoyM3FjSHo4VF81ekZxbkRKQVlfMWJKN25EZmZ1QWs5MmJmY1V1UWJURWM0ZlRoM2tVendJeGtqLW9JNjE0bw?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 20:00:00 GMT",
+      "title": "Andoni Iraola press conference - Liverpool boss on transfers, Newcastle team news",
+      "source": "Liverpool Echo",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTmZFYllLbGFMZXg5YnBFb0RNYzh0dXFuWHJSMXBZT05aaUdDWTkxRVN0NlpldzF0SDF2U3RuYmJSNXlmY1RUZlpZVGIzX1FrdTRObTJsRllpUl9jclBzVUlNMGZYUHZaSW8xY1dCZGZ0c3V5S3QyRFRUTVY1bDlybTdzaVpoZHdSdGx2SWhYQlJ4TUpwQS04T2dPSkt2b3VsT29TQ2tWbkzSAa4BQVVfeXFMUHJBb2s0V2V2SlhyTS0tdEJMN0ltX2x0bGVURk11ajdnZ3lCMEE3WWJHbU9WQ1g5NGt0Q0lOQlR3T2ZCcS13a0U0eE5LckxVUU9aN0ktTWNiSHJNcUhjVElja3ZxbGVpSlVaTEI1d1VmS1JjOF83ZjZMdnZPT1RtSWZHNXJkNDdXeWRMemoyclRIa3NKVU81SWRMbXdRQW1xbFFmM2xBcW9xZ1p2YTF3?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 11:32:03 GMT",
+      "category": "manager"
+    },
+    {
+      "title": "Andoni Iraola press conference: Newcastle v Liverpool, first-game excitement, transfers and more",
+      "source": "Liverpool FC",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTUo3ZFNTNl9xSzZ5d05JbjZ3TzVzTU5jMXpUVUJWQUNablcxMmtxajIwWjRSSlRvS0hveWlYajJzdndiTDJNU29IX0xhREZBU0tYNktteVlZczA3QWhWdmR5RG1vcDRydkxIa2RBaThvMkZQSVFfSTRPelVPai0zSFJrUnZDcnp1U09WcnNUY3Z5NkdxSkZpd1A4WkxyVDBtTDJzcXBhc01DUXFjUjRlT3BhNlA3WV9WN1lGM3d6U2dzNU9J0gHMAUFVX3lxTE9DTktwV2dfYzMwRFcyMlVDY19TNXFMOVVrcVZTcEhhazlmZDJlYkFUV2xxX0hOSmpjSkQzYk9vYjRCMS1lTVRGRURpdVI1NXdzZzJvSVVLU09jeVlsUzJCTTV4RnhVZUZPNG5Oa3hLRFpOVm1PZEJvN3ZlQVRZLXVlYS1DQTNHZ29OWlQ1dzhLRGhvUkVMaF94bEZjcUZjaUI0Z1g3TXRaV1lUWU8teHVrOGhvVmluakY2Q2Jnak1Db1U4NjUtdGZaOW1YQw?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 14:13:23 GMT",
+      "category": "manager"
+    },
+    {
+      "title": "Andoni Iraola confirms Liverpool’s three vice-captains for 2026-27 Premier League season",
+      "source": "readliverpoolfc.com",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWXdSM3ZXUlZmNGtGblBKLXh5eXF1NUJLanJXM3c4YzdPLTJ4d09uTkMxNll3UTdKcUc3Uld3Z0R4OEM2UzNwdEJWLXBuRVUtTXc2VlNwMm1LeXJTZVE3ZDU0QmxVVE5wUElJcVJjeXZGRDdNT0FOeWtLZ093enVmNkFxYzJ4cU1rVzV5UkNScDl2aDF4LU8zR2R1VEE3X253aGM1Y3JzczZENkZiODJkYmFCcWYxYzZaNjJnRzFB?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 14:13:22 GMT",
       "category": "general"
     },
     {
-      "title": "Liverpool XI vs Newcastle: Confirmed team news and predicted lineup",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNZGcwVGRCbHBad1N2QmRBa2hGcUlLcWc1c1k2Q25Wd1ZSRnYtN0g3R3JtUjFtaGxUekhZTHlwemdpNExvNVFwOHd4Q25WLW9wQUQ0RXlTQ1BSb3dSNVZqV2tBWGFGX1JFS0h4dnV6bHJMd3djU0xLY1FNT3czTnVyczZJTkFuWVRwdG5ONF9TQ2NLSGlPT2FyRkh2R2VKTVRYR2ZXNnV3X24ySmItQk83YVpoZ2ZjRFJRUzRobk9tbGtpSjJRVGJaWms1dmYzby12RndjOW9vOE5rQllubVE0N0RTZUpSNkh3RDRJ?oc=5",
-      "pubDate": "Fri, 21 Aug 2026 06:27:07 GMT",
-      "category": "match"
+      "title": "Brighton send Liverpool 'clear' transfer message over Yankuba Minteh",
+      "source": "Liverpool FC",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQRWEtaF9JbThsRV9vTkxkMFhSNDQzR0pBTkpjTlE2LWY1bnhFTzBraGVCc25rNzNybGxKNFNIekVMaVkxMld6clBYb3lJV0tGQlNhMWxISkZweU1NYm9tc202MFFNSHFuUU1Od3IzTzAxLUhhUE9QdU8wSl9wRkNCUTc0UmdhS1NSUEFSbHdxeHF6TUFFX1Z4b045YXdfbWpP0gGoAUFVX3lxTE9BdnpHcnZDQnlYdUFlS2ktRG9PaF9SRFBlenFqeFVibTR4bEdkMGp2LU5hOUpjWjRLUS1nejhEcGstakhWeFhic19YMllzcGRuSkFab1Noa1NBenQzV2hRV2JJM1dwMHJKdW1KUXZRZXFwT09vMkFpTU1rNXJ0eU14bHRoNWFUQnhVcFhsb19jc2FrMkQyRENkZ0w3MS1uWlZ3emdUUGVFTA?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 13:34:48 GMT",
+      "category": "transfer"
     },
     {
-      "title": "Transfer news LIVE: Arsenal eye Vinicius alternative, Man Utd want Barcelona star, Liverpool in Minteh bid",
-      "source": "The Independent",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTzV5b0s5bWMzUEUzUTEzXzBLelZLZldSd1p5LXd6cmthR2w5RS1tcElSSm9xY0Z6TXl0ZGNudWYyNkxaelBFN01lOF9iSEdGbEhBem1RTkFocEJBeFZyWVc4a2VweGxaYWVNU1ZwMkNHRml1TTcxZjV2TU5uQUd4Q3ZNYTR0MFZJcmRGQWZwdjFiUjBSU2VrbGFNNnNScFJuY1FiRjV6bmhDNjBHWHFXOQ?oc=5",
-      "pubDate": "Fri, 21 Aug 2026 05:49:06 GMT",
+      "title": "Liverpool’s second bid for Minteh turned down",
+      "source": "clickliverpool.com",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWG5BZnA0Xy1wM2NSOUNVWGgxMmdEUW5pZTlzb0xvM25LQ3RBdVN4RzRYRXpKSWppbzZJVkRLdG96YUh1bU03eVRXTW5oUHRoblZIZTl1aEZIb3NpLVl4bjhkRTEzeEdyc2gtWms0OVU0cWIxdFBkR0NzbnpFQTk5czFSSjEwaVkxYVdJcjkzZ2tGMUFkc0lXbVhpMXJFcVVz?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 17:17:24 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Fate of second Liverpool bid for Minteh revealed as Brighton man says yes",
+      "source": "Football365",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaThOSVdZUnZJeTJwZVRaYm92SG9sWXdiV2lPZG9zUW9OQmpKdmU1U05kenJPalIwZnFUdXQyNWh0dVZSWWdmc1JiRGFxZFZfSUpJX2s2WEZaSUdtajRQTHJELVpnd0dFMFBvbkx0WlYxOXlDUXNkQm1FV0RrLXVJX2dFRGRybE0?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 17:28:49 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Curtis Jones Leaves Liverpool With A Whimper",
+      "source": "The Anfield Wrap",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMzVvWDJSM2gwZ0IxbE42M2UwZnVCRHAwWVhPRnVDbjBYM1YwUUxvbjhuOFRyZE1wVUN0S2RrbnB5Nm91Sm1EN0tabTh0aGZPRE9xb3Z1TUVMRlRscXI2R3BUazU2SmZqcVZCTjdWdHhUdVZBWnY5OElsTzRrakc2NGU2eHVSUmcwZlBiRA?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 17:09:39 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Liverpool choose 19-year-old midfielder to replace Curtis Jones",
+      "source": "Anfield Watch",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMG1FTzJkajFJalZQazhFTDc2WVRXdzdjVzJoejJXUjNlQzFMd0o5OFRNTWxSNmpJYzE3Q0trZF90UW1haHhkTmRGUXdaeU12WEZzeF9KMGc4RGVaMXlnZ3RvWjdpWmRfLUQ1aFAyMXNRUU45a1o2bTNUckloNzRuNlNoSElHTVRROUV0QXRtaUwyZTNQTDhveE5peVR2elZ3UFhENEV0dlRvR3JiWDNRa1huMEhkSlEzeFAwd2kyTG1YMUtYZHduMV9fZ0c?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 17:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Curtis Jones' exit means Liverpool have no local players now. Is that a problem?",
+      "source": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUZicXBEaURrckpjd0Nkb1YzRVVUa3c4X2NiRXVBMVFheEo1cG0yemVtSVUyYkdNN0t1VkdEUmM3UnBUS0RCRGNWbEpMNEcxT1ZERms1aFYxMEJWYU9DbFRsNm1rekFHZTc0YVJKNHl2SHRkakZGYzZ1WVlYNzJ2cE44N3pWbHVsMHZ1dU9pTDFLR1U0SG5IamhrcFdDeERNM3E3Vm1SU21fUFpzamxaNnJkaGM?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Transfer news LIVE: Arsenal triple deal, Alvarez boost; Man Utd medical",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYmRLUUVPelQ5bXVnUjNqNnpwZlhOeWo2bmxpZlc5Q3hRd3k3R3FPNnpMY2oxb2YzV2xNc1pweDd6UmlHUUhqSHltR2ZTVy0weDNqb2ZYTU9oa2dPa2NDRG9fc0stQUxxTGU4el9XS1ZCdllpVWhiOWdhTUhYVGV2VDhFRXIwbW9HU3lDaF9IaHhhaDN2V0xaTDZXWWdaYklsUVdkUUdDVFNzS2lDVWpleFZRc2NCQnJaYnV6LXJMQ1dGT3piVXU0S2dBZ2xyYTg?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 15:11:03 GMT",
       "category": "transfer"
     },
     {
@@ -31,80 +80,31 @@
       "category": "transfer"
     },
     {
-      "title": "Transfer news LIVE: Savinho set for Tottenham medical after deal is agreed",
-      "source": "The Sun",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPN1N3T0FHaW85VFBmelI4enlKVTROVGhrZW5KdW1uOVdTYkxNcUJQN2xkTzRlTVBGM1E2YkVqVFMyckpDZkZFbkRtZ2RkbG1MNjBRS1NBYk13Qklkdm03djVLSGhRYmZYM1I5amFpLTAwb1h4UThHZnhHQ0pUY0FfSXFYVTlVMUxuRzJSVDdvX2N2QXhld25nMg?oc=5",
-      "pubDate": "Fri, 21 Aug 2026 05:15:28 GMT",
+      "title": "Transfer news LIVE: Arsenal signing today, Iraola frustrated by Liverpool business, Baleba nears Man Utd switch",
+      "source": "The Independent",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQS0I3a0dCaDJjMVhTWUNhbVU5bzJTZTdOS0FPSzBSYXNqNzYtQjJrQnA4c1EtczQwcjNUeFdKS3ByRVlMYmRSMjg2SXkxSVowVXFKTkdLX3V2N2VYZ0hpeFBpVjN3N3ZHOVcwZk9MRy1xUjNnOTBYdW4zZGMyRUhyNWQxd3oyOGJJRm4zUXg5cnBQNWpSVFM0amt6X0VkajlIc2ZBWEY1dDMtWkFNWUJ1Qg?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 18:16:49 GMT",
       "category": "transfer"
     },
     {
-      "title": "Liverpool have Barcola alternative staring them in face and he is half the price",
-      "source": "talkSPORT",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUl9HcENsUXJZY09YYzhoWFFJdnpUNzRuZ1ZMWmxEYnBxOVdXei1sakVWWGRGNVRxelNPUXRtQjdZVW1jejBmSDg0WExBa0Q1dkFoS0p2TlNtSzdCb245RVVXT0ZtZS0wOU12MUxwZW5RdjNzbHdzampCOTFBZWFyQ1lmalVzS1RtdFF4UVo5a2tiYjc5TkU1anF2cDJnYVVEYTdyUkxoWThYZWFIVXc?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 20:54:17 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Bradley Barcola latest, Cody Gakpo exit, transfer needs - your Liverpool questions answered",
-      "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZ3NlakJIeVg5QXBRWElzTlg0TjlDdXNrSEZGeGhKUzI2eU9mZGwtby0zOEVGZEhxbmNQQjYtSlJBSzNiT0ExT21zU1VNZWxkZGVrNklsYnVUX1JibFpwOEx4bWN3Y0ZQSzM5SkF3cTdHQk55Z21waUNFWmRPSXQ3WmJXVVQxWkFnbDBVckJvOG55bU8zWnhBU29DT0haZnlZUVJTNHBn?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 15:20:00 GMT",
+      "title": "Liverpool transfer news: LIVE updates, rumours and deals",
+      "source": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ3BhLWR5WGQ4T2psMXJCbzNwS1JRMFM0LUN1eDkwOEdDRnZ4OEZwVGVWT1lKcjh4eExCamQ0V3VTWjNJSEFsdEFfV3lsX25xdnpCaHctcGJyRi1jUmF1SlRFRHdvYkFLdDdDNm5IR3JvcHp1V2FhRG0tWmFBcWZkVzQ1SjFkNlU?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 14:30:25 GMT",
       "category": "transfer"
     },
     {
-      "title": "Liverpool transfer news after $233M double PSG claim as next exit confirmed",
-      "source": "Liverpool.com",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNU0ZMMjFXMmNXdmpzbndtTEJRSGNPNWdwVlFENmpoU0JUM0tSQ3hiXzg0WDRUb2EtOUlJbzVlb3duaU4xYVJCeTZCelRnWVh1Qkd1R0JZMDBKYlkxaVM1ZzQ2VzlYNmRianlYTWpIanZTUHhUTlppWnFBY3dnQ3dkOS16NXVYLTRXeU5pUVowSGdaTjRHcDNQc3U4ZHJTY1Vj0gGmAUFVX3lxTE96YkdHUUZYc19SbzJRRjFZT2ZJWjNXalR4eWNyanM0cFI2OExQT3BGanFIaEdwMmN6M1huN2lLTWZqTGs3bTE3SGpLMTk5eUhWSlkyaDRlcGpPNUtmdWI4ZkVqaTV6cERtaXo0dHF2QTZaYW56ZDlrUURYQWdrSXNTRUNtb0ZaNENBUVF1QnlMTy1FdWYyUlRzaDVKcDZxSWszRnpvdHc?oc=5",
-      "pubDate": "Fri, 21 Aug 2026 04:04:48 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "English football needs Florian Wirtz to succeed",
-      "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVU9NZGdFSk1TMFBZYjhKNWVLdUxLUWpLMnp5TEpQeW51TmpLZ3BsYVowTVZMM3gwS2tRVmtIYmVpRzY2aUVWUGd6bGZ0c09BWnJxX2JkZDhOX21CYVp3R2pOT2pLWWVrLWx0bkJEMVFFVkR4QzVvSF9Cd3BrZG9naWtGc2F0bnh6MzZqZTUtSzZsQ2Z4UGV1anJyOGI?oc=5",
-      "pubDate": "Fri, 21 Aug 2026 05:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Protecting fair access to tickets: Important information for supporters",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPalFWWThZWlkzRkhBbUpOY09uc1RtSFpCU0NXQWwxTmlYQVhkVnJFXy1EQ1h5WXh1ODRLS2ptbk5LZlQ5NWlxeUlSbTZxVjltQXJNdWtPMWpSOVg0S2l0cmtIMFlCWFprRVBuOWZpcmNCbjZxUDZMbm1OWVhuUTMxbmtKM2FpT2dvTERFTC0ySUdpcTl1Rk9ndTBuN1bSAaQBQVVfeXFMUDB6TFY4VVQ5V0lYSXNYZTBiUW90bk11TFR0Y01qTnB0SmNIb1JLbXhvRWVmakhpa2xGV01LbWhxeEo2eTB3NGtfSlVSZnFubzdsUy1NeFdyZzVESnJrS3AtWDBTZ2JENE1GRkxYbmJYWXVDZDVYbzFMVzNhY3MzMS14RDNSQ1VlVDNwQ3N6NUdnZnhBV083Uy1nUGx5QjZFS2NwUDA?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 11:03:03 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Liverpool news: £70million deal still on as agreement finally reached on transfer",
-      "source": "Daily Mirror",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdzVZSGpadnFaLTdPVGJrWEllY2YwNVNXRGIxT253S1Q0dDNta1MzQVhsbXFGLXAwSVhEV0hoam93WHhGTWJZZkh5VW9hdHNHSkRMcFJsbTlubEhicVc2NC1jblMtalBKSGFnb0IxaktkTWxpZTNLX2xGMjBoUktOZDJkTi1mYlJUQWxmWHBXX2xGZlFpUm530gGcAUFVX3lxTFBEbkFyRXFTYlh2VzJ6X1FoNllzV0RUemtVZTJrX3hfT1pxc2ZvUUpaTXNUeVN1eC1nUmpmSE40ODR6VXdPVXN2bTh1YklaU1J4Nl9LS1RpNWdtTjkwN1ktRDVPSTh1Tkp0LUZPTF9ZZHoza3A0ODZqN0NWWmJjNFFzbmZjTjIwUVhkaDAtVzVhT3k1Q0lsQWV2UHVOTQ?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 04:00:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Newcastle United vs Liverpool: Premier League preview, team news, stats & head-to-head",
+      "title": "Liverpool 2-4 Leeds United: Dominic Calvert-Lewin scores twice in comeback win",
       "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZYWtCMzUzZUQ2MjJxdkhyODYxOXNHRDUzeUJuOVBIRXJVTWZtZWoyWndlaHJ3enYwYmp2NkgtSzduSkZMbGhMSS1yVllmVlc3NWxhbUw1TW9BdjJCTEZVMW9mRkh5QQ?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 03:38:24 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5sNUtzSzlib28tTU40eHJUYzdSRTdGT2wxODRQSUxIM2hzY3dFSURWdUxYOTlJZ05xSVVJZUgtdGdER3NtMG9TTW1sQkMxbjFLOEpzWnhBRkdEckl0eVpaLXlYcWM?oc=5",
+      "pubDate": "Sun, 02 Aug 2026 07:00:00 GMT",
       "category": "match"
     },
     {
-      "title": "Yankuba Minteh: Liverpool have £50m bid rejected by Brighton",
+      "title": "Possible new kit sponsor & 3 vice-captains named – Latest Liverpool FC News",
       "source": "This Is Anfield",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPU2F6ZloyMGZYZGNpdmdjemZUbGk0MDFaZF9Nd3gwblNVMUxYUk1adGMydTVYTENLWVVpd3JiMlM2eGh2bl9vYmZ0bHhXcFFIbEJKMEpJYUpmeXU5U2d0V0NEWmdwQS1fejNaeWNlcXZkVU5JQWpzdlBObkNaVnY1M0xkY2U3SERkQU5sa3dOd0hvMXM?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 18:17:10 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Liverpool see £50m Yankuba Minteh bid rejected by Brighton as winger transfer search ramps up",
-      "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYzF6NDNuWWxDejFTa0tzVzNUYjhxSFhuUXhzSERDblJ6Z2VoNW5WbnRJbzBpcmdBODJ0SnVTOEJXemJtOWZROExCZ2VhZGMyLVZFZzkxbDVicFo5MW1vQ2Joblc2ekVUQXBQdGhEblZOcFRnMWx0dEs0X3hBSHRfR25RaFpITkd6MC1EbmZtS3M2ejZBaWFXaVlSUDdfY2R0SjJYWDI2NEtJRlpE?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 16:13:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Liverpool approach Brighton for winger Yankuba Minteh",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNk1tZjI4NTlPY1o2OURkWERlVkJFNXlZUHYxbVVXaFNzYzBWTmRZTmczTUVFcU14MUpnZWRTY29NOXFRWWlHa3NwdTA4OXdpRGxVNVBKREoxWnRMbExIZlN1b2U0d2VmOTJhNHJsVTFQY2RhNkFBaTg5SGgtazUzd2UyaWJqaXE3dmfSAZIBQVVfeXFMTjJHZ19JSGtscW9Va1hBbE05Q2hTQ1VSbDZFRWVTM2pXWHVVbzc2bjVHMzZsdXU0dXp2QzNYYlhBQ3pjSEZ3RUNaRmlsbUlvdm5kRmhUSl9XSWVhYTVwTDRCcEpReDJHRnpsSkRFY29fQ0N2RWREZkw1ZS02Vk1BLVlWRnpYQUtMY0lvbXR4TGdld0E?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 16:23:09 GMT",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdTJneElsZzAzN29HR0tQUzR2YndCaUtDY09PRkh3RmpNTnhzeVowc19SUXFpSHM2SUczZ1VXa3duWTFvTGNVY1ltbHkwelJLTFRZODRPQVA2VExTNGNDOXhvMmhxWFZJbXRtQzlfdFo4bmFIazhyY0dwMWV0R2o3TnEyUTBkY3JreGsyTDJKR25JVHdMNE9vUU52RkRIZWwzcnJWbXF2TkVwZFNVbXJj?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 16:12:03 GMT",
       "category": "general"
     }
   ],

@@ -1,27 +1,13 @@
 {
   "slug": "newcastle",
-  "updated": "2026-08-21T06:30:18.950Z",
+  "updated": "2026-08-21T18:25:55.725Z",
   "articles": [
     {
-      "title": "Newcastle United transfer news LIVE: Barcelona deal 'close', Gonzalez talks",
+      "title": "Newcastle United transfer news LIVE: Nico Gonzalez hint after City verdict",
       "source": "Chronicle Live",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQX2hzcGhZdnU3eVVSN29RbUJOSHFOTGdlOERlekdxdEZEOU9TUGpCUVJxTndla3BseWUyTkxNeHJVQUJBcmx1R3gwYnhEQlJRemllbGtDQ0kwNlo0UG9KNHVGWl8yblZLNEVEdW15NEFRc1gzOEZSQXZhWUxobWxjdkxjT3h3SUY5aXhhV2F0NXE5MVR4ckpVamcycnJYQkhSZ1drOTBqVVg?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 15:24:52 GMT",
+      "pubDate": "Fri, 21 Aug 2026 15:34:04 GMT",
       "category": "transfer"
-    },
-    {
-      "title": "Premier League 2026-27 preview No 17: Newcastle",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVzlKUjV3bzZHZUFGVWpBM1RYMmxRNEwybGZiSk9JX1dhZW1KbjRnVm1zMjhtUmpMRExLYlBrbDhiZzc1MjZOUGdaYzFKSkVmcF9Ndk9PR2pYYW9nUHFKUmNEbUt1bEdIYXNvMnFpQzdRdm9EbTRnaE9hODR3Umprb2M0QUdxMmNEV3dNSjM0eFVkNlhIQVVsbTRVcw?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 07:06:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "PIF values Newcastle over £2bn but has no intention of selling",
-      "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZzRnaDZfX2huS0tLNHM0aEg5QzlJZXVBbGoxazd0N3hlQjVMcUVzQXFsV3J2SGtpSGxBUFVGOUU2NjFvelJ4ZGY2RXZCTkoydmhNWUFmRFVXSU9Rb3JZOHdhWEdUaDNnRjcwUkdaTWpfR0VNbERwN19kRXFMRUZ4a2hBY2xWX0xnUEVkV3Q5bzF4RjRsZzczYWFVRlRodzNyN0ZxZzRKb2I?oc=5",
-      "pubDate": "Fri, 21 Aug 2026 05:00:00 GMT",
-      "category": "general"
     },
     {
       "title": "Newcastle plot ‘Project £2bn’ with new stadium plan for 2030",
@@ -31,24 +17,31 @@
       "category": "general"
     },
     {
-      "title": "Newcastle City Council issue bizarre warning on Newcastle United’s £190m training ground plans",
-      "source": "Shields Gazette",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNenkwdDhSQXRucllfcHBIM18wYTVHb2tFSW1TOE5vVlJvUkNjYmlCaEd4UFZ1YjdXcEdMTThRX0NPdUE1ZlBOejFQUXAtNG0tMk5UOF9VeXhlSXpJc0lwY1EtcXgyNkZ2RE9TS0NoeExFbm5RRExjN0ZFSFNkUW1CZmhHM3ZMZDUyQ0VSYXdZZGhrdkFCY2Q0NkUtRnNSRFFGTnlmdU9YSXJoVmxV?oc=5",
-      "pubDate": "Fri, 21 Aug 2026 05:00:00 GMT",
+      "title": "Report Nkunku preference for RB Leipzig, but Newcastle United have best offer",
+      "source": "Football Italia",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfd2pCdDhVU1pjdUNFZkVJdlo0N3hJUjByM0h3blJENExiZ3JEckxjZ2g2WFpTOGx4aDZkZDlWaTZMYnBXRGVGVFZxNmd3NGgwN3F3UUtrQW5faUFUSVN1ME5VUnhJdUpWbTlvNzZoOGhnbXRsWUFlaFZNQ0ItSDDSAYQBQVVfeXFMTmo4RVdRM0xmRVZOd1ZZcFlOUk41WHZCZmJ6Rm9fckM5NFRQd3NGNHFOXy1uUVNobkJrbjVKdGJucnp5dFNiSFJFcEIxWmxvWVE5aWVKZEczLTZDdzVmOEg1OXNRc1BPVDFUM2ZFTnRFUm5RT1JrdzZmLWF1cUlOaTF5eWpV?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 17:46:36 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Newcastle United announce to fans an increased St James’ Park capacity",
+      "source": "The Mag",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWm5YcURGNWJ5SHRZMnY0dXZjUHZlVkRTSVhGZlNsR1RFa09qYk1ncjBTWU9idEhkVlNmZXpPM1RBWmh2ekJuZ2h0X3VGYmZvbFFRSXBlSGJiX0tVaU1KMWEtSThhOFpHYmdNb3NaSlE4WWRlbk1KYUJ0YVVjQlFIdWhXcGtZdFdtanphVElhRTFDQkF3RkU1OFlfWEUwWVVNVlFWMlNB?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 17:21:19 GMT",
       "category": "general"
     },
     {
-      "title": "NUFC agree to buy training ground site for £190m",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5xakN6NTFmX0Yta2FzaTI5TjlaOGhXd1FMQ0NUX3BjVGswcWxMM2ZLV3dORWFQLXd1U3lERmZrTmJpVnZkSDNGRFQzc056bzRrNl9VWUhGeDVzSWpW?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 17:52:58 GMT",
+      "title": "Stats: Potential milestones for four Liverpool players against Newcastle United",
+      "source": "Liverpool FC",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdjBLdzl5Q2dsQWxLak5NN1paTTRlbTdBNmN1UGsyOEVZNW5DdUZESWxDTzNXNlpPR2ZxWjUzanl1ZWZ2TVU0UFlmcmRxYnVXR1RqaXFHUTVJbVhxOWJjUjZ0ZldwVjMtMklSV0JQaUw3Mi1JX3JlTWxNQlV2aDkyeEtZWktMWW9jU2xZTHJhMktFRkxjQWtnWDBMOEpvZnVWdmN0eUtuNWhaSk3SAbMBQVVfeXFMUFJsYndsWDllVC1Cd1Q2VjBTVGFpYWg0OE1KYXk3X2EyS3d2ZUsyd0FfT2RwdmZNZ0FSWkFoclAwNkkxVWpPeHR0SXlYME5sUThCVDJ2cjFQcUZCd0NIVjVZVEJlLVl4WjhYZTM0cGNiel84X1diUkhlbk5zbkppdFk5OU5PSzRvRnhsdHFhS1ZXVGRTb2xnY2p1YTE4SC1XX3lYVWVXR3BFY3ZXVFh5UDRfYlU?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 08:28:18 GMT",
       "category": "general"
     },
     {
-      "title": "Latest. Newcastle United to acquire Woolsington site with vision for world-class training complex",
+      "title": "Latest. Matthias Jaissle's team news update: Livramento and Joelinton latest ahead of Reds test",
       "source": "Newcastle United",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVTJ2clhZUmRvaW1Wa0RWRjFLZkdOUWpFeVUxUTFjYkhHLVBKR0o4dm5JaDhEaFFydzctZmFDeS0tOUp2RGo1UGVkcFZONV9hMmF4cWJlUHZPOWdHZVZQRjJiYmo3NlA0UVlkSjZsTnRMRWtfWS1LWFdEWE9RWVpNcVMwVmtkZlk0Z1RDMGYwdWVQX2RZcWh2dHRSdFZteXI1NmNOZ0VKSU9TSkMyQXV0dHFCMFlZQzJsei1VTFJRVE9ZVDc4TGh5Uw?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 13:22:13 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOU0pEaS00M2hXaWh1bENIRHFoN29EY2JTSGpmNVMxYmpzY0xUbzZpSHlIaW1KaDE5VGFUSzgxbXFpRjBYN0U5R2FlcUw5Si1Odi1La2VCTjRwaEJwVFlyaWozMzVaRjVKVWFPM2w4TW4zVU5ZZi13RUVIV2NYcGtJcGtTX0NXNGV1NTJmZHNfTkQ0VXBsUEtnUXBzcGdoa05ua1Q4WVpQeGNqVUd4SGdZOGN4MTZncjNNMXlnUFRnRlNkU0k?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 08:51:56 GMT",
       "category": "general"
     },
     {
@@ -59,32 +52,46 @@
       "category": "general"
     },
     {
+      "title": "PIF values Newcastle over £2bn but has no intention of selling",
+      "source": "The Telegraph",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZzRnaDZfX2huS0tLNHM0aEg5QzlJZXVBbGoxazd0N3hlQjVMcUVzQXFsV3J2SGtpSGxBUFVGOUU2NjFvelJ4ZGY2RXZCTkoydmhNWUFmRFVXSU9Rb3JZOHdhWEdUaDNnRjcwUkdaTWpfR0VNbERwN19kRXFMRUZ4a2hBY2xWX0xnUEVkV3Q5bzF4RjRsZzczYWFVRlRodzNyN0ZxZzRKb2I?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 05:00:00 GMT",
+      "category": "general"
+    },
+    {
       "title": "Newcastle United striker's future decided after Germany links",
       "source": "FourFourTwo",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQam1MbWRYWDVmdk8wMTBSWUpmQ2twU1VMbF9QVEtiNEhXQzgwXzBWUG8wcGVRZlRlcG9Cc0VzUHRhMlBveFNPbW90d3pXb25ZeU1XYm8xcFNOcUpPQmxGU3NZMXVPa2xWRG1lYUEzV1RGWG53UTFXUUtUWUtRRC04Um5RUF9XV2JBd2F2VXl4Vk1Md2dUSkJCRC0zcFZsQQ?oc=5",
-      "pubDate": "Fri, 21 Aug 2026 04:46:01 GMT",
+      "pubDate": "Fri, 21 Aug 2026 04:45:00 GMT",
       "category": "general"
     },
     {
-      "title": "Lewis Hall makes complete U-turn on Newcastle United future",
-      "source": "Read Newcastle",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZWhab0pzNzYxOHZmZlVDcWpqNldseUhtV3E5U1dOQWwtSy1ta1FJOFd0TS12Sm5LVXRDT3BydnlRdEtJSHpoSGFPN1plX2RoazZYaXZjZG1FUVp1REg3OEhtZi0wZFV0ZklORTlpWGRGeEVqYjFSb2M5LUVvTXNQOXQzd05haDFaMWZMZnBZU2p0U2lCR09KRVF3?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 21:09:09 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Newcastle United vs Liverpool: Premier League preview, team news, stats & head-to-head",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZYWtCMzUzZUQ2MjJxdkhyODYxOXNHRDUzeUJuOVBIRXJVTWZtZWoyWndlaHJ3enYwYmp2NkgtSzduSkZMbGhMSS1yVllmVlc3NWxhbUw1TW9BdjJCTEZVMW9mRkh5QQ?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 03:38:24 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Newcastle United ace set to leave club and 'walking away' from lucrative contract amid Celtic transfer rumours",
-      "source": "GlasgowWorld",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRGk1Qm1xLV9KZ2ttclNfanh5bEI5RmNmR2Y4djlPWG5CbWlaRFJfaTVNOTltZFBudmkxZkRmaE1CcXVBTUNYekJEVzFtbFVxM0tqYlEzSGE0a25taEtTaGRMQVBtd2p1V1plb3FEVFFvUVpuTTJuMHNCTzV1ZnVyanYwNVZQVDFHSVZ4ek9NdmdTc3F4cjlCZnNvX2ZfZjlWVGRCeEQtajU4UjNmS3psNmdYRVdEQVN3NTFXM0lWMWVGMTdyU21YdTM3WjVmX29T?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 08:00:00 GMT",
+      "title": "Bruno Guimaraes Arsenal bombshell weeks after Newcastle United transfer",
+      "source": "NewcastleWorld",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWTRZSEdpZ0R4ZjE2S3pfMmlLYUJwZkttRTNmd0N0NEFrU3Q5Y0hWZGpVYlZCQ1ZTNkJpWTlrVktWaGhydHNpRGJ3UzVEYlpXdE5EMGxXM3UtR1FuTVBLNWZCcUpReDZkd2dkcHFsWGZfMzg3Qm94STJvSWw3STh4enEwWUluaXpReXNfSHhRTFJjZnJBNDBFMV8wTFJadkhENGhvYXJZS2VhVkhtX0k1bmhoV01wSEhoeWc?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 15:30:00 GMT",
       "category": "transfer"
+    },
+    {
+      "title": "Newcastle United news: Fan's view on transfers and Premier League",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1FZDQ5N3dtejJ5WWNSeDg5MzNFNzRHdGtWcHpLaWVVb2FpcjRjWEVqTlY2ZkZVcUhmTmNtLV8yUHVvb0FlRmpORXh6ckc5NU1zSG81aW5XOW9QbndwRENqRE5ZMC1CdWZjWGc?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 10:52:24 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Latest. Newcastle United announces multi-year partnership with SumUp as Official Training Kit Partner",
+      "source": "Newcastle United",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSmxpZ2tROFZlNHBGZjF5MmxFWDJFUGRZWEZ6OWxvX3ZlQVNUTUhudEt4YVpTdHRUSlNlbW12QWhlVHBEMDl3M0FjRUI4TUlFVUFkaTdZRml5ZGcwMVRqS01lNXBJYzZvMi1aa3NOclBqZ3V6UEhUMnlCNE9vVzZ2TFdoUFhNMHlnNVNURXhQZUVsaHc0OFdxY0g2RUFQaURUdzNLUEdIVW9YVTNxZElTRjdzREVLV3M1N3BUc0RwWWtsTXdNRGpEUW5iUXhUUQ?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 08:59:57 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Matthias Jaissle is now the Newcastle United manager: Official announcement",
+      "source": "The Mag",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZ1MzMWxGa2YzVUdROUVtckY2bUE5aHk1VHlRSkZuTXdJUXdfRFEtUHJfUzYxMGhPSGE5bnp3eXhRQ1pjanlWZGFhOGFVa0ZhdWxYNjJ0T3lpM2NVNElXaTU2M0hVdkx3TWZiVFI4NVBMM1Zib1UxRXNlb0hQZVQxT0MzMW51WUhRRzNvTk9yY0FsY3plZWJBVWhkZzBkOUgzalFWbzhMQUh3Y3da?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 16:50:52 GMT",
+      "category": "manager"
     },
     {
       "title": "Newcastle United FC - Transfer news, results, fixtures, video and audio",
@@ -94,17 +101,10 @@
       "category": "transfer"
     },
     {
-      "title": "Latest. Kevin Keegan tributes to take place this weekend",
-      "source": "Newcastle United",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTFpxMzhNWnlUalp5QWZlMkM5REZlNFIyR0huZ29adGRBMUU3bkVLX1R5bjAyTnZCeU14blJ0UFBjMVNLcGJlRW9FTDZQZllMVG1rOWhhZTQ3ZGZETVZ6blZYVWRra2p1bEE4MmhoWkY2dDZ5THNjQWExWlVMSTBWNi1TcG90dHdKVTB1YVpNTWg4Zw?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 20:22:04 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Why Newcastle are stalling on £50m Bruno replacement – plus two players for sale",
-      "source": "The i Paper",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVGE4bVZJVlZLTGFJMGpHbHQ3WDhQZmtRU1hHZlZpNEdqdkd5ZlNINFNpX1FiQmRTaEcwaVg3dTlzb1RJMmJ4eEhKUXdVZXFmTHZDV09MaHp0a2lUSG5UcFN2QWVCLTdrTTRyS3JaQkpnNzdTTVZTSThEMGpocWs4YlQxeV9DRTlTRUE?oc=5",
-      "pubDate": "Thu, 20 Aug 2026 13:30:00 GMT",
+      "title": "Newcastle v Liverpool predicted line-ups + FPL team news",
+      "source": "fantasyfootballscout.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUjlvWlE5NEE5UGQ2OG9Gd3NhSnZqX281RXVTX1V3MGZ6ZThNMERFQVR0Z0I2dzU5MmZRczk2QVhOZlJ6RnBrd21zS0llSXhhTU5tdWY0T0ZsME1HUzNtazZzMzhQVmNTUGk4WXhIU2dsUkhmbU8yaGFMRm1PcWJrRkl6N210aWo2ZjJHNXpXejVMQk5va0c4ZFVGZ2lSdlVPblE3UUoteV8?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 09:43:18 GMT",
       "category": "general"
     }
   ],
