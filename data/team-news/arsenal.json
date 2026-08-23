@@ -1,40 +1,12 @@
 {
   "slug": "arsenal",
-  "updated": "2026-08-23T06:25:00.562Z",
+  "updated": "2026-08-23T18:18:32.070Z",
   "articles": [
     {
-      "title": "Transfer news LIVE: Arsenal want Alvarez and Barcola; Liverpool shock",
+      "title": "Transfer news LIVE: Arsenal get huge Alvarez boost; Man Utd done deal; Chelsea target; Liverpool latest",
       "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQY2l0UW9rSTBXY3NmZnRub0w4bVh3eDYzVjJvUjNndHRicURlM1E1dFI2SWY2VzV5TGlGa3A4VTVVWmp0VElRVGdoTzQ1Wl9BMnhaWGJpVzR2ZXZ5S2QzVVlpYnZQVU9BNkJRdjdtcG5Mdy1NTzdLQUd6MWQwZ242emh2Qk5NMHZoYjl5UXo3U1g1dGt0bWVrNGZGT2hZdkFxbTNzbFBjNUNjcG1sTTFUb25CSlJwNUpobTEyZk1ubXlxcW5oWmQ0a3R0ZTE0M1U?oc=5",
-      "pubDate": "Sat, 22 Aug 2026 22:43:53 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Highlights: Arsenal 3-0 Coventry City",
-      "source": "Arsenal.com",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMmtwT0FUT2xTbk5ocS1ySlZXNUd5ZE1tWWt6bXVtV3lYaDFEaFVIcjdNVjNPd1Z4dlVwXzItS2JXeEJtQWdDWE90SEpya0tPQ09LZjhudTZqMl9oNXF5UFlwSEZTSktQbGFJVzVoSXFxTDE0b0lzQlBwQjFYa1dvM1M4LXQ?oc=5",
-      "pubDate": "Fri, 21 Aug 2026 23:05:15 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Alvarez 'changes Arsenal transfer stance after Arteta talks'",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOc09Udm5LbHM0THUyeWEtUTNtUldSbUJvVzdESG9xdkNkZWFlZ1BIOHFhLUZTSnY3MzZsRGQ4eW9VMUQxUVcycEJHeU5vcS1TNEtLVjRqRDFybzVFQm90aTNxN3puMkJlYkJOdzdvdEZyOW5VU05qdWFTN21vYndwekY2RzdxcjlOZmtnbnVoVVBRUDhMbndtSlNkX1gwQ1NmRS0yQV9R?oc=5",
-      "pubDate": "Sun, 23 Aug 2026 04:27:47 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Transfer news LIVE: Liverpool eye two forwards, Utd agree Baleba deal",
-      "source": "The Independent",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNzJaQUtkNTM3c0FNWW1IZHBMckxlMWlLLXppeFZ6RjR0UFlLVjhXR2xWWHFXb1R2eFBMUXowNmJTNm4wSm9CZ2swbjdQRUhsOVY5Q190RnNHc2dyMUNnMXhfX3ZHbHRINUFLRU1FQkp5SlNMX1hCeEhfbldwSm1IYm50bG1PLUlFaDJ1YVZUZGlNc2dETU05ODBhMy1KOVloVUE0dEl3WTItaGFnZENxWQ?oc=5",
-      "pubDate": "Sun, 23 Aug 2026 06:09:47 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Bukayo Saka breaks silence after 'brother' Ezri Konsa seals £55m Arsenal transfer",
-      "source": "Football London",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUFNRWENFVHp5cUJYT1Zvb2x6QV8wRkpsckpyeXBlRk94MXZfQWY3V3JUQ1RkNi1RRTg0RnhmOElSUFRVTV9YOHdsTHNpaGRVdzRKQ3JUTFlVYl9GZnJvaXRHNHhvbjJkcXdTYnVmMDdMSmlMWlhCMDdlVm14NGljYnN6aVVCLWZqZ3NZSWhB0gGTAUFVX3lxTFBDU3piMWx3T0p0aTdwalVXOVJUV3ZhLUpjaWh3T1pUamhyQzhOMFpzV1hBM0RlbThCLUYzZDhycFdaYjlHSDdKRWtVMnZFeFhOUXZQY2FRcXdPMmRCZmZWbXNoMXdWT2FNVDBlNmVKUTBlcnZXdzQ4ZlVaR3RmTlNUUEZpaWVZNTBOX0VlY1hqMWR2aw?oc=5",
-      "pubDate": "Sat, 22 Aug 2026 09:20:17 GMT",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOc3E5Rmp0cUZ3N3lTUGdZdkRqMW14SVhvcnZLMFdwckNCem5fd200TEhxVkFiN3hzQ3NVa2RmaXQwVlhDYnY1YWtleVNveTZyMTd6SDM3RjM5bXNfUkdPS0JTTWFkeGNMcjVMYWZmcGJualNRUHItYk1PemU4bjlQaVZZVGc0R2pDNGJvcVZXVERWNG1SeWxjRktqRmdHVzhZaW1RRlNseDVScUpMN0toZ004dmJMdDVFb05YYjFkNi1YZEZlT1l1TzZib0hwTUE?oc=5",
+      "pubDate": "Sun, 23 Aug 2026 16:32:24 GMT",
       "category": "transfer"
     },
     {
@@ -52,24 +24,10 @@
       "category": "general"
     },
     {
-      "title": "Juventus issue warning to Arsenal over Kenan Yildiz transfer",
-      "source": "Metro.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOb1lJQ3hCYmNWOHBlRjZHZXU2QlpTdEUxUXJ3eDJMQ3VWV0xpUUNCYW56SVQ2c2k0LTNDMDJUZ1NQelFucDdSa1hrSnVldGlXOTFldE5UUjQtelp6TW42eE5KNmt4QXNoZjFaRnh6dlQyR1Rpa212S0VZNHBwVFZuWnc2d2tfWkptWW15REI5Z0JnSUNnNmN5Z9IBngFBVV95cUxPWjl5eDcwUTk0ZktnOS1INkdkOEhZOU5NM25QVkdTckNZUHJYVTBvSEpvVkt0VEtsTDc4Q3lQeVl0RFI0eXh2Smx0S1FIUEdkLWdHMHJRUXBwZzdCeGpURjVvb0pfeDd0NFdMN3hBWlJKQkdxMWVMbWdpZ3BBa2FaaDdaOExJMHg4aTc3SzdhV3JzYUN5YUZWM09kQzhXQQ?oc=5",
-      "pubDate": "Sat, 22 Aug 2026 17:20:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Arsenal sent new transfer update over £85m football 'phenomenon'",
+      "title": "Alvarez 'changes Arsenal transfer stance after Arteta talks'",
       "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaVNiQXozaG9ZZ18xNlVnS1F5LXNJMlgyLVU3a1pFSGZoR0xSekhnQWI5TXFVOXBNcFdQdHZFQTV6Ti0zdTFDV3RvZHRqbXllb2UzZ0ViU0FWNGk0T0ZuczJGdm5HVEx2aEdkWUZJdFBfNUtvOGpaZ09VNTJIbGJyeFFfR2tqMFRQMlFzUGlGZGNjYXRBNHFXMQ?oc=5",
-      "pubDate": "Sun, 23 Aug 2026 06:01:06 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Arsenal latest: Martinelli for Yildiz swap deal weighed up as 'steal signing' approved",
-      "source": "Football London",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQU1h2WjhHX2JHX2RRdXBmclJmNFZubi0yR2dhYl9kN3hHN2NacW0wNmJITEVPV09yakhCVDlUWFkzajBOY3E4M1ZBOEJpaGpOMzVtd1NhYzEwaDVIQ1BCZ3VVYTNtN2dRV21mVHJ4cVBGMHluaG9ZSEhhVzYwa0FVTEVuVktOcng2Ym1RZEtTTlFfcWI20gGaAUFVX3lxTE9peGN0WjlQcmdXZEpyRTNMdWtIVEk5aWxTa0JBZnV2Z1A5TDJyQ2wzdXV4OHFzeG9PZ0xWVU1xcDR0bkRTVW14R2IyOTdkdzNPcVdiMkZmV2FfbjJtclI0RTc4Y0F5cU1Gd084S19STWtmYUxMb2Z1MDdpSDNqamlTRjg0RHZXX2JVVUoxUHpmeXk0OVVFTG1Ld2c?oc=5",
-      "pubDate": "Fri, 21 Aug 2026 04:05:02 GMT",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOc09Udm5LbHM0THUyeWEtUTNtUldSbUJvVzdESG9xdkNkZWFlZ1BIOHFhLUZTSnY3MzZsRGQ4eW9VMUQxUVcycEJHeU5vcS1TNEtLVjRqRDFybzVFQm90aTNxN3puMkJlYkJOdzdvdEZyOW5VU05qdWFTN21vYndwekY2RzdxcjlOZmtnbnVoVVBRUDhMbndtSlNkX1gwQ1NmRS0yQV9R?oc=5",
+      "pubDate": "Sat, 22 Aug 2026 16:15:43 GMT",
       "category": "transfer"
     },
     {
@@ -80,31 +38,73 @@
       "category": "general"
     },
     {
-      "title": "Arsenal 1-3 Real Betis: Gunners uncharacteristically sloppy in friendly defeat",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE16UXJHSi1rOUlkZGtxajB2d2lVbGM0bnJZdHBnQ1VsMVpOQ2hyd3FaY0liU1hHYTk5TzdRSXlnLVcxOElJU0ZoMDN6V1gtenJQZExWaHY2WnlLdUlUM2g2N2poR1k?oc=5",
-      "pubDate": "Wed, 05 Aug 2026 07:00:00 GMT",
+      "title": "Negotiations advance: Arsenal set price for Martinelli's move to Al-Hilal",
+      "source": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOaEdUcTFYNzg2VXJ4Nk5naFoxd3dHOHRJVUF0QnRtUEQ1VmhZcGxBdC0wS1BQN2k1aDNGRDlmN2pocDRwUGxVNk51aEd5Zm1lZHZnNjVCZHEyMXpZTDdYQmZXbUViSmFmRzhGMll2Y0JMNTcwY09wOGd0UU5jQllkd2VhM1pYa251Ym5Udm96S0xlcEtRN0ROa2VzdjNfZzNQeXdaX1FHYzhuOS1QbFVUVXduQTlkcVZGYUg5TF9B?oc=5",
+      "pubDate": "Sun, 23 Aug 2026 13:19:41 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Highlights: Arsenal 3-0 Coventry City",
+      "source": "Arsenal.com",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMmtwT0FUT2xTbk5ocS1ySlZXNUd5ZE1tWWt6bXVtV3lYaDFEaFVIcjdNVjNPd1Z4dlVwXzItS2JXeEJtQWdDWE90SEpya0tPQ09LZjhudTZqMl9oNXF5UFlwSEZTSktQbGFJVzVoSXFxTDE0b0lzQlBwQjFYa1dvM1M4LXQ?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 23:05:15 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Arsenal player ratings vs Coventry City as Martin Odegaard and five 8/10s lead Gunners to win",
+      "source": "Football London",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVWhPUUFEUWF2UzIzWmJaSTVCV0hjbFFTT0dpRmoyd0s5UktRamlJZmlHTmpneW01RFg5MEl3cE1WNWpucFY1UjcydkMtNEo1NWYyRzRiQXpzdG9GWUV6cjNCUnVxYXZjMm9hQlVXUU5uUEJKZ3ZkWkFNM2RWNjdOZnozSU1YZDlleFlqSnZpczg0TDZOTDBMUTBMTjVNQUdE0gGmAUFVX3lxTFBrUGtCdFVCV2xPTFpVUFg0UEhxZnk1TkU5S1BMWVQ1RGVmbERCNlJESzRGVmpLckRsMnhuc095cmtNTExLb29yY1FucnBfWlJqaUNfdUxmdlo3MXJWUU5aR0dyTTI1UmotdDVCbm1BbEdGVDhoV0JBZDhhX0xLODN3X0owQmJKX3I5ZktuWHJFTXU2Q2liS3BxMU1vN3UyX0JEZVlMbmc?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 20:54:54 GMT",
       "category": "match"
     },
     {
-      "title": "Arsenal captain gives latest on his fitness situation",
-      "source": "Daily Cannon",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5CeTM3NW0yeXlnYmFMdjVGV3JteGQyellSN0FRZk5MNWpJTzhXandXYTJLRnNEQzVWaHF2QWZlV2llRGNuRkN6Rk56VVRrdUd3MF9CRlUycnU0YXREdk9rNVZCT0p1YTh3N0FhNXpRNXAzZw?oc=5",
-      "pubDate": "Sat, 22 Aug 2026 13:01:00 GMT",
-      "category": "fitness"
-    },
-    {
-      "title": "Mikel Arteta issues Bruno Guimaraes update as Arsenal dealt new injury worry",
+      "title": "Arsenal vs Coventry LIVE: Result and updates from Premier League",
       "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPY3RmZ3lRbHphOGxWRDlBQUcwYTFWNHBGRlE3V0FFdGtYb1luWjRPeTZLUjVWcDA5RUxMTHZHTHBKZGJkTmlhbWhTc3BJcHI0Mlc0eWNMdFY4WXhRUDVIcW9LZFRSdnk2LXZhQ0RUc0c1U0p5UVBZVEg1Y2sydFlyYk50cmN6bDF2SlA4c0JFX1ptaXkzWnFWZkdsV2Q0c3drVG1lTG1B?oc=5",
-      "pubDate": "Sun, 23 Aug 2026 04:49:51 GMT",
-      "category": "fitness"
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPa2IzMDJjMnRpMjV3dnlLSlNWbjVsbXlHTFhUSngza1ZieFU5VWtkUU91ZTh0MEJHSWxmUkQ5S0hMbkxhRFpiYWtORzktcWJlVFQ1WmlRSENvMWdzc25RTGd1QlhRV2FUZG93VnNNS19ZQlRGODUxdDNZVWI1VEVTX2ZEd0JhWlpaakRaSWtaZGh3RDVCeE04RWYyc2U2VHFCYWY3aHgzd1JuQ3ZYcVVxaFY1ZGFkTFp1X2toQ09DYWxySk83MGpqWDFZSnVjeHp4OW5mMw?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 22:28:35 GMT",
+      "category": "match"
     },
     {
-      "title": "U21 report: Arsenal 1-1 Crystal Palace",
+      "title": "Arsenal transfer news: LIVE updates, rumours and deals",
+      "source": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVi11Vy1IcjM3N0dZRl9kc0Z4WEZWa2RpU1BtRFVYTVhXZ1o3OWJRdUhUMnNhZWNDMlpYSWtTOS10YVdnS1JyRV93NjhSMDFBVFluX3lQNk9vWkxJTUFpMldIeFpwVVZBZ0pmS1pXRl9JQXp4N0dtbG5PczZKX1Zuc0JZMUs?oc=5",
+      "pubDate": "Sun, 23 Aug 2026 15:56:23 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Juventus issue warning to Arsenal over Kenan Yildiz transfer",
+      "source": "Metro.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOb1lJQ3hCYmNWOHBlRjZHZXU2QlpTdEUxUXJ3eDJMQ3VWV0xpUUNCYW56SVQ2c2k0LTNDMDJUZ1NQelFucDdSa1hrSnVldGlXOTFldE5UUjQtelp6TW42eE5KNmt4QXNoZjFaRnh6dlQyR1Rpa212S0VZNHBwVFZuWnc2d2tfWkptWW15REI5Z0JnSUNnNmN5Z9IBngFBVV95cUxPWjl5eDcwUTk0ZktnOS1INkdkOEhZOU5NM25QVkdTckNZUHJYVTBvSEpvVkt0VEtsTDc4Q3lQeVl0RFI0eXh2Smx0S1FIUEdkLWdHMHJRUXBwZzdCeGpURjVvb0pfeDd0NFdMN3hBWlJKQkdxMWVMbWdpZ3BBa2FaaDdaOExJMHg4aTc3SzdhV3JzYUN5YUZWM09kQzhXQQ?oc=5",
+      "pubDate": "Sat, 22 Aug 2026 17:20:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Arsenal sent new transfer update over £85m football 'phenomenon'",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOaVNiQXozaG9ZZ18xNlVnS1F5LXNJMlgyLVU3a1pFSGZoR0xSekhnQWI5TXFVOXBNcFdQdHZFQTV6Ti0zdTFDV3RvZHRqbXllb2UzZ0ViU0FWNGk0T0ZuczJGdm5HVEx2aEdkWUZJdFBfNUtvOGpaZ09VNTJIbGJyeFFfR2tqMFRQMlFzUGlGZGNjYXRBNHFXMQ?oc=5",
+      "pubDate": "Sat, 22 Aug 2026 19:02:06 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Kenan Yıldız to Arsenal? Juventus boss Luciano Spalletti responds to '€100m transfer bid'",
+      "source": "Transfermarkt",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOLU5paklTTGpNa0pvWnNFWXM2NGVic1lkZW55Z0tacndNc0N1UnJ6MjJKVG1ucGF5ZGE5elgxdWI1TVVJbVdIaWJkdy1FS1F2VTFpd01jTERDZ1NySl9FUV9WU1huMVJXd3FCNHNnajRsT01Hc0tHUHE5WFVYSnU3RmJhS0puOTZPdzNHdXhlWUdsc1VWdmU2U3p1ellXRkVGSlk0dl84czN5Z0lvbURTQTNodnFHSVZCY2FaXzhUaWJSb1k5MHpWeElDQVRiU0xPY0dqQjRn?oc=5",
+      "pubDate": "Sat, 22 Aug 2026 16:58:42 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Dowman shines in start for Arsenal u21s vs Crystal Palace",
+      "source": "Daily Cannon",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB1WWdVd09uQkJrTmJObVRJYlJUYjVhRWdKcFJHd3FiU29UdDFhV3RtWXFfNHdoUGxrM1NSNFBudzg0UDVpLUkzbVFsU2h5SklxZ01uVTd0emF0Ry03ZHpaczZaLTA1LTVFd04zdzFoU1l3SWFqdVE?oc=5",
+      "pubDate": "Sun, 23 Aug 2026 09:01:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Report: Arsenal Women 1-0 Paris FC",
       "source": "Arsenal.com",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNXlvMVJNN28wdm5nbS1ZYWY5czZUVHFFOHZubEd0Y2wwNHphQ3RMdGYyODJfaDJTdFFfc3pNT3lrb01xMVZlYV8xWHRwZGJUZ2gwdHQyM01SWHRER1FGdUtNUll2ZFdfV09oNEx1Z0l2UnhjYkpJamdSUWhEclFvdk1aNEgydw?oc=5",
-      "pubDate": "Sat, 22 Aug 2026 14:00:32 GMT",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZ3RsWUNENTZOZW1PaFpKb2YtYWdLZURzNUloYloxcWNmYThLUF9xM1RZbFRwRUZzdkxmZUVOdXgwYVktOWtDTjZhWGlrb0t0Z01hMDFLdUhTLS1GRFJQekFISjdZU2ZZTjhCQ1VRODNJcmZtYnhrLWpja3RfWl9CZg?oc=5",
+      "pubDate": "Sun, 23 Aug 2026 13:57:31 GMT",
       "category": "match"
     }
   ],
