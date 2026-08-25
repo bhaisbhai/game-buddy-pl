@@ -1,66 +1,61 @@
 {
   "window": "summer",
-  "updated": "2026-08-24T18:29:23.671Z",
+  "updated": "2026-08-25T06:30:26.299Z",
   "clubs": [
     {
       "slug": "newcastle",
       "name": "Newcastle United",
-      "heat": 18
-    },
-    {
-      "slug": "man-united",
-      "name": "Manchester United",
-      "heat": 17
+      "heat": 21
     },
     {
       "slug": "man-city",
       "name": "Manchester City",
-      "heat": 16
+      "heat": 18
     },
     {
       "slug": "arsenal",
       "name": "Arsenal",
-      "heat": 14
+      "heat": 16
     },
     {
       "slug": "liverpool",
       "name": "Liverpool",
+      "heat": 16
+    },
+    {
+      "slug": "man-united",
+      "name": "Manchester United",
       "heat": 14
-    },
-    {
-      "slug": "chelsea",
-      "name": "Chelsea",
-      "heat": 10
-    },
-    {
-      "slug": "nottm-forest",
-      "name": "Nottingham Forest",
-      "heat": 10
-    },
-    {
-      "slug": "brighton",
-      "name": "Brighton",
-      "heat": 9
     },
     {
       "slug": "aston-villa",
       "name": "Aston Villa",
-      "heat": 8
+      "heat": 12
     },
     {
-      "slug": "leicester",
-      "name": "Leicester City",
-      "heat": 8
-    },
-    {
-      "slug": "west-ham",
-      "name": "West Ham United",
+      "slug": "chelsea",
+      "name": "Chelsea",
       "heat": 8
     },
     {
       "slug": "tottenham",
       "name": "Tottenham Hotspur",
+      "heat": 8
+    },
+    {
+      "slug": "everton",
+      "name": "Everton",
       "heat": 6
+    },
+    {
+      "slug": "west-ham",
+      "name": "West Ham United",
+      "heat": 6
+    },
+    {
+      "slug": "brighton",
+      "name": "Brighton",
+      "heat": 5
     },
     {
       "slug": "crystal-palace",
@@ -68,8 +63,13 @@
       "heat": 4
     },
     {
-      "slug": "everton",
-      "name": "Everton",
+      "slug": "leicester",
+      "name": "Leicester City",
+      "heat": 4
+    },
+    {
+      "slug": "nottm-forest",
+      "name": "Nottingham Forest",
       "heat": 4
     },
     {
