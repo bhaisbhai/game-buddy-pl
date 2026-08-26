@@ -1,21 +1,7 @@
 {
   "slug": "southampton",
-  "updated": "2026-08-26T06:32:31.439Z",
+  "updated": "2026-08-26T19:39:29.080Z",
   "articles": [
-    {
-      "title": "Saints loan watch as Jay Robinson makes Serie A debut at San Siro",
-      "source": "Daily Echo",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQQlVyekh6YlRzX2tSZ1dFNHBpUGdNVkVEemgyNlY0NndCa3l2WDU1cnZsN0x2YTNTaGFfUURQVmdzTmQxdkQxbXE3VDJIOGRuTzM0X3hpWmxkU0hKSV9iTl9felpoZTVoLWJPS3M1TkJkdVFiMzBpNl9CSnFFcElHSUZ2M0FSb25vd01Xb2ZRMndkUVNaY2xackZJa2M?oc=5",
-      "pubDate": "Mon, 24 Aug 2026 15:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Southampton await La Liga midfielder’s transfer decision as West Ham, Wolves lurk",
-      "source": "The72",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQclg1OTA5WEczMUZEWkVzbFpzWmY4SUNwUGF3anFHQVktdnZaUy1TbWxfb094VU0ybkFPVmZOcTRVdXlZbk01ZWdKNXcyeVk5RlE0QVozcDR6MHFZUWM3ZTVaS0lsMXJ5VDVsWHVfeDNySXpjWllPSzVEcWk5V01fSjRTd3BaOTFvT3VmQjZmcUxSMmVCYktnNXFrMUJ4QQ?oc=5",
-      "pubDate": "Mon, 24 Aug 2026 16:46:44 GMT",
-      "category": "transfer"
-    },
     {
       "title": "Southampton 1-4 West Ham: Hammers beat the Saints in Carabao Cup",
       "source": "BBC",
@@ -24,53 +10,60 @@
       "category": "general"
     },
     {
-      "title": "Southampton 1-4 West Ham - Carabao Cup highlights",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOUJJcGE2bTQtcUduREZZcUEySWRBcndsVFlMNlBleE5UMkhWeEJCYTdrX1BhTGUyM0o5WnRTODNUTmxqODVlNmYxd2ltekNWbHdjaGVrY25kaGo4aVhJdDdUMi0xbmVTVmJ2V1Z2dklyTVdtc2tSV3phLWR5cGJZdWwtVGRyUG0zN1EyX3h3Tk4yTmljWWszUzJ6ckotNVBCS1FrSlhR?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 21:16:17 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Southampton FC fans reflect on 25 years at St Mary's Stadium",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBhR3BLYmEtT1VjMDk5Vkg1RXRPMXVVMTdvYUt1UzcxSnZXUzNpT2djSlVydkZKRi1pSDB0c1dUXzhfc01yaXlXc2t2VGwtWmJCMEFMQ1JvU2c3UQ?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 05:01:30 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Southampton have said no again, but this exit still looks only days away",
+      "title": "This German defender is having a Southampton medical right now",
       "source": "Saints Marching",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa3VSa0JkaFNwY0swYW5hWWQ3YW5tWGxNNTg4LVZHWXQxYU1rQ2xNZTgzUXVuUEdzbEpyZjAtYjRKVDVqb1hkQWt1NkRwMFJBa0dQaVBpbUlleXIwVnNQMHZsejNTVHNPMnJDUWJZVVZQWHlEVWNlWTdRQ0dSUjF0cnVmVWZySUpJX3d6eG05elJXeElwMTlZMkptMXBNNk0?oc=5",
-      "pubDate": "Mon, 24 Aug 2026 12:00:01 GMT",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPd0MyX01INTFqdXNDVnc5SFZuWENRRUdhUjFzb0k5RzF1NmtaaEZDOGhMZXBpblJkODkyZVQySnVhcDFyV1lUdVFiS2tnTkpVQjFsU0R3U2tBbl9WNEFNeWtXdFhmT2s2RC1ZbEtuQ0wyWU9xcFhMZjBIaThGMWp0MlRzV0JCdUo5eklCcktfRlpOdmM?oc=5",
+      "pubDate": "Wed, 26 Aug 2026 16:17:39 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Go behind the scenes at St Mary's with Stadium Tours",
+      "source": "Southampton FC Official Site",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSG41Wm83X2xBYmJ2MWt1ZlJMdHQxczlpUVNoUmFBOWl6Q2RvM3l1bm0tZHYxcTFDdmhEbllOeDBWby03US16bzFfTVhsVGlTTS1TLXVIdENOalN4dkQ0aTdRQ1ZKU0VxYXE3S2E3VzcxU19kTkFEN0gyajdpWmk4eHhSQlBNTHhLNkxNTXRUS0RmenE0S0FpMHpNMlhDUQ?oc=5",
+      "pubDate": "Wed, 26 Aug 2026 13:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "Southampton boss Tonda Eckert makes August admission in Stoke City verdict",
-      "source": "The Sentinel",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcUt1TXVjNlFzQ2FHVk5BTmFOejI5dXQwdlZpMkhUQ094OFk2TXNGZ1hweDZsdHdGZEdmNHpjREowUWk1QnlVWG5FNF9hSGxoZ0oxUU1YdFNvOWxuS1BWd1BhTFZuVXl2R2JzVGk5S3o1MDBNaWg3N0FwOHdmamlPaG1DRzFGbm5Td0M3U2JpUHVsV3pXYm9uMWt2UVV6eFYyQlNMbURHSzQ?oc=5",
-      "pubDate": "Mon, 24 Aug 2026 09:02:00 GMT",
+      "title": "Southampton v West Ham United | All You Need To Know",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcTluY2VIUGYzM1JueWxkRUw1U3dHUzhIQTNKcnVEX0JWWDFVcmFCbTZLT2dYbmFzdkMzWXlRTFhsVkhmNHpER0loQUd0LWY4SzJxck55TkxmQ2VUSklHYWk5YVpiWl84MzdNdFdDSklLNG44V21YRko4dkdmUVVhYzVwaVUtTUVmSmVR?oc=5",
+      "pubDate": "Mon, 24 Aug 2026 11:00:42 GMT",
       "category": "general"
     },
     {
-      "title": "Southampton v West Ham Carabao Cup TV channel, live stream, kick-off time",
-      "source": "Radio Times",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT3NVZl9EbXVQQ0lGUm91OU5lYi1IOEljcFhwZ0kxLUJSZVRxRVF1VkZqdnF4RV8wTGg3Z3JHdHhfaXNCY3hSdjF4b0hyRHpyNWRNM2xxaHl5dlNQNXlCdmV2WU1qTGxIQWlMajVqSkZPVzR3akd6and0YjNicG42QTNCcUpzQi0yVFRBel9xcHZqdFIwR1lCemln?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 11:10:00 GMT",
+      "title": "Saints set to sign Bundesliga centre-back on permanent deal as Quarshie loan looms",
+      "source": "Daily Echo",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQREF5OUl0ZXJnNU9jZTRMckJiNlFKaEgxTFZJbGxzblUwT1BmeG1CN3pFQUEwX2xUdkx1RzZMVU83MjZuZjBNRnJfQWtSYllBWXBiLW82ZUNLb1RhQ19fN1A3dGg3MC1TbDRjZFBRcXp2WkY2SW5Hdm1mbklRUzM5amJ3eENQYzhFTkQwdm5RRlczUDNYb0wtMlNrYWhxYnRHNEU1d0JqLW0?oc=5",
+      "pubDate": "Wed, 26 Aug 2026 11:38:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "St Mary's 25 vote reaches final eight",
+      "source": "Southampton FC Official Site",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWHJscm5pRk93bHNsbWw3UWdrRDJFXy1LQW0zY0xMcEJ4SGt3VDNlR013Mm5ldjA5a1VkNTViOGt0WDVZbG5kTThHNi0wWDVoV3lyNnhPcHc4azdRM3FWR3Awci14eXRtZGJSenY3ZGs0dTYzR2xSdFQ0RkZhaUpFbXE1WVNEaUJVYnc?oc=5",
+      "pubDate": "Wed, 26 Aug 2026 12:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Supernova to bring Oasis classics to the Northam Fan Zone",
+      "source": "Southampton FC Official Site",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQldySTdmTkVyMExFdjl2b2JhY1pmdHo0SFJzMzB5eXl5V0wyRVRySWdiREFObnJXMkpqZzdQZTUtdDZ5YWNpMmdhbzIyNm85b0pVQkVZOWk5VG5FRDJPR04tUW8zZDMyM0phRk5HV0VhMkpuYnRjcV9YX2hWRGF3ejFDNGo1Q3F4dV8yV0ZpbGpWREMwWHVZaGY2MmVnQjh6UExhRmd3?oc=5",
+      "pubDate": "Wed, 26 Aug 2026 09:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Audio description highlights: Saints 1-4 West Ham",
+      "source": "Southampton FC Official Site",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWmhaVVBySy1KakpSUktCNUFqYm5Jc3N1T0NxMTVkNnV2VW5iNFdqN0pfVlM4OHlfQXBuN1ZuTnBEMTNtY0lMcHNWNmc1UTZjbXJRZVZlUGQ0N2gwMFM3bF9ocmcyRWR4ZlJ5dlpRelBtZGJrLVlkaHZGNy0wdEkwbkN4M2FHRkFXdi1aZHVVbVA?oc=5",
+      "pubDate": "Wed, 26 Aug 2026 13:51:45 GMT",
+      "category": "general"
+    },
+    {
+      "title": "St Mary's 25: Martina vs Rothwell (QF)",
+      "source": "Southampton FC Official Site",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5SHV1Q19qb0FNV1RaUjl2VXRud0djdTZlS3ZXVHU3S2pubXVzc1l4R2pDaHhZbE1IWTNGbkZveV9VVlFCX2lmQlpGRDdRbDlvVllpeWEwTXY5a19PempqY3o0Rm5PMXl0b0pOaFp3SHpia2xESkZLWElTRV9ZUQ?oc=5",
+      "pubDate": "Wed, 26 Aug 2026 13:32:25 GMT",
       "category": "match"
-    },
-    {
-      "title": "Tonda Eckert confirms Saints plan to replace departed analyst",
-      "source": "Daily Echo",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNckR3YzhfOG0tVVZiazZXNUJGMDJPS2ZaZjhPU2xmVWZLZDh1Y1dCOWIzd3RsQlVKVkdhUkM5aUFZODI4aUhJUEtHMlVqazZWM3E3eS1RbWE5NHRsOUVjeFRmci11Tm5Cekx1OFpPYUNwclktUHVucW1qZnBHN1htNV9RNUpYcm9wVElQUmJXc3Z2UDF0M2cyaFkzQ3E?oc=5",
-      "pubDate": "Mon, 24 Aug 2026 09:12:27 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Saints predicted team to face West Ham as wholesale changes expected for cup tie",
-      "source": "Daily Echo",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdjg2cGVrMlFJYzhmMEpoTTZQUXFqaUtsRWtvbHNBWGN5R3o3RnE3WWdIZDBQdkZaX0F3OWtwOERBMTRud2Y5c05qZ3JOYUxkdGVLb0JxVEpnU0ZFWWJqRGlocy1mY25lbEZOQzFIRlNQbUNNNjZDWm1wRDlGZDFTeDNsX282WWFiSEE5WTkyR053dk5ORXV0MV9yRHFJeWdVbkFnSzAyMHdEUVY4X3gxMmt3?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 02:30:00 GMT",
-      "category": "general"
     },
     {
       "title": "Match Pack: Saints vs West Ham",
@@ -80,11 +73,18 @@
       "category": "match"
     },
     {
-      "title": "Match Report | Academy youngsters pass Southampton test with flying colours",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQjZtSmRwZldYRmhidWdPR0s5blFuMjNXTkZKbjhZSXhEREF3ZGpibVlSZ2ZsVEF4TEsweDU2V1V0alVydzY0SEFzUXJ0Qm96X2RHcXFmcU5GYnk3VGFLa01SRjZCbnZrR3hfdUxQQ1B1UXYtQmZ0bTVaWXRsbDVSNDNWZTl2SkpuUXlDVExsWlpIMlhYS0xNUm5SY3ZtZ2dsV0NsY1RNUFNnZw?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 20:45:04 GMT",
-      "category": "match"
+      "title": "Gallery: Saints 1-4 West Ham",
+      "source": "Southampton FC Official Site",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9QQmVIZXB3QjlDVmFCSjVaZEg0SnhMdFF2TGVvNWdXUEdUdm1KMWVJdzlPVDJMNi0xUGpfQnVsWjZybzJPeDNoaFF6cmZvSTJ2R1FDeGlxeDFpdi1MY05DZmVaVnBrSjlaczRQbUpYa2VaYTNUMzJqSXpxaXdsZw?oc=5",
+      "pubDate": "Tue, 25 Aug 2026 22:30:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Eckert: We need to be more robust",
+      "source": "Southampton FC Official Site",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcHZ6NGZWMGZHQnhMaWR0bFJCNlFheUQ4ZWt5UEdCTnd4SjV4cXVmMzRLWE1LWno2QmFZSGhfNm5GU2hmQUtKR3hyOTRPdVdMRUlxekMzNF93TmphWDB3VGtLaWROMlZWR0M0bm52QkloVk44ZDdSdzFxaXRlc0lnMlpvdmU?oc=5",
+      "pubDate": "Tue, 25 Aug 2026 21:40:00 GMT",
+      "category": "general"
     },
     {
       "title": "Report: Four-goal Hammers end Saints' cup hopes",
@@ -94,18 +94,18 @@
       "category": "match"
     },
     {
-      "title": "Starting XI | Nuno selects six Academy products at Southampton",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdE1Md0VfYmZVSlFFX0VRQ3VFZ252MlZWTG1kTjZ1NkJHZklVRDRYSktTcTBGMWlpOTJ2TnJwaDZ3a2pxZ08tYkd6ZUV2MVpkLXZhT0FqaW9HcG9JdUcxZEJvXzBKZmJnSDRSRnFJdXFqYmRzVEhON2ZqWG9FTkljaExDSjJqbFdGMXJ5UHcta3BQRHJnTENkdg?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 17:32:57 GMT",
+      "title": "Harwood-Bellis named in PFA Championship Team of the Year",
+      "source": "Southampton FC Official Site",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZDFicGwyU3g0VEJGSEs5M2U0TW9pRk1wSDR3MG8wT0lPbUU3akRyNno5a3pWWEVWNW54UzZjM3NEMzRSdnctc2t5NUpNdnJONXNMN0VYWDJsTWUzM2pWa0dXUW96VFItSGM1MkJJeWszeFd0UzdxQjQ2YzhaOERZZHFyTm9rSVA1YXJpdEw3U0YwRDl1aml1al9icWxod2NpckNXd2NB?oc=5",
+      "pubDate": "Tue, 25 Aug 2026 19:24:00 GMT",
       "category": "general"
     },
     {
-      "title": "The forgotten story behind Saint’s most iconic retro shirts",
-      "source": "Daily Echo",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRkprYzkxWmtwTVRYbzI3azBTOVZpbS1fcnFiVzJFVTRvemtFQnhPQWplR19LdnRyb3kwcnFyQWRIMlRxY29yQllxOWhRNFV0Qm5zWC1wM3JETF9sS3ZFUUlLZV8zcWFOYm5BOFYtSmJTTWduY0lFUkdBMnhOcExUQXB1Zmk3ZWh3RXZtVg?oc=5",
-      "pubDate": "Wed, 26 Aug 2026 02:30:00 GMT",
-      "category": "general"
+      "title": "How to watch Saints vs Stoke",
+      "source": "Southampton FC Official Site",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONXkzZUdlbEV5MjZqZXV6d2FjZG9uN3VSeVhJM05PaFR0cmhCVlJET19RUnNSNWl4Qy1udE11SFhBdE5Ca0Y3aUY0Q2d5NXZUSzNZSWZpWWI1TlMyOW5UMmZ2cjJuc0ZBVXc3U3VxZXhrUVgtUlNwZ19DZTFRelcxSHd6V0NTQVlIVmk1cjVPT2JwZ0k?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 08:20:00 GMT",
+      "category": "match"
     }
   ],
   "reddit": []
