@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26T03:53:39.804Z",
+  "updated": "2026-08-27T13:51:22.978Z",
   "snapshot": {
     "1": 60,
     "2": 50,
@@ -8,7 +8,7 @@
     "5": 65,
     "6": 60,
     "7": 55,
-    "8": 55,
+    "8": 56,
     "9": 55,
     "10": 55,
     "11": 55,
@@ -20,7 +20,7 @@
     "17": 60,
     "18": 64,
     "19": 55,
-    "20": 55,
+    "20": 54,
     "21": 50,
     "22": 55,
     "23": 55,
@@ -55,7 +55,7 @@
     "52": 50,
     "53": 60,
     "54": 55,
-    "55": 80,
+    "55": 79,
     "56": 55,
     "57": 45,
     "58": 40,
@@ -88,7 +88,7 @@
     "85": 50,
     "86": 55,
     "87": 45,
-    "88": 45,
+    "88": 46,
     "89": 45,
     "90": 45,
     "91": 45,
@@ -165,7 +165,7 @@
     "162": 50,
     "163": 45,
     "164": 55,
-    "165": 75,
+    "165": 76,
     "166": 65,
     "167": 55,
     "168": 50,
@@ -431,7 +431,7 @@
     "428": 80,
     "429": 70,
     "430": 55,
-    "431": 60,
+    "431": 59,
     "432": 55,
     "433": 50,
     "434": 50,
@@ -612,40 +612,58 @@
     "609": 40,
     "610": 40,
     "611": 45,
-    "612": 45
+    "612": 45,
+    "613": 45,
+    "614": 45
   },
   "changes": [
     {
-      "id": 18,
-      "web_name": "Martinelli",
+      "id": 8,
+      "web_name": "Calafiori",
       "team_name": "Arsenal",
-      "direction": "fall",
-      "old_price": 65,
-      "new_price": 64
-    },
-    {
-      "id": 25,
-      "web_name": "Gyökeres",
-      "team_name": "Arsenal",
-      "direction": "fall",
-      "old_price": 75,
-      "new_price": 74
-    },
-    {
-      "id": 565,
-      "web_name": "M.Sangaré",
-      "team_name": "Brentford",
       "direction": "rise",
       "old_price": 55,
       "new_price": 56
     },
     {
-      "id": 115,
-      "web_name": "De Cuyper",
-      "team_name": "Brighton",
+      "id": 20,
+      "web_name": "Dowman",
+      "team_name": "Arsenal",
+      "direction": "fall",
+      "old_price": 55,
+      "new_price": 54
+    },
+    {
+      "id": 55,
+      "web_name": "Watkins",
+      "team_name": "Aston Villa",
+      "direction": "fall",
+      "old_price": 80,
+      "new_price": 79
+    },
+    {
+      "id": 88,
+      "web_name": "Kayode",
+      "team_name": "Brentford",
       "direction": "rise",
       "old_price": 45,
       "new_price": 46
+    },
+    {
+      "id": 165,
+      "web_name": "João Pedro",
+      "team_name": "Chelsea",
+      "direction": "rise",
+      "old_price": 75,
+      "new_price": 76
+    },
+    {
+      "id": 431,
+      "web_name": "Amad",
+      "team_name": "Man Utd",
+      "direction": "fall",
+      "old_price": 60,
+      "new_price": 59
     }
   ]
 }
