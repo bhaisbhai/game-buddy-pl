@@ -1,28 +1,7 @@
 {
   "slug": "nottm-forest",
-  "updated": "2026-08-27T17:08:26.835Z",
+  "updated": "2026-08-28T01:58:38.259Z",
   "articles": [
-    {
-      "title": "Andoni Iraola press conference: Transfers, Liverpool v Nottingham Forest, balance and more",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS0h4dDhFS2pTZTJlNTRZcW4tWElGZGhDd2QySzRzZDA4NmE5MzlFX2xiTXZIRnRUNmlOb2xBOEpjREZCREJ3V3IxM2REVjkzMnRIN0g2M3pFSmpNaUpiV01CTVVNeEVIdzc1V0RMeXB3dEJSeGxWbnY3c0plS1BZU0hLVG1FV3ZuOWJfN2p3VXdNc0VlS3hmMU5jeFVkOWNJUXIwemZfc3JQZm5jQXg5WFZ1cklFXy1xRVprVNIBxAFBVV95cUxQZ1U0bjc2c19PdWttRlVjWlZqTy1ubTRoZnowa1hTNFUwRDlCUGR1X0RLTDNSaTM0Mms0RGlwVXU4TUdKM3A2bENsN2dyanB2WUsyT29tVnBZZE10VlI2X2ZDdUUtdnNjQXEtOUprVFNkTktabkM5eERjTzBhb21KdEwzcVFUVFNCMXBISVdGVDNkNU9ESmxHbmdDTVJFQkl2cFVRdXk1eU1UOXNBTy1UYVByaU1BT24tN2I5OC0waXJmb1hS?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 14:20:52 GMT",
-      "category": "manager"
-    },
-    {
-      "title": "Lamin Sillah: Gillingham sign striker from Nottingham Forest on loan",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5vWWRIS1JIeWc0aDlBNjdtRFZwZ0U4Sng0eDlHUWdpREpXTjYtVDN5cFlSRU5MLVR0c2x6VlpxdDdxaWhrX0dmejI5dzlfYkdmNm1COVk3cnBWcEZ0Mzk2WER6bUs2QjBLaXc?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 15:44:09 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Nottingham Forest sign Finnish winger Walta - WSL Full",
-      "source": "WSL Full-Time",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRkxHSGNCeDR3WnIyaEtWSkZYRjJ3YzFSSXU5dHIzNnlhNkNBSjFoYURsWWxPb191MExOeGdRVGVIdDBteHFVb1V1ZUh6UnpMM1RxMEh4eFBWMjYtcFdyVXlXRFdKMk4xVG50TFQyNF9fa1hRRWRMSG1JbDlIMUJhYzdURTNXUmNRQVVn0gGQAUFVX3lxTFBoYncyWUVNVjZVOXNxcDlzdV9rNnJmMHZpa1ZiVFNvVkFWLVVES3VMME5RemM5aWFZUnVmZFppVjdTb3BPUDk0dnYwNklYREYxQ2hMVnQ1eTVGSmlFSHI1eTJOOXhNSmwybnZCNVFMNE9tZi0yYkRxS0k4YnBzMU8teVUwd2NUZ0hReEtudzNGcw?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 12:43:29 GMT",
-      "category": "transfer"
-    },
     {
       "title": "Liam Delap departs for Nottingham Forest | News | Official Site",
       "source": "Chelsea Football Club",
@@ -45,18 +24,11 @@
       "category": "general"
     },
     {
-      "title": "Nottingham Forest 0-2 Leeds: Leeds beat hosts for second time in four days to reach third round",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBDMXdtUzUzUnZNeWZ4SmZlX0t4dl9tSWo1bU16TmRKWU5nM2tTb25sMlBrcWE4eElWYWlCYk1XYjRsN0JaUVZaYlpaZjF1UGdQaGhRbUZPU1NMSE51dlBYVmk5QQ?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 21:03:40 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Nottingham Forest 0-2 Leeds United | Carabao Cup highlights",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQamo0aWprY0FoT3VTYUw0b3RmdDJNZ2ZZUVVDU3JYdFdvdXJ3ZWZydEJIbUQ4T1I2Zk9DcjNGZXlGbENPaVA2Nm41YzRuMzZoZWY5a3FwUE9iMXF6YzlPaTNqS3JTVWxvRG15YksxWHZFRW1CNnpWRy1EM3A5cnlBOGhTVmVTdFFHWkJTNUtjOXZ4LUhEam1rN2Z1VnczQi0yYzVpdFJ0dmtzMmIxdjFhR3ZwZw?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 21:17:40 GMT",
-      "category": "general"
+      "title": "EFL Cup Report: Nottingham Forest 0-2 Leeds United",
+      "source": "Leeds United",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQX1Zqa0ZSUWV2UVJDRlZPQllpMGYyUFNHUUlTTHpERUFFR1ktZzZJR1Y4VWVMdnJkY0c4a1d4Q1N1WEFFYXFtWTI4X1o4d3hQd1pmS1FGdTExQUdsRkt6cWFqdHZOWHh2d0RVME1XVUhzUnZBQ2h6TVhhNWRKVFZCa2FyR1I4MnlIMEdJZzF3?oc=5",
+      "pubDate": "Tue, 25 Aug 2026 21:10:09 GMT",
+      "category": "match"
     },
     {
       "title": "Glasner made to wait for first win as Trafford thwarts Forest",
@@ -66,6 +38,41 @@
       "category": "match"
     },
     {
+      "title": "GLASNER'S ASSESSMENT OF LEEDS RESULT",
+      "source": "Nottingham Forest FC",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOX0hheldVRlhnSWV5OVZYSk5URmo1UDdIckJvSTYtUTlyb2Q5OVJ0dm5iZy1zWmRjYy1LeHVnRUR4Zi1FaFllTmZIMnVCM293RFhyN2MwQ1ZlS1UwM09pYnBHOUdEa1JSUWc5V1llVDQtMng3VUpPdDMwNktlenVtM0QxcXFsQkpLSTE4cWswYUhUVzAxTUNV?oc=5",
+      "pubDate": "Wed, 26 Aug 2026 13:39:21 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Nottingham Forest make £22m Daniel Munoz transfer offer to Crystal Palace",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQemZYZDBZZlNLd1oyRTlwc3BFMTRCVG1vekdiWXFnei1FWUxkSF9iRk43Zl9MSklQQzFCbE1IbXhSRENDa3cxV09rRFJSZjlmYk8xWGxiUENaRmdFM2M2bk5wRWQtbkxqX285VmNyeXBTdVQ1YWF6NU1sMzNaeHZteDZmQ0JmeXpacUFkaV9TWXlNaE9tMVM4eURTYlNHOHc?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 17:55:33 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Andoni Iraola press conference: Transfers, Liverpool v Nottingham Forest, balance and more",
+      "source": "Liverpool FC",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNS0h4dDhFS2pTZTJlNTRZcW4tWElGZGhDd2QySzRzZDA4NmE5MzlFX2xiTXZIRnRUNmlOb2xBOEpjREZCREJ3V3IxM2REVjkzMnRIN0g2M3pFSmpNaUpiV01CTVVNeEVIdzc1V0RMeXB3dEJSeGxWbnY3c0plS1BZU0hLVG1FV3ZuOWJfN2p3VXdNc0VlS3hmMU5jeFVkOWNJUXIwemZfc3JQZm5jQXg5WFZ1cklFXy1xRVprVNIBxAFBVV95cUxQZ1U0bjc2c19PdWttRlVjWlZqTy1ubTRoZnowa1hTNFUwRDlCUGR1X0RLTDNSaTM0Mms0RGlwVXU4TUdKM3A2bENsN2dyanB2WUsyT29tVnBZZE10VlI2X2ZDdUUtdnNjQXEtOUprVFNkTktabkM5eERjTzBhb21KdEwzcVFUVFNCMXBISVdGVDNkNU9ESmxHbmdDTVJFQkl2cFVRdXk1eU1UOXNBTy1UYVByaU1BT24tN2I5OC0waXJmb1hS?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 14:20:52 GMT",
+      "category": "manager"
+    },
+    {
+      "title": "Liverpool vs Nottingham Forest: Premier League preview, team news, stats & head-to-head",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBSQUV2UjA2ZkZfemlmdnJkSHpEaWsza2RSR1hIQzNadGpuekVqZjRtTUJ6NksyeTNQWVMyYlV0VlJDTFlkSFYzeEpidWRZY1JqZGwyczV4ajdhaDd4ZEpva3VCS3Jndw?oc=5",
+      "pubDate": "Wed, 26 Aug 2026 03:09:38 GMT",
+      "category": "match"
+    },
+    {
+      "title": "GET READY FOR THE 2026/27 THIRD KIT",
+      "source": "Nottingham Forest FC",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPelVkUVRsV25XOEs1cFRuY1RVQldUcjNIeS1zSlh2eGYyOXNmRUxyY1RNWEF0YTZVMV9HMDdqZW1hOFdwbnRMVVhUX1c0X3JaaV9FVWh6aElpTHFmNURlLUJub3ZHWmZxbkJqLWF1cHNDbnZ6VGRPU1YtdzB1VUJ2Zkp4UjFjTHJIdGpmQVRCaFhwMmNzUWc?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 08:40:56 GMT",
+      "category": "general"
+    },
+    {
       "title": "Nottingham Forest set £8.5m fee after opening transfer bid 'rejected'",
       "source": "Nottingham Post",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQOWYyem1PdlFtckRzUTNKSnJHeE4ybVpRT0RmWmZkcUJ5dW5kcUN1UXpuNHNlajAtLXNMRWZOekxnSndZLUQ1Y1NDZHBDTXBnMlBva3dYRkFpRVNTeE5PbWtycDhRM01kblRkcktQV0p6cUN5UmlVa1JPTl9OWVJHWFhrbDJ0TzZNVjhMamJkcmpoRklJSHFWSTJpcFdFWlHSAaQBQVVfeXFMTmd5ajJJTmdYajY1VTl6RE1LdjJIY3AtN05PUXFiQ0hpQ2NhSm1hRTktRVFjUUItRWlUZldqUUhtU1JjZWNkREk2N3lyamVseXUxSmVReUpaUHNfejFzc2pVZ3RmYzk1Vl94dXd1TWlkN2VGTE5KclZvMllHN3d2eTZfYVZ2WE9BQTZmekpVU3U5Qi1iMURkVTJaMHQ0RVlpZmZyN1U?oc=5",
@@ -73,18 +80,18 @@
       "category": "transfer"
     },
     {
-      "title": "WHAT NUMBER WILL LIAM DELAP WEAR AT THE CITY GROUND?",
-      "source": "Nottingham Forest FC",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdC1VTXlla1dzb1gxVG9zMjJTTkVKbTJONktNTlpKMTdBcWhHX2JzUDhSQ2taVG5uQlFJRV85YUxfalBnRnJZSlFIVjJNeDVBRzJfekhLdjlxczlNVEVvWFF2Mm14MDV0YkRyLW5vellXZm1Fb1dJbzZ0dFVhc2ZJNWlFejJOMktJT0M1MVVrMzRPR2hzeFlFUjZKbE9wSHdnQnQ0LWhEeHhzdHc?oc=5",
-      "pubDate": "Wed, 26 Aug 2026 23:05:12 GMT",
-      "category": "general"
+      "title": "Nottingham Forest sign Finnish winger Walta - WSL Full",
+      "source": "WSL Full-Time",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRkxHSGNCeDR3WnIyaEtWSkZYRjJ3YzFSSXU5dHIzNnlhNkNBSjFoYURsWWxPb191MExOeGdRVGVIdDBteHFVb1V1ZUh6UnpMM1RxMEh4eFBWMjYtcFdyVXlXRFdKMk4xVG50TFQyNF9fa1hRRWRMSG1JbDlIMUJhYzdURTNXUmNRQVVn0gGQAUFVX3lxTFBoYncyWUVNVjZVOXNxcDlzdV9rNnJmMHZpa1ZiVFNvVkFWLVVES3VMME5RemM5aWFZUnVmZFppVjdTb3BPUDk0dnYwNklYREYxQ2hMVnQ1eTVGSmlFSHI1eTJOOXhNSmwybnZCNVFMNE9tZi0yYkRxS0k4YnBzMU8teVUwd2NUZ0hReEtudzNGcw?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 12:43:29 GMT",
+      "category": "transfer"
     },
     {
-      "title": "Liverpool v Nottingham Forest: Prediction, team news, lineups and odds",
-      "source": "Football365",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTHZPeUluZk9zM1lVUjlrOGIxZ21SQ1NuOEM5dEZmVVlMRFV4bjdqczZOMElvVnh3ZE9pWFhZeU0xeFFmX2s1TVlBcll4TklXWERpVTMtU19ubWhnXzJCZkE3YUNpYU5VVU9HRDI0dXJrVnR3Wi1YN0hna0dBaU1BSGJYazBXdDE0WGlzNjc4WklYYktS?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 14:49:53 GMT",
-      "category": "general"
+      "title": "Liverpool vs Nottingham Forest LIVE commentary: Isak concern as Iraola prepares for first home game",
+      "source": "talkSPORT",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOXJSbGJqaUZ2Tk83aWxHTDhSUWw4cFRxU3o2Y2V3UkJyOFQydW5KYzdNQkUzbm9lZUV0VU1iaG5ncWZaSEoxWGtTT2YtbDBRRGN1NEpmYVlIeW1WWlF4anJVM0hNelo1OF9ManlsdElJX0c4QWFNSkxhSWhDOGNkVVplbkJidlMwNkJlTm9VU0NMZGhDdTUxRVF2MHYwbU1sMU9pX1czbjRkN2s?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 12:38:13 GMT",
+      "category": "match"
     },
     {
       "title": "Nottingham Forest 'hot' on signing central midfielder before window slams shut, Newcastle also keen",
@@ -94,17 +101,10 @@
       "category": "transfer"
     },
     {
-      "title": "EFL Cup Report: Nottingham Forest 0-2 Leeds United",
-      "source": "Leeds United",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQX1Zqa0ZSUWV2UVJDRlZPQllpMGYyUFNHUUlTTHpERUFFR1ktZzZJR1Y4VWVMdnJkY0c4a1d4Q1N1WEFFYXFtWTI4X1o4d3hQd1pmS1FGdTExQUdsRkt6cWFqdHZOWHh2d0RVME1XVUhzUnZBQ2h6TVhhNWRKVFZCa2FyR1I4MnlIMEdJZzF3?oc=5",
-      "pubDate": "Tue, 25 Aug 2026 21:10:09 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Official: Nottingham Forest sign Liam Delap from Chelsea",
-      "source": "We Ain't Got No History",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPS210TGktV2ZFYzF5eFp5cTJ6QVEyeGp1c0JrcE00c0NqcEs0RE1oaFIyQWV5MGF2OE5XR19qQk9vSVlELTZfcEFVUmhXWXM5Z0hJNHVlVlJhc2ZJWkdVRE9KR2kzbS1CbVhTRlNnQ2Qxekhfb1l1R3ZKMkV5RUowZlFSeXVxcVppVkNySUZZaVlZQW9wcEptekRhRUxpbUNCMGxRXzdFR25GLTE1dmVMWkVJOGdWRldmMzIzTERxUDZwODNMOTF3VUdCSDNndlQt?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 09:24:41 GMT",
+      "title": "Why Nottingham Forest have broken their transfer record for Liam Delap",
+      "source": "The Telegraph",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMk9vZmh0TGxmZ1REcHlLM1NZUHdVbFd3M0p2c051Tjd3Q1FTTmJxbmQ3bjM1MEZOWVE3WER0NDk5N01RSnNjMUtuNHAtQllrcDRNZEVMVTVwTzNJQ2Ztd3ZDdDN0bEF4RmhTQnNTUjViT21rOEhNUUs2ZVowQ2tEUVZnVGVodGhOclJfYWpIcl8wNFFtVHFFcUdValg2LU9Gc2Y0ZQ?oc=5",
+      "pubDate": "Wed, 26 Aug 2026 07:00:00 GMT",
       "category": "transfer"
     }
   ],
