@@ -1,61 +1,96 @@
 {
   "slug": "chelsea",
-  "updated": "2026-08-28T01:58:38.259Z",
+  "updated": "2026-08-28T17:55:14.907Z",
   "articles": [
     {
-      "title": "Transfer news LIVE: Arsenal get Alvarez boost; Chelsea done deal",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPdERMd1cxNktNUUNXbV9LUGlVdy1BWHkwNlp3OUptRnd0cVNESHRWQ1FmUWJUaUNMVFB0dzNFYVMtcTJFY0RkMTNCRlFYaXFpdk84SXJQdUlFVy1XRngtUzlwMnl4MDZtRmFMNEJ5UFdtU2dtRlRPZVhYOEZ3dUFZekhIYTBHX1FOcTBXNDF6RHZIQV9UVk5KVG5ZQmkweUZNenNldEdNM19oZlEzRk1qMkdsSE1aX1N4RmMwVHE3ZW9EdzBiV3FGOThWM0p0QUk5N2c?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 23:56:51 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Confirmed Chelsea line up to face Luton Town | News | Official Site",
+      "title": "Chelsea Football Club announces Circle Internet Group as Principal Partner",
       "source": "Chelsea Football Club",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNU1kTUpzSlY2WHNYMHFoektUQ282X1JPNHExZkNOSnNoVkVrbFlBMWpaOG5zTUo5RVprYWgyeVp6UEtIUGY4U2kzMlNERm9Kb0NYTE1OeVE0LXB3cUlHeXVDQ3FPZm1MTGhuWmc1dXh1VU1nX2Z0YW1Udzl0NGM4TFlFcDQ1MGxHTWFTOXQ5OA?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 17:15:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWjNsMW1XblZqQ2xvaFhzbVM1b1dsNW03aURtR0x5RkNVbVpWcGNualNEZTF0bXd2QVl4NGtLam5fOEMyVTFtbC1nSnpsaExqcUltRjBIaTNSdUFsbUdBOU91d3RrSy1UTnZQS0ViZmRpdVpaaFQ4dzVrU3pMQmk4T3JrcWZDYW1fWmtHMGhya3lEazh3djd6MnpsMzhid2VMTFhFR01vdjVWSF81ZjRhRFFrM0hYcTg?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 11:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "Alonso explains shock Fernandez U-turn in new Chelsea transfer twist",
+      "title": "Chelsea Football Club today announced a landmark partnership with Circle Internet Group, Inc.",
+      "source": "Circle Internet Financial",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUDh3MmdJWFgzQ21RZTJjWVh5NGF1UTh6STJ4dmh6TjgyRnFZamNCSXV2ZFZBRGZmWHprSFlEUnNkSk1YNE5SeFdGUlp1bVdIS1pfLUVzNGFCMXRDV3J1UHUzeVlseXdWRWs3UHgtcUZkNXk1Qy1HWnc0bVlPeEFSU0JTdHA4SnllVWhsaHk1QVh4SW5N?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 11:08:26 GMT",
+      "category": "general"
+    },
+    {
+      "title": "What is USDC by Circle? Chelsea to debut new shirt sponsor vs Brighton",
       "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaE1teVV0REw4QTVCQlBEbDhuVUowR0psempOV3JXM3h3VGlGZXozZjIyaEpyT1J3Szk4TVNaNFM3T2h1YUpXdXJfTm1scUlQN3NMNjA2bDBnV3VhV3lWRDhxZGNXY044SENkb2ZWcWZ2US1kdmhheFBuX1UtN0p2elBWT0FMN0dNWlYzNUlVMDhsaUhncjZFbUVGeEVVZ1E4UnJjVmxRRnFPSzg?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 01:20:18 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZDdjaGVjYnBDakhPbElfaXl6Vm5fc1I4NWd3cmdBdEJ3SW9KWTlWQmdfUnRjajZSeW1GVjhYSXoyb2ZhR0NYVkNnZmpSUGFTbEthM2VmRnZ5VmtxSDlJX3R0TkVIaEhqZnE1THlFcFBkdVh4bFpJbDVwem5JQzd3azdhZlJpU3BVWkJWdS1sa2hfNGozTHdtcVJCVjNJWEJ4ZTlLdWRGS0N0VDA?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 11:48:21 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Chelsea identify two Fernandez replacements ahead of transfer deadline",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY05hbzEwMXhmQ0czRnU1SVhtcjRTaWdwZ0Q0Skg3OWZyRTkyaFBHRm5LY3hTWlVXWmMzWk96REVfTFlSQWtHMWpySU1QUEhDYmpZYld6NDNfY2ZzQkhuRUJaM2NTanB6VktlSklGbXNVZ1NFTERoUmxCa2NWeTZpd1NudE1peGZxbjhIb3haVFFnNHBXRjJjWjdSMDAzN3c1a3hodUt3?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 17:12:52 GMT",
       "category": "transfer"
     },
     {
-      "title": "Maresca reveals Man City transfer latest as Chelsea braced for Fernandez bid",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVnI5cGM5UVVJT2FOb1ItVTFLWC11UUVPS2hkN2pocTZDLVdseVNmNjBGRlBSUmFVRUVZMGZsc0psdi00QmZCeU41TXBnSk0tZDVqYWVLYmhsLWxnR2YwckJ3VVFqZUVRNzhpSVJaMEtVc1VaRjNlWkFyVmhYbjZfRlVTWnZYSUNkMm9zSVpOOWxNOThhTW9yNldpU3JRSnIzSHM0MWN6bjEtckZiT2c?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 01:32:07 GMT",
+      "title": "Chelsea secure double transfer, Enzo Fernandez latest and surprise Cole Palmer decision",
+      "source": "Football London",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPV1ZpMkx3ZHYyZ3hYaG82QkJCVG56cWZ0OXcyR3hWMjNRVXBvUGNHWUxMWDF3UU1uMTBHN1k0MzBST2dRdndfbGJvbmlIUFJyWU5lRHFnbGhJWU9KR0w3ZklxMWRtekRUZld5NlJuY214ckFCd0loODA4cF9nVHpSNm10R0tYSjNNTFZ1c1lyX0xPNEZwVFdMWkc3SDlGZ9IBowFBVV95cUxOSkFDcFRxMXMyckc2WDVsU1ZUUG05UkM1UVBvSmRIU1lwS3R1WjV2MldyV2x2ZDdFa3pOYXBlRDN5YmVKQmpydWF5bVdtdHBlSWp5dDhTVC1aWWVCQlU5Q2lKYktDODZWazdnRExua1ZBQmt6b29JYlFrLXU0NDMyN1Y1VU1rZmpLMEZOb2ZfY2VkZVRYQ2FpT3NhTlZhbmZNVDRv?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 12:14:47 GMT",
       "category": "transfer"
     },
     {
-      "title": "Monaco and Chelsea negotiating for Lamine Camara transfer to replace Enzo Fernández",
-      "source": "Get French Football News",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQOEZTM09nd3huNnNNdDZydlozbEdmYjlrU3d5cnpjc05tVElYTEtzMkQ3SGlDYnl1cXdYd2ZmRGVDa2FjNGthWVEwb3dJZ3NKdjQ4a2pWWXE4b0QwVVNBalQyUk9xbFNXaXZCcjltNUQ3T0Y4Q1FYb21iUGg0WDZqdFRWTDlvNGdtMlZ0WkQ0UGdzazljM3Z0eVdCYnV6bFNUdjR6SjJzUFI3Qmo0VndzQUlqTVk1aFlwV19tWk5OUmFWQ3Aya3c?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 22:30:27 GMT",
+      "title": "Chelsea’s two midfield targets after giving up on Adam Wharton and Alex Scott",
+      "source": "The i Paper",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZ2IxMUhtakt0Qi02aXFVVDZKbU0wRGFOQ2tDeER1Mi1FSm9jcW1EelFCSUw1Z2l1c2tCaTNxSS1Cd1RGQWlDNzNCSUN6R2N4djN5ZXRMUVpjN0ZKcmRndWgyS01MWGhyMDF6bnk2U3d3VlhTcGpvY2dRdWlTbnpXY3VZak8tYVVyQTBxcmVMMVk3c3ZqSGdJaDVvLWdkZEdiZWFSRk82RHBsZ191VUFqZHo5UjBvbEJ4TEdZ?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 15:25:22 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Aston Villa close on Jackson and Mbaye as Emery clears air with departing Watkins",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWTk0SGtXejRxQlhrWFVvd3BxVG40RnBHRk8wQ013V21yNHpfM0ZUc2podjhYdWdFMVR6Mzh0RkN0dmMwTjkxYndwQjZrT01SUnJzMWM0S1N2R0tCVl9aUmt2dzdST3o1M2ZKaTBfVHlvMHJ4QUNkTlYtTFg3M0tUZlFPZ0tEU01qcjM0RllmcWVkbnpYM1ZWV2J4d25Jakk2SG5MOGFPWEIzT1g0dFRJSDhB?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 13:50:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Cassius Newton: Son of former Chelsea star Eddie Newton dies hiking in 40C heat",
+      "source": "The Independent",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZXZWNG9pVElIVnhwa2p0aHRDVDJackZmOE5jWlpZcF96bmVaUnJ0RGF6ZnZmNWp1NEw0emcxTXozU2xXSG51SWd6OTZSOWFEYlRnRGpiSmE4MDhzSUVRV2VGSFExNnZYUHFldkIxMkdMTk5aN3JfNV9kMkdDQTJ0a1FIc2Z5ZTgzazlwVU9LazExX2VraTdGdDYwRQ?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 15:12:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Chelsea 2-0 Luton: Danny Welbeck and Hakeem Odoffin's own goal earns Xabi Alonso a first competitive home win to reach Carabao Cup third round",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPSF9VNmpRWWljdW1rX1pqVWlQLVc1NTFTdzRBNXFkMUxFZjFteFhSc0daVmNXN2EzLVZ5aEhodXNVQVdZb0VDN1RYNWhOTXI3bG1VY2t6Sk5zTVZZTmNDYkdCMFlfejcyTjA5SmR1LVRJd2s0dElxQ3JzR0lMbVNJNWc5MGJzRGtjQ2xISHY0QVB5MUluSVRkVEJxVVZHNzZzU0lacjBleTNSTTVjZ2tJVG8yd3ZEdjNsMUYwWjhVa1ptN2NVWWtGcHEwWUZ5bktuV2N1dEcyV1BtRVpFY2Z2TUlqWTJaM3RXMDVYdlh2NjZHYjFQaEoxVVlsVDdnTHdpTmZDM1lyYWozNEstZDZ2VUk3MjB5ZkgzTkliSzBEQ3I?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 17:51:18 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Marc Cucurella set for immediate Chelsea return after completing Real Madrid transfer",
+      "source": "Football London",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQTR3Vklub0R1aWVueEpGVEd1dkJ5aElYTTlCNFVRQ2t5Zk9QTnFrUXZzU2VpalV0M1JnTDh0OFdaVWdMS3d6OW9CM09iY1NJNTNZU0VZYTRSNFdMd0pyN1M3VWxzUm9wbXYxNEJzYktjc09JcTZPeVlQbXRENjBTaVVubzNXbUdhQlJYSjNtZWUyRzR4UXfSAZsBQVVfeXFMT0Q0TTJSaGdWOWYzMWxWanh3Tm5pc0xXczlfSkIzSUZQQ21BSGc4TmlhU2YtUFdwUjVxNmE0aUxlQ3ZuUHVuYm02S0MybUttQzF5ZjgtVU5zakw1MW1uVF9IOTdOeTQ2UnBvSGp4VkNNV0w1S3N3MndsS2Y3QTZNODV1NV9PTkJFSVo3LS1Qa2ZIZTZfWlV5MjhKTDQ?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 05:03:46 GMT",
       "category": "transfer"
     },
     {
       "title": "Emiliano Martinez transfer news: Chelsea agree £7.5m deal to sign Aston Villa's World Cup winning goalkeeper",
       "source": "Sky Sports",
       "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOQ3RPYlAzMmROUzJrSmI5M2ZIYTZ5ZjRyRkk2VHZSNUZOU2s2aUV0RldRNENNZjhfc21lWndVdDA2bmdmWlZqZWRrZkh4ZXZBdW1BUGpaa3BCMzQyUDRLaVhibk5PNVE1cVhoQ1RHbEYzSDdfZVUzSTRGQy0xdzRad0FkamdaT0NEMEQzTEFOZkItRXFENFBJVFRZdGdIZHl4TncxWVNReHJ1MXVuWGVzT0JoaUFoZXg2R2xqQXhuMGJPN1g3cGxGUkVNSmpSN2pPbkRqWG1BQmdmMzVOanNTcWxtdEVFcV9McFJubUlpbkpOMzFy?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 18:58:28 GMT",
+      "pubDate": "Thu, 27 Aug 2026 18:28:56 GMT",
       "category": "transfer"
     },
     {
-      "title": "Chelsea agree shock £7.5m Martinez transfer with Villa keeper to undergo medical",
+      "title": "Chelsea agree shock £7.5million Emi Martinez transfer with Aston Villa goalkeeper to undergo Stamford Bridge medical",
       "source": "The Sun",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbTU4ak1KMGM1bU1nTlBpN3NYSWhNU1J4ZmNVZXdwTkxqMFNIWHNwNUR3aWFfTkZ3QTBzVnFrMDJaN1FaTWcyYm1aX1NCRUk1X1MzX3hkNFRUZkNQUUlaRTN1ZERLVzh1QVpXOXpNZm5QUFhwMHE4SmhEeW1Kc2NUWUVGWXFWZEF4Z28xTmxMb3Jldw?oc=5",
       "pubDate": "Thu, 27 Aug 2026 18:04:00 GMT",
       "category": "transfer"
     },
     {
-      "title": "Exclusive says Chelsea have agreed £7.5m deal to sign new goalkeeper",
-      "source": "Talk Chelsea",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSnVxVUZ0cVVsQ1lxZWtUVnk1a2QtYWROY3JoV1p5RENuM3RzNXNkNEN5dVVCcjdxQUtBN1JHS3NtQXpyUkxHY183TXFrRmFEN1JJbk5zUnRuWkNQMXp4bzEydEVGWkpFbnd3Vy1tRU12UnRTQ2xMTWpsbHM4aXBlZDFSMU1ZTzlJU21kVVd2bEptbmlXWmlR0gGcAUFVX3lxTE45UXFlQWtKOEtvSVN4c0R5emZhQV9wSklIeXNSNGwxYTNDcU9qMG5Dc0xJclhKVTNjUmtsMXpISTBpa2tqbE14RE9jZXlMNHlISVJVRXNNZXRzTkhPaEVTOHpMMkZSaVZzdzFnMHk5U3JCejdoX2hBRDV1VHhmU2lVSHdzODlvY29rLWFPUWw0RDNZUmIxWU5WNm95aA?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 18:28:11 GMT",
+      "title": "Marcel Desailly tears into 'awful' Chelsea star with transfer for replacement agreed",
+      "source": "Metro.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR3ByTGhoR3I4emFrUWhGUC1qQnFfbERyZHY3QmVsSTFiYVYtUndqQWQ5YWdORWoyZ0xOYUVIU3JLUFZDZmFnUnh5Q1BnRVF1a1VhbmY5RFVNTXVQY094ZWlaSU9fY3dRVjVrUEZobFB5alBxNGpzYXR4dU90X3RxWVdHTDlMNXJvVzVqcjkyaDk2ZlVFejBtU0VmZWJFbTNtQ0Rqa2xwM3lKakdfdWfSAbMBQVVfeXFMTThKT2JkNXNzTVZVQWI4czJiMGd4WG9scTd3b1F0WjhjZFBiMGFfX0RvSG5LbFJIRVVfQUN1SXNIZjNwYjFJVEFfUHJlb1QzNDl5NHYxdld4NDBSeUlsUlZhSElLZ3Jtd2FiUUY1aHNJZlZ4SkxkY1NZbUxrSjdPZWVCVFJVemRiMUl5OHhleDVDZnZmYjVaLVVoMnVjOG8ta1FUNG9fT0tXNjI5a3FGMzJ3RUk?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 19:08:00 GMT",
       "category": "transfer"
     },
     {
@@ -66,45 +101,10 @@
       "category": "transfer"
     },
     {
-      "title": "Nottingham Forest complete £50m signing of Liam Delap from Chelsea on five-year contract",
-      "source": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUkw1QlMxejVqaTBWajBhUGdTb1dZTjlFLXhxdFdkTUxTX2h0THc3RGdFOHIxaEJReHpKeEhhMHBqV1RJZWRQOUE1eVhueDVBVUNFczA2bzgtWnhYdktjMGdOSUJVWTE0RGRZUzFCM0RhVnFoS0lSN0EzbkhwOV9CMjJyYkU2eWxjejFKdnpvaEdqTG56UnoxRHdTMkJzQkc2bThiWG9sTlNQb1U?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 10:06:19 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Liam Delap departs for Nottingham Forest | News | Official Site",
-      "source": "Chelsea Football Club",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOczlPSmY3cjlNMlctX1d4RURvQmFWUDNxN1NlRVM4TkdaV3hhZXlvb1hidHpfSEZoQ3JSWlZzQmY3V0Y5b091MmVSODFyNnlVcHRVWGZrRnByazlGZjRTbUpmTkJZaFRSUV9YdHlTZUJ0UXBEcW1ESndNV2RHekhzQXdkYWVEZkZGdFE?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 09:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Liam Delap shares what he honestly thought about Nottingham Forest fans before £45m transfer",
-      "source": "nottinghamforest.news",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORHdQM2xoa2R2MENPS05XdF9aVDRuT054WHowQTZNRW5wNzBydkRPb1EwbTlYT3phUEdaRVZUWURERGN2aEVydXV1bnpuUDhFd1cwRDlKMkF5bV9QWVlldEtWZ2JPMHF0X3IwV3VGbGctNnhSRG5RMksxVUIxNF95RFFUT1hMZXhtWDlNbEJCMmVqWklhQVFORjVESGlyZ3VicmJjTm9oSE05X0MzQW9tS3NiRHlnVWp5LUMxUE5KR0x4NlFMZ0JKWUVoRFY1RmZyTlNJ?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 18:00:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Chelsea's dream end to transfer window as Alex Scott signs and £270million stars sold",
-      "source": "Daily Mirror",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMUk2aDNBTlNGN3BKMlJWMFEwb1JLXzNxUkxWWkZMNTNGUDV5Q3hkaC00MjIzc215WkEwbWxDa0xpM2dhZWQ2eldlVVRlNmdJaGhQWG5XMUhEYkt4VWZPSWk4S0M3RkdkMHhpX2kzeFZRYTN3TFVxajZOXzktMFpMWTl0TGtxOTRka1JkN3RJOGfSAZYBQVVfeXFMTjF1MFkzam5KTEwtSDhwSkRzXzRoZTZ5eDM0VHZxemV0SjVQMUdGOWhFWDVXWGRvTmFOcUIyRFJkRTVMY2dUXzlRLXpIVkhEOTVGdTlwOGZfdUJjQ1pIeGFkdWc3enE2TmFLeE9KUmZ1bENvYXI1b2hJZERuNGR4YW9ocE44QURMaXBXOHByTUd5N1RYX2Nn?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 03:00:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "€48m deal agreed - What Chelsea fans can expect from Honest Ahanor as loan mooted",
-      "source": "Transfermarkt",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNcEczVkMxT2tDNDJ3QXNKeWRCMmY4cTNOanZVdXBqTU9JSG1LaWZBWnVtb0E3MDYzbURnV3ZEWHhpV21wcmRLNmtaMHZXaGhINGZqcGpOcWFjbkJqbzN4akh3dkVacmZYSzRqdzBpMy1kcUxma2JqNnI0TWhGeGF1SUV5ZE0wT2NoQ0xtNFlzSGN2WElWSlhDOGR4cFI4V2hfekoxUE5nU0gtbFRTM2FiRW96ME5BMzRMSFdvb29KelF5Rlh3cjIycUtHMA?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 15:00:21 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Chelsea close in on Honest Ahanor transfer as medical booked after £40m deal agreed",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNnEwcndMNDZGUHp0ekNLTEFRXzFNdlp6a1dnR1g1V3BfRFRlMUhqT2ZaN2tWUEVWUER4eWhVb0FUeHhiMnBMeEkxNGY4ZS1lMXd6WThmZF9kU2xNT3paYm1FbnBZWFFGaGNxQWlYU0RCNnp1NHlZWmtJQWpkTm1JXzhocTJkU19LeGx3c3ZXN08tYnZfaEtRZ3B3?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 18:02:59 GMT",
+      "title": "Official: Real Sociedad sign Mamadou Sarr on loan from Chelsea",
+      "source": "We Ain't Got No History",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPM0FwNS1xUERlbkJfTzBUS3JKV0RxbUEzNnk5R0NCd2kwSUxwandRUzNUbDFNT3JIWWdYVjlpM2ktTDdpSHBRZXhnV3hhN0hoMzdwNXMtX3NBNEx4WE93d3EzT1hha1Y3S0N4dzhiUHlKTWZnRWF0ajdvV0FXN3VJb29Qc1NGb1ZjSi1GUEt4NzVLalk1LTdQZGYzMFA5a3l5aWJVaE1xc0dSOXMxR1BRaTFiUHpNaGF2S3lmenlaMzgzOXRQQkE?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 09:02:09 GMT",
       "category": "transfer"
     }
   ],
