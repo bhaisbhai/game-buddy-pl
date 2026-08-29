@@ -1,20 +1,20 @@
 {
   "window": "summer",
-  "updated": "2026-08-29T01:21:44.201Z",
+  "updated": "2026-08-29T11:59:37.356Z",
   "clubs": [
-    {
-      "slug": "liverpool",
-      "name": "Liverpool",
-      "heat": 19
-    },
-    {
-      "slug": "southampton",
-      "name": "Southampton",
-      "heat": 18
-    },
     {
       "slug": "chelsea",
       "name": "Chelsea",
+      "heat": 24
+    },
+    {
+      "slug": "aston-villa",
+      "name": "Aston Villa",
+      "heat": 17
+    },
+    {
+      "slug": "liverpool",
+      "name": "Liverpool",
       "heat": 16
     },
     {
@@ -28,38 +28,28 @@
       "heat": 13
     },
     {
-      "slug": "west-ham",
-      "name": "West Ham United",
-      "heat": 12
-    },
-    {
-      "slug": "aston-villa",
-      "name": "Aston Villa",
-      "heat": 11
-    },
-    {
       "slug": "brentford",
       "name": "Brentford",
       "heat": 10
     },
     {
-      "slug": "leicester",
-      "name": "Leicester City",
-      "heat": 8
+      "slug": "southampton",
+      "name": "Southampton",
+      "heat": 10
     },
     {
-      "slug": "tottenham",
-      "name": "Tottenham Hotspur",
+      "slug": "west-ham",
+      "name": "West Ham United",
       "heat": 8
-    },
-    {
-      "slug": "brighton",
-      "name": "Brighton",
-      "heat": 6
     },
     {
       "slug": "crystal-palace",
       "name": "Crystal Palace",
+      "heat": 6
+    },
+    {
+      "slug": "leicester",
+      "name": "Leicester City",
       "heat": 6
     },
     {
@@ -70,7 +60,7 @@
     {
       "slug": "bournemouth",
       "name": "Bournemouth",
-      "heat": 5
+      "heat": 4
     },
     {
       "slug": "ipswich",
@@ -83,9 +73,14 @@
       "heat": 4
     },
     {
-      "slug": "nottm-forest",
-      "name": "Nottingham Forest",
+      "slug": "tottenham",
+      "name": "Tottenham Hotspur",
       "heat": 4
+    },
+    {
+      "slug": "brighton",
+      "name": "Brighton",
+      "heat": 3
     },
     {
       "slug": "everton",
@@ -93,13 +88,18 @@
       "heat": 2
     },
     {
-      "slug": "wolves",
-      "name": "Wolverhampton Wanderers",
+      "slug": "nottm-forest",
+      "name": "Nottingham Forest",
       "heat": 2
     },
     {
       "slug": "fulham",
       "name": "Fulham",
+      "heat": 0
+    },
+    {
+      "slug": "wolves",
+      "name": "Wolverhampton Wanderers",
       "heat": 0
     }
   ]
