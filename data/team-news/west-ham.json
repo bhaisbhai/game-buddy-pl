@@ -1,7 +1,14 @@
 {
   "slug": "west-ham",
-  "updated": "2026-08-29T11:59:37.356Z",
+  "updated": "2026-08-29T20:15:23.472Z",
   "articles": [
+    {
+      "title": "Breaking news | Bid accepted for ‘electric’ winger as West Ham push the boat out",
+      "source": "Claret & Hugh",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOaVV6c0lDQlg4MFlzazJiMjJCZk1QTXRXSUNOd3lsRkVuQnF3b0Y2VGo4RmhBY2ZMNGRXcmEzT0lscHJ0aHZTUWUtb05VZFZITWxQcjliZjZNbm9teVE3Slc2T20zWnE0OE4zR1I3eGFsbDNYWGVxc0N2VEZvX1JpVEtXdzV4dDhLNlVQM1VEcWE2NjNBY25NS0sxbXY1STJmMjgwZEJCdTM3ZEhH?oc=5",
+      "pubDate": "Sat, 29 Aug 2026 19:25:29 GMT",
+      "category": "general"
+    },
     {
       "title": "El-Hadji Malick Diouf departs",
       "source": "West Ham United",
@@ -10,31 +17,17 @@
       "category": "general"
     },
     {
-      "title": "Brentford transfer news: West Ham's El Hadji Malick Diouf joins Bees in £40m deal",
+      "title": "Watford 1-1 West Ham: Hammers still to win in Championship",
       "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE13OEpEcm82N1VUZlYzTGpUSjVvak1OcDBzTWdPNFNwS0dxMmFINnRSVHR5N1QybVpwcm9jUkFJenFKUjdrcHd1eDNPUG1tM25sOVBZV3VVclVvM29MdE1rQnNwWDUzU28?oc=5",
-      "pubDate": "Wed, 26 Aug 2026 19:17:17 GMT",
-      "category": "transfer"
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1CeFdLTGlZMV9LbEs4VjhucnBFTkp3Zm5DUkR5UDdHZldCc2N0ejVjRWR1MDlMdTRuNXN4akhhVXBpMDBtTUxfUXJpUE1fbVMyZnNVNV9nSFBIRTY1cUxXTDJnM3ozdw?oc=5",
+      "pubDate": "Sat, 29 Aug 2026 15:55:00 GMT",
+      "category": "match"
     },
     {
-      "title": "Brentford sign El Hadji Malick Diouf from West Ham",
-      "source": "Brentford FC",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQODl2V0FXbGY1b2pqczR4aDg0ZVFPLVhXSkUtbzRPZ2ZPTWZKX2lwczA3dVlGTUNURWhqYXI3OV9hT1AtcHVIWXNCREdVY3hpVllzMnNlOTJadExpMk9RNDI5NUxZRlhieS15M2R2S2pHU2w4YUFhaTFqc19zYmpqaHJkR0J3Z2V0OE9laGVOMTl0a2pGa3cxY3NheVdHOWV6NlhGMHR1b1pEV2JrbjFwZQ?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 11:15:16 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Matchday Guide: West Ham United",
-      "source": "Watford",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzaElkNFJ6eW16X1UtTGxzanBVc2dxLTFDM01yUGJtSUNKbG1zZzFldGM1cWwzc0wydm1fdFNNcTJQd2wwdzdYVmlpd01ZVTAydEhIU3FaT2hDWDRDcDZpN01mb2xLQlpGemhiVnEwV3R6cExwa20wQlJR?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 02:04:25 GMT",
-      "category": "general"
-    },
-    {
-      "title": "'Exciting' - Newcastle United announce Arsenal, West Ham & Leicester City academy signings",
-      "source": "Shields Gazette",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPNFF4cnE0YnE4QjhRY1lWRFFTRGhxMzNWdjV0ZUtOc2tGVElNRXJuTzN4VjJ3T3F5RmVwTlVkeGZpZGZ4MEg5bmo2T3pFenhpeW5XbDRkb2lQSVNiMFlZbFpha2tOWm9uQVFDZUhmZmk0YkNwT3FOaER3OEpjTW5tMEVMUUIyYzlQNWNNS09xQzFGbF9rZUlpN1pPVnlXRTdFeGROSWFjNHMybk1uVXV0eHVBQmszbmpxSUR2RzV3TW1MNDd2TVp5YkVZQjExSGs?oc=5",
-      "pubDate": "Sat, 29 Aug 2026 08:00:00 GMT",
+      "title": "West Ham United FC",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nZlhYbFRBWTVGREg3VnBDNzVQN1lLV2QxZHRUdFlWS09RbS1RcmxpTTZUWldVYzF3dVVPM2ZycmNrZF9wMVdTZGNURHlISUE5TnA1RmVrZzZXU1FZa05FUG9LcGtzRkJU?oc=5",
+      "pubDate": "Sat, 29 Aug 2026 17:13:09 GMT",
       "category": "general"
     },
     {
@@ -59,18 +52,11 @@
       "category": "general"
     },
     {
-      "title": "Watford vs West Ham United: Championship stats & head-to-head",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1CeFdLTGlZMV9LbEs4VjhucnBFTkp3Zm5DUkR5UDdHZldCc2N0ejVjRWR1MDlMdTRuNXN4akhhVXBpMDBtTUxfUXJpUE1fbVMyZnNVNV9nSFBIRTY1cUxXTDJnM3ozdw?oc=5",
-      "pubDate": "Sat, 29 Aug 2026 11:22:48 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Nuno lines up Diouf replacement who wants ‘regular football’| West Ham News",
-      "source": "Claret & Hugh",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMFBKUy1oQVpXRzduTVZLN2p4U0Y0ZlZWVWk3SEdnSmczV3FXcVUxdk1OZDg5cVM5Y25HREo3Rk8zQnE2QW4zVFlqMHc5dXdJRzAzRHVfS01DSWhldGlJR3lyMnY3bVJrV2lhT2dEaTFEMGFkYlF3ZjFSVlF1N1JLeVg3Tm1aYm5MRE82Q09uNWIyNVZ2WlJoa0Y1S2ZiRUl6eGFGT0Y4NA?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 20:29:06 GMT",
-      "category": "general"
+      "title": "“Harry Redknapp was right. Agents have had West Ham’s pants down over the years. The club have only acted when weakness is exposed” Tony Gale on where the Hammers have fallen short in the transfer window",
+      "source": "FourFourTwo",
+      "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxOR2lOel92a0VlR3VObDlnMFcyUTRFNE1PQzRXVTVuZ1RHTHBGTTl0S0lKeVFnRHkzSUlqNmdpVG5ncDgyTXdXcmdNSGZoQ19Ncm9QNF82SEtTWFRFXzkybXh2OHprSkIwU1pDYzF3VURvdFZFREszUHp4WmhlZV93bzRQSFJ5X1VTWFhSNldCMElyTHVhZExHVmY3XzdkeXJVdGd0c0RYZjg4MWZBUGZTVkNIWXl3bHg2enh3WWQ0ejA3YldtYmRMYUQ3V1JJc05IX3VIcWVaUTlrcko0ZUtqblk4TEs4ZTFmbnFYN3hfVzRFM0ZfMTlKZUdVTE1qaDA3QVFDX0NtbFRXSEs1TGlCdFJXaFdZWGxqTEVmdk9OQndDbDVlbjNOakJjaUVrRFFCQXJaaV9ucUZ5WG01M2pJWDRaRlZ5Y1lka0NaaG9NY1dxS2liaDR6SG53MzI?oc=5",
+      "pubDate": "Sat, 29 Aug 2026 18:00:00 GMT",
+      "category": "transfer"
     },
     {
       "title": "West Ham date confirmed",
@@ -80,32 +66,46 @@
       "category": "general"
     },
     {
-      "title": "Date set for Fulham Carabao Cup clash",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ET3RxN0VXR25qR0VqdnFDcUVicW51VnVJZGJKUzBrY3J5UUFvdzF3elJiSkFLSzBkOFZhMHlXLWhJZmVJeVVNRVdpUjNJOGYyMnpxSXhJVkk2VzhUNUFjZFMzU0FUX3pXdm1Ed0VzOGFGRmJqcHc?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 16:31:29 GMT",
-      "category": "general"
-    },
-    {
-      "title": "West Ham set for reunion after being handed London derby in Carabao Cup third round draw",
-      "source": "Football London",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOOFpFQ0dIakxUR2Q0eklwUU94dFlHcWxtdmp3dVR3VjZncXFRdEhRT2NKSXZwR3VpSm1WcGFadkt3Tjh0YU5lNlYxUkhNcXZaT0pCejV0cnoyRXFYUFlTRTEyYXUwSUNSTWlxMTA3REIwZ1dKaGhhQ2dGRHZpZEg5VzZ3ZFhwTlRUXzVVc2hiYnTSAZYBQVVfeXFMUFBTQk9SZzZlcHVTYXN6eEpMTmFnbTFGak0tdTZnZUE2dkZ4M3pUbVlYTTFRLVhvSm1DMGJEcks4emlZa0xydDZwMVBhWThsR2VtMjhITEROcFNDZlYweTF5SHA4TFYycWREQzBnbGlmQkc0V0JDQ3dETTNoaVczX0dMMGdZa2kyaUFPc0JhQXJtekc5c3hR?oc=5",
-      "pubDate": "Thu, 27 Aug 2026 09:37:45 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Rangers in bulging transfer race over attacker as player stance emerges amid Wolves and West Ham competition",
-      "source": "GlasgowWorld",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNNmU4SlZFNjQ3NmNUZkMxbkZ6WWV0WVEzbE91RkJFc09IOTA4dGlpLWRCZ2E2UXlJTXNobjBoV1JBUjJaSTVGU3NFQ3BsRjc3MFZyeFBIWlJFSDlFRWk4WEs5a3JIc0pTd0hpVVh6TzlIb2QyRldFQmppWmpkYk0ybXkwaUN4X25OWTRrVGNzVGZPdmwzakJxWXVfbzRGcUpTX2EzMGN3RzZydDl3Q3pMUnh3dklDbWRDSUtKbFgxMWQ2Y0R4VmlQbWFTLTd4dWJmRWpNUWVxUEZyTnFtaE5kTlVqN21CZ3VlcF9vMEphREhsOGJMNHFwQlcyRUs?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 17:00:00 GMT",
+      "title": "Brentford sign El Hadji Malick Diouf from West Ham",
+      "source": "Brentford FC",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQODl2V0FXbGY1b2pqczR4aDg0ZVFPLVhXSkUtbzRPZ2ZPTWZKX2lwczA3dVlGTUNURWhqYXI3OV9hT1AtcHVIWXNCREdVY3hpVllzMnNlOTJadExpMk9RNDI5NUxZRlhieS15M2R2S2pHU2w4YUFhaTFqc19zYmpqaHJkR0J3Z2V0OE9laGVOMTl0a2pGa3cxY3NheVdHOWV6NlhGMHR1b1pEV2JrbjFwZQ?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 11:15:16 GMT",
       "category": "transfer"
     },
     {
-      "title": "Spurs vs West Ham, Subway Players Cup | Ticket information",
-      "source": "Tottenham Hotspur",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcmpTamw1ckZOMXA1aDRwVUlaeWMxRk0zX0dQTmhpMW45UjhKWDFndzlvQjNNVFJSN0E2TVYwY2pHN2p6ZFN0NXM1YjU0dklEeHltNFhXZDRDN2JwM3J4dXB2QTJLOGtrZm5XTThkVVpCQjVUeTFXNVB1a3hEZG5oTVcyYWtEQXR6QnRPT2FrQWJWRjl5RURma1ZzM0d1Y196MHhkempVTHBjUkU?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 13:00:00 GMT",
-      "category": "match"
+      "title": "Tickets | Millwall v West Ham United",
+      "source": "Millwall FC",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQa1NvTW80enNyV2pHN1U4d0pXTzhOVzdDckY4cHhsX0FGaHNKT2N6bDN4MTlLY19DdmNrbFFyZXdVWVZzNGxhUFRkN2xxS1JaMmxPWkh6bkhVVnhkT3lOZnhTR0VRSXU1UFZBVXZpRXBqUmgzRmx0WHFDUW9HZXdVUGhIMGdxRDRxY1ByTlBjQQ?oc=5",
+      "pubDate": "Thu, 27 Aug 2026 22:21:48 GMT",
+      "category": "general"
+    },
+    {
+      "title": "West Ham View Target As ‘Really Exciting Prospect’ As Pursuit Continues",
+      "source": "Inside Futbol",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUWZPSGw2VU01eEZfQ0ZSY1JsNWlIUHliRDRhWDZPamRTUjlBZ29JNEpPUkNPcU5kR19Gb284MUR0S2x1WFlFOXVZbUZzWnRuOTVOVndVZk1FdHNFa3B5N2dnYVg3QmJ4dzN1NlZPQXNCWTRLeVNtRVJjb2pIOGNwZGtIaENZNTZsNUNrb2JaZWpZLTRJMDhBX1JVVnRwLXN0ck83VWZlSU1kRV9TaXZRTWcyZw?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 21:24:00 GMT",
+      "category": "rumour"
+    },
+    {
+      "title": "Watford 1-1 West Ham (29 Aug, 2026) Final Score",
+      "source": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE41ZGlZQUEtNng0RTM5Z0k0dk1keGlpZlpFV0lmTEpXMkxHVllsUWVhQ2FfSi1LS2p1RmtfbkY5WkdvcUQxcm1KdUhodmV0NEpnMm9MLVppWTZObUlSZGQzbzlSS3NVZDA?oc=5",
+      "pubDate": "Sat, 29 Aug 2026 14:14:54 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Your Fantasy Football Club by Club Guide: West Ham United | BWSL & BWSL2",
+      "source": "WSL Football",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQU3BkXzNXSEN4eF81QUIyaWlFWW02NjFLV25yVmpYY0dxcngteHVEeERmWXpCbnRsV1o4UzI5UjFpcThKQ2h1WWdVOWZhMk14SnBvbGRyVGw3QjU1SVdrTHI1MEtLeTI0TDZDNVVsMDNOTDA3bVI5ZmhRaEdSeFVsdVhxWHJmUUtXOFF1TDl1ZVNPcFE?oc=5",
+      "pubDate": "Sat, 29 Aug 2026 08:01:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Starting XI | Golambeckis, Veltman and Mukasa start at Watford",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQa3hidlBPc1l4MzlMcUJ5WGZmbXU4VnpNZFYyeUdQUnNYTGlVVmIwcjN0R0xJeDhWeTdYU2hydjEwNTJYRGpwdUJMdVM5bGRPeDBuMllTVHpZdFY3V0NMSnF0SktVQ3B3dENxNEtSRDhlYzgtNEs5ZTBGS20wTllMdHRyUmNOQzNybGs1TGhXeG02dXZYWV9n?oc=5",
+      "pubDate": "Sat, 29 Aug 2026 12:49:48 GMT",
+      "category": "general"
     }
   ],
   "reddit": []
