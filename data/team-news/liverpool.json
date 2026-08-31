@@ -1,27 +1,97 @@
 {
   "slug": "liverpool",
-  "updated": "2026-08-30T20:21:26.952Z",
+  "updated": "2026-08-31T12:13:31.058Z",
   "articles": [
     {
-      "title": "Liverpool transfer news LIVE: Bradley Barcola updates, Cody Gakpo to Man City, Elliott latest",
+      "title": "Liverpool transfer news LIVE: Bradley Barcola medical, Ismaila Sarr chase, Lucca Brughmans deal",
       "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORWJiQU5LblV4WTRwSjBTTEk3LUM2V1NqVHZ4N2dLWUo2OHNmWUxDME9GWXdUVmhoci10LUs3b24zVVMyczU0cjRXTHVmdFh4cGpPN0hPWGVhUWt1QTlXYmtORXdKU0kzLUJQZVNPMFdrOWZ3X08zZzdnczZsOXcwMXNxUjZBbWhLZTNkZy1zUWVCUWdoUTdpSmxRUXhXYno2MUtBX0ctSGlZQQ?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 18:55:47 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdHpRTVBKOHNoN3RlQ1k5bmVVejVCRS1CTmhxcU0tU3ZJOWUyMHhpQ2lGSGRLTmtuSk1qTzJ1ejBaZ3hZYTVqLWJwdi0xSU10SlVSMWY5VmRUeEhXZjQ2WV9IMGdmaEtlcXd2UmlpNmNha1JScW4ta0x2YzJXSUZoWVpvUTVWeU9BWkx4UDZ4SG50UVFxWTdZVkRycnNKSHFyZlU5UDkwVWxldw?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 10:12:32 GMT",
       "category": "transfer"
     },
     {
-      "title": "Bradley Barcola bids PSG farewell ahead of Liverpool medical",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORFc1aEcwcmdxZkFnQ19jZnVUU01UOXNwSS1KV0VyUEtsbVpZQm1KVXN5bG1HRHZMSFRTREZ2eUgtejl4dXBpcS1tVVBEMXVBSXhxQU5qbEZZTG9fb2lqZmtuMHFZQ1RuMlpJRlRHVGhZdXJqckdPZmZjVHRKbkJVaTJkRVgwVnVkSlVTOXcxM0xSa2VIdjZxN1NtQkk?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 18:21:12 GMT",
+      "title": "Liverpool closing on 2027 deal for French forward Djylian N’Guessan",
+      "source": "This Is Anfield",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbFlGVFZiN09hWjB2a1hhVFNQMUFPcjJ0aWNNRFZSeVFqa01WbXlXd3NjelV1VjhCd3VGSHh6ZVdGcDJtamExR29XZGJBQmNoNDRKOWgxdnJhSTU0aWFjRWFEcWRPaHRoMk5fa2JIT0Iybk5WVTFhN3RRM2p4WXI0VHRVR3liaW9sTVRiQVJ2N2JiTWFs?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 11:19:24 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Liverpool move for another French attacker",
+      "source": "Liverpool FC",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9yY3p5VENEU0FvSVY2TlNtbmRhX0xGQlJxU1RlUUgwVm82aklGNVdybERwaHFYTDZ1cElJdWFSXzBMQ01NYzJERGJwZnZwSDBZU1hLbjZQV2pTeUhUSzdHZUdsTl9GWVQxVjhYY002NTNKRHNVMVA4emcwWQ?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 11:38:27 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Liverpool 'agree deal for Saint Etienne's 18-year-old striker Djylian N'Guessan as Reds plan for the future'",
+      "source": "The Sun",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdndOc0NvSTRtaUQ4bnVsUVhfaTA2d2YyUFQ5QUtyaFVKblItcDdoMFpqemhoWW5wQ2Z6YmQ1Vjlmd2tkSjdmdFltbTlTTmc1WkpUTVRCQzJwYWhtVE5xdTNyZFFzU2VRYUNrWmF1ZGkwWWtsRjdaR0lucHhIRFVfOFJDWEkxdzBrTkIxYmd1RVY?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 10:57:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Lucca Brughmans transfer plan emerges as Liverpool could complete $41M signing",
+      "source": "Liverpool.com",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTWlXSE1hYkpudk5ETVEtVHFwRmhCTnFwN1Z2ZXcwcW1NSkxGYTVsNkZaS1BhTFF0dlZVcGxPN1IyM3NtWVZsWVdGZE9MNGJqNU9zTHUxWFJSNjZXaXdkVjFNVkJabElfd3l0SzRMWjllWFM4U2E3WDlORTMyckNsNFZSR3ZYdVc5WEVhR2l1cnd3bkVxdXZubzFLM0Vxcm1hTThReWJpRkFLQdIBrwFBVV95cUxNMlNJelhNbFBoaXFmRkY5b2tXdU5TcnNnZ1hKYldjeWMzeHY2U0s4ZWpCLWJxbUNUcGtRS3hqU0ROci1RUDkzbmlaT082aHJDWmo3Sk52dUVhY3BGSW03ZGNfM2c5UDl0cEdmMDNpR0RiQ1dWWE1ZZ1dQdjY2NjE5ejNnb2tvcmJOanVyZ3FUV0NqNmFzTTZ0Ulo2NkJBTXVNWUZscjVZdl9nRVNBOFVR?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 10:42:35 GMT",
       "category": "transfer"
     },
     {
-      "title": "Liverpool 'accelerate Ismaila Sarr transfer' and get crucial green light after £50m bid",
-      "source": "Daily Express",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMWJlWENDSDlINTRVMkphV2VlNnpOaUF4bG1FSnBMWk9MZUtwMlNDUlVXa002NjZKSnhVaFdCUlZ6UElPczBuYTNvSGpPWFpCZ0djVTNzbWo1ZmRCamY4Q1o4RXhkQzRqVDk0TFRnN2UtYXpjQUxUVWsxejN3enBQdDhSVmdRMnlYczRiR1o4dXFKTkZ6X3ZjOdIBngFBVV95cUxPYkxPb3pRZlctWDFCR1JCekQyNE84VTBneVE2NXZlNDRxSWNrWWJEMG5BNVN6RzFCdE1qTzhNclJ0X2hqbXRzS3JYRUUydG1IZFoxN05uZ213WG94WlcycWRCZ0hUd2p1VzF0QnktRkR2eVFwajFDUC1OTWotRlMyc1VfeFRLSjhzRDZYY0d4NFhFOUgtZk9QVVYtcXdlZw?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 14:43:00 GMT",
+      "title": "Richard Hughes now in ‘advanced talks’ to sign 95-goal sensation",
+      "source": "Anfield Watch",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNWNuVTMtNHhUamlQdUt2WWR6dmdfaTZWMGJETk12TVlDZ0VmTHhMZDdqaHRFSnFaTnNpcHlpRExPNnRObEtGY3g1UldDRnhuMG95b3h4RjRYeXRFTV9nNS1XV091OGVVV1ZpVm5FcXhMdWVqNkRRMlNDNzM4bnNKSzQwZUcyalFTNF8tMGhwbWYxSzN1MWUyVEpLWTFkMUpFMFFoM1FZTTBSWjhZeVAxYllR?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 08:30:00 GMT",
       "category": "transfer"
+    },
+    {
+      "title": "Chelsea agree £38m deal to sign Liverpool target after Emiliano Martinez transfer",
+      "source": "Metro.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcE9KOFhHU3d3dC1XV19EQVV0R2Vyd0hteWRXdTh5bWR1cUd4N2tPcU1JblhhdUtqRmZYR1h5UnB0cW9hOWdLSVI0X3VrZk5meG5FYVotX3NXRHd1RGdxc2w5Szg2ak13c2lSWG9ZTXZuZG0xV3NGdzFza2wzX3BReU53YWZkeVV1LVpsRWd2U3ZpMEtvV1VwWUY5UDI1TnZEdENKNU80WkdfbFFnLUk5M1Fn0gG3AUFVX3lxTFBuMlV4SXhwT1pRRnJkOTZEbGZQZzJlSmlUMlpIZXplSGNSNkZBLVNmdHoxUU1LOTRGU2FfeUtldHFjRkVPNS1wU2FIMjI1ak9kcmNIeDBIck93bGlJM2xrVDJMeUdLeTl0SktRSm1relBHR1NKejJWaFU5N21FTkhDN2VjVkpDa3lRMWZwWVYtQ1RtX3M5eGJjZDdLRk1sOGJ6eWxaVW9TUkxzZlF1NWF6aWdpVmRjNA?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 06:41:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Liverpool set to complete transfer before deadline with clever clause agreed",
+      "source": "The Mirror",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZE1KUVNmbHhZVjdaelJzR2dIaE1nTGp2WDRMSEJkaFZPNWNDN05HVW1LRnF4TGp1MHhvTXpXUFFmOGJ1eC05cWpIanhuRmZtSlEyQWs3ak83RmQ4Skc3Z3RIYmVNQXdOMV9wU3ZMVHV4VU50OTJGOUxscm5GSlEtVUhBamhxUi13TTZhTmxmbnjSAZYBQVVfeXFMT3phUGQ0c3J4YWItcmF0Y1h5VmpmVU5NaUhIU0U2NjVwb0FicXU4NFBNNGVYTTFLR1ZtX2pCaTBzRVUzbmk3Y2taUnlaNFZwUHB0ZndjOWFYa3ZaTW5ha29GeGhyTXNSWHRUSHRMN09vZk14dFRQQnQzOTNzYi1CUmpISzJJZ1hlTmMwNndscTNDUXBnVkN3?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 21:17:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Liverpool midfielder’s deadline exit shut down",
+      "source": "clickliverpool.com",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVTEwRXVmZ1FxUUpobndZOXJIWU12N0ZHWjRibWZTMmgtNXpvUzN0WjJKRFBkNktIUjE2N1otYXJWSE5DZ0w2cEtSd3c4aFgwN2N3VHNRdk9wbHEtaHIzak03T2p1VGJqanlKTkIxOExiNmw1Wm9XMkNKTmNvVW1lV1piN0FHb3JPMC1WTE14dGVYaThDXzZoZDl6Rm1ES1Z4QU41MQ?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 15:28:13 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Liverpool makes Alexis Mac Allister transfer decision after Man City links resurfaced",
+      "source": "Liverpool.com",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYk1pOTlfRjNQTEhmY3BwZ3dGT0UzRUQzYnRKTnF6N3VLcVVjeE5nRjFoa1BibktCenU0OXZsNUFoQkNZM2JNbGtoQnZDcHROdDRmb3dHajlFUDk4ajNyaVhqOHhoUUdYSnBBbTBaeXh0cXhpRC1wZGFJZ3FiUGRCUjFXcUdDdGhlZmdLOGlhTjktUm5PTm5ia000VdIBoAFBVV95cUxQc3VWOTdnZDNGZ2RUa2dDOWoteGRnT3BGbVZUZXVlV0Q2ckdFUk84M0ZDcEZORHgzQkRVbGV6d2hIeDNtTVhpVERqTW1yaHZLcEJ0RVB0ekFqLThUbE0zQW1xbV9ZNVZSNG5nOGYtdHQzYUhWNWNVeDFIM0gtbndoN19vVnlqTFBLbzVHd3F0SVFDQUpoQ0FwcEhJODQwLXJy?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 09:45:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Alexis Mac Allister statement issued over Liverpool future after new Man City transfer rumours",
+      "source": "Liverpool Echo",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVGRUY1BYaG5ZSlNrd0xISDRudTVfbUZGVVNvN3FfZjlzbklMUGxXalhCSnI3VFR2R1NpOWFDZXVGZ0Y5ZkFyanBxcFZrWFdudXZjTHZnbWhHZmR6VUZaS0tKYUtVVW5Qc0M0WU1RMnBLM0EybkV1SDE5WTdzLTREbXRaRXE1Z3B2R0xSNjZrVW4weHphWUtHaTJwZlBtb2xUM0psTEN0ZnQ2Z9IBrwFBVV95cUxOUTVfb29MN1VSVkkxd1owNDZWMU9pNUp3em5IMFY1RDZiaGx6X3FVWkwwWmFVejlxdFd4RzB6T1VhamtIMzZxdTNWWVQyaWI4TFVGblFkUGRSNkdqLWZZRnNVTnJjVmdYMEViSjBqTlZyTU1IUVJ0VHhJeXhiRGdYVzZJMkctQjdldzBkLWZtdXhDRExZaUd4M09iS2NGNDRRVXVwX2N2QjdEOHF2cGV3?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 09:12:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Women’s Super League 2026-27 preview No 9: Liverpool",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZU92Z3FxWlNfTUJLa0ZYR1lTUTZyODNZQ09hYzdQR29DSmprb29tZUNRSHk4NWx3cHVyZGVzRVBzV09sX1Y3ZVY0UDVQY1FDM3NEb3lQV1B3VkN1bVNfc1V3MjBEN1dJWG56TGhoSXQ2c0pLTTJEVlRkb0VoZUEwcXZxUE93YUFHdC1JSjBGOTJ4dkt1YlpFUlR0QjNLWUZx?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 07:32:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Iraola’s Liverpool start slowly again but Muñoz strike denies Nottingham Forest",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR1packFGQnlfSE5vSU8zLXFseWxhQmNDcndFSkN0YUxFWHZYeXBiZUwwN0cwN3dnaDVqYmVDVWZ4WkFENnJOZm5BaVJYMDZzenhRcjdmem1tZS1TNXFXY3E2bUxWWUVMdGt4NUdGMS04aV9BTndzb3RhVURMajVvRm5MaVA1WktRVFNaT0hMQURURlN5dWJuY0x4UFA1a3lRQUZvUVg3Zw?oc=5",
+      "pubDate": "Sat, 29 Aug 2026 16:49:00 GMT",
+      "category": "general"
     },
     {
       "title": "Andoni Iraola press conference: Liverpool 2-2 Nottingham Forest",
@@ -31,81 +101,11 @@
       "category": "manager"
     },
     {
-      "title": "Isak and Munoz score as Liverpool draw with Nottingham Forest",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNN1J0T0NKd1JqNFpxY2FqcFNzdnVxM3JGUlB3eXlXMTZwTGZxUjJlZDNXWU5mOGNULTNyZWVjUmhodGpfMkpmelAwU3dESzdWNHdPc01fdTdPMnVWRm11X2FpR2tMSzJKUWJ3WVppUmVzQ2JyZG1TdTR3ZlQwemloWXVhU21JUzhjdWdadmRETdIBlwFBVV95cUxNS2NNVUt5WWp2c1Y4NDJUeDhoMkFuZ25OMGdXbE5RVXMtMk5tX1dQTHlzdUhqei04aWhUWm5zbUw3eEVhek5kNkx3eS1sRVpwcjhCTFhnX2x3Uk40REVKVm9VbXFYbDIzdzhVQjNpeTJMbXJJc29sSkJGUGN5WExoY2pNOHFMNG5YTzhKbmJUdzRVelVoaktN?oc=5",
-      "pubDate": "Sat, 29 Aug 2026 13:36:59 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Liverpool vs Nottingham Forest LIVE: Premier League latest score and updates",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQTzhablp6Vk1OMFQ2OEU1QmxCbW5pTnQtRG9SM0xvRXg3b0dYWVJiS1c5dzBvamVHY3kwaFRZbm8wam5mVDlZOTh5WjhLX0N5bGIyM1VESVFmV3RwRWRDbk45eDZqV1d2dXNnLWNQZ3JJeGxlX1oxZ2h1VTNMN3lDMGNoTURsSHI5ZUJiU2xqOUd6N083Q2g1aGtwX21oMGFFdnBUdkoySDMwT2N0eEhrb3laUWxQT0FONW1scU4tcWpwczE0ZHhlMlMtVEZuamFaYzJXVHNiMW10SDJl?oc=5",
-      "pubDate": "Sat, 29 Aug 2026 14:39:07 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Transfer news LIVE: Arsenal Alvarez talks, Martinelli medical; Barcola to Liverpool",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNDQ0dkExaGpvMFE5Q0RhWEZ4SFpGRlJsZ1FDd0ptSGllOGU2LUFzdlVkdFk2ellIMGZObE9JZWdEbXlRQ1pxLTI4ZjZjV1hfVGpoRzR6QThIeHVsR3NiblRiajM5Q0NyQzlzSzNKeVEyU3I0dktaSFRzOFlIa1hLNDFUMGpkdXliWGNPMDBiRjFBSXNFamVQaExRVlV0Q0lVaTBLam51VndidlMxWFRldlBteklRTnlSN3lwSTVGRVFNMDJkT29RRURaWmJaZw?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 19:41:21 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Transfer news LIVE: Arsenal striker to join Barcelona and Gakpo chooses City",
-      "source": "The Independent",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMjJ3MTkyRE1Bb1hFQVpOM1dSMkpfS1gyN1RDUGl6aEFDQWlBQTR1VEprekVXbmxPNEpEQUVrVTRLaGRCejRNTDc1VHlJYzhRSU5QM040TGQwYllpelM1aG13aUZQclNOWDMxczVETnlrYWdSTTRuTDFqd3VVS2g3cl96WGhmLVViaWkxY1JGVi1VRi0xWElZekVpdGs3N1RIYWszR0stQTEtTHMtVzFnU3hOeTh4WkxhMFJLN1BFVFNXTklyMEE?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 18:52:23 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Julian Alvarez to Arsenal transfer boost thanks to Liverpool selling Cody Gakpo",
-      "source": "Daily Express",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUEZFSDJmNjVRZ2Zoa1NKcWo2cXZqa0FlUkhXT1FPME1WbTJSMEdNMjJMSGFhdFE4V2F6c1JUSm9kVV9HOVV0TmlwRWN3b1M3V05QaEVMWnRkTUVvZDJiS0ROcFRGeXU5OVRkVXpzNjIzMGZNSnEyTnRXOW5FZEZmWEYtdERvV1NoQ2sweXE5bWp4NjVPSkR4NnoxOFLSAaIBQVVfeXFMUGdRLVgxMnlkTjYtZjlDX19mMWFEV1MyLU85alFJSUF2cGh1RWJfN2k0V0ZRNTlVb196Y3kxeDA3d3FYckhlYXhrbHlNeG55X3BXNGJrbmtveWlkazA4bUVWd2hoLUN6SGpOYUVoTnNDeEpkemxTZTA1ZVFLRFI2VkVHQ3JTVFkwcHlKd2xKWGl6OTRQVHlTby0xSTh5cll3bm5B?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 12:27:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Stefan Bajcetic: Liverpool in advanced talks over sale – with buy-back clause",
-      "source": "This Is Anfield",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeW53RlhzR3FzdDkzMk04aHhSbmx2cUJ5NzZHeFJzaW9Wblg0T25FeTluanNDNW1UR3BjNjhVQm5ubmRQTXpnQlcyXzFISG9MZFROcHRfN1lkNzJjWlZMVS1reFZHVV90SmdEVTlUM3hRM2VaOFZXcTViaTB0UkdFTW9FTzdCX3Q4cG9GRkxEa1dwQWljWHA3bWRPU1o2Ri00Z0RMV0otbVdwd0daSUU0VmdMbw?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 17:26:56 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Guess who? Liverpool's surprise target confirmed",
-      "source": "Anfield Watch",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdGw1ZkduY3hSbFB3Wk5haHc0VVo1OGZsRWhtSlA1X19sbHhMcnM1XzRjSmhRaUgtY2N0SjJucGNzZ0xfTVNaaVY2RVg0UWJXeVZSUnVwbFZvM19tUGtVSmxwWng5YlNPUF90MXJ0ZTgyVDJfcVRfdHZmLUtlR3lPR2NHMS1xUTVldzZlWU9Rem80Z2lsSkNmUlZmSXU?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 19:30:00 GMT",
-      "category": "rumour"
-    },
-    {
-      "title": "Liverpool’s Giorgi Mamardashvili ‘wanted’ by Nottingham Forest",
-      "source": "This Is Anfield",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUEhDYkZsdlVKb2VpaG1hcUt1ODBXeHlBdUVhRjRQWFlhTzF0WWNPelRGa3ExOGdZNF9lLWQzZE00TGFPdVAzZFlvRHl5RFBvZVZRbFNnVkJLcDFNQWpwa21PWHdjc3c1Y244cjA1cTVCckZYV3FwQ1paOWh0akJ3S3RZRVZfSDRHeW8ya1puV3Y?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 17:32:06 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Two insiders confirm Liverpool in talks for 6ft 7in keeper as Prem rivals want to force stunning exit",
-      "source": "TEAMtalk",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZFBOc3hGX0RmclFPYUZuNUdSeERBc1Fod2xKc2pGc3ZhQlVWVkNyeHQtMWNUTkJ5UWE0bTZaRXQ4c3lTMjZGclQwWWxheXBZdURVTndQNC1NeHV5N1RtNTF3VkI5NXlSa05MTDlEX0l2dWx1dTJiMTB1LXJpdnVhZ2dfYmlvaUE?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 16:27:19 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Liverpool monitor Lucca Brughmans amid Nottingham Forest transfer interest in Giorgi Mamardashvili",
+      "title": "Victor Munoz demonstrates exciting Liverpool trait but Dominik Szoboszlai concern continues",
       "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeVZZT05uMWZLQjhtYlR0LVBDV0dmajhFY21maWtLa05iZi1DeUhHQjdHQzZfSGE5Z2NVd01pRzZNTldYMjlKVzd3cmp4T2xkblJFcEpoQ1duR3NOcF9FOFlDQlRnOVJIR0FDOEsyNzRnZ1lrYW5Pa0I3TGtrRldQTkJPbkt4U3EzQUlIcjFmeS0zN3VvNzFTVWxLQUgxTkFpYVg3cjdveklIWTB60gGyAUFVX3lxTE9MV1BrLXdlS2ZJX0hya2xuem85dEtDRTVvQVE2ZzVmSzNtWkFCeWF4S1VtX1o3VWZqYWpjVVhPZHVHMVQ2Yk14RV9DRXdJVkM4WXdXaUFmZlFtSzljcWhfSEZZQnVzQXhveHQ2SFJZZ3J5WG5UZVdKZUlJT1gxUFZSZW1xWFZkZGV6VG14WXZBR3ppSi1ITWpRWDFOejl6UFRhVzN2WGZkdlJjV0FpRGdrdEE?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 16:24:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Women’s Super League 2026-27 preview No 9: Liverpool",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZU92Z3FxWlNfTUJLa0ZYR1lTUTZyODNZQ09hYzdQR29DSmprb29tZUNRSHk4NWx3cHVyZGVzRVBzV09sX1Y3ZVY0UDVQY1FDM3NEb3lQV1B3VkN1bVNfc1V3MjBEN1dJWG56TGhoSXQ2c0pLTTJEVlRkb0VoZUEwcXZxUE93YUFHdC1JSjBGOTJ4dkt1YlpFUlR0QjNLWUZx?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 07:32:00 GMT",
-      "category": "match"
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeU9oUTViZjFNMWNERUZhWmlZeEdqZ1ltRVVjdUpaUGhObzBVaFBHQnlWUm1NazZtUnowOWpOaGdjRFR0em56TjdFTG9jOGoydE9VeTM3bnRySmFmYTRaMkMtbXowSk9vODZybEZSWnNzX3BZR3duaEc4cDNrNnZaY0ktdHhKQk1rTE5OR0xmU29RVG8tY0t6VGNkR000ZVY0U1M2c2NQLTZNQ2tDV0p5STFkVXbSAboBQVVfeXFMTk1GbEw0eVllbklPRWdXaWJQRVp5VURkb2FTQmVjWVVDb05sUE1ETVR3dlpqWUotQjQ1U0tadDMwX0JZcnRodzRlaTVZZ0NURDRCNFNnUFpLYkl2MElQVGYxa1pDUUpuUTBDRk00UTFWTW5veENYQm54OHJDLTZUSGhFb0JmRnUzcl9OM2lGMlB5YzUyV1JQRG5yN2V1dF9kb1JZUmNqSVNuSjVnR3VzRzVOcDQzUnZWZS13?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 04:00:00 GMT",
+      "category": "general"
     }
   ],
   "reddit": []

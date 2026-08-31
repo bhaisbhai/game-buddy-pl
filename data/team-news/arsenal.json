@@ -1,13 +1,20 @@
 {
   "slug": "arsenal",
-  "updated": "2026-08-30T20:21:26.952Z",
+  "updated": "2026-08-31T12:13:31.058Z",
   "articles": [
     {
-      "title": "Arsenal get Alvarez boost as 'Atletico open talks to replace striker'",
+      "title": "Transfer news LIVE: Arsenal triple deal, Alvarez boost; Barcola announcement",
       "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOFdkb1pLR0tSaE5BNXpxVUhvUTJaN3Fyd1NkNmVlcHkxd0lJLVY4ODd1N0VCdzdXT3BUWUJiZUpQbWlTR2c2X0lPb3Nka0hudU9aalpJZGx6UGYyUFgtVlJGeC1Jem9iT3lOcENrZV9ULTdjMnFlY1JrazVuSW0yTzNucjJCVjZ3cWR5UW9yNGRsWHJx?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 19:36:19 GMT",
-      "category": "general"
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNa3NlNm5BOTRDYUN0VWxoZGJiY21nNGVxU050NXZvRmwtQ0RXbjlKRFhBdWVFZ0tCUWh5TWJaMlR0VHU5aEdUUVVmQVRLWGhtTGx4S0RXRHhwMm1TVGV6SVBsVHNKVzB6ZkloUWZ1d2JaRmp3V1ZBVUpXdFU0Tm9rSXNaNTZQbWFMemM0Slp2YlA1MXZoclc3dzhKNUZrR25sY2lJblVMZEV0cnJMNjY0aWtCSFFFbkU3UUJMNlp6dlQyUDZ1UWlsTzBUWkhMaVE?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 10:41:03 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Arsenal’s Gabriel Martinelli set for Al Hilal transfer with clubs finalising €70m agreement",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZlhVVlZHejVZVVI1R0RsMzdLOFpYMGxkaHJLN1VyemNhcXhDWlJwengyckRTemFqSGdac25QdlpUTko4eTZPdFhFZ2R0U1hHTTJCUWJKWTNIX054a180OEI3UUp2LWV5VGFnM3JYcTYwbG9XaFB6NE10bGNhakZOWV9uZHhfbzNMYmFCWVR2UlB5cVBzak4tMlVlVXotZ01mSWlF?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 15:16:08 GMT",
+      "category": "transfer"
     },
     {
       "title": "Arsenal agree £55.7m club-record Gabriel Martinelli sale to Al Hilal with deal also agreed in principle with Barcelona for Gabriel Jesus",
@@ -17,87 +24,45 @@
       "category": "general"
     },
     {
-      "title": "Arsenal transfer imminent as medical booked for £60m deal",
+      "title": "Al-Hilal Martinelli fee set to be higher than expected",
+      "source": "Daily Cannon",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBHc0MwR3Z3UnlWSWpMNDg3dWtXV0daSnBLbXFXSExKSHNqOEVBZTRrMXdLelExWV9RaEwwdElIbktNV0xZMW9iaDdOMUFtZFNocndVTUQzZDNYazMxQXV3RXBfcldjc0hCejVpbm9CbVVqQQ?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 09:01:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Smith reflects on under-18s defeat to Brighton",
+      "source": "Arsenal.com",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTWo2SG13dEdVUm50TFB4c3lHMzB3LUR2T3BQdWYwYklSbHZubVY1XzRPOGNSWDhjS1prckEtMkFvLUlmQzJyLW5aME5vdmVucnBkMVQ3cVdoRmlYVkVmeXByTzVXV1RNTTBuUkU0QzdleWtCSGYtR1A2ZmpRTmJPMUlrRzZGcThXbnF2RW9zR1dGZw?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 11:02:46 GMT",
+      "category": "match"
+    },
+    {
+      "title": "The Anglification of Arsenal: Why Arteta is so enthusiastic about English talent",
+      "source": "The Telegraph",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRWhnNnNwZnhYTWVqRXAxQ09EeXdtSUV5TjhlVk9GcUp2VGtfeDk2bnhpRGhIa3ZSeXJ2bklmMWJGTmtxOVk5LW1keW52ZmdYdzZoNjBuNUZSSjc2UkdFbWdIeU5kdVZwZnREaHhOd21UT1pPRzBvaWhXNjJnQ1l5eU9qZw?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 07:30:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Arteta issues warning over Arsenal player sales before deadline",
       "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMThwMG1nb2cxVjZ4V2JPTDFmZDl5Uzdzbm9vQ253YjV2aVI4QjhPcXNhUkZWcVNDcTZ0bGl5MnFHZS1vTUxPMERFWnFtOUdCWmRYb25PbERLbG9VQklVZlRneDBuWXdGZkUwaUlpWHo2YUV4R3FWUlJJLUN6N3NsMDl3RHJ1NEZ0d1lPVkhzSnB5MkV2UGl5cWZjUjRES1dI?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 18:46:15 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Gabriel Martinelli, 25, 'seals £60MILLION Arsenal exit as Al Hilal finalise deal with Brazil star on four-year contract'",
-      "source": "The Sun",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSjg4RlpQdVFuWFJjSFBHQ0ZaaE1vd0RSQXpwaE1md0xiT2gyVWNNc2Rfckh4VGtZODV6XzN1TERxMFhDc3JFNjVwUFlaWU03eUdhdU03TGM3eTBCaU1DRl9aRGtmQ1M1ckl6U0xYbVN4UXpmSFBFS2tPbU95TTJBejg4T09DWVFkUUVIbXU0TVctendtZzhkT2xTelB0bVZ5ejBpOHV3?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 15:38:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONi1RZnNjVlBySTJhc0c0cUVCZ3c2OVg3TEx0Z2dWR0ZydWtBS0E0dkJKeDVZQWVVUm9KVWhzS21ZdFNPNzJTTnBwUDBkZUlBUUJSaUdsSjJIVFZHRHNaMC1NMnViVGhlcjY3RG4tVGpLbldybmp6MW5sRm9mX1BxRl80dFBWbWVCV2xfWnpKUWNkMUpDaHpyOA?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 09:46:57 GMT",
       "category": "general"
     },
     {
-      "title": "Man United transfer news LIVE: Marcus Rashford latest, Arsenal agreement, Amad bid",
-      "source": "Manchester Evening News",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd0F3OUVYbHhLNk9SVWVaaUZscTdDOUlRMHBRLXJKMmo3VktQd291WS1JNW1LQ1VCLUlleWxRVTRZb1IwbWc2SU9wOGxyVFJfazNRRUNfcjFlbm5aaGxJSV9tazc1ZU4xUTVIR1AzSHVFR2JRNFA5Nks3N1RleXJGbDhCOGlMTVlIalRSNTNKeDRTRFdleVZuLVVVcXNMVjZnVmo2TDFHdy1uTmc?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 18:12:45 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "The best training snaps ahead of Villa Park",
-      "source": "Arsenal.com",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZ1ptdFJibWNITzJlSjFiU0ZDdTE2dkhrcDU2Y0FUZ2pHc2o4cFc3X0dXcVlYVDlUN2JlSjdVM0Q5Xzl1NTI5TlVkUnpLMTdSbjduWDd0VmRQRGJQQ0x4LWxWRllJczlGLXRMNnE0VGNKcnZoaTlaWWlxRXkwb29wcE81SG1ncW1Jd29oU0dR?oc=5",
-      "pubDate": "Fri, 28 Aug 2026 14:25:35 GMT",
+      "title": "Arteta: 'We want players that are not satisfied'",
+      "source": "VAVEL.com",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPS0gyU2txWV8tbk1rSzdSbUVMRnhQYjJPQ09GMmZ0V3owUFRWMGxwemZGaUZyNWtKT2toV2RCNXJ2SE5qUF9EWFNhWk9UNVpteC0xSDE2Qk8tWHpiZk0tWFk1NWZ2N21tR2ZhbTN4S1RRMmo0VnFuVU5SbGVnazJxaVV5RXBycG5zU3lkNWdJYWRRMUZIcXNiSUo2VVZYSXk1bTZIRHNRSDlLTXZTUGNtb9IBtgFBVV95cUxQRGQ0UHpaZlZyemdNYk9UOF9wMGx1dFpFYnVaQUY0ZnIwY2Fwa19WT205czBzVjh3LXZsY0xIN2hlVjlEX0gydmQtRXVkY3hLWlptQmZEV0x6OWRhcE5ULTJaMnA1MmZacGlKTEY5UDJZNW0tVW1GSTdjeWZlZ3lvTlRuUGNHY3kyekVtclNzdWZ5TDRVWGFmZFkwMEhxSGhUaTJORHhvb3pBVFAtbXBfd2ZfdXkxZw?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 09:54:37 GMT",
       "category": "general"
     },
     {
-      "title": "Arsenal Predicted Lineup vs. Aston Villa: Premier League",
-      "source": "Sports Illustrated",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOUxEa2lKOVVUcUNaZHhiczMyOUFzbFdEUjJWRDh3SGd0akt4WE9tWTBoSWpOSWhsVXVBSFdLZ2N6VnY4STFEWFlNcXdkR0dhNUNsOHNYYmROeE1qSGRaOUp2Mk1hSzFYVGpmRm9TQVl3LU1BOHZSbTVyc1p1LXFqYTVodkVtTTBCdWxUQ3ZYYlMwZw?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 16:30:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Aston Villa vs Arsenal: 3 key battles as the Ezri Konsa derby awaits",
-      "source": "Pain in the Arsenal",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNS1nTU1yM0dVNHNRekZkbVo4aHdkUE1RYnZzVUJfbk84WndMRUlrdVNweEpDdFIwZTNPRXlTYTltejFidTJ4OHZxenRDRG9TV2Z6dFg2NGNFNjVHb1ptUmprMHI4NE1IQU1FRUNQUEx2WUQ5SFpndTdaRTZLbnM3ZEFBV05Qc3JxdTh3eEdxZFdxaEZrZkJYZzZyckQ?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 17:29:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Axel Donczew completes Arsenal move",
-      "source": "Arsenal.com",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRnZKQmIxQzBwMl8wYkNfUEE1UVFZaGVUZzVGMmZmN2t2SGdTSVhSZl9nNWVINU0yanRSd3h2YVRMVjkzU0dEbTZ1VHlpaWJGZUVNclB4OHVGZk0xY3lndW02UzBZSUNPSkNoeml3VGlVQmtpWWJzSW1HTXRBSmNnVFpQMA?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 08:10:37 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Arsenal transfer talks held as club chief speaks out to 'officially confirm' update",
-      "source": "Football London",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUmpHLURMU25YQ09RSDV3WDA0cm5FUzR4V25TWFFZWlhzRHU0ZzVsTXNUbGM5eXlGd1F0YnJoNC0zQmg5eVgyYm9kUS1FRkk1dGVyZ0haNWpUSkNMV3p5bURUZVZ2dlBkOGNKSFFrYnVuN2d5MDFIcXkwRGQyM0MxMmxyaTB2dGhiNG0yVjVPd3pqQmpfSm1YTTdqY3PSAaIBQVVfeXFMTjlNQnczd0FMZ2NhRkxQX1ZQYXNYWU1zY3JqM1Z4amVXZkU2N0E3Mmx5RzZqNnNqNU5Lc0JuVUhaSlJjWFdrelIybDhRM25KdkpoYUFRV01hSU1WQW42RUVWMzNGaXY0eDZnLWRneXRzMUZna19uTDJxOXNvZzhNQ09KZF9QSVFrRlVkM1Npbk5RZjhfUm5wb0wzT3hyWWVWMjVn?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 18:18:51 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Barcelona agree shock deal to sign Arsenal star before transfer deadline",
-      "source": "Metro.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYVFkSWREY0QxdFlKd0pVSmFBcTlsR3ZrWDlzdU56ZWRHcjdnd0JpaGwzVi0zbFVSLVRhZko3Zk1DSFdnQWdBWXBVVHJhbXAwUkhIZVVLd2FacmdVeUtBUEN1aHY2a1d4cXc3elhaSXlaLUpKV2JDVURxQmdqOG0zX1gxY1Jycmpid2QtanI3LXVGc0NQWnEtQnBaR1lPdVVzTVlDLTB30gGrAUFVX3lxTE01c2hkX0FVWF95b1huQjFLZ05iMTlRV3ZPZTdjMjZyM01NcTBkYmVKbW5JWnM1YVZhbmtRR2ZOSDBUME1acTZqLWZsOEVYd0t6NktmMTRtT2pJMi00VXpLdUFaeF9jc3VKSnNZM252WjBYTE5sby1lNFBraHRyd2x3dzB6YVJJSDlsYnhoNndKUG5tSWlWWEJqY29BSGxDUFlCUUNUeGVzUHNGOA?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 12:44:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Arsenal transfer news: LIVE updates, rumours and deals",
-      "source": "ESPN",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVi11Vy1IcjM3N0dZRl9kc0Z4WEZWa2RpU1BtRFVYTVhXZ1o3OWJRdUhUMnNhZWNDMlpYSWtTOS10YVdnS1JyRV93NjhSMDFBVFluX3lQNk9vWkxJTUFpMldIeFpwVVZBZ0pmS1pXRl9JQXp4N0dtbG5PczZKX1Zuc0JZMUs?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 17:57:30 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Xabi Alonso sends warning to Arsenal after Chelsea win against Brighton",
-      "source": "Metro.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVEJYQ2xDYm5RVE4xdzk4ODd3ZDRJbndLdmlSaXF3dWVFUEk1S1RVTGlxVVFCZWYzb3IzeVJNRVBlMEJYSWJMZzdRWWhIVnhvVnRJTC0wcWlsNTRsWml6NjlxcmxoQnc5YkpybkNYTmJWaGk2WHVWQ192Tlo2M3VndWVWM3JDMlFJVXpVVUpGMl9sbDE5SkRCLWZXd9IBoAFBVV95cUxNTHJZWU5nUDNPTmtnbFo4dkQtd0Y4dVk3OTU3OUFWeExfWEtCcnp0bHVaTVh3bVlKekIweWQ1Zm9BQmQwWnJ3RkVlYjNDQ3NESk0xYlZMZHFqaHIxWHNSeU5GYmt6MWoxMElGU2JyQ2M5Z3d0bVdaWTRhWmpXZ1hwbGY1Q1dtOXVtVWR4cVBwNWU2eVpsVWkwdGRncXRnMVRF?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 16:23:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "How Liverpool, Man Utd and Arsenal owners' net worths compare - with one trailing behind",
-      "source": "Daily Mirror",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdzlJT3FGRjNoVy1pZE5nWU5rVXBjaksyV1FsREdvbzlvd3dNWEhTNmFvdVNGR25sOGZKTWtncGR4STJDTW5FS1dvRzZTVW82VjVreFRFTWV3WWJ4OXBTaUdhT3pndDg5YWFtd29oeTEyY0JITV85cTExUXlQd3lDWVFzS1pxZHhLUlAzVElEVdIBlAFBVV95cUxQODJyd29IZjBSUEsyNzg2eWhzV01Hekd6U1ZfaGdwXzBhWTJXUlp3RjllM1B6TUNES1FNNkx4VnZDbnNTV2NMV3RPb05SSmR5c3pUVVVnaFRhU2RoUXF4RTY5ZmRkNmJPTE5RTUl1UmQyM3o0MUhIa2otdFVpZ0lrSnlGYUEwUEh2VU1obEhaYW0xRWgy?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 04:00:00 GMT",
+      "title": "Arsenal 3-0 Coventry: Kai Havertz, Bukayo Saka and Martin Odegaard score on Premier League opener",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NQnRPbGJQWTgyM2JIMWtfdG9FSEc5QzNQZEhuWGt2U0s2eE1wZy1YaUhma0NQYV9wNnJ1MGFubHRJTk5tdFU2MGFnNXBrWTlBX2ZXVjZVT1VKSXd3dVhHMHhCZ2ZIZw?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 07:00:00 GMT",
       "category": "general"
     },
     {
@@ -105,6 +70,41 @@
       "source": "Arsenal.com",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42b1lFLUVVUzFLZnFUSEFEdVE3R0xsZC1SZU5lREZQRTI1YU9rQ2R5cGVVaGd4aV9QVnRSVFhVSkV0bHYtYWpTNlB2aWFkQVVkMVAzd0l0blpiMlQ3b1VURHpuMDhUNXlyelVLZEFwQUZRMU9iNndWZ2NnNA?oc=5",
       "pubDate": "Sun, 30 Aug 2026 05:12:14 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Aston Villa vs. Arsenal: Preview, Predictions and Lineups",
+      "source": "Sports Illustrated",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOR1kxWHBKUjhWdmNKQzk3ZndBQk9BNHlYNW9wQ3Q3QnRjZnloR243ejZiLUwtTDROOW9JMm92SHFuek85eDc4THRCUFpBRXFEY25BRWE0Umt6enJVQ1FNTFhaX0hoUFpUS29tT0RGX1FQMFpta0ZBMTFldi16ZHR3MzZfaDRmOGJRcnk1eg?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 00:00:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Double team news boost for Arsenal pre-Aston Villa clash",
+      "source": "Daily Cannon",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5QVzBrSkMzcHpGenhYbUFlajBpbEFRcV9rUEREUDB4UDJBZG5xNEpCbkI3Q3RTNzhnOFJhT2lqU3VRMHZNWFdmWjdzUHlGcmxtTFZrLW9YRE9URUpUSGNhR2o0NndHSlRlOWtJcDRGcHFqOW56dEN1UldBZjQ?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 09:39:41 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Arsenal transfer news: LIVE updates, rumours and deals",
+      "source": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVi11Vy1IcjM3N0dZRl9kc0Z4WEZWa2RpU1BtRFVYTVhXZ1o3OWJRdUhUMnNhZWNDMlpYSWtTOS10YVdnS1JyRV93NjhSMDFBVFluX3lQNk9vWkxJTUFpMldIeFpwVVZBZ0pmS1pXRl9JQXp4N0dtbG5PczZKX1Zuc0JZMUs?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 09:08:32 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "HSV set for big win in Arsenal transfer talks",
+      "source": "Daily Cannon",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5feEZpQ2dwOGVHV3VKem9sX3Z4MEo3cUNNR1F1TE9JdlJrNlA3NFNiSGdXNGZWYUZOTGRDbDVndWZZWFh3SndWM2JUYjM0LTJGbEo2Ti1FUTRLTDVaeE5HejhXX2ZNZjFmWnQ1SDF0cDFWaVll?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 11:01:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Xabi Alonso sends warning to Arsenal after Chelsea win against Brighton",
+      "source": "Metro.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVEJYQ2xDYm5RVE4xdzk4ODd3ZDRJbndLdmlSaXF3dWVFUEk1S1RVTGlxVVFCZWYzb3IzeVJNRVBlMEJYSWJMZzdRWWhIVnhvVnRJTC0wcWlsNTRsWml6NjlxcmxoQnc5YkpybkNYTmJWaGk2WHVWQ192Tlo2M3VndWVWM3JDMlFJVXpVVUpGMl9sbDE5SkRCLWZXd9IBoAFBVV95cUxNTHJZWU5nUDNPTmtnbFo4dkQtd0Y4dVk3OTU3OUFWeExfWEtCcnp0bHVaTVh3bVlKekIweWQ1Zm9BQmQwWnJ3RkVlYjNDQ3NESk0xYlZMZHFqaHIxWHNSeU5GYmt6MWoxMElGU2JyQ2M5Z3d0bVdaWTRhWmpXZ1hwbGY1Q1dtOXVtVWR4cVBwNWU2eVpsVWkwdGRncXRnMVRF?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 16:23:00 GMT",
       "category": "match"
     }
   ],

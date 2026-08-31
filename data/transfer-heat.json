@@ -1,11 +1,21 @@
 {
   "window": "summer",
-  "updated": "2026-08-30T20:21:26.952Z",
+  "updated": "2026-08-31T12:13:31.058Z",
   "clubs": [
     {
-      "slug": "liverpool",
-      "name": "Liverpool",
-      "heat": 15
+      "slug": "man-city",
+      "name": "Manchester City",
+      "heat": 22
+    },
+    {
+      "slug": "newcastle",
+      "name": "Newcastle United",
+      "heat": 20
+    },
+    {
+      "slug": "aston-villa",
+      "name": "Aston Villa",
+      "heat": 16
     },
     {
       "slug": "chelsea",
@@ -13,84 +23,74 @@
       "heat": 14
     },
     {
-      "slug": "man-united",
-      "name": "Manchester United",
+      "slug": "liverpool",
+      "name": "Liverpool",
       "heat": 14
-    },
-    {
-      "slug": "aston-villa",
-      "name": "Aston Villa",
-      "heat": 12
     },
     {
       "slug": "everton",
       "name": "Everton",
+      "heat": 13
+    },
+    {
+      "slug": "man-united",
+      "name": "Manchester United",
       "heat": 12
     },
     {
-      "slug": "tottenham",
-      "name": "Tottenham Hotspur",
+      "slug": "southampton",
+      "name": "Southampton",
       "heat": 12
     },
     {
-      "slug": "arsenal",
-      "name": "Arsenal",
-      "heat": 10
-    },
-    {
-      "slug": "man-city",
-      "name": "Manchester City",
-      "heat": 10
+      "slug": "west-ham",
+      "name": "West Ham United",
+      "heat": 12
     },
     {
       "slug": "crystal-palace",
       "name": "Crystal Palace",
-      "heat": 6
+      "heat": 10
     },
     {
-      "slug": "newcastle",
-      "name": "Newcastle United",
+      "slug": "nottm-forest",
+      "name": "Nottingham Forest",
+      "heat": 10
+    },
+    {
+      "slug": "arsenal",
+      "name": "Arsenal",
+      "heat": 8
+    },
+    {
+      "slug": "ipswich",
+      "name": "Ipswich Town",
+      "heat": 8
+    },
+    {
+      "slug": "tottenham",
+      "name": "Tottenham Hotspur",
+      "heat": 8
+    },
+    {
+      "slug": "leicester",
+      "name": "Leicester City",
+      "heat": 7
+    },
+    {
+      "slug": "brighton",
+      "name": "Brighton",
       "heat": 6
     },
     {
       "slug": "brentford",
       "name": "Brentford",
-      "heat": 5
-    },
-    {
-      "slug": "ipswich",
-      "name": "Ipswich Town",
-      "heat": 4
-    },
-    {
-      "slug": "leicester",
-      "name": "Leicester City",
-      "heat": 4
-    },
-    {
-      "slug": "nottm-forest",
-      "name": "Nottingham Forest",
-      "heat": 4
+      "heat": 3
     },
     {
       "slug": "bournemouth",
       "name": "Bournemouth",
-      "heat": 2
-    },
-    {
-      "slug": "southampton",
-      "name": "Southampton",
-      "heat": 2
-    },
-    {
-      "slug": "west-ham",
-      "name": "West Ham United",
-      "heat": 2
-    },
-    {
-      "slug": "brighton",
-      "name": "Brighton",
-      "heat": 0
+      "heat": 1
     },
     {
       "slug": "fulham",
