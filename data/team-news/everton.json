@@ -1,68 +1,47 @@
 {
   "slug": "everton",
-  "updated": "2026-09-01T10:49:33.238Z",
+  "updated": "2026-09-01T20:22:08.717Z",
   "articles": [
+    {
+      "title": "Everton transfer deadline day LIVE: Maitland-Niles bid, Balogun and Grealish agreed, Ndiaye and Beto latest",
+      "source": "Liverpool Echo",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYnFvX0ptM1Zwdjk3Y2RFd29wdGZJZ1lPbGwwMHprVFFtcHljT1FhQm9oU0kzY2dQNUZlUjUxS1hWOERyRF9RcXYyTm16ekZOZ2xhWHpTbkZJbWtRZm1DOGpZNG1jdWtkYkNQb2pJYW02eUhLSk4zNWplakluRkU2WVE0STlEV3oxbVpPaVNxbkdNaXVwdi01MENKc1BkVTQ0RnhnbUR4ZHpxM25U0gGyAUFVX3lxTE5SNnNRX3dOb2V3cnpyRnBMRk41Q29OOUFTamxySWgtVHQ1cUx1b29GaXB5R0tHdWhucDdLVFdDbENHV1ExbE8tdUw1TmYzOUNYWGN3UU9RclBrN2ZETEUzTjhWTGlKYmlnLTB6M0hqZDkwb0VnSmNESHF0QzJULTRTT0ZxN3owTExXZkRCaVEycWNlRTFBWmtYNHFsTWxKVkYtQl9oS3p1c1pSZjcxZGRZbGc?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 13:49:18 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "CONFIRMED: Everton sell Beto to Fiorentina",
+      "source": "Royal Blue Mersey",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOWXNoTUZjbWUwcFl6Q0hCdXhZcHdMZ0pKQ3g3cGZUcHdDM0IybmNHNS1laFJpVmJYdkE1UzdlT2RsclZGVDRrWHJ5YkR5TmQzM3l6TWhDamtBUzdGOE5SaDRzLXI5c0FnRzB2SmhCcHhMY09vWERiTWY5UGlmLUljZnB0djUyNGNaX284QU4xakczS3hORmp0ZFNzZTczbmQ5RExkOFY1Q1pCS0Z0X1c4dVdnYjl2aEtob3o2OTM4Q2RwZnZSb1dBWjFud2p0WTAzUTU3dWktR0NBQjNlZTFDQ21lYVFsUQ?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 17:26:20 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Beto breaks silence after Everton departure",
+      "source": "clickliverpool.com",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdkJiWlNPLVVhUW9FNnlYY3ltZnQtVjc5Z0xzMWJjbENyM3dlYUZSQzdlZXVLeTJWNkJmSlBuejBMUjduMXFuXzlBYjRaZ2NiSWJCcFRBRE5RYlNCc19hLWRBdk8wWUtPYzlQRV94TmtwRFRWTllRYWJERXFUUTZwVWluT00xQkh3aWpqNkVWRXVBTndlMXBIMWs4ZlQ5X1RjZ2c?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 19:05:24 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Beto and Gnonto undergoing Fiorentina medical tests from Everton and Leeds United",
+      "source": "Football Italia",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOT0xVOGdmektxRGEwMkJpd2VJdEJmeVZUTXhMSW1mcjFvN3EtXzNYNmlROTFxZVVaVkhiNkxwakVIejFrcmdjbnhpS3NGMUFuMGtPMEFLWUNlR0RLN3FpVUlaQVVhZ0xMWFZQQ3VsMXlmZ01CZlZDaFcwTGpqSzVPWtIBhgFBVV95cUxQRHBmZGJYSGI0azJKV1hGRm9GUUduWE9jOGowRlE2bWJlT3VIWjJHSWtRbmZxc20yRFJsQnBsZGdaejhaa0owZjZfSzQyMHgzUC1XZGZiLTdUb2sxMWl6SUM1dnJNNFNlZGMtOERGY0hmWW1jZ1gtME5MNjJOQzlFVHFDV3pLUQ?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 21:45:03 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Balogun’s Everton move on verge of collapse",
+      "source": "clickliverpool.com",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNXZ0TGE1ZWF2cDhoSkNvTUhMd2RpZjJfSUhocHprRGNGa2E2MFcxOTlzbzc5dGh6VEdweFdwbW1kUHNXbnZCcnRZamNqQU1EVWgwS1FhS045MVJadXgtX2szMTBpcUNMLXVOMUR3UE92dlNoTjNzOEMxTzlYVTRTTVhpa3JVQUFmZmhrR0ExWno5TTNSeFZrSlh5c0s?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 19:45:10 GMT",
+      "category": "general"
+    },
     {
       "title": "Everton face imminent decision over last-minute Mandela Keita move",
       "source": "Read Everton",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9lRzlWcW80WFY1dFJoeDh6MHRneDlwVkRTUVFPMTBpeHhJZFBUdHJuRzUtVUwxUllUdERjOERjMEVNeHRQd200M2V4cU9LS0xwN3labWQyQ0cydXZpaVM4T2VkcGlwX19wMlM3WjcwdVB3YzM3eG13?oc=5",
       "pubDate": "Tue, 01 Sep 2026 09:54:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Everton transfer deadline day LIVE: Balogun, Grealish, Ndiaye, Beto, Iroegbunam, Patterson latest",
-      "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYnFvX0ptM1Zwdjk3Y2RFd29wdGZJZ1lPbGwwMHprVFFtcHljT1FhQm9oU0kzY2dQNUZlUjUxS1hWOERyRF9RcXYyTm16ekZOZ2xhWHpTbkZJbWtRZm1DOGpZNG1jdWtkYkNQb2pJYW02eUhLSk4zNWplakluRkU2WVE0STlEV3oxbVpPaVNxbkdNaXVwdi01MENKc1BkVTQ0RnhnbUR4ZHpxM25U0gGyAUFVX3lxTE5SNnNRX3dOb2V3cnpyRnBMRk41Q29OOUFTamxySWgtVHQ1cUx1b29GaXB5R0tHdWhucDdLVFdDbENHV1ExbE8tdUw1TmYzOUNYWGN3UU9RclBrN2ZETEUzTjhWTGlKYmlnLTB6M0hqZDkwb0VnSmNESHF0QzJULTRTT0ZxN3owTExXZkRCaVEycWNlRTFBWmtYNHFsTWxKVkYtQl9oS3p1c1pSZjcxZGRZbGc?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 07:50:14 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Transfermarkt Deadline Day LIVE: Grealish nears Everton return, Galatasaray chase Bitshiabu",
-      "source": "transfermarkt.com",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPY1FSMGVKcmpHdklmZHNYZHdqQlZOLW1tU1JzUVIwV3J2YjJBNmdwbDViRURVZkoyQU1OOFJ3cTRYYk9NNVphamFHYXNXSkdEWGVGVDZfeC1LeDE1b3BEWm1xZVJkYl9sNll3ZXpqTWFaWkNIcm9KVTVkaktFRW13SVV3X1lYeFl1QnRXNTRaazFoT0lma3BkZ0YzbnM0VnJYYW50MVB2Uzg2ejhsakFFYnJ3VUdLYXFpZ1d0UlE2bjFteUVGWUdYMmhycWxsZUtMUEE?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 08:39:45 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Everton agree £38.5m deal for Balogun and Grealish return with both set for medicals on frantic deadline day",
-      "source": "ToffeeWeb",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE15bVBVdm1hbEt0V1p6UGdreGFqdHFDUEpZVGpoUzNOT1BPbjFQM1BSN3J4dl9EWS1oZm9YU2FReGNERlpxYXBlY0J6dGxKZUNZUzk0S0hnR29vNUY1Zl9MT0dlZ3I?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 06:02:27 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Arsenal to cash in as Everton make £42.8m signing",
-      "source": "Daily Cannon",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5TaGFEb1FjN0M5UE1IdEZhczJDQTduNkRxVXRtUklLN2w4OFhDLWpMWkh4bV9NN3ctWF9NVWRaQWVpSXdVT1pXdXYyTFEtWVMxQVotNnM0b1o0LVplcUlzS2xRYUNiWFF0ZUtkdWp6M291QQ?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 09:56:18 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Everton in Balogun talks as Monaco price jumps beyond €40m",
-      "source": "Read Everton",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMmhjckRFeGlkalY4SnRrY01HR00teGJIQmpGamZ1NV8wN0JUblFqU0FOMUtKZGc0X1dsYmt3bU94WlVjMVVyc1dCZjJkQ2F3ZGI3UjFOWHpYTjhQYXdxVmM0VDJLdkFvcTZVMGkwdVJwMU56VHVPZFRpWVB4VU1GTlFn?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 09:40:46 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Richarlison releases angry statement amid Tottenham and Everton transfer talks",
-      "source": "Football London",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOLTNhaUNnMnM3amFaWnpuazFoNjlKVnJ3VlFqU3lqZFF1aU55emwxUk5Ja0FTWTR4M3AzdzN3bktPeTZwaXgwTS1PNl9tdHN0MklFbDUtOGloaVp0eWJMT1RmeUtOaUwySGt6aFpvbGJKb3ozU09CVXI2Q19Vd3ZGV3h1OUdBeTVzdi1naXJzRzc1WGhQZzZsSVNnaXBvbk9zMGU5bHM5Rkg4QVV3cFBTaDR1dURDWG5W0gG-AUFVX3lxTE9kcDlaRkh5bTNiNWpZaEdaZmRJZjhzMVZwREw3LTJFWUY2dXZURjdPaTZmNjhGZnVKODFzaDBwOXByQ2JfUHJqdEwxMGwyeHFweFVGUGZUNzVWWjhxTUNQWEVzY0kwNzJhbFdGTzNicHZxXzZndlJpeHdNbnVkVE11QWtFZl9Ud0gwZmFobXQzRWl6YlhKLXpLakZwamFlZnM3NW00dTRsOElLVXFSSnpIOUdmT0VmbW1ySnc5dXc?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 20:05:56 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Everton forced into Carabao Cup tie change",
-      "source": "clickliverpool.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbkRHUjdaSWZrSVBRUGVxenJCbTU0WmtaUHRiX3pMT1BNYTFaVnM2S2hiVUljTEJCejhkN09UTGo1VDFITWxTMHBTdUk5YkYyeWRVcmliN2EtdEJBVDROT2NpbFVleVBlMi10UlVGX3hzYi1rOW11c09lYXFCeDVZQWpLTEFsVDNOMU95Nm9NSmVVY2x0Z3Qtb2d6N1JYa0ZHdzUwdFRoSzU1TWo4V0VySi1yam92Zw?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 14:57:59 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Torino confirm Belghali move and reach agreement with Everton for Patterson",
-      "source": "Football Italia",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5KT082bWItRWdtNVlBV0lVOUxHS0Z5eXNkWE56NEFnd2draE5WNTRKQUdxVDEtUVgzMnFUWUlZaXplcFlYRktoQ20yeEVBSFZFaHh0Ukl2QmdsV3NueDZsS2JWWmdtOFFvdTFncGtFU2ZWSmRqcWtjVjJRRdIBgAFBVV95cUxQZ3liSENVVWhBeUcwelZacmxxdXgtQkdkMnNVUmt5WDlfUmNnTVlxMFlzbUVobHZFbUZRbXI2QjhKY0NVdkRaVGFEX2d6N2x2TjcwZDVkb3V6b05qbVg5Mmg1bkF2OXA2VmpYUExuVlpKcUJlRXk5SkZEQTBLZUZvbg?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 09:11:12 GMT",
       "category": "general"
     },
     {
@@ -73,38 +52,59 @@
       "category": "general"
     },
     {
-      "title": "Everton insiders fear ‘power vacuum’ with four deals still to come",
-      "source": "The i Paper",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeWZ2Qm5UdUhzR1habkhobWEta2hUemRkd0ozc2N0UDIyaWdGQmltVUtYLXI1Skx2MFpXTndiX2NYWXd5VnhtVkJWeEsydDhicmdMV2tocldDc0NOM1NIRkNNMHdRd1BReGNFS09LWVRsU1MtZ1JJRGFVbEt0VmpNenk0c0xZODJ3bnFv?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 09:23:49 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Chelsea target £51m France star as Aston Villa & Everton enter winger ‘auction’",
-      "source": "3 Added Minutes",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZjl1YTRCcmRtbVRNYW5NMkItRDJvQ3YzdVhwOHBYVUhyYlB2blV5bUNGM1lkTTJmcW5aRk5DYlRxMkF4VHk3Mzd3UmhXZVUwSmxPY3ZmakxiOXQ0VDJOUEI4cGNkczMzaFBiVTliY1RtUEZBekNzVk82TlU1WGdRaXhLTnVLYWZPbGdkUkhubFAtODJJRkpTREc5RkQ5aEZxRDZMSU8yTmFtdnA4UjFEZGxXcEo5ZEZCaUNRcGRjSVc?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 16:00:00 GMT",
-      "category": "rumour"
-    },
-    {
-      "title": "Fiorentina secures the €18m Beto transfer from Everton after Joshua Zirkzee snub",
-      "source": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSWVTX2V0bjVtZVNiMlNWdl9FOW5BdHBmYzM4RVFSMVNUT3BfNFl2MEhnSWZJZlZ0amVDcV92OWhwajdDUVRfN1gtVTNmckhXWnJqTm42a3haUDJzUnB1TVZYajNvb09RQ1llcVQxR3FYaFl1Tk84THpsMl9TVFhHQTFGZnFSYjYzV21nRzRxT1RFMEFTbXdubDZkNXRhTnJXeC1pd3VidDQ?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 11:47:46 GMT",
+      "title": "Everton agree deal to sign 2nd former Arsenal player",
+      "source": "Daily Cannon",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oUTRqMHh4VnNzM1ZGN2tCby1tTWNWY3lYMUs2eHNpVGx2aklwQW12T3NOSHJxTXhocnpVT0hhalVCMHpyRFpnN2VYYmlCSlp3bHJvcndJUjE0ZUNPZEtyUjFnNHRLcEh6?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 11:35:54 GMT",
       "category": "transfer"
     },
     {
-      "title": "Everton U-turn over £35m Harrison Armstrong sale after fans’ ‘riot’ threats",
-      "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQUtKYnM3T3pkUnIycVpaSTVSUklUOVo4Z1ZtUFVUN1UxaDdGTWRDdmhzdUQzaWxvUndjbU1HeW9UWEhyR1p1TXB3TGE0bVNiVmdIaWJ0Z0Jub19wOFpLemJBZ2hLSDVBZ0Y0d2x5Tkk3YS02TUt4MVdZakpFU3ZkcUhVeUEyejJ6d3FobFhiMEIwYUxhU1RoM3NRS28wVVY1WHpGM0dqc3hwMUJa?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 08:49:00 GMT",
+      "title": "Everton revive deal for historic transfer target",
+      "source": "clickliverpool.com",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUUZMVnlzVzJzRjN1bG5mdFRENVBBQmxGbzg5V3RkNm5ULVlpVDB5M3pmQkhkNk9BVVloenhPajBWenZtQzhwbFQ4Y2RiQkNJS1FpQkZHU096bmZzSFdmRlRPcHlKUFpRUl9BN0dNZWo1aHBKNVVZTldkN3lIV2VJejFQTEZnaldRS0FMb0tNWXhUWHh5ejBsWDdTemhXRXJvU2ZKN193?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 12:18:39 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Everton have agreement with Lyon for versatile fullback",
+      "source": "Royal Blue Mersey",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNU2ZPZXBvVGlBU3ZpdWRwcV9RNkNxRUhQRVZ2OE9WRmNualRzUk1wSnJxYURLUW9NNUhzUzNOU3Zhb2xWYlJiblZ1VFRLT0ltZHZJN2ctZFNMM0JzTlRhT0ZGWmlpS0YzbVpQa1JiZGhyQlRRMTJpaXRrcVNuRkFnT3k4Q2ZnalFXTHF3YkFzbGxBb2R4OUJuOHZmM0x5WjZRbTZkNVRuSjZQLUIxUHl1MFFSR1hrMWhabF9XSzBfMVlPV1A4YTc5czJ5OXptTGNLTko5b3FtRmNxU1VRNDhTeVhMNWw5OURpSXUzX2JycWU5b1E?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 11:37:38 GMT",
       "category": "general"
     },
     {
-      "title": "Everton’s chaotic weekend raises questions for Angus Kinnear",
+      "title": "Man City hijack Spurs’ Ndiaye move after failure to sign Gakpo",
+      "source": "The Telegraph",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRUc4NjBVN0RtcVdUQjkxOHJvU2VvMkdsVUhZVjJTdGRJeDN4MENBN1pUby1icEJTa0piUTlFWnRqVEp3V2xUVVk4cmk5LUZmMjdOb3F6Mkp5QUpXd2FWRERwTTRLUXYxSjljd0xIeldRT3Z0NFNuay1jUDBkdzNsbDg0S3I2NlZqSmJ4Q1JDcHpxYjVqWmJpcjgyTFZONXc2MVBOZGY1Nk1fX1k?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 19:31:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Everton agree new deal on Iliman Ndiaye exit",
+      "source": "clickliverpool.com",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQXFOQW93SEZ4ZGlOWE9JVjZXMV9ockVmVXp1cUJlZ2hQbzJueDkxU1ZYUmpjNmR3d25RVFBPMFQ4NXFUT0lqSmR6VzhRUzl5dGY2SWVsUkRYaWRJcVBMNWQ3QmpGZ2VZZ0wwYUhGTklDTm1YaEM4RW41bFlDRzdnZGtQRGdsU2hJUXdHR3RVd29mSGFHZFVHYmxnRG0?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 20:19:20 GMT",
+      "category": "general"
+    },
+    {
+      "title": "What Everton have lost as Iliman Ndiaye closes in on £65m Man City move",
       "source": "Read Everton",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTkRKZmxnN2hjcE1rS3E3UnNHTV9yZjdJSHg4aFNnMVRpQkVpckJDcXpLQnNDRExwc1FTWFJkYWJCejh3YnhVZmwxcVdIa1JfQlpuMkNYbTZCd3llM0wzZnU5MERzTmM4aFdGNjRuT3NaSU1xSXFwTmFoR3BaN3BRVnVnX216RmQ1?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 09:09:31 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1SREpwZ2gtMDRVMzd1Q2ZwVEktSmVsbVJiZmM5SUNvNDFaQ00wOFp2b2RpSl9TWktfY0lOTWNUQ044MnN4bU1hcGpVWkQ2ODVaZkxNelprVXpBVVE1WjR2TnpCQ3VQZUJ2VnVJS3hwZklyRlI5RGxVVGVn?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 06:30:09 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Everton agree deal for Jack Grealish return on season-long loan - The Athletic",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZVlDaUVuVXdhLS1VYkZSSm1lYnd0cWt5U0RfX2VORW9kVVdFR1BxOHg1SThTOTdtanFrQUNhOGJ3Wi1FU295OVEtUmtFV3BYRllKT1ViNzBsMGgwR0F0N1VidUtzeFFyc1hmZ0oyYlZ2NEwyQ2M2X0JfYWhMbVUwcE95S1Y2UHRMaWZGeVNBY0hrbmJSSTVr?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 08:47:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Jack Grealish set to return to Everton on loan move which will see out Man City contract",
+      "source": "transfermarkt.com",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNTU9GeUdnWXd3RUZmb0poV2U1blNxRnhFZ2xKUDlEbFVCUTVXSHpldXRHNk9iYVlBcXNnMDBmRHZyUjRDU3BFX2ZFVC1aRV9BbU9QLUlLQ1pDS0N2bjVGWFJtWVVCNlNzTVZ6Y0V3bzlSVXBsZ3ZEWlFGdDZnMkpEMWNyTmhIVGMtYWk3VEhJRy13S054bndnWENwRUNfQlUtc2pHUTl3eVlKRWw2Zjg2a0lRS2VhaW9takw2WGVqZGVMc1EyNDBLMERZZXMwcHBz?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 09:58:36 GMT",
       "category": "general"
     }
   ],

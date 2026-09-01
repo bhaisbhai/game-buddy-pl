@@ -1,75 +1,96 @@
 {
   "slug": "brighton",
-  "updated": "2026-09-01T10:49:33.238Z",
+  "updated": "2026-09-01T20:22:08.717Z",
   "articles": [
     {
-      "title": "Glenn Murray reveals Brighton transfer truth after £70m Manchester United decision",
-      "source": "SussexWorld",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNeDVsOEVJQV8wR3c0RUVWb1dYa3hyZHVUN09JWnlGOS1BQndGdG1wVEszSmtMUWd4bFFSREh2QUdwZVVJLVpKZlU0WnlxcFo1VGVRajh2RS1RMDJqdlZpYVlPSWVxaXRxOWROZTBoRzZTS3hUZWJWMG0wMWdORXZoUGRWT0xUZXRlRXBPb3gyWVg4N29HY2JyNG01M01MN0JOWXBibXJPcFVpM3Z4QXZ0QWZoSUdCd19TajZEV2hYTlVKdk80dk9uWElpUUJJRURtMXF5Ui1taGxNSVhwVlhydWNCVWVza2hpakhiTlBtSGs2VjlrNlE?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 09:32:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Chelsea 4-3 Brighton & Hove Albion: MOTD pundits analyse Chelsea's wingbacks",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBRZjA1cERVM3Z6T3ljai1uT0gtSTVfdjlvNUk4TlVzVldqMHJ5c3U1RV9sTUVSdHQ0WEV6aTk3azk4LTlyeXlBdXBsRXJxUTZFaHg5ZWM4YlpsbTRZbWNacGRJSXVwalE?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 22:59:49 GMT",
-      "category": "general"
-    },
-    {
-      "title": "£80m Star's Agents Hope to Complete Move to Liverpool Today",
-      "source": "GiveMeSport",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMVBfbjVTZnlBcWQ2S0tGdkxKX0hVNXhsYUllQlp6S3BTaDVtTktNczlvdlRoLTNHU1lVRDBTNU9XaTZLbVhHamNTTGRhWWhNNGp5S2dfX0V4Nmdkc1AxX1F6UGhGQnpQR3c3dGFySkw1VHNMMUNMSFJKNVp5OGhjNkR5S2dqbFQ5NWR0c0lzZnE?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 07:04:11 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Chelsea are great entertainers but possess clear weakness",
-      "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVGVBdUd2VWgtWl8yUWFvM0M3cDhWWndFSlFleXZrWkxJZ1RFS0xVN25OUzRJVjdzRkFvN3pqRzN1ZzRDeGZSU0NTWHYxdk11WEFTMjdZMlVIV3RSbEVGYVdtRkR2eFp6bUZwZm9XWXBJSWRhZ1ZJMEV3clo5ekNFTzQ3Q1QwXzRkWko2N2ZITEhOcHpucTFZc2RXWnFSTE5FZjFpSTRJeFdHU1lG?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 15:17:19 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Stoke City keen on Premier League attacker",
-      "source": "uk.sports.yahoo.com",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeWE3dUJzZlB1WmhmVlhfajVIZU1mTnhrM3Z5UHNhWExhMmI0R0ZWbmRrZ0pKZG43dUFTY21fRE05RXVUMms4QkxEbmlvRmRZdFRwb01VUjFSNHJBd3NiSWVRLU42SW95UEgxM2lGdkNjSmgxTUQ0cy1HZldFSzQ1LTduN1I?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 09:41:45 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Brighton sign Colombian midfielder Orozco from Deportivo Cali",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TWFA2T1MwSjZoVFZ6eU0tYkxmZ3MyOUZfNTF3RUZvNjhqOVpBSmhWS3NrYjVpS0RzZHdNMUpURWNJdzllRmlCZjF2c1V5TzBVbkNOSVJXWVNjcjc4c2xRNGNha1d4TUU?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 19:01:09 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Chelsea 4-3 Brighton, Leeds 1-1 Brentford, Sunderland 1-0 Fulham: Premier League – as it happened",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQzAzaUdBaVBGTkQzSWVDSE50NVh3Rkc4SFZNZ3RmT05BajVzMHlsMHhfQy1HRHZzNTdvNnM1VDFCMTZqV0g0WWRud1FBbzZUUmdkd2dNMVU5Mjk5a3huX0trb3BYM1BibzRMeHc0RE9rV0Q2Y1VCaFpuaXFNbWRSS3liSDRteVdXN0FwaGNGRG9RbGxRTmhYR3hZd0NWT1JEd2lHTnNHeF9yb05UNFF0VTRONldlem56QXRKQ0pxZ2RLZw?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 11:30:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Chelsea vs Brighton LIVE! Premier League score updates, news, prediction, lineups and how to watch or stream",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQSndQYzNraWgtNnZWZ2tCeU9lRTJmMnJfVFlwYjJOY1VsWGtSbGwyakdJSkpicnBaVkgxbUF1VmVOZDhUdVc4NnBYNVdGemdnVENXc2djUFRNX1B1SnNweHFKQVdBVW12c2Rxd2xXUVlFQ2ZOMWZWRnA3R3lqY0NNNlotazd1STNKbmtKeGdQRS1nallQQnN3NElUa2tlWFFFeExocTNaN1JDbXVHdzdCN01pQWYyWjlkTWtidE5fY1V3UF9NUGt5QU9sVVR0LTJkX3Y2VmxGUVB4d1VkaEVhSzY1enVOYlBnMWJRVkt1NmFzV2Mtc0JN?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 11:10:55 GMT",
+      "title": "Liverpool v Brighton & Hove Albion: Premier League fixture rescheduled",
+      "source": "Liverpool FC",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSkhhSXotQUpmemVLNjVKbW1zTlRkZkd4NThmb3NJUTd6NVRkdms4YjRLVTF6bWtEVzh6LWhMQ3FuN1dGb2d2cGVCZUI3cXBxSTZRbEpZQW9WNHk0UElQNXE4MmhKT0hoMHBkNGRETkp6a2V3WHpqbmZPV0pLUFJSLTAwYm9tYjhuUnFTUHhwWlowZHZxcExzX1JWQkxMR2FlLUHSAaoBQVVfeXFMTk5INGZWdXV4MmUxUzhPSDJybklGcWhtdHlTa2R5UVBzdGNqMm1HeFJGVTJhMzgzUlNBelB0d0puTWlmWGx0VFNSc0d4WW1uaTFiUkZUbC1sWDRNdndYMTdtRGRwYXEyV2I0Q1o3T0hXNkpJTDlyVnVtX0ZGdk5weXdSLUptaE9Iejk5aTdaOW9KRzk1Z3V4TGYzOGNiUHRabF9oVmdPUldJSFE?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 16:11:42 GMT",
       "category": "match"
     },
     {
-      "title": "Albion striker backed to enjoy win while sidelined by injury",
-      "source": "The Argus",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQc21lMGh5b25YVk94dy01YW11d1BRUmxkNktiX2ZqbEdNSnVZSzkwVjFsSVItV1Z2dVJhem1OSG45M2dHRE1TQXcxemMxamxJNnZ3LXRKQ0pOMkdEdUtxMnoxSGpnOVFnSW41RWQwQXplQjhzRFhCek1STDRqLXlVSC1HQzJJcURyTjI3LWlReEY5ZG8?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 14:00:00 GMT",
-      "category": "fitness"
+      "title": "The transfer state of play at Brighton explained as Matt O'Riley mystery continues ahead of 11pm deadline",
+      "source": "SussexWorld",
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQTW9Tc19fX0VwSHd6c1M4YnBoVmE4SXBnZ3VpM3M1TFVnX2tEV0FCbkJSNHE0YXJ0azhfMDZiTm56a3JCUDZIVDYwazNVa3N6UmFKNkJrRWtNWi0yc21DMzNQUUl3UWd2ZEJLWFZ2ajJRZkRveXhLYm13RXJsSHRLeGNLWjJJN2lqTFdsN0xVcVhwRkRfUGo1ZjhJaVBRNU9EbF9xX05FbXRjWmx0aEhtWUVFQzNLRDFBTzBteDFlbU5kZzBvd2tuUFRPSG9xT2E5SjQwUGxxeUQ3TDBZWjZYMVhOaTFSN1FtY0R5TFlCY0JqbC01OG1jbS15WlkwdXA0dTJWb29PVERGbFRIVkRON0Jn?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 17:01:00 GMT",
+      "category": "transfer"
     },
     {
-      "title": "U21s preview: Brighton v Arsenal",
-      "source": "Arsenal.com",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE10NUNERjhfSHJVajNZM1V2ZFl1dkZodnlzREc5MV9OdnJXUFA3aUhYRXE3dURySWFCU0lybzlmcy1WdHpjRGlSd0VVTU1DUzFFQmlZZUgzOWFPTklKTkY0Nm1WM2x4eXVyQWM5QWd0MzJKNTdIOXFrbm5Dd2lEUQ?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 01:03:51 GMT",
+      "title": "Two Albion defenders make moves on deadline night",
+      "source": "The Argus",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeHRxUUQxTjJxZk5OcWd2SDU4bVFoV0dzcENkZFNfV0Q1U3RBN2cyWGhLVHdNSkV1bXhGWnZpb3h3VGtaZEpuVm9LVkJ5VHVZWjNrc1JKSUx0WXlSZDhheDNsd3Jkb0s0OTQ1aWhpdFF4WjZNOGJGQ2R1WW90S1VfU0NVekZ2Qnk2SmZDWWVjQ0F4SjJCamh1eEdNQ250MFdo?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 19:37:59 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Former Tic Vickers swaps Brighton for League One rivals",
+      "source": "Wigan Today",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNS0tIb0tzSllwd2NjYWgzalJOS2x3VllzQWRHUTZVRnM0cFFoMERyNVBVdmVjbGxybGNFMHVpQmpPaG1fU3pSWkFmMXZQaUx6QkNKdkxaYW96TklUSlhPRkdPZjBRS2xLSUVjWUFJcnlmbHdOaDBPSm9Bc1hxdG16MU5PZ0Q2WVpuUTJ3NE1KR2R1bDBWa3VuZXFlTWxmQk9xcE5SX0Z6RWszVi1jTlFIaGttbG9uMkk?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 16:31:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Burnley complete transfer deadline day swoop for experienced Brighton defender",
+      "source": "Burnley Express",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTkhiYUt0NlB6NzA1ZDF0bVVIVXdVOU1NenNIWTVvR0h4RlFrYnc5MURoWEhNNmJ1SFU3T1FzOHN1TU1lajlLT08xNXh4am9DUzJ1dWhmWkdnZ2lESGNBNXJZYm9tMzE1RE9YM242aURsRE9JeXZubXVBTzh1VlBSMHBMdXY0Q1phMC1PTU1FUEpPMlRvYkZMWEFhVkYxMzZwOF9TQ3lWTnloNVlxNC0tdkRn?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 19:07:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Brighton transfer news: Femi Azeez £15m deal agreed with Millwall",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5RN05ickxaa0lZSVZaZVZjX01PZTVpemMtTFlJZVpYOFAzMVBzNmZkWERPQ0pJdnRydUlmcEhOX0ZQTHBmNW15QUNfSnFUczYyaHVIaVd1Ni0wQlU5Wnd0ckJyUERMVGc?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 13:53:32 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Brighton news: Millwall want £15m for Seagulls-target Femi Azeez",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBSUFg5WExMTVJVM1dYRUpGN0NWVnFOTWhsMFhQY0lQU2FHblBvZE9saHJtelQyYk11aE1leDZiVF8ydGJ6WVplN0lkakpxeEhfT1JrRmlQcTR1VjJ2eXUtZVRGT19lR244NkE?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 13:16:12 GMT",
+      "category": "rumour"
+    },
+    {
+      "title": "David Ornstein issues Femi Azeez and Brighton update after Millwall stance and Wrexham claim",
+      "source": "SussexWorld",
+      "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNdV9tS2lDTC14Vm5pdTl4c2RyYjExWmlYVmxFX3BMbGJPZ1BodzVGVjBjWi1DSkFrTmttQndaQ0JxZjREYVppbGI0TmkyYk9iblhGUmtIMTRxQmktWnp2a1RuR1RTMkxTWGFFdEN6ZHVJakZHTlpLakVldThGVHhUVXRpcGtzbjRwaEhZVzNSNFRzWENxY1ZTTmg4bGRTdGhWTFpGVG5TUjRKSG14NFNSWV92Z1NMT3J2Y1hldS0xSDVCNWd3NmszVzE4UWZZOV81OFVrYW12RThBN1VpSzRqQ24tSWpZSTV3bkYzTFRTWW5ZOHRDSTJoTDJ3TVA2V05NUVE?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 15:08:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Middlesbrough FC 'closing in' on Brighton's Amario Cozier-Duberry as Morgan Whittaker sale 'agreed'",
+      "source": "Yorkshire Post",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRm51RThFa1VEWEplV2ZHY2tCMzRrX2wydng5TXVfYUpxaS1PZzExTnhFdDM3U1dENFlZWmZyeUYybzBtWDNndXBaeVY1SVdfckQ2dXVNLTJENlUzejhaTDRjY0ZNMmRBWjNfX1Q3azZMYmZoWHBEYlVHaHU4Ty11NGV1NkhVRzlwRzlOanljQ1RpMEZTOVRDVV9QdG9rRVZLMVJ2SVltLUZyaEtLQTRETTRWX1VKQmoyVkdF?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 13:46:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Chelsea 4-3 Brighton & Hove Albion: Chelsea maintain perfect start in seven-goal thriller against Brighton",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tZ1ZzZ2l0NlBRaEplanNyT0I1bHlnZXdOREZDZ1hDXzI1QVVPMVlENXdPejNoMUFaUm1jdXNMRURRN3FRc0dfdGM5U29ncEU5UzNiMVB1OWVyTkNiZENOTFE1S01SNWM?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 19:00:20 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Liverpool get final Yankuba Minteh update as Championship club strike record deal with Brighton",
+      "source": "Liverpool Echo",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRWFCWmxLVDhTZldBdzhFX0xRc1FrS0NIMDRiQURtVEluUXk2WW9vS095eU5xelFvMEQxeDNTNTZfMXFlVjVjT3ZkMm9lVUJQakJDLVVWVDF5cGd6XzhoXzJRelpSSFJjRUg4RkFqV1hLN2k3dC0xX2RBWDVUZm91WGNXbXNQMFRBM29LY18tcmQzcFc2ak1lZjlEZkh1aXFKX1JRSVZJelZ3cVJGX3fSAbMBQVVfeXFMT2s5ZEtOR2VmbTF6cVlEc0NFZi11cWhaMG9BZTIzRWZYZ0dxel8xQnJjTFVnSGp2QVNTZjFJZUpOVncyTWwwNzhVMnFuaTljamRVS2hicWNZaWtMSVdxbWZvY1d5bHZqaWxoNC1pNEtwQlhzTHRHMXlxWWpDU2lnS2NMUG43WFVFbzZUeE43bjhmMktoTWNQOVc4Sy1ad05ndnpZUGVJenh2NUZSeUUtTGVyRlk?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 15:24:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Brighton agree deal for Stuttgart midfielder Chema Andrés, Real Madrid set for windfall",
+      "source": "Bulinews",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcnFfMjhMV2Z6MGRtcUNxakp0NGV6Tm8zTG9FOVJybUFiSk1jcWk3TVF5RG9KT2FvTFJnY2VFZWI3SDlLUHlPV0FLbDZ6aTBLcVg0ZUhrd2FUcW15SkJlYnRZYjh3Z0wyNWtiamU3SnYzWGlRNkduWUNlbkRQNDFRRWpyMzZqa1JvWFQ2NEJIRFp1ODl0Rl9vMHZHa21zWVVZYTU4Vi1JZGI2REU?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 17:02:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Chelsea v Brighton and Hove Albion | Match | Official Site",
+      "source": "chelseafc.com",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUk5RaEtCNzBJNVB1SmRhcTdIWno4YUJGV3I0RmlYTkdZT1NfbVJWa1VhVmwwT3BNVl9TTzMtUWNXcmNKTUp3eTExNGhENzNHU3UtNXdpSHZSbV9aQkRXS0VxMkZ5NVU3a2Z6WHRXMVdJeTQxNmpNdXNiSmdmbzBqaV94XzIta0VpWGFNS1MyWlJrMUdLTmc0S2YyOFh4c3IySHAwRnJjRQ?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 15:00:00 GMT",
       "category": "match"
     },
     {
@@ -80,31 +101,10 @@
       "category": "match"
     },
     {
-      "title": "Chelsea v Brighton and Hove Albion | Match | Official Site",
-      "source": "Chelsea Football Club",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUk5RaEtCNzBJNVB1SmRhcTdIWno4YUJGV3I0RmlYTkdZT1NfbVJWa1VhVmwwT3BNVl9TTzMtUWNXcmNKTUp3eTExNGhENzNHU3UtNXdpSHZSbV9aQkRXS0VxMkZ5NVU3a2Z6WHRXMVdJeTQxNmpNdXNiSmdmbzBqaV94XzIta0VpWGFNS1MyWlJrMUdLTmc0S2YyOFh4c3IySHAwRnJjRQ?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 15:00:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Chelsea 4-3 Brighton: Xabi Alonso's side maintain perfect start in Premier League",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8zSWkxaEZWdXZWOVZBUGVnVi1RMDVsUDVlRjUybWJBckVrNk1XN0ZkRUs3ckhRbTIwd3RULWVsdXp2eHhkLVkxeDVNWDVSMlJ5ZlFOcmdvckpDUkVSUjFnZ1RUQTNMdw?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 07:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Brighton transfer deadline day: Seven players could leave and the two that won’t",
+      "title": "Brighton agree deadline day deal for defender",
       "source": "SussexWorld",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNRnNkd1JBbTFCaHlXMmpXTEtoWFVTVGlSSDlRYjRsX25MOWpnSXYwSUpjSk1KZXZoMzB4NUpfUGY3dk8zQmxUNDhaZVBQMk12LVZmWU9aUHF0aG5oOW12d3RmQkhvcFJsRWg2OUpUUzZMMy1PajEzeWNrRWs4WHAyaTh5b0RCS3RHWWRVRlhKbE9nTTVxT0Z1cEprOWhQSDJMNU11Sm1RaGQ2M29lQ09kXzh0aG9IYkxRcmRMdzA1SlNDa1ZRQUxlVTlxWVNkQ3JUajJUUlZoTXhPNlJUN25IS0RSWnNIWEZUY0stT3I2TQ?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 05:30:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "£50m Ex-Brighton stars move on after brutal Sunderland and Chelsea exits",
-      "source": "SussexWorld",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPejRya09aVkxnSUN2Z2NVbzJJcTdQQ3l0WXAyRlpUcnBQa2tjZko0SldoLWZWTHIwcnNpTXNjamRjQV93R2NtMlh0ZXRQaFV2M3FUYUFIaVF3dWpkRWdIWWdDZDhBODBZdzVod3pLS1pRY2NLSlN3azZocTd5QmpKVUVLaVNWdjY2X1FqcEdkay05Vmstc0JuVGtVc1BfVDd2UnV5QnpiUklIN011NnlzOHUzLTR4ZVhCZkdHOVdSdzZjQ0tHTlNUU1RvM1pNbjh4RkNkUThGMzhGT0NRcy1hN1BJUUZBNTBUaGc?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 08:51:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQ2ktcEtDVU8yYTExZzhwemlaYjBVV3ZuaXVBM2x2b2ZUV2dGTUNiRjhSNF9LUW9HVmpQN244SGUxMllvbUNpVGxPMks5WVE3S0tMdnhjN2Z3Q0RTQzBsS3FLd2pDLTVCRU9yUzRXTzJ6dDdFdEdRdlMzZFU2UG1JVnkzbjJ4Ry1WTlczWmtNek4wRVFlNVdIaEE4dHlNRVNLeVdhdVJQNmJyUFhYbG9uWF9SSE92MW91dFF5bWZlRQ?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 16:13:00 GMT",
       "category": "general"
     }
   ],
