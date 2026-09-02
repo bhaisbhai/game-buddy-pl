@@ -1,21 +1,7 @@
 {
   "slug": "fulham",
-  "updated": "2026-09-02T10:14:14.865Z",
+  "updated": "2026-09-02T20:21:47.918Z",
   "articles": [
-    {
-      "title": "The FFC Rumour Mill: Fulham looking at four signings before the deadline",
-      "source": "Fulhamish",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1JVFhKV1dHT0Fqd2N4Y2lKU2NwTFU1Mnh4NXZtVzNqUXJCeGNENnQ2OXVOMlhvaUxOVURZVkFUNXRIVkhJVkhzRWFCRlZOZnM3STlVRHYzX25Ja1FsSU8tQWMtYXBqSW9McmF3NXF2T2Z0VVlIU2JF?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 12:31:34 GMT",
-      "category": "rumour"
-    },
-    {
-      "title": "Match Report. Newcastle United Under-21s 0 Fulham Under-21s 4",
-      "source": "Newcastle United",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQWxaYndySXRUMmh5V0lSVUFtM1hYd2JXeGVWdVI5S3dydXRTek4tRmNSSk9GQks0R3VQMDdMdFNyOThfYTVId0pyQVhsUTJLUjhlVHJuY2lVWl82TC1KOGh3SlNtaTNuRy0yaVh1MThmM1E3RHB4MTRoVlpQT0RXZWk3WEprR1Z6MTNoWW82SlM?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 17:58:37 GMT",
-      "category": "match"
-    },
     {
       "title": "Fulham book first Deadline Day medical as triple transfer targeted",
       "source": "London Evening Standard",
@@ -24,32 +10,39 @@
       "category": "transfer"
     },
     {
-      "title": "Fulham could make late move for Bayern Munich’s Sacha Boey",
-      "source": "bavarianfootballworks.com",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTXZKTFVJMDZHZlFyUUkyeE1DbGU3am5QbS1iWGl1NGx6VjR6UEoycjVzV0FHVU1qVW8zM051cTZucGg3UkJOUTB6UFJNOGFNSjM1OF9uLWZsX2ZXVzlwQ0xBTGZwY1RjRlAyemtxcU1nMUhOU3c0dFJycVNvc0ZidmRsLTVaRnNteFRrX1RVUWhsWFZRSXdPOEhqTThra1owTFJOQmVOR0ZibnROTERpbVA2b0NDaDAta3lYMjZndERGOEsyS18xcmRIREI5MTdzWDhB?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 17:15:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "TICKET DETAILS | FULHAM (H)",
-      "source": "itfc.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5MdmpyUW5jUTJpeW45Z0EyVnJFTll5dWp6RVVKMUJ3Y0drOHBMTXBkTkljbXBfU2N3UWRoeVhzblhKU29TUUtqMWpDUXBXd0lnV2VzaVU0dm4wOHNLcjhqdTE1YzhsWFhNeDJ3Rl9CbG5oeHR0SDJVeVE1QksyWEE?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 09:44:05 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Hugo Larsson completes Fulham switch",
-      "source": "Bulinews",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5sR1d0RUJ6Rm9nVmc0ZEdSNWo3bEJxQmd2QzhQZFBob1R4ZUFtNk53NjN0WUFNNFlIUjk1UThSbWFscUZlVnVna2s2U2I0OEFSZjdsaDdtUXF1Mm9XV1dSNkN2azZqSjkx?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 21:16:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Andy’s Player Ratings: Sunderland 1-0 Fulham - Isidor Strike Claims First Win",
-      "source": "Roker Report",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVzdvaG9NX0tNTjJUNkZYd3h3SXZrc2NKTDdQX2poZTY2cldXMGg1SlhZdlg1Tmt4aE5EUzF3WmJzN21mb2EwcnZSemoxUUlnX1BqNkpLSzF1YXI4OVBiZ1pLa1JwcTZ6UXUzd2JMNTlYQWdSZHFMc3RIVnBobnM4Zk1NcWdmbHBqUDNEZFh4cVhWTGZLLXFQS3ZlZm5nSGg0SnFnbnlMYk9peHVXeGlFRlN0YW1EM2E5eFlWRXJxSUpRYml3aGZuRkxLd1ZLWDdaOHVoLU1R?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 15:04:17 GMT",
+      "title": "Fulham vs Chelsea LIVE: Premier League score, team news, commentary & updates",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1hMTI5dlE0VklZZVFPQVUyS2RQcnN6ZWFOaTVVdmtVbzRyX2psRkc0OEVOeXhPM2dFblpEQ25VUlFnVmRnalFBX1o3eTRLM3k0dk9HcXE4NWxiWks4eTU0SDBKRkNmdw?oc=5",
+      "pubDate": "Mon, 24 Aug 2026 07:00:00 GMT",
       "category": "match"
+    },
+    {
+      "title": "Match Report. Newcastle United Under-21s 0 Fulham Under-21s 4",
+      "source": "Newcastle United",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQWxaYndySXRUMmh5V0lSVUFtM1hYd2JXeGVWdVI5S3dydXRTek4tRmNSSk9GQks0R3VQMDdMdFNyOThfYTVId0pyQVhsUTJLUjhlVHJuY2lVWl82TC1KOGh3SlNtaTNuRy0yaVh1MThmM1E3RHB4MTRoVlpQT0RXZWk3WEprR1Z6MTNoWW82SlM?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 19:59:11 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Fulham open talks over late move for Bayern defender Sacha Boey",
+      "source": "bulinews.com",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ZNERWYUtrckZET185V213cHc3eGU2dGV3SGdZRVZuWVRjQnFsUnVZV0M5cjRvUC00VVpneVV5MkNhWjdwU1cxQm5LeXk4SzR5bXJyeHlsSFdub1ZyeGxCV3Z2SzlybnFkSkQ4SmJWNlhFUUFEQlNvMVZHTzFmZw?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 10:49:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Everton’s Kenny Tete move hits late problem despite deal being agreed",
+      "source": "Read Everton",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBORTViSk9aYmhzci1VR2FjamU1U1JPcTZIOEZzdnQxNjJob1ZCbTVtLUU5YndCT21BZjZ6a2QxWDlybUhZQkFVTVF6TkRwMHhFNmUtaG9qTzlxRHViOWltek1HV1dFbHFFSk1wSHpKaU9xa3FnVEx6WHJJVURaZw?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 10:15:30 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Fulham close in on blockbuster double deal including Real Madrid gem and ex-Newcastle United target",
+      "source": "3 Added Minutes",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVDhvN3M2VDVHa0J2TGl3LXR2RDh3LTNGTWtQNWwzYXNOa2laM0c3UXhQVU85R1VYZzJOOGpPLUxBZ2U4X3lxTEVvOG5oWVEta1cyRDVndU9KQ0VVSU1rdEdrRXR4V09XQURnSklRYXoyRkhtOGNIRnFuaENMWWRoTFh1dVdQS3VfbXhCZHpXOGQzMDFoRFNYRWViMzlreWFhWHprTjZCWGJrWmNFS0ctQUhMRWhXVzNvZGU2dTR2MA?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 09:19:00 GMT",
+      "category": "rumour"
     },
     {
       "title": "Fulham now in talks to sign £26m player after move to Crystal Palace collapsed",
@@ -59,38 +52,52 @@
       "category": "transfer"
     },
     {
-      "title": "Sunderland 1-0 Fulham: Substitute Wilson Isidor scores late Black Cats winner",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ0w0dFduYW9Zc0NTX0I5WHljN0MyQ3g2M21SYXBoODBBTjJRdU9xUEF4TXVVY25XX2UxY01SOExHMEMwYkpVNXlhMXUwRlhiWTVwSm5vcGZPNU1sUDZNRkI2MUY4S0g3emVHOWxFamVIWF9qY1RWdzBPMmtlRFhEOFE5SXdVRldJUmM2ZEtXZGgxcVdKdkpEMzRMUEJZNjItVmlIX2EtWEt1cFpQa1VETUp5TUpjQ1hVNUsxMDJkcmZ1aGg4QUlxNXQ4Yw?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 11:23:46 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Fulham 2-3 Chelsea: Premier League – as it happened",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNck4xcUN6ek9USFFaeV9fRm5EUnFNcXVody02M2tYbkZUS2hIUHZqdHVLMlFZRXhIYUJ4TFprZUF6ZlNlVnhFa084Y3RfWXNNZ2hyaXhKZ0hUVkZsaURXQkJGbFc2alRnR0NCOFJya0dwZEEwLUZCVDQ4ZmdtdWZBMVIwTUdZZS14bk56Z0tMTjN2RWJC?oc=5",
-      "pubDate": "Mon, 24 Aug 2026 07:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Affengruber joins Fulham",
-      "source": "Fulham FC",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSTg2ZGwwQ3FzNENtRkdXVUc4alVQMTlEUEJ5cFNkVFVFSThzT21yc2lSNzZYelBYM3N6UF9FWW5TYXFpcnhNWkxGcUoyNkhTVTJKRUtYV2pQOVhScWVONGhLSW1vbDhJdnVndnV3RlZMYzVzcmREczlfZXdYN2FUU3ljdkRidw?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 22:59:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Manuel Ángel signs for Fulham",
-      "source": "Fulham FC",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUkYwc0F1QkZuTUV6dTBUdGxybzNkdTFLVEs0Z2R6aU9SSU1iZUJWQ1NOOEZFMnU4SHJQbU9Dc3lNUnNKcVNzQnd6Q2c2Nm5KbkhLSzhzOGhEYWF4bUs2Nm1vMGU0c01kQ0prZU5iWTZlZElaV0MxUlZabTBxOW5GTXlka3c?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 20:00:00 GMT",
+      "title": "Fulham announce third signing from Real Madrid: Transfer fee, contract details revealed",
+      "source": "sportsmole.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQLS1lZ0NtU2pMRkVjaGdYWGNGMWZxVFljdFNqVkpqSVhubkVndV9UUUV5M0ZfTXVXSzVlaFNFTVE1WDIzeG1Lb21ramo5dG9oTkJpRmdXYzBkbU50N3BZa0lTaVJaTmdKT2xkbTVvYU41VVhVclB5c1FybnZ4TU9IQWNkRjZBOGpWa3hDSGVkNW96ZjR4Z09NMFdZT2JzaEQwaVhleVNLYVdPS0tUUWxuMWJFLVA2bFB1T2hINHRkNDNKcUxURFFIWHhvQzk5bDJfMlhkci01Q3RpbTlCNE13cGQ3V0xSaE0?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 21:21:00 GMT",
       "category": "transfer"
     },
     {
-      "title": "Hugo: Proud and honoured to be here",
+      "title": "Fulham 2-0 Newcastle United highlights and reaction as Magpies end on a low note",
+      "source": "chroniclelive.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdjFVU3BMaC1KWXdfbDMyNE9HYmNBUmdlVDJHVnE5S0MtMUxpeHlueHhMbzgySm9FakVRUHZkVW5PUHpndmJfWDRONTREU2tXblZCaFlwa2dhTDNjNmxYMEJNU3dNbWpYN01QQm50M3lmZUZsdmFzQThZZ3ROTF85QjZ6VW9NSUpsbzd0X1NsZ01wdHdnMklTblV5akNubkJBWHVZ?oc=5",
+      "pubDate": "Sun, 24 May 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Everton deadline day transfer hits late complications with £21.4m Fulham raid in peril",
+      "source": "TEAMtalk",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ0RvWTVocjJKZGdJUm5tMENYekx2Smx6RDRBdDBtbkNjREs4dzV1R3JhT2VrbVBIRWRjQmxrRnNqWFJzYmlNS1hiQU9UUzhuVWM2ME5QemJJam03RDBsOHV5aGpzX29JMnJ5OVFDYnE5bjFoRy1hVHNnSzhoTjZ2eHBWN2hLaWV2NVYwUkdvQXF2dWg5OGZjeHNWY0Q4ZXNnQXhjV2l1VEduWVVhSTY4?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 07:45:54 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Crystal Palace now on General Sale",
       "source": "Fulham FC",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPS0YxTWhsYlViZ2dXTF9LaGNUcUhUdkQwc2F2WGZQZXF4enZldjZhV3BZRjVoNktKQWV1dThiUUJTTGJpOTUwQkU3T3dtaEJCZTc3QWJPamR5NzRtOG1STXJmWkxqcWRRMGozMGlLVzh3ZEVtSnhzUmtXdFlwaC1yYzZjNXJzMDYtX3RJ?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 21:45:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVWdKcEw3blBOb1Q0VUNzeDFWVXFjejlrOTFvaEJKSzd3YUhremlRLXZabDJkMWswV1hVWV9SQlJFWFpTT1IzTC1QMXBmY1ZTUl9kRFlBN2NOUE1ta1BBcHI2aWpTS09XbWxSaWxYaVR4Q0Q2YW1jYjlKS05tYlc1SzQ3ZTVBRzl0dkVV?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 10:05:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "manchester-united-fc-v-fulham-fc-highlights-2026-02-01",
+      "source": "Official Manchester United Website",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVFc0MzlKWHJFRmZhdjdrYlJKdm42aU9zc09sLTEtNkJCNUxETGxDcTJsa1FOMWxjc1ZBalFIZF8ySEdHaGQybjVpTmhQSWc1bkI5TkRIOWZpR0hUNXBzV1NVa29wcXl0MGVZcS1udUdUNGNfZGtrYkJ6a1B0WjUxc3BZN2hVNUw3NnZOU0JnN0k3UEhQaVdaVkd4ZGx5VkZrbHNaZzR3?oc=5",
+      "pubDate": "Wed, 02 Sep 2026 07:46:18 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Fulham book two Deadline Day medicals as triple transfer targeted",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbFFTbExyb0FFMjIwdkxJMm5yb1NlaHluTlRhY1lSc1M5bTN3X0ZxOEUzVzJhTWlPRTVFWWhYM0FRR0tRMVB0aU54bDItODVyUzRTOFdMM25ETm9EVW82NU8yTnpkQjlUVTZETUh1ajNaTmpmX1NMZGp3aEd5aG9GNTJYRmppTUhKR3IwdWE5MmVFQmNIbXVhV0UwaHNBd3hVdDhqaFlR?oc=5",
+      "pubDate": "Wed, 02 Sep 2026 05:01:43 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Manuel Ángel: A real privilege",
+      "source": "Fulham FC",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQa1RqNjk4MjdzOGxfUnBISDg5X1lXa1BBSkR4TXpJWWxJTk93XzlrQ2RNdjZXN1RKNGw1UUJUT3lZMjlQRlNZMUtMWVFFMUVrYi1uVkM0b2tNc216Y2ZMTDVpZjdqODllTHRqSXJIQWZ1eFZadWV1ZlNzbGp0a1dHOVhwZjI?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 21:31:08 GMT",
       "category": "general"
     },
     {
@@ -98,13 +105,6 @@
       "source": "Fulham FC",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5qSzRvNlI1c3lCNUhqaWwyYXhmWGQtalhQY19LbzI1V0c5WGExMnJJeW4xT0pZQUNXdkJiMVV3QndZSDFJRlZkVjhrQTE1M3VRSWJLMy1CLTBBOG5TU0dEbnRXNE5IZk9EaktwbHB1SGVDRFNtQS04?oc=5",
       "pubDate": "Mon, 31 Aug 2026 12:59:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Fulham 5-0 Plymouth Argyle",
-      "source": "Fulham FC",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5zLV9XeGhmRUZhdm5EdmIwZVBIVmhFa3FqRHJMSVBEMU9ZcUJYWFhIMWJoWDVtZ0VMcnBNM0hXTWNKWU9JV3lDc3U4c1c2NEpTeGVCemZYSEE0QWNVc0FLT2ZZVHc0Z2xUZTFwaDBQdmhEcDFjeEhhNkl5MFo?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 10:20:17 GMT",
       "category": "general"
     }
   ],
