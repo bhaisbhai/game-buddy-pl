@@ -1,28 +1,7 @@
 {
   "slug": "brentford",
-  "updated": "2026-09-01T20:22:08.717Z",
+  "updated": "2026-09-02T10:14:14.865Z",
   "articles": [
-    {
-      "title": "Leeds United 1-1 Brentford: Dominic Calvert-Lewin earns hosts point",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1iVjhXejBiYnhjNjZ4b0VFbGJjTFU0aVMwT0ZKTTJmcmtlTjV2cHRzS2c1S1Y1c2lJVHRlVVFiYkMtZU0yOC1lTmJiaTRqN1NlWDNWUVpIQ3dUdUwwbTRwQmtxQXdUZw?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 07:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Transfer gossip: Portsmouth to raid Brentford again as Blues close in on ex-Rangers and Southampton left-back",
-      "source": "portsmouth.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxObXhPaFVGdEl1YkpaRFc0TVk2S092Y3oxZWYwWU91MThTd1UydUlpbkhtRFQ4aTdMaF9TNlF3R3IzaDVjV0tTUWxFaE9FTkdZOGJEbEZpYUtUdWpGV0hxdVlydWVVWXVLS1pYaWxaeDUyczBJMVEwUThNaW84T2FTNVQyT0U1SXRhSzVuUnJLenFoS3pqcjFHYXBodGV4LUwwa0NWcXVpZTcyOHZkTTRybnlmZUVXTVl0WmNKbnphSDhKTUYxT3ZTMmFYSlc1X1NOeHVUYWVIOGF5QzdTZ0ZFd2hHS1BIUUUzVEFsVF9nVnVROXVrSlBlSGdn?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 08:54:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Farke \"proud of players\" after Brentford comeback",
-      "source": "Leeds United",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUmIyYVdtMUYtOFlEMUdoclJHRkhMU25uZXhhUEtNVmlLYTVrOE5jSW1haE5mMms5blNIU2Zac0p3QnUycjczNG9jM1V4TDU1aU9TLTdxOUpORURYb2QxbVA2cWhyRkxYY1FxTk91bTg4NS1hWVpaUHhFdzVlLU04Ty1tZTZIaFQ4ZFdZ?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 16:33:06 GMT",
-      "category": "general"
-    },
     {
       "title": "Leeds United 1-1 Brentford | Premier League highlights",
       "source": "Sky Sports",
@@ -31,10 +10,24 @@
       "category": "general"
     },
     {
+      "title": "Brentford vs Sunderland: Premier League preview, team news, stats & head-to-head",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFA5RUxWcXBMaFNsb3lreDJtNDZEdVg4bTFhVjR5bk93QzVfYVhPdDZzMGxFeDRuUGpmdTdKRmVuR2ViM0UyYmhTdFVMajZzV2U2ZXNfbXRza3JFbzI1aDFMc2VJVQ?oc=5",
+      "pubDate": "Wed, 02 Sep 2026 03:04:34 GMT",
+      "category": "match"
+    },
+    {
       "title": "Report: Leeds United 1-1 Brentford",
       "source": "Leeds United",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBKS251bFFXMjA4MnlxSWl2dnl4UnNoQXJEdzFGWEhFbGt5QmJEMkFFdFpVb2NJX0NzZ292SnhkWmxXdTBILWtFd3JSTzNIWFpDRWhhaDEwTjFsbENLbEJGdld0VHRlRi1PRmpfMVpOeWc1R3g2OXQ4Rw?oc=5",
       "pubDate": "Sun, 30 Aug 2026 15:51:08 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Match Centre - Leeds United : Brentford FC",
+      "source": "Transfermarkt",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8yN0hoS3dnOEVuRnpDUnd3OUkwaHRhblQydmRINW9Yb056LW5hU25kRFpLb05rMnYzazN6ejY3RWVIenBDMUdnbkhpMC02YkF1MFJqeG42UGdlaUVYd3RvVHZ5bnRjb1pSWi1v?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 12:09:26 GMT",
       "category": "match"
     },
     {
@@ -46,31 +39,17 @@
     },
     {
       "title": "Brentford's Jayden Meghoma set to join Portsmouth on loan",
-      "source": "Richmond & Twickenham Times",
+      "source": "richmondandtwickenhamtimes.co.uk",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbkNxc0h3ZGNrRzBlWkNLV1dfb3NtQWRLc01WSGFJYzNpYjdkUHpqUnF0TXBRZGhGdEp0YjVlV05qckcxTW0xeldERU13eVZCX2NIT3lqV3ZaUjB0SDRvTjBWaVVlNV96TDBoWTgxb1llVFZSUnpkOS00bjd3N2QzcXdXRFJWOG5mT3lKck96cjVtNzRORW1zaXFMRXFCaFZVS0o3eHVYQ2hHM251eU1RV2FfbUNVRFNBczFB?oc=5",
       "pubDate": "Tue, 01 Sep 2026 09:38:00 GMT",
       "category": "general"
     },
     {
       "title": "Mohamed Salah in tears at Anfield farewell as Liverpool clinch Champions League - latest",
-      "source": "independent.co.uk",
+      "source": "The Independent",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTVptY3d1VnZRNkhtaThjbXAySVFhcEZ0WVVmSWJ1SUVQeGx0QkJ4QWxLYk1saUlSYnBRRzVXaEZDNnVqcnBLSUtlMVdJNmZSUmpmNGR5aV9pVG1yQWZwTVlwVm9LMmlCTldlOFVJb0RnSFhIRFR3UElIU25odElyQXNYc2dJR3pnQzNPVVh4QjBMRUhSU2h0QlNnNFhSSWlOOEZlUDNNUGhOeXBoVkdkWHlVSTBuYW9C?oc=5",
       "pubDate": "Sun, 24 May 2026 07:00:00 GMT",
       "category": "general"
-    },
-    {
-      "title": "Tottenham make stance clear on highly rated star amid fresh interest from rivals",
-      "source": "CaughtOffside",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVU5oTHM4QjdwVmlOTmg4bWlpV2lSTndrWHExX1JqaG92aEc5U0FhOXlmS1dlNXZqTU93WDNpUUdwZkdwbVZWNDFCclRZc3ozek9fU1ZHLWtXSmd2eDMwU1B6QkdoR04ycEFETU5tMm1kY0FZRGNMdWlCUWZuc2dEakVUSS1acWRuVndDX3kzYmpQQ1dydzNFRFZjbmRac1Vuanh1ZlNOMGZoUEZLSGRRdmNVanhhbk9rWURMUUhyY9IBxAFBVV95cUxQbi1hanlKMWRld0lBZkh6eFFuVnRPS0pyZ281d19BemhsRmViWTdLZzVTS3ZDYlpQd2xMTnVGaFNqc1ZHQnpFcjE5OFQtNHpCdEZ3blJRLVNybEh0YXdVT3I4aG8yMVdubDZsS2M1NVpITWtucmFFdTRzUnR4Z0JEU25wSi1fcWxKX0tGLTItQlJPRzhpUVk5LUJzRG9YZHZxRVZnMGJhOUxsd0lqVXJLMXlmbjg5bV9ELWM2YnhFVEhIMlo2?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 15:30:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Why Jaidon Anthony signing marks a new chapter for Brentford",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRE5kN0tDNVF5dkM3ems5Mnhxb2owb2diTC1hZEt3UkxVQkROMEZMUFBILXB2QVpLbkc0WnJ1Yy1TR3JOeXM2WEo3N2VFWnUwYTF5MlFRSURjRFFpU2pId19sSUxJUTczaUQ4cUhrTGdwLXRVV2hqMjZ1TkVEVHBwSENaT3RWWVdhSUx3?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 18:01:16 GMT",
-      "category": "transfer"
     },
     {
       "title": "Mohamed Salah in tears as he and Andy Robertson get guards of honour on Liverpool farewells",
@@ -80,11 +59,18 @@
       "category": "general"
     },
     {
-      "title": "Brentford 3-0 Tottenham: Spurs make nightmare start",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5DaHB6T0VNNVlfdzBmT2ZEU3AwNE9YeUNQQlZqcFFFdXRDY19Fc3JvYVlhVVdMTThDOTJpdzdibnl1djkxV3NiTzhCLXZ1YUQwR1RqRXBwWE5kYlB0eFc3TDlYZThrQQ?oc=5",
-      "pubDate": "Sat, 22 Aug 2026 07:00:00 GMT",
+      "title": "Tottenham make stance clear on highly rated star amid fresh interest from rivals",
+      "source": "caughtoffside.com",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPVU5oTHM4QjdwVmlOTmg4bWlpV2lSTndrWHExX1JqaG92aEc5U0FhOXlmS1dlNXZqTU93WDNpUUdwZkdwbVZWNDFCclRZc3ozek9fU1ZHLWtXSmd2eDMwU1B6QkdoR04ycEFETU5tMm1kY0FZRGNMdWlCUWZuc2dEakVUSS1acWRuVndDX3kzYmpQQ1dydzNFRFZjbmRac1Vuanh1ZlNOMGZoUEZLSGRRdmNVanhhbk9rWURMUUhyY9IBxAFBVV95cUxQbi1hanlKMWRld0lBZkh6eFFuVnRPS0pyZ281d19BemhsRmViWTdLZzVTS3ZDYlpQd2xMTnVGaFNqc1ZHQnpFcjE5OFQtNHpCdEZ3blJRLVNybEh0YXdVT3I4aG8yMVdubDZsS2M1NVpITWtucmFFdTRzUnR4Z0JEU25wSi1fcWxKX0tGLTItQlJPRzhpUVk5LUJzRG9YZHZxRVZnMGJhOUxsd0lqVXJLMXlmbjg5bV9ELWM2YnhFVEhIMlo2?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 15:30:00 GMT",
       "category": "general"
+    },
+    {
+      "title": "Brentford retain interest in Burnley star as summer exit speculation persists",
+      "source": "the72.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcmVobEMxeWF5NXBlWEM4czkwSDZwS3NjVWVYS1pkd1RibWRTRUFncmExNDRza2VZaTJuRlU3OThyQ3JQQ2FfVEZxLVJLSXM3ZF9QVTlCVXZjY05QUlhtajNsSHpNczNfN09UZFg0T09zdmpfOExDTXZOVzVWVW9JYWppWmJYQQ?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 16:58:58 GMT",
+      "category": "rumour"
     },
     {
       "title": "Leeds United 1 Brentford 1: Schade scores in Elland Road draw",
@@ -94,10 +80,10 @@
       "category": "match"
     },
     {
-      "title": "Brentford transfers, latest news, rumours and gossip: Live updates, goals and highlights",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMTZRRGpSbDRBLWFLTHNFalF4ZVJId2lLS1p5VThJQlNmZW1iSXhaenA2ODdWVmlZR3MtUzFMa19hTHZ1cWhISUEwaTdobHNBNGc1dmhzMUpScVJMUDIxeGFmbDItN1QxWlY3SkN2MC1mZlctbHdaOE5VUVJsWDIzbEZaNkdRWWpXRVF5YWE3RmdUR1JvTm5rNWtaOUFlb2V6T0VSUi1ncTA4YXRodGtnNXZZSFZBaUhTRV9ncjBySjZ2MDlxUHh2eFZxRklhdUhCc1lNQXQtdjVNVWZw?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 00:16:26 GMT",
+      "title": "Leeds v Brentford confirmed team news: Anthony and Damsgaard start, Diouf on bench",
+      "source": "Brentford FC",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUnRZdlZiQUJ6YXhqQVVCS3hMbG1xRDdCX1RXeHFXT201cmJjZmtFcWF2cmRXZTJrNVFQZWVlYUplMThFbHhPUGx0bHk3YjZqVHpDeDdSd1JtMmxRd3BNY3RYX3NMWURSVEp5NmpoZG52ZVVDNzFnTk9sRU9UUHpYbGtyRmdpU1phVm5vbmhfUmxub1M3RTFTZjQzV3hobWd0RWwzLUZjYnJHVVZveURXakVXRm5keW9lSXo1Rmd2QlgzQlk?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 11:45:26 GMT",
       "category": "general"
     },
     {
@@ -106,6 +92,20 @@
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQUczdFJITzVNV3BOc2lhR2xra2NXUVBzUmZvb1NmWHhzSi03c08tZngwS0hROFlNY1RKaFZPcF9LYkhFT0l0eDluc1JBR3NRZEVSc2c3ZDgtVmNsRzZDUkZwcVZNNHJ2T2xPd3J2QTRGWHpST0xTUHJ4bUNpODNWbVd6Zmx4elBWZ09tdWRmVkN0T1hKTWlJ?oc=5",
       "pubDate": "Sun, 30 Aug 2026 07:59:35 GMT",
       "category": "match"
+    },
+    {
+      "title": "Brentford U21s 5 Sunderland U21s 1: Furo hat-trick and Carvalho on scoresheet as Bees win on PL2 home debut",
+      "source": "Brentford FC",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNXzZNbGs5UExlR2oydnRuaEs2Y1FtWFVUOHVKSFdLQ212a2pVWnZtR0I0T21hV1RjSEdmbWxsMVZ0Zl8yN3dqVWN4QWY3aENUV01LY29VUFgxaVhfU3ZxdVdVU2o5RzV5aTJSV3dfZFA1Rmt3MU9EY0R6c00xLTJGZWw0NWxSMkQ2dlJ6azhGRVNYR19pb0l3MmpXOTgxVkNUUUNtTmpvVDN4b2FvSVZRX012M0phMm9QTEE0cTVaWXp2dnBTZVFhZnAyVFcxVjhv?oc=5",
+      "pubDate": "Mon, 31 Aug 2026 14:12:43 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Brentford sign El Hadji Malick Diouf from West Ham",
+      "source": "Brentford FC",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQODl2V0FXbGY1b2pqczR4aDg0ZVFPLVhXSkUtbzRPZ2ZPTWZKX2lwczA3dVlGTUNURWhqYXI3OV9hT1AtcHVIWXNCREdVY3hpVllzMnNlOTJadExpMk9RNDI5NUxZRlhieS15M2R2S2pHU2w4YUFhaTFqc19zYmpqaHJkR0J3Z2V0OE9laGVOMTl0a2pGa3cxY3NheVdHOWV6NlhGMHR1b1pEV2JrbjFwZQ?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 11:15:16 GMT",
+      "category": "transfer"
     }
   ],
   "reddit": []
