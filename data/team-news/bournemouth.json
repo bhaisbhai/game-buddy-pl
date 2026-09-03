@@ -1,83 +1,27 @@
 {
   "slug": "bournemouth",
-  "updated": "2026-09-02T20:21:47.918Z",
+  "updated": "2026-09-03T10:25:36.948Z",
   "articles": [
     {
-      "title": "Academy round-up - Young Blues sides plunder SIX and EIGHT goals in big wins!",
-      "source": "East Anglian Daily Times",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRjM2aWhZVDNPTHRTYzRHWjd1SVZaalZ4c013WHZYM2tmOU1oREpFcl9NNGNrQXVzVVoxQVB2UXBXbWwyQW11MnR1SHVIMDVnM0lic0NfYVViTjhKaHdiUzZqc055TzBSRm1GRzV3VHRFWDlVVkRUNC03RWZiRXBJVFVTZDJRR0NKd3lIT0JPMFNETjA0TW9RbDI1cw?oc=5",
-      "pubDate": "Wed, 02 Sep 2026 10:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Contract rebel eyed by Arsenal, Liverpool, Chelsea & Man Utd likely to command £100m transfer fee",
-      "source": "CaughtOffside",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE40Qk9HWUJlTl9yd09SbjJNRjE4T3hKOTZkd1d6WFlpalZJeTBjSlowSkt2enlyaXpwZkpNZVpOanI4WUstSlhTbFIwWW9rWnRLYms4SjhPdWZjNGdZTWJ0N19QMEpfMXREakYyc3ZOdHBlc1pU0gF6QVVfeXFMTjgxZ3g2enhZeXlGR1B4RjM4MThmU0ZXSVdQclZnLUN6QV9NWVhhUU1ZaTVPdDJQTjZWdlVNZUswcklMdmRMY0pnRS1ad0ZMZWNucjZ3S0FSZjdGQjdENXRRdXBEQU42VVAzbmhHV0pPLVFIc0o0YXNQSkE?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 19:03:35 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Arsenal fans celebrate long-awaited Premier League title - live reaction",
-      "source": "The Independent",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZHdUYWpQMGRyZWFpeFFIcGlqV2V4MnNkb0VfMEgzMlNsV29qRlQ1LVA4bFUxWWwwY3NjLWJGQk1DTW1tdldNUDJobUhrdVg1X2xQVmtoMGw5RU0wclBieml6WVNDakgwTThsVVBrOUxBeGlDOV82bHRNVmRhRmxNVXd1U0gyVXgwRTVtZnBJYmIxNDFaejhnaGVMTXZaSk0wWFVIQXZLdzdST3hIQU5icHc1ME1rX0NHZG9wTklnNF83dmQ0ZFp2MVZLRkxuMkU?oc=5",
-      "pubDate": "Wed, 20 May 2026 07:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Chelsea transfer news: Blues made 'last-gasp' effort to sign Bournemouth star",
-      "source": "sportsmole.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZE9ZU0dobnJicV9vNk5qUjNDbG83Rkd4dUZLQTU1SVIwVUtMZXN4N3A3Ym9GQ2RCMkF3VjdiWXpxaG5GOWlFUHFZWlgwZ3ptZHpFYXJ6WG95RTItSmExRUxOM2NwaVJWaFlZRFlLckFzZ3VONklGR01lOHBVTEpwb3hlN2lWSGFGekZKNVphSzdUWU9uekdUUFRtYUlHTy1QZGhWVDdnZnZVV0ViSjBLMXVzUDd2M0hSRWxsTnYxcHYweXZXWEEySWgyYjBJZw?oc=5",
-      "pubDate": "Wed, 02 Sep 2026 11:45:25 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Harry Redknapp - 'It's transfer deadline day - a day I was VERY well known for!'",
-      "source": "Bournemouth Echo",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPd2tjVlZiNm5PX0hMTHpvVjBqMkhYX3JlcGpWZEtUM0xNT3dyc0hiNktwR1g3b29mMFVJWHlZUVFsRFlrN1h2X1NtYmlpVEZyaGphc3RJeWJsZlRldlhlcktWN3QtYXF5c3BORXN0djBiNW0tVkpfSlBXMklYekkxcUQyVm14WmJONURKcFctcTRFRnZfUE1MQUNXcjAxRDZtYmx2elhYbGs?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 23:00:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Cherries make it two from two in debut PL2 season with victory over Middlesbrough",
-      "source": "Bournemouth Echo",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeXRQMkUxVHFwQ3F6TzU3M0lPYTZvRjlDbnZmVjc3SzlNV1JDTi10bW5KZzJYVGJqc0NzYmYxOExudW4zd0ktaFdIVnR2SktsaXdxYUxWUUVyemdGUHBwcW5wVzVWMjYwU3FCdEw2Z0s2ZWU2aXRMREdqbkF2cjMxbmZnVHVCQkI5RkJ5VWE1YVpCVGxwTEN4c1ZJcVhRZFU1X01oWjg1UVA?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 09:23:02 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Cherries should have put Everton game to bed but positives to take - Hill",
-      "source": "Bournemouth Echo",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaEw1aGZZREpkYUttYnJvNjVBckNMLWQ1a3lrVnJJRnNOaDBvcVIzTU84b184NVZNRjZUWXAtaUdUZ0FiRi0zQU10a3ItWDNXYnRRS1VMLXFETXNWLW5laGpxenpJdVFHM1ZPclBoYUpWXzJxRjFtbGxMdW8wczNtcVp4X2dsbVpPTHVIUDg3b05pWVR1V0RVOWExYw?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 23:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "\"I love it!\" - Rose thanks fans for welcome to Vitality Stadium",
-      "source": "Bournemouth Echo",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRW9FbzRlaGR4TmJVRFV0QzNadVliUXhQRWVyWlgwX2JXODlXUlYzUWliZG5nVm5fMmZuYkZLbGFSSkc3OGFuVFpRQVk0cEdVTWdyQll3S2UyX2NkVVdhLTRyM0drOUpiT21QUE9nWExNYmtMYmUyVkUtaGo4aVVsaDJ0VUtDdHhSdWp5RTNVaFRwS242dnJsS1hRaHctZw?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 23:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Sources: Arsenal make ‘generational’ talent their top target amid rising interest",
-      "source": "CaughtOffside",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSEwyU1JzcDVCcWhzNmRXWXYwYXUwN2JYYXRJSVMtMnJ4Ty1RV1ZEd25rUUNiN000Q2xhRUJnQ3hrUFdjYXJTNWd6ZlA4UnltN1g5MjAzSW1wWlJzVlhFUzVUbG01ZUk2X1BNOC1MSDdMcERGcEdhaG10Mk05bURGSl8wTTg3eDhsN1YwaURNWkZ3N1RYVEE2adIBngFBVV95cUxNU2ZLaEY2LXRIdEs3X3RpbkNoU1BSTUlTOXFpWVVzWS1YbEk4MmlBeG9QVVI2aG9Dck1zdElKQnZsbFJIVnRVckhiMHlpb2tScGY0NkluOHE5c1FvNW1sdlhKZG8zSGtvRnJ3UjYxLUVGenYtYWYzWW1kMzBCUEpGZ0pSRW1EckhDYTNSd1dpRnl5bTJIT3llUjdQbDRvQQ?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 05:30:06 GMT",
-      "category": "rumour"
-    },
-    {
-      "title": "Markham nets brace as Cherries make it three from three with win over Hashtag",
-      "source": "Bournemouth Echo",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNmhhUThjdjhDQlIyb1dXX2pTN0tWTGFHYXZNR3E5TVQ1RkN0ZWpxRS1ieGh4UzRKUHRZNWtjbnpueHo4b2VTSFBzV0I0a2ctV01fUnRFLVdzTkZTXzVzOVBrMWdTTlBhUXAyd2l0OVVmQmFVN2szdm85UUNLVHdjZFo2enhya1ZXZTd1dkRVY2tfaUJsQk4zZUtIU0pmZDVjTl8tLXg2anY?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 15:21:02 GMT",
-      "category": "match"
-    },
-    {
-      "title": "How to watch: AFC Bournemouth v Middlesbrough - Premier League 2",
+      "title": "Supporter Communication - Ticketing & Stadium - August 2026",
       "source": "AFC Bournemouth",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNWZRemlkQVJ1YVdLRDZzRC1oR3F4T1MzS0VQRjBPMkFhbXFsX3JMWFNRNkRfRnhWTGVSU2xlbTRSVks5ejFaMVExODgtZXBxX0xWOE9nTmdHNm51X1pBeDFRVHhndDVxTHZYcnc3UkRWbE5ueUNKZXlTNS1nQjJaRS02Q2FNVmtkcnhKTGhBTnptWWhFWmxPamhnLUNIY1dGRkE3Qnd4QUxTVlha?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 07:00:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPS2Jha1JHbFlXR2RvY014Szh6ZkpXak9wNDBPQmRtdnZWWUpKdUt3SFBGQkpJNkI0bkVSOFNfTFNsendiNE45a0NxdnZDRWNpNGhwbEtLUjEyekpicm5ZVExzU003TmpOVm9UNmpCOVNMdzBfeTRYOTU0aEMxX2k5cnFWVTB6ejFPWThyNG5qeloxMWhxT1Z2WVpQQ3ZhXzV2dEdnaUdR?oc=5",
+      "pubDate": "Fri, 28 Aug 2026 00:25:58 GMT",
       "category": "general"
+    },
+    {
+      "title": "Cherries head north to face Newcastle but will Rose shuffle pack? Predicted team",
+      "source": "Bournemouth Echo",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQnBwc3NxOVZodjE5QkdJdXZXNlJCRjlkRE1rUThVdmQ0MnZDTHpIWHgyYXlmcWpQMF9hbExnUGVnLXNlRV92ankyem5EdTdva2tpZjdYY3ZDUFREdFZBb3MxRDFfQVBIMlFwM3I5Z0ZSa215V2k0OUw1bEhTSjBOMS04aV93SFRoLWU0MUliY0FpWFRyaXNwOW1xX3ZVMjNvQWI1X2N0QnJ0UQ?oc=5",
+      "pubDate": "Wed, 02 Sep 2026 23:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Newcastle United vs Bournemouth predictions: Premier League tips & 28/1 Bet Builder",
+      "source": "Ladbrokes",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORUVzLXp2UmZXWkE0WW51S2FDSTZsUGpKQmdHdzZhb2pVUHYyLVlKcC1EaHlJZnVSZENaRFVYbFR0YjdoMFhiR2lZeF9HTzdqT3hRQW9Da052QllZZW9hdUViRm5wQlQtOVhDSnc0QU9LRVJ3bDdwOEpGTVVKREN6S0thQXpWQ0R4WkFwcVVfTWdDYll1cGlyWjlBbG51Ty1W?oc=5",
+      "pubDate": "Wed, 02 Sep 2026 10:54:24 GMT",
+      "category": "match"
     },
     {
       "title": "Academy round-up - Young Blues sides plunder SIX and EIGHT goals in big wins!",
@@ -87,25 +31,81 @@
       "category": "general"
     },
     {
-      "title": "Newcastle United vs Bournemouth Premier League preview: All you need to know",
-      "source": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMHktVGRsZGVQNFJwZ2syQ0JWYjRtaXhnUmFzTEJ4SHh0akFWZ2RJUG1GRm9hMFp5eXpTNm82U0xRb1pBZ2RFeHJZVUV0ak9XcDEtZVgydXdxWEhXMUFHcHVYTkxjbkZKdFRfdndJWGNUYmNlekpUb0J6YXpubmx5SXRuaUlHUWdiWFBMY3VNamtkUFpxUU9zXzRVTkV1bkx0eDJRdWFwZw?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 12:50:43 GMT",
-      "category": "match"
-    },
-    {
-      "title": "AFC Bournemouth 2026-27 UEFA Europa League Squad",
-      "source": "ESPN",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTWJfOU5mY1dLbV9sWl9UaVpXeHZIZnM5SW9USlVEbWYwLUR3X3BUSVF1QkZUN1RrbHJ2NFFMZTF0aHo0NVlSSEFDZDN3YUpIV2hINTR2UWFUWlNXb1gtRzJvSVNwZmlaLWFsZ0M3Y3ZsdXlKNlAzLVF5cmZDeFh0UHJOVGdXYmNRdGc?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 09:16:12 GMT",
+      "title": "Bournemouth rule key man out of Friday's game",
+      "source": "Official Manchester United Website",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbldHYm9uRFlVR1JId2ZRVWZZSXE2X3ZIUWFKakFjM2prOGhQMXRaNWlvd3EtX29HZGRPeE5vUVhrV3JPdFhCclRoMmNZOHhqTlAwbkt5RWFSM1EyWlBwNVRrMGRsX0ZfNkZNazZ1eXE2VmZlczMxM096dlh2YW9UNXVYR0p3NmZYY0tMbQ?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 19:49:57 GMT",
       "category": "general"
     },
     {
-      "title": "Match of the Day - 2026/27 Highlights: AFC Bournemouth v Everton Highlights",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxON2NYR3JUcXQ1TVpJdDBQVXJqQ0VaUklHaXZaMk84VHJidk0tR1RSbzcyZXJqbnRSZTI5bTFEaXZTRU9sNTFCVlpxcmg1VjM0SmxBYk9HdWdyZEUyZGN1Q0xBdndscmo0NF9rZmtkZmdJY18wOGFvOGVNem81bmVzSkN1SS1BdFBtaEd2eWhJNmpkU05mck9VMkVHaTlpa0Q3MGR3OWk1QU0tdUF1Z1o0bGFqNTJ0YnFYeDBHbUpuZTUwSHlCcE4xU2w4SDBTUTJVS3pMdVY0d2dnUQ?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 10:33:33 GMT",
+      "title": "Bournemouth 1-1 Everton | Premier League highlights",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQTMyeUVFRUQxRFlmSXByYjI2blZfLWFPQ0hnWWJEakdsUF9wTHJWaWZJV1hpd1Z2UTRYVGJSV0t4T1dnUDlhbVkwc21PS3R5anBXOWh2Rzg5QWZJZ0l2bVYyWnplNmx5YXE0eTRKTmlmLUQ5SnoxbWdVVjFQdS1BT3NqdURkWWJUdFNtRGJCNU1LSFNlZjZyZXQxN2RLQ2l4S1RUQ3Y1Rkw?oc=5",
+      "pubDate": "Sat, 29 Aug 2026 16:15:54 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Tickets | Bournemouth (A)",
+      "source": "Lincoln City Football Club",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE85RUNmOVV2R0dXQlNib2RtZWQ2VnNXdGwzVXNQd3BOWGpsM1JjUmF4N3ZZQno2NEVxODdlWWlyRTNvR3hkcU10TzdNaTVZU1VvZTVCbVlFa0RRalVZUDlZ?oc=5",
+      "pubDate": "Wed, 02 Sep 2026 07:36:50 GMT",
+      "category": "general"
+    },
+    {
+      "title": "AFC BOURNEMOUTH’S EUROPA LEAGUE DREAM BEGINS! 🍒 Can the Cherries WIN IT ALL? | Opponents Analysed",
+      "source": "Acast",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPcDN1cTh1MnYyM3BRMnlrNURoUWg5RFQtclJ1dTB0N2NjSlVzSXRqdzNscFFWR3FtU0lWdWpoTzFXQWtnWXc5eWhIVFU2YXBBeUctblE5Tmd4djRjTlRvMUFoM29vU3RyTHJBTXN6WmJ0WWVlOS1RWGsyLUJfY2NPRm9NQzRVWHN0S3NJMkxvUWZvRC1RZXhzQTBrMUJlN0o4TzR6eWlMMW9pZUUtV09RQXV6d3Fabm41M1NDLWJGSUEyN1RQYmdCendhNHIzNW9I?oc=5",
+      "pubDate": "Sun, 30 Aug 2026 21:22:21 GMT",
       "category": "match"
+    },
+    {
+      "title": "Toffees strike late to snatch a point in Rose's Vitality Stadium opener",
+      "source": "AFC Bournemouth",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5fOXFqdUZGWVlncHB2bVNncjlLWTk3VU9tdlZfUEsyeGdVQkhkXzY2VGFnZ3NtdTZKT2dCSjJMQzJGWE1VYXpYRHQwRER2U19ESS1PVm52MVZrYTUwZHNYSUtLNkRnOXFhSnFiVHhVU04wVGJy?oc=5",
+      "pubDate": "Sat, 29 Aug 2026 20:11:46 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Cherries to visit Sociedad to begin Europa League campaign as full schedule released",
+      "source": "bournemouthecho.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPek8xd3hjTmxfV3AzdUZiYWp0QVMzNzhlMFYzVWJqYXVLdGZkd2MyU2RJTmRtT3A3LXZRN0VrMUE4UHZia0o4Q3d5WGFoOEFibXVGZWFBM3kzN2p3RmotaWhvdmVmcjFSenVsTUZvUnpMS1NkczlzZ1JhZUlBWFJoNHJmQlZRZ1VxS21Yalo5VDl0Mm83WnNxZWR1WGo5VFhzRTlVTWFxTG81ZlFpMGk0MQ?oc=5",
+      "pubDate": "Sat, 29 Aug 2026 18:30:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Transfer deadline day as it happened - All quiet at Cherries",
+      "source": "Bournemouth Echo",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOUE1ONzMwVlhzeFlkdDExbk9XWGNQeUdYOW1RREVIVTJzcC0tUUF2WVNudWJMajRCYzRFR0l0SzlOcE56dEQzWGtacDZNODRQUHc3NG81ZWhRV2RoZ1lrYnJ1cTgyTnVjZHZOTU1nSWVNY05OQjc0QVVzTG1DWlJUbDV1SDhKcEJjQ2tXajRPTHM3QkRiRVVlRkxZaXdKMnBwTGFUamlWd05nbEIx?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 06:55:05 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Gallery: Cherries earn point against Everton",
+      "source": "AFC Bournemouth",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdy10ZnpTcTdiQWgwbVJBSnl2M3B0X0UxOW9RREpfb1pRcDdSbEM5OFozUlhBQVp3ZWpsVkMxRkthemdPd3FTWk9ueWlUSDJ0YUxXVzJnZkcxekw5VEJfNUh2RzZuU1VzdjBJQXBUVHU2TjJKVVZacVFkb1drYXVVZlVGOENlSXBfTlAyRnhuR2haQnM?oc=5",
+      "pubDate": "Sat, 29 Aug 2026 23:11:50 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Vitality Stadium parking and travel updates - August 2026 - AFC Bournemouth",
+      "source": "AFC Bournemouth",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNEtpM1VxWTM2VGF1cWlJUnBxazh2UzRRQVZxV0psTjhoMWRPS1lsWmR5bnZhVGl6YnAzTlRXQ000djZHc2lMNUhabm9UeEZWRmZ4ZFRHOEVFUlZMd2VLWm9STE1Gd05kMnVkcnJEVU5wcnk3cGxXdF9fS1ZsSW43QXFlMDRYcVNWNmlSYU1NUWdzUlRjNUxhc2UtWmxobGg0TWFN?oc=5",
+      "pubDate": "Fri, 21 Aug 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "AFC Bournemouth",
+      "source": "AFC Bournemouth",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVXR6b3hoejdoeGtPaHFhSEdWckRLSmZKLXNTOHZUWnU1ZXpIbzJoMUYtSjJwdkVlS1dIZUVmVWFZWk9qdVlLdDZVVjBDQTVucVRmQnN0a2xibHJLNGIwLVZUWFF3VWJFazl1UDZiQWFlX3RJZlMxeVdWWUhaekpJVF9JUWJPUTJkLUE?oc=5",
+      "pubDate": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "UEFA Europa League 2026/27 - Supporter Ticket Information - AFC Bournemouth",
+      "source": "AFC Bournemouth",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOLS1RVFVROHNFeW9yY3lIVC1LLUdvc09ITkczYlFiV0tvQ2JONDd2MU5tbEl6Q3N0VDlLYU0xYmZZUm03ZDFWb29GbzVnNmVmRUxpTEFjUFBMaEVKLWp0Q3dPeDd3Q0lGVGxMWEtZZm1xVm1zOUNZVE9KcUt2VWtmZURCY3ZsTlViNE1aenhlQ0VtT2Y0YjI4bXZ4c2dMeGhydDJn?oc=5",
+      "pubDate": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "category": "general"
     }
   ],
   "reddit": []
