@@ -1,55 +1,48 @@
 {
   "slug": "west-ham",
-  "updated": "2026-09-04T10:12:33.457Z",
+  "updated": "2026-09-04T20:07:25.675Z",
   "articles": [
-    {
-      "title": "West Ham United: Amanda Staveley invited to watch win over Wolves",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5HTlo0ZlNwQXZjSlRldld6WjRkbHJtaWIwS1BMWERCczR2WW1oTVlnekNmUjNpZlI0QWs4dUZaWUtPWkVCSjJ2UDZVQUVzUnBNd2FTSmhQd2tEZ0hkUFh5SGlkMTB5YTg?oc=5",
-      "pubDate": "Wed, 02 Sep 2026 10:46:48 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Adama Boiro | The First Interview",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAxYVAxOWE2QnZkY2VpQWhUQUZfVWRWTFNrY05LV01EenYtbVFnaHdkcGx1VUV4X0hESWdvQlVTMl9Xd2FMaGd0ZXpraFZWbktkck5nSXVuOHFJU2ZMdmhOUl90QWtoT2ZFY3BBaEhkdUMxQQ?oc=5",
-      "pubDate": "Wed, 02 Sep 2026 15:46:15 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Adama Boiro: Five Things West Ham Fans Can Expect From Their New Left-Back",
-      "source": "Claret & Hugh",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbjJmS3ExcjNjMXlTRDktYTBVaTlieFVzeURnNlgxbGs2T01KeEZ1d0pYcHEtaVFWWm5qZTFWTXRQcHRYbEE0U25COEE4aEttWVA1SjJhTUd4SjUxRHZwUDJnNDFPbHl2cDl6cFhodnZXdjBfM1Nta0FES3ZMbUUxa2RYM1NFUW9DNXRCeEVoajR5d1VHcXdNVjBCSEtFYlBrWEg3RmRvTzk?oc=5",
-      "pubDate": "Wed, 02 Sep 2026 13:41:17 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Adama Boiro: West Ham sign Athletic Club left-back on season-long loan",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBwcjlfY2lQOU1JWXNrck5RbUk5Ui1iSGtfWlJmZm8zQlFhcUNwNWNjeHl1MGVwVEc2SG84RmZ3Ukc2ak8tN0xSOHpDNS1BSjJlTU5wOGtPVFkyamx2cEhWdmNZR2lsRjA?oc=5",
-      "pubDate": "Wed, 02 Sep 2026 12:14:15 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Joel Piroe risks wrath of Leeds United fans with comments on city after West Ham transfer",
-      "source": "Leeds Live",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMEVHVkdkbjAtckNCNEY0bzNSbzlyU2xscUE2Sld1M3pCbEhBUEF3ZXktYnh3MjRha1VSbV9VRzdDZlA5VVBkTFhKWmtjcGlXaU5ST0pENldVUkEyTVdxRW1CaG0zTkkyc2t2RElDbTJpZ194VFFoT0lIclVLai1OVUpwcHZ6VGJSRHfSAY8BQVVfeXFMTndMN3FyS0g1anhxRS1mdFluNDlxV0c0UlJpcFZCNlRHT0pLLXhIZmdlUG5udXBPUExpc3FPUFlsQjBhR1h3dDVCaHplYnlUZGs2bnM1WE04djN0TXpJZkhsd0M4X1Q0RlprMkc2UVc3WDlRWk96aEpWVHZvLTNHZ1laWE5CNnc0UmVyRnpnRDg?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 08:59:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Křetínský Chose Sullivan Over Staveley — West Ham Fans Won’t Celebrate",
-      "source": "Claret & Hugh",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTFRpUmY4R1Y3dTY0Ql9VZDhaU0FGUWR5emh6WU9VX0UwV2dyMDItYjRaODJ1blBwS1U2RnR1WmI0ODVkWk1mRTJVTTlZMTFQR3dZZDJzMy1PUTJ5QmI2MG1rY09oOWdwVHJvQnVmWDFCM3FLamxQRjlUZjJsbzRBeW40TUNGdWc3RENCbWljU0FGTDhpWkJTWkx6X2lfM3lS?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 09:06:56 GMT",
-      "category": "general"
-    },
     {
       "title": "Austbø | I love training and love being here!",
       "source": "West Ham United",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNRGV1Qkotel9pMzBGXzhOMmJzdTJScTRpQWhEeENOQTI0b3ZwU1l3X21mVzFncHlwUE52SWpRWUxnUXhvOVFSeFJueEpBRXh1MUV0Mk51bUhHbVJJdUgyeGhKNXhKV0ZJQ2JfRGw3VHQtZS04clZHOFZTOVcyZGJsVQ?oc=5",
       "pubDate": "Fri, 04 Sep 2026 05:30:28 GMT",
       "category": "general"
+    },
+    {
+      "title": "Daniel Kretinsky agrees to be West Ham’s largest shareholder in David Sullivan deal",
+      "source": "The Times",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPV3FVZTB5YUtHaTE1VDVEbENZd1FxMVBKMW5kMlZJT0pYblhvMXdJVTZzUmNHeld6VUNIUV90YkVBdHMxaFVvUGRiLV8xNE9VODlmQTVoZ21SSU9VNjV1eE91VFFFSUgtaVBVRWhQdGczdk9DZzE3TklXUFUydEQxbFc5MEttNUNoUEx4OGQ1NE9ZdDdTQ2FzTGNFMXd6RTJOT1hTeDRiVmZuVXRnR0ZXV1dFRUdaSlEzTGlv?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 15:10:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Joel Piroe takes bizarre swipe after swapping Leeds United for West Ham",
+      "source": "LeedsAllOver",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZWxRRlRtQVFuWlNIdjRsUlU4WjFyelF5cjhqTWZYcS1TaURTN2xJYWVZaU1sX0MwMXk3LWhWdXN4YzlRQmp1dTBSTmFYbmhKV2I5QnpqcG5UWkI2MTAxMTMyZGlzRDcxTXlZYXVFaE94NmxiUmNXNjMwM1VteWoyek9ON0l2X2Vya2VhYVhwd2cxN2xTdEJSOTY2R1k4eEJacmFj?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 17:18:10 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Everton failed with £45m deadline day offer to land West Ham forward – Exclusive",
+      "source": "TEAMtalk",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUEhLNWlKc3lhV3ZBemwzS0RQSzY4TGlXM1c1WDFCbXlCX3B2M2VCcU9mMTJuSVRwd0thNjZHai1MYlg2NWEyU0FhX1UtdkJTRTN0NmpKZmRHMWIwanEzNTZEeTI3TTdzOXNNVUNaV180cnFpVkUtVHRIdzVjajYzUzJlSy1uNUhaMVN6QXpHRXJEWS1hRXM4RklERWQxVk41a1E?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 13:55:44 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Moyes’ desperate deadline day bid for West Ham forward revealed",
+      "source": "Claret & Hugh",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdjJjaFZlRnRDSzYtTjlrQWZvRG5RM0JVeUJDNEtjYXZISzMwYU9DVWtQRjFoUmw3NFhHMXQwTm1JNGd1bm1KWE03NF93N1R2Zk1kMTZkR1k0NXNVVWMteFhwT291T3hSNmFnZ0tFblQ2ZmRKa0xFZVBCZDNFRFVkTjFXOXRoTFpadk9rREwwTHI3UnpEU01KVW9R?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 17:55:48 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Everton 'considering' move for Sheffield Wednesday, West Ham and Wrexham-linked star",
+      "source": "Yorkshire Post",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSkVDemtXekswM2RFeXR4OVBYT2RJT0tIUWduWnVNVFZUXzNCRkd4VklndWZOVnJfbE84eG9BY1NWalp6czRVOHRuZDBsN3F2eks5cURsSTZOQkFLbHhBS3JOTnN4OUpYRVlaa2pXY0xEdzZrTVB6bnpwdG1Cb245T2JibHNUN1dPZEVsQjFZN255VXlKSU9tQVVzVXAwODBnQXBYUWtyNnBxSmZib19pUUtHUDdGTXlGT3c?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 11:44:00 GMT",
+      "category": "rumour"
     },
     {
       "title": "West Ham United vs Derby County: Championship stats & head-to-head",
@@ -59,10 +52,10 @@
       "category": "match"
     },
     {
-      "title": "West Ham United v Derby County | All You Need To Know",
+      "title": "Training Gallery | Full focus on Derby",
       "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNT0owNmQ3ZmpEajgyUHpWcGJjcTFzRkhMS3UyOVlhamtDQ2tUUEwxMU9VWXBXTmlZNk9mNTdlYTIxWjU4X1F5QlMyem9Tb25NcnVlM2ZDMk1DaWNxZW9YV3FYc2JkUjlBdnlrUXpCQ0k5aERzdWE2QXR6RmRseE1DampZYlhnZXlzYnctTQ?oc=5",
-      "pubDate": "Thu, 03 Sep 2026 10:58:19 GMT",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0tR0VxeXdEOTFpOFo1M29VTkpZaVJJYzhiRnRTRXRmWUh1VE9uZnEyOWV0cnctUHFzRjhGbzV5STB2ejg4UW1XTVhDeG1ZRjU5ZWFCdTY3ZlNUTGd5M09TRzU0QWZoX0ZtakZIVG1zRlN6RzQ4ZzNRcA?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 14:24:07 GMT",
       "category": "general"
     },
     {
@@ -73,39 +66,46 @@
       "category": "match"
     },
     {
-      "title": "Daniel Kretinsky to become biggest West Ham shareholder in blow to Amanda Staveley",
+      "title": "Sunderland sign West Ham United defender Bose on loan - WSL Full",
+      "source": "WSL Full-Time",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPRm5sLXFYbFg3ajdFeWhMVHNwYjRpNGxSeEM0b3laR1VrYjNsVFBfRGMtS0RNSVRkcDctMlh5ZjhwMjhSdFBNUWVFT0IwV1lvOFFRQkRTTW5YT3lWRDRxaDBwVHdKaDVNTDRqRVNfam9TQXpQaHAtb0kxUVdfR0M0VTJyTWx5RFBjbmlfbzJvN2JWUDVWS1RZSdIBngFBVV95cUxOcUtXcWpwR0pTdkoxWHJCT1pDWVNIN0wwRFlCdEtEYWQyVjRNQWpkOEtqRzlVbDNTOTRxSWstUjFjdktVUGpxcURuMGl6NmRRSGl3RzFMY1Q0bnlXcHdNSlNGbnRwVUNycTBnaEtOU1hQSktvWnNIOTNxREtQVnZ4THExcDBqTzFQUHRWbzJ5YnVzSE5laXhZYzBHQW51Zw?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 15:31:49 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Women’s Super League 2026-27 preview No 14: West Ham",
       "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPclFGdm0tNVhnYTlteVRndWd0TWdXVjVqcWp2c0JZUDByQjVBQVd3UW9YbUoyZkRLWnhNRmJ3cFNXRjN2LWIwdmxoSDNHeFYzdEExRTZQVlpoRzllM19hSmJUNHFaRzZ5MVVWd3IybldEUWkyRVNIbjBXTHZTT3dpWF9RWHVEMG5peFNDR3BjNF8wUzBCa1F6d1lvTVc3bUJ3SjZzYWltcEdWcDFYdFhHczd0TXBvTUk?oc=5",
-      "pubDate": "Thu, 03 Sep 2026 22:39:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTGdCa1R3VXQxV0ZQWmhvYmVDXzBRM0ZGYWZzY3BrckY3Yy1ZcmdYYWVXOWRBUFlWcVRLMkJ6QnpkU3BieFQxV3RPT1o1YnNjOTFIQ1VWSEJwQzVNWHhKVDhZb1ppcDJndGw1c08wWmRNVFVONTd4bDhBUkxDU3lQUThXWS1naDF3QnFDTzZJWk9lOTRlZlhaT1BCVnRRMGQx?oc=5",
+      "pubDate": "Thu, 03 Sep 2026 23:11:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Spurs vs West Ham (WSL) | How to watch, team news, kit colours, key information",
+      "source": "Tottenham Hotspur",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTWZEV2dfZndyZ1ZWOUt0QVBPdkNVcGtfT21uMXZ2azFuNi1oS2xmbklVbENPQzdkaFlaamVxaTgwbzJHSldKdnVEcGJ0dTEzRkhiZi1yU29zMjlrUEpGLWNfeE1aVG9ISmJYcmV6VjhvSEp2TFdxVGQ0a1FCNEVQWTlCV1hDU1V1Ty1HSkV5bTJVc0FlblhTREptMmdKZUJ6OXlHRTk3UHBPc010SkxHM1B1a1dQSHl5NlhaTXBZejl1UQ?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 09:46:42 GMT",
+      "category": "match"
+    },
+    {
+      "title": "West Ham ace wants European move after being left out by Nuno",
+      "source": "CaughtOffside",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUlg4UlVwTEo0blY2LXN0dnF2aXpjOWhwRkhTNHNZOHA1WmdURFhza1lBeGNWR0djN2VWdUdmTHlrenlHUHM3SnZadHdzYkJJWVBXcnotUzQwZVY2czd5OGR5NlhOenN1eEZnMlMwLWVNNTNxd0Z5Y3Bvc2l1MmxNQm1FMk1xa0F3ZEFGTTA5Y0RyX0JUdTFiUmZYU0EzYU9VZFg5bGRB0gGrAUFVX3lxTE1EWkJpX09udXVNRFk1UUh5VWloLWtrblFfSzZkZ3ZZc0RONkZ1ODhXdWZSUWl4VWFUMTYwTFhQYUpDMGpVWnZMRnRfNGx0T21TSFpubzl5cjJTbDNQeEF6bTU5TmtLWG1ZQkpKQXJkVE9ldDl2X2g1U29VNXAyTkl5RGFjZVNMVWFRZ21HaWowOEprMnhTWENiVFRpUnhfZUFiTE5KQWZYak1fcw?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 14:30:00 GMT",
       "category": "general"
     },
     {
-      "title": "West Ham tickets",
-      "source": "fulhamfc.com",
+      "title": "West Ham (A) Carabao Cup tickets",
+      "source": "Fulham FC",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBJeHBuUEVkSnBucmt0cmpSd0pRUy05Zjd5WWVHUjdDTUliOXRrbnF5VkJfTzBrR3h2ZWplV2xfUGM1SWptZ1pBcnh5VHpHNl9oUHZSc0hjZlZ5WE01aXoteHZPTDQzOFRIRDc1eThyWXZUQWM?oc=5",
       "pubDate": "Thu, 03 Sep 2026 15:30:00 GMT",
       "category": "general"
     },
     {
-      "title": "Amanda Staveley locked out of West Ham ownership as Daniel Kretinsky becomes majority shareholder",
-      "source": "talkSPORT",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxORG10aFJFaV94MGJqSC00XzVzOHFWWXhDMGk1aHp2djFpNncxc2s5MW9tZk5Vemx5NmJCRnZrRVR5UXJFaHl4YWtWdmx6RGhpM0tORi0yaGJIaUJ1ZnpibnE2U0Y0TmF6YzhvNFE3VHB5d0M3WWVRSGVlZnMyM0M1WGJRenB1ZXpReWJmelh1RnpxaDkyUlE?oc=5",
-      "pubDate": "Thu, 03 Sep 2026 17:37:08 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Amanda Staveley blocked from seat on West Ham board",
-      "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRkhjczVrMDcwU3doOXliZENwVGVYV1NvVnQtVFNuVkdoZTJXaGx4NWF2U0RWY0hXOXRSOUZsaWRSa2dLUjZuUHNfYmo2eTdmM3F3YWU5Q2JFYUdWT0VEUFVHY1BRRFRxbmdkS2FHeEFGT1FMZXVUN1VoNktRRGk5SGkyXy1BV1BTYi1XTDFYaUY0bDVNWUNXMERBeTlFM3JkTzNXRkJaNHUxdw?oc=5",
-      "pubDate": "Thu, 03 Sep 2026 21:32:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Vote for your The Kingdom Bank August Goal of the Month",
+      "title": "Saki Kumagai | Career In Pictures",
       "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNR0tFYnN2WC1DNmJRa1BDTG1HYi1ReGdkVlJfNEdNU1BSOTdKWXgzc2hoSW5wLUJKUmQwYzRZTjNaSkRMU0RlSWR6N253bXJWUDVTWE5hTU54aXNEQUt5NWVuSElRdnNMWWpJLWFEZWM2RnRSbjg4czBvWmZRdGpOWEpORV9wNFR5eTlKRDRB?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 10:03:07 GMT",
-      "category": "match"
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE82a2UxR0h6RHQ1YzFpbDYtam5BS29RWTYtQXJScW9rWVVhdGdfa3pWR1IyVnN5ZmtfYU5qeV9ZSUw3Wko4MzNSX0Nwa1o5LUhkcGJ4ZmRyRVNBWmdpcU5BNHRqWV9wMUFUTWlxc2lqT2c5Zw?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 15:49:20 GMT",
+      "category": "general"
     }
   ],
   "reddit": []
