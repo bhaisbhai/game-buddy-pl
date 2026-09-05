@@ -1,26 +1,12 @@
 {
   "slug": "leicester",
-  "updated": "2026-09-04T20:07:25.675Z",
+  "updated": "2026-09-05T09:41:24.210Z",
   "articles": [
     {
-      "title": "Full-back Joseph signs new Leicester deal",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9EZ1F1ajN5NVk2eTEzdEdPV1lIY0ZCbmcxcmxBcHI1dFNnTGxHcF9tUDlXUXVDRzc4R3RDZTFHdXFVSTRnV3FxbnZLSTJ1ZUhaZTlISTBSMEp4cllKSkY4X09mNkw2RzlxMnc?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 16:47:28 GMT",
-      "category": "transfer"
-    },
-    {
       "title": "Preview: Leicester City vs Oxford United - prediction, team news, lineups",
-      "source": "Sports Mole",
+      "source": "sportsmole.co.uk",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPeGl2cFN0QUhLWVliT1dLdGJsQUdpV016bkJndjFMX05DTHVlcTRtUG51RjZEMHg1T3ZCZC1JTlhlUTRVR2s1bExpNlhxbjY1N01VQ1NhSHh0WGxLRXBRLTZJNzY1Y3oyQzdfek56WW5KNHROeFRkdFI5LWhyaWlIVER2OWJ2c0ZHNXRlUUw3UHhfSDc3dTFsNHI5bkNkVGp2U3BZQjFUZTNPWGp5ZzZsRTVNanRHS1YyNHBhckhpdEtGX3M?oc=5",
       "pubDate": "Thu, 03 Sep 2026 22:36:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Leicester City vs Oxford United | Match Preview",
-      "source": "Oxford United Football Club",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRlVJTkkyRHdCdjJITE5LdGN3VXVxWEFCeHkzQ3JUVTZlX1dScHhYdHR6RWo3VEJ4clZ2RzEycWY3QlU5T2JNX2NJaE1tWl9NZ0VrLVJQSVh0cmZhVHozMXJHZGNBNy1OLUlDVGxBNmhpRm05VkhrT04tRUFTMmZSNw?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 14:46:54 GMT",
       "category": "match"
     },
     {
@@ -31,6 +17,20 @@
       "category": "general"
     },
     {
+      "title": "Russell Martin confirms Leicester City hammer blow as key man ruled out for the season",
+      "source": "Leicester Mercury",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQ1FEREVhX1Zjdi13Tm5OUWtDTEFjN2tldW9fcnVjNVVSR29ORzVxem9JYXBKdWpYdTl2WGNleDNlQnlPLU9hQ0txLXdhbnE5VVdQRW52THlrUTdTdmZqeVpnU2lDYnBWOFJzYTc5NVkzVTJDY2NWWlhsR0gyVzdoQjhELW5HQVJTMkJtZDVCNjEwTUU3QjAzT3hPSUJUeTI1WlE5QmpkNHAyOFd2SG5GSw?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 13:44:00 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "‘We Have To Be Hungry For More’ – Martin On Oxford Test",
+      "source": "lcfc.com",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWnBfQlEwT2VnUy04a2p3UnFUTmZkVFV0LUdBdFRlTVdLcmVxdnJ1RlZ0VWVEYmU1ZEFYM0I1TXJieGpBUGwtRTJWZGlqMDNQaUpGSExtNU1mS2tTUS1wR21MZEpEb29hSHZmTWV0cW9jV0t5bzJhN0JzV0luakFJYXdrU2VncjRPZTN1N0hlZ0NYUWVHSGo5anJfcld3SnV1Z1pEcWk0OXpfaDBPMUlEM1R2Yw?oc=5",
+      "pubDate": "Sat, 05 Sep 2026 08:19:14 GMT",
+      "category": "general"
+    },
+    {
       "title": "Jakub Stolarczyk: Leicester City goalkeeper ruled out for season with knee injury",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5yT1R2ZU9IZDRWUWRFSVhtU0VUN1IwZVJHSm5SQUNaalVzV3ZoeEs5ak5DNUVOUmNNb2FSOFFRY01jYUhfRV9XdHZZVE0zdl9DZElEdjBscjdJZzduUm5ERnlVM2tqdEE?oc=5",
@@ -38,10 +38,24 @@
       "category": "fitness"
     },
     {
-      "title": "Our Next Chapter Takes Shape As Summer Window Closes",
-      "source": "LCFC | Official Website",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcVU2di1KYWp5M0JNVXNHMks0TzgtVlhRU1JwOGNiOFoxay1tMEdCLTZteHV3OXMydzQ5OGdNbFgwb2wwV1pxSDRkLTZpY094NWZBMV9Zd2dHWWV2ejI2MDUtdDh5THNNdFEtRTd4ZU5vdERxWk1CbUQ4YkNPSkJ0OEI2SWJ0NEJlN2ZHVFBNa2J1R1RuVHpuTnFfUWZHdw?oc=5",
-      "pubDate": "Thu, 03 Sep 2026 16:40:00 GMT",
+      "title": "Leicester City vs Oxford United | Match Preview",
+      "source": "Oxford United Football Club",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRlVJTkkyRHdCdjJITE5LdGN3VXVxWEFCeHkzQ3JUVTZlX1dScHhYdHR6RWo3VEJ4clZ2RzEycWY3QlU5T2JNX2NJaE1tWl9NZ0VrLVJQSVh0cmZhVHozMXJHZGNBNy1OLUlDVGxBNmhpRm05VkhrT04tRUFTMmZSNw?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 20:30:39 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Full-back Joseph signs new Leicester deal",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9EZ1F1ajN5NVk2eTEzdEdPV1lIY0ZCbmcxcmxBcHI1dFNnTGxHcF9tUDlXUXVDRzc4R3RDZTFHdXFVSTRnV3FxbnZLSTJ1ZUhaZTlISTBSMEp4cllKSkY4X09mNkw2RzlxMnc?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 16:47:28 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Jamie Vardy Could Make One of the Most Surprising Moves of the Summer as Club Consider Approach",
+      "source": "GiveMeSport",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQclFEN0hPNVhLYUx2YzdZXzNHbkdWX1QwWWVuQnpUektJeENRdElDQ3Bwd2Q0RkdqNm5WSGJENEdEWlFmU04wekxuX2N3TjN1Z0txc0I3b25kNDlsbTY2S1pLcko1bURmRjlsVGNRdGFGb19CRkU1ME9HTnpmc0tqYUlKbFkxWVVJTGJKS096Y2x2MEtiWlVr?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 09:29:54 GMT",
       "category": "general"
     },
     {
@@ -52,10 +66,17 @@
       "category": "transfer"
     },
     {
-      "title": "Transfer rumors, news: Could Maguire depart Man United next season?",
-      "source": "ESPN",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN3B2eDFWUFl0blh2S3MwZEZMUDhiaFpnU1Y1Q0NDMWpnYmFqUlhvZlNKNzFFVGxpMVlzZVdtbmZ0b0FDMGlJdUVENEw1SGlXbWpqclpjODZKbkl2Y19udkI0STVkZS0xdkJLcDQ2czhFb2dXMjN3Y0pRZUg1azQwT1MzSHRDbUpFdkJjTGFMTHJBN0dORXc3cDU5RkxUTWVEM1NjZHFIXzVqM09aRjB1blhXVVpDNVB1WXE5czRB?oc=5",
-      "pubDate": "Wed, 02 Sep 2026 23:20:00 GMT",
+      "title": "Russell Martin drops 'might be a change' transfer hint as Leicester City man misses deadline",
+      "source": "Leicester Mercury",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdHZkVklDcmVaaWJGeGNpc2pyXzc0akZ3dnB1Z3hRVUxqOUt3ZFVVWmdMVnJFcjQ1M3dReVl2Q3FyVGxfN3oyWDE3ejNiekwtelZDWERSVUxGbTR5VHpGNUowUFJrRFNsQWpFaTRmbThFbERJdS1uRkxVcVpqWkdzb3NKdzRndkU5SzA5YVhVRDlaQ2Q5cWk4TGwyWnFEdmo2RFVFRkZPNksyQQ?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 14:59:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Man Utd had 'very big' offer rejected in final hours of summer transfer window",
+      "source": "Daily Mirror",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZ3hEeDNhNGN2M24telR2SEduZXBuX09VM0o1U0ZLcC1RQzlaLWhXWG91VTEtODZtbVlObVRhMkRELTdRS0lCSU9qZjliS0o3N3JLQ0x0a2lHOHJlT2lQbW9PeEdOUkhpZmNmX0hXZDZTUndfZ1pfUjdXZHNsM21ocXdRb0MtNlUwN1c2U0ZLOVFONTgz0gGaAUFVX3lxTE9FQTRfbmR6TFlaTW1YczNNVVh6dmV0cjBmSUdheXlIckJERlZBZUxKaTRzbnlPOERWOUVacmVZWVh1TDVVbnR2RC11S252aktGYWhBR0JHbVRPUUlnbmZSX1ZXazU0VTlpWU9WNGdYbGpNaU5hUzNIQ1UwYU5adThWSVFQeGgtanRxVlFoRkZoeENieElqRXRKOUE?oc=5",
+      "pubDate": "Wed, 02 Sep 2026 18:14:00 GMT",
       "category": "transfer"
     },
     {
@@ -66,46 +87,25 @@
       "category": "transfer"
     },
     {
-      "title": "Emil Riis' Bristol City exit explained with light shed on striker's deadline day Leicester move",
-      "source": "Bristol Live",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPa2d5SlJqQ09Bb1AtUlkxVWhmR0w3cFpNY1FQdjNyS3kwTzFibkd5aklUUi1SSDNkejRqcnRJZ1Y5dG9vS2d3TzNnMFlhUklIZkZuMEtOV1ZWb0VPVTNpRGFSZUZYVS1VbGFRaDdHNnBMMmlHSzJBOTFlam1PUmZENXNjZS1BaTlpWEV4OXRfRVVSSXhFRWF3MW94QQ?oc=5",
-      "pubDate": "Wed, 02 Sep 2026 06:00:00 GMT",
+      "title": "Oliver Skipp joins the Addicks",
+      "source": "Charlton Athletic Football Club",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9JRk8yVDBtLVZCSkJHeGxjN0tvbGJyekozUnR4MmxNbHdndFVwblJLWDZwTlhZYklIUldFWEhlaVpNMkhveTc1SE16V0g0WFpGeTlVbkZpVG96RDhlVkhzLTJuVzA?oc=5",
+      "pubDate": "Tue, 01 Sep 2026 23:32:20 GMT",
       "category": "general"
     },
     {
-      "title": "Hull City promotion hero and ex-Sheffield United stalwart makes EFL return",
-      "source": "Yorkshire Post",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeWR2NW5LX1BWTXZTaFJiUEdsak45WXdoMWFraGFfY2otZHp6MlJxT3NCZzVRVDJsSFJXc3BxUE1CRVJHcy1ZaXlXVllRejB3NWFrUWFzNHpCd0o3c28wSFJLMHRPTS11Vk44SW1wdUZRZElqV3pBNHFuOTRRYkdFX1l3VVQtUEpPUUlhMHNrdFJmQkRLaV81dl9pdmczSEswcW80V2NCZWs4MmsyN19IdQ?oc=5",
-      "pubDate": "Wed, 02 Sep 2026 08:03:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Leicester City outcast could find post-window exit route after West Ham move collapses",
-      "source": "the72.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWlJkbFVoMzVNZjB3Wms2NnlySllPbWJGTV95ZUVGekV0aWlpZkVHanBzdFJ0NUJ5Z3BEc21vUkNjb2JScGFUbkJfcUotWFJzSzgzdjllbXQ2NEgwUmtIbnRyWXFlWTVFamcweG1Kb2c4UlpRNHRacmQ5M3R3THFRRw?oc=5",
-      "pubDate": "Wed, 02 Sep 2026 13:03:20 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Choudhury Departs Leicester City After 21 Years",
-      "source": "LCFC | Official Website",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZG1lZjFFMV81Z0E0MjFxODc1TFNMSk4tOFR4QkxieHAyVllNMzl5ZXpTYWYzTWFVSUp2bkY0dWh6MnVSZkVfMXR6VEVuM2h3RVZhSC1sVlFQdkl3UTdsZmthWW1CMnhiV0tTN2l0UU9vb0UwN1BXaDlkcWM2a0tkT09pQkxOS1BHZERKbXhCNjlrRF82SUlvZ2RUWDU?oc=5",
-      "pubDate": "Mon, 31 Aug 2026 11:53:35 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Riis joins Leicester City",
-      "source": "Bristol City FC",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBiMUpmMHBucm1BWTZ1aUVLbUxNU0hOT0hpNHA0MXFRWDdTNkJpY2c2X20wZVRrRC03WHJzVUlVclRPLW0wd0tQM2o2SnVXYWlFQk1fa0ZGSXJKbEtoa05xdHBxQzFyNFJFVFl2X1BDdGo?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 14:31:21 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Ilari Kangasniemi: Leicester City sign Finnish centre-back",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1CTVJuMkpnQjdZQjlfMkh3aDZHaWFCbHA5akV2RXVLUkFUYWR6dU50YkNMUUNCX0dncFdfdVY4QjRuTm1VeUdpSmlUcFVpTUVOa0hiSGJkcmJFZVBBd0NBZGJfc185ZTA?oc=5",
-      "pubDate": "Wed, 26 Aug 2026 07:00:00 GMT",
+      "title": "Transfer rumors, news: Could Maguire depart Man United next season?",
+      "source": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN3B2eDFWUFl0blh2S3MwZEZMUDhiaFpnU1Y1Q0NDMWpnYmFqUlhvZlNKNzFFVGxpMVlzZVdtbmZ0b0FDMGlJdUVENEw1SGlXbWpqclpjODZKbkl2Y19udkI0STVkZS0xdkJLcDQ2czhFb2dXMjN3Y0pRZUg1azQwT1MzSHRDbUpFdkJjTGFMTHJBN0dORXc3cDU5RkxUTWVEM1NjZHFIXzVqM09aRjB1blhXVVpDNVB1WXE5czRB?oc=5",
+      "pubDate": "Wed, 02 Sep 2026 23:20:00 GMT",
       "category": "transfer"
+    },
+    {
+      "title": "City Up & Running With Plymouth Triumph",
+      "source": "lcfc.com",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeko3cUVYd25SMTdCNDZJWk41ZnRwYm5odEhHMVB1cTRDYXQzR085TXc2OEVIMjZBanE0cGFOaFBnYzBOQ3JrMlZydk10TGtlVHFyeEVMZWIwcDB2T1Y3QTAzQjFVMGwwaFBIdTVKWFdhZ0xTVUVMWnR5eUdGbmsyVGt6bUlvcXJaamRicENOaFh6N1RTR3FnbnBjSHB0QQ?oc=5",
+      "pubDate": "Sat, 05 Sep 2026 07:00:12 GMT",
+      "category": "general"
     }
   ],
   "reddit": []
