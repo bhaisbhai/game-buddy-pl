@@ -1,7 +1,14 @@
 {
   "slug": "man-city",
-  "updated": "2026-09-06T09:56:41.740Z",
+  "updated": "2026-09-06T19:50:34.309Z",
   "articles": [
+    {
+      "title": "Manchester CIty 3-1 Birmingham: Champions' WSL title defence begins with victory",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9vLXJoN2EzaFN4MEJITi1JWkZKZFRFVEhfMk84eDU0V1V1VXoxa2tLU3hhcWV4TWdFWThIVTFVQmdMZVZqWmtJMTMyS2IzODBBV004UHV0T29YZWNVVy0zZ3hKVUdyUQ?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 15:20:00 GMT",
+      "category": "general"
+    },
     {
       "title": "Man City 1-0 Coventry: Erling Haaland ensures perfect Premier League record is preserved under Enzo Maresca",
       "source": "Sky Sports",
@@ -10,11 +17,11 @@
       "category": "general"
     },
     {
-      "title": "Ndiaye and Fernández set for City debuts against Coventry",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaWlycmFOSzhqSGM3T1hkQTZGQk9PVURBSjIxSGJDMUEzUWNvZjB4MU5zc0E1UHZBbVlfNXZkSmtWcVEzWEp3aFJOaEJNSDZUb0xkWW1lWXFUS1F4NUM3VkZwc0xvTF9XVXdwS2hPZDZoUjQzUV9yOENlVXBpanNZVEttN1ZrSHJKZjIyYQ?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 13:55:00 GMT",
-      "category": "general"
+      "title": "City kickstart WSL title defence with hard-fought Birmingham win",
+      "source": "mancity.com",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaHkyOTVhZkxLS1lwWUtIVmZVWGhfTHo1eWFsRWptZXFWWWtibVNSUEdVaXhqY0pLb3RpbWJvX0FoWFVWc0dvU2hCbGdhcFljZF83ak9SU3JsSjdGMWtHaVVlQkF1OTJBb1FfeDRkQ0tnTHI4eTUzcXp1Y2ZBb3BDVDlDbFJxTDk2R0FibQ?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 15:30:00 GMT",
+      "category": "match"
     },
     {
       "title": "Adult star longingly reaches out to Haaland at Man City VIP experience",
@@ -24,11 +31,11 @@
       "category": "general"
     },
     {
-      "title": "FC Porto v City: Kick-off time and TV information",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOUt2elo5aklRYi1ubWVCWGUzNE9lSUpWOWJtRFF5YS1WR29qbzdZR19waHYzc3FtcEpZMXgwU2pacEhpQ1k5ekhFa3VXMGVUUVVMTXdzNGg2NHRGZ2FWdC1vZ1pXbTJON0N1MnRJM0tleWgyN3BieVNxNDlQT3ZJVF9WRHQybVprZnc?oc=5",
-      "pubDate": "Sun, 06 Sep 2026 08:00:00 GMT",
-      "category": "match"
+      "title": "Ex-Man City chairman says club's £440m spending 'making a mockery' of Premier League charges",
+      "source": "mirror.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSXBNdW9BTXk0U3RldzRkUFRjMV83LVRzTFd0c0tUcjlWeUZ4Q3dqejdUcXVQRnJUZWdjbzk2c3N4MWpUZ0pFN1JNekhjNGV0MURMZGhJYWwzWGpLTkFoWVl6WlVPbHIzMnFjV29lc3JHeUNSQlNXZjdBUUtQalRMWU94ZUxUNG02RThMeEw1RHJOLXNoSldVYVdJUjDSAaIBQVVfeXFMTnRUUV9HNlV6Wjh4YXh6Y0ozYkUwc0pjZ29tWkg3NU9mREZJbkF6c1kyLVViVm1Yci1CLU9zVGNmQXUwM1plaDA1N1RUYnhYR3FoZ05oWWEtQkFkb1Bxazc2SngtM2ZZS2x2TE9ONXdkOE1yV0ZvVWVaZjk3MjZUY3pDcXBnQmFCanVCd0NZZGtGdzJnWHVnYmVIRENCTzM0VFNB?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 10:18:00 GMT",
+      "category": "general"
     },
     {
       "title": "Striker scores debut hat-trick vs Man City just hours after leaving Manchester United",
@@ -38,25 +45,18 @@
       "category": "match"
     },
     {
-      "title": "Enzo Maresca makes Arsenal squad claim after Man City beat Coventry",
-      "source": "Metro.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcWtOdzk1S1N0R3FlbnZmY3gyMVd1eDdTMmhLYlh3b3ZLUDhpZlVNUnpXUGVsbS1NYnRkd0NqMk92Y01mbkV2MUNmcENrZkttUGgwcmZGbFRjV1ZIWlVlUnJ1eG5hQ1NVWVg5RERkai1DandOYzZLTjNwSlhZejN2QTdxdHkxWTJBbll2LVhRV3ZxR1p6dnBUMnVPSm5SMjhIZTlzeNIBqgFBVV95cUxOWnN6YVBXZy15TXZkT3VPWXFiZUR4RmEyUkZoWVMwYVFILXMxZkZpWDdtZFE0QXJwQ1ZwOFZDa0hDRnVVTjZWbUs5cnNtU2dERG91SlIyOHNHRmhpa3FlZm5wZFY3X0kzNHQtTWE1RnhyY25HcEw1U0R5LWFVTTd3enJ1SXd5VkRtME1KOUpXYVhFT2t2ZGhtaGZLVWw5UUF2ZmJtcHlGbTVhdw?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 21:00:00 GMT",
+      "title": "Exclusive: Puma to Release Special Manchester City x C.P. Company 26-27 Fourth Kit",
+      "source": "Footy Headlines",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNmtTSnFldGhJNGd4SXlQLTFZb1NvQ2V6Qm1MVU9wRTNXSjdsRjRJT1V0MV9LcF9GSWV4bW1LU2hxS2VhZWRHWmV2NnFXckxSdzZtRUV4QUljbXFEWXQ1a19xS1Z6YmVzeEVFaDcxejBMeWFLYmlZNGZSaHd2NUh5OExkTTd1WnpadE9CeFE0UzVvVHlRc0RxYjFmdFhhb2ljOHVIRmlzUHJlaU9pak02OWpUQ0NqVTZNLURxeHVidm5aaTB6YlE?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 19:23:00 GMT",
       "category": "general"
     },
     {
-      "title": "With Fernandez and Bouaddi, Manchester City suddenly have so many midfield options",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOUpGV1g5N1Bha2J3UEp5SnlEWTRodnFlU3VZZFhidzRlUHNka0lWbmZiSThhWTVSNEltS0dNUmFQQUh2cW5tV3pBdVdaUnZSWFN0VWZPMDRFanpMWm5mZERoT3l5QW91dkxwNTJhTVhvN2lxUjVRWEdlS3lpejVtRWFTeFZXQjJxOWJuWHRFeW5nd29Icm9nTFZqRlJ0TUl5aWlZ?oc=5",
-      "pubDate": "Sun, 06 Sep 2026 04:23:00 GMT",
+      "title": "Fernández is ready to face Coventry, says Maresca",
+      "source": "mancity.com",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11Sm41MEVkelRrWmVsX1poSVVlUzlnWm03dGJDcHBMVzBSbExaY2ZrRExrR1VUWGVuYTZpa1ZqU3BZYlpQUmU0M05yT0JVN29aY3JsSHdpY0JYZkRnaHhSaXQwNmUyei05LWtGYTRqaHAwLTNUR0xkUEtISURWUTQ?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 12:50:00 GMT",
       "category": "general"
-    },
-    {
-      "title": "Enzo Fernandez taunted by fans but his dark arts help City win",
-      "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNei1kdldWaVplbDA4SUFha2ZmdlF0WGViWlY5bDl2b243WmE2SkZfLUFWVWhITEQ2VTNqalc0SEFaSzkxTW13RC1kbEc2QVFMS01IWWllYWdBQjVPdzAxRmlMS2k2anBNU0dLWlE5N2g0WGlOVVBlRW9qX0Fjb01PN3FxTThVZmFtd0d5Z0hMUkxpUk1IRVVKYzFwUXVIcW9HWTFhMg?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 16:33:00 GMT",
-      "category": "match"
     },
     {
       "title": "My old club Man City face 115 charges but spent £440m. That can’t be right",
@@ -66,25 +66,32 @@
       "category": "general"
     },
     {
-      "title": "Exclusive: Puma to Release Special Manchester City x C.P. Company 26-27 Fourth Kit",
-      "source": "Footy Headlines",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNmtTSnFldGhJNGd4SXlQLTFZb1NvQ2V6Qm1MVU9wRTNXSjdsRjRJT1V0MV9LcF9GSWV4bW1LU2hxS2VhZWRHWmV2NnFXckxSdzZtRUV4QUljbXFEWXQ1a19xS1Z6YmVzeEVFaDcxejBMeWFLYmlZNGZSaHd2NUh5OExkTTd1WnpadE9CeFE0UzVvVHlRc0RxYjFmdFhhb2ljOHVIRmlzUHJlaU9pak02OWpUQ0NqVTZNLURxeHVidm5aaTB6YlE?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 19:23:00 GMT",
-      "category": "general"
+      "title": "Chelsea asked for shock Man City star during Enzo Fernandez transfer talks",
+      "source": "Metro.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNd2ZBNEI2NVlYNm5hcDlxTXFBNDQwTFRsREFCdVp0R0xSc0xOMzh0c0lJc0d5b05GOU9zLW05S3RWS3FtcldKc0pSQ2pWeFFONUttZk95UkVOMEIxZG5fSzJ6bV9UM2x4R3pVOVZOcFlwS0F3MkRUZTNjUURmVHI1V0FLTHJ6UkY0aHNVc2J3Tk1IUmtmbmIwNDhTOUJBcGFBUFlOYl93TdIBrAFBVV95cUxQZXpOVkZ6VHAxMC03SDRmSFlBVVdaaC0xb1VtN3lXTWhkM2xxZl9VeHVTekpqMXV2UERnUDBybTJ6STZFRVBWNTlicWxxdWduakpEV0hOdGlwMk5OUDBHcTBUTkJlMGVqUGxFajRHS2RXRGlEc19OSHJCVUVkbmJzZy10cXpCdnZ4ZU5lWjQ2T1FIZDJDZllWZXRGNUhwVG5ZQk0zRkF6YmJOUTA2?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 10:18:00 GMT",
+      "category": "transfer"
     },
     {
-      "title": "Ndiaye and Fernández make debuts as City continue winning start",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQ1EwSjQyWnlNXy1MdWRuVWlzLXUyZ1ZXeFByOEtsendwNjZWbXkxdnktRjV1VEwyMzZlcmxQY01FUmNiSndGbFlVTzVEU3hBM2lNcUs5RW82N3d4RFlTRmY1TWE0REk4ZVNZRUhWTW1fZ281eURjNFl6akxUdlZkZGFVbVlDWHBuYTNMbHpPNWw?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 15:55:00 GMT",
-      "category": "general"
+      "title": "Man City admitted transfer mistake as Lampard caught up in MLS storm",
+      "source": "talksport.com",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcHpWaVFHTjJIUTY5MjVndDZTQlRuclZGUnBUVDRLTHN5NnFsZVp6ZERia1FHMTdlaHk4d3R5UjJyTDFZc3VHbkRUWVk2WC11NUphbUdQQmNlckdKQzNncVVhSGNuSTFkNk1HVDdUUjFMSWlXeXNLY1R3U3J0WUdFcTV1bURrQQ?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 14:24:53 GMT",
+      "category": "transfer"
     },
     {
-      "title": "Manchester City 1 Coventry City 0: City player ratings from City’s scrappy win",
-      "source": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb3huNS13Rmp1QUtkSEk2RkRMRGxPOUVtd3kyVlVpMmdSd2w4QUM4S1ZUOEpzQnJGMWc1TGY5dlQ2M3g4SVM5MlRldGNPUWZJOUlSb09pZm1jUDdEbl9ZcnJ3bVBVZlFuMkU0bWxISUR1SFoxbVNsWEJ6LUNWckR2X0Q5U2dYUWM?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 16:35:00 GMT",
+      "title": "Former Manchester City chairman: the club, charged with 115 offences, is making a mockery of the Premier League",
+      "source": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxObzQ0ZVJfRFVjOUg0UkVubmxzS2pwZExuekUyRW9zcDZsekZTZGo0cGRKT29iTVV1cFg4Yk9PbGlBdTV0bWxoX3ctdzdyMkNVSWg0RkJTeWg2T1BBcUNVRFItVGlHSExNSFI1Rl9wTDBRaWQtWVlKeGJDT2dvd2szVkRZV1F3czdLZEFnMDZxb0RZaF9CWlAwYmxJNng0bVI2dER1NVh0dDVlVTNZQ1plTGlfV25UYjBrbUZqT29yMDV6ZTlIRnF2Uk5iRnhxU2tFQlg5dDExYVYza2dT?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 10:45:26 GMT",
       "category": "match"
+    },
+    {
+      "title": "Birmingham",
+      "source": "mancity.com",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRTA2RVNZVloxLU9aaUFYSU5rS21RMzlCcDFyMUdhS3k4RUtnWFltNjlpN3c2VUNkMXRmRklNWVQ1VzdFNG50RTVkQUNzT0FmNG10cFVqb3BVUDU1LXU4emxrNHMtZWtVTno0bF80MnRLamRPbFFRZ211aHIzWmlLd2tuODFZdHZveUF0M050Q2lYMXpBRmVJRFd3bGRjNmljZUE?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 15:41:08 GMT",
+      "category": "general"
     },
     {
       "title": "Manchester City 1-0 Coventry | Premier League highlights",
@@ -94,17 +101,10 @@
       "category": "general"
     },
     {
-      "title": "Manchester City 1-0 Coventry City",
-      "source": "Coventry City Football Club",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTlZIMld3NFJnRTRTc2swamxub3VhcjcwSXVWR19MYk9vbmhjdEdkRkhtcU1yVWlOVm1IbGR5b1pFal9DZV9IVmpCNXJOWHBHWmMtMTNZYVMxOWpCTDNFMlF6eU1CQTdpb1FXc290YnhsY016ZXVMVDNsUkhEMmJraTE1eEpUYlVa?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 20:07:23 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Man City vs Coventry LIVE! Premier League match updates, news and score",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQXzc1SS1LeUlZUUxTV0tYVzJmaWVwVExMU0hQNzdrRHJGWXg0ZzRWVkZyN1hqT3lqemhpM2wzUHc0aGNGdGUwQjY5Zmpob19WMjJ1VFRwRlM0UjBKX0NfdUpPQjdMMmNNQUptYlJRN1lJcE9uMFViaEpGZU1oZlUtMmw1TGdsRjZINzVuN0laUHl4bVNOMGpVUi1ObGM0UXpLVVcwU1plV2lfWW9lU0p3UHM1NzEyNWhzWjBWRjlodUNmeV9CSlhnYQ?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 15:41:33 GMT",
+      "title": "FC Porto v City: Kick-off time and TV information",
+      "source": "mancity.com",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOUt2elo5aklRYi1ubWVCWGUzNE9lSUpWOWJtRFF5YS1WR29qbzdZR19waHYzc3FtcEpZMXgwU2pacEhpQ1k5ekhFa3VXMGVUUVVMTXdzNGg2NHRGZ2FWdC1vZ1pXbTJON0N1MnRJM0tleWgyN3BieVNxNDlQT3ZJVF9WRHQybVprZnc?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 08:00:00 GMT",
       "category": "match"
     }
   ],
