@@ -1,34 +1,20 @@
 {
   "slug": "southampton",
-  "updated": "2026-09-05T19:46:48.811Z",
+  "updated": "2026-09-06T09:56:41.740Z",
   "articles": [
+    {
+      "title": "Saints player ratings as Schlotterbeck stars but substitutes anonymous at Lincoln",
+      "source": "Daily Echo",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcVRaSFhJVWI4TkhHcEpBUkc3bHdabFBoVXR2VmRfRFFjWTJrM095cVpXM0pMZzE3bE5nZ2p0WjFsUTkyRDdvSmJVdlhmSnpDQTFwd1JLSDVybEZtbk5hSHN2dXVWTlJXUWZERElmVUl1eTktYnhEckFlajZnaFY0ak9jVVBiNGZNaTVXX1M5aENnSkxaeUEybk1CQ09BMTdiOTExWjFNRmpfOEQzenAw?oc=5",
+      "pubDate": "Sat, 05 Sep 2026 20:00:00 GMT",
+      "category": "general"
+    },
     {
       "title": "Lincoln City 1-1 Southampton: Mikkel Ladefoged rescues point for Imps against Saints",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1QR0tQdWYxSGFDWkNLWnAyaDZSYXhaOGROREpQVjllZzVZR2hzZkhFdVJqZXFvRVhMeEZkTHNDOFpsMkpkZi1pZVFJWUptbVQ4N3JLMXFXb1c3S1dTMTRVZmxTZWtoZw?oc=5",
       "pubDate": "Sat, 05 Sep 2026 17:21:15 GMT",
       "category": "general"
-    },
-    {
-      "title": "Southampton transfer ratings: Ranking all 8 summer signings from best to worst",
-      "source": "Saints Marching",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaGozRTdWdHFoRGluSE96eDYwMS1OTGlkUFc1NG9ra3BBRWljWmF5ek5NOWd6LUd5SjVhXzdZbXlMbkw2S2h3ZGZ2WEkwTnRnZXpUU1c3UVJ6RWZpbjl6YWJ4c2tjMElrcmQxQjVOZjlXY09Hb3l6dmNDbXdINXE3a01XNlItZC1mTjExZ0dkdlhLZDU4MThSbE1EcGxIeTZ2Y3ZHMTN3TQ?oc=5",
-      "pubDate": "Thu, 03 Sep 2026 08:00:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Lincoln City v Southampton",
-      "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOejd5a0o0MG9JWFlqOFVtSmFyS1lEM0x2VVVoZkhMZXRXRkZjdWJTUlFoOWxjTlNCeEpQdlpHQmEtZmdhb0VPTmgwRmFGWG5pUldGay16UHJ2eGw2elppeDJZbm16ODBKdHpLOG85aUVUYnlSZWEyTkRXaWRLMU42VG5KOUtKdXFUVWluaHQ1Vks0Q19Lb3QyUnpBVy01RTdLWmpQRUJnTEswTzA4RUhWd25CSGF2dw?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 14:41:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "U21s Report | Wanderers 1 Southampton 1",
-      "source": "Bolton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE14SFBTSTdnU0ZMTXVVV2NBektZWjFYdm43cFFrdTB4eEM1ZHllMmlyRVNpNUpKVFUwc2VmM0tiemFmaEdHN0RHbkVMc191UzVWVXV0eG4xNmFTNXZ0SkJ3bjBqY2VJaXRXaUptbUhrd2tXREE?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 08:57:20 GMT",
-      "category": "match"
     },
     {
       "title": "Lincoln vs Southampton: Welington boots in belter from miles out!",
@@ -38,17 +24,73 @@
       "category": "match"
     },
     {
+      "title": "U18s report: Arsenal 1-0 Southampton",
+      "source": "Arsenal.com",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTFFLOWRWUWxXS1g2aXVhcFJKZGZUZ0JtaVZHRGZKdkhBYUxGNWtKc2JUREpITUhRdGtYVU81SW5RdTJlM3VoS3BNYy16T0NfZk5BRzd2cjYzVGFGM3VXejF4YlF5WUNSR3VMS0VJNnZUblNKMzdqRE1xS2RCUElqQWNPTQ?oc=5",
+      "pubDate": "Sat, 05 Sep 2026 14:27:03 GMT",
+      "category": "match"
+    },
+    {
+      "title": "U21s Report | Wanderers 1 Southampton 1",
+      "source": "Bolton Wanderers FC",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE14SFBTSTdnU0ZMTXVVV2NBektZWjFYdm43cFFrdTB4eEM1ZHllMmlyRVNpNUpKVFUwc2VmM0tiemFmaEdHN0RHbkVMc191UzVWVXV0eG4xNmFTNXZ0SkJ3bjBqY2VJaXRXaUptbUhrd2tXREE?oc=5",
+      "pubDate": "Sat, 05 Sep 2026 08:57:20 GMT",
+      "category": "match"
+    },
+    {
+      "title": "What happened to Aaron Ramsdale as ex-Gunner drops to 4th choice at Southampton?",
+      "source": "Daily Cannon",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE83X0EwQnhvQ21RVDZBTkJiaDRSczJ4TF9VZ2taeHZJVHZYeVNDanlrR1R3eHBUN1Q0Rm1ab2paRjJsZTdKQ2Y0VUxrWHhxWE1wZzVQNHNOaG9VNEhJTDdQUFRTWllhV0d1NE83dGlR?oc=5",
+      "pubDate": "Sat, 05 Sep 2026 19:01:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "From Denmark With Love: Lincoln City 1-1 Southampton",
+      "source": "The Stacey West",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOT0gtZHRZbE5RSFVZMk1KenhSSEwtMFVpNWp4UHVUZDliOTZIUVpNU1VFc0JnOUNtLWFvS1h0OWxJMVlnOW85dTFWd0x5eVFTZnlWUGVtcmZRSXNzQ0JVSEEzZDR5TExnQmdnSUc1UktwZW9jUlUxTnMySWdYYjJ2N3NuQnlVZ3huSFVRX0t2Zw?oc=5",
+      "pubDate": "Sat, 05 Sep 2026 13:27:57 GMT",
+      "category": "general"
+    },
+    {
+      "title": "This Southampton striker was worth keeping, and his replacement just keeps proving it",
+      "source": "Saints Marching",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPXzBpMVM4YnRQN3Q0Z1VZWkNpX2xkM0dQczhCRmVHRHl5ODdmSHliakdaU0ZoQkdMZDBwbXVtLVcwbVRYVHMtRjFtbnB6LU9GVGZDdzdqeC1wTEhza1BEaDJwNmJxT09JblotTjRrZ3RJUDdmUktOZmlGRlNGanVUaHpBblVjVEdoUVFxdmhlMk9ZbzhQdl8xVzlCeDVHbVZOWHNOVVZDR1hnclE0UTZBQg?oc=5",
+      "pubDate": "Sat, 05 Sep 2026 19:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "‘High level’ - Saints announce signing of teenage goalkeeper from Wolves",
+      "source": "Daily Echo",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPa2VMYm00d1N3OTl5U2Z1YmFSVW1JVGlyUllTUVpRbDF4WXhPeTE4N29vQm9NaFVwaUJBc2pIN256SGlnX1NsbXhGUVZneFNjbUdCM1IwUzJQOFM5WVA4WHB6bnd5dHFyQi1fb2hrY2sySHRETDVnT0pNVVMxcWU4QmMtOUdxWkRfMkJpcDZFdEpzV3h0YW8wREF4MFNWUQ?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 14:09:51 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Downes says Saints 'haven't got time to draw games' after Lincoln stalemate",
+      "source": "Daily Echo",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZkZUWXYwZmxKbXBPeW15Q19lUnN0LW9KYUU3eWxydnRIZXlNZm9MNDU2TVl6V0ZRT21peTZ6WVdQUmlYd0FYVzB0THQweTRLZU9OLWlKODFkNExISmtUOE53WjFHUDRfVnM0dG1zb3k0NngxbnZhdXVwSVRfdEJKUkVlNmItOGNJWVlMcVJvLWpyN1NqZG1sNzlqdUpZNXVHeDJMUlBZOE4?oc=5",
+      "pubDate": "Sat, 05 Sep 2026 13:59:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Lincoln City v Southampton",
+      "source": "Southampton FC Official Site",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOejd5a0o0MG9JWFlqOFVtSmFyS1lEM0x2VVVoZkhMZXRXRkZjdWJTUlFoOWxjTlNCeEpQdlpHQmEtZmdhb0VPTmgwRmFGWG5pUldGay16UHJ2eGw2elppeDJZbm16ODBKdHpLOG85aUVUYnlSZWEyTkRXaWRLMU42VG5KOUtKdXFUVWluaHQ1Vks0Q19Lb3QyUnpBVy01RTdLWmpQRUJnTEswTzA4RUhWd25CSGF2dw?oc=5",
+      "pubDate": "Sat, 05 Sep 2026 14:41:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "TV details: How to watch Lincoln City vs Saints live at home this lunchtime",
+      "source": "Daily Echo",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORFhmcGptbDczeHlwYU5GLTR0QXF2bDVKand1VTNQV3BPQUFWTEdjTDd6eG9FZk5PTkthU3JIdDlrVkYydTliRzdzVm8teU0wQjVPSTVBaktlbkxCWGNJNUtZTWhoaEp0YmRuV1FQY3FpbU9jTGVwZ2pUM0g3TTBoUTBQeF9TXzlqRW1GN3pZN3pHUUVpVWZIVmVjUl80WEhibEE?oc=5",
+      "pubDate": "Sat, 05 Sep 2026 02:30:00 GMT",
+      "category": "match"
+    },
+    {
       "title": "Eckert: We need to grind these games out",
       "source": "Southampton FC Official Site",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQmY2SkJzcmpYNEZqYlJaYUhucGprSEFhWk1VSHAtN043UjFUd2tBLV9odVlnV2Vmc2w4VzQyVGRqNElmN2FRQzFsQXpEdE5ER2FFNUR6MTJRSHZXRktFYWxBTG4wVFJSclVOaHl1dW9YeEsxbFhWRF9RU1ViR3lsNUNYN1JvcXpaWnRNeXdR?oc=5",
       "pubDate": "Sat, 05 Sep 2026 14:25:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Lincoln City 1-1 Southampton: Watch Flynn Downes react to the Sky Bet Championship clash | Southampton FC | Video",
-      "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQS2ZYdzBQUXFhSVpvQnhTX01vMHVtS1hXV2VhY3FLY2NHalZUUUFkR3NMMDUyLVFLbGxhcVk4THJ1OFUxWHFSa21uRlNuVEpjcFgweThEUjNnWWhSOUFTTUFQT01yNVlKNFJrTmhpQ25HMGZqOUR4dVVMWDdKNDhlOGs0VXFHWW9CRHl0SGdCd3kxaVM2RUltNjZ2a2w2VjBOUGlUQnpxTGlHNU9iV2xpUTN3anlqd2JsVE1ac2tKbEU2VlhTX3l2dVJOS2gzWW1XWVNodEd4Y2MwalZzcXd1UjUwSVNvN3ZEVnZraWRzUUlGS2thNi0zUVNINXMxcng3OTJndVdlaWR0SzA?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 15:07:16 GMT",
       "category": "general"
     },
     {
@@ -63,48 +105,6 @@
       "source": "Southampton FC Official Site",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbmRTcjB5UG8zSlRLSWtPV0hkUU0xS3UxTV9RSDB4VzQxV2VpX0tBOWw0bllsdXNneHl6YXRoRTBDZUZXbW9HbzRIQm54VlJWUEJlNTJJcmdtWlo3RFpla0ZOZTYxYVBuZkpicjU4cUFacDZkV1pfOXZtVFBhT1FPZUpHeWRzNVdf?oc=5",
       "pubDate": "Tue, 01 Sep 2026 11:30:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Abbott available for Lincoln trip",
-      "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWHlFS25SYmlweS1mdWNTRnBPU0VoY0xYSGlQbzFNajVjOWJxWmQ5a01tRmgyZFdsWkFKTmYzVmtjWFdMajdDUVZQZERiVEZWN2h6NzkzVXQ1MERkUHhnZ3hNNWdoNWlsVzI0WjY0UDlhQUtqLXBhTGFYdnJXUERxU0MyOU1yZw?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 07:14:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Goalkeeper Xander Grieves joins the Academy",
-      "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPU2sydHhNSmoxMHo1aUkwaDdBR0k1OWsydFVJd0R0eXRrWmU4NXFVQ2JrVjBLX0pubDRVLWxQUVRFZzBsYUNoaWZwZE1tSXV3NlNlT1JSN0p4WHFiWmtQOGF4b1BDenhfZ3dIRmxuS1F0VUVhbEpNNm5IdEFBV0xkNHdBY05KR3ZCb2NjSkVCeUNJdmM?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 13:58:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Women's Preview: Durham vs Saints",
-      "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdzhuenlUelNjdEYyZnpsOVFvUVdUMDJDX2V1X0ZMOTVSMGxRLWp2OUJWalhLT1RGLU4xdWxvOWEtZWZnbDRLd0l5aHg2VWQzUmg0NTE5Y0trdFU4RHFZNFN6QXlRT0pLNTI1LW1DNFFsWlNHVVR2dXRwNjFJM0VEeVYtalFjaHc5aUE?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 07:30:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Downs departs for St. Louis",
-      "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9pOElhZm15UUNOSUlmMmpVOXpEeVNLa09ROUVkbUVhc0pvSTVYNEh0dmp0ZWQwSDBGOTVmbnkzSTlvQ1lNUFlDOV9RSVNUQ2FkNFRyWW9FcDE4SjBiVUc0OXczT2RWV3puWU1rQ2REV3NEenBVaGUwM3M1akU?oc=5",
-      "pubDate": "Wed, 02 Sep 2026 19:29:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Additional Sales window announced for Portsmouth",
-      "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQM2tLUnp0SUxyZHY2MUREXzBTQ2FzOGstZEhYMktFbmpqaW5na3RWT1ZIUmxTenFKcGlVZEZZX19SQmpzNzBPVE1qSFN6TXdaRnBVellyOXlIcnJPSklWQ0pkQnM5akdZV0ZXNHhybjU5eU9XVUhtLVBzX1U5MmZXTXFZQW1VanZFNzVBRTVZLUdVVUxiZUlOQWd3?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 08:30:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Eckert excited to work with \"standout character\" Abbott",
-      "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSUxKU1BmNHYxQk9aMXpPZUQxQWlJQWJYMW5sWU9DNGZIRU9IMmQ3aktzWktISG8wRW9UZmd2LWl2Q2xXOWtPX3hZY2UwbTl2dVVjZnB1ZXBlTkNIRHdFUUZ5R3JHX2ZxaDhqVEgxOXhEcXhkYW5qTEpLeHdVVGkxUTBOSm1GTXd6dUN0RHVPdjVYVlVLb3BzZ2trR1ExMXJK?oc=5",
-      "pubDate": "Thu, 03 Sep 2026 11:00:00 GMT",
       "category": "general"
     }
   ],
