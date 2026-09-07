@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06T07:41:21.888Z",
+  "updated": "2026-09-07T07:59:14.520Z",
   "snapshot": {
     "1": 60,
     "2": 49,
@@ -11,7 +11,7 @@
     "8": 57,
     "9": 53,
     "10": 55,
-    "11": 55,
+    "11": 54,
     "12": 95,
     "13": 74,
     "14": 64,
@@ -20,7 +20,7 @@
     "17": 59,
     "18": 63,
     "19": 54,
-    "20": 54,
+    "20": 53,
     "21": 49,
     "22": 54,
     "23": 55,
@@ -40,7 +40,7 @@
     "37": 45,
     "38": 40,
     "39": 40,
-    "40": 75,
+    "40": 76,
     "41": 60,
     "42": 55,
     "43": 59,
@@ -65,14 +65,14 @@
     "62": 50,
     "63": 50,
     "64": 45,
-    "65": 45,
+    "65": 44,
     "66": 40,
-    "67": 65,
+    "67": 64,
     "68": 60,
     "69": 60,
     "70": 60,
     "71": 50,
-    "72": 50,
+    "72": 49,
     "73": 50,
     "74": 50,
     "75": 50,
@@ -104,9 +104,9 @@
     "101": 50,
     "102": 49,
     "103": 50,
-    "104": 50,
+    "104": 49,
     "105": 60,
-    "106": 80,
+    "106": 79,
     "107": 45,
     "108": 55,
     "109": 45,
@@ -271,13 +271,13 @@
     "268": 55,
     "269": 45,
     "270": 45,
-    "271": 55,
+    "271": 54,
     "272": 45,
     "273": 40,
     "274": 45,
     "275": 40,
     "276": 40,
-    "277": 40,
+    "277": 41,
     "278": 40,
     "279": 41,
     "280": 40,
@@ -347,7 +347,7 @@
     "344": 50,
     "345": 49,
     "346": 60,
-    "347": 55,
+    "347": 54,
     "348": 50,
     "349": 45,
     "350": 55,
@@ -358,21 +358,21 @@
     "355": 40,
     "356": 65,
     "357": 54,
-    "358": 55,
+    "358": 54,
     "359": 50,
     "360": 50,
     "361": 40,
     "362": 50,
     "363": 40,
-    "364": 50,
+    "364": 49,
     "365": 40,
     "366": 74,
-    "367": 71,
+    "367": 72,
     "368": 70,
-    "369": 59,
+    "369": 58,
     "370": 54,
     "371": 59,
-    "372": 55,
+    "372": 54,
     "373": 55,
     "374": 50,
     "375": 49,
@@ -380,7 +380,7 @@
     "377": 65,
     "378": 45,
     "379": 90,
-    "380": 75,
+    "380": 74,
     "381": 50,
     "382": 45,
     "383": 54,
@@ -423,7 +423,7 @@
     "420": 49,
     "421": 44,
     "422": 45,
-    "423": 45,
+    "423": 44,
     "424": 40,
     "425": 40,
     "426": 120,
@@ -442,7 +442,7 @@
     "439": 70,
     "440": 54,
     "441": 45,
-    "442": 50,
+    "442": 49,
     "443": 45,
     "444": 45,
     "445": 50,
@@ -481,7 +481,7 @@
     "478": 45,
     "479": 40,
     "480": 79,
-    "481": 64,
+    "481": 63,
     "482": 59,
     "483": 55,
     "484": 54,
@@ -532,7 +532,7 @@
     "529": 50,
     "530": 40,
     "531": 45,
-    "532": 50,
+    "532": 49,
     "533": 55,
     "534": 45,
     "535": 49,
@@ -547,8 +547,8 @@
     "544": 55,
     "545": 50,
     "546": 49,
-    "547": 50,
-    "548": 50,
+    "547": 49,
+    "548": 49,
     "549": 54,
     "550": 50,
     "551": 50,
@@ -575,7 +575,7 @@
     "572": 46,
     "573": 45,
     "574": 49,
-    "575": 50,
+    "575": 49,
     "576": 50,
     "577": 45,
     "578": 54,
@@ -584,7 +584,7 @@
     "581": 54,
     "582": 55,
     "583": 49,
-    "584": 55,
+    "584": 54,
     "585": 40,
     "586": 40,
     "587": 50,
@@ -653,120 +653,209 @@
     "650": 45,
     "651": 45,
     "652": 55,
-    "653": 45
+    "653": 45,
+    "654": 45
   },
   "changes": [
     {
-      "id": 13,
-      "web_name": "Rice",
+      "id": 11,
+      "web_name": "Mosquera",
       "team_name": "Arsenal",
+      "direction": "fall",
+      "old_price": 55,
+      "new_price": 54
+    },
+    {
+      "id": 20,
+      "web_name": "Dowman",
+      "team_name": "Arsenal",
+      "direction": "fall",
+      "old_price": 54,
+      "new_price": 53
+    },
+    {
+      "id": 65,
+      "web_name": "J.Araujo",
+      "team_name": "Bournemouth",
+      "direction": "fall",
+      "old_price": 45,
+      "new_price": 44
+    },
+    {
+      "id": 67,
+      "web_name": "Rayan",
+      "team_name": "Bournemouth",
+      "direction": "fall",
+      "old_price": 65,
+      "new_price": 64
+    },
+    {
+      "id": 72,
+      "web_name": "Gannon-Doak",
+      "team_name": "Bournemouth",
+      "direction": "fall",
+      "old_price": 50,
+      "new_price": 49
+    },
+    {
+      "id": 106,
+      "web_name": "Thiago",
+      "team_name": "Brentford",
+      "direction": "fall",
+      "old_price": 80,
+      "new_price": 79
+    },
+    {
+      "id": 40,
+      "web_name": "Rogers",
+      "team_name": "Chelsea",
+      "direction": "rise",
+      "old_price": 75,
+      "new_price": 76
+    },
+    {
+      "id": 104,
+      "web_name": "Onyeka",
+      "team_name": "Coventry City",
+      "direction": "fall",
+      "old_price": 50,
+      "new_price": 49
+    },
+    {
+      "id": 575,
+      "web_name": "Yirenkyi",
+      "team_name": "Coventry City",
+      "direction": "fall",
+      "old_price": 50,
+      "new_price": 49
+    },
+    {
+      "id": 584,
+      "web_name": "Hamer",
+      "team_name": "Coventry City",
+      "direction": "fall",
+      "old_price": 55,
+      "new_price": 54
+    },
+    {
+      "id": 271,
+      "web_name": "Muniz",
+      "team_name": "Fulham",
+      "direction": "fall",
+      "old_price": 55,
+      "new_price": 54
+    },
+    {
+      "id": 277,
+      "web_name": "Egan",
+      "team_name": "Hull City",
+      "direction": "rise",
+      "old_price": 40,
+      "new_price": 41
+    },
+    {
+      "id": 347,
+      "web_name": "Nmecha",
+      "team_name": "Leeds",
+      "direction": "fall",
+      "old_price": 55,
+      "new_price": 54
+    },
+    {
+      "id": 358,
+      "web_name": "Kerkez",
+      "team_name": "Liverpool",
+      "direction": "fall",
+      "old_price": 55,
+      "new_price": 54
+    },
+    {
+      "id": 364,
+      "web_name": "Tsimikas",
+      "team_name": "Liverpool",
+      "direction": "fall",
+      "old_price": 50,
+      "new_price": 49
+    },
+    {
+      "id": 367,
+      "web_name": "Gakpo",
+      "team_name": "Liverpool",
+      "direction": "rise",
+      "old_price": 71,
+      "new_price": 72
+    },
+    {
+      "id": 369,
+      "web_name": "Ngumoha",
+      "team_name": "Liverpool",
+      "direction": "fall",
+      "old_price": 59,
+      "new_price": 58
+    },
+    {
+      "id": 372,
+      "web_name": "Mac Allister",
+      "team_name": "Liverpool",
+      "direction": "fall",
+      "old_price": 55,
+      "new_price": 54
+    },
+    {
+      "id": 380,
+      "web_name": "Ekitiké",
+      "team_name": "Liverpool",
       "direction": "fall",
       "old_price": 75,
       "new_price": 74
     },
     {
-      "id": 142,
-      "web_name": "James",
-      "team_name": "Chelsea",
-      "direction": "fall",
-      "old_price": 55,
-      "new_price": 54
-    },
-    {
-      "id": 241,
-      "web_name": "McNeil",
-      "team_name": "Crystal Palace",
-      "direction": "fall",
-      "old_price": 55,
-      "new_price": 54
-    },
-    {
-      "id": 249,
-      "web_name": "Barry",
-      "team_name": "Everton",
-      "direction": "rise",
-      "old_price": 55,
-      "new_price": 56
-    },
-    {
-      "id": 329,
-      "web_name": "Rodon",
-      "team_name": "Leeds",
-      "direction": "fall",
-      "old_price": 45,
-      "new_price": 44
-    },
-    {
-      "id": 357,
-      "web_name": "Frimpong",
-      "team_name": "Liverpool",
-      "direction": "fall",
-      "old_price": 55,
-      "new_price": 54
-    },
-    {
-      "id": 371,
-      "web_name": "Gravenberch",
-      "team_name": "Liverpool",
-      "direction": "fall",
-      "old_price": 60,
-      "new_price": 59
-    },
-    {
-      "id": 397,
-      "web_name": "Semenyo",
+      "id": 481,
+      "web_name": "Anderson",
       "team_name": "Man City",
       "direction": "fall",
-      "old_price": 85,
-      "new_price": 84
+      "old_price": 64,
+      "new_price": 63
     },
     {
-      "id": 417,
-      "web_name": "Dalot",
+      "id": 423,
+      "web_name": "Shaw",
       "team_name": "Man Utd",
-      "direction": "fall",
-      "old_price": 50,
-      "new_price": 49
-    },
-    {
-      "id": 462,
-      "web_name": "Steur",
-      "team_name": "Newcastle",
-      "direction": "fall",
-      "old_price": 50,
-      "new_price": 49
-    },
-    {
-      "id": 464,
-      "web_name": "Wissa",
-      "team_name": "Newcastle",
-      "direction": "rise",
-      "old_price": 61,
-      "new_price": 62
-    },
-    {
-      "id": 559,
-      "web_name": "Bamba",
-      "team_name": "Newcastle",
-      "direction": "fall",
-      "old_price": 50,
-      "new_price": 49
-    },
-    {
-      "id": 487,
-      "web_name": "Dominguez",
-      "team_name": "Nott'm Forest",
-      "direction": "fall",
-      "old_price": 50,
-      "new_price": 49
-    },
-    {
-      "id": 147,
-      "web_name": "Tosin",
-      "team_name": "Spurs",
       "direction": "fall",
       "old_price": 45,
       "new_price": 44
+    },
+    {
+      "id": 442,
+      "web_name": "Pope",
+      "team_name": "Newcastle",
+      "direction": "fall",
+      "old_price": 50,
+      "new_price": 49
+    },
+    {
+      "id": 532,
+      "web_name": "Ballard",
+      "team_name": "Sunderland",
+      "direction": "fall",
+      "old_price": 50,
+      "new_price": 49
+    },
+    {
+      "id": 547,
+      "web_name": "Mundle",
+      "team_name": "Sunderland",
+      "direction": "fall",
+      "old_price": 50,
+      "new_price": 49
+    },
+    {
+      "id": 548,
+      "web_name": "Rigg",
+      "team_name": "Sunderland",
+      "direction": "fall",
+      "old_price": 50,
+      "new_price": 49
     }
   ]
 }
