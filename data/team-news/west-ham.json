@@ -1,40 +1,54 @@
 {
   "slug": "west-ham",
-  "updated": "2026-09-06T19:50:34.309Z",
+  "updated": "2026-09-07T11:06:05.383Z",
   "articles": [
     {
-      "title": "West Ham 3-0 Derby County: Hammers earn back-to-back wins",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5aMldUZ0xIZVJnaVRlYjlOaXJ0cGVqcEtQc1pCcXBVZkp6c3JlckxkbC12R0xWVmhRcG5LYzhfZDVqVG84WGlreng3V0hUUEJLQ2x6QTg3Y2p1bjZhaEdLMzVqN1g5dw?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 16:36:45 GMT",
+      "title": "West Ham United 3-0 Derby County: Joel Piroe scores in Hammers win",
+      "source": "skysports.com",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeV9wUl9TTHIwYzU1SUYtS01rUEo0TF9Ga0puVmt6UkQ2ajhPTGtGaFBqSXE2WkZaeFZvMm56QWQyZjNPXzA2V3VfTVRVMDVMams1RnkzMlF3dzZfaDJ1Mkc0aEtGalhDV1p6MTVoRElIcGs1UU56U05ZdHZGaEdaVjVHUm9Mal9iLUtXandzdFI3d3k1YTVtNlRFbW52YWl4aDhuWmVzMzc1WDJ0N1hNUFkwYk1UcGlaaTg2Tw?oc=5",
+      "pubDate": "Sat, 05 Sep 2026 14:55:57 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Ligue 1 Side Reveal Why They Took Underperforming West Ham Player: Right Choice For The Hammers?",
+      "source": "The 4th Official",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQb29hMkZ4MVlkblpRUmQxbUFMLVVfZGhMN3FOakpfSUJhTzE1a0E0RnB4R1BwVVRYcFhVTV9KWTFSbWlhUm9nMGw2aC1LQjkxT0F2cjdveGkyM3hucktyWm5JXzdZNjhyMldhVm53czBpam9laTRvQ0p6N0xVU3NIU1BQcTVhMWQ4dGVtLUkxRnY0SG05VENRM1Z0MG81bmJocy1UNm9hQ0JWYTVoRk9NRU1OQzdIdE5TX3l6UTlnLVVEZ0NmUWQwdWpB?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 21:20:11 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Frankie Day signs first professional contract",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNblg1eURxSWpwSXg2am1BczFieUNtWTM2dDM0cjRxN2tNUi1kdVFINU9VQjlwTEFfdjBHOHRodzFUeko0ZXZzbUtpV0VLRWdKRy1wMHVtOVFoSkdvNXFPZ290eEY2UndFcGJMY3BzWjYxeGRZcnA2YjBPRGV0N0V1bw?oc=5",
+      "pubDate": "Mon, 07 Sep 2026 08:06:17 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Sheffield Wednesday hopes dashed as free agent snapped up by Championship club",
+      "source": "Yorkshire Post",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPMS00UXlVdEE1ZDBDYk9QOEl3SXBockpQTWxxeENFMGxHNFF6N2REcDZZYWdYRlZSMUg2ckZIMXRaT284YXJ2NDVjLUtyZkczWDdFaHhQdENLNjl1YkVJOV9YVVZfMmppMncxVDFuOHl3ZDBia2ZSR3dUd2tlaDRMT184YUxIZ3d0MmIxYlRJQ0E1NDhtV3ZPVFpzdHJvN0RfQkhxc1lnMUpMdFJmbWROZjBkbVE2ZG5qZ0Q4?oc=5",
+      "pubDate": "Mon, 07 Sep 2026 07:23:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Bolton Wanderers face right-back crisis ahead of West Ham clash",
+      "source": "The Bolton News",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMW5ZLXBURlRHSGZ6OGdZcGNOWEFaeFRULUtkcUYwbEJwQ3FOUXVjOC1PQmdmbl9zS0Jocm8wbmtUUWtpb21ZTmhPSk1aNUZQZHhRLVc3dGFqM3pzQTdHRTJiZ3V3ZTRHeGRGRlpqczJUMENLcFNYcGdMWXJicnkwS0xYRXRxY2NPV3BkZXdqYVZJajNUTmo1NEhMZHZ2WXRqeUdaWg?oc=5",
+      "pubDate": "Mon, 07 Sep 2026 04:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "West Ham’s £22m Gamble Is Starting to Make Much More Sense",
+      "source": "claretandhugh.info",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQTM5eDZKc2p3MnBhMDZady1MMW9UZm51eDBHbEYzMkRNemR5ZHc5NDJoay1KNFQ5UmxNRWhIS1I4b2R0Zk1nU0xBOGM5TFZQdExCRkxQTmJPMkRHWUJCTlNqYW5UbERUa3d6Nk5wTGtJYlZlaG5kc3FhbW5zcW92b2NLWEM2amVXOHhnQXNZY0NwUQ?oc=5",
+      "pubDate": "Mon, 07 Sep 2026 07:45:26 GMT",
       "category": "general"
     },
     {
       "title": "Preview: Bolton Wanderers vs West Ham United - prediction, team news, lineups",
       "source": "Sports Mole",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUWN6RjBGN3NQczdZZ3ZjTnVuRDVEQjRGZEdCbjFfbTRVZ1FyZnNqUFg1NHljRFBOTkVLYUV3aFhBV0tPMER3SnhVejgxT1dEZUtHbGxTeGpxYW0yRkRaby0zSHJUUEpoTGw5cGs5VnF3N3lrS3gyWWQ2NHBxLUpKTmVWOUFkcXB2am1VWDdvdWpITWpQc3N4MV9mazVLN2RzWmJFV2pidmoyQ0NzQ3FrcGpIUUFuY2pRTDBGNGlTbw?oc=5",
-      "pubDate": "Sun, 06 Sep 2026 15:17:32 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Confirmed line-ups | Spurs vs West Ham, Women's Super League",
-      "source": "Tottenham Hotspur",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYmZZa0hrS1hsNGVZa2lxYV9oYnhSa0h1WkY0eXVqblh3a2NjVjdwd2tDNThJUWFDZjFMemxBVnhjVmRZOGhxQVRjQTRuYks4X0JHSDdXa2NONlBCTmtJUVdZOVZJOEUyWFZnQTR1V1JuMmY4UVZzblBCNUlTQ1J0R0ZvWjlxcVFCQzlyVmVuZmNwRkxRMV96dFNtQjR3b3dZNWszLQ?oc=5",
-      "pubDate": "Sun, 06 Sep 2026 08:51:06 GMT",
-      "category": "match"
-    },
-    {
-      "title": "West Ham United sign World Cup winner Saki Kumagai",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZ0FsYm16Y2w2dVJidVFRVkNWT1EzUW5rcmgtV1dFTjh5VGpCVjRtckUxTGd1aGdnOVMxbG0wblJqZnZGVS1yQUlzTldScy0wa3RsR2xzMHNfX2l4OWRnTUdYa21nVVdqaFFGQ2xyX3R6N1JzR2YybWZRY1F3cVlMQk9FbzFvTXc?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 15:39:19 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Baum scores on debut to secure narrow Arsenal win",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQOGdpaERRZm5UMmZhMEN5NW42WG9rOFVtVThhT3VJbjJNRmdDcjdSR3RWemNFYmZxd25yLVZQTVpSdFlVcDRSazNqM3V6T3BkWmZDWjhaNHpONm05b1o5b0dRZUNkS3FPUUF6bEQ3UV9xY204NjFhaFp5VXFtNFQyRXk4T1RVbmdBMm5MWkhwb1F6OVpBeEJ3cEdlX3g0TTdtWlY4T09zNkE2dW82eGRRNDVvZW9BUVVqOUlza09NdG9EQ0ZlYjJNb05lMHpSYlFXc0wwOXg0THUzRExhUU50VFE3LWk2Z0pyeXBNOFYwUklmbW9DQjdBSG9R?oc=5",
-      "pubDate": "Sun, 06 Sep 2026 16:20:57 GMT",
+      "pubDate": "Sun, 06 Sep 2026 19:31:04 GMT",
       "category": "match"
     },
     {
@@ -45,66 +59,52 @@
       "category": "general"
     },
     {
-      "title": "Kretinsky to become largest West Ham shareholder",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9tWjRHNWJnUFJnNVd4cFY2dWVHU0Zra3QtWjJEU1dXdU9Dbm1UZXlYUXpTZ2szeU1LdGhpZjlhMElhM012X3BOaHhTaGpfOEFseUJkV200VE1IWDNuVFg2ZWpGS1NveE1NaFE?oc=5",
-      "pubDate": "Thu, 03 Sep 2026 21:52:23 GMT",
+      "title": "Confirmed line-ups | Spurs vs West Ham, Women's Super League",
+      "source": "Tottenham Hotspur",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNYmZZa0hrS1hsNGVZa2lxYV9oYnhSa0h1WkY0eXVqblh3a2NjVjdwd2tDNThJUWFDZjFMemxBVnhjVmRZOGhxQVRjQTRuYks4X0JHSDdXa2NONlBCTmtJUVdZOVZJOEUyWFZnQTR1V1JuMmY4UVZzblBCNUlTQ1J0R0ZvWjlxcVFCQzlyVmVuZmNwRkxRMV96dFNtQjR3b3dZNWszLQ?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 08:51:06 GMT",
+      "category": "match"
+    },
+    {
+      "title": "REACTION: Eustace reacts to West Ham loss",
+      "source": "Derby County",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0tdkRLQmFUVXdDM1ZXVmJ5WERwdmp0cnN2WWMtLXQwNm9TLVRDNDVsSUlQTkhLMlFLLXNvQTNwY1VfTEtaRnJlcjdqUUlrYWd1TmJRZW9PR3E0T3FiVlRUTEtLWlpwbC1BQ0g1WWVUVUNndzdiQWc?oc=5",
+      "pubDate": "Sat, 05 Sep 2026 18:00:39 GMT",
       "category": "general"
     },
     {
-      "title": "Daniel Kretinsky to become biggest West Ham shareholder in blow to Amanda Staveley",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPclFGdm0tNVhnYTlteVRndWd0TWdXVjVqcWp2c0JZUDByQjVBQVd3UW9YbUoyZkRLWnhNRmJ3cFNXRjN2LWIwdmxoSDNHeFYzdEExRTZQVlpoRzllM19hSmJUNHFaRzZ5MVVWd3IybldEUWkyRVNIbjBXTHZTT3dpWF9RWHVEMG5peFNDR3BjNF8wUzBCa1F6d1lvTVc3bUJ3SjZzYWltcEdWcDFYdFhHczd0TXBvTUk?oc=5",
-      "pubDate": "Thu, 03 Sep 2026 22:39:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Six West Ham Signings Just Gave Nils Koppen Some Much-Needed Vindication",
-      "source": "Claret & Hugh",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbE1naTdTcS1ucVRCRlJPOV9ZVTlGcU1SMlZ2Q2VzM3hwMXdsZzRvRGNuUTM2NE1PSmo4RnNjcTFZNEZ6MHlWNHdOcTN1STNRODRVM2RWNWRuU19DdW05ekltQkVleVZTeUlBb3AxdENjbFMwMkZiazcwVjdFbkR3S01EZjdUYTFrbS02dkZwanhCWkw0MXBkWFJnSXJnMGZtc25NNjVVTQ?oc=5",
-      "pubDate": "Sun, 06 Sep 2026 12:47:17 GMT",
-      "category": "general"
-    },
-    {
-      "title": "West Ham star risks fury of former fans with 'London is nicer' claim",
-      "source": "Football London",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMGtCby1hQ1BJcTdiVlBqQjQ5VWFDRVJEY0ZOMFpVdDRhc2o5c2Z5cC1mZk5aSWYwNUJ2X0pib1l0MlB2d20xV1F4TmUxQnZXYUtyeVpsaHpaMXpMWTNCeHJob2JxdkRad3dlbFV5cEZPZ2RFTmN5MzBfWGFqMWlzZnlGUGNjVzQ1MHE1ekRR0gGTAUFVX3lxTE5NOUI1a1pkbDNiZWtwS2lPV0lCMlhEV1ZxcmtxSE1IcFUyMHV5Y1VvbWZGUHN1UXV0TUdnQTdlSkhFcXE4OWk3VmVDaFhZRDNrZUhiOUFnZmE1bDdLbnM3UDg0VjRmZmZRNFM0U3B6MC1PeVNKVXAzcFR5VklNZm1UOE1jbjhfckNtNkFxanZTbnMxYw?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 09:40:39 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Everton 'considering' move for Sheffield Wednesday, West Ham and Wrexham-linked star",
-      "source": "Yorkshire Post",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSkVDemtXekswM2RFeXR4OVBYT2RJT0tIUWduWnVNVFZUXzNCRkd4VklndWZOVnJfbE84eG9BY1NWalp6czRVOHRuZDBsN3F2eks5cURsSTZOQkFLbHhBS3JOTnN4OUpYRVlaa2pXY0xEdzZrTVB6bnpwdG1Cb245T2JibHNUN1dPZEVsQjFZN255VXlKSU9tQVVzVXAwODBnQXBYUWtyNnBxSmZib19pUUtHUDdGTXlGT3c?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 11:44:00 GMT",
-      "category": "rumour"
-    },
-    {
-      "title": "West Ham’s £10m signing just handed Nuno a major selection decision",
-      "source": "Read West Ham",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSGFHYjFpWUl3QWZnNXRKckhvdE80LXI2cC14THZfdUU1a29DenZZVWhhcTR2SnloaEJGa0lWVXB6SWxzUzk5clRuc1A2NTNkWXdyOHRjZGUzNFRMSTBSMWwxVVFZMXRqOW5nMHVrTFR5WkR2UnpWRmZqRlEzaE82blM2NEw2ZjNPakdVV1E2MTYtQ1Z1a2RtcnByX2dtUDNnYjBN?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 17:40:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "West Ham received late £45m bid for star attacker",
-      "source": "The72",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWnBnQ2hldWxaQzRkMFlXckZIZjRhdGdxNDdySHJka1dNR05GNG41bTZVU3I3dG5OZWxWeHBJYUZYR09SclZleGx3WTVzckxiTWRPWXhsZUF4ZTM5UXk5d1Z4ODZPWm81QVROcVhMY1RpYlBMaHVaZVp6S3ZfQjIxZzNOUi1YUHE4Y1hr?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 16:03:40 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "West Ham ace wants European move after being left out by Nuno",
-      "source": "CaughtOffside",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUlg4UlVwTEo0blY2LXN0dnF2aXpjOWhwRkhTNHNZOHA1WmdURFhza1lBeGNWR0djN2VWdUdmTHlrenlHUHM3SnZadHdzYkJJWVBXcnotUzQwZVY2czd5OGR5NlhOenN1eEZnMlMwLWVNNTNxd0Z5Y3Bvc2l1MmxNQm1FMk1xa0F3ZEFGTTA5Y0RyX0JUdTFiUmZYU0EzYU9VZFg5bGRB0gGrAUFVX3lxTE1EWkJpX09udXVNRFk1UUh5VWloLWtrblFfSzZkZ3ZZc0RONkZ1ODhXdWZSUWl4VWFUMTYwTFhQYUpDMGpVWnZMRnRfNGx0T21TSFpubzl5cjJTbDNQeEF6bTU5TmtLWG1ZQkpKQXJkVE9ldDl2X2g1U29VNXAyTkl5RGFjZVNMVWFRZ21HaWowOEprMnhTWENiVFRpUnhfZUFiTE5KQWZYak1fcw?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 14:30:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "West Ham United / Derby County - EFL Championship - London Stadium, London - West Ham United FC",
+      "title": "Academy Loan Watch | Wins for Oyebade and Brown",
       "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVE4xNXNIOHNBWTZfUlIyVVh0MmdVQUxPQy1fZEFFYlpGV0kybWxlUmN6ZkZ3OVJxNnNELTJWdE9IY294a09RbmJmNEwzUHp0cFdabTlRNWFPQmZWY19iS2t0S1VUUXJZR2dHZUFwd1d0TllMcExFYnplYlhVVXBFVlJ0OHN6dy1KanY4ZWFhTUdxNWRfSmkwNTBqNDlOZGc?oc=5",
-      "pubDate": "Sun, 06 Sep 2026 01:57:04 GMT",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSHNWOFpTZS1aMnp1Ql9uS3ZiMDhtN0VqLWNibzYxSUxXRXA1dzc4TlJUT0VjaHNkNzFrWEdoNjJhMl91RDhZLUFEVXNmSXdRcDBNOEZzMUUteUM0cmZxb040Wm1BUXJ4TnhDMHAyV01HVmlnbUxDZEVFZ29OYk85X1JkcjI?oc=5",
+      "pubDate": "Mon, 07 Sep 2026 09:32:08 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Zelem | It’s a tough result to take",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE94dWFna3g4TUNleXVFckJPa2RnTVFNcldsYzhQVnBSY3BNM19TRmh3blRrQ24yQTl3cUVoM0x2Z0NCdUJZVEs5VC1oX3diYUV0X3g0YV8xaV9WWVhQZjBrVVNkWkpaX1ppUmFWSXlqUW92TjBtak8w?oc=5",
+      "pubDate": "Mon, 07 Sep 2026 10:33:32 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Report & Reaction | Lila and Pammenter secure U18s draw at Bournemouth",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVGVMTnFtVllwdkhXblluTnI2RlVZWnoxVlFZdUxkQk9sdU54YUg1V3o4aThVdHRzRW41eW1oRmRYdjJabFd0bC0tTkhibWlxckZ4TFhCeXJ4azU1R0RVMUJicnkwTjJqRlhITzVuRE9Nc2tnQ0lNd2tjNFJjaEQ0d0lfUVU1SkpyQ3puTXlrSU9ULWNoY2RnR1B1N2dVRjQ1VEplNXh3?oc=5",
+      "pubDate": "Mon, 07 Sep 2026 09:01:40 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Women's Loan Watch | Cemal, O'Hanlon and Brasero in action",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNeHcyVloxTG1mUGJrcVI2cHMwZlBuWDJfbzI1blkwdDdTOFZqN0xGSmhWZnRaWldEWW0zSVBXbFFaY0U5WVZsVkpTVko2amZVa1VCNHNxS3dWTmZBam5lX2hfNkQwVHBUQzZnUHNhdUp4X1M2YS1mNFBGWGZQMV9nY1BTTmxnREJwWjFGQ1poRQ?oc=5",
+      "pubDate": "Mon, 07 Sep 2026 10:27:18 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Bowen | We've brought in really good characters",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPR253THJKTUpsYmNQTUxNTE4tRlRZakhvVjZySmNHUWpYamxjY003X1ZlV2V3NEF2czJEcGotRmZCZlhNN2owTzBVS1RGazlwLVBGV2VRUXQ1YlBKZk03MXQ2ZkxHdFd3Tkg0QkpFQkx1NGNqQk8tQ05qVUlOcnhiaVl4RQ?oc=5",
+      "pubDate": "Sat, 05 Sep 2026 05:34:34 GMT",
       "category": "general"
     }
   ],
