@@ -1,61 +1,68 @@
 {
   "slug": "arsenal",
-  "updated": "2026-09-08T10:18:51.721Z",
+  "updated": "2026-09-08T20:33:15.597Z",
   "articles": [
     {
-      "title": "Arsenal XI vs Napoli: Confirmed team news and predicted lineup",
+      "title": "Air traffic chaos delays Arsenal flight to Naples for Champions League",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSjNTM3N0RVFxUUR5NGV6eVE2NGxQdUpCV0lYelpCeGQ2TlpOckdMNWN2UTFzR3Y1cnNIVG5NWUhVMzFHVVl4WlRQWlVkdUItUUZjYldyazdnUjNsU0N0WE1yOWZCVHZtQ1RRWktFcF9fNFVwUVd4MlQ3QVNjeDR0SHZDVUFTUDBFTTN4Ym01MVZNblQ0NFNFODdNMUNlR3pMc0RuVzBkZ3Y3eUtKUVFodmFBYXdNZ19fOTlB?oc=5",
+      "pubDate": "Tue, 08 Sep 2026 19:31:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Mylo Bernard joins Arsenal",
+      "source": "Arsenal.com",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4ydzl4a3pfczFyaFNWcHRfVEFIcVVETEFRY0V0UGdSUkROX1d2eDB2Vm5Cb2MxdjBQbk1nVmhWZHhpbmJjMXVYZ3dyaDFCN0duWDJGRm5ESW9VQzhnc000SjdVSnBGOGh5dURFa3RwbG10b25pTUZV?oc=5",
+      "pubDate": "Tue, 08 Sep 2026 12:11:49 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Transfer news LIVE: Arsenal triple deal; Man Utd sign Liverpool wonderkid; Chelsea plot Scott bid",
       "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNeUZGaUJKSFE3LXFWbmRDdl9LNDJnTEtjM2JtUm0xeE9SbHR4UE5ocFN2UXN3T0xqV2ZuZVp4eE92Vk9uVWdDZ1ZvSUhpTGZLVGI0TDJuSGFMMVgyYXlVdDZGcHNIMGZlUWQ5YjhoYUUxZjhrTmoxcWFkM3lIM1djS1d3ckFyWjlxYnVGcjV6SmVqZlJVNnJSOGNrdnN2SFBTS3BKZGtxY2Yyd3FGRGU5YTlHOEowaGtYeHRidFh0Nzd1X194VzlqdWNNMkgxR1JPNXF6bV9YZy0zU1l4X3NXTktNeUs4cGs?oc=5",
-      "pubDate": "Tue, 08 Sep 2026 09:34:26 GMT",
-      "category": "match"
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNFlhdUpiTm1TMnVnQTJVWWg4N1ZWenVhM2o2bU5tSXdFNTVjYkw5WHBKWFVYYlNLMVg3dkVsOEg0ZnlvRmJHTTN5ZlFuZVRsVGFiOVQzUmxfQzRTWG9FcWJiNTNWeGVpZ2lCYmlBY3JCS2VhUUNXNTZkRDZWMy1XeWlCZGJYSjU4SlNFbTcwTlFobW55MmUtc0RyOGw4S3I0Z0V3SUhacVJWMHBZWlhLU0lyN09VeV9zRTY3QllVOUs?oc=5",
+      "pubDate": "Tue, 08 Sep 2026 06:04:39 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Gabriel Jesus fires Arsenal parting shot as accusations made against Mikel Arteta",
+      "source": "Daily Express",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOXzlERGxHbHI2bXlRaUpkc0xpb29ub0xQOW04UTVmU1NPQlJab0NSejZUYlliMlI0c196WTlCR0NVQTg2dU42LWgxa3hEWjB5Rk9QSGJMSmZwTW1fS1VNMnZDMmM2cWROZTRicDMxeWRiZVpFV05acHd3RUNQdldTQ2RZTUJyMUVOSmR6RjNFYkVRY3RnWTRVWNIBngFBVV95cUxQQXN0TTNHU0JfaWh5dmFVSGtfczlKamluZ1NERFY1NFB1Q0JZUWIxaDhWa01JN3loQVFrNElfeHFlZXhiZHpGZXEzUU1uVFI1OFdiOWczaGF2RHdRY0hyTXpRMUJoSjk3NDJYc19DQi1NOWVZdTh1QkhHczlkV0VHY2VEbmRyel9FT1FGQmU1OWg1alIxc0FHT0J3RkdxQQ?oc=5",
+      "pubDate": "Tue, 08 Sep 2026 17:13:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Gabriel Jesus throws Arsenal under the bus and says he was told to train alone",
+      "source": "Football London",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZXNZNXhIZTgyYjZrV3BncHdsMWNZeFNRLXV5Y2JwQzRnMUVyMDRSaGE2UHB1ZTFpa3V3VndzZk8wQzhTTGRXOGJzZ3NCSUV0S215VElMa05pejQ2QUlyVFh4dXZVMXNPLWtuV19sT0hnby1VTmxJZl9TcVE2TUhkbmxyQWlpQWJGN0JrX1VDUVZfLXEzQXQ5dTBuMkxvUdIBowFBVV95cUxQSXVCOWhISG5PTkZ2MlFjb3VjWGZUSVJNb2NoekdTLUJid3FQMzlGQ2p0bWdOTEw0bWFwNllhWUY3eE9wMUxxaWdQeDAtU3YtS0N6S0pXaVZERXlpVi1DczRTM3AxY2tGZkwtOFc4TDBlRngwQVIwWDViQ3FRWC1KeHFxVTBXYkFwMEtmNnB5QXdHMWcwc0s4V2tDblVUVFdid3NB?oc=5",
+      "pubDate": "Tue, 08 Sep 2026 17:48:45 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Secret conversation that convinced Myles Lewis-Skelly to reject Man Utd transfer and front Arsenal's latest title bid",
+      "source": "The Sun",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOSGVkeVQzdnh6Y2pKVUEzSGxvcVRWWFBwbkQ1dWF2dXJ4ODh4Ukp6V2hyeGczYm1oYjlqOGU1cDVjelg3WTdJM3lyRFpraExraVBEWkM5N1VvZ3dHYWpUMmRMckRjbVd1eEJwSjdyeGZ2Nmd3Q05SRFhuMnNYdDV0OXE1NW93UDlMOTZR?oc=5",
+      "pubDate": "Tue, 08 Sep 2026 10:36:00 GMT",
+      "category": "transfer"
     },
     {
       "title": "Watch a full match replay of our Chelsea clash",
-      "source": "arsenal.com",
+      "source": "Arsenal.com",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcUxNQjl3RnAzY0pwamlCZzRSSE9PZWNBdjl1Sm1UWWR5WlJ3Vm8tN1NZZWpRQ0lXZ0MzUThQX3hDMlZsUE9RVEw3OXUyUG5mOHEyNnNwZENKdEpWZHp6OHdvRlJFUW5nLTRveE5NUkxFQ2hfZDFQTkV0Zy1aZUJaT1JYaUF4VWFxQ2hjU3ZtSWFuZw?oc=5",
       "pubDate": "Sun, 06 Sep 2026 23:53:55 GMT",
       "category": "match"
     },
     {
-      "title": "Arsenal too familiar, Man United underwhelming: Lessons from WSL's opening weekend",
-      "source": "espn.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcm9RRmtES3BPeEtaWDgyYzNISVktOXpRUERkSWxDWm5OM3R3TXZrNm5xeEtuVU1BYUtUM3N5WEpJQmc3QlJxSzFSSE1fRjhlUW8xQUhYVG8wZV9mdVdkTW5SZkQ3ck84dmZWNEVDUTdkYzkwcDVLYkhKbGtuYUdLZndIS1JQcEd3eEpOWXpJZjJJdmdlbENwTkMxczBVRWhJRHI5eENTRkVNdDZVUlNFbUdMUjg0d3o1cUkwbEZaUEMza3c?oc=5",
-      "pubDate": "Tue, 08 Sep 2026 09:41:00 GMT",
+      "title": "Arsenal news: Awkward referee reunion on the cards as Gunners get new Gabriel red card verdict",
+      "source": "The Mirror",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ09wTmwyaTl2T0NzZ3Jzazl0WFpHZVBlTU1jU1pfemVKSzFaOE1kSkZYazNFcTc5OHdrUmVOeXdfaXhkbFVGYlREWDhpeUFwQ0E5ZGtPM3d4RWJSRmhNSFExWEFBbVBnWWZXbnJWZ2txSFJfcWU3RFZhR01rZmszUmliQWJERmFlUW1FcVJrSzdHalM4WlEw0gGcAUFVX3lxTE1VY2l1REh1MXV1SFlnaDl4NDlYNW83RTRNVURfSHJrb0pOX3hkbGpRU05lMC1VYUE5VlprMWYyX2lwR2ZleDNrV0lROVpzWWI1X00zNERsOVpCMmJ2aTAtZ3k3MVZ5TG1lMDhjemJNY3dWZlBUWjR3RDlwVk1ZTkJ2NHdyTzhFSEU0OWFIanRXTmVubWhpdjR4OHJJMQ?oc=5",
+      "pubDate": "Tue, 08 Sep 2026 03:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "'He's not a midfielder!' - Graeme Souness launches sensational 'cheating' attack on Arsenal star Declan Rice after Chelsea win",
-      "source": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWGxBdWdFVWlBVGphd1NFazFEX2wzZU1SeTJmOVFHalp5cm1CS21KUllFSmJFYkdsdjBFMkJYV2Q4RlBocWxTT2M4OEduQWp2Z29Nc3dVaExFME5NMmk3QVNBQ3BwZWhZZS13WTlJLVNBX1psYTQ3V3NVQlNDTkVkbWdzdVZZU1RDOVMyLVh4X2pwZlNnXzRNV1JpQnpuUFh5c2hFeE1sT2VJQQ?oc=5",
-      "pubDate": "Tue, 08 Sep 2026 06:34:35 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Graeme Souness accuses Declan Rice of 'cheating' as Arsenal row breaks out",
-      "source": "Daily Express",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUWozazBjcmZGak8tTm4tckl4NE10dlZNU2ZEZTduOEw5eTNvMTFIWEg3N0xPVnZndXBQZUJITjY2ZF9RdzJhLWdMTk15RkNGUElTa21mOGNYYmFJQ0dvMUJLaE93cG1VY0xVa0UwaFVUc2xDeHVGX1RYc3NNblZ6a00yTjV4S2VMNFZBc0xEYmJHd9IBlwFBVV95cUxQX0RzNFU3VlFKWTcxMWFwYmdXZ2RreGdmV2hUOHlvNlpURi1pYjdBQmxIaEg1ZWVibnRDLURDaEtpZ1hOYmQyNHdSWHJYbXVOMXkyTl9qdEY3RndaT25DaWZCMlVMV1REVklaZFdjM2ZPVHdnZFhvUEFRV0xrVkdNU2R1ZmF0ZnhZYzRIYTlnZWxpbjc1bmF3?oc=5",
-      "pubDate": "Mon, 07 Sep 2026 21:43:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "'He's not a midfielder!' - Graeme Souness launches sensational 'cheating' attack on Arsenal star Declan Rice after Chelsea win",
-      "source": "Yahoo Sports UK",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPQmJMUE5wblNXSHF1UEYyaHZkMXpSOXR6Wl9rNzlUVU5qeFpfSmRhTDI4YjA0azhWN2pUZkZhOFYtYXZwdWtzcERVdkFCVktFbVdYWnVKZmdtOC1Ra19PdGFPcFlyX3kyZG9UZ1VoLXFQdHpIZ3BkQ3hiZkR3c2JOXzNFRjluZ2p1?oc=5",
-      "pubDate": "Tue, 08 Sep 2026 04:34:35 GMT",
-      "category": "match"
-    },
-    {
-      "title": "EXCLUSIVE: What Andria Bartishvili will bring to Arsenal and trailblazer Khvicha Kvaratskhelia's role",
-      "source": "Football London",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVXVMY2k0X0xISFdzMzdQMXZiUER4VVNJeDhZeW5WS1V3ZG4yaEVlNS1pMDgwRUd5NXF0SEI4YmZDSlRXQ192TUc4TThWb3NiNVNOS1JiZ2NFZHRiaVlvTjVYOTBsTzdhWDZ4QkVRbVRxM2FfVmpsN3YxTGRacl9OdjYzMFpteVlEeThqOUNURHNTZXNNZHhoYTdLNVZvZVN4?oc=5",
-      "pubDate": "Mon, 07 Sep 2026 13:40:27 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Bombshell Arteta exit prediction revealed amid Arsenal deal done 'soon' claim",
-      "source": "Football365",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTm03R0xod09hbFFheUpKMGJVNkRxUEtzWkNZaXBHV1VCZGhJNTZrSFVZeEhrYzNWTjdsTTZfd2poUHpyalA2T0VYcmNIOHlxUXFSRFFsN2dMSFpGdHRhbkZucGk5ZjVGYW44Y0F2NXdqa2xNRkFNMk02VTFIX2U5RlNlUmxjcDN3Z2J3TGlQekJoVHdi?oc=5",
-      "pubDate": "Mon, 07 Sep 2026 21:55:13 GMT",
+      "title": "Arsenal get new Gabriel red card verdict after kick to Martinez's head",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQM2kxUTVYVXFQWEVUZzdmdmF5RnNqVjN6dTdhd0c5TnpSM2JtNHVRNlFIZ19WRFRHUm8xVG8tZ2EySlVpempkSk1wRWlaTHpwcWk4cTN3dmFmaC1ab0NnMUdwN3lQMTNydHZHU09WQV9hT1g0c2FXTlRUbHp2N21PNUdnblFrTU9TYWpYNHZLQlduc21MTDV4ZWZzNlljVzhuZmFFYjEwMA?oc=5",
+      "pubDate": "Mon, 07 Sep 2026 11:16:25 GMT",
       "category": "general"
     },
     {
@@ -66,6 +73,13 @@
       "category": "manager"
     },
     {
+      "title": "Arsenal too familiar, Man United underwhelming: Lessons from WSL's opening weekend",
+      "source": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcm9RRmtES3BPeEtaWDgyYzNISVktOXpRUERkSWxDWm5OM3R3TXZrNm5xeEtuVU1BYUtUM3N5WEpJQmc3QlJxSzFSSE1fRjhlUW8xQUhYVG8wZV9mdVdkTW5SZkQ3ck84dmZWNEVDUTdkYzkwcDVLYkhKbGtuYUdLZndIS1JQcEd3eEpOWXpJZjJJdmdlbENwTkMxczBVRWhJRHI5eENTRkVNdDZVUlNFbUdMUjg0d3o1cUkwbEZaUEMza3c?oc=5",
+      "pubDate": "Tue, 08 Sep 2026 09:41:00 GMT",
+      "category": "general"
+    },
+    {
       "title": "Unicorn left-back Riccardo Calafiori has unlocked Arsenal",
       "source": "The Telegraph",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVUtGWTAtX2tGMFpVcjdrY1oyVlZQWlo5cjNQd3p5c0pvXzZXdTVHaW1GblpmcUY0cG8tdjNkdXg5QkFpN0UzU25xMnJSVWpZSjJ4N3lCTkJ6ZnhuTGY0aDYwLXJHMml4TjZubXhnZTk2YmNPamg1RXJVM3Q4UmExTWtyczVDR3VJTGtRSTAtTkM2NFlIck1Vb1JFZE00Ym1vVnAtdlZMd0c1Mnc?oc=5",
@@ -73,39 +87,25 @@
       "category": "general"
     },
     {
-      "title": "Lothar Matthaus names one English club in his five Champions League favourites",
-      "source": "Metro.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPV0FHQnJjVFJzVlAzVFBzRUY4dkUtUW5fT2R3Nmw1UExLblZaeUhHVFNIZ2Fia0JzU21aX3gwR25ZU1VBekdaZl9HS2p4ZFg4SGZkTGV0ZDlScUZwN0ROV0RrM3JVblp2VllHMWVzc1JxUGxOaWpqZ1VZTlJpUV81aXY1TUhXZmpOWHpFeGRMVm9JN1YtRWxkZXhsMC1HbTl4S1JnXzhSSzlyM2RkM2VYSWpR0gG3AUFVX3lxTE0za1hJVVcyMUJDWWpJbDFVWFU2akxRaVRSWWpqZXltVXVtQXhHWEFFZFYxNW5RanU1YTk0SXVZc2RZVlpXYU9vVTViR1haN3lfWXVHSkM4cE1aV3M1LUFMcGktYTAxQ1c3X2UtLXRzMUN1LUQ1VTJzTk9VeF9TRXBMeDhkN0pyaElXSTF1Q2J3YnNhME9PdjlRV2l1YlNJaktFNkYzTXZGdHNWRkRyc3EzVGRtV0lOMA?oc=5",
-      "pubDate": "Tue, 08 Sep 2026 08:43:00 GMT",
-      "category": "general"
-    },
-    {
       "title": "Arsenal 3-0 Coventry: Kai Havertz, Bukayo Saka and Martin Odegaard score on Premier League opener",
-      "source": "bbc.co.uk",
+      "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NQnRPbGJQWTgyM2JIMWtfdG9FSEc5QzNQZEhuWGt2U0s2eE1wZy1YaUhma0NQYV9wNnJ1MGFubHRJTk5tdFU2MGFnNXBrWTlBX2ZXVjZVT1VKSXd3dVhHMHhCZ2ZIZw?oc=5",
       "pubDate": "Fri, 21 Aug 2026 07:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "Match report: Arsenal 2-1 Chelsea | News | Official Site",
-      "source": "Chelsea Football Club",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUThFTkludm9kOUJQdVozenlpMXFCZS1YR0xHMEM0T2tKMHRaTzBPcXNxUDhLMEYzT296eTBBdXJKSldTQ3B3UzhCdUR0YUd2alpJcXBjYjZ6TzBBVnMyRktQbEktbW1tbVNVUlEzSGF5SVFzVFJFRmdzUlZjVDlFT2tTeGlYM1U?oc=5",
-      "pubDate": "Sun, 06 Sep 2026 17:00:00 GMT",
+      "title": "Arteta on Konsa: 'I thought he was phenomenal'",
+      "source": "VAVEL.com",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTUxqQWdoT0wxUDdPd1NWUlRPeFVKMGxQM3BzLVZBNjVXQzJNM2ttWjFUMTRPWnRvWkhqODNabFRCbm1PdmM2S0xLV0RJMkg4OFZIZ3VQUnd5ZWdvOXlncHp4ZEk0SUVYVlU2emYxcnlnNlRuaTVnMFp1ZTM1Rm04dTByRU01akxSNkNMaXZEUnZCenJ0ZjhfbkZlQzU5enEtdmNqZmRONzVscTNUVkHSAbMBQVVfeXFMTVRzZ0dzWGtpaHM4TDN2UlNpb05RMFVZLW94bjRIWElud2JfWGw5V3d0ekVFa29BNVZNRmgwUXZfZkM3VzB5UGhTNHpFNjhQMlByY3VDaDdPTXFkRW8wOEc4bENCZGRYeEZremw0MHVqeVpnVzBaLVFmcFZ4bnFMVUNBTWFONGYtaGdoVXQ3RXZyLURzU3d0VnhFWFNMczhBV1FVUF92M1RZanMyYkM3MmZZMjQ?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 19:05:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Arsenal XI vs Napoli: Confirmed team news and predicted lineup",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNeUZGaUJKSFE3LXFWbmRDdl9LNDJnTEtjM2JtUm0xeE9SbHR4UE5ocFN2UXN3T0xqV2ZuZVp4eE92Vk9uVWdDZ1ZvSUhpTGZLVGI0TDJuSGFMMVgyYXlVdDZGcHNIMGZlUWQ5YjhoYUUxZjhrTmoxcWFkM3lIM1djS1d3ckFyWjlxYnVGcjV6SmVqZlJVNnJSOGNrdnN2SFBTS3BKZGtxY2Yyd3FGRGU5YTlHOEowaGtYeHRidFh0Nzd1X194VzlqdWNNMkgxR1JPNXF6bV9YZy0zU1l4X3NXTktNeUs4cGs?oc=5",
+      "pubDate": "Tue, 08 Sep 2026 18:10:39 GMT",
       "category": "match"
-    },
-    {
-      "title": "The Arsenal Foundation supports Nepal appeal",
-      "source": "arsenal.com",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPbWFGckRRV0hMV0o3S2pWMzFlMXcwMk9PNnR6MlJ5dF92REJFaUdvSmlhN05RSmJXemZXQkg2QXMtejNmZ1NoakR3aW54aW1WZEhhdjFLeDB6WVo2LWRhV1pqMTUzZUEwUVlqU2dKUUp5YW5LS21LRm5KRktwa2RkaHZqd1hEWXlIdm10UG9JOA?oc=5",
-      "pubDate": "Mon, 07 Sep 2026 14:55:53 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Arsenal Analysed: 5 ways we beat the Blues",
-      "source": "arsenal.com",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYTEwQ2dDN0NydnhkNVc3M1VQUTAteDczeG5CdVY2OVZTTVpvTHR2Vkw3bU5KXzVuU3NVdkpGbEJSZGxvUmpRMG5FOGdRMWZheUNqNFo2ZUVLNy1ydkl2SUZDWFJRUTJBd3hHYUVTWTl4SGxYOUdRUDNPSThZMU1CRkRRd3V4OVlvYzBv?oc=5",
-      "pubDate": "Tue, 08 Sep 2026 05:23:36 GMT",
-      "category": "general"
     }
   ],
   "reddit": []
