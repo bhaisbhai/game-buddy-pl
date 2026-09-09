@@ -1,19 +1,40 @@
 {
   "slug": "wolves",
-  "updated": "2026-09-08T20:33:15.597Z",
+  "updated": "2026-09-09T10:27:00.312Z",
   "articles": [
-    {
-      "title": "Wolverhampton Wanderers FC hosts free community mental health training",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE40WUd5SGVhQ1dsV1o0cmZ1ck9Eek9DRlFaTTRuampUNTRhMWRia1hfMmplUHBlMTA2S1JvUUlmZVRhbF9oZHR0VGJfM0dkY1VQV1cwYjVYS1V0UmZS?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 12:39:09 GMT",
-      "category": "general"
-    },
     {
       "title": "Birmingham City 2-2 Wolverhampton Wanderers: Jackson Tchatchoua scores comical own goal",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBtWHY1UHJBWVZkZFROaHNkYmx5Wl9xbVd1YWNIYkIwY1FwOFpDM3NmRnJ5SVRPc21iSEJQaG95UXp2ZlF2c3pxNUFKNE5CLUZaaGlENDdsNTNaOE9WdVExakFmaDh2Zw?oc=5",
       "pubDate": "Sun, 06 Sep 2026 14:00:43 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Wolverhampton Wanderers: Team News",
+      "source": "FC Halifax Town",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1KUkJudkYxTTB0LXhKcWk3VEtXOGxkQUxnc0RxSFg4TFVhVXZ4c1hIZkNXeXBpT2d0d1Jmelc1cWhKNEtPeFV0QVJEUzFJY1NIdWhOa19mVmVIR3RnZ1JqMzdzUWlZOHFqaDM2TTdpN2Yzdms?oc=5",
+      "pubDate": "Tue, 08 Sep 2026 17:55:04 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Birmingham City 2-2 Wolverhampton Wanderers: Jackson Tchatchoua's nightmare own goal earns point for Blues",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE92QVRJS19sZ3RYTUkyZi1qVnRoZlBEMHBFZUl0ZktrOWxiVXlqemhjYjRWOXNoQWlhSnVuN3pPUWFpZTJZdWZEYzF5TXF1NVFlMGZSd3RhdnBtLVQtQzYxTHN0YmtLSUc3UVRGOUdXaVQxdEVwbnRXSg?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 20:43:56 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Wolves 2-2 Blackburn: Jimenez penalty denies Blackburn away victory",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1QeWU2VVE3VU5GWGpCdExEandOME1TY2otY29xMV9nODcxenREdktWVEpoLVhJelV6SUxmNU4xWEJPYm5yZGR2LUJzOEVQLThQTVkzc0ZsTFdQSy1yODhBWmZsVnZwdw?oc=5",
+      "pubDate": "Fri, 14 Aug 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Newcastle United vs Wolverhampton Wanderers: WSL 2 stats & head-to-head",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE56cVRkNWEweHJEaW85Mk5sc3NJc1dPTklfLTdnQXZiVE9Hd0JnUGJlQjhXVlpRbVVqZzJ6TUhTa21xUDF3X3IyTFZNRzRUYUZRbERQcmx2MGlYbEkyNV84ZE9qNjBrUQ?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 07:00:00 GMT",
       "category": "match"
     },
     {
@@ -31,31 +52,10 @@
       "category": "match"
     },
     {
-      "title": "Newcastle United vs Wolverhampton Wanderers: WSL 2 stats & head-to-head",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE56cVRkNWEweHJEaW85Mk5sc3NJc1dPTklfLTdnQXZiVE9Hd0JnUGJlQjhXVlpRbVVqZzJ6TUhTa21xUDF3X3IyTFZNRzRUYUZRbERQcmx2MGlYbEkyNV84ZE9qNjBrUQ?oc=5",
-      "pubDate": "Sun, 06 Sep 2026 07:00:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Wolves 2-2 Blackburn: Jimenez penalty denies Blackburn away victory",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1QeWU2VVE3VU5GWGpCdExEandOME1TY2otY29xMV9nODcxenREdktWVEpoLVhJelV6SUxmNU4xWEJPYm5yZGR2LUJzOEVQLThQTVkzc0ZsTFdQSy1yODhBWmZsVnZwdw?oc=5",
-      "pubDate": "Fri, 14 Aug 2026 07:00:00 GMT",
-      "category": "general"
-    },
-    {
       "title": "Birmingham 2-2 Wolves | Championship highlights",
       "source": "Sky Sports",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWnVxQXA2LTZVbXhCTHY2NDMzVTE1LXZSOC15eU9EQmlmWC04dFpLLTlUWGVTamdkd3Ytc29MMUxfV1hRZ0tmYjVQMWZCYTlkTkRpaGcwQ1VCUzgxVkxKamdwMFd5eDdpb2NrakU3ZDlMa3NkdDVRTzhtOUxiMGlkV01GVHpvY1o5cHRRNF91THREaWVpOWE5OWxTLUdBT0E4ZjhZ?oc=5",
       "pubDate": "Sun, 06 Sep 2026 13:10:44 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Highlights: Birmingham 2-2 Wolves",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPTkpVWGxyeV9wQk0zYTF3Y014bjNMaVFERk5RdTk3Qm02UnhtSHM1R0xaYlg3aDZCUXQxNnNaU1RvdzltYzBlTGtxOWowQ1A1QkM3NWo0T1ExNUJPc1lZdVVHOUFzeEVodDRjazhqUHFOM09LcmZmcDBVMDBWZ0FyTS1VdkFxU0NZYkphTm5QVnEzZ2pPRFRhUWtiRElFTHc2SW1wSDJUOUVZajFRb0I1dkFwUWxvdEJPVW00RHBrTk44YjFTTm85RkRmem9WWF82WmxRMFBGSWJnX3hyZUwwTl9rNjY?oc=5",
-      "pubDate": "Sun, 06 Sep 2026 13:10:09 GMT",
       "category": "general"
     },
     {
@@ -66,32 +66,18 @@
       "category": "fitness"
     },
     {
+      "title": "U21 Report | Halifax Town 3-0 Wolves | Academy | Latest News",
+      "source": "Wolverhampton Wanderers FC",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQlNZd1Y5WVU0QUhNYnhGZmFoN1lEM09TeG1fSmRrbXQzcGota0lMWk80dDAxYll1YVI5V2tKeHNwWml5MmJ0b1l6WFFfRmY2c2F2LU9uZE9rSFV1WU4xVEhpN2M4TUc4VGZtX01kTnVWNFpJSU1sZnRCNUZaWWJfUUhlWTQ4SldoRmp5OA?oc=5",
+      "pubDate": "Wed, 09 Sep 2026 07:22:03 GMT",
+      "category": "match"
+    },
+    {
       "title": "How to watch Birmingham vs Wolves | Men's First-Team | Latest News",
       "source": "Wolverhampton Wanderers FC",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTEhOQlBsN0pHUzZyMkJkV2c0SHBJYlpScHlwY1ZxR2p4X0xQS3NEdkVuS2lZT0huS2t6VmdkVFRpTmhvVmRNYTJrS3RiNmtIVmlkckdhTkF4QmtaaHNmVnIzT3FrVGpWMTNwczlweVBIR0Yta3RjRFFjOVR4bW9MUVhCSElJaFk5bERkTkdJSVlYTjg?oc=5",
       "pubDate": "Sun, 06 Sep 2026 12:51:07 GMT",
       "category": "match"
-    },
-    {
-      "title": "Wolves Lottery donating £10 for every new member | Club | Latest News",
-      "source": "Wolverhampton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOanhJZDF3UVJ3VURIYW0zbUMxOU9IaXdSWUxKaUxZNTcxNXF2QktxOEVzQmhIZkd1N1ROZlZPVFRfT3U5TGh1LXRhNGl5dzFhYUgzZjNaN24tQkc1VUtxa2RmU2Vidmx3cEpxOUtneUFET1pzQlI0QXEzNU9pMmtxZWYxSENaVDlQalFteEg0MjFDNXV3UmZn?oc=5",
-      "pubDate": "Tue, 08 Sep 2026 10:04:10 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Morphet | ‘There are lots of positives to take from this game’ | Women's First-Team | Latest News",
-      "source": "Wolverhampton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRXpKck96QUtpUWREWllrVDk2dzJsRWlKT2xSaGM2aXpKOU5rbXpyWVNJdEN4Mlh1UHFYQ01kTEJ0X2ZBLWNGVHI1REFuNk0wbVlGX1pRZk5aSzJ4ZDZ1NEJibXlZd3YxMHRiRnc5eU5NcU9yVnppT3BQMG9xZG1TQlQ2MVNwaTV3WmtmT3BZM1oxVXFvWkh0VUtkTTYxbDNvY1dhYS1QMWRVRUZLV2l0X0Z6eGxzUnNnYmc?oc=5",
-      "pubDate": "Tue, 08 Sep 2026 08:16:43 GMT",
-      "category": "general"
-    },
-    {
-      "title": "First graduation for successful catering club | Foundation | Latest News",
-      "source": "Wolverhampton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTUIzS1lJYU1ianVFZmVya0RqUTFzZDh1ZHlDV0NmUkY3UUFEQ0NqWTFGRmJWVnhya1lDSjdyNnFHZ1p0TDU5SWJoZnIzYzhmWmgzQkFKVExrWVhpc1ltaEVOZVhHVlE3bFU1UXM5UEYzY0NES1F2YjI4di04d2NuSFRwWTNld0RzSmRhSUkwalZHME1LOFZMYXUwRU8?oc=5",
-      "pubDate": "Tue, 08 Sep 2026 09:54:56 GMT",
-      "category": "general"
     },
     {
       "title": "The Preview | Birmingham vs Wolves | Features | Latest News",
@@ -106,6 +92,20 @@
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVTN0RnBhVi1rZVdEZWhJc000d3RqeW91SUVFT3NSTk9NRkZGX1lmb2ZCaGxXUjdHazJhRjVSRWlGcU9Tb0x6U0F0ZGRGd0xFN3FVQjFRTEtIcW1qNGlVTDVsX2h1Tkg4ZHhiQW1fM0NxdE16Q3hhMHNpd1RxX1NndHlUaUhFdUlYSFJxNw?oc=5",
       "pubDate": "Sun, 06 Sep 2026 13:21:34 GMT",
       "category": "match"
+    },
+    {
+      "title": "Krejci | 'I will be first in the line to help out' | Men's First-Team | Latest News",
+      "source": "Wolverhampton Wanderers FC",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQVhMM0hIWmZYeU1OQmF0Yjl1RTNJS2huODNvMjk1WEg5dDB6MGpjWnVYMm5wX3pUcDJ4cE1VYmh2UkNGWG1LendkZkh2YzB2RVl1cHJUM1BSLVNua2R4d2hhaUxWV054YnEtaDBJX281cVlIdTJxQ2tCeEpoeXNRbGcyNk54b0hYUWI1VEJGLWlGQklDV0wyWDdLYjRlMkljN1lPTA?oc=5",
+      "pubDate": "Mon, 07 Sep 2026 07:05:25 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Traore | 'It was clear in my head that I wanted to get in' | Men's First-Team | Latest News",
+      "source": "Wolverhampton Wanderers FC",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNLW1XNVdmTWxYTUtMVzBQOEFJRGVZYzVTampHTVk0OFhHRk1HcHAxbnpDcHdmdVBjblVBT0FzM1V2Tk5hTFJ6YmlpNUVYZHg0Nkk4RDhzZEVkc2xkbURORzZVa2R2eVFZdTVMWHE5UWNTRjM5aHNkSDhXd2JMakZTOWUyOU5RLVBvLVd5R0ZMWEQzWTJrTDUxQUZtZzZEd3pQa0pBdmlBQnpHdlB5MGpz?oc=5",
+      "pubDate": "Mon, 07 Sep 2026 15:31:09 GMT",
+      "category": "general"
     }
   ],
   "reddit": []
