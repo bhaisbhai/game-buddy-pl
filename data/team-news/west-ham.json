@@ -1,55 +1,97 @@
 {
   "slug": "west-ham",
-  "updated": "2026-09-09T20:15:38.718Z",
+  "updated": "2026-09-10T10:17:29.473Z",
   "articles": [
     {
-      "title": "Bowen double helps West Ham beat Bolton to go top",
-      "source": "bbc.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9pZnBsaTNNek5lLVNIZnhtSDU1c3ZoOUdXTGF5Z2Y3bDF2eTZtZGQtMjdLcGdJQW9Nc1ZLUDNZdXB2VlJZRGJpdUp3WURjR2tFQXg5S0JxZU9qZ1lSTDF6SS1aRHBWZw?oc=5",
-      "pubDate": "Tue, 08 Sep 2026 22:17:11 GMT",
-      "category": "general"
-    },
-    {
-      "title": "West Ham Ready to Pay £17.5m Flop to Leave",
-      "source": "Claret & Hugh",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBOa1FnYktlZTBPbW5OYkI3VmhNVzlwQ2NMZmlVOEtES3JGMTh3b2l5c3dXT0J4VWVLZndBQm9aUkdFZ2dsNXV0YjFLVU8xTzgxdHBYd0poMlpBSGVCV1hNM1haM0dLSGNEeEVWdUJSVkFJb0c5U2RQOUNjSjBtUQ?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 17:04:02 GMT",
-      "category": "general"
-    },
-    {
-      "title": "West Ham TV",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1vNmlUc2J3R2p1ZkpwM3ZMMWNMeVJYMWgtRDZwWXEtd3pOYUZSTTRWcy1XOWNwb2t2MzhBMFdKaER2Sk9l?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 15:59:53 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Aldershot Town vs West Ham United U21: National League Cup stats & head-to-head",
-      "source": "bbc.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBrdFU0aDdDR1BKd1hRcDlfTG52Ni0wdm9VMFVDRG9mclR5S3J2RHVLRVBXdlZaeFNHWEVlMmczTk9jc0w4OEg5M3E4Tm0zZDh4RTh3RDJjdDFySEtJY085UElUb1NwQQ?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 00:19:25 GMT",
+      "title": "FULL TIME | West Ham go to the top after late win against Bolton Wanderers",
+      "source": "The Bolton News",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTzVjcEdqcjNJUlN6ZHVQWjBlZ0g4eU0zT1oxRkJJSWYtTGNsRTBHak1lVUFOMmNvTmxLblVrTXJLTzBBcUJieUpjaTlveDFlQUdpR2h0M0ZkT3lTVURlZ1B3b0dQRFItYzBKWmQwcm0tRG9qbmQzYVp6RmhIMDJKdURmTHE0ekVJWGx2OGlCSjJaT0dGWHJOMzExaDdGakJuVFRYd0pB?oc=5",
+      "pubDate": "Tue, 08 Sep 2026 20:56:37 GMT",
       "category": "match"
     },
     {
-      "title": "Extended Highlights | Bolton Wanderers 2-3 West Ham United",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUGM2Snk5Y3J6S3dGVVo0S3RsVjlDMWY5UFdSS0lyclRoLVJTYXgxMWMyYzhZdjR2d3NSc01GTmMzQlBZUlo2dExMbU5TTGkyMjhWVFBKT0YtMzg2TkNSaUtDY1FOanFFNUU0YnhqZWZrMzNwQWpxd09WRjY1Tk1iVjJGMkhsVlljVVlEcjlaeHdiY3M?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 05:34:02 GMT",
+      "title": "Whispered West Ham Transfer Pledge Looks Very Different Three Months Later",
+      "source": "Claret & Hugh",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ0UxT3g2eUx4aXBQZV95MVN4VWRmSHkxRC12OGhvaTg2cElzLVhRRlBvQlpmaGlPZ19EQVd4NjZuaTVldkFXcmdqT09aUHBPYnhBQjNJWkFrY2lYQVVmcE9UTWN4U1NtMjRmWFRzN09sbWlXZ0wwd0NZYkw4SmhVN1pqVVNYSHRtMGRHWXVrTDBwZGxUZURwM2hrZGRQTXJzTGdVVlJXMUhwQQ?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 06:04:02 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Meet the West Ham United brothers making waves at Rush Green after latest U21s antics",
+      "source": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQTltNnNraWJNWmp4enVKNGctZzBtMi1seTVkV2xHMzhCenNYMGVyakpyMURoeW93eXZmTG9zd25jQld0RWl3RHJsZ2xnMEpiMlFQOF9IellHQ18tMG9COV9na0haMElaa29KUUhfMzZwNWo3VEZNODNmc1VicGE4czN0dWE?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 06:40:00 GMT",
       "category": "general"
     },
     {
-      "title": "Official Programme | Wrexham EFL Championship issue available now!",
+      "title": "West Ham United supports Together Against Suicide Campaign",
       "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVWQ4UVE2ZjhxWTZQUGF0VHJFd25YWUJEcmtxdUlGdmxIMVg1OTRmZ3FtWEpCSG1aSkdhVVpjVVFGZzdfdFByYmdvVmxkNzBkV3dsMGEzZG9GdXFUaUs3RnYyLUJjSFBrNG9pYkJHVi1Lbk9aTEsybnpRNTJhRTBZdnQ2a2x2cEdHQmZTM0xkVkJEcjNFZV9TLW5obWI?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 09:00:10 GMT",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPY2x6d2tEVUdWUS1BanVDNHhLMDVWM1U1X1VvanB3Ny1mQ1NlT3ZWODU5Yjd3dzNNRVk5ZXNYcE53TnFneVNMdmdQR25IN09PZ1poM0FlZ0VJcWp3NlBkM1JiOWEtTlNabFRDTlNZdHpYd0w0U3lWaUJHMldVck5lOVNrVnlMUVM2dURfWWhEa2tmdw?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 08:32:17 GMT",
       "category": "general"
     },
     {
-      "title": "Goals | Bolton Wanderers 2-3 West Ham United",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOM2dRWjdYZ2VEaGg1TUJ0SXhFR01HTWJ3OXFyaVNkQ2hPY0hPU013bXJmTTFCeDRwYVdvdGgtVlZhSEVETUVFSkNoVGFpZm5RLXlHWmx6YXFCcGxtR1lyV3VaMUM5eG85RDRCM1VSc2Q4RHlkaEJsV192WlZ3aFdMXw?oc=5",
-      "pubDate": "Tue, 08 Sep 2026 22:10:29 GMT",
+      "title": "Championship LIVE: West Ham United vs Wrexham - text updates, stats & head-to-head",
+      "source": "bbc.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBmVW11N2w4dnhxc0RUdFRnWGxCSGZDaTlfaFdzVUdtTzNKekhnUlp5bHdrX0RQdVVPeVlsY0RiQzNKYmI2Y3kwcUI0cHBQVFFjTHFzUUtOSUNla2twdXpuMzJRLWZ3QQ?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 02:04:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Why Kyliane Dong deserved his chance to start his first match at Wanderers",
+      "source": "The Bolton News",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ0pvMzhwOW1SeElnRFU2MllUTVR5Y0l0SFF4cmVjd044ZC1HaXRMYXpvZksxUEx2QkJ0NXhxcGFRbFlIUV93Mk5kdmY2QV9kcm5VcHp2NGcyNkVkN3lFaGJXR3lvR2hBZHdCaFRnQUJMdFlTMklONmtUN2cwdzBxTzA5cThHUVQ1eWNrMG1IWm5SbzczT2RWcW1NNlVvNEZQQ0l2OEtn?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 04:00:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Preview: West Ham United vs Wrexham - prediction, team news, lineups",
+      "source": "Sports Mole",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNV1dMNk1QMEVvVG5tOVkzbDV4dTJpeGpqcThFOXBUN185dTlKbTBPZUpIbmJPaUhJWTJ2TkRvcDNURi0wdllFdmxXbVBSYTM1eFdhR2Z4MjN0N19ROUx1UUQ4WkNkX2NoRkhOc2RTMHZBbHRaX2RBV0otRFBleFhfWi1wMG51SUFUZUttaDBpRjNhZGNPQ3R5UVlFVEFfeUZqREVKYzloZG5uLUJhNnk1RGlDOXFYZnhLaWtscTdoVQ?oc=5",
+      "pubDate": "Wed, 09 Sep 2026 09:26:56 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Millwall head coach provides injury update – with key duo confirmed to miss West Ham United derby",
+      "source": "southwarknews.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxObUJXX0lyRS1NUGhZVnZFb1g4NGE3XzQwZW9TcC1lTVRPSldxeTkzSzRFNGxNeTA3ckNLOE1CSWtLWVNZbTN1Mjk3YWNHUUN1MkxtZ0R5NEtGNUZPeWk2dVNiX0lKNzRicGpFUjlSaUs1YkJHU0xXUTJ6aFVPVkRoaFc5eXIzVXBKTVRVSjNhUHlzZEdzZUJ4eDdaaFMtWGlwZUpvTlNTUEJneXB2NGJQWDB0dFctZnNLTkEyT1dTUzc0NTVVdWJiSzdlOGpkVS1aVkVsejJ6X0xTbTVhaTlsWjNB?oc=5",
+      "pubDate": "Wed, 09 Sep 2026 11:00:28 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "SNAP SHOTS: West Ham United U21 (H)",
+      "source": "Aldershot Town FC",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9lcDFMZVpxaG0zMGhLbk5mYVprUVFwNUVBQ19HR1RMZXVlSUZJVnlQS0xsN0FZaE15blBUNGNfZmsta2xrTmhyOTZzLU56RE9fc1dWaDBXQjlicjJQNDBFa2E1WUxXNld0WmVxQw?oc=5",
+      "pubDate": "Wed, 09 Sep 2026 18:36:34 GMT",
       "category": "general"
+    },
+    {
+      "title": "Thomas Tuchel should break unwritten rule for inspirational West Ham captain Jarrod Bowen",
+      "source": "Daily Mirror",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZmwyVVV1QkxHZ0dSMHVKd3Y4QU84Z0Q5YzN5MGpsMzFtRE1PZmxyOEpCU2x1VmRXc0lNRXJ5ZDZsWkR6Ymt0R2l3bWE2QmwtTW0yX3NlTlVPZ0lqNWY0bmt4Qk8zbnpyY1g1c3VtejhhOVJPcjhxSzFUempWM0pFbFdZNkZ0RW44MHZUaWNB0gGTAUFVX3lxTE5zN3BrTVRhRkt2QUp2bThuYVNzdTlFVDV4YkQtN2FheGQyQkpkVmdrTmZHRDF3VzJ4N2NXQ2drUVE1eXdsWHNFem4ydFF2c1RJU1BzZDh3aFlOeUJqSjRZaWZteHB4U2ZNWWFFeFNNWURfWmdfTlZEb2NFZVFlWkxmUWJjcDA0RHphMlJRc2oyRzFLQQ?oc=5",
+      "pubDate": "Wed, 09 Sep 2026 15:42:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Foundation’s international programme set for landmark end to the year",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSkdHNXZybGkySkJiVXBJcEpQSVgwVWFpN1k3RTdiRE9mZ29mRFNHdjNTRkJIOWg5cFZNdTI4Xy1tOTRZN3ZKZVVjUGpidUM3VzlvT1JnSGtkRV9fWUJlU044LTItWjZzdnpIVzY1akZ1b1BtZVRoUF9QWXVIZWRHTFkzTlZNdTRMLUUtc3VwbFJZOE94S2xqLWNwVE92YWs?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 09:47:30 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Scarles | We’ve just got to keep going",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE92Y1U1MTI1Mnp6aEJNQnJkclhEWnVKbkNnWnFoVTE2MllfYmNkTHhhSmJDbVZFZkxIZ0p2Wl9qOTAtcnpUSEhET3RIdTh1WHdVSmxBUG1ZeVhrSTNKT1NzMnFnSUN5TWJUb1FZYVRLd0FOM0FGTEhB?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 06:36:02 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Ajala wins The Kingdom Bank Goal of the Month for August",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUGlEanViUVlnc1I0c1oxWEJfY2VBbTBCMFhWSlBONFdSdGlqV0ozN1Q0LTI1UURzRlZSeTBsbzVXdXRtYVlzTDdLa291TFp3QUVuZF90cFdJcGJTSnFGZ01Tb2duYnlsNE5ncDE4bE5FSHU3bVZRb1ZTWk5MN0lNcGVfVWZXczVNbXJyMVJfZw?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 09:12:24 GMT",
+      "category": "match"
     },
     {
       "title": "Match Report | Bowen's Bolton double takes West Ham top",
@@ -59,52 +101,10 @@
       "category": "match"
     },
     {
-      "title": "Match Officials confirmed for Wrexham's first visit to London Stadium",
+      "title": "Goals | Bolton Wanderers 2-3 West Ham United",
       "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQc01FdnFnOE5MWHdaZVdXSTc4QlJOV1NvZjdHWm01TUlDYktTejlQYi1SSjdwcE1aaEhRQ1ZtUkR5ZmdtR3M3UVlhNkc5NTEzYWxZVDVMT2w0c1g4WjQ2bTlKUFNqOVMyQzdsT1ZqVTY5WXMzX2dGUWhPckdrWWdlUmNJcG1VSHVkNG1KU0pTYldBbS1aVUJMU1BQTHlzQkk?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 13:00:21 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Starting XI | Nuno hands Austbø full debut at Bolton",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNVm8yeW5VekxuN1R4WUhKWWFsc19qR01iOHcwR1R2bGlxRlRKWUtId2pDN002d09EekEyLVFPUVI5ZUpFa3ZIOTJZcDRmTGctRXpsQWZ6WlQzLVB6TjN5Rjh6QlpwN3VlVkxYWTdCZmJqU2NGZ3BjVm1xaHlpbzZaNVBWbmEwMnVpQk1N?oc=5",
-      "pubDate": "Tue, 08 Sep 2026 17:50:38 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Goals | West Ham United 3-0 Derby County",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE04Z1o3aG9CX002RFpIWEh1b1A0NzNoTjB1amhycFN6QkpYT3lwQnhBMHJqRUtYclllLWlQMUtkNTVHSUR4UUJQVlBjOURHMjZ5NnUxaERBSVk2Ylh4MVdoaU0tZ21oUUc3Q1F2YjhjVFZIOWNaQWstSDBoSQ?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 17:12:08 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Frankie Day signs first professional contract",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNblg1eURxSWpwSXg2am1BczFieUNtWTM2dDM0cjRxN2tNUi1kdVFINU9VQjlwTEFfdjBHOHRodzFUeko0ZXZzbUtpV0VLRWdKRy1wMHVtOVFoSkdvNXFPZ290eEY2UndFcGJMY3BzWjYxeGRZcnA2YjBPRGV0N0V1bw?oc=5",
-      "pubDate": "Mon, 07 Sep 2026 08:06:17 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Mavropanos | We stayed positive and we did our thing",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVDlSd29GNUpMVE9XM1I3Y1RGa3ZIN3lvbDNEY29WbnY4MU13TzR3clFrbFE4R183ZzVhckMxMEliNGxHT0U0WTZjM2J5Ty1VMkRMNVltWjQ4STBwLWI0N0xnOGpWNzVORHE5Ymt1S2ZVeWxNTlItd0U4NGsyc2hIYkNQaHRTbjBkQjg0?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 06:04:21 GMT",
-      "category": "general"
-    },
-    {
-      "title": "West Ham United / Derby County - EFL Championship - London Stadium, London - West Ham United FC",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNVE4xNXNIOHNBWTZfUlIyVVh0MmdVQUxPQy1fZEFFYlpGV0kybWxlUmN6ZkZ3OVJxNnNELTJWdE9IY294a09RbmJmNEwzUHp0cFdabTlRNWFPQmZWY19iS2t0S1VUUXJZR2dHZUFwd1d0TllMcExFYnplYlhVVXBFVlJ0OHN6dy1KanY4ZWFhTUdxNWRfSmkwNTBqNDlOZGc?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 07:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Mavropanos | We stayed positive and we did our thing",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ESWU5ZFRzS1cyd1BkczZGcVdrZmdVWjdtWmlLR21VNElNWWcyTmJxOTJWaXNQTmZ5a2pHNXF5cHRmd2VGMHZuN0NkbzUyYkNfb3Qyb2N6SzVqaDJaZXY3c28xTlhTcjFhSmxvYVFkSnVtbjhlZGdz?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 15:35:14 GMT",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOM2dRWjdYZ2VEaGg1TUJ0SXhFR01HTWJ3OXFyaVNkQ2hPY0hPU013bXJmTTFCeDRwYVdvdGgtVlZhSEVETUVFSkNoVGFpZm5RLXlHWmx6YXFCcGxtR1lyV3VaMUM5eG85RDRCM1VSc2Q4RHlkaEJsV192WlZ3aFdMXw?oc=5",
+      "pubDate": "Tue, 08 Sep 2026 22:10:29 GMT",
       "category": "general"
     }
   ],
