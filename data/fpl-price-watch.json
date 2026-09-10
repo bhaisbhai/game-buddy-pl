@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T07:55:00.941Z",
+  "updated": "2026-09-10T07:54:53.681Z",
   "snapshot": {
     "1": 60,
     "2": 49,
@@ -124,7 +124,7 @@
     "121": 59,
     "122": 59,
     "123": 60,
-    "124": 55,
+    "124": 56,
     "125": 55,
     "126": 55,
     "127": 50,
@@ -219,7 +219,7 @@
     "216": 50,
     "217": 49,
     "218": 49,
-    "219": 50,
+    "219": 49,
     "220": 45,
     "221": 45,
     "222": 60,
@@ -422,7 +422,7 @@
     "419": 50,
     "420": 49,
     "421": 44,
-    "422": 45,
+    "422": 44,
     "423": 44,
     "424": 40,
     "425": 40,
@@ -434,7 +434,7 @@
     "431": 58,
     "432": 55,
     "433": 50,
-    "434": 50,
+    "434": 49,
     "435": 49,
     "436": 50,
     "437": 45,
@@ -461,7 +461,7 @@
     "458": 54,
     "459": 55,
     "460": 50,
-    "461": 59,
+    "461": 58,
     "462": 49,
     "463": 59,
     "464": 62,
@@ -525,7 +525,7 @@
     "522": 50,
     "523": 50,
     "524": 45,
-    "525": 59,
+    "525": 58,
     "526": 59,
     "527": 59,
     "528": 45,
@@ -545,7 +545,7 @@
     "542": 59,
     "543": 54,
     "544": 55,
-    "545": 50,
+    "545": 49,
     "546": 49,
     "547": 49,
     "548": 49,
@@ -658,52 +658,60 @@
   },
   "changes": [
     {
-      "id": 6,
-      "web_name": "Saliba",
-      "team_name": "Arsenal",
-      "direction": "fall",
-      "old_price": 60,
-      "new_price": 59
+      "id": 124,
+      "web_name": "Groß",
+      "team_name": "Brighton",
+      "direction": "rise",
+      "old_price": 55,
+      "new_price": 56
     },
     {
-      "id": 101,
-      "web_name": "Henderson",
-      "team_name": "Chelsea",
+      "id": 219,
+      "web_name": "J.Rak-Sakyi",
+      "team_name": "Crystal Palace",
       "direction": "fall",
       "old_price": 50,
       "new_price": 49
     },
     {
-      "id": 256,
-      "web_name": "Tete",
-      "team_name": "Fulham",
+      "id": 422,
+      "web_name": "Mazraoui",
+      "team_name": "Man Utd",
       "direction": "fall",
       "old_price": 45,
       "new_price": 44
     },
     {
-      "id": 260,
-      "web_name": "Wilson",
-      "team_name": "Leeds",
+      "id": 434,
+      "web_name": "J.Fletcher",
+      "team_name": "Man Utd",
       "direction": "fall",
-      "old_price": 64,
-      "new_price": 63
+      "old_price": 50,
+      "new_price": 49
     },
     {
-      "id": 514,
-      "web_name": "Tel",
+      "id": 461,
+      "web_name": "Touré",
+      "team_name": "Newcastle",
+      "direction": "fall",
+      "old_price": 59,
+      "new_price": 58
+    },
+    {
+      "id": 525,
+      "web_name": "Fernandes",
       "team_name": "Spurs",
       "direction": "fall",
       "old_price": 59,
       "new_price": 58
     },
     {
-      "id": 515,
-      "web_name": "Maddison",
-      "team_name": "Spurs",
+      "id": 545,
+      "web_name": "Sadiki",
+      "team_name": "Sunderland",
       "direction": "fall",
-      "old_price": 64,
-      "new_price": 63
+      "old_price": 50,
+      "new_price": 49
     }
   ]
 }
