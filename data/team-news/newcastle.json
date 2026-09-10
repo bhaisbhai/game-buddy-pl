@@ -1,27 +1,83 @@
 {
   "slug": "newcastle",
-  "updated": "2026-09-10T10:17:29.473Z",
+  "updated": "2026-09-10T20:17:36.123Z",
   "articles": [
     {
       "title": "Carabao Cup - Millwall 0-1 Newcastle United: Joe Willock edges Magpies into Carabao Cup last 16",
-      "source": "bbc.co.uk",
+      "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9jQXVRS3pKVDhPbUpjdVFyWjJxWGJQSk9qekJfVExzRXgydjJXTGhub2FueEhwU2tBcWFCMHdZdDlod2pzSkUxRGVXRXh6M1l0N3BTczZqdmZMRTJkcjNlQm9DeE5zdw?oc=5",
       "pubDate": "Tue, 08 Sep 2026 22:17:39 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Matias Fernandez-Pardo Newcastle selection hint & Amar Dedic latest ahead of Leeds",
+      "source": "The Northern Echo",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOak9MZFBwWlpiYlZoSkVlMmhpT2RwRTRiSnpWeUxETU4walRFZHBiV3cyYVRsYmkwQ1VITlBKd193aGRobFZydkpldnhKN2F1aloxYUhuVFpYaEhYQlhfekU5SWFiMldNdFRCWHFVS1JOdW5TMXRIQ0t2enQzS015XzFkVkd4MVJ4UTB4LWVyd1BMYzhfY2JjY2R6dDRISWRrMC1R?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 14:24:33 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Fabrizio Romano reveals Lewis Hall to Man Utd still on despite Newcastle agreement",
+      "source": "Football365",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVHgyY0tZNkQzaDljWEc3YnNCa3FvcGNzaXVDSHNLZzFXY0ZmbXJtMlBnNktRWnJyYlphTC14VG9lMzRwbXJ0MHFTeVEyT1YzX2lvZnZiRUFGTVJNbDF1WG9kci1ZaG1yM281V3hkSjE1SUdNZmZlNmFIUG5VNE90YXUxNGh4bExlSlIwRXV1OW93WXVFLTRkVHhhMWREaVh0ZHIzZmktbW9lM2JqdFE?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 14:51:20 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Meet Newcastle United's beloved 'football dog' who travels to every away match",
+      "source": "chroniclelive.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVXhkZlpNVWxjUU9MZ2JsMGJYdTZndGlZM0c2U1pneXZxU2F0RHhlbkJqZ1JQQ2VhazFlckFfT09HS3FYRGFLNWZmZXg3NE1IY0wyc192WlBkUk52cEYwbkZDNzdrN1Z4a01MUDlQYnpTQzZLaEg3a0pzcDFDR0dEUXVXeko3NWtSeTQwSGV3c1RlVk1ua1VfMzhGZXN4aGE3UndV0gGoAUFVX3lxTE9iUjBYLV93aU9HdVRXLXE5d09FV3FHR3VnTnJyUkZMUFVOdFlXOWJRQUxxaDh4LU5wTmZ6RVh1ZFNwS0htQUV3UU9nMF8zSTF0NVVlaXhmTnpBUVZGU1FyT25SUUxaTV9COFc1blNFVkx6ams3M0NRNmNVVVJBcy1IWFVTWW1ST2pUazRxOEpDbHdhRFNYYTRfRDNfU1ZLRFl0MXowOElzeA?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 16:34:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Newcastle sweat on right-back options after Amar Dedic update and Matias Fernandez-Pardo decision",
+      "source": "chroniclelive.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTVlta2hWd3UtVjYtR0xkdlAzdm5BSW1vZ1o3dlBMNGplRmFFRHcxMkZWT1NDbXhMcG8zTGtUTkMyT2RWVHIxZXNwUEhETC1CZ2J4R3RkUmtOQ2s5NUxIWDQxNzhnbjVDNTAxTkVCTHI5Skt0MG9PY1h1eTRCUnJKcjFtSnVjX2tuYjFMdE5FcFNOX1I2NWoycFVJWkFBUFF1QWE3c2o4TdIBrAFBVV95cUxPWS1QUm5lUnkyNUk2Z1d5X2ViLXJEQzl1UjZHV2V0X3hmem9rZkFkVVd4SS15X2R5VVlrNlhoVTNENVkyWnpVUG9KNVlUa0hGd0JySENzOUJ2U24wbFV1a1p4Z0FiQjd5RTVQUVNjSFk3RlFJN0RaTGR3MmVQTXNCbldsUjVMMWhMbUVHOFVINmc3Nk14Zkdqa2xHbzVGclRrN05tWVZtY1llZElS?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 15:05:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Matias Fernandez-Pardo faces £70m challenge as Newcastle United feelings made clear",
+      "source": "Shields Gazette",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWnQ4RjhVd2FEY2pPckdvWldSa25LZU1vemNwUUxRY2Uwb0U4ZzVpOHlYeGtCZWNNdVZsLXBVeWNYcGpUVHAzQTl0QnFZbjVZTzd5OUNGVHlPaDA5VmJJY2hrQUdxaldjLWl5bFRNQ0lSR3ZTTVp4T0VwdlNNOXZ0NEhmR3ZSOHRINHl1V0QtV2l0Y0tpdUh2RmdBeUg4NnAzUHZwZWJEZTlCejRrclNLUTFZYi0xQQ?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 16:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Latest. Matthias Jaissle's team news update: Fernandez-Pardo and Hall latest ahead of Leeds trip",
+      "source": "Newcastle United",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObGJObnR1SWp2NXdqQmE5d05fT2h0ZTdBNXFnaFg0d24zeGR5NmtGa3UzdmJwZWEtWTlMSDUtYTh5bnA0NDNLMVJ6VGs3c2x5cWM1TG9kd2x6RDBfQ2djX0hDbUFoMjViZ1FTRTFkaXFPMkc3eF85VzRubExWSEdpRVZkZ0dMVFRSRU5GY1BfcWZwZDRsN0pGenAxai10VHprbWtoMS1rajFlTGx5d25HQ3p0TmM4cmYwTzhsUmtBWWNLMHpW?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 05:55:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Dan Burn confirmed as starter for the 45th Great North Run | ITV News",
+      "source": "itv.com",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdDloeFNXSUdYLXktbXliYm03NlRDLXNwWmVnbEtVRkVFZER3QXZRcW9YTERsQmlNbkNQNENhR2JzSVJudmIyUl9ET2ttOEVIVUhOcWlXMnJxQVBKX2ptcV9aNkJqaFhfWm91ZTVTMXdLNHFyNnI5YjZhQ3ppOE5obWd0LXBiRkZzckRkS1pMRGVYektXZE5NcHZtWWotdTVDbXZwdXVJSQ?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 15:49:58 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Christmas and New Year fixtures confirmed",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOR1FfcnY4ejg0WFJkaXRFbnFndml6Q2k1cktVT1Q0cGJSazdkaDZlajl4NTZ3MGNaX3dqY0duRjNPbjkwUS1GOERWdWRfVlB1LUJnOGtYUmJtRmVFZ2xwazFaYkJmdFZmY1VZYlJUUmJhZERBX0doSndBQUM5R0xPcjlnUUNnQQ?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 14:00:00 GMT",
       "category": "general"
     },
     {
       "title": "Premier League Key Match Incidents panel decide on four Newcastle United incidents in total",
       "source": "The Mag",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWFpNWWtvNEF5TVkxbWFDdEFBVU03d1FtWEdwX2xTOFIxS3ZEOTIzRDlNOWM4T3FEbFZHLWppV0tMbUpqYWpBLVRqcEl4cVJWNzhtOVNLQkJfV3d1d2M4SE1OMVJYX3BnYmlieGRWOW9RcC0zWXMyNUZNM0lWeEM0V2VkQWh1NmY3OWZxVkZvVXg5bzZTSjJvUmRqd2R5TmhqUDVaNDRkYTJRaU5ZNHZ1UmxILWJJZXY5a3p1Q19WOWpIc00?oc=5",
-      "pubDate": "Thu, 10 Sep 2026 06:59:22 GMT",
+      "pubDate": "Thu, 10 Sep 2026 06:58:20 GMT",
       "category": "match"
     },
     {
-      "title": "Man Utd handed huge Lewis Hall update as Newcastle release clause truth emerges",
-      "source": "Daily Express",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVEhrdjJOV01La3JaRDBRT0pkQlpxaksyM2twTmpYX1VLR3FjTnpTQkI4R1VBRENER3VQVlBZUV9IMUNhMElZVFVPQjlLdExXVUF4ekNHbXk4WnpBeVdERkRFYS1ld3FTYVYxUUJyc3ZrQlFQNGhVQ01MSy1SaDRKdjVWLWIzXzJPZnN6UUh5aVZxenJyRnI1NmdBQWNRS2pMOXfSAacBQVVfeXFMT3lIYURIb3hsbnUtQjh5NEEzcndHYlMyTWZVdWY3WGROaktHVDZrZjdtZDJJdDZxZ21GX1g5dXNvLTlZRkFqc05oS3dIWXJYOFpaZy1JbkRZc1A2U3dES2xEd1YyeDhIOFFHbzRFLTFadkxlVDdXdjBZSm53YmVOQW1fMlhlTDIzZjhlZHgtTEZTdWxzcnNoZlNvMkxPUl9iTm5nTHE0Tnc?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 18:12:00 GMT",
-      "category": "general"
+      "title": "Daniel Farke provides update on duo's fitness ahead of Newcastle",
+      "source": "leedsunited.com",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPLTREd1hFVzJzcUc0YVZxeTN0b01yaDlkTzdIVGNzazg2ZEpWMUZ0QkZTZnZVMHJNbnRNMFN5Ni1jcTZsTW5tWEZuUnJsZjVzMU5NZGVzTzVzRFdGQU9ZZDJMeFR0YzJrNjdXSmxZX2w5X2xRQW9NWmRmY0k0MGhrTVNXNjlaaEZmQ2FSdzdid2sxb2ZaRU1pNGR1R0tMQ1cw?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 15:20:35 GMT",
+      "category": "fitness"
     },
     {
       "title": "'Relentless ambition' - Newcastle United announce multi-year agreement after triple deal",
@@ -31,78 +87,22 @@
       "category": "general"
     },
     {
-      "title": "Yoane Wissa decision made as Newcastle United leadership group takes shape",
-      "source": "NewcastleWorld",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPd2RScUd2c2YwV2ZGeDcyeVlKdks1Qy1OV09uQ0ZCTnp4cDl5Wl82NnJiN2VwX0xxQ19SSFlCcm1kYW5Ea1VSRE5MWFo1R1dEa1JhaEh0TXBnSlRiM2VZTUFqMWxEN3hLaGJUMjRZYXBaR2FNSWhFTU1vS0IyM0l3bFpLZk5xZ2wyeDhxZkhfOEhyeDV3cVRtN0RJa0t4YjdMRXlQTGpSRkEwbkE3Nm9QVURXSkxMcGVIT2c?oc=5",
-      "pubDate": "Thu, 10 Sep 2026 07:30:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Sources: Liverpool and Man United are tracking Newcastle’s £65-70m rated ‘mature’ star",
-      "source": "CaughtOffside",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWUd3QTFRUkxEZW9yRlFaSW5lc3JiUWlDMjV0LU5Ub2tqYVJIbUpDRWgzdzZJbkJsRWt2VmJ1M3hKU0VEZTc1eXpFSVdTSXVWOEdwZl9OU2oyamx2US1RV2otR0JRVFltQ1RPdXoyZG9zd09EZFVLX1RMOVRqVmFwN0kxeU0tQW1tWVdKSThRUkp3NUl3akwxZ2tB0gGfAUFVX3lxTE5KZ3ZjRm04Z0ktY2RGS2xHX21zOXcxZ2lQSXdEUU9BNFhKSGoyUHkxdFVrRm9Rd3Z1NWdVY0JFTkV2MUFRY1RwcVVvNjVYZFBjblpNS1J3RVd0UjItSENLSFJKZEtabUpDc3BsbkRhS1BlUkx3anZvb05TMVgwWkRZcXpDdFI5c2VlYXhFcV9OTmdRN1V4YWxtTHY3V3pzQQ?oc=5",
-      "pubDate": "Tue, 08 Sep 2026 06:54:47 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Newcastle United 2-2 Bournemouth: Premier League – as it happened",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTF9xY0ZFRDMzOTdhU3hYdW1qYUVjaUlfSmFoWms4TXplWEtiQjVoUHNHVDNTeXdoMXBUMjJ5bWxtenFGenlNcVNSa3paNHpBWTJFb0p0aW5rV1djN2hoQ3RtWVV3Nnktd240T2ZqZGtQZUx5WjZ1Qk5ENnJwdmJzb1FBVEVGVUdWOWZKQmZ2VHA5OVVjQ2tNS3BmMGo3cnhwUXdLSGVwQQ?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 10:30:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Newcastle United 2-2 Bournemouth: Premier League reaction as Magpies fight from two goals down to maintain unbeaten start",
-      "source": "TNT Sports",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZFoxaWljRWJJYlUxeWxIM0xZWTNDa3dCVDZlNjJLU2pXeWo1X01BMVpEQnRzTlZmLW5lbU1oUjlYa19lUUpIYXpaSHpNNUpHall2YnpKdG1rYnl3Y2N0Z1gzM2xieEdsdkFVQ0daRVE0NTk1bFUtZmo1YWlHN0RFVDFQMjN6UllWUFNMcHBKeE9QRFFhcFlobHlGckpVZEdDdktPbGhtcFhjLUs1djJHRUZfNlFCZTliNkpmQUNsZzVtYk1BTExFUQ?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 13:27:39 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Newcastle United ready to perform U-turn and make offer to player",
-      "source": "Read Newcastle",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZ2JNTkFWaDl5RUxWRWJtcC04emFSbUVzOGRDaFd6NWxWRE1ocGJzODcwUDJBRVlCVms2M3NBZnFETDI4TW51ekMteU5ndERkRUJxS0FoMGRBd1RmMHVMSmVGRi1vYzNjZEVoSWFJaHA1Q3hHUEtSMTNqZU9Lc2hJSmRjNEd6R2pIRkxtOGt4VEE3R0lrbWEybQ?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 17:00:31 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Barcelona 'postpone' Anthony Gordon payment as Newcastle United 'agree to £69m twist'",
-      "source": "Chronicle Live",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNkRXZW9yeWdyQ0hMTGpaaXpsUkU5d0lwT01Nek1fdi1Jc2c2UV91U2lISldfM1NEdXBtUkZObGM4TXZDc01BYUFOeFp4MU5GV1Btb296Y0YyZ3Q5cXg4SmtHUG5DRHU0MkFLaGg2MjNEUFZKemo4c0t0THVwZW0wa3VSRG9zRnllSVM3emNvRzRVYkt2WUxHYWtROHNQNy13enZHVWNlYWcwOVFsaDRvbV9WVdIBuAFBVV95cUxNRlY1SEZhc2dFYXY0aXRQaVBCNVFxbGpTOXhqZDNoNFVWU2g2aVR1MTBScDVQVGlhS0lwd3R4WXdHdEhUOEVrVWlYQ2ZnMkVhYzhsQTJJd0J3T2FHYUp6OHliNi1DWXhnRTJ4RjZaOGhEX1RldnQ1QmRqa3ZkOElYa24tTlZmWmpwZ0J0TUJIbUdKTks0SmZDUmtjTU4tRFFQeWVvaVptc2NUMFRub0dmM1h6cGtJekVY?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 19:23:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Newcastle tipped to sell Lewis Hall despite new contract amid worrying comments from sporting director",
-      "source": "talkSPORT",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQ0hyZjJCWW84dXFhdFJwd0NmM0p3bzdTOUE1UW1xOXZkYlNJaTZvVkhJV0VOZTJiUm1hSXp5R2hwdmxBZXlZRXhpaUthM3Q4RnNva0V4RktDbEhhRzA0YVB1UDdYZUZaRU95eXJDa2k1SkJMbUt0NzNfMWVOYmtWQmJ3?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 14:10:27 GMT",
-      "category": "general"
-    },
-    {
       "title": "Latest. How to watch Millwall vs Newcastle United: TV channel, kick-off time & team news",
-      "source": "newcastleunited.com",
+      "source": "Newcastle United",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZ01mOTlQTUJSbUVqc1M4YTl0V1ZvZTEyVnhtUFJfT0I2bVZ6c3pVM3Jvd2VwdWV6Qi16RWJfc1VJd2FTd1E1alNVWXZOZ1NWaS1hM19iYUdLWmdQWmFqQ0Z5LXpGZHpmYnF0VVZNekY0TFQtQnVMRG9TUENwSzlLR2pVM1YyS1ZJd0JOSDUzZmVHeC1FVlZ5cHJEZGFRUldEOHNrbHpsRXpfRzROX29kYXFENGRRWUZhYXZRTA?oc=5",
       "pubDate": "Tue, 08 Sep 2026 23:53:26 GMT",
       "category": "match"
     },
     {
-      "title": "BBC Sport comments from ‘neutrals’ on Newcastle United after 2-0 win over Tottenham",
-      "source": "The Mag",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSmpBd2wtMFlBR2hjRWwxLVBMOXdjRDFkYXhRcWRjcklPU1dfY3JabGV1ZlpIZmd4djVTcTY1VFR1MTB2d1JrNWpiZGVKb2ZKVkJjR1ZZVWJ6WXdmY0xUWDdBSEJURXptWmpwVGRWalZUSXZsVXhmNEhKM1dfRmJHSmQ4RHliMS1Tc2ZpM0FDYXRQM2h2OTVsVHNnbHRXOEtpM0RlTTM3YWo3cUZJUzJtZUlJQnVMQQ?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 15:04:54 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Newcastle warn fans to expect more big-name departures",
-      "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWkxVZ3RfVGVaRHBMTFVGLXJSYXFTUE1waTEzX19kSUxIVmdDR2dDTUttMjBzVV9CZUE4eUI4c1hsdjJoQlpwN0NHZjE4a2pNYXFZNUF2bWxqLTBlVTBEN3NnMDJPemJYWmVqYkJMSDBTRzdBZWlNZ255YmVTNm9qaWQ5NTdjVzdydVFSeDR1T1JBOGJVdC02elZLZ1lDNldrSTBHYmh3?oc=5",
-      "pubDate": "Tue, 08 Sep 2026 06:00:00 GMT",
+      "title": "Jaissle: ‘I'm impressed with how open-minded the players are’",
+      "source": "VAVEL.com",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTDRtaURzT2Utel9TMUQxVVl4b3JyOXRQQllLaWRndEItaV9UTC01amU4dktyYU1tUGtIdGVRcnFLV280UTdyTEl5QUlON0lDa2V2dU5jU3p6R3JkWHgzQmNDWGRuMTdnTG9BcExkYUtXSkRXLU9XNG5GMlpUQnhWVlBTQUZORkxOMjNrMmRmb0pEaTB0SVE5ZF96OFAtLTU5VlQ5QXcxRDJDdWNkQXBhZ0dFMU9XU25NOWp4MjFWTlA1aVJ1aHhZbFlQOTc4UdIB0wFBVV95cUxPYnN2Z3lIUGNLTkwyZ1VpY0pTdGNFd1gwQzVXRWpLVzJzUGtfU1ZjQnJqbkpTemp3ZjJJS2JLU2paOXRJWnU5WkZJSEM4RE9wM3FCaXpKRG9Ca0N6VnRwZnJBdzZ3dUtJS3BUUWx2czhWQkhjVmQ0NnRscDJFRzJJUVh6YWZVdzhuRUlFZzlZUkdGRkxDX0FCWF9sQl9fbFAyS0FWUU5lTGtEQ3ZVY094RXFKVHB0N2Y4VzhQaDlNeFZ0c1pldnpOQngybHJUVFVQbDBF?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 16:29:00 GMT",
       "category": "general"
     },
     {
       "title": "Newcastle United",
-      "source": "bbc.com",
+      "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTjNYb2ZPRlhGQWhCYURONmhjUkpEMXBacEpibHRXdGRPTF9qblFYYlNHZExFS2VqV3g5VklSZGs4NU1raFZSYUNIdE1YdEJTMkhrSS1tR3E0dTZrU2pTVkJDZzNEUUVabmJCai02VTVVSHBWX3dFNHZXMzlaRmdubTEwdjVmb25tNTB4WjEtemZiZw?oc=5",
       "pubDate": "Wed, 09 Sep 2026 08:28:03 GMT",
       "category": "general"
