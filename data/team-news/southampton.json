@@ -1,12 +1,19 @@
 {
   "slug": "southampton",
-  "updated": "2026-09-11T20:17:17.209Z",
+  "updated": "2026-09-12T09:49:45.285Z",
   "articles": [
     {
       "title": "Scienza electric as captain Downes stars: Saints player ratings after Swansea win",
-      "source": "dailyecho.co.uk",
+      "source": "Daily Echo",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeWswNjh2VkNxZmRLRmk5MGlYV292ZGV3MWEzWW5oZ01sVGRtRkdOeWZmZjFkUFZ2QUJUelU1UGVJQ1FxUjFHTXF0aXdVY2piYU9YTTVOUWZQT2FjdEJ3Z01lUTNSUnVzVF9qNWt2dmpJNy1vaS0tNHJXdDJSVHBRbi1WSnNZYW9fTVRGUW1WUy1qLTNybVUwT1VaYWRsX0NFTUY4WnhGdDN3cVFYck5xdFFod01BanFp?oc=5",
       "pubDate": "Wed, 09 Sep 2026 02:30:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Southampton vs Bristol City: Championship stats & head-to-head",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9MOGF0bUQzYnhhNE45LXlFeFVCRkVYWGxiWnpxekVjeW9vTmUwSDZKWFBTd085TW9wSldwRXJHdGNlV3RoeU5KaTJxWGtKYzdYenBfYWZULVdLbTR1UlAwUWdKUzZJZw?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 08:42:30 GMT",
       "category": "match"
     },
     {
@@ -17,32 +24,11 @@
       "category": "transfer"
     },
     {
-      "title": "Aaron Ramsdale’s failed transfer moves away from Southampton have been revealed",
-      "source": "Saints Marching",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPT0U1cldoSi1oUEtOUHlSMDVGd3J5SmlweUFPZW9RNDhlTnB0NlpLbWF6dTNUMGZma3o4RHRoUzFHbjdQYmlmbWZBU0VJdmwtS0lET3BmTlB1X1JFdEw4TXd1eUk5ZlBuWE9ndXAweW14X3puUFVxSEtqU1piZ3VNM2ZzSFNWSUhVNnZlQ2JoV2JsZF91T19iTkV1MWMwTk1ZZWdKay15cDZOUQ?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 16:00:01 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Preview: Southampton (A)",
-      "source": "Bristol City FC",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xSVNuUFdBUnRBTUl4ZXlxNU1iMUp0QzJaR24xbkJwZWhqaU1oYmVlNHNCZkR2OWRNMURKQk0xSTVJODI5U0ZvUnM5UmZRQnZST3dVM3hkbk1jQ1hXMUdLOE13ZUdNUlZqS2Jnd1l3?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 10:47:25 GMT",
-      "category": "match"
-    },
-    {
       "title": "Preview: Southampton vs Bristol City - prediction, team news, lineups",
-      "source": "sportsmole.co.uk",
+      "source": "Sports Mole",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQajhoNzNDN3lWclJaOUtFR3NiZ1NJdlVRa3RYRWIwU0Yyc2VCVTMzcVVHcmVwbTUwZFpkOFBhXzNMMnRPUEo3Y1d1LXdWYVNqb2RFc0VJaUxOaWE0UFZmZG56RjA1MGo4ZlEtMmMwZDM1d25UYmVVUDJ1d2V4dGxBeHRoUnVwVEVxc3FhN2FqT2pZaFFtT1R6clgtRkpwaXZDaXNqdUxTZ0ZvelBiVV9MNjhoNWVWY2xINnBUb1ZxZW96NWZDWVE?oc=5",
-      "pubDate": "Thu, 10 Sep 2026 15:31:02 GMT",
+      "pubDate": "Thu, 10 Sep 2026 11:11:00 GMT",
       "category": "match"
-    },
-    {
-      "title": "17 free agents Middlesbrough could target following closure of transfer window",
-      "source": "yorkshirepost.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSkJoQTJkeWlMbnNLei0xSWg2M3RHQ0xoY1VnSFVnbTlzclNWMG9acGt4TTlmNFlKa1QwNkxFcGM4akc4MWxheTNURHdYYkd1eDlpRVlVc2tCaThSMkNmZzQ1eFRfcU41a1FMcDNqNHRQYTNhR19tV253S2JRaWw1aVNUNy1wSDduODhxWGZDWXRKZFR0YWdpTnhVREdfUm0wR0UtaXo4Tm05WkJpRnNhZkRlRlBoX01aQ2c?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 15:30:00 GMT",
-      "category": "transfer"
     },
     {
       "title": "Southampton (A): Tickets Sold Out",
@@ -52,6 +38,20 @@
       "category": "general"
     },
     {
+      "title": "Preview: Southampton (A)",
+      "source": "Bristol City FC",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xSVNuUFdBUnRBTUl4ZXlxNU1iMUp0QzJaR24xbkJwZWhqaU1oYmVlNHNCZkR2OWRNMURKQk0xSTVJODI5U0ZvUnM5UmZRQnZST3dVM3hkbk1jQ1hXMUdLOE13ZUdNUlZqS2Jnd1l3?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 10:47:25 GMT",
+      "category": "match"
+    },
+    {
+      "title": "17 free agents Middlesbrough could target following closure of transfer window",
+      "source": "Yorkshire Post",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSkJoQTJkeWlMbnNLei0xSWg2M3RHQ0xoY1VnSFVnbTlzclNWMG9acGt4TTlmNFlKa1QwNkxFcGM4akc4MWxheTNURHdYYkd1eDlpRVlVc2tCaThSMkNmZzQ1eFRfcU41a1FMcDNqNHRQYTNhR19tV253S2JRaWw1aVNUNy1wSDduODhxWGZDWXRKZFR0YWdpTnhVREdfUm0wR0UtaXo4Tm05WkJpRnNhZkRlRlBoX01aQ2c?oc=5",
+      "pubDate": "Wed, 09 Sep 2026 15:30:00 GMT",
+      "category": "transfer"
+    },
+    {
       "title": "Saints Striker Nominated For Championship Player Of The Month",
       "source": "FansNetwork.co.uk",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNV0pQanNiWlBwRDBNZnFaNFVDLTY2NWdpejJDUVV3X0Z0endMS0o5d3dobmZhXzRSYUFDZWRhdW9XVHlSazZEN1ZnV0c4YmtLSjZmMW1LTV9PMnpzM0tQaVpLMXlXWmJBZXFxRFZtMUVFSTVvRmxIS1NHb1pUcktrOVktM1czMklrczhNeUJzekZlU0d2LUdfOW1sOXd6ZTdqbzRQckxtTGEtSmlTOGt5ejZuVW5HRzNSS0UxMUdVV1E?oc=5",
@@ -59,52 +59,52 @@
       "category": "general"
     },
     {
-      "title": "Southampton 3-1 Swansea | Championship Highlights",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMHFQQVpEMXFPcldlWVBnLWUxSk00bzA2QkstTlpmbFY0cTJGS1loZkRNcTR6TVU0bTh3OXlvejRfNURQSTRHUk9PRENmU1RFdTQtTTZSZ2Y4NFNUalg5Q0xzQk9laUVXaW5fb1dhTkJNV0pQRjJiRXNaSjdubGQ5WDhIR0FhOW82RDkzQzRXLW5Lb2l6Y19HN3czLWx2TEtSalA0RThn?oc=5",
-      "pubDate": "Tue, 08 Sep 2026 21:06:59 GMT",
+      "title": "Southampton fans will love this new signing even more after Le Tissier’s reveal",
+      "source": "Saints Marching",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWDF4NXVyVkNDa3lKWFVRVGIwRG9xbkRMNXhfZ1R2S0NVWmpBT1hjMk14cU1ROHNZd3pTTGpaMHV0NTlPMDZPMGRPQmdOV2ctSU5fT0hoWEVZV05qNTJXM2c1aW1iXzRHWEpjVkJLVlhrN0YwT3hpOFJoWnFoY0s2dnZud0NnNGZDNzV1clV2d3dybmZUclVEN3lDLVU3Z1JwLUJud1FQdHNUUQ?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 20:00:01 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Leeds United’s James Trafford ‘backup plan’ revealed – Would’ve been disastrous: View",
+      "source": "LeedsAllOver",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRXVMS3FiUHlXZldSVHZXQ3hpYndhd0k5bW1kZE93c1ZNNkhFS2hwbTJyMUZkeGxyYTk4RUVNSDNBd2lYb1hWcnZGWVQteWxIQVNTUFdtaGpSS0NiMDdWaUVydk1YQXI0d3FyV3BzVk9HU0NiTWIxaXpXanlaYnVPakZ6MkJGb0RQaDE3dlpHZ0Fsenc?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 19:00:21 GMT",
       "category": "general"
     },
     {
-      "title": "'Good challenge' - Wood aiming to be regular starting defender at Saints",
-      "source": "dailyecho.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdTFRaWtIRE02Mlp4YWkyZ2h3bjdxRjZVMEQ2ZW85dkxuUG90R2VPUkVYci1BY3E5bkIxVHVEZnhIaHFjQjhOWlpldFlHVGpVR0xBa0ZCTU5MVHA4VUI5UjBwYU1URUpmV0Y5ZWlnV2FUVmUyN0tfcExiTjZxaUxkTUl3TTFDcVB5OHFtcUZrOEQxLTNkMkVBczZ3?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 13:50:32 GMT",
+      "title": "How to watch Saints vs Bristol City",
+      "source": "Southampton FC Official Site",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOFFjeE9fbXVCbWJmQ0FzWkN3YmNVcXlBeW5Jb1Z1T3UyeG1raE9UUTJkcGVmVVlZSDlMUXAzZkk4T0h4dHZPYU52VmNUam93ODJfb2JEeHJ6MWo1RTQ1T0VjandldzFHZk1ydWJpNThuU2JxSWZhejNhN01ERFB6STNMbk5NSTNOdTBjY012Zw?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 13:30:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Simon Parker calls on support for WSL2 home opener",
+      "source": "Southampton FC Official Site",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNazk4UmhpcElxTUUtT2F5eHBpM0FjOS00c0RtLUQtTnRhOTVFU1oxTWwzZUs5UTY1OWxrNXRsbFJIeFpHUHNGQk9YNmMweGo0ZldaaGVnS0FBMkVkMXJrUUZHYnFKSWZ1MzU3QnBpcmhYeWxvZ1dnbzhlR1JlZ0Z6STRHX0lBQ2ZHaXpZazRaN1JSNlk?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 01:33:26 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Matchday Information: Saints vs Bristol City",
+      "source": "Southampton FC Official Site",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVklObEtvV19PaDE5Wk1vR3BxMGdMRW9ieWhfbGsxeHpSd2lTNmVCbWlPQ01NUWpJU29RQm9PSHFpbHBsRmZyWk04RmJTc1dtaW80ZHhFdGtLV29WQWZkUjcxQ2p0b1l3eHgwNXRDZDZMSUM0R19saVJwMkNNRW5wQU1oMjRwNlFI?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 13:37:54 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Halloween events at The Dell this Autumn",
+      "source": "Southampton FC Official Site",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVU54VmFiM1JyZlZRVDhOX2JLOE9uNFFOd1BZaVZsLVZHRXdsNmJYWVRHMXg0bGtuVjc2LUZncE1KamJBb0VmSDBYVndlbnQ4ZUFvTjdfWUR6MkxRRXhwNjltMHlIZ2sxTkcxYkVfVVpMSGYtLUpkQ0drOXo4a3lNeUlXVllmMzlDbndkNlk0WQ?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 14:50:00 GMT",
       "category": "general"
     },
     {
       "title": "Fan Advisory Board members confirmed",
-      "source": "southamptonfc.com",
+      "source": "Southampton FC Official Site",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONklvQWh5dFNGLXBPYVRZdXJWZ1N0dksxQk1xNUZ4T2lwN3pTRTN3VlRRTnRGUXJ5MmNyVHBGNG1wQ1QyYk1nX3R6bnQxNEVrQTYyWVVWYmtlNDcwaHpkREhzczRaNDNPSjdjOWNTczdEZ1RUX1FPRlBLMjlXN1lWZGlpZ0RtTFpaMmc?oc=5",
       "pubDate": "Fri, 11 Sep 2026 13:30:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Women's Preview: Saints vs Ipswich",
-      "source": "southamptonfc.com",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQb3dsaEhBellTQW1lQ0RmY0RiT1BNVGZHa0dpX0d6UWpDY3J5SU1xWUxHUDY3RC12MDN2TThwemxTeVdNNWZkRndaNFlId19Lb0VfeDV2OWhMeFN1ckl6U0hkdjY4b0RWSzBwNjJCX3RwZFNqNE1aeFJlVmxCNHFUTWwwY2thTXZ5V0tJ?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 09:30:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Match Pack: Saints vs Bristol City",
-      "source": "southamptonfc.com",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSGduYXRZdTVKc2c4aUMwamtkNXRJVFhOSXFreGNvN1dZc3F4bkFCQUQxQ0hfNVlLMm02ejZIcG5rV1gyM1U5Vk9YYUtCMWVwczVVZEUyeHBzaDFHaWk4QUlJZnA5SUNIc3l6WTJ3dGxERVdOMHFkYzlKcEVhWWV6NDhpb1VJa1o2YW9TUA?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 13:45:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Premier League Backs Continued Mental Health Support Across Southampton",
-      "source": "southamptonfc.com",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZHJ2TWtkdHV0SHpvdUZLTGRGMVpmWUllcktrLUJKX2lsaUZBYUVJUzFGN2RPQTBVNER6bU9DY3pqeWFlQkc3dDhSc1VqUXRQUFJFU295bmVzdjJycmNhRDJrUm1Va2hnbG5waVAycU9UQmwycFdTMThXeVYybmR6TXJwMnJpUHZfY1Bpd0Fqa1BGM0l4UDREU19hZTZVTXBXTUQzTTloemhhaW9xVkpqSnZNRkZYeGYy?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 10:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Bristol City \"too soon\" for Jander",
-      "source": "southamptonfc.com",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMHU0YzlZMGtVd2FTYmNWcHNfeG11TU1CX3NSX3g2VnN2V2RjNmVVRGtpaEVGOV9BeUFidmJfb1hKVGpHNEQ0QnNRVVVWaFNSWHZkbjI1b1FGNFF1THd6MlhRRmlrWVVmUjd6ZE94S3dUb29nOFYxeG0zdjdVV01fUzd5dHE?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 13:00:00 GMT",
       "category": "general"
     }
   ],

@@ -1,6 +1,6 @@
 {
   "slug": "leicester",
-  "updated": "2026-09-11T20:17:17.209Z",
+  "updated": "2026-09-12T09:49:45.285Z",
   "articles": [
     {
       "title": "Leicester heading for 'Armageddon' as prospective new owner outlines rescue plan",
@@ -11,10 +11,17 @@
     },
     {
       "title": "Russell Martin confirms surprise Leicester City transfer stance after injury blow",
-      "source": "leicestermercury.co.uk",
+      "source": "Leicester Mercury",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRGlYODZJRHY5c3VaS3YzX3RDaUJuaW1MZ0luUUp4aWRTUUM0MHhIWVhhdzFEQ0xJN1dTeTlWclhmdjRZYVlIdUFIQThDak5oTWU1eGM0Y2xkaHdDMWlEV0JVVkZGSWJEcEUtVHFBNS1ZandXVVRhQmxicUVSTVZPT0c2VmpBNG1wQ3NfdVowS3FQNE95d2NobjhWY0ZjM2s5NjRkbTdPSzZoZmVXd2RBakVBWQ?oc=5",
       "pubDate": "Fri, 11 Sep 2026 14:00:00 GMT",
       "category": "transfer"
+    },
+    {
+      "title": "What Leicester City needs to beware of in Stockport County challenge",
+      "source": "LiveScore",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQcEtTd2d4VVFRQUlTdTc2RkVEVjZHLTFZMlR3M2VZNWxZeE5nMkpIZ3NKa0FxYmE0NHAwM002Y1FTQlYtRHVtVzJHdjVBdFJJRUxCNjZ2U09GWUVtX3VGOTFDWGdYQUxGRlJiS3lzT2NNQ1RQQ2p4b0ZKRy0wWmRKcW1NanE0UFNJSXBQd2FKRElQWWpZY21QdEJaWXQ1b0trMXpRUVM5d1RSTmFhMmx4cWl3MENsSzNxVEFZdjF0U0pSNjJiQlRCOTVTdjdjZU9aU1huWWI4T0ltdndGazNwa2U5Szc?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 05:38:54 GMT",
+      "category": "general"
     },
     {
       "title": "Russell Martin: Leicester City boss bemused why he 'upsets so many people'",
@@ -24,10 +31,31 @@
       "category": "general"
     },
     {
+      "title": "Leicester City: Why Russell Martin's style struggles to win over fans",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HVUh0YlpqajFrUS13dTRNdTBOZnNUTXoxanlkOHFWVzZFNEs1NkpZb2prLWNJbWhLemlLUWpDbnVOUUZuaDZpNmtrMXd0eWg1MDRHeElfT2xWcmwxelpHaS1uZjZJLVBaVWc?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 11:35:25 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Russell Martin hits back at 'really personal' abuse amid Leicester struggles",
+      "source": "Daily Record",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVlZGNzlpbHJsblllcVRyU01hQkozQmxSSHFDSWZFYkt5YmNpdFlaaGZ4TzNkMFJ6bnlUN3NEem41QWw4Y0tOSTlIbFBoS3FITHdQc2VOazliXzRWQzNfLTRpcE9PZ0Nab3IxTmtoWkJITDZ6X3JqcnBleUp1VnJvUDdTNXJQdXc1RklqRDdlMkVLQUtTOWl5UU11TFkxb1lw0gGmAUFVX3lxTE9WRVBNR2haNTd2ZnZ1Ty1sMU5ENkYtSFJySmpwRzhXNXFZM2M0TnlrVmtxS0tyWmRCUEpmR2JKZjc5Zl9RT3g3YU54aldUNUNpN3FlTDM3ZUdqRVktbDktTTFsbjNHMS1oemF6a3E0eHBOQzEtR3ZiOHEzRGFXQWsySVJ3Tktuai1JYmozeVVodWxmaHFlZTV3UjR6YnhDZzh4S25oS3c?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 16:35:47 GMT",
+      "category": "general"
+    },
+    {
       "title": "Stockport County vs Leicester City: League One stats & head-to-head",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBrcnRyYlJhVGZzOFJESk9ybk1VOUJfWjlKSFJNSVFIaUZQd2w4a0k3R0NTVEMzVURZSGtWbm1wOUVMMDRrZ1czQTZxMnNoQlBUVzhtdU5pRGZTaWZKa2dnWFNzM1lBZw?oc=5",
       "pubDate": "Fri, 11 Sep 2026 01:21:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Preview: Stockport County vs Leicester City - prediction, team news, lineups",
+      "source": "Sports Mole",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcHNfNHAyRXpTRHBTakRubmhJY0tmZEtlLXFnQ1Q2ZW9oNnpMUDlFSURfaDI0a053OGtxVlQ3a0VoNjYydUlHcGFUb2lEYmx1dEVLLUVDVnBDQzQ1cGQtblozdVpjOHB6SDNqVHRxeE94VXBwQXdOWUJtMkRaY0ZmenRSZFdFMkFJc1hnb3RLamxsTkpZZEJ5T0dXLXExSmZYeTg1OE00M3UtTTJPU19iNTkwb29UTzNvNjg2S0gtYTFuVF9r?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 14:13:50 GMT",
       "category": "match"
     },
     {
@@ -45,67 +73,39 @@
       "category": "general"
     },
     {
-      "title": "Preview: Stockport County vs Leicester City - prediction, team news, lineups",
-      "source": "sportsmole.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcHNfNHAyRXpTRHBTakRubmhJY0tmZEtlLXFnQ1Q2ZW9oNnpMUDlFSURfaDI0a053OGtxVlQ3a0VoNjYydUlHcGFUb2lEYmx1dEVLLUVDVnBDQzQ1cGQtblozdVpjOHB6SDNqVHRxeE94VXBwQXdOWUJtMkRaY0ZmenRSZFdFMkFJc1hnb3RLamxsTkpZZEJ5T0dXLXExSmZYeTg1OE00M3UtTTJPU19iNTkwb29UTzNvNjg2S0gtYTFuVF9r?oc=5",
-      "pubDate": "Thu, 10 Sep 2026 14:13:50 GMT",
-      "category": "match"
-    },
-    {
       "title": "Leicester City And Notts County Fixtures Postponed",
-      "source": "blackpoolfc.co.uk",
+      "source": "Blackpool FC",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQT1VDak4xc1QyZExRQTM0TFFHTmE0SlBTOVM3VWMweXZXWm5RRk91OEhTMEpSMTkwekJ5T0ZONTVCTW52LURQWm9PejN2aGNQaklsTUVjVExKLVl3QXY5QW04ekpFb2VDTDZIdXJWc05hRWNGd3RlQWx5a0k1MmhLOXRKMUZNZy16XzEwSkt3SFUxVUE2OGhZWGlDMG5PLTBzRGRRUExPWQ?oc=5",
       "pubDate": "Wed, 09 Sep 2026 18:29:45 GMT",
       "category": "general"
     },
     {
-      "title": "Asmir Begovic: Russell Martin can turn Leicester City’s fortunes around",
-      "source": "The League Paper",
-      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPQmhOYWZ5ZDJWb0FYVUN2ZVNTTWJaMlJYVjgwcmF1UjVpQnFyZ2RkT0k1WjR2dXpqOUlrbHJQVXVhUXZjNGVtbC1mOFVPaFN2U2Vnc2RQVGZKREpsOGIwTHZXeFR6cXJfSlF0ekVtdWE1dUppX0hGNnlpbXZxYnRFWVpqZmFIalBrWnZmWGtDejBIcWNkYmpzWU1KSG1ld21QcGhMTFM1WGdMa3czY24wSnJ3VEwzVy1xUHlBZVZ2THJZaWw4ODQ4Wk1zUFZFa21vYzlvRThnVXhBWUptNXNYZEpCcTBpUUZiUU5FSDBqTXBlWXc4STJF?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 12:11:35 GMT",
+      "title": "Russell Martin opens door to Wout Faes and Woyo Coulibaly Leicester City return",
+      "source": "Leicester Mercury",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS1RqUmw2WXJhQ3pYZFZrYUV3VUoyeFM5LUFHYk5UUWtTUlRPVWhBSEJlOExLOG5UR1hQZHY4a0ppMmtOUTM4aHRwUzhHcTNGRkhzNWRWQThNS242RFF3NkdXX2FaVE5DYTM1N00xRnVoSldsMm9aSDN3d1hEdEtsTThrakVpU0U3bGhzQjBJYThrQ0N1SlhOaU80cW85MlFEaGlqZlBxNGg1OGdhZnc?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 19:01:00 GMT",
       "category": "general"
     },
     {
-      "title": "Leicester City: Players \"believe\" Russell Martin says Jayden Joseph",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5FT2liQWdQU052UTdaZEhjTkl5YzdTMGhKQmRUcHNCNlpXVTUtYXk4QjBmYXlpYWRMeVUzYkdlalIyLUlkVm5tTWMtWi1VX1hQSGczbHRVSHZXMnBnWnJUa0lMQ2czbUticGc?oc=5",
-      "pubDate": "Thu, 10 Sep 2026 15:47:06 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Key Details: 5000/1 Anniversary Matchday Experience",
+      "title": "LCFC Women vs. Durham: WSL2 Guide",
       "source": "LCFC | Official Website",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNV3hjT19zSXBJWXdFXy05c1pydTBXdUxodFpWX1Y0NndPMWJXMmRRZTN1Rm1MdjVmXzZTcE5CSTRFU1NOY3pqMXlnbng0VE5SRDc2a3RIWDBucXZsUW00OFpRMzNRa0hPU2MxUzJpeWowWEhnb29hbVQxR2hITGR0ZW9iUHpKajdTcnR6aGhfME5HejBMWnhGMlN1V0thb2ZpSmg3clRQVkVtM0NwT21EUGhkMnFld01UbnVOeTc4YVJQVlhfeWRuUUkyMGIwOWtJSEpxSA?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 01:40:49 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Third Leicester City Pre-Season Fixture Confirmed",
-      "source": "LCFC | Official Website",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdjhsUjZMMW01NXJoa0dQNklCdGUyZDMxeGpFRm44XzhIS2xnaTBpMENLS2g0NW9tSHBPLWNJWURrd3BDU3lHT0J5Y0d4b3BuQkQtSU4wS1AzQXFqU0lGOFd5ajZxUi1NQnN2TU9EdFpQaHppTC1OdjFYVTJURGxwYVVaXzF6WDYtdTR2akhpQWY4R0NKa1dmVENKcmVZNm8?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 01:25:50 GMT",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbWE2ODk2T2ZWRWMxcjFGbGFUd3JOZFZYZnZvMW1idXkxaHJXTDBfQ1FSY0xXLUlMdkZqTHQtSFVsQ2tUblpoSEpZbkxISmJSSmhQV09xSGpjWWR5RnZDZkRZTVZwVzNGdUxDRTQ5U19yNGpBOVFrRzNVWmtvN0Rtd1FZQXpiNlZxdFZRaGt3Yy1ILTc0SnV0Nkpsazk1eG83eTRmVlp1VVhSVC1FaENNLU02NC0?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 18:18:21 GMT",
       "category": "match"
     },
     {
-      "title": "League 1 Gameweek 6 preview: Leicester under pressure",
-      "source": "VAVEL.com",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOQUxPdlBwNlhUZWdrZnlTT1M0Rjl0OGdZMm5xdG9PSzVOMUFoaHExU21CRGRjeEM5cGVrWklyQzU0amE2R1dmRG8zaFdTX3liblduUVprTXRCZE90UVR2djcxdlJLbVZVdmFmenY5UkpURHZkWGswR1l0VS0xU3YzY05GdjNpVGt5NVYzQUxtVlh1Nmc0c1VWemlGUnFDOFc1azd4ZFlTVU5CS2JYR2lJ0gG0AUFVX3lxTE9JdzNVVGNmdGlxUGhjaFdEMTFTaE1Fa0M4ajBkTkhTcFBZai1SN3o2MmpqaTJQb21LVWszN3hRdzROY24tazBYSnRuYnhOckN1ZFJCQVNZM0gxUXV4R0RsVGk0Vk5PQWV4Q2hnVFdOTmtpVTYzRzFqU0kxRlhBZ1V3WWJaUlNVOGd3SzdjS1NPd2N2MHJTV1paajdKWHpHdkQ2M29JYmlKeUVCODhfZzVQUWVYVQ?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 14:28:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "U21s: Leicester 1 United 4",
-      "source": "Official Manchester United Website",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVXp6UGoyLTRZWUljbUxCWTI5dnRyWDBzTTJCbGtxcEExb2lBcDB1N29QU0tmN1JhVzkzUmxELWMyWkxuMW9VQXYzV3ZmUmdoQ1hsSTN1M0o3TDhxb0oycS1YelI2dW45SnpDajhuZVg0dExLYVRVUHRjWFB6TjMwR3hZd0ZWMnQyLVFsSHppeHZRNDRpTTFRWUpScEpDdw?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 01:48:53 GMT",
+      "title": "Little or No Real Understandig of Football, Media Men, Voice Of The Leicester Fans, Russell Martin Taken Out Context - tcf",
+      "source": "tcf - filbert way",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQVlMtanhzc3Zfak5aU2phclZNYl92MmFfWkJVYTRRWGtMOWMwU0VYOUJwdkktV3FQYnNHMXYzSUd6Ym9QbngzaEwzZzdmRTk1eXdwUkVURlVuYnFhMlBTZDFuTnpsZnVkOVhXR3VxQ3ZsNWg0V0FQWG9Sb3JUdG1HYzBxWjI3T1p1SmMwQ2M0dnJkcG1kZFRfRGNUMU5JUVJlV3l4aldrcWI3eFdhRFFybVpoUGxsVDdGMlhVWkF6SGc5akdka2pyV0JWUjJSd3poWDlEX2RPbnJNMTNTOHdCN0dKREFSaGpqUnA3dg?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 08:48:10 GMT",
       "category": "general"
     },
     {
-      "title": "Riis joins Leicester City",
-      "source": "Bristol City FC",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBiMUpmMHBucm1BWTZ1aUVLbUxNU0hOT0hpNHA0MXFRWDdTNkJpY2c2X20wZVRrRC03WHJzVUlVclRPLW0wd0tQM2o2SnVXYWlFQk1fa0ZGSXJKbEtoa05xdHBxQzFyNFJFVFl2X1BDdGo?oc=5",
-      "pubDate": "Tue, 01 Sep 2026 14:31:21 GMT",
-      "category": "general"
+      "title": "Next Leicester City manager odds: Who could lead the Foxes in League One?",
+      "source": "Squawka",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeVdIU1VwZ0FBc0ZFeWtqc3BUUHdNbm00aHN1SlFjMWs0ci1EVThRVUxDLUFpUVpGbk4tSkltOUNYUWI2TWxUNVl5SWpwTVdGdHdfTENCaUcyUURuYWtpSEt0a3pGS1BIeHZGQjZDUTdLSGtqTXJ4N1UyaFNhd3psRnJkNA?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 10:43:28 GMT",
+      "category": "manager"
     }
   ],
   "reddit": []
