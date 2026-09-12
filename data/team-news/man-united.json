@@ -1,20 +1,83 @@
 {
   "slug": "man-united",
-  "updated": "2026-09-12T09:49:45.285Z",
+  "updated": "2026-09-12T19:58:16.177Z",
   "articles": [
+    {
+      "title": "Premier League: build-up to Manchester derby - radio & text",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBKWFBaQkxhTTVBb0ttOXFEZmlmWVBacnV1dkduYkQtUjJlOURsdnE5ZzNXU3RFNWFBMVpUU1g0cHV3STVaLTY3elpvTzBjUWo4d0FyQXpxS3RJRmNtcHV3LWhIa21kUQ?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 18:36:29 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Man Utd vs Sabah",
+      "source": "UEFA.com",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5wR1JqS3hpdjN5NTAtSVdWR2Fkanc3MXl6M2xyMlN3R2lqZmNXOExGY3JPUUpERUYyM2p5R0VuanVXcUxjOEY2b3lVaGhpeGU1aTNFdlBqR1dKVjdvRXQ2NXlHWXE1UGxwYUhwOUUxRGNWd2hiRDAtNk5WSGVsZw?oc=5",
+      "pubDate": "Thu, 10 Sep 2026 07:00:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Man United handed Alex Scott transfer update as Bournemouth plan emerges",
+      "source": "Manchester Evening News",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRURieDg4bnRFOW1pTUozZnNXX1lja09UTzBEZ1lUTzlVMnF3bWRXbUdIR0F3eWpKZUZpbmc2eXFhTFRodmVqSzl4VzhmT3RlNzdUWWQwTUpockxlOTg2Q1NKcVhkT1ZxWUsta2hKc2Y2VDBsTm5OT3JmOFBHNzN2TksxaDVtTjNWMGdxSUp6ZE85RUh5OFUwLW95TXRQbUJtaWlQVEo0b0fSAa4BQVVfeXFMUDNjM1hqbzBTT0M1MXdrUldyVjgtOElqM3FoY1VRSnhLWW9VRUhjMnBjOFdrS3J1X0w1b3R5V1BSSHZlRzJoWWxvNGQ1TVpXOGJYUW1URHpFVThlZGFFTG1Lb1N2ajZXYUhpSENpR2ZQb2FweXVQRzFGNGF4aXJaeS1FbHlDb2FOcmNZRXFrZUwzVXVBTzVHSjJRSWREUGZOYU9qa2J4ZldIUnEwbFVB?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 16:06:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Man Utd flop investigated and faces huge ban over 'inappropriate' gesture",
+      "source": "Daily Express",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPM3Nlc1lZa3puZWFrN0lkOENPWHJsOWoxVXQ4MEplaGNHaDIzSm5tYWw3OGFiQ3pkVnk1Yng5d0I5Q01wbHhIMlIwWVhvNHdHRGZmX29aVUdXWmpIeDRpX2gyQ1Bmb2kyc3IyZlhmMWM5cEFlQ3JpOFI4WjBrM25yb0RfRzVneUc1a2fSAY8BQVVfeXFMUEtiR2FzQ3ZmUzU1WThud21ZaHBlek5YeFJoZ240cVpxQ1pabFFmaXVNc05oaWpMdnFGMERLQjNweS12NzZoUGl4YkY1SXhndjF5Z2xhTFlYRTJRazFKZEZXZWF4V3FuWlZISHI3dDBpZVpTMXh1R3dlelhDTlFIZmNxMTRxTl9idmtFMkdFdTA?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 16:54:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Man Utd ban 685 season ticket holders after investigation into touting",
+      "source": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdnkyQ3hMT25xOUJLdml2ZGVfVVVVVGU1eUNmMWYzbDYtWWpVanhtckFVcDJxYmJLenRfVjkyemx2MlpNMm8zX1RCb0pWN0JKdEtUcHk1Y01DZm1wM2QyU1VicGFXb2p5cjlyQW85Sjdka1pKMGpLQ19DRkRFT08zSzI2VEpQTHRKbVhMSHJfbzRTYzFUeFF2WGhTZS0xd09BWTB1NnpFZ0ppaVZqR21aQQ?oc=5",
+      "pubDate": "Fri, 11 Sep 2026 11:41:00 GMT",
+      "category": "general"
+    },
     {
       "title": "Spurs, Man City and Man Utd face defining Premier League matches this weekend, says Paul Merson",
       "source": "Sky Sports",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQVG5HY3NjbGdUWGNDdkdrY1F0Y1JJbWk1QWpENllYR2tuMEFibVhfejlpZWpZNnJweFR0dHU3STd4cV9wRmhFZVJxWEZUZV9naWw2bXktbl9KX0t5dzlDMkZqejZfemhPOGY5RG1DR2tpMzFwNXd6bTdhekR6c0EzLW1XQjZjV29ORllnRXFmSnh3a0pXMjhiNGRfVUtzdi0wb2VScHpvazdZMEs5RlYxcEVmR2NsX3NVZ1FvY3h2bWpkRUZBSmd5Q3NKVXN0OW9rOXBXNmozaVhKdGlpX2p1ZmZR?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 07:01:09 GMT",
+      "pubDate": "Fri, 11 Sep 2026 07:01:13 GMT",
       "category": "general"
     },
     {
-      "title": "Team news for the Manchester derby",
-      "source": "Official Manchester United Website",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5qQUdUQVFsRk9sMEJZbFEtOUdjSDQwV1ZPSV9WdzA3WENUbS00dzNRYzJNc0FBRmhKZG04LVJkVlEwaHByNUhJb1BYbEtpbkZDbENxQ0UyVlp0MlZFTGR5LUl3V2ppVVlScm9LakNrOTJNN0JyMzVVWXF2Zw?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 11:53:51 GMT",
+      "title": "key Man United star set to miss the next three games through injury",
+      "source": "utdreport.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOa0FnTkdBM0hYYnNJRm5JRU8wX1J0eEE1X0hfWTc2a3NVaGNWVHhSMU85amtqU1RNdF9GQlNzdjdZZGpxckVZRmhGYTM5VW12azF1cHFJZUhJbkh4NlJUbmdEd3poU2RBM1AxdERTb2FiSG1PZEZtT2FXS0s3cGVCQi1Da2Q1Vm9kQ0VSOERB0gGTAUFVX3lxTFBBUEUwblZQdHkyOURNZWhnLUt0VXdxWlRKa1RfQjFFdDdLVWJ3Z1FBZmxLdjVTdThGMlpEU2IwclZ4d1lPNFhVT2o3X1RBMTJjYTZXSHd1eV9oUTNOaXpzWTRZcVRPYnVfalZmeG13TkpuS0E1allTYVgyTWcya0JiZzZLaWNtWGw5TnEtZnk0dkVnUQ?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 09:32:42 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "Exclusive: Manchester United to Release Special-Edition Blackout 27-28 Home Kit",
+      "source": "footyheadlines.com",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbHpTNkpVVkZkaEQ4bnBPbmZKLUEtLWI2d0Yzb1dkNnFTQzFFb240ZUVRVi03ZHRmY2FLS2FHaEJNTFdmNk9ObzAxNC1YRmp4TU5LY3hYblFpenhVNHVBWl9OMHppOF9WeklTY1VqdWxLb3BpSnNSdmNZVzM4SDFSYU9mSXNXWWlJblAwZ2plWXNRNFRocV9mLXJmTVVFbTEyclRZR3pGSXZXUGNNY2Y3LWRnejVtZkVzQWFyaFFxSXZkeGs?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 05:10:00 GMT",
       "category": "general"
+    },
+    {
+      "title": "Gary Neville says £62.5m Man Utd star ‘has got balls’ – ‘He keeps going’",
+      "source": "Football365",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNEdCOUsybk1kcEZIS2dlcDAyV1d2Z0lIRW5UNW1xZVNFNzU5Ni1GRGlZcWd0Y0JRbnoyd2YwOXV1Uk0yQ0FoUk5BeXh6ek5VcFA4NjY4SjA4aDhXV3lyMG9Fb19vTjQyTER6ajhUQVdxSmZ4V2h2VzVrRUxrbmFwU0dlQWFvcmxqdEF1aHFR?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 14:35:06 GMT",
+      "category": "general"
+    },
+    {
+      "title": "What Manchester United didn’t realise about £35m transfer target - and why they never stood a chance",
+      "source": "fourfourtwo.com",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZERZaVNrV1JjTVpNV2VJY2JSYTJiam1oYnR0VXRBRGRhY2pGMFNkOTFocHNPbVpnNU1QTXpvZnVsNDZJY3ZlLVluYzV2c0Z1SVp5cXlfYVJQSmNjMXRUb2lvUzI0VC1ia3QtbkxtTDg2NlU3WUs0dHJpbEE3NEtxcDNVM3o3a0FTYTRaZV9LeUppSmxlcWZrZVktQnFGVEk2XzdMZGw3TnpqSllPcUw2SnN6SzdXckptbk0wNkdNSkZYbF9yUXd5ck1vVUpDSFloalE?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 06:01:10 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Manchester United vs Man City: Premier League – predictions, teams, lineups",
+      "source": "Al Jazeera",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNzlEckYyOURGTl9KV3dQWURRX0MxZHdRV2xKNFBRd2g1QnVjZXV5eEpMbjh0MGxfYWtLcjZ1YVlCTUtTUjVlOF9PLUNNRWtPZl9uVkJGTHNVSk5TYjN1emtEYkt3WWVGdTBVQzItMjYtemxKV29tdE5sbFBWMF9uaFg1NndncFZnOGpXX3p1a3NuaE9xMTNpSnlZR3RJb1R2R1E5SWZHbThNdnhzSGZ2Ym9RUzlJQ3RmMkpV0gHAAUFVX3lxTE1hcFRxZkdPZWZLa1hXQVpGbTRmMEdJMi13dVQ0OUhTMl9WMng3Q3lzUkRRYmtvazB2bUNqWElzYWFVeXNseUZHa1lhTmRlZG0tcGxSODV1cDhlbXNYMTJVRThsZjgzLURpX25XSDZnMnJtTlFFdWppY2dwa2tmdGdLVUNqa0dGbGNCemdwVGFoU0ZFTFJyRDNjQ0RUVVg1eFlFVG44bkQ4WEc5b051c2ItUWNMSk1yRnFucGZUSG14Mw?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 12:14:13 GMT",
+      "category": "match"
     },
     {
       "title": "Man Utd vs Man City: Kings of Manchester hotly debated ahead of Old Trafford derby showdown",
@@ -31,81 +94,18 @@
       "category": "fitness"
     },
     {
-      "title": "Champions League highlights: Man Utd 4-0 Sabah",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50QmNUeEdES21memZWTWVWZk0xU1RuVG1RcnJrenlxMEtXTHF6c2dSWW02NkN3OGx4c3NYUTJNVFNuNlRpazl3U01KMlN3Z1FQQWYzQkJrM1VBWXBIQ21veHcxVVNDRWc?oc=5",
-      "pubDate": "Thu, 10 Sep 2026 21:01:24 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Manchester United ban 685 season-ticket holders over touting; Watford sign Antonio: football news – as it happened",
+      "title": "Sesko soars as Manchester United surge past Sabah on Champions League return",
       "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYk83b29kaU0zTm9McDFPWWdVYmxYMWZPNFRaRGFhZmo0bkR4cHNKNzFvMndaaEM2NUZUWTRsYmgzNVgxemxxYnNNTWpJcmpLa2hfSEt0VWxpSDdJOUtXdXhpZ2FfUDRfSmh6cmcxazkwTkcyQ3p1ZEsyVXplclN1eXpUcHZyY2RJVkg2Z1ZINFlZaDNsVjVTbkpZdFY5T1V5VG51NXJ3SUVTYnhTLVI2NVFR?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 17:11:30 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Man Utd ban 685 season ticket holders after investigation into touting",
-      "source": "espn.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdnkyQ3hMT25xOUJLdml2ZGVfVVVVVGU1eUNmMWYzbDYtWWpVanhtckFVcDJxYmJLenRfVjkyemx2MlpNMm8zX1RCb0pWN0JKdEtUcHk1Y01DZm1wM2QyU1VicGFXb2p5cjlyQW85Sjdka1pKMGpLQ19DRkRFT08zSzI2VEpQTHRKbVhMSHJfbzRTYzFUeFF2WGhTZS0xd09BWTB1NnpFZ0ppaVZqR21aQQ?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 11:41:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTXRMOTdlYUFVQVJWNy1qNDVodmZBU0hHNEdOeEJoVXh0YjZ4R1BVSy1ZaThOQ0ZQMGxhcldZNW9NMlJoTTdkM2cxSUZTTi1NYW4tZDlWNzBfZ0c5cElJV0NNZ0psWW95b05KUGJmRjM4QlRvS2Z2Nm91cnFZd1RSZU1YeG5FT09YSFpYbmFDSmVidkU5Q0M0QnhaQUtaRWFxLTAzZQ?oc=5",
+      "pubDate": "Wed, 09 Sep 2026 20:40:21 GMT",
       "category": "general"
     },
     {
-      "title": "Ticket Touting Investigation: Outcome Update",
-      "source": "Official Manchester United Website",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQa0FXSGNYSVF6blh2NlBTQmVNNnhvYVVVSDhZRm9fNkt1OWdpQ2J4T3ZTVE1PNXA2OTZkamlwTzBFWXExRWY1bTl2MDlZaTlJcjF5ZzI1UXZoWXR6Ul9FRmtRV3Zkc2dGemZBcWF2WEFZQUlNa2t0NUx5WElwYVFBS0hWX0h0X3lCVjZYUQ?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 10:45:05 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Man Utd strip 685 fans of season tickets in clampdown on touting",
-      "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTFp5WE1uT20xbnhmd21PeE9jSUIwRnhnT0RQN2lSakdxZ3B2WldPb1RkanRvNV9XUmNUTXBCTUxGWWNTWUp0THRHd3ZaSVY3OFAwRVotS045cGZSUHllUkF4ZE1EQUpmSjQzUDNxVGZiN2NoeHZkS0t3QkR0bEpyVWp5VDVCbjltcU5pbWhLREdvbGhKQmNWZ0QxWHU1dGFKMEJ1Nm1saWpmdw?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 11:51:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Ruben Amorim reignites feud with Man Utd legends after failed tenure - 'they talk a lot'",
-      "source": "The Mirror",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaDNaMkk3a1lZeFNzOWw4a2FVVHJTSk40RXhMbGdnZXI2RUt3Tkc3RFJaQVpmR25nbUlfOFJjZDEtOUxrM2pTSkVmdVk1THlGSGpsWFRXLVMtdVZ1OHZjeGloNUQ5dS1WQzlUR0lUREUwMDZSMkM4TjdFcHVnX09WT0pGbW85NWtQbGfSAY8BQVVfeXFMTTNvWi1HVTR3VTlOeW80ZFdiSUkxeUF3Y085YmlqVWo1VjJlektZeHhIcVMzSjRHOGhoamsyZTdaUVh1UHRwOU91TTBkZ1lkM3lvWDZLYnQ4c3U2aDg4dDlpLTJDWDByYlhPSC1kWkMyNU14cUViZGhJNFdELWNUTldoaUZYZ0NmTzJTTnkza28?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 21:21:31 GMT",
-      "category": "general"
-    },
-    {
-      "title": "“Total shock” – Romano reveals Man Utd already laying first-team plans for sensational teenager",
-      "source": "utdreport.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB5YTczeUZNdU5xV1NlRVdtTi1wMnFRbFA2MGdiMG5iTTRtdGZCV0VoS1FVbDhlNHdtelRyQkJSZkF2MjFlTHljQ3J1SEdpZUxiWGhmYWlHZUpIT0kxTWp3ZnpxcGtOMnd2RnVmRFp1Mi16TjUwWUZZZNIBfkFVX3lxTFBMb3hoUzJfV1BwRXlwWHZRUjNSUElPcHB6SmFzUVVEam1YX3RGVW4ybzBzc3VkYXQyTlIzTDNhcG1RYXdIc0xoZ2ZfbjRWVU1McmJodkgydDRJWFBjckx2NnNud01jMWcxLTFZSTYwZ1NRQ2VjLTRNNnJldVJVUQ?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 05:17:42 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Man United latest: JJ Gabriel plans outlined and Marcus Rashford transfer decision explained",
-      "source": "Manchester Evening News",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSFI4NmJkYU41WXQtWWRpMWFyT0ZNSmQ4VlIzY0laNnA3UWlyWURWeld3ZWRwZHBObVd2Y09QS29iMWE4eUxjb3I2Q0NCNjlxX3hLdFN2TjMyOGhnWDRKOFF4MDJzLVNzbmVPQ0tSLWVzS0htYXBYMzRnNFhpLXh4R3NLX1ZlTVoweEpJbEZCanFiR1BvU1hiYnJzTTFKWGN3T1VrQjMwTTIzcWtEWU5uc9IBtgFBVV95cUxPNmMzdkZKaEY3cXk4ZlhvSmlVc2dGYkdwMkVNaGdaMWk1bHAxUHpoU0E0SHpIZ2NiTUowelVyYzBmVVZZZ25yYWpGQnZfaTF2cUs3S1U3YWw4VmVsUlBQaGV0dDNDYnJJNlUyWWlyUW5LM2k5eEllQnh4aUtNNlpMWmhWLWJjaVN4dVhXd0l0YzY3dmFkcWJsYzNSZ1ZtUFBtRzk2RWt4dXFqZW9VWTFPZHlIYkNpQQ?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 04:30:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Is 15-year-old Gabriel set to become Man Utd's youngest ever player?",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zak9Db1BZNmVpWk8xQTB6aVdvNk41OGpQaDU5YjdxbnB1aV9vTFlkTktmZ1RocXNrMDk4VUI4aXNsQllhNkt6YThHMS1feXpjTUF6SU9JVkxFcjQ0by1nWHFRLUx6LUFqNXc?oc=5",
-      "pubDate": "Wed, 09 Sep 2026 10:58:38 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Exclusive: Manchester United to Release Special-Edition Blackout 27-28 Home Kit",
-      "source": "Footy Headlines",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbHpTNkpVVkZkaEQ4bnBPbmZKLUEtLWI2d0Yzb1dkNnFTQzFFb240ZUVRVi03ZHRmY2FLS2FHaEJNTFdmNk9ObzAxNC1YRmp4TU5LY3hYblFpenhVNHVBWl9OMHppOF9WeklTY1VqdWxLb3BpSnNSdmNZVzM4SDFSYU9mSXNXWWlJblAwZ2plWXNRNFRocV9mLXJmTVVFbTEyclRZR3pGSXZXUGNNY2Y3LWRnejVtZkVzQWFyaFFxSXZkeGs?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 05:10:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "What Manchester United didn’t realise about £35m transfer target - and why they never stood a chance",
-      "source": "FourFourTwo",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZERZaVNrV1JjTVpNV2VJY2JSYTJiam1oYnR0VXRBRGRhY2pGMFNkOTFocHNPbVpnNU1QTXpvZnVsNDZJY3ZlLVluYzV2c0Z1SVp5cXlfYVJQSmNjMXRUb2lvUzI0VC1ia3QtbkxtTDg2NlU3WUs0dHJpbEE3NEtxcDNVM3o3a0FTYTRaZV9LeUppSmxlcWZrZVktQnFGVEk2XzdMZGw3TnpqSllPcUw2SnN6SzdXckptbk0wNkdNSkZYbF9yUXd5ck1vVUpDSFloalE?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 06:00:00 GMT",
-      "category": "transfer"
+      "title": "TV!+[𝐒𝐓ream]HERE'S*! Hiram College vs Manchester 𝐋𝐈𝐕𝐄 Ｓｔｒｅａｍｓ ＯＮ Ｔｖ Ｃｈａｎｎｅｌ",
+      "source": "Loughborough University",
+      "link": "https://news.google.com/rss/articles/CBMiggNBVV95cUxNNXNrcHhOUHZQZE1oVmY3bGR4MDRfbFkwbGdQSWZ6a3BBZFQ4X0NEbDRLWXB0b21lLXpWUmJVQzBWVERwY0dHZmxBX0lENnZWTndIZmZfbGMxN0xTanlSb0wxUjhQaDZFTElZRlhUYUZzWGsxdGlDMG9rSlU0SUZuZU9mTEJTbkU5TU8zSENGS3FoRm43QmRMZFgxUGFUNEFISHRwa1haSG53NElGaUJJTnRUMmFzZWtVTFFBTDVwMnp1U3ItTGFkWkdqdThGbmhwVTZ3ZzVVS2FNQWlGalRyTWdDMTlfcDJyeDh5S0xOeEpaV0hjMzBXLUFRekd5WW94TkpQVDFjQmtVMHh5TXRUZ3RLT1FITEFrTl9FcUF0alh3WThnZ2E2dmR5TEZDZlU0MjdJQzQxTENiTmZCSnd4al9EVjFtODZ1UXhRdFJWZG9hSjFrNUJEX0U1U0xSaFpPbEVyVnBlbmhWRzNCdFJBWnhWTzBxc0UwWTBlcHhuT2VqUQ?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 16:54:58 GMT",
+      "category": "match"
     }
   ],
   "reddit": []
