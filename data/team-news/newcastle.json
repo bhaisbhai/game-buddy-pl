@@ -1,68 +1,82 @@
 {
   "slug": "newcastle",
-  "updated": "2026-09-12T19:58:16.177Z",
+  "updated": "2026-09-13T10:49:47.737Z",
   "articles": [
-    {
-      "title": "Inside Matthias Jaissle’s new era – and the night he fell in love with Newcastle",
-      "source": "The i Paper",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTnZVMkRKZ0NyM3FMUlE3RTFNeUphYzFhaWxPSVNwcjZoOHM0N204SUZubkdqdV9udGhNU2FWMWZaWjVMV2QwNXlEcDNRSkRtS3VoTndqS19MeGNMN0pGY2FNcTVzdGJrY1E5S21KMHk4YW9UNHNCUXFIbVN6UTBGclFtYw?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 06:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Hall signs new contract with Newcastle until 2031",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYbm0xdTA2WG9Od0ZIS1hYRlZlQjdXZFJmd1c5OEpPRWFqWVJEU21VY0lzZDBUUHo3Uk1xZWxFWjdybkhSbDAwODJzUkFrR2pjRUtQY2xMNFoyWUEydmJwblctOHBEdEU?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 08:00:07 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "'A positive thing' - Lewis Hall breaks silence on Man Utd interest after new Newcastle United contract",
-      "source": "Shields Gazette",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdXB2VFJpdUstdEtnZHBMN1poQ1lJeVB4SUcybXk4a1EzaG8yeExMMk9oSU1JSzZfX2hxOGRGS01SM0p1MFVMVW5qbHRsLU52emlNVndRd1pyVnJVMVFFMUwtMmY4LUZIMDVKTGJfYmZyNWc0QzNtQm03dmlDaFAwOUlWS0h3ZjlRQkdnbl9DTVdLUHhUVS1KWEwyZ1N6allxREpjYnpCV19IakdKb2lrcF8zZ25CdFZia3k5Y1BjcUpRU1oxNGtROUo5M0ZWcEU?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 09:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Latest. FPL Gameweek 4 tips: Harvey Barnes the star & all eyes on popular Lewis Hall",
-      "source": "Newcastle United",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTFloNDBudDJ3eW80OFRwQW1ZV250XzRXU1FNcG95YmkyYktwT0lJb2swem44YlN4WGR6Y1NvWGoyUGlyTEF0TlZRYkFsTV9nTTlFM1d5SnI1aGxMc200VlI5aG00V1I5NEtWN2tmWTczU0lNeUpob1ppZGpkZ2FvTk1taGlMSGFldGZENHNCemdKNzVoakxDclJuOG5oZTRLS1dnVmE1RlE1eUZkUkhQN2ZRN3RLRV8w?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 11:46:40 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Bristol City vs Newcastle United: WSL 2 stats & head-to-head",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0wWmZIU3Y2cWJMVl9rQ3dTand2Y0VTUVNkcnJodjlkRGRMQ1VSazdPUmVxN0pTbUNyQlB6LWd0djFMSHppSmRuRC02NjVoRmRTN2FuaUxodlh5RHVTams0WHZST0JHUQ?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 16:15:39 GMT",
-      "category": "match"
-    },
-    {
-      "title": "‘I need more’ - Newcastle United youngster wants more Matthias Jaissle game time",
-      "source": "Shields Gazette",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeENaOUFlaXZrZ0prUXB3TXhxMHpDVndnVWhyX3BVekJMZjcyVFdtLTl3R3djYnJ1Sl84OWlncVBtV3p5Ym81WTFkSVA0V0d4VjgtOEdyZGh3c3RpV1Z3UU1qdXpTeUdkN19Gemd1YVBNOV8yOHp3NWFNVnBUM0VSc2RNLXFCWWw3cGJLLWRyNVdaMFpWSTJDcG5hVTJLOUNyNUtqZlBfcWVYWEVDT2c?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 16:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Newcastle boss Matthias Jaissle's private message to Eddie Howe speaks volumes",
-      "source": "Chronicle Live",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRjNhd3V5ZW8zcXNaRjM1UkQzRGNuLXN6SU9RcTdxUkNjUHhtQ0ZxZDV0cUdPNVNPMWhwc05vRUNlbUFfcV82MzU3RlhVVE82WWVrcnZRNWotRFFnMnlSZlNmck5jV2FfcHRoY3BtLU05ZnRoMUNjcTRSeE5jcktPWVBHcWtGQjBlMFhpVzJlWGV5cmJpbElIRkJPUnRHTktKQVNxZE5BemlQejjSAbABQVVfeXFMTmVCZU5LdEplbzJrSFgxR0xzN1lIRWRNbkpMNS0yV2JManVxWWh4RjY5SmowVFdfb3VkdFRxcFJuNmxVZlNpV05kYm9uRklDSURscUVwbVpJaEhkZTFfUWZxZElqNGQtWWluOXlKcS1VeTd5NEthUDlVN01NaHVYQXBNWXI1Z21pZ0NudGpuWUc2YzltNU5fX2d6V2JnN21ZeXAtZFFoM1psdmJ6V01QaFU?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 19:34:00 GMT",
-      "category": "general"
-    },
     {
       "title": "Leeds United vs Newcastle United: Premier League preview, team news, stats & head-to-head",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5BeFBMd0w5RE82VGFOSThuc3BFQ3RERVB0US1PNlZLMkJ1U045TmExU05QOW9ZNEplV3BJWnVkQnlsZXhXNHRfMVFHVlBMcnRxLTk0bnowdk93ZFVXSTVnbEtFNDYzZw?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 18:19:47 GMT",
+      "pubDate": "Sun, 13 Sep 2026 06:24:47 GMT",
       "category": "match"
     },
     {
-      "title": "Newcastle United perspective on Premier League fixtures to play out today (12 Sept 2026)",
+      "title": "Newcastle United tipped to sign former Man Utd player for free",
+      "source": "Read Newcastle",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMzVpQjFrQUhhZ0s4OWtlQXBER3pxV3J6bFA2Sk9nUnE3cWctYnNZa3dVQVJjdnVwdkd0M0NUTjhWdzY4SzBCUmprWVNONmdrelkyWWNyNFh5Vm5IaUZueTRQalN6bmtpXzRJZU1Kb1E3V21LNE5URjdLQmY0WXBWbFh3NjVCQ2lpT0xxVmllbEptWUo0b19fWWFqLWk2cFdna0E?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 21:45:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "The enemy of my enemy is my friend starring Bruno Guimaraes",
       "source": "The Mag",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUmZvUkpnNnVtWGlkSjZxNW1ZUVlWb2FZc0hEbkxfVldFM1YzNWg1M18yWE9tblRfSzhtM1VFV0tLOTNmb1h6TWdsTW5HZ0tfLVJ6VV9Bbm5nR1NTdG84MGVyUEdab2oxT1pjUEZOSExjV2VRUkprTFpXNHI1ZlU0OU95RHM3QmRzX0VYZDVaRVBMZUctMjduSlBlQ2JVYUl5YUJEbS1aNHo0dkFQWHdzV25aYi1mSWpzU0ZBbA?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 13:40:55 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNckNhYzNkUllpUXdNRzkwQVJ2d2U5WC1rVUdfbGw1QWFwTC1rcWUzRDhUN2NOYnRpaEx2ZU1QRkh1NlczZnBTaXVpWkNhYzFUeUllQWRFNWgxS084ZHo5dWJDZEdpSmw3ZmVEREt6RWxpbGk1QW04SU5CSXNsSlI4enk3T2lBUTZaSWc3OUN5ekZ2R1Z5bXVZWTlCTU1tWVhldzJhWHpUU0lnQTBZNTJyVjMzWlF3U2loeVZRNUYxdk5SdWZyQnRqMA?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 07:58:31 GMT",
+      "category": "general"
+    },
+    {
+      "title": "'The fat rat' - Bruno Guimaraes brutally trolls Sunderland & Newcastle United love it",
+      "source": "Shields Gazette",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQakJsNTQwaHdrVFIzZXMzSklRTEkyd0xkYTNlNmhZMDBKeUFhT0ZtbW4wc1ZkNVVHNENQTXZNVXNvSklYNWQ5RWlFZmdIdVNmVy10RTU4WWx5MTBmWFZ6YXAwYXNzRG5ZYnZkdEZZYy1Fc2pKRlotS0o0S3pTa3RWQXRxZEczMFdtRVo0Q2hxTE1iX2VRa1JQcU03MU1NaFdEaVpXNWtkNGZvTDhWWmNuRDROWG1mRDZqeWtZeQ?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 06:30:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Bruno Guimaraes sends 'they know what they are' message to Sunderland as 'fat rat' twists knife",
+      "source": "Chronicle Live",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdzZndm81MmdmMk10NUhCcmpfOWdUX3pmSlJ5YTVZcHZLQm9FalZsVVdIdS03VFgtYk5yNFFRYkg4QlIxRDhPRC1zOFJieHhULTd4VHJXYmVFenppVjFPbl9MTVZfTkFCb1REWHNHOEk2SzFtNm5ndWxSNjBOX1Y4LW9KRjdkNVdraTg4VUVoNmwzSDFnQ1l1Zlp4S1BJQ1MxZXJiS3FYMWcyQ3pOaWfSAbMBQVVfeXFMTUVNTkV2aEtiY19DZnppZU10NVhBNUxqNV9fWHJ6dzVTVXNRbmc2MEstZ09FRE5MNXpZOHpRRDU1UHR6bzZwaE1OSDVyeGx5VVBOT1hjc1Jjb28ybGFHX0gtZnVVUEtMRGxZRndQZHVTV2FUMGNRTjF4cU5iZU5UZHlzYnNMdVBvUlNwcTNyVkZzZ3lLOEdoRENMaDFNQWNJeU0xOGRTZzBmSXRLb0pNeTZuTkU?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 06:41:20 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Newcastle United agreed 'ultimate deal' after UEFA punishment & Nick Woltemade exit",
+      "source": "NewcastleWorld",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUXRsNmhPNXV3dWJJdGlIWUFxUlItMGgxaTZDTmdnc0ZKclZJQ3VOZExKeGlmTWRZTncyOU5VZzd5SkZiQmY4MDlXSHNVUnl0aVViVGRDZm43b0N2QXM2ZkFDcjYyYXA2cVFmeTN3bU5ud1VJTUxNSHE2NHF1NU1xX2NxajFxYzV4WUg3eE1qb2FSTFZTTzJQZmtoLUNKM3ZkZ2dYTnBYVUZfT3RWcUpGZzRRVUoyN2lqOWNMbUo4dDEyaV83by16Z0hFNFl5b1E?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 08:30:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Carabao Cup - Millwall 0-1 Newcastle United: Joe Willock edges Magpies into Carabao Cup last 16",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9jQXVRS3pKVDhPbUpjdVFyWjJxWGJQSk9qekJfVExzRXgydjJXTGhub2FueEhwU2tBcWFCMHdZdDlod2pzSkUxRGVXRXh6M1l0N3BTczZqdmZMRTJkcjNlQm9DeE5zdw?oc=5",
+      "pubDate": "Tue, 08 Sep 2026 22:17:39 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Matthias Jaissle explains lack of minutes for two Newcastle summer signings",
+      "source": "The Northern Echo",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWUhXVkhjMjdDSGIzLWoyOHRDTGZEVzlXcmExaVMwOUhHSmFXYlJ2VUJDRl9ZQjJNN3pOMFFkWExkYW43UWVYNnRvZEkxMHVCUzRXMXFMa3JzOFN3TGJ4RGxuSElmZGM4QmNjNm00MC1pZ2RVdHhVNXpjbWpFMFlhNjU2Y3B5Wks2a0R5UmlKZTdZeTl3VEFtWWtNRTdnQnRyOHpUbFRkWGZlQWZXRGpuUUdB?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 05:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Latest. Lewis Hall signs new long-term contract",
+      "source": "Newcastle United",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNVFTbndYQ3VrWjdMQi1MNWhjMlVHbF9fd1JLNlcxc0VwWXpjdFBEUDl4WFVuV0xtODdCeElwQ290Y1llQnZ5RW5hYmxPOXN5bjVQeGpHcDQwRWgxWjlzVWV6bnVNSFFMQldTY3lDZEVPT2JVa3NYcUFudzl2TkZ4SERESzZnZw?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 05:21:12 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "'Incredible' - NUFC star looks to the future as Bruno Guimaraes & Sandro Tonali react",
+      "source": "Shields Gazette",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNckdTQTZKTTJfelVMeHF0djhMOEVka3NERXRKYWJOQWZpTVFDV19JeVZwN2I1LVNTMzFYZ0huWHFmdWF6TEdPSERSdXVWeDV0UzI1eThmLUFNcHl0dXdTMkZTLVRtcTVkeURBT1NBTXVoRjQ3VHduYmtRTkFkWDRJWUpQbU9OWHVlMW5HdDVZQ3VqOWFOX3AzTXNIZk5NMlRRbDVwQ2Q5bWdVQlJDMnRsTm55OXQ5OXJDekNLRkliRDk?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Newcastle United have made a 'massive statement' by backing key Matthias Jaissle request",
+      "source": "Chronicle Live",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOS1ZsRnZSdGItdW8taEFMZEpuWWMtMld3bmp6Tm9HT1RsbE5RRzROZ0dXcFVUbENQM2FSTnoxZUI3cTFjVWRDN0tnbkR2eUVqTnN1VEhmRGJIYmRMaGNuRm80aWk2Nkh6R2l4UkNsbEZZZTFjTlJJejEtQ1B5UTg1bUlxRlVON3FISF9LUFlmSmdSRkZySGctN3kzX2hzYnRkVWRwd3FIZ1VrNFBLNUHSAbMBQVVfeXFMT2xZOGtDRmpzLXpucnBXV3dqQ0RmTEZXd084X2JfNHcxZGo5cUlZelNhenhfX21xWVBQZTMzVTZnZFVZODFOaVZNVnc0QWhSS05CeHJJMERhVjVxZ0JHME1JblZ5eGYyLTZyZTI0eHBiVnV5TDIyS2lsYjRWQ29wTElMMlpwcGhYaTZQSjRMY3o5MjBZcEJ0ZU5LUE9QRnhDVlF4Z1RPYTF5b1cxZ1o1eHhhVmc?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 07:00:00 GMT",
       "category": "general"
     },
     {
@@ -73,39 +87,25 @@
       "category": "general"
     },
     {
-      "title": "Newcastle Confirms Major Financial Swing Depending on Premier League Finish",
-      "source": "SB Nation",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOb1ppNEUtMkhUVVpObXF1dm43TWYwTkJfeWg1NmhtMWsyQVk3X3FBVEJfZGVld29OcU9Ta0pmcFVITDB2QUx3NjdGTTRnZWJmMmlUdG9GN1QzMGJ0Z3Zib0FCdWpNY1RiOEpTc3h5Wi1pelNnU2dKLTFWNXJrM3c5NDMzbmpmbm9oVGl3b0Vha1NTYVZvTjNSRmpYOUpoVE91WTF0aTI5dkN1UjI1LThaMGlkMTdaT2ZRNDdYMDRyQzdHV1dUZ0dlZlhzcVdhS0FvTy1VT1NYMmZGX3hzSGFrZ3BKVQ?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 15:00:00 GMT",
+      "title": "Newcastle United 2-2 Bournemouth: Premier League – as it happened",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTF9xY0ZFRDMzOTdhU3hYdW1qYUVjaUlfSmFoWms4TXplWEtiQjVoUHNHVDNTeXdoMXBUMjJ5bWxtenFGenlNcVNSa3paNHpBWTJFb0p0aW5rV1djN2hoQ3RtWVV3Nnktd240T2ZqZGtQZUx5WjZ1Qk5ENnJwdmJzb1FBVEVGVUdWOWZKQmZ2VHA5OVVjQ2tNS3BmMGo3cnhwUXdLSGVwQQ?oc=5",
+      "pubDate": "Sat, 05 Sep 2026 13:50:12 GMT",
       "category": "general"
     },
     {
-      "title": "Newcastle United make decision on Dan Burn’s contract",
-      "source": "Read Newcastle",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQOXBjMEo1eFFTczZWaXRIS0NfOTFwUzlhTU8yaWVFNEE0VUVJZDEtRHdHRjZ3S2psMXFieVpNcDZlSDBXTnkwU2hYTTJYSnZpd0hBczROaEtTbjhyU1p5dm5ZNEtOUGlMX3F3c0h2dFNzbUtuclR5ODIzQTJQZGJGSlQ3bFBjU1N0ZVE2azBjT05JcjQ?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 09:03:11 GMT",
-      "category": "general"
+      "title": "Club Plot Free Transfer Signing Of Newcastle United Star",
+      "source": "Inside Futbol",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOHJFSGpmOEFxVzBKUlZLT0F4WTBueG8xUXhwaGpZNDduSzQtWmtyUGZicHQyQU1JeEhtLVZBWGlnYzFxNU00ZXFRV1R4VUVLRXUtUE5MVUpITnBpamQ0bkFSOWktZ3BSR2I2WEdBb0FlVEF5c1pjMFF4UUNraVhHaTZLc0h4M0hmZ0dEZkExR0hGZlhSQ0NZV19idG5lWGNhcnc?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 20:43:00 GMT",
+      "category": "transfer"
     },
     {
       "title": "Newcastle United",
       "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaTdoYUFvSFpFcjFEOFhMNUN3NV9scEhyQ0k3Y1JNZWNfQVNmaVdqMkt5SzE0Uno0OHhDSnBHeUxoZGJQMTdtazVPcFRJSnE3RzFPcGRVc3o1WTYzWkYxVFlyVWxyUEZ4RFhYUjZoQ0RFMWxPYjBiVk5yZTNYajZtRWt2dmQxU0tfb0NGRVRmQ3ZrZw?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 16:57:22 GMT",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUkpKdHBueThsSkhNR2JhbmRXOVRBc2oyOXFsQVdOYVJpTmgzcWxoMnlaaGR4dUZJS3N1VHM3aFIyME94MTB6VWdReHl5X20wYUFST3poNC1PX3hfcURQMGd4YjBIQTFqb2QwdTFDdVRhQ0V5MHVXUnlHVWxCc3E5UTJLTG5ub0J2UjExZVlCTUlrdkI0?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 08:35:10 GMT",
       "category": "general"
-    },
-    {
-      "title": "Latest. Leeds United vs Newcastle United: Take our pre-match quiz",
-      "source": "Newcastle United",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQkQ1aUVYejNnb09sZV80YWRZLVhiRnlSWHNrU0JlNnFQajQ1R1VtRG5kUWN5LTEzRkJ6YWNqLWU3aENSTm1XNXBlZjF4c21pT1RacG5oczZ5Ymc4MDZIWGpTRC1nZ2ppWjFicGp5T2FCdktZRE5NbkUyRDNqSXZqeW82VFBJNHc3QTBvam1nR19LREZwOUd4dVd0ZlE?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 06:59:59 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Lewis Hall: Newcastle United left-back signs long-term contract at St James' Park",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNT1FiWW5xbE1YY0tXUk5TdS1sLWh4bHVPWFgxWElTa01Ca0lja0kwemEyRGIwOWxOU1dWbWdCM1JaQVRKaFFIdG5paHFTWkFEcUZDeWFxXzJjYTAwSTNZcGM0M3VLbUpjUUo1XzRQeGplMlNOaDkza1NHZ295ckFEekpOdlI4bkI3OFN1Z3ZhY1htTnVsdTlTN2FYaVNSbVh1X3pRcWg0dUZmdWRTbEEzWkotMElZWGxudjBrb2dVTWM5ZFBtd3Y5ZHBOclhBcG8?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 08:40:02 GMT",
-      "category": "transfer"
     }
   ],
   "reddit": []
