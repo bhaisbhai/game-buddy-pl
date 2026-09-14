@@ -1,33 +1,75 @@
 {
   "slug": "nottm-forest",
-  "updated": "2026-09-13T20:05:02.270Z",
+  "updated": "2026-09-14T11:18:01.618Z",
   "articles": [
     {
+      "title": "Cut-price Nottingham Forest transfer being 'evaluated' ahead of January window",
+      "source": "Nottingham Post",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUjM3SmJRVWpKTU15UjJJM2V2aUc5SUh2M0pjMldtN2RRN09ud095ODB5bmFqWWxJM1JpUHcxRDZibXhEVFdSRGVIb3RMY3NZOGN1UzBoenlJNEgtS0NKQ1JpNDdLbDREeWY5QnlBVTRBbG1rYWZpYWpRUnhubU9QY0pMMFNNVVA4aTJob3NocW9paUZaSXdoOFR4clROTm0zMXJDRDR5VDFoZXlQM0lMVUNUMEQ?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 12:40:09 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Inside Nottingham Forest’s academy system: One father lifts the lid",
+      "source": "Nottingham Post",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQkxBX1ZGY1kzNzc5VEt6Q3hjMjZONWtYRkYwT25UaWxTRmZocmdnRF9raTJ5T2Z2X1ZOLUZySlR1LUhzQ0JRMWxNaXhoSlU1UzF3NDhIYjMybXItRi16MDRRdWNQdVhNaW5RNEc0Ry1oNmY5Q3VDLTVlbVAzUm5FajVZSGtJUVRGMVQ5YXpscHJsRFRTdTRIeWlZaF9vaEplMl9OazlONA?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 07:01:49 GMT",
+      "category": "general"
+    },
+    {
       "title": "Aston Villa 1-2 Nottingham Forest: Oliver Glasner masterminds another win over Unai Emery",
-      "source": "skysports.com",
+      "source": "Sky Sports",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdVJUVDhQV3M1VWxUc3NhSUZQeXZNbnM2WXFUdGlPYXdack1ScFV1dXZYSHpDTW1hNy1EWUtiR2ZyOXVIWEUwd1E5Yi0tM3dUdHVXMFdwbW16MXJGRTh1M2JTQ0RaTDkwOVVYQ0lJSktQUjJKczdqbk16MkZvY3BrX2xwVkkyc3Y1S29uWEhaZW5hNHA0aGdqWFhUVHZoWjJVaE9aOGZMa1R1Tzh0QWRHRFczcGtKNUpIdDQtY3IxeDNveXRhS0M1TFJjS0xldGo3bU82ZUNtVzdjeVk?oc=5",
       "pubDate": "Sat, 12 Sep 2026 16:07:41 GMT",
+      "category": "match"
+    },
+    {
+      "title": "What Aston Villa did before Nottingham Forest game that royally backfired",
+      "source": "nottinghamforest.news",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOcFFzMzVHLWRJSVRPVWNCNlcydHdwcWtwdEZfMnhEUjlIT1Z1RUs0LXBjcS1hVF8wd20xdE4wYzVLT3NpMW5vN1NIRnROeGQ3V0J4NHlIRVlaRWhOb3A5VUduaGNoRDFoeXYzRUp0TnhZdlNmZzhQX3YxVHpyemZpT0xqWGdjTVhXYk94NFVZWG5JT0t5cUVKX2o2eXJTZmhLVmFoenZyMlFUOTl0c2FTcHJGVGduM2Exd1hN?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 11:11:49 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Oliver Glasner drops Nottingham Forest masterstroke, win over Aston Villa proves it",
+      "source": "nottinghamforest.news",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdUpJd2FBUEtFOTFfMkdTNVR6N3ZXRWhnYWdoUTdXc0Z1NVdJMHgzLU5EaEMzdHAwcnU3MkljeXE4M2VtWmFFODZiSk1qSk1TRTloX1dkME5TQ2JCS2lEZGJzUkdabjBEOGdSUTUzR2QzNEcxTW9BQktudTFfZXA1eXQtQmsxUHU0UC1qeDBNTXB1M3dMQ3BnSWVwVEZyQWtWbUp2X0hZNDUyanozdlFpYWwtdXdaeWJhUnQ1ZzQ2UWJ5VDV5ZFpN?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 07:30:44 GMT",
       "category": "match"
     },
     {
       "title": "Nottingham Forest vs Watford: WSL 2 stats & head-to-head",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBzTUg4UlJSMW9ZdVY2TkMyNEZMeVhpcDVabmdrUm5fMFJrVmJwb0RVLXYwSUd4alBBYXRYY0xVWmllWVFwZnV2ZDU5ZmU3T0xJNHFLVnlZZ2I3OVdPd0UzYzNqejI4UQ?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 19:43:54 GMT",
+      "pubDate": "Sun, 13 Sep 2026 22:58:06 GMT",
       "category": "match"
     },
     {
-      "title": "Aston Villa’s Unai Emery says Nottingham Forest’s James McAtee should have been sent off in 2-1 defeat",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcDFCTDN3d1o4STJvcTk3MW4yT0tWU0NSREFHLS12X2VndWZxbWl4SWFiRjE5ZkhkTkxNdnYxREZsSVozaWVvLXZORXF3R0xXMGI0Yzh3TmFFM3daX3JHWU9LQy1FaUJJUGZ4WEYxZGstdkJ6dEx1Um5lQ0JhM1hoN2tONEFOU3IzRlp4UHVUVENRMnBWZGlLTzJBa2tqUQ?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 17:41:46 GMT",
+      "title": "Barclays WSL2 results: Leicester, Sunderland and Newcastle stay perfect, Nottingham Forest grab a point",
+      "source": "Her Football Hub",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWWNOQmkzbVdLX0dCNExiSE5Qc1l0c3RWdjlrVXl4SzB5S1JPazE2Z2hJOXNDMl91R0FFbDhJbHBJYzlydVNuU0JzWW9RREo5alZzODFSVVFGemJ1MThwSzlucUtBNXRUa2MwQlZSTXVMN1JyS0ZpTjY2NVRUc191SXl5OWFrOXJPZTJ4ajQwRWxHUWtqVFk0U3NudGU3OGMwWWdCd0hNT0dxUzBIbGRqSzNrRmZvY2lGTmJwQTI0djRReVFtVVZv?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 21:18:42 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Liverpool FC vs Nottingham Forest live score, H2H and lineups",
+      "source": "Sofascore",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOdkE2cFFKSVBHUHBZV0xfcFBvTV9aMTZjbkxqcWF5UkdwM3lKR0F1M0VVMFZWSUZsUlJfVUN2VzBtdTNnbEZWU2tJRmd4Y2ozZWE1OGRHZENKbk5RNFpoZ0ZDaEI1VzNISXBjZlJKb0dRNlVKc3hRRzMyYTdzb2t4Vw?oc=5",
+      "pubDate": "Sat, 29 Aug 2026 07:00:00 GMT",
       "category": "match"
     },
     {
-      "title": "'Stay humble!' - Oliver Glasner downplays remarkable eight-game unbeaten record against Unai Emery after landmark Nottingham Forest win at Aston Villa",
+      "title": "'It should have been a red!' - Unai Emery blasts VAR after Aston Villa's defeat to Nottingham Forest",
       "source": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeWFHQmNrUGhJcU5tWHJLQWxqUUJZcHl1amtiLTU5empJSE9Wc0U3RlVWTUtHdUtSeXl6RDY1WXI0MGhvV0FjSlV1dUtXX2VSaUQ4U29zT1liX3NiM21Oem5QUFhMOEo4MWNmdkJNTi1xRFppRERCUzBuX3FwZEprNTh6TmE5UnJHcTJ5WkFmUmJwT29CZnlOZ2RCeDc2NGUzVlRYSDZoRWg1V3NCaVhYdV9NcmVCdw?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 20:54:31 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQV0lqZnpKdTRYWHhoSXI4X3hQYnV0WHhzRV9GRGxZd2RVOV9tNmNjdk9CWGFjLTVlcnZiS0ViZ2JuNTNwRWY5XzFmSUhreEVva29mUlV2Q2ZmVkUyd19mSHBuZnY1eE5jOS1BbkkyVTR3WUVMQ3ByV2VRaVlXVTJ5S2wwWHFRU1FZZld5elZoem1NTUtXVW1rRWdRc1lCSC1uWHh1N2JRQXhwY1k?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 19:01:57 GMT",
+      "category": "match"
+    },
+    {
+      "title": "DELAP'S DELIGHT WITH FIRST GOAL AND WIN",
+      "source": "Nottingham Forest FC",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdHNRVUtPMnZySWhpSmpnMU9QNlNkQkh4WjgtMDRrNjBkUkhyc0U0eWxFVjdVeFZ1UFZRWnpZY1hKRERWWlRvWUdGXzNHeEt2bF95cndmM0x4QlY0RWtsSXVmYWI1OTcwRmVVcS1VVW1LNXhmZ1RZelpzTjdiYWg3SV91U1hLZjlJSWQ2ZEZtN0FkbEhiYkY5cm9Wa2R5Zw?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 02:12:58 GMT",
       "category": "match"
     },
     {
@@ -39,73 +81,31 @@
     },
     {
       "title": "Nottingham Forest star Dan Ndoye left with blood pouring from his nose after accident during Aston Villa clash",
-      "source": "thesun.co.uk",
+      "source": "The Sun",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZlJ5LTB4V3d2NlRPVGpWejdkZThKRjk4QW1YLXhuSDhQNjVlZkphek9UZ1dWaTFNVTloOHdDLVpjNUtGMkFqclNJRmkxTDBZQ3JwQVZDZzRBOW9ab2xnUkJlNjQ1aml1MGQxQ0hBV2Q4YmU0T0NGNWJMQkRTWmR6UFdycE80MGlfYjAwVTIydm5XdEtkakpV?oc=5",
       "pubDate": "Sat, 12 Sep 2026 17:13:00 GMT",
       "category": "general"
     },
     {
       "title": "Preview: Hector On Nottingham Forest",
-      "source": "Watford Football Club",
+      "source": "watfordfc.com",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORkE5V1RqcVlYM3BBak1sdjhISVB4dTRzelhKOUtpV3ZqTXZVZXYyUzViWFdpX1gyLXF6N1dEdFd6S28yeEhGWWUtWE9KRTNaLUg5SW9MWVp5aWhJMlpVdk1xb1JUczM1dkRKQUt3RjZIclA2NlFnaUNlLVVpUmFjMTJwV1E0SFhkbHB1TmJB?oc=5",
       "pubDate": "Fri, 11 Sep 2026 11:08:16 GMT",
       "category": "match"
     },
     {
+      "title": "Depth and Grit Get Nottingham Forest Over the Line at Villa Park",
+      "source": "VAVEL.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbEtQbV9GWlRpZjhhVDVxNWY3R2gzWkJqWjhMR2JxaW00S0JaTmNFWVdyaGFhdUpMcndRT0xhTU5jQXYyRnZYUEcxbDN1eng5ek5xeHJpTGtyRXdmUWlsYXk0eHpvNWJCWDdONzgydnpDZ2hQM2N2X2I3Q0o1SVJkWUtWR3JnUU95NVY2WDROQXdOSkpJekw0NWtGd1ZLZDBpMDJpSEZUZmdILXhuTF94ZFN30gG3AUFVX3lxTE1ZZ3hfdXpsVW9YU3ZyWHdmdWRHMzdWYzRyd1RGTm80RGxWUTV5QTdzNW5yQjhuYjdVenIzZmduZzNjejQ2eXp2bDBGZWRocWlsamxpOHZRQ0ZrNkVnVlNud2hTdzNBb250NVpuZHE3OHhjejU2T0ZvU3JRQ3BpZ1NLZ212OFZQQTFXT3JLZGl0bHZsM2FHaU1wWnhIR04yMkNQbk9jVmRPWldJdS1kSWNURkxsWVdwWQ?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 14:07:00 GMT",
+      "category": "general"
+    },
+    {
       "title": "VAR a scourge on the Premier League as Forest denied by off-field meddling",
       "source": "The Telegraph",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZlpMZ2p0bGRmU1NZeFdZVGU0cWJBdHZGdmFRMHhNWTZLTEM3d2VVNlNpMjhiRUVXakIxWE83Z3QxZHBQT0VmUl83alZkRzFjNFBHd0xkUHdiZm9qMmRQRm5MajJNRmdBVW5DeWNKR0xpbWRPN0ZiVGNzVG03YVRoeWtISjR3UXJBMHpCY2tuVm9wXzhka3Rub1Q5NXJocV9UVVRwVTlibnEtQ28?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 16:05:34 GMT",
+      "pubDate": "Sat, 05 Sep 2026 07:00:00 GMT",
       "category": "general"
-    },
-    {
-      "title": "Aston Villa Football Club - The Official Club Website",
-      "source": "avfc.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOb05PczlsMUhicC1HUVRwblNZOFJXa0lqalhzUi1kUlU0QXRFdHI5S2l0Y2VTeHY1aEJPWWxiNGJIeDl0c2VOTVFQMEZabFlPSURYSUs2djFFb3I2XzlhRkZXbXR0c3BXWDJfVzRZaktEZkdVNkdLT2NvUy1tcDJkOGpvejhLYzVyby1xQmFTR1lhWXlLNjFZWk5wNDRiYlNyUGEyNlVnY19pZXBUNUE?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 14:07:57 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Aston Villa duo could be involved against Nottingham Forest",
-      "source": "hayters.com",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQWZVYVpJMmMzUmVzQmc1andWYU1VcS1yRDY1dzkyNHZnb2d0MGt6WUJrV2ZtVk4tX3MycGozUVlSUFBHd1JLZjQ4X2s0NFhJaTNnSVBBS1FCQWZWbVdpQmNDcmVld1J6QjlRZWlySVlHZHMtOURUcnNsLV9HT0JTZm5zOWlYYjjSAYwBQVVfeXFMTkJfTURkUGhZdzY1c2wyR2pKLUxBRGlJM1NNMlJOOGZ4THI2MUJiOG9ub2VlbGQyNWpEVFh6TW9zaENWWmk5NzBjUkk1a0VuNGJvcC1QY19Zb0NtNXlOX2g2SDQybVcwaUhPYkZGeTNzNXNPWHA1NXV2VmI2TXdWVGFDOGp3WGJ1TFAzdVg?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 14:49:57 GMT",
-      "category": "general"
-    },
-    {
-      "title": "FOREST WIN FIRST GAME OF 2026/27 AGAINST VILLA",
-      "source": "Nottingham Forest FC",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbEVzR25qZkRpTWJ5SnJ6WGJ0bFUwZTNBOF8wR2FUVmw1Y04zQTlSRlZyM0VOQURZYWpETDJKb3VaQktodjBId3lWWlRhYkhlZXhlUmp2VUV5bk5pbnJvOEdWMnRDQlQyQ0hINWpmWERMQmxVYkZnREhpTkdfVElJTFlXRQ?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 18:08:41 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Cut-price Nottingham Forest transfer being 'evaluated' ahead of January window",
-      "source": "Nottingham Post",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUjM3SmJRVWpKTU15UjJJM2V2aUc5SUh2M0pjMldtN2RRN09ud095ODB5bmFqWWxJM1JpUHcxRDZibXhEVFdSRGVIb3RMY3NZOGN1UzBoenlJNEgtS0NKQ1JpNDdLbDREeWY5QnlBVTRBbG1rYWZpYWpRUnhubU9QY0pMMFNNVVA4aTJob3NocW9paUZaSXdoOFR4clROTm0zMXJDRDR5VDFoZXlQM0lMVUNUMEQ?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 12:40:09 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Aston Villa 1-2 Nottingham Forest | Premier League highlights",
-      "source": "skysports.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSS1RcXVJMzdjSTd5OG1IcFpsRV94UDE2dG4teWh4Qjk4Q1lONXlVdmIzTmFCRkRkOFNmcGRzMTdzaV9kM3FkZkxXZVB4ZGtYcG1Kc083cW9KNmduSmllMG0tNjBuQmpXaW1fSmVhS015SW5pdmpvNHBOWVlYQmJIWGFYWnJMX2JFQkFBMDZLbGpfaTNLZUl5M2ZOSnFvdDNlMjZQczdVN1A4Z2w3S0VobHZvRGZvdw?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 16:32:16 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Edu has Nottingham Forest contract terminated",
-      "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPb1BGVFZKbmdyRGdMZTFtLWlMSUx2dkFIZERUM2V4TWktTzgtVXR2bmhGQ2NpeTdRUV9kRWlMTTZxRG5aUkttTTd6RFQ5Z1FOMEhwWHFsTFpaUUhUS3NqREMtZkRjSUktTTE3VlhvQ1U5bGFJcUF6UmFUX2dHVUpGbFRWNjF4MVBQX1FNX1RBRkMtNVAxZnNvNnFR?oc=5",
-      "pubDate": "Mon, 07 Sep 2026 14:19:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Aston Villa Injuries Pile Up in 2-1 Defeat to Nottingham Forest",
-      "source": "VAVEL.com",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONlBkR3FNWmY3YjVGZW5fVE5MNFRsMEJVdEY5QkxfaWYzUDhxMDFBeFlEbVNLNTJaSlNOcE0xdGxyaU0zaTY4QXlaTENPUWI3c3NybFBGZk1UXzNNWXZhUXJkWGF6Zm1lMG9UUGl4elBKT2I4VWFIcDZuWnU3Nk4yWm9sNlZNb3RBbmV2N3lpRFZ1S1hYNzlDM0txMUtaOFVWNEFCUzU3N1RHd3o5cURQTW5MaU9aLTRJbzdwQjh1Y0pJMGhzUy1OQ053SlZvUdIB0wFBVV95cUxQNUhPZWgyQWpWRE9MWllWMXZ0SjBubkEzcFRoTkZhNUN0R3hrdjRpVmZDRzRqYlZsUmNCOVlQNU10UVBnLXBVRVhiSGpvMjRKdURVd0x5b05HbjFIclMwVlVOOUZtNEcwdkZmMU5KNHNZbjAteEgtUmRrS2ZWcW00WXc1Z0J3a2ZtSmF1Nkl1a1REQmFERVY3dDFFYnY2RDl4ZWVJdkYxNVoyaU5CQkd0Nkk1Y0hJb1ByRXVQRV9PVjdxYjhqdHBCa3hJUWliVHR5R1lv?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 13:57:00 GMT",
-      "category": "fitness"
     }
   ],
   "reddit": []
