@@ -1,12 +1,54 @@
 {
   "slug": "west-ham",
-  "updated": "2026-09-14T21:15:21.790Z",
+  "updated": "2026-09-15T10:43:00.358Z",
   "articles": [
     {
       "title": "Former West Ham keeper Miklosko dies aged 64",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5fcEwtZkVfVms1bDRCWXJlR0dzSWxUdTE0SU9wN0tNaEJaSFZrUjhBckI2dHlNZ0dfTEJRZU5IbVY4T2lHTVRoLUxtZHhrbTZFVzlremUyMGVSd1l4T3hsYUNoel9aQ2FTcUE?oc=5",
       "pubDate": "Mon, 14 Sep 2026 07:36:50 GMT",
+      "category": "general"
+    },
+    {
+      "title": "West Ham United vs Fulham: League Cup stats & head-to-head",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1odi1Ra1B0RDJ0LXRzdlNFMEp5bWpGLThRV3RNaXRWRXlUMWNWWDQ4QUU3bjUzX3dCcDJTcXFyU1JJa3k2SzNPc2JlTTJIUnJ4YV9SME1CZVhrVWdnOG16TzA2TQ?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 03:36:47 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Southend sign West Ham right-back Battrum on loan",
+      "source": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPX3dic0s4cVJnOWFjRThCRDVZcmg5YnZBWFZweU92MnBNc1MxZG0ycnR1YUE4SWhwY3FoZHUwN2hEYUFZalA0b1BIQlVkajhVcTkwcUhyU2djM2xBMm16ZjJZTGl6LVdyZjVKTVBabmNqVFpNRmIybi02ZjhRVUtkTWNn?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 07:55:59 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Tickets on sale for West Ham United Home fixture",
+      "source": "Swansea City",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE51WEdkTFNxSlJnWnN5N2VYRWNlYUpNaWpkZkNlSENXam9ZOE52RHZVb1JtdERxV2tHX3p6N2N0REZKZTQxWEtxUVZYb2RuRExRTl9iZnMyUU1aN05zcERnVktfUHp1Y2lUWk5SYWZDRGs5cWVFcTdLc3VLV1dyRGs?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 08:57:17 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Bring the noise again for our WSL clash against Everton!",
+      "source": "whufc.com",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZG9RNWFpaVp5S3l0bWhIX2REOERKaDI3NG02bXlfUGlaUDMzcUhMdnFkTUlta2ZfbHJQaE8xM0R5emtiUjAxVUlTSmJjd2hQaEJ3ZkNuVmJOQkZKSG5ZRmtycFFTTjZ4R1Nla1FScXdYYWgycVRla0tCOUVjTkVOd0VVZWVybEN0NGlqWnhn?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 09:40:13 GMT",
+      "category": "general"
+    },
+    {
+      "title": "U21s match report: Late goal sees Liverpool defeated at West Ham",
+      "source": "Liverpool FC",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQThjVWZ2Q2VQbHpacENpTnp3TmkzV0RMVWFtRmlQU2hMYy1EQVZSTUZZQUpaaTRISDljQm1RVGZPNTh0N3lYVXpocnJscjlyVmxyeGM1cElTNWdDd3RmN3owanNiMndzeTdKN2x2SGRrcE5zRUNGNHI4dTFsU0hTOXVsWTc5WU1LWm1oekFveFNoNnM2QnVHRtIBoAFBVV95cUxNWnpNUmt0a0tjTmRSR3VudnByY29scngyWGtKbXZGQ0d5SW9wWUZUcnZFeF8yOTNUbjN3dVREbm45R2lKWW96NzVDa0ZyVXNrejR0Qmwwb1BsZmVIQVdVM2ozbHZvc0F2RmEtVEFMWW9qd1FJdWNwSmxCeWt1cmpodmJSTlIwNy1reTc4Qm9CbGU3VGNaNmU2Qm5IdUk5Y3lL?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 20:20:58 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Free agents available to Pompey, Wolves, West Ham, Sheff Utd and rest of Championship",
+      "source": "portsmouth.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNR1ZpUlVBdFBoNEUybFpFWk14SmkxdUFXMC02YktSZnZSa29wTjF4WV95M1RYbEowT3NPdDIyWjB3S1VNZ0hmRld1aHJYSmxrY3NuMGpZNWFwZ2cwLTdfLXBVbGYyaXRtQkdyY0owaTdBZWVPTnpuQjBuLU9xbDRtdHdib2FpOWlUT1cxMTJIZDRqMkVjZXlYVU5fcnFtcWpxaVZHbk1pdHh3SnBWWF9JRWJvWHl4VzJqVUhpWlNlNHJCeHhYRkJRWGhYWWR0Y0Nk?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 16:00:00 GMT",
       "category": "general"
     },
     {
@@ -17,18 +59,32 @@
       "category": "general"
     },
     {
-      "title": "U21s team news: Liverpool make three changes for meeting with West Ham",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQU5OTmlwdXpMMmJIR18zZDZOZ2dhcmlKcGNyMHQ2T1J4cHVSakV4NGJ6NmoyZkhkSDRWNVhhNlFRLW5rQW56V1JGeFZHV3Q4NDNfTEVsOWlkRlNkOFo3TFVfX3VBenctSC1sZTVaWjNuMWZ4VXdSbXRjeVN5UDVfdExZR2U5X2JQS3pEbUpnb3dnOGZYT3psOdIBoAFBVV95cUxOODlYR3Y4U19ueUpjSUtTb2d3NjZyTkFXZmhmYXdkNHhLUlBGYTRUTGZDUHhNcko5bW1FZWdWa2c5UUJjUUhtMmRMWXRnUWRBdEM4NjU2WWF6NDJvakE0NFZDUjA4UUI0WHVsaklNQnhfYWJNSFJlWGlRYnhtSnNlOEtTd1VDSV9hWWtEajc1ZmZleUxMeXdLMDhzV3lLVi10?oc=5",
-      "pubDate": "Mon, 14 Sep 2026 17:09:25 GMT",
+      "title": "West Ham United Star Gets Winter Warning From Bradley Allen: Can The Hammers Avoid A Mid-Season Drop-off?",
+      "source": "The 4th Official",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTjJKQUdFWjBFS0J4ck9maTVCSGdIcURJaTRKMEFfcVVLdmw2RlBVNEZaTWpRSTNxeVhEX3E3eDhKQ1o1YmUtLWh1eC03cC1kblNia3BncGZaSG11TFdMV1puVzJkTzVsSHh6UGhFdDNHOGlKMVQ5dnBJeFV4UkhqZzFLUHYxOXJoakhJbUZUai1Wakxid0tZYVlJaVoyNVdqNkcwSHh6NXMwNkk3dGRJaXFJTGx1R1ViaVdkY0JBLUNMMmd4X080bVROcF85QjZIUDBIVU1R?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 21:00:20 GMT",
       "category": "general"
     },
     {
-      "title": "West Ham United Star Gets Winter Warning From Bradley Allen: Can The Hammers Avoid A Mid-Season Drop-off?",
-      "source": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1UTRkcW1pOXQyTVJ4VHZDTnZyRF9EMFhXeHhDR0hMeVJ2dmRtUmxYRkp2NFpacm1ZcG8wSVd1NmxFUGwyQkUyQzJ1dXF2dFcxMENqTm83dV9sWHRscGVYVVQtVDdjcVI2SzdtT0l6VnMzU3VfMjc1OXJDYnVFdGs?oc=5",
-      "pubDate": "Mon, 14 Sep 2026 21:05:00 GMT",
+      "title": "Ryan Battrum Loaned From West Ham United",
+      "source": "Southend United Football Club",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOblgwMXZLem1LZGZQZXR5X0ZrV3piWWtCaTBGeU9IeGU0cnhMUUp0bkdjMTdlcGR3N19lNi0wOXowd0F1V1AwYnhFeDFTMDBMc2hrMHNWTkloRldlZ09LN1JONXhqdDlKZlU0eGMzbERDX0k5aHhDSGs3MFBhZGRRYUtlb0JJRlJEZzB4aFBJNXlnT1BDVnZwMkoweFc4QQ?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 16:00:00 GMT",
       "category": "general"
+    },
+    {
+      "title": "Academy Loan Watch | Oyebade and Landers in action",
+      "source": "whufc.com",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb3o2OVNpWm5qMEFkbmY0STFIdU9jZDVUR1d1bWl2YVlUd1EyY3kyTXpGYm4tQjcxTFNBNHlyajhSaGt4eml6bFNvWG9DYTRlR25pTEJmZENKUTZOczFTeEhLcWRQQURjdW1GUlp6d3plRV9hUnZrZDYtTUVMYlNJZ21CclcxUUNq?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 09:34:24 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Shrimpers sign West Ham youngster on loan",
+      "source": "Southend Echo",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcjFKZ3FDWGVqcE96VmF4QUFkbS1zU294ZG9LejdNMWM1M1dxOC1OclUyQk1mbVVQcFZleGlDVEYxVTZNOUVGdW1kUkdSdzUtdy1UNndQbTM1QlQyRENGbEZEYUxDY2VIdlFXN3NTVjQzc0gxR1YzU0pjN3pEYm9JRE1KWHJLc3pRUTVxQU5oR2VYN24zaWpMalhjOA?oc=5",
+      "pubDate": "Mon, 14 Sep 2026 15:55:40 GMT",
+      "category": "transfer"
     },
     {
       "title": "Ryan Battrum joins Southend United on loan",
@@ -38,73 +94,17 @@
       "category": "general"
     },
     {
-      "title": "Free agents available to Pompey, Wolves, West Ham, Sheff Utd and rest of Championship",
-      "source": "portsmouth.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNR1ZpUlVBdFBoNEUybFpFWk14SmkxdUFXMC02YktSZnZSa29wTjF4WV95M1RYbEowT3NPdDIyWjB3S1VNZ0hmRld1aHJYSmxrY3NuMGpZNWFwZ2cwLTdfLXBVbGYyaXRtQkdyY0owaTdBZWVPTnpuQjBuLU9xbDRtdHdib2FpOWlUT1cxMTJIZDRqMkVjZXlYVU5fcnFtcWpxaVZHbk1pdHh3SnBWWF9JRWJvWHl4VzJqVUhpWlNlNHJCeHhYRkJRWGhYWWR0Y0Nk?oc=5",
-      "pubDate": "Mon, 14 Sep 2026 16:00:00 GMT",
-      "category": "general"
+      "title": "Southend United: Shrimpers sign West Ham full-back Ryan Battrum on loan",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zS0ZSdjVIR29QcnIyb2cwU1gzLXNaVi1kWWZpS0d1dlVlZ0p6S3h0eEtYOEJDNUVuVEFxZjNEdDItRmNnZDdDYXJBNUxhd0haOVlubHJPZ2VFdE9VeWRBd2FfSDMxa3I3?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 07:55:55 GMT",
+      "category": "transfer"
     },
     {
       "title": "West Ham United v Fulham | All You Need To Know",
       "source": "whufc.com",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcEZKek52VjYtaHRnamw3STl2VDRhX3NFTVFJdHRlZWJXMkY0eTNxaW1IcjRxdk1KYU5oUVI4UFpVdkFHdDFzYUJWQlQ0QS12UndJTDVwUHhMMTJibEhEbEhfOG1pZEdDNnM4dGhEdEV1NDctaUx0NGZESm5NeWY0SjZwdXEtREhhYTkxQkI5b1Y?oc=5",
       "pubDate": "Mon, 14 Sep 2026 12:11:36 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Ryan Battrum Loaned From West Ham United",
-      "source": "Southend United FC",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOblgwMXZLem1LZGZQZXR5X0ZrV3piWWtCaTBGeU9IeGU0cnhMUUp0bkdjMTdlcGR3N19lNi0wOXowd0F1V1AwYnhFeDFTMDBMc2hrMHNWTkloRldlZ09LN1JONXhqdDlKZlU0eGMzbERDX0k5aHhDSGs3MFBhZGRRYUtlb0JJRlJEZzB4aFBJNXlnT1BDVnZwMkoweFc4QQ?oc=5",
-      "pubDate": "Mon, 14 Sep 2026 16:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Nuno Might Bring Back West Ham Outcast In His Plans: How Can The Hammers Use Him?",
-      "source": "the4thofficial.net",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPXzRCcWdJWGZ2WDR6T0s2SUNHVDJqT1k4T1k4czNiNVdfMWd5TkxTR25Fc3FKRXpUM3dYbDZBeWVWX1BIMkx4NGFONm1Wa2lWOGc4V29JbDZmZmJ0NG5pNmtUazhmemFKZ1dZVjJTZmRNUUJScDJfUlIydnhwWHRXTy11dElXaXZuTnlzUk5xZnFKOVdwREs2b3lPMlYzbE9BREh0NUk4cmNNWktOWnBtNWViN0VCQQ?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 21:00:30 GMT",
-      "category": "general"
-    },
-    {
-      "title": "London City Lionesses suffer first WSL defeat after West Ham grind out win",
-      "source": "ESPN",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWjRaMmkyOUoyaDFxU0RsMkhROHNZVHlmOGFfamJPZVMzQkhmdUhBbXpPdGt5UGpEcmdNcllGM1U3czlFMlc1UHpZNEZGUlVxbXkxV2p6WXJ5Z1A1My1UbGhFdlJVNWFTZTIxQVNtQnBQY3ZtZGdEdk51Y2xMWG1LZU9HZ0NNZVNrdFhhQkhuLVl2bHBYSDgyamRoM3F2bmlJUEYxZThrVU5RWmdkZFV1eUlYM0YwTU0?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 13:54:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "WSL Highlights: West Ham United 2-1 London City Lionesses",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4yMVMyUEVLZlFUcEJLdHcxUHlZSU1wa1lCZVM5NkZ5d1JkWllHNGRqN0RQYjFtMllqazVDYjIxWWVqUnNqaTBwT3FJV2NoX3Q2cllHVnBoM3VYYVJub3pFazBScHdJMDg?oc=5",
-      "pubDate": "Sat, 12 Sep 2026 17:43:56 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Piubel | We want more of this feeling",
-      "source": "whufc.com",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1aNkkxaHBHLWEtM1lXNEhSRTVSckNvTjRtV09leEdSQVZVM2VIanJTb2VDcXBGUTdfcXVHYTdsYldVTkl0UGJkcHJqdkZPWkM5Q25FSnVxcThWUEViOHZKanR0LUdlaHJ2VWgzdHZqUDE1ZzZreTRB?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 09:02:23 GMT",
-      "category": "general"
-    },
-    {
-      "title": "He came from near Moscow and played in goal for West Ham | A tribute to Luděk Mikloško",
-      "source": "whufc.com",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWm1rVkZsOFo3aF9wbHkzZFA1VDlOWXNHZVB3VkNaNDVLbk9oTlJaWFJBZFpYdUd2em5pXy1XbEZLalFyR2J5SThsWG1sTWdkcjAyLWxuZC1SZEkycEh3LUdXMW80RllKdXh3Zk9rTTBHSkNHZ2xPWVU5UUFITld6OGZybHJYWUFxRExtek1NYw?oc=5",
-      "pubDate": "Mon, 14 Sep 2026 08:09:17 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Luděk Mikloško | 1961-2026",
-      "source": "whufc.com",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB4VEtBaVY5Mm5oZ2tJN0NGVVAwQVBKRVM5TlctMGl1d3l6NXAyQVhuM21BS1BoUXdyaHVrTFRYWmNvVnlyenY4WWRNMlhrSzltQ2JQSTdxRmpQWUFhYVVpblpNZDJlT2ha?oc=5",
-      "pubDate": "Mon, 14 Sep 2026 07:19:12 GMT",
-      "category": "general"
-    },
-    {
-      "title": "West Ham United launches Youth Council",
-      "source": "whufc.com",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1zQlhzdHJFWHAwOVBPRzQxTmtrZV9TckJ1SVJjUUkyMTZjQ0V0dWdFVE5PeGRaZy1wYUhTZjcyR0pxV1pJRm9JQ1ZnSEFGVlJLcmlTSkNlWVNIcFlBZmo5ZWdSVEFSWmZuT0hIV3hTamc0aVVQOG1v?oc=5",
-      "pubDate": "Mon, 14 Sep 2026 11:34:38 GMT",
       "category": "general"
     }
   ],
