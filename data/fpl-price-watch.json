@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T08:19:58.463Z",
+  "updated": "2026-09-17T08:26:48.591Z",
   "snapshot": {
     "1": 60,
     "2": 49,
@@ -76,7 +76,7 @@
     "73": 50,
     "74": 50,
     "75": 50,
-    "76": 50,
+    "76": 49,
     "77": 49,
     "78": 74,
     "79": 60,
@@ -115,7 +115,7 @@
     "112": 49,
     "113": 44,
     "114": 45,
-    "115": 48,
+    "115": 49,
     "116": 45,
     "117": 45,
     "118": 45,
@@ -663,148 +663,20 @@
   },
   "changes": [
     {
-      "id": 11,
-      "web_name": "Mosquera",
-      "team_name": "Arsenal",
-      "direction": "fall",
-      "old_price": 54,
-      "new_price": 53
-    },
-    {
-      "id": 32,
-      "web_name": "Cash",
-      "team_name": "Aston Villa",
-      "direction": "fall",
-      "old_price": 45,
-      "new_price": 44
-    },
-    {
-      "id": 618,
-      "web_name": "Goretzka",
-      "team_name": "Aston Villa",
-      "direction": "fall",
-      "old_price": 60,
-      "new_price": 59
-    },
-    {
-      "id": 84,
-      "web_name": "Collins",
-      "team_name": "Brentford",
-      "direction": "fall",
-      "old_price": 55,
-      "new_price": 54
-    },
-    {
-      "id": 94,
-      "web_name": "Schade",
-      "team_name": "Brentford",
-      "direction": "rise",
-      "old_price": 60,
-      "new_price": 61
-    },
-    {
-      "id": 95,
-      "web_name": "O.Dango",
-      "team_name": "Brentford",
-      "direction": "fall",
-      "old_price": 64,
-      "new_price": 63
-    },
-    {
-      "id": 124,
-      "web_name": "Groß",
-      "team_name": "Brighton",
-      "direction": "rise",
-      "old_price": 56,
-      "new_price": 57
-    },
-    {
-      "id": 126,
-      "web_name": "O'Riley",
-      "team_name": "Brighton",
-      "direction": "fall",
-      "old_price": 55,
-      "new_price": 54
-    },
-    {
-      "id": 130,
-      "web_name": "Wieffer",
-      "team_name": "Brighton",
+      "id": 76,
+      "web_name": "Tóth.A",
+      "team_name": "Bournemouth",
       "direction": "fall",
       "old_price": 50,
       "new_price": 49
     },
     {
-      "id": 172,
-      "web_name": "Wilson",
-      "team_name": "Coventry City",
-      "direction": "fall",
-      "old_price": 45,
-      "new_price": 44
-    },
-    {
-      "id": 577,
-      "web_name": "Tomiyasu",
-      "team_name": "Crystal Palace",
-      "direction": "fall",
-      "old_price": 45,
-      "new_price": 44
-    },
-    {
-      "id": 266,
-      "web_name": "Cairney",
-      "team_name": "Fulham",
-      "direction": "fall",
-      "old_price": 50,
-      "new_price": 49
-    },
-    {
-      "id": 286,
-      "web_name": "Belloumi",
-      "team_name": "Hull City",
+      "id": 115,
+      "web_name": "De Cuyper",
+      "team_name": "Brighton",
       "direction": "rise",
-      "old_price": 50,
-      "new_price": 51
-    },
-    {
-      "id": 393,
-      "web_name": "Khusanov",
-      "team_name": "Man City",
-      "direction": "fall",
-      "old_price": 55,
-      "new_price": 54
-    },
-    {
-      "id": 431,
-      "web_name": "Amad",
-      "team_name": "Man Utd",
-      "direction": "fall",
-      "old_price": 58,
-      "new_price": 57
-    },
-    {
-      "id": 438,
-      "web_name": "Fletcher",
-      "team_name": "Man Utd",
-      "direction": "fall",
-      "old_price": 45,
-      "new_price": 44
-    },
-    {
-      "id": 446,
-      "web_name": "Schär",
-      "team_name": "Newcastle",
-      "direction": "fall",
-      "old_price": 50,
+      "old_price": 48,
       "new_price": 49
-    },
-    {
-      "id": 480,
-      "web_name": "Gibbs-White",
-      "team_name": "Nott'm Forest",
-      "direction": "rise",
-      "old_price": 79,
-      "new_price": 80
     }
   ]
 }
