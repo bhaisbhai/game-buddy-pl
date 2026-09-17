@@ -1,13 +1,41 @@
 {
   "slug": "crystal-palace",
-  "updated": "2026-09-17T10:41:24.588Z",
+  "updated": "2026-09-17T20:48:47.479Z",
   "articles": [
     {
-      "title": "Crystal Palace news: Dean Henderson contract details, injury return date revealed",
-      "source": "Sports Mole",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWDVZaWJHNFJwWktpb2plYzBoMVdaaXk4d0laX1RqRmtoT3h6aUpxUldRR1R3M0FsYklwUk83ZTV6MWlWb2I3WmVSb0xTakF4UklweDFfemhXTmgybHJvSF9tWmE4WGZSM2N4Z19kNllKTWpUc0NReU4waEFDd2VnZkstVGpENl9wRXJwNGdxSmtRRk8yd1dwRXZ4Y1ZCRU5tcXh2RXpUQXBjUFhvTXZFQkhiRzQtYWl2VWIxQ0NHSnJUWW1WTHlGX3hnX1J5NnYwOE8zaTh2QjhQd0ctTmk4c3JIa0p4U3dDMGFYZkRrU29ad3c?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 14:50:00 GMT",
-      "category": "fitness"
+      "title": "Crystal Palace vs Lech Poznań: UEFA Europa League stats & head-to-head",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4wRjExWnpZMEVVVU9UXzkwSkJHVDNBUXBsRjZNSjlrcG9ZQThkZnZGM1FKY0ZsWE1HYnA3WFVLbFBoODd4Ql84RS11RW9uZFB6QVVZS0V3enVKYnByMFpFV0J0cw?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 17:41:51 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Leeds predicted XI vs Crystal Palace - Ao Tanaka axed in double Daniel Farke change",
+      "source": "MOT Leeds News",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUktGanBfMng4VkNsbV9kQUoxUW1kY0VYR1d3eS1ESjVlZ1lrZ0RBOXU0UnZ3enhBRkZmc1g0VzFIQ1dyQUVZYnZrXzkxVGV0TjF6UmpUd19pQ2JqdG85S1I5S28zVlhWYzlLVThDQ25lVnNFODdiNlVOb29wWEI1NkNyX1FWWThsSk5PZEN5RkZ5TmM0MWdhVmxEclNHczE1OWVqSUpsdFpkZG5EQ3ZkcUtB?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 07:08:30 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Crystal Palace vs Lech Poznan: Team News & Confirmed Lineups",
+      "source": "Last Word On Sports",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE56MWJacm5hZlM0andycTZXdGg3T1BhOFd0NXo2QlNFbi1nWWRZdEZHUWJaanAwWjh2R3Q2ZnJnNTFfdkdNWk1JWGJOci1GS182Z2VlcjctbEdPTmRrMEhrWXJNSlhrNmQ3VlB3THowRGxGU0R2VF9GbDU0MA?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 17:15:36 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Kevin Miller: Former Exeter City, Crystal Palace and Watford goalkeeper dies aged 57",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1IRmJDdlJvTU1tclFDVDBDWVIwMUVzMi02YzdRRHB5UEt1U3FSMHFmckhvbFNBVV9hMm1mbktDcjk1QnlscC1rT3A4M2x1QUUwRjhMQXFJVm9ocDNMRGhral84X2FTZnF6b3Nn?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 13:34:25 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Carabao Cup Fourth Round draw",
+      "source": "Fulham FC",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdlpQS2ZZbHc2Q3lZcDUySExhUUx6X0puOTkyNjByTnRfdmVXenBQWmVYcl9mMjIzNWRvQTVJUVItYTNIRGlhd25VTENvMTFTRTRBUUxwT3dyYWQybVpZOWNOVTdDWmNYODhKc2J0V3dmOU40NkdTdEVOX1NUaTlHT1lQMjQ?oc=5",
+      "pubDate": "Wed, 16 Sep 2026 21:34:47 GMT",
+      "category": "match"
     },
     {
       "title": "Cumbrian star Henderson signs major new Crystal Palace deal",
@@ -24,87 +52,59 @@
       "category": "general"
     },
     {
-      "title": "Crystal Palace make Pierre Sage decision after difficult Premier League start",
-      "source": "CaughtOffside",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd0tPdnk3SUdseE4zdTJDdUgzQmhZd2tuN2tiMEEzZDRCT3lGSEZaVmtxOTAzWE1UaVk3aXlpWkhWVEtwNXJxM2V2U2FiSDVhLXBsQTJTczN6YnhnQnlrRktwRjJQLWFLNmpRdjhzNml6QmZjQTNRaXdMR0plTUxyU3ZYdnRseXR2R1JoU3BpMkxFU3ZSSHgtUXJwM21ZTjhyY3hiN2RLMHZVTk5QbWxKVlRRMGQ2aFBwQzk40gHAAUFVX3lxTE0xdTdDQktsRFlmMExLSFJza25BVHl3Vk9EQ3lSMERGNFBKdkNqWGtRWWZLNzQ2Z2lMOHdyQk1ZMHNwTWtpRXF2bWhhTGVCU0lpekg0SzRCMXVmSkZTWGgyWEhaNGJ4eXlYNW5tZHBVcXB0Ym1CdkZqYTZqS0N3WjNHOHUzZHItZVJhRjVpX2l0TXd0a1l0ZWp5NDQ3Nzl2Rm1MVXdjdWdzaFd2cGxtMERxWG0xaTJzcDNDQUdWUVN5dg?oc=5",
-      "pubDate": "Mon, 14 Sep 2026 21:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Leeds predicted XI vs Crystal Palace - Ao Tanaka axed in double Daniel Farke change",
-      "source": "MOT Leeds News",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOUktGanBfMng4VkNsbV9kQUoxUW1kY0VYR1d3eS1ESjVlZ1lrZ0RBOXU0UnZ3enhBRkZmc1g0VzFIQ1dyQUVZYnZrXzkxVGV0TjF6UmpUd19pQ2JqdG85S1I5S28zVlhWYzlLVThDQ25lVnNFODdiNlVOb29wWEI1NkNyX1FWWThsSk5PZEN5RkZ5TmM0MWdhVmxEclNHczE1OWVqSUpsdFpkZG5EQ3ZkcUtB?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 07:08:30 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Arsenal 0-0 Crystal Palace: Visitors frustrate the Gunners in Women's Super League",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFByNW1xZkd2bmRtSFdmQ3J2bnYtZGdhdE9FTGIwc0JXRVpVd19XYTloeDdNOEVpVmZfWFNMNjd0eDJjTVg0UURvSHdEdWtzVUVvRDg3VjZKbFdPSjBobmxYc3EwVUcxUQ?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 18:16:16 GMT",
-      "category": "general"
+      "title": "Crystal Palace news: Dean Henderson contract details, injury return date revealed",
+      "source": "Sports Mole",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOWDVZaWJHNFJwWktpb2plYzBoMVdaaXk4d0laX1RqRmtoT3h6aUpxUldRR1R3M0FsYklwUk83ZTV6MWlWb2I3WmVSb0xTakF4UklweDFfemhXTmgybHJvSF9tWmE4WGZSM2N4Z19kNllKTWpUc0NReU4waEFDd2VnZkstVGpENl9wRXJwNGdxSmtRRk8yd1dwRXZ4Y1ZCRU5tcXh2RXpUQXBjUFhvTXZFQkhiRzQtYWl2VWIxQ0NHSnJUWW1WTHlGX3hnX1J5NnYwOE8zaTh2QjhQd0ctTmk4c3JIa0p4U3dDMGFYZkRrU29ad3c?oc=5",
+      "pubDate": "Wed, 16 Sep 2026 14:50:00 GMT",
+      "category": "fitness"
     },
     {
       "title": "Adam Wharton sends message to Chelsea and Man Utd after summer transfer links",
-      "source": "Metro.co.uk",
+      "source": "metro.co.uk",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQWhCQ3ZWYzV6WS1zY1Z0bkpLX1Zacl9CMW1zZXQwZlc1WWhqUVR4Z19OUVVLLTk2ck1DNlhVNVB1dFVlUWY0a2ZhMFZyMHpudFM4R3FZcUhmTW1aTWlWdWZ4ZElvZnk4NkdaY2R6M0RxR3k5MEY0Z0VwNnVaMWs1VWxfSnFqcFpfX3UyYzJxclNRMFlrd2ZmQkFoN3NRcmVHRC1jVk85eXbSAa4BQVVfeXFMT2dBN0xORWI1WVVQbnJPNk9YS2NLeFlGUGZNT0d6bDkweFZ2WThTOFYteHdFMzlpdUNBRS11RG12VW1KTmN3T1hmWDlzbjV4QkNnNngwRE96RWZ0VW1NM0FTWXZuUmdPZ1lHQWpOTTdPOW1BYkRNam43YmszNlhDSWcxamJYWC1icWo0d3NRTFhvUlp0eEZWZFF2LXA0aGlOMTBlMVJuSDdjRUJyS3dn?oc=5",
       "pubDate": "Wed, 16 Sep 2026 16:43:00 GMT",
       "category": "transfer"
     },
     {
-      "title": "Carabao Cup Fourth Round draw",
-      "source": "Fulham FC",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdlpQS2ZZbHc2Q3lZcDUySExhUUx6X0puOTkyNjByTnRfdmVXenBQWmVYcl9mMjIzNWRvQTVJUVItYTNIRGlhd25VTENvMTFTRTRBUUxwT3dyYWQybVpZOWNOVTdDWmNYODhKc2J0V3dmOU40NkdTdEVOX1NUaTlHT1lQMjQ?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 21:34:47 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Palace European boost! Star duo Ismaila Sarr and Eddie Nketiah ready for dramatic Europa League returns",
-      "source": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUWJVWjBVMHd5cG1YM0JBaGxSSGt2WVhjMExyX3B4bTNyaG9MbFctYzlzUW14Q3Vpc09TSzB4Z1A1YmpUOVBHZEQyUEZsSlRwenZIeXhxVFJWdXFXc184eERBZFJPUlVtSDBMM2Z1eC1jMEpRYzV0V0E5cm00SzNlVGxLZWtkRTlmVTZEUUJoekVTUzRFc3MzbzlPamd4aGRUZ0lPOVZVbkpaRFJSZTlVY05qYw?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 16:53:50 GMT",
-      "category": "match"
-    },
-    {
-      "title": "The ‘upsetting’ row over Crystal Palace’s controversial new training ground",
-      "source": "The i Paper",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNakF6S3k1UHhpVHBOZXNRZ3NZOElMNE16VE9kemlXS2NReEhRQXY1S1JKRHIyNG1jaER6cXFqLWRDU3FmaEpkQzhsUUp4RnhsYWsxLVkwY0E0Y2I1cVJXdE43V0xqUDhDbVhETW5vNEIzTlpPTFdqTHF1VDdoZXRIODNUQkxXTDNYTEoxMG1PR3NLczVlbEp3OWpScG9HdGFPLVE?oc=5",
-      "pubDate": "Mon, 14 Sep 2026 11:00:00 GMT",
+      "title": "Ex-Premier League star dies suddenly as former clubs left devastated",
+      "source": "Daily Express",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQTRvaW5fSzdKLXZ4U0ZKWWxsMlFvMkZvQW4wbHFKUXhqSjQ5NUlPQWhKc1VJbjFxX2VTcFdydmZER3pRQmRHaUdqVmkzR2JJUjZjdWt0SnQ3bGFPeHVlTXhtclhFRFQyZDZWRllKWkdjSEN3YTJjc1dQMU1vSldLbHpzZUtwM1U4VEIwamgxRGnSAZYBQVVfeXFMT0paNEVDUVg2ZGh2eHR4bjNNdzZqbVR6UnJLcjNzZlMzVTZlR2I3dWFTaVpUSWx2ZzNPVUZkSGUzNVdfLXZTcTJnajRQNzMxUnhsbDhrT3l0QnZvUEdLQW0xUzlIY3hXdVpnWW1ibnYxaDZIbTc1TjNlM2hkdDRfX2lkN1M0aW9TLXlSUTZLUVZFY1lkc2xn?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 13:58:00 GMT",
       "category": "general"
     },
     {
-      "title": "Brooks Has Found a Clever Way Into Football",
-      "source": "soccerbible.com",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNWJwS1hYdURiTV9qTXliMENDNHB1bFpZSWxnZmRHSVVqZW11Tnp4eVZKdFRrYmJZSXlJdmVSN19DQ0RpYnFkUWRHVWdaNDNjeExzSzZEUkxHSWFqVlozVGFsdzdaSkJvYUdteHZ2WkNET0dFdERxUVlaQk4xdXZYU1JvY000RjNZWTFVOWFxLUVMRzTSAZgBQVVfeXFMTkRqMWxydnMxT0s4TU9wQURfbkw4Z0t4ZkZab0lKcERBTGMyWVltQlR1Sk5mM0I3aDZLSnlZcDZpR29IWndPOEt4blNaS1pZcGUtMHhNdnRYZ2xqZlBLMnBSUmNGYTdSU2NBVlpfb1hKRUQ2eGZnVjVyM0RQZmU4aE1IcThtX2d5X0pVeUFPRGlvRkQxZVRIMGM?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 11:01:23 GMT",
+      "title": "43-year-old waiting in line to replace Sage at Crystal Palace",
+      "source": "CaughtOffside",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORWhkZVZHTC1LMzVhazVJQkpsM3pLakg3WFpWX05OU0N2NHpzU0JaZGxDUWZoT0RrOERKcTctdUd2R1h0SWpUdzZRMS03S1F0Vi1rNzBDR1FfOV9FTnVMMGlVbTkwdlVHaEYzcVdCaURibWM0X3NLTF9VTFdDQkFMUDRfZXAyc1NlNTcwbVFRVmV0ZjZ0NURuTHZQYWpwQdIBowFBVV95cUxNSkFsZlRDUmV6RGxySlhnN3k3dWdRVEZBNUdTbDE3aU1RUUF4Q2VvSktXNUxXLU5GbGZtSEFuekdpUmI4QzMySE5IbmZjZF92eDZ3bFBPUUE3Z2FQdE5wVDBjRVdYU0JnTnB2YTR1T3o3akl2ay1xczVoTXFTRzR3S0k3Vndza3JHX1o5X1VPQmpJaXRZX3M1ZkpOTk5GRHh2SXJ3?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 09:51:33 GMT",
       "category": "general"
     },
     {
-      "title": "Crystal Palace vs Swindon Town live score, H2H and lineups",
-      "source": "Sofascore",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wT2Z5RWhQMGllTl9yY3NleTNZdkppSGNwZHNqaGZ4ZFVocHdhRmkyZ21QNkVlYklRNi1ZQjJWWWp1YVpqUHlRb2F5Wk1oOXFWTjhfaFU5Qmw3RGpsYlY1c21rQWsxY210bjNFWTYyM2p5Mzl3Tkl5WmxmSm54Zw?oc=5",
-      "pubDate": "Sat, 18 Jul 2026 07:00:00 GMT",
+      "title": "Match Report: Swindon Town 1-2 Crystal Palace U21s",
+      "source": "Swindon Town Football Club",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUUVjQlQybUNnYWFCRXhOdjZwR0t4MGVucGhmSHVtRlFPUFRZQm1QZko4MTBxQVBGUWJLNTVSWklLZVM3VXJoT3dYU3U0SF9zNlc4UHBVMUNrTmFIeDFoLXN6akRKQmpEZEhfaFJuMTRlemhxbUpCVlNXRTZVMXNYODIwUE1KTVVyZ19Yd1FyakN0cXAtcGp4Z3Noamt1d05JUGxPZ3ZaRGRrQQ?oc=5",
+      "pubDate": "Wed, 16 Sep 2026 10:13:04 GMT",
       "category": "match"
     },
     {
       "title": "Crystal Palace F.C.",
       "source": "Crystal Palace F.C.",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZTM0R3NCUGRVOXA4RW8xRjd2YkEtRFJVZ2pHUTY4aHZDblFWcm5BUVBGMGtmQ09JQTNwamtYNU1sb1JFUE5aUFpKM1lILUlSY3VWVTczS0ZPVlN2R2RvQ3YzVXV5aFBueWx2Q0FmMVE4aWlCTlozZ2hueWFJTkQwQmk5bXdSb3NySHlBUldNX0ptako3dm9EbEVid0dCa01mN3NwYVNiZ0g?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 18:59:23 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdHFCYzRLZDVkbi04MFdvTzRmbFRxN05wTVdpbGZyVXI2MjNBQzVIWkNOck9LbHJLV0R4U2NnNzhQalhZOHJHQVhBYXJJNFRuTDV1bUc0R0RDejNGTTBfMXFvVXhvSVEwQ2lrcko3WWhiR094MmhBS2NzbnRLSHB5dzlMUHhiSkZBeVhjWktuUEozVXpFR19OV3I0eXNpazdmMTYzZ05VcGdXT28?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 09:38:15 GMT",
       "category": "general"
     },
     {
-      "title": "Crystal Palace vs Lech Poznań: UEFA Europa League stats & head-to-head",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBsR3V0RTRRU0NqeEh4TDdQc1hTd19zYkFaX1FWY003cTllTVJhQmpZV0VjZVAyWk5GZVlmWFhiNkVXNTcxbGZTMkFnS0ptbHlRb0dOb3V5MVhmeFc0LWpfNGUxV1ZSdw?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 01:22:00 GMT",
+      "title": "Crystal Palace vs Lech Poznan: TV channel, live stream and how to watch Europa League | Goal.com UK",
+      "source": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNLUdfSWRxcWJwUVN0UFg3c3NmYkJPUXR2QVl0OHlnTW9oWFVOYzZKUUFQTUFsSFpVVE81Xy15d1p1U3hzNFVYMkNiMWNMQjdzZGtNSzlOWTJrdFAzQ0VIdndPaUVLb1AzTGxKelZKRUVOZ0dMblJ1cmpVZ3NJcjUzUGt4ckNMN1NRXzRKMjMwM2d1WmxBOG5zWmJtV3NoVWg0VzJvTm5fTGpOWThsei1uUGFvOEJFUEl1?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 12:29:39 GMT",
       "category": "match"
     },
     {
-      "title": "Three to watch | Crystal Palace Women",
-      "source": "Tottenham Hotspur",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNUk4SUZPVjVpbFRMekhLenZsTVRCZlEtc1FVQzR2UXVJZExpUW1uUjlzOTNCUGZwX3BGZ1hRSFFYSlNZbU9Ja1NDRlhNb180bE92YW5qMk5GUTdqaExZM1dYU0ptdTlFVmw2cWpLV1AyRlFGM0dVeHJVc1JLVDJjSmpfRzZFc3dycmRockNSQ2w?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 09:59:44 GMT",
+      "title": "Europa League LIVE! Crystal Palace, Bournemouth, Celtic score updates, news, prediction and line-ups",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPaW51WEJLeXo4RHZwMzd3UnJhbWZvT0xjT3h5YVNTdzROQWloUWNBYzgydFhEazJrVjAwNl9wbnF1eVJtYzBON1JyMWNyWE04TmZlTE11TkU5NmQyY3pHZ0hldEdkWURHODhTU240UEFaMzZGN0VpLWl5YXNfNThBSlM1WTRzUE5UNll4Y05RZUNpc2kzNEVFbzVobG1GeGxhcDZhbGdDd3hwSDRCOTJhUEMtSjJfc3JWU2pkZTVRZmUxc0pEMW5nWU9Db3JjZUVfM25HbDFrV1dNMW1UbnpyYkFGWlc5M3NSRTNR?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 17:41:49 GMT",
       "category": "general"
     }
   ],
