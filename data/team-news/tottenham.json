@@ -1,68 +1,47 @@
 {
   "slug": "tottenham",
-  "updated": "2026-09-18T10:16:52.213Z",
+  "updated": "2026-09-18T20:14:39.927Z",
   "articles": [
     {
-      "title": "Preview: Tottenham Hotspur vs Aston Villa - prediction, team news, lineups",
-      "source": "Sports Mole",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMXI2SWR1UzBwblgtOFdWZk5WbGlzV2lBSjEtU1c4Nm1nU3l6YkNNUDlwSTgydG9PX3AtVTAxV1FIMm9WZVdjWEdGTWV0ZUhxQWl3c0x6X09tV1RENmJwTkhrT0I4UFdMODcwSkowUzdmWWljWGU0S3RfcTg4VUs1RXZDejlpb1NHM2RiOHJjMVM2djF0TjlMYzJ4S0ZRTzEzZ0hVM0hCWksycjh3NEhzNk9CQQ?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 09:30:19 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Tottenham vs Aston Villa Prediction, Betting Tips, Lineups & Odds | 19 Sep 2026",
-      "source": "Sportsgambler",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOSndYVEZNSFdIbDlQdDFzVzIzUk84SFJQUV9EUnNJZDYySzlmYnlucDBPX2NDbndCOGlnY1pTQXNCM0dEM1hGS3V3WkU4bjNnQU1Dd19iWVRUVmdtY3o0MW1IaUZCRFNUeEtSVW80dmFrNzFaQk00YWp5eGlDb0poOENlWW5yM1RCYTk3V3BzOUxkNERTdWJTMmowLXlEY0lGRXg4TEVqa1lFR2lSdWFxby1R?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 08:17:17 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Spurs vs Aston Villa: Two squad overhauls, two slow starts – who should be more worried?",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdDFPQ2xDai1NV1ExYTF4YjJuNE1rdDVBUEZaSHFobHZwdmJDa3dkUkdSTlc1bUZ5ZGV3MEM1TmJVMkdOdHdmZm9QemhKUEFqclRfX2lFZ29HYzdaYW1WOW1GeExCa1IwM2gxUms4UmtjNFdGVU5vZmFvRUptQV9BWld4UFNGdzNsdC1PSUU1eGxzV1lmZDJnVmNzakNRZw?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 04:13:21 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Liverpool 3-1 Tottenham: Dominik Szoboszlai stunner knocks Spurs out of Carabao Cup",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9iZVJKLUdVLVd3MWxmMUZteVlYMkpoQjZ3TDRrUzFla3l2ZTdqcHp5em82M0dWRmpKbFREZ2hpTXN0MFBZUmhvcFBtWFpfTndxMkU1ekJiU1BpUEpTRW1DMTd0R3hGdw?oc=5",
-      "pubDate": "Tue, 15 Sep 2026 22:34:45 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Tottenham receive £120m boost despite Carabao Cup exit at Liverpool",
+      "title": "Tottenham reject Richarlison transfer offer as new escape route for striker emerges",
       "source": "Football London",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbkI1b3gwZ21Cbm5zTTVEZEhpRkJzcVZmQVh6bVE5NEZ2eXlwRThuQkxVRWMtNU1UeVhXeF8xRVg3U0x5cEQtTHU2S2I0M0xha1FJRExNVDNCWWluX0FSZmF0SnFZdHBlWHFoVDJJTHNGZzYzdnhJektrcG1XNWNxcFF0anZxdlQyYkc4YUNXbzBhMUo3VVJWTDUwdkhGX1VR0gGmAUFVX3lxTE5VZGY3QzRlLU16YVhmZGJ5a2R2MF9kZ2xlMFVPTk05ZFZQNVJFbWVsRVlPS0hfMHF0SHpuYmZuSFpvMHE2ME5qdEhVZ0RhZk01V1dNcS1ZZUFMSUx0OVNpMElVTGtHYlFaYWVrdDdhY3psNUN4cHdad3pSWlJWY0FkMjhMUGZPYV9IcmVnbEFIcG5RVnZ6cmhKQkxUMEY1Y055RmxRWVE?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 09:35:57 GMT",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZkVzbzlhYWdOTmc1T0NSV0FKQnJIZXh6dWFFU0k5aS1GWFU5cTlWUGVPeldnWC1ZMC1KVm5MQ1JmdGQ5eWtld1pCakI5T1hqV0I2SzlyLUpseGplMnRETVpiMmp3dmYyOUxncDl3eGNkOUVMdEE4bVJHVzdBNG42YjhKNk5SSVpkandkQkI5TmxCUzNlTWxVWXpmaTcxWldyZEtBNWxOekZUZ3dsTE9NOU1NOUxYZ3fSAbwBQVVfeXFMUHpZRkZOZEEzRDBRRW5lXzJxNTdJQWk5ZFB2M0x2dDBTWkY2M3piOG1SWEdRZFVQM0s5VUxxcG5SVlZWZ3d2NTVmWXJJaTFBb1JnN2NrYzNPZ1djeFVqVHo0UXJ6M285M3Y1LVVQRUN5SVVHQlpKY3llM25hU3NLN2pXTDc2bWgyZDJjMDZELXF4aGs5RWFBWTVFUlpmT2oxY2VqWFNwclpINDdOSFJ0S2JUZ2hkdGJoZVFWcng?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 17:52:04 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Tottenham press conference LIVE - De Zerbi on injury news, Dejan Kulusevski and Aston Villa",
+      "source": "Football London",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSkVBNTctaENjZ3hmaE1WVmFLejlhellnOElwRTc1ZDZlUUxZbkRzOE1yM2tNYkY0TkpVVnVKM2NMd0lTOGlqMEdkTEdpcTFBR2hjOE5zbmFSdlBiYlJ5TXFrN3gtU2NBY3VPQmpWMmZ6VlV2NFg0WjdUMmVnNkVYcUVKaDF3WXN6UHpPOEdQemhHY2pyOUI4bUlzNmNJQQ?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 10:02:11 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "Tottenham Hotspur: Why can't Roberto De Zerbi's side score?",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9VZjlDeHA3dXNNV1RPbWpjeVJiVDI4YUtCSzRXQk5tWUZOZmF0ZHJoUTFvbEFnR0xMZm1KOFktNHlCQWxuOUZaSV9mVTliZWNNYlFfVloyUlg5TGRQdkEtNDZMSGZVM0R2?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 16:07:45 GMT",
       "category": "general"
     },
     {
-      "title": "Live Commentary - Liverpool vs Spurs | 15.09.2026",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVXpvLW54YmY2dTRLWmJUTzM1dmRPQTdTT3lpWmJfdG5ETElNOVNLSm9zRmZEMUhmcW04WEVjWGViREtLbFJmU01VVEhUYmkzdmNsU2JabGdmR2JBR2R1OHRuc0VNQl80ZHlleEUycXQ2aEtqZXBmU1lteWc5MXplSmsxUQ?oc=5",
-      "pubDate": "Tue, 15 Sep 2026 20:30:43 GMT",
-      "category": "match"
+      "title": "Jason Cundy: I've found the worst Premier League club to support - it's worse than Tottenham",
+      "source": "talkSPORT",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQamhja2RRREZ6SEdBbVhxWFozdElQa1JXcjZNZHVnZnNNdHhnNGZyaS1qeTNaWmljR3VqT1ZSWFFnM2loVzI2bkdXS21rZ0ZiaW9MQ3AzWUsya1NTQm5yZS1zelpkSUpyY3phM1R5R1VGTTg0VVZrV2JuWllGbE5xNGJ6RjRacS1WVnVtNk9wbXhKVlV0b1A3NDgxY1JBWVk?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 10:41:07 GMT",
+      "category": "general"
     },
     {
-      "title": "Spurs vs Aston Villa | How to watch, team news, kit colours, key information",
-      "source": "Tottenham Hotspur",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaTBlb2xRQXN0WjVJT1laMU5pSkJSRWFrUkEyNkQyeFJveVBlbVZyYXNWT1MxMWthMnktSXVTYVJXdlJWdnl6SDNleHBjQ2p3WTBTWUxPQjZESDFkLUltRWNobGJRT1RwRjdnd25NZkd2aHg0NTN6WmFHdDUzWFg4b3ZGSG1zd3Vnb3p2V1lON2pHSm5aOVlLRmRvOWtBT0dtTE5WNVFpelhSbk5BRzUtUjZzc3hjQi1T?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 23:17:38 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Tottenham 'plot' move for 280-goal striker in bargain deal - but there's a twist",
-      "source": "Daily Express",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORWFlYy13UUczLTV6ZTUyX1F4Q3pPZ0xfQzlwU3RpTEYxSG9yTjRPRmhCaXZIc055VkxwQ1dBaXY4cmhZTlFoVzBXYWM2dWlULVE1bDZTalZrMXJnVm1ZYUdzbExGY2FSR3R5SXRRVzdIMlkwdmhGeXBDdDdEcV9HSTdXdzM1cUUteG5KS19n0gGTAUFVX3lxTE5Wb2QyM0p1UHZTSjJtalJ3ZGNsbnR1TGRlOGI3WFAtUDYtc1ZrWEY5ZlUxNHNsVExaX185cXlyX21SdHR4TnlZZzhqcW5uR3hzLUZmdTdfRnlNNnFZQ3dXNTVJTHVrcTRQUnlmX291bTlSalJERTdEWEZvd2xyalZnNmRENnVKQU1tUFdRWk1Kc294aw?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 06:51:00 GMT",
+      "title": "Premier League predictions: Tottenham vs Aston Villa, Brighton vs Arsenal and rest of GW5",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSm1JcUYwWE1kNXB0RmthTDk3ZGtTRFQ3YUxxQ2s1VDUwTDcxXzlJNHBKb0xIQ2V1bGNOZlNFZWNCX2JqV0o1OXE5MUhRWDc2azFlbGhnb1MtM1o1N20ybW9vWmFwaV83X3UwcTZiWUhkd1ZiWTZKQ2RDVTR2eE9JdVdEd3pab1FtcVVJ?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 14:14:57 GMT",
       "category": "match"
     },
     {
       "title": "Mikey Moore: Tottenham star explains loan move after £75m summer transfer",
-      "source": "standard.co.uk",
+      "source": "London Evening Standard",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaFRtOXc3V0FMb2hWYW8xYVpmbm0yVjU1UlNCTlFHMTFKV09pcDhNT1F4dHhsdDJwUkNZSElZMnhacC1NR2pUU0V1ODloNmc3RElQZFF6Q2Fma3AtZHh5b1dwdGtJQmNJSXcycEZCZE11TE52ZXVQazVQT2tISlJjb3ZpRXFqeVdyaldTOV9XU1Y?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 22:32:23 GMT",
+      "pubDate": "Fri, 18 Sep 2026 16:38:24 GMT",
       "category": "transfer"
     },
     {
@@ -73,11 +52,11 @@
       "category": "general"
     },
     {
-      "title": "Tottenham Gets Fresh £120 Million Injection From Lewis Family",
-      "source": "Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLWliWVdhWlZ6aVpIY3czT0F5OXV1Q1ZoM1pEVnQxLVNEMmNlX19ZeWMxU2JuRmNBSHZSU01WV3ZUXzlpc1hsX3ByNF9NTDZhRjRuSXk4cHN1VVlwSWxTUlBhdHFNZm9Yck9jeDNtNHdNUWxRYndkUDlqaFpUaTFTeFNBajB3QU5LYmt3Nk5RU3Z6a1lYMl9OVnUteU9tQmpmX0kxd1B2VlhuLUVnVldKMWV3Mms0dw?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 08:07:57 GMT",
-      "category": "general"
+      "title": "Spurs vs Aston Villa | How to watch, team news, kit colours, key information",
+      "source": "Tottenham Hotspur",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaTBlb2xRQXN0WjVJT1laMU5pSkJSRWFrUkEyNkQyeFJveVBlbVZyYXNWT1MxMWthMnktSXVTYVJXdlJWdnl6SDNleHBjQ2p3WTBTWUxPQjZESDFkLUltRWNobGJRT1RwRjdnd25NZkd2aHg0NTN6WmFHdDUzWFg4b3ZGSG1zd3Vnb3p2V1lON2pHSm5aOVlLRmRvOWtBT0dtTE5WNVFpelhSbk5BRzUtUjZzc3hjQi1T?oc=5",
+      "pubDate": "Wed, 16 Sep 2026 23:17:38 GMT",
+      "category": "match"
     },
     {
       "title": "Watch: Anfield salutes Andy Robertson on return with Tottenham",
@@ -87,24 +66,45 @@
       "category": "general"
     },
     {
-      "title": "Former Tottenham defender points out the clear flaw with Roberto De Zerbi's team",
-      "source": "Football London",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYkkwMzc0SVI3VFRtS3JSa0c0MjV5dXlUdTJTczVaamZqbTZkVXlmTnVmNmZid21SLVRjcmJMazJmWEpzTUwtWXB0cHRZSzJSWTdFTTR5dDdjZXBmNThjZEpGM213ZkctS0l2aDFHZ25aeGZSX3NSa1Qwb2hUQlJ6U1ljSXJYY0txU2xjZDM0MXNnd0dWM1ZMdTBCdzV4aDk40gGmAUFVX3lxTE9jY2xDM3V4NEpEQklfdDlfRUcyVWJVSkY4SnI4SUxNbnd4Y3MwY2k0S3c5Mk1ueXZuMkV4OUhFSkROY3k5dU4zbHFhR3lCZzdEQjJ0V2FTTTU0QndfT1JHVTBQX3VTVU1mMEJyV2JYbmtlNkFmS1pmSktZOG45QjJXc0ZiTkxtdC1NaC1nQ0t0STJCcWE0dnQtdW1Xdzk0aEowR1V4YVE?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 06:04:33 GMT",
+      "title": "Tottenham Hotspur had their William Saliba and blew it - Luka Vuskovic has it all",
+      "source": "FourFourTwo",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOQ1hVWXVoeWN0R2F2LTNTUEdlU2k5aG1WMy10NFJ0UnQweFJqTUVMZnFISzVTd3VMd2hqaVFrRF93c1dGdmtZUnppeEloZVZMeVpHcTA0MTNCZ2F0dS1neVVLdW1pTEIxMnI0T0tRTDdtLW5jRE9UVlZJMnhRd2lZU0FhWEFiZkpfXzBHMVFmTkdhdHo5U1J5YzFucXN2U2VodlNVdDluS21JRW1SNVMwOEJkbkJ1dm1UOXlDWVF3?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 06:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "Lewis Koumas shows big-money recruits what Iraola expects from forwards",
-      "source": "The Times",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeG9VRW55dG5MZ082dnZoRVFSaWtUZ01TRGo1WE9CcVdsZ0x5OVAwTXpfY2JBWjVpYzdrMEtJNUVpU0tGaF90RC1PVXNfRndnRHRmVktOWW9nUkQwOXR1eFlrM3FvWEZpNGtPQjE2c1dhVmc0RE5KZ21pdDBHcDVSRUhoVDUwVmVGcUw3WTdZWWxFdERha2dzSGZ1T2NJOXhtSmNONnA4VTI3d1BN?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 11:00:00 GMT",
+      "title": "Tottenham Hotspur: De Zerbi explains Spurs' dismal start",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVmpDbVpOVVZaWVBLandreVZ0ZGpXWWswVWRJLXV4UTFFQnJaU2VMMW1MSktvREpUb0ppcnBvWG1waWk2Z3B4OTE4R0lLLUE3a3JmUXdWeGhvYnd6Q3UyU01YU1lhSmpjNlRnMXVQUjFKLURWbE9fZWpZaHZqcGxnMjRHd3Qta0FVZnIxSFV4amc4RkN0NGlVbTRtQ3BiM3BLSGZ0aTNqQjNKYUNFQlAw?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 11:51:26 GMT",
       "category": "general"
     },
     {
-      "title": "Tottenham Victory Offers Glimpse of Promising Squad Depth",
-      "source": "VAVEL.com",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRHAydlJIZlRkTFZaRG5lN1dRci1KWGNxaXIyV1RkelhvalFYb3dEdGdXaWpqeWpycmd4OHF4QVBRQVlIVEFIWHEwT0dfWWZoVUVVU3FLejZQakYwaXFDd2ZibjBMU2JWZUUyNS03ci14SHIzQzM5S21OczczWFFaVkg1MHQtVHRldnFxa0NOU3pHR3RsbXhFRWpkZG5jTER1VzdBcDJWMEozX2tYMUNCZ2xmMmxIem5Dcmw5VWNDb2JGdHktbHh30gHMAUFVX3lxTE9aeVM1VHNnRElGTHh6U1hjNnFrMzRGNWoydW9yQ2tBZDNOZDVpLW5LaUlmbG9fejQweHFyQklVSnhlWDdLNGRWUHdNZVRpS3BrWllCdmdRbERUaGFZdzhJWWp4dTV0cHlOblpaRVpDNmZBU3A3R1MyMmpVbTZ1a0tLbG5ZMFF6VG5raUx2cjFpV2dMa0tnNlU3STVBSE1fdXNhdERlVWdrdlZGamY1ZEJtNnZmMHNaal81aFNjQzQyc29IV1IwSXZEYWFCdA?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 19:45:00 GMT",
+      "title": "Confirmed Liverpool line-up v Tottenham Hotspur",
+      "source": "Liverpool FC",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNckQ4NFE1QUtBWUF5cUdmZ0RCZWtFYnk4MmNCNXRoR0E3RlplQXBYdjZYX2pXdW1vNlVTYWpsb3RnQTdiN25CT0V0RnpDa2lPcTAzZWNwRUJ3Rk9QSXhKWTVWbUJEV1lsOFFjLVBqSGRjeDVSX05abHFuSjd3MmhmOENLREpLTW_SAY8BQVVfeXFMUHVsNGxVWDBrR0FMRFZlRG1EOWthYlpjNjV6LTQzRlJyWlhzUWxOS3RBWmhzRHg1OTR5c1VScTFJZEhiTnpFZklqUWNHdFBqNHU2R1dFakh5Ni1YWVBzN0FZUEVYWHFpc3NCREVYNGhqR1ZRdjJDeW8tOGVRejBkVFNhV2o2NllUdGtSSTRQXzg?oc=5",
+      "pubDate": "Wed, 16 Sep 2026 06:53:15 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Spurs vs Villa | Every word of Robert De Zerbi's pre-match press conference",
+      "source": "Tottenham Hotspur",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNmM1QmFPMW5uaTJTNzFLSThqYTRYcUU2dF9lOE5hcThmSWY3NEJaN2lrS21BU0p1VTBfTXBBcTlGUEpxYmVwZUVBS2JicUNPeDYyeWZmYW5WYTVtWDBhelV4eVJBNVRIU2ZLTTA0bVFYcmNLcGlBMThOckNEel9YeTZ6bVFiNlhYN0VyZE90ZGUxS0hRNXQ3N3ZyTWRkV0Jfa2JEZ09RRzQ1UzRtTVlCUTVFUEdXLVAyWnc?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 12:55:43 GMT",
+      "category": "manager"
+    },
+    {
+      "title": "Tottenham Hotspur - Aston Villa",
+      "source": "Flashscore.com",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUjVGc0ttcFJmOFdBRVhGOGljUWVQUU00eTU5LTJiREpGLUlTYWFiZ3JiakZheUtGT0NBeGJMYWZGQ3ltY3lqUi1hYXFYYWhTVHpjNkxuRXlLTlN5ck1wX0luRDdFNHhzTVpYR2hJUGd3OUE0Y1dWTUNhc2hvT19yMFYzRGROd2RkTHc?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 14:38:33 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Crystal Palace F.C.",
+      "source": "Crystal Palace F.C.",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOY3hkaDB4eVdWd1VZajB0QmpNWGNDS1JGNFdGWGhuZFppTThoNUhHU0lmVFIwNjhITDNlV2cyVFlLZVZQU05hUDhZanZqRHRNenpDcE9TMXFwUmdtUEl6RVc0VG1VWDliQ1ZNRWRCbHl5Mzh0TUdISlZQYkdmSHpyR3A2RE9CQVo1WWV5MlJtQ2pKM21idmJtTXkwajhmc2k2ZkRNVFlrY3ktb2tiVFVDc2tGN3ozcHdDNXR3ZG5nRWhkZw?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 14:42:36 GMT",
       "category": "general"
     }
   ],
