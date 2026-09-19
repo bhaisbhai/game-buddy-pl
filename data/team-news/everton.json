@@ -1,49 +1,7 @@
 {
   "slug": "everton",
-  "updated": "2026-09-18T20:14:39.927Z",
+  "updated": "2026-09-19T09:59:17.927Z",
   "articles": [
-    {
-      "title": "David Moyes press conference - Everton team news, Harrison Armstrong injury, Jarrad Branthwaite call-up",
-      "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZzVqN0xqeTY4VXg5SHVmSGxIbzhMQlk5RkxGQ3pzTFFaWFdYbWVyLWg5TEctenRHMEJJUjNmV29PdmZ3eG9HUmFFYmZMalBnWUhSQnJ2OTF1Q21ES2xiS29vVmJaREdKX2VBNnRwVFAwWmVhUDNrTm5zbHoyalBNTV9vQm0yVzBEZXdVQWdnQ2o5R2hrS1JHdHNXdG5XQkptOGpHSHhtYnPSAa4BQVVfeXFMUGplMFlmZXFybTFxVlBrQ2t6MTlKY2J2Q185ZFlCbmxqd0JjblRBNnNETFMzTE90enc2VXFqRmFnZ2xsUFlxY0U3THd1RFdFc1EwNHhTNDJlNkdoVC1nZGtyOW81UE04czc2MWh1Q2lZcWh2dDduS3FsZzNwQkJQV1FQTl91SFV1RHBrR3BvWDRMbzVzTmN2UncteUc1cHMzenFYMXBsN05kMk5kYVFB?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 12:15:57 GMT",
-      "category": "fitness"
-    },
-    {
-      "title": "Armstrong Update & Everton Team News For Ipswich Clash",
-      "source": "Everton FC",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVTU4VTRzc1ZSb1BSeWV2S0l0Ul9xT2hRRTlrcmJhc2NIWk9fcC1jYWw3RFFWeXJIMTVjbERfMmZQZ1FPUEtaTkhuai1KMFFWZjNhNkNadS05aUVsdWh5Z0poTnlOQ0ZxWTRvLWkwTW5WdGcxd3g0WG1udjRpN2owUVctSHVYVURzQ1hpZkNn?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 17:04:59 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Preview: Everton vs Ipswich Town - prediction, team news, lineups",
-      "source": "Sports Mole",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd3R3Q3BBUDBBZXpTakNSZ0JBOUlQNWthSEw1Z0VoS1EwVGxxc2pNNEQwNjlYd2lwZU9UR1R1Wnp0UmRDOW1NV3I5MGJoaGxHZzdpVFFCazJyOGZUQjhEamgxVnNhdm5yWXpLMXBmTml1bDVlNC04dXlTV0RJX2o2TEs3S2NZY0R1cHlKSVVwb3IwVUNkZEZUQjNRWEhkN1NYVHQtZWo3VWZvTUhlLVF5VVdXSQ?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 19:50:31 GMT",
-      "category": "match"
-    },
-    {
-      "title": "WATCH EVERTON PRESS CONFERENCE LIVE",
-      "source": "Ipswich Town FC",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOS0NXZnNwQ1FNTUJKVm9TTFpBZTNnaVIzbDNZZzgxYm9ZQmZ0N1owNWdOU1lsQmRNTUdTVW9wOU8wdlhZNFQ0aElKMnB6TnJGdFVha2dsczNFenR2MjM2emtab25EM3hOa0g5dEUwd2dFaUx0bkktaG1pVHhQMmxjRm1ZbVVCeWc0b1hB?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 10:10:43 GMT",
-      "category": "manager"
-    },
-    {
-      "title": "Everton FC / Manchester United WFC - Women's Super League - Walton Hall Park, Liverpool",
-      "source": "Official Manchester United Website",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZkpwelBpMlo5R1dwQ0RETmNDS05oUG5sQUVEdVhDRXRtYVhoYjlrVDgzU0tLdGQ4REdPeUJHaDVsNWlCWjZGcjBISjZ0cnlyRmRmZVg2YzhQTHBMd3hZRnlFVUtFejFiSGVGd3RqalBYVmpicm9NQk9oaG5jbTlveFBDeVdrZHVoVzFteXBoWGw1OGoyTDV4VmZINzNZd3BFeDF3VXY4QkNZdw?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 20:01:36 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Man Utd, Liverpool and Chelsea legends to feature in new charity match on free-to-air TV",
-      "source": "The Mirror",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYjJhMmxsYVRweW5xT0VtT19VVlRRd18wTWc2NEMxblo3cHZPZWNSZUN1Sm5JbTl0TTNKTkdFb0JRamRLSFZPYmdoekE1Z3QxQlhmMWFKTHhxSkVUUUhtbWpwbENONkdIWmlGQkh3TUhXU3JNNjFpQnlkUjg2U1oxU2lXbUFNaF9OZ21GSEFR0gGTAUFVX3lxTFBoMkZjX0V2bmpuaGFuT1VXVkxYR1hYU3RQZjRlMGxzSTNBaVdjbUdabHE3WmYwRF9aaTFNYXB6dHFoYkRoNDhVaXNnQzhjRUhSczVuX0dpZ3RCTzJaUkNIazZIdkVkSlhacHc1Z2xaUkFBQTBuRXhocThXWllrVmV2ZTd6VUZtU1Vjb1VFSU9yZWVtZw?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 16:30:00 GMT",
-      "category": "match"
-    },
     {
       "title": "Station not too small after Everton fans delayed, transport chiefs say",
       "source": "BBC",
@@ -52,25 +10,32 @@
       "category": "general"
     },
     {
+      "title": "Everton vs Ipswich — Match preview and team news",
+      "source": "ToffeeWeb",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE00a0JlUmVrZE1TR1gyb2dQRUg1LXY4cmM5TGt1eENTTHluOVp4bzFhWlN1bkFFYkI3R0NxRk5CS18wQVJDQnFMUFlaWnlQSG9JZ1Boa0dRZk01aXRmWlAxZTdYczk?oc=5",
+      "pubDate": "Sat, 19 Sep 2026 06:10:42 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Everton fans group chair 'not buying' transport chiefs' verdict on Sandhills",
+      "source": "Liverpool Echo",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaFhfc0ROT0ljQmduaEZPbkF6VnRBTi1RSDRRSDU0NkYwR3NJZ2xDakhnak9Tbkd1M3htX2FoODh1N08zZGRGNldPYzlCTTVzZnlrZ2dFSUp5amlMa1BCcEYtZXk0Q3BaMDBINzI4OWFIZTZYYTA4NzJTdjU4d1FuanNsVERRY245eDV6dGVYRGJFYzjSAZgBQVVfeXFMUDF3cDIzcXRLRVB1OTVRZ29NV2ZCcnI1anJ1MFcwS1NqQ1pZalluMWlTdkZOTmpuU1JXNlF1M0JnQ3VEc3B2ZVg4V2JJSHRScWNSWWNrSkU1T05MR0ZWU0llWHR4bjYyZUFjQjhjTDh5allqRTQ4bVE2OUFUaVdRczBTWmV5eWw5b1lQWDBCSDJRX2h0OVBPdnA?oc=5",
+      "pubDate": "Sat, 19 Sep 2026 06:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Tyler Dibling reveals Everton change after Wolves breakthrough",
+      "source": "Read Everton",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE43Z3RMbV9fUDYyZ2IyM2Z2aDZmQm9WcUpOYU9kMXZYanhoZXhRaXVEU2lMZ2d6bjlSVE8xTDRoSENqcTdXbG85cndjMkl1UFpSaDVqWWw4OUVoVEEzWnlqc24xaTlBVmVYbEZqeGpIX0RVRXBW?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 12:47:24 GMT",
+      "category": "general"
+    },
+    {
       "title": "Everton’s Merlin Röhl releases new photobook documenting his first season with the Blues",
       "source": "The Guide Liverpool |",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVlVrQkszaXBfc3RJVkJVWW5yZ3JFNjlLLU00NEJONFFlelVEUXFEVGp1T0E3MTJ2TTBfQ0djQW5Vak9Qa3ZoZ3dER3FXUXc1MzIwRDl1VWRLcnNBbmdvVmM1ZW5FcElvUHc1N0p1SHhVZkNhWnF4Wkdydk9OS1luQ3F6T1RReXZrdGExUjl6NWdUWmlhbTB2X1poazNHaE0teDhzOFVtNXRCY0tjem5BQnlGWEEwbWV4Rnc?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 11:40:10 GMT",
+      "pubDate": "Fri, 18 Sep 2026 11:42:28 GMT",
       "category": "general"
-    },
-    {
-      "title": "Friday’s Everton News: Garner’s Cup ambitions, Dibling’s confidence",
-      "source": "Royal Blue Mersey",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONm81dHk4ZFVGYVB6M0lwdzE3bkktdGJYR0dyTU5FVGVQNG83ZTNVckxxYWhFSVk3aXlDRi1SUFFJNjdCZktwQkNUNUhXdlNKQ1RzVnpaNVg4aUxfV2Mtb0h5RjFpNk8zVTRjTW82R3UtYnZZWG5uNko3TEFWRW1pYTJmX3RyVTJDVFM2Y2ZWeDJDZ3pHY0dyZGVaWGE?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 06:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "€93m or no deal! Real Madrid monitoring Everton defender Jarrad Branthwaite as Premier League giants join transfer race",
-      "source": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPb19oX2FJUEduQUk0TVg5VmlwRi1fUkVSQUdmUUpQeS1jTHZvOFk4YzVxNGFpM3M0MzZ4Z0tSZ0JtOVlobzJnaURYUVlqQTJNRzhpdzNvZ2VqVm1QRG1zVDgtaGR2X1NIdmNBYm1jdmloMnR0SDdqdl9iNEItelRORXQyWnpPMEJGY0hHVWRUdU9IaEI2LUtlMFdNbEpMcnpDSzNScUtXdHFHUmJ6ellVZEd3LXlqb1RsSHRBckNtdmw0QlNHa241dF9HWXdPM242MmdMWklqZk8tZw?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 18:17:24 GMT",
-      "category": "transfer"
     },
     {
       "title": "Andy Burnham watches Everton with Canadian PM Mark Carney",
@@ -94,6 +59,13 @@
       "category": "general"
     },
     {
+      "title": "Tottenham Hotspur v Everton - Premier League result as frustrating draw means Roberto De Zerbi's side remain goalless and winless in the league",
+      "source": "TNT Sports",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWFRjdVI0TzNhR216UEc3Qy0wQkdGa0tjb1BFNW9NQk54TjhqaFp2MkRYZUpZSTJudzA2Y21oU3lObjhERWNzUlN0REVrZFpJSDVONU1PYmhOcnpNU2d3cXp0eHcyVWhKOEVTbmNabXJScTQ3M2NTY0lNMVJndTAyUEk4azdqU05pRFJPNE1YZElSZ1BMb0NTVF9pNXVFdHlDRnRDdjZQLVc0eEJybU1zWER3ajBYT01jWGt0RklZcjZhLXoy?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 19:02:05 GMT",
+      "category": "match"
+    },
+    {
       "title": "Latest. Magpies to face Everton in Carabao Cup fourth round",
       "source": "Newcastle United",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSUo4MXRwamRCUGM2YkpGdzc1dFpFMGFPMUFCWUFtQ09oeWhwQ2VoNV9GSVdSUDNLXzhuZ011aEIzdm1qRXJ4aTFnemZzTDZjZDhsY1dsRFhXV1hOVTM4dWtxaFdIbExFeWo5YzdQLWl0a2dwYTdSTU9lMS1WN2ctbTNmMU5qQnkxUlpMc1B0cDlwNFdfQVE?oc=5",
@@ -101,11 +73,39 @@
       "category": "general"
     },
     {
-      "title": "Mastermind: Armstrong Guesses Dibling's Favourite Things!",
-      "source": "Everton FC",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZkhxWC00UWQxSV9BVU5LbzNueFF1Rk0tSnZHR3JOczFEeldEOFFqSC04Z1NrNnRjT1NuRWg4VGs5aWNZanppcllsWExYandwT00xcFViaS00N0NaYmdqbHVCa3dJSmxBNlpELTdTV2hVS0FtdWRoQVByd3VOZ0VrVURQbUh2bC00TjZwblUwTUl0Y3I2NFVDUUFCWThicUl6clpSVF9KcURkcHM?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 13:14:15 GMT",
+      "title": "Will Uefa’s multi-club rules weaken US owners’ commitment to Everton?",
+      "source": "The Times",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTzJYZ21jTkJTblFVQUFhSEdzSndhT2dySGltWFFkVF8zXzEzeGF1ZTE5TEw2NmZBRnlaNE9rVU9HNjFRQkZkSmZDYkh4XzQ5Z1lhQkhIUHYyNDNhdmVVODJOTHNBemhfYnBPVTNIUml0alNEeEhOdGpHQ09kbW5NRVhaTmVKQWpEcllMTFhQTG8wM2FFWHZOVDFsUWx3V2FBX1Q1bWJzTHpmVGM?oc=5",
+      "pubDate": "Wed, 16 Sep 2026 13:15:00 GMT",
       "category": "general"
+    },
+    {
+      "title": "Everton 2-2 Man Utd: Ainsley Maitland-Niles scores stoppage-time equaliser on debut",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpMVdTbnk4eVB3Q2xYMExKd1F4SFRaTXQyZTNqT3BwbGFjODRMM3pWZXZaOHF0dWFTWl9sWHpRV3hLT2p4U2h3dktHLXhaeE1ISU1kSkx5akxaelBMOEVWMWJRWG96QQ?oc=5",
+      "pubDate": "Sun, 06 Sep 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Armstrong Update & Everton Team News For Ipswich Clash",
+      "source": "Everton Football Club",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVTU4VTRzc1ZSb1BSeWV2S0l0Ul9xT2hRRTlrcmJhc2NIWk9fcC1jYWw3RFFWeXJIMTVjbERfMmZQZ1FPUEtaTkhuai1KMFFWZjNhNkNadS05aUVsdWh5Z0poTnlOQ0ZxWTRvLWkwTW5WdGcxd3g0WG1udjRpN2owUVctSHVYVURzQ1hpZkNn?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 17:04:59 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Everton FC / Manchester United FC - Premier League - Goodison Park, Liverpool",
+      "source": "Manchester United Website",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSzhjUGIyTHZaVG4ySDhVNGctZTcya1UzclA0Z19Rdnl2QlZsc2J0UGl4Slctc3ZhYjFFZFhENnktUWlhTnI4NGJXM2JhalNFaUpHT29qYkpIeEE3YTFsZmxfLWJxQnBSWHYzNDA4bUY5VDBYeDdoemdqWG1WYXFJdEJLdW1oLVZrSUZrYnZqQlJXYmN6UDFwNzQtUW1GaDZDeVE?oc=5",
+      "pubDate": "Sat, 19 Sep 2026 00:20:37 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Everton vs Ipswich Town: Premier League preview, team news, stats & head-to-head",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1IVUFVaUlOY0x4ZzUxaUpWTmVGUUlBWGRpMTBfZjF1Q19Zc0syWjNIaFdlYzA1RG94cklPbzNJQW5mRU5HemRZMW8zaU5tR2VqZmZtczFYZGRnRlVSM2t5ZktGNA?oc=5",
+      "pubDate": "Sat, 19 Sep 2026 03:02:49 GMT",
+      "category": "match"
     }
   ],
   "reddit": []
