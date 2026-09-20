@@ -1,40 +1,54 @@
 {
   "slug": "man-city",
-  "updated": "2026-09-20T10:19:47.789Z",
+  "updated": "2026-09-20T20:05:51.722Z",
   "articles": [
     {
-      "title": "Manchester City 4-2 Liverpool: Late own goal & Lauren Hemp strike extend hosts' 100% start",
+      "title": "Manchester City 5-3 Sunderland: Brian Brobbey hat-trick in vain as hosts win eight-goal thriller",
       "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5iZ3NhejNzUXo0Yi1FUmZ6b2RLb2hYWlhrVzJfclV6RE5ialh4T1RCMXBfeUFjVmt4aGN3bDNQdGFNbV9wb0tCTFBMbGl4ODd6b25rRmZYUHUybnI4MEVLT3JSbw?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 22:24:59 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpMVBISkJiMF9FLWJrTi1tcV80MC1iZDJraUE5M0F1Z0ZuMENxa1h5c0pVZzVWY3c0RzB6VXUwQWtHV3BKSGZJZ3k1NWczMnhRMTFXV0pUX283aDI0dzhCLTJVckpqdw?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 15:50:56 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Manchester City 5-3 Sunderland | Premier League highlights",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdXNONlRPUjBld0FvSzBDcTZFemE0NnhxU2xwRFduVkszQUlwRjVQRTViWkxKelkzX05fTi0yTXMtWlE3TUFXc0tIWFc2OWxnbjk5SU9mTWNKRThGRHEwNHg5ZExrSm9ZbEw5eWQ3ZmVjV25mNjhTWVZIQURNM0NyeV9wTjhhTHhtUFY4RUQ0MjRWM3VXVFJiN1owbmVjZEZBMldOU2ZxejR2U2tNVHJ6bzVn?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 15:40:33 GMT",
+      "category": "general"
+    },
+    {
+      "title": "City 5-3 Sunderland: Two-minute highlights",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdW56Z3VyWHh5UjRUTXVtQ2Jha01GMXpReE9tU0ZtZFU3VWc4NzNCbUs3WXExTlNrVmxRZGQyVTk4S1o3YVhnTFJXbjRQVEZJZWRncFdZY3l5czJVRmxmeUdTUUxGNnB3RU1DdHBPY3p4VDRLWnZyMGlDYTFvUkhRYVBNeTdxaU1TYVJQX09GYw?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 16:45:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Four reasons Man City’s eight-goal thriller was season’s best game so far",
+      "source": "The Telegraph",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSUVjZUJyMmFJMTZNVktFblJpczlILXlnVDZjYWg3Y0Q0bUhxcW5paGNQNlg2ZEV4OV83R2NIVE1NZk94cTVwMlJvVjdFbEkyR2h2RE0wUlRqV2xiSm41S0NKYjBnN21hdzgxemU3MWFpZThuQnFObUR0UzB1LVE0Wlp2M0NoWnJFSzQwazhPZVVQS21RVFVQaFl0N194alE?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 15:19:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Man City 5-3 Sunderland: Enzo Maresca's side stay top of Premier League after chaotic eight goal thriller",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOeHpBOGJJYmJIQXozblZxR2hXOG5OdDZEWjRRb3U4U1lhT2dXQ0NMVENFRVgwaEN5dkRNR3R2LTkybEpsUkFVb2xxRkNHM0VNVVBwdy1ub2VXYjVRUUc1Z0M5V0NBWDRCek4yMWZHSThSdjNrTEJ3d3VBb2lKczItOEhlMnJqWHZCaU9IWDEtYi1IcDcwdnFoNjg3ZGpFSGNHS3F6RENZTmNsMVkxb3AzLTFyRGtnQzlLdElvV19PQlZtYUVDdTdKZGVYcHV3eTl4XzZ6M1hYdG9LMXdCYWk2UmV6WUxaeV9mTktIZnpMZw?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 15:56:15 GMT",
       "category": "match"
     },
     {
       "title": "Liverpool battle Man City for £50m right-back",
-      "source": "liverpoolfc.com",
+      "source": "Liverpool FC",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcGpUY2dEaHJTYno2MnhBNHIydFhPaEZiejhObURWdjdYT0hPR2w1eU1pXzBEZEJsX3BhamNrdFhQY2lUZUp0UHFHVVc2bFRxV3FQX0VXTWtKNlNZTGtEdGw1d0owOEQ0RS1CV252ZExESFZabWhDY3I2WTVNUV9WatIBiAFBVV95cUxQVWR1X19wYkJQZXp4czNOcGRiWmdhSXdIX2JYTDJBZFUyZGFUaUFwemVaN21pVkZoNVZma3hqekJncHJ5RTFGcnQtS05vNTBocDl3bndUS1d4OEFsRmpKeGJuZlUtMmItWkoyTVQ1ZXJIdU5VY21nUmQtVGd1T3o1RC1Ta0gyLW5x?oc=5",
       "pubDate": "Sun, 20 Sep 2026 09:41:17 GMT",
       "category": "general"
     },
     {
-      "title": "FC Bayern Munich vs City: Kick off time, team news and TV information",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVHZQMHlTSWd0bHE3MDVEcHhVbTlUemZjdlVYMjRVbmdJUXNUUTJpWFR1bXRNRWN2X1FfRHFabzNtU3dIVlNVNGV1ZkR5ZkFPUTVmMmRINHltY0J6NFFZNW0tVXBUN3hPcTZETVpNb2t4MnN5enYzNmNZT1ZHdWl2d2t1TWxJX1M0U29pSGpmYi1tUzZpemYwNjJCNA?oc=5",
-      "pubDate": "Sun, 20 Sep 2026 08:00:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Official Man City FC Oodie reduced from £83 to £8 in deal is 'perfect' for staying warm on match day",
-      "source": "Manchester Evening News",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQkpILURjYXY2aEx6LWF4dklBNEI5T2VVTzQ5bnd4aGpXUnQ0bVhfdTFWWGlRLUZHbnhUbnZhcU9jbl9raG9PQ2F2SnM1VUtnY3drekR4UmN3Mk00UzNCS3QyUzVPaGg4aHN0cDZiQTRUMDZQRGx3T1JNdGEwSUlHbW9nWGFTVW95emhyWUpQNmdOc0s3eU9YZNIBngFBVV95cUxOOGVydUFmdWsxeF96N3p3dEJyc0pSZ2ZwRzl6Mm5qWDhWUFRnbzJDRVRVVXlYQ2JjU3JYUnFBcWQ5VUUxcHBpMjU2ZUJhQVE3eGQ2Z1FyRUhxX2xwTjlBSU5qTlQ1UzEzS0lZNDN1R2tNZ2lZaWJmTjFlUG1kSlRQd203QUtXWVZiV1RSWkotZzYtN3gtWHRnakY1ekVOUQ?oc=5",
-      "pubDate": "Sun, 20 Sep 2026 07:00:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Manchester City 1-0 Coventry City: Elring Haaland maintains City's winning start",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE81dlVyNy02NW1JTGRNLWdmZUpiWjNsc3BIX2xGanVidkNDRzhaZ2VIR3pXeG8wV0hNWmRXVWJpSE1HUnRqOGFBY3ZQZlJ5M2lGcVFjYVA4T3FjVGZYZW5ZTERaRXlnUQ?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 07:00:00 GMT",
+      "title": "Former Chelsea star ‘wants Man City exit’ because of Enzo Maresca",
+      "source": "Football London",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObTFDVTBudWZrTVJHX01HcGFEekcyeGZLUDFJN01uM0NIamVCdTNBRW9hdDRoc1lxRFhkbFpBS3FCX2s5WldPZmlTUkVTZWhjUUxLN3hTZ2hDa3Vrd2p0TXBCaXRITm11b1d4dlEzNHZ3YU5LTUNCMWtOQUNrRXJyUlVSMHg5QW95cHJTZjR6TzhPVVk3ajhtazVOQjJfQdIBowFBVV95cUxPZF9UVi1WaTVNWERmVGFFNzFOcnI2STBZV3phSnZhNWVjYXN6VmlPU2oyTWZSZWRDS2JfWk1QOUNsRUlzZVFBMWFHZFZXVGVpT3hEVUNvVTVBaWJ6a1BadFVyOU5ySHB3dTU0czF6UTBFWFlYcEs3aFd2M0djbGtCOURLZENxTFo5LUp6dUxzd1NBTkl6TUJvUk1QRHVRVU4yY3JF?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 11:26:37 GMT",
       "category": "general"
     },
     {
@@ -45,67 +59,53 @@
       "category": "match"
     },
     {
-      "title": "Floyd Samba’s Man City debut double has father Chris dancing",
-      "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcFFINWxGVC1DTDVTeUNjeGM5dTk2N1RaVmF4aTVwZ1RGUmQxejlEQXMwek5EUXlvVnNvVXRlaUo3dHc2Rk9qX0ZORmJLVVJRZ01EaDZXTVlKc0t4cWVnUHdvQnJDVkJhbUVUdEYwQkFXMkhOT1FTLTFJVkFDSWh5ZkE5MmYzX3dsZDJfSU1hS3ZkTURhYmhlcDJpdUF6VmZBa09DVA?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 20:25:17 GMT",
+      "title": "Man City player ratings vs Sunderland with one 4/10 as Antoine Semenyo good",
+      "source": "Manchester Evening News",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPLWpmdS1ZOWp5emQ5R0V4ZUtnUHFwZ3AwR0U5aFJvTWYzdWxvdGY1VGpaeXBUN01rLXpqdFkzeGlncXNZX292ZjZJVWhpWGJFdDh0VF9hRVBtTV9xWFc5TXNJVmMxZmdUUTdOZW11dU1DTFNBSXlyRzFKRS02RVdpN2Y3U0J5b2xOczNzc0Mxb2pUMjM5Wk4wcW1EOFRnN0U5Q2FHRXlmY9IBrAFBVV95cUxPTFhSWFd3UjRjaEkwRjltNXJId2YtZEpqemdxY2tNeklzRGdkMzEzSFZPMDVyTFhZd1RId05CcjNjYXJTRWlCWk1HcUoxOWQ2YjhtaEVlZXVmRWNQUk1ZZ2hWZXVQWmg1OTFzLUJmWmNBS1otN0MwcGEtWFplaDVSbGZfTzFNWi1JY2xrb0pnZERSeEo5SnZFN3FTTmI3cFFNeTdHQVpGRnBlRTZK?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 14:58:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Manchester City scramble to dramatic WSL win over Liverpool with two goals in added time",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQekhXOEN3TkM2UmpqakhYcnpVc2hCRlg4Z3JJeTFoaVJrRWNDWVc0NVI0UDluWUFTU3dJbkxWU1dIWm9ULWdGcUc1bTMxLW0weU10OGlOVGFtbUFMUHFZTWVNWGE0NFgwbk94RVlVZDFENndMQnQtdmJvclo0eGgyZ2QzVTROWVZiT2dTSExZU3ROeDNrMWJZQjBsN0NqNGloQlRuU3pDWktNVklGLTZNZg?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 20:10:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "City make 10 changes for Sunderland clash",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSk9LUlhzMDY0SXdsYlZXT0tXZ21HT1doT252dVZ1SjE1dUs5Wm1XZGNwSmJPWDlHUlo2SGNpcXIyNzhjV3dhNjhWR0dlSkNUQXJNcVBmR1RjU2NMTWNQWXI0bTNnUTdCdkdaRkxzMEdGNmJXOE9yVzNuZmtkTHJQbDhRUXNSa2ZV?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 11:45:00 GMT",
       "category": "general"
     },
     {
-      "title": "Manchester City 4-2 Liverpool | WSL Highlights",
+      "title": "The starting lineups are in as Manchester City prepare to take on Sunderland",
+      "source": "sports.yahoo.com",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNd1hmM2swcVF6Z3RfbzdDd0wwWW9kUHJIaFNUYVphU3gzVDA0YU5kM1UtTHhnUXJRZWNOUDdudllPY0M2VGg2bmhKRnJMNmR3ajdhWktOU2VibGtudHFzbnNUcE9qanZxak9tc05Dd0NjZDBvLWJlOXJuSXhkeTVxNnh0SkJmUHQ4TjdWM1ZKRlk0VEU?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 11:50:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "City win eight-goal thriller to move clear at the top of the Premier League",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPS2ZobDI4TWZ2c1QwN1ZpOHR4bVFkSzJJUW1hMkZkc2VWQ0pKaVpBaUtneGc0WFdIWGNCSUUxOHJCWFd1NkRyY0pOTVp1WUVaUEVPY2QzTl96cmlXZWFNSFRnVExDTHg5Yk5Ucmt6cnltTGZjejVDd1BDQmtFZ2UxV2JYNG43TjYzVy1PbmUxRQ?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 15:00:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Manchester City 2 - 1 Sunderland: Rayan Cherki restores City's lead",
       "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUjQ5b2JpMGJqWTVQRWVhOW1yU1Bidm1qWWJhbEZJWklxeUl0R1F4a0dqMnhYb0ZBVHlPSnJmRTVWNXlYektROXY1a3ZHWjBaelJuNm9HS2c5YXJNT2hMcjVtZkY4V3RETTFaYWs4dXJZdElFdTRvcW1mZzFBY216TWV6RjQydUsxbjI5QXYyT1FCVGFaNUliTmc5VUdlWlI4a3c?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 20:17:02 GMT",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYlc5MEVRa25ld3UzbFNOZ0ZxNW9UQjFfWVhwUF9tRWh1dEh6NXdiSHBSdGx2ajduajUwd25jVDRFUVRXQ1IwbVBFU0tWZUFCRF9UaVhQZ0dOMUppUmgxWWVOVTFyQ0tINmw3MnJqTU5RM1NfcFB0VVJyb2xPR3FxUnRUVXFxSmZRdWRNUWZRUG1zb1c0eTItY0x6N0o1cmpvSnJuZUJR?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 13:42:55 GMT",
       "category": "general"
     },
     {
-      "title": "Manchester City have an opportunity to round out a strong start to the season against Sunderland today",
-      "source": "LiveScore",
-      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNa1Q1eEpGYVRVb1lyUl85WWFMWUcyd25tekZ3V2JOekJsVnBHUEUwMFlPM0xyV0NhVFE0bER5c0hwbXEycEd2Z1RZeWpfcHgzVS01QmpqSnlfcEFnTV9CZ1FJN0E3MzhJZ0l1dmk5VXhOSjJWVnZSYzdvV0ZlUWdjLXhsR0xxV1IwcGVMU2lrU09xTERNeWo0VzJqMmpRRTRYWk80YTIteTBiZ0plNkoycjJMRDNUa2dPS21XQldQeUJGT1NkMVVwSGZqT19LTXAxQ3kxRmkzbFY5NDdWMFVReG1kbzN2LTBaWlY0a2dTX1daYzZQSUdLRENkc2xhZHBFSXFldXNkTlludw?oc=5",
-      "pubDate": "Sun, 20 Sep 2026 05:17:13 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Report: Liverpool rival Manchester City for transfer of star with £50m release clause",
-      "source": "CaughtOffside",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQaGU1NDZNdUhDbW9OdFBVTHRLOXRuMDhkck92VUpaTzkxdUpPaE1Ycmx2dll4UThXVERBM0xRTEUydzFVSEI3RkpXMmVQRmtzZjFTWmdhOVN2MEJadDlUYkpKTENvWlJ5SDJEWW1HZUtGYXhkWEtMT3dHMEl0Z0FPSWUxa0hLZnhwVWRuV0hIcTV1Xzdw0gGaAUFVX3lxTFBTLV9wX3JkQ2tzcFdSeFEzZ1dndDB0WThoN2Z2ZVNhR1czWGY2UlhSbjJlY2h0TVEzdkR5VnNUbWpEdk5RQUhMVmpGamlkMWV3Z3ZWY0ZhN2gwaTBSek9ZYTZrZ2dZVTlQcy1hYnJYVGx0LXBheEdMV1pLN25ibnFaRVVmT2ZSZ1RNVmZKbkZvVll0NnhWbGNoWHc?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 13:05:21 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Manchester City vs Sunderland: Premier League preview, team news, stats & head-to-head",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpMVBISkJiMF9FLWJrTi1tcV80MC1iZDJraUE5M0F1Z0ZuMENxa1h5c0pVZzVWY3c0RzB6VXUwQWtHV3BKSGZJZ3k1NWczMnhRMTFXV0pUX283aDI0dzhCLTJVckpqdw?oc=5",
-      "pubDate": "Sun, 20 Sep 2026 01:21:00 GMT",
+      "title": "Manchester City 5 - 3 Sunderland: Erling Haaland completes his goal catalogue in scoring against all 25 Premier League opponents he's faced",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbUhjTTdoMVhLMVRmRXgxcl9SNlBxVW1UYnRiMWIySkRJaDRLTWFJcGl3alctUnhHOXJ5Qm9PN0k5QmJZb2VtalZwT0c5cU5Xcy1qOV9LM2tuLTdKbEhMb1hPMHFvZ2lkNTlOUE03SjdGVTFsemlFRlo5OW9MMTdsRDhkNHRJY2loVzVLZEx5dW5VRUtBZ3VhOTd3UkM3aEdhS0xV?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 15:00:01 GMT",
       "category": "match"
-    },
-    {
-      "title": "How can I watch Bayern Munich v City on TV?",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNGtTUlpONkVTXzZPUUNfVG5OTi1zVEJDSFhIX3ZuZW5Mel9UdnVpank3QVN3b3N1d3cxN0piS05BUWNPWDNDYy1qemxJWG1vMTdKVVh4ZG9rQWlySkZzOEV2ZDE2ZldSNWNmM3VoN0hhWmlrbVloSDVURzFPdHo4OG56aTQ5OEx5a2RvODBlWUZ6Um05S1hOS3V3?oc=5",
-      "pubDate": "Sun, 20 Sep 2026 10:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "City vs Liverpool: Kick off time, team news and TV information",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVzQ1MGV3ZzVkUGRfSEJIZ2xtQXdlSVBITnlQRGEzZTRjbUVJbFBtOUhrUF9nWkJXaUYxZEFDYzZVWUl3RFUwRG9WcE5aQ01kaTBSajBsQXQ3RkFZUjNHLVFCVTBWcUcteUJPZ042OXlLMzYzWHZ2VnFmaDFQaE5SSXBXOUwzU2dTTmlXTkJ3Q0o?oc=5",
-      "pubDate": "Wed, 16 Sep 2026 14:00:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Manchester City announces ticketing technology partnership with SeatGeek",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaHNIZ2M2cGxzT0R4QnJESFhzXzgtTXA4TV9BeTNMaXNFNFBPTFZLZEotbmM3TXU5YUdHRGU5VmlFREpjWG5RTWNndWtIc3dWaWFBUWwtbjBDSEhCLWRlRTI2RWpJd3hTbWMtSlE3V1FlbjJFY3FkNDhzU05OdE1EZ3FCWjlUVnRiY1ZMa2FrZEFfeXlPd3RsREdoeWhKQQ?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 09:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Training: Final prep for Sunderland clash",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObkZWSmkyWjc5c2ZENnpkWGFHRnlqOFVDUklvNmVaS09fRTNUR1JYLTE3LWdjM2h3QW8xV241R2VsZWt6cEpMS01iWHluSlR3NEZZYmIyVjlvWC1LQ09CbzU2eGdWMDdOeGRsQzQ1Y1ZQTGdYX1lFTGdSV2M0OURkR1hEcUdWZU5oUDNyaU1QUnoyZ0NvbE90RFd5OA?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 16:30:00 GMT",
-      "category": "general"
     }
   ],
   "reddit": []
