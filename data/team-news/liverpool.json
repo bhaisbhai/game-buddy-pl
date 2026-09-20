@@ -1,62 +1,41 @@
 {
   "slug": "liverpool",
-  "updated": "2026-09-19T19:51:33.956Z",
+  "updated": "2026-09-20T10:19:47.789Z",
   "articles": [
     {
-      "title": "'Have to be ruthless' - Andoni Iraola on returning to Bournemouth with Liverpool",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUEt5ZU5HUnpfTmtkb2QydmlTRXBpRVBwc1o3WFZWR2gweEJaZkk0Y3ctOWkwUnJQUWtjY2wwT2pzNFpoWktOR3o3NHdIVDFKWmZzZWIwSjdaWTR0M0JBQ3QyZkM5V2pZMWxJMU8wYVo1Nm9Ic1FXb0NzajRwY1dhN1JabVg0VjcyTWFmMkkwZTVhd21Sb0JsWVBDb9IBowFBVV95cUxOcmZabmhYVk93Z09STGtxUnAyeklSRG84YW1SRWRrcVJJQlQ5cFB2QlprOTVVTmJSYWkzX0hUdTdLVnBRNmVLWUxUTy1WVlF2Nl9VUXdRajU5a3ZTQlg4U0owdHVpZlFhNzJMOHpxd2pDdTRrUThsZFFubERxUHRBcDdDX0o1VkJtd0lHbklGTll2YUpyWDZzaDlVSzRPNUpGMmpr?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 13:20:39 GMT",
-      "category": "general"
-    },
-    {
       "title": "AFC Bournemouth v Liverpool: Team news",
-      "source": "Liverpool FC",
+      "source": "liverpoolfc.com",
       "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE05T0MtNEpsdWhKR0lURzM1RXFKOC00SHQ3WXpOWGRybVN0Q1B5Qm5SUDRiZWEzbFBHNHhIcHEyRkhEcy03Y2NxX0txYy1Pc1dpdlJWdW1jVmU4bXBzejR5aUtURGR1cFBEXzI4NG5wQzBKR2NtSlNwTkd5ZFPSAYQBQVVfeXFMT1ZPX0tXbWp3Qm9PTjVhcE1aRVJaRWhDaUY1V01INGx4S1VYZlhHZGlhVmVvaG5lRlNhdmpSVWxDaFRwZmlXQ2diU1ZxZzRMd1RmbEZQSkdsc2FhZG1PdHI2TFpSY1FaNVdlUUdxNEhITWc5YnFPRWkxZ0hlUzAtNVRsLVdP?oc=5",
       "pubDate": "Fri, 18 Sep 2026 13:56:46 GMT",
       "category": "general"
     },
     {
-      "title": "Iraola press conference LIVE: Liverpool team and injury news, Bournemouth return",
+      "title": "Italian media agree on 'flawed' Curtis Jones as he's called one of Inter's 'worst performers'",
       "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVm5yQWVrb2liZ3VUZWdVWDZXMEVYdkFXZnluUjZ0NjZvM0gtRTZVMjk3SDBjYUlyMnFUSWlLX21LOGJ1OGJVenRYOWtSOVhWRXAtdnh2VkFMWk14eGw1Q0hrRUpKbVU3SFFYVVgtYjN5WGUzMTBzVnpyTURnQWxERU9mdlJSVGk4UDZiVmlRREc0enA3dEhhemhzUlBRdDgxOGl2Z09YLW1NR2k1?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 11:48:17 GMT",
-      "category": "fitness"
-    },
-    {
-      "title": "Liverpool made a mistake getting rid of Arne Slot and haven't bought the right players",
-      "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUTluOWhPOHl0Y0dRdGo5d09OLUd1UFdpYTBpUVViNXZjVFh2TE00SHRKZHBTR1VoWEpnZTg5OGo5aHJLd2dQUFlOWEF6VnhvN3o2QlNYd1JSa2lKUmR4NHQ2cHN1ZllHTjlpTnhMd28yVnRuTGpiWG5NX05LWG5jMmJoNXBWbFlMeVRBeHRQSUItcDRrV2JvSDRrZTdzUTJweWR0UExlb9IBrAFBVV95cUxQTjU2VTRSMHRIcnR4SGFLMjRXRkw3Y0c4R0lwMHJXcVhaQjRYZ0t0NHlYUmJ6RzdmazVpbkNBWWlZWGtuNlQ2ZDVycGxzOC1aNFJWMXNPNkxBTFk4UmtWaTRUT0paMFdlbnl1clpROUIyUjFtX1BpczBOQVh2czFZUVBuVWs2VmxuUFlrdGlMZi1mQ2pDVVVMMnV5MnVaUUc1bjM0MWY0SzFXSS1s?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 05:00:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSjBYbUpUeU5PakVkTjNEQjlRRUlqT2Zjc0QyODY0MEE3akJ0WUMxaUE4Mm1uNU1wbjFoMHZZbmhsV3p1Q29NcUpyUmNGVVRlV0pFZ3pUSTg4RFE0TklQT3l3ejlyVmpoYXBxbTU2bkhad2JvUkxodWRxeUlZb0M4bU95d2tJSHhPQmh3Q3g0OHFWQ3ZpM0NPdkxJMjZTTy1oZGp4VVRUVdIBrAFBVV95cUxORHJSQWNJU3N3clRGTm5BYXVhR3pOVHJoNTdPTC10cjlmRkxXN3otSDF6eGZNS0x3Znp4c1lJTmVjM1FVaGpFYmljNnpRUDVrN0NscEVQN294NW9WNlN6ekdzZzFCNjBGWnp2TVlZSkF1MlJEQ0FnaXAwXy1ERmxvX01ub0F1VGdPTGlzZjRMajdITUJ4Qm5RWmdxX2xrS2FDY2Jscll4cGlDN0E2?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 07:39:00 GMT",
       "category": "general"
     },
     {
-      "title": "Victor Munoz opens up on £123m Bradley Barcola competition and makes 'world-class' Liverpool claim",
-      "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNaGZwaUpyVFhGQUIwZ3ZZRFVjV0ZlSzJ0R0JjUmdhS3VxU1VrYUtKdWRQZEUtMG8wUHNxcVp6UlplbF9PVXJuOTcwenI4T1RlQVJGRDI0NmRoY2swc1YyRjNVWGNLSEFVRWhnb3llSFdBWXZKTUVjbkduR1RycGQ2bWFrRjBFRVBTcWUwckp5eWh6RUNwbXhCckpaV3bSAaIBQVVfeXFMT3ZBbVBVYk1FN0xUR2RCMnFZM0tFYlVvcnkxbk1yRWc5N25BdFV2MTZ4R21CYkxoVnpXT1JkT2p3WElhaF9CeDBKVVo0MGl5QUNqaUdQaUQ0OUxUR09yQWVRdk14X2FGblkwSHItNzRhQmFaZENnRmpmVHphMEx4cktENWNyS2JQa3dIY0R4MEN2WDVrZk92NEN6MThUYXYtQml3?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 08:30:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Surprise new role for Giorgi Mamardashvili at Liverpool revealed",
+      "title": "Liverpool eyeing fourth £100 million signing for January",
       "source": "AnfieldWatch",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQjEtWnowS1FSZTBYNkRDZ0dReFM2SmxjZDNUTjkxY0RYM2FEeVpjbGRRdThVcElDWUg0bmJSYldwcW1lNEplckVNZlJSNFBFV1pSQ0VkUGx1Mk1CaGJtNU5iVzJtVU14SU81ZXlkQ2tIQW03VjZZQ3VnN2hMSzJ2dnJMVEdYQ3pZcDRSSzNQaHRCUGd5dFlWYkFRSXYtems0S3h6U2hNTU1kNTc5V0RndkJXUGhaaGlhNklKY3ZUcTNQNHJQUm9sV2RaendlX28?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 17:30:08 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Victor Munoz Explains Alexis Mac Allister Key Role in Liverpool Transition",
-      "source": "This Is Anfield",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE15Vk9tSWpwVUt2NWR0SmJkajFLTXZBeDBEYzN2bVRqbmhsS0RGSjZSSWpQcFcydUt0c21YVmhmWXd2NW9NMlRQZ2JLN1lWU25yeFVsWUlTUVNKZnc4dTFIV1BNamF1TkVmdXp2WWVVS01ycWhUdE9jbjBQcw?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 10:59:16 GMT",
-      "category": "general"
-    },
-    {
-      "title": "‘Crazy’ – Alexander Isak blown away by Liverpool summer signing",
-      "source": "readliverpoolfc.com",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUFpVbENJY0lHOEtBTjhxT0FqcGFJUTlJUERENE5hOG0zQ1hiMjBLbUF3aE5rQTNWd0dpQkV4Wl8zM1hrYWFjWExpTEZxN1c4LUdhV0NsN1puR3B6WkxGTWlMV3phYVAxaENDdjNsVThQMlN6YnVwQVdMYnVheHZkLUNYRDZ6MFI5NWZMdnhUYmhMdVZ3c21KSg?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 16:43:01 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORWRaVFJ2MndGckpDTC1GRjVGYlM3ZGpOaW5qdGc1aU1xNkhTU250dVNEU1dCVFJXTE1ISHBPbldLcV81bXlSSW9uNFc4TU93bkJ1ckh5T25Zc2picC0xWmxQOVo4clVCT1RlRTdlV3BBZjIxSFFnTV9ud3Z4TUJ0cUtmUEZqRzJuemtNeGR2YTBIRE40OTVvR0xGbk1BX2pJRklCRE4wUFh5SERvZmJFUGNqaw?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 07:30:49 GMT",
       "category": "transfer"
+    },
+    {
+      "title": "Liverpool could battle Everton for £50m-rated defender as Newcastle chase creative assist-machine midfielder",
+      "source": "3 Added Minutes",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU0NleXVTMEdaVjRDazdLcENPYkdaSEUzX2MzQTdkbl9falE4OU9ibldYM2kzdWpwY3h4ZjFTZl91UWV6UmtiOURGNnVOT3Q3OVl3b3FMQnZEbTRnYm5lVTJKaWtRbnJjb0dadmIzZTB4MlZ4ZkhvazdFWEFxNVVuUXlVS1FpdnlMRnA3VjViaGx6azd1eXR0cGdpdEh5ZWtDOXhKaXZDLURuaWxIdnNUazVJVHEtU2pBMUVybGN6Zk8ydw?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 06:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "I came close to joining Liverpool and Man Utd – it took me six years to finally make the move",
+      "source": "mirror.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQd18xM1hCQ1RFbmwwYzZ1UkZLLUppZEFyWU16ZEZnT2tBaWpqb2dPMTYwNW0yMi1ya0ZoSVRkZGZyUldmU3FKNEZTdXlmNjhSYUN3ZGVFVVp6UWhLT1BYMU1pTUsxYllSV1BXM0lxVnNqckIzanJCWXc0U2tJV2xteU9hazJjOGIyeEk0X2E5ZXTSAZYBQVVfeXFMTkN4UDY1TUZLa0EwUm5tMm1iaWh2RUUwUUF2cXJ0VmdPQnpVNEtTVFBlY0hDcF9RRXBpVUlXaFVlcWREU21aUG50UkljV0hiQ1hSQ0NSUlY1Ui1BR2ZSRmVDbWszZ19xTmlMREJ5dEgxVWJrczNVNm9jYWd6Y1BxUk5ESGhpLTVLNWpVRS0tVU5YdHpCWEF3?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 03:45:00 GMT",
+      "category": "general"
     },
     {
       "title": "Manchester City scramble to dramatic WSL win over Liverpool with two goals in added time",
@@ -64,34 +43,6 @@
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQekhXOEN3TkM2UmpqakhYcnpVc2hCRlg4Z3JJeTFoaVJrRWNDWVc0NVI0UDluWUFTU3dJbkxWU1dIWm9ULWdGcUc1bTMxLW0weU10OGlOVGFtbUFMUHFZTWVNWGE0NFgwbk94RVlVZDFENndMQnQtdmJvclo0eGgyZ2QzVTROWVZiT2dTSExZU3ROeDNrMWJZQjBsN0NqNGloQlRuU3pDWktNVklGLTZNZg?oc=5",
       "pubDate": "Fri, 18 Sep 2026 20:10:00 GMT",
       "category": "match"
-    },
-    {
-      "title": "Educating teens through football is a great buzz, says Gerrard",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE00STNHcDFNXzU0c2J0eUcwUHF4UmdsODVQb1B0TU1VOVVXblp5OTRZbXZQM3pSck9ZY2xYT2I0Nzg2bU0tcGhzT19rMXZYR05aQlBoVGRFR05UTXVOeXc?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 06:12:17 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Andoni Iraola Praises Jurgen Klopp’s “Very Smart” Florian Wirtz Decision",
-      "source": "This Is Anfield",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQkFzSHVDX1Rod0ZfVHVIci1qcnBUelJBN29paVlHb0tyeXN5Qnl1a3Q2X1Y5OTgxZzBTa1J4b2kxWEcya25aTWJ1Y0pyNGcwT19YYVhYNm1NR3JrOW5XTmpSQ0tpaEZvcDFrNDBYeVV2bk5VcjJaOG05QmZkTnhMR1JROVpLZw?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 09:50:21 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Andoni Iraola makes Jurgen Klopp claim over Florian Wirtz after Liverpool legend's 'smart' move",
-      "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPT3BhRnhLMnN5NGZ1ZVdYeG54MHlwMDBLZXIyUXBhYy1fazNybzdxMjI4OVNUUkpXcUZQN2prbFI5TnhVaklMTUVkVjFCbmdBcWNPWFMzUGNVdTJKODAwS2FnTkJ2al9hZ2k5cEphaFNyM3ZrZXc5clpTUEpaQTdJVWdaOVh0MWJfX3cwRkFESVdBZ195V2N0VVVpU3B2U3NxYXFRbtIBqgFBVV95cUxQUXlkNG8tam9xbVI4Z042NkpWVFFIT3RxQTFUWjUwRER5Vm1HM0RVNlNFeFFJRWR1YzVkZThoTmlfamFwbHRsaFJzQ1BTWVRGY1VMNmQ5N3FjVzRMSkV2SHU1b1N3eHRZbVBoOFFiYWRwaUItTnczRjNRLVpPMjUzMEVac2ZlWXBhaWxoWEtlaGZqQUM1X3BxcExzWmVMZVg1VGdNVzM4Qk44dw?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 00:02:58 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Florian Wirtz told to copy Liverpool teammate as 'very quick' prediction made",
-      "source": "Liverpool.com",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaU9rZ29iVFdWaFlRMU9mRXNXc0xqSW1NaHYxOE5TNnlpT3FydEdMbzZ6U0FCX1JlcWJDb0N2RUFVTTZWZ2M5STFRWnFmZE5pSVkwRVpNeENlWVNwWGxnWnkxT0U5SXEyYnBkR3NrQXZnRHAwemZqeFZfdlh3RDF4UWVKRzRFM09fY1c4RDVMREs4NlJPNkh5aNIBngFBVV95cUxOenBtTE5YbEJoU01MTWZVRzVyTkYyUGIyOFdJV0NJWVRDcjYxODlUSUtsMVRWa195UWtKVlRDOHQ5ZFNKWDhsVmZLaHEtSDNUYXA5czU2bXN4b2tFejAwemtZYk50c2otNWRWYjhLUUVWSTY5bHlwSXUwM2w4MFh3Z0d0MG1BRlEtSGpWWlY2bG1UZjUxWjFVbXl6ZGdOdw?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 16:14:45 GMT",
-      "category": "general"
     },
     {
       "title": "Transfer news LIVE: Arsenal sign striker, Kroupi move; Liverpool target Rayan",
@@ -102,9 +53,58 @@
     },
     {
       "title": "Liverpool get positive reports on £50m Venezuelan right-back as Man City battle erupts – Exclusive",
-      "source": "TEAMtalk",
+      "source": "teamtalk.com",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTG5RekxtcGx5Ukh2N1FXVGt3Ykx1Z1JIRFNUclRQWVdhVWtKdVRMckx2dUFIWE1QazVHOExraXlYdWhLaWNoTG1TZXJsYVJ5Y2J1RF84aVczOGxRTXlSM0RQY0dhSHNoMUFPQmEyLWFTSlVCbkNRa0RTTUZVeGswUHVwa0dLb3dJcHppS0d2R28xTXpUZzBVX3pmYzNfelByaUVIRU40TXZHTDYtZzY3VEo0VVJmZXNuR2JMZFFNd3o4WkRvanIxSEp3?oc=5",
       "pubDate": "Sat, 19 Sep 2026 11:32:14 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Liverpool hero makes Alexis Mac Allister contract claim amid transfer uncertainty",
+      "source": "Liverpool.com",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQM1NBdFJqOG5KLXJzVEJpejkzZlYyTUJoVXBncW9HblAzc01BUGF0ZVNqLWU4STdmeC1ZUml1VXJzTWZkQkxaMnM0N3MzSXp4eFBKNzREeEhlM0hFaV9Xc2xYd3BxemhiLVZKWUVmWS1fTnU0V0gyMk5VajIxbjFjUTNBcXYwTnQxV2w3WWg5Z2F1anM3MHNRbE1IU3BDZmcyUHdMN3JyMWTSAa4BQVVfeXFMTlhLN1ROYk1CTjF4c3FzdW9pRUh1bEpEcDNfdXZEbXBjUXZKZTl1cHBKS1AwTGxYOU5wTEpTZDBNUklLaUxFM0MxbWhib3hsVHdVaHB4WmtpUkdiMW5SeldrVjhWcmRWalJIWnJtalVZamJGTDhCQ2txTkZCLXVIendZd1hUdElUbVpKQWgzTThNdWIzNFJwQTd0Q0NMLUVkS0ZiSkR6MjdXQUVaSEFR?oc=5",
+      "pubDate": "Sat, 19 Sep 2026 17:09:44 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Sources: Liverpool lead Premier League interest after carrying ‘background checks’ on midfielder",
+      "source": "CaughtOffside",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRy0wSWNtWlpvUzE1cFRuMXR0Q1Q1ZlFyVmpkaE5uZThjTjRsclFUa0F6bk9oQnJQVVNGN0ZBQk9LZGNTanpKM1FIckxHNE92VXN3ZVJ5SGt3cHY3dEE2ZVdWOGQzNGxSUFdLbnVlVnd0Z1ZMRkVwM0hGSG5IUWQ4OFBabDV2c09zdGdJOTVCcncxcW91dHlCT3gwQdIBoAFBVV95cUxNeUhpLXhkLW5NM1ZxUHR2T0FFRTA1MFFZMjJWN3hKQ3Y2dkx2VHFhaU5sOWFWck9PR2R5RWdyT1ZIdE42RXBEaWVGbzlfLXpLTUtwQVBEZnZjZ3pjajF3Vi1hY29QU2JVMk5Nc1hvX1V1bVZpZmVWaTdSa3VYM3FEVE1ZOHJPV2FLTGlvWjhoeDZVTW1WcWpJaWtTQXFVR0p5?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 06:13:47 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Liverpool battle Man City for £50m right-back",
+      "source": "liverpoolfc.com",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcGpUY2dEaHJTYno2MnhBNHIydFhPaEZiejhObURWdjdYT0hPR2w1eU1pXzBEZEJsX3BhamNrdFhQY2lUZUp0UHFHVVc2bFRxV3FQX0VXTWtKNlNZTGtEdGw1d0owOEQ0RS1CV252ZExESFZabWhDY3I2WTVNUV9WatIBiAFBVV95cUxQVWR1X19wYkJQZXp4czNOcGRiWmdhSXdIX2JYTDJBZFUyZGFUaUFwemVaN21pVkZoNVZma3hqekJncHJ5RTFGcnQtS05vNTBocDl3bndUS1d4OEFsRmpKeGJuZlUtMmItWkoyTVQ1ZXJIdU5VY21nUmQtVGd1T3o1RC1Ta0gyLW5x?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 09:41:17 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Watch U21s highlights: Liverpool 5-1 Brighton & Hove Albion",
+      "source": "liverpoolfc.com",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOEh4ZERaYlByaWM0S0w4bE9OOTZxay1BaVFFWXllN1VPUWV0V3ZvaGF0M2JrR2hlNUFPM185SUVKdnZoLXc4SHNCWTN0SklBbTY3LTFvb2c1UkRMOTlRc1J1UTdGNHZTb0h1b2ZKWVpBWTktcTVuVkdWT2JCVWZOdFpJT01HcWpfdTJlY2pnS09VSUnSAZsBQVVfeXFMT08ybENvRjlyWFlmRm5YLTdxcmw5QXF3cXVUb085TnhXMlNGZF9Nakt3T3RUbmNfQWZqRjkyVjhtZ1lqN3ZOT1N3NjdkMzJPRmpPM2RVdmh2YVViSzMtamE3ZnFPVnd6RzJEemF6OWJlOUM2ZVJER0Z5ZTNKREhCN095TklzY0VuSzNhaTBsdXowOFZvVzFWcHUwUTg?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 08:10:56 GMT",
+      "category": "general"
+    },
+    {
+      "title": "How to watch Bournemouth vs Liverpool: TV channel and live stream for Premier League today",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTXlyZFNCUnA4anp0dUJ2QlUxRFM2a2s1dnQ3LVIzUFFoTDBnMzRXdUNQNHBpQUFNNlkxa29zelJDU1dPYWtXd2E1OGRQQnZFQlh4THVRVXNxa0tQak0wMGFZWlZmT1I5RlI2b0M4aURwRzVxSkZBaWxPMVJZQ0Z3SG84ZjNMcjNhdjF4S0NNUndubmk3bXd6THZybThlY0k4V0hMbFQxUFJVODBncUJMejBiZl9lSnJGUTg0YVRra2dGY0lfZDY5cVlIR2M1OWp5dVhoWU1rTQ?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 06:01:44 GMT",
+      "category": "match"
+    },
+    {
+      "title": "'Have to be ruthless' - Andoni Iraola on returning to Bournemouth with Liverpool",
+      "source": "liverpoolfc.com",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUEt5ZU5HUnpfTmtkb2QydmlTRXBpRVBwc1o3WFZWR2gweEJaZkk0Y3ctOWkwUnJQUWtjY2wwT2pzNFpoWktOR3o3NHdIVDFKWmZzZWIwSjdaWTR0M0JBQ3QyZkM5V2pZMWxJMU8wYVo1Nm9Ic1FXb0NzajRwY1dhN1JabVg0VjcyTWFmMkkwZTVhd21Sb0JsWVBDb9IBowFBVV95cUxOcmZabmhYVk93Z09STGtxUnAyeklSRG84YW1SRWRrcVJJQlQ5cFB2QlprOTVVTmJSYWkzX0hUdTdLVnBRNmVLWUxUTy1WVlF2Nl9VUXdRajU5a3ZTQlg4U0owdHVpZlFhNzJMOHpxd2pDdTRrUThsZFFubERxUHRBcDdDX0o1VkJtd0lHbklGTll2YUpyWDZzaDlVSzRPNUpGMmpr?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 13:20:39 GMT",
+      "category": "general"
+    },
+    {
+      "title": "The opposition lowdown: AFC Bournemouth",
+      "source": "liverpoolfc.com",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1LaUQ4Z3k0QkRCSExaMFc2OHg3SU1oVk5YOW9FNjEzTDFzR0M2UXRkb3BLdjVGOGJ6VmVQZVZfa0lOY2xFZGFzdWRNV3REb3FRbXFoZmVvaDlweWNxV2MxUHBhUlcwSGtCQm84bVpRVEltQ2JQcmlGMdIBgAFBVV95cUxQQ1ZxdFB1SW94MFFqWllYRlp1VU1pRk5URVJhT3F3bDFxSDRhZ0tQOVMxZkk4elJkaGdCLXNUWWV0Vk03RTlpb283WGltc2U0U21vU25MdFR6UVpyR2NDZUJBZzBxQ0NsZUhPLVZ3d1VHQnVxQjN5NDVDYmV4SF9Fcg?oc=5",
+      "pubDate": "Sat, 19 Sep 2026 15:25:50 GMT",
       "category": "general"
     }
   ],

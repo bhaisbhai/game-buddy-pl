@@ -1,34 +1,13 @@
 {
   "slug": "bournemouth",
-  "updated": "2026-09-19T19:51:33.956Z",
+  "updated": "2026-09-20T10:19:47.789Z",
   "articles": [
     {
-      "title": "'Have to be ruthless' - Andoni Iraola on returning to Bournemouth with Liverpool",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUEt5ZU5HUnpfTmtkb2QydmlTRXBpRVBwc1o3WFZWR2gweEJaZkk0Y3ctOWkwUnJQUWtjY2wwT2pzNFpoWktOR3o3NHdIVDFKWmZzZWIwSjdaWTR0M0JBQ3QyZkM5V2pZMWxJMU8wYVo1Nm9Ic1FXb0NzajRwY1dhN1JabVg0VjcyTWFmMkkwZTVhd21Sb0JsWVBDb9IBowFBVV95cUxOcmZabmhYVk93Z09STGtxUnAyeklSRG84YW1SRWRrcVJJQlQ5cFB2QlprOTVVTmJSYWkzX0hUdTdLVnBRNmVLWUxUTy1WVlF2Nl9VUXdRajU5a3ZTQlg4U0owdHVpZlFhNzJMOHpxd2pDdTRrUThsZFFubERxUHRBcDdDX0o1VkJtd0lHbklGTll2YUpyWDZzaDlVSzRPNUpGMmpr?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 13:20:39 GMT",
+      "title": "AFC Bournemouth v Liverpool: Team news",
+      "source": "liverpoolfc.com",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE05T0MtNEpsdWhKR0lURzM1RXFKOC00SHQ3WXpOWGRybVN0Q1B5Qm5SUDRiZWEzbFBHNHhIcHEyRkhEcy03Y2NxX0txYy1Pc1dpdlJWdW1jVmU4bXBzejR5aUtURGR1cFBEXzI4NG5wQzBKR2NtSlNwTkd5ZFPSAYQBQVVfeXFMT1ZPX0tXbWp3Qm9PTjVhcE1aRVJaRWhDaUY1V01INGx4S1VYZlhHZGlhVmVvaG5lRlNhdmpSVWxDaFRwZmlXQ2diU1ZxZzRMd1RmbEZQSkdsc2FhZG1PdHI2TFpSY1FaNVdlUUdxNEhITWc5YnFPRWkxZ0hlUzAtNVRsLVdP?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 13:56:46 GMT",
       "category": "general"
-    },
-    {
-      "title": "Europa League: Bournemouth hold on to beat Real Sociedad as Palace also win",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5PMjVkVUJZOXRuWW14TkxIRkRWcE5CRW1sYzhNS1JveF9rdExvTkNVTjVfMmlOaklYVG9Xd0JKb2taakdsOUZBWEcyc1pLM1h1UHRyWDFlTVZWU0QxZ0hlRU9qSmNHQQ?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 21:31:32 GMT",
-      "category": "match"
-    },
-    {
-      "title": "AFC Bournemouth CEO Frevola: \"We’re going to try to make you all cry\"",
-      "source": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObjc2anRxLUNGd2w5VW85RkhsQUxuZjVobEk1N2tIVjM4RExIOEk3bGpJbDdBX3NzdFI1c3ZaY25TRE1QMklHUC02dEZ2SGJyXzVIdVp3UUhYZVVvejVuZW4wTXdJSURVUzBERWJVWlNwdU1NcXVCbTc2bTlaeEpjOFlEUDZsX2NkdkE?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 17:09:37 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Preview: Bournemouth vs. Liverpool",
-      "source": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTHk5X2Z0UFZ2dWhNd2ZvdFNRUGdSd2xDQzN6RE5WWGFpVEZib2stcFhlUHM2ZFJESmZmMGpkSmNLdk1MbW9RY3dHSkUxZ09sQm1od0huOUpsbmtLa3NXZDhiS1lMVThYbV9oMXdtSWlvbmxGTkVycWdDMzFwYkRjV0R0blN5UEgw?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 18:00:00 GMT",
-      "category": "match"
     },
     {
       "title": "Exeter Chiefs and AFC Bournemouth sharing expertise after Black Knight takeover",
@@ -39,51 +18,72 @@
     },
     {
       "title": "Cherries' Scott called up to England squad for Nations League games",
-      "source": "bournemouthecho.co.uk",
+      "source": "Bournemouth Echo",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOc3lCLVE1N2lHMWZyeUJ4cEU0YVlCQ1ZhYUR5OC1HYVgzWl9xVUxwMXd0NFZLOHIwLWpQUjhQelphOXpza1VDcDZWa09mZ2tocnJBeENpQmFldXF4TjhFOWJFRy1jREt0OWZ0b29jQ3YtSDJsNkVpQnowS1E2T3Npb2lxc0lZRS04bmJQWlNpSTJ1dkFoRi1BdkFFQVNTbDQ?oc=5",
       "pubDate": "Fri, 18 Sep 2026 09:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "Real Sociedad vs Bournemouth | UEFA Europa League 2026/27",
-      "source": "UEFA.com",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbkNjZnMwTzByelBtR0w0ZVVCOWJ1OTJqbG0zcnI5am9kNm9CVVpNZXowWDQ1ajJseWtRVm9OVE92SnFiNmdpcDUxWWdWMm11STdoUElwSlprVmhrQnNrNkQ0YWU3ekt5Q2FlU3c4OXJrcDZJaUNPRF9ZY2J2VVlCTkJUWE1faV9QSVE?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 18:23:47 GMT",
+      "title": "Newcastle United vs Bournemouth: Premier League preview, team news, stats & head-to-head",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9tMXkyZWJiWkF3M0hQMHcxU1E1THR3LWVTUFlZaHFZZTZOUUxEc3Y1emxSQzdHUGgzOFRvNXZUNi1WUllkZmRCQnMycWJMeGI3MnN3cUMtSzRacUlOOXdMVUd2R1FOZw?oc=5",
+      "pubDate": "Sat, 05 Sep 2026 07:00:00 GMT",
       "category": "match"
     },
     {
+      "title": "Kluivert and Rayan rock Real Sociedad as Bournemouth win on European bow",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRC1XLUFvZHlCVDY5SXZNeUxZYUE1TkJmTTZ5eUYteVNRMWt1bUNiQlRlYU5rMzUwSW9oVlhqcklCUG9QU0hsR00zSXNaS0lyMGRmcUlWTTl1Z25icEdPWUxGNDVWS3RCeEFMcGt6QUFOV0N6OHhfbzJheV9rVUI2b1VWSGxCejBBTkxyaFowQlVFVkpIeWNxWUFTV0pPTE5RZG93?oc=5",
+      "pubDate": "Thu, 17 Sep 2026 23:52:49 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Arsenal 'extremely keen' on Bournemouth star Eli Jr Kroupi but Cherries slap huge price tag on France wonderkid",
+      "source": "The Sun",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbVZKY3JhN2pfcWZCX21XMS12V2VkejNkVEYwY1FvbXowQUFNUHMxcDBiZjVfdlR4LWQ1QWhhdm96bzh2UWdXNjNfbl9LbXN4OTg1Z2RhbHVyWlJKUEdfWDJlYTg2TjJIVkxaS0RLU1RmTm0xdEpGcFB2ODE3elp1akUta0ZsNDNkNFRScnBpYXhPcEg0MEJUeTNHZEZNdw?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 13:14:00 GMT",
+      "category": "general"
+    },
+    {
       "title": "Arsenal plot £80m move for 'world-class' Bournemouth star Eli Junior Kroupi as Gunners' interest revealed to be 'very real'",
-      "source": "Goal.com",
+      "source": "goal.com",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUUZsSkhVNC1UQ2J2Umk2R1p1VnBEWDVDRzU3dmk3R2R2TF9ZOVNGRTZrdnpHNFZXNE9NNFpNX004YXUwcGpaMy1RbDhVdThuMUZLZG05NlRHSjk5d3lpZmJyRnVuMmZxVEZuRW5YaWVDTnQ4M0U5cVA3SWJWZFF3QU40amM0OEVRRVFfMnNSVTNvOTFqelJ5c1YzZWRwX1daRVg5TWtRU2dRdmt1c2hON3E1d2NwelB1VDFQMERpc195SXhC?oc=5",
       "pubDate": "Thu, 17 Sep 2026 21:30:15 GMT",
       "category": "match"
     },
     {
-      "title": "AFC Bournemouth Daily News Roundup",
-      "source": "LiveScore",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeDJXQzNCQVI4Z2NQd3FCVzE3aGYyRTgwbS0wdDc4QktPXzhWeUQxYTlaZmphWlNMWTZJeWFVc1MtWF9uVnJTcUJ2Q1E5cDRDZkJKdXVVemlZdzJqcHRLZ3FKYmFyR0tIZU9wRzZ6YzJGUEJhdnAzZ3VaQnZldHUwRzQtNG5ReFdhWG5YcGw2VklMazZscFRhMkpGRUhyODRCUF9WT0VINHlFQ0N0NUlNc3VuUmNKZw?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 07:01:14 GMT",
+      "title": "Why Florian Wirtz Must Impress Against Bournemouth As Liverpool Transfer Stance Confirmed",
+      "source": "GiveMeSport",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcC15S2xiWm01ZlZzOXFoODdKOXlOWTFFNHJVTkg2Mlp2RzFkQ1FfV2VmOEUtOXRoWjJSZjYxODd4V2dNYVhSN3d3OERnelJPS3lCbTg3bXA3V2NkdUdiZ2I3akF6Vmp0bVlGVUFBNDByQm82OU81VmhPc2djUnF2b3lfTWJkNzBBakxYQ21Rdw?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 10:15:12 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Bournemouth v Liverpool: Prediction, team news, lineups and odds",
+      "source": "Football365",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR1JVVFNLUi1zRlJ2dUh3eUdNT2pDRG9mUXFtR2Y3MDJ0aU1KcnMwNnpTODlrQl9XOXFiRjJieWN6WksyNG1fX0ZpT2xHX1F4eEl4dDhUMkhvZGtNOE9NZnprS2IxWVdCWHo2NWZDbHUxWUFnSGo0OWtCWGIzcmxZcGstRHV6VXRwbVRLTQ?oc=5",
+      "pubDate": "Sat, 19 Sep 2026 12:00:44 GMT",
       "category": "general"
     },
     {
-      "title": "\"I’ll probably shed a tear - there will be a lot of emotion\" Bournemouth legend explains what it means for Cherries to play in Europa League",
-      "source": "FourFourTwo",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOOFdoemdSWEtXamJrLWxraVl5c0J1ZnFRYkw4UUU0U0Fpa1gwYUIxOFFlczh2bXVrZFNfeExickpjNEJhUmxrdlFrTFRYZnpKb05rc0VQeEFGNzJ5Q2dEM3FydnFtWnpKUjNNNXdTVDRQVmdDWFhUMDVGelB0SjNpQTRuUi1hMFNwSDBmOTFvejc0YXZMRWJRM01qQ05rdjR2TzRfVkl3bDVMT0Z5eGdpUjlHRnpnUXFDcEJEX1F6TWlMSGtBYzNYV1Bhb0g5MFpYQ1c5OW5LSWtQMEFQWEdDMTRLU1R1Zjg2Wkpvb2lhMEJCQkZFa2dMcUNTVWlXWG8?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 08:00:00 GMT",
+      "title": "LFC team news vs. B'mouth - Injuries & available squad",
+      "source": "This Is Anfield",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRmdSdVM5TVlZSm8xaU1Rc0RPZEY4Z3hON216ME5KYnp3Vkt3Q1VKWVpZZlhOaHlDTzdtRGswVVhJc1pzTjRZOWQxRUJla3U1OVVBUDdkYUtSb2NFUXlZaExmbXlrdFMxZW9VN3ZXWWtBeGhqWERNZnhZVXFpVm5JVjR1XzQzWEZsdUVpMXdPYXVodEhESnN2dDZvNUZVdFZ2bTFn?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 06:03:03 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "Bournemouth - Liverpool",
+      "source": "Flashscore.com",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPem9UbW9UaE44dUc2dW5wWGJSemJZc3BLcDBFTW9zVTI3RXRQTm1sYjZZc0pqWnlvRldreDVsZTBCYkIyVE5fQnQzazlBXzN5d0RVU0NSeFpaZ2JySTJxUWlUUWkyVFIyaExjUUJZbm1HbldZbzFaZWltQXVhaV9kaEI3bXd1NDNRcUE?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 07:53:16 GMT",
       "category": "general"
     },
     {
       "title": "Bournemouth v Liverpool stats: Gomez landmark, Iraola return, goal records and more",
-      "source": "Liverpool FC",
+      "source": "liverpoolfc.com",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSGFSNW5yd0IydlRHb0lDYnZRcjZxLTlsOUl1M18yUXB0aUZLSVVnYVZJS09ReFNHVFlzQjY5a0hlUU80ZW1CUUpldHJ3NFlqLXNRcHFLaGZ5eElPcFRoMEVYRHMxVDlNR2xLT1E4ajF2Rkx3UGdVanRTeDhBZ1FZYkVua015T0xPSEJYRVB1aDR5dlp0WHpDNTNPTW93aEZqVDBqOHNhQ0plSXdqUFhTRUVUTdIBuwFBVV95cUxQMWRzNEt1STh3ZnpmdUZvdDdBUUQyTFc0dkZTWVlHWlhrLXE5eE9OaGprVVY3bUdud2ZHU2pCUF9MMENLdi1UUklwemcwTkhjOWxTUDdGT0FocWttQUYtbkxmaTk5OEI4dElFX1VtTUF0azlJdU1lcjNKNklBZk5RYm1SU0VQLUtyY01qZjdkanp1NlNIZHBPanhndWpKXy1mVEM5alY0S3hmcjhyUlpIWFhKVEJMZWpMMDdJ?oc=5",
       "pubDate": "Sat, 19 Sep 2026 08:05:50 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Liverpool XI vs Bournemouth: Confirmed team news and predicted lineup",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPQW5tajZhWC0tcXB5Wnd3MWZ2WXVfajFnaGFLRlhTc3dhQmRQaXVvUEo2WXFiSGFJbnRXc3F0bkVkd0tvdHF5bUpHdzJNamtVZEpuSmpHNWZIM2NrWjY4Z2NQNmcyWkhvRFM0MEh5WHF6Zi15X19TQXF3bklBVWJ0WmxkUGxHMlpvUVpaNEdkVGFxVTdKc3djY25HQk5tSGFrWkRrVUNrWHpBNV9XMlVxY2RZanI5MWtuWHEzUWdCUXhtNlplYi1pQUtnOGt5NDc0OS1jMERfczg4Y0JBVklJMHhOU0JpTGxjcWR6am1B?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 18:43:21 GMT",
       "category": "match"
     },
     {
@@ -94,17 +94,17 @@
       "category": "general"
     },
     {
-      "title": "AFC Bournemouth vs Liverpool TV channel, live stream and team news",
-      "source": "readliverpoolfc.com",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTWt4QWdkRzJvZm9DUG81NDFfa1NRTGpsM20wdVlGX0hGSWZUamJjTFRXNXYxeDBnUlhXQjhPNFlhXzgyd0phZTZaV2ZMaVNCV0xuRTlwa081N3J1bXNuNDZhcXZZR2RnVlgwc2NHUUprbTdCMjI1Q3VkZXozdGJPbEtxbWxZZUp4?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 18:00:00 GMT",
+      "title": "AFC Bournemouth vs Liverpool - Prediction, where to watch, kick-off time and line-ups 20-09-2026",
+      "source": "OneFootball",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVE9LaG9WNlhLdWJXN3Z6TGpnSGhuNFliQWdUa1Zlb2RXd1ROYWpBMzhfTC1UenN5QlpaRmlkbkdOQXRwVjgxMHNPMkpJZ3Z6UUxuN2hKSXhpek5UM2FWZW42VEdEa3p6SDdtUEdiZ3hSa0VjUmozVmRzVE9pejRjX3JoRjdvMlVkSFpWYS1QQQ?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 08:22:27 GMT",
       "category": "match"
     },
     {
-      "title": "Bournemouth vs. Liverpool: Team News, Likely Lineups & How to Watch",
-      "source": "This Is Anfield",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA0UmNIRVVYOVRxbkx0WTNUWndRSTdLYWNCc3I4UzFZQUU0anJkcnlVUE9RZUJjaEJmVnZmRU1WU2prSDNQLVlVcVBjR20tNXpZc1REZFJEMXc2aFlSWUZHZjd5eHNsdjZxTUp5bktWSUtuN2hSU1M1U2hMMA?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 06:01:58 GMT",
+      "title": "AFC Bournemouth vs Liverpool Predictions, Picks & Odds – 20/09/2026",
+      "source": "ToffeeWeb",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYjlwYWsyWHNBeVJBU3VzYndBS2tUSWtmNzROSU96YzNfMXMtRHF6RUpkZEZjWmsyMUdkVFJLdUZFY19YaHNyU0ZyODROZnYtMDR6N0o4dmFfTEg0YzFGbC1yTjBPa2k0cW8wdENrTXpUcjkzNTVUQmFucG9kV0s5TG1GUjQ4ZGpmai1NT0FYYkNJX2Y1WHhmVw?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 05:39:05 GMT",
       "category": "match"
     }
   ],
