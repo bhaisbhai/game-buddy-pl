@@ -1,20 +1,76 @@
 {
   "slug": "crystal-palace",
-  "updated": "2026-09-21T11:31:08.785Z",
+  "updated": "2026-09-21T21:31:23.018Z",
   "articles": [
     {
       "title": "Leeds United 0-0 Crystal Palace: Leeds maintain unbeaten run in hard-earned draw",
-      "source": "bbc.co.uk",
+      "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3SWFGTmhucXlNZXphLXozQ3VwUkhiSEtQSEVkNkZ4dVRfekpmSTVjQmVZTUFEN0hWTFd4Y2VkcXpPYVZ0WDlJVkpXWUQ0eGswWTVJbnVWSjRWcmlLaWUzRlpnYnZtZw?oc=5",
       "pubDate": "Sun, 20 Sep 2026 15:50:56 GMT",
       "category": "match"
     },
     {
       "title": "Crystal Palace 0-7 Tottenham Hotspur: Holdt hat-trick helps Spurs trounce 10-player Palace in WSL",
-      "source": "bbc.co.uk",
+      "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vamJILS15SXN3M0tLNjhpQXNUUnVKdTRodGZ4NnlQRndZbzN5cEp0NVB1Z2hrLWNHLWVab3NMYkF4RWllekNvd0hXam43MElJSk9wRHhTaUtEeFRjZGY1YUsycDNIdw?oc=5",
       "pubDate": "Sun, 20 Sep 2026 15:38:08 GMT",
       "category": "general"
+    },
+    {
+      "title": "Daniel Farke explains reasons that led to contorversial Leeds United double sub",
+      "source": "LeedsAllOver",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQOXVWT3k2dGh2eThnWUg0b2IyNnZOd1VmZTF1R1NwRW5YMTg4TFdJYi1DWm1ndkpIbkR3NFA2NHhaTmVoWkFQbkhHd2JuckJ4ak95MEItVmFQNkQ3UHJiME5ZVkljOWpWWTgyWFJEN3AzN1hQQUhBcWN4UmxVWi1yRzdWTW9BOS1sS0U1YnZZcjNuU081VDVFa1JDdUhWbHBUREdWVG13?oc=5",
+      "pubDate": "Mon, 21 Sep 2026 18:32:40 GMT",
+      "category": "general"
+    },
+    {
+      "title": "What Daniel Farke wanted to make clear to Leeds players after dropped points vs Crystal Palace",
+      "source": "MOT Leeds News",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOejN2YkxxN3RfRDk1bXdPNTBST1Job2lwWFVfOEg2a2lSMVdMaHdNb2RHNVZfcEdLQU5FWXdYeUhxZzR1cXcwZWkydWpUWi1QN2dpRUJlQ3pWTFN4S1F3WWFzLVVUS1huOXdaYldmMnBiOVZVTlRzc2lDX3RyYThQTFgyQU5WdVlWMTFZUnJ1SUhfQmlxNnNGd3E3bGxRSUNrQk9iNlZVR094TnhiSkg0cm1YMnF4NWxRbDgzQ1VJX0hDM00?oc=5",
+      "pubDate": "Mon, 21 Sep 2026 18:10:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Leeds United “man mountain” slammed for bizarre Sunday flashpoint v Crystal Palace",
+      "source": "LeedsAllOver",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSzg3dEltVGhtWUZJRUFzYkhwbUZlUUpVcGZBdEtycFlodDNaU0FMMk9kR0J1SXhSNlAzZVFYdWJfV2VGZUs0OHJGUnVZckFxR2s0NlBIX2ZaWHZCUVFWcGJfZnlHZ0VERUo1ZkhlUVZvdlEyall3UzB4YV93RFRfckgzaVRIZUxhY3JwOU03ZkhvYlB4ekNiZGE4cTdjbmFRdDljcmc2NHR6OEsxTjlR?oc=5",
+      "pubDate": "Mon, 21 Sep 2026 17:48:48 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Crystal Palace FC land-grab forces nursery and cricket club to close",
+      "source": "The Times",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbHE4blhLWW1hN183MjRlR1lQWFNVZ3RWUFVBU1pfTERxYjJhOTNUdmhmQXVEbFppck1jeHRLd3UzN0h5Zk5iVE8wUVlocDl1SDFjcDdFSXQ0M2Z2c0hqS3NxRnlNT3Z3eUxwVzJBU0hsVzYtUU5CbXJaVDNqcVFOQk5oeVl5OGpYLTVNdjZjb0lMaUtyVFV2UTJDbjhhbEk?oc=5",
+      "pubDate": "Mon, 21 Sep 2026 13:45:47 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Crystal Palace F.C.",
+      "source": "Crystal Palace F.C.",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeEVVcUpXX05wZ3B3TkpyRTRwYjM5WmpLNWdiZzZ1Y0ZSbWpSR0NkQUw5dmx3SVdaUW9ELU10ei1QNEhzSEVhd2F0WnhWZ0QwQWFfRkd0RHBCdmJmMEZ2MWp0WHU0UHpIQWVWSVdHNVdXbzBsMnpVejRBeE1NSndWWFFTMjZDdEFVN1BNZWk2LTlEZVlMd2lkR2oyU0YxeGZReEtEdQ?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 16:36:44 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Chelsea Are Keen On Recruiting This Crystal Palace Midfielder: Good Fit For Alonso?",
+      "source": "The 4th Official",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVGxGMzBwbHVSVU5CQ2trZFE2bEhUM2ZJYVBJQzVFLW5EbWZkeUQyUnBrRHhDQzIwMU80c21Uck03MFpubEozOV95UDV6SzhoODdFYTlQcm5CUHpySDNNSHdrWVFpV245V1psMG5UYy0wVGczd01PQXh3dmxIR2JndEZLNE5JSjBOa29FZjg0UXV4YzM5OWRxRFVhNkpfTWhNLVJjZ1NySzRyS3FTWGR6YUVtNFNYMTB4?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 19:45:20 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Crystal Palace / Liverpool - Premier League - Selhurst Park, London",
+      "source": "Liverpool FC",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZUxDNmdyUzdOa1Jhal9PaFhneUhpVGVDdVQyUEFOTlhhVExIVExTYkVLTUhHcWxCYjZ3cEd1MlhTMWZ6MnhXcXBnWU4tU2lNZndWV3dzQmlOV1drQllqcnY4WENwSVJhd2Z2dU45c1NrVHB2ZkxjUmVWMXoyVDRmbTRudW0wRzdRLUpLS0FoeENVbzlOOGtObXdhLTlSbFl3bFN0TmdHaw?oc=5",
+      "pubDate": "Mon, 21 Sep 2026 14:31:13 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Crystal Palace vs. Tottenham Hotspur Women: match thread and how to watch",
+      "source": "Cartilage Free Captain",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNaG1sNG5sZVZ0RFU2dTM5WUo5TjUxeGU2U2hRLWdlWHc5TjVzdnVYRFRBUUZyNDFTelVvdlFJaENRd1lqd2J1TTEtLU1ib0ZEb0loWGZRdWUyTUxVWVFQVVNJS1U4MjZSRjFaeHVhb1Q1ODZVd0dlUmpvelFKcWk3QWtyTDRlal9fMW1vZXlCVG5OYUNsQWRpWFM4ZlRpcktHSGxYWUhIdXpIMkFJY1VhOEhXTkJLZldraGxFMEd4VTYyTU5IUU0zYVVmNlpEM1RaMEZMXy05ZGh3QWc?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 11:00:00 GMT",
+      "category": "match"
     },
     {
       "title": "Report & Highlights: Palace and Leeds in stalemate at Elland Road",
@@ -31,6 +87,13 @@
       "category": "match"
     },
     {
+      "title": "Leeds United and Crystal Palace clash ends in stalemate - Leeds United | Official Website",
+      "source": "Leeds United | Official Website - Leeds United",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOVh4SlhreGF2R3AtTzVSWUdPd3p5eHR6NXdlcDBzZ1dMejAtOTVwNVRka0lxeGRERG51a015NWZVcENUM0hjc1AtUGNqSXNxUlF4cmlyQXBMc1JMSjRiSG5oZElNbTltN240TWNtNWF2SFhBd3hQWmU4X083NUtLVzJtNHRDXzVBS2xXVXZRWm9XY0RfT3c?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 18:19:36 GMT",
+      "category": "general"
+    },
+    {
       "title": "The Full 90: Leeds United v Crystal Palace",
       "source": "Crystal Palace F.C.",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNHZPNEF5c0xWOGxJNjZLYjN1WVpZbHY5VTIxSUdqNVRVbzNFZnc5ZEpJMkk4UlFKeS1aZlNVRWRQQjNKMHF1MGRZUFloZjFFN3d1c2hrMGtfd0dkZThEZ1VvWFpJbTA2Q2ZnZjhBbEh4X0t6bGhXcU9jYjYyR2g0cHBHODd6ckg0dzdUaHNIM2VBOUwweTRMUTlXTmlmVUVHaW91OEdGdVZ5dm9Pd1VR?oc=5",
@@ -38,74 +101,11 @@
       "category": "general"
     },
     {
-      "title": "Leeds United 0-0 Crystal Palace: Open up my eager eyes",
-      "source": "The Square Ball",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb1pWSmkyQ19jaWNLUkFrY0FhcG5rVzBZZmRqa0tmSDhiQmZkamhmaHJaaHdBRWdZbVphb29OQzczT2pYWWcyQnZjenpRdVNmcHJncnZ3c1VqdE10YWRCWnd4RXNxRmM3SXl0YmJrbjVJbnhDMTcxWWpnazd6NGRIaHZ2WS1EMDhIcy15bTd0aE5nOTdwVGZkZw?oc=5",
-      "pubDate": "Mon, 21 Sep 2026 07:09:28 GMT",
+      "title": "Leeds United v Crystal Palace: Key stats and talking points",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAtWHVTRHR6Wl9WTTlBeV9YWWtqUTNFWXNDbWdKOWlsM1FtRjVHMENWc292WHJ6cUphVzlGdW1QdlU3dkI5dEg5MTktMFlkZW5XWXZBclBNNllaSjRXU0F4UzZlcTVYQllISDdr?oc=5",
+      "pubDate": "Sat, 19 Sep 2026 12:37:12 GMT",
       "category": "general"
-    },
-    {
-      "title": "Sage: We want to continue with this mindset",
-      "source": "Crystal Palace F.C.",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSUdLanZxOFB3M3V1ck10dGJPWDZWbEk0Zlc4eW5TbTZubEltWEpMeHFESWFZVkk4d1hZVXpIb2xLaDVKUExaZ3hQN1M0TlFvZ0tUa2c0d3RSWDd4VGZIdnNaN25mTG5jZU4weUphQ0FZUkcxVktaTm5vX0F4dzBxUHFoNzVFRE9ETGQ2X3JYQ3I4WmRtRVp3UmI1Y2U?oc=5",
-      "pubDate": "Sun, 20 Sep 2026 15:52:51 GMT",
-      "category": "general"
-    },
-    {
-      "title": "U18 Highlights: Crystal Palace 3-3 Fulham",
-      "source": "Crystal Palace F.C.",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNaTduMi00WGtyNi1sWk5Nck11S01mY19LVGdSNTFwZ1lQUWVWTjFRclNIdGdXVl9pdTduZWthb0NQV0FseUo0bWN4bHVySkY1TkhQOXNZMmpMUkhTTWRMOTZtZlhJQ0hhUDJNaGwxX3RidnNDWmRVdnR5ZFJsZG9pX3dCWUh5TkNnckZxMUJRTDRpUVRNcG51Rk44bXpuRGZvbXVfNk1Ba1RCQVNvcnc?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 17:18:49 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Match Action: Crystal Palace 4-0 Lech Poznań",
-      "source": "Crystal Palace F.C.",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNN3NnRlFqOC12QjduZmJqaXh3N2lGTEtla2VlTmNpb19SczdYTzFoUk1LeUFoUUtwMkJnUnFNVEN2czVHM2YxUXpMRzJRUnNDSkpqR2U3c1ZKNGQxNjBHUU9JLTZXcHo2Yk50ZW93VjRTeGJldTlKd2l0YndXRHdTRnB1QjFBN0R0b3FTR1lFSnBBSzZHV1VsMndvT1V2T2tVNTY3M0VxT291OEY4d0IyNWlB?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 15:39:06 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Khalaili: We can be proud of ourselves",
-      "source": "Crystal Palace F.C.",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9kYW1odzBJM1NBMGp2cHVhVmtab2lOUmxiU2RCNGtSY2NEcTJhekhMQzJ0dmhDYTNkY0JienJhbElVSEJjNmRaNGRWSnFjN3BvcHdPTG0wUXZEQlZlX2dlYWhDMXk1MTI3a3BTUi1zeHhuTnU4YzUyRnJFZFU?oc=5",
-      "pubDate": "Sun, 20 Sep 2026 20:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Report & Highlights: Eagles ease past Poznan in excellent Europa debut",
-      "source": "Crystal Palace F.C.",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPay11WUNsNGdiSmdzTkd4dVNsMTlER3JKVnQwNmVWa2dvLWl2OWhVQXVZMEZtelp2TXF0Uk10eW5Rc0Y3a0ZJZVpvSVZzZXpNY1d5anptWHdDYnZvZlVwYkNyNDZxZ2hwWmlWdUxvYm9jQkx4RVBqSmxMaWk0QkhCZ0dwSGw4OUdDT2VCcm9lX0ozQnBTUUZqb0RuREd6eFBzaFRiYmlJV2pVekZx?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 20:52:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Wharton: It’s a strong point & clean sheet",
-      "source": "Crystal Palace F.C.",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUW5fRlV4QUpSNVFYWXoyZFFrbGM5NVFMQmhFVWsxNUwyUF9CbE1FRUUyR3NlM0ZsZTNpSzBablBQM0NWT2xoQ3BoSm5MYUpDZlRzVkN0amZGQlJhNVE3LWtyMmphMXgyOXc5NmZlOFVScFp0UGo0MU5nNTFYTmpKenRPdmk?oc=5",
-      "pubDate": "Sun, 20 Sep 2026 17:06:29 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Crystal Palace",
-      "source": "Manchester United Website",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbWJFakR3X2N3WlM5WmtWcHlOVUUyd1VQYmZTa1NhWmJDUlk4TUJlUWJ1UEtfMmdfd2pPaUxQSUUtbGJaS2lGdjZ2M1pRaTNtUVliOGN0b1p3ZUhMMEhZdUxYVjlJcHVNUmkzbE1RbjMtNlI0WTE1ejFrRXZyZ2t0amdkZ05uMVU1b1p4VHdaSXZvVlJsQmlDN0pwTlBGX3Axc2NzTzQ5NFBSUVk?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 23:26:56 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Crystal Palace 4-0 Lech Poznan: Eagles breeze past Polish champions to record victory on first Europa League outing",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOMnppSTh0UndfMTI1LW1oVnNiYU1adzNUTEphRG43b0hCS29VRm9uN1VWU3NuWHdmZEZxU1FTS005OHJ4QVA0eHRQSUFOQno5a3VwekxMdzdGVHo5Znp0Mkw2Q3BibVE0Vjd1WFFLVTVrSXg5MHB2UFdFblA4VkwtZWxLV01XSDNKeWVHdUVwd3dBY2k2azM2RURfYnpxUHZRSndvZDBYTkpTV2VDMk9DTTNld1VzX0JDdWJwd24xaHlXck5KR1ZSdmFoN3hZYWp5TUJWWG4taWhwVWZtRGVRWGpoWU0xOXFjUXBmRWpJWlF4QjRkOFJNZDVVU1dJQQ?oc=5",
-      "pubDate": "Thu, 17 Sep 2026 07:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "What TV channel is Leeds vs Crystal Palace on and is there a live stream?",
-      "source": "The Sun",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOei01T2JuY2QxV183cF9DUGJqZFI2X1JfcHdWa0xqU19BTzRpXzRoSVhxclRvam5JblIwdGMwWW5iTkZ1Y3ZyRy11OGRFeWdMWGhaczE3MjdEZXpXeDFmd0UzUVE4aWl6VEQ0NVUtc0Y4a201dV9fWjMzWmJSTG1EWlVodjItOS1VRG4wbjdzVG4?oc=5",
-      "pubDate": "Sun, 20 Sep 2026 08:31:15 GMT",
-      "category": "match"
     }
   ],
   "reddit": []
