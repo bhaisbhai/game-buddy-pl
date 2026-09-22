@@ -1,7 +1,42 @@
 {
   "slug": "leicester",
-  "updated": "2026-09-22T10:37:43.992Z",
+  "updated": "2026-09-22T20:43:13.493Z",
   "articles": [
+    {
+      "title": "Leicester City vs Fulham U21: EFL Trophy stats & head-to-head",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBaZmttbnhlZ25iMHpTcVl5d3REN2FtZnNEUEk0OGtLV2xDOC1ZMlJ6U09RQjhwYTRfRlZ2SFpaNjZkcW4ybmtCdjAwdTkzWU1fU0J3ZVNjZEdnRXRoZ3RCNTlGRVN6UQ?oc=5",
+      "pubDate": "Mon, 21 Sep 2026 03:30:22 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Martin: Not A Game We’ll Take Lightly",
+      "source": "LCFC | Official Website",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM0JPUWpVWFVxVWl1S0JwZnBTS1c3QW1VeFVGUzRxakl0WlZ5NDRCUHFsR3hBcnJLZ1lUVnhGTG55ODlpSy1KQlVPMC1pUUR2V294Qm5USU5MSkp6SlZPRU1wOFVkNXZqNFFsMjBINFduYUN4NHlxelY3Ujd1bEJhbG5SeHRsY25IcFFsQnVxVURNckNjTGNfVkxsQnJmNTdUSXJEQVFxc25ZN05VTTBORA?oc=5",
+      "pubDate": "Tue, 22 Sep 2026 09:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "How to watch today's Leicester City vs Fulham Academy EFL Trophy game: Live stream, TV channel, and start time",
+      "source": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNUUpQbFBJWU1wcG5oUmpRQ1RVcWRsQ3F3ZDlrdlBMTklrUWlvZTU5Y3R4czNfeFJZUmp2cTVNZVBWQlZIWnRXVnBya24wb0VMU3IyWVU3SlR2ZndZRkp2X28zWWlkTmp1M3h4MFVwZlNqSEhsLVUtUENmdVNoMkR5V3VYaDdoSmQyaWczd2pKQTNiUWVtMW1ZNWdYb0lRNWU0NG5RZVpmYzRsSjBUcmhGM3NUV2xKc21jVW43NA?oc=5",
+      "pubDate": "Tue, 22 Sep 2026 06:10:03 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Leicester City vs Fulham U21s live as Russell Martin begins Jersey Mike's Trophy campaign",
+      "source": "Leicester Mercury",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNejZDbjFMWmZHcGFodHQ3WVR4bzVRMDBONEExdjdtSzQzQzFzeVRQLUVwamxtZFRidnVkNXRCSHo3YzNzUURONkwtN2dSaHFENUkySERjaW1RMVFDV1BmalhveHE1N0N5aUE0UGg3RWZuN0VmbWpFSUY1MExpeEJRc1N6RzlSZnItUmkxb21Sd0ppR0g3NHhzUm5MVngtZUIwMWpXNdIBqgFBVV95cUxOMXEyVUZvS0FGNV8zeGhWVEJEdTBWMXotdU5QTWVicERmOVVhYUo2LXhlTVlldWFnYUpWYVljcS1HVXR1UTFEUHV6MDNuOXRLMzR3bzJWMWM2WjRmMFoweGFOdFJtN1NubU5hUC0yWkRQSWpFaEUxZ1VRYXR3Ym5HU3h3NmlscGpiWmdsUkktR0g0NDZzRk53eWhUbWVXanpGTFYxQ1pnQjc3Zw?oc=5",
+      "pubDate": "Tue, 22 Sep 2026 16:51:04 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Leicester City vs Fulham U21s: Latest Team News and Predicted Lineups",
+      "source": "Last Word On Sports",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQM2dSWkx3YWZTeGNITWVTakFvdGVsQU8yNVprdkxUNC1IS2V5QVU1dXZGclFZQzFGVzJhdmVfSnM4ZF9MUXB0QVN6YU9QY1ZFc1pDa0Y1UjJ3SzJkZXpMVmJESW0wTmQ1aXBCY3NMNFFJNkFIMTc5NllMLWdOMU5jekpmSE5JZ0lySmc?oc=5",
+      "pubDate": "Tue, 22 Sep 2026 08:46:24 GMT",
+      "category": "match"
+    },
     {
       "title": "New Leicester City signing drafted in as Man United withdrawal sparks late call",
       "source": "Leicester Mercury",
@@ -10,66 +45,24 @@
       "category": "transfer"
     },
     {
-      "title": "Barnsley 1-1 Leicester City | League One highlights",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSDVkY1NhRW05WkRhVW1nZ0MtTW90X2N5MzJyQ3Z6Z2c2aTFRTGI1eHBVVGZFbl9qZWlHQWxWSWNDMXJkZDF5SFBQZzZUb0JrYkVpTlg3SWo3QWlHZGZUckthdzdqOV9jQWpBeWUyUllNRFV2cEh3aHN3dVEzSndEM2hVNi1vUkMzM1Q0VUZIa2RLRUtSUkw2b3l5WU1ZZmRubi1sODR4N1c?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 13:38:01 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Why Sacking Claudio Ranieri Was a Mistake and a Disaster for Leicester City - tcf",
-      "source": "tcf - filbert way",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMlFOT29ZWWxIQ3NyXzQ5UjZFQUd3UXd0TGIzUDZPazlxT0VKUUlfTk9zX3pMVVBRZGNBU3RwSW83UE9FRUNyTDFQTEZkMW1nOUozdXN4alNQS2tUdG9ocXRLTVBUWk10eWR0dy1Fd0RUWXRESC14b3BoSDNoVV85VFZDX2ZwSlJoa1R4YmtSaWxrWFozVV80SmpUb1VXVDhEd2tZZ1NyQ3l4enEz?oc=5",
-      "pubDate": "Mon, 21 Sep 2026 16:55:32 GMT",
-      "category": "general"
-    },
-    {
       "title": "Barnsley v Leicester City: League One stats & head-to-head",
       "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1XQm80dEV5VE1ieGdLZlotZnlTTVk5dEZwQW1iTDRoSFlWei1EU21xUkMtTm8teVFSeE0yeDRfNlY2RS1OSlY2ZjFBazJzTTZXTHBzeWlRZTVnejJpT2RLR2J3dw?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 07:00:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAwYXNQMzFBS1pSd1RyZDVPc0tmTGRnbkpWVDVYa3VKOWNXZkRmZm5aMjViZmRGeFRHQTZmNGgzNXcwNXhsQXRxVG9CX0dUVWpOc0Y2TXhiOHhtOHo5TWlmbEkzYWlPZw?oc=5",
+      "pubDate": "Sat, 19 Sep 2026 15:58:00 GMT",
       "category": "general"
     },
     {
-      "title": "Martin Disappointed With Barnsley Draw",
-      "source": "lcfc.com",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMlZJaHprOVAzcS15NWJSRDU2cnlXZ3YtY3JLSTdFMW5ha1hROWdldkNheG9XT0JhX2M0eWoxekhnbDZpZlh3WDRNeS1VQjdZU21LZzZvSzlhclhKSjlZa201NVQ2UmFudm9admxRQmhqLW42dFJtek03U0t1Rm82QVBxVXdRcHRxLW5qdUJQLUhiWkZHemEtNmtlV0E1V2Z3cV9CNUlYLUo0TlJ5OWc?oc=5",
-      "pubDate": "Sun, 20 Sep 2026 16:00:56 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Barnsley FC player ratings: 8/10 for 'dangerous' star and two 4/10s in draw with Leicester City",
-      "source": "Yorkshire Post",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPamg5U0ZJTnZGbDVRaUV4WGhienhBblhxblJhRFY3NHhKOXRwU3NwZFpSWUxJaUNhd0xFamJCU0xzU0VYWk50ZEJIejUyNUFkWl8wM3JjMlQ5WWxidS1zQ2Z1S2Q2U2xPR3RGakdkYVo5azRza1kyaElmQXlBZ08zOGdtUWdkZmVzTHhnaWdZM2VjUXB6Vk1QdW1QU2g?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 13:30:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Ex-Town goalkeeper joins League One side - linking up with two promotion heroes!",
-      "source": "Ipswich Star",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeUJ4VDdGajN2TkxwSE1TckhaNjlSZi1wTko3MTl2Z0tqYzJ1YXl5bTUzREh1NlZjMUVpNG5OUS01UEpudkY0MkVxT05DSHd5bXZucjVUc2NVNE1MbjBvQWVabmhhQjhIVm5xaU5MUGZZY3BGd283UkcxVU5sN29XRk1hc1RiaW4xRUNWWGgxdEQ1SWE4UC1RMXRpYTNZSWFOQ3k4?oc=5",
-      "pubDate": "Mon, 21 Sep 2026 14:00:00 GMT",
+      "title": "Leicester 6-1 Fulham U21s | Jersey Mike's Trophy highlights",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMENsT3ctX0lKcVc0c0F4X2RPVkVXRkxfeWlLeXFTYTRwM3h3UXd2b0FYcF9mRkoxbTcxbUVNUU9hcVk0MzNqMjhmVEdTM2hOa1h0Q1V5cmFuanQ0Rm9IclRudHJGQVh3ZncxSTlsX1Z2dUZ3ajZvTVVvcUpnZWx0dU5pZnBZampCUG9Ra3FWSnAxQnEtdHhxbjhmZXFwZDA0cXJTcHpUN1Uwdw?oc=5",
+      "pubDate": "Tue, 22 Sep 2026 20:18:56 GMT",
       "category": "general"
     },
     {
-      "title": "Ex-Prem ace, 30, still without a club five years after winning title",
-      "source": "The Sun",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRGJUbTExTTdHMVdieWkxU0RMNW5wNFY0WEZvTUsxODlndjlmOWx6bW43SzY3LThRaml3YUwtMTE2WUdBSzVnZm1SVnFHU2M4dXlLekpRMm8xUk1oaV9oa2NUdnRhWTNLdVN5Z0RtTUk2YklEVU80ZUFUWDdJSDhUelp3dE9PRENpTEt3TFUyLXlvN05DZXdKS3FjMA?oc=5",
-      "pubDate": "Mon, 21 Sep 2026 10:10:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Leicester City live score, schedule & player stats",
-      "source": "Sofascore",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02UDY1bWpXYy1iNUZVd1VZSU53aWJhSTFWOWRPMGlYRG1SUk50MmdReFA5eUsxM2Nld1lub2dqcF9iZDZTbzJWSGxXVnN3SFZxX0lVeEpPN0NNVDdxODcxT2k3eXo3WkdE?oc=5",
-      "pubDate": "Wed, 05 Nov 2025 14:40:15 GMT",
-      "category": "general"
-    },
-    {
-      "title": "LEICESTER CITY 0 TOWN 1",
-      "source": "Ipswich Town FC",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5TWXBFMEx3aTBZNXA2YXkwUUczcGotb2gyMXVuUllUVmxkcXVoQXZzQ2xBQ2xHdmNJMnpCWS0zaVBuVDZkY3c0aS1hanNhZ0Z5alBGVDZNODdKSzJ2dVRVMERRUV9HM1RtZEVybVRkUHRmNVdmdkZ4QVFn?oc=5",
-      "pubDate": "Sun, 20 Sep 2026 16:20:00 GMT",
+      "title": "Explained: Why Leicester City has been put up for sale for £224m",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNk4zYjJaVnQ4aVZycTlOSmVkZGhoa1pZQjdUdERFS2dvZ2RmVnA0SUtJb1VHZm9lTXdIUkxXQW1PZWI1bkZhZW83RzZrQnhwY19oejNJOE9wbi1oclhkam13aGZyS0xWQUw1emxLVDQzRVltVGViSGNNV25uX0pwazNDUnRiT2d3NU1mVUxEU0VHdmNmYi1RV19PYU9MS1NHYS03cDY0ajJndHFUWUs4T0o4NmQ?oc=5",
+      "pubDate": "Thu, 13 Aug 2026 07:00:00 GMT",
       "category": "general"
     },
     {
@@ -80,18 +73,25 @@
       "category": "general"
     },
     {
-      "title": "Russell Martin tunnel storm signals disaster even worse than his 123-day Rangers tenure",
-      "source": "rangersnews.uk",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQa09FWDVpc2hIMjNvVWNiSklvQlpyZ3U4RmdyMkowTEltbkJQZHVLaVBvSjZvRlVVelhIR2hPY3RLVlMwWXFndF9UVkxULTlWaDFLZ1NxSEpiUVllaGlmY2x1d21WSDFjTUNqSnlpY09NUlRsRjJldXItOXpRMGxZZm16SDVfblhKdVU2dkV0cW8wM3RVVEU4QUFYZGV1cUdLSEdsWWh3ZFdMbE9yUnB5bFVLRzc3TFh6QWhVcg?oc=5",
-      "pubDate": "Sun, 20 Sep 2026 08:44:40 GMT",
+      "title": "Stadium Map & Prices",
+      "source": "LCFC | Official Website",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtRmIzOFZlLTFsZFNyZ2I0bnJXUE1EVTYtRHZ5VjZqazdMMEpSUFMyN0hiVHlGLVl3TVg5LVhqeGloVDBaWGFoNXB0aDZYOE1Fc0d4S2lTclVGOFhqNzVBRkl1VkRpNm5m?oc=5",
+      "pubDate": "Tue, 22 Sep 2026 14:00:31 GMT",
       "category": "general"
     },
     {
-      "title": "Stadium Map & Prices",
-      "source": "lcfc.com",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtRmIzOFZlLTFsZFNyZ2I0bnJXUE1EVTYtRHZ5VjZqazdMMEpSUFMyN0hiVHlGLVl3TVg5LVhqeGloVDBaWGFoNXB0aDZYOE1Fc0d4S2lTclVGOFhqNzVBRkl1VkRpNm5m?oc=5",
-      "pubDate": "Mon, 21 Sep 2026 10:50:29 GMT",
+      "title": "Sports News, Transfers, Scores | Watch Live Sport",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVzVBY1dUVEJNSFhkZGR0UWQwX0pQdzRBVTJjNzhpS0FYcUVQV3haY1I1NTNMVDJjaDV3T1JTZDdYWGJYcHlqX2g5Q3dIWWZHY0lXWGVDTlp6RDJoa28zTEFrOHFrYUp5NnRfem1NLVQ4dnFISUluOENNaDZtRkNaX2tLd0U1M3JHNWtMM1VucmFtQU9kbmc2Tm1OSUZUblZ0OVp3?oc=5",
+      "pubDate": "Tue, 22 Sep 2026 17:45:22 GMT",
       "category": "general"
+    },
+    {
+      "title": "5000/1 Anniversary Match To Support Local Causes",
+      "source": "LCFC | Official Website",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMmktUGZ4YndIS0kxcThjYkJOMExJZEZ4VWppSjFGaWpjeDB1MnlwOTN2bWVRbUgzRnJTYmNBa3lDanBxN0ZrUWJ3bzV6TkpqbzBZRVE0WGxIcmhLdXNZdXpGYm9pdDdFT05WWlRxLXNwbHZZbk5yaTM0cWZfTWJGT296UTVQanpTWFdmTTFKeUxLYXpyUEw2bGhndmVXd1RsLU9pajdCbWc5eTRROXc3dWUzSXpORExPLVlIRTQyQm5SdGJk?oc=5",
+      "pubDate": "Tue, 22 Sep 2026 04:07:05 GMT",
+      "category": "match"
     },
     {
       "title": "Leicester City, the Blue and Whites’ first pre-season rival",
@@ -101,11 +101,11 @@
       "category": "general"
     },
     {
-      "title": "U21: Leicester preview",
-      "source": "Fulham FC",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzSDM3QlJxdWc3UlpqNUR0WWhFS1VtcExtNGFXb0NGUmFiUFBDby1KOTAyYk1TaVE4TWRYTmdTVHlqZk8ydFlpSWhFVDg2c0FmMGpWTjlmNVB0bmJSM0FOam9RLWhPQ095Yk1BWVMxOTJKWXhQdGtzbEpn?oc=5",
-      "pubDate": "Tue, 22 Sep 2026 09:14:00 GMT",
-      "category": "match"
+      "title": "Why Leicester City shouldn’t even think about sacking Russell Martin",
+      "source": "leicestercity.news",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbVl4bWxXZG9udXphYi1UVjRqaVFiNU41b0NsYUNtZWJmemZPbG5kSy00WWlBZ1YzTTVMSDJkdnRfb1F4THgwaTlKcUlzNWNVSnYwMklMWWRZcnBPVGhBcnQyRnRoQ1pabE5uSHBEa0F6bDdnTWRSc2plMFVQcWF5NzZZa0l2VWI4TTRheUdIRlZadGg0SmhfOXIxb2JzcXJSSW9xOEpTY3FjY2c?oc=5",
+      "pubDate": "Tue, 22 Sep 2026 08:54:24 GMT",
+      "category": "general"
     }
   ],
   "reddit": []
