@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T08:17:39.391Z",
+  "updated": "2026-09-23T08:19:49.347Z",
   "snapshot": {
     "1": 61,
     "2": 49,
@@ -36,7 +36,7 @@
     "33": 45,
     "34": 45,
     "35": 49,
-    "36": 45,
+    "36": 44,
     "37": 45,
     "38": 40,
     "39": 40,
@@ -210,7 +210,7 @@
     "207": 44,
     "208": 62,
     "209": 59,
-    "210": 55,
+    "210": 54,
     "211": 55,
     "212": 44,
     "213": 48,
@@ -297,7 +297,7 @@
     "294": 45,
     "295": 55,
     "296": 50,
-    "297": 45,
+    "297": 44,
     "298": 45,
     "299": 45,
     "300": 44,
@@ -418,7 +418,7 @@
     "415": 58,
     "416": 50,
     "417": 49,
-    "418": 49,
+    "418": 48,
     "419": 50,
     "420": 48,
     "421": 44,
@@ -437,7 +437,7 @@
     "434": 49,
     "435": 49,
     "436": 50,
-    "437": 45,
+    "437": 44,
     "438": 44,
     "439": 70,
     "440": 53,
@@ -671,124 +671,44 @@
   },
   "changes": [
     {
-      "id": 35,
-      "web_name": "Bogarde",
+      "id": 36,
+      "web_name": "Maatsen",
       "team_name": "Aston Villa",
       "direction": "fall",
-      "old_price": 50,
-      "new_price": 49
+      "old_price": 45,
+      "new_price": 44
     },
     {
-      "id": 61,
-      "web_name": "Truffert",
-      "team_name": "Bournemouth",
+      "id": 210,
+      "web_name": "Wharton",
+      "team_name": "Crystal Palace",
       "direction": "fall",
       "old_price": 55,
       "new_price": 54
     },
     {
-      "id": 94,
-      "web_name": "Schade",
-      "team_name": "Brentford",
-      "direction": "rise",
-      "old_price": 61,
-      "new_price": 62
-    },
-    {
-      "id": 144,
-      "web_name": "Gusto",
-      "team_name": "Chelsea",
-      "direction": "fall",
-      "old_price": 50,
-      "new_price": 49
-    },
-    {
-      "id": 165,
-      "web_name": "João Pedro",
-      "team_name": "Chelsea",
-      "direction": "fall",
-      "old_price": 78,
-      "new_price": 77
-    },
-    {
-      "id": 186,
-      "web_name": "Mason-Clark",
-      "team_name": "Coventry City",
-      "direction": "fall",
-      "old_price": 54,
-      "new_price": 53
-    },
-    {
-      "id": 195,
-      "web_name": "Simms",
-      "team_name": "Coventry City",
-      "direction": "fall",
-      "old_price": 50,
-      "new_price": 49
-    },
-    {
-      "id": 213,
-      "web_name": "Lerma",
-      "team_name": "Crystal Palace",
-      "direction": "fall",
-      "old_price": 49,
-      "new_price": 48
-    },
-    {
-      "id": 218,
-      "web_name": "Doucouré",
-      "team_name": "Crystal Palace",
-      "direction": "fall",
-      "old_price": 49,
-      "new_price": 48
-    },
-    {
-      "id": 323,
-      "web_name": "McAteer",
-      "team_name": "Ipswich Town",
+      "id": 297,
+      "web_name": "Gyabi",
+      "team_name": "Hull City",
       "direction": "fall",
       "old_price": 45,
       "new_price": 44
     },
     {
-      "id": 387,
-      "web_name": "O'Reilly",
-      "team_name": "Man City",
-      "direction": "fall",
-      "old_price": 64,
-      "new_price": 63
-    },
-    {
-      "id": 426,
-      "web_name": "B.Fernandes",
+      "id": 418,
+      "web_name": "Maguire",
       "team_name": "Man Utd",
       "direction": "fall",
-      "old_price": 120,
-      "new_price": 119
+      "old_price": 49,
+      "new_price": 48
     },
     {
-      "id": 449,
-      "web_name": "Hall",
-      "team_name": "Newcastle",
-      "direction": "rise",
-      "old_price": 52,
-      "new_price": 53
-    },
-    {
-      "id": 473,
-      "web_name": "Aina",
-      "team_name": "Nott'm Forest",
+      "id": 437,
+      "web_name": "Bendito Mantato",
+      "team_name": "Man Utd",
       "direction": "fall",
       "old_price": 45,
       "new_price": 44
-    },
-    {
-      "id": 520,
-      "web_name": "Bergvall",
-      "team_name": "Spurs",
-      "direction": "fall",
-      "old_price": 54,
-      "new_price": 53
     }
   ]
 }
