@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T08:19:49.347Z",
+  "updated": "2026-09-24T08:11:52.064Z",
   "snapshot": {
     "1": 61,
     "2": 49,
@@ -274,7 +274,7 @@
     "271": 54,
     "272": 45,
     "273": 40,
-    "274": 45,
+    "274": 44,
     "275": 40,
     "276": 40,
     "277": 41,
@@ -671,41 +671,9 @@
   },
   "changes": [
     {
-      "id": 36,
-      "web_name": "Maatsen",
-      "team_name": "Aston Villa",
-      "direction": "fall",
-      "old_price": 45,
-      "new_price": 44
-    },
-    {
-      "id": 210,
-      "web_name": "Wharton",
-      "team_name": "Crystal Palace",
-      "direction": "fall",
-      "old_price": 55,
-      "new_price": 54
-    },
-    {
-      "id": 297,
-      "web_name": "Gyabi",
+      "id": 274,
+      "web_name": "Butland",
       "team_name": "Hull City",
-      "direction": "fall",
-      "old_price": 45,
-      "new_price": 44
-    },
-    {
-      "id": 418,
-      "web_name": "Maguire",
-      "team_name": "Man Utd",
-      "direction": "fall",
-      "old_price": 49,
-      "new_price": 48
-    },
-    {
-      "id": 437,
-      "web_name": "Bendito Mantato",
-      "team_name": "Man Utd",
       "direction": "fall",
       "old_price": 45,
       "new_price": 44
