@@ -1,14 +1,7 @@
 {
   "slug": "crystal-palace",
-  "updated": "2026-09-24T10:47:26.499Z",
+  "updated": "2026-09-24T21:00:02.170Z",
   "articles": [
-    {
-      "title": "Chelsea Are Locked In A Three-Way Battle For This Crystal Palace Left-Back: Should Alonso Go For Him?",
-      "source": "The 4th Official",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOR3ZFdGRPejlTSzFoR0o5NjZlRHZvM2k2WGdnQnVSSWdsYW16ekxyNHJLbWVpekNFM2l3TG5VbVBZT2xuYXhjN0lrSHUzV2NtYTQ0R3RlSTZjc0h6VzFnN0NnbHB3M1B6ZzhFRGxhcGNVcWZBQVJwLWhfTURRREs3UVpuSS10MUtrcUhrOWVGVWl1ZnpyVVhYY1c2NENJYlAwWjd3R2s5TGZzcDU0U2hZ?oc=5",
-      "pubDate": "Tue, 22 Sep 2026 19:45:10 GMT",
-      "category": "general"
-    },
     {
       "title": "Carabao Cup: Fulham v Crystal Palace",
       "source": "Fulham FC",
@@ -17,10 +10,17 @@
       "category": "general"
     },
     {
+      "title": "Chelsea Are Locked In A Three-Way Battle For This Crystal Palace Left-Back: Should Alonso Go For Him?",
+      "source": "the4thofficial.net",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOR3ZFdGRPejlTSzFoR0o5NjZlRHZvM2k2WGdnQnVSSWdsYW16ekxyNHJLbWVpekNFM2l3TG5VbVBZT2xuYXhjN0lrSHUzV2NtYTQ0R3RlSTZjc0h6VzFnN0NnbHB3M1B6ZzhFRGxhcGNVcWZBQVJwLWhfTURRREs3UVpuSS10MUtrcUhrOWVGVWl1ZnpyVVhYY1c2NENJYlAwWjd3R2s5TGZzcDU0U2hZ?oc=5",
+      "pubDate": "Tue, 22 Sep 2026 19:45:10 GMT",
+      "category": "general"
+    },
+    {
       "title": "Jersey Mike's Trophy Report | Argyle 5-1 Crystal Palace Under-21s",
       "source": "pafc.co.uk",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSjVVLUJ3ejNINTJKMWZrVDRfWGdST3NXdmVXVjY0UWtmSjB6aVh3U2pBRWVNME9uRng1ZjVLWTYzY1FGa2VUWHRqVm11Z0pTUTh3OURzWUdwZXhvQm12bjFmcmtPNGpoSDhqdDcyRldKWjdEZERIRUp3VkV0c1VQa0luZ2thSEhNNjJiQ0E2aThfU3VI?oc=5",
-      "pubDate": "Wed, 23 Sep 2026 17:26:56 GMT",
+      "pubDate": "Tue, 22 Sep 2026 20:27:18 GMT",
       "category": "match"
     },
     {
@@ -31,17 +31,24 @@
       "category": "match"
     },
     {
+      "title": "Crystal Palace Daily News Roundup",
+      "source": "LiveScore",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbDhXSExDcUNoeUp2Rk5LSF9aTDVEalpnb3JteWMxSnJOOUJSeDhWV2I5bXEzQlp0b254YllqOXg3OWQwbldRZnZ6cE5FTkZLZ0ZlcE11Wk1ZaGphaDNTaXRQOFFCOGI0cGRKbVZPNnpVeUM2UHppVFhzVGE2WTZoRWRYaWdHcjlQZjNtNmtJRDdRLUJGUV9temswTEE1MVk3MDloMUNEYUNiZnlJM3RzcG9pZw?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 14:57:31 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Jersey Mike's Trophy: Xavier Amaechi scores a BELTER for Plymouth against Crystal Palace!",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNb01ONEJVWTlZTnhuWTYxYWpoLUZxOF8yQk55bFNrOTZGTERlaFNmU1RyZjBtSDB5SGNtekJqdFRQLVBwcno0TEhSUmdORjZZOHVESGJ6cUlYQnRzNUpYcVZGeWtvTHFodW9FTDZIR09rdUpGY0haZy1jX3ZFNTUzeWN3T2VnNUdXdWl3Nm9yLWczdFNOc256S196OU43Z1RBZ3lfWUlWYnhQYmFxcUx1Ync1RDNtVnM3YkJCMmxRWXhYWExaNkpOUFBta1RpQm1Jb1E?oc=5",
+      "pubDate": "Tue, 22 Sep 2026 18:49:18 GMT",
+      "category": "general"
+    },
+    {
       "title": "Man United star expected to leave, 27-year-old identified as replacement",
       "source": "CaughtOffside",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTjlvRmd4czhIZmNlMHh4LTNBMXdVVndVdzZpdVJRZXBzV041YWpjTUstRFlaQ0cySG1qbzBfY3ZCXzV4a2VtQ3JzWlBQWmNrU1EyQXNHTlUyMmRuSUJ5X3lVeThfUzFfS08teThBNU9wbmR5aFgyM21Hdm03VktQNE5PMFhMN0VaRlBzWEhKU1nSAZYBQVVfeXFMTlJESE1JazdEYXg1enBQZFBoQVBBcW9sTUxxelBQTlhfMDNnNndtR2FuTVlyV0NNOWJoZXA3T3BtS2F4bEM3SXBpdXczS2NfcWpNcGRZMGxGZ2JpUUJEZTVGT3BUYzI5RXRiRS1pWTBiaS1rVFBRd19vUlA3eTUwRGU3eG1DWXVTM09FeWRWM09zS215aTZB?oc=5",
       "pubDate": "Thu, 24 Sep 2026 05:20:54 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Pompey boss' warning over ex-Birmingham man after nightmare time at Fratton Park",
-      "source": "portsmouth.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQlJwekZVV2hrYllxdi03bzFmZUdXOWluQldTZ01JTEhYSzVLdm43dUozODc2azNMYzczVjY0NUN4eVZnMloteU80Tmp0Z1VreWhVcDk0Uk9uSGtXck54UmlMMlpIVHNpYUVTZnJmcU5aS2VJeTl6WXcyZlByS1VlWHRSTEwtcE9mU2RqX0Y2eWNVS2FwWHNOU2JHbXZsVVJZTHRzMUJLMmU1V0dRTWlnT2xZRG1GUQ?oc=5",
-      "pubDate": "Wed, 23 Sep 2026 10:30:00 GMT",
       "category": "general"
     },
     {
@@ -50,13 +57,6 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbHE4blhLWW1hN183MjRlR1lQWFNVZ3RWUFVBU1pfTERxYjJhOTNUdmhmQXVEbFppck1jeHRLd3UzN0h5Zk5iVE8wUVlocDl1SDFjcDdFSXQ0M2Z2c0hqS3NxRnlNT3Z3eUxwVzJBU0hsVzYtUU5CbXJaVDNqcVFOQk5oeVl5OGpYLTVNdjZjb0lMaUtyVFV2UTJDbjhhbEk?oc=5",
       "pubDate": "Mon, 21 Sep 2026 13:45:47 GMT",
       "category": "general"
-    },
-    {
-      "title": "“What he’s done…” – Sky Sports pundit left stunned by rare Leeds United positive in Crystal Palace draw",
-      "source": "LeedsAllOver",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVmhSaG5YWHZnU2w2OGliZ1VpVkR1c25ZeFBvT3hreFVmQ2xXOUEyT09EbTlTbWF6NVE0bnYtci03VnRvMzJicmJfd3ZyekRmR19GOWFBdEhNNXNVZWlGVWtmcXN3RUU4bkRfSEZfM0JqNHlwZUpLMU14bGk5VnNPcmhZWkJqdmdFV1RyZUo1dU52QlRCbDJFRUg2eXBtVlcwTDZlUk1MSU9RNkJVMVVHYVBRN2RKMkU2SzBneVUyR2tDdE5sT1E?oc=5",
-      "pubDate": "Mon, 21 Sep 2026 17:37:36 GMT",
-      "category": "match"
     },
     {
       "title": "Fulham 2-3 Crystal Palace: Ben Chilwell scores on Eagles return",
@@ -73,27 +73,6 @@
       "category": "match"
     },
     {
-      "title": "Crystal Palace F.C.",
-      "source": "Crystal Palace F.C.",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbjJvOXJ0TGo5dFZiYk9aXzFCXzZ0Y0p1eVNBZ2lSV3VvSHpQa0ZaVEVGWGVacGRrTGxoUUJDYVZwaWxleklhS2V4bXZ4ZWNtMXJXT1Q0ZzNDQ25RTC1idGdDeFdKRmp5ZUM5R1dOTmc5Y0QwZUN5TGVQRkNwRUxkRk5hVWlTUFhkSFFOZWgyY0U0a0lIaWRrV0d3RUJyUF9GVVRoME5R?oc=5",
-      "pubDate": "Wed, 23 Sep 2026 22:29:14 GMT",
-      "category": "general"
-    },
-    {
-      "title": "How to get tickets for Lyon vs. Crystal Palace",
-      "source": "Football Ground Guide",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb1dfOXkyZ2k5cTJqcWo4X3ZWNERXdFFFQ3Y2dTcwVFZpOGxyZDN2VzU5WnN0UlFkRzN1WFFnVEpzVVp2XzdVVWZkNTg0LWZvaVE3MUV5ZTlxYmpOWXRVNEYta1Z0TFJPZWtOVGdkMTdTQWRleXRrUGZWY2o4Sm1sQkhFYi14Vmttck5DTl9rTjQ?oc=5",
-      "pubDate": "Thu, 24 Sep 2026 07:22:20 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Highlights - Premier League - Leeds 0-0 Crystal Palace",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5NdFg5UGFnYjFxUjA3elBuamlDd3FxaXBSemdaclE1RVNtWlVkbmpiZk1Xb2JkejZrTGY4dER0UGZwc1VodDVSTFdnTmszcldzV2VXSng0TFg4OVN3N29kUHE1MTF1N1pH?oc=5",
-      "pubDate": "Sun, 20 Sep 2026 19:00:17 GMT",
-      "category": "general"
-    },
-    {
       "title": "Report & Highlights: Palace and Leeds in stalemate at Elland Road",
       "source": "Crystal Palace F.C.",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNklMeU1yMURFa1czNk92ZEdxZzRlNEgyRGZ2SmhwUkJmWjRKLXRhbGE2a0V0cTBWOXI1dS16T2o0ZTlXd2dCY2h4d1FMcW1TenRWQlFucG16azR2d3RkRmpaZldZektNNzlrOVFkQlRPVkNSbmlIblhwLVRXZG9iVXpCNnpvQkhtWndLWnlwaVBOMkpMLUpqSzZ1TGdiQXM?oc=5",
@@ -101,11 +80,32 @@
       "category": "match"
     },
     {
-      "title": "Crystal Palace vs Watford: Women's League Cup stats & head-to-head",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBxbmlFc0lIZGQzUmVTalI1czRjUFB0WHc4MHA2UEstUkpKcEV2Tnk4N3BIbXNXVlFWNVVleHpsLWJBX3RiY2NuZlo0T045Y0ZHbmpRVUVSQXI1d2Z1dElMWmZBbw?oc=5",
-      "pubDate": "Thu, 24 Sep 2026 05:06:37 GMT",
+      "title": "How to get tickets for Lyon vs. Crystal Palace",
+      "source": "Football Ground Guide",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb1dfOXkyZ2k5cTJqcWo4X3ZWNERXdFFFQ3Y2dTcwVFZpOGxyZDN2VzU5WnN0UlFkRzN1WFFnVEpzVVp2XzdVVWZkNTg0LWZvaVE3MUV5ZTlxYmpOWXRVNEYta1Z0TFJPZWtOVGdkMTdTQWRleXRrUGZWY2o4Sm1sQkhFYi14Vmttck5DTl9rTjQ?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 09:42:10 GMT",
       "category": "match"
+    },
+    {
+      "title": "Update On Manchester United And Their Pursuit Of This Crystal Palace Ace: Good Option For Carrick?",
+      "source": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaTVtLWVQT3paX0lGYUVRUkxETVFJTmc5VmtiUDJ5b2w2dWFSSXpJd21XRk9YZlpWZkJEci1nM1YwY1JUVl9VdTloN2FVV0FnQjhEb1Y3d09rT1RIT0RxTDhnb1BReTRRTERmX3QyZU8wVEZLdHJMMG03YV9GTDNoSkJkdW5ZdjRaektlSTk3Q0h0ZG8?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 20:20:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "'Really excited' - Eastleigh announce signing of former Wales and Crystal Palace ace",
+      "source": "Daily Echo",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOM0JnbVp2V0FKdXZfZ1N4aUE2bW9ISEJwQjd6UU9YcWFkWm1jb253S2M5MTg4ZzRvajlHM2xHWXpKdk1ub0xXZlBiWE40emRtT0lUVkFVYk1IcUxzeHpOZG1Tb2kybExFT1dXbWxjaU9pTkJ3MFFPM2phOEtxSVJSWlJ4ZjJHVTdIeUNUM0tVWjk3LVAyLWlhR0FZSDA5UHVNM1prZWVaXy0?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 16:00:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Crystal Palace news: Fan views on Eagles' start to the season",
+      "source": "bbc.com",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNN0JiaEp5Mkp4MHA2X0poU2w0TzFQSWpIbm5vVjBldkxsQ2FHRENUVFV3aDA1X3JudmZEQXpVczNKa2ZId3AtNlZCSEw1RXpYX2hDV2d0V2lVWHRwcVdPTFdYNk9ZQUEyWm1acXlGVzZJc180Y3JtQmEtMnNWS29oQzhIRHhBRnQxNGw4UGlZNTVMR05hRkNDdGdvRnhoX25VXy1DWXFqQm12eVpOSGhHQ3ZaR2I2TVVsODYxb0NPY3BnY1EtcTRBQWtqVkdtTklZajBTSi1FeHNrVndNS2tVd180N2cwQ05HOUw5alJKa2V0Zw?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 12:01:50 GMT",
+      "category": "general"
     }
   ],
   "reddit": []
