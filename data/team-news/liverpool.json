@@ -1,48 +1,83 @@
 {
   "slug": "liverpool",
-  "updated": "2026-09-23T20:55:38.413Z",
+  "updated": "2026-09-24T10:47:26.499Z",
   "articles": [
     {
-      "title": "12 Liverpool players set for extra work as injured pair eye long-awaited return",
-      "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRUhFc2QtM3ZMbEhxUGsxOWJDaHFvZXVlMUZaLTYxNm1BLVNnUXY4SDhMR2VFS3F2ZDg2SVZwWmNWcGN4NklSalM4UnhzNjV6YjkyeTRVYWRNZ3hqYThXU1Z0QXdDOTFZb1ZOOWdqSUJGbXhWNFdLWUVkSVZnODBNc2tFV0hpWTNnbFROZEJ3Nkc4TmU3bl8zN0RRX3k3N014N2fSAacBQVVfeXFMTnFEdktKVDFzUndXUkw3a0dQc1h5b2h2TUxwVXpSQk96YjhTVjZqbHBiQWdkaTI1YzN0enlEYkZEQkJnYThUNlFwMnN3VEo0cGZ6VmxSMkRpeExCUTZxNzZ0MDFkbVdZeGxaQVlnd2JxZHMzRFJzaThEWmZ3RnNMc2JSYnBmOWFaeEZYUVNxS1pfUFZBU3FTR0U4RkNoYk9PcVRwb1I0TjQ?oc=5",
-      "pubDate": "Wed, 23 Sep 2026 00:04:05 GMT",
-      "category": "fitness"
-    },
-    {
-      "title": "Liverpool striker scores wonder goal as pre-season star sees red before dramatic comeback",
-      "source": "Liverpool.com",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZi1jdTRESnlWT1l0QkNSbkJWdWRqN1ZEMnh1Qms3Q1lzX04waWNoV2k3R2tHbHZYbEdyaXhTLVEyeTFRaVd0WkxfMUh3UDFrcTdEWnZIaldXY3N3eWdFQVFkQWtfQ2p5WXlHZVFRUEdYSzJFN05MSVJ3d3pxZ2Z6Mk8zYkp5N3JVSmpyVzR1d3BtalpaQ2lPZ0VSSWxhWnPSAaQBQVVfeXFMTWQwRThBbkVsUGV2QXZjcjBzTVdERGxBM0h6dm5teTItU2c3NUMycXdmREJhM1hHVjdEVngycEsyZFN6M1BHcTVRbnlRTXJ0Z2pCR3NzbHVsSDNsRVlBLTVoWlVEZURkaGNyUEFFR2hIbG1aRDFtREwtVmt5aXNYaDhKTUV2X2JON3dfNHY3ZnZCUHoybEtDWEVaWTFxM3B5VzNFUzg?oc=5",
-      "pubDate": "Tue, 22 Sep 2026 22:13:46 GMT",
-      "category": "match"
-    },
-    {
-      "title": "U21s match report: Liverpool stage incredible fightback to draw at Rochdale in Jersey Mike's Trophy",
+      "title": "Former LFC co-owner George Gillett Jr. passes away",
       "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbU5ua1hoT21XRi1SNFZQWWZaYzB5WXlxMmlIX2EtMEhTZGR2NzJEY0FpcVRxWm90TnVXY1dKNTBRaUJHbEo0MmMzRC01TEwyX003NzlZanBSNHZNNHZVam1fVldxRGZSa1BXcnBIeENKOXZNWDJzWnFMdG5VQThEaEtKRVJ5LUNaZDFlYlF1NDEyZGlNWUt2a2R1U005YkRzaWV4TDMxR1RHRUdZVnB6alF4TG9HU0owVm9yeHJn0gHGAUFVX3lxTE44bU1wQmFWTURmM2F2Z2g0VW9jcEhSSDVBaWowRUlOZ0hRbG5JeHBzTlAydnhEQ1MxZzJFMnQ3N3pPWlc4cnI4Vm9oSzh4M2ZmeXlOcTY1cGdzRzZPWWZobl9hcWt2aW5jR1JyelZhRmRDNnJQYmFmbURMNzkxams0RXEzV2w2YUtPcWg4RXpMbjRtd3BsYVJSMEptaUJuc3BKbEIxcHJtakw5bVdWMk9CQ281U1RFM3pIcVlDNXhWY3pHNnV0Zw?oc=5",
-      "pubDate": "Tue, 22 Sep 2026 20:28:52 GMT",
-      "category": "match"
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaUQ2VV9Eb2hKa2t4NlBxOEhVS2Y2Z2pjVC1RczBaRV9lVHB1N3J3QWNwMi1ZSzc1dXJFTk0tamJpSXdPdWxnSXhMSUxkMWl1cE5HclpPcVJCNUtjWEtSdjlaaEZYbGswb0dhZzA1N1BBV2ZkQUdKOEV3MWw0d2RHTEUtNGdDTi1qTVHSAZIBQVVfeXFMT05weDVZNGJYWS1OUElNeWw3VHdqdkQ4Q2lLWnY1eGFaLVA5M29VRVJOWlJvR243TzIxZmxIOUE0MkhqZkY3dlY2b1pHblNISHJFLU5mZlBleUZjTmxPc1BXamFrcVVub19qb1dJbnQ5dzRRUVRibW5qY1lNV3ZTYVhkYURhR0lGNG9iLTlkVHZ3aVE?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 07:01:26 GMT",
+      "category": "general"
     },
     {
-      "title": "Liverpool coach praises change in mentality as four players make difference - 'bit more respect'",
+      "title": "Ex-Liverpool co-owner George Gillett dies",
+      "source": "clickliverpool.com",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOXNVTFNhSlpBLTk4Sl81TzN0M00tVmVoZVZjWThHYkVBU204M2RsVE5hekNuR0czS21pUm9YTXdrME5XQWZGYmNFXzUwUE8yYkRVcS1iOU16SlZOR2pteFdJSmFqZXYxU2tHdjkxRC1KYWxKMkRQVHMxdnplMnUtemV0aUhTYVhhUmlJWlZiaXZOYmFyRnVVTkZ5QzVuYjVnV1RYeA?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 09:10:35 GMT",
+      "category": "general"
+    },
+    {
+      "title": "George Gillett dead aged 87: Former Liverpool owner and businessman passes away after battle with Alzheimer's",
+      "source": "The Sun",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9ka1lGNVphRlBlbVY1cE1vaUE5cGQ2ZFdPME9Jd1NMQTR1QXE0bWxZZmR3aV8xc1NrNGYtVDRMeW9DNENaaF9IbWVUWFhZQ3N6RWNmWW43TnRuaU9HV1dOU09jU0xQb21HaElEOFBaVDhhS09qZFNZdlBB?oc=5",
+      "pubDate": "Wed, 23 Sep 2026 21:58:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Liverpool: FSG target striker with 256 goals in one season as Trent Alexander-Arnold ‘stigma’ emerges",
+      "source": "TEAMtalk",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNRkc1aTNuamhOdXN2UEd6MzRicXZidnAyVEVBSWQ2M3RyRlJHc1V6Qkkwb3pCSUM4MnlkYmVMVXZpRVdXdlRqY19KQm5heDBOTm00VmlmaXZmZ255ZFh4VWdNc2xBb0h0NlJRcERfYVJQYndnaF9yZ3RFemlFd1l1eW9RNVE5VDgxbTZZcnN1YTVaZFBTd0x0dlRyRVc2TExyTzZRYlMyc2dYOGtSMmpwMFM2cmppekl3ZktlUm1JbWp6YWUtdy1wTzNnVllsTHJBS0E?oc=5",
+      "pubDate": "Wed, 23 Sep 2026 20:33:42 GMT",
+      "category": "rumour"
+    },
+    {
+      "title": "Liverpool given answer to Trent Alexander-Arnold question - and Alexander Isak would agree",
       "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbndPb2E2Y3MxUjlrRmVKdG1YYjNIVUkyS3c0VXIxajlkcGhONDUyX3RLblZrTURtR3BkZ0FJaUVtUFhuU20xS3ZjMU9CeFZPQndXaVJpWVMzV0prQ1VrMHlpbE9TZGlmTV9MUDFybnYtT2hfRzA0blNWc1VuVWVpdlBPWjQ4em9MV0tMTTUwNmZselk2cE9wanVxX2V5ZU1jQnlxc21oZENwTnNNWmlN0gG0AUFVX3lxTE5iaXRlWW02NV9ramRaNDVkMnNPeFhsUWx3Y3VCa1A1QXVOdmtEQlZEc04waHVZdUsxX0JvdnVUdTgtWS1ORDM2aWJqaHNLbHUwOGZGbzJ5dEZXOGpBTXd3czB2V0pYSlBZZnFLMWhjd2RvS21Zd3RqUUd6dmpJR2tjLTJrUzA1eDBnTFVMVlZ2Tml1SjBMNS16TGZjY0xteVhsUVlKQXdBRnB5VVNjR3MyVVRsaw?oc=5",
-      "pubDate": "Wed, 23 Sep 2026 13:25:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZGktQTNsejFDbDYxWU5QYXRvYmtNLTVGcDJYT3Z3dmdISV8wdHJGbk9VZ3JIdzJ3dHJ6Qm9KdWFNUXVHMDBXZTEyMjhtZTJ2bTdaYnNLUDZSZ2VZM21wdFFqMk9kWmItRDdseUItaTlJamJFbzhvc1I0UUttTEJmNURlWk1IQW5SellPZ1Vma3VCb0ZCWXFhSzRJZlZudWJiMjZMbGRueHlUc0hH?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 05:06:38 GMT",
       "category": "general"
     },
     {
-      "title": "Idrissa Gana Gueye invests in top flight club with ex-Liverpool star in surprise announcement",
-      "source": "talksport.com",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPb2dQb1pTNVl4U3puT0FtMUpjYm96alQ5OVBKR1NEZ2RlQk40MVJOakRfVDRCZ1k2NWJxRnBDNHVrcFNIWFFqZENpZTJ1bGpsbEVIeE96ZlctaFE5Vl9DVTFQRGJ2SmgxNmN0Smx0ZDA5ZmJpWWpWOERxV2tZOGtPdGFiUkphbEd6bGVRRg?oc=5",
-      "pubDate": "Wed, 23 Sep 2026 16:10:31 GMT",
+      "title": "Liverpool's next Trent Alexander-Arnold has been found, he's phenomenal",
+      "source": "AnfieldWatch",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXI0cXY3YTZrUndzeDZoRzhTMzg0dmlZVkRjNkQzT2ZMMVBUUVBocllmSXpjLXRfX3NkcUNNZi1FUGJpZnVhQ0VxSnZhWlAyN1UyMlNqdzhQVk1DVTRMUXFkMG1mNWhJMVNtTndOTk16TzdpWVpMcm5seS1Ka3c0RWFrdnlNWTNyUElmS1ByWW1hb29GQWtPcC01dS1xbzAxc0tVU1Awbmhnd0JZVlR3RnFZNHZVejd5cWc?oc=5",
+      "pubDate": "Wed, 23 Sep 2026 19:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "Barcelona’s €2.6bn debt could provide Ronald Araujo opportunity – Latest LFC News",
-      "source": "This Is Anfield",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZGtlSDhkNzFzeGxBRFRVbXQ1ZUxDZjRvMUlkanBqQTFZMEQwTENfUnh4a05hY1BIZm5mcUR5cVZOUzVxUXUyNFNSbUVqWUJHYlpfY2lSWnc0TzVydEU3SlNuQWNJNVl2ejhGd05kaUt1Z3A2MEJ4ZUhRamJRUHowTVBVR21sQmtIektrYlpLTWhEYmdYWmxnVkxrcXVvMlBScHZPbWdlQk5SU2pmTXpsV1hPaG83ZUZv?oc=5",
-      "pubDate": "Wed, 23 Sep 2026 16:11:25 GMT",
+      "title": "How Rio Ngumoha's England experience can help him at Liverpool",
+      "source": "Liverpool FC",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQcktVcEJiRkRxRkhldXJIQWlRTHJ1LUFKbzhKamt0MENXLUJzck9YT242ZTMtdWVhclF3M3hvdWVxNzVPTzVjZDlaSzlnQkRPam1uenBCLTZCa2NXZlNWRzNva0lvQWd1bEdJR2hUcHBDVmR1ekFxeWJ4ZWJVTFVLX0gxSWtGa1pTOFdRM004MkE3b1ViVVHSAZ4BQVVfeXFMTmNMdzltbkVEb2JmM3JwOVJ4aThKN0V5ZVlVclpRVjVOM1NlcW9hOVpwR3MwNHRWYW5zV2dBOFpnem0xZ2h1Rl91Y0thQi02OFUyVURsTE9xTzRIMk1IY1FVUFpIaU81QkpvdVRkM040VGhIQnIwMWZtdWZqV2FXbWFaeXRKdkQ1SUEyOFRNNnhodUN0S3lVODBVME9OT1E?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 10:16:29 GMT",
       "category": "general"
+    },
+    {
+      "title": "Virgil van Dijk reveals he is yet to discuss new contract with Liverpool",
+      "source": "thisisanfield.com",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNb1AwMUNYXzVEbnAtUGxmUDR2WDBGeEMwYV9WT2RpSEVEWnF6UUFVZVZwVjlCSUk1SXNBa05KLThaaXB2Mkc1LU91SFpLM1VpVlNIaXBTYjczUFROb01VNDVROE5EUzQ1WVRIVWNWOXd5OFMzZXdOMEZHTjRJM0U5V0poYndDMzQ5MGxidEJpaw?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 09:35:29 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Kylian Mbappé reveals Liverpool talks and admits Anfield was his mum's preferred destination",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPS1RDb081Uld6UmlCdUhUOE9OTnF0bmRjdGdubFliTmZxZ25La0FZbDRaX2lldnM4Q2dtTldaQTlTRk9RYWhWNVdZcExOQVMtaHo4OFRUSEV2X0NneXFhcHJfMXR2c1J6ZFpGRndCSUNHX0pjZjdIS1Z6MUF0QXg1b3FkWXFHUnJLczhzemtHYkV3NkRwT21NSXlSS1UyOWNhVThnaThJT000aHRMTnJrdWxsVzRYMk5pdThFX1dfSGk2N0VER3hjbWpDd25XR1I4ODB5V2ZoakM?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 07:55:06 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Liverpool transfer news: Reds have signed the new Zlatan Ibrahimovic and he's incredible",
+      "source": "AnfieldWatch",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUTRaanRQUW9wRUlBVkNKQWh3TTVjU0lfcDBOOGpjR1JQSUVESFM1VkFVWVN5VHJ2cy1BZk51WnI1Zjh5dlVpanB6ajl6aFhFT21HNDhaeUI5SDdpVmc4Zkdoa3k5RnZYXzM3OWVBa2xZenBQcTB0bmFFeHQzb3JDMldhUkgxYWNXeWlqZ1drZkRsZ3ljQ3VWZ3Ftc0NFQ0VuazByR2UyUFRPdEU1Q0pkZE9ENGsyaGNo?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 06:30:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Liverpool latest: Andoni Iraola's striker plan as Kylian Mbappe breaks silence on transfer",
+      "source": "Liverpool Echo",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNUxIOUFLWUxGSHlZRnhfcHVkalBBR3hiT1pxeElmUTVPQTFNZDd0NDEyVkZza0NWdERWbUgyUnlMcm0xc0lyR19COU5VQU1VV21rZjNsN2YxZjQwRDNBVXBfYmZ1TDNIcUVycHpySzdqV3o0OXlFRGhTU3lCcnQxOWxxTDJfWmtWQThEU2h4NUZybFNjU0N5ZTAyNUlHOWFPbWx3ZXpKRHpzUlR3NjZZ0gG0AUFVX3lxTE91aXpER1NiVVRDQ0VtZGlta01ieFVzenpENVgtVWp1bzlJQ3gtMUlHN1laTHVIWjlqTWZtSUdwWjN4THdqbGVpd3ljaGRXOGg2dmVNVEI1b2lvZVBqck1kMzR6VHFSdHlZOWpKaXp5OU85N2JjZERoSlBubkdYaDRLMTlwX0pQYkV3dFBveDFSTjQwMUNxaU9QVF9KV2lnRV8tY1hWR0NvM09haFBqQWlCYXYwXw?oc=5",
+      "pubDate": "Wed, 23 Sep 2026 05:00:00 GMT",
+      "category": "transfer"
     },
     {
       "title": "Liverpool FC Analysis: It's happening, English wonderkid is coming to replace Florian Wirtz",
@@ -52,10 +87,10 @@
       "category": "general"
     },
     {
-      "title": "Ex-Liverpool star warns Andoni Iraola 'cannot continue' with Alexander Isak and Florian Wirtz",
-      "source": "Liverpool.com",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObkI5Vy1LdWhMUlhxVmRmTmh3S0NLWTNpUzlQb1AtcGJIcng5QWpiSjlBeGxrdFNNWnNubm9FQ3NabnM1TmRBR3o3SDgxUm1mdDh6ZFdVUV9mU1NhSTdPRHNpcTlpMXhqUnE0ZTBJcE04VDFkSThpT2Z1LU5WRVVaRXFmQWMxVkdXN2Y5TFRvSldhcEZSUi1F0gGcAUFVX3lxTFBYWFRnQXNwcjJGZ0FOWU02R3pFaVV3MV8wVXdiQnpzLXFQQW9nUE9Tbmk4ZVlvWENxTEM1WGpUOXhvcmxrMTZ1UmxQTW5GM2FWY3dCY0FCNEU2bEFxUVhCS09YZmFqVjdCdFRlakp6WDVLTW94aXNFejdjT1JSQlBGQmxhbVJ1dGdidnVDMkhseF9GWnB4TFlOLXNNdA?oc=5",
-      "pubDate": "Wed, 23 Sep 2026 16:49:07 GMT",
+      "title": "Florian Wirtz agreement reached as Andoni Iraola may face Liverpool wait",
+      "source": "liverpool.com",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOOFBzcy00akNwTHF2QlU3bGUzVk12eWpUallfLVJOTXQwd2owc2FibVhCQUtlVzk5Qnl6MEg4b25SOWxFLXJYU25VMVJQMEpGVnlNZllWSFVYY0xSN25tendrclJXTkZoTjM0VWRYQ19SRGZUVHdBTnJqNU9ITk1ienRoa2F3N0g1a2MyMUFKZWd5TlE0NlBvdVVnMkhhRndveXhn0gGoAUFVX3lxTE5iTk83d0NOS3RYNmpiU0lFbGhveVVuZlpIbWdrZEV0R3BFaUN1WS1pS3lkRWpUMFhma21QRDJjRTc5Z3EwRlctWXZPYTZBSkp0d0swdVpjcUZwQmpyV0NPUmtTcGJlT0xwckM4NWpwSGhmQzV5S3VTWDFpWWlEelhJNnZfUkQwNTE3NnQ0ODVMaDkyU0dzS1hrWjg3QVhZcE1KM1RCckxadA?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 03:19:45 GMT",
       "category": "general"
     },
     {
@@ -66,46 +101,11 @@
       "category": "general"
     },
     {
-      "title": "Chelsea told Xabi Alonso is 'expected' to make Liverpool manager move",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVFpGVnloWDJBZlVuMmNJdHVoNlRRLUREbm5HekpDWjR0UGxCcG80VGZaSENVenczdFBrdjRxM2M2RVc4VHQ3QVo3REFCNEhCLWdlUk5PTjdjQ0JQWXJvVmRNZ05QSjlRWlZTSjVlaTV1SG5ZM3ZIRjNIem15X1RWWXA4MjZtUTZUZWxlZi1fWm1VUF9fVVc2X0pPTE0?oc=5",
-      "pubDate": "Wed, 23 Sep 2026 10:14:58 GMT",
-      "category": "manager"
-    },
-    {
-      "title": "Liverpool’s Aurélie Csillag on making women’s football more diverse: ‘Visibility starts at the top’",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOSzFvZVFIS0lhTU1Eb25ZZWhkQVlpYU1hSEhnVVZFRm0yWTVHNEhfRl9LQk4wR1BxTjItNVdmdzZRaDBobURHZURpWDhnYTMyU2xXVTFMeVY0Zy02di01SWN1VllwQk1iVllfS1BfckJ0VlliNDBtSFNlZzd3ZENETHVRYktfQzZKa1B0VUZLd1hCVm8xbHZWaWl3aGUtWGNfZi1Ea0wzbXd0bDBoUjR1NnJNQ1FzeXhWcFFBM2Zkc0ZHdw?oc=5",
-      "pubDate": "Tue, 22 Sep 2026 13:31:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Julian Ward set to return as Liverpool sporting director for 2nd time",
-      "source": "This Is Anfield",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQNnMzQzE5QTVrelpfVUt0UTRyeFNjX0JsbXNxTUZjUEJTenFqdGQ0UmZaVElaT24wb3hsOXJ3dzZxVTNXYVk0d3FzSDJBd0VLQzVHOG4tNmtDbEZkZXVfSEZScUlUMW03Tm40TDY1MlZNRkVrclNvSHRFa0xiV3ZNczYycVRGUFVwV1lXakxR?oc=5",
-      "pubDate": "Wed, 23 Sep 2026 08:57:47 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Liverpool signed wrong PSG winger and 'surely' must go in January",
-      "source": "Football365",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU29XN2J3QndHMlhBd2NQNTE2NldTeTVXSjEycmNuS2V2TGl3U0ZmRVY2ZlhKQ3B6UkZuQlFfbWRoaGRGSWFvY1pLWGhUOGVJSXQtOXlLanNoME5xcVFCM0dOblhDWGhNVlRmY1lPTHhjM3FFZDRSU05BcXY2ODdKaTFQOG9sNmxodXB1ZUFJOGxVT3V4VzNUUlhsRGs0VUJUMlpOTnpzNkxMNkdBZWxXV2Nn?oc=5",
-      "pubDate": "Wed, 23 Sep 2026 11:50:22 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Ticket Information: Liverpool v Arsenal",
-      "source": "Arsenal.com",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOb3U2elp1N0Vja1lwLUdKdzB6SlZTWEoxQTY2eEhxYjc4ZzJtcnlCTE5VLW5YMVNEN0Jlb2hKenpnMkdRaVF0Z1JubHpfRnNBdWdlVDdpcklqQ3lpa2FsdVduaXI0NU1jVUZ4VWFYcGhyVERXZWY2cVhGckVqZmdlYlBvbG1CUGZubF9CUzlMV3pvTGRKV29hQUFR?oc=5",
-      "pubDate": "Mon, 21 Sep 2026 11:10:14 GMT",
-      "category": "general"
-    },
-    {
-      "title": "LIVE NOW: Watch LFC Women v Sunderland in Subway Players Cup",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTU9zMG94UTZQNVBjeDJCU2l6VEFfcERXVWlSNzdJYnItV1M0YTh6Wl9Oa2cyNkk2N1hHUXduQmJXOXhKTXZOV3ppTWRlYkZKMVBpVEExUzNERU9EOFAwTHQ4R054T2ZMSUpqRExacVVtVVBWVUtjcU81elJ2ZzdydkJhRE1fOXFrQW9TTkljeG9HUjDSAZsBQVVfeXFMT3Z4amRsRFR2VFowNVpMTnRDSHJMVG8tcjY2VHM1MnpKSFJTbS1EekZqWkZhOE5qVmQ4TVpMSjZHcW1kVGlsYVRQUVdydWZodXF6RVpWaUlMcjlLVDEybVV5b1ZDWGZCVnE1YnREUHZsdUF1ZDgxUkpaWUg2anZ3OElyMXhMVV9QcVBxNm1RRHZaNHpJSzI0WlNSWms?oc=5",
-      "pubDate": "Wed, 23 Sep 2026 18:24:34 GMT",
-      "category": "general"
+      "title": "Done deal, sensation confirms he's signing for Liverpool",
+      "source": "AnfieldWatch",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNem1XQjdPakRYUWdxaEtFd18tTWtDTXpkZEpxblh6Z0dRSnNESW5HRHc2TEdycmNFckFneG1jT2d1aE9kRVp0SXZHYkhyN2R4d1JyNDc4cV84cUlPWjFPdHNCODUycWRUUHVsMUpMdW4yVnZwLW4wNWJsY1VCWUtWX0ZBRVk2Y2pySFoycUt5ZjlRYXZOZWhRUTllck5OalRpX0NTVVZiYw?oc=5",
+      "pubDate": "Wed, 23 Sep 2026 20:30:00 GMT",
+      "category": "transfer"
     }
   ],
   "reddit": []
