@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T08:11:52.064Z",
+  "updated": "2026-09-25T08:34:44.681Z",
   "snapshot": {
     "1": 61,
     "2": 49,
@@ -262,7 +262,7 @@
     "259": 40,
     "260": 62,
     "261": 54,
-    "262": 54,
+    "262": 53,
     "263": 53,
     "264": 55,
     "265": 49,
@@ -572,7 +572,7 @@
     "569": 60,
     "570": 54,
     "571": 48,
-    "572": 46,
+    "572": 47,
     "573": 44,
     "574": 49,
     "575": 48,
@@ -671,12 +671,20 @@
   },
   "changes": [
     {
-      "id": 274,
-      "web_name": "Butland",
-      "team_name": "Hull City",
+      "id": 262,
+      "web_name": "Smith Rowe",
+      "team_name": "Fulham",
       "direction": "fall",
-      "old_price": 45,
-      "new_price": 44
+      "old_price": 54,
+      "new_price": 53
+    },
+    {
+      "id": 572,
+      "web_name": "Tzolakis",
+      "team_name": "Hull City",
+      "direction": "rise",
+      "old_price": 46,
+      "new_price": 47
     }
   ]
 }
