@@ -1,6 +1,6 @@
 {
   "slug": "west-ham",
-  "updated": "2026-09-25T20:57:01.200Z",
+  "updated": "2026-09-26T10:32:24.854Z",
   "articles": [
     {
       "title": "'There's a lot of pressure to play for West Ham'",
@@ -17,17 +17,24 @@
       "category": "general"
     },
     {
+      "title": "UEFA warning leaves West Ham with January transfer window catch-22, Nuno and Koppen will need to get creative",
+      "source": "West Ham World",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOEJxRFZQSGVydHBVYTAtbm14d1RseGZHQkNZTEc0RGtNUHNaSzZCR3ZrMkhmUGtJUUc5VjdWOVZNM1p1endEQVN5ckRLQ29RMGF3dldEQ3NZOVpKa0x0dFRhYzlyYUxXRF9qdlk3V3dzSElYdkVHN1Q1dWpPSFdaY1hTU2F0Wi1YazdZd0V3YzEzWDR2enJkdzRkdnQxYXFqdFVEeENrMjRCdFl2YXVReTlONzNiUXBGQjhzZVlQTVRvUzJ2Zm1Vb19BYzRpM3hENTVTVVln?oc=5",
+      "pubDate": "Sat, 26 Sep 2026 07:40:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "West Ham United FC",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeFI2Z2hJYWtUbl94M0x5cTB3T1ZUT2hfaU1ULVJiWlllXzR3TUZ6WlpKSlJ4UE10empUUldpMjcwZXBsSUZaLWlzTG1OTFktQnpFeE43ZWV0M1lzQ2R1cV9KZjdZTWRSUlFfZDZmOVFBd05iNjZfZVJCZGNFMFc4eDVSdDFOemM3TDNJOEJmdW9NMVNVMFhLM25LdS01am5CbXZIcA?oc=5",
+      "pubDate": "Sat, 26 Sep 2026 08:04:48 GMT",
+      "category": "general"
+    },
+    {
       "title": "West Ham handed stadium boost as Sadiq Khan opens door for major deal",
       "source": "talkSPORT",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPR1l4WlR5b3JBQ2FlUDZMbWh6dWQ1MmV6MWE3RHpwSW9hVm9yR2lPZXd5UGxQVk0ycEdqLUdWNk9yVC0wWmpETUt1SDM0VDBGcFpncjVPeFdPc29tUUFOUklXcjhEeGMyRWNDeWc2SEpUMzJrSml4NFJXbEZpZ0dxRmZHQzc?oc=5",
       "pubDate": "Thu, 24 Sep 2026 20:00:04 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Internationals | Mavropanos and Solomon in UEFA Nations League action",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWC1YT05HMTJTeE4xV2dBSGw3djdVeDBBNmQ5VjV3WWhsQnNIdkh5RGEySjhfNldaMWUzZGkxSEhZaHJmVnpsZ0ZmZllYTmJGY0VFNGpER1lPRHFzZ3NaSnZYbHFfWHo1aS1OU2lrQ2RvSXZpVjZhWFNsQTJUZS1YTUlfQjNqelJrU1FEVU5NYTdPM3g2Q1hORGpQN1ZBTE1LU2c?oc=5",
-      "pubDate": "Thu, 24 Sep 2026 21:03:18 GMT",
       "category": "general"
     },
     {
@@ -38,24 +45,17 @@
       "category": "general"
     },
     {
+      "title": "West Ham Face Fitness Concern Over 27-Year-Old Winger",
+      "source": "The 4th Official",
+      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNT2VlRlBQckpKWnpJMTN6NWNlNHlJV3FiWDNoSy1fV1IwUUxqLTZ2YWh2UVR6b3AzTkVpb1JObHRrNnlDMWFQSXlKR1ZqNjhLLUItN0FsbkNGU1c5MUV2TTctVlo5eFB0MjI0TnRxemdCTmRLUUx6YWNfdlFudkY1TUJDeHNXOEFWMkdVQmdnOEZjTmpraGs1VXlIWVZKWkhqRnNrRU1vQkx3ODcxemJNdnNYeXBnbzUtY3FGbVdzcHVxVjl1ZTZUT0Rid25DcXhnbThUU3A3QzdlNnlFNll6SUh3TmdHLTU3?oc=5",
+      "pubDate": "Fri, 25 Sep 2026 21:15:59 GMT",
+      "category": "fitness"
+    },
+    {
       "title": "Sadiq Khan urged to sell London Stadium to avoid losing tens of millions a year",
-      "source": "London Evening Standard",
+      "source": "standard.co.uk",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNc3JFdGVlcUpxaXdydTdoWHYtTjktZ3h0MTdQSG52MS1rcFluRmFpdGZZZ1Q3S3pZaWRBcVBScHh1YmRzTGJpVDRxZHNRaWdEd0g2NWRDNjZHbXdlRGdIV0JVNHZmS0JrZVgwcHFoM2NDLWowWFhXbExRTzJTaUd5eC1BUFBYUUZpVjMwbjF4M2xDeXcwRTdERXNWTQ?oc=5",
-      "pubDate": "Fri, 25 Sep 2026 09:49:30 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Lord’s Cricket Ground, West Ham, EY among creditors owed £190m by Brewdog",
-      "source": "City AM",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNV2pqMy1zQ1NKOS1vMEF1MGEzeEpqWXpSbUNrVlJST3VyMVpUVGpLdnNsd09WMnJTNGZxU2RGZnlwLVBXQmYySVBQM0M5bW8tWndVUF9DWjNmbTU2a0ZFTnNDOWo2QXpCazFnM2dXVmZEeVVGWTJ4UENWTE9tbHRQME5TdmlQTjRsMG5YUDZzVXNiMHBIaDk3Ng?oc=5",
-      "pubDate": "Thu, 24 Sep 2026 15:51:26 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Official website of Queens Park Rangers for the latest news from Loftus Road",
-      "source": "Queens Park Rangers FC",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWDJFUVExcjF1THFpTFZzWVhibjMxaW5tV29tNEZFRTNiZ0x5NFd2b3BiNlRyQlRLRzVkX3lJZVJQaUJwSk5OelFCLVgxSXBNS2wxZHNKZWNSRk15dXViTEhjR2VaOE84QzBHdzZXYTR3SmRrWTk3MXlKcF91RGRkdUpLTQ?oc=5",
-      "pubDate": "Wed, 23 Sep 2026 21:26:21 GMT",
+      "pubDate": "Fri, 25 Sep 2026 18:37:09 GMT",
       "category": "general"
     },
     {
@@ -66,17 +66,38 @@
       "category": "general"
     },
     {
-      "title": "Celtic Fans Won’t Like Arne Engels’ Latest Admission",
-      "source": "heavy.com",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ1VBT1FybjNwNWw2Y3NaX09CdUtiZXdoQzJIUW9CS0VlZGlQMXN0LWNER1g4VDFnd3JpVmJKdVB6ajE0MGRLQnVObENMdWc4bHllTlo0Zllod0g2cV93bTdkc1Azb2tKYVNWV0tCQ3FaY3QzOExlUzNkTnBrTDBhQVRQdHY2cnpoeHdj?oc=5",
-      "pubDate": "Thu, 24 Sep 2026 17:44:49 GMT",
+      "title": "Official website of Queens Park Rangers for the latest news from Loftus Road",
+      "source": "Queens Park Rangers FC",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWDJFUVExcjF1THFpTFZzWVhibjMxaW5tV29tNEZFRTNiZ0x5NFd2b3BiNlRyQlRLRzVkX3lJZVJQaUJwSk5OelFCLVgxSXBNS2wxZHNKZWNSRk15dXViTEhjR2VaOE84QzBHdzZXYTR3SmRrWTk3MXlKcF91RGRkdUpLTQ?oc=5",
+      "pubDate": "Wed, 23 Sep 2026 21:26:21 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Zelem | It's about finding consistency",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5PZDh2NWZJZ3MzUFRfUEFoTENSeDlTd0xEdnQ2Qk9KUXBtNVpReHRtVUhTaDdpR2RZVUllbEEtZEdJcHNKN2ZMNEV0ZjYzUkdiSG9CVEF0MTVmNFVWT0w3VlZleDMwQzFJdHJ3S2JZWXQta2RUaVRn?oc=5",
+      "pubDate": "Sat, 26 Sep 2026 09:04:50 GMT",
+      "category": "general"
+    },
+    {
+      "title": "On This Day | Hammers hit eight in Macclesfield rout",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNmF0S1JkeVNGVDVvbVQ1RjFmSjVXUVdFZ1RCVzQ4U1FjdS1HRTE4Q2VRTHBYUVEtdzJpV0VBbzJLbThfVUFuQkEzRVBtZVQ1SllMSTBCVDk2UjdCa1Z6b1M1NUdaSGZhUjhhT0pUVmJqOW9aYndLSEV6Y0VGSTJ5SEoxd0dyOXA3N0tR?oc=5",
+      "pubDate": "Sat, 26 Sep 2026 07:35:19 GMT",
       "category": "general"
     },
     {
       "title": "Training Gallery | Ready for the Red Devils",
       "source": "West Ham United",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vVWJtaHFRSThURnhTaGpHMENoY1pyUHdoazU3NnA4ai1nLS1ELVhKRVl4SVpBSzJZYUlHM1R5RnFoT0RzQmNNRElzQUhrN3FYS2JkbnAza0hpS1FIV3JKSUl2alRwZHNMOXNDQmdRbkZwNkNSb1doR09LeDJOdDQ?oc=5",
-      "pubDate": "Fri, 25 Sep 2026 16:04:14 GMT",
+      "pubDate": "Fri, 25 Sep 2026 17:47:59 GMT",
+      "category": "general"
+    },
+    {
+      "title": "I’ll Never Forget… | Airidas Golambeckis",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1Yb1o1ZWdQWWhyYVNNWXBlQTRIc3ZvdllBR3FvS1E2T3FWT21RcHBuSy1WNGhiUTBZeHFQR0xkTmYxOXRidDl6cXFXRF9oT2tEQ1dtcllmS25nbjNLVG5JdVhtb1pFcU9ka3VNcjk4SVdLSDBuYWRVTA?oc=5",
+      "pubDate": "Wed, 23 Sep 2026 07:26:06 GMT",
       "category": "general"
     },
     {
@@ -85,27 +106,6 @@
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPU1FUblFCdlJwSHJCaGllNXowWWg1Y0FQckJxUENTbWsyMERIOVl5R3dDOTFNZzVhMjN0Q1BnUjNmNVNQMXZuMDBrNERfd2NsUG51NGs1Qjd3d0FpVE5GZVNSQmlFaG5MSTVUTHRFcnFEWS02c2NtYW9FYzgzeEdJZXZFOVpHcFVJYnd3d0tJdWl3emlGajREYkhtRWdGYl9LNVRlQUw3dUtqM0Vj?oc=5",
       "pubDate": "Fri, 25 Sep 2026 14:43:49 GMT",
       "category": "general"
-    },
-    {
-      "title": "Manchester United v West Ham United women's team | All You Need To Know",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbVZUU2YxODdNU29uZ0VCekYtYUFac05Od1FsYnJGblZpT2YyT3kyRkFrUWdpbV9ob25wUk9iYWgwN1o2ZXVTeUE0WVFDMHVkUHV0WXNPYVRrMGkwTHdFc0pfV19QTEVrdVFzR0Z0dWltYjF3WGRnWW9GRHJSWDdxZVBSNlB6bkZvZHB0Y0FYNmlLRFd0QWhmNmVUeDBIdU1SYnRJX2VBb2Z1aWdFcHNJMkFMQ0RrcnM?oc=5",
-      "pubDate": "Fri, 25 Sep 2026 14:38:49 GMT",
-      "category": "general"
-    },
-    {
-      "title": "West Ham United Foundation Gala Dinner & Awards returns this December",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPU3JSTzBNejNCakY2T0RuZ3RfaDJyNUZmY0ZBX0dLZ0d1TXFJN24tS0VzLXhfaGZmV2V2STh4ZlZYSFNlTUhTWHc4cUNWS2VqbGNsazhld3NpTjlENWVGWHM2Mm9DZk1uRmp6TVVNeHFzWWtSa2ZoNlhKZ014VUQ4d2tvcndNdHNTSnJwM20zejlFYlVEd1VPN2NtdWVENlJHcmVF?oc=5",
-      "pubDate": "Fri, 25 Sep 2026 14:08:42 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Internationals | Golambeckis & Mukasa start England U20s win",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYWY0bFY2MWxrTjlOM2hJNm9GbkZuNnB2ZzBtc0RoZ2o4RC1hQ2ZSVk10UXNKZ0ZNemFyNW44clQxX0lEX3hUVjBCOHRxZ1J3aWlhd001a0VPWHZCNFNOOUVwRGMzV1lDd09BcUpHRV85UllRamhZUnVYaHpBZmpUNzMwWmQxdmhzQW4tXzFNMFF5Zm9STkxrSQ?oc=5",
-      "pubDate": "Fri, 25 Sep 2026 17:49:46 GMT",
-      "category": "match"
     }
   ],
   "reddit": []
