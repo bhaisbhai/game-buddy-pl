@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T08:21:34.131Z",
+  "updated": "2026-09-27T08:59:10.086Z",
   "snapshot": {
     "1": 61,
     "2": 49,
@@ -626,7 +626,7 @@
     "623": 40,
     "624": 50,
     "625": 40,
-    "626": 45,
+    "626": 44,
     "627": 80,
     "628": 60,
     "629": 40,
@@ -671,36 +671,12 @@
   },
   "changes": [
     {
-      "id": 14,
-      "web_name": "Eze",
-      "team_name": "Arsenal",
+      "id": 626,
+      "web_name": "Zepa",
+      "team_name": "Fulham",
       "direction": "fall",
-      "old_price": 63,
-      "new_price": 62
-    },
-    {
-      "id": 115,
-      "web_name": "De Cuyper",
-      "team_name": "Brighton",
-      "direction": "rise",
-      "old_price": 49,
-      "new_price": 50
-    },
-    {
-      "id": 135,
-      "web_name": "Yohanna",
-      "team_name": "Brighton",
-      "direction": "fall",
-      "old_price": 49,
-      "new_price": 48
-    },
-    {
-      "id": 595,
-      "web_name": "Gozo",
-      "team_name": "Crystal Palace",
-      "direction": "fall",
-      "old_price": 50,
-      "new_price": 49
+      "old_price": 45,
+      "new_price": 44
     }
   ]
 }
