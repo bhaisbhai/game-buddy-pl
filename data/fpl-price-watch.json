@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T08:59:10.086Z",
+  "updated": "2026-09-28T09:26:05.373Z",
   "snapshot": {
     "1": 61,
     "2": 49,
@@ -170,7 +170,7 @@
     "167": 56,
     "168": 50,
     "169": 45,
-    "170": 50,
+    "170": 49,
     "171": 40,
     "172": 44,
     "173": 40,
@@ -249,7 +249,7 @@
     "246": 49,
     "247": 54,
     "248": 54,
-    "249": 56,
+    "249": 57,
     "250": 45,
     "251": 40,
     "252": 40,
@@ -671,12 +671,20 @@
   },
   "changes": [
     {
-      "id": 626,
-      "web_name": "Zepa",
-      "team_name": "Fulham",
+      "id": 170,
+      "web_name": "Emegha",
+      "team_name": "Chelsea",
       "direction": "fall",
-      "old_price": 45,
-      "new_price": 44
+      "old_price": 50,
+      "new_price": 49
+    },
+    {
+      "id": 249,
+      "web_name": "Barry",
+      "team_name": "Everton",
+      "direction": "rise",
+      "old_price": 56,
+      "new_price": 57
     }
   ]
 }
