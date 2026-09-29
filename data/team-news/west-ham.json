@@ -1,40 +1,75 @@
 {
   "slug": "west-ham",
-  "updated": "2026-09-29T11:50:44.225Z",
+  "updated": "2026-09-29T21:43:39.024Z",
   "articles": [
-    {
-      "title": "Iron Cast | Director of Player Recruitment Nils Koppen",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZElpZUNocXVobVlPWUJ1NWlyU2hXZkxGdjdRVko2c2NnR3JBWFFfZVRGQkh6b3I0ZE9vbUZXWkpyZk0tR3VaLWRSUGQwakVrS2lObmZzNUxVSXhPSE5fcFc5elFaOUxlWWhqNGNrWnlyVy13Q1NveWI5djFaRXR5N2kxZFN4c1pNc1NUOEdR?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 11:11:39 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Why Divine Mukasa could be weeks from career-defining decision away from West Ham",
-      "source": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRHhiWnJsd2FhLWdUa2RoTlI0OG1pZm1GRWlvaWpFQnJpTjJIVnVZZEhJY0N0M3FrNXFscFBfWS1GdGYzSWlYSG9yQ0ZzblVYZXNsQW5mTlgxQU1XQ3hpRmZSOHYzdm5wcTRST25Na1VsazBDMHJ6NHZvTnNuVGNuUWNpUnE?oc=5",
-      "pubDate": "Tue, 29 Sep 2026 06:10:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "West Ham United women's team v Southampton | All You Need To Know",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTUZDQ1ROMzZVeDVfUnd5aFF5MTFVQXZSWi0yZUFmY2U0NWJwT3ZINWF2WndMaE9PeFFKTGRNVjlJX2tJcUxnYWFHMXlDUXRmbjVsSFlic1hUT0t1aTBPWmpiQXVBenp6S194b042clNqdEpLLW5nbjZHVjhmYVp5T1AzaVdfVjBaUG94YUY3TF9wNGJxMzExbzJxSQ?oc=5",
-      "pubDate": "Tue, 29 Sep 2026 11:02:50 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Manchester United 2-1 West Ham: Eva Olid earns first WSL victory",
-      "source": "bbc.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE03OGs0T08wRDZGNkYtTmpXXzJMQUpESHlCemxrLVN3WVlvSWtGM3JqellGRUFXX3Utdnc2ekZaY2pKNFBtc08ydk1UWGdBdlRyOWVxMWZrWkZaejhYZWdQUjY2aUJadw?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 03:11:16 GMT",
-      "category": "general"
-    },
     {
       "title": "Will West Ham Become A Yo-Yo Club?",
       "source": "West Ham Till I Die",
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5oVDNDaDRNQkltblVId19WdllXTXhDQnlzREhzcE5PSHBCVC1ONVNpZ2xGV0l5X3Z1YWlpdHQ4UExsVmI1N21QUUFzWlUzbGV5Zk1TTUpjcXZ5Zkc3MHVUVTN6b2p0NXVmcDFYQmd3MlRhWWUzLVlod2lySQ?oc=5",
       "pubDate": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Riko Ueki | Injury update",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE15dUhINW5lQ2t2MVZHOWN0Rm91OHJQR2R1Z0pmUUp3c0V6OFFYVjZpdlFSWDEtMWd3QVQtbDlCeGl2c19DeUVzbnVEbWk1WGJHUFgzYmxoblcxd0xBelF4QzlXSTY0Rms?oc=5",
+      "pubDate": "Mon, 28 Sep 2026 12:21:55 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "Could West Ham chance their arm on Divine Mukasa after official Premier League statement on Man City?",
+      "source": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1lOEJsTzctdFZXazVPcnJsdUlwdGdRMm5XWkdJRlZZd0wwb3UyUnlKbW9DYXZjZEVmeTJ5Xy1HMWhRZExXU1JKSVFWSVlBU0ZxQnlaWnBCY0ZZREMxMnFtcVhsQ0phVEFOYXQtbzctejJnN1puZF9fMkZXQTRsVjg?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 17:42:25 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Internationals | Austbø and Hooper start in victories",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbFBQVlVoaVVKd3NiSi1qV0hhWnlPMjR3d3diNjlRR3FNdTMwVFc2bnc4UFZMMjhORGN5eHE2ZDlLNTlsU1F5ZGt5Q1NNYTZlSWR0WDllX0QtWld1S2tDRUNkLVBuTnJsaTlyZGl5TnlZdFV0eE1IUmlPdjZhSVI0bWRnT3BWUGNTUVY3QQ?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 19:38:44 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Manchester United 2-1 West Ham: Eva Olid earns first WSL victory",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE03OGs0T08wRDZGNkYtTmpXXzJMQUpESHlCemxrLVN3WVlvSWtGM3JqellGRUFXX3Utdnc2ekZaY2pKNFBtc08ydk1UWGdBdlRyOWVxMWZrWkZaejhYZWdQUjY2aUJadw?oc=5",
+      "pubDate": "Mon, 28 Sep 2026 03:11:16 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Craig Bellamy tipped for another EFL job after walking away from Burnley talks",
+      "source": "talkSPORT",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRXRFS0s0WlkySU1jRFlJM3RGblVhZlRGVXdEN2xvSWZ3NzV3Y0lsRnVLTy1udlRGWDZmYzRfc0t2UkduZFVEWUVsLWdiemp1VnhUZmpmZTZaZUdsaHp1dEpzc1hiRG9oWF9nS1RaT2JPbHFURV9OYngtUEd2OERsN2JGQ2lFZDFWQUdFUw?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 12:58:58 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Crazed West Ham superfan bids £100k for Mavropanos' match-worn shirt vs Millwall",
+      "source": "The Sun",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTVdoUEVNWUtCbmtfTEJ1X2hob3h4OW5ORUhWOXQza010UXJHSVdDcEZWSmtIS18yM1hWRkdhSzlDamtmUmtJSm5RdGNEU1BiQTlLbkZDVG91N09OSmkzcEtBRHRtWGFZcl9lT2k3ODFVZmxJQmJicGlQTlBma1ZsWVk0aW5IcjM3V2NEcEo0c19BV2x1cGctVUdhcHQ?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 10:42:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Away ticket details | West Ham United",
+      "source": "West Bromwich Albion",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA2UlJ1cTVzdlAwNG12aXdhTTJDTENDNHRmUExudWtYaHJDSTV4QnoyNWE1aU5SSGJlRnM2cHNVUW13T0FhUzVFZGpIclFva3pLY0sxUzFHbVFtTkEtSzVzaFBTSHpPeVZsWWRDMnFVUQ?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 03:53:44 GMT",
+      "category": "general"
+    },
+    {
+      "title": "West Ham (A) sold out",
+      "source": "Southampton FC Official Site",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9mTEk2MDFHN0VvMERWcWUzU1pWQ21tTWpfZVctbGFGcWlROG9VU0lRZzZ3QWt4RXBFMEw2YTFyTk93djAwbG1DMURMbERHNHhGX1lYcFo4ZHUtWlVIbllRSkJSdm83WVlNaG5lXzhOLTNMVFQ5X0FyNVFR?oc=5",
+      "pubDate": "Mon, 28 Sep 2026 13:30:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "West Ham Flop Could Be Handed Surprise NT Call-up",
+      "source": "Inside Futbol",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdnV5RmZMa1RKSjh4cnBmUFRoa1Q4T1Y3aEdxdUZvWXZaMzlCQlhiOHpIVklTdG9PNkt0NXNVdmk0WHZSS1cySmllc3hHRHBwTmE5MERSTnBoMi1VT211ZW5SRzJIVlhTcm9rOWpqcF9kSjlUZkdYWi1jcURjUDFiaEYwU2NSOWloLUhGTllSaEJqd29HcFAwcw?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 15:37:00 GMT",
       "category": "general"
     },
     {
@@ -45,66 +80,31 @@
       "category": "general"
     },
     {
-      "title": "Report: United Women 2 West Ham 1",
-      "source": "Manchester United Website",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTk1RMFVrdWh0WHAzLS1qRE1jMXB5U1VmNkFwQ0I3b3RzdFlKR3ctcUZ4d2h6WjFGUjk3YmROUDV6NEdSbWNId0JEcFRVQ1BpZVZ2aEhiRHRtR29HUlN3LWZGT3VlUnQ0aGticjdIc05CbEtqamNEcXhJSE93dlk4UURaWS1tZTFxM3oybGJmX3J5UQ?oc=5",
-      "pubDate": "Sun, 27 Sep 2026 16:26:36 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Away ticket details | West Ham United",
-      "source": "wba.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA2UlJ1cTVzdlAwNG12aXdhTTJDTENDNHRmUExudWtYaHJDSTV4QnoyNWE1aU5SSGJlRnM2cHNVUW13T0FhUzVFZGpIclFva3pLY0sxUzFHbVFtTkEtSzVzaFBTSHpPeVZsWWRDMnFVUQ?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 18:43:51 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Edvin Austbø's former teammate could also join West Ham from Viking",
-      "source": "LiveScore",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPOUozX2VGUl9yMENjM0k1aG9yMlZwV196b3VqRDlCV201YlNmbjg2LTk3Yjdnd2MxTHlZcXE1czhQOUFTc25QSjhIVzM4Q2hOTVNyQUNVeUZVU0F5LXZUY0lFMTdHSS0wYlB3Q1YwblloZnlzUkM4YkZOOW00LVhPTjV3d3ZWMjVUTlVqZktFUENxYnRCVGlHSUloMnk4Z1lPZ0RBVmZ6WkZScnoxTjJJNXFzR0xSalJ0elpIUUJqekFrU3BmMWNxRkdDVHYyeGdhaklhaVNGaEhKdEY2TC03TXRWREoyUQ?oc=5",
-      "pubDate": "Tue, 29 Sep 2026 10:07:30 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Burnley v West Ham: Championship – as it happened",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZXhDS0FLZTl1NExSUE8zUnNLZmdPaVcxdHIxTXhuQUFZczdkQWFWUmN4VExaTGJabktiazRRTXM5c3NVSHZJLW04S2tsX3E4ZmZLRnJRaWJlSUlaR2d0M3VBeUVIRzQ3WjFjQ0d3ZC1UOVU5VU9CVlhsQ29WbFZaQVFLanRHX0ZITkJ4UEtIUFdHc29f?oc=5",
-      "pubDate": "Sun, 16 Aug 2026 07:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Sell London Stadium to West Ham to stem losses, mayor urged",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAyZEo0YzRLMkdtSTU0UC02M1RNUHhLZEVBdjI0ZWNCcThNakhMeXlhbDNuNU41cWpteVdQUVVLdEl1Qk1ObU9lT2VtSU9Kc1k2SUZFaEJWekRZTkU?oc=5",
-      "pubDate": "Sun, 27 Sep 2026 06:46:49 GMT",
-      "category": "general"
-    },
-    {
-      "title": "West Ham \"showing strong interest\" in Köln defender",
-      "source": "bulinews.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBPTGV1V0VsMVZ2RzNLQlpmLXFHZThmaG02TXF6dmN3Ykg5NkNkWkE3dXFWOFhlRU1xWmV6MTJkcEVBaGRKLXh3SHlpamFPWGdZWk9BSmR5emsyZHFWcWtZR0MxYUlsdUNULWE5ZVM0TllFemtRVGc?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 07:19:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "West Ham transfer chief drops January hint after busy summer window",
-      "source": "Football London",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNjl1UWktS0JYV0pqTFNWbW9YV2NRZjB4Yl9TdjI5TlFMb2hVVk5WbXBuWmJXZExGRlJwOGNISVUxV0U3bDNhUkNCQ3VsZ0M1RTNDVjIyRnpCVndGMlhTRzZTSDRBQWx0WXdMNC1SOG1OU2pzZ3ZBRGNPNzZQSDM4VlRJMENJa2E3SmpIcG1DMDJST3Zn0gGaAUFVX3lxTE9XX3MzNVNCQzBmMFRNMU1pZDZ1dU11bDhNM2xyXzVpN0ZlMEtOaDA4bzloZXN2c2ltOXlmQ2x2TW0xdWRWeHRKWnFCMTZZM01hakdtSnhUQzVhRFQzd0VuRHNpT1FVdXpXUy1hSHVFNXFJdkg5ekJQb0VTNUpLRGtMRndDaHEtRDRwT2hqMlNFNTlscTZjRnU2NFE?oc=5",
-      "pubDate": "Tue, 29 Sep 2026 11:15:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Manchester United v West Ham United women's team | All You Need To Know",
+      "title": "West Ham United women's team v Southampton | All You Need To Know",
       "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbVZUU2YxODdNU29uZ0VCekYtYUFac05Od1FsYnJGblZpT2YyT3kyRkFrUWdpbV9ob25wUk9iYWgwN1o2ZXVTeUE0WVFDMHVkUHV0WXNPYVRrMGkwTHdFc0pfV19QTEVrdVFzR0Z0dWltYjF3WGRnWW9GRHJSWDdxZVBSNlB6bkZvZHB0Y0FYNmlLRFd0QWhmNmVUeDBIdU1SYnRJX2VBb2Z1aWdFcHNJMkFMQ0RrcnM?oc=5",
-      "pubDate": "Fri, 25 Sep 2026 14:38:49 GMT",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTUZDQ1ROMzZVeDVfUnd5aFF5MTFVQXZSWi0yZUFmY2U0NWJwT3ZINWF2WndMaE9PeFFKTGRNVjlJX2tJcUxnYWFHMXlDUXRmbjVsSFlic1hUT0t1aTBPWmpiQXVBenp6S194b042clNqdEpLLW5nbjZHVjhmYVp5T1AzaVdfVjBaUG94YUY3TF9wNGJxMzExbzJxSQ?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 11:02:50 GMT",
       "category": "general"
     },
     {
-      "title": "Club launch ‘Our West Ham United’ digital fan panel",
+      "title": "Czech and English football stand for Luděk Mikloško",
       "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbUhWaHNVbTF0UzQyNlZjanFYUUZjemlrOURjeWlhQkVmdzRvUVRxUklzQUR1VURsNW9vUVFnUURVRXczb1MteFhkRHItZkdIRlVDLTBGQ0lWd3F0dk1yU2VVLWgzcEt0SWh2NUxJSm1rdW9IYVlRd3JsQWpoZ3o0YnppaUdiQQ?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 16:01:45 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNejBEY0V5eHZGNC1nVzktMnJvS0VpWDgtT0dlWDNibU52a3hUWnhwaGVCdTVSbkZxUkJudXJGblQ5T0pPajNPdEVBRWJZd2NOaEN6VDFYQmQyMF85a1JxeXNGbzZuaVRLRzgwMHdrSzJyekkxNDY5dmw3SjNTTnJudXVGd0dIVW0x?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 19:08:04 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Getting To Know… Hammer City Irons",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SLWtIamxjbDJWNEFSangydHhBWkUzM1RRMHJxWjYwU3RXZXdIQTFoYVUwcG01NWpoZEg3cW4xd29fUmV2NVNSR3hndEkzZFlGZkRNRTNnX2E0ZG5YQmZGTnR5RjFSMGJaeEhPV2M2eTU?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 13:32:54 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Academy Internationals | Mayers and Obi in action",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSWpoWlEtTWhNS0NfN2xNU2t0aUlzcno0ZnBZa0xmNWxoM3F6RUpOa1Y0a01pRDgxeTJQeTlHUVdJcGF0LVpKUUcwZUxsLVBZZkhxOEg5TU1nQlQtM3JseTRYT21NV3ZKZ0RwUERYQ1hZcjY1d1poRnZIZlVzcE9IVjhseGozYmc?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 13:32:54 GMT",
       "category": "general"
     }
   ],
