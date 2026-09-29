@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T09:26:05.373Z",
+  "updated": "2026-09-29T09:31:14.602Z",
   "snapshot": {
     "1": 61,
     "2": 49,
@@ -21,7 +21,7 @@
     "18": 63,
     "19": 53,
     "20": 53,
-    "21": 49,
+    "21": 48,
     "22": 54,
     "23": 55,
     "24": 55,
@@ -531,7 +531,7 @@
     "528": 45,
     "529": 49,
     "530": 40,
-    "531": 45,
+    "531": 44,
     "532": 49,
     "533": 54,
     "534": 43,
@@ -543,7 +543,7 @@
     "540": 40,
     "541": 45,
     "542": 57,
-    "543": 54,
+    "543": 53,
     "544": 55,
     "545": 49,
     "546": 49,
@@ -563,7 +563,7 @@
     "560": 44,
     "561": 45,
     "562": 53,
-    "563": 50,
+    "563": 49,
     "564": 45,
     "565": 56,
     "566": 50,
@@ -671,20 +671,36 @@
   },
   "changes": [
     {
-      "id": 170,
-      "web_name": "Emegha",
-      "team_name": "Chelsea",
+      "id": 21,
+      "web_name": "Nørgaard",
+      "team_name": "Everton",
+      "direction": "fall",
+      "old_price": 49,
+      "new_price": 48
+    },
+    {
+      "id": 563,
+      "web_name": "Morita",
+      "team_name": "Hull City",
       "direction": "fall",
       "old_price": 50,
       "new_price": 49
     },
     {
-      "id": 249,
-      "web_name": "Barry",
-      "team_name": "Everton",
-      "direction": "rise",
-      "old_price": 56,
-      "new_price": 57
+      "id": 531,
+      "web_name": "Ellborg",
+      "team_name": "Sunderland",
+      "direction": "fall",
+      "old_price": 45,
+      "new_price": 44
+    },
+    {
+      "id": 543,
+      "web_name": "Diarra",
+      "team_name": "Sunderland",
+      "direction": "fall",
+      "old_price": 54,
+      "new_price": 53
     }
   ]
 }
