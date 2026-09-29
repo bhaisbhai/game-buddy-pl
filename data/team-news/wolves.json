@@ -1,6 +1,6 @@
 {
   "slug": "wolves",
-  "updated": "2026-09-28T22:49:47.138Z",
+  "updated": "2026-09-29T11:50:44.225Z",
   "articles": [
     {
       "title": "Defining Moments | Jean-Ricner Bellegarde | Features | Latest News",
@@ -10,8 +10,15 @@
       "category": "general"
     },
     {
-      "title": "Fans walking in memory of ex Villa and Wolves boss Graham Turner",
-      "source": "BBC",
+      "title": "Underrated Gold | Charlie Bamforth | Features | Latest News",
+      "source": "Wolverhampton Wanderers FC",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcENQbDNSd0g1Uy12STNSMFFyc0FESFkyTDFPZ3dvWEc1Y1ozWnpxZnBkT01GYlE3aXBiN2NfY29VdXNZMUY3RmVTS05TWVItZVFpMURrQUY5YTBnX05NUDEtMklsaG91Z2t4QVR2Zjd3LXExMmJSbV96cWxSVkx2Vk4zT2pBdmIw?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 07:03:17 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Fans walking in memory of ex Villa and Wolves boss Graham Taylor",
+      "source": "bbc.co.uk",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0bm5zMUp2VkRyZXhxb1psbWZ6ZWQxTlkxVHRPNHJwTWNKUlRrSnlsOFExMnJ3UjU4cW93VWR6QzhEel9zR0MyVmFoZ3V4ZC1oMjlOTjdQMll3UFlXZkE?oc=5",
       "pubDate": "Mon, 28 Sep 2026 13:01:30 GMT",
       "category": "general"
@@ -45,14 +52,7 @@
       "category": "match"
     },
     {
-      "title": "Wolves Express | Wolves Women hit their stride | Club | Latest News",
-      "source": "Wolverhampton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSC1qNE04NnJaa2U0SlczbzlZemtDclpQT011em5IYWEwbF9BOHRUd3hodWVQeHYzMVZBQmtpWlpRV0hjaF8yRGxxd3JjWEdjaWxLZlpiUHFBX0daZldBTERVckEwVFpLZFFNZzRjcjVpcHFUOVFIZ3o1WEN5SzYzelBPNmVMUG03ZEV0SEpGaTRwWVk?oc=5",
-      "pubDate": "Fri, 25 Sep 2026 13:08:02 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Fans walking in memory of ex Villa and Wolves boss Graham Turner",
+      "title": "Fans walking in memory of ex Villa and Wolves boss Graham Taylor",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55V0dQQkt1dzJMMWdIVVpZampZSGJnRHE2NU41MXp6N09rSkp5QnFKbzloRUR2bDBuWVN3X3VpYnZ0WG5kSXp6RXpzaUJEVVpXSjVVMGRQQWxVRzg?oc=5",
       "pubDate": "Mon, 28 Sep 2026 13:01:30 GMT",
@@ -80,32 +80,32 @@
       "category": "general"
     },
     {
+      "title": "Wolves Lottery support oncology rooms at New Cross | Club | Latest News",
+      "source": "Wolverhampton Wanderers FC",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWHpQVkQ3cmtneERfSjBsUm91WTdHekZCb2p1NzNXMWVVeFhXRDdWMzVSb2ZGNVRaZjdMZkJLeHZOVXpoU0F0VTRjQktZZmFYZlA1UHdqUEg4S0FBQTE5SEZ0QUhCOXQ0aHBoQjFuUXFHVFJEUlp2bTM2YkNtZ1p6dV9VT05rUGpJaEpOeERKTmdZWWFqZEdLWTFrUQ?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 09:33:43 GMT",
+      "category": "general"
+    },
+    {
+      "title": "SUDU Player of the Month voting open | Men's First-Team | Latest News",
+      "source": "Wolverhampton Wanderers FC",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUEhndTF2bUtuZ1ZoeGF4TEx4UWFocWhTVXpNLU1PaWJFb2FlZzY0WEVsQXFPb0xrYm1IVmFNUEFHUmk0bVREYmtmQjI2cHV5MFkwbWUzVlFBQTh5WjVld3RNWS11V1N5dzFLZEs1QlZKY1BjYjVXLVBIUzFqb25ubktheHFOLXQwMFRvendUUml4NGNiejY0?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 08:53:42 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Wolves Express | Wolves Women hit their stride | Club | Latest News",
+      "source": "Wolverhampton Wanderers FC",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSC1qNE04NnJaa2U0SlczbzlZemtDclpQT011em5IYWEwbF9BOHRUd3hodWVQeHYzMVZBQmtpWlpRV0hjaF8yRGxxd3JjWEdjaWxLZlpiUHFBX0daZldBTERVckEwVFpLZFFNZzRjcjVpcHFUOVFIZ3o1WEN5SzYzelBPNmVMUG03ZEV0SEpGaTRwWVk?oc=5",
+      "pubDate": "Fri, 25 Sep 2026 13:08:02 GMT",
+      "category": "general"
+    },
+    {
       "title": "U21 Report | Stoke City 4-0 Wolves | Academy | Latest News",
       "source": "Wolverhampton Wanderers FC",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVFhaQnRpdE1jQkxlekRLLTVpY1B3bW15ODEyQW8zS1NycnNCMVJBQmFfZTY0NUlNMk93cVZQQ3ZUdTZTTzNUVTNmUlBFTEZHbmhMdWoydkJXOGpDNnMtQ0pzTFAtYW13bHl5aXVlb2IxSjJreHZJUzJnYUQ2QTg2cTdrc0pGWmRxSEE?oc=5",
       "pubDate": "Fri, 11 Sep 2026 07:00:00 GMT",
       "category": "match"
-    },
-    {
-      "title": "How to watch Sheff United vs Wolves | Men's First-Team | Latest News | Wolverhampton Wanderers FC",
-      "source": "Wolverhampton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZi1Nc0ltX2FPX3BES3BqcjBORk5RX05aenNWdERxN3A3UHp6Tmt5VXhfaUtScFFDelpyVVQxX182YWxXREZZVUxWbVhaT3pUanl4VWpHc3pmR0ZMSU1TOVJpdzdXMTJqemJETlhmOW81bXFCQjRKLUpScXEzSGE2RzNKSDBWZmlCYUVuTFRyLXN2TWVEamc?oc=5",
-      "pubDate": "Fri, 11 Sep 2026 07:00:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Report | Sheff United 0-1 Wolves | Men's First-Team | Latest News",
-      "source": "Wolverhampton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSUVISUlSWWtEcWZWTmtvbTZ4UXlOVDNESDNYRjNHVnBqVVlIZjFodmtEMmhJQmlRSkNlYjhyUnVEZlVkVG0tU3NJc29tVGRmei1IaFFrbTJqamRSZFFfbjF4RzRBVjVkTXRxMDlKNFVKYUhUdnI4b0lIVW5EQjhER3E3c0VWWFVzTUY0SC02SQ?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 07:00:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Kalajdzic makes Wolves departure | Men's First-Team | Latest News",
-      "source": "Wolverhampton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORl9qV3dpU0VfZmJYdUdYbXNUbkR0RmMzV2pocGxlV1FON3NoSlV5blo1a2pmUURJMk5yOUxhOFNES1FpM1laUm1rYzAyTHZPOFRJTnp2T0JRT2stSG1mMnBIODRUb3BfaFlVWlE2QW9iUENXYl9PNTA1ODVkaXBSeWZCS2U0MXQ1bnQ0c3ZSbUJvdw?oc=5",
-      "pubDate": "Sun, 30 Aug 2026 07:00:00 GMT",
-      "category": "general"
     }
   ],
   "reddit": []

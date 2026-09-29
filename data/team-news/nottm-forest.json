@@ -1,6 +1,6 @@
 {
   "slug": "nottm-forest",
-  "updated": "2026-09-28T22:49:47.138Z",
+  "updated": "2026-09-29T11:50:44.225Z",
   "articles": [
     {
       "title": "Nottingham Forest expectation shifts as start under Oliver Glasner summed up in three words",
@@ -8,13 +8,6 @@
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZzdabDZTS05DQTYtRnRGSGFRa2N2SENZQjR2WkVuM2hnM3NzMUZ4SE9kbFd5T1FlcnNQdWljamxhdS16UVFUR3phQ0NqWWF0a3lzN08tN1dodEVCTnd5eFM2anZvR1FzcDJVVkFENk5STkZRN2I2YjBUeU1fTGxIeTRQZmR5cmpnR19qWWFhY3p5R1EtaGt6RGRDOW1XMjM0el84dHVXTmt4d2M?oc=5",
       "pubDate": "Mon, 28 Sep 2026 09:15:26 GMT",
       "category": "general"
-    },
-    {
-      "title": "Women's Report: Saints 1-1 Nottingham Forest",
-      "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdTdKSGtNLU4wdHA1UzVHUXJsdDRDd0x5THFIcUxrS0J5dko3WExpVlR5a0FlWnd1Tjkwel9iS3dSY1pGR01FdGVKVWhrSGk0bGx2bURxTGZQTXVFeDQ4RHJFYktScDVROVdtOEZVVTByTk9TZ0RJWjdONE9JRmVWMmNZUksyQW1YSk5sc2wtdk5rUQ?oc=5",
-      "pubDate": "Sun, 27 Sep 2026 15:25:00 GMT",
-      "category": "match"
     },
     {
       "title": "VOTE FOR YOUR SEPTEMBER POTM",
@@ -25,16 +18,9 @@
     },
     {
       "title": "Nottingham Forest won’t maintain their proud homegrown record for the sake of it",
-      "source": "The New York Times",
+      "source": "nytimes.com",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWHJJUGRueGRvMF9hLW9UVnp4WE05bjVydGRmNFItTlV0UnkxTFlEWURZZ2VyNHJ0eWk4YkhCQmtsOHNLejlNVFhJNUk4RjB5RGxzV2l5WENkOWpJZjZ0SHdfSldxR0hSaFo1d2tqRTRQa1BWOTlnQjVvcEZ4eHNDa1pBd2xYS2ZXcGNsV3B3b29UTFZ4bW9nQ3JaaWRJZXM?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 04:29:14 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Nottingham Forest's results after the first international break in 25/26, including woeful defeats",
-      "source": "nottinghamforest.news",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOY3phSDZFZWFPSGxvOVJpRE9JZEpuWFk4X0xTTmNZcURxaVpsUDBNd2gwMkE1RGxDVmgwTVFHUmVUVUk1eXRjcDRaU0JxYjk4SGhscjVkWC01UmMxa1JScWZlT2VuR1dmd3FKbWFSSjBpblhWcXRKbzREVEV2R0lOUGxjUVNuMWNzREY4dC1vTTVqa2hfSDFNczdxS09iM0s3YWJ2T1ZMeWs4azB4cHZiTHE1ZGp0YkV0VU1tYW9aZzJzaEU0ZFFUbUU1NWthaTVGeFZLckVvZWgzZw?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 11:00:00 GMT",
+      "pubDate": "Mon, 28 Sep 2026 04:45:06 GMT",
       "category": "general"
     },
     {
@@ -45,25 +31,32 @@
       "category": "match"
     },
     {
-      "title": "Coventry beat Forest to earn first points of season",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBaX2xpb1hTUGI1SXJhQXlmeVF1QzBvRHpYWlA4SDk5NTliVXN3UENyb0pOU01Wam1pVFo3MWV3WWlkWFFuZXJLYUlZYjdka3NTbHRoUldBR1dOUVRtOTg1eU92UlEyZw?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 07:00:00 GMT",
+      "title": "Nottingham Forest's results after the first international break in 25/26, including woeful defeats",
+      "source": "nottinghamforest.news",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOY3phSDZFZWFPSGxvOVJpRE9JZEpuWFk4X0xTTmNZcURxaVpsUDBNd2gwMkE1RGxDVmgwTVFHUmVUVUk1eXRjcDRaU0JxYjk4SGhscjVkWC01UmMxa1JScWZlT2VuR1dmd3FKbWFSSjBpblhWcXRKbzREVEV2R0lOUGxjUVNuMWNzREY4dC1vTTVqa2hfSDFNczdxS09iM0s3YWJ2T1ZMeWs4azB4cHZiTHE1ZGp0YkV0VU1tYW9aZzJzaEU0ZFFUbUU1NWthaTVGeFZLckVvZWgzZw?oc=5",
+      "pubDate": "Mon, 28 Sep 2026 11:00:00 GMT",
       "category": "general"
+    },
+    {
+      "title": "Villa 1-2 Nottingham Forest. Unai Emery's side remain winless after Forest defeat",
+      "source": "bbc.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE40MllHbWhHUU1tbTYwWlNIbjI5U0ZfczZaSnhNNzd6dHhYOXNneFlaeHdKQVRqR3BEREZZQmpvYXpqSjdNQXVzWTBmZm90T2JPS0MtajQ4SktlMV9zNTJlbmdxM1Bydw?oc=5",
+      "pubDate": "Sat, 12 Sep 2026 07:00:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Women's Report: Saints 1-1 Nottingham Forest",
+      "source": "Southampton FC Official Site",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdTdKSGtNLU4wdHA1UzVHUXJsdDRDd0x5THFIcUxrS0J5dko3WExpVlR5a0FlWnd1Tjkwel9iS3dSY1pGR01FdGVKVWhrSGk0bGx2bURxTGZQTXVFeDQ4RHJFYktScDVROVdtOEZVVTByTk9TZ0RJWjdONE9JRmVWMmNZUksyQW1YSk5sc2wtdk5rUQ?oc=5",
+      "pubDate": "Sun, 27 Sep 2026 15:25:00 GMT",
+      "category": "match"
     },
     {
       "title": "Nottm Forest 0-1 Leeds, Everton 2-0 Crystal Palace, Ipswich 2-1 Sunderland: football clockwatch – as it happened",
-      "source": "theguardian.com",
+      "source": "The Guardian",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNcHdDLTJZNlpONEtxV1JUa2trSFU4U2lBOUtZdURRS3drVVFiTUF5Q21acnM4b1RqdDJTTFNReUZYYmJxT3RwR2tjbnRmdENUajhGNHVmMmVMV0lFOGg2Z0NEaExOSUpaZVNsNHhMVW9kVlJ1VEhJWFVXTkF5cUhQVFAxVG1pT1pBUlY0MHFrRmhpQzAtVERrRGo5NkRXS3QxQWZDVmcyUkh0ZXZ0RG1YS3lkSmQyd3FKcjF5ZWFXMUZUanZ2NG9qRllvcDczN3VuaTZJMk52eXUwQQ?oc=5",
       "pubDate": "Sat, 22 Aug 2026 07:00:00 GMT",
       "category": "general"
-    },
-    {
-      "title": "Chelsea and Liverpool set for box office £70m transfer battle as Nottingham Forest make £10m signing decision",
-      "source": "3 Added Minutes",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObjA5b3JCUElLRFJsZzl4eThBSTRsdHNza3hRbDNNbkFTSGNMZGIzbGFpY1VHNzN1ZS1EWXNqZ2ZqcHAtUTRPLTNzOTB3amluR2RjMVV2MnAzSThSQ281QnhSa1NlTjF5bVQ2QTVhdnRDZHdpU3FFdkR1UzJhMjFzVEgzalhiN1o3RzlaUEt1NlNOTmN6LXUxYTduWUNYZWVfa0ZhQmdibjlIaFREV3ZwM3F6aHdLM1RlcVF4MExsVjRKMUFRUE9UQUZTZXprdFE?oc=5",
-      "pubDate": "Sat, 26 Sep 2026 06:00:00 GMT",
-      "category": "transfer"
     },
     {
       "title": "Saints Women held by Forest after Jupp scores first senior goal",
@@ -73,39 +66,46 @@
       "category": "match"
     },
     {
-      "title": "Glasner the first Nottingham Forest boss 'to help Marinakis save money'",
+      "title": "Evangelos Marinakis should be 'screaming like Zeus' about Man City after Nottingham Forest sanction",
       "source": "Nottingham Post",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVmZDY1JiZXZVbjVFLXh0dmM3RkFZT24xOVQ0QWJaaGtFT0Jzc3NadGF6eGVGaEdsT29RNkkzNy1lVWEyY3dFOXZMUS1sRHZ4WFFnTS12ajlHdFJFVDMwRXlIZFEtc0o1cTVicDZvdDlVM01fNkMzRHdJdW8yOEJzQTExVk9tVEVsQW00NVR3amhQVTJiaE5tY2d3SnhpUkFKd2RRc2lGRFNaMU0xMl9McjBsb00?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWjYyOHM0djRPbm9QZ2JSX1p4aWEyUV9YRGVUUGE3anhxdGRKQVRkbTdvakhPeVJLQV8xdEVXbF9tdFpfV0xmWHptb0JzaGdVOEJBM3lmaVVMTlBqQnB0U2RCVFYtY3JDVGhxTVRJdnVnQTBCYlFBWDh3OUg1VlRIejRxajZSbHhqMy00VDRKZ2Z6U1cxVUZEaTEzZHhNaU0yenQwZlpsV2g?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 05:06:04 GMT",
+      "category": "general"
+    },
+    {
+      "title": "TICKET DETAILS | ARSENAL (H)",
+      "source": "Nottingham Forest FC",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVTVGOHVfRmtsb2wxaW45d1RRTWh5X2ptaFFIZU9iLW9kTm9UZkdTRVRLVmNHanFLd0M2eUZwaEVaQThpMVpVNE9EUkFQbklzQnVROFlWU0h3d2xRYlFEVTQ5S3o0VG96NHJBZVZydFQzNHl0b1g3NFdFY01YOTR3M1RQdmRzUnRYYVZuX0ZQN2c?oc=5",
+      "pubDate": "Sat, 26 Sep 2026 10:26:59 GMT",
+      "category": "general"
+    },
+    {
+      "title": "KSS-designed Nottingham Forest FC stadium expansion approved",
+      "source": "The Architects’ Journal",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRVpSa3VFbkV1ZzNGbTdDYnhaR2wwVWJpRDJSa1EwR2xqSWowWkltV1dOVlFfeE9IUk1IUmhTcVcwRndjS0tuQThhVm45aTZybXJMV0VsODJBWno3V003c3RldXFtVUphaGd2ZHp5YlpDSF9ub254TWFuemxudEFzcjFyY19hbl9wTWVuWFMzNG1zRlBuZzZvcU0zdTVMTVdXTl9j?oc=5",
+      "pubDate": "Thu, 24 Sep 2026 08:48:22 GMT",
+      "category": "general"
+    },
+    {
+      "title": "£700m Nottingham Forest stadium expansion approved - facilitiesmanagement",
+      "source": "facilitiesmanagement-now.com",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVFE0X21TR2xOb3F1WEZ6U3dPUW15U0lIMEVzcll1YWhQYk5QRDN3S1dGSUtMR2U3Qjl3NDdObzdIdU94YklfM3lqQ3FUajVDR1FZVTViNWtEQ2FfZF96aWlscU5Id2ZSVHlUTHVXaExScmJSb184eU1HTkkteExSaXlBWXJRMWhEMzBHTWtUQVVtdFVRVE1OcVRXTTNBRzcxVEhhZW5HQTU?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 10:16:41 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Nottingham Forest boss Oliver Glasner angry with VAR handball call",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaOHdvOGVQbC0zNWw0SmVZTnB4UkFhbldGTklLTXh5c1NkbEpkMlRIckNSNXhGUTh6WjlHb1BsTG52MXpRWGM2LTA3TmRmQldaX0h4aUpQcUJqRUVSSVRWWnRzTnRralk?oc=5",
       "pubDate": "Sat, 05 Sep 2026 07:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "Brentford v Nottingham Forest",
-      "source": "Brentford FC",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYWZQa3lGd24wb2M3MnhPVVZ0azJkMmVzSFV5dnZSb085NF9PazdVWHBUdTJzUEljMldsWTZSWGh4V0c0dDBPc25LdzVyMGF0ejJndUJ4VlhyaEtWZUozZjNXWkNodDZqbFdXV1NmV2tCSm9UWVF6V3luVU1zRUxiaE84OTV6NjRhbGZxc2RoWG44QVpNTWtpWW8zLWRXd0ZoNU12ZmdaQ3o0ZWQ2?oc=5",
-      "pubDate": "Wed, 23 Sep 2026 07:35:25 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Nottm Forest 0-1 Leeds (22 Aug, 2026) Final Score",
-      "source": "ESPN",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQmk5Z3pOQnQyYXVJT3k4X3EyXy1DdHljZENBd2VWeURkR0dvWGRXbXRnX2pHQ1BhajZKYUU0QUtVQjY3MHlXeGpSZ2hsVzc1cDlMS0tnNlBqNHMyNVF1anhpUWtLaEtFdk5zNlJyS29KY1lMajNYazZKYVdQVC05S3BsSTNIdlF5NGZpNGNZNFU?oc=5",
-      "pubDate": "Sun, 20 Sep 2026 07:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Nottingham Forest FC / Manchester United FC - Premier League - The City Ground, Nottingham, Nottinghamshire",
-      "source": "Manchester United Website",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYUxoSnNNeTNybTRkZWJidERvUl9XZVd3RzlqczRUcXE0UUg2OENYT2hSaTB3Sk5EX0poWGp5MVo3LVZEZnBxX3dzYUlNN01VUzFGcjltZ3FFVUx2SWRmX1pKSWx3a2tNUGZNeENvaVowanJTS0V1TElRSlBfeHp5RnlQWlRFTVhHRVNkbm9zbFRucXpBU2treTNReHBJWGhTeHg2Y244STl3OGpzY0lJ?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 00:21:05 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Nottingham Forest expectations shift as Oliver Glasner start summed up in three words",
-      "source": "OneFootball",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNY1J6VWdmdVRnMDIyNXRSRU5uNk9VN3VVQnRzemhneXgwUDNGQlZzYUc3N3RrSFpiN3N2V2lpcjJjbDgzNnVMbXdZUjFZZ1duTnl1S3dobGlEUTFNN1RkNkR5RFBNaXRtRktDTm9IdjRTMV9BME1lRHU0aXJVa2NXRXdqMUg3bnRDemJzeHJfNlFyWXN6VWJoa0lMZDFJSUk1VWxxWnNzV1ZZX29scmx3WjhUNUdsY1VkMTY1MktZMjVTSHNE?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 10:37:42 GMT",
-      "category": "general"
+      "title": "Saints Women boss Parker hails Jupp after scoring first senior goal",
+      "source": "Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQenluZE0yZnhyUDY3VDhMbEdqbnpVVlRJZUp4VVd6N1ExY05QaUYzVmxNR2ZnN3BNbko0OEYzNHpCci15cWhXcDU3RkxnYlJTemdWWm8takxON1FSaFdnNWVXWFZ2Q0xfdDR4ZXJJbmJtdVJZMUlOMlhWYXZ6ME1sMVlMWUI?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 10:13:15 GMT",
+      "category": "match"
     }
   ],
   "reddit": []

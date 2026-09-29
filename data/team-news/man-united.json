@@ -1,20 +1,83 @@
 {
   "slug": "man-united",
-  "updated": "2026-09-28T22:49:47.138Z",
+  "updated": "2026-09-29T11:50:44.225Z",
   "articles": [
     {
-      "title": "Konde joins United",
+      "title": "Transfer news LIVE: Haaland responds to Arsenal; Man Utd confirm deal",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdUlfTEN3dUt4VXVpQkNYNElMbVlQQjFyZG1FODE1TXJseDB3V19sS1M3Q1FfQmVBZm1SOC1YaUtIZFNma2EwTUYwc0FuNjhScm5vd1NBTzdhTXgzaTZnTC02UTQ5YXlPQUJrcktWWk9aVmJ3THVfS0JrZWVjMnA5cmR0LWhMLU0zb3FqLUFFNUhjUHdmYzdHVkJzN0JYWjctVTFTWFQ1M09YOGJfLW1IdHFnNGs1b0R1OHg0?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 09:39:56 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Portugal issue new Bruno Fernandes injury statement as Man United handed update",
+      "source": "Manchester Evening News",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeXdaT1VmM0twejl6c0t0d0R4VVpVZ3F4SWktWHRHbFB0eVFFMWZPclVGenRWakJqbGMzcXN2SHd2YTF6VWNWVkxmZVVUMGpEVi13N1FjZ3ZqRU1obDZieXhESERTZElOano5OHcwQWdjVHJyY1cwZkJnTS0telNYaF9kVUZHak1nZlZjLVhyQlQwamNwNF9GcHFfemUtRm9fWXRPSDZGc2h1b1d40gGyAUFVX3lxTE1kNUZVMHVWalIyX05YTlhycTBOdG9vekJOMi1xbHljaXliaHJ2LVAxYVlUUnBXUTJxM0x2OTVhZnRaekktb3ljdmdKbTl3dXNsWllEUHVudi1MNW9xRGt3UzNEaFFGelVrOTZ4bVY0d1hRZ19NV3NBeUVSMjlhQUVoMzlMLXpKUmRSc3oxQkljUzI1cldMUU1qRnJqNGlpbjNEZ3hia2d2bmx4dDNaWi1NdFE?oc=5",
+      "pubDate": "Sun, 27 Sep 2026 14:54:00 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "Latest on Dorgu and Fernandes fitness",
       "source": "Manchester United Website",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3cHRrdnZTVi05NmJGYWRBX2FGOWVCRklMMFF2bVZkQW8zck96SnJHaWkwZm9MRERZOWRKeWt3bk5JWVQtU09UODc4M2V0Z3doU1Z2MmhaV1lta2VSenE3WTczTVVLUQ?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 13:01:05 GMT",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaFZmM0pSODhsQld0Z2h5VXJ6Y192V0lmMl9qazd1elhicWNoZ05OM002VXA1Skd1Nzk4NkJLdGxrTDZSQ2o4NjJxdVdrV0ZCSGVpNktBdnNrdUFfSnN3QlpjQTc1N0pueGc0VVkzMm10eGRuOVR3amVXOWE3TmZzd1R0WGlWV0k?oc=5",
+      "pubDate": "Mon, 28 Sep 2026 20:43:23 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "'Manchester United want to keep him happy!' | Should Michael Carrick's side have withdrawn Bruno Fernandes from international duty?",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNWEREai1vMENtU3hIZ2pEUDBHZXhqYm5Dc2NKNUJ6UU92anpHZG9yVm8xVHNyS0JRSmxFYmQxNHNKbFphNF9LYzNKRVBqMTg4ZERRZFRTcDBxUUh6UzloRTVEZ20wNENSelFYV1BUTXAxSG5fM3VoS1RwNVJtanFUWW52b1BveTFSdDhhX3NURnRvNThPSlphSzJUWG0xZm55OGlBUHg5NFJXSEROM082NUtyWUNNSHJVbE5rMVgta2RrV1ZZdzBwUEkzNmhXSTJHUUdQLU8yTk5XUWNrVzlNaVZaVDlZQzd4c2J3Y3VpdFRMeEFwbXVmU1hhVl84X3c0MmpvTA?oc=5",
+      "pubDate": "Mon, 28 Sep 2026 10:00:19 GMT",
       "category": "general"
     },
     {
-      "title": "Transfer news LIVE: Arsenal 'make shock Haaland move'; Man Utd done deal; Chelsea, Liverpool latest",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPTFljclBmSzE0VU13Yk45WDJHbllmOG5WajBXWVJLVGh3bHNPTkFnS2VUN1NEMWFmR2JsYVR1UDBNR1VsWHRPMDVBWWxOOWdfT3JDMmFmb1JRbHRYYmlDbFptcmxPUlllNFBvMGItcTdaVHVJUUxrdGhYaUxzTmJ4RlRuUTl0QlFjX1MzV3AzQUk0Nkt3UDZtR3VwRkNhNW9yV2dJS01xX3JKYTM0RTlVdUlrcmEtV3pyWUg3dExOUUlZUmVBZ0dHZnpreHJ5dw?oc=5",
-      "pubDate": "Sat, 06 Jun 2026 07:30:41 GMT",
+      "title": "Patrick Vieira reveals Manchester United, Sir Alex Ferguson talks during Arsenal stint",
+      "source": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQX3B0b0kwZktkQ3BLZXQ3cUhGQ21hbGRGTllfU20wS2RCYlFhRlFsa2d6UDhZX0h6TU5TeXc1TVRLbUxfQ1JpRzE2WUZROVpTR0VaZWU0VGNqNHI0cHQ3V3NrU3lWREdvcExadmIyU2xyQTBHUldLdHdTbUF1UW1oTmRMeVREaU1nZWVoQXFHVk16cWlOZ2hILXJLNDFnWmNiWEJKRzJUNDAtNUEtdHhhMHB1emJULXBNMG45OFlhYTFtSjBnMlNOQjB3?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 08:24:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Jason Wilcox wants Man Utd to sign France striker to replace Joshua Zirkzee",
+      "source": "football365.com",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMmx1LVJZSUZkLWtweFhoVlFuM0tMak1VOTl0eWlodlc2aHhpNjVjby1GRFZOMkUxRlZFWmtLUjNHZXBVQ1VUVFhEd3F5OWtlNlU5dWs0TE1tcUxNNEVmZU5WZnliVEViTFRIdXhfMGtnazZhQ2NSdVVqMXlMTkYyUTBoRTUwVkZwSGZWUUdWdFlvTHF4NWotYzNoMUo5NEN0MXlNU0RKSFB6V3FYTDhMdw?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 09:07:34 GMT",
       "category": "transfer"
+    },
+    {
+      "title": "Man Utd confirm transfer as Michael Carrick told to replace Senne Lammens in £142m raid",
+      "source": "express.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbnJtekVKY2cwWnN1YUZzR0lnaDFGMl8yMDUzaGl3YXFhcGJYVlM0aUR1M2NpQTRhQ0RqS0doR1ItTHV3RTRxYUZIWjB1eEExS296T19lUTZCUkVnaWN4NlhCNGxiY3FCTTY4TnE1VzY2SVJpQkQyQS1ITlpVNzhRUDhWUENUdDFaMVRGR3QydUNtWHPSAZgBQVVfeXFMUEJTRzNwNExXWjVXdkZldDdxMUZNbHIyQkt0bW5BRENLSDVYR205UDBCcFRlX2c1ZWVzTlZvWThqR3g4aEFSRDFTRFZLenNmOG5zWG9NUW8tVFNCYUdBd0w1bmhaSnhKdUI5a3ExUDJrbnpTcWdRQnl6SWdfVzB3Mk1BVEtkeW4tbGUyWU1pOGZOQlR4dDg5dFM?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 07:03:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Eddie Howe’s next move: Man Utd and England among options",
+      "source": "The Telegraph",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNN2lGTUt5R1JhZi1kMHJTbWc4Mk83R295d3BXYlY1alhfQVB0RHJvMGE1TlhobzQ3U0E5ajBQODA3a1FUdy1qUTBVcmtMakhMcW5Rekc3MzRjVlJlZjRIZTl6Qk1ZWEJ5VUhfZWpwZ0xMWnV1cDhCRVdYTVBMc0oyQ1o1RUpZd1BnX2ZGUWRkSFo1WDRVUl9rSDRVZ3RQemhrMmpEcGM3WQ?oc=5",
+      "pubDate": "Mon, 28 Sep 2026 08:03:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Sancho career hits new low as ex-Man Utd star rejected after training at Flixton",
+      "source": "The Sun",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTW9aM0w3YTNieTY4cGZQV2dQZXBVaHMxOXVxcng5MGZPZFlYR1JwSmYyOVZiR2g5Q2R0Z2F3bS1BaGJkWWZiemRBTkptZ1J4QjBxTkR4OUxEUUdkSEl0YVF2c2cyM2dMSTlKcHFPcW1mZFoyd2s2OGJ4YmZrME0yWi1CN2gxZw?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 06:59:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Man Utd co-owner Jim Ratcliffe did not give permission for comments to be used in Reform UK video - The Athletic",
+      "source": "nytimes.com",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMlRGSXhmR1R5VGhZVThmV24wNS0yWFR1OU9qN29NWDRKNEJEY1JIdjEzZFB0Y0NfS1RIaWtuZkc3X0NUQXd4aFlRYjVmY0ZfZ2RuNHpSX1lfTHFSX0xjUldBRHF1SGxDOWlXTnd6VDNlSDFxZVVja09XcV8tS1JHUlZ4ZVpSbFRkakZQRnBQZENPeEw0ZFE?oc=5",
+      "pubDate": "Mon, 28 Sep 2026 12:36:36 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Man United 'agree secret friendly' with Sir Jim Ratcliffe-owned club",
+      "source": "Manchester Evening News",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPclk1aExYa2ZidlBpVldBUjBscnlDLWZJb2NTTkJXN04tV1FHcmVrYllLemRoZ1JFeGVzUFdzMmNnQWdXU2RuTFlaR1JCQ0FRVU92OHVmVzV3RExNZ3l5RkltaFVTVmo0akZzRExlbnlOanEyQkV6dWl4V1p2WG9aeXpOdGJzMFE3LVlnR0puZ2NhVFpFVFFKUC11R2RyQkEtWjFCT3BBcFN0bXh5UHp3dXdjT1ZrajRjRkhlUi1n0gHDAUFVX3lxTFBfbHJYWE1tVEVzZFh5NzhaNGg4ZFcta1pab0Z1b3BWc2Z3ZllVUjZpZldzSXlIaGhaVnNLeUJVZllJOElEQ1d5YjdZdnVBSmVNd3c5V0pjT2dtVU1CejJYT3VlaFFsVWxHWF9zOXFpUW1OZjBONEFXUnduMG5hY3Fxc3lOUmxyaDJkWFRaWmROSW5hb0VNMlFDWkFzbDV3N0ZpaXlVb1MtRTB5bmlSRWI3RzNXb0NQTDR5cUhKdE9PT0sydw?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 08:41:00 GMT",
+      "category": "general"
     },
     {
       "title": "Sir Jim Ratcliffe unhappy with being included in Reform video",
@@ -24,87 +87,24 @@
       "category": "general"
     },
     {
-      "title": "Patrick Vieira reveals he could've left Arsenal for Man United",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOek9YV1B2VGRtVDFtZmpNOG5YWnhUQlpEMlpXOTEtSzdkM0F3THhjLVlac19udnhYdy1QN0I1ckk5R0xWb21PWmdJc2VnMmlPcl9RMHpRVk1JWERqS0l3UHNsU3B2TVhHeVBrMTh3V1JFVkhGb01ZM1pkQVVfTXdtR3lPYW1yaGZPdm5pRnpFWkFuMXVwNEFkMlItRHJ6aFlGenVKaWJaNm1QNGNNVUJjaVB5Tl9VcWttWVlwUWxqZE91T3lv?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 20:17:43 GMT",
-      "category": "general"
+      "title": "Carrick seemingly on verge of major injury boost after ‘unstoppable’ Man Utd star drops social media hint",
+      "source": "utdreport.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNOGU2V3c2dFRkellDNFN1eEpvcjk0XzFiNUMyaGI3RWNLR1p2eG9wV0VpNFJnMTRRaUR1UlRkYjdCWlhMdDh2Y1Zwc3dpWk40WXpNMFhuakhBUWdpaFFpWXhTTVRpSE9wdEE1ZnJ5azgxSVRmd0kzR3ZBb1Y2WGdTTmdCRExBb1kzelFVXzVBM1FrYXk2QzdYRE9EYk4xWEttdFhoYk5Kb9IBrAFBVV95cUxQSDZkVlU1TWlPUUNKbF9SdmQ0NjlQU25GRWJmV1JybzFSNGZfN3IxYTVRX2MtOG1DejNxajBWMWJMR19iZS1Kb2J2TlRnclZvdU9IN0M0NGRULXh0UzZ3cFZwcHp5Q1lOeUpGRnlSNFJIM2pMTGhIWmVIU2JCeEZ4Qk5Ka2ltd2VHRmt5d1daY3dHZHNqZ1VvZVhZbG9YUjdmOEpLVUlPcno5YjNr?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 10:36:14 GMT",
+      "category": "fitness"
     },
     {
-      "title": "JJ Gabriel warned about harsh reality of his Man Utd decision - 'I made a mistake leaving'",
+      "title": "Man Utd news: Barcelona transfer to be revived in January as JJ Gabriel behaviour questioned",
       "source": "The Mirror",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMXB1MHJtNUt1dnhmZlZkN0dBY09hUmhsVU85OFY2YVBiRFJkaElHOXdGUGtzbUZYZE93cDJHdEw3a3BKZmxBZk9iZkQ3SkF2OURfaDgycm5zS0RWMTNBbkZTbFFCVDdUS0RRQTdqRXU3RGxaRFM2MWVEMHFZNlBuMjNxNEJxcVXSAYwBQVVfeXFMTUFlblpVZ1h3cUhCcEV2Nkk5anBuT0NJd0J6VzlJZ2NsWlp5WVJpS3ZLbjg2RWZjYUwzdHc2Mk5NZ2h3TnRLV2tSUzRBUlFTX3ZEdndtQk9uSi0tX1N1OUhNVnlFVFowelVCVEFEWVd2Wm9ud2gyanpYNERUbnBUVl9xSjd2b011c2pSLWU?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 09:17:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Rio Ferdinand makes JJ Gabriel claim after Manchester United transfer request",
-      "source": "Metro.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYVl6WUJXYkI2bVdxdnpfc3dSQmxQS0t3TVVDbzYxTjdaUTlLVFdxNDE1dXZhUk5kdHpGSnBoVEJEU0JZQTNRbWFUY1FCckYxcWxmVEFPektNei0tMnp1ZVFwWTVTS1VhTzBPTWNra1l4V3AycHA4Wi1MckVEMEtnaGExbjdTZ1o2NG1Sd1lxd250ZlJDOW9CUEZKOEFXN0owYWJnYlRxamRCV2UwZVlVeXN30gG3AUFVX3lxTFBCOE1lSURSQTkyYUFLZDY4aERuU1pPeFNCYUM1VFl2c0Z2cE1ORHBXdEZ2S2VwOTk1ZEJzdVp2WXRnN0pRTUV6TnRYWGpmWEFXLTZJOTQ2U1FzaGZaNXRlTWFrbEV3M2ktNGpwenAzN3YwVjdnQXNpRnBPYkxrTVJIQjBleHVRTHdzU2p1UWV5Y2ptT2J5X0prbjZ0TldZT2hWWnRGbXR3bm94RUVhZ053aFhobjgyTQ?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 18:20:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdmFwWVFKUzU2MTdKNUc0UVFTaWhGd1JjNmdjbFdpdFY1LUE0Z01aclQwLXhteUxma0hKVW9jaG1JOGRocUxhc0N0VkhNODFYR0J0RUpRRHVNOEhEZlFqR09UUXhPVzlLeDNJaWdKWUpvZ296OE5adDVXVkJ1cTJOOWo2YklPR1JOcS10TXA5TWRobXIxMGfSAZsBQVVfeXFMUE5EVC05TG81NFFkMGJ1ZkpuSDd0YXRpUEVTVldjNU5zUGdWeTVkNy1aOU14WWx1RjRfenF4QVY4UE5ZOF80cThFS012LTdlc01Ba21ySFBNT0FnSVhSUmQ5N1o1a1JpTVBLVGJSbHBCM045cGtuOTRHTEo5c3JpMVFUS3E3SjR3cUxkUGJYUjU3SHBqVlVtSkdXTmM?oc=5",
+      "pubDate": "Mon, 28 Sep 2026 03:30:00 GMT",
       "category": "transfer"
     },
     {
-      "title": "Man United latest: JJ Gabriel 'damages relationships' and January transfer back on the cards",
+      "title": "Rio Ferdinand shares JJ Gabriel theory as Man United 'identify wonderkid's replacement'",
       "source": "Manchester Evening News",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZ29zbko2VzdaUmNacTl6THFmdzhta1IySzZKQk5kVGpvdzR1T0wyeXpQT1A4NUotaWxEZDRzSmdxQWtVdGFnVjg5S09xRDlDbFZPU3YzYUZoMHJ3YUdBY2pEb2t2cHVQWUQ0RjZJcTVVSW5RdGpHLUdzdlZvaTY5dkU1VzlEbzdHUnZQX0RyeXR2MHhfakg3Ri1HdFh6Q24xT0U5dGx6NzA5UdIBrwFBVV95cUxNTjFTSk5xWnQ3Tm5TUm5va1NEcHZCNzJCdDdIaldOcm9qRzh6NUpMSENka0Z5NWdkcjkwSmduTHhxVDJDRXJoRUhBUm1HY0hSWUMtSXJRT3g2cDZ5aGpQa1NEcGdZRFFIRUNrcE5KQUcxX1VhMDdrNkZkU0ljR1hiMFNLRGk0b0prdkZ2eGNlclE3a1h2T3NTbHVmeVFQQ0hadDg0ejBFaVR2Nzh1M0lF?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 04:30:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "The former Man United stars who joined for £300million now available on free transfers including world record deal",
-      "source": "The Sun",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVWdmeERZUFQ2WEVkVmZFMXZwMG5Sa2l1cmhFUjFQbEpGdmEzVEVaaHpZU1lsVTM5bGphSHRaczNPc19CWmM3dU1UZWZnM3ljelZ2V0YxOExIa2o4NV81UE1HU3VCcFhMLVZjV3kxS3JVZVR0X0ZwS2Q3N0NzY0VnaFdIVW5XZw?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 10:34:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Man Utd squad's stance on sacking Michael Carrick after poor start to new season",
-      "source": "Metro.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdjJyN3BIeEoydHplNlhQWEZRUmhHRG9sS3c5LVNBcERaS1ZHeXNoSXkyNGZIVkg5dW12ZUJaRWJJc2hwNUpHUW55SU9wUlJvRVpib2tfREFPdEpKMlVzdmQySk9sZzZIWFZNTmlER1FadzE5NVRLRldFa1JFZ2RDMm5xWVhDN1RfakZpVXVWNUlTREdiRDVNOERUS1Rud0VpV1Q3djBsdkhtZXZ00gGyAUFVX3lxTE5ORklqVjRid2lVUS1hbEx1amJIa3hONDlFVS1TUXpWVldOZ0ctMjEtdE5pYzVncUgxd1JFZDFuSjZoeEdHSEQ5c1JOQmFNWnJLcW1LYWxVZW5WYnFFbGZ2S0p2Q01NdWtWYWhMcjBzWktYU09Rc25OOC1hS1Zpc1lSTnA3WTVjdFJjM1NnTlNtWlZoejNpNjV3WkN4UzlqQmMyTUFqOE1ydEFqdFd6ckxQU3c?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 10:07:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Man Utd dressing room's stance on sacking Michael Carrick as club make decision",
-      "source": "Daily Express",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNWpNc0JzM29kV1B4WXVEUlU3N3R5UTRuT2JJOTlrZk9ZQTlBNjZwc1lIV09MRzVSY3VyeXJVQW9MYk1rVGJfT2tOR3MtQlI2QVFfSDNGV1pZdmJxX296YS0wVmEwVnQ0RXloWUNqWUFBRW1hcE5ySlBxMHVoM214a25udm4xQ1Flblhr0gGQAUFVX3lxTE94TnNqa3F6UWUyeV9VLXBoVnhMLXRwclc2alljektRcHVtNjIwOGdBOE1PeVE0WUV5Z3lKTXFzNG5MVVJCQi03ODc0ckw1aTlrcW1SRm51NDRpbHo4SFNhb185RDdmV0xFcXNuZ3cxc013LUJHc0lleXFrdEpTemZNYUR5R2VmRm5BazN4NlJRUQ?oc=5",
-      "pubDate": "Sun, 27 Sep 2026 15:43:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "'Manchester United want to keep him happy!' | Should Michael Carrick's side have withdrawn Bruno Fernandes from international duty?",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNWEREai1vMENtU3hIZ2pEUDBHZXhqYm5Dc2NKNUJ6UU92anpHZG9yVm8xVHNyS0JRSmxFYmQxNHNKbFphNF9LYzNKRVBqMTg4ZERRZFRTcDBxUUh6UzloRTVEZ20wNENSelFYV1BUTXAxSG5fM3VoS1RwNVJtanFUWW52b1BveTFSdDhhX3NURnRvNThPSlphSzJUWG0xZm55OGlBUHg5NFJXSEROM082NUtyWUNNSHJVbE5rMVgta2RrV1ZZdzBwUEkzNmhXSTJHUUdQLU8yTk5XUWNrVzlNaVZaVDlZQzd4c2J3Y3VpdFRMeEFwbXVmU1hhVl84X3c0MmpvTA?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 09:56:35 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Roy Keane could quit ITV and Sky Sports as Man United icon waiting for imminent call",
-      "source": "Manchester Evening News",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSjNMZnZzNWhSQXVMUHpfNm9iLWFDdi1URm9ERTVveDU1RkR3T0c3dEc2SjhLR1pfSGt3Y3VUQ0R1MDVLel9qWU80bFcyY3F0SXFReGZLOXd2dEtLWXBESkJYcEIxTjZZelp4QkJxZDBubFNTSzFTU2l0M3ZPRVhyRDQzYkJhOXhlMUkzcXFZN1RTeVMzcXVJdXowMXhTMGlsOGfSAacBQVVfeXFMTlVEM3gzTmVycWpSUnRTNEF4bVNYWmhDaHVlckVwWmJQOWV1T1BRdkdqNG95MWFnZDFHZU9IUGQ4UUJuODRPRzY0VVdtLUQyd0tOenRiRENXa1Z3OXluWDdvdXJYRnlLdXljQ0tFUGI0T0pPaWtmZTNzbk9FWFhfNXo3a1JJNTVadVlCdUhkWnZpNF82dWlaS2c4X2NxSjMxaFVZZDlLbUE?oc=5",
-      "pubDate": "Sun, 27 Sep 2026 17:02:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "How much could Man City owe Arsenal, Man Utd and Chelsea in compensation?",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPd1drVWVxRFNCVmNjelN1MEJrQTFwdHJXWGdHMmpUdEllUmdoeHIxZzVsOGp4WS1wZnA5WUN1TkhmTldfWDgyam9RZWlWckZMbU0xVG5uZEQwZEhtNHMtbGJ3RlRGXzZqUGdhclFPc3JsYUNwb0V1czljMjNFZDdxQjJDUzZFc0Z2YjFGSnJWTWdXSFl4cXZOVGRGQ2tidS1UbWlrZFhxeVM3bG9lSzB4TWl3?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 12:53:03 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Agbonlahor: Man Utd Could Sign Man City Star for Half Price in Audacious Double Raid",
-      "source": "GiveMeSport",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRktBT0xXT0RxZWhnY2JpZk5ubmFTNXFuZjNJU3AtTm55ZE9tQk5kV1IzWWdYVlprc1dBX2VBUU14b2ZFdnR2VWZkOUhhb1p0Y1ZKZTc1SzFfSjJkRDBDOC0yTXB4a25yYmdmZ25FeFptZTZVaW0tT2FvRE9oTFlocnFEVQ?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 18:15:12 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Manchester United Supporters' Trust respond to Man City 115 charges verdict - 'Cheating'",
-      "source": "Manchester Evening News",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTjNud3I1cWxIQ3psMWQ1NUxzLXFUeFJFeENnZ1dXbVR1UENIdzVhWFdGU2dTLTNHbWs2bk91YU1XSjdzakRzSExDRVlPVGNaNjk5ZmhVZWhmUDN2dnVFbWo1Y1RaUGh3SDlOcU9lLW1fUERGSV9nZTVsaU1QUWZjTUFqRWprME5VV2IwSnZyZEZUaWlOTV9oREtWeHY3UXJ6V29wN1ByMXlhUdIBrwFBVV95cUxPc28weW85UzNtckxhWGlrREY4M3B2bFdMczJ1NWFhc2RVVlhCQUlRN0hiWHphRkR6c3o1M0NPbjY0cjhXdDVCSUhvUmJETmE2VmtJYnRhREdOOUVZOGdlRmw1SHRNc1E3dTVzMkdwNnFHUjEtNXN4LXR3MXZGd2VBYS1VVTVfUWhXa2hRLTBoSnZ4X0FpMEdnb1M4WUNrcjRpaGg4Ri1xSHNXSDVzMGlN?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 08:49:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUEVGT1pIa2NvaG1oMEp6SWZKUUc0WTdpUXp4ZDIwYjEydHZkNjNSUVZSakpkeDdWUXB1eWxRN3NJZnR3el8wR0RkeWI4MFhyakVYZ1FWNHBkRGt1WHhlM3JqSHpDRFdsOUgzQzJtSFVQRm5EZU91cDU0NkRHcXhwUjZKZTJwYlRkWlNPMWxEWmw1bFR1eDRrR1JTRlVFUzVBdmgyTUZ0Z9IBrAFBVV95cUxPcURueVZ2NEtITEZBTnN0dHZIa2ZIMzhqNkkzYjFlbm9jQlZ1WjJORU9qQ3ZJcXpobUdMbXlZY0pVaU9QMVBzY1d5MlQ5bDBodkpiQWNHV09hM3djdHZfR2sxZzFYX2tLQlR4dWk5bnRVdzJnWUlwV2Q3cl83TFpwTFZINS1DbTJNOEp5SGJpR0NzUUxiTzdja3R3N2VIbUV3VVFvMGVLRnhtal92?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 07:11:00 GMT",
       "category": "general"
     }
   ],
