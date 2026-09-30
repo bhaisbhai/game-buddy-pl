@@ -1,14 +1,7 @@
 {
   "slug": "leicester",
-  "updated": "2026-09-29T21:43:39.024Z",
+  "updated": "2026-09-30T11:37:22.544Z",
   "articles": [
-    {
-      "title": "Three free agents Leicester City could sign to give Russell Martin perfect squad depth",
-      "source": "Leicester Mercury",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWWlvVV9NZWphOFdSSElaZFJlN19wUHR2cWdhaTZITW8zM19QMkE0NGhEM0xZamdSdUFBckNPNVhMM29NclJvNEJBdExObS1uOGhnNUpBeFU0a1YwN0lManRNMXhvcGl2cU9TMlFqTFdOeGdOQzl6YWZyTi04NzR5amd4dHJHMGlISEwybml6RG02UVRIMmYyZUNaZG5uT2RJYm1QTE01bw?oc=5",
-      "pubDate": "Tue, 29 Sep 2026 11:00:00 GMT",
-      "category": "transfer"
-    },
     {
       "title": "Wout Faes: Leicester City sell defender to UAE Pro League side Shabab Al Ahli",
       "source": "BBC",
@@ -17,24 +10,45 @@
       "category": "general"
     },
     {
-      "title": "How Leicester City defence should line up after Wout Faes exit as big decision awaits",
+      "title": "Leicester City confirm Wout Faes transfer exit as shock move emerges from nowhere",
       "source": "Leicester Mercury",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMUt5akd3a3dpbDBGUWhqaHB0RzZ5LVQwQmsxa19PMjNPTVNuSllPTHFLOEtzaGpDWHBGNVd0Ty13Rmp0UzkzOTIwcDhCdGFrRkZoVC1FZ3NpZlp5LWtoTDU1SnRQcDhRREdXUDJfZTlubi1wSVpvOEl4V2ljU3A2d0g0U3pVdjcyVDFhNWpTV24tR1VhMG9jZUg5WFhLZXUySXNnRlJleXYzSWpEOEhUOW1KRDdHZw?oc=5",
-      "pubDate": "Tue, 29 Sep 2026 08:52:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Premier League cult icon who infamously scored two own goals in one game, 28, completes shock Dubai transfer",
-      "source": "The Sun",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObk9hdXBBbUZNZGtGZmhuOW1ERloteEw1bjduMmdnMWxXVU1sOU9DNTJKTVVMZi1VZk5LQ3FROHVaNXF3M3ZFUEJoQzZRSDdFeXBSQjlKMGVLSjdCNTdXMmN5ZUxTcTZzZzlQRHJYY3lWQ1RlTXVtTndYX3F2TFJjcmF1dFNYdkQ1?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 19:02:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTWh3b3JUTU55OHUxY0oyWldmZ241N3hEWjR0UUt5WXBGWjA1cXV6WDZkVk1CYlc5ck1jckpiTTRWbVRUNW56MkJJbjZmdFVnTlo1LS1yS2NsSGdvV3hMU2RsZjVYcVBSZHJWcm5oR1NEVWd5T1N6ZUU1Ym5OczV3WVVfeW9qalhwRnE3dWJMUlk4djVDazhTMWdoaTRHY0EzSlRnbA?oc=5",
+      "pubDate": "Mon, 28 Sep 2026 12:00:00 GMT",
       "category": "transfer"
     },
     {
-      "title": "Russell Martin's decision to play Wout Faes against Barnsley is even more baffling after exit confirmed",
+      "title": "Leicester City confirm departure of defender in permanent deal",
+      "source": "hayters.com",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYmxiTnlVN1M5M2hGYlMyRHRiZGl1QWhFelhEak1XcVdGRHR2NV9JOWNMaG9EQ1FUS1ZMQ0R0UmFwSGNmMF9GR0lnVkpRRkpidmlMYVhFZnc2VEQ0aklKTGpxeloxdDdPQ0FmeDdsSU9RTURCeWRDaFdyNFR6elEwNG1iTTRpMVFobnU40gGQAUFVX3lxTE9EZFB6VWk2WWZQcWtJUmtrNVktU2Z0cWprcElUUWRQRUwwT1RRVnpMeXRibUwtTWk5Um9leW5yRFRRd25GelRpUnV5NEFRMjdJR2dRMEJkeHhDSkVkeGs2dkNGakdMT3dPYlVrTU45OHItSnlwVXp1U3Z4Z1Y5NXl4VnRNVksyaGFvYWNvWnd0VA?oc=5",
+      "pubDate": "Mon, 28 Sep 2026 12:24:12 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Three free agents Leicester City could sign to give Russell Martin perfect squad depth",
+      "source": "Leicester Mercury",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWWlvVV9NZWphOFdSSElaZFJlN19wUHR2cWdhaTZITW8zM19QMkE0NGhEM0xZamdSdUFBckNPNVhMM29NclJvNEJBdExObS1uOGhnNUpBeFU0a1YwN0lManRNMXhvcGl2cU9TMlFqTFdOeGdOQzl6YWZyTi04NzR5amd4dHJHMGlISEwybml6RG02UVRIMmYyZUNaZG5uT2RJYm1QTE01bw?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 11:00:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Leicester City legend Kasper Schmeichel reveals plan after becoming an 'Uber driver'",
+      "source": "Leicester Mercury",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPenRlTFBNdUY1cXY4SDh0SHdteDVaOUZsTVJJd0E5Q0h0a3Rhb0lOaGtMa2R0TVpwUmlKTWItXzB0UU8xR3pOOF9jcUstSjBLTHZGeDhDSHVRZUFNX0FyVEFWSHBWSW9DZDJoVGNSd01BUDhmQWtXRWVhQ1NVRndyUVJHUUxHYURJY1E5UERLN3JMQVJaZi1kam9hQ2tQQk9uOTI5WlNOVGlVV0JON0EtNE13?oc=5",
+      "pubDate": "Wed, 30 Sep 2026 09:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Ticket News | Leicester City v Rovers",
+      "source": "Doncaster Rovers FC",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRTFUOURGdHM5SXl1MDk2V3NwZjNJaUl2YUU4a2wwamJLWTBhaGZFQjBMYmEzVHBwbVpQSVpiYzFQOXVjdWZiZHZlbnJkNUhwNU5YTW5TWks3Wk1PMXBfbjAyVEtzUl95VlFHRHVOYkEwWV9mdUdHbUF5aHA1VXhzMWh3VGtjSGpkckJTaHpQN0FDdDl0NEk3blcwZW51Zw?oc=5",
+      "pubDate": "Mon, 28 Sep 2026 16:07:43 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Leicester City fans reminisce on some of the most obscure players to play for the club",
       "source": "leicestercity.news",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMzZ1ZHJWbExpT0V6ZEM2WTRyT0laNmtjdk8zNG03cWdpMlVMdk1pdVpja3JYeWtaUlJqdWFKdm1LMWNMd2I4REs3clhRd1NwUG1TR0FyR1pINE1oZElNaHRxUXpEbnhUeFlyWmFOZEoyTWZtS1pGSDdIVGVjQVNPZHVpZElwUVRiU3hhMnpYekdMQXJPVl9NRVhwWTF0b2VVZ1E5V01lWXkyUm1iYTFEb2hPSEZZOWRLdEp4OUVxcWxlWk0xMG91TjA4OUs5TllhSFVwdTl2RDN1dw?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 12:18:01 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZVpudzVNcFBWUTRwZXg1Y1JPMkJmTHBrbGlpb1o0dHA5VDhOcF9fZW1lMTVVSFg1UmpUNXFrQzBvNmF1c2pFVThZZjRxM2h6ejRNMlY5Q1VHQVJvVUllemV3aTdFRmswTFphNkFVcnJBODBBclBCbEFYcFZaRG84LWlwU0VnaXIzUGk0dmpQS0RpQ1M3c0tLMHczMkJDNElXUW9rQUVYeHBSS0FCaGx5SkJKNUpaTTcyNVRNNDdnNi0?oc=5",
+      "pubDate": "Mon, 28 Sep 2026 14:18:12 GMT",
       "category": "general"
     },
     {
@@ -52,24 +66,17 @@
       "category": "general"
     },
     {
-      "title": "Newcastle United vs Leicester City: WSL 2 stats & head-to-head",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBBcDBlQ0NxamxXSXc2MDhBNFVLMjZUd3dyTzhDUXJ0LVQ2RG96VTVMZzdicE5kMG16RzFDNzlqaXJmTXlsWUV5TkUyWnJRM09ST3ZxUmNkR3ZYRHBURTFZcTlFaw?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 06:47:29 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Leicester City told £297m deal comes with conditions before extra money 'can flow'",
-      "source": "Leicester Mercury",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPUjhIaHpibURLZmQtem1tLWFhY3JVaFZfWldUU3lVeXJrekJfNk5tOVRzOE5BYWFkRHRwU2xpZ3ZyQVJRMkw3OW9PaTB1OXZYTjhMZGpJQXRMT1Z2MXRkdm5FaXdCbEVMUkZqUUlzd1hQQjNNUEhiNUZHUnVBQVRzTG1rZFFFYXVpdVdzbW1BcW5YUjVEVzJ3M1VQWnBDbjJ2a0VOZg?oc=5",
-      "pubDate": "Sun, 27 Sep 2026 11:05:00 GMT",
-      "category": "general"
-    },
-    {
       "title": "Leicester City agreed to £10m Russell Martin transfer demand – now it must be justified",
       "source": "Leicester Mercury",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUThVa0h1WUdQVlRKS0VRRHNkbmRDTkpBZDY0MHZqeFVJSVJqeUo3WjlpbTdtbnQwN0p3RlA0dWNaSmpyV2dwcnBRN1JXc3lZOU9NaDd4VTlabFptbUpXaVRrQlZJNGtQZFJ0UUVXMmJhYklaQk9ZOTNJM1hYN2pOZDFRWEl5a09tb1VXVjBDMG5SWkdFR2pDaHBLVEhka3hJT3FUVnRhbnJDVTdpRDRuUA?oc=5",
       "pubDate": "Mon, 28 Sep 2026 09:48:42 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Leicester City League One promotion rivals lose manager as Championship club swoop in",
+      "source": "Leicester Mercury",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWXVmWm44dlF1Q0hvLUx0UFhYS01NOEVSVnNaQTNtQktiYmVUYWFTLUpjdTlhMHJZZ21tWGlCM1JkT1FJX0lHeHloNkxBM1dWZy16UjRBTzBYdEF5UktIV1NvVDd2RllScWc1dHZYVDFXZ1RRdUVRUHBpa2Nua19NblFSdmhyTkpqUC1DR0U4MFVaMlZoYklib1NBNFFFS19tdHJyZ0w0T3NVWTB1WUh3SkxCMA?oc=5",
+      "pubDate": "Mon, 28 Sep 2026 10:53:00 GMT",
       "category": "transfer"
     },
     {
@@ -80,31 +87,24 @@
       "category": "manager"
     },
     {
-      "title": "Leicester City fans reminisce on some of the most obscure players to play for the club",
-      "source": "leicestercity.news",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZVpudzVNcFBWUTRwZXg1Y1JPMkJmTHBrbGlpb1o0dHA5VDhOcF9fZW1lMTVVSFg1UmpUNXFrQzBvNmF1c2pFVThZZjRxM2h6ejRNMlY5Q1VHQVJvVUllemV3aTdFRmswTFphNkFVcnJBODBBclBCbEFYcFZaRG84LWlwU0VnaXIzUGk0dmpQS0RpQ1M3c0tLMHczMkJDNElXUW9rQUVYeHBSS0FCaGx5SkJKNUpaTTcyNVRNNDdnNi0?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 14:18:12 GMT",
+      "title": "Club Statement: Leicester City And Claudio Ranieri Part Company",
+      "source": "LCFC | Official Website",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbWtZM2I0ei1EYWJiemtZQTRRUG5UNkdJYU55b05ydDVaLU5QbllZYjNqbEtsYk4tcGVlNkZ2Mkx1U1FFd0hscHptR21DRmZiRlctZGFqR2tZUTBCbEFJMUJNWHpoQU0wSGdWX2VBVW13VjRqQkZaY2pjeWpPSjVjWnZZQWlReW51MzNKTlJmM054S2p2VU1Ob3JOWDRWTHM?oc=5",
+      "pubDate": "Wed, 30 Sep 2026 08:00:07 GMT",
       "category": "general"
     },
     {
-      "title": "Leicester City analysis: A story of financial, cultural and strategic decline",
-      "source": "Squawka",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZWN2MzN0NmZWcUZ2TE9aZ2o5cUNsZzVVV0l2bEU3OWJHR19VYlJvazNGNXFhaDFrR29JLVZIOEJoZUxkelhJQWdXZUVNYVZzc21PY2doNUYzekpraEdKSHB6b3lkbk9uV0xLYnlrNVdVM2hRa1Zfd3RyalNWMGtONXVGT01KQkpwWnp2Mk9hR1A?oc=5",
-      "pubDate": "Tue, 29 Sep 2026 09:51:13 GMT",
-      "category": "general"
+      "title": "Lutterworth Town players injured in hit-and-run, club says",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FTGdrUEtSMFJndmdBcjFURFRLX1Ywa2xtemp3Rkp5TWVVUzU4WEhNa0cwMjlNbXhGRkVYV0FXUW5qT19pU2NVaWgwMDkzeFV5T1RQWmdid3E2TG1qVEE?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 06:45:59 GMT",
+      "category": "fitness"
     },
     {
-      "title": "There is one glaring downside of Wout Faes leaving Leicester City",
-      "source": "leicestercity.news",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSjVsWmVQQVFGSUlXbEk5UjJ2eFhlSFhNV1hqRGFLdzdYcEVwTTFOVHpMVjVfUGc1REFWcmVZX1FlZTE1MFRZUDctLS1ZNk90UnhWc01QNU1LRXc1aHhoSFoyX2VMT0ktUnVaaFZfRU1xZW1kV2Y3ZUh6TkVKM05DNHRKai1vcThJOUg0bmRiSXIzTmxXQUlwbnJjYTdnaDZPelFOQzNTYnM?oc=5",
-      "pubDate": "Tue, 29 Sep 2026 08:24:43 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Crystal Palace and Leicester City | Players Cup | Ticket information",
-      "source": "Tottenham Hotspur",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdDVWeU1jVk9ZUWVUMWdZTTNtdnVXUUs2OTc1U3RKOS1pOHY3UTM2MFJESVVGYUlxbkhZUzZmaGZ1cXQ1cUl0cHVNU3J3LXkyTXM3eGVSRHZIQTRRdlhvbF93NHA0ZllnaDBnTWR5SzVBQml3QVhuY01NX2xhaHUyUWpobHl2LURTYXU5V1F1OENOWUpHN09QT2c5eWVydUE3S08ycHRDcnZrR19sY3Rj?oc=5",
-      "pubDate": "Tue, 29 Sep 2026 12:10:05 GMT",
+      "title": "LEICESTER CITY 0 TOWN 1",
+      "source": "Ipswich Town FC",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5TWXBFMEx3aTBZNXA2YXkwUUczcGotb2gyMXVuUllUVmxkcXVoQXZzQ2xBQ2xHdmNJMnpCWS0zaVBuVDZkY3c0aS1hanNhZ0Z5alBGVDZNODdKSzJ2dVRVMERRUV9HM1RtZEVybVRkUHRmNVdmdkZ4QVFn?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 07:00:00 GMT",
       "category": "general"
     }
   ],
