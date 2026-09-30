@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-29T09:31:14.602Z",
+  "updated": "2026-09-30T09:22:54.566Z",
   "snapshot": {
     "1": 61,
     "2": 49,
@@ -34,7 +34,7 @@
     "31": 46,
     "32": 44,
     "33": 45,
-    "34": 45,
+    "34": 44,
     "35": 49,
     "36": 44,
     "37": 45,
@@ -193,7 +193,7 @@
     "190": 54,
     "191": 45,
     "192": 45,
-    "193": 54,
+    "193": 53,
     "194": 50,
     "195": 49,
     "196": 50,
@@ -358,7 +358,7 @@
     "355": 40,
     "356": 65,
     "357": 53,
-    "358": 54,
+    "358": 53,
     "359": 49,
     "360": 50,
     "361": 40,
@@ -671,33 +671,25 @@
   },
   "changes": [
     {
-      "id": 21,
-      "web_name": "Nørgaard",
-      "team_name": "Everton",
-      "direction": "fall",
-      "old_price": 49,
-      "new_price": 48
-    },
-    {
-      "id": 563,
-      "web_name": "Morita",
-      "team_name": "Hull City",
-      "direction": "fall",
-      "old_price": 50,
-      "new_price": 49
-    },
-    {
-      "id": 531,
-      "web_name": "Ellborg",
-      "team_name": "Sunderland",
+      "id": 34,
+      "web_name": "Pau",
+      "team_name": "Aston Villa",
       "direction": "fall",
       "old_price": 45,
       "new_price": 44
     },
     {
-      "id": 543,
-      "web_name": "Diarra",
-      "team_name": "Sunderland",
+      "id": 193,
+      "web_name": "Wright",
+      "team_name": "Coventry City",
+      "direction": "fall",
+      "old_price": 54,
+      "new_price": 53
+    },
+    {
+      "id": 358,
+      "web_name": "Kerkez",
+      "team_name": "Liverpool",
       "direction": "fall",
       "old_price": 54,
       "new_price": 53
