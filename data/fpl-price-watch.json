@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T09:22:54.566Z",
+  "updated": "2026-10-01T09:49:47.516Z",
   "snapshot": {
     "1": 61,
     "2": 49,
@@ -17,7 +17,7 @@
     "14": 62,
     "15": 68,
     "16": 62,
-    "17": 58,
+    "17": 57,
     "18": 63,
     "19": 53,
     "20": 53,
@@ -202,7 +202,7 @@
     "199": 45,
     "200": 59,
     "201": 54,
-    "202": 50,
+    "202": 49,
     "203": 48,
     "204": 45,
     "205": 45,
@@ -229,7 +229,7 @@
     "226": 55,
     "227": 50,
     "228": 45,
-    "229": 61,
+    "229": 62,
     "230": 55,
     "231": 48,
     "232": 48,
@@ -421,7 +421,7 @@
     "418": 48,
     "419": 50,
     "420": 48,
-    "421": 44,
+    "421": 43,
     "422": 44,
     "423": 43,
     "424": 40,
@@ -671,28 +671,36 @@
   },
   "changes": [
     {
-      "id": 34,
-      "web_name": "Pau",
-      "team_name": "Aston Villa",
+      "id": 17,
+      "web_name": "Merino",
+      "team_name": "Arsenal",
       "direction": "fall",
-      "old_price": 45,
-      "new_price": 44
+      "old_price": 58,
+      "new_price": 57
     },
     {
-      "id": 193,
-      "web_name": "Wright",
-      "team_name": "Coventry City",
+      "id": 202,
+      "web_name": "Richards",
+      "team_name": "Crystal Palace",
       "direction": "fall",
-      "old_price": 54,
-      "new_price": 53
+      "old_price": 50,
+      "new_price": 49
     },
     {
-      "id": 358,
-      "web_name": "Kerkez",
-      "team_name": "Liverpool",
+      "id": 229,
+      "web_name": "Tarkowski",
+      "team_name": "Everton",
+      "direction": "rise",
+      "old_price": 61,
+      "new_price": 62
+    },
+    {
+      "id": 421,
+      "web_name": "Heaven",
+      "team_name": "Man Utd",
       "direction": "fall",
-      "old_price": 54,
-      "new_price": 53
+      "old_price": 44,
+      "new_price": 43
     }
   ]
 }
