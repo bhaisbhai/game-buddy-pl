@@ -1,21 +1,7 @@
 {
   "slug": "ipswich",
-  "updated": "2026-10-01T12:06:13.488Z",
+  "updated": "2026-10-01T22:12:13.268Z",
   "articles": [
-    {
-      "title": "Walle Egeli Admits Frustration - Ipswich Town News",
-      "source": "TWTD",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTXhPa096N096V0MtUWhhbzUzRGV3cjlDRkI1WGpwUmFiU1h4SDVXSUxVRFlHVEpLeGhlQ2tRcHVxTEtlWEY2LXJ3M0xQOEk0UEF6SW02VVgzNUczRUp4U0o1SjVBSDVTeTg5SVRDcEdQYzAwQTlWVjU4VENtUE5TU2pYMA?oc=5",
-      "pubDate": "Wed, 30 Sep 2026 15:47:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Premier League deliver verdict on Everton's disallowed goal against Ipswich",
-      "source": "East Anglian Daily Times",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVm9Zc2NiMDhoWEhoMlZha21SaFNSV0h3VVJWdWZyV0JOejRQbkpRbnJEdmZaelFoMUdoRExhMmp6OTY2RzhSZzZIUlhmeDFKQWpQM3dwMFlfRmU0NGhNZ3BDc0Z5ZlpMUEJvcElrTmtvQXBjazdjdG80ZWdzLXNXeXNxdlZkMTYxdG1aZFdDQjVyXy0zNlBqcmFRX1BTbDNJZkE?oc=5",
-      "pubDate": "Wed, 30 Sep 2026 09:20:00 GMT",
-      "category": "match"
-    },
     {
       "title": "Blues duo Nunez and Fatawu to return from international duty early",
       "source": "East Anglian Daily Times",
@@ -24,8 +10,29 @@
       "category": "general"
     },
     {
+      "title": "Walle Egeli Admits Frustration - Ipswich Town News",
+      "source": "TWTD",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTXhPa096N096V0MtUWhhbzUzRGV3cjlDRkI1WGpwUmFiU1h4SDVXSUxVRFlHVEpLeGhlQ2tRcHVxTEtlWEY2LXJ3M0xQOEk0UEF6SW02VVgzNUczRUp4U0o1SjVBSDVTeTg5SVRDcEdQYzAwQTlWVjU4VENtUE5TU2pYMA?oc=5",
+      "pubDate": "Wed, 30 Sep 2026 15:47:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "ABDUL WINS PREMIER LEAGUE AWARD",
+      "source": "Ipswich Town FC",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWloyaVhHclY0UXJqSWZmTkJ1RmNBa3VWVmJmVU12cXdGTzdSc3V1ZGVKeFhTdml2UjhyRGVkaUY2ZFlucm1xNE41UlpGREk1VERfY0dOSnFKTEt6ZHR6aFlMcE5pd2RqSzh1dFNTSDB6akxqSEZYQzhfWnYzQzdBaS1B?oc=5",
+      "pubDate": "Thu, 01 Oct 2026 12:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Ex-Town defender to fight ‘UK’s Hardest Man’ in shock boxing debut",
+      "source": "Ipswich Star",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSWlyamg3Nll1WnAxemU4SmFtLW5TSElYYm1OYUw1LWRaRzJUMERLN3pWNS1ESWU1ZVZOVDNkV3JtZVVYTEM0ZDRzeWtFWUhYdEtaWHVEUzVRZE51eUJMUXhHdnVkV2FxbkZiN211Q25wS0J3b2NSTnRrcGNac2JoVnNzSDRnT1FhMjZKNDlSUFJ2RWQ0X05fSnhNOE55bG9Ndzk2ekR4X3BvQQ?oc=5",
+      "pubDate": "Thu, 01 Oct 2026 14:00:00 GMT",
+      "category": "general"
+    },
+    {
       "title": "Ipswich Town sponsor Halo on 'working in Norwich-coloured office'",
-      "source": "bbc.co.uk",
+      "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBRY2d2UG05WTlfR3p1T1NJQVFsR0pLMmJZMzFmS3JzNVJ6WVpVamNYVDVxU3NIWTl6cVVOaG84M3ZMUGZQQkZmZVQxNXptMHdXUVBVelZZRXB2YVdFQXc?oc=5",
       "pubDate": "Thu, 01 Oct 2026 05:51:21 GMT",
       "category": "general"
@@ -38,25 +45,18 @@
       "category": "match"
     },
     {
+      "title": "Town Women Fall to Last-Gasp Defeat - Ipswich Town News",
+      "source": "TWTD",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPMG9JYmlPR3Q4bWRtMEgwc3BOQk1laGdwUDZrRVVoMmUxQjNRMXVkcmhTWG8xOVBYVmctTDhocW40ZWcwX29jRlp6R0RQRVd1SkJoNTJZSU51cTJpdXVTSWlweTY4eEkwOGNETm94LTA0Z2ltUUo3NFZ2cW8tdVdSYzhPUFhBTmdDM3c?oc=5",
+      "pubDate": "Wed, 30 Sep 2026 20:48:00 GMT",
+      "category": "match"
+    },
+    {
       "title": "Resolute Town stand firm against star-studded WSL opposition but fall to late defeat",
       "source": "East Anglian Daily Times",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTUlkRnEyNEZRS3VxV3I0empnY3pPQ080TjB0SUJpajNsMmFrRlp0LWoyNVF6anRwbzNjT2tyX3V0b0lhRFhLUHJjcmlTZVdrYkExM3dtWG9MQ3hLTlZ5S0RURDlHWVVsUWpZa1Q0RXJfR1NROURUdHVaSWhtdnYwZVdHUk1YYlZUNlpLbFE5VnZiSEVU?oc=5",
       "pubDate": "Wed, 30 Sep 2026 20:21:00 GMT",
       "category": "match"
-    },
-    {
-      "title": "WRIGHT EXCITED BY LONDON CITY CHALLENGE",
-      "source": "Ipswich Town FC",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUUdJVU9LX2hoMzF2ZmQwMHBjTGl1RkZWdnhHMk5FbTBkYnp1R3dYeGRxSlc1U0h3dVpKS0dQa25vREMySW5Rc2NNR1JzWFVkdHdRNGRTYU9aTWpmZ1FPX3dnRkRTUjJISG40STh2NXJSRWE4QVJKazBQMFdPekpOaksyYlU0b1plM2xBdzJQaw?oc=5",
-      "pubDate": "Tue, 29 Sep 2026 16:55:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Kieran McKenna installed as second favourite to become next Spurs manager",
-      "source": "Ipswich Star",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPRW53QVBwQV9adFVIWVd2QVB3bU1aeGxiVjU3OEttUHFEZEpsZE5CcWtCbm9CLTJycVlERDVqZC1oMVJVT3MwcTVnYUZ5YTczNlVXVWdjcFF5NE44TUM3QVF2SXlRdmZ6VUV6NEUwbk9kUHN1UEpuY21JRVk0aTJrY1RxNlVmT0RmQzJLbTFRd0hYYktZakotaDhMYktwaExvNTJ1cFZNOHE?oc=5",
-      "pubDate": "Wed, 30 Sep 2026 13:17:25 GMT",
-      "category": "manager"
     },
     {
       "title": "Nottm Forest 0-1 Leeds, Everton 2-0 Crystal Palace, Ipswich 2-1 Sunderland: football clockwatch – as it happened",
@@ -66,18 +66,11 @@
       "category": "general"
     },
     {
-      "title": "Ipswich Town loanee Ben Johnson explains Stoke move",
-      "source": "LiveScore",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQLWo5bnJfRmsxdzRWSng4ZF8yRHd1akZmeVBGX2RFYTlwLUFIV3N0RE1IUEVuXzhQcU5nbXZ6alh1dkpqOS1tR2lQSmc2OWJaQTNiM2lQNDlGY1JtRllySFR0ZU5kWjJQcXExaFlZZ3ZWWDJHSTc0a3JvRFJaaC1Ya05nWW9abGhKVUdzQUtzTmN6V1ROMzF1TWRULUgwRjFtRXFIY012ZEItOTctRnc?oc=5",
-      "pubDate": "Thu, 01 Oct 2026 06:35:11 GMT",
+      "title": "Man City found guilty of serious financial breaches - including 'sham' contracts",
+      "source": "kingsofanglia.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYnVXQjFQZDR2WkNVUHpsTmhHRGRKeVpTRGxxalg5dGJpbVRzZ1MxT3p6SGMySnQ5YTVqTWVVUklZZnotcHNYWWd1NGRxbVFOUmlMR1ZjZk42VnFDVkF5TklXTTA1NnRKSjlocFFjVTQ0bVd0SE9WcVQ4a25VUVZQQ0NFNk12eEU5UjhKazdJNTctNVZMY1BUUWdiSFlrM3FyQUZ5VlVSMHhRRU0?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 16:22:58 GMT",
       "category": "general"
-    },
-    {
-      "title": "Cherished Colchester United win is remembered...20 years on",
-      "source": "Colchester Gazette",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaE9DVlJIbjd5MmtCMXVPaWlEWXBHdWY0cFFiTWlJTG9LVjNfcGtZWDFnbDVlTG5RcUMtaENUZW4xZEhieDM1aXFQTkl1ejE3WUxRNy1FLXlzblgyeVM5c254SnBQVjRleHFrUGRxT3ZyVG5MVnNNMnhjUDRUMC1uMnJTbDRTclRsQm9rSUx5dng1bC1M?oc=5",
-      "pubDate": "Mon, 28 Sep 2026 23:04:00 GMT",
-      "category": "match"
     },
     {
       "title": "Everything said as Premier League panel split on Everton controversy vs Ipswich Town",
@@ -87,18 +80,25 @@
       "category": "match"
     },
     {
-      "title": "TOWN 0 LONDON CITY LIONESSES 1",
+      "title": "TOWN LAUNCH CUSTOMISABLE SENSORY PACKS",
       "source": "Ipswich Town FC",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbkVHejlZYl84STRNRWw4dy03YkJXMnRoLWJtUXZuZ3FBRU05WVdUb0RXTTRHRUhsMDNpWl9tSUEwRWFfdE9jYVN4Slg4S25FRjBRdDBON2daTXpyVFlGTDRtR2ctZzk0UGJHN3ZsckJtVVBWbjUxeFZxck1oSHpfZkU4VQ?oc=5",
-      "pubDate": "Wed, 30 Sep 2026 20:26:09 GMT",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOajBVSEtoUjVVeHRxaWtFdUVrM2ZoVjJ2ZElCTGxUSFd3dzVyeXEwUmtLNUw5UnpqcDlRZVluMl9rZnpGbGFQd1lJcGk1SjM5a1ptb1pzMU9ZTDRXRTVkcHBxVnowdlEtNF9ubXJKOUVfTUkweXBHeHRqOVAwR2JLYTlkSkdST0R4SFIwU08wRkdjb0RSM3NRag?oc=5",
+      "pubDate": "Thu, 01 Oct 2026 15:46:38 GMT",
       "category": "general"
     },
     {
-      "title": "KOA competition: Here's how you can win a Julio Enciso signed ITFC away shirt!",
+      "title": "Blues duo Nunez and Fatawu to return from international duty early",
       "source": "Ipswich Star",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTUVhYkI0X0xncEQ1T1J6RlpYMlB4MWdLdWQ0Rk5nTGVob3hEREtMLVhhWkxDWlNqM19wa3RPaFFvY0IwUnB2VnVCSmRvNjgyX1F6S0N1QWFQLWpoa2VKMEt0Sm1YQlR0ZWhPYjZXOHFyQ2VBbzltNjROazhPa0VGWWE0aVhMb1FtbGM5Ykwzck9ONTJFNzg2V05rbGlQSjBGM3p4V0FSU2xMa0s1bmJHTUl3VQ?oc=5",
-      "pubDate": "Thu, 01 Oct 2026 09:03:54 GMT",
-      "category": "match"
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSzZLY3ZvUUJpY1EyREdPMnBjV0p5ZUhPMXQ4U1dlNmhtWi1ma2ZtQ1RKbF83SmxmUlltazNlOUNTZWZoOGlEMzJXTmk4dnpYVXVlYWc0emRBaWxjUDBtQ0JvajFTTFltbXlsSzREMVYtVVM3c3JsZ1BJYmUyOTZXcFJDcDA1WUpFUG5kLXpBeUkwLWJQOS1kQU91T2JoWjB4NFU1LWRMSFhad3FhaGc?oc=5",
+      "pubDate": "Thu, 01 Oct 2026 10:21:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "'Shown we can be extremely competitive' - O'Neil assesses Town's Premier League start",
+      "source": "East Anglian Daily Times",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa1k2R3JWSlRCLXJDeDlvZ2o4dFBBSUpfeWhHSHdYMGhsR04wbWJyQ1dicnNueGRERGRNYlZSZFhEVmt5UzFDS29GaEhJN1Y0RWhtYWFPU0U0VDlqcXJ6M3Q4YTFXT19xTVc5Y3ZOdXdvNm9UNTdHaHJrTUlXSFR6Tm5PcjV2c0pYZDU1UkNjV2YzcmQ5cFliYjdB?oc=5",
+      "pubDate": "Thu, 01 Oct 2026 12:30:00 GMT",
+      "category": "general"
     },
     {
       "title": "WALTON | I'VE LOVED EVERY MINUTE",

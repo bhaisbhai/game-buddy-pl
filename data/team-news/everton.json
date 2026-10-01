@@ -1,12 +1,47 @@
 {
   "slug": "everton",
-  "updated": "2026-10-01T12:06:13.488Z",
+  "updated": "2026-10-01T22:12:13.268Z",
   "articles": [
     {
-      "title": "Everton receive final verdict as VAR controversy splits Premier League panel",
+      "title": "Armstrong helps England beat France as Everton trio watch Prague win from bench",
+      "source": "Read Everton",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNT3h1N2hYbVh5TVQzMXA1Y2xvWXI4OFo3cEp5c1ptWkhybHozZkxDRkd0SzYxQUEyVy1KdFNIbEZmMmlEcFNWcTlfeTdqWXlXNFc1NG8zTDNlb2h1Zy1HX0I4a3lYSDlMQkRJTFZWQUhjZUp4NWcyejBXQ1lMVkJEQk5femp4cEFUUWgwTEZLS3VwRG1QbkNlTi12QlJRNzlr?oc=5",
+      "pubDate": "Wed, 30 Sep 2026 06:30:07 GMT",
+      "category": "match"
+    },
+    {
+      "title": "How every Premier League table looks with Man City results void as Liverpool and Everton wronged",
       "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcC14WEkwMlVFdWFWVko2eVR1ci1MaGhBdHI0aTJaV2tZOG9QOVhubUxreU1VX194YjJON0lZNzhoQkpNVmFzSHh2R3NUMlZOR25RM0lNV1pRemxhLW9wWGZRSmJHcTVUNDl6OWF5TEo5MnFvdmtUNGIyRm12dkNzRW1XNkJERlN4VzlLVFN1Wk1zMDFTV0tTNjdub0lMajR0ZGNtSFp30gGrAUFVX3lxTFAxNGtTbGZid0lUSHhsdzdsX3pfUjJSbFhSWE5XT3ZJVnV6YTFNV2pDdDNKc3BHTmtqV2R6VnNsME5oUWhkTkl1U192ejBrTGRHbXFCWkwyQmxFTkVzZENMUTZqZm14VF9FSXFxaXMzZHRQWnFQYnVaRlVibFRtaFVnQmdPOUJrc2owT1N2QjJRTDRTOXZUeTlLNHhHbW43VmZnRUVTMjdxVndiUQ?oc=5",
-      "pubDate": "Wed, 30 Sep 2026 20:08:36 GMT",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSDNraC1kTjNlcEN2VFZEN1AxT0c2SmVUdFFQM2o4eUx4b3JjMkNlc2hwd3Q1M0hJVjl4NlFaRjhuLUJXZkZKbU1sYlBxN1BJRFM4NDFFVldyVWtMWTJsRXcyUFBiZW8ydkthWjV4N2Jrbnp6bmRoNFdhdDk4WEdRLWRhUW1BTEwtY25EOEQ4V1FwdjZBOW93VG1mVElGWXRUU2JGbHpn?oc=5",
+      "pubDate": "Thu, 01 Oct 2026 08:24:34 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Thursday’s Everton News: Koopmeiners loan, O’Brien future, Friedkins Roma investment",
+      "source": "Royal Blue Mersey",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNmdKOXhJUWpISVgySVVaLWswN0N0cmptLWlxbEFxaFZjYXd1TmVaT1pnOFNYWFRmR3prcnZjU2Y5WE9Cem1YZlc0QW1Od1BUcnRhZkM3VDVlTVFlVG5kWXE3WDNUYUFZanY4S0JBbThjd3E2N29nU0hKNlVNY2VCWHJaRW1LRVRNVlcwSjZGYlZRZDNRWC1TbXhMNVNKR0VSYXplczgwX3pEendLbzQyWHlyX0RDRjZWOFBwLWdVNzFqZHFlNGJINw?oc=5",
+      "pubDate": "Thu, 01 Oct 2026 06:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Everton sweating on defender’s injury",
+      "source": "clickliverpool.com",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaTltcWxLbmZOSXAxay1Wd2Qwd0podGpTMVo2UEtYaXB2eVpCYW5FVDVKenkwazVVM0NJWjNMekRfVG5US1ljSEl4STZEeTQydHg1WmdqcTBwWF9LSGVGdjVZdDdTMkNid0xMRl9obEtmYnpwQ196dVZrSk5BOW1fcFYwaV9DanYzRWM3dDhyelhzazNHa1lGNy13bG5QdXNI?oc=5",
+      "pubDate": "Thu, 01 Oct 2026 14:55:46 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "Former Gunner returns from injury ahead of October Arsenal match",
+      "source": "Daily Cannon",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB5SWVrWTE5SzVXZmo5blNudFU3R3g0Rjd0MmItZW5JYlhPVUx5WGtDSmdiTHJVV0k3RWhOcEtYLVJrQ0NsNFlMMk5HVnZtRVdIQUVMa1NXeU9jdGRYeFFZMGlHV09kU0tnWENnemlBcE4tdlcxU3c?oc=5",
+      "pubDate": "Thu, 01 Oct 2026 16:01:00 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "Nørgaard In Training As Blues Work Through International Break",
+      "source": "evertonfc.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdHhPazFITlUxMHpTZGJxLWdLaG91VUNJX2poQ3A1YUFESHZ6c3FfS2pWTEZ5MmtyZVozTnBzNm1ZTnJoR1U0XzJ4bWdnVWpDeXBTc3hUTUw5REhmV1ktTDh2X2duUjRGNFBuTGx4ejFYamxIVlpGZUhNQVFRTFJJQUVrQk9wV1U5a3h4NzE5QTh2dG1Fei1UV3dVdGdXeVhkVGQ2TWJ2S20telpfdUk0M3Rn?oc=5",
+      "pubDate": "Wed, 30 Sep 2026 09:55:20 GMT",
       "category": "general"
     },
     {
@@ -17,67 +52,25 @@
       "category": "general"
     },
     {
-      "title": "Wednesday’s Everton News: Norgaard returns, Hackney and Garner talk international break",
-      "source": "Royal Blue Mersey",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSUFRMTk4aEtLMTJINjBVZGRObi1WcGRfc3FRcXdRenpsNnJ1MEFWTHpMRGZzdFZXcTBVcnVXVjhBaVdVOUFxdVk2MG9jUV9uZXJVdWhsTm9KT3dvWVlIemZxZDhHbm1fQ1JZMnM5dmJTLUg4NEs2MjFqcFE3QUdYNEhfNEtqUEQ1dTQ1blJ1MU1qT09KQzgwZ0FBWnh5Ty1CVWQtNGRqVHlLaDBobXZ1SjRiSU1WeHMySGZHVjRuMGVnVHM?oc=5",
-      "pubDate": "Wed, 30 Sep 2026 07:01:03 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Nørgaard In Training As Blues Work Through International Break",
-      "source": "Everton Football Club",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdHhPazFITlUxMHpTZGJxLWdLaG91VUNJX2poQ3A1YUFESHZ6c3FfS2pWTEZ5MmtyZVozTnBzNm1ZTnJoR1U0XzJ4bWdnVWpDeXBTc3hUTUw5REhmV1ktTDh2X2duUjRGNFBuTGx4ejFYamxIVlpGZUhNQVFRTFJJQUVrQk9wV1U5a3h4NzE5QTh2dG1Fei1UV3dVdGdXeVhkVGQ2TWJ2S20telpfdUk0M3Rn?oc=5",
-      "pubDate": "Wed, 30 Sep 2026 09:55:20 GMT",
-      "category": "general"
-    },
-    {
-      "title": "How every Premier League table looks with Man City results void as Liverpool and Everton wronged",
-      "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSDNraC1kTjNlcEN2VFZEN1AxT0c2SmVUdFFQM2o4eUx4b3JjMkNlc2hwd3Q1M0hJVjl4NlFaRjhuLUJXZkZKbU1sYlBxN1BJRFM4NDFFVldyVWtMWTJsRXcyUFBiZW8ydkthWjV4N2Jrbnp6bmRoNFdhdDk4WEdRLWRhUW1BTEwtY25EOEQ4V1FwdjZBOW93VG1mVElGWXRUU2JGbHpn?oc=5",
-      "pubDate": "Thu, 01 Oct 2026 08:24:34 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Everton fan reaction to Friedkins and Tommy Fleetwood photo speaks volumes",
-      "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOai1GdEJjcDI2Z0FmdnZqcmFEODBnR3ZBaWRzMXBCakRyYTZIR2tQdzBIYXJuZnRjSHhyMHhtbHI3LXVpSVhwZE83V0ZteTAwbmpWc2t4QXVUUVNlRW5HOVJEQ3I5WFZoWEI0dXpwbU9vOEtaYWduLTdGZzY0bDdhcHIyTUtCX2t3SzlUdTJOUXlzbFBxSVhJS3JEUlFBQW5FMl83VTM0ZTZnUdIBrwFBVV95cUxNb3Vqek9QVzR2aXFZbi04bXVhNl9fRnB5V3RMQ0ZjTS1YcktOQWtiWXhQNmNwWWcyWW54ZGlJbHZQZ3RvUjVFZmoybVZ6dUY4Nk54SEM4WHkyaVM4amhLVzJ1b0FZbDZPeVJOV1RqN01hZGdJdnhNbzFGa1Zrc0FiV1JqOUFCYmdkLWMtSl9pal80WkhoRnBtQ3U1NGY1WENKRFllX0Y0M3lVRk1YdFlz?oc=5",
-      "pubDate": "Thu, 01 Oct 2026 11:53:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Haaland sent to Everton as Man City stars reassigned with Liverpool landing two",
-      "source": "Football365",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQX0ZaWm0tOVg0eU9iLTRoaElBRXRJeGtrVmVFRGJXeURrV09STlFELTRYbzZXR2pmQkE3ZE1DeU53UFFJU1VmeGNBLV9NRXh2eGc3LTZQNUlkWXRFNVN6eXR5R3d3RjBRcnU1ZzNWcG9wMXJPUmZYX0NVQjE3UDhCLUN1ME5xQzE4Q3JtZGZqR2dKSTdPejd3Nw?oc=5",
-      "pubDate": "Wed, 30 Sep 2026 06:23:53 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Tommy Fleetwood beats David Moyes to Friedkin meeting",
-      "source": "Read Everton",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1CLXVHa3R0WXRBNkhqa2MtT05kMEhJa0d6VVEzRWd4dnMxR0prWVRxZEpsVTlrMlRiLWROYW5KZHZlYkZnNXN4cng1NDJMMmtoTzZXUUR3a2JDRk9jZ3lHeGNJRjVNME9uc0RDaC1HV0J2d1RVTC0xZw?oc=5",
-      "pubDate": "Thu, 01 Oct 2026 06:40:10 GMT",
-      "category": "general"
-    },
-    {
       "title": "Everton 1-0 Ipswich Town: Toffees beat 10-man visitors to go fifth as Thierno Barry scores again",
-      "source": "bbc.co.uk",
+      "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92ajJ2TnZPZTdlQVhDZW5vcVFpT21CeDJYbEJZVXVXQWhSU2NJeEZscUc0Q0szMEJoUWd6QjNySlhwTXJtWHpnNXdBaWQ1VmpCMnNsSUpLT1BQczJDSGQ1MlpkREx1UQ?oc=5",
       "pubDate": "Sat, 19 Sep 2026 07:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "Everton owners The Friedkin Group part of £850m mega stadium redevelopment",
-      "source": "City AM",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMDlDSGJoeE93UnY3RWo2WHVMSmtzOTB2UTBwck9HV1YzTktjZDJTWEk5Y1BpVm1jOEVOSW9nN1VoaHNKZ3EzdUpGeEJJcmd0RTFHSTBjMnBZU19lVktVYWhodkhmTU1qcTVmX2tkcTlwR2F5VUVuX3ViZ19oai1XOFBJUG4wc1BsNF9YYzdZam1vVlVaLS1tX0hJcUV4dw?oc=5",
-      "pubDate": "Thu, 01 Oct 2026 10:00:00 GMT",
+      "title": "Add the ECHO to your Google preferred sources to see more of the best Everton FC content",
+      "source": "Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYXBzRDNBOHlpMFlENkhHN0JTWDFtc25vQnZRSXJJMnVHOFY3SWdsNzEyTkFyUzgyNjlBU1ZzMmhXdVpGVHVYQ3cydXp5WHgxOHpJOC0yajhaNC1PWVh2aHk4R05QMTBXMzV4OHdtamtmSEh6WXRNc1FmVFdsdUlqWUtkck4wNlFB?oc=5",
+      "pubDate": "Thu, 01 Oct 2026 14:28:49 GMT",
       "category": "general"
     },
     {
-      "title": "Tottenham, Brighton and Everton monitoring Eintracht Frankfurt and Germany forward",
-      "source": "Bulinews",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZHdaY3NuMGhDeTBRbWxDakRxMmNMNTNuR3VpNkxYajZ0ZlVKbVd2Um9SUG1nVFRKWENzTHFlSFhBX2pfeHNBVktub0dkc3NPLS1qQ1pMY3ktZDRUUndNS2J1eXk1TTc0WGl2emw2TW1EOUFpbnRZS2tzX2pNQmRPbURHOEVacmJ5THNFTjBiLVFBc1FjSHBLbUhwNFJ5cFNscEUxMw?oc=5",
-      "pubDate": "Wed, 30 Sep 2026 12:22:00 GMT",
-      "category": "rumour"
+      "title": "Ticket exchange update for Bournemouth home match and Everton away match | News | Official Site",
+      "source": "Chelsea",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcHFvdV9PMXN2ZXFfSjFqOXIwWTBZMWZlTGx2Z3VEenRMbTRQZy1XMXo1eXpaNFh5RUpTRkhBX2JKcDNEdVhYOEE3eTQxdHFXQlI4ZVBXRU9MS3FHSHJVeVpHOWVzYmcyMzdBRUhOTHhjcTI0Mm1IVDJMbWxZRE5BWUpnRnA0VkxwRXhMTWhuUUtFUklQSXBZWDBnazVXUFlFNWlPRUVQRGdOMFAxNEREZ3BiNzg?oc=5",
+      "pubDate": "Thu, 01 Oct 2026 15:21:00 GMT",
+      "category": "match"
     },
     {
       "title": "Premier League deliver verdict on Everton's disallowed goal against Ipswich",
@@ -87,10 +80,24 @@
       "category": "match"
     },
     {
+      "title": "Lazio Could Anticipate New Transfer Ban by Signing Former Everton Stalwart",
+      "source": "The Laziali",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5pM0hKeXRQRnRmakZ0Y3BMSmhpMlhmZGdkRWZ3YkNuUmJaM2FScnJ2cTRsc0Vic3ZRZVg2dkIzVlBId2tIMDhYNmlEQ3pBNERyLWlYNXA2SlZ6SUptMXdZNWhnMEs2WGUxekxJbUFNbjlJUXpRUWxSRzJQeFnSAYIBQVVfeXFMTWF6T1lxbkpCZEk3Wi1JYVNqZm8waWtwWHJvQ09tUndmdEZ5VmEzRVNmSDl0M1pFX25oMDN2clpXRnVZVGo1a2ItZWZYV29EOHRzSnRObmprRnRDejFncEQ0c0w1bjJSSDg5S3U0XzVPdko1YnlfY1lOVTFKTFZNZlZ2UQ?oc=5",
+      "pubDate": "Thu, 01 Oct 2026 13:02:38 GMT",
+      "category": "transfer"
+    },
+    {
       "title": "Top Athletes To Run Everton 10K In Memory Of Lifelong Blue",
-      "source": "Everton Football Club",
+      "source": "evertonfc.com",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1sOW84SHd1R1gxelFHZm5jcjFTcGRyOG14ZGlEcnZUVk00cHdhV244NGhXZlM4bVdTUV9tczliaFh5Q0tXQ1VheW00YjhKMlprN2tmb2JiR2c5d0Fyd2ZzclVpNWZWUkpmMTJtVw?oc=5",
       "pubDate": "Wed, 30 Sep 2026 11:05:47 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Everton teams up with Show Racism the Red Card to launch a special Black History Month exhibition",
+      "source": "The Guide Liverpool |",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdTlyR2lqaG9aRG9TNDRHT1Q0LUdVcVd5QzNLQ0xRWmdPZGNBcGllN1FpUXR4aVFBdWhwQ1E4ZVhZTzgtc2Y5QjNDUmxiUFZxTGhQbzN0VEVWdmlBTnF0MXZEei10TzFJM0JKZnN5ZVhSUHBKMmFFUFVJQUhDMU1zUU5mS2NVa1UwVzNtUnN4aDdFSm1MMjlkczZlY05aNjlFV0ZTckNiV2tDVFFVQWdpdUpWLVJOZjA0MUk2cFpWemJWUkZJRlZV?oc=5",
+      "pubDate": "Thu, 01 Oct 2026 16:05:17 GMT",
       "category": "general"
     },
     {
@@ -99,13 +106,6 @@
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWE5DVXM2Y0pBN01fMFQ5dS1VOXBacVhKWDh0cXAzN0d4VHhuVlJZbzdIZURPeWFTdnFnMS1xei1sTllDaGVta1FBMUFtSzFCYjlHWTRNYUhna19DM1lhY0xmdEhnSGx5YTJyTEZ4TWlyZTlDZG1aeTFSZUZkc3VvbjMzSTExM24wR3oya3JKZjlxaDBpOWRzWHJKeXc3S1BvQ2wwadIBqgFBVV95cUxNMWtwOUdaWHhEeFlhcl8yN0hxdVJMRm5qVW9pUVh3ZnJTc0hvVGdfbktmYjFrdXlYNW04bkZ0ODhuUVdKOEoxdnVrYUNWMWVPWjViV2M3ZlJZSm1tRDNWeWZpd0pvOHhKNzZRc3ZrY3dwbmZ5ZmhoRV8xZmVqbjNIdmhmc3QzaWNLNVczbXdCR1ZtWl9hNXUxWVoyX0FBOWxEZnctZVNvOXdQUQ?oc=5",
       "pubDate": "Wed, 23 Sep 2026 17:13:00 GMT",
       "category": "match"
-    },
-    {
-      "title": "The silk who saved Everton FC returns for Burnley showdown",
-      "source": "The Lawyer",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQ3hDSDBXRTdKWGcxbWFILXpWVzFrSjBhaHByek1MR1Yxal93cmpBMUExSnJoNFRXVFNURGhsbGdPTm9YZ3BoeHJPd2tIT3Rtc1dNQ293YlZNMTJlcjBSemhkQ0NmTVFiQVctVTBscEd4ZVF6TDZQeUxpY2NXcENfd3Uyb0Y0ZFcyWUE1U2h3?oc=5",
-      "pubDate": "Fri, 25 Sep 2026 06:40:32 GMT",
-      "category": "general"
     }
   ],
   "reddit": []
