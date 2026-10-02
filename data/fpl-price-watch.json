@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T09:49:47.516Z",
+  "updated": "2026-10-02T09:26:04.069Z",
   "snapshot": {
     "1": 61,
     "2": 49,
@@ -669,38 +669,5 @@
     "666": 45,
     "667": 40
   },
-  "changes": [
-    {
-      "id": 17,
-      "web_name": "Merino",
-      "team_name": "Arsenal",
-      "direction": "fall",
-      "old_price": 58,
-      "new_price": 57
-    },
-    {
-      "id": 202,
-      "web_name": "Richards",
-      "team_name": "Crystal Palace",
-      "direction": "fall",
-      "old_price": 50,
-      "new_price": 49
-    },
-    {
-      "id": 229,
-      "web_name": "Tarkowski",
-      "team_name": "Everton",
-      "direction": "rise",
-      "old_price": 61,
-      "new_price": 62
-    },
-    {
-      "id": 421,
-      "web_name": "Heaven",
-      "team_name": "Man Utd",
-      "direction": "fall",
-      "old_price": 44,
-      "new_price": 43
-    }
-  ]
+  "changes": []
 }
