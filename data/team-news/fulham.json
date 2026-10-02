@@ -1,6 +1,6 @@
 {
   "slug": "fulham",
-  "updated": "2026-10-01T22:12:13.268Z",
+  "updated": "2026-10-02T11:37:06.220Z",
   "articles": [
     {
       "title": "Arsenal and Aston Villa join race for €40 million Spanish prodigy",
@@ -11,7 +11,7 @@
     },
     {
       "title": "Fulham 1-1 Manchester United: Matheus Cunha rescues point for visitors",
-      "source": "BBC",
+      "source": "bbc.co.uk",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE02MUNJaG94QzRrUjM0bk9IUm5ROS1HWWhWTEZuRjR4TVBVX2pYbXpqc1ItZ0c2M1p5YkxYcGZSLW5uZEw4X2ZHR1E4NjhKb1Fiak1nVTlHYjRBbUxCREV3NjB3Wjg0UQ?oc=5",
       "pubDate": "Sun, 20 Sep 2026 07:00:00 GMT",
       "category": "general"
@@ -24,11 +24,11 @@
       "category": "match"
     },
     {
-      "title": "What makes a cult hero?",
-      "source": "Fulhamish",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBkYS10YkdMb0RENDlOQW5tRTdoR1dqWkd1RHdMSDRfWEgwX3U3RFNQaHpKaWd5end1VFFfZjYySkVxT3RfOFhBYlVEMWNtZ1cxQ3lBT3l4Wkh4azZuUnVsNXJ3?oc=5",
-      "pubDate": "Tue, 29 Sep 2026 13:30:07 GMT",
-      "category": "general"
+      "title": "Man Utd row takes twist as manager charged by FA for controversial live TV interview",
+      "source": "Daily Express",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQ0ppZ0lISFhNT3FZcHdyS0NicllWZE1sUUVHakc4N1E2STM3ckFEX0tnZTYxYnVvNVpOVks1d2FGbGJsU2JROGYwOURsNkFVLUVMZnFzWEx6aXQxaEhGalk1NVJxRmRlOWQwYk9CbTVkTjBoVUZrbWxRV0hrbmxDMU9ya2ZLaHPSAYwBQVVfeXFMT2laMURJaDIzOXVsV05XSHZ4SGFtNXk2aDlIMFIxa18yd0xxR2c3ZEhvNE1aRTZabG85V1Rma2FKWDZ4ZWdlMEJjNE9wNzhMYXNTRzNMOGxPdjZmYVVRLUpDZm1ESlJLdTBTckxZbXE2X250VU9UXzFaY3AwU2Nsc2l1WURVRFktYVU2Rm0?oc=5",
+      "pubDate": "Wed, 30 Sep 2026 13:18:00 GMT",
+      "category": "manager"
     },
     {
       "title": "Fulham 1-1 Manchester United: Premier League – as it happened",
@@ -46,17 +46,24 @@
     },
     {
       "title": "Xabi Alonso press conference LIVE - Chelsea boss on Enzo Fernandez transfer, injury news, Fulham",
-      "source": "Football London",
+      "source": "football.london",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeXphWUxFRTJnNHVDLThQamo5VTVtR2hYazNITnFWWERWZnhJNXZabnRCVTIxQTNDSkQ4aWJEVDl6ZmhFZjlNQzg3dkQ5eGJDMXlJcE1Qd2VqREJRMk9pRFc1cUE5LXRwbEIyRDd1UjdidkdseENlbVdyR2EydTdiSFhuMXBuYThnZDFBbFlKcm8waGtOT3hyR0FYWdIBoAFBVV95cUxNRzJnY1VuSkJZS0xsWDdHalhoUVo0enFXT1gtZkxIYlJxTGlra2pySkNwY1NxNHBad296WDNUMXJXS1NFcjlzUUp4UG9KQ3pqSF9kVjlfdkYxWFFMTXNfWUp3cmt3bGVwRlgxQ2t1OWE4RXRKRHFmcHNvR203THFLa2wyVDRWYkdobWR1c3podVNzck0xWU9SV0xTbFB1blhv?oc=5",
       "pubDate": "Thu, 20 Aug 2026 07:00:00 GMT",
       "category": "transfer"
     },
     {
-      "title": "Fulham 2-3 Crystal Palace: Ben Chilwell scores on Eagles return",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5laW1wNm8zLXZGLWJCYXlJVDNCQl9mZmFMOTlnN1RqMEJ1Y2FmSGpwVVZYZkVRTmpDaXk4QW1jQi01SWZiVXpONjRyVllGQ2V3QW9MblA0dk55OFFTd0ZhbFJhcHhyQQ?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 07:00:00 GMT",
+      "title": "What makes a cult hero?",
+      "source": "Fulhamish",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBkYS10YkdMb0RENDlOQW5tRTdoR1dqWkd1RHdMSDRfWEgwX3U3RFNQaHpKaWd5end1VFFfZjYySkVxT3RfOFhBYlVEMWNtZ1cxQ3lBT3l4Wkh4azZuUnVsNXJ3?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 13:30:07 GMT",
       "category": "general"
+    },
+    {
+      "title": "Internationals: Another Norway goal for Bobb",
+      "source": "Fulham FC",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPTXBCZFpQM0FEeUVpNlZYMURhM3lzbmtPUzNiSXU4SDhFMURKbExHTG1DeXduTFpjcDhhQ1FqdGFHaE56ZTFrbkVDcVpSYVVpRnRVeU04RHAtQXZMenBJT0t1RXRUbmtMLTN4UFVLbE9LeEJrd3hXUjU3amN1ODJlZC1iS2pSUS1XMVI1SHVtNkFrTnNP?oc=5",
+      "pubDate": "Fri, 02 Oct 2026 08:00:00 GMT",
+      "category": "match"
     },
     {
       "title": "Newcastle tickets",
@@ -73,25 +80,11 @@
       "category": "manager"
     },
     {
-      "title": "Jaye awarded Manager of the Month for August",
-      "source": "Fulham FC",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNLVd5VnNGdHkyOVJIekVMXzNJelNBMUtEeDN0REd6T2dpb29MdFdoRHpFM25nTElTbVlYV0NsbDBwS05LSDg1ZlNHMFRCWjg0Z0pMYVR0Ukl5OFZMbjJPdHY4QkxPZm9OaUFCTVdkRjEyaGhQRzRwVWxZbTFOa2FQWTA5WkhpMXlMTmp5ZWxQbTFLMFR1U1lMNHNXNA?oc=5",
-      "pubDate": "Wed, 30 Sep 2026 08:33:00 GMT",
-      "category": "manager"
-    },
-    {
       "title": "Internationals: Jedi captains United States in big win",
       "source": "Fulham FC",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYm56Y2lhT1ZveHVQYk1FTFhvY1NIRnhIcGpoNWJ3cmpkY1ZNZjBYTnM1MXY4T1MzMkMzMkNJRG1kYzY2SHFocW1kX2NSMmtDX0dOeWF4NUQxOTZZWVRGUVB4MlhRbmJtSV95WllTbXdJSmFOYlVFZUdiZHZmNnFZdGJyUTkyZ2c0LURMNnppM09XNmNnODBxcTFJdDBJSnJCbERybA?oc=5",
       "pubDate": "Wed, 30 Sep 2026 08:00:38 GMT",
       "category": "match"
-    },
-    {
-      "title": "Hashtag United tickets on sale",
-      "source": "Fulham FC",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYTA1ak4xWnpzVnVOUS04T1lkSVZpQ1BKcFlPbWRuNF9LX1JSZmkzd1JBLTRtLW9Xb29KeUZKNFdTeDlUYUZEa2NORHlwWUJLUzZDQ0RpdjMxQXZIbWQzNVdvNEFmN1I4dkVXZzhtbFZ6VUxheHpTRXhNaE8tZi05NElneFVXQQ?oc=5",
-      "pubDate": "Wed, 30 Sep 2026 09:30:00 GMT",
-      "category": "general"
     },
     {
       "title": "FFCW's to face Portsmouth in the FA WNL Cup",
@@ -101,10 +94,17 @@
       "category": "general"
     },
     {
-      "title": "Internationals: Shea captains Northern Ireland to top spot",
+      "title": "Charlie called up for FIFA Women's World Cup Qualifiers",
       "source": "Fulham FC",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZlRIeFFDRC1TYXV4REtvcC1tTDJ6RU5wNnhRa0pSaEEwc0ZqUDMxVzhOQU5DNXBhUzNWcWE2SjdReUFJVG1SN2ZKSkJrVVd2LU01d091cDdvcnJhUGxEajRFTzBOZEFOb1NHYVRFcllXR1BXS3ZwYjQ5RmFtQWpudWZvQUJCQ3NnT1ZOMm13ZWFxOUVwV2tBT1JuRGVBWmpoaXdLOHlIUEMzZw?oc=5",
-      "pubDate": "Tue, 29 Sep 2026 08:00:22 GMT",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOGFsd1NnbXUyTHlUOHQyOGE0Y0RIYjZYSXVEeTRoblo3YUJHZFdINElDRXp4TU9RNEZHV2lLY1Qzd1l5TFNOWXVnc3A2NTNaZVhBUmpJZHNNWUwtbW9yblVNeS1ucXo4Yl9LTHFqTGRuWlJpYjBiX0ktX1BodmQ2TTJfamVMQXpTc05uMGJHZV8wVGZ4d0x6djVkRWk?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 09:00:02 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Fulham 10-0 Ascot United",
+      "source": "Fulham FC",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBlZ1kwWGQ3MUFfNlZKYTdkaWJoLVlkZ21iY2doREJ5Q1lCcVRFZHJzSE9oZm5uTm9fVUlLYkZIcU04b1FEVGw1WUJhUFN1R000akVkaFRoSGt6OWNUN2NKVjVqckZ2UHhzdEdmUHE3U2Zlb19mTnJyXzcxaEFtQQ?oc=5",
+      "pubDate": "Sun, 27 Sep 2026 20:18:47 GMT",
       "category": "general"
     }
   ],
