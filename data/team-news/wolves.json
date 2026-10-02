@@ -1,7 +1,14 @@
 {
   "slug": "wolves",
-  "updated": "2026-10-02T11:37:06.220Z",
+  "updated": "2026-10-02T21:40:07.701Z",
   "articles": [
+    {
+      "title": "Wolverhampton Wanderers opinion: Cesar Peixoto's 'unlikely lads' are on the march",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1YblRab2FaRHRsZU1RQmtsTjQxYzFmVmd6bWJzaVlYVlRaR2hQME9FRkJhZ0ZhZlFVSWNJNHJFeGRDcjNXc2Uzc3hXUllhZ0NsSFlMLWJNNVY1X3hONnI3Y2NPVFZHU01BV2JB?oc=5",
+      "pubDate": "Wed, 30 Sep 2026 11:29:33 GMT",
+      "category": "general"
+    },
     {
       "title": "The Story of Wolves | European adventures (Part 1) | Features | Latest News",
       "source": "Wolverhampton Wanderers FC",
@@ -10,24 +17,31 @@
       "category": "general"
     },
     {
-      "title": "Wolverhampton Wanderers opinion: Cesar Peixoto's 'unlikely lads' are on the march",
-      "source": "bbc.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1YblRab2FaRHRsZU1RQmtsTjQxYzFmVmd6bWJzaVlYVlRaR2hQME9FRkJhZ0ZhZlFVSWNJNHJFeGRDcjNXc2Uzc3hXUllhZ0NsSFlMLWJNNVY1X3hONnI3Y2NPVFZHU01BV2JB?oc=5",
-      "pubDate": "Wed, 30 Sep 2026 11:29:33 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Women's Preview | Watford | Women's First-Team | Latest News",
+      "title": "Moutinho stars in first 'WW150 Icons' episode | Club | Latest News",
       "source": "Wolverhampton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVF9DbTFYam5ueEoxeEpFblFlNmN3VHAxTUwtYzkzUDJFNkJWTVU3SkVvenh0WEtCUDZueDdKQnpKMjU2Rk1nWDlQWUxNV01rV1hxTWxqWmVkR0NwVVVFaGlscE5hTXZHTG1hcGpZVEFEcjVVYzBSX1VfaU9LdEJQTTFyam1nZ0JjVEE?oc=5",
-      "pubDate": "Fri, 02 Oct 2026 08:07:31 GMT",
-      "category": "match"
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVmpDTWk3enZJY0FkLVhTOFBTWWFPNHJzemY4TFV0TE9BMTF4SWxVQVhDXzVsV3F3QTgzaldNYUNRYV9kUDVjMnUycng1dFFwaVlVLWItMkFZWURYRC02NU1tWmhGbmdPS0VmZmpQWlFsMjYtRFdxaE5mcENna0ZlUktvR0kxUjVyRGxQV1ZLeV9sZw?oc=5",
+      "pubDate": "Fri, 02 Oct 2026 14:57:43 GMT",
+      "category": "general"
     },
     {
       "title": "Doyle | 'I can feel us getting stronger and stronger' | Men's First-Team | Latest News",
       "source": "Wolverhampton Wanderers FC",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOc0VNNU4yZWVDblRybzdla0t1enJVN3BsZDFvMExBemVocjNrOFZmZmxGU1RNcnpaekUyaGJCeXBCdVRYbF9waTcyVXVIZVNXd2t5UE9NS0U2RXF6a1pnVkhQd1p1cHFYWXgxSEJrMjIwOGRlc21xc0ttR1VGajh6Z0ZpVjFfOW1DNW1UbElwUko0SE5TTjB0RjBrV3B2eDNEc05WaDhEbGQ?oc=5",
       "pubDate": "Fri, 02 Oct 2026 07:02:28 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Wolves Disability FC awards night | Foundation | Latest News",
+      "source": "Wolverhampton Wanderers FC",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOFJOWFVVZ2lQOGVRX0xMUmZfd0s3Nkkwd0pOS1J3QU12SVlMd3ZYbFBIOHFGRE1WUjlzTDlVZVNDVDZ2VzlyLW9GZXZxUzRRbkZDLVY1VWVJQnF0RVpjdG5ILTVvRzRuQUdYMjVxVDRLaDh4THJKWmNhRUpFNVJTMlpYUGMyN1hVU3RhNw?oc=5",
+      "pubDate": "Fri, 02 Oct 2026 15:07:47 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Internationals | Munetsi scores again for Zimbabwe | Men's First-Team | Latest News",
+      "source": "Wolverhampton Wanderers FC",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOUhEWF9rcU05bDVxc3RRTW1HMGlmVldvZVU4OVhNQ3o1bm4ySlpFNk4wVjJBVjI5bF9rYll1aURrRXBmUmw2cmFfRkJudU8wWWlVMXFvX3AzMG5IN09rNDFZTHp6Qm5rOUVfU2tqQi1TNTB6QWJ5R3ByR0pOcDRRUFBfQ0tUR1YzYjBpRlRGWHEzRGhTc1hhcXRGS0EtVGxadTZCTjFEYw?oc=5",
+      "pubDate": "Fri, 02 Oct 2026 09:32:22 GMT",
       "category": "general"
     },
     {
@@ -52,11 +66,11 @@
       "category": "general"
     },
     {
-      "title": "SUDU Player of the Month voting open | Men's First-Team | Latest News",
+      "title": "Women's Preview | Watford | Women's First-Team | Latest News",
       "source": "Wolverhampton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUEhndTF2bUtuZ1ZoeGF4TEx4UWFocWhTVXpNLU1PaWJFb2FlZzY0WEVsQXFPb0xrYm1IVmFNUEFHUmk0bVREYmtmQjI2cHV5MFkwbWUzVlFBQTh5WjVld3RNWS11V1N5dzFLZEs1QlZKY1BjYjVXLVBIUzFqb25ubktheHFOLXQwMFRvendUUml4NGNiejY0?oc=5",
-      "pubDate": "Tue, 29 Sep 2026 08:53:42 GMT",
-      "category": "general"
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVF9DbTFYam5ueEoxeEpFblFlNmN3VHAxTUwtYzkzUDJFNkJWTVU3SkVvenh0WEtCUDZueDdKQnpKMjU2Rk1nWDlQWUxNV01rV1hxTWxqWmVkR0NwVVVFaGlscE5hTXZHTG1hcGpZVEFEcjVVYzBSX1VfaU9LdEJQTTFyam1nZ0JjVEE?oc=5",
+      "pubDate": "Fri, 02 Oct 2026 13:57:47 GMT",
+      "category": "match"
     },
     {
       "title": "Wolves: Opinion - Wanderers make a statement with derby win",
@@ -64,13 +78,6 @@
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1IM1MwLUtvNHA3d0taOVpibjh1a2FQS1RnNkpxNl9NTHVhODJDUW80UWVlT291R3dGMUdVdWJfcEFOSlQ2d0F3QXJlT1FvQnFxdWFxTW1xcWNXeFVqUWRpWkd4SE9iZ1Fr?oc=5",
       "pubDate": "Mon, 21 Sep 2026 07:00:00 GMT",
       "category": "match"
-    },
-    {
-      "title": "TOWN 3 WOLVES 1",
-      "source": "Ipswich Town FC",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9fQ1VZZF9kUHRSenBLYndQeS1naF9nRE9wTVZtMl9NMmdxOWhjN2hLcG54ZjNMVW1QelNzTXdaeE1NMVc5V1ZiMS1TYVRvcW44Ni10WDhuOGxkem44S1lfcmd2VFE4RmJEZ2hJM1dsQQ?oc=5",
-      "pubDate": "Sun, 27 Sep 2026 15:07:23 GMT",
-      "category": "general"
     },
     {
       "title": "‘Physically intense and extremely disciplined’ | Wolverhampton Wanderers analysed",
@@ -83,22 +90,15 @@
       "title": "Wolves Women vs Watford: Match Day Guide | Women's First-Team | Latest News",
       "source": "Wolverhampton Wanderers FC",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRXcyZ3ZseklSTkZ6SXVGMGNkanRzeVl1ZTlFZkZndk1sMHNiNUtuNVMtTllmUzNSbHUwSVJGb2Qzdi1nTWZoYTNEV0hFYmZmTmlSeXk1LVp2VWp2RXhoTVRSb1BVY1VRc1lNX3Nya2J3V0ppci1KNzNfcUlRdklOTzFzS1BUajI4YnhzY1pQeDZnYWR1QUU3ajBiaUlkbWtF?oc=5",
-      "pubDate": "Fri, 02 Oct 2026 08:26:15 GMT",
+      "pubDate": "Fri, 02 Oct 2026 08:27:32 GMT",
       "category": "match"
     },
     {
-      "title": "Women's Report | Ipswich Town 3-1 Wolves | Women's First-Team | Latest News",
+      "title": "Wolves duo nominated for Barclays WSL 2 Goal of the Month | Women's First-Team | Latest News",
       "source": "Wolverhampton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVWtlNlJwRHAwRTFXTGhaNzVZVW9OZHVWWWZYaGdMVk5jdjQtNGtwdW9KbzIxdFNXcnB1WUVsTEFYc2dTUnhhVzZra2xxeVBHWDgxT3NrbnhfTHgyZHFpY09UUDBtRk1qZElzaE0zLThfbzRVUDM1MDMzamlnbVVYazBNaWZHSExyNjFWaC05VXNFdDVSaDNreGtlN0szUQ?oc=5",
-      "pubDate": "Sun, 27 Sep 2026 15:51:02 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQc25nZVQ0QW1IdVh1UDYwN2lwX0ZQMTVZQmNoSHBiRWpUamxKLWM4d2tKSTFJZUtCdkRFZFVFdWk5aXdtSVBVczBXcXFMb2xWSzB1T3pQT0Y4LS1Vb0x3RTdMZ3ZpRUwzOHVDNlFOSlpZaFdGTTRWalFQa2s1X1FmdXdmeUFrTE1rdlctbXctQU83OUVfV2JMZ0RwQzQ0RUhtVGdqRzJ3M0lNT1dkT2hHckJXak5DazFa?oc=5",
+      "pubDate": "Fri, 02 Oct 2026 12:02:37 GMT",
       "category": "match"
-    },
-    {
-      "title": "Internationals | Munetsi scores again for Zimbabwe | Men's First-Team | Latest News",
-      "source": "Wolverhampton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOUhEWF9rcU05bDVxc3RRTW1HMGlmVldvZVU4OVhNQ3o1bm4ySlpFNk4wVjJBVjI5bF9rYll1aURrRXBmUmw2cmFfRkJudU8wWWlVMXFvX3AzMG5IN09rNDFZTHp6Qm5rOUVfU2tqQi1TNTB6QWJ5R3ByR0pOcDRRUFBfQ0tUR1YzYjBpRlRGWHEzRGhTc1hhcXRGS0EtVGxadTZCTjFEYw?oc=5",
-      "pubDate": "Fri, 02 Oct 2026 09:32:22 GMT",
-      "category": "general"
     },
     {
       "title": "Wolves Express | Positives on three fronts | Club | Latest News",
