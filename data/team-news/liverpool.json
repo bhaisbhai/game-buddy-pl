@@ -1,41 +1,83 @@
 {
   "slug": "liverpool",
-  "updated": "2026-10-03T10:50:33.025Z",
+  "updated": "2026-10-03T20:26:00.055Z",
   "articles": [
     {
-      "title": "Milos Kerkez scores first international goal with seven Liverpool players in action",
-      "source": "liverpoolfc.com",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd29OYXpCSUVVQkR3TDlUaFRrb1k0TEdXYzg1clVrbTI1RlFOQkowMmYzbW5pS0owRFN2cXdSREExVGlyWXk3OU1YcjFJZnRNalFNWHVnT2REenN2cWhhT0lPTnR6UzdZVl9HdUhQZmNFV1BOMlMwZi1OYi16Wm9XVXZQMkpyNTVTWDlBTDVBcGtMdV9qS3pxeldKZjBpU1dkTGJZcE41QmhYaloy0gG0AUFVX3lxTFBaTDdILVdjOGFMS2ozNEhSeklJNDdNTXRZMWJFdFk4N0E5bkxBY1MxcU81c3R0SWtPQWxmSXh4NFlsc0lZMEtiU1ZQMDZWbVhBRFlVdHFzVVdzcUZKY2NXRWUwQ0pSTjUtbENENmxBQzQxVDJqRmxibmdFbDR4Y19mVXpaeXBuRVlYeDhuOGJRMkVTZm5YOHFMOWhFR2VoUFJGVE9vSS1SR1dsZlVrdjhvODdZWQ?oc=5",
-      "pubDate": "Fri, 02 Oct 2026 21:10:13 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Dominik Szoboszlai sparks Liverpool fitness concern as Jeremy Jacquet impresses again",
-      "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRm9nblRDUmdCdzNYMzUxdjIwWkpuRExEaVJOSFNzVDE3SEpzSkh6NjlRT1JsNU90dGdaSE1PcVpCT2MteHpZQzFjdDZZRUdlZlJMUnV1aThfaWtfZ0wwc3BsQzl5STBSUS01SDUzWmd4ZUpEZGxndEFpSlFRaE9icTE0VExaTktGNU5UaC1rVU9BUGhZMGRSYzFyUWU4U0dlOEh4V08ybkR2Y1hMbTZka1dfZ9IBuAFBVV95cUxOc0J5czJFNnI2N0JJWkdLQzBvU0ZZNWp4TXJMTTFyRmtnUU91VUpxQ25SZVV6ZzVoV3JCdTN4OWtQV3VjcFEzeWFucnR1RF9pYzJSWVZrWkZRWERZUTJ1RnpLdVFtd2l1dk0xM042M0VnRkNfZFp3dENMVWNKS0o3dEtSOHdlbWx2T3c1OU10MlFaTUdyc054S2wwemR5Wk03bDlEOG04WnVKVWpYak5DZ2t1a1JMYjdR?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 08:44:00 GMT",
-      "category": "fitness"
-    },
-    {
-      "title": "Milos Kerkez scores first-ever Hungary goal…then ends international break early",
-      "source": "This Is Anfield",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVXdFRy1GS1hsdmllZ2pDbXd6UkFabF9CdVRXMTktS3AzcTZXOXFDVUhYRk9FXzhwSUJHX3BvWnhiM3dxZWowRjdicmRHcFl0dkVtUXUzQjhRcUFYZS1DbEVLR2x3OWZlY05jZWhqREhIR3N6WTlZcG9rLTlsV2ViQXdMZ080N3dxZjc0SEROTDcyY2tEcmFIWDBaUklIejFjM0E?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 07:33:33 GMT",
-      "category": "match"
-    },
-    {
-      "title": "New Giovanni Leoni return date set – as recovery details revealed",
-      "source": "This Is Anfield",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1SYnhEdUxHU2JjeHJWSGFZR0VQNFVORWJzUUxrSjFmaENfYTVCZUs1REFQZmR2d2VKNlM1QU9HTjRuREhNdC0zSHJMaFV4bHdmSDFNYk1lWjh4REY2QW1lcUhGbXgzT3dDWm9paERvZ0Z3YlBxeW8yb2dYZEU?oc=5",
-      "pubDate": "Fri, 02 Oct 2026 10:31:52 GMT",
-      "category": "fitness"
-    },
-    {
-      "title": "Leoni boost as Real Madrid scout Jarell Quansah – Latest Liverpool FC News",
-      "source": "This Is Anfield",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaGFGVUpmSkpoRm5sU2JKb3FhLXplM1RXVDJILWJieFF1T1BiUkl5dmR0NmlLWnhOZnFySU4yWDcwSEYxbFNfU0E2djBtVDZBUk1pSmxKMmN4RlVPaG5lNVdJcWhqSVFJaWY4OUJ1TFVVa1lFakotSy1tX3JKa3RTazlQYVE5SmM1bG92dmRsY0hRUG5K?oc=5",
-      "pubDate": "Fri, 02 Oct 2026 16:06:53 GMT",
+      "title": "'Very, very good' - Zinedine Zidane full of praise for Jeremy Jacquet",
+      "source": "Liverpool FC",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUHB2VHRNcWx4ejYwWEk2QjRqWGFHQ0labUhJMmVDcVJoN2h4N1lQR2xGa241N3RfY3VldThMOWY5VHdwUGdGYWNXcDhZeVB6TkhOT18xbnotSDRpUldFczZjUmNlRXlQNGVVSjBWXzlCdUhMLXR2bG4tTS1lTTZOOHVHZnI5TXZqQjZXN3FmUzNLd2k40gGcAUFVX3lxTE5BM042bWhrZWFSQ0ZYZW9udEtfbFZPblE1UGUwaDVFLXViZ09ZTnVwemU2Q2dpUkVwSGRzZG5WR3h4eGJTTlI1dDdETXBBbWZzWmtwcS1Qb2hyNk9mclFVS0l0VGx5WnNpaEFyNnFxOEYxVDl0M0ppX0RSQkZvaHROSFI5dXZucnMyLS0wSzZjdFQteFhiamwta0hFMQ?oc=5",
+      "pubDate": "Sat, 03 Oct 2026 08:26:38 GMT",
       "category": "general"
+    },
+    {
+      "title": "Jeremy Jacquet is taking everything in his stride for Liverpool and France. Just ask Zinedine Zidane - The Athletic",
+      "source": "nytimes.com",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMm9UeVMyLU81OXhmUG02U25VYnduVHVSUUtQclBJMWV3YmlQbU5OeTZWR0VEZGw3aEx6d1RFZmROdWY0VjcxejNfVmlvMVl0TkxOZUtqVThXSS00Tk5sZUl5ZG5YVWZNN2FRbFRvQXJ4U0RNOVlEV3oxdHR3RUlVZ0g4N1J3WUxBcnpWa2E5U2xIalMzM0E?oc=5",
+      "pubDate": "Sat, 03 Oct 2026 14:25:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Jeremy Jacquet can't hide feelings as Liverpool star informed of Zinedine Zidane comments",
+      "source": "Liverpool Echo",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaFFGM3pSZmVMQTVKUEZacjB4MDdkT1g3QmxFYzJfWHU1RnctYVBzREFBamQ5RDMtaUdSaVJpZmI1dkZjb1dxckZramluV3pGUFRLOTBFbHFOQm10TmZTYUZaOFdjYXVwY2FQUFpDRDk0akdaNmdleVVpNVhiVVFrZGxMWTFrbHBZZVR4MWNZcVU4VGhPUWZ3NjFWSGcwMC1KM25rM3RmNzJkcjdZVTM40gG0AUFVX3lxTE1ZQjZMMzFob1lPajlza0hUQXZPbjJnRGUxVHZZTUhkRHl1Z0g1NUlHZnpqSUN5eTh0aHRMeEF4amdCTnpRSFpEN2FvNXN3VkRuZVZPRlJNM3J2ZEEzRzNXRWpvVGRRSTh6MUxLTzJtLUw1WnFJYzBJNGVMeHhaTlMxWmM5TWR5SXhaV3Y0RnZWYml0T19fUV9MLVh0d25jOEZTMjRlb0t2SGlMdmNEd0xkQlpJbg?oc=5",
+      "pubDate": "Sat, 03 Oct 2026 08:21:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Andoni Iraola can lose 'stunning' Liverpool star, Champions League winners want him",
+      "source": "anfieldwatch.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNEdFdjczZEpZRXhDWTJIbUdrcmxFemRJT292SGY0Z2dYYm92bFp6cE5CNTZ6emxIaDRPTnBDdURLWmVvcWFuVmltRVYwNzFSWkJBRFFDVWhmX3dEWUIwVDVkd25PWWlvSUFNNVpPVVZhQnc4alctZVFFdy1ma2JNeU1uNmRteVFrbXJEbWJaZ1NpQnM3WjdXRlphME8zOXNCbjB4VXlnYl9SeDY0VzBfUzRBRFN1ekFmR2RtZWlpS2t2dzRHUWJQWWlR?oc=5",
+      "pubDate": "Fri, 02 Oct 2026 21:00:03 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Ronald Araujo emerges as Liverpool's unlikely hero to quickly raise £47m question",
+      "source": "Liverpool Echo",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc2lURXpKb0MwMGEyVkFwNGswRl9URU5RcWJ2MG5mNHZuY3hweXZ5X0x6UFU0RkNIQ0lEWjFiRzBYQV92cVFDYUdrY1hiMWp4TzA2ajhyV0dBck1DX05QSndJZWthbVM4SzFPYlpFZXAzNktGcGJwbXVTQXA0MG9QOGtVZkhGckhvQnktRG1GSTY5cm11MTRNSTFpdGRDRU1SNFJ4RjhHSDJkb0RiSXNHVdIBtgFBVV95cUxPODc4TUJmWGdDcWNjWU8zT1RCTTJzMU1VUEU2M3EySElOVkY1Z1BRTnhCTUs1ak44cGR3a0hUenVEX3Vjd0gxdnBuajY0MmZVeThNVW8zUTZYbHk3Q0h0MzZOV1VpRzBSZElQblZsVW9SVm1QbTIxZTJYRlFwbW1rcU5TckJsYzJtaWFmUVlPd1YxeDMwS2RuV0hnUVNuMnpCc0RtQjI1eU9YVEZ4Z3c5M1ZsOFhXQQ?oc=5",
+      "pubDate": "Sat, 03 Oct 2026 15:09:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Why Andoni Iraola’s training plans led to “important weeks” for youngsters",
+      "source": "This Is Anfield",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTnVyWnlFM0JHLUI5TF9RMEZGSDZ2TW9hS2FIRl9nLWswbHhqbElCckQxWkZBTV9lT1N3WVZUS1FfaWxQaFRmX3VpTldsYjYxYjlnNndKZV9rcnM5Q3NyYUpmU0R3VjFfXzIwbmpxRXN2d2Iyamp1VXl0a2o3TWRwZkJNYzhWczUtUWp0cW5Wbk5NWllZdGRlVlROSjRfbGc?oc=5",
+      "pubDate": "Sat, 03 Oct 2026 16:55:57 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Man Utd 1-0 Liverpool: Zigiotti Olme's chipped winner sees off rivals",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBpLTZTMGN0QmxQY05sc3B4U0dkcWZydkd5aFBsaUF1N0JlaGZGQ0ZKV1F1WmNjUW16OFI5bXAzMW42ZW10cVBvZFZ4N3M5TFBQUHZWSEFVeUZETXFFd0szWkVHUG5Ndw?oc=5",
+      "pubDate": "Sat, 03 Oct 2026 14:20:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Liverpool’s new centre-back signing scores on debut vs. Robbie Fowler Academy",
+      "source": "This Is Anfield",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMzFFN0JoMjh2TjVoTVlBQkVTNENSeUJ0QU95TTF1dVBUSmdkcEFRd0F3bjZYUzJXWDdnZXhZZEtBR0hzWkk4Q3RwTG0zWEpsZ0xPU1hybHU1VW1CWG1TSFktNnNDV1RYWmVUY2YxamY4MVNDWUEweUJCX3FWZ0Q5TXdRaW90Xzd4cFV2NzF6cXBFU3U3eFI4?oc=5",
+      "pubDate": "Sat, 03 Oct 2026 16:23:37 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Luis Diaz 'thankful' mega-money Liverpool transfer never materialised",
+      "source": "Liverpool Echo",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOczQ4Q0lDTzNTRW1VUGx4WVJoT2R6ZFV4UXRjcHJ5S041Tnl3LVJuN0EzLU41OE1zdHFuN01kdUNCbU1UN3NFN0VmTWIyWnk1MU40bW91WlFXQUxRMU1ISHBUcTVYTzRPSW93clowem1NN2dOalNXTG12eVBITFk3Q0x2RDdJMTloZG1kS09RcXh2VTZhaTdwd1BEaXR1amltLWw0OXZsNNIBrAFBVV95cUxPQjE4ekhqZXdRMDVlRTgxdE9tWk50VG54R3lQck9QeXFtWTlDR184bGY4YXAzTk9rOUt3Mng3eTV0bmFTd2h5T2V4M1UyYmotWTU4VFp4NURjMTJ4ZEstNXZsdXlUbkZxemUyeDJyY2RZZFJCb2hfQldpT3E2U3pWUFhsNE5ZZkMwVElEM2swUFE2UVdMbGI4dmFvZ1BtMVhpdi1ZMjdKclJoU2FY?oc=5",
+      "pubDate": "Sat, 03 Oct 2026 17:55:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Man Utd 1-0 Liverpool: As it happened",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeVZyVTltMW9zb052WHVKUjRzTEhCbXZQWWNELWkzeW05MjYxRVdmV3NCdHljeEJsN3NiSzdfa2xoVHU2VWFrTXFTQUp1UWJ4TzhnMHJTTXYxUnB6SEdOWGlicUszS25CcWVmZXdneHZNQlJZY1kxOHdUbFdEVVlxWFY0bVlMZTc1Z2xjckFrNjZKcWpPRXkwcGxmV3NpdV9tNUd4dngwX1JYT2ZrMTI4X3BOXzdCbzNKVnVQdGJmRE9lZnhWc1JYWWRHZzFWTjNtWUE?oc=5",
+      "pubDate": "Sat, 03 Oct 2026 18:16:03 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Liverpool injury latest and return dates including Cody Gakpo and Hugo Ekitike",
+      "source": "Liverpool.com",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSjNPNDdoNnlHWW16NXVEWGozaGFwdmpHQTJIMHE1S2Q3ZURpbS1XUUtyTV9zWFhjc1pMaE1QcUxGU3hiU29oVHd6VTNDWXJTS2VCODU0N0ZfOVctUmFUcEFUcFp2dThGWkhfVE5rQU9UR3Z3UElsTDQtVk5zdDExUV9DaVFRMjBWdWI1NFJTRWtKZmFzUG9hWl9DbldnaUhZ0gGmAUFVX3lxTE9TM08wLUpSMENNOGF4cWVqVGRKVVdlUWFDODRDczVoRUZwYUFmSFV5LWl3QlVOOEpSVkpnZHg2QVJXckRpSjlNVHUzenEtQkhtLVJOU3B0aEV2QUhyTzNYZW1ta0R5c3FySlAtY05sQzAyMk1XTGxHY2RhN2hYQTUzQnl3WFIwYllid1gweW1pbm5DOVpPUDhpNDFZT0FBcENTeXdPdmc?oc=5",
+      "pubDate": "Sat, 03 Oct 2026 18:07:05 GMT",
+      "category": "fitness"
     },
     {
       "title": "Ekitike, Isak, Gakpo, Leoni - Liverpool injury news and return dates before Man City",
@@ -45,66 +87,24 @@
       "category": "fitness"
     },
     {
-      "title": "Ex-Liverpool Defender Signs at Non-League Club to 'Kick Back On'",
+      "title": "New Giovanni Leoni return date set – as recovery details revealed",
       "source": "This Is Anfield",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSUxmdnhQdEt1c3k2aElGY3Z3YVJqamI0SjJCUFhaMF9UX1IzMHJWOERIY0E3Y0wydWxuZWZvc1hXR1ZLeGROcDAyWW5EeHBJRHFiZmFWbHFNQW1yeXNudzcyU01KWWI0SVNUb0kzekp0RGJjYzdZcDlOM2hpd1FJajQ4anhmZHpOeXp6YVpvVEV4cmM1ZmtjckpSYUM1aW1TbUg0?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 08:46:53 GMT",
-      "category": "transfer"
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1SYnhEdUxHU2JjeHJWSGFZR0VQNFVORWJzUUxrSjFmaENfYTVCZUs1REFQZmR2d2VKNlM1QU9HTjRuREhNdC0zSHJMaFV4bHdmSDFNYk1lWjh4REY2QW1lcUhGbXgzT3dDWm9paERvZ0Z3YlBxeW8yb2dYZEU?oc=5",
+      "pubDate": "Fri, 02 Oct 2026 10:31:52 GMT",
+      "category": "fitness"
     },
     {
-      "title": "Jeremy Jacquet is taking everything in his stride for Liverpool and France. Just ask Zinedine Zidane",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMm9UeVMyLU81OXhmUG02U25VYnduVHVSUUtQclBJMWV3YmlQbU5OeTZWR0VEZGw3aEx6d1RFZmROdWY0VjcxejNfVmlvMVl0TkxOZUtqVThXSS00Tk5sZUl5ZG5YVWZNN2FRbFRvQXJ4U0RNOVlEV3oxdHR3RUlVZ0g4N1J3WUxBcnpWa2E5U2xIalMzM0E?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 07:15:48 GMT",
+      "title": "Excitement at Liverpool: Feeling they've landed unbelievable talent",
+      "source": "anfieldwatch.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQVN1a09la0xUeVE5bEpOVkZmVzJ6VGhwZUtsREZkT3k1YjF3enBGY2tUdWZJRG1obDR1bE5GVjdKc3g1V21WN3NoVFJZZFgxSW9wdExFX3lwTkt0X2ZOYlZrejhGSVVuMXpqQWNRMVF5U3hwUmE4YjVoY09xUDJUSUNOSU92Q1FyakZBZnhWV0xlM0lxTVFmVkJNUEwxci1PTnA3VFM3eEIxb1FvRHRGWUxQaVdKdw?oc=5",
+      "pubDate": "Sat, 03 Oct 2026 07:30:46 GMT",
       "category": "general"
     },
     {
-      "title": "Bayern Munich duo refuse to hide true Florian Wirtz feelings amid Liverpool struggles",
-      "source": "Liverpool.com",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUHRldGpmWnNQTU80RUdFT3NOTUJZYU1pRXhrMU9LMFBqb2Q2azhTMmQ2MkpYSXVLazhnNk9DQnF2eU8yc0ozRXRkY1F0MTdkc1MzOU1QVGxydG5aUm8zdUlWZFRTYkVUUFE4eTJCbEZzeW8wMTRIR3R0aGZBZXZwb3RsN28xM04yazdJaUI5VGF1TXkwSVHSAZsBQVVfeXFMTzV0SzViRjJWWUZMektUckJ6UlctX2ZRNjFoR0JaWGR1V0tNLU5VRy1FczNYM2k1NFBBVTNVU3dRZlROOWhBNjl6dHI5YUVCd0pFZW9uN2gwT0ltMi01VGVFM0VoYkJyeE9tVG9EY3d5ZU9SMS1hTXBUS2otcVFCeTB0amJHUk1oRkJ0YjhEMXdVcjlxZHJJQWw4ek0?oc=5",
-      "pubDate": "Fri, 02 Oct 2026 12:25:42 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Florian Wirtz 'proud' after captaining Germany for the first time",
-      "source": "liverpoolfc.com",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdU1lSmQ4VVQ3bDhMbjg5OE9oaXgxUkRhU0h4bU9OVFJTbVRjMkV1Q042ekhvRzJwRWJPVGZIRXU5RW9hWFlBRU1saWpZSTJHYU1ybWxVdFJHNkx4dFJ5M3l6ZHgyd2VyWXI2eXlHUWZLRU5vdUJuRkp6aFdFQjYySUowSndNbm8wZ2FLZWluMDJDd9IBmgFBVV95cUxNUmwzTzhGakR0OExYVDVQMEV0SzUtbWFmYlB0cm4tOVg0TUdha1BGTV9ZX3RmWFFNT3lxYjJNSFEwcF9yWURIM0U0bVZleFRUbWkyT1pyZlpFemdsTEhjTnlSTUg3ZUY5WjA3STNvQjNJM1hweF81bEl0aWh5ZGtGQ0hIb0g1d1NTXzdEQmcxRE50ZTFVWEw1XzZ3?oc=5",
-      "pubDate": "Fri, 02 Oct 2026 10:16:29 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Florian Wirtz issues statement to Liverpool, he knows what he wants",
-      "source": "AnfieldWatch",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSWJFQUEyeFlhR21HcjNHU2hQUnRWTUNMWEEtUWRDcGRFTFAydF94RVBIX2NiTlU3OE1HVlBVWVVTdEh3N1RKY19tNXNiSndqN2lTWUo4VnFfQ3JRcDZTMVExTUF3U0dxUmhyUmxfSVRvb3RiOVNZc3g1Rzlfel84WEh0cU9NZWFWc2RJVHUzRGZUTlgtdWFXbzFIbjIxbndieEVWaFdFYm5Ydy1KbVRuaExYWmlVU1U?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 06:30:29 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Chelsea join growing list of sides after Liverpool star after complaints about Reds",
-      "source": "Football365",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPVTFxZDRTaXRqeVplMGdvYTZ4a2pfRGRpN1JEZHdQY3VEbDNXYjR4V3d5YXl4eGtvTHRwWHE4akpHam5udXlyamdRV1JybUw2TVZsWkptN0lNeDE2V2ZsamNpUHY1czB4QmZ5am9zMUdYRG40ejVoMjVUclJxYVA5dQ?oc=5",
-      "pubDate": "Fri, 02 Oct 2026 15:47:09 GMT",
-      "category": "general"
-    },
-    {
-      "title": "10 times Man City beat Liverpool to transfers while breaking Premier League financial rules",
-      "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMm9vSWNfS2RHVUhvYXk3UmMtSVhJMXdKbXFHVDFmX0IwOHFXMHFCYzNacnRMaEhZUnZocVFFSzFrdnpTV2xSdjZKakd0Tm1tZ1lfQjB5bjY0NDh0LUhoNGFfbFhDNmdnR09OY1BfWE1MdUJWMzM3QlliWG9kREoxZEpzcTdXQnIwcDVjMzB0X3dDR1RhS1dV0gGcAUFVX3lxTFA5VGtUemlMMHlITUhleHBFM0RXY05RdUNWR1BMb1l3d2prZkw2ME5GSzNVSHc2TW11dGxudk1YQmsydzZhOHpzRzQ0U0ZVUzlLQmdoTjl6RUw3cUVHbDkzaEZYb3U0aUFBd2FzWkRGbUNXMWhpNmd6eXVFbEtlU0VGY2s0QnFac2xtZklkLWRkSGZHQ2toVmR1azdPUA?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 05:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Trent Alexander-Arnold comparison between Man City and Liverpool now makes even more sense",
-      "source": "Liverpool.com",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNa0k2Q1V2STdWT3hiWmp4T2Q1Y2pZXzIxQ3Z0MmJhbXJYckJtMy1Jc1ROS2FOeHp1aTl2R3B4MmNIREx4VkhmV19GMlB5SmJhLXdIUFNxM1VRVWNOYUdBRGdGaWVSclh2WURfM2k2Rjg1QzU3aEoxOEQxNF9LMmVTZTJtYkx2b3A3U3I4NHJiVVdhTmNPWTE4WWd3YUlXUdIBowFBVV95cUxOT2EyZWNQOTZrVzhxdXgydzV4OUFxMXRfNHdHRTN2RjNkZF9PVFNRS2FhWFg4Smo1RkVzel93R2pJa3pZSTJuaHlGSy1JdVYwaXY1a1haY2lOYU9VSnJjdUpQLUJJaUlNRXRDY0tjdHUxc1cxR0ZXemVrUy15eV9lVExYanBnM0hzbzRsbE1sY01GODJmblZyV2I1b09pM2VmVWV3?oc=5",
-      "pubDate": "Thu, 01 Oct 2026 13:06:33 GMT",
-      "category": "general"
-    },
-    {
-      "title": "The Man City transfers that usurped Liverpool: From David Silva to Raheem Sterling",
+      "title": "Rio Ngumoha gives biggest indication yet he plans to stay at Liverpool",
       "source": "This Is Anfield",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1lak9VZ2E2N0xmc3BHMTF2dGdfRDROWFdNY0Fzb0p4aFFjbGhRdU14TDl6MW8zSWY5V3RRdmdnTUtWNU9UeXJGR1JOcHFRcjlWNGZwVEpTRkl5by0xRk1sWjhueTYzS2ZGTzJLamlXMy16SzJQOWc?oc=5",
-      "pubDate": "Fri, 02 Oct 2026 18:21:53 GMT",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNS0hLR0lCSUZOSlNVRW80WEtucExxYlgwX3BOYUpjZEdwRkxuY045Y0IyeDFpQ0JnZ1JjazE5VDY0anp6dGY2NW9mdzdNV3hIT09FaUxYMm5UWEJoSGdjdEdub1FoQjdpd0xHdkw2VWt4aHhoNkhOam56eE52cExzZS1DNlBkcXJiM3o2SmhOM1RjaXc?oc=5",
+      "pubDate": "Sat, 03 Oct 2026 13:36:53 GMT",
       "category": "general"
     }
   ],
