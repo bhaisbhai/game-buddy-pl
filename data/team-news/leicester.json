@@ -1,14 +1,7 @@
 {
   "slug": "leicester",
-  "updated": "2026-10-03T20:26:00.055Z",
+  "updated": "2026-10-04T11:32:53.394Z",
   "articles": [
-    {
-      "title": "Leicester sign former Premier League player on free transfer",
-      "source": "talksport.com",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONGxUeWVxRjdGSlFJeC1RdXpzOFhmdmRrcUZwakRqU3htOWp5eWQ4MUVzWThjbWNNeXo4QWJjOEt4dUZBNkpmcVlQS05kSUFaVTd2bWFzS0Qtcl9oOEdJb2VoV25PeGczVlJPUDJyZE52OVczQVJJYm5zQUtLbl9VMFAzVEJfc1dJb05TYzc2d0N3TWFMOVYxVkhuUGtfdF8ybnBlXw?oc=5",
-      "pubDate": "Thu, 01 Oct 2026 19:53:01 GMT",
-      "category": "transfer"
-    },
     {
       "title": "Leicester City's 90 points League One aim and why it might not be enough for promotion",
       "source": "Leicester Mercury",
@@ -17,10 +10,17 @@
       "category": "general"
     },
     {
-      "title": "Will Smallbone: Leicester City sign ex-Southampton midfielder",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE95SlNhNGFnekt3QVZ0Rk43X0hnY0xnSVE0UW5wb0h2bUdFT1FpSkdSY3FpNFNsTVZBR3RzYWFVQ0FsUzdQWm5tRU1ud19QQjk2ZE1hVFQwYXVXZ2hfSWd3NVl6VzZLVk5Q?oc=5",
-      "pubDate": "Thu, 01 Oct 2026 15:54:40 GMT",
+      "title": "Sunderland vs Leicester City: WSL 2 stats & head-to-head",
+      "source": "bbc.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE91ZTc3WnVMN0JGYXhJTlp3ZmRqbzQ3NF9SWHZKM1FLVEZQQ1Y2X0R0T0kyWXkxWG1zdXpMdTE4NGFqMXFZNEs5WXQxZS1lc3VGb2VFb3lMbndJcVV4emN6T1ZWU2E0UQ?oc=5",
+      "pubDate": "Sun, 04 Oct 2026 11:31:39 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Leicester sign former Premier League player on free transfer",
+      "source": "talkSPORT",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONGxUeWVxRjdGSlFJeC1RdXpzOFhmdmRrcUZwakRqU3htOWp5eWQ4MUVzWThjbWNNeXo4QWJjOEt4dUZBNkpmcVlQS05kSUFaVTd2bWFzS0Qtcl9oOEdJb2VoV25PeGczVlJPUDJyZE52OVczQVJJYm5zQUtLbl9VMFAzVEJfc1dJb05TYzc2d0N3TWFMOVYxVkhuUGtfdF8ybnBlXw?oc=5",
+      "pubDate": "Thu, 01 Oct 2026 19:53:01 GMT",
       "category": "transfer"
     },
     {
@@ -31,25 +31,18 @@
       "category": "general"
     },
     {
+      "title": "Will Smallbone: Leicester City sign ex-Southampton midfielder",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE95SlNhNGFnekt3QVZ0Rk43X0hnY0xnSVE0UW5wb0h2bUdFT1FpSkdSY3FpNFNsTVZBR3RzYWFVQ0FsUzdQWm5tRU1ud19QQjk2ZE1hVFQwYXVXZ2hfSWd3NVl6VzZLVk5Q?oc=5",
+      "pubDate": "Thu, 01 Oct 2026 15:54:40 GMT",
+      "category": "transfer"
+    },
+    {
       "title": "Louis Page: The golden boy providing the bright spark for Leicester City and Russell Martin",
       "source": "Goal.com",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNenRlQTBxdjZva2hRc3JnWFFlT2hEXzFodzd4bVNhQ2FSTTJYZHZvN2RvenV3dGUweFlNbGppb05SQUFlZktXR09faUx4STFoR3JSQjZYYWlrZlBicWU0OVRpQkNTUlppSjd3dkxucm04QVp0WlNDUjdNWU1KOEt1eEx4TWlmekYxYlcxbDROWkxBRjJqaHNjM01maFBKUUZld3hibFNnRGNQeG16aWc4dXlTaEVFOWc?oc=5",
-      "pubDate": "Fri, 02 Oct 2026 10:00:00 GMT",
+      "pubDate": "Fri, 02 Oct 2026 10:28:24 GMT",
       "category": "match"
-    },
-    {
-      "title": "Russell Martin knows Leicester City blueprint to produce promotion masterclass",
-      "source": "Leicester Mercury",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUV8wZUh4Vm9jb3FjRnlYOFFzWXdiRmxHOGdzT0xGSWRzNHdpMEJvTWV3c2prR3NZSldYdWJBbktmbWg3RnRTbjRvOVJuY0Fha1N0bDJ5UmF6SF9FY2dkZ3FQLXNSTDAzNGhqN3UxcHpCVzBneFpVN1JkMjRXVlZ5X2dSSVBoeFBNRmZ2TVk4djI4OUZQdUQ3UGI1azg2UlhjeEl2X2t6ZG93Z1BUMEhyOWlB?oc=5",
-      "pubDate": "Fri, 02 Oct 2026 15:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Leicester City complete transfer as Russell Martin handed major boost",
-      "source": "Leicester Mercury",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcmhVMGtUMW40ZTRQeHZWQnFIZVRjMWdoTGxoRmhxUWpuWWdnb09Ka0ZoSWRTU3E5QlJYM1VEV25lcmQtWFBtNkNzWXlwbU5lT1RUTWs5T2hwaDdCOWljOFBZcnYybjJkOUhxaDRtR2hGY2V6YTYzQWRQXzRCeHp0VmtLMW84WWVLTjNhMEloV3VIdmlDLTF2aW93dFJ5SHByQks1cEJsT2ZCVDNjU21sS1lZaGRjUdIBuwFBVV95cUxQVFh2ZnF6dE1HdWltYWY0LWFleS1rYTQ5bzQtbS1sWFVBbjZWYklNNnRESjlUNUdMQlpuQnRUM0lzQWoxM2Zfa25YWW8wS2psNTMzVW1BUk9nRDA4dDJ4S0MteW8yTEFaMGJ3b3BxNnRrRzFoeDNqam1WejhTY1ZISHNUcS1zeDdkckFBTjQ5SWhGbVZ1RkEyT3lENmJsOGpZTTVOSXRJcDNHZ2FkNkJ1SkhwQ1dKcFhsVnpF?oc=5",
-      "pubDate": "Thu, 01 Oct 2026 15:41:10 GMT",
-      "category": "transfer"
     },
     {
       "title": "Former Leicester City defender Jannik Vestergaard announces retirement",
@@ -59,10 +52,10 @@
       "category": "general"
     },
     {
-      "title": "Winks, Fatawu, Daka - How the 21 players who left Leicester City are doing | Leicestershire Live",
+      "title": "Russell Martin knows Leicester City blueprint to produce promotion masterclass",
       "source": "Leicester Mercury",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORC1ncmFpQ3lBeDBLMlJaS0dQbFIybzZlQWo0VGxVUUdCSVNlTlJFTXZfVmkxZk1kNTFsT25qVnp6NHN5V0ctaVBxd2tZRThzVExJZWI0ZVdsRENHZGVlOWtfTkRXdW5BX2thTDVncHQyUm96MnB4RFRsRkZGSlpUV2dhUFd3dFlwUmx3QjlwcG16U2taNXl6cVZ6bzBjVkVBbVlLd0FyZkc?oc=5",
-      "pubDate": "Thu, 01 Oct 2026 10:34:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUV8wZUh4Vm9jb3FjRnlYOFFzWXdiRmxHOGdzT0xGSWRzNHdpMEJvTWV3c2prR3NZSldYdWJBbktmbWg3RnRTbjRvOVJuY0Fha1N0bDJ5UmF6SF9FY2dkZ3FQLXNSTDAzNGhqN3UxcHpCVzBneFpVN1JkMjRXVlZ5X2dSSVBoeFBNRmZ2TVk4djI4OUZQdUQ3UGI1azg2UlhjeEl2X2t6ZG93Z1BUMEhyOWlB?oc=5",
+      "pubDate": "Fri, 02 Oct 2026 15:00:00 GMT",
       "category": "general"
     },
     {
@@ -73,17 +66,17 @@
       "category": "general"
     },
     {
-      "title": "Men's First Team Squad Numbers",
-      "source": "LCFC | Official Website",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdlhuSUFla3ptUkNlXzdSTTBtOXZGeHg1MEd6eC1ldzUwTkNUZl84OEVmeG9zRTNBdjA3MkVMNmVINTdaQ3pBeFQ3Z2s4OTJtUXJ4WXUwQmkzY0EtMnNuejRIYWZuT3pYbXVlODJGZERfN1BnOFFKT2t5NW1uYy05SUtkeC1GeHJDN2Rr?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 12:00:59 GMT",
+      "title": "Will Smallbone to Leicester City presents uncomfortable truth Russell Martin must address",
+      "source": "Leicester Mercury",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOC1zREZBY2hDVTN6b0NHOWdxamZaYkxTSkN6YnRfckNTQ1FpY3liZ21vM2VNUUFOWmd0R1Y1WmM1THl3TFRmTG1ZTktPME9aOW15QkJfYUlfekRLVTRUNkY0cDFtaUIzc3VtQ0lMRlhyaGZqREUxbTYtNTBDM3pKYjh1Q2NIYjJCQUJfRzhNeHFRdjNxb003azVLNWlwNk5HUVQxbmw3V1luMkZKbnB6bEdR0gG3AUFVX3lxTFBBVGg3SjlRbVgxQUZLMlFLU1NkbDdCQXAxcmMzeVRydEowekt2bW1EN1R6aEVHelBuRURfR1h6aTlmUmdYYm9Mc0pVZjQ1TFEtM1pheTFEaElHeGhNaXEwNUxQdmRmZVNDRnNzWjZucG12WHpoUklwNE1zcVZUUl9VU3F0aEdyOFZmN1BTOF9TbnFUVHhiU0ZBVi1XWFdhZ2pjM0JzZkVVb0ZSV29NUS1XRnFYaUNPQQ?oc=5",
+      "pubDate": "Fri, 02 Oct 2026 05:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "Leicester City Travel To Notts County In Sky Bet League One Opener",
+      "title": "Club Statement: Leicester City And Claudio Ranieri Part Company",
       "source": "LCFC | Official Website",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaHB6dzZ2TGl0czVrNUFPbVhGWjhSajVxdy1teGthekU1aC13YkJ3WU94UEIzSURrdkczZEpqN1lNbjJnb3dQQXFISUlSX3pUOUVsRUZjakJBcmJFY09QZEJPc1NhX0V4N2oza0t0Q2xZTzNsY3NQbVZwSmRoeHdDNW9wMC11TjdtR0ZBa3RSeUcyN1dLUGhrN3VKSQ?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 12:00:51 GMT",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbWtZM2I0ei1EYWJiemtZQTRRUG5UNkdJYU55b05ydDVaLU5QbllZYjNqbEtsYk4tcGVlNkZ2Mkx1U1FFd0hscHptR21DRmZiRlctZGFqR2tZUTBCbEFJMUJNWHpoQU0wSGdWX2VBVW13VjRqQkZaY2pjeWpPSjVjWnZZQWlReW51MzNKTlJmM054S2p2VU1Ob3JOWDRWTHM?oc=5",
+      "pubDate": "Wed, 30 Sep 2026 08:00:07 GMT",
       "category": "general"
     },
     {
@@ -94,18 +87,25 @@
       "category": "general"
     },
     {
+      "title": "LEICESTER CITY 0 TOWN 1",
+      "source": "Ipswich Town FC",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5TWXBFMEx3aTBZNXA2YXkwUUczcGotb2gyMXVuUllUVmxkcXVoQXZzQ2xBQ2xHdmNJMnpCWS0zaVBuVDZkY3c0aS1hanNhZ0Z5alBGVDZNODdKSzJ2dVRVMERRUV9HM1RtZEVybVRkUHRmNVdmdkZ4QVFn?oc=5",
+      "pubDate": "Sun, 20 Sep 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Leicester City takeover: What we know about £200m value and administration rumours",
+      "source": "The i Paper",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVnpMQVdvcDRuYjlJWkhHWHVFRkE1M3NHMFM1UGxxdHU3ZFk5MmVwSWRJMWxkMWJlUklNV2VPZDdJOE5FWTNmZHE4N1RGekphME0zMjZSV1dEUnpVVXdwd0xhUXBWLUJ6bE45OVNJSEFaU0JSVTVLNXQ5SDJjNmxvNU5oX3g0dk1KT3k3bXJxSy1Gb1BneFJxUmVpd1huMUJI?oc=5",
+      "pubDate": "Fri, 18 Sep 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
       "title": "Russell Martin could unveil new Leicester midfield trio as ‘undroppable’ Louis Page stands out",
       "source": "OneFootball",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeE5rbUFMdVE4RGtZT1kzZEZhSFA0bDhiRzR0VnFUU1JLaWFoNHVlN2NGbmtzWFdVMFNYWF8xVVozVGY4NThHRnFFbnN2aHBWUEE0SGVRZnNTLVRHaHJOcmVXWU94a2tUVHQ2Zl9IUjZuWUpQRFl0dzJXSDFaVEZLel9oN0V3dlFyMF8yN2NlLWl0VXdUSjJsVXFOdHZLZlJpUXMtdGZ6VktjRWcwOWZoZ0o2WWZjLS1hb3lYN2lHRFMzaV9RZDFHUWNSN2VYQQ?oc=5",
       "pubDate": "Sat, 03 Oct 2026 11:15:59 GMT",
       "category": "general"
-    },
-    {
-      "title": "Gary Rowett: Leicester City Appoint New Manager Until The End Of The Season",
-      "source": "LCFC | Official Website",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbE94OS1DbmZUWWRaRG11YmQwelBROGs3b2I4bENKUU9GcnptZk5NVjVnSE5oUnhlOVFhWTJBUXN2aXlseTE2T2JQWjBzdi13Yl9yVUc3LTY0X0RrVGlZOWVUTlVKUEVldmR5UmhfODJFV09ELUFsTHRfenZXUUN0VGpNMXE0cnFCTUpwTEplaDFiQTlaVG9j?oc=5",
-      "pubDate": "Sat, 03 Oct 2026 08:00:58 GMT",
-      "category": "manager"
     }
   ],
   "reddit": []
