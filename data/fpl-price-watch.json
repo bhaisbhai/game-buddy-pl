@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T09:25:20.632Z",
+  "updated": "2026-10-05T10:04:54.859Z",
   "snapshot": {
     "1": 61,
     "2": 49,
@@ -221,7 +221,7 @@
     "218": 48,
     "219": 49,
     "220": 45,
-    "221": 45,
+    "221": 44,
     "222": 60,
     "223": 63,
     "224": 55,
@@ -416,7 +416,7 @@
     "413": 45,
     "414": 40,
     "415": 58,
-    "416": 50,
+    "416": 49,
     "417": 49,
     "418": 48,
     "419": 49,
@@ -671,56 +671,16 @@
   },
   "changes": [
     {
-      "id": 124,
-      "web_name": "Groß",
-      "team_name": "Brighton",
-      "direction": "rise",
-      "old_price": 58,
-      "new_price": 59
-    },
-    {
-      "id": 142,
-      "web_name": "James",
-      "team_name": "Chelsea",
-      "direction": "fall",
-      "old_price": 54,
-      "new_price": 53
-    },
-    {
-      "id": 180,
-      "web_name": "Woolfenden",
-      "team_name": "Coventry City",
-      "direction": "fall",
-      "old_price": 40,
-      "new_price": 39
-    },
-    {
-      "id": 241,
-      "web_name": "McNeil",
+      "id": 221,
+      "web_name": "Drakes-Thomas",
       "team_name": "Crystal Palace",
-      "direction": "fall",
-      "old_price": 54,
-      "new_price": 53
-    },
-    {
-      "id": 288,
-      "web_name": "Dowell",
-      "team_name": "Hull City",
       "direction": "fall",
       "old_price": 45,
       "new_price": 44
     },
     {
-      "id": 406,
-      "web_name": "Kovačić",
-      "team_name": "Man City",
-      "direction": "fall",
-      "old_price": 54,
-      "new_price": 53
-    },
-    {
-      "id": 419,
-      "web_name": "Martinez",
+      "id": 416,
+      "web_name": "De Ligt",
       "team_name": "Man Utd",
       "direction": "fall",
       "old_price": 50,
