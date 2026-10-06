@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T10:04:54.859Z",
+  "updated": "2026-10-06T09:49:34.355Z",
   "snapshot": {
     "1": 61,
     "2": 49,
@@ -8,11 +8,11 @@
     "5": 65,
     "6": 59,
     "7": 54,
-    "8": 58,
+    "8": 59,
     "9": 52,
     "10": 55,
     "11": 53,
-    "12": 95,
+    "12": 96,
     "13": 74,
     "14": 62,
     "15": 68,
@@ -456,7 +456,7 @@
     "453": 61,
     "454": 61,
     "455": 53,
-    "456": 49,
+    "456": 48,
     "457": 59,
     "458": 54,
     "459": 55,
@@ -671,20 +671,28 @@
   },
   "changes": [
     {
-      "id": 221,
-      "web_name": "Drakes-Thomas",
-      "team_name": "Crystal Palace",
-      "direction": "fall",
-      "old_price": 45,
-      "new_price": 44
+      "id": 8,
+      "web_name": "Calafiori",
+      "team_name": "Arsenal",
+      "direction": "rise",
+      "old_price": 58,
+      "new_price": 59
     },
     {
-      "id": 416,
-      "web_name": "De Ligt",
-      "team_name": "Man Utd",
+      "id": 12,
+      "web_name": "Saka",
+      "team_name": "Arsenal",
+      "direction": "rise",
+      "old_price": 95,
+      "new_price": 96
+    },
+    {
+      "id": 456,
+      "web_name": "J.Ramsey",
+      "team_name": "Newcastle",
       "direction": "fall",
-      "old_price": 50,
-      "new_price": 49
+      "old_price": 49,
+      "new_price": 48
     }
   ]
 }
