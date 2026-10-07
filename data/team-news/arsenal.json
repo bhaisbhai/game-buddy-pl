@@ -1,33 +1,47 @@
 {
   "slug": "arsenal",
-  "updated": "2026-10-06T22:06:25.081Z",
+  "updated": "2026-10-07T12:21:20.793Z",
   "articles": [
     {
-      "title": "Transfer news LIVE: Arsenal prepare Esposito move; Kane to Man Utd",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdG50NFUtZ2dJaTNtWWFsM3FnZk0wTW9NdWF3TktpSndNNmliaHN3eUF1T0NkOVpUQ2pyMjlXaUtndEhEN21XVWdBQXFpNm1QczQtdHk4Y0R2SkVKSXZ2NXRRS2U5a0JxdEtoVEJyOTZEZXpmeElHYjB1QkI0TGlwV00wc2NuaV8yYkNhMnFJTEpCWnlQTmJLQkx5WUFEUVpXRk1oeFZKTllMUXpHNElBd0NXaUdlUk9lc0VOeS1TWk1QZk80a1pJZGtnbEM?oc=5",
-      "pubDate": "Tue, 06 Oct 2026 14:06:35 GMT",
+      "title": "Mikel Arteta signs new Arsenal contract",
+      "source": "Arsenal.com",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRjlfbGk5Zjg4c2NINWZrbVVlUTZnRE9oR0d6eTNtQmJmb1hXXzN3NGs5QnhjZHpwdE1DaXV1WlpmaTJPRUFZLWhrTUZGTFh3bk9NNjBlblNKWWlrc2kxei1mS2Y4N01uVHpVMThmLTRSVGR1VkpvQWZWZS1iNVh5Ym5uRVdYUEc4?oc=5",
+      "pubDate": "Wed, 07 Oct 2026 11:10:48 GMT",
       "category": "transfer"
+    },
+    {
+      "title": "Transfer news LIVE: Arsenal make Gilberto Mora contact; Cherki to Liverpool",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbEQ2YVhCd3JsVXRtWjRncERqR2doeHNFSmV4THhIdmwwSHNNYm16dFhsdUNQY1Nab2p3VXAzLV9HYTVlNHQ1YVNyUjRwYXFzWW9ielBJWXNManhRT21hZjM5Nl96QjlGb3UwSWJ3eVgzbC05dDNHUngwU2ZQQ3E3ZTdHcG1nX0NsUDRNZUpSQjNRSHluMk9OSG1mcHVrLWtULTBBelNWZWJMdnVxRmZwMzJxRVpwMWFEbXRmbW9XdmJVLVdPYVFKUFBR?oc=5",
+      "pubDate": "Wed, 07 Oct 2026 06:32:21 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Mikel Arteta signs new Arsenal deal to become Premier League's highest-paid manager after guiding Gunners to title",
+      "source": "The Sun",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWmJJZ0RMN0FHZVpmZmFjWG5KNzVxTHJrQUxhMzJBU2tRR3dVYWF1TzI2QVFkMVZaLWpobFNxQ2lhMU1TSktDZjR6amtYckJjci1zTVl1MG1QcVBwUHBYTFkwX2FLY2dKLUYzamh4d1lXeThkRmhfNEhzTkZGZEJSQkNPeFVubUlabndTbldYR2x6ZWl4djREMm9DTlNNT0JRVEh3Zg?oc=5",
+      "pubDate": "Wed, 07 Oct 2026 11:00:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "‘This is only the beginning,’ vows Mikel Arteta after signing new Arsenal deal",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTlFnd2pweFd1VWhLZUUzRnROdkhrNk0xS01QdFBCV3dWcmRyallOa09TOVFXY1lpUDdfeXd5Wi1ncFFnblVwaHlQUHZ3ZDgtSzFReFNQMjJyODdPYnhwdnJZc25sTW1ramZ5WU9VNGh6Sm9ySHZMeDdGeC15N2hUU09EVnlYQmZmZ2ZkQXdTeVVQay1FLUZqb0xyRTNjcDd4eVN3NFFR?oc=5",
+      "pubDate": "Wed, 07 Oct 2026 11:13:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Mikel Merino set for Arsenal role nobody saw coming after Spain goal heroics",
+      "source": "Football London",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcUxlUldSY0V0eVZwTmtjbkxzZ3hrbkhuM0RQX3F5Nko5LUJTRGU0elVaMTVTLXdVSmlGaTBkRTNNSEo5SjU1aVRVcWJSaFpNTHNXSFd2UFJGZUNKWjB0ZWw3WEUwZVpmUXpZSmhfZ255WDdXMWR0dC05Mm5jVGk4b3FGUDNqb2ZneXU1Zg?oc=5",
+      "pubDate": "Wed, 07 Oct 2026 08:29:02 GMT",
+      "category": "match"
     },
     {
       "title": "Noni Madueke targeted by Champions League clubs after losing Arsenal place",
       "source": "The Telegraph",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPenNKMGRLNHBtc3R3U2pHVUhPQUstUG0xMG9nc3pzaWhjMURVakMyam9xQ1BBSmJQUnFVYWR4aUVzWFlnQVY0TEZ3SDF2NEFMUjlNcU11MjkwX3pEWDB0dU9wRzJGdnd0YzNQUWdMOVRFQ0Z6dTYtdXJWaUMxYVkwRjkzbG4wMjFDc2RWLVdIM0NiejN2bDJ1UlpIM3hHRjU1b256MnRBXzh6UQ?oc=5",
       "pubDate": "Mon, 05 Oct 2026 15:18:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Noni Madueke can help Arsenal strike two incredible swap deal transfers",
-      "source": "Football London",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQ0RYaXpRU2VMbU5TZzJKcU52T3U3MGJFaDhBUEU1aDQ1VDktSlp1VGROSGJVOWJUbW5FNHU0TDdUanVjR0xYcUtYNF9tQlFvamNXTDVGa2Vkc0tYRS1rNnFmWEk1N3puSlBReE5GZEF3bm1zMlVPNHpqTWF0Ukl0US1wRk16T0d6MnY5WHhoM0FJOG9QUWg1eXp2bkdpWkNhU2hr0gGoAUFVX3lxTFA2aEtUelZGc29KNkN6d3IyZDk1MlQtLXA4aFk3TTNpaVRjUFNZenVLc3I2aldqUHk4RXJhTndHZk5oN1B4VXZFS1RDR2d2cGxMdVlFcnA3UlhJYWh5ZGJkeExvZWlhVzhHeVZ5Z21zTHZvRDMzWEMtZ3FHZl9qS2RXekhTQlVhQTBrWE9BM0JzUTR1MmhBaE5ZQTJ1bkdiMl94QXNhM3I5SQ?oc=5",
-      "pubDate": "Tue, 06 Oct 2026 17:37:21 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Five Potential Destinations for Noni Madueke—Ranked",
-      "source": "Sports Illustrated",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBXei1HLWlZSnFWTnd1MEU4YWhWV3kzWXZDQl9DZlo0WFRhMS1yMzF0WGZHMmlwVmh5c1hLSzNBUW5rcFZKNi15cEtJNEJSSmRmdHpyYldsTDRSZGU2LUcyR0tjYUdZdmhDN09jcTRIYmtkTGY2MDJj?oc=5",
-      "pubDate": "Tue, 06 Oct 2026 15:30:00 GMT",
       "category": "general"
     },
     {
@@ -38,52 +52,52 @@
       "category": "general"
     },
     {
-      "title": "Why Arsenal’s £85m transfer dream simply won’t happen – and what they might do instead",
-      "source": "3 Added Minutes",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTi16d2JudlJvRzVJT0sybzg0Sng0enk5X3hvX1g5NkwxTjVTSHNwUjhVcHdqQ2ZzV3plc1JyWlBqVlFxTVFLTU9pYnNEZGJzUE5uMUxYUU1MZXh0LWpMblI2dlpqWWl3cTEzbmVIa3hpT0RHZTFPRFh6enFYaEhjV091ZTFqRlZMYm9LRjF1by16THh5Vm5Sb1lkaEg3MGM?oc=5",
-      "pubDate": "Tue, 06 Oct 2026 18:00:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Martin Odegaard named men's Player of the Month",
-      "source": "Arsenal.com",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNXzJ5Z0hMN3QtVVpfY1k2LXU5bTYzX0ZqS1lVby1JMFN0T0phZ1hkSnBPQXhwcXVGdS1PV3FRVEUzaU9kMlBZSHZjQldWcHJrLUhLdllqbjBkOTZET3BJR0ZWalhXU0NWaTB0ck5WeUV5eWRMcE5oZ0tna21acURqaEtBSTJDNzVUSHN3UUc5ZHI5UQ?oc=5",
-      "pubDate": "Tue, 06 Oct 2026 17:14:46 GMT",
+      "title": "Arsenal squad ladder: Martin Odegaard out in front; big chance for Viktor Gyokeres?",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbUJwa3RxSjk2NFJWckJfaEpWaFVCZlVsNmZ5cjF0WUJ1Z2FRa1VxeU9ZVHYwX21HUlpmV09zWUhUQVhmRkNEQ3RtYjZWNUVxaEZzcUVmQl80QXlhbnFVUi1lNlNtS0tvNjFFWE1hLTMyWUlscGxSYkRmQlZ1Zzhpb2RIYUp5M0RIeDBwejVUa09jNlczNkVERXJHZURzM0pnbnJydE9hd0hoNk5uVDNTWVg2bGcyUEU3?oc=5",
+      "pubDate": "Wed, 07 Oct 2026 11:22:00 GMT",
       "category": "general"
     },
     {
-      "title": "Golden Boy 2026: Arsenal's Myles Lewis-Skelly among Premier League stars on 25-man shortlist for Europe's best U21 player",
+      "title": "Mikel Arteta contract: Arsenal boss signs new deal to extend stay at Premier League champions",
       "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQeGd6S0JpSGt4czFjcmpqR2xWVlQ2VWhRR0V3NENCb244eFNGQ1k0VjNHRFFwVkgzSGlQRTFjaGhHTEgwZHEyS1F5VUJyMThHNW9JMDhpSHlxYkZ2OXJQRTJHNzRxNzZqT19kZUpzQU5aVm5IUnFNZTRuSnBOdUxId3R0em1vUkJxSkhlWldkS2lqYjBHRmoyVVFqd1E5OUR3RUlwQlJfazd2NldaUE9LLVVyaTkxLTVNMTlpLTVScGRmeHFCdHlsUy11TmVPVXl4WUhtQWZ0Z29fOFV3RXI2Rl9FLTViaFY4ZmllTFEzQXd2NDRWbkRqS2pXVQ?oc=5",
-      "pubDate": "Mon, 05 Oct 2026 23:12:21 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Why Arsenal star Max Dowman is banned from being on EA FC 27 at the moment after Lamine Yamal precedent",
-      "source": "The Sun",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVnZyQ2RHRzNvd1BzNnZFYnd2WXJtNmxFZmdlQWhKTUVmWVFGcWZWc1R1RlFYZ3Bma2pKWEJBVW9zZF9xMjRuZWU4Mm5XcHdPRjFhRi02anVCSmlvQ0VnRFQ1T1p2WHdhUXd5aHIxTzhfVlE2X3Znc2lZRl9KNHdwRA?oc=5",
-      "pubDate": "Tue, 06 Oct 2026 15:48:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Juventus give up on Arsenal signing & turn to Liverpool player",
-      "source": "Daily Cannon",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNU3NBZGxnTndlVVhDNW1pWkJVdVJhYkhhM2dZMFhnb09mVE1HTWtLR0RKaTNNUExmdHpHZUxNd1kwN0I5UHlHeV9wSkZHampIYjdZY3doc2M4OFVBSnFmdXpWWkplX0wzODB3aC1PYjkxbHduRkZlcTVvbmJTb242dg?oc=5",
-      "pubDate": "Tue, 06 Oct 2026 20:35:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQbVZFNGdXMi1TRG9rRElvZVN2elFMQzlncW9nWFZsSXRreWRyTUdjX0lDeE9NLS1GMWxSaDVGZjYyYm1HVzN0eUdOMVVWQ2U5cVg0VTFxeWtmVGgweFZ4VlV1OVhUbUFRZnp4MWxLTnlCZmRQS05WR3JVOVZpQTQwaG9rWGN0M1Y0cWpPcFBPcUctb2ZpTzBRakxwTU4xTUJiSmI2SE91TC03cnREc0VYa1VuMFk0NlRuR0NoRWdHb1hNajQtYUIxcGZXdVdfSzJ1NGVVOGdTbVM?oc=5",
+      "pubDate": "Wed, 07 Oct 2026 11:12:20 GMT",
       "category": "transfer"
     },
     {
-      "title": "Premier League transfer news LATEST: Arsenal want Josh King with five clubs after Joules Koundé",
-      "source": "Transfermarkt",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPYnI0NDNBMnpWYVNCdFBnQ1lWQUQ1ODVJZlNybFdRVHlfSV9OTXFkaVFkVnRlYUR1NEFuRXZNdUp1cmM4UjNDT1Y0Y3p0ZFkyVENRN192bTlmMjExOXhQMTZQdTJpTEFnU3VHdVBNdFVleVFvTnVoUzZMQUVnZFpfT2tSelV2cy1qV2h5X0s1VXdIeUJwXzJNZ0tUb2szdDJYbmMwZGpySUxJclZoMDl5dVJoSk0yNVpyMzZ1NTZ2Nmg2T1NNbXF5XzFQWDdFaHNCRXRsY3BwbzY1T1k?oc=5",
-      "pubDate": "Tue, 06 Oct 2026 10:16:49 GMT",
+      "title": "Arsenal news: Noni Madueke transfer picture emerges as major contract clause clarified",
+      "source": "The Mirror",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxON1lxLTZRZ1JmQ0oxMk1fVWtsNFFITnctcEpmTUhhNUxKUmNLQUEyeXl3MWswb3ZHMFFGSkwtY0N5SnBSUGhCMU9rY05nazRMRTBNbXlsTkY5N3FMLW52aE5SX0VEYk9vM3Q2NXc5OTJZWmJfQXdJRzlheUZPb0JhR0xWczNrQnJ1dEMtbWdoWjBjMTdQZUlF0gGcAUFVX3lxTFB0OEloeEY4TFd1UV9CdEZiTmtGZXlDYnpTMWlqTEpIa05VdmZwRTMwak9sVWl5d1ZpUTN4cWJnMTBhOVVvdlQ4UGNmQ1kwa1BuMEthRTZNVU1LMXRrWTJ6bS0wdXo5U1Vrc00wOW9SN1lhOFN0OWFzT2YtQlZKSml5Q2NtVW1tdUpUVlpTZ0JPMG9vQWh1OXE3SzJLZQ?oc=5",
+      "pubDate": "Wed, 07 Oct 2026 03:00:00 GMT",
       "category": "transfer"
     },
     {
-      "title": "Transfer Rumors: Arsenal’s Haaland Boost; Real Madrid Plot Yildiz Raid",
-      "source": "Sports Illustrated",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQN2l0V08tcGZGckZBd1JiMzkwLUxJWmJUb1Fsc0VMUGZ3djItdG4yOENqOXVOV0pJVkRqX0JsekVWMG5RaU0xNTBjbjZLa0dvSUhXMDliandoeEJrQVIycTFmdzN6VnpLTHBrTDBJUVZOMFFwblhBQXpVMnp5S1hhanJfTS03clZJ?oc=5",
-      "pubDate": "Mon, 05 Oct 2026 23:05:00 GMT",
+      "title": "Mikel Arteta: Arsenal boss signs new contract until 2030",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9IYVRtNURxMzZyNW1PSDdiTXliMllhUUxtWGdVTmNIZ0dxNnJXRzdIRE0wWEdUSVphaUNxTzVtVFVnLVVJYW1NZGZyNk5fb2NDM0QxS0xJVUdlMW9iZ0dhdTNjVnBWVUFMRUhV?oc=5",
+      "pubDate": "Wed, 07 Oct 2026 11:00:53 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Arsenal injury update: Konsa, Tzolis and Havertz latest return dates",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdGV1N18tcjdzd1VJT21uNm1ReTNHVlhRd1p5SDJ5d05ZTXViaUpLNXNPdmc4bFdoeFJDSjl0bzYxc2RfMFJQUEptNGIzbF9Wc3lHNFRCXzFsMTQ5TXNRT2FrdTVjdEFsUE42a1pVTHNWRnctUWxIa1hsQXFvMjZOTWNIU0hmU1NYa1pXXzdwTmFIZjhuNkxPbGdOcWFnT0VWNlJLNUVwLVE4eXR3YnRROWhNS3lXWkRhZFpxd01BRmlYa2gx?oc=5",
+      "pubDate": "Wed, 07 Oct 2026 00:54:02 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "Merino scores twice in dramatic Spain comeback",
+      "source": "Arsenal.com",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVmo3RzktS1BSejJvRlVTeXd0blg4NWJzRVBWMEpvd1J2OHBOY0s2bU1rSko5QmlqYWN3UnRKeW95ZE9LQ2Z4RjF2ckItR18zTDdjeGtxeEhVSDl5c3VURDJoVWluWEhIRE1lclhyY2hMTm5wdGx3VUFuZkNLQi1nbzdsMWkxMXpjZl9QdGM4b2RVZw?oc=5",
+      "pubDate": "Wed, 07 Oct 2026 06:40:49 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Arsenal interested in signing Como star Nico Paz but Mikel Arteta's hopes of landing creative midfielder dealt blow - Paper Talk",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOQVE3Qk04M3A1MnBpM2hoSHBpVGFIZFNfMW96dHpTbTRiMDF2NTNKbE1hSG9CbEhDbE5UTDUtMENVam1sSnJnSUZaRnYybTdNbHFpSVFpM0NaaFFvQjJDZ3REODFCLS1PU01mNy1ZcGJUcFFHbmlPXzN0RE5KVEx5WVNVQU5SVGgyQ3hTeEhRbjdJVVZOOWdFQWV2NE5QWWVCNG9ZV1lGcTBtajJkUlFLdU5JUks4cndrTFRvVVVxczVqWnhNbVNKczljQWtzcTBDdDE0T3hncExraGhRelhOOG1nTnlubzB0LTgxbDA4Q214WHJUdEZQTXJUcVBNTUgzVGNWQw?oc=5",
+      "pubDate": "Tue, 06 Oct 2026 20:56:39 GMT",
       "category": "transfer"
     },
     {
@@ -92,20 +106,6 @@
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOS1VVbmNnYlR5dGFNMGxKYU95d3Nsc1dUQUxwczlnMXo3aTE3X2xMV1RuZS01X3NlYnRqcWw2cF9sYkxuNU9Xd1FZbGZGbFRYR1BSNFk5eUNLcUhtSkNwQlFOM3h2UUFCVkJMTUc0RGZUQ0xMa2J3UzF3RUVWdWYtYl9LYXFYamE0aHVtd1gzeXIyZw?oc=5",
       "pubDate": "Tue, 06 Oct 2026 07:32:23 GMT",
       "category": "general"
-    },
-    {
-      "title": "Arsenal handed double boost for Leeds clash after rare schedule change",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQl9KcmxoTUJWMmNxTW9ZR2JEa1dHeUtObEVpbkp6dlQzcUtDbzNSblZWMzVhMElfVzBGeDFNQ1MxNHlJWFlybzgtTW5QWHhDQkIxLUJkbUIwQ1NfbWgyUUJFNVRSejhrZ1hpSGozNFN3RE91aC1LMENiWk0yVE9YWWdmS2MzRmNZNHZCVC1QMnJlZlJuYkJScnF2UFppRlpt?oc=5",
-      "pubDate": "Tue, 06 Oct 2026 07:47:53 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Arsenal injury update: Konsa, Tzolis and Havertz latest return dates",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOdGV1N18tcjdzd1VJT21uNm1ReTNHVlhRd1p5SDJ5d05ZTXViaUpLNXNPdmc4bFdoeFJDSjl0bzYxc2RfMFJQUEptNGIzbF9Wc3lHNFRCXzFsMTQ5TXNRT2FrdTVjdEFsUE42a1pVTHNWRnctUWxIa1hsQXFvMjZOTWNIU0hmU1NYa1pXXzdwTmFIZjhuNkxPbGdOcWFnT0VWNlJLNUVwLVE4eXR3YnRROWhNS3lXWkRhZFpxd01BRmlYa2gx?oc=5",
-      "pubDate": "Tue, 06 Oct 2026 13:20:17 GMT",
-      "category": "fitness"
     }
   ],
   "reddit": []
