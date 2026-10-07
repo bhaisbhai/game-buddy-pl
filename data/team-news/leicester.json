@@ -1,14 +1,7 @@
 {
   "slug": "leicester",
-  "updated": "2026-10-07T12:21:20.793Z",
+  "updated": "2026-10-07T22:30:04.560Z",
   "articles": [
-    {
-      "title": "Leicester title-winner is now a full-time Uber driver after being forced to retire",
-      "source": "Daily Express",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNkFRTFBZVWF4aUxPYUtKUjJLbVFpZmZDdXFwUlJGNUl6R1pJVENLOVgxc2QxVHkxOUVOTHFJYXl3S1hFTXkwU0twRHBhWEM5azJ3OXlPUTJjZXVkVHpvNVE3LXcwaF9JMUs0U1RhTnMwVlRCejE5dVFpV2lLWDdROXFscFprVlFpRXNrZ2ZNWkVIZnZJc29DamZ3alNRTHRaQWhyRzFlQ0d1SGw3cmfSAbMBQVVfeXFMTkxuN0RaUXE4V1hhRHhfOW8tcnNlNG5WX1JMMHhKa0swZ3RiT2tMTjVxajNZNmdrVzBxQ3ZzOUEtbHg3SVQ0T2FhTDNodncyVU0tamZZcm56U0s3Z3ZENmxqMktjZE5TLUVxVnBBM1FzMWlPM3JhX19iZWFYbFlnRUVxaDB5WjZjMVRoQUh2QlZobzQzS2ZaTzFTZHI0c0MzZ3p5UkxvLVI3c2V0YzJBajRZLVk?oc=5",
-      "pubDate": "Sun, 04 Oct 2026 07:30:00 GMT",
-      "category": "general"
-    },
     {
       "title": "Stevenage vs Leicester City: EFL Trophy stats & head-to-head",
       "source": "BBC",
@@ -22,6 +15,13 @@
       "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxQZEstSVNfWlVKQTJoSWdZVTBha05IMnNYcmZIelFZQ3hobnptdUNOaGVHSUotVGNtUG1YWFA1QlkweGlJUVlqUHh3WkREWVBlTXMyTnNzMnBuV1A2aDRzODRTWlNGMnhRWW1wbkNuR21saXgta3ZVQjJfelVOSV83WnQ1VHlIekFNbVBVMEoxOV93bktoRmhNWVMwSDZoSmhmdHNEanktMHJEODhvbm1WeG1SRXh6UGhkYnZSTDJEakVBTnpOMG5ucHVpX0N6Y1FrR1V5WmJac0tqel9VVEdhdEVJREpYMURVV3VLbndCMHNiU1BJSnIzemJBVHhmTVFGVlI2NHVGN002SE5IZms1M1N1U1lEVmRuTmFpNkp1TUxNVS11U3c?oc=5",
       "pubDate": "Tue, 06 Oct 2026 06:09:00 GMT",
       "category": "match"
+    },
+    {
+      "title": "Leicester City live score, schedule & player stats",
+      "source": "Sofascore",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02UDY1bWpXYy1iNUZVd1VZSU53aWJhSTFWOWRPMGlYRG1SUk50MmdReFA5eUsxM2Nld1lub2dqcF9iZDZTbzJWSGxXVnN3SFZxX0lVeEpPN0NNVDdxODcxT2k3eXo3WkdE?oc=5",
+      "pubDate": "Wed, 05 Nov 2025 14:40:15 GMT",
+      "category": "general"
     },
     {
       "title": "Leicester City's clear frustration Russell Martin is confident will turn his way",
@@ -38,10 +38,24 @@
       "category": "general"
     },
     {
+      "title": "Ex-Swansea City and Rangers boss confronted by angry fan at stadium after defeat",
+      "source": "Wales Online",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPYnI0ZGVZdExPbXhEZ0VrTEJKaGJ0WmZPVHJFV3FhV1dyMzlFOGZLbUtIdjl6MG5IdXlzX1dnRVgwUTA1cXotbk13Q21pRjFwazFvZEUyQ1Buck5wdkhWR0wwbi1WU0pHMW1nWDhGSF9IR29RMWhHelhlSm90blNKM0FjVllaN1ltLWc4MTI5bWhnU0FmYkYydV8yZm_SAaIBQVVfeXFMTXNjVXA1U2t1VG0xLWhEcUs1NHBaSnY2QWVwMkt3M1R0Tjh4dHN3RDVlSFhSNUdjYi1LQkNSOUtCbml5ZkYzaEp2NFpGVWVLMlBNRDZLbVVIU0F1b25zVmM1allIaVdWc0w4bXBIWTF0T2Z6ZHBvM0V0VU9ndEYzUElxVkd1UndRVm1BT05ETU5nTzFETERZeFlORXR4RFFMRVN3?oc=5",
+      "pubDate": "Wed, 07 Oct 2026 15:33:00 GMT",
+      "category": "match"
+    },
+    {
       "title": "How to watch Stevenage vs Leicester City, TV channel, stream and kick-off time",
       "source": "OneFootball",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPR2VEekVSSDZxQWhUV25Idm8tU3BFVmJSRVVEck9vZkxGY1hrSVpiVTFxMmozSk1kdndGR3NKeGFJNzRXaG9tUk9FcWVzVTI0cnRqeGoxQXJTb3duZVEzT3FWZFlQYnZVb1VXLWVhTXZXaF9tb2N5cUZIUThTY0RVaVo2S3NwRjJrbWtxOHBCaFZKZ0syUXFWSkpxU0JyUWFZNTJtc0tta1otakZsUjdCaE02S21pRTdO?oc=5",
       "pubDate": "Tue, 06 Oct 2026 16:04:52 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Team News: Stevenage vs. Leicester City",
+      "source": "LCFC | Official Website",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPS25ER01raUdWd1VpZVVQdHU1STFSdkxsUXFPX1ZQWFNiNm5YNWU3Y3l5Zlc1ZEtiaDFScVFtNnh5YnBud1llR1FpZ3pvbEtSbVhWc3BrZ2dMcF93WnB6aUVLYWZETjZwTXEwbWUtam50RlNnQk9yd2ZTYllOSG5oSTN4bjFhb1M1Y0IxQU5WWkprUmZWazBB?oc=5",
+      "pubDate": "Tue, 06 Oct 2026 16:45:00 GMT",
       "category": "match"
     },
     {
@@ -52,39 +66,25 @@
       "category": "general"
     },
     {
-      "title": "Liam Cullen: Leicester City can turn around poor start under boss Russell Martin",
-      "source": "The League Paper",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPLVNqeVFUY0NLTDdURlN4YTNmU1paM1ViWjdxZGk1cWVxMzFEdWU4SnFaN1VxUEJEeThGaW1nQnpsdHBjdDdnSlNoMlp4bG5hMVE3Mmw1blBkc0FEZzRIeS1Tc1NqZXowU2F4LTNRQzJJbGd3UXpaTTFhYmpOU1lsN2pPaGo0ZDk0a0dKMEdzUjFwLVlfb09jZHZGZTRZa1NmSTJ5WEtELWYtUF8tYi1NZmFrWGFoQmVoV3JITA?oc=5",
-      "pubDate": "Sun, 04 Oct 2026 23:26:54 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Leicester City player ratings vs Stevenage as academy duo stand out in frustrating defeat",
-      "source": "Leicester Mercury",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMHJMRGlSOERRSkwtSkpGQjhpSE5GM1VmM1NPd1JWYWdmNVpWRUJ6U2tmVE1VTDRBbUtvRjUtbFFmWnNoMTlHV2FXNUlzLW16Y3djWHlHZjJReEs0MDNnZFVsZWhNbzRXQ2RRU2x2XzV3VXNkSXlOTWZpRzF2SE55U2NKZGM5Z0I5WEZ2YmFROHdQajNPZk1fbWdSemxEUGJVT0J5RGVDUzlMeVBsTm0zUnFB0gG3AUFVX3lxTFBYM0sxemVOZXpQYU5DSHNFWXZ5ekNhYmFyUE9EYXVHcnA4ZDJueDllOTFiREhRd2IycnJvRFFlVDVhSWsyejhGQVBFYjVtMVFGaGp1R2k3VmpNSnR5MjBXT1phRTdicWtvaUV6TmFzclhRMGRqbDhTVEl3a0ZmVnJzME5fQjZScEFRbzItLVlDeDVtV3B3aHViQ1M3Y200VzFfTmJNWUk3TXhxNV9mV1FzZWd4dDN2aw?oc=5",
-      "pubDate": "Tue, 06 Oct 2026 20:02:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "The 5 worst Leicester City signings in Premier League history – ranked",
-      "source": "Leicester City News",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOYlAwZm9RbnFqMi1hN2lrTnhhWWU4aG9jcFhpYzZrcEZmUWx2aF9PWVFSWi1WOTVXdWY2MERWUlpwMm1ydWE3YjhfN1FjUzlIV2k1ZWItMlRjb3luY2Z6SmRxd01EZjVsWXFhVWlfaG9rTkJZMkJ6SktOaFc3anJxdW9tOVNfZlZmd0p2V1FKWFQwODBzeHpBazFFNlljSGwwRU1QQ1dCZDU4d3Bo?oc=5",
-      "pubDate": "Tue, 06 Oct 2026 09:09:02 GMT",
-      "category": "general"
-    },
-    {
       "title": "Russell Martin: Leicester City boss 'frustrated' by EFL Trophy defeat at Stevenage",
       "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOS193aUNIb0JNemRrWDdidHFldzVjU2t0NlNOY3lEMGFRN1B0SGVqODVKZ2R4U21pcUtjbmRxQlhiNlBIMEdxOHdlMTBjVlFCeWNFbWlrTEkzTEUxUXdBTmVJVjhzaWt0TEFJaDNTLS1SZEY0OEFKZEpGNERaQy1FVkh1YU1WLXhPS3VSNXkzaXhqQ1FVa0o0Mk5JMi1xUDlWUlVKZmFEYkZScldfcjVEVjRjM2dOT1BhQ3dFVUJWRUR2eDVfbFlSRTVRRmlUcVdhUVY4b1c3RVRCa2g1dThkN0k1VUNZaWh2bzdlcHdjcjRnZw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBKUV8yb0cwZTNVTEd5R2kyRk5DWmlaRkNRN3M3NlhFcEdUcHptemt2Z2pzMjhSN18xQVZPLVpUNEozaWV1MXN3SS1MWTB6Wm1ZSlZQRk1GV1J5YVZ1SFlFWTd6SmpKZllVQk9R?oc=5",
       "pubDate": "Wed, 07 Oct 2026 11:57:08 GMT",
       "category": "match"
     },
     {
-      "title": "‘I’m excited…’ Russell Martin reflects on Leicester’s 2-1 defeat to Stevenage",
+      "title": "Revisiting the last time Leicester City played Peterborough ahead of Saturday’s clash",
       "source": "Leicester City News",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPMGFWN3lmX19ISG5MQVI3SWNkS3FIWnhvNENZLTMtR1I1UkxzNDQtbWRsbFVEQmVzSVBfQ1VRZ3QxOHY0MDQ4dnNmaEdOcTUtRUJOU1V5dldQLTIxYXB5bUl3WTlDZjFLOGdQNTNDMmxraGRFSFFoQ1hLX0ZsUldxVnkwYkVBaGJyaHdpRkFYdndad2lVZ1ExT2VLSlVRY19CSno0Qmo5dHRiY1VGdlpR?oc=5",
-      "pubDate": "Wed, 07 Oct 2026 08:43:46 GMT",
-      "category": "match"
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOUlrTjBqbWpwSVJ3N1Q0anhENHoyc0VXZUZzYWt6dUE1ZGNYclZoSF9iZnlkNWJwTmhMZkhTQ084QXVqZTYwZXhueDRxcVR6RjVoeURrNEtBdGVOa1IwdlAwWUpSZTdvNElsc3FvRGZyZXhQMjhaT1dIdjNzSXEzNF9VYWpUUHNZa05JLWJLZE5CTWMxR2JtcS03bzhVelhKSWdsOUoybVlZRTNwYVJuTDJoQTg2dV93aTJBN09Sdw?oc=5",
+      "pubDate": "Wed, 07 Oct 2026 16:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "LCFC WOMEN",
+      "source": "LCFC | Official Website",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaUU4R1F3TGNHaWpHSVNObFN5TzNTV3g5VnQycXhIZlJsLTQ5YTRGLTE1WWdvaDBHMXJvOUlfWUpmbjF5b3dJMll6aDV1eVRES0lyWDZmb3M5RERvWnphLV9YeHlyRDhYdmJ6c1pCLWVDb1RkLXJWWGV0M1RRNzZITUJxREFZVkotd21DV0NHMmZLekdVWXF4eTUzZGxaNlhMQTdiOGJHMmZLaEU?oc=5",
+      "pubDate": "Tue, 15 Sep 2026 20:18:04 GMT",
+      "category": "general"
     },
     {
       "title": "Russell Martin defends approach in filmed exchange with Leicester City supporter",
@@ -94,17 +94,17 @@
       "category": "general"
     },
     {
-      "title": "Leicester City Confirm Arrival Of Conor Chaplin",
-      "source": "LCFC | Official Website",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZy02YTVvcG1PNzRYcG9jVHFhRjdFbDNBdFp1MzVsLTEzT2VGd25sMW05ZWcwSFo1dFkwbTFvbVVScmVwRVkzdXNZNXZud0NfOE1ybGdvWmIwU3ZuRXd2RjZGOXU3UFhHUFZBS0ZScXI4MHV1czFNZFpULVFqbldBLXJ0QTdnVmVna2c?oc=5",
-      "pubDate": "Thu, 16 Jul 2026 09:16:37 GMT",
-      "category": "general"
-    },
-    {
       "title": "LEICESTER CITY 0 TOWN 1",
       "source": "Ipswich Town FC",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5TWXBFMEx3aTBZNXA2YXkwUUczcGotb2gyMXVuUllUVmxkcXVoQXZzQ2xBQ2xHdmNJMnpCWS0zaVBuVDZkY3c0aS1hanNhZ0Z5alBGVDZNODdKSzJ2dVRVMERRUV9HM1RtZEVybVRkUHRmNVdmdkZ4QVFn?oc=5",
       "pubDate": "Sun, 20 Sep 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Leicester City, the Blue and Whites’ first pre-season rival",
+      "source": "Málaga CF",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPX0w1UzNLRmxZc1c2ajdrNmtXZ3dVVjZiNG15Mzl3WGxIUkp1di04VlRrRXprdTFyYmQ2cnBCa0hBZDNMUmpSV09Fb1EtcXAzN19vY3l1ODFZSW1KaEFVWVJwa0wyMi1BWGM1Yjk1a3U2SnFtVExkU1htMFdmUEVPdDBVNEkxTFRKazhqZ2lGWENRRUVWR3c?oc=5",
+      "pubDate": "Wed, 30 Sep 2026 09:51:37 GMT",
       "category": "general"
     }
   ],
