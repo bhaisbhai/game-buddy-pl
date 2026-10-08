@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T09:55:16.227Z",
+  "updated": "2026-10-08T10:07:21.242Z",
   "snapshot": {
     "1": 61,
     "2": 49,
@@ -306,7 +306,7 @@
     "303": 39,
     "304": 40,
     "305": 40,
-    "306": 40,
+    "306": 39,
     "307": 40,
     "308": 39,
     "309": 49,
@@ -621,7 +621,7 @@
     "618": 59,
     "619": 50,
     "620": 45,
-    "621": 45,
+    "621": 44,
     "622": 40,
     "623": 40,
     "624": 50,
@@ -671,20 +671,20 @@
   },
   "changes": [
     {
-      "id": 40,
-      "web_name": "Rogers",
-      "team_name": "Chelsea",
-      "direction": "rise",
-      "old_price": 77,
-      "new_price": 78
+      "id": 306,
+      "web_name": "Greaves",
+      "team_name": "Ipswich Town",
+      "direction": "fall",
+      "old_price": 40,
+      "new_price": 39
     },
     {
-      "id": 268,
-      "web_name": "King",
-      "team_name": "Fulham",
-      "direction": "rise",
-      "old_price": 55,
-      "new_price": 56
+      "id": 621,
+      "web_name": "McAidoo",
+      "team_name": "Man City",
+      "direction": "fall",
+      "old_price": 45,
+      "new_price": 44
     }
   ]
 }
