@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T10:07:21.242Z",
+  "updated": "2026-10-09T10:09:15.788Z",
   "snapshot": {
     "1": 61,
     "2": 49,
@@ -207,7 +207,7 @@
     "204": 45,
     "205": 45,
     "206": 43,
-    "207": 44,
+    "207": 43,
     "208": 62,
     "209": 59,
     "210": 54,
@@ -245,7 +245,7 @@
     "242": 55,
     "243": 49,
     "244": 50,
-    "245": 54,
+    "245": 53,
     "246": 49,
     "247": 54,
     "248": 54,
@@ -429,7 +429,7 @@
     "426": 119,
     "427": 79,
     "428": 79,
-    "429": 70,
+    "429": 69,
     "430": 54,
     "431": 57,
     "432": 55,
@@ -489,7 +489,7 @@
     "486": 55,
     "487": 49,
     "488": 48,
-    "489": 45,
+    "489": 44,
     "490": 58,
     "491": 58,
     "492": 54,
@@ -671,17 +671,33 @@
   },
   "changes": [
     {
-      "id": 306,
-      "web_name": "Greaves",
-      "team_name": "Ipswich Town",
+      "id": 207,
+      "web_name": "Mingueza",
+      "team_name": "Crystal Palace",
       "direction": "fall",
-      "old_price": 40,
-      "new_price": 39
+      "old_price": 44,
+      "new_price": 43
     },
     {
-      "id": 621,
-      "web_name": "McAidoo",
-      "team_name": "Man City",
+      "id": 245,
+      "web_name": "Dibling",
+      "team_name": "Everton",
+      "direction": "fall",
+      "old_price": 54,
+      "new_price": 53
+    },
+    {
+      "id": 429,
+      "web_name": "Rashford",
+      "team_name": "Man Utd",
+      "direction": "fall",
+      "old_price": 70,
+      "new_price": 69
+    },
+    {
+      "id": 489,
+      "web_name": "Yates",
+      "team_name": "Nott'm Forest",
       "direction": "fall",
       "old_price": 45,
       "new_price": 44
