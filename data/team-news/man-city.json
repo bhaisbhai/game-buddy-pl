@@ -1,14 +1,7 @@
 {
   "slug": "man-city",
-  "updated": "2026-10-10T11:37:26.259Z",
+  "updated": "2026-10-10T20:58:32.139Z",
   "articles": [
-    {
-      "title": "Liverpool v Manchester City: Team news",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBucGNpWU81QW8yMVU2RERFY1IzcWNZbmN0YU04UzhXWkM1Uml5cnViQ3VhMzNqRVRKVmtDZy0xZDByclZrb2FyTVRfUlhQRHU1ZzR2T3poOEQxbTV4QVlQY3FaUDRfVEo0YXdSS2FHNHRGZC1NRTk4djltRnpRZw?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 08:15:50 GMT",
-      "category": "general"
-    },
     {
       "title": "Man City charges: Clubs agree on punishments, £55m loan, appeal warning delivered",
       "source": "Manchester Evening News",
@@ -17,31 +10,73 @@
       "category": "general"
     },
     {
-      "title": "Man City charges LIVE: Settlement talks with Premier League as punishments agreed",
-      "source": "The Mirror",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWTJ0UUFyYlhWOGV4X0trNG5IenJ3ZGlrRmtpYXZzWGZHV1Npd21oTGI0bUxLY3hUS00wS19iRTBtcy1keHg5dGlBdmQtOFZicFFXbklZOFhyQzZyU3JNMExGWnRjTFNGUFBHbk14MXhSVVdyckNSQTJNZ3hJOUp5REgxX0dFZVJiSWIzd19DWQ?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 07:23:06 GMT",
+      "title": "Liverpool v Manchester City: Team news",
+      "source": "Liverpool FC",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBucGNpWU81QW8yMVU2RERFY1IzcWNZbmN0YU04UzhXWkM1Uml5cnViQ3VhMzNqRVRKVmtDZy0xZDByclZrb2FyTVRfUlhQRHU1ZzR2T3poOEQxbTV4QVlQY3FaUDRfVEo0YXdSS2FHNHRGZC1NRTk4djltRnpRZw?oc=5",
+      "pubDate": "Sat, 10 Oct 2026 08:15:50 GMT",
       "category": "general"
     },
     {
-      "title": "Man City charges: Arsenal boss Mikel Arteta says he has clear conscience over his time at Etihad after serious breaches of financial rules",
+      "title": "Maresca says Manchester City titles not tainted; Liverpool’s Isak and Gakpo injured – as it happened",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQckV2SG9heW96anM3cUhZRjVoa3drZEpOOS0yZnhaWmQ5SnpLMWJ3Tk5pZUNMM1FpOENmS2RiVVhBVGM0Rmdnb2x6VVQzUnNQY0FxYUZxX3dwZHh5c0l1NkVTUXZZSi1EcjQxOFdTTEtRWUE3NGc0aTYyU245Z3hxZWVDUXdMeHp1d1g5dnZ2QlZsRUZsTjVMNENPSjNSOHhMZVNkeHpRYldCV20xYVBwUEZlcV8yUkM2NHBGRUQzSURqQQ?oc=5",
+      "pubDate": "Fri, 09 Oct 2026 08:12:00 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "Haaland fit for trip to Liverpool, says Maresca",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNLW9aaFVvNWg4cWptMlMzWW5CeHVRckVBd2Q0aG9QZ1gxNmRYaW9qUXZSWWxEZjVxeHRLb29hdUFWcV9yU1NxeU5mMUhlTXZYeEFMLXNpMDhYdlR3dG1SYk5vaHYwSHlOTkV1ekdkZWZTTzhJZnEzUVdMYTYzZDhneGxHcU9wOWhxODc4bXBzM3JsVXpYR2p1aHZpZ0RHQ2FNNVE?oc=5",
+      "pubDate": "Fri, 09 Oct 2026 11:15:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Manchester United 0-1 Manchester City: Haaland scores controversial winner for 10-man visitors",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBKWFBaQkxhTTVBb0ttOXFEZmlmWVBacnV1dkduYkQtUjJlOURsdnE5ZzNXU3RFNWFBMVpUU1g0cHV3STVaLTY3elpvTzBjUWo4d0FyQXpxS3RJRmNtcHV3LWhIa21kUQ?oc=5",
+      "pubDate": "Sun, 13 Sep 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Here’s how to punish Man City harshly without sending them into oblivion",
+      "source": "The Times",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT0Y3RWptR3VqRWtHdUdfUGl3STVxMzRwMWNSc3FoNVFuR3JrckNIUFZOdmd1cFlaNVlUbGZtaXl2b0hYS2Q2ZWNfWWdieGFHSWJmREVnYWcyZjFCWVJxVkc5XzlxVVB3bTZYdkh5bmM4WHg1MUo0VXVmTU1Hd1EzVEVQRXVISW9uQlNrTWVmekhwNlh1V1A1U091M1lrYlZFQzBVempjdXY?oc=5",
+      "pubDate": "Sat, 10 Oct 2026 15:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Paul Merson's passionate stance on Man City verdict",
       "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxON0VCdVY3OV9qNUZEdGJqWXI1dkNqakVHdkdwVnF4V1dkY05ZckNKaFRONjVEejhrOThmdTFoc3B2Uk5MYmxrckJ4TTJ0b25MNTRUS3dId3V0enlScThLUVBpc3V0ZTgwM19tMGl1cXk4Zy1EdXZ2cmF0eGdOTVloWmJqZW1sZ0hfb0xjNHFaVjl1bTBaVk54U21YN1p1MnJKbGdwWXpGWDhQQktzSVFmQTFmMzdWMUhFOGJ4d2NuWUlQQWN0bFY0S2huOTBHTkEwMFBZUXFrOFZqX1ZIVDhBTG5QbkNOUHFNc01qWWdSWDN1UGozWFBkSHM5VVRfd0NBWmNZNVBpRFFiOUNua1cyemt4OHI?oc=5",
-      "pubDate": "Fri, 09 Oct 2026 21:32:45 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPS1ExUTdvX082TEM1aVlSeTNWeHpDODh0Yzc2SDhLbDhsZ1ZibkZOYk5WVVlMT3JET2dpV2FEWUp2UmpLN0ZFVWJWSExwZk5PcF93VXN4cU9TRWRaVFA4R21HRnVwUHhaUFZHaXNyXzdfaTZOTWxCSFRFSEdhRlR4UDkwQlNSMG9XMGVCOS1DS1FPNE1pNlVFTE5GazJHMXQ4dlE?oc=5",
+      "pubDate": "Sat, 10 Oct 2026 16:24:03 GMT",
       "category": "general"
     },
     {
-      "title": "Mikel Arteta breaks silence on Man City verdict and makes Premier League title claim",
-      "source": "Metro.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNXRVSFZ0RVI3UUFvaXhYcm1KQ1kxZ3RqY1psalZHWlZkWjZRd29Bclp2S1J2ejZYbWp2VXBTUTZWdGdLTXRnVW1Ra2c0MUxGMEEtdG9wamdXb1RLU3NUSVRSalU4YjNUaWh1b0c5UXVzWDFGTEszZFNFOHotWW1uaXd2XzdmdzBMM0Z3OENlV3A0aTNWeDRfMmRPWG1EaFBBZjlrb3hoelJDS000WC0tbWRod3hBLUtZQXfSAb8BQVVfeXFMTVJsZTNWNnI5dk5wbURpdEYxbFB3OHRTSXZrYUJzZ3lQLTlya09BRkNDT3hXLWRfaVh4em1rMzREaEQxcUlCY0FHQno1QUZtdXhtVDE4SmZGOGVxbWpuVW1yVzJ6OW0xTXFiY3N5c3Ytc2o4TXdfQi1LMGIxSE9jdmtUZ0FtX1c4ejV2Nko2WURLZFZ6YXFZdzExRkdKWFQ4MlBiaDRERVU0QkNqSG5HRk1PRExuTmItRkFILWhwZ1E?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 07:06:00 GMT",
+      "title": "Liverpool vs. Man City: Team News, Likely Lineups & How to Watch",
+      "source": "This Is Anfield",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZlV4TFV5dHZMcFhPX05OZ2pNWHdTV0w3Z01RN1VueFl4eURIWVU5TFJtakpzX2NxY0k1YkNZdTRva3AxdmdrMi1zaU9XNXdFbWlHSkEyREJhYWd2Q3FRMzFycHJnSUNwSjdDd3dnNnZMNlBoY1hrbXpCU1dudFVldWlxT3lvSHd1SXNTS01BSEFwLWZzX0pj?oc=5",
+      "pubDate": "Sat, 10 Oct 2026 06:03:51 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Man City’s disgrace means this is a sham Premier League season",
+      "source": "The Telegraph",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVTV4RFR6MGFMMFgxR0tKenhXaE9oYTFfaTk3ODhtNGhVVTc3SE42YURmbFJXYlFsR2o4R01xNnJvUHhRdHlWc0h5cmExTHJJNlMya0lpdjRodEZtOHl2VjJhSWxhclRpRC1seWg0M2tjdnd1M1JnVmxwODUxYXB2N3M1OTA2TkJ0OVZraVV0ZDhZcnp1eGU4MndRSkw2dk9xQXhzM2tyTQ?oc=5",
+      "pubDate": "Sat, 10 Oct 2026 05:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "Arsenal statement adds to Man City misery after guilty 115 verdict",
-      "source": "Manchester Evening News",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOamtwZDlsVDhremQxTTU3X0VhSEpSSmhaNmh2emZEUzJQaXd0ZDlwaWNQREVab1U5dHltOUctY3pMOFN5VEgzckJRdEJIaWxucWRIUEZxVEN5M01OVHV3RG4wdG5CQWcyQlJWUUtRbk0wVlhvMWZkUUFDMzZzemNBQkVIV2Zvc0NLa01NZWZRS3RDdjlJZnFjaGJrbFdGaHhsaThFUFpRcWxOdFZpMmfSAbMBQVVfeXFMTUNocXAycXM0dUs1bzQ2MlBjREZoX19ha2t4VjdBWlFPQzY0c1JOQmRyWkppVFgyeHQ1MFRjTlZnWW9VTmJ5SGVxYk1RckhvMTM4d2dSN2tYRVN6YUc1SGhCaTVDNHJtOVlzSi04RDdJc1VfejNlRmE1Vk5UUERRcUxWZUMtdExPR3BQbEJKOXBnb1hjNUhTbXRCcUNfclIxMHJ0X1hFcXhEd3pzeS1jVkh1M1k?oc=5",
-      "pubDate": "Fri, 09 Oct 2026 03:00:00 GMT",
+      "title": "Manchester City charges, Part 3: How they spent £1.388bn on players over nine years",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeXhQRE5WREN6Z3ltaDkwS3VzRng3clNmS1BieDFuZG50dkd6clFXSFhNaFlPdEpXVDNBZ1d3VTBiaFRrSVQwWXV3NzdPbGNnX3BUUWxmS0JtTHpJQXVXY1VKMVRud05SeTcydWl4WEE5YjExbGZCZkZpV2pHNE13dV9vR3BtYXMtbGN3QjFmTWJiRXptRXQ1VDl3?oc=5",
+      "pubDate": "Sat, 10 Oct 2026 04:08:55 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Liverpool",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNENnOE9oZUx6Mk1LQ0d0ckk5NDJkT3Rjcms4Ym9tYzNxdHF1cnBfeGFuQ0N4UzdXRzRRb1pGbVJhaEp6WmZaT1lTRUtLVHNMQjhiRjZWWDU3ZS1BTzRLX3I5UG9kNFYyYUR4OHpPRmtvRHNmcktQcU1EVDJHZG5Hb0RNNTRLVEp1ZjJHV2tYV2dKMDN1X2JzZWlRTW5HdTlK?oc=5",
+      "pubDate": "Fri, 09 Oct 2026 20:06:32 GMT",
       "category": "general"
     },
     {
@@ -59,52 +94,17 @@
       "category": "general"
     },
     {
-      "title": "Manchester United 0-1 Manchester City: Haaland scores controversial winner for 10-man visitors",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBKWFBaQkxhTTVBb0ttOXFEZmlmWVBacnV1dkduYkQtUjJlOURsdnE5ZzNXU3RFNWFBMVpUU1g0cHV3STVaLTY3elpvTzBjUWo4d0FyQXpxS3RJRmNtcHV3LWhIa21kUQ?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 07:00:00 GMT",
+      "title": "Man City charges: Erling Haaland encourages club's fans to stay positive after guilty verdict",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOcmR6QXRKQlpLcDhRTGhxVG9tSDc2aURDbksxd1l1SGstREdaS1h1bmVMeTNEdXp5bElKaHNsRkNzNFVDT0o0UlZEdVlFV0EwUDFEVDU2WW5ES0FLOTk4U3hjOGMya2ZzWVFWUFdYdFpWUkF2QmlReEV4NGlkUUVySHBZaHVjVzQ2Z2VmaW1LSXFjZUN0QjY0MUNGd2otanM0MFhpZG1LUDBNUzRiXzlSZnU0aEctN2RTWWxpcFdCYjlkaUV1ZTA3cXpVUVBVclpzNlZWY203Zw?oc=5",
+      "pubDate": "Thu, 08 Oct 2026 15:03:17 GMT",
       "category": "general"
     },
     {
-      "title": "Why did Manchester City introduce ‘sham’ spending? What was the extent of it?",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNms1Q3FqbGNYczlJLWVGYkJhMjhUblFtYndlYTRTX2RNQWpzZHpVbnJYYWwzOHhIcWpmbzFYbnA1cWhFc280MlBmeXg0MFRQOEJVWmNDbHVWRUFwUm0wejB6MjlFdUJYUzloUmlOWnJFWnBHSXlub1hvMER5T3NaaHRRM2RNUFFqaGNaRE1KVHRDR3M?oc=5",
-      "pubDate": "Fri, 09 Oct 2026 13:44:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Enzo Maresca held crunch talks with Man City bosses and opens up on 'trust' conversation",
-      "source": "Daily Star",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOS3AxOGplQUhPNU96aXRIUFQwdFFHX2hReFIwTnF5MDlRNVFYcVBodkJVNmluWjN0REhyaGQ1cUJPaVZ3RGZEaW9ldlNES2JBM0h1Wk9QTEM4N0gwMDZkdVBDVFd1ZjJIZ05vd0lxbzJNeHZ1T3FnYk1SMkpUVjR1aHp4Z0ZvLUMtb1E?oc=5",
-      "pubDate": "Fri, 09 Oct 2026 10:38:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "What every Premier League manager has said about Man City 115 charges verdict",
-      "source": "Daily Express",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb3FHeVRtTmc5dUZaX2F3WTJnZGdkN25zekdocjlUZ3F1TVJKZ0dmNDU5S3djY0NYZjJKYzdtbDhvaHYwbVNLUloyWmdwY2hlMURjQVBKeE01S0g2Y3g5Ykt3a25KSGc3ZXNtV21RYnRGeXRYMDdzaWFUQXV6VkdrN1Q1aHJUWUp3WEhIanJtcFdFSVRqeWhnVGc4ZGdiSmtrdUpoVXJoVdIBrAFBVV95cUxOa3FwQ2xUVUJGT1lFVUtFTVdLQzV3X0czTVpIdXBmZFJOeUdfclpLdUFWNmpaTENDZWotRllwcDZlVlhtZ25qdkRFanNyX0FQVU9sUjVMVmhNVTRkcFUtZ2R6WW8zX3RXM1lDRWVLRTVSSHRmdXpxSndSN1lJb0g5NW1KWkNZZzJhQlliZldyM2lHYzlZam9haEpYNW05OHRMTnNGV211WnU3b0py?oc=5",
-      "pubDate": "Fri, 09 Oct 2026 13:56:00 GMT",
-      "category": "manager"
-    },
-    {
-      "title": "Liverpool v City: The Premier League returns!",
+      "title": "Maresca: We’re excited for the next two games",
       "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSlYyYU9fMDJzRmtjM0tDc25pOFlLQ0R4Y3YyRHZFSGpQNU9jcVEwSElYTWdpSlBXZ2NINm5GR0VVbDl5djRBbFFWT2FuZzY5Q1k5NmZ5LWZDT2FlbklUQUFsSE1IRDZYZjhNZnBlZTNsZVE2WkIxNVg1QkR5Rk16cV84c18?oc=5",
-      "pubDate": "Fri, 09 Oct 2026 18:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Fear stalks the corridors at Man City as staff brace for hostile rival fans",
-      "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZFhmUXljZUM4NzA0dEUzaXZpWmFsZ09jZ1ZjUElaUmxSZVJYc2tZREVtaW1EN1E3cTFJWFlTNEFiN2o5TDJwZTJBWS1QaUtnc2E0eHZ3ZWpNazFSeUUzY29Ic3kxSVM0M0ZNLTNCQ1dmV0xXczNFMkZHTWhQUzhjeFZPQUJvOEFZQlQ4a2xYeFllS0tFeFdOTllPRGJ4ek9MWHg3Tml3?oc=5",
-      "pubDate": "Thu, 08 Oct 2026 06:01:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Liverpool v Manchester City: TV channels, live audio commentary, highlights guide and more",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTE9Kb3RZNVFmSXB0UWpuMDZiWDJnYTI5ckxlWm5nS21XbVlGUF9yNTNZS3NpY09SWHc4YXZFanJYeGt0cW0xb05EX2hTbnlub3VWWjY5MkRaQTUwNkY5YUZpcFh6ZzhBRS1nRGtqaXlyRU1FMXNaTkhSaUZDcElGMFI3aHdNc1NPVm1WZHRFOA?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 02:17:38 GMT",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUTNvRFIwQXBBeUVGTlkzelF4cDJUQmZJLVUyUktRMUNfNlc3cVRQYW9Fa2l1b0pPR3NWbFJCanpUNm5CVUc5TzJhTUtPZVJhQmlnNjZBaTJpRGt4NWJzQ25qUzZUcFZsYUFWdXdNT2lnRzY5aTNrUnlZZ01VbEE4akdaVEZuZThfN1NoazRuT0Q?oc=5",
+      "pubDate": "Thu, 08 Oct 2026 16:00:00 GMT",
       "category": "general"
     }
   ],
