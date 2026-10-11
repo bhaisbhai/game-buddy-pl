@@ -1,12 +1,89 @@
 {
   "slug": "man-city",
-  "updated": "2026-10-11T11:50:54.684Z",
+  "updated": "2026-10-11T21:19:41.361Z",
   "articles": [
     {
-      "title": "Man City charges news: Settlement talks with Premier League before punishments agreed",
-      "source": "The Mirror",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWTJ0UUFyYlhWOGV4X0trNG5IenJ3ZGlrRmtpYXZzWGZHV1Npd21oTGI0bUxLY3hUS00wS19iRTBtcy1keHg5dGlBdmQtOFZicFFXbklZOFhyQzZyU3JNMExGWnRjTFNGUFBHbk14MXhSVVdyckNSQTJNZ3hJOUp5REgxX0dFZVJiSWIzd19DWQ?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 19:12:57 GMT",
+      "title": "Liverpool 0-3 Manchester City: Premier League – as it happened",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdUVmYlB4OVhmMlZzUFVFcGZtVE9rejdMblcwbkgxTk90QU1pOGpFd3g2UmxZZnZaTzJCSDM5WTlzTnBKbDRHVU9fT3YtVjZZenRKa1ZMbzF3TjktSy1KREFRaFRFSWdkVWZsNFNGV3J1eVNDT2o1dlFfdXlEM1JDci1FLWhjdFEwaGpibFZtVWRFS2JOUWVRSDBUemJ5YjhwRlFCWTlVX1ZWNmJmX3hZNWpNWEhsUQ?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 15:30:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Gary Neville and Jamie Carragher say Manchester City owners must go - 'That's the stain on the club right now'",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNTy15eUFhRFZIZTJJc0RfeldWaGkxUG1fbmpUbERWTmFYU0czazcyMnUzZV9rSVBpZHZWQ3hUTUdnLVJxMzZUMTQ5WnoycEVnNC0zZHVsRzJzT2V3dldjeHRrc1JwVFJIZ0ZPWm5kRVlvZl9IbFlHbTRhWlU5N1ZFd3Y0eGtHRko5cFJoQllhU0VVeVVxVUtsN1R1UlhlUXNWMEZFMERlc1NKdW5LXzRuRW1ZVE9IcVJ0STUyU1JTX0NVOVBoQTdlZEE5dnQ3WDJXOWpINVc0azJwWUF3dVd6QTYwdlBiZ3BMajdn?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 19:51:16 GMT",
+      "category": "general"
+    },
+    {
+      "title": "O'Reilly returns as City make one change for trip to Liverpool",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZVVwTG4zLTIzRjV3YnpfOUtKdmFIUlhqSF90ejNyb1hLeXBvRDVsNzlRemVKSFE4VUdUM080Z1BFTjNOWlkxM3h2R1FDcG5qT2VpbnNpa2FMYmY1cnBURFZRZnRGa2tib0ptQ2dGZjJWdHNTTnlMUHpIMjhDYTdLNFdkMC1Uc0xWTEZxVUYtdjAzcjNuZFVDXzg1VQ?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 14:15:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Liverpool 0-3 Man City: Premier League leaders make defiant statement with Anfield victory in first match since guilty verdict",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQTkFsbTZBMGtSb3hob0hfaG1SQmZySUdjdkZaR2RMdm9pS3dzcGE0ZmV6dWlLdHRjZ0xCeVR6ek5iSlF2Rzl2LVlIRjM2ekVGRG9OVWZDemp2Qlk1M0lJWGM0cTE2VDZEUjlsR0FIMS1DOU8xc21qa2haTU14STNHTnZQdmc4NEN6aVRTaU1pX1d5N3lndVpqN2xvSUxqZDgyQ3RtQ1FBNVJRa3hNMTdfVm9sSWRWSmV3SjRvWTE5cTNmYXdteXhUbGgyOFJqaWx0REtmeXdfc1ZfbjdQRGNVcUk4dy1YMFBsY2NtY1B0SDM2M0IxNl9CcTlfdVFQa3hvSFRvTQ?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 21:05:24 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Match report: Liverpool beaten by Manchester City in PL clash at Anfield",
+      "source": "Liverpool FC",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcXpuWjdRSGZHYjhkaW9jZEdlY3NIb2o5Ujc2QTdqN25TemxJRS15NU9nV19kaGc5TVIwUHJwdWgtSk15VjMzUFVUUnJGa3pjSWozTHd1ZWFMUF9DMng5OXBzN2FzWTV5ejkySUo1bjdFUXJNejQ5U1NDUDh5cVQ1TU84YkRYYWtTMEc5TzdXQXQ?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 17:26:01 GMT",
+      "category": "match"
+    },
+    {
+      "title": "What did Manchester City do? Financial investigation, guilty verdicts explained",
+      "source": "USA Today",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVU4tTWVXWlZ3TEJULXdIMFpWS0prYzJoeWtJMjBaelFxbWFWN3hyMVZWd21tME1oV28zTEZvOTFnd2U3UUw3a1lpZnZIVzBUTF9RUGRGY29nRjJ0anEyR3NzYWQ5YnI1Y2VvUzVhUTh0cC1ZT09iQUZtb0JFU0s2Q0VWTmh5NXQ0S0hrYk41ajJocUVadmVkRzNkYVM4MWlZUHRDd3Jyczl2Q21pMFp5czR1Ql9xZ1gtM0VVcGlUaV82NW5KTEJF?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 15:06:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Liverpool",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNENnOE9oZUx6Mk1LQ0d0ckk5NDJkT3Rjcms4Ym9tYzNxdHF1cnBfeGFuQ0N4UzdXRzRRb1pGbVJhaEp6WmZaT1lTRUtLVHNMQjhiRjZWWDU3ZS1BTzRLX3I5UG9kNFYyYUR4OHpPRmtvRHNmcktQcU1EVDJHZG5Hb0RNNTRLVEp1ZjJHV2tYV2dKMDN1X2JzZWlRTW5HdTlK?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 14:57:19 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Liverpool vs Manchester City: Haaland smashes Man City into the lead at Anfield!",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOXcwMXdIOTJjRkpHR0NlNVFEMlVSQTFSeFNVQ3g0Z2lRcWRZZFZHa3VOaHBpMzd3MDQ0XzJqZkxMTUl2eFhsR2ppWUZhaDRaaVA0YVBCQkJpUTJyRXo3NnBGc1RhZGxNdG5BR3h1dmdIZ1Ntd3psbWZPWlk4ekktVmVWTWtKVjh0czZ6THVmdjNNNFRQbmd3NkRUS3IzZw?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 17:02:43 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Highlights - Premier League - Liverpool 0-3 Manchester City",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE94ZVFFT292NWMzbUJfeUF3aTM2LXNHR0FKaXdRdFFxaThEUGJENXY1NjFZd0M5YmJURnFQUWRLaTczTnVIeE9RVzlsRWgycFdwZi0zRlJXRERNNEVUNWhubjNRYkpuNVFu?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 18:59:19 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Liverpool 0-3 City: Two-minute highlights",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMUx5NGNmeEVmVWh0dERlRjFBb3M3UnNicHpRRDRHclJHOUVxSGw0LWtTcDJPWW1yWXBiRi0ybUxKY3NtODNJaVRNeUh5QlR1bnQ2WVAzTXd1SldQQ1dKLTZMcEZoNlB0XzhMQnBVMTlvWDAyb214T1hzMHZQMUwtbTNwY1pjX00?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 19:15:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "'Very difficult' - Virgil van Dijk's verdict on Liverpool's defeat by Man City",
+      "source": "Liverpool FC",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaW9yVWhTZlBpT2pEaFo2WjhGaFF6Z1dMVU5BaENraXB3dnd0d0p2ZXRON25TQnpFaHpCQW5SRU94Qi1wSmRYT3kxMXM5Tk1lcFMwdmx5WUJWM2hvcENTT0VUOTk2dDhPY04xcjh3Ui1LcF92cTc0Wms3RUktUEItbm44ZndDMThQTUdLMmEtQkZfQQ?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 18:34:47 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Maresca equals best winning run to start of a managerial reign in Premier League",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYUtDRlY3LTk2S2FuenBPLTJLUUQwR0J5TlctTGxuT0hjd3ZvTWlOZTRaMWs4NFhaTEx5WUF0Q2hNVzNudmVGYnNZNWt1MUxOcnpoYTNxVU1mR3NrOUw5bTBHSlZJQVp0YW9lWGJXVnN6am1DN3BGQ0doa08yNjBuTzIxMWxHZEdqaHc?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 17:30:00 GMT",
       "category": "general"
     },
     {
@@ -17,95 +94,18 @@
       "category": "general"
     },
     {
-      "title": "Liverpool line-ups vs Man City as Lewis Koumas and Trey Nyoni decisions made",
-      "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYl9NV1NJcS1UZENybXE0cjRFOHBfWHcxVy1sYi1JbWVxY3FwNUhFUDdHcDhPUkk2bnFZR2w0ZXZSOTZDLTA0Uk9PeGVMNERtR2xxZFlQczNsWUVjb2hEZy1VTmFweU9OaXI2M3RFVXVCRnhXSExRYldYUTd2NVJDbjhxaHBiTVhhanlSU21jQ2s3NFFoNUgyWDV5Y9IBoAFBVV95cUxPRFUtbHotcUFsNUhuR1J6NTBnTHRKamVnSjMyN2NDcG4zQzBuY25XTlJsdnprNGtPOVNnVUpud0FoY1N1NUxNNjRpbzdFODltVVEwb01Zb2Z0ZU5vb3UtMlVlWVJyeWNXcEJDNXg3VFg5N1hEc2JsV3VCVUlTS0tjRVhfcjVhOG9YWl9UQWFPZnA0UUJ5SDhWalhtXzVuR3oz?oc=5",
-      "pubDate": "Sun, 11 Oct 2026 05:00:00 GMT",
+      "title": "Why Were Inflatable Bananas at Anfield? The Story Behind Manchester City's Unusual Tradition",
+      "source": "beIN SPORTS",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOeGJGZlRRbDdnaW84dDZiYzV4ckdGNHhuQU9BWTRhblNweVVINGJMZm51LU5TZzNBdllZR05sVjNsZjZaZk14R1MzSzUtR3YwYWUwdFJFWWZHbWstR1ZBdWZYajNYUkV6UmZ4RmFrdlpKSlNPM3V1RFhqTWdvVUpYZlhOQjdObXZHYWt4TVo4Mm9QcFp3WDJEMEtOS2hyN2hqNmpEQ3M2V0xrVXdhdE9qUEJMdjlJU3JVa2YzbUREd3BtZjRDQmtsT195Zno5WXp0aGRKd2JOb3o0SmllT3NGdWtETFoyTWhNS3ZDWTBHbTlsc3dfOTJrYmJlY3I2clduVjlNZ1BVRWprQQ?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 19:07:31 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Liverpool v City: Kick-off time, team news and TV information",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNDBiMzJiVUdkcjFfQ0RKdTB6RGVQNl9Ua3lXZzdWLTl0Z2lVajZUblBJSzhxcEFTdzJEbEI1NkF2SThvQktNblYtOTZXUnViaGRGWUQtOVhWRHhIano1cUY3NHZwc1p3SmhPZU1TckRvVnQxMlV0MEpfUGtEWTBuU2FMNkJhQ0otWEJ3QjZqa1MxbDFUdWwxQzI2eENVTXFVbnln?oc=5",
+      "pubDate": "Fri, 09 Oct 2026 09:30:00 GMT",
       "category": "match"
-    },
-    {
-      "title": "Man City charges: Premier League settlement 'talks', owners 'should go'",
-      "source": "Manchester Evening News",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWkQ5ZW5iNE1kNFNhcDNLUkd2WGhLYnh3bHVqLXNOYXBUaTY3MVdMellCYVZVc3JOUk9LWmk4N2tPVGVNU2lhYXZ5WnpKTTZ5Wk1HUmI3Z1haSnVrTUJCd1ZkcDQtTVI0dmxEcXBBaTF3b3J4SzFLcE9fZG5NY2ZEUGtBZEt2T3JOU1psNlBicUtUWlduQWNKaEVqdXN0T3F5cFc5RzFURGlhQnV4c3c?oc=5",
-      "pubDate": "Sun, 11 Oct 2026 06:18:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Erling Haaland is facing a career-defining dilemma",
-      "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPM21yZTZPMUI2azYxUmY1RTR0UE9zT3IwTWRTNjh6eC1kUEE3NlFaWU5jVlZsMklWNUF3OUw1Wkx3OEZUV1BjbDY0WVJXei1BSUxJalBNYVhaSV9JdVk5ckxERHk0R3k3YkZIVVpvYTR4VnEySzdaZHFRc0RXUDRhN3AwWjRra2Nod3dFSEhFNlcxa2k4aVZ1Qlh4YUZJX3pxdTdqbEctRDh3QQ?oc=5",
-      "pubDate": "Sun, 11 Oct 2026 08:02:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "The Manchester City ruling that shook the Premier League, annotated by our reporters",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZ0R1MVotUGlNa0l1U3l6dE1zQ2NMejktQ3BuSEwwd01xZjNwZ0Q4bGNUSXF6UFJYcGRpbFp2SktqbmdRU1drQ0Frel80dDRaLXY1alVPaG8xLVVNTEVSZkFRZVVuNzhjemdfbWVxMzBfUzhMTUt3Wl94SFRRalJSWFFSOC14M19GcFhvUllXLWF5bWpzVC1kdXNXVQ?oc=5",
-      "pubDate": "Sun, 11 Oct 2026 11:12:49 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Haaland fit for trip to Liverpool, says Maresca",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNLW9aaFVvNWg4cWptMlMzWW5CeHVRckVBd2Q0aG9QZ1gxNmRYaW9qUXZSWWxEZjVxeHRLb29hdUFWcV9yU1NxeU5mMUhlTXZYeEFMLXNpMDhYdlR3dG1SYk5vaHYwSHlOTkV1ekdkZWZTTzhJZnEzUVdMYTYzZDhneGxHcU9wOWhxODc4bXBzM3JsVXpYR2p1aHZpZ0RHQ2FNNVE?oc=5",
-      "pubDate": "Fri, 09 Oct 2026 11:15:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Erling Haaland buys house in new country just a week after Man City guilty verdict",
-      "source": "AOL.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUm9Mc1F2V05SMDFoc3BVLVhBRmp5WG5pc1ZDcTlEc0tuUXEwY3BRaUZwSVlUTnJhQ1dNblZMZlY3MVZxTmpfLUlyYmpwTzdmcWRrbWs5eHRfTnZNN1hxZEJVYXRNMm5hT2xueVpsaHVMM3dMWDRkWS1EeHpDaHM1aGg4SUxHUQ?oc=5",
-      "pubDate": "Sun, 11 Oct 2026 07:26:02 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Manchester United 0-1 Manchester City: Haaland scores controversial winner for 10-man visitors",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBKWFBaQkxhTTVBb0ttOXFEZmlmWVBacnV1dkduYkQtUjJlOURsdnE5ZzNXU3RFNWFBMVpUU1g0cHV3STVaLTY3elpvTzBjUWo4d0FyQXpxS3RJRmNtcHV3LWhIa21kUQ?oc=5",
-      "pubDate": "Sun, 13 Sep 2026 07:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Here’s how to punish Man City harshly without sending them into oblivion",
-      "source": "The Times",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT0Y3RWptR3VqRWtHdUdfUGl3STVxMzRwMWNSc3FoNVFuR3JrckNIUFZOdmd1cFlaNVlUbGZtaXl2b0hYS2Q2ZWNfWWdieGFHSWJmREVnYWcyZjFCWVJxVkc5XzlxVVB3bTZYdkh5bmM4WHg1MUo0VXVmTU1Hd1EzVEVQRXVISW9uQlNrTWVmekhwNlh1V1A1U091M1lrYlZFQzBVempjdXY?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 15:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Liverpool",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNENnOE9oZUx6Mk1LQ0d0ckk5NDJkT3Rjcms4Ym9tYzNxdHF1cnBfeGFuQ0N4UzdXRzRRb1pGbVJhaEp6WmZaT1lTRUtLVHNMQjhiRjZWWDU3ZS1BTzRLX3I5UG9kNFYyYUR4OHpPRmtvRHNmcktQcU1EVDJHZG5Hb0RNNTRLVEp1ZjJHV2tYV2dKMDN1X2JzZWlRTW5HdTlK?oc=5",
-      "pubDate": "Sun, 11 Oct 2026 10:52:25 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Manchester City: too big to fail?",
-      "source": "Financial Times",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOM1FZLUp4S3pIQ2tCQnRiZkdUUlRwTGQtbDI4anI1anJLZE5nclUtaFRLQnlOQndrbGNxNmxLcFFnV2NQS3gzRkJ2NUZiWUV1cDFaajJTdjJHRjhIVDdKX1VfQmtNejFURENQQkR3VThyN2MtYWg0SFRqMUdTUjlkMVZYMGo?oc=5",
-      "pubDate": "Fri, 09 Oct 2026 04:01:29 GMT",
-      "category": "general"
-    },
-    {
-      "title": "How to watch Liverpool v Manchester City as City return to action after guilty verdict",
-      "source": "The Independent",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPZVUwQ2J4NW54SWR1WnBWSzZadWEzS204T0RXT1hwdUwzaXowQVZfbmpuci1kbWlHV01uVmJzWXpzMTZWWXNIMVFkTjJQYUFNb21HQUVDeE04b1BpVjFYVFpZQnZnMDFZS3V0N0JiQ2NpNDdwZjVVT0YzS0tfcUR5bVZkQmxCOG81WFNQMjBuMmNOTDctWDdod0JzTGZoQ1NiYkFZblhNbS1xM0toYUNPdHFzS1F0V3Z2djloZ1J1VQ?oc=5",
-      "pubDate": "Sun, 11 Oct 2026 08:13:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Man City 'a disgrace; I would throw them out' - furious Ian Holloway",
-      "source": "ESPN",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVS0zZHlqR1ZGV0VLVWY2SUVOdWtlR0hXV2RncFZTTUVQOWoteUNTa3haNTRITFNCbUhEcldlamRPNGdoanM2bkR6TzV6WXUxV3ozaURsS1RjS08xVjMyM1NwWkJDc0E3REppV2JUY2dmb3QtUlRFMnVEOFJaUDIyWlQ2MkdKTV9Vc0pqMHMxSzNvY0YtRENQZXVBSHo?oc=5",
-      "pubDate": "Fri, 09 Oct 2026 07:36:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Man City Men's Team News",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBuTUNXUzBZOTZvT1Y3aG9xbGNMb1daQi1kUVBNQmU3VkVBMFZGdVhWYW11MFc5Zkg3cUF2SDd5VEFfdUZ1VkRkU0ZLNnR6dGVaRjNEdFBrWUVBOHFOQTdQYUVNWUxMdzJ2TC1Fc0VhSkd4ejJ2UlVadHNYRVkxdw?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 16:37:17 GMT",
-      "category": "general"
     }
   ],
   "reddit": []
