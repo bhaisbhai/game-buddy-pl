@@ -1,12 +1,47 @@
 {
   "slug": "brighton",
-  "updated": "2026-10-10T20:58:32.139Z",
+  "updated": "2026-10-11T11:50:54.684Z",
   "articles": [
     {
-      "title": "Sunderland vs Brighton & Hove Albion: Premier League preview, team news, stats & head-to-head",
+      "title": "Sunderland 0-2 Brighton: Seagulls win despite controversial red card",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBMdU9NSlg2Mm5OTGRVemN5bWtuVUJOTW9QTEdYaGJsX2ZtLWg3aU1EMDZwZUNtSklRX1VZaXVrRURnZDhFOWdGeXhhUTQtTHNzVmR1NDVEQXZ2VVZjSTF6bVZXWQ?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 14:27:43 GMT",
+      "pubDate": "Sat, 10 Oct 2026 03:06:11 GMT",
+      "category": "match"
+    },
+    {
+      "title": "What we've learned from Saturday's Premier League matches",
+      "source": "Premier League",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOLWxGelVFQlhWZmpjX2Q2dlRnTE5vcTVVZDZlVmNNaklyWUhWdUZGV0FTMlI3bEJjZFdIODFvYmYxd1l4MVh4RE1XM0lDVE9RdFZQTDFyQzI5czZFOXZfbkpYY0hIcE82Wk51V3YzMENWRTdFdGNaNHEybWdRVHpDYTZtTm5DdG5xUVZ0bFpmbw?oc=5",
+      "pubDate": "Sat, 10 Oct 2026 21:11:22 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Sunderland 0-2 Brighton: Seagulls stay third in Premier League after third straight league win without conceding",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUDZ3akZDUkQ2ZUt1cVlXMS1WX0NobTJPYVV5R3Zzd00tNGhUNVd0V3FWR1ZMaklXQW4yaDYzZ2hra0xheHFuZ1FsdDlDY0o0TjAyY1lrdTRoUzZMRnl2WnR0dW83cmxhV25ET2Jqdl9oSktCaWVybi0wc1hwSG5LZEJSalFnM202TXhMU096SWNQYUh6TTgyWHVuZW9odEhUUzEyWjF0OUdFbDFaM1lFZ3BnTHVHLTJEUXZOd1FFajZzdGZLOXJqenBjSVB0cGNPSEpKSkdKWFVfZw?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 09:59:14 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Maxim De Cuyper makes surprise Arsenal admission after Brighton beat Sunderland",
+      "source": "SussexWorld",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOXzN0NlZjb0Zha1hFdnU2VXFJejBZLWRRRzNyMHdBQVYyNjFVeVJVdDVJZWgwSk5TcmNaQ3kxcjl3Q0RwWmgtRkxaVG9reTdlY1Q5OHVUdE5vc2E4cTVjeG41UXRNcHRSOUVaS1kzSEhZelYyMUNZTHhVN3pLSDFSSGg1TGc4UnNSdU1ONUY4MG5xOGotbkNEekhIZ1Y1WEtJUDVlQ01TQVZpMU9JdlEzQzJkS0h3Ulc5M1J0Q2RzWm1USUdSeFJncVNwRUE5NXozRGc3SGRxdXVtdnJJR1ZuaWtyU1FZd3hwTGhxWU5nTmpEZVAxcFRFeWkxY2NkRlBE?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 11:12:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Fabian Hurzeler: Brighton are not nice anymore",
+      "source": "SussexWorld",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOM2NiVUs5Sl81WGdOeFRpN2RZeGJVVElIZWJ1OXRyYnlaMGkyYUQwU0tXX2E3eXE3Rm5iaDcxV3E4QkdlSFBLOWlOSDlwQWZGLUU2c2M4VkI5eWhOUTRFbVlkUU1jR09aM1NiZ1h3N3VGcGFPNTRwbzB4b3p3TUNCTG95a3dEZVVINTktLTk2MmMzTDRNLXVMN0NHZkRpWTlOR3JJal9HZlNFZEU2d1BIZk4xcjA4SzI2ZHpWR1ZCNVdtS0E?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 06:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Hurzeler praises Brighton's 'togetherness' after Sunderland win",
+      "source": "VAVEL.com",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMnRmamRJLXVhdUYyd0cyVmdXR3VmeTF6aWR4c05FWGw1Y0lBYnFaZW8yM2RpQkFPVDk1clRjblVSYUdCUmROenNQbTdOTHZUZWR0OGtIeTRVeEE4U1c0TXpzZTRNVGFwY1RSQXVsSXJiQ1l2MDM1ckpXZjc0RTFWRmlkYTFEWEZXNUNvR09BNTh4TmdIYjk1aS1NQkFqSVNCT0hLUGpPS0VNMGtiVVFFT3g5bUNjd1JIazBVVmprSlJYU3lsRE9Ld1J2OXk0eGN3c0JiTkoyNA?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 08:24:12 GMT",
       "category": "match"
     },
     {
@@ -17,59 +52,24 @@
       "category": "match"
     },
     {
-      "title": "Brighton player ratings vs Sunderland: Trio score an 8 as Albion secure statement win with ten men",
-      "source": "SussexWorld",
-      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQVTJBSHdheHRvMDJMb1JwdGRjcWRiZE93aFM5Qzk0SDVKb04wUnhlZDVWVlBSMFlIYkJNdzBCdmVOb1lVQVdHM3NacEktUGFaSTNqeF9mN1RYNnVVSzdGZnR6MWx5dGtsRmQ3dDhubzZSRk02MmJfU1dwemFHYW5BV2dkQm55T2dNdUFwZ0hJbkVQZjdsNUM1d3JDUERYNzVMOXBtRUJET0Z5QXdyX1JTNmx2ZTRyLWwxN2pPWl8yZDdjRVdaUml5WGJNc3k4Vy1qcENVTXN1RFNWNW1lVXNBQU1LOHdObHNZLWFqN0wzczNzT3FPTkVPRTV1bUlZMFBPaTlnaDNldXNnN05IMFhsUTl0eTVvbkw0?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 16:04:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Hürzeler urges Brighton and Hove Albion side to forget Arsenal win and focus on today",
-      "source": "Brighton and Hove News",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQM2pkU005Nmc4Q09GYlhKYTFMVFBkVmVUaFZUemZidFlMN3NhbDJtOExQczVIZGxfTG9RejFVZFhTQmppSXBlN2txTUhpWUdsNTczNmtWT1pQWkg2dFZyUzBfNHhod3MxOFRvNE4wbl9ydnRWQm50V1k0Z2F3bDZIUHFrZU5IQm9XTTBVaFF3RjhxVnE2Zk51OVQzQVJSbDRfcTlmZG5NcUdaVWtRUURvSXpCY1VtMlgzTkV2bUVBOTdNVWZzR2laNmd2ZkNCQQ?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 13:24:35 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Sunderland v Brighton & Hove Albion",
-      "source": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOc0JDMVdLWUQtbE1XY05fRllsWVlNaHM5N1RIdmlmZlQ2dDNzYktpby1la3R0aTNfYXM5UEFyYjBicG9rRXBCVWZ4V0hkbldzb04xQXFDbkY2RWdHRnYtMlZPaERXREZGNmpqSGl0SVk1VWUwckFMN3RWbTNIRE5OY2NTemVFZExwZmc?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 12:18:08 GMT",
+      "title": "How Brighton attract and develop the best young players ahead of their rivals",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ZOVVJSGM2SFVHcmpfRWl3OGpvSE02a0RiS1g0SlpMaHlJZWVBendOX1JJR3lUMlkxQjB6cHBQQ1BMTm9XWVFNVnNKeWpBckNaN3VINGZkaFZRcVlpQWE3N3FwbmJfbzhC?oc=5",
+      "pubDate": "Thu, 08 Oct 2026 10:37:14 GMT",
       "category": "general"
     },
     {
-      "title": "Premier League issue official statement after Brighton vs Sunderland incident",
+      "title": "Fabian Hurzeler’s amusing clarification as Brighton boss quizzed on Premier League title chances",
       "source": "SussexWorld",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTE94aFhTdTZ6bjNLaWlBNEtBUEdjckpScWhDY3ViM0ExeTJkNjE5cWp2Q1JtaFgxTkh4MHlPZXRFeHRVVEE2UWRMMnJnTUJlSkdNeTN0S1VHaWxnN2tzRjNENi1uMWZLTWQ1ZW5QYmpiZUtqaXdDRTE2Y3M1LUozWXFhVkFBOVo4eFpOZkx6UTlDVnNoT0NDNXFJY0tFTU5rUWtWQmsxcGhYSlNySG9kcEphY3lXcnB5YllXaXJZRWh0ZFFkTnFJNHJPVnBkSC13LUVHVS1uZ1lFbVVWdzRWMFV6NVFQTHUtbjA0TlF3?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 15:59:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Sunderland 0-2 Brighton | Premier League highlights",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcDkzYTZGZ25TQ3ZnRTNnSGpVaTNldXRLcEdxX3V0dnV4dTNfX190ejFTWWpBSlVMclR6aDlDZS1DMGR2TTdlNUpkSnR4Uy03dFBnc2pyZzJmTURIOTJXUFdTSXJXZkVzSks1ZjBvcGJnQzZ5TWFsNWVScTJlcHREVHhDTVlfMzVKQmtXWDVLcFJDZDJhNXNrYWxKeXhVZzB3?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 16:21:48 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQZk5lRThaTk1oejBZd3FZTE9LVkVfaXhsTU1MdVZqTTVieW0tdWJVNnhKaWtTSnBrR2xCTjRQMWQ1VHNCcThPUjNhUlBFYl9YMTZKOE1hTVhJLU5lRkJTcTVvbUwtbVhSNFU3cTFKMUlINGRoeWpKVGhVOG12dXFEQVdCMFEzYUUzaHRQNXl4Ykp4QmhvVWJaUThoN0c3MzA2Ny15S05ULUN1U0g0Q0dpR3lxaHVDX3NnYUh3bE9YYnpkSC1TX3NrODRMV2NOc1lVVEZCbXctbHJ1RGxYTVl2TWpRQW1US0F0RGRUQU9uMkF6RDBPYUhLUUJrbmxmUmRmZG9HTENpZ1l5UQ?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 08:00:00 GMT",
       "category": "general"
-    },
-    {
-      "title": "Hurzeler hails Brighton’s ‘good defensive mindset’ after win at Sunderland",
-      "source": "VAVEL.com",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPWGVEVGZmR0ZfdU95RVlVcmt4T3g2bmU2MkFKMXI4Mk43NUdfUzZCT2FYWndNWUVBalZpLWdQd3RUdkVYS1g2Ti1FRlBFdURDdjZyVWxhOVlsNTdkY0JKWUZuS0dEczJjUzN6X1Z2eTJfZk5LQjZoZEh4UVpST3pqdG85MVd1bkV5ejhXbHVOTlNiX3JmNjNaOHJPcldjVlAtYlh6TVFwUGp5cWlwMTNOTkRuYmJtSVJrN1dYRzhkbUJoZ1FMX2k1d3lVQnI0VEhLQTNJQTF3MkEtTm55N29CTEdEbGtkZw?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 16:59:46 GMT",
-      "category": "match"
     },
     {
       "title": "Premier League: Sunderland 0-2 Brighton & Hove Albion - Fabian Hurzeler confused Pascal Struijk red card",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE55d3R1elZrYVBWZWVTX1cxb1BtbkhxT21DVXdldE5XcW9rdFpDNko2eHBNMGVOclp5bEdubGNBbXljeGpEZGI5WHdaamF3QUcxT1hoWWVfejhMS1NITmhfX2ZSYjF2REo3?oc=5",
       "pubDate": "Sat, 10 Oct 2026 17:19:21 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Sunderland 0-2 Brighton: What Hurzeler said",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNWjRfa0JRSjZvS2hwcFNJdkd4Z1lONFB0Z0N1cXdjbUtGTEJxS1VqbWhBX1R3d0hOTFJ1ZGk1U0puSzNlcnZRQW0wenZYWDBzSFgxeVJwY3M3SE5NMUs4ZFhLRFlxRXFZUnFQSS1pRnpYNHNIZjNDeERPWEJYWlVkTTJ1VUE4OHMzdW5rWWJGbzNVVFIxUVpzSG02MXlhVWgzY0pxQkNDUUJYQk0xZzk5VmdSZlQ4cElCYzVJMHNoLWJKSnVnQU5LUnRJNjU1QWVTV3dpUXFmbzFILS1ULTVRWjB3?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 16:41:10 GMT",
       "category": "general"
     },
     {
@@ -80,31 +80,31 @@
       "category": "match"
     },
     {
-      "title": "Sunderland 0-2 Brighton: Have your say",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4yMGI0NHdYbGRBWi14Wkw1LV9yWW5UNXIyblZRbGl4OWR2TEo2UlhNNko5cm9VV1djMTF5ZlpiRnNHT01Ta3JvbEs2MWlfaURhTlBoUTl5b2FOWEpCYlR5azZWUV83SWVSYmc?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 15:58:18 GMT",
-      "category": "general"
-    },
-    {
-      "title": "'Gross is pound-for-pound the best value player in the Premier League'",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQbUhpMU91MVV1NzlseG1DUkpocjVrWXV4MjZRaFpfUG41YTZIbUhCM1JVelBJYzNhdjhmc1MxTm5va2Z1Sy1WcXVkaGxMcU5oR1NaWkZKZ3ZhRXMtS0lyRkNuQ2hpUmJvMGQ1bHpCTjFoYmQ5b280WmFSMVpyc2ZoYUN3cVlLTjU0VXJTWTA5bllNSkRMbDVlQ0k3Y1gxZTFvRHBmcjJBSktmSVVHalV5UE9GZzBYTGhHdG1XQzEzNlZSQ0s0a2FYQ3VVSlo3R2Vzc3hwZDZwc2FOcVByRFdwRV9pTWNhQjg3c1pmNjdVelFlZw?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 18:15:46 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Brighton boss Fabian Hurzeler gives red card verdict at Sunderland after VAR call",
+      "title": "‘Momentum’ - Sunderland boss makes Brighton admission after painful defeat",
       "source": "SussexWorld",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPUzZQYnRackxScEIzOEVTdkw5bzg4WVVwUlVPTm9WQ09DN3JGbWpRaEdCMHJ4bXMzenZlR1lpQjctWnRPcmdlMjVkRG1UdzVEUkZidWFwMGxqV000SGFuTGxGYnZVbU5CU0xvVnpINlNnenRKUnJnVmhUbnhCTFhPdUkwS2hHcEtPazRZZDZZQW50Z2dHR0V1MmdRcnJLeU93Tm1ydi1WNks3MFlrQzk4OFZVNndjazBUWGtoVVg5TkNobkUwaVJhQnRaV2RFbHNpS2s2eks0MS1FTkg2OW9jcjMxRGRzcXJ5MGFYOUl6M1d4NmM?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 16:54:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQR2JHd1V1bS15WHBBdGg5dTZVS2puZjctZzZBRkhQY1dfWXVVWWZla0ZrQU85VGsyWXRyT3NZWEVCSURLZXZJTm1xR2k0MjIwdy1WSWhNbG95ZjJDSzBTRUNJTnY0TVN0clk2Yk15eGw1cmYySlUzY3pkQjZJNW14dWw2WXVPOG9LN3RYMGRKRDRGNmd1dUJYbjdJMzNzZ0haNTlzWllZN2FULTJXZW94b3BRNU9hRXMySnBnQzlUQnFuZVhuaFN5RzlHMjRlWkctejlDNVpWZGxaUE82cFhDRWlHdEU?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 07:00:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Premier League issue official statement after Brighton vs Sunderland incident",
+      "source": "SussexWorld",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTE94aFhTdTZ6bjNLaWlBNEtBUEdjckpScWhDY3ViM0ExeTJkNjE5cWp2Q1JtaFgxTkh4MHlPZXRFeHRVVEE2UWRMMnJnTUJlSkdNeTN0S1VHaWxnN2tzRjNENi1uMWZLTWQ1ZW5QYmpiZUtqaXdDRTE2Y3M1LUozWXFhVkFBOVo4eFpOZkx6UTlDVnNoT0NDNXFJY0tFTU5rUWtWQmsxcGhYSlNySG9kcEphY3lXcnB5YllXaXJZRWh0ZFFkTnFJNHJPVnBkSC13LUVHVS1uZ1lFbVVWdzRWMFV6NVFQTHUtbjA0TlF3?oc=5",
+      "pubDate": "Sat, 10 Oct 2026 15:59:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Brighton and Hove Albion: How is data used in recruitment?",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XUkJjdjBub3JNOTJ2UnpuWFBWRHVjdTJnemlLckV0UHR2cHBDOXZUWmZjeGhaMXZEM25oQUw3MjNBWDJuemg3YkpxdGE5QUlwQ05lUTUxeWotZngyT0RxX3BHZmtRZ3Rx?oc=5",
+      "pubDate": "Thu, 08 Oct 2026 07:30:05 GMT",
       "category": "general"
     },
     {
-      "title": "Brighton boss Hurzeler knows Sunderland is 'completely different game'",
-      "source": "VAVEL.com",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQN3ZXQ1RvMVNlRTE5WnNHRUJDOUdwRDZVVENEX3ZSUXhfYk9EajVvc09JUUlQXzMtMEZ4dDhiNXlHWXk1dVozeWpPLUFPS0xranp1ZWxxaGhCRkRVUC11ZkI3NmlGUnM3eHNxYWgyd19QQzlGcUNuOXRuZXNRWUhocDVMem1DR2xZNmxjLVlUU3RGREZVLXA5OTdVMHBoOE1uUzczS05IbGZjZExYdVdES2RkbGZ0YXZEanFkOS1BT0IyNmFtQkczLTBZbmFQT0lrd05DUkJxN1BPaUUxNDZmcg?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 08:04:35 GMT",
+      "title": "Ten-man Brighton and Hove Albion see off Sunderland",
+      "source": "Brighton and Hove News",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVDRHLVBJQmpYOUdtRlRkLUtrSGNXWDJQTUFMYXZEaDYyWk45Y0RxdTVSNDc4RDllTzAzN3pDRkhlVC1iOU15eS1UaUI1ZkUzLUdrcS04akc1bklCS0tPNHd6bDFmSkh5SFBoR1Z6VmRNRVJsVENBWVQtVXpzV3FmWkVRb1ZvN2otUUR5U0JjemYyMDg2aHVlWFhYQUZvVlRa?oc=5",
+      "pubDate": "Sat, 10 Oct 2026 16:08:54 GMT",
       "category": "general"
     }
   ],
