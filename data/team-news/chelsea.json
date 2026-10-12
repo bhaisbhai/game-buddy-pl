@@ -1,32 +1,74 @@
 {
   "slug": "chelsea",
-  "updated": "2026-10-11T21:19:41.361Z",
+  "updated": "2026-10-12T13:57:22.007Z",
   "articles": [
     {
-      "title": "Henderson and João Pedro lead Chelsea charge against Bournemouth",
+      "title": "Chelsea injury update: James, Gittens, Emegha latest return dates",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSE1jRHhnQmJnSmNiWElQdzJzYThfUENTMnBIWEZPeWpyY3I5TUV3WldhUGQ0am5PSmIxVFNKSU1reVhqakJ6UmlMZ3pRMFJ6SVhieXBVM2tRWTlaTUtVNjluQk1ZcnJmSTA1bEFtdURaX2w0Ulg1cVFDMnctbHJHOWRfLWh1RE5EcGNnMkdELVUzX3NmYXYwd0pGd3ZZOGpLNW5KaG9kZmJfTXdHa2VnMnEtUnVKdDU2S3RJNExNMTRrVk5w?oc=5",
+      "pubDate": "Mon, 12 Oct 2026 05:15:00 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "Chelsea 5-1 AFC Bournemouth, Player Ratings: Two beauties",
+      "source": "We Ain't Got No History",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdkhUakk1eXpNbmxGYzBnSmcxcFJ5NmlWTmZwbnRCaGtkLTR6OUtpeWIwNmh1d0xXakFXa2Rqa1UtdDhJXzRFOTJNV1lhamtzT01ja1o4UHJNaGMzWWZ2YldmYkZDd0pIY3hiQkZObUhNYXp0Ui1wZUM0Mk9Zdnp2X0NPbnlyWEg4NUZ6ZFAwNThjV2RfOWlkT2ZYcTM4MjRkTmhrdGpneThyWVBZeGRvTGh1ZlpJa1Q2?oc=5",
+      "pubDate": "Mon, 12 Oct 2026 07:02:06 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Cole Palmer determined to repay Chelsea’s trust after new contract | News | Official Site",
+      "source": "Chelsea Football Club",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPU0NxMzA3NmdJeVQya1ZUMWRiRmRTRGtnZHRJQTNKYTFaVzVUYlVsbTQ4cFpsa05rQmhLQkwwdEdwODhLOU83amtHbnFmTi1iaG5Ob2ZNUGxTY0pyZ3ljZ19wQVJhc1hHTE04Smp0cktkWEFDSkdnLUJ6N3ItZkFVY1hIUGhZY0tGd1ZDOU9sOTNzNHVtZDZMdUhyVldydzNzdVBvcEh4anBtZw?oc=5",
+      "pubDate": "Mon, 12 Oct 2026 13:30:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "In his own words: Cole Palmer’s best Chelsea moments | News | Official Site",
+      "source": "Chelsea Football Club",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMm1UZHpCUzdnZkJ2Nnh4eFFTVktLUjUzeGxtdFdlZldBT0dXS2FmejRLeTI4WUFsNXRqdmt6ckJEemZ0ODFDZW0xMlJxYW90MXIwYjZfSnBibXM5cVNrbmtfTDd1ejlLelBvcTRVTVNVV19WcTA1andVZzBwMUhKby1TVFVCeDlzVlRqandacnZwWDVuS3Nn?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 13:30:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "'Not pleased' Rogers reveals what Palmer and Henderson 'did behind my back'",
+      "source": "The Sun",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUzJWRnN3Tm84M3JZRDlTR29TX2xmNm0xd2E3MUZRRVFvUklyellIYlB5SmRxNFpvaExIV2hSNGlJbnBwMzFLeUc5d0JmU2NkcDFqN2ozVjFvejB3TlBvQ2lXVHYtNWxLVFpZcGNoYnV1TlJuMmZmOHlZUU5faEhIWkxmZXJQUURwazdXNy00NUdZSVBBVWc?oc=5",
+      "pubDate": "Mon, 12 Oct 2026 10:14:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Cole Palmer sparks furious backlash after appearing to ignore young Chelsea fans",
+      "source": "GB News",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBJQWdzZTgtYmpVSjBmaTUtQjY3VDIzYlhYNFhpSHdlYXJXSHpGc2hXQXZzMGVaX29nWkVMcHRvdFdPbk5QRWtmT0hvNmZKbG1GUk4zT0lDM2JnSXpfNmdfeDJJWlotNmlqblk0dUFsY2pUSTROQXA4M1pB?oc=5",
+      "pubDate": "Mon, 12 Oct 2026 08:51:39 GMT",
+      "category": "general"
+    },
+    {
+      "title": "‘Tarky’ linked with shock January Everton exit as Chelsea claim emerges",
+      "source": "Read Everton",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1uRUo0dnQyeFlVVlVpZHJPM0NLbDVJYmdyV2JoaUJST21zMlhQMm11TFlYd1hManphUTI3c1dLQWFwY2JjTHJBVVRLaVczY0ZNV0JIblQ4TEJVRUEwOGN5cEhyNklURFc4MzR5YmhZUmkwMnY5bjNRQXY2ZTUzdw?oc=5",
+      "pubDate": "Mon, 12 Oct 2026 11:08:11 GMT",
+      "category": "rumour"
+    },
+    {
+      "title": "Roman Abramovich aides falsified paperwork to disguise assets and dodge tax, records suggest",
       "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMjhGQW10LUFWZmhhR2d1UnFYS1JiaWpnQ2FSUnE2WWxGU0dVblQ0U1h4aTlQbmtBbmxhYUZrVmd0eGFVbnN4bEFRVjZ1YzlzRVlseGswSmNQakdacnR3MjFvLXBkM2VrczBoNy05akZ0U3JhMWdTQzN4U1k3WHlmZ0wzaXFOYVVfcDhXbXRMbXU4dHJNb0tXcVZ6clE?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 20:28:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMmpCSWYyUERaRjNldkZFTUozTmN0ZjROaW5EU3Q0MVlab2dTWlk2cGdXQk1iekdHaTM2YmxkRExGY2J1bWhtUXZlS3FPeDkzeWhtUFRIcUJvcFIyREJHM285bnlJaE9FRWtpM21rclg1SU5kUHhiYWRoWTJHbFlzNUg5anJJOTZzaW5iYUhFNnp4b2tvV1FLeUQ0Q1hJYTg?oc=5",
+      "pubDate": "Mon, 12 Oct 2026 12:20:00 GMT",
       "category": "general"
     },
     {
-      "title": "Alonso on Palmer's new contract: You want to keep the best for years | News | Official Site",
-      "source": "Chelsea Football Club",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZmpaUm1ob0N2aUtyU2diczlmdlJTUnJ0M09VdlRZM0VNd2NyNFc1eVY3UDFGdjV5TnVzNmxmUEpiMF9qVC10bjNwMnpfTE1xRFZfU3pkTDBRVUQ1LUNWVThfWjhfR3h2RHg3blBselVfV2FDc1g2UWVEV3FLdjdfcVJBQ3llYkcycHVUdlY3dWxoQlJtYzVLN3NvSnNKZjRpNF90WlRvZHd5dUkw?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 18:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Cole Palmer signs new Chelsea contract! | News | Official Site",
-      "source": "Chelsea Football Club",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZVdkZEF0SUtfVHRNTGQtSFo0WHQ4Z21vemhwd3ZvZ3pVYjBwMGI4SEtlWHYyNzExbHhHWS1neTc5TFoyYnNNVjhLZVBQaHNRMXpOOUlJdk9qT0xOR25nSUhCTWo0WjUwX3E2c2wzeXo5dW12QWI5dEg0UlBMZGJmYmg0WTB4dVZIczJPY1hR?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 10:00:00 GMT",
+      "title": "PSG handed boost to sign Chelsea player after he becomes no longer untouchable",
+      "source": "CaughtOffside",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUDNzekJIZldmazZqVnlTR0dENHN5dnEyYWhlLXN5ZGVvRG9UX2dzWGtyajBwSXlUNWhKNjhjNFNnU3Y1NC1HVkJrTWZwc0JvMTZrcXBxeGxzQlNudC1fUWhyUElCSU50MEhFOHVSLWY2bFo0a1p4ZEJYWGFPNnJ0dVUwcmtDMmpLcGowZ2FSbFhkTVNUTVBZWVN2QdIBoAFBVV95cUxQQXNvWndKRW9pRzI3UlFpenA1OFlIMmlGTXVCRHJyX3RqcW1vVzY4dTFaZl9UV2FHVkltQ3Q0ZTlkamRrck1uTzRROFlrOUZETHFnZjJGc0tOVFNrTlVaTVRZSGhacUlRNEtCWm1hcnNIWFlzWUk0ZC1fd0xYRHhxUjk5NF9hcHA0c1Q5QWFObl9vV3FXMzhFT1p4aWtxQzRT?oc=5",
+      "pubDate": "Mon, 12 Oct 2026 10:00:56 GMT",
       "category": "transfer"
     },
     {
-      "title": "Palmer signs new Chelsea deal, Iraola backs Barcola after France displays – as it happened",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQY3EzX3lHYXRnaTVSWXdqQVUyUnB4QXc1VHlIUGMwdGxsUWttRTg1bkFKeEpNeVZfMThfenFmUk9GRXU5S2MxQ3NDZE5qLUhFeHp4cDVqaGpPbHU4c3ZzbFluWl9yQ2s4dTB5Rk1MQ2hoVzROMVdnWFZwSVlDRk1Pb0tSTjhMQWNOOU94dEdmYVRYb21oWTY1NnhTV2N0RXoxZG8tY1BOdzlqM2FQQ1BFWk45VzlIZXhhQ2RxWEJwVVRjWWRzUm5iQzBuOFRkSktuTDhaNg?oc=5",
+      "title": "Transfer news LIVE: Bayern release Harry Kane contract statement as Milan want Endrick",
+      "source": "Transfermarkt",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUUpWRG5uWnFlOG5vNHNEOUtPZzdKUXdQTjZ2b05vMjlXZWpPU3JkYU5tb1dIZE14WFR3bUZkM28wVC1ZTWo2Z3p5MUlidHFtUVNFeWd2S0tMNmlHZk13SXE1XzY4TGJCR0tVelpOR1dxdkxLYk5sNTUxdmV5WkJnWENwUXphSnhJMGhzZ2lGd1l4Q3c2ODFmSlNUS0tqZ3FBelJZaXFxT0M1LV9qYTR6UFl4bDhhbmV1RGwyaVp5SkJnQkhuRWtCallJQW4?oc=5",
       "pubDate": "Sat, 10 Oct 2026 07:00:00 GMT",
       "category": "transfer"
     },
@@ -38,74 +80,32 @@
       "category": "rumour"
     },
     {
-      "title": "Reece James Injury: Progress, Potential Return Date for Chelsea Star",
-      "source": "Sports Illustrated",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMFRGS2ZfSVlHSFFaRGFPbzJvbm5UVlphSnl2MV82OHBDV3lNd3B4V1N0TDRHTzBWN3pEOGlNb2xPLWlrVWg1TV9EVENfX1Y4d25LRE1wdVg0VlZVTk9EU1BGbjdhaTcycmlqbGFtMENoMUpwS0Z5ZnlnS0hYUHBaQUtsdmpOU2JIV2txcHlVX0tzYUZKUXJv?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 22:36:38 GMT",
-      "category": "fitness"
-    },
-    {
-      "title": "Chelsea move to secure future of ‘modern defender’ amid Liverpool & Arsenal enquiries",
-      "source": "CaughtOffside",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVFh1LUg3cG9RNzlZYklJeGRUVEpPM3FlMnZIZXJHWFlmdmw4Y0VDWGN0a29fWDFqSHhwUTZ4cGNSc2ltNmdqcFlqVjBiekd1QTFWdEZoY0RKQTNCUkVzRXM5cHBLWmFHeHBaY0xpU1BXQ3A0NDZPWHhUTmlrNERoVE42NWxsemlnTHhKdmM0UkfSAZYBQVVfeXFMT2NkbG5Ta09VMGRmNWV4UmFtUTJHOWt4TzhqT0pZUVRYLXlXSk9yVU9Dc19aaHR1STg4U3U5ZDZic0Jid0gyRm9POFpYNDJXWFNiRC1tcU1nc2cyZ0w4NTZleG13NGtYdFRHamdRMjNNZ3lTWFFYR0pGT21fcjA1RWhVOXlYd3lYTkYwcUVkUWg2X2Q4LWhB?oc=5",
-      "pubDate": "Sun, 11 Oct 2026 07:38:46 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Italy talent Palestra finally makes Chelsea debut",
-      "source": "Football Italia",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0wU3RxZ01NQmJxOEhrdW40cHFndmdXOWpLcGdVMTY5aXZUS0VCUEV5dkFQTERXeHNRQWl5OTVaTU1CRGNJS0x6Y0haaWl4TWtzVm9tUHJMaVNHbkllNm9ZTjVrSmcwY21qMDZDMjhVS2c0MC0zRmd6M19ZY9IBgAFBVV95cUxQel91VXhBN1lYRzdxUHdBVTdHaGxSY01BeDBJNUFKcnZEUnZZTWhsbGY4b1NsV3BzU2k2MVF6ZnBub2d4amlaU21rX2dmYXY5S3VpU0Y5SmdzRkQ1NEkwSS1KbWZaX3hSZENOSVk4Xzg0RXpKaWN3N0dEQjN2SFY0MA?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 19:16:03 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Jordan Henderson reveals how he convinced Cole Palmer & Morgan Rogers to give him Chelsea free-kick duties",
-      "source": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPX1RLNDNkcFEzVTFPWlNVekFUNThfdy1nVDNzY3B3ZEJXbmptZWI2cUVwUDlxYnRmR05qaUFaRjl5X1AxUzVUOEhsSlpvLUZlS2hPaEI3WkxWTXB4NkZob3E2ZnBkMFAySlNTbnZ3VkRWSTRaVlhaOWVmVksybGtDOGFDSDZrMEdYYy1waFB0RjlydmxnODRwSXNNS2xmcktmM1E?oc=5",
-      "pubDate": "Sun, 11 Oct 2026 10:57:31 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Chelsea receive impressive Jules Kounde stat amid €50m transfer talk",
-      "source": "FootballTransfers.com",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeGlFd3plaFNZYjdfTHNXU285My1mMkw2d3lsdnFjZVZGSF8xd0JuY0tXWnQxRGtkbDZJYmZOUE5yQXFhaFNVRmIzWjBKLXpDTWJ3QkE5dEJxTUtpSVBLTTFLbGlrcVo4NFNBeHlWNzJQZWc4bXJvMXptTXZlcEluR3R1MzBIa0dCZXVuc2l6UUJQZTA5Y2taUDY1VmxaQlRkSEJiay1FSTBPZ3o2T2k3X3pFZnljcEs1RkNpdG9RdERMM0JORERpTGFvZlpQcmZkQ1dETw?oc=5",
-      "pubDate": "Sun, 11 Oct 2026 12:59:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Full Match: Chelsea U18s v Manchester United U18s | Video | Official Site",
-      "source": "Chelsea Football Club",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOd3RQazl0R25zbXZsaFRRbDl0ZVJ2ZzR0TXg5LUswMlpnWlY4akh4RXpERFhKZV9LTl9laXZqSmxaWTJBVHVyakZGSFd4TDZlcEhodTZReUFfaHYzYzZlY0FLcUIwR2ttTy1kQUhSTGFIR282WWtEczJpb0FMcFNZd3NZOVp0dl9PQlBQSm82My1SdWotOXRJ?oc=5",
-      "pubDate": "Sun, 11 Oct 2026 08:43:39 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Inside the life of Sjoeke Nusken | News | Official Site",
-      "source": "Chelsea Football Club",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GX3BqREFVcDRUVVdkWHRrMHVRN25sUmJHbWx2MHF1a00zbF8yZm1Pek9UeHdrZGxMcnBNZkVTVkNqcmpZU0V0NTRYVFFQMnJFXzVjQlhURXRNaDZKVl9mMDAzU3VzdXlOMkdOZ3BEUURkcElqWnJFTXhya2s3SWs?oc=5",
-      "pubDate": "Sat, 10 Oct 2026 23:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "“Best in the world” – Paul Merson delivers verdict on Chelsea star after 5-1 Bournemouth win",
+      "title": "Morgan Rogers contradicts Xabi Alonso with real reason for Chelsea’s superpower right now",
       "source": "Talk Chelsea",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVzdISjJrOU4yQTdxU2d3eUpMWGtWN3ZGRXpHa212Z3BDdThTY05seDVQZ3lnNTdUaTR4VlRScnhxRjdBXy1FRXdrRFZnaTBPaUxNeHZDZmNJOHpoUTFwTGV3LURUNm5KVzdrYmU2TnVsMk1BcERZZGdRR09CTjZ0WlZMZ2hBbDJueXZETnJrSm9nRGNYcUFEeHhnNFhmakd2ZU5EeXJybGYxazNiRHd3U3FhM3M5ZklBczAzTmlFTdIBxAFBVV95cUxPcmo4dVFDWVZKX3prNWlScllYZExkWm15UXJRcFFLNmpab0JpSEc3cUI0ZEtQN2J6bVVUTExkMU1PS2VMZXRfRWJXLWtEZGdtQ29WSk01a2RYWjFlVlA4bjRTZUlXUXdXeUt2QzdNUU1FSnFUUHpod3VTTWRCUWxwRVdRb0g1QzNLRjB2dDBob01OZE5jY2Y0S0NTM2ZDVWJab1hNM1g3NzQ4OFplMXV0QjlaN3dubzNxb2w1NnNPMlBRd19s?oc=5",
-      "pubDate": "Sun, 11 Oct 2026 16:31:43 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Chelsea ratings vs Bournemouth: New signing stuns but debutant poor",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbGVaQTRGdEY5SDFveUNFb1pxTFE2UlVFUkNhalF1bk4xWkszRVlaSGF4dGlkNk5EYkQwOWZwZ2pFd2hKNTlnUUNDS3FrWjRpX1lBck8xN1M5eEVLQ01BQlk3TnQ5enpyVVk5VmxhdkZGeTdxdG4tbWtLVW9EN3RrUGI4RXctZndseG5FdWVtTXdHR1R3dklJbU15OEY1QnJxb3I3MFJtOEY1X1hNMzBjbG13?oc=5",
-      "pubDate": "Sun, 11 Oct 2026 11:38:32 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "In his own words: Cole Palmer’s best Chelsea moments | News | Official Site",
-      "source": "Chelsea Football Club",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMm1UZHpCUzdnZkJ2Nnh4eFFTVktLUjUzeGxtdFdlZldBT0dXS2FmejRLeTI4WUFsNXRqdmt6ckJEemZ0ODFDZW0xMlJxYW90MXIwYjZfSnBibXM5cVNrbmtfTDd1ejlLelBvcTRVTVNVV19WcTA1andVZzBwMUhKby1TVFVCeDlzVlRqandacnZwWDVuS3Nn?oc=5",
-      "pubDate": "Sun, 11 Oct 2026 13:30:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5JRTZWMEhsZk9ESDNjMXZJbFJBN2otRDFyVUV1RjdPemllVTFMdVY4RmRFWUNkNFhFMTl5a204U0k5Y0hvZTJmZkg2MHliNERpT1d2UEZuckJLSHp2bC1mTmpkOVBYM0I2RGlXeU5WaTVmZlppQ1BvVVVqZ3NMUmPSAYQBQVVfeXFMTWRGU05Nbk1ERHJtOEo5MzZXQW8zOW9qeUNld0VBSnExSEdhZ3Vjb0RWM1FtVWFlUGxpbVRJRm9samRNOVJ5eGJVUVY3T0pncHc2NU0yWW1Lc2RsckxERThDX3RnZ1ExSEJyYjV4WXRaeXBDUUIxWmpwdEZyX1d4Z2xxZmFH?oc=5",
+      "pubDate": "Mon, 12 Oct 2026 12:07:00 GMT",
       "category": "general"
+    },
+    {
+      "title": "‘I felt pride, joy, gratitude while being completely overwhelmed!’: The history of Liquidator at Chelsea",
+      "source": "Chelsea Football Club",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9UMDJmckNORzJsa1c1Q2RMUXNtVVJtcEUzbXBzVGJ2Z2J6YW9TYVhIVTJ6OE4xajRINTBhLTM3XzYzcHpLd2FzdWVzZVktc2w2eHUwczVaTnZkenJKM3dSTVhHZDJjNnVkOS1RU2pKOTgyNU1haENLelhNb0J0RzA?oc=5",
+      "pubDate": "Mon, 12 Oct 2026 10:15:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Chelsea Diary: Premier League trip, derby day and Academy action | News | Official Site",
+      "source": "Chelsea Football Club",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWUw4ZzFuWExuS29XV1ZXRUlFb0ZFdGpHbk50T2tpZUZiY2o0M1JaczZWdE9FOHdwVldiWEtwbnkyNDllUExsdXJUUWI5bmpHMUFvam5wX1pIN0dDVWNYVEVJQ0FzS0lhT2Nsa0FhOW56VjNhajdyUG05NllwdUNRYzBVeUVkQnNpMWhwdUVNdmZqaE9rai1HOGxfRVdwMXREZlFsbDlRZw?oc=5",
+      "pubDate": "Mon, 12 Oct 2026 12:30:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Chelsea Under-18s vs Reading: How to watch it live | News | Official Site",
+      "source": "Chelsea Football Club",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVnBTdHUyQV9Da01mMEtpMEh4UFVlUHIwMUxPTkNXYmk4QWpDMDhGY1VONVRZYmpadmlRaVY3a3BCRUM4cFJjUDdmdWhxTTNpMHhsdkJzbVc2azNkc1BheGtqT2dfdXpTLTU5THRtdjNCYTdHVEVtVjU3MWhKTGgxX2RoUk9IU3ZtSTRBaDNQeGhibnkza2hEVkRUT1lqdw?oc=5",
+      "pubDate": "Mon, 12 Oct 2026 09:20:00 GMT",
+      "category": "match"
     }
   ],
   "reddit": []
