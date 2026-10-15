@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-14T08:26:50.903Z",
+  "updated": "2026-10-15T08:01:51.108Z",
   "snapshot": {
     "1": 61,
     "2": 49,
@@ -103,7 +103,7 @@
     "100": 50,
     "101": 49,
     "102": 48,
-    "103": 49,
+    "103": 48,
     "104": 49,
     "105": 59,
     "106": 78,
@@ -201,7 +201,7 @@
     "198": 49,
     "199": 45,
     "200": 59,
-    "201": 54,
+    "201": 53,
     "202": 49,
     "203": 48,
     "204": 45,
@@ -422,7 +422,7 @@
     "419": 49,
     "420": 48,
     "421": 43,
-    "422": 44,
+    "422": 43,
     "423": 43,
     "424": 40,
     "425": 40,
@@ -498,8 +498,8 @@
     "495": 40,
     "496": 45,
     "497": 40,
-    "498": 58,
-    "499": 54,
+    "498": 57,
+    "499": 53,
     "500": 50,
     "501": 50,
     "502": 44,
@@ -671,60 +671,44 @@
   },
   "changes": [
     {
-      "id": 95,
-      "web_name": "O.Dango",
+      "id": 103,
+      "web_name": "Dasilva",
       "team_name": "Brentford",
       "direction": "fall",
-      "old_price": 63,
-      "new_price": 62
+      "old_price": 49,
+      "new_price": 48
     },
     {
-      "id": 109,
-      "web_name": "Verbruggen",
-      "team_name": "Brighton",
-      "direction": "rise",
-      "old_price": 45,
-      "new_price": 46
-    },
-    {
-      "id": 504,
-      "web_name": "Vuskovic",
-      "team_name": "Brighton",
-      "direction": "rise",
-      "old_price": 50,
-      "new_price": 51
-    },
-    {
-      "id": 182,
-      "web_name": "Amenda",
-      "team_name": "Coventry City",
-      "direction": "fall",
-      "old_price": 40,
-      "new_price": 39
-    },
-    {
-      "id": 272,
-      "web_name": "Kusi-Asare",
-      "team_name": "Fulham",
-      "direction": "fall",
-      "old_price": 45,
-      "new_price": 44
-    },
-    {
-      "id": 395,
-      "web_name": "Lewis",
-      "team_name": "Man City",
+      "id": 422,
+      "web_name": "Mazraoui",
+      "team_name": "Man Utd",
       "direction": "fall",
       "old_price": 44,
       "new_price": 43
     },
     {
-      "id": 399,
-      "web_name": "Cherki",
-      "team_name": "Man City",
-      "direction": "rise",
-      "old_price": 78,
-      "new_price": 79
+      "id": 201,
+      "web_name": "Muñoz",
+      "team_name": "Nott'm Forest",
+      "direction": "fall",
+      "old_price": 54,
+      "new_price": 53
+    },
+    {
+      "id": 498,
+      "web_name": "Senesi",
+      "team_name": "Spurs",
+      "direction": "fall",
+      "old_price": 58,
+      "new_price": 57
+    },
+    {
+      "id": 499,
+      "web_name": "Pedro Porro",
+      "team_name": "Spurs",
+      "direction": "fall",
+      "old_price": 54,
+      "new_price": 53
     }
   ]
 }
