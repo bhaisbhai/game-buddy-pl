@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15T08:01:51.108Z",
+  "updated": "2026-10-16T07:56:17.468Z",
   "snapshot": {
     "1": 61,
     "2": 49,
@@ -439,7 +439,7 @@
     "436": 50,
     "437": 44,
     "438": 44,
-    "439": 70,
+    "439": 69,
     "440": 53,
     "441": 45,
     "442": 49,
@@ -491,7 +491,7 @@
     "488": 48,
     "489": 44,
     "490": 58,
-    "491": 58,
+    "491": 57,
     "492": 54,
     "493": 54,
     "494": 45,
@@ -557,7 +557,7 @@
     "554": 45,
     "555": 40,
     "556": 40,
-    "557": 63,
+    "557": 62,
     "558": 50,
     "559": 48,
     "560": 44,
@@ -671,44 +671,28 @@
   },
   "changes": [
     {
-      "id": 103,
-      "web_name": "Dasilva",
-      "team_name": "Brentford",
+      "id": 557,
+      "web_name": "Tzolis",
+      "team_name": "Arsenal",
       "direction": "fall",
-      "old_price": 49,
-      "new_price": 48
+      "old_price": 63,
+      "new_price": 62
     },
     {
-      "id": 422,
-      "web_name": "Mazraoui",
+      "id": 439,
+      "web_name": "Šeško",
       "team_name": "Man Utd",
       "direction": "fall",
-      "old_price": 44,
-      "new_price": 43
+      "old_price": 70,
+      "new_price": 69
     },
     {
-      "id": 201,
-      "web_name": "Muñoz",
+      "id": 491,
+      "web_name": "Igor Jesus",
       "team_name": "Nott'm Forest",
-      "direction": "fall",
-      "old_price": 54,
-      "new_price": 53
-    },
-    {
-      "id": 498,
-      "web_name": "Senesi",
-      "team_name": "Spurs",
       "direction": "fall",
       "old_price": 58,
       "new_price": 57
-    },
-    {
-      "id": 499,
-      "web_name": "Pedro Porro",
-      "team_name": "Spurs",
-      "direction": "fall",
-      "old_price": 54,
-      "new_price": 53
     }
   ]
 }
