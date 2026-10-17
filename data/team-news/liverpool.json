@@ -1,82 +1,75 @@
 {
   "slug": "liverpool",
-  "updated": "2026-10-17T09:54:58.035Z",
+  "updated": "2026-10-17T19:56:14.901Z",
   "articles": [
     {
-      "title": "Brentford v Liverpool: Team news",
+      "title": "Andoni Iraola on Jeremie Frimpong and Dominik Szoboszlai injuries",
       "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSEJYTkFxMzAwWU96S0JXUi1YWlRiNldWOFNROE5VdENQSXRtMDdaV0ZLR191LTl6VDJjUC02Q0Y2enJwVW9xVE5uM0hfWWw0S3hHcndXb2xmOTl4M3dfM19aYXJOYkhkYTRWOVQ2UWxTR0d5QkpTXzNNODJPeTY1QTVnT1psZw?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 15:05:01 GMT",
-      "category": "general"
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSVhEQi1mSmFjWEFvNWRMOS1mc21qX0p5bkxTTk9Ua2o1NDdmTTlyYW5vekJrQ0NST085OUxDOV9iYk1QOWE5eW5wblRoZDh5QXhaMUgxT19DVzB2b3p3allFT1EyOW9FQ2c1WnZ0Z05mU1k1WkFKWVBueGxmYm13cmtwQU5oczF1Y0xoYy1xUFNiT3FOUU83TXlRajJoc0E?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 17:26:15 GMT",
+      "category": "fitness"
     },
     {
-      "title": "Book now: Halloween-themed tours at Anfield for young Reds this half-term",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPX3ZfUUtKZ3ZrTDRFWll3WkpTR2xRUkprVVUxNXVwS0pJdVV4M0JDV3NPeTFGZVN2ckgweUZaRml4VnZWUzNrMWdWVUdCSEpJWHNqTG13UWhnNkNNQ0tQV2ZUcmRzMFM4TkFrSnRwM3ppVERJSUY5LWNVelJQT01ZUnlvb1ZvcDEzUkViUlQtQk9NaldkYXhnblNuSGhJdGJPWkxhN295dFU?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 09:09:07 GMT",
+      "title": "Brentford 1-2 Liverpool: Alexander Isak and Victor Munoz goals give Reds win",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0zYU1yYjR3OEl4Q3Zqay1wcEZQVmhMOEpzQVJOMEV5aU5mcnpzUlVUenZFYjRhM2RGTGk5UjJkSmJUcnR6cVU1Ni1LVlZVbGZZWmo5SWF6ZUpULUZRUVhUdGRDX081UQ?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 03:10:08 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Transfer news LIVE: Shock Arsenal moves; Man Utd double deal; Bellingham agreement",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTHVlMUtFaXR6NEM3RmZ4a21EV3BtbFZ3bzlSdmh4YXROQVoza1JCNjd6X2JPaUFQNVZYaEV5WXM4VEtfWFJYRzd4RE1sTGhxUFNmSHNmVV9ac3BrWmFCNlYzS1FScmJhV1lTak9YSGVZOExMb2FYMC1BTGJxQnpmS01qbldpYUczWERqWkYxMlNkN1hQVEFNLVRVb1VMaHg1N2E4Z0l5OWlpamM4a1JwZ29DRkFlNlB0bWxpbmF2aHVSZURxRG8zby1yeHQtemJZR19F?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 09:15:35 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Jude Law Set To Play Legendary Liverpool Manager Bill Shankly In Series From Jack Thorne",
+      "source": "Deadline",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNamN5QzdDRTg3SXZnaHc4LUNwSEx0TFBIWW5iQ0FwNFM3d3NFLVVUU1pHN2p5MmpiSk9XWGQwV2RKdnRMZGFaYXlZU3VJd0xNUW1BVVRhSlRjNENBMk9PdGI1ZjE0QkEzNEpVUndnTk43X0tWdVhhbGY2X0tyVlZ3VjhEdGFjUFhNQi14NTRUOWpCQWIzeW5aZmtB?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 18:17:00 GMT",
+      "category": "manager"
+    },
+    {
+      "title": "Jude Law To Play Legendary Liverpool FC Manager Bill Shankly In A24 Series From Jack Thorne",
+      "source": "Empire",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX2w4WUFBVTB2emlhS1FaSTdaRG8tZGtGUjdjREc3bkRMLWNBNGtUTXJUc2JtN2hlamEyWXRVbUZzWk9FN0ZTbWxRVWliQ1ZuY1l4bnlEV3B0RWZLR2ZGN3Z3VElyVm9vb05FZUxGcEZDaUhPU2xYeFNoWksxeENVSTAxZ1ZkSTlvX1NYdExIV2NxY1BZeGZONGlleFNnWjduRTlRc1BvUklyX3Y0SFpPYk9UOGRFY0pFek1IQTJZYUhGS2x2cTBuNA?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 19:28:53 GMT",
+      "category": "manager"
+    },
+    {
+      "title": "Jude Law to play legendary Liverpool FC boss Bill Shankly in new TV show",
+      "source": "Liverpool Echo",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZXZ6cFptQ0UtN3JaNWFOUkJFLTF3WnZGaHJpdERWWHJnVjkwdmZKVnRZdDJlUGw0UVJTZ1FNcnRVT2NDWkc3d0I0YkpUWWhtTGRPQUhsTzhfZXp5OUVzOVk0TFhkb3RSMzg3UzYtYmhuTFg0cFJaWlc3Q3JUeEFzTGM1ZURYRVJKZ2Q2UHg1ZzlWS0FRR3ZyTDd30gGfAUFVX3lxTFA0ei1mMUZ5a0tiaTV6eDIwem9rLTRURDFXdHhEZTFydC1HU1kzMU1fVy11Q3pmR09ZaHphdmFFZi1GX3U5YnFVYlZ3dklxQk0wQlh5NEtna1dwcTBTYV9uZE4yNzM1RVBLX3NySEZEUzdTbGVDTWw5bWRvM2RrLWNHRjlPakpTOTBRM2RuWFdRQlVXbW85UzdYLVpGaVVtQQ?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 08:52:00 GMT",
       "category": "general"
     },
     {
       "title": "Alex Scott: Chelsea dealt transfer blow as Liverpool 'move ahead' in pursuit of £100m star",
       "source": "London Evening Standard",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOVE9uZjNZV0N6bTBGZUY4ajlrZHlXOUVtaFloMUVwajY1UjczdkhrdWl6N3ZnUEo2RWd5dTZ5QUxfNGZTUzVMWU56Y25KWjI5Tkx4ejlCUEJzbDJVTUNVQzlpOW5GOEZnbFdMNXJqS3NON0kxazVLNDZmX050ZmJCcnVVTG5DMlQyb2NkaThsbVp1WjF1bUFsVmxyblE?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 09:30:26 GMT",
+      "pubDate": "Sat, 17 Oct 2026 02:36:39 GMT",
       "category": "transfer"
     },
     {
-      "title": "Alex Scott transfer: Liverpool “in the driving seat” – Bournemouth sources",
+      "title": "Sources: Liverpool “ready” to turn to €90m transfer as alternative to Alex Scott",
+      "source": "CaughtOffside",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ0RzTUZLb1FQd01jWmxBZEVZX1NiMHhrcWhoVUd2RHpabmZ3NFB0dkhheXF1VTd2Ul9ZR2hGam1qR1kzalB5SkwzQ2FkeF9DdVQ4cHp6UllSZFZ0TktXbXdhWkR0YlhuY1A4RlRYRGdfWWVvVHYtM2FnZ1cycTRZRlZRb2VUZ1RPYUQwUGpad0lxcnNUVWhnVGF2RnMtVm0w0gGmAUFVX3lxTE9weGItaldIQlROLS1ROXluUHRfaFEtS1pMMlRRNl9RdWR1ZWdEbHRGelZ1ajdqN041Sl8xazFDdFpWYURYdXZGY0V4ZXpoYXZibFo3UkFVSFJUOTdMTDVwRV90RW5QeGFEWjBmWmQ0bEE3bmw5SmYzcFpZdVlYdGI5bXkxY2FPcGpGWWo0ZUQ1cUcwdFBjMkZveFNaQ3N4UjhSekJVdkE?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 10:00:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "New Alex Scott price reported & 4 injury updates – Latest Liverpool FC News",
       "source": "This Is Anfield",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeXktSXNuTTBxajU1MmRhaGtlak9rcHJrSnFjOHRtcDNjVFdqN3hucEJXSnNkdnBOYjBHaTZnN1d1NlpqdGQwelc3c2NTR2xBWEhJb25kVkdFQnJFdHhkY0NYRmdOUVpXNWpXbndFN3k3MVEwQ0J6VmZJZ29tRzgwX0hEb1VRdGswN0wtMU5vVDA3UQ?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 09:56:52 GMT",
-      "category": "transfer"
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMXdiZU1YUHhfNzhKUHhheE1Eam85M3VncFpoMGs2c1RoOEZSSDdRQk9xdXlrM2xGNkQzblVtVk9PbnZqT1lQdzA4STJYY0RGM05VcEQ4NExKa3gwaUwxaHZEeGo4RktRWEN4NVdPSDJaa3pBc2RseDNsYklhZWRVMW9lS19tc1hBaGJGczBaMFZtLVc0UWpKUjBFVmZkNUdVTWtxQXNrMFZnUDRz?oc=5",
+      "pubDate": "Thu, 15 Oct 2026 16:04:28 GMT",
+      "category": "fitness"
     },
     {
-      "title": "Liverpool 'surprise' verdict on signing Alex Scott in January revealed with green light now received",
-      "source": "TEAMtalk",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPYW9xT3NwcDRpYllBZmtOQUZhZHRSaWZMcW9QbGx5TWdLdUhUU3lMV3lCMWt1bnhtODBsYUV5MHFkNFVhSDN4c2x5eEJZaW9pRDkxSmZvTGVpT09tYlpfUmRkcURNc1VwTW5XamRvSDRGbmhEOEhSOWVKMmlURzA5QmptR1Y1SEUzRUl0MDNuT0xWTjdtZkhKWkV6ZUhLUGY3enBtWnNnaWstdGhyXzdBb01DX0cyR3czQ09pSVR6OA?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 07:01:40 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Jude Law to play Liverpool legend Bill Shankly in Adolescence writer's new A24 series",
-      "source": "Empire",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNX2w4WUFBVTB2emlhS1FaSTdaRG8tZGtGUjdjREc3bkRMLWNBNGtUTXJUc2JtN2hlamEyWXRVbUZzWk9FN0ZTbWxRVWliQ1ZuY1l4bnlEV3B0RWZLR2ZGN3Z3VElyVm9vb05FZUxGcEZDaUhPU2xYeFNoWksxeENVSTAxZ1ZkSTlvX1NYdExIV2NxY1BZeGZONGlleFNnWjduRTlRc1BvUklyX3Y0SFpPYk9UOGRFY0pFek1IQTJZYUhGS2x2cTBuNA?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 19:28:53 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Liverpool told to instantly sell one of worst signings in Premier League history - as two clubs identified",
-      "source": "talkSPORT",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOVZXZkdaTm5oYzlBbW5XMGh2RkM2X1M1MUxJS3VjUzZ6YVpCUWttdDZLTGZmLTAyNkswNlg5ai0tWEp5ckEyRHlOMGR4NVhVV3FNeW1KQ2lHQWxCQlhqbjJoRzdVTU9QQXE5Y3NvdklUbTlhQ3N4WU9SOFhITDNxY0lpWXJpeHF2X2NYYW1scmJ1Z2ZuZC04?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 10:53:55 GMT",
-      "category": "general"
-    },
-    {
-      "title": "The brainwave that turned Lewis Koumas into Liverpool’s new striker",
-      "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWllwR2YzOHAzSHlQYlFfaEJQOWZjSDR6cWdMNTdqbGQxeVBTMEp5WEItWDMzSG52aEU1dTZvQnMxcUdzclplTVJYVXhxNDI1SzN6VlI3VTlsTGpHRzJCeFRwVjQxVl9LRHNlN1ZYNmg2WjlKQkZRbjZIZTNYVnpLR1ViVUhGWkpUd1FqS2FRVVdBOVBJRVZjcVBIU0JzMmUtMndhbkV1bW1hNlE?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 16:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "He's arrived, meet Liverpool's sensational new English defender",
+      "title": "Here's here, new-right back coming to Andoni Iraola's Liverpool",
       "source": "AnfieldWatch",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOFp2dTFrRHV5R1FrbTZ5SmllNHduTXRsMWNWSWl3bW5JZENZNUZEaTBhc2pUOURGMS1ncUU4bXcwa0hLU2VsRE91WEdBNzVLVFNXWGdxM2tXMHFaYlJOQjVNLTg4ckdmVmRfT05TdUJBaXRRVUNKdk11RGFfdGR2M1ljTW5wY3dSazBGZ19NM0ZHVVNLNkRsdmoxaWNyQTFDOC1wZ3VLWlB4dw?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 07:00:23 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Liverpool transfer news: Rio Ngumoha 'craves' one guarantee from Reds and Andoni Iraola before signing new contract",
-      "source": "Sports Mole",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQVElhRHVuRU9jb3U3dmJ0cEZPLVJYOGVwRlpxSHlLNXdDX3pLZE9EVEpUTUhXRmcyYWo3cldaWmUtdDBLZXVPTWV5N3NvU2lSVHNlXy1ZakJERFI1Z0hvcHF2azNQVjdJUk5ZQ0ZZZFZCYUxWX1kwYnlKcVFHbmdoSXM0djZwLTVsQWJTajY1Y1prUndBWW83THhTdE5PNFAwTGVKb0hWcGw4Z0hCWkNodU1KMzBZN0NfbTFJVS1paVgwT1lCeDJza1Y0blhoZTNqTUpfdlRRQ0t5VXdVdEpKVmo4UQ?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 23:34:36 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Managing Wrexham as Steven Gerrard replaces Phil Parkinson and 5 Liverpool wonderkids targeted",
-      "source": "Wales Online",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOX2FBZmFlOXBkZy16RWQwbV90TS16dDRnT0pRamE1MENLWFI3bHRQTlFFcDB1RDBXYVhOWWcyMTZuR3NwRmlUenI5cVhGQXNydzR2c1NSLUJzcEtmVkhqVW94YTBTVDN5Yjk4cF9abVJhdUNBNlJCTW9WYXB4bU1jdTdxbUxQRWJyZVF2SVVwN2Z2YnpCRnRfbEtuTVJIM1RFdE5ubnJvTDV1OURT0gGyAUFVX3lxTE9FaTdnYU5ZWGl6MEZqLTVJZkJQd2F2dmhpdEM0aFdtU2VBbkZQaWhrNU5PbmRZYXh3OWNDN05YYUcxNlY4M0N2dGxfRTNHLVNOLUJFazgzcUtscTcxOElkb2xscERSWXZqT2RWTGVvZ0J4cVo3MnRVdXZUbzZ1VWNxWXRISHRlUlRZV2hCcm9ZbU9MRVpsNGZ6ZHFzM1ZVVzBLWGxCVUxyMnF3Q3VfSkVfSUE?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 11:47:25 GMT",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSkNLbEVUMjJkQ3E2bFpPRlVETXpKNk04UEI4RlNYblIyOEdta19fU1hUbi1oLXk4NjVYTV9Bb05SRVdadkNWNUJvekU2dW9WRkNxMy1fcmU3bDBDUDM1M0tLeFgzOWt2eERFRzVOUU94MDhsVkdrTUpwQzNsY1QzMnN3MHVBRGg0ak1QUm1xTFVWTTBWaTFWRmZpYUxPZGtZY1N1Sm5qVl9od2JkMGk0?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 19:00:00 GMT",
       "category": "general"
     },
     {
@@ -87,25 +80,32 @@
       "category": "general"
     },
     {
-      "title": "Liverpool make contact to sign Jules Kounde",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPWDFqdEdWM2FCRzdNN0FXZUFidWZHVi02aHZublA5M0hobVExTlhkWWhxWWNvenFiN0dHVmJIUHppYmxwS0k3dzNCcVhrWGRBUWZ5ZkJUTGVlTExrVDZpb2dQUE8zdkptTFdfOG0xNzk2Y2V6RWpUY1JwY1E1VHdMd2ZR?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 18:27:48 GMT",
+      "title": "Transfer news LIVE: Bayern Munich want Florian Wirtz as Man Utd consider Martínez future",
+      "source": "Transfermarkt",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPaTdIMWFJOVNNZWJuNS1ndjZwc1FQN0l5c0sweTk4Yk9mVjN3SFV5R0VKS2dOdWV5NFlHUVJzR2hfZl9zeWZDaVNOQUhNRXJ5anViclN2aTduQ0R3ZlN4N096ZThOWXlHUHJtQmtzUzFXanJDanNBNExSaGtnbU41Z09DUWZlN2R1MFhMX3ZxbW5YcHcxWkVMZXVqbDRuZGtpbTMxZVBIYXFOaWU1YmVaM1BCV0VhZUFxUmp5bS1aLTJZNHM?oc=5",
+      "pubDate": "Wed, 14 Oct 2026 07:00:00 GMT",
       "category": "transfer"
     },
     {
-      "title": "Liverpool line-ups vs Brentford as Florian Wirtz and Rio Ngumoha decisions made",
-      "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQU9aNkczUmt5M1QzN3NjamlMcjVQSDVUNzRZQ3dMN2F4T1NjNG9mV3dYQkYtc3R4cGstaEh6eGF0T21oU0p6RDZ2a3lhQ2ZkdGFSRFJ4dk1ZR0cyZ3BUd2Q4aS1sV3FCZmRoU0E0N2tzXzJDRlJFbm1yWndBVGFZYjFxRnNYYUhYOWdaSENpMmxlOURGZTV1bGFOQ2hFN2dsYkNZ0gGoAUFVX3lxTFB5TmlRWFJuek53OEFpUFRfRWRRckR2bkhPT0lyMHNOOTFzMlVSQkQwRkJDX1FPTmdveHIyc0RQWDMzNjNpam96RW1QQVFfQm5hUnBpZ0c0cU9JRy11QjJvTE9PV3A1enFTODJFeFNwTlVRLUpjYXFvR1dJOXNFZldxeDBXV3Rwal94QlBmN0RSU1d1RjdEVlR2d2FBQmVWQ0xkSm5iSWZLYw?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 05:00:00 GMT",
+      "title": "Reaction: Sepp van den Berg on Liverpool defeat",
+      "source": "Brentford FC",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeU1uTXU5dGptU0RKNzFibG5fZGpLTGVzODQ2bTlRSDVDemJEYngzZFhvZTJvZnhwaVYzS2NMSVNHNG5KSjFqREt2dE1ZVC1TbFNzUmlFazJpZWpucXVZczVuLU1lb01Yd2d5WEJNVndXVXMyRlRsSzdjeEMwUzVCbFFrZnl0U1k0bFhSTVI2ek1HSDFBWGc?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 18:03:55 GMT",
       "category": "match"
     },
     {
-      "title": "Liverpool XI vs Brentford: Confirmed team news, predicted lineup and injury latest for Premier League",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQU3Z6bk5qTmlwMjJCQkppYUkxd3hBS2lCN21nd3piZnM1a295djYtbGNxZ3Z4Wm1WU1lsYUt6NEtEczVzVDdkcWVJWnlMeldZQ2kzbHVwYlFhNlozM25QTXY3ZXlNTHFvQ3dsaVdsWG1ZNFkxMWV5Z3l4eFUxenZHdTBaYmhTNVhIQkVRWHNxd0RWcWdXTGJBbUdoX1JvY1l0OEVQU2JQaU83eTJiNGJfS3FfTEczRmU2RlllTEpGazZySlQ5OTdmX0ItcjNWWTVxYjNPQnhTTWZvcEotR1lHOG5OY1NkSnFhX1Y4?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 02:39:03 GMT",
-      "category": "fitness"
+      "title": "Liverpool FC vs Atlético Madrid live score, H2H and lineups",
+      "source": "Sofascore",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNam5yWnNKUi1GR3BRaS1VOF9TTmQ1NGlYRkdWVll4Q1h2NXd4el91LXZObDdmNEFZVFMxY1VWeENfc3hFdTUyeWxmTHVMQ1c4amNXVmhHRDljZDV6NVlsNTFyVlgzb1ZSa0N0cm1saFBqNFhhYkhVM1M2ZDRZdEJPdw?oc=5",
+      "pubDate": "Wed, 09 Sep 2026 07:00:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Team news: Confirmed Liverpool line-up v Brentford",
+      "source": "Liverpool FC",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMHYxQlN6cW9hNThxX2JkX0FvYjZHekZJNm00czFFZVFpeFpsaVhQalBHOFh4d3ZvMzJnTXJiUzZjUEhCN2xxc3E4RHlrUXpIQWdQSkNYZE91LWFpQ3dJbEFUYjdEWjZzUFJ6ZExkNEZzRF9uWW0zYUZ5XzYydGNBN1JRSGptMUx2OFE?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 18:45:00 GMT",
+      "category": "general"
     }
   ],
   "reddit": []

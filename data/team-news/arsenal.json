@@ -1,12 +1,68 @@
 {
   "slug": "arsenal",
-  "updated": "2026-10-17T09:54:58.035Z",
+  "updated": "2026-10-17T19:56:14.901Z",
   "articles": [
     {
-      "title": "Transfer news LIVE: Shock Arsenal moves; Man Utd double deal; Bellingham agreement",
+      "title": "Transfer news LIVE: Shock Arsenal targets; Man Utd double deal",
       "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTHVlMUtFaXR6NEM3RmZ4a21EV3BtbFZ3bzlSdmh4YXROQVoza1JCNjd6X2JPaUFQNVZYaEV5WXM4VEtfWFJYRzd4RE1sTGhxUFNmSHNmVV9ac3BrWmFCNlYzS1FScmJhV1lTak9YSGVZOExMb2FYMC1BTGJxQnpmS01qbldpYUczWERqWkYxMlNkN1hQVEFNLVRVb1VMaHg1N2E4Z0l5OWlpamM4a1JwZ29DRkFlNlB0bWxpbmF2aHVSZURxRG8zby1yeHQtemJZR19F?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 06:11:08 GMT",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSmVRU21IZ1dzQ1pTZWlqalE2cVh5X2NEekR6Smp5cEMwZkFLNmJ5UnJEcWxyOUNfYnVCaE1aUEdQN1dlT2Q1TUhxVTdRb0gyaXh5MllyeGh0ZlBZN3JUMFBiRko1dFJlMEJaZDZjejRNS1JPLUVreHRUcGZMRFktVm5aQWdWT0Fxb2VaWWpYV19pM1k3SDJfd3lYNHMwZDNyVlpuek1IUVBOT2swaHE3WkxiZlVUR183V0NkR2VIaU1WX21CNWRqaHlPZVg?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 12:09:35 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "U18s report: Arsenal 2-1 Tottenham Hotspur",
+      "source": "Arsenal.com",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMjB0VEVqUmNtNWRZQWxhdkhkMmhheFBVaTlKWmJHR3BYRVFBX1VLRi1Bdk9NZlkxV1pGbFdfLWNFUzA2ZGw3Ynphd1hsNi1ldmxjbmdJYVNYOFIxdFJnZkgtQWc3bTJnc0ktbW51UHhxcWx3X1Zzc0NCLWVEajhzUl9BR2Y5R2xXMWpN?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 11:46:33 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Viktor Gyokeres 'makes decision' on Arsenal future after summer transfer activity",
+      "source": "Football London",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPS19ZeTd5UC1RTUFnZ1NEWFFwVDdVZHVwTlQ0MUdNQ1lacHRiaVktTEVxbHduSVlXQ1NkeURtSGhEYk5kSkVnbWdoX1BzNl9OSFU0VEUyM1l4Um40TmhVU1BhQXBUbmxXTFBHTEw3M0pDejN4TnZWeGFMVXItS3R2UFU2OW5HN3RBbmFJTHpSX1FiUXQxcDBMRjZ4cDlOZlh4RTBGTNIBqgFBVV95cUxNOUR3b3QxWl9TMFRtZXJDRjIwVHV2Y3Z2X3NKWnJKd1lJelRTbGJPdjNpa0ZQdXpFdVNQalFTeEtqajRJYjA3MV84VXpBMkd0V1RmT0FMMXpuai1UYno3U2M5Sk4yMExkM193Z1NqRnBxVEdNRUNfU1ZXYTFWUWEtVmpWV1VOOVNvdWV4NVhKd0hzaTFZY0VKSWZHSG9fVDNBQ280UG5ZUnJhQQ?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 16:58:54 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Preview: Nottingham Forest v Arsenal",
+      "source": "Arsenal.com",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPb2VYSnBNVFU4NWF1WVBQWVdtY3dNamFLeklJdmdYUHA4MVZzY1QzY3BSY0NkenFEd1MyYWxReVZocUZ2N1Etek5FRHdwOEZJZkdzOUtzZzhWcW92OENHNlFLQ29keUg0bjhSbEFSb1Y3UFVhZ05SNWM1TFlTVFU0b0ZYcw?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 05:03:23 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Arsenal line-ups for Nottingham Forest as Gyokeres snubbed and Guimaraes agreement reached",
+      "source": "Football London",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPb20xVGRQZkFDYVM4dkxESXVKUXg1VDNONUlIMXpPODdrTjR5b3ZzVXZzclB0RFpTSVd5MUk4clFqLVp2Ty1XQVlJTUtRRTNlcmM3d2NESVJ1cktPYUZldklPMWoxdUM3TFhWZFE4TTZsV2pZUGdKSnUxLVg4REQ3SFhXazR1U0JkUllEVjZDVjfSAZYBQVVfeXFMT2pBS1RkSFJSdjlWUWlDZExDT0ZJd1lQLXh5UzUzNXlXWUhjcENtNWUyYUJzeXl0MmlCdG9KNlJhdHFyMWRBY3RlYmU4aWRYOTFaQ1VoTkVjWkdIam9kVks5bDZYZHJlMnNGN1NRMjNVLW1Dal96eHVjRHNjc1dfQXJoVlJKLXhWdjROTFNSb1AxdDNJUnpn?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 06:16:18 GMT",
+      "category": "general"
+    },
+    {
+      "title": "34 photos from training ahead of Forest trip",
+      "source": "Arsenal.com",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQY0ZGWjZycFE2STEwTHVJeERoQm9DRmR1YmFmMUZKNUJOSkN0elA4bTF5cmQ1VmpBdnB0b0doVFZwSDEwRmx4SHJlZnVIUTlKY3lEdVZ1aHJFZ0hUYXU0Q3RhODhVa25Vb3NMLVJtUG9lMTZuRk51ZWxzdjk3ai1ndWk4el9Tc3o4NlkxZU0xVQ?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 16:29:48 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Smith scores stunner against Blues",
+      "source": "Arsenal.com",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTkVCVlZsZzFjNFBkYVdtNURNV05LV2NXRS1oTi0wbzRkSGJzcEdQTzFleDFHWHdHLUlTYXE4WTJOaUZSUW1oRzFHclk3RktHNnVZeTlrRXhPd0ZzelJta0MzTXdpUERzMjUzd3llQjlBWnN3OTE1YUF6M2ZiN3g2U181MA?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 17:46:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Boos for Arsenal as draw with Birmingham extends winless WSL run",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNHF6QXFEd3Z2TzY2b2pYcVNnZGZxUUJsQnBEeUhUcDM2NlFWQmNVZElEcm5SVVh0VWFBeFMxcmFQUFBscE1WaGFlNkFacVc5ZnZLSXY1a0dwVTZBQ3ZHSlFlV21EVUFsOUxBVFNnTzVFLVRyc09ocjRtSExIOXQzeHRxZmtYbGpUcmZzag?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 11:45:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Arsenal latest: Transfer target 'identified' as Gunners release William Saliba statement",
+      "source": "Football London",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNnpCcmVQLVNjZFJDZ1JOTTIyUTRpaFpsYS1VcHh6Y3lIZU9YZWJlR3Q2NFF4SkJWajBJQnNBcE1XYmZYQnVQS1ZVa1luRFJUZWh5QVJGcGxDUmx6T0NlSTNvVDUxak9PTlFGcWtxSnpwWWJURFBHSHU0WE9JZmh2RklKSmxuN0UyeUNka3cteDJtUEwxckVtNEVR0gGfAUFVX3lxTE0zYUdvZnBmdDF5QXNOcjJEbGdXTlg3a0RjRURhdnpMUlV4TS12VEhYNXlORHNuZTYyR1NHbk1UY1lPMm5ZcnN0NFp0VzNRQ2xCdExObVM1NFdoNW1lOTMtVi1IX3RqMzlrTG9US0xkYU9jMkE2ODl4ZGlrVlNMNVNlLXdZeEItUU5QSlZGdThfOHF4OElCVEdWZ2ROSUxMcw?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 04:01:28 GMT",
       "category": "transfer"
     },
     {
@@ -17,95 +73,39 @@
       "category": "general"
     },
     {
-      "title": "Mikel Arteta responds to William Saliba 'unhappiness' after Arsenal squad photo snub",
-      "source": "Football London",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNd3J0dzhKWTRyODcwWmgyM21TcUhOUnFvLVlhRVZWeDM1bzJ1dmp2R05ZVXgtc0FkTDZLVm55VkRKTkpveXNkLTROd2RKUFl5cU1JQnhzakVpYUNTOVlTTVRBVDJCMnNfd3BJQzRYTS1nc09iZmp6N3pTai1NcjRHTUtSS1htMjFmRnBFMUVBUnBhQdIBlwFBVV95cUxQdkl0a0VLcFV1emQ3TnIzbGNJcUJvUWt4OFlWUjlGdERiMlVPMGVxNWRUbHZPbnhpTVN6TXE2cnFDT25yM2lVWnVXcnZtdUZVbW9YUjlqUjBxSWdpdzVMTXp1YkVzN0c3TXFDSkpLZm9vNWZuaUJGSENTNERVazF4RXlmSGxVMGlrSG1qZ3hrcUFlQjVWRVMw?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 14:09:28 GMT",
+      "title": "Saliba, Palmer & Haaland included in Premier League most valuable XI worth over €1b",
+      "source": "Transfermarkt",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWXFOM1NZTExpMy0zZmpFWVBjRUhGVDRORzZOY25Jc2lyT01xNnUyWG1WYm9QQ2pSTEFlT0FyU3VJdHFiWDZ5UHJULU00aHlvN1V4UlJxZFpZS1NxWjRjUDhXRURweE1WQmVSaUJTckpNUUE0ZXRVdmRvZVZGaDBkUTJRNXdvbldCcFI5c3JjbjkzQkpMbGFNTzNVMllaeEFMU3RNb09nc0IweDJTdTJXYmVkV2ZIUHl6d2ZVSUNXY2hhaThHQXoxR3lQWnlwOENTMzhn?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 08:00:00 GMT",
       "category": "general"
+    },
+    {
+      "title": "'He saved my life' - Paul Merson pays tribute to 'Mr Arsenal'",
+      "source": "Irish Examiner",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9RR0NySm9jLXFESmp1N25IQ25BZERsWldqSUdmcjh2dmZGbjQxTFctejVrNlM2dmZrRkVtQ0c0YzlFX01HVTFacmlHRmx3X2hnZlNjWDQzb2dXaUtPZnhsU0VQbEJyRnhHdXY0RDl3?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 11:40:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Man City's alternate universe: Guardiola, Haaland to Arsenal? Arteta to PSG?",
+      "source": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUUpndmJDSnRBcmcwUDJzeEs0UEt1RmZTYkhTTFdzNVh4LWJTWkJXWU04Z3o3bFYwbExXeFpURU5fUFRMMTFVeVNxU3k1OUNiR1M2bXJqbTIwUllJa2JQVDcxTDQtWF9VUTEyUUF3TXk2RUxOLXpTODYtM25ZNnJSUFN1UEZJUWhYWjFZVDljYlg5d0stUWRPTTM4YWhWV0ZaaWZBWVRYZ3JuTHBUTlBQXzNEZ1hxbmo5a1FodUQ0RU5ucDFZblYtZzZIS0lPQ1NWdjFrZV9XTQ?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 07:49:45 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Mikel Arteta told to sign Man City star in January to replace two Arsenal players",
+      "source": "Metro.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYTVHUUViNWNteENzQTJISFpGNjJwVll2SFlnSzZhbDBUU1piLTYtLV8wNlJlcHVZWXI1U0VhQzBIb2JYUkgyd3ptSnRfSUpwTkRZb3BfeGl4UDhwXy1iNkFVeUdxeFB3MzNpQlU1N2NJT0hNSDFBallSRzgyMEFLaUxPN1A5UTNJZjB5QnpUWTdFNmdlLTh4eVdLTlFhN2xaYWJqdGRYLTFNLU5RQnRoRkNCZ9IBuAFBVV95cUxOZEhQeGp6NFhIZHZsb0NmVTNqRUE5a0p4S3AwbS12c19iZVR1Q2VxT00xTzBtQjlrakliM1dVTTNNdGxyRVVzdmdSTXM0aGwwWEt0VHNKcXNfb1RhbUtmcWQ5ZzctRVNINXdhbUNGcHFEUzRfbXl3cFZKQmhZenZKVmN1M2EtRnNySlJpLUZ2RFNjOWRhRG12TFhmdGJrZjNpSWJPZlZ0X1dxNEpWRHZLaWs0UFJoYnhO?oc=5",
+      "pubDate": "Fri, 16 Oct 2026 21:23:00 GMT",
+      "category": "transfer"
     },
     {
       "title": "Arsenal XI vs Nottingham Forest: Predicted lineup and confirmed team news",
       "source": "London Evening Standard",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNczI2OUdLb1EwLWJLdDVGVUs3dTV4eENlLWxiRVZ3TVFDSVJLam1jNGxEQVgtNXhIS3phc0wtLWhycm5vbTI2UzlSeTJhWHgyWGpEWjI2bUstZWRCY3pSVlREQXg2YlN1Wmk5SDZxaUhiSUpMMnF1bmFFeDBoMjZFdlVSUGlEWVdRYUFLeXdNUDdZLXF0cVVXcG5EdnQwQ2F2NUVGbFVqOE94SUFQSkNTSHFjUFY3NUR0b1NHMUJvMHVXU0NsdTVfVkNHSjJBdDk0dXIzUzVsYmFHSXFfZ0hmM3N5R0Y5MUdTS1ZSMFIzLXhyRW8?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 07:45:23 GMT",
+      "pubDate": "Sat, 17 Oct 2026 17:30:18 GMT",
       "category": "match"
-    },
-    {
-      "title": "Read Renée's Birmingham City programme notes",
-      "source": "Arsenal.com",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYXQ4MlVHeU03TlJHcEIzU3U5UnVMaVh4ZDY3TjlZdnVxenN1Y3Q1R2wxdWVxTGtVMXRUMUI5YnRfUnpWYTlEWnQtZ3V0ejVDM1RmTjhIUzB4Q2owWDFxajlDR1dlNXpsZDdXbkltSExqQkJEenVSMzhNQ3pHOE1QME80ZHVhN3o2SmxDS09n?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 09:03:55 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Nico Williams' agent confirms Arsenal transfer interest and why he didn't leave Athletic Bilbao",
-      "source": "Football London",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQb1dySTBReUlSbUNaN3dWdGFESGg3QmVjZ2ZmanVJYllRZ0ZuTDRVMEtWdW8wakVwZXVESm9NSndkdVVhR21KUm8tMlZUMGpGZ1E0UWtSUGN3aU12YzFpYjJsMDVUSkd2WHBSUDlEcU1oeW96eWV6eGo2VElOT1ZFdjZoRjBrZkV6ZjhhTVVsU2FWbVJEbnlPZ0JqZF9XQXfSAaQBQVVfeXFMTkFCZGh0Q21SOXZUdzk5SEJqU1R5SEVlUTNobmRWWVQ2WXRpbFdVeVl5QldGNlhtcUJhdkw2MVVQNHM5VVBpYUpjd19wZ2pDVUE3VVhrWE9JeVlFT0l6QUVMNTVJQTV0ZUpOQ1dFZ2dsd0pzYy12czdoZTRndUY5TDNlOVFGMjlJbm5RamhYenlXeS04OHpuM3VNVnZlSlJNRlpiUG8?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 08:15:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Arsenal react to huge Julian Alvarez transfer news after claims of overtaking Barcelona",
-      "source": "Football365",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUXpWeVhRY0c0YlpsZzRkZkc1bjYycU55N1N6UW5OcW5panZHNE1sZ1FkWWFkYlNzT01UVUJ0a01SSUhLNnlyLXpOdElDZGExWjVFdFM2WWpVdTM1aC0wcnItdkxjaFJ4dFFzemxtNkVvRlNGalNZLUxZVDZfSEJCSU5Rbzg3b3FjUW5kWVF2a1ZWUlpj?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 07:20:46 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Arsenal news: Real Madrid deal transfer blow as secret meeting comes to light",
-      "source": "The Mirror",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaWs5RG50S2xsblVVbW9VTmlBRkt5RVkzNW9zR2dsdnNBZEJkMFlxMF9QU0ZRUWc4TmtzYUZ4NnYwU1huNldMb1BFXzl0MkJGX3VsZ1FKRThIT0tZbW1MQzBkbkNMNmFlY2ttcWxRT1VGR1hLakpkN1RqZ045SWRLZjhGX2Q4WUlUc3p0N1lHQWFLZ9IBlwFBVV95cUxQa2VYTXNNSmZzTmdQXzFnRk1RZnIteTB0akFMZUppcVFMWDhKbHhiNGJ5SVFfTkwtemJJVk5DR3ZYaVpnT3NnZl9mSXJUcFNHbWRoOWlPV0pQTU02SkhEOFl5MTE2UHZqN0syZkpaN0RNMDdGRUExdnluN0pXUlpIYUF1QXdwcnZSR0xxbEJmaDFEX1REMHFZ?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 03:00:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Arsenal, Boston Consulting Group and redundancies",
-      "source": "The Mag",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNY2tMUkdjWVhRaUZlQV9DODVxZVVvcWR1NDdhcE1mYWpSbzkwTEx6RkV3NThTdkNrZ1FucmkxMU5lOVJzRHBaSVJ6aFBkR1RjSEV0Q3h0YUd4Q2IxanNpcDFzcmdOS0t5QWhLZnBYOFFjUmlyYnlpaUUwY1h1U3g1eWVHaWI3a0p6TEE?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 17:58:06 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Brighton 3-0 Arsenal: Seagulls soar to end Gunners’ nine-match Premier League winning streak",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1qc3dETEM3SEd0dUdOUmFmMHYtaXlsZENHTFdVZ2dkUkFyX1ZrZC1HcVFvdWpUTVkwSWUzMlQxbk1nb3MyZzZzc3VCcHhjVG1MWTlnN3ZyY0lQSkRvbHg0cG50UVhuZw?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 07:00:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Calafiori: Arsenal title win ‘the best day of my life’ but some players wanted to skip parade",
-      "source": "Football Italia",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBsOGhEcjFQd3JVbkl3cl8yc3BsWFptUjkyZGlVUnlXdTVTOFpETFRUYUtUemdWOGVkV212WnY4RHotZV8wOXQ2QU9CeUpPSVhUQTIzODlTaHF5SVU2b2cyTTlsZEk2ekZsZ3F3Vy1sZHJfQ0Jsa2J5THVud2EtQdIBgwFBVV95cUxOYVJRNFVtSU8xUk1kQnNJaFdiQ3lfSzJzSzBSdkw5V1g3a05BbUVvYmhzWFgydWY4cjFkM1FLdUFXdC12b0E0TGxsdE5rSFppVmh1RGNielVkcmlrc2lDaWpoaGE3N3RqVzdjcVQ3cFZPVXhvdFp6d0xWb3MyZmFaQ2dqdw?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 08:59:21 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Liverpool and Arsenal consider January move for £60m-rated attacker after strong start",
-      "source": "CaughtOffside",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPX1Y4eWhjMkEzYnJHaVd0TEpfOWlkRkZYNXpjSTZ5eHlGdDJQX0NkUkFVLTBVdjJ6ZDVKdER1cE04R2lBQWNlYUlScE1iNU53eWZKajhvWmFyc2U4WFZlZFdNWUx2R0JlRGRnZWN6RlFBcEtKM096T1h2R2F5RVlVOF9tdGMteTR0R1AyODhfLXpkLW9ENldNdVJXM1FwbUxRUmpWd2JzVXFFMlhBNUwtZDk2ZGFCWjdNNmVRSlFZNkNxbFVfeVHSAcsBQVVfeXFMTk9xdVVOS0RmMEQ0Zkd6eUMzT1JyakQ1Qm96bkVDQTBfNlo3UzFiUDZPVjBWZTVFa2VDc0JBZndEamNRZGxKN3NhSEhQUml0UEpXaVZqSzlvbnF0YjJYVjVxT1VsYkluM2t6ZW41QVBfRG5VMHhMYi0wVWswVWlTU0JpUlZINndHSGpuMGVweG5zSXZmUENJd0tJSzMzU2tCYlE5Vi1ldzRSOWU3WkJ0NkN2V1dTTm5jN0EyVENBSExuU2tITXZSaWtUdjQ?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 15:27:17 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Konsa joins Arsenal; Shakhtar to play European home games at Chelsea: football news – as it happened",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxORGVpUnJOUmVwckktamZwZXBjRl9vRTZibGhVTmZ1YlNqSERUUWZ1UWhzM3RQdmtNSXBrU0N6NXZ2Zi1XSG1qRVVVMExYNzVvMHJrR1JCejBWWW1vMGFDMW5ZdW1lSVVudldYNFhwdlVVR29QVS1yZUJsWmNEcFlQR0R2VGQyRHZNQlc3ZVFRcGFZNjdYcXFoeFZ3dldiU1Z6QXFDMjNuSTBQSm9taDhKdXBIODdLUm5Dd2VZQzRnejZBZ2h4dnFFaEtHQTBMYVp2VkZJ?oc=5",
-      "pubDate": "Fri, 21 Aug 2026 07:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Arsenal star Mikel Merino 'lucky to be alive' after cheating death in terrifying attack",
-      "source": "Daily Express",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNb1FPRmo5OGl6TWZGd1I0RDA3UnI1N3ltd0txazJNanJaZ2NMOHFwcU1QSXh1TEY1NzdQS1UxLVJOQ0Vtc2JfRDAxRmlfekJySVNEX1dUWHdsRzM5V0VYWHBHbUFHREVyRHpQNk9SQUpneU5lUURYbWVNNnc3TWdUdU9meXdZeFlmWWtLYnNPYjDSAZYBQVVfeXFMTVFFd1ZUVmwxWE5XdXB5bkR4QWVTT1lUTG9ETzVTN3NQU0JIYy1YYXVPV3pvcjZkUWdpOHhxOWliSjhPSVl0WHFZa3RvUW9pQWltZ0VDLXFFSHNuTkUwM3pGaE9GaE5Ja3QwUWJ5cWhzUS1GR3dYMmhiZnBlaWpHYVpHeG95UmU5aVNxR0ozajFXU1BOSnBR?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 12:03:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Arsenal line-ups for Nottingham Forest as Gyokeres snubbed and Guimaraes agreement reached",
-      "source": "Football London",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPb20xVGRQZkFDYVM4dkxESXVKUXg1VDNONUlIMXpPODdrTjR5b3ZzVXZzclB0RFpTSVd5MUk4clFqLVp2Ty1XQVlJTUtRRTNlcmM3d2NESVJ1cktPYUZldklPMWoxdUM3TFhWZFE4TTZsV2pZUGdKSnUxLVg4REQ3SFhXazR1U0JkUllEVjZDVjfSAZYBQVVfeXFMT2pBS1RkSFJSdjlWUWlDZExDT0ZJd1lQLXh5UzUzNXlXWUhjcENtNWUyYUJzeXl0MmlCdG9KNlJhdHFyMWRBY3RlYmU4aWRYOTFaQ1VoTkVjWkdIam9kVks5bDZYZHJlMnNGN1NRMjNVLW1Dal96eHVjRHNjc1dfQXJoVlJKLXhWdjROTFNSb1AxdDNJUnpn?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 06:16:18 GMT",
-      "category": "general"
     }
   ],
   "reddit": []
