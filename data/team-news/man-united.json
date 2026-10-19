@@ -1,82 +1,12 @@
 {
   "slug": "man-united",
-  "updated": "2026-10-18T19:56:06.461Z",
+  "updated": "2026-10-19T11:37:59.217Z",
   "articles": [
     {
       "title": "Leeds United 1-1 Manchester United: Premier League – as it happened",
       "source": "The Guardian",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUTRweXhvMDV0Y2s5eHdneDFCM3VuV1FfRnlPd0hzTl9WTUZjU3JCeU1tWDIyYklsSkY4clVIUFlLWWV0ajMzeVEzZ0dHQTRHaURPRFJJTG9jQndDdnJWLThiTnlMdmFOX1lFMWJmaWltakI2T2liQTd1MU5nMHctYUNHOE12RmpfSGtYMlJXQlNoeUNhSGRkTmN3Zk5jbzg2?oc=5",
       "pubDate": "Sun, 18 Oct 2026 13:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Man Utd: WSL winning run continues against sorry Charlton as Ella Toone scores",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1aRkdLVWxQMDV0bUtXVGxIcWJLSjB3Q1oyazRSejhQejRvNnhUVHVkY2J6YXVhcHBPZjY3SnZZcG5zWUZPbVdqUnU0UnNOb0tZa1k1TklSdkxTaml4ZEowYmJ1ZlVXUQ?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 15:21:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Line-ups confirmed: Leeds v United",
-      "source": "Manchester United",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX0NRTmdFclMyWHRiNlRvNi1jQlAzMjAzZ0VvdzdzOE1PT1pPbUFiTHdnVGkxcnIybzlSaFdTQVpSal95TVI2ZkZTUG45d3hOanVtVmotVk42WWEzdVV0dmJKcVZBZlY4WlJNd0hmSlNsTkV1VGhFV0hyYkNHSy1xRUpB?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 03:05:16 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Man Utd transfer news: Michael Carrick opens door to January signings ahead of planned defensive rebuild",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNZXAxZURQbHBOVXpleFpkRUNYdFEtWmJ5d0dmcl9KSEZJbVFMR09iM1UtQVhaRzFsUEdnTW14QWVvNnNlT2ptLXVjQlNXMkF5TTJMWHBJSnJtTjBLUVJmYlVmdnp3Q0EzeFJmbjRnUThtd3pUX05MOURhcjBGN0s1cU0telRNdUlVejdQaUVvT3AyMlJBRXM2MWhGdnZEZVRxeVlRNS1BZUxDVzRUbnR3Nmw0UnJOSmNia2FiM3NFOTZBTDBPN1lsZEw4cGxvaHYxNThKMlNHcndiN3RMYzBzU0xJQjV3VlU?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 19:32:02 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Daniel Farke names his team to face rivals Manchester United - Leeds United | Official Website",
-      "source": "Leeds United | Official Website - Leeds United",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZk0zdEJUS0JNdTRxck14VkljcGZXYzRzbkZ1ZVlRZldNVEhKUDJuLTg5cWdBV19Hc1h6WmV1NGwxOFNNTXlwSnFhLXA3V1p2d05NTWJ4Z2w2UGZqaDBTNFg3UHRvbmxCUlkyX0Q5U2tyLUFYU1RKZFVuUjY4b29oUHNQSmpxNjBBWXZacm5IaVZmQUhaRmJtc25KOGE?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 11:50:14 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Leeds vs Man Utd player ratings: Dominic Calvert-Lewin denies Man Utd - who rated highest?",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1mRERGeXNOZjJLVEs5empsWkd6XzNYVDJUamJKb20wanFyT2NqM1JMcElQSWhyZUxUTm12dVFtOFlSVjFyS2JNMzZnOU9vQl8yQzA4LWFFbGVldmJGTHZicHhCMFVkelpxdmVr?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 14:56:01 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Leeds 1-1 Manchester United | Premier League highlights",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYkhzclFTTjNMX2dzc2NUM1BFNjlSU1Z0OWROVU9veW9JMGJXby1iZ0dQTERSenlTVXNjRlBHaFhUX1lYTjltYTIxYWl4anotdTBJMTBIX2dzQ0ZZdzgxVXhGaHFPbnAwRk9mbUttdk1ocVNtblJRbDYyMTZFR1FwZmhCV0dTWTZXVFdTZDRKZC0tYWlCZFRGVVpxLW9qVVVkQ3BDc01n?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 15:08:21 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Carrick: This cannot exist in our changing room",
-      "source": "Manchester United",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcWtSR1dTU3AtU2o5bHRCS3B5R25CZHJLVnJyWDFXc2pyNG84Q1dWVm5YMk0wZTlYbkZacHZMUWszR09mWGJGRV9KS2xzZGk2Y0FqV0FrYU5Rb0Z6R0x0Y1ZzTzRwcl9Yd1RCdTcwVXpzQW9zcTNsR29Ya2I5RDZIcXdiYw?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 19:08:47 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Can Michael Carrick and his headphones silence the noise around Man Utd?",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5xWnA1VDBUYXdNN1pkaUFSc00wbVJyVmppbVVqM2FGVDJhTXZ6amR0YnEzQnBETzRiWUdIR2kxMkhzc3RfUHdCbmJ6MkRKRHBwLWNQQ2ZrU0I3VmltMXVoczZCMEx6aW1sc1Zr?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 17:24:45 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Bryan Mbeumo guides in opener for Man Utd.",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOM2RwempCdVBDYW9tWC1HUXpoMjBzZVdKM1N5V2FWYUxWT2Z2TUIyTzZ4cVdSNGp4ZmNwOGpCQ0JwLU83bjdidzFIVExXaWhCM1ZlamlWQXdZc25oZjBmbnVIb0sxdUd1NzdCT0d1cUFtR3phcmpKSHItSjBSWm1fZ0hJTEZ0WnRrRElDZkZYRTJhMG1zNkE?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 13:45:15 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Team news for Leeds away",
-      "source": "Manchester United",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOem1RV1ZPZXBnb1d1TzROckM2TXRMYzlTWGM0Ul80eDBzT2xaSmRJT3ZFc2NtWmI2cFFianpqdzMteGhCemhmSV9IUkFHMTExNEFQWDBiZDlOQzA2ajhUVThHUDRqRHZ1WGV6SENpS0IxRnA5dlU2M3RGaE9jYUJLRg?oc=5",
-      "pubDate": "Fri, 16 Oct 2026 12:58:24 GMT",
       "category": "general"
     },
     {
@@ -87,24 +17,94 @@
       "category": "general"
     },
     {
-      "title": "Leeds 1-1 Man Utd - recap & highlights",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNTZZNG1XdjczMDJGbUFFVUdqNUc4RjM3UVBWUEtYVjRka2Zjek9Nc2EzY3VqMVYyU1EzaFRkMllGVHlfVU9ZWUhKaERNR0dGRy02clN4WkdzN0FncmpWaDFuaFZBZXp0Ri1PdlZPaFIwR0lxVFRia3BKMXg0Rng2a2tETTJLcWt0NlZZTVFrSWM1aFg3c1pMZzFXY3hNRDFPbmVyd3ExTDlib01yaEFJTnZCd0tNd19CR0lN?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 11:46:21 GMT",
+      "title": "Gary Neville thinks Man Utd dressing room have 'definitely had a tear up'",
+      "source": "The Mirror",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcnVLa0gxczdhVXJURzNGemxadFB0T01UR0ZjV3loZ283SjZXX21nZHRtT1RzTEFRaE1HRTNQZ2FacDNVUzJhTTVVYkliSUxLdWtNaW92TmxpVmNVTWZ0YldUcXk2bUdlOFU1TFZaN01RSy0yVTFJSWVsUXlGck8yNmF3MHotNU9zM01Z0gGQAUFVX3lxTE9pVGR3LVEyemc3bThXaXVzMTNrd25TdjdEcllLWDdHekFERGNuNUw5clpRdE1hMFo1WWhjZENuYkRKRzZQdVBTYUV6RzRrbHFiU3RTNVMwX2FhandRYTNpUmNsdml0NTlwNW9iOU5rWnpmOGlieVloTmUydzlGUTNRY2V2NldXU2lRVGtZZDhqRA?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 07:11:00 GMT",
       "category": "general"
     },
     {
-      "title": "Leeds United vs Man Utd: How to watch, TV channel, live stream, NOW TV, team news and score prediction",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOdnE5UG9OMG10NGNfVTh4NGJuV28xRFdkdWVORjU3blZUOFo3QWZ4OGtsYlFBSXJ2QXVSTGxHNTRtTHhDM0xqdGFoT0UydFZfQlBuM3NvQjZDNy1Fa2xxOGU4SGg5OFEyR3h1djY2RUMwckg5cWdMVGFZVWEzNkZjVWR4TEF5RjlEanBIVkstdzRNdUp3R1M1N1hudHlrNGZXOFZBRzBhM1Rpc3VBOHRWenByRXB3MFRIODJtb1B5SGlYUVVFSTBtMzh1eFYyYmpQcVlPWHBsSGxSendXOTc0?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 06:03:11 GMT",
+      "title": "Man United must play new man as striker after Bruno Fernandes experiment fails",
+      "source": "talkSPORT",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaDhndnpMZVNTclhkazR2a1dBdjF6NGFTWXNaUzBLYVl4M2swTlEwa1FhVWV5VUxycDBBMTlkNU0yWlFNck16bzBKWnY0dVBuV2JGMHVaVUVlUmtkdEJpaGNWelAtM1BOa204SDAycXZpa2xTQWFEVi1IcnV0ZERoVTJ3aUp3aTVLdU9UOFBfZEs5RzIxa0tYTGRn?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 09:15:58 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Premier League LIVE: Arsenal beat Forest after Man Utd & Leeds draw, Brighton and Bournemouth win",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE92ZW14S2Rod0k1d2hSWjRJNjY2cVZXSXZyRTk5WHdISVZxcW56Q0lNTUdiQkxPZVk1WGY1bjllZFpDUXZ5OXk1RHhrMnJnTzhUMmpOTGhYWExZQkhFUEM3bkFNMA?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 16:44:36 GMT",
       "category": "match"
+    },
+    {
+      "title": "Slow and dull Man Utd are just not good enough",
+      "source": "The Telegraph",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYjkwN1F3X0lUSVlfVFhrc0RRNmJCZ3NraV81MU44QWFKbGl4eUR2dW1mV2gtZmpwVWJhekJBTURtR0l2VXpfRW1XaWJYN3U0N2pYcnhNZWluS2YxUlpaM2s5SjZoejZlY1VrSzhXUDFzek82Z3hZUlI4aEtWSHhNZUZZZUd0U1JXV24xMktiYjVta1ZfYi1fRDlHMU1hcWE3YUpEcllSM092dDdR?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 15:22:38 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Carrick's updates on Heaven, Martinez and Rashford",
+      "source": "Manchester United",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOU0xBYXdhWE1xU3pqNldvRk15bTlnaHlrTEZMT0FDcnV2SXI2TGJSbHRBOVFGQXZxWHkyakN2M01nSzJrT1VUdkczb0JSWDFBQWVVanZjTHlQRlZxREJiSkVRTEoxYjlqYVJpVnRQc3c4Qm1zdnM5Z0VOcXN1U25GR2JVU0tYaUp0UWxwTEt1M25CSG8?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 17:49:15 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Man Utd injury update: Martinez, Mainoo and Sesko latest return dates",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPR1JnYVBPSUk5QWRmUkpPSkQxQUlnc3ZjencxNm5LU2RILUJ0SVg0MDhEWTUwczJCaTd1bU54V2Y4TTY1S2Rma2U5T1ZxWG05MTZxLXZJaENPSER6VTVLa0V3WmpvZDZWNU1INFZsX0VjeGdHb1g0eXhCandjeXdXWEtKenQwaFNlZGEzR1pQR2VWZlB0YThXYmo2a1R0b0hDRklvZHpDS2JaaDJiNjNHcEsyVmpDZVo4QWdUdkFqUjUwdw?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 05:45:29 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "Carrick sack coming according to Man Utd omen as pressure piled on new scapegoat",
+      "source": "Football365",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNlhJaURNWFNPdWtLNmFnczI5akhFcFFnYk9jVkF1Um10RWdTSV9IekJzd1EtTW4zMVFoZm9qSzgzZ3hGMnY3MWxZejlBNmdxbzVJZTltMW4wZC0zSWtPT2RhZENNUmpkbWgtaHQyS1pkc3AyRHJySjV4SXhOZ1BNQXpldWRjeERkSDgyeFk4NTZmVkVKM1U2cU1SWDlxRndOUklSc2RuS053TEE?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 03:06:40 GMT",
+      "category": "manager"
+    },
+    {
+      "title": "Bruno Fernandes is holding Man Utd back – it’s time to drop him",
+      "source": "The i Paper",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5GNm1qOGdpdTZZNFdRaDM2Q0xvTXJZMXZiVDhkZE9rSThnMVZ3MnpaaHo4WHEwSUl5UTFqVlBsU2E3ZGJ1ZHpXbHIyTUtkRUJzR0hEWnoxTmpzUEY2QmhPVHhya3J3aWc3OG5JZlFyYk9mWEhGY3RibnBaZw?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 16:35:06 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Line-ups confirmed: Leeds v United",
+      "source": "Manchester United",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOX0NRTmdFclMyWHRiNlRvNi1jQlAzMjAzZ0VvdzdzOE1PT1pPbUFiTHdnVGkxcnIybzlSaFdTQVpSal95TVI2ZkZTUG45d3hOanVtVmotVk42WWEzdVV0dmJKcVZBZlY4WlJNd0hmSlNsTkV1VGhFV0hyYkNHSy1xRUpB?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 21:19:18 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Elite-level incompetence is Manchester United’s problem – not Michael Carrick | Barney Ronay",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPck1aSU42QURKREZrY21CN0xMRnBnb2Njc2NNNmVPTm42anpwZjg1QnR4aExRSkpfTmNfVnBINHpuQ09FRGs3QnhQUUowMmUwOGdDNW1lSUZtbFpPYUZaSF9pbVhZd0tPWm8talBqVHBhdjI2WjlHbGJYeHNaeVl2bWstQ1lkRzNrbkdVS01vdWtWb3NRTjVSOF9HQXduRjZvTkxHR2hoRUxFbGgtdmxlSUhEeG1PMkU?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 19:56:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Manchester United weigh up stunning move for Real Betis and ex-Tottenham forward Troy Parrott - Paper Talk",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPTGpkb0E0ZVExMTNkblBFYWhaMVlxemVxMG9jeEtBTHZndklhT0VVam9fdVQxZmlpUDR2ZjlQcm9wajBOdVVtUmhFRXV5Y2Nra1lRdERvOGpSb1pma2dEVDIzdHhsMVVBckpMaTV3QWxJR2ZEaW82YjlOSEo3cEFlVkxOb0xhOFBxQk1nX0dNZThLZFYtNzJDZlFCdWZrN3hKV2pHVTlpRnA0RlNWejlsekFXaS1TSlRTdVBLczZjZlNCZmctVkcxT3B6T0V3aTlBdHNRRGtEVHRvTFdaZzFVX3hqbnUtSnNoUTNaQkdWMERBT09kS2hXZHk2cGo?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 07:21:53 GMT",
+      "category": "general"
     },
     {
       "title": "Old Trafford ticketing update for 2026/27",
       "source": "Manchester United",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTFZ4MjJaU2lrbjdqb1hTeG5TUmVtTWFfOUpLUmM2UEh0ZHY0VEV0cnpiV19XU2tKS2FNdEFSY3JpVDIyV0RNQ3RtWGdKbG81WDN2cURSak9Xb2RsUGRDbzNwbzBqcVYtOTI0cFJ4NXJCY0hxa3lxb3dPbExQdmg4NFlhLUU?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 15:42:05 GMT",
+      "pubDate": "Sun, 18 Oct 2026 20:59:30 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Leeds 1-1 Manchester United | Premier League highlights",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYkhzclFTTjNMX2dzc2NUM1BFNjlSU1Z0OWROVU9veW9JMGJXby1iZ0dQTERSenlTVXNjRlBHaFhUX1lYTjltYTIxYWl4anotdTBJMTBIX2dzQ0ZZdzgxVXhGaHFPbnAwRk9mbUttdk1ocVNtblJRbDYyMTZFR1FwZmhCV0dTWTZXVFdTZDRKZC0tYWlCZFRGVVpxLW9qVVVkQ3BDc01n?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 15:08:21 GMT",
       "category": "general"
     }
   ],
