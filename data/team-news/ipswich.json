@@ -1,12 +1,47 @@
 {
   "slug": "ipswich",
-  "updated": "2026-10-20T10:41:34.344Z",
+  "updated": "2026-10-20T21:05:33.445Z",
   "articles": [
     {
-      "title": "City 3-2 Ipswich Town: Eight-minute highlights",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQN3laaURYRkNRRzNKM09VbDlKdnpkZC10LWdrU2U2VzNubF9pNURtTG1vSmd5cUtwaFhaeWlUVGlQZFF4X0JzYzhqZlFaWjIxcThfYWhvQ2gwdmJIZ0dzTDgxWUNYemViN3h6OWFkbUdHMnd5LWd5UzNzY3prWFlkSkphSmJtaUtuNmNiUENIam1uU2pjZ09VVU41NEtiQmFPU2xn?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 22:00:00 GMT",
+      "title": "Erling Haaland scores twice as Manchester City beat Ipswich Town",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE96SVVGUXBqQmFtaExKczBidzdZSGs2TUI0U0dwUDB3Y21va3loREZTdk9WUTN5TzkxRW1kVXp6MnQtVTdXU2lrYm9PblNzUzhfekMwaDhMaThMa1BwVUJyNlM1a21kdw?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 03:06:18 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Nottingham Forest handed injury boost ahead of big Town clash as star set to return",
+      "source": "Ipswich Star",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWVFLc1NySWFnb2Nvci1rVTlYdUEtMkVnaEkwcVJLWDZtdk9JNmF5bFBlQWJ2SEx0X1F0VHFOTWd5RTY0U1VCbEpTMXFaQlZwMkZEbWJBdnEyY2thdnVfQTNUbkhnbE1MakFXVDZicURNbmd0QTNZRUxxODUxa2VYT21Vd2NCd3BGeEJZU0NleklCRkEwajUzaHh4SEwzaG1EYkVr?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 14:44:22 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "U21s Host Anderlecht in Premier League International Cup Opener",
+      "source": "TWTD",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNSDJXMXZZSUxuQmxfNnZrSzZqLUhycVJJWnhSTl9hNVo3NjNqaEh0RjNwMlpkeHNPbDY0ZHFWc0VsR2hucm5xdk44ZE1EeVBWWVJHc01Namx4UzdtOVF0X1RxTmJUZWpLeWNRVkFSbVp3TUR2TlJ3eTdPa2FSVXFRZHJJazQtOU9kU1dnR2daUEt4R0Zib3lYTGh6ZHJRcjFoVXU4al9jM1FaOVJ5N3hN?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 09:51:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "European football returns to Portman Road tonight! Here's why - and who Town face",
+      "source": "East Anglian Daily Times",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeDZDV1lvU3FBSXBobDFlNG5JYVdaOHFDbUxOa1lqdFpYWi1JR0pwMU56MzZjempRU3oxSFdMVFZZUk42bnMzdU5QaDNyNDhvemF2S2FXOWNLVktoWWVXTTNBcV9HVEphMi0tVDZDZjJiRjkzblN5RlNlcUF1czBYRTZDUVV2S0oyUWNEN0otenVTRDVIZkRhTkVWT3BHQVFV?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 09:15:39 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Nunez and Kipre feature as Young Blues are beaten in opening European clash",
+      "source": "Ipswich Star",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPX2l0RG9ocWlnSWNkM1doRmM5T1l5SlVTb1pURzZvR2VDS085TnhGTVFqLVdfeDFYV1g4QmltaWtIUEktNkhkbWdubmYzMXhlLUJFYmNxd2s2RmJhVjBVSnM4dFcyamZPdmdwcTI4aHdLMFFTWlpvVGo5c0VKWkMxMjROMGxqVnNNczI2bkNzMVNTVWpsWk81cmd4WHJhM0Zmb0ZOSk85T0lUZE5ZYy1mOU9NNA?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 20:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "O'Neil outlines what he likes about Philogene as left-wing battle hots up",
+      "source": "https://www.kingsofanglia.com/",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTUNMUjdJbDBLa2ZaWGZrMGtvS1NRVjRwUmMyWE1nbnRCYlhYVXEyWjNBSEN5M1cwei1HVTlxV0VodG03Y0V1U2Yzb2xTa1M4dWdibDh1V2lEV0ljaTBPamh1NDZUNlU3U0J6UE5CWlV0UTNZRkhsM05CZGx1MmMxdUNsVHVrOXFxQXJ0bXhkWjBhZWpLbGdj?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 12:32:21 GMT",
       "category": "general"
     },
     {
@@ -17,25 +52,25 @@
       "category": "general"
     },
     {
-      "title": "Assessing Abdoul - How summer signing Ouattara has caught the eye at Portman Road",
-      "source": "East Anglian Daily Times",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNT2lsZTBlYXhGaHVwSjRzLU5WcjNMSno2Ml92elpYMkpNUk1heTRJWmhFb0xzbjFkR2dRX2ozUEdjYi10RFQ0TzEwRzc4TW5PalhLb2JyRDZ5cEtPdmhWVl9jaFN0NHppN200TmRoT29kcjRGRWpJQ0hidGNjdUtRS3V5VUtpaTJ6Y0QxdjN4am10MUVReFdHaw?oc=5",
-      "pubDate": "Tue, 20 Oct 2026 05:00:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Tributes to football-crazy 16-year-old who 'took everything in his stride'",
-      "source": "Ipswich Star",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSkgxTFZvdHR5Y2hqcWFmRExTaVpCb05IWU9DRG5BY1Nza0k5UWtJTnRnN1VrcDJCUGc1QUlEX3dycGRkLS1sVmsxWXo0TEk5ZzNkdlhURXNDUnRhMGdtUzY2Wm5OZWJuQWpvTW5laDF1Mk4tMGR2M2lPdzhzU1hKYTZHT2JiUXlvczRYQV90LWRVVTNQNXc?oc=5",
-      "pubDate": "Tue, 20 Oct 2026 05:00:00 GMT",
-      "category": "general"
-    },
-    {
       "title": "Ipswich Town fans to get extra service after Nottingham Forest fixture",
       "source": "RailAdvent",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQ0lYTGFzbEl4X2UzZ3EzLTg5M28tZ3daOTNEcFY2anUzNENpeVdtOWplRTc1My1WM1pYM1hOUDFRUG83QTRUWDIxaUxNUS1IdkFULWlkMVhNRDUzUV9vMS05eEhJWnBOcldnd1ppN0NzdkVnYmhZQlN0WTBrTmMtcHFfeHVTUWplM0c0NFpoSUZMNDNFN09iOG5EVmRlbDdtc0NYTllzbWZ2V2FuRFdHdHFJbw?oc=5",
       "pubDate": "Mon, 19 Oct 2026 16:33:00 GMT",
       "category": "match"
+    },
+    {
+      "title": "Ipswich Town news: Terry Butcher says Gary O'Neil's side show 'steel, grit and power'",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE91TlkxYmM1dlBlOWtQM2RuQmVTZjVndmptbWhPMUsyM3hqOU9SU3hsc1dRNDU4OU05cTEwc2c0amdJUlh4b09VaGVtV1lmOWJuQzhDRTU2Nk1ORTdWTFNwUmo5Zk1XZFda?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 17:02:39 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Manchester City 3-2 Ipswich, Brentford 1-2 Liverpool, and more: Football clockwatch - as it happened",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQLTZrdXlWcTRHbjViUWNrcVdENWRqWUdlbTAwRUVoUHRLQUlwbGw1NFM4QWJMTmtlcUppTFExWHo2YmtpS2N6VlByYU9pMy0tNkVhdk5PZEJZRU1ITjAxeHpxRXVHSmNzTTF1ZTJ6MXc2alViSDkxclRMMlNYNUlVQWNrQzRGdU9KbG55ay1WWTh1XzRfZ0luSEk0QzNZdEE3WUloNk04bkpIQXg5MDAxNE0waHhoSHI5M3ZVdEpKZ0F2eWFBdnRVc2JDVzdOcHIz?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 13:00:00 GMT",
+      "category": "general"
     },
     {
       "title": "Ipswich Town Investor Seeks Money to Buy More Football Teams",
@@ -45,46 +80,25 @@
       "category": "general"
     },
     {
-      "title": "Alexander Isak starts to justify £125m price tag with double",
-      "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOank3TWkyYUZ1eUR2VlljSEpUZFZySmpxOWVuTFJUR2RBdHRnR1BwekFHRk9jd0N0X3pRTXRUb0ZkUm5ZS0xfdHhPdkMzeWVibV9IZnRsRXYxS1VnUVl1dDZGSm80RFVkdS1KdUs3OVZmaHVYRU1xbzhrMWxSbzhHZE1FMmdfVDNYWDU5Y3E0ZFN1LURNMXhKZmRNNnV5Zw?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 07:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Ipswich vs Liverpool LIVE: Latest score and updates from Premier League",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRE5fS3JwU0ptbTNoZXMweWN1WmFzUjRUSHUwQUVVU3otbzNJaVI4QTBjRVZ1ZkNpRGtwdnNESWVCLVF2ZHA3VkxCZGFsS0lYX084SEVGaV9pdFZiSnJtYkYxVTNPN1N1YkpBTGlncVZ0MFRZdEZaN01PX05lRGlZQ0lvaUVEUDNWbjhDcVUteThSQzYyOTkzWTJ5S1BqclkzNU1XQ2F3alJXTXR2ak50NlhfQmhwVFBtX1ZEaFh6MmZDWnVVZVhuUmdSWjhyNVNkZms1WWp3?oc=5",
-      "pubDate": "Fri, 04 Sep 2026 07:00:00 GMT",
+      "title": "City v Ipswich Town: Full-match replay",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQektPV2tmNnFtY3ZCaTlheS1pTldadFFjSHFydmJMVUxTRHdHcUpqRTZUVEtpd1phckxxWXNWZFJ0UDRxTnI4cklLZ1RxckprM19TWVh5VDBiOThJY3lpU3lJcjh4OWdCTWNGcnp0bGpIZFZEVElsblhudTZzZllnN01jaFpiZlp5WUhHREhpel8?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 22:00:00 GMT",
       "category": "match"
     },
     {
-      "title": "Manchester City - Ipswich Town Line-up: Premier League Football",
-      "source": "TNT Sports",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTWZlZGJrNHlZajcxWkFGeDdiNGRuRnl3VzRBQUItNUljXzJranhfUHFEXzR3a0JKV3NEUWZoQ3RBbDF6TC1INFJLdGNmTVI3aVF1bnFiaXIzeGZxNUtvZGFVYVZoNXJuZVNyM1Y1a2ZPVzBKeFlaVlkxM19qY1hvY0JFdHBrbDUtMHFfX2kxRXlmenNaM296clJEa2ZHdG9UejNvQTJIV3R3Qy1SOEdMWkZhTEhrWHhGUG1KTE5vU2FRZkk?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 15:23:34 GMT",
-      "category": "general"
-    },
-    {
-      "title": "ED SHEERAN PERFORMS IN NEW TOWN THIRD KIT",
-      "source": "Ipswich Town FC",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUWI3SVRfMUF0VnI0OTc4bXdzZnV6cjN3NFBqdDNTR015VzVUdERoMnMxYUtiZFpFeS0wZXRYZFpCZTN6dlJtNlgzWnBVZmV6V0hna3B0cmhsWldneF9JWWlKMDhQaDBKbzVmTVdTemFQZlBpV2hjNExMWF94b2t2dWNxOV9qdGl4MmZpakl5NA?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 10:44:16 GMT",
-      "category": "general"
-    },
-    {
-      "title": "European football returns to Portman Road tonight! Here's why - and who Town face",
+      "title": "Opta makes bold prediction for Ipswich Town's Premier League finish",
       "source": "Ipswich Star",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQN3VlaGRGTUd0anA2MElieDRPMWZ1WXQwWjZEWVBmY0hITEk0YzZndHNNSDdxSEEwS1owdlBNTmNXaEc5N2JDT0toUjlnejdXeWlzZmJpQXM4RDBnaGw4ZVl1NHFvT2FGY2dCd3BldTU0OHo0SWxVVVExdzNRSU9TbTZCRk5lSEhQall4NWlrZThUUlBmeXRaTGpTMFBWcDByZHp0YXB2MW52UQ?oc=5",
-      "pubDate": "Tue, 20 Oct 2026 09:15:39 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYnBndUhZLVp5alJoLWdEc3dpOHRYbnhQa3ZZVWdObDNuOEFpdk9kdm9jT1d6ajhmV2JMMEJVMTFBTG9qYk9Pc18zdnNHUVgyZWgzQTRYYnpvdDZpREZUY3dYcUc5SUllRVlIMFpMUGJKWUNHblV4MFJqWlBvcmRPTzY2LTJCcXJLNmlEUXFELS01emcxZ2RCRlo2UGFxT2xpZE9pYnZJYUYydw?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 11:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "Wolverhampton Wanderers vs Ipswich Town: Women's Players Cup stats & head-to-head",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1td2s3ZW5MNFRUQU1NdW1INlBNZUtweTl1NWNtZlVselNoemhFMV9BUE9mbkFEcnVfbkJfbHVnMEoyME5Lb0ZzTXlnamZtYlZBT1UzbWNWWWpralJNTF9aV085ZU5jdw?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 07:00:00 GMT",
-      "category": "match"
+      "title": "Ipswich Town FC to open new club shop in the Buttermarket",
+      "source": "Ipswich.co.uk",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZF9CU0hwTkUwUkw1U2dBT0RJazNxREFhYUdxVTFYRzB1bzV5QWlWXzZNd0V5dTcxM1Y3VzZpN3B2cGpiOUQzWWVNdFJzQlBBQUc1WXNOUTkxSzZWTTRzUjdXMXoyVEstNFdGNmdGM3ZFOE1LQVk1THcwTzl6MXdjUkJTc3YwSnEzaHdiag?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 16:38:40 GMT",
+      "category": "general"
     },
     {
       "title": "GALLERY | FIRST OUTING FOR THIRD KIT",
@@ -92,20 +106,6 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYV9qWEFNSUZTbmZaemR2b05CcEN0emFIZGMwME14UnRLMEEwVEROZ3A1YU1xYk1lVld2SmdJbGZCTWE4VVBtVjRBRExCM185NldXWHZpNkg3bHFVRTcxejBKNjUwT29STzlvc0VaeW9rZmRGUThIVmM0bHJqVTB4R01Kd24xelpoSHdpVWFKcHNSVkFOYjd1X0JuU0JKeUE?oc=5",
       "pubDate": "Sun, 18 Oct 2026 11:49:29 GMT",
       "category": "general"
-    },
-    {
-      "title": "[!LIVESTREAMs!]Tv] Manchester City FC vs Ipswich Town FC English Premier League 𝐋𝐈𝐕𝐄 fRee Stream",
-      "source": "Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxQcUlUZ1RoS013VG1IeDJjdk1JSHVKV3JvM2J0U0QzY3Q0c0tXajBXYjRjQ3ZvRVVRbENMSzZCM2ZQOUtxdWJqOWQyMjdkbmpSbURfWlBCTkp6T2ZIai1uUHQ2QXp6MVV2SDJ1RVRsNmNnVGxmZWE4RTQ4Tk40cGJfRm5JZHZqdFo5bmpMSHZsLXBON1FPc2JDd0pBSzFKUHYzMjItN3JsTUtMR3JaTER5Ny0yc1R5S2RGM1FwWG9NbTNXalZ0WFM5N2tkWDg2TmZDdi1BUDBMaFhlZkpjRFVaclRJbGdIdTdaQXJlTnNpWUZPUXAzMmhKU3RtVlUyTU00WGlnX0dpWXJtcS12ZFVobmE1YTFuODU3dlM5dnRMenJHQUlsRE9CY0hzQU9lS0JfZDU0eTVOblByU0NrYlVtY3BtSU9CaGF1NWZHSjZWenZMVjVUZ2xUc0xPaDdQVG9KOFE?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 13:59:24 GMT",
-      "category": "match"
-    },
-    {
-      "title": "(FREE)Today: Manchester City Football Club vs Ipswich Town Football Club 𝐋𝐈𝐕𝐄 English Premier League",
-      "source": "Universidad de Córdoba (UCO)",
-      "link": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxNcG82dnlOTHdWRVJ2VDRXYTUtYXhORFJUTkxHTDlpOE1mVWFoZjh0anpEeGxDRjZOU1UwUEd3X1JXQ1BCajBBVjJPSkwyWmQ4cnBCdnNPNzh5YzdMNnhWOG56VTRtcDBGdGhYOWZ6WU1fV3NzcnZ6Vk1MdGpCRHU0cmxhQzQ2d0JvZWYta3FYMHUtUndBSkRoV2NPUlpvMmE2ckRKa0NvN3N4RDdvemhuRVE0aGVVNXV4clp1Z3ZWWmN4a0dTbUxmV1ExS0NFbDFUT0hseVJ2QUxOdmlMbVVMZjg0cnFieEotTGtHaEVYRzExNndNSkx3RmxENWZXSkJJdDlWSXhSS1dyUUFVaXdwNGNCUzB3am5DM0dacEJPYTV4NVpNU29mTmpWbndkV3lXNlFJMTY5YlYtWThpT0hWcHJ4UmhuUUlwb2NxMHhOQmQtOTRCaEVzZ2lPUmxpZHFueXoweDFuSFBHZF92a2FaM3JtbmJ1dG8?oc=5",
-      "pubDate": "Sat, 17 Oct 2026 14:18:09 GMT",
-      "category": "match"
     }
   ],
   "reddit": []

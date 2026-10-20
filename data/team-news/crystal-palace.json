@@ -1,20 +1,13 @@
 {
   "slug": "crystal-palace",
-  "updated": "2026-10-20T10:41:34.344Z",
+  "updated": "2026-10-20T21:05:33.445Z",
   "articles": [
     {
-      "title": "Highlights - Premier League - Brighton 5-0 Crystal Palace",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ocnhZUEZhUXU4d1NncTNKTEdKTlB1TG5HMTFaUm10X0pxU09HMndORHdKX2dxVXRrVFlaeG1WRDBxREhETXVmNG9oUkItNTViLU5sU18xMFNKYTFOdXV3Si14Ykp0d3RD?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 18:59:02 GMT",
+      "title": "Pierre Sage told: Improve defence or lose Crystal Palace job",
+      "source": "The Times",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONm5vUUJBeGJFcUlSTDNiVGJxdXBNbHJDbmdPdEQxaTNBMmxpZUJJai1IM1JDN05mYWlZOGZPZS1UM3NWVXpBZnZRVUhHaFhkVi02a0dtZFgxMkdlTWI0MUFfSnRGbTlvczhXNlRuWTdTVmdlNjVGVmdQYXF3Ui1SSVlCcHVsRDhnM1R1OFNoWl90bEhLeGVLamx0VE5OUmtrTG9iMnhoTmpzVHdFMjJ6eVlUTUZyUkZuNnBQcA?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 17:45:00 GMT",
       "category": "general"
-    },
-    {
-      "title": "Pierre Sage to remain Crystal Palace manager, but…",
-      "source": "Get French Football News",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWXNONjlWM3F4WUpRZkhoUl9BNkgzS0wwRDFmZjZRNDBnSng4MGRjUEhxdWdhR3hoN243dnRLME9OaDR3UFJsbnJ4TERFY1hBMTRBcXk3bHR4c0Rxem5JMEdZY3h0ZVJOQ0xqaFhacGpQNmwwVHU2SS1uMU14Z2FzVmlueG54UnVYejQxa0NUUXJyd0NaQWFJ?oc=5",
-      "pubDate": "Mon, 19 Oct 2026 13:01:17 GMT",
-      "category": "manager"
     },
     {
       "title": "Under-pressure Palace manager Pierre Sage faces crucial two games",
@@ -24,10 +17,24 @@
       "category": "manager"
     },
     {
-      "title": "Chris Richards apologises to Crystal Palace fans for Brighton loss: ‘I was embarrassed’",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbHRRQnlKWVRZOE04aTQ1ZkNUUjlTTGRqUi1ZV3FXYnhLLXBpQ1pYdWp5YjUzZnY4OEZKSGVGV0xqRXFGMHRSbHhQa1ZwRWY4LUt1QUVaWWlKOVZSMmRMZjM4MWRRZ3B0VW4tZnZDOWZrNnpYd2pQUFRTOGxmbDNlUUQ3NkZxTmM1bnhxWGpHZEl5dW1KUWVCcFd1d18?oc=5",
-      "pubDate": "Mon, 19 Oct 2026 14:25:39 GMT",
+      "title": "Pierre Sage to remain Crystal Palace manager, but…",
+      "source": "Get French Football News",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWXNONjlWM3F4WUpRZkhoUl9BNkgzS0wwRDFmZjZRNDBnSng4MGRjUEhxdWdhR3hoN243dnRLME9OaDR3UFJsbnJ4TERFY1hBMTRBcXk3bHR4c0Rxem5JMEdZY3h0ZVJOQ0xqaFhacGpQNmwwVHU2SS1uMU14Z2FzVmlueG54UnVYejQxa0NUUXJyd0NaQWFJ?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 13:01:17 GMT",
+      "category": "manager"
+    },
+    {
+      "title": "Peta hits out at football club over 'frightened' animal mascot",
+      "source": "The Independent",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNzF5ekh4aHJia205ZGlXdTFOU1lURHRiS0dJaGltamdxVm9EdUhmNVh1c0ZpR3p6ZDZfZlRnT19XbVM0S3ptTWV5NUhYQmVxNXVWMHZRZ1ZVblpaZl9uUnlfTWEtVUt6QUY5aUdhRThSM2dtc3o2UXFfdkd0clRXakxVMFBfc3g2RjlyNlpaZkNFeFEyWFE?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 17:07:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Highlights - Premier League - Brighton 5-0 Crystal Palace",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ocnhZUEZhUXU4d1NncTNKTEdKTlB1TG5HMTFaUm10X0pxU09HMndORHdKX2dxVXRrVFlaeG1WRDBxREhETXVmNG9oUkItNTViLU5sU18xMFNKYTFOdXV3Si14Ykp0d3RD?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 18:59:02 GMT",
       "category": "general"
     },
     {
@@ -38,17 +45,31 @@
       "category": "general"
     },
     {
-      "title": "Brighton 5-0 Crystal Palace: Fabian Hurzeler's side hit five in emphatic derby win as Gomez nets wondergoal",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNZ3RGM1hSSi13ZWhveDF4cHl4NEFSY1VINmhRTF9Nb21ERk91eWgtSExaX0JCbUoxNEpXcGhQMlhYdUxiTjUySW1mNzdmWU1iaWo5eXd4TW5JZ1c1dzgwODUyUXJPQ2EwUWlrQkR6dVZWcVlOUldtb0hpTmxUbzEwTE1BNUdOVGtCbnVXbEhVMTdJUE1yTGFUZklmaGVRUnFxeXFzbmNlMmdZUi1hTU1kb2NseDc0QXFicjVtSzhoOFFwcmp4Ml9zVkROVmVhdGFvaC1PbWNiZEtHN244dGs2WURmLURQUWZiWGc?oc=5",
-      "pubDate": "Mon, 19 Oct 2026 19:40:30 GMT",
-      "category": "match"
-    },
-    {
       "title": "Crystal Palace & Newcastle ticket updates",
       "source": "Fulham FC",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxObmYtOTFSeXpXa0YzNFhKZndLamVVZ2lSakpGeGp3bS1ZWmpjMzMtZG5jTFBOc0pxMkF5aEJsc2stdFRGNHZpR1ZRUEtRS0RpWFZsMnN6aGcwbzNBaHlHQ3BBSmUyeE8tZ0V1ZHpDRmdRdDdNRXJhbE1TUU40NW9Mc3NTWjVwaHNMa21QX3JTOA?oc=5",
       "pubDate": "Mon, 19 Oct 2026 14:15:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Brighton 5-0 Crystal Palace | Premier League highlights",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQkstdnFUOFNsMS1WVTlQeE0zZkxBbGFkWVZTTjVrdTZvRmNmbmEtVjRZZG5Yc3ljTHo4cjd1TlRyaW82S2c0Umd0SG15N0xIWTdWMFpwVUNHenBqTHUzMy1jMHU4ckFrdHYxSmJZMkNqQ2M5YU4xZFNLc2cySE1fWjhCVmo0U0NYTHhLVmd3b1VoRXNtMHd3dEllZ2hfMk1MMXplUzZ3?oc=5",
+      "pubDate": "Sun, 18 Oct 2026 15:18:07 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Crystal Palace asked to retire eagle mascot by PETA: ‘Wildlife doesn’t belong in a stadium’",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVTRuWnA0Q0p5MkJkajlHM1Bfc1dQeVdORTFiOXVObFlPVjJjckgtalFhaUw4Mmp1V1EyQVZCZ3JrZkdsYnJYQ0tUcmhsUXhDa2xOOExCQ2NpTWVhb1N3Vk5fN1pPenByN2JnVmc0cnlPeEVtcjRkRHprUmxqWG51Q3ZQei0?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 15:02:23 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Lyon 3-2 Crystal Palace: Eagles beaten in their first away Europa League tie",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE83WlVNa0lNem1nQTY5b3NJUVNCTWY1UjhDZENnWGp3bWFoZktlWnJyOTExS1lZZDBEVDVWT2NHeWxiUlZmQk5tQVJPSTRNckJ4UlZIcnRKUkRPaE15Qmg1bzI3Zw?oc=5",
+      "pubDate": "Thu, 15 Oct 2026 19:57:47 GMT",
       "category": "general"
     },
     {
@@ -59,32 +80,18 @@
       "category": "match"
     },
     {
-      "title": "Police reveal number of arrests after Brighton v Crystal Palace clash",
-      "source": "The Argus",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdUdVc3BXLXo0T1psSFM5MXFjYjl5S2ZjcUdrdmpwVTdFNHdpdXUzbDVDbmR2Z3JaYnl4WUFMdWlnRmVKWDVBRk5RN1NjczM5Y2dzZXljNG9faG9lUzg1WEo5d1prUUVsaWJqYS1JbW9PZTBTSE9LdnBodE5ud2xPSTA0SnNOcU9QdmhXNk1yRQ?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 16:12:40 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Crystal Palace vs Man City LIVE: Result and reaction from Premier League clash",
-      "source": "The Independent",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOZE1kTEVYd0hYa1ktV2UzaTFXcVQtUWhGNUYtTUI3ZXY4aHRGMkw2X2lLZVJwXzA5MDFWRjJmdnFnZ21lWmZYSkZ0SWZMUjFFRTVyOWY1VlV5SGdwcGU3bE51RTJweWQ2cHpYRkREb0JQRG1ad2R6RXlTWG5XWGJhVVZacHpfNmwxcHh4NFZOUEVyUS1PaFpDQ2c2Vk9ndmhNZ1FUNmJEOWQ3SHpQQzk5YXZJY2FEZXFUWE5JdC1SWQ?oc=5",
-      "pubDate": "Sat, 29 Aug 2026 07:00:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "'I didn’t know what to do!' – Diego Gomez opens up on emotional reaction to sensational 51-metre strike against Crystal Palace",
-      "source": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTnRwbXBueDlIbGxCWTZmMVp2Rlk0dUlYMktpWVRDR0x4N1dYVVM0OEpqNHp5azNPWmNXUG9XNWFpYXZmbnZlb3dKYXZxRDIwMk4yalA3MEc2dXpsR3BLNzdTMU5rVE9LeU82djdJc0lWUDNCMHVPWFU3ZHEwdmwwdXZSTVludXY4cjdaUWtLQnlQYlVnWUxnQzZwWkQtMGdIYjlaZXBPOURJTkZCMHRxdUZlN3NTTkxCQ2t4TFJtWm1VZm16T3Bv?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 17:59:13 GMT",
-      "category": "match"
-    },
-    {
       "title": "Olympique Lyonnais v Crystal Palace – UEFA Europa League result as Pierre Sage suffers defeat at his former club",
       "source": "TNT Sports",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQOUxoNzNrdFNkWFBXZVN1U2V3eWoxbEVXSnU0eGRwUU1JSWZMRWQ2SkhIanVHNEJDQ3VkLXVhaFQ2UFRfam5CVnJfdVJQVUhTUDYzYk4tb24xaThzcDM3RVRCVHc3VkVfNFhsdWpabmhhTDdKNVYwU3lPSUJSbEFPVGUyM3U2dEdVb2taNGZVeTRQcU52TXVoTkFCWmxhckhTMzlzT2Uyb2tNRkw1NVN2dDFGeHhxb2ZXWlhwa09Vd3BzYkdNZ3NhOVdiYnczZw?oc=5",
       "pubDate": "Thu, 15 Oct 2026 19:05:19 GMT",
       "category": "match"
+    },
+    {
+      "title": "Tyrick Mitchell looks back on 250 appearances",
+      "source": "Crystal Palace F.C.",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQd3RMUjR2cTRlS0l1YmNOQTBYeGQtRDNOTHZwN1hBZXZBaHBHUk5JeGVtNHFVTXBGOW1EbkVvTXV4VkJiRW1vaHJmamxmZ1VNaTA3WGkyY2ZWQks4VHpnT001bFhiT2JIQlNqSnAxOHNaMWIwbXBfTGVpTkFuVTVKMVVHSEI1TnJST2dzeWF2QTEzNnJRbGlDR1ZoUlZnX3NpV25RUm9QeXJ6a1BCem5jc1FfWHo?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 15:24:41 GMT",
+      "category": "general"
     },
     {
       "title": "Starting XI | Hammers unchanged for Crystal Palace",
@@ -94,18 +101,11 @@
       "category": "general"
     },
     {
-      "title": "Match Action | Brighton 5-0 Crystal Palace",
-      "source": "Crystal Palace F.C.",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQd2xkckFtNU42UVgwZ21NakRfdVU2R0xYSXVXU3lEZ2plZ1VZaXJqcHJUbGZOalhoTXBKX3R6YUdPZ3d6Yl8zcUtycnZGd2UtNEN3M3ZpOWZqVGwzZ1lJWEFlUzVtNWNEY2x2WU1jOG9FZVFDM1EwMWtKZjlJRVlfeHRmeFRKV3QzSTdJVEhTV0NobDd3Xy1iZFpnM0plSlVOckxJQ1JOWFN6MDdBN3c?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 16:17:29 GMT",
+      "title": "Brighton 5-0 Crystal Palace: Fabian Hurzeler's side hit five in emphatic derby win as Gomez nets wondergoal",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNZ3RGM1hSSi13ZWhveDF4cHl4NEFSY1VINmhRTF9Nb21ERk91eWgtSExaX0JCbUoxNEpXcGhQMlhYdUxiTjUySW1mNzdmWU1iaWo5eXd4TW5JZ1c1dzgwODUyUXJPQ2EwUWlrQkR6dVZWcVlOUldtb0hpTmxUbzEwTE1BNUdOVGtCbnVXbEhVMTdJUE1yTGFUZklmaGVRUnFxeXFzbmNlMmdZUi1hTU1kb2NseDc0QXFicjVtSzhoOFFwcmp4Ml9zVkROVmVhdGFvaC1PbWNiZEtHN244dGs2WURmLURQUWZiWGc?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 19:40:30 GMT",
       "category": "match"
-    },
-    {
-      "title": "Pierre Sage told: Improve defence or lose Crystal Palace job",
-      "source": "The Times",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONm5vUUJBeGJFcUlSTDNiVGJxdXBNbHJDbmdPdEQxaTNBMmxpZUJJai1IM1JDN05mYWlZOGZPZS1UM3NWVXpBZnZRVUhHaFhkVi02a0dtZFgxMkdlTWI0MUFfSnRGbTlvczhXNlRuWTdTVmdlNjVGVmdQYXF3Ui1SSVlCcHVsRDhnM1R1OFNoWl90bEhLeGVLamx0VE5OUmtrTG9iMnhoTmpzVHdFMjJ6eVlUTUZyUkZuNnBQcA?oc=5",
-      "pubDate": "Mon, 19 Oct 2026 17:45:00 GMT",
-      "category": "general"
     }
   ],
   "reddit": []
