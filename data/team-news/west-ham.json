@@ -1,54 +1,82 @@
 {
   "slug": "west-ham",
-  "updated": "2026-10-21T10:52:13.910Z",
+  "updated": "2026-10-21T21:05:20.081Z",
   "articles": [
     {
-      "title": "Four things we loved about West Ham's win at Swansea",
+      "title": "West Ham United and BrewDog launch Boleyn Brew",
       "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaVM0dlZYUTlTNEZjQVd4MUdiVDNHN1hiSWdlMFY0MFRLT0V2VXFlemVJY3dfNnJaTURadUc4cUNZWkdiWGpXc2k2Y2l2bm5RMEdoV185aVIydTlsZEhQYWdrUDlfc0pZbGVuckNtU2d0RTV2X3R0VVFkSng2bTFheDN6TURHVjRU?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 09:49:49 GMT",
-      "category": "match"
-    },
-    {
-      "title": "West Ham: Bowen Reveals What Promotion Really Requires",
-      "source": "The 4th Official",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQY2FMTVV6YklVNzRMSE1YQ2RjTzdLczlyZE9kZU9jRjRCS25kbGhoaDgzdURJUG5OR2FrVC1pMVdBY2lQbnhDVFZyMDM0NG5fcG1SSnp6UlljYkNfZDYtelpscGtZMzdJMklIb1UwYzhGdF9GMEVCRm9LMFdHYThZbFBjN1FBc21zR3FxeFpaWWxtTEk5Z201SkQtYmxtRFNmMVBfVzA5dlBnZzY2aGtV?oc=5",
-      "pubDate": "Tue, 20 Oct 2026 20:00:35 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWFJOTVBpUnF3YjNha3NRNWkxRTlic2NJVEpKT0duUmlvbEZkbTZRUGd3M2J0ejRZNEFZdEhkX2dpTGlRVlFYOGFkZDVpdVlhOWpFV1g2VTJCTTl4dUtqalM1SjJzNUpya0ZGRVU0dUlad0dfSDJpWTRUcUJXOC11RVJ3?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 15:02:53 GMT",
       "category": "general"
     },
     {
-      "title": "West Ham United opinion: Divine Mukasa making his mark at Hammers",
+      "title": "‘I’m Not So Sure’ – Experienced Boss Has West Ham United Doubts",
+      "source": "Inside Futbol",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeW8xbm5sOEpRaEVqTGxQNV9LMEp6TmxBemJpOS1JbFVyLXF6Nlp0TmZNSU1oTS1vLTFESTlTeG9BaHJvV3JLUUxkRXJBdWRZM0J4UlFncWplQVQ4Q1Y0WHFVcVRZZGJxeVFWRG9PSFFZY1o0VzJRazlwYVM1NG5DLTZWbGpKNDdmelpLdklYNzgtQnNTWUpFSHZFOUN3Qllsa0I5TQ?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 19:17:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "West Ham transfer snub may have been blessing in disguise but January U-turn makes sense - view",
+      "source": "West Ham World",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdkJxeGQ1UVRIbmJhMEpYLTJQUlRQV3hva3dtcG5aN19BalloQjdYRERDVGc3Wk9XNHVtY1hma3Q2U0M2dkgxXzF5VXNWQzlWWWUwU1VDdWw3Smh5UzR6RXl4WVVNUjdXcl9YUlF2ZDZsbHlNZTdCa1FaY0JSWUJrd3NsTXZWams2T0JNTVFyell6S0NQOGU1eE85U0NFZEFkWTRyX1hOaVRBc0JJdERWQVZQTVg5eWExUUd5TmphOHFPU0NGN21UMGhreTlCUFoxelRn?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 10:13:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Bowen | If we want to do good things this season we will need all sorts of wins",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSm85SXo4WXJzOVhQeWhOLVdUX3Yyc2VfNnNyems1dVRmY3VabG5GNTk1UGM0dnFNYXB5eldEZVpId1VoOWtiTHZWX25QQVRZX0dYbDd2czlmYmxCWC1xWUVGX3VlWlVYcy1Bd0FCZUhGazRMeWtBLW43dEtUZzlSU0Z1SFVtT0FyQnhXaHBDZDB1dFE3dGFtMFVVSnM3bG81S3IzZTRMVjIxVGNhNklN?oc=5",
+      "pubDate": "Mon, 19 Oct 2026 07:15:01 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Starting XI | Four changes for London City cup clash",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWHlGVGhTRW9HMnJ6MmpRUzM4djdWNnlvcjd3LW9ncEJEcGZNclUwREtScFZqQmFSNzA5YU9hWmg2SmJlNUlBOVBtZ1lvcU9LTHFwNHhncmI4ekxqUU1HbjYwVlpERGhRQjR5N0pNSHVIdC1TcDlUU2J1X2NaUWlWd2Q1djI2QzhteFJv?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 17:03:41 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Matchday Gallery | Hammers take on London City Lionesses in Subway Players Cup",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNUC1HamE1ZTJFTmxhMjFTZTF5WTJQa2hPTXdnR3dURlFUNmlVVjdqZTFHV3BoVHMtLWFVLW9XZk9meUlraW9ISWM3ZDlTUjZiV1pELWJVQS1INEszYklCbENQNEdCTUVhYk1mdVZWV1BkX2RFUF96MHdxTEZqVUQ5VVZDS0dGTTdtSl9GZGgzUnVDZ1FEbGxXR2xOb0pxa1VzNEw0UC01c3JkNVNFN1E?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 17:44:02 GMT",
+      "category": "general"
+    },
+    {
+      "title": "West Ham United vs London City Lionesses: Women's Players Cup stats & head-to-head",
       "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9tNGk4elZBV2hJWHpVT25hTG51VXlNYjdPRmE2OWVGRDV1dEhwWGplZUx4dFJaMnB0OXF4MkFMbWI1bmxZTC1UZlZOTExIem8yUXZnZ1NlRWJOcUdjX3RqcFlPYXRSOFhI?oc=5",
-      "pubDate": "Mon, 19 Oct 2026 08:32:37 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFByU0FtYmc5SHFTNGRsQV9DNHNNLXBia0ZtNlZXTGpaWFBVa2wyRFJBQU5QRXAxUUpudWVFajA5VzV3TjRYTTJMU1ZmcS1WRFBOOW1XcFJXbUxObk9VNV9DbHVxSXNfZw?oc=5",
+      "pubDate": "Tue, 20 Oct 2026 05:13:47 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Why West Ham are so keen to tie Mohamadou Kante down to a new deal - The Athletic",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNHc2QklXc2VPQXpTOXFfSER3R2ZkOE4wci1aUUVYbkRpV1J0U2hQUTZ5Uk1TbXFBTHo0NndaMGJYVG5xNVppWkZfMzZpRzAxWWdpZWVCRGtYU0YtYmctN2VKLVRYS0wxTGNjdTZlTGlVMmZIMXBUdXE1bGY4MFFlVzJjTlhhNE13UGVZRVZYOW5leGFu?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 04:21:24 GMT",
       "category": "general"
     },
     {
       "title": "Sullivan Set To Stay As West Ham Ownership Bombshell Emerges",
       "source": "Claret & Hugh",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWU5DT1UzLWNacUMtU0FXY05KMjRJSTZ6U2hmd0RBUGJYYmtSY0I3Tm45REs2d2xiX3ZlWWhlSWxPcmRuQ1I4dlRObVM4S1ZIcjlvb3p5Umc4d1NZX3JXdXd2TktDNTJJWV9sc3ZkaDdKR181VnZqVHlrbkRQNGZlUGlYOEx0d1BvaVl6X19TSVg2dURWNm5V?oc=5",
-      "pubDate": "Wed, 21 Oct 2026 09:17:44 GMT",
+      "pubDate": "Wed, 21 Oct 2026 15:14:23 GMT",
       "category": "general"
     },
     {
-      "title": "West Ham United Foundation celebrates one year of The Foundry",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSWRCbE5scURYYlphTy1keVFhUU1qQ0l2UlVTVWFMT2pJR3Q4RlpiMS11MlJrcjNwNVM2ejlzSUdKSnEtWnJfRERYQ1BSanNpbkphdU1hakZNTlRqSnhYTHNHNXdkQjVlQWJVV1BPcEdPZk1aXzlwMVdOc1YwbndqOE41N3B4NkdJZ0Q2X1hkWjZCXzg5LVE?oc=5",
-      "pubDate": "Wed, 21 Oct 2026 10:02:29 GMT",
+      "title": "West Ham United live score, schedule & player stats",
+      "source": "Sofascore",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1uNVg3YnZEUzhMZFROY29uRE9ubllqbDNHWE12ODhLVUl3ZUFSOG9aVFFHdVZxVThXb1Jrd3pPRlI4REFHNTlUeGZkNHBCYjNwdW01RFNkbTV5bU9tODdnNUZudExaWElFX3c?oc=5",
+      "pubDate": "Wed, 05 Nov 2025 13:38:29 GMT",
       "category": "general"
     },
     {
-      "title": "Report & Reaction | U21s beaten by AS Monaco II",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZGhTNHB0V0lXaEdBUC1RQXBYeEI2QVhKYi1IcXVCQjRNV2RMMnZ4MTNRS1cxTkZPZFZiTmx3bklyRy16dENrQk84aGp3WnZTS2lVcWVFaUw2RmhPdXlWdU51clNvT18xU1VtbzlDVkg1X1U3V2pqUVZXYzRWNzlXU3ZHRTJJUHc?oc=5",
-      "pubDate": "Wed, 21 Oct 2026 08:13:04 GMT",
-      "category": "match"
-    },
-    {
-      "title": "West Ham United 1-1 Queens Park Rangers: Bowen equalises and misses penalty",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5GMWs0dmlQWGlLTW10RjMwNnhkTF9PRlJlLW1jTHo2bC0tRE9KRnVFWDN6UGVWTXg1Sm9KV0htT1ZZbDlGaTdIcndQYTVyUzFLdi1pSGNJaHFCXzgwTmpRQUZEX0hSZw?oc=5",
-      "pubDate": "Fri, 09 Oct 2026 07:00:00 GMT",
+      "title": "West Ham can achieve something against Southampton not seen since final season at Upton Park",
+      "source": "West Ham World",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZUM3VXlFMVl2MW1tR1lpM1FFQmd6NTRxdk9reDdSVTVfNnpGQ3d1NzVPaF9oTEtjdU5qTzFOMFVSWWRtZnV6R1ZlVVNXWEZWSXFnaDNwdDZfcWxhZWxSRnZKc2ZycXQwcHE4ZjkzR3lzc0NqckMtUWV0eEIyZHdUOFRISkdWelduNkM3clF1RWF6MnEyYl9yb0ZhRURYdHpoMWpaVEhVdXZGaTZwWl9Na0dpVmVJb2VzSy1Mc0UwRjlDYXc?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 14:14:00 GMT",
       "category": "general"
     },
     {
@@ -59,52 +87,24 @@
       "category": "general"
     },
     {
-      "title": "West Ham receive transfer boost in pursuit of January centre-back target",
-      "source": "Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONzJFN19XbGNZeURCQkhCRl9UakNxXy1lalgwREQxTERubUdqMHVRZzlFRmVrRzRXYmh0TDJWWlR1aFlrNm5hcFdYZTl5anNPTXcyZ0JVRmU3aXlINDRwQlRZQWlHcm1BQTRiRFpCU1NvTy1YaXM3YjB5M2NZbmFrYVV1akhKUQ?oc=5",
-      "pubDate": "Wed, 21 Oct 2026 06:59:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "‘I’m Not So Sure’ – Experienced Boss Has West Ham United Doubts",
-      "source": "Inside Futbol",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeW8xbm5sOEpRaEVqTGxQNV9LMEp6TmxBemJpOS1JbFVyLXF6Nlp0TmZNSU1oTS1vLTFESTlTeG9BaHJvV3JLUUxkRXJBdWRZM0J4UlFncWplQVQ4Q1Y0WHFVcVRZZGJxeVFWRG9PSFFZY1o0VzJRazlwYVM1NG5DLTZWbGpKNDdmelpLdklYNzgtQnNTWUpFSHZFOUN3Qllsa0I5TQ?oc=5",
-      "pubDate": "Tue, 20 Oct 2026 19:17:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Burnley v West Ham: Championship – as it happened",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZXhDS0FLZTl1NExSUE8zUnNLZmdPaVcxdHIxTXhuQUFZczdkQWFWUmN4VExaTGJabktiazRRTXM5c3NVSHZJLW04S2tsX3E4ZmZLRnJRaWJlSUlaR2d0M3VBeUVIRzQ3WjFjQ0d3ZC1UOVU5VU9CVlhsQ29WbFZaQVFLanRHX0ZITkJ4UEtIUFdHc29f?oc=5",
-      "pubDate": "Sun, 16 Aug 2026 07:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "West Ham could get lucky this weekend with one crucial Southampton decision - report",
-      "source": "West Ham World",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcFBjSHdsNV93eTlKZUltVi1EdS0yaTZPNW0wSldIUWphZUQ1OFA2cm93OXo4a0ltNEFnNDg3eWJIdkpsQThDeWZ2SWlZdHdXaVctaDhDVHBZTmJPZl9vM3o3UEI1eEhDa0hYdDJKVkVfRE9ZQTJXUkEzeWJOQVU0dHVmdGx2TVZmNFRCSGgyWmdQQXJpRURYbXYtOG1JSUJBRFI0OUdnTjFtek5lY0FobHNNc0I?oc=5",
-      "pubDate": "Tue, 20 Oct 2026 12:21:00 GMT",
+      "title": "Match Preview: West Ham United vs London City",
+      "source": "London City Lionesses",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeWU1dVZMQ2E4Q21wc3RPVnlMVHFfbXBTZU1VZHRiWjdOaHliMTNFRjY2Qms2ME0tN2M5TGtwVjJaM042S0FLZ3VueWtCZnkyamxHZWM0WVJNTnRoNUhyc0xscy0zdVpta1RORmNQYXVzOVNGVnVtUklqOVFIQ2JBQzY1S3ZSTGVYTnBhRnZB?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 18:00:00 GMT",
       "category": "match"
     },
     {
-      "title": "Player Picks | Finlay Herrick",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE54NG1sbFdkQWlVeFA4OU5MU0JKek90Q21ieHFBRDRTdmlLNk03MWFKdkFCeENGZWoxNldZbWhzVHdMdEdaSFVCQUZOWS1pakVncVJpUmpQTklUTEVZUDJYVXJiUFd1bUxGTzdIYQ?oc=5",
-      "pubDate": "Wed, 21 Oct 2026 05:32:21 GMT",
-      "category": "general"
+      "title": "West Ham United vs London City Lionesses: Women's Players Cup stats & head-to-head",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1nbkx3ZmUtekJLLW5fa2FSeGQwQnJCWlNnaG5fR1pPOUpSSHhnTFM5U1JyV0lOX2RWT1hoa3NScnNFc3VSRjQxT2pBM29uVUNZM1YzWGZCVDFVTU9nb3RlQ1Jldw?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 20:01:36 GMT",
+      "category": "match"
     },
     {
-      "title": "Codina | The cup is a good opportunity to keep momentum going",
+      "title": "Ironworks Gazette | A hat-trick of hat-tricks",
       "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRkFUWGl3dUpsX3gyaUhva0RvS0hHWEoxX19nMzFnZUlKRXp6TUJXalc1NTdwaGZEU3ZidlgwV1Q5bS1rNXRuaHhnMUswQVM5UnNBTmwwZnhDQlMtRVd0ZEkwSE9ESF9fcktPck1BR1RKaUhuQUtVNnBjTlU5Z05VRkNzek1iOS03VzJPUDBGanRyWWxhTV80?oc=5",
-      "pubDate": "Wed, 21 Oct 2026 07:02:21 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Starting XI | Hammers unchanged for Crystal Palace",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbkF1OUhCQjJpcEthNzRCaHNvTmdsLVZ0RnhkS0RDS0s0OGUtWkpYN3dzN01pbHNkdUFvYTlXSUNzTTM4RFVpSmFpLWdwNDVNMElOSGEweUZGZC1NQ2kwekJKbzcxRUNUQldVNXRVRW5qSVN0cUVONHY0OE1TZUpKWVhZS1ozV19N?oc=5",
-      "pubDate": "Sun, 18 Oct 2026 13:14:27 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYU9vNGQxTGFDQjdOZkF5SFdlaFlzVnlCLTA3TnVGUm15VnlNNUZ6Ulk4Q2tVT2tfeVd4NTZvYVVrWVVGUEtQQWhrd2FrejVYUjRtNUVzWU5MejRQVXhnU2RXZlNDZS13eWNvN0NnUjdhYnFrYWlDZVpzVE1UWGlkZjBR?oc=5",
+      "pubDate": "Wed, 21 Oct 2026 16:48:40 GMT",
       "category": "general"
     }
   ],
