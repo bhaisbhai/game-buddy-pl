@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T08:19:06.181Z",
+  "updated": "2026-10-22T08:21:22.788Z",
   "snapshot": {
     "1": 61,
     "2": 49,
@@ -346,7 +346,7 @@
     "343": 49,
     "344": 50,
     "345": 49,
-    "346": 60,
+    "346": 61,
     "347": 53,
     "348": 50,
     "349": 45,
@@ -570,7 +570,7 @@
     "567": 50,
     "568": 54,
     "569": 61,
-    "570": 54,
+    "570": 53,
     "571": 48,
     "572": 47,
     "573": 44,
@@ -672,68 +672,20 @@
   },
   "changes": [
     {
-      "id": 25,
-      "web_name": "Gyökeres",
-      "team_name": "Arsenal",
-      "direction": "fall",
-      "old_price": 71,
-      "new_price": 70
-    },
-    {
-      "id": 596,
-      "web_name": "Ruggeri",
-      "team_name": "Aston Villa",
-      "direction": "fall",
-      "old_price": 45,
-      "new_price": 44
-    },
-    {
-      "id": 212,
-      "web_name": "Hughes",
-      "team_name": "Crystal Palace",
-      "direction": "fall",
-      "old_price": 44,
-      "new_price": 43
-    },
-    {
-      "id": 271,
-      "web_name": "Muniz",
+      "id": 570,
+      "web_name": "Palacios",
       "team_name": "Fulham",
       "direction": "fall",
       "old_price": 54,
       "new_price": 53
     },
     {
-      "id": 347,
-      "web_name": "Nmecha",
+      "id": 346,
+      "web_name": "Calvert-Lewin",
       "team_name": "Leeds",
-      "direction": "fall",
-      "old_price": 54,
-      "new_price": 53
-    },
-    {
-      "id": 362,
-      "web_name": "Jacquet",
-      "team_name": "Liverpool",
       "direction": "rise",
-      "old_price": 50,
-      "new_price": 51
-    },
-    {
-      "id": 374,
-      "web_name": "Endo",
-      "team_name": "Liverpool",
-      "direction": "fall",
-      "old_price": 49,
-      "new_price": 48
-    },
-    {
-      "id": 482,
-      "web_name": "Hudson-Odoi",
-      "team_name": "Nott'm Forest",
-      "direction": "fall",
-      "old_price": 58,
-      "new_price": 57
+      "old_price": 60,
+      "new_price": 61
     }
   ]
 }
