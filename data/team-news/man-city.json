@@ -1,96 +1,12 @@
 {
   "slug": "man-city",
-  "updated": "2026-10-25T10:26:00.774Z",
+  "updated": "2026-10-25T20:14:25.612Z",
   "articles": [
-    {
-      "title": "Frustrated Ruben Dias makes Man City pledge after Aston Villa defeat",
-      "source": "Manchester Evening News",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMEctdlotREFqN2N3emxJcGY2V01OT1VTa2RQaHFaQmJGcG1pTkRwYlRpOWdwNU5xMnNyY1NUWFp0czZwMzVrRk1FSGpQU2ZQbHFiVEl5aGZpRFVEdXM0dmdGTkUwdFpkbFhWWmJ4LV9yM2dmT0NzcUI5d3dqcDBzdHlZVEdWTVc3VjYyWjJ1LXR3TTNsbVFkUnVfLWQwY21zUFpwUnpGcnZJbjZDelHSAbMBQVVfeXFMTXVObHFfY0tzd0dDb1hET0FMa0NzUl9CV05VZklwUUs3MmRGUVdab1RwVUx4ZEdQSDd5WmtFVXQxN3RVTENKYWdIOE0yQi1IZUNST2wtOGExR1N2NnB1OG1tUEFaRFExUXZ5Y0pvSGVIZmRHaml6V19wb21NQmtINHlZNnQ1MkFMT0NzWWxsanFXOFRlakw3N1o1OXBXSmw4Mm14MFJpX3A2WUZ2Ql80RE1PMFU?oc=5",
-      "pubDate": "Sun, 25 Oct 2026 04:55:48 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Aston Villa 2-1 Manchester City | Premier League highlights",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU2lzVmIwR3pRbWFHeGFPU3pQLUlVTUxTZkpDemdxMFFkYjdmT0Zhb0hKT3dBQUdUbHhlWWdBTHZwUzFwaUlaUkZjRHlPME11cXZ6UTB2ZTNOV3ZTV3lsLUQ2OWJLdmVScjZnc2FqejVFUHVNUW14VUl1UlhvUHMxNnktdmNyZ0tKN3ZWNkRRajJZWV9ZWUtGTGpjUFRNNFhyUjBjOFZMUGVWTnc?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 16:15:56 GMT",
-      "category": "general"
-    },
     {
       "title": "Man City charges news: Premier League face 'worst case scenario' after 'surprise' decision claim",
       "source": "Daily Mirror",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdGJEeEE5V2E1aDNTYUpEek5udEh5d1NHVE5RcTFiZG9YOW4tSjh1VFlKbHo1bDREVEtNajBNLXA4WlpHblQzb3I0eTkxcDJ2aWxKQ3lUZk9xVlhxeU5kbG5lUW40Z01mbFdhX2xIUkV2Y09tYVNuZVdxMFZ3dm5VMVM3WUxqT1FBZ3c?oc=5",
       "pubDate": "Sun, 25 Oct 2026 07:09:13 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Enzo Maresca explains Phil Foden substitution as Man City lose midfield battle against Aston Villa",
-      "source": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTVExaGVST3hnRm9wdEx4ZExwRlVlRW9adDBnbWhnWmU4WTFGMlFkMmVtRGpHMDFSdUd5b3cybTZlRGhmMTB6YnVEMTZzcjRIS2d0d2Q3MkZRUGJBR3ZXdjV5NFpoWHkyX0JMNnFQZThWSElEZW8xb055UllERlk0SkRSNk53U1dzT2c4aWhoN1JGZzhWekxqeFVhYkpTd0p3UUdYVDlpazNrOENkSXh1TnFNczU3Sk0?oc=5",
-      "pubDate": "Sun, 25 Oct 2026 07:23:46 GMT",
-      "category": "match"
-    },
-    {
-      "title": "City make four changes for trip to Aston Villa",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQd1VkS0dJNDJycTViVjlkQzJFbGpxM1Z3d09SWnBSLXpUcmc0dzN4RGpNQ24wX3lyYl9mMFJUVHZfRFJhODQ4SWxWZkg4dGdLcEgwTjYzYWxfVkl3eHNxbVVaMElhQlIyWVp3NmpOM2VoVTh4cmtMaFR3dGxUbHE3a1JFc1FXV2syRWdEdmtqQQ?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 10:15:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Transfer Rumors: Man Utd Plot Man City Raid; Barcelona Eye Vitinha",
-      "source": "Sports Illustrated",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN2R1SHBLSWVGX2NmalVNNUNiTU5zLWgtYXZURXl5VmFvSGFOTE5kbG5oMHg1djN2NFhGNFViQXR6dUp0TmZsY2hsdDU1bm9LRV81R1ZWd2RkYm5wYm5SVUViZEhGblRDU2Y3eDFJMjJfLTFPTFdGWGh4bnZubXNQZ1VWR0ItVGJUOUx0Y0lPYlFabUFY?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 23:05:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Man City cruise to statement win over 10-man Liverpool",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5LSml0Ulp2eVRKb1I0NkctY0hPRmlRMXRTaGZsX3E1eVFoZXVtWlJJQlZvVG1udWZlWlJvc3JFd29qS0g2SjlkcUF1SVJsd0dmWk5iMmxOWEVuUTR5T0ZwaTFMV1FWZw?oc=5",
-      "pubDate": "Sun, 11 Oct 2026 07:00:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Erling Haaland's furious rant at Man City team-mate caught on camera",
-      "source": "Daily Express",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdjNwSGctMUlzaU5xR0VPVHQxTXBvbDZHaTI0b0VZbnBsSjBlWkE3S25wNEJaQ2hubWNZYW9PT1YzTlFuSGJ0MmU2Q1kzWHVCcU1vT3V3a1pkNkNFV05UcUZES1NXZWJVZFNNbEtzcXdQNkMtM1pVT1ZHVkllX0JyT3NvRGpCZEhnOGJLbzhzUktZMDZreENjcNIBngFBVV95cUxQUnlKaUxnZlJPMmxWVDJmTlJRT0Q3cmxnOVA4SDUyNXBZaExSSF93eXZPYUxXZ2ZCcTloTUhNNkFjUy1mU05DeE50VDJ6TEVFT0Z5RVhwcmRYZ2wyajJYMThJZVhaRmJZU2pwSE14dDRCSnZJN3p0NkYxMk9QeE13Q2Qtc2NxM3YwRE9aN29BTTIxYmxxbmF4ejhvblZkdw?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 17:56:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Can we read much into Arsenal and Man City topping table? Will weather impact Premier League?",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMFgxZGg5bEJyQk5YekFaT0R6dmw2X2h2QURsTEY5YXZMUDRRYXhUaks2aTVwLWJoWVRuUy12UVo3REJUZllQUUhYVzZvaUhUc0N5UWY0RjJ1aDNBdUoyVTlFQXVSUERzUWFpUW9HUkE1blE4YlAwYWdEcEhBczZZNDlUVzE3bU42enFQbGVEZEVMMG4xNE16TzNIbXE?oc=5",
-      "pubDate": "Sun, 25 Oct 2026 05:15:53 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Liverpool FC vs Manchester City live score, H2H and lineups",
-      "source": "Sofascore",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBmZVp0TWdDZmR6QWI5M1RHeF85QmFWTzZSczBwY3NzUDhfMUx3RDJpZXVJLXJWbUpXbW44VjVSUGZ3MUVWaEJLTTlDcVFfNEFjTzlSYnkzOWRfSnhwRTBzNzk1ZzJrLUpfdlhVcVY0d1htdTZhbmxaOEo1YW0?oc=5",
-      "pubDate": "Wed, 08 Jul 2026 08:50:51 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Aston Villa vs Manchester City: Unai Emery's animated response to Man City verdict question",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQW9Fd0dpNjI1S3ZFeUxONlg5cVI3dllRaVdNNkVweG9IVkk5aUNSV1BYd1U3LTVudEszdUtvS0NMMXFadmFDMXpCUjR6NGFJSUE0U3dPaWZhTXlVNVFUUHdnemhZeUlHLWxvd1IyTnRVNEczb0hMMm5hQ3o1ajg5SHFjRkEwSko5cDdfRElJRHdpZnV6WHNHUUQ0dmlyUGJfUjMzMW9DVVdQUXAxZklsSk1vdGVFOHFaQ0xZcWg4Ty1Sb3E1andZa0h5V0FqT1FlbUx5Y01R?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 15:20:21 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Aston Villa 2-1 Manchester City | Highlights",
-      "source": "beIN SPORTS",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMjJwbjlfdUZNYmgycm4zbnUtN2JHeEVVMjVmYVZsVTV0XzZQXzVUc2ozNTd2cHc1N0pGUlF1d25tYUVsb2FWdDF6WnA4NFpxalI5bGdpQUljMi00ZU1kV0plUEl5U3lTZFFRQ1l0cm8xMFhQUkVEMlR5Mi05UkVTdlhnS0xEN1FFLVZPRmJvbG1VNFBWS1BRWmthcWxnWm93aWVicDl0MlIySWlKMng2V2w5WlI4R2lZT1ZyeGdUOFlWcWpIQ2FFSWZtRkxxbnU4LWhBSHkyMUY0SWkxanpKMF90WmhYX0dKQnlVUEJVWQ?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 14:13:30 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Man City facing four punishments as furious Premier League clubs set to be disappointed",
-      "source": "Manchester Evening News",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTlNyUUNwRmk1VndOZ1lCeFc0b3RyWlNNbVRicHZXaG40Ym1yQ19ld0JIT0JLOEwzLVdTQ3ZxVmpoTFZoZkswWGJuNHFMNUw2T1FKNUtvM1g3LVhkdVgxWl9SLVFadnJxMy1ZM2dyc2lvMDIxdVRDMnVHRkVwUG4xOVJTQXRrMkw5U25URm94b3ptRmtsZzdZT0JGeDF4N0lPVlk2RWdlVnlVWVdWZUE?oc=5",
-      "pubDate": "Fri, 23 Oct 2026 09:13:00 GMT",
       "category": "general"
     },
     {
@@ -101,10 +17,94 @@
       "category": "general"
     },
     {
-      "title": "Why Did Unai Emery’s Aston Villa End Enzo Maresca’s Manchester City Unbeaten Run in the Premier League?",
+      "title": "Honours even as City draw with United in Manchester derby",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdmxiRjRETmNMOG9SdG5VTFFhQzExX0ZiY19OU2pGdFhsVFA0bE1tMHYwbV9fVldWcTVxVGtQLVdjcGZiaFFCZkNaSHhtRzJJY0huVndkZWQ4U1pZeGwwUjN5U2pIWjFpd2g2OXZQdXRwYVBlQl9ULXJILWh0NkxEeWpaWkxac2xKNjR2T2R0M2czUFVURFdUOW1PSWtDS2NNNDBz?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 18:58:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Man City charges news: Punishment fear as Premier League clubs might worry about outcome",
+      "source": "Daily Mirror",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPejJXcTBoUW1fM1BOZjIxLWJtTWJ1dVlFWnRzT0pIQnVjOFVkRGQyZ25zZHJoWXdERmxkUU50bFkyTmNGTHFTalc2VzczSUptWG54OVlGM2sxcjAtNEVfY1ZYVV93dk03QXBIQ29ZX3Q0d1puVEtpQXd0QUVzS1paUjV3WWVPR1F4ZW84?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 08:03:28 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Aston Villa 2-1 Manchester City | Premier League highlights",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU2lzVmIwR3pRbWFHeGFPU3pQLUlVTUxTZkpDemdxMFFkYjdmT0Zhb0hKT3dBQUdUbHhlWWdBTHZwUzFwaUlaUkZjRHlPME11cXZ6UTB2ZTNOV3ZTV3lsLUQ2OWJLdmVScjZnc2FqejVFUHVNUW14VUl1UlhvUHMxNnktdmNyZ0tKN3ZWNkRRajJZWV9ZWUtGTGpjUFRNNFhyUjBjOFZMUGVWTnc?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 16:15:56 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Erling Haaland scores twice as Manchester City beat Ipswich Town",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE96SVVGUXBqQmFtaExKczBidzdZSGs2TUI0U0dwUDB3Y21va3loREZTdk9WUTN5TzkxRW1kVXp6MnQtVTdXU2lrYm9PblNzUzhfekMwaDhMaThMa1BwVUJyNlM1a21kdw?oc=5",
+      "pubDate": "Sat, 17 Oct 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Nunes, Ndiaye, O'Reilly - Man City injury news and return dates",
+      "source": "Manchester Evening News",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdXFJX1otYzJ5Ql9YdGstMDhGVXIzZ2JwX3BFXzJQcmFpNVhfSjRSVnB4dUtHamJJYkhYUlJTczhXamk0Q0ZxSzFkaERXLUt3Tm9BaGQ3c2EwcmhzdFBGeWNQZXRhRGs1aThsZ1RwdC1FejMzaThtXzF2ZVZ0Z1pFelFpa01XeUE0dUhFZFN0ZzJGY2RwWU4xTi1WeTZXUEw2WnlwZS1aSkZlUmfSAbABQVVfeXFMTzdXRThrakRTSzJ4OGZfWWt5SnozN1NBUkltcnprNmxzdUZVMWVwSGozRUE0Y2hxTUpmNzVaVzgxdHN1c0F3emFZUWtPZFZNY3g1bjllWGhvUFl4WGM2cFJLQ3B5LXJYQTI5UkZmVVAydjFzQWdCZ1c4dklZaXE4OWhueFRiY1dxY0lWZmFNQV9ZZVo5eWRFVDVxQUFKRTE1ak4zekhjMm14U1lsam5aREM?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 05:05:39 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "Erling Haaland's furious rant at Man City team-mate caught on camera",
+      "source": "Daily Express",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdjNwSGctMUlzaU5xR0VPVHQxTXBvbDZHaTI0b0VZbnBsSjBlWkE3S25wNEJaQ2hubWNZYW9PT1YzTlFuSGJ0MmU2Q1kzWHVCcU1vT3V3a1pkNkNFV05UcUZES1NXZWJVZFNNbEtzcXdQNkMtM1pVT1ZHVkllX0JyT3NvRGpCZEhnOGJLbzhzUktZMDZreENjcNIBngFBVV95cUxQUnlKaUxnZlJPMmxWVDJmTlJRT0Q3cmxnOVA4SDUyNXBZaExSSF93eXZPYUxXZ2ZCcTloTUhNNkFjUy1mU05DeE50VDJ6TEVFT0Z5RVhwcmRYZ2wyajJYMThJZVhaRmJZU2pwSE14dDRCSnZJN3p0NkYxMk9QeE13Q2Qtc2NxM3YwRE9aN29BTTIxYmxxbmF4ejhvblZkdw?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 17:56:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Transfer Rumors: Man Utd Plot Man City Raid; Barcelona Eye Vitinha",
+      "source": "Sports Illustrated",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN2R1SHBLSWVGX2NmalVNNUNiTU5zLWgtYXZURXl5VmFvSGFOTE5kbG5oMHg1djN2NFhGNFViQXR6dUp0TmZsY2hsdDU1bm9LRV81R1ZWd2RkYm5wYm5SVUViZEhGblRDU2Y3eDFJMjJfLTFPTFdGWGh4bnZubXNQZ1VWR0ItVGJUOUx0Y0lPYlFabUFY?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 23:05:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Can we read much into Arsenal and Man City topping table? Will weather impact Premier League?",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMFgxZGg5bEJyQk5YekFaT0R6dmw2X2h2QURsTEY5YXZMUDRRYXhUaks2aTVwLWJoWVRuUy12UVo3REJUZllQUUhYVzZvaUhUc0N5UWY0RjJ1aDNBdUoyVTlFQXVSUERzUWFpUW9HUkE1blE4YlAwYWdEcEhBczZZNDlUVzE3bU42enFQbGVEZEVMMG4xNE16TzNIbXE?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 05:15:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "City make four changes for trip to Aston Villa",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQd1VkS0dJNDJycTViVjlkQzJFbGpxM1Z3d09SWnBSLXpUcmc0dzN4RGpNQ24wX3lyYl9mMFJUVHZfRFJhODQ4SWxWZkg4dGdLcEgwTjYzYWxfVkl3eHNxbVVaMElhQlIyWVp3NmpOM2VoVTh4cmtMaFR3dGxUbHE3a1JFc1FXV2syRWdEdmtqQQ?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 10:15:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Aston Villa vs Manchester City: Unai Emery's animated response to Man City verdict question",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQW9Fd0dpNjI1S3ZFeUxONlg5cVI3dllRaVdNNkVweG9IVkk5aUNSV1BYd1U3LTVudEszdUtvS0NMMXFadmFDMXpCUjR6NGFJSUE0U3dPaWZhTXlVNVFUUHdnemhZeUlHLWxvd1IyTnRVNEczb0hMMm5hQ3o1ajg5SHFjRkEwSko5cDdfRElJRHdpZnV6WHNHUUQ0dmlyUGJfUjMzMW9DVVdQUXAxZklsSk1vdGVFOHFaQ0xZcWg4Ty1Sb3E1andZa0h5V0FqT1FlbUx5Y01R?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 15:20:21 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Aston Villa 2-1 City: Two-minute highlights",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVlVjS2pINWprSGNxbnN6dnM5czFPUDVRQW9wd0l4R1pIREs1aUswc3FVckRmd2NkOUkyQUhvdzVMX081WFpfT3VEaUJvTHkyN1hOUU9XRW9WVkcySWJxZDFQclJ2aGxDdFpWenIxS3RUc3lpaHplY3ktbXBvVGFkLV9YMDdCVEVhU1lKRlhXTXFFSDQ?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 15:15:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Aston Villa 2-1 Manchester City | Highlights",
       "source": "beIN SPORTS",
-      "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxQZDRPMnZsdFlYU2RyWWN2clJCOFRrZEdNZDJQSGdWM2RNMk43ZmNlYnBOSDM2bTUxaUkzSUtXMEhPQnp2U3ltdXhJeTlsVWNGVFFqN2VnVExVdTNyMjRvc1JRT3IzcGdlbTMwWVY5bkpYMjFLa3FXSUpzV0NnWDFySTZnSEcxSUU5S3c5Nm95QUFVaGl4blM2TFpPUHFsbzMxUGJ2X2xpcjVsd3lOaUxFMDA4SmVJeWkyTGVtbktvNUg5VGdmY3dWMGZ2d19IZm9LNWpNODBrNVR2TXd4UkMwLTQ5VGlMdTExN212STIycVdiN3ZSQ2NmVU1leXA0WG1lZWxwNEk4Umg?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 19:05:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQMjJwbjlfdUZNYmgycm4zbnUtN2JHeEVVMjVmYVZsVTV0XzZQXzVUc2ozNTd2cHc1N0pGUlF1d25tYUVsb2FWdDF6WnA4NFpxalI5bGdpQUljMi00ZU1kV0plUEl5U3lTZFFRQ1l0cm8xMFhQUkVEMlR5Mi05UkVTdlhnS0xEN1FFLVZPRmJvbG1VNFBWS1BRWmthcWxnWm93aWVicDl0MlIySWlKMng2V2w5WlI4R2lZT1ZyeGdUOFlWcWpIQ2FFSWZtRkxxbnU4LWhBSHkyMUY0SWkxanpKMF90WmhYX0dKQnlVUEJVWQ?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 14:13:30 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Man United",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPb2ZpMEIyR2xCbjQ3bmJ5eS1YenZkQXZPSVRoNzdsaEM5aHNPcW56a3RZeE9OVGxmTEIxSFpaMFFlRmtZT3BuWXhrOC1FZVE4c3hLbU94cGlseEJjTzdINXFXcWVoQVZwZTJROW9wUzRMRDY1ejJKWjZ2QlBub3lBZkJGQTZ5d0hXcGdoNWEySUx4MzgwaDluQzU4Wmt2aXdScGc?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 20:03:04 GMT",
       "category": "general"
     }
   ],

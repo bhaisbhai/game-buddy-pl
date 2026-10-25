@@ -1,12 +1,40 @@
 {
   "slug": "southampton",
-  "updated": "2026-10-25T10:26:00.774Z",
+  "updated": "2026-10-25T20:14:25.612Z",
   "articles": [
     {
       "title": "West Ham United 2-3 Southampton: James Bree scores stunning goal in Saints win",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBFOWNvS1dNZVVkR09xYXE4R0tKRUh4cDBlQl9JVzRwdzNpcjZxM2dRbDZaVE9CSEsxS29zdU8wWkFNX1RsV01GVktGY1h5SHdvdi1JMVFUWGJ6NmtyeEhFVExSVEZwQQ?oc=5",
       "pubDate": "Sat, 24 Oct 2026 17:28:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Extended Highlights | West Ham United 2-3 Southampton",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOSHFtU3lBV25FbWZzUWJCUzJ4SUZqZ1RFbTFlaDNSSFNXR1R4X0VHNlpQZjNHUENidC1odjZNd0l0RWhYTFBiRlM0Q3BiS0hEbll5dWsyNGZwNzJNNHRnUDFaeV9UMWpiQVB0Z0FHVUJCVFlLSUZoV05uVlFfZm0xdXM3NWFJOEVWRXBFQQ?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 09:02:49 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Eckert 'quite positive' Saints duo will return from injury to face QPR next week",
+      "source": "Daily Echo",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYnM1c0o4VFN5aDM0Y2dDN01SUFVuemlCeTVJalh1cDZGVmpmYVpWOGpMTUJPVHJ5UXFUNktLUTlXRG9tXzNfWlhVZFFBUVpOa2k3SUxlQjhVUjNHanRyU0o0d3BTanBNLVQ3RHlOOTBMc1F4NmdTNDQ1eEQ1MldaVWZmUXFPeVdTTWlOVldnZkd6NG1iYVlOYU1FWmw0akt5bkQxUnJB?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 17:25:00 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "Saints player ratings at West Ham as Peretz among standouts in statement win",
+      "source": "Daily Echo",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSTkwWXVRWFAyUmZjekpRbFlrWm9TN2RlUmEyV05KTTRqbnlGek55ZkVzeDlOOEhHb0pxQTVKNmRPZWRJQTN0MG9qV2VaenJ3YVZmT2VRa0NsZktUdm5BZ2c3bzFaUlJMekdVbXZHLTNEdkV0YlZ5eXA2dzNGOGhJV1J4LW84SWZ3MmxHQkRNaDd5YVA0TU1tY0lsRWpqbGpQMkQxNHpzLWE2WGtCekx1QQ?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 17:19:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Leicester City vs Southampton: WSL 2 stats & head-to-head",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1EdGZVRVZtX3hDZnRBTnpFLWhlbUZPMURKN1NNRGdDYlVqUjVWMXFvZ0ptdUVYVFhaYVN6TmhkME5JMkl1TEJxaDN1dFJPd3d3M25mdDR1dlJ1Rl9naHR1dmZIcGR0UQ?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 20:00:01 GMT",
       "category": "match"
     },
     {
@@ -17,18 +45,25 @@
       "category": "general"
     },
     {
-      "title": "West Ham United v Southampton",
-      "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVXdsMEROTUJ6NWtRaVlQd2VFTFJNN2J5Vlpuc3NrQTZrNThxT2RCVUp4Z2habVZQUmNVWThHdV91OXFHQ2tEbVFYN3F5bUJIM3BScjNaZUkzSmVXNkFXSTZCbWduc2NYMlRSQVRPb0w3QmhFYWF0Zm9MbXI1cWtBXzNJWXAybXJGcndtNHV1a1NvMDhFWG5LdFB3X05DVXNEQVpqa1VzRk9Tdm1idDJYWHNHcGx2alU2dnc?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 17:27:00 GMT",
+      "title": "The classy Southampton star who enjoyed West Ham win even more than Lewis Dobbin",
+      "source": "Saints Marching",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQ3g3NmozRUJpZ1JMaGhnQVJEX1dUVGhGVXU3bDB3cTNuQ05PcmhWc1UzYlppMjFhSUJSemlZdUhCR3JwMnl0ZjlhSTFHZzI4RGJsTDNJWWJ4Q0xuYmFFUVFwWjNCWU1kbzdUVHU2ZlppYXplRm5qbnhHbzZiS0s0QkU2UnJIWnJIUThmY3h3blZMdi1rT1k1eW1qRTNxVjZZWFpxcUtPRnBMVXc?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 10:00:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "'I'm not gonna lie' - Ward-Prowse says what we're all thinking after beating Nuno",
+      "source": "Daily Echo",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSlR0cmxCRVZoVjdSUUNJcHdLV3pYSWQxNGpUVkoyeHB5NFl2dU9qSzN2bWtKVGlxTER5Q0t0c0s4enNVWW1uNHZ2OXVobm5KQUxSQkNpQWc5Z2gwcHJsTFpOOFJwZFZ5bFR2Y0d5X0dYY1FCRHlaaW1xeHI4ZURnU3g4cUhEQ29WXzg4SHQ2Y0RfR1NqYnRWM0hCYjRKbUVpYVZXazZiYTlyZEFNZ1pFd0VB?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 10:48:00 GMT",
       "category": "general"
     },
     {
-      "title": "Eckert: Brave Saints \"came to win\"",
-      "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOODhWMHVCbXk4RXdPMl9pMmNxYlNPaTZLdnZHMmN4Zm4xWGUzLXdsenJwYjFKM3VUazF6R3VCVExBYkctSU1fSU5EMG5ROTJYOUNkSDdLVmQzeDhjWlpGb1hkS1l4ZEkxTHNJRnc5Wlk5UkxCVEZQRFVwWDNtTnFWanRLSQ?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 18:20:00 GMT",
-      "category": "match"
+      "title": "Saints predicted team to play West Ham as key duo likely to miss out with injury",
+      "source": "Daily Echo",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONGUycmk0MUFLdFl4cUwzRy1kRUtsVWp4V25VWDUtYlY2bXFLSGdhYUwwRklYYnlnN3B1Zk1QNS1kWXF3alRSZGdfenNqbEZXTnZZN3gyQW42RmJ6ZkhZSDB2WlUwUXY1RWJIWjc3VmN4TjFQVWNlYnU3SDRHUDdreUZnanpINDRjSDMxYUhnU1dPQUxzTUloeDBOVQ?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 02:30:00 GMT",
+      "category": "fitness"
     },
     {
       "title": "Starting XI | Taty and Walker-Peters return for Southampton",
@@ -38,17 +73,17 @@
       "category": "general"
     },
     {
-      "title": "Stephens: We've set our standard now",
-      "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPc0ZjSTFJMFpZNnkxSUoxN0RISDJJcjRJaWcxdFdzTzFXQWh5V0pZZEVLTkxiU1ctVmx1bGJYZElhRGRNZ1ZVc0ZWeS1QS19DNHczMzNtOTFVSm9rYXNpMnNTWExESlFQeTRJdFBQZmR1cEJ6M09rdlZ5Q01WRUdVMGhXV2M5Zzg?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 18:10:00 GMT",
+      "title": "Eckert explains defensive shift as Saints back-line face toughest test yet",
+      "source": "Daily Echo",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMkFjeGV5akpBVk8zWmtxNi16QWdpWGxQTjNjM0p3ek5rM2xKZU8zZVFXeEw5UmJQSTlFN0hFZXdZNEN2VU9hUG81QXdHUVZFaGNZZEUycGRHalFodTR5MGdpVjI5a211ZmFWeE4zRWpyWHNSLUpSOXlZZ2ZGUlJPYjFEZFlZcUZCdVhxUTZJTTR1OE5Jd0xkRmhmbUozakZaUGUw?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 21:30:00 GMT",
       "category": "general"
     },
     {
-      "title": "West Ham United v Southampton | All You Need To Know",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVFNYdDR1OTBtM21oWU9tTmFMcVdGSU9HckpNS2taZUpXWVZIeEhUTWNhRExzMEpRMWdjZl9NNTJBV0p4ZGFnUmpyaGJhbWhINFF1UDl1a2QyWG9fX2loXzZMWHhTRTg0NXpWRlZKaXVvV0t2emtSUnNWejA4QldVOG1WVE5SZUcyX2FN?oc=5",
-      "pubDate": "Thu, 22 Oct 2026 11:04:03 GMT",
+      "title": "West Ham 2-3 Southampton highlights",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPbkRaMFJRaU4wMHRtTFdxWEs2WHlYb3FtNk5sM2gxVzVNNHF1el9uak96UEFRQ2xSaV84VkxRb2hVYlVycGYyQkFhZTlPTjB2U2ZNRUVLS25EZF8zeEh1bGVhdHZqV1AySTRwYjROUkJ5WGxBMXp0aVZyLURHSlBKZjNjcDFzY0JGVEtLLXlDbVZ3X2NKTGNQdW85UXNPWFk0YmFOWXlQMGRJV2MwdW5GWGkyMGZ5ZjhjWGFaaVNsX09wdTBCbXhsRGFZV0ROWkkxTWluZ3RvREJEUnRSQ0ZTNg?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 15:55:25 GMT",
       "category": "general"
     },
     {
@@ -59,52 +94,17 @@
       "category": "match"
     },
     {
-      "title": "Extended Highlights: West Ham 2-3 Saints",
-      "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVlM2S0JmT2pndzhOeXJ3ZE0tN09TSFJEd3pyMTFFVkNlZ253d3l2UmNSMWtHY1RVNXoydzZhRHNzZjJ5TEpxUzdfMWZFdFFlaE5icDZaaU9YemtwXzhidkZ1Z2l1eVhUYXBWLW1MdFY0UFBac0RxNVNZdlVTRWVNcC1tVWs?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 21:09:05 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Downes and Larin \"doing everything\" to make Hammers clash",
-      "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdzREcHJ4dC0wU0dSV004WjliejJZTUJmNjJoWEdvcExnU1g0elRaaXNraW9kNHJfUW1KODdkT2VnYW5iWU9IbGhqOVM1b0trX2xzd25SczlrYXZFdnc2Qi0xTW1xQ0todHBUaDc0RXlLeW0xZ056S1pCcUl2YkN3Mm11UEJaSFhSSUFmelRKOHNPUFYwbllNVlptMHVxUnpQdWVR?oc=5",
-      "pubDate": "Fri, 23 Oct 2026 07:06:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "U21 Report: Saints 1-1 Juventus",
-      "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxORmQyNDJ6LUduSnIzbk4xZldscTdWMXJ1dlJyU2NTRGJRT0tYbjJDM3d3NUtac3ljUEx2c1E5UzZsS3ZoRlFkZ0tIYl9BTzJfVnM2Ny1PbExxSXMwaGlJV3UzVkRXV1RSZjFxazNDWWF2bmVHTldHUktQZVBTWUpwRlBn?oc=5",
-      "pubDate": "Tue, 20 Oct 2026 19:57:00 GMT",
+      "title": "Match Report | Unbeaten run ended by Saints",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE12N3hHUW91SUZWYjJsdXoyT2JzR19RUjQ0WC1nWFhFWmQxTkRNZ2RlRy15Y1diczJmODBkQjRrelFRR010Qzl6aHY3UFY5OEoxdjROLWlpcllYdl9od3lGbUU2X2JLZEpDbkVJZjJhNnhyckJfX013dHdoQ0Njb2s?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 16:07:47 GMT",
       "category": "match"
     },
     {
-      "title": "Live Video: West Ham United vs Saints",
+      "title": "West Ham United v Southampton",
       "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdURVZFNvUDB5UENpQU1ERnFDTzVrWVg0U1lxbW5vVFRjU0hYQ3dwNVBtM05OeXRJOVJrUmZDMWJVN0RiclJmTW1fOWhMejVFcEZzcnBJYjVDWlNkSGVpOEhFWVIxbEJsbTZGYU9LSDhQY3MzdWZ4OElYRnpaYUVCSEVjVUlhaTJyMnFfNURQWQ?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 12:37:57 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Match Pack: West Ham vs Saints",
-      "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVlJ1bnEwSGk2ZVYyUGhoMk1rbnhiR2dVWURzbjluTEdpYVdUUWJBdEljbXBFSFcwcFNhTFUxelRXekR3NGNLLS1vc0JqNGE2ZVViNkxVYXZNOURwZnBtRVAzcWVKM2hXcHNPNmtTNHVzRmlTTTBjQl9GN0d2YmQ4QnFhQmxVUFU?oc=5",
-      "pubDate": "Fri, 23 Oct 2026 14:00:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Women's Subway Players Cup Report: Saints 3-2 Crystal Palace",
-      "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQaFUwSXNpLTRKamVBWDU0Uk9vNklTQTRySFNwOVdYRk9YV1pzVjc0OWN3VENfQTAyRWNUYno4TmQ1c2hpNHlKWUFNckZ3RkEtVjdOSjhlaVJrMWIxVTJFVDBfb0ZDM3NtZzVhc3RFckxUdGZNX0t6SDg1UW1DcC1UTE03MFRiNkVSRVVaV0hxN0FPSDBodWRFeWI5YUdTM3pJYVQ3OGI4OA?oc=5",
-      "pubDate": "Wed, 21 Oct 2026 20:15:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Sheffield United (A) sales windows begin",
-      "source": "Southampton FC Official Site",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPV2w5NDdhc2NqWGhNNExiQ2wwRDVMcFNnQjZqdVRaQnkxb25uMUNnc25VZnVyLTQ2REE3LWZBNC1xN0NmeFh1SDNzNkZ1Ty1QRXg2djQ2bUNPbUlMWFpvRkVDU2ZudXZhcFlpVTU2cmwzME1BcGtrMF9QTEVVaHRBVUtaWnd2djlTY012THp2Z0FZVFk?oc=5",
-      "pubDate": "Wed, 21 Oct 2026 08:30:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVXdsMEROTUJ6NWtRaVlQd2VFTFJNN2J5Vlpuc3NrQTZrNThxT2RCVUp4Z2habVZQUmNVWThHdV91OXFHQ2tEbVFYN3F5bUJIM3BScjNaZUkzSmVXNkFXSTZCbWduc2NYMlRSQVRPb0w3QmhFYWF0Zm9MbXI1cWtBXzNJWXAybXJGcndtNHV1a1NvMDhFWG5LdFB3X05DVXNEQVpqa1VzRk9Tdm1idDJYWHNHcGx2alU2dnc?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 17:27:00 GMT",
       "category": "general"
     }
   ],
