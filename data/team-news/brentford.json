@@ -1,12 +1,19 @@
 {
   "slug": "brentford",
-  "updated": "2026-10-26T22:09:03.732Z",
+  "updated": "2026-10-27T11:17:51.742Z",
   "articles": [
     {
       "title": "Hull 1-1 Brentford - Oli McBurnie and Dango Ouattara score in draw",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFByc3I5MGhDNnFJdXZ6c1VZZ24yYjNJMU92elhPZ3ZZLWFkcm1tNFM2eHQzdEJwdUhRbS1NVVVZNnJoS3pZdnl2RWJONkV6bTRTWndpTlpPeW1rOXhGQzUzVFFITVpBdw?oc=5",
       "pubDate": "Sun, 25 Oct 2026 15:58:14 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Brentford Loanee Excels In Big Championship Win",
+      "source": "The Stacey West",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQV28wVUdZTC1hZ3g2WE05Wm5BRGNXUllDRVdnaHhoQTAxdU55NzZiNElxbEJkTG5GWUJnLXNSR2U1Vy1nUTZyN1BvLTM1RElHaGppU3o5WU9WTm1QV2tDRFBSdnRRU0hPRFVwNmlJY0R4T2pkN2oyd25HNnJyVExPWTUyTGw0SlZGblE?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 05:22:33 GMT",
       "category": "match"
     },
     {
@@ -24,9 +31,9 @@
       "category": "general"
     },
     {
-      "title": "Brentford 3-0 Chelsea: Premier League action as Bees sink Xabi Alonso's Blues - as it happened",
-      "source": "ESPN",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNWRhdk1rQURQRkhicTRnaG9VNjBnSGxRZVlreThKWFJfVlJxOFBJNlcyczF2Vkh5b0VzRzJCclAxUkQwV1ozQzl6YThpWUd4TW90SENCdzFUV0xWSTdDeHRtVEd5RjhsT0FlX1FQc3dla3Z6cU9KNWhITlZqWEZIWlJqZnhCNGprUHc5bVZjVUgyd196amRYSml3YmxqMEdKbVl1MVNGX2lvSUlTWWNZMGhSd2RkYzE1S2FSaVNNUnV6bm1FWE9LQmJNMUhvR1RrZERB?oc=5",
+      "title": "Brentford humiliate Chelsea and give Xabi Alonso a brutal lesson",
+      "source": "The Telegraph",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdEVIZWt3NzVhS1dibF9va2dwV2ZZYTBDbVpNZkdsNzZPby1pa0RqZjVZa2FDeDFBbE9ac0t4YTZfamFDRGNrRmVLRThjR3JEYzQ1RTgzYnR6NmtsYlF3QTd5eENkYWFLeEc0SE43V0EzeXlXbVV6allacy1OSk1QeFJzbnVPZHpXM3c3WFN5bmZZbkhPbGRkeURFN2hqeHB5Y0dsSzVRRTNkRms?oc=5",
       "pubDate": "Fri, 18 Sep 2026 07:00:00 GMT",
       "category": "general"
     },
@@ -52,13 +59,6 @@
       "category": "match"
     },
     {
-      "title": "Hull City 1-1 Brentford | Premier League highlights",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcUJka0VvSm1UZm9GV21NTWw4U19XZmo3VV9xNlBERnJOek42NU5kZ1RrQVhnYzBaa0pmcFNuOHQzNXZzSFhSNUVMaHZ4MWcwRXd3aG1ic2hpZWE0M0VCaFJIRk1ZS3BBQ3hqbkFYbDhEV0dHWEJIaldNLXQ4YVQtenR0MWRmOE9pRTBnd2NVN1RCZ2tCWkZDQUlLNWMxNE9BRW5zWENyVmdyWmVwTW1zX2xYOVd0MXM?oc=5",
-      "pubDate": "Sun, 25 Oct 2026 16:12:16 GMT",
-      "category": "general"
-    },
-    {
       "title": "Bournemouth 2-2 Brentford: Cherries still winless in Premier League",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBhX3JjTlc1SWpVTnphWUh5cFNtRUd6WElldEw0MXRPWDYySHY4cWRwaTVhNGg2QUhoX1lNMXkySGlHaU9SVGpYZUxXQTRkdC1iaGNWSXVtc2t6TjJpY19mN0VIdXZwdw?oc=5",
@@ -66,31 +66,38 @@
       "category": "general"
     },
     {
-      "title": "Superb Brentford beat Chelsea to maintain unbeaten start",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBGMlFONHJzSXRLNHlCLUhiTF8tU2dnNVB0Rlg1TlNzTmhVdTNMbEdsaTVYVmZNMWlrQ2lINFJtaFVPUlMzVDRkZXNwS0o0VVpONzB2Vjdlb2c5cnFRRnp0SU9rRlU2QQ?oc=5",
-      "pubDate": "Fri, 18 Sep 2026 07:00:00 GMT",
+      "title": "Hull City 1-1 Brentford | Premier League highlights",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcUJka0VvSm1UZm9GV21NTWw4U19XZmo3VV9xNlBERnJOek42NU5kZ1RrQVhnYzBaa0pmcFNuOHQzNXZzSFhSNUVMaHZ4MWcwRXd3aG1ic2hpZWE0M0VCaFJIRk1ZS3BBQ3hqbkFYbDhEV0dHWEJIaldNLXQ4YVQtenR0MWRmOE9pRTBnd2NVN1RCZ2tCWkZDQUlLNWMxNE9BRW5zWENyVmdyWmVwTW1zX2xYOVd0MXM?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 16:12:16 GMT",
       "category": "general"
     },
     {
       "title": "Sunderland set for Carabao Cup rotation, says local reporter",
       "source": "Brentford FC",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxON3c3V0dhWndaemRNdGlvdGRia2FiTkt2azVYRUdVV0RMQnMwVDdjaVFWVXhOeDB6ZWpVa1JqcU1zRjlNQlJMSlMwNnlfaHpkLVp5VzVTOGJPZkVtRnRjV3ZVMU11NEJIeFVORTVlN1VmNlFFYXBLRHFPZU9kNVFfNTlCb29iSk9pRTQ1M3pWM1lwajNM?oc=5",
-      "pubDate": "Mon, 26 Oct 2026 20:03:51 GMT",
+      "pubDate": "Tue, 27 Oct 2026 10:18:35 GMT",
       "category": "general"
     },
     {
-      "title": "Analysis: Constant threat Ouattara scores in Hull draw",
+      "title": "Match Preview: Brentford Women v Ashford Town",
       "source": "Brentford FC",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY2c2VC1Wd1ZoZXVNVzNUcml2eThiQWJLRmRYMGpjOFdBd2x4X1BOUF9KdktVOUx3azdaTVBDUkZSX3dxbnJhMUFxdjBZSXdWWWkxb2V0bHBIelRvVUdQRkJOckVIb1Y0VE9qblBNa1dDTTF1QkV1cXM0c1BoWm5pTmppakVQQ0lqQkxMWWlEMXZrQjhkZ1dzeklqSnhDUUk?oc=5",
-      "pubDate": "Mon, 26 Oct 2026 12:17:42 GMT",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRFFZMmtqUFpCQ1pCNFZkZ1U3Q3h1TjNXM09vTy1rcWloUk1zQmhPS1VqVHhRRWxWNnJIRkZHMFFOLV8zRzFXWUZRR3pkNi10blpjLU9xdy03VHZsUWk1azhLSlNveFlsQkxVckFXQ0p4QTE5RmJFRk9hdkZzWjdvLVNucmdxSWR3ZEEzZHpIQWFHN3Z2QWJCMlZ3VFQ?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 10:07:58 GMT",
       "category": "match"
     },
     {
-      "title": "Brentford Women v Dartford Women: Match Report",
-      "source": "Dartford FC",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaENNVWRiUkd3Nm93N0t5STdUYjR3dU84bGJvckVFbUhESDc1UkRkOEdsSDgwSHoxblVrMnliWTV6YVRHUzZiX1FJTnEwbVU5ZjV3Z3RlblpjU3RMNF8tMmgxZTVObTdOcHRXMjFQS3J2SkJoUGV0T0R2cXctTFVwVVhvZw?oc=5",
-      "pubDate": "Mon, 26 Oct 2026 08:53:03 GMT",
+      "title": "Hull City v Brentford",
+      "source": "Brentford FC",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNT2RZQlJmM28xRnM1dmk4OHdwbnlVYm5yc190bzlSanJpQzJ0VUlLbXhrQ2JWSzZwWUVUekdiWTFwdVdXeG1wVHR0bkJMelBNZWxMSm5laFRvOFI3WTFhYXJxOG9SVU0yRVJ2dUg5OHN5YV9uUnlsWXN2RHFWQW1UYnFfa0w5Y0loYXNuLThaRXA5NWs?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 16:33:22 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Reaction: Sam Saunders on Bournemouth win",
+      "source": "Brentford FC",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUHkwR29vZzhoUDFrb3BqTWgxOUYzbDFUMU8xUW8welR2Tjd6TU9IVFlObnRBZEcyeEhOZzdWR0xrR1c5UWJ3bTBNSHBMWUdtc21mV2FyWWw4SWNkR1VqeTlFc1Ryc1A1c2NWYmJibF9nS3cxZWhiUVNZS3ExcXg3NVl3X1FUYkUydFlyakJRV3N0U0p3a0E?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 23:37:58 GMT",
       "category": "match"
     },
     {
@@ -98,13 +105,6 @@
       "source": "Brentford FC",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUGhhRVd1ZHNGRXN4TWFJd1F6aGJJV2hkalpuZXg3NDJGY0ZaaDBRN2tBX2YycVhxNy1wa0F2RzJlSVZzZ21DREtvM21mN2FtSXc2bFdlaTZfT0U3MjNZdXdPYUxDU1F2STZLZGJ1ZmlWRTBJdFNLOGtoaVFXS1N5ZE9oU3M4bGN0RnU5SktiYTd0QmJmR2NKeUlMTkJXeDBCdFE?oc=5",
       "pubDate": "Mon, 26 Oct 2026 13:17:42 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Hull City v Brentford",
-      "source": "Brentford FC",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNT2RZQlJmM28xRnM1dmk4OHdwbnlVYm5yc190bzlSanJpQzJ0VUlLbXhrQ2JWSzZwWUVUekdiWTFwdVdXeG1wVHR0bkJMelBNZWxMSm5laFRvOFI3WTFhYXJxOG9SVU0yRVJ2dUg5OHN5YV9uUnlsWXN2RHFWQW1UYnFfa0w5Y0loYXNuLThaRXA5NWs?oc=5",
-      "pubDate": "Sun, 25 Oct 2026 16:33:22 GMT",
       "category": "general"
     }
   ],
