@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T08:42:21.180Z",
+  "updated": "2026-10-28T09:22:06.364Z",
   "snapshot": {
     "1": 62,
     "2": 49,
@@ -165,8 +165,8 @@
     "162": 47,
     "163": 45,
     "164": 52,
-    "165": 79,
-    "166": 67,
+    "165": 78,
+    "166": 68,
     "167": 55,
     "168": 50,
     "169": 45,
@@ -379,7 +379,7 @@
     "376": 50,
     "377": 65,
     "378": 44,
-    "379": 90,
+    "379": 91,
     "380": 74,
     "381": 50,
     "382": 45,
@@ -411,7 +411,7 @@
     "408": 50,
     "409": 45,
     "410": 49,
-    "411": 157,
+    "411": 158,
     "412": 48,
     "413": 45,
     "414": 40,
@@ -428,8 +428,8 @@
     "425": 40,
     "426": 117,
     "427": 79,
-    "428": 79,
-    "429": 69,
+    "428": 78,
+    "429": 68,
     "430": 54,
     "431": 57,
     "432": 55,
@@ -504,7 +504,7 @@
     "501": 50,
     "502": 43,
     "503": 50,
-    "504": 51,
+    "504": 52,
     "505": 45,
     "506": 44,
     "507": 45,
@@ -581,7 +581,7 @@
     "578": 53,
     "579": 54,
     "580": 50,
-    "581": 54,
+    "581": 53,
     "582": 54,
     "583": 49,
     "584": 53,
@@ -673,84 +673,68 @@
   },
   "changes": [
     {
-      "id": 15,
-      "web_name": "Ødegaard",
-      "team_name": "Arsenal",
-      "direction": "fall",
-      "old_price": 68,
-      "new_price": 67
-    },
-    {
-      "id": 68,
-      "web_name": "Tavernier",
-      "team_name": "Bournemouth",
+      "id": 166,
+      "web_name": "N.Jackson",
+      "team_name": "Aston Villa",
       "direction": "rise",
-      "old_price": 63,
-      "new_price": 64
+      "old_price": 67,
+      "new_price": 68
     },
     {
-      "id": 69,
-      "web_name": "Scott",
-      "team_name": "Bournemouth",
-      "direction": "fall",
-      "old_price": 60,
-      "new_price": 59
-    },
-    {
-      "id": 654,
-      "web_name": "Graham",
-      "team_name": "Everton",
-      "direction": "fall",
-      "old_price": 45,
-      "new_price": 44
-    },
-    {
-      "id": 330,
-      "web_name": "Bogle",
-      "team_name": "Leeds",
+      "id": 504,
+      "web_name": "Vuskovic",
+      "team_name": "Brighton",
       "direction": "rise",
-      "old_price": 47,
-      "new_price": 48
+      "old_price": 51,
+      "new_price": 52
     },
     {
-      "id": 387,
-      "web_name": "O'Reilly",
-      "team_name": "Man City",
+      "id": 165,
+      "web_name": "João Pedro",
+      "team_name": "Chelsea",
       "direction": "fall",
-      "old_price": 63,
-      "new_price": 62
+      "old_price": 79,
+      "new_price": 78
     },
     {
-      "id": 391,
-      "web_name": "Gvardiol",
+      "id": 379,
+      "web_name": "Isak",
+      "team_name": "Liverpool",
+      "direction": "rise",
+      "old_price": 90,
+      "new_price": 91
+    },
+    {
+      "id": 411,
+      "web_name": "Haaland",
       "team_name": "Man City",
-      "direction": "fall",
-      "old_price": 58,
-      "new_price": 57
+      "direction": "rise",
+      "old_price": 157,
+      "new_price": 158
     },
     {
-      "id": 412,
-      "web_name": "Lammens",
+      "id": 428,
+      "web_name": "Cunha",
       "team_name": "Man Utd",
       "direction": "fall",
-      "old_price": 49,
-      "new_price": 48
+      "old_price": 79,
+      "new_price": 78
     },
     {
-      "id": 464,
-      "web_name": "Wissa",
-      "team_name": "Newcastle",
+      "id": 429,
+      "web_name": "Rashford",
+      "team_name": "Man Utd",
       "direction": "fall",
-      "old_price": 61,
-      "new_price": 60
+      "old_price": 69,
+      "new_price": 68
     },
     {
-      "id": 541,
-      "web_name": "Meunier",
-      "team_name": "Sunderland",
+      "id": 581,
+      "web_name": "Diomande",
+      "team_name": "Nott'm Forest",
       "direction": "fall",
-      "old_price": 45,
-      "new_price": 44
+      "old_price": 54,
+      "new_price": 53
     }
   ]
 }
