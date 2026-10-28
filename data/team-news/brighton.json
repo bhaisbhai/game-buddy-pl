@@ -1,12 +1,89 @@
 {
   "slug": "brighton",
-  "updated": "2026-10-27T21:39:50.654Z",
+  "updated": "2026-10-28T11:51:48.676Z",
   "articles": [
     {
-      "title": "Araújo’s ‘Phil Jones moment’ helps Liverpool burst Brighton bubble",
-      "source": "The Times",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNa0U3YUVua0FTVG1GZXlTNGgtUGJVc3RFbjVSVUVHemF5TG8xUVoyWFhVaGJHMWNtZjJReTUtcGpMUjA5YWp5SnBUdnl2ekczTWZLXzZpbmlTMWxwSXZrUkdzd21EcUtNcTlaZ25LOVhzb2Rpc3pLZ0N3OS1PZFBlcVAzUjJhN09ER0laemtuQWZVWmZCT3lNZ3QxMGN2Y3Z4X3plcUdUZw?oc=5",
-      "pubDate": "Sun, 25 Oct 2026 19:45:00 GMT",
+      "title": "Maresca provides squad update ahead of Brighton Carabao Cup clash",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQU2Fjc2x4NllVeWVPWF9GbTRJZEd6clhzRXpNVjZTQzgxVEN4c1pkclVaZFZWSEx5dHl1ZU0xT3kzcVpabG5IM1FhWHBDT3lWRGdnTzE0NnpiX2hsUVREMGxybjM2cXdMVDZYMTRCcElCRjVMMVlJdEhGZ0M5Q3hnazQxTWVVazlQTmJBY0FSNVExTTlaQ2Z3?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 10:55:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Liverpool 2-0 Brighton: Alexander Isak scores again as Reds beat in-form Seagulls in Premier League",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBmWVZkSkp2R2tUbE5ZQTlIbTdsbXlQbTRzelNVRlp4aUkxNTF4QWY1TXZYYjhERTlOdHhRMjhSQmpqTGE4NzFCSGdxWmluZHpCcTNtQXR0VlR0eUx0ZjNfaERjbw?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 00:21:56 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Wolverhampton Wanderers vs Brighton & Hove Albion: Women's Players Cup stats & head-to-head",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WRTkxeGgtV0pZdzJlbjA4VzJKUGZEaDhVMm11RTBsNjJmbGVab1FBMEtfTVF2SlpyWE5nb1p2dkwtdE81N0doeElEQVpIbVo1VTNRR2thekRraXlndkhCV19YMXltUQ?oc=5",
+      "pubDate": "Fri, 23 Oct 2026 19:44:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Brighton & Hove Albion live score, schedule & player stats",
+      "source": "Sofascore",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HeGJiSWhncC1KSlcwZDBZcnlpWGFQaHRJRzZlSGl3OGdkaU00aWpXQTdUYUxRWEFqMU10anl5bnYxSTJRRWwxNjZEZ3JmU2trdy1RdmRIem9QcUhlVmpsWjZDdTc2QUlQMHVnQXg3UFlVdkZSdWc?oc=5",
+      "pubDate": "Wed, 05 Nov 2025 14:08:07 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Fabian Hurzeler spots a key Enzo Maresca change at Manchester City after Pep Guardiola",
+      "source": "SussexWorld",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNS3pSdHVyM056T1lMdXdrUXpFWHJ2aWtWVFF4S2NZN0V5QVBQbkM1OGJ2R0F3V2xiVjBZZ3FESkFnbVJoeDM4dkFhQVNMc2s0T2dEQVQxZmZyQ3RrX3Mxb2R6aGhxSFVjNl9hWkdlOFU5dUNQeDNwYkhLSDdmNUFlX3lwR1VULVZJYzVEWGlVdTh0b2J5RnhrVTEzZjdWcWtOdnZVRThwbkxGVzN4UGllbERSV3pNblIyS0c2bmJQaGdDaE9WTDZHNWFVWDV6MWxqblNTZjlROU54TFVkSEVEenpIUG9UREt5T2FuRUxIbjd5VWRwZUJqS3N3?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 06:30:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Nunes, Ndiaye, Semenyo - Man City injury news and return dates ahead of Brighton tie",
+      "source": "Manchester Evening News",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbnJYdzduUUdST3J5LVVWVzl4aUpfOVB1aElOXzdJVlluU01yMGxMMnpybnYzbmtldnJHNTZ5clhQRFJRZm5BdHM1ZDdNYTBxZ2lxYWpVNlFSMkNFUkt1VEZmSmRoeVFDbllLUnU3V3gtV1RMTWdPZEY1aXlaQVNuYUtGSmV6TnZMbnBwcGdCemdvVXIzQlBlZ3Z6cFhGVEc0OG13em9VVWY0alnSAbABQVVfeXFMTkFtRHVyLWRFMmg0czVNdVFpUUxtVGVPLXpEYTcxYkxzTFRManlyM1Nqal9uV29rMldiYWs3d1FFb2JvUzE2ZU1ldmFOLXhiNHFtUHlmN3p5VENwYTBtQ2J2Y1llZV9NdWR4OTFQRlpTdDJUZmJBUjNiQU44UWdYMVJJSVVpbTk3NkJhMl95RHRnaERCT2MtY1p4eUVOLTdEYzlIVVhiMFVicWoyVEtudXA?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 04:00:00 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "Wednesday's EFL Cup predictions including Liverpool vs. Chelsea, Man City vs. Brighton",
+      "source": "Sports Mole",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQQWlVM2lrUFJYWVFvelc1WjZlQ3Y2TlZ6a2xfYWh5a2prSUFRS2ZMM1Bfd1k3OUxIMzJ1ME1BbHh0WUUwVDFMenBnSmNpaExmd1ZWcVhibEg4NjVWRWltUXBsZHNMTjlxc2ZpcUpfT3prUVczek1SbXFxWUppcU9YdDNhcjlOcXo1Z2ZFWkpmSGpqSHZobFpWU054YXg0cTAydUpyNTNvaUhUR2hycHk5dVhoZkRHVElYaHEtVEVGOC1QV18zdnNMOTZ2a0Z5alVZVllQSWxqcDI?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 00:15:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Man City vs. Brighton: Preview, Predictions and Lineups",
+      "source": "Sports Illustrated",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSHhkb1ZFaDd0ZkktNnQyUFoyN042dG9CNUpud21qQWRTRkxacEJUSjlucEUxQU01WTRJcXh0aFQzMk5OOVlHSGV0Qmx6cGhGeFBvc2RRU09qSU5sSUpiUFFSbkFPSzJqTGFudmJ5bXl4UlJaZ0ZyMUJDb2tNQWs5VDRLZ1NlSG14SWlv?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 01:00:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Chelsea weigh up move for Brighton midfielder Yasin Ayari as contract talks hit a roadblock",
+      "source": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVkxDZEg1YmxFTk4weF9KeEhEYW5YcndOZFJyU3hySzBFMm1ETGJ3R1NpVkdrd1g5bFJNSzJTZjhRREVoTUFScE9meWJnRU1qb0ZPM3ZQenp5d3RuSVFRQk5sYnpmaENhVkpmRUp4aUpMaEZYVU05SXRjN3JYbUx0UVJoQlhvZC1lTjVVajhlZEtOS2xxeFoxZURQVzBaOVNTLUh0Tjl6d3hNclA1Q2M5UU1IdTRkOVlvalZTR0lwd1F5andHN1pvdU8zbTR4Y0lVSTNNSFdsRQ?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 21:01:20 GMT",
+      "category": "match"
+    },
+    {
+      "title": "This is why Brighton are still upsetting the Premier League odds",
+      "source": "Flashscore.com",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN3VJVERQX1dVaWJ2OVJpdGQ2allneXNLc0JtRVBSNW1oVDZqc0V5ckJLdjRQUTcycHZqZjBEeUpkUlAyNkNrWDE5UE14dDdudEx1R3BqQmZ2T2VDcWNQVWcwM012NXI2WmVieGVFVXFFUHpsbkU2QlZWSEFqTGdtbTV6clRhMWdwTHZyTEtHZXoybjJUN3Q1NGNEUXUwWDhXWFk0bWZ5RjJBVm1vTjZrRFU2T1lkV0wtd2d3?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 22:33:03 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Subway Players Cup Preview | Brighton & Hove Albion | Women's First-Team | Latest News",
+      "source": "Wolverhampton Wanderers FC",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRVo2TmlmUWZudHE4UlRTS2dQM2haRFpLVjVWejRfdlBaa2hGb19Wbnd1bWVBMHM0Q2NEbjFiZ0puSDVrQzBtZkhaZEd0ZW5XQnRFb0RyQ2pMRU1rbUJZNEJnWk5qQ0t3aDhmdHZtRjQydFhOcU80cGhwT1lERGpEcW5hSlh2cjd1NVpHREtWOEJJRVc0NFZ6ZU4wZHFvQW1IbXZqSGhlV1RQQQ?oc=5",
+      "pubDate": "Tue, 27 Oct 2026 17:28:40 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Team news: Confirmed Liverpool line-up v Brighton & Hove Albion",
+      "source": "Liverpool FC",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWVRzd0JYOUEzaVdoRWdyZnZCdGdyU0RpUGpJUndPYlNGbFVzNlNqajdlakZSTGloRFBSMEs5TkZWVjUzT1NCMU05WV9wYjhUeXdkajBIS0RJTk9JMm01eF9TeGtMcXh2Uk9FZFFvcUJuNmM1aHp4Tm1rU3pNd0EzS09NUnliNGtZd2NmUm9HRllXUno0VTBkQkRkd3hrQQ?oc=5",
+      "pubDate": "Mon, 26 Oct 2026 09:30:38 GMT",
       "category": "general"
     },
     {
@@ -17,95 +94,18 @@
       "category": "match"
     },
     {
-      "title": "Chelsea handed boost in pursuit of £43m-rated target as contract talks stall",
-      "source": "CaughtOffside",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVWxmREdiVkhqZGFkYTZSSjlweUxqN1dRdVNBQmZ1VUdqa2dOUTg2aDliMXdMMUJpZFJoaHBKc3ZCdTRja21WS0JmOGNZWlVRamozLXVxanF6RldIQ3ZTUllmX1VUeHBvaVd1ZzBkcTJMVmU0WmpfTU1KYlpJZVQ3ZkRkUVBiUEtWTlhiRmNRcW5RNkEyTVREbzQzT1hESUZfdkRCR0pSWVhEd0ZQODBBVjBxNVFsRHZu0gG-AUFVX3lxTE8xeVhoLTBTQjdwMUNMeG9qR2w0MlRKN3cwTVpCT1VBRjdOYmpfVUprZ25QUWFfMHBlNGtaSGxJR2FweDNCNEhWS1N3MXFyTU9teFc0Tzc5dTlTUmVtaERvQ3Q4Y2ppNXRjYWw4WERvU3JTWXEtOGhKc2ppUDJFU0I0YWFUaElBWXFualRWbGQ3c1FlVnFZUnNrUElfZDVMRk1ia25HbmNZSDRzV2E2VC1PbWprYWlvbjhzQkxXd0E?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 16:55:03 GMT",
-      "category": "rumour"
-    },
-    {
-      "title": "Subway Players Cup Preview | Brighton & Hove Albion | Women's First-Team | Latest News",
-      "source": "Wolverhampton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRVo2TmlmUWZudHE4UlRTS2dQM2haRFpLVjVWejRfdlBaa2hGb19Wbnd1bWVBMHM0Q2NEbjFiZ0puSDVrQzBtZkhaZEd0ZW5XQnRFb0RyQ2pMRU1rbUJZNEJnWk5qQ0t3aDhmdHZtRjQydFhOcU80cGhwT1lERGpEcW5hSlh2cjd1NVpHREtWOEJJRVc0NFZ6ZU4wZHFvQW1IbXZqSGhlV1RQQQ?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 17:28:30 GMT",
+      "title": "Man City vs. Brighton: Preview, Predictions and Lineups",
+      "source": "Forza Football",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRERzZ0lITjBRYjdlcC1JZkJ0ekplNzZaRDNLNTlkZ0RiemUxRExBRXhWS1QxSi1YUHVHVTc3SHlEUGkxMDM2eWJ1Q2Nmc1dfU3lUVlNfS2pmN0pQZEpJNE1tNzZoTHBESFNYSUlDTnZWaXgxZ1dhXzd1SVBBQzZVTHJaTGxGVFZFYkNFZ2RxdjU2ZUFWeTJHbA?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 01:00:00 GMT",
       "category": "match"
     },
     {
-      "title": "Manchester United 0-3 Bournemouth, Liverpool 2-0 Brighton and more: clockwatch – as it happened",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOT0p6eUdlRXMtR1lvalV1c3ljc2tRRnJUUU5aeWF0V3B0SDFiWFMtbEhld0lFdEpKSm45VG93YVJsSTliUEpINDV5ZkNJdl8yMXREeDBsRmJ2RlZkdkpYc0d4SXVaUHZZMTYySGZaT0tDNmQtMVZ2YWk4TmhPcFc2VTNrOWtmQ2FYeXBQWDJiSDJWY0loX2VWaHFINTZkS0RIa2FrMGJPazNMSExPU3hpRHBOczlTaFpXd2c3SHhjZnNIUFpkaTFxNEZRdWVxOWdiVTBwSy1qSWlBNC02Um96b2RMaEdoVVl5ZUM2OFduQ2VsVTJXckV2VTN2dVNhbHhiYTd3b3pUeEU4UQ?oc=5",
-      "pubDate": "Sun, 25 Oct 2026 12:15:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Jablonec v Brighton & Hove Albion – UEFA Conference League result as Fabian Hurzeler's side held to goalless draw in Czechia",
-      "source": "TNT Sports",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQLWU5Wi02Z3NVaG1fTWlyZnplamgzN0pIU0VySS1LMWdsR1hGN3BvVGNPVkNGblN1a19CQjl2SHFPQ0d1S0RlZ1VJQ3oxekt3dWJTQW43MkNiNUdoY1FkNy1TSTdTUjhWVVAzTEtmdTFWQnUtVUxYaExGQVlXWjdDSDBqRmpxanNLUE5fV2tQam5qVndrS2htNnV0MG9sV3dFU3ZrbkhsTFZ1d0VFdFI4TXVZc1ZZWXI2WVZQdnNZNGYwVWtxRUtzTHh6Si0zN1FLbjk2Rmh5MXE?oc=5",
-      "pubDate": "Thu, 22 Oct 2026 20:15:40 GMT",
-      "category": "match"
-    },
-    {
-      "title": "This is why Brighton are still upsetting the Premier League odds",
-      "source": "Flashscore.com",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN3VJVERQX1dVaWJ2OVJpdGQ2allneXNLc0JtRVBSNW1oVDZqc0V5ckJLdjRQUTcycHZqZjBEeUpkUlAyNkNrWDE5UE14dDdudEx1R3BqQmZ2T2VDcWNQVWcwM012NXI2WmVieGVFVXFFUHpsbkU2QlZWSEFqTGdtbTV6clRhMWdwTHZyTEtHZXoybjJUN3Q1NGNEUXUwWDhXWFk0bWZ5RjJBVm1vTjZrRFU2T1lkV0wtd2d3?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 17:19:24 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Chelsea weigh up move for Brighton midfielder Yasin Ayari as contract talks hit a roadblock",
-      "source": "Yahoo",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMWUta1ZBMFBGUXZQMVRnU0xkdVozN01CSDZXYUpTNktfUTBWSzM5dkxLcERRS0tRLTZVVWFqWUtWVGtCc1VOR2dRV3BWazhrcEFQVTN5TWdvR0RvekdlRllFN3ZlWHNtTnh2aTBnUTdpdUctdEtzTEl5d0tJb3RZeDJ4X0VxM1RZVjk4b1NuSQ?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 21:01:20 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Bloodthirsty Brighton feast on rattled Arsenal",
-      "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSkg1TUtQN1RZX3RHRkpFSEhPNjFGSll2YW9RNjh6aUxpM3JxbVpGc01MaG1OVTVpRHExR3ZOa2pYNTk5SloxeUZkTGEwcDZCcXk3b2ZJZ1h4b0xZdzhnV1BZUHVRMlQzUURHVXJmelpHOG1HZnFQbmNmQUk1b3FLOVBZWGRvbS1vSDFiQlplUGRDNWRta2xGRlgyZjFMVXU5?oc=5",
-      "pubDate": "Sat, 19 Sep 2026 07:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Brighton & Hove Albion 3-0 West Ham United: Maisie Symonds stunner secures WSL win",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9IdEVycmRjLW9jMnNPUzBHdTJfTlNxdGhVN2dSM2RtSEY5dEhSZkZKT3lkSmFrV09zMUllOWV3OXlBblpfUkZhVnh4ZVJUamQ4ZldpbC1CcWg2RUV3UUJBOXotaw?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 18:39:16 GMT",
-      "category": "match"
-    },
-    {
-      "title": "City v Brighton: What's happening on matchday at the Etihad Stadium?",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUWRmdDBpZWE2dzlWT3dHaHlscHRwVTdld3c2VEt3ZkZ5X3ZUdlJNbjFrMzRsOVpiaUhSaDlfOWhEamxOTGlqczZESjRWZ1Y2MV9iQ1ZBVlBqVXgwS3BKekppZXh4WEJBd29wV1hDTDhzSHBxOWVsUzVQNGtCZWo3R1g1X19oUVFxaHBlNXFEbGtBVzhMQ1FtclhwSnJHVWYx?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 19:30:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Match report: Liverpool beat Brighton 2-0 at Anfield in Premier League",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcmJwYndhbWNudE41SjB6dFBZVkZXOGJvMUN0QU1vR0kwcjktWGJtNzlYU0x4UG9YMjMxT2RZd1pMTVBRT1dMY0RuWnJVU2lZRi1tRzNiaDZ2TC04RUcxWkRJNmRWNUZDM3NZelM4blZaUDBaMUZLT2x1REZyUVdMdC1DeGdfdw?oc=5",
-      "pubDate": "Mon, 26 Oct 2026 01:14:50 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Brighton and Hove Albion 3-0 West Ham | WSL highlights",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNN1BNc3RrTU5FMWcyWTdZTHRab3JaOWdDcTJKY3hZLVhTanVYdTNyaENDUndvY1A5V0w5UFNDMDAwLWs4NW1VMHE3RDRnWk50YnJEUWZnMklJVmJxVnFXczF5a3YydENBMnZHRDVKZ2VZamJUM0tPdmRzRGdJcjg2VFkxUzhIWnBxaDVZa1JRbGR3VVoyZkVEWlJIZ25qdUEzRU1FcTBKRGVtWENjbkVMd0psTHo?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 18:20:42 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Highlights | Brighton & Hove Albion 3-0 West Ham United women's team",
-      "source": "West Ham United",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOejI4TVlCSjRWaVhod0JtdVVtQTRJME1TdzJPQi0xc2dxWkxMNHIzaHdqUnFHTV8zTWd4N3M0bnFyZHc4Nm1aSjBwVmRyUnZwajM5V0Foak9Bd0lvcFRXU0lza0tOM0Nna0lvQm81aERxUHNtRE5ITmhDT1UtTklGMThKV3VCNG5pN3J0MWVMcnQ2dl91TUFPTGhJUG1fT2p4Q2htdEdTTlZ5M2swTWo1eE8xTnVEVGNMbU5Iag?oc=5",
-      "pubDate": "Sat, 24 Oct 2026 07:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Liverpool v Brighton & Hove Albion: Team news",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOOVhoUFlQZHV2aDhfSEUzRWxzMXM2S1BSR0UwWFBKLThaN2N0THpZR0pYQ1dFdVM2NENEZHlKNGdYX3pHdWR5R2dzTDBRcEx1MXJNYlNjV3lQbmlScWNPa1JsWUtEaGxVd3REZ0xmVUhyem5IRFJUZlJWVEUxZTNzQkNMdG9pS2M4Nmx4MUoyYjRtSUpDem1GcmZ3?oc=5",
-      "pubDate": "Sun, 25 Oct 2026 05:08:06 GMT",
-      "category": "general"
+      "title": "'We all know' - Fabian Hurzeler explains Brighton role for Mats Wieffer after injury update",
+      "source": "SussexWorld",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOWnM0aWdnTGZoUXhUZUNORUtJLXFGY3YwUDNOMXRLRE5WSUNHNTRTT08yenNUVURNalE5LVdGaktvVDFRNXBSQjE1Z0VDTmZqM1E0amdJa1V1ZUV2bUstUlNPcnFFY192MV9ScExkVERteERQMDJSQVFYSWh0OERhel8yVUJ3ZE95SVlESlpPYmtsTUIyYVFNblBXRTVCTTZtay0ySnNYekZiTDNxVWg3UGd4QktmYzBNWXRlS1JtdmdmeXdZXzBMYnVOYnc3NWhPbUVpMjhqelJWTWVTRTljWlQyY0ktaWxFMkw3M1Q1ZmI5b3V4UjNwVER5dDhFVkRseEVuMWc4b3A5MTQ?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 09:23:00 GMT",
+      "category": "fitness"
     }
   ],
   "reddit": []
