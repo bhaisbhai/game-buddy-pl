@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T09:22:06.364Z",
+  "updated": "2026-10-29T09:28:35.312Z",
   "snapshot": {
     "1": 62,
     "2": 49,
@@ -53,7 +53,7 @@
     "50": 44,
     "51": 45,
     "52": 49,
-    "53": 60,
+    "53": 61,
     "54": 55,
     "55": 78,
     "56": 55,
@@ -565,7 +565,7 @@
     "562": 53,
     "563": 49,
     "564": 44,
-    "565": 55,
+    "565": 54,
     "566": 50,
     "567": 50,
     "568": 54,
@@ -673,68 +673,20 @@
   },
   "changes": [
     {
-      "id": 166,
-      "web_name": "N.Jackson",
+      "id": 53,
+      "web_name": "Manzambi",
       "team_name": "Aston Villa",
       "direction": "rise",
-      "old_price": 67,
-      "new_price": 68
+      "old_price": 60,
+      "new_price": 61
     },
     {
-      "id": 504,
-      "web_name": "Vuskovic",
-      "team_name": "Brighton",
-      "direction": "rise",
-      "old_price": 51,
-      "new_price": 52
-    },
-    {
-      "id": 165,
-      "web_name": "João Pedro",
-      "team_name": "Chelsea",
+      "id": 565,
+      "web_name": "M.Sangaré",
+      "team_name": "Brentford",
       "direction": "fall",
-      "old_price": 79,
-      "new_price": 78
-    },
-    {
-      "id": 379,
-      "web_name": "Isak",
-      "team_name": "Liverpool",
-      "direction": "rise",
-      "old_price": 90,
-      "new_price": 91
-    },
-    {
-      "id": 411,
-      "web_name": "Haaland",
-      "team_name": "Man City",
-      "direction": "rise",
-      "old_price": 157,
-      "new_price": 158
-    },
-    {
-      "id": 428,
-      "web_name": "Cunha",
-      "team_name": "Man Utd",
-      "direction": "fall",
-      "old_price": 79,
-      "new_price": 78
-    },
-    {
-      "id": 429,
-      "web_name": "Rashford",
-      "team_name": "Man Utd",
-      "direction": "fall",
-      "old_price": 69,
-      "new_price": 68
-    },
-    {
-      "id": 581,
-      "web_name": "Diomande",
-      "team_name": "Nott'm Forest",
-      "direction": "fall",
-      "old_price": 54,
-      "new_price": 53
+      "old_price": 55,
+      "new_price": 54
     }
   ]
 }
