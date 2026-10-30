@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T09:28:35.312Z",
+  "updated": "2026-10-30T09:41:01.249Z",
   "snapshot": {
     "1": 62,
     "2": 49,
@@ -8,7 +8,7 @@
     "5": 65,
     "6": 59,
     "7": 54,
-    "8": 60,
+    "8": 59,
     "9": 52,
     "10": 54,
     "11": 52,
@@ -26,7 +26,7 @@
     "23": 55,
     "24": 55,
     "25": 70,
-    "26": 75,
+    "26": 74,
     "27": 59,
     "28": 50,
     "29": 45,
@@ -79,7 +79,7 @@
     "76": 49,
     "77": 48,
     "78": 73,
-    "79": 62,
+    "79": 63,
     "80": 55,
     "81": 60,
     "82": 50,
@@ -557,7 +557,7 @@
     "554": 45,
     "555": 40,
     "556": 39,
-    "557": 62,
+    "557": 61,
     "558": 50,
     "559": 48,
     "560": 44,
@@ -577,7 +577,7 @@
     "574": 48,
     "575": 48,
     "576": 49,
-    "577": 44,
+    "577": 43,
     "578": 53,
     "579": 54,
     "580": 50,
@@ -673,20 +673,44 @@
   },
   "changes": [
     {
-      "id": 53,
-      "web_name": "Manzambi",
-      "team_name": "Aston Villa",
-      "direction": "rise",
+      "id": 8,
+      "web_name": "Calafiori",
+      "team_name": "Arsenal",
+      "direction": "fall",
       "old_price": 60,
+      "new_price": 59
+    },
+    {
+      "id": 26,
+      "web_name": "Havertz",
+      "team_name": "Arsenal",
+      "direction": "fall",
+      "old_price": 75,
+      "new_price": 74
+    },
+    {
+      "id": 557,
+      "web_name": "Tzolis",
+      "team_name": "Arsenal",
+      "direction": "fall",
+      "old_price": 62,
       "new_price": 61
     },
     {
-      "id": 565,
-      "web_name": "M.Sangaré",
-      "team_name": "Brentford",
+      "id": 79,
+      "web_name": "Evanilson",
+      "team_name": "Bournemouth",
+      "direction": "rise",
+      "old_price": 62,
+      "new_price": 63
+    },
+    {
+      "id": 577,
+      "web_name": "Tomiyasu",
+      "team_name": "Crystal Palace",
       "direction": "fall",
-      "old_price": 55,
-      "new_price": 54
+      "old_price": 44,
+      "new_price": 43
     }
   ]
 }
