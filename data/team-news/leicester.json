@@ -1,27 +1,13 @@
 {
   "slug": "leicester",
-  "updated": "2026-10-30T21:51:04.655Z",
+  "updated": "2026-10-31T11:26:58.004Z",
   "articles": [
-    {
-      "title": "Russell Martin makes Leicester City prediction after Wigan victory as Khun Vichai tribute made",
-      "source": "Leicester Mercury",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVWhFT0hRZElyNm0wcUk4ZjdoY2hDLUE0RUtQV2hQWmFFaDJhMzFzS2tQRjYzN2szVDRBZjZfakpBNEdESGRKT2EyaXFsWkg5Nzc5Umtoajd3a25RQk1iV0JUWDFKN0FVcmM1UGRjWkJaU3l3OFcxQ255THZiQUY2RjgwZmpjZ2dkSDMwT1h3ZjNWSmFaczlBdnFmbEZEeWJzZWxBZmxrY2Q2YjlQ?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 23:23:00 GMT",
-      "category": "general"
-    },
     {
       "title": "Leicester City 3-0 Wigan Athletic - Foxes continue revival with home win",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HVUdFUGx3YVlvTWJNODZ2OUttdnAzMDRDMnVvSmxzQmhRNkVlUHRrVmlaZmpINDZ6OXlrb3J1WTg5WWVpZE1tWUV0dkg1Q2dxM2tIcGdhRFZJUVNrcXRwS1FUVnZNZw?oc=5",
       "pubDate": "Tue, 27 Oct 2026 21:44:00 GMT",
       "category": "match"
-    },
-    {
-      "title": "Is the double drop from the Premier League becoming more common?",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBQbFFzYUpRWjVqZTFjNExCMEk0cG9VWENwdHlMck1FUUNTNElZMWxLQWJabDI3YW9mTFFtemk2enZHd3BydlJ3eXNLbmNSbHVmQ2FVVE9rcUZhQzd5LVpQNkN5RHFPUHda?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 13:19:52 GMT",
-      "category": "general"
     },
     {
       "title": "Leicester City Join Manchester United And Roma In Midfielder Pursuit",
@@ -31,10 +17,24 @@
       "category": "general"
     },
     {
+      "title": "Leicester City's transfer mistakes exposed as player value drops by a whopping £74m",
+      "source": "Leicester Mercury",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdFZza3RFZG00N3VzQmhhdDU0b3ZnZnA5Smd0ZndzVnJRamhQTXlfM0lHQWptN19QTmtyaEpMdFBXX2pvd25acERPc1NkeGdmLXVVcmlVZnpEd3lYSk1Hb0JIR1pqbU1hTlM0OVA3cTdvZk04S0lNeXZVaEFnYXpiazNjRC1QMXIxNWtHT3VFcnNkUVRpNldYendlT0R0a0RRTVQyWXg2d1RUdlhDVVQzLVdKMjg?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 10:50:00 GMT",
+      "category": "transfer"
+    },
+    {
       "title": "Preview: Leicester City vs Stevenage - prediction, team news, lineups",
       "source": "Sports Mole",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPT1lzZm5WSnhCUDVZQ1VrQnRuZGtkY3cwQ09namxYV0VRRHFXSXJLOEVJRl9PX3RIVXhPV2ZvUGpTb0xzdzNLWkRCQ1RDLTVacE9mMG1oWUctWjhHUFp4b0xZYlFFOW1lWWlRU29OMDgwMktSNmZYa29ZWHh3Q3ZOV3B5WFZ0UE96Vy1wMFExdXRHdFJ1MVlfZ05BaV9wTnNydF9jMUtTeHlGU1ozb0NtNFVVSTRWTHlTTlVCcGo4eUkyQQ?oc=5",
       "pubDate": "Thu, 29 Oct 2026 13:36:35 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Full Match Replay: Leicester City 3 Wigan Athletic 0",
+      "source": "LCFC | Official Website",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVUVpbWZqN2JfM01FY29aQ3FodVpEeVRBdXJZMjJUVjRIWnB0V0UwaVVQV1VncEtsX3plZEwxWmxDTXExMXlweHVsU2FMUUtiTkxPaGZkT3IzZ2tBSVgyT0huYWFtX2lHa3FILXV2YllGWGp3ZFF4cTd1QjJsZTl4TThHOFMtbVhZODJ1OQ?oc=5",
+      "pubDate": "Fri, 30 Oct 2026 18:42:59 GMT",
       "category": "match"
     },
     {
@@ -45,17 +45,10 @@
       "category": "general"
     },
     {
-      "title": "Lazio’s strong start to Serie A draws Leicester City comparisons",
-      "source": "Football Italia",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBKNmt5VkNqR1lhRmo2YmRpNjBHVHU5ejIxcmtYVVRKVGRXRERRZy1GNEplWlhvVWh3TS02X0hUZk5PYVZza0lwWHpuN1dhOS15RDFsb1Fwb0M4aUNQcHJrb01Ub1FSd053YlNIYjVxVzV4bHc3dXhyQ2tVcExWZ9IBgwFBVV95cUxPbUtnNC1oMEV4Q19kaktER1lnMXpvQ0wzV1B3YlNONV9zM3U0bkxMWVRNNThCX2R2MzNPWW5wa3A5NUNmbXN3YnFMa3Q4NXR5akhSTE1MU3pHc0Z6SlJnc1QwS0VoSnV4RHBpSVlPc3hLUTlFblljcWVjOFVDNENXNk8yWQ?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 10:36:10 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Russell Martin hints at Leicester City midfield change with Will Smallbone in new role",
+      "title": "Anstey Under-18s 1-4 Leicester City recap as Foxes youngsters stroll to victory",
       "source": "Leicester Mercury",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPckszNW1XeS1MLXBoMk9SNUhhOTZXcEFaVHpyelhsTEZKZ193MXpDdTY3RmFYSGpBdjBJMEQ1QWNmeklrTThBQVRONnlHb0JlTXhYbHFPQWZ5NGJRUXhpSFFPbFAxQzZ1RzhJWWkydERLNmdCeFRfZW9VQWZGQ2R4dUozM1lxMkxscmQwNHduOGdKbzhCcElEb01zLXF3OHdQR29aTngzcWhqQQ?oc=5",
-      "pubDate": "Thu, 29 Oct 2026 12:13:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYzZ5OFZwbjdPWmtiSEwxTnpaUElQcTY0bzlyMWJHemhTbWNZYndNbm5COEZ4SkZJbXBRWlA4OGhod0t5cWY2eDlUTXRWVDBqbmNYQnltcXpZVjlyZEM0LWtUUXlxWG5zZUphczN6elFCS3l4V2FTRzl3aUFkckNLTnBNRDc3VjVKOE5rOERnVjcteGY3QzQ2UV9BbHhpS1Y5WDZZ?oc=5",
+      "pubDate": "Wed, 28 Oct 2026 21:48:00 GMT",
       "category": "general"
     },
     {
@@ -73,39 +66,46 @@
       "category": "general"
     },
     {
-      "title": "Leicester City FC inspires future grounds professionals through GMA NextGen",
-      "source": "Pitchcare",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUTNValE4aUtlUzJhQTU0WE9VM1NsbjA0MEF6N0ZTU21HYXZQLXhHWDF4WVI4U3lHTVVNR0hacFN3NUdmbGJqM1NNM0Vsck5aUHNnbFR0MDFBa2M0bExWMVp0V2x0SUd5MEdPYy1wUnExelVnUnFhTkxPOWRzd05tMHpjOHdOME8ybzJMSTMxSEpCWGlQZENWZnFDdHVzZWtvZHdnSTdBRy1KX1huYVFhenF6alc?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 09:36:57 GMT",
+      "title": "Russell Martin hints at Leicester City midfield change with Will Smallbone in new role",
+      "source": "Leicester Mercury",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPckszNW1XeS1MLXBoMk9SNUhhOTZXcEFaVHpyelhsTEZKZ193MXpDdTY3RmFYSGpBdjBJMEQ1QWNmeklrTThBQVRONnlHb0JlTXhYbHFPQWZ5NGJRUXhpSFFPbFAxQzZ1RzhJWWkydERLNmdCeFRfZW9VQWZGQ2R4dUozM1lxMkxscmQwNHduOGdKbzhCcElEb01zLXF3OHdQR29aTngzcWhqQQ?oc=5",
+      "pubDate": "Thu, 29 Oct 2026 12:13:00 GMT",
       "category": "general"
     },
     {
-      "title": "Leicester City, the Blue and Whites’ first pre-season rival",
-      "source": "Málaga CF",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPX0w1UzNLRmxZc1c2ajdrNmtXZ3dVVjZiNG15Mzl3WGxIUkp1di04VlRrRXprdTFyYmQ2cnBCa0hBZDNMUmpSV09Fb1EtcXAzN19vY3l1ODFZSW1KaEFVWVJwa0wyMi1BWGM1Yjk1a3U2SnFtVExkU1htMFdmUEVPdDBVNEkxTFRKazhqZ2lGWENRRUVWR3c?oc=5",
-      "pubDate": "Wed, 28 Oct 2026 18:33:16 GMT",
+      "title": "‍!!((GAME LIVE)) Leicester City vs Stevenage Football Live FREE",
+      "source": "Port of Rotterdam",
+      "link": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxQaFBST2trc05TLWNoeFh6UFFaT3FFOU5rUUxVRkNiR29mZ29qSllwNm1WTy15VHNfQVdmV1Bia25iczVsRHJhU21zWVVpbHhSYjI4b3h2cm5CSk9CMVFtSkpZS1BlQ0V0VVI0cjR1TE5Sa19CWnh1N0hGWEc0cmV4Z19UaVUzcmlDSWo4a19tajhZcUNSeVp3d3pSSDRscGNKeE8xQzZtdkpVUjhqTHJKNy1mVjdZVjZiX2JFRGZtaXJmWEEyN1E0WERkTV9rbnFWcWNzS2xHanRZSENCVmRkSlRITWJsMlFBYmh4SjUxZ09Nc2xvb0NPamQtSEE1SmFwOUdPMmhVa25DUkVRRHd1R1JEbU9WZ2Z1QVNkcGRKbFF0VmFiN1lVbl9iWXdxZS1hZjlHUW83ZVh5NVpMV1lmcXplcUltMEZLZkV4NVhFMzhWZjhLeWNRMk5ENmExbmoyVWg5SEo3dFRjZmNqeS1KTHI5S0pfRE1KWnBvSnVLQllCNFROc3FNWEJYalJPd1NfSVVmeU1MSTkwcXNSRUxVajlsU01nbWF5aUhZ?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 10:05:07 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Leicester City: Is Russell Martin turning things around at Leicester?",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96cndDcnIwSXpfNzlYT2FpNWJCV0tmejJLeTRVTU0zS0Jlc0lTMmZvMlp5OE9QbU1lcDJWNXJxYmhDZTl3TTVUOTFFajFGNlE1ZHExTHZVOF9YeUNfTFhSUG9WV2JZYkxr?oc=5",
+      "pubDate": "Thu, 22 Oct 2026 07:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "Leicester 3-0 Wigan | League One highlights",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRXZWVUtxdC1JbVM4RXhmSlFueEpXT0tHZ2ZqYnRrRU9Scm9XOENReFV2OVJ4aHdDeEFZbE1rang0TEhMU204ZEx3bnIyN1QzUml6TU0yYmhOVkI0bVpTYTR4VUhndHVRYWczX1d3T1lDNUlxeE5RMXJrQkJvNnZTdnJHaXJmbVQtTU82NGZkMm1rbGVGMUE?oc=5",
-      "pubDate": "Tue, 27 Oct 2026 21:44:27 GMT",
+      "title": "Struggling Leicester City owners seek takeover bids this week",
+      "source": "Sky News",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNb3dFbzJ6N284Y2lnZnFzWVlsZE1oRU1wNnFLeHNIT0VEcGxMNXRFckI1Zm00TFdncmRaZjAyQXVkS3VuUXdTOFdyT0pSUTFrY2dESm82RUp2c1ZCM24wTFBPeUFENC1wQmNiMHhkamIyWTVoTGxxR1ZHSkpFYlVXOG1vU3BXXzZFNUdDc1AtSE9UM1hRdU5ySVdOQ0lfZw?oc=5",
+      "pubDate": "Mon, 12 Oct 2026 07:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "One Leicester City change for Stevenage as Conor Chaplin and John Lundstram decision made",
-      "source": "OneFootball",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWnoydjBWam82dG9LUkVFWWluN01UQzZwa0hGM1JKREVGLUNQbl9EeGg5STRZZlJUb0MxNDZiRWFicHE1RFVEeDR1aDcyS2dMS1FoZTJQVUViaVUyRXNNM3BVQjRJV0dSSmwzSWRiSlBnLTNSM3dHb2lyNW9kOU4ydkFRejBLTUN1b3NCa3Y1TkFGSVFrUS14RzdfZVQ3d2RuZzVjYjNRamI1dXBGdTVQRThlaGhORnZVUmUzbU1aNHJRTVFGTTdGVENR?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 13:24:15 GMT",
-      "category": "general"
+      "title": "Leicester's Russell Martin after latest home defeat: Sacking me not the 'quick fix'",
+      "source": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBMZUpxVVJZTzkwUzRpbTZkakVMVlVJR21JRTdVa1hmYkpEeklJMkdzM3RuU09OdDZzVnlwV01YTmZMS19fNVBnWERheHJyR0VrM3RCUFk3eHBhMVZYaXFMejN3M0FvSmwwT1NiQ0x4TG1DQi1MS1IxT2hjNHhZQQ?oc=5",
+      "pubDate": "Sat, 10 Oct 2026 07:00:00 GMT",
+      "category": "match"
     },
     {
-      "title": "Oxford City Football Club and Singapore Football Club Announce International Partnership",
-      "source": "OXFORD CITY FC",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMklEU1pqbVVlYmYyQXRjdk8xcGptZldPeWstU3BiRGRkWm1zcE8ydlpRTHR6WDRqU0RKX3BFaC1qQk9CRURxM1p3bHgxQXRxeWZ5dS1KdU9HSFdpLTgtVTNLZVlFVWwxNzEtQUNnUl9qZHZJTEl4bTZoTmM5RTRqdEVlWE1qYlgycXhUUjdjU2VwWjNWYUFQVmRBLVF5Q1VXOG4xN3BmNTBSUlJnbWwtZjVCbkhmc2thQ3Vn?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 11:40:30 GMT",
-      "category": "general"
+      "title": "Oxford City vs. Leicester City: Live game updates, stats, play-by-play",
+      "source": "Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQOXltZktjMW9IZVRPLWI5VEV0QzEta09IakhRcFlCWUZhQ1lnaUM5TjNxZFNQTU1HekJlaVZ6QjRhQmZ3OGtmTTgwMTloTDZPXzdJZnpRSDkzNmlxaUN1azN3anZXWTEtNEpFNDE4RzEwU3VlcGM4bWxGZHJxZFUyTlZydFBDbEk?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 07:39:10 GMT",
+      "category": "match"
     }
   ],
   "reddit": []
