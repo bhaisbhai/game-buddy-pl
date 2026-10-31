@@ -1,10 +1,10 @@
 {
-  "updated": "2026-10-30T09:41:01.249Z",
+  "updated": "2026-10-31T09:20:19.531Z",
   "snapshot": {
     "1": 62,
     "2": 49,
     "3": 49,
-    "4": 79,
+    "4": 80,
     "5": 65,
     "6": 59,
     "7": 54,
@@ -28,7 +28,7 @@
     "25": 70,
     "26": 74,
     "27": 59,
-    "28": 50,
+    "28": 49,
     "29": 45,
     "30": 45,
     "31": 47,
@@ -40,7 +40,7 @@
     "37": 45,
     "38": 40,
     "39": 40,
-    "40": 80,
+    "40": 81,
     "41": 59,
     "42": 54,
     "43": 57,
@@ -51,7 +51,7 @@
     "48": 49,
     "49": 50,
     "50": 44,
-    "51": 45,
+    "51": 44,
     "52": 49,
     "53": 61,
     "54": 55,
@@ -68,7 +68,7 @@
     "65": 44,
     "66": 40,
     "67": 63,
-    "68": 64,
+    "68": 65,
     "69": 59,
     "70": 59,
     "71": 50,
@@ -102,7 +102,7 @@
     "99": 50,
     "100": 50,
     "101": 49,
-    "102": 48,
+    "102": 47,
     "103": 48,
     "104": 48,
     "105": 59,
@@ -139,7 +139,7 @@
     "136": 58,
     "137": 54,
     "138": 58,
-    "139": 50,
+    "139": 49,
     "140": 49,
     "141": 50,
     "142": 52,
@@ -166,8 +166,8 @@
     "163": 45,
     "164": 52,
     "165": 78,
-    "166": 68,
-    "167": 55,
+    "166": 69,
+    "167": 54,
     "168": 50,
     "169": 45,
     "170": 49,
@@ -262,7 +262,7 @@
     "259": 39,
     "260": 62,
     "261": 54,
-    "262": 53,
+    "262": 52,
     "263": 52,
     "264": 55,
     "265": 49,
@@ -601,7 +601,7 @@
     "598": 45,
     "599": 50,
     "600": 49,
-    "601": 45,
+    "601": 44,
     "602": 45,
     "603": 40,
     "604": 45,
@@ -634,7 +634,7 @@
     "631": 60,
     "632": 49,
     "633": 45,
-    "634": 60,
+    "634": 59,
     "635": 50,
     "636": 50,
     "637": 50,
@@ -673,44 +673,100 @@
   },
   "changes": [
     {
-      "id": 8,
-      "web_name": "Calafiori",
+      "id": 4,
+      "web_name": "Gabriel",
       "team_name": "Arsenal",
+      "direction": "rise",
+      "old_price": 79,
+      "new_price": 80
+    },
+    {
+      "id": 51,
+      "web_name": "George Hemmings",
+      "team_name": "Aston Villa",
+      "direction": "fall",
+      "old_price": 45,
+      "new_price": 44
+    },
+    {
+      "id": 166,
+      "web_name": "N.Jackson",
+      "team_name": "Aston Villa",
+      "direction": "rise",
+      "old_price": 68,
+      "new_price": 69
+    },
+    {
+      "id": 68,
+      "web_name": "Tavernier",
+      "team_name": "Bournemouth",
+      "direction": "rise",
+      "old_price": 64,
+      "new_price": 65
+    },
+    {
+      "id": 102,
+      "web_name": "Yarmoliuk",
+      "team_name": "Brentford",
+      "direction": "fall",
+      "old_price": 48,
+      "new_price": 47
+    },
+    {
+      "id": 139,
+      "web_name": "Ferguson",
+      "team_name": "Brighton",
+      "direction": "fall",
+      "old_price": 50,
+      "new_price": 49
+    },
+    {
+      "id": 28,
+      "web_name": "Martinez",
+      "team_name": "Chelsea",
+      "direction": "fall",
+      "old_price": 50,
+      "new_price": 49
+    },
+    {
+      "id": 40,
+      "web_name": "Rogers",
+      "team_name": "Chelsea",
+      "direction": "rise",
+      "old_price": 80,
+      "new_price": 81
+    },
+    {
+      "id": 262,
+      "web_name": "Smith Rowe",
+      "team_name": "Fulham",
+      "direction": "fall",
+      "old_price": 53,
+      "new_price": 52
+    },
+    {
+      "id": 634,
+      "web_name": "Fernandez-Pardo",
+      "team_name": "Newcastle",
       "direction": "fall",
       "old_price": 60,
       "new_price": 59
     },
     {
-      "id": 26,
-      "web_name": "Havertz",
-      "team_name": "Arsenal",
+      "id": 167,
+      "web_name": "Delap",
+      "team_name": "Nott'm Forest",
       "direction": "fall",
-      "old_price": 75,
-      "new_price": 74
+      "old_price": 55,
+      "new_price": 54
     },
     {
-      "id": 557,
-      "web_name": "Tzolis",
-      "team_name": "Arsenal",
+      "id": 601,
+      "web_name": "Williams-Barnett",
+      "team_name": "Spurs",
       "direction": "fall",
-      "old_price": 62,
-      "new_price": 61
-    },
-    {
-      "id": 79,
-      "web_name": "Evanilson",
-      "team_name": "Bournemouth",
-      "direction": "rise",
-      "old_price": 62,
-      "new_price": 63
-    },
-    {
-      "id": 577,
-      "web_name": "Tomiyasu",
-      "team_name": "Crystal Palace",
-      "direction": "fall",
-      "old_price": 44,
-      "new_price": 43
+      "old_price": 45,
+      "new_price": 44
     }
   ]
 }
