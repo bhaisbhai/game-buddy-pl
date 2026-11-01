@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T09:20:19.531Z",
+  "updated": "2026-11-01T10:09:05.198Z",
   "snapshot": {
     "1": 62,
     "2": 49,
@@ -68,7 +68,7 @@
     "65": 44,
     "66": 40,
     "67": 63,
-    "68": 65,
+    "68": 66,
     "69": 59,
     "70": 59,
     "71": 50,
@@ -79,7 +79,7 @@
     "76": 49,
     "77": 48,
     "78": 73,
-    "79": 63,
+    "79": 64,
     "80": 55,
     "81": 60,
     "82": 50,
@@ -107,15 +107,15 @@
     "104": 48,
     "105": 59,
     "106": 78,
-    "107": 45,
+    "107": 44,
     "108": 54,
     "109": 46,
     "110": 45,
     "111": 40,
-    "112": 49,
+    "112": 50,
     "113": 44,
     "114": 45,
-    "115": 53,
+    "115": 54,
     "116": 45,
     "117": 45,
     "118": 45,
@@ -165,8 +165,8 @@
     "162": 47,
     "163": 45,
     "164": 52,
-    "165": 78,
-    "166": 69,
+    "165": 77,
+    "166": 70,
     "167": 54,
     "168": 50,
     "169": 45,
@@ -268,7 +268,7 @@
     "265": 49,
     "266": 49,
     "267": 49,
-    "268": 56,
+    "268": 55,
     "269": 43,
     "270": 43,
     "271": 53,
@@ -286,7 +286,7 @@
     "283": 40,
     "284": 40,
     "285": 40,
-    "286": 52,
+    "286": 53,
     "287": 50,
     "288": 44,
     "289": 44,
@@ -379,7 +379,7 @@
     "376": 50,
     "377": 65,
     "378": 44,
-    "379": 91,
+    "379": 92,
     "380": 74,
     "381": 50,
     "382": 45,
@@ -399,7 +399,7 @@
     "396": 44,
     "397": 82,
     "398": 68,
-    "399": 80,
+    "399": 79,
     "400": 75,
     "401": 70,
     "402": 65,
@@ -469,7 +469,7 @@
     "466": 45,
     "467": 50,
     "468": 44,
-    "469": 50,
+    "469": 49,
     "470": 50,
     "471": 54,
     "472": 55,
@@ -491,7 +491,7 @@
     "488": 47,
     "489": 44,
     "490": 57,
-    "491": 57,
+    "491": 56,
     "492": 54,
     "493": 54,
     "494": 45,
@@ -532,7 +532,7 @@
     "529": 49,
     "530": 40,
     "531": 44,
-    "532": 48,
+    "532": 47,
     "533": 54,
     "534": 42,
     "535": 48,
@@ -669,104 +669,121 @@
     "666": 45,
     "667": 40,
     "668": 50,
-    "669": 40
+    "669": 40,
+    "670": 40
   },
   "changes": [
-    {
-      "id": 4,
-      "web_name": "Gabriel",
-      "team_name": "Arsenal",
-      "direction": "rise",
-      "old_price": 79,
-      "new_price": 80
-    },
-    {
-      "id": 51,
-      "web_name": "George Hemmings",
-      "team_name": "Aston Villa",
-      "direction": "fall",
-      "old_price": 45,
-      "new_price": 44
-    },
     {
       "id": 166,
       "web_name": "N.Jackson",
       "team_name": "Aston Villa",
       "direction": "rise",
-      "old_price": 68,
-      "new_price": 69
+      "old_price": 69,
+      "new_price": 70
     },
     {
       "id": 68,
       "web_name": "Tavernier",
       "team_name": "Bournemouth",
       "direction": "rise",
-      "old_price": 64,
-      "new_price": 65
+      "old_price": 65,
+      "new_price": 66
     },
     {
-      "id": 102,
-      "web_name": "Yarmoliuk",
-      "team_name": "Brentford",
-      "direction": "fall",
-      "old_price": 48,
-      "new_price": 47
-    },
-    {
-      "id": 139,
-      "web_name": "Ferguson",
-      "team_name": "Brighton",
-      "direction": "fall",
-      "old_price": 50,
-      "new_price": 49
-    },
-    {
-      "id": 28,
-      "web_name": "Martinez",
-      "team_name": "Chelsea",
-      "direction": "fall",
-      "old_price": 50,
-      "new_price": 49
-    },
-    {
-      "id": 40,
-      "web_name": "Rogers",
-      "team_name": "Chelsea",
+      "id": 79,
+      "web_name": "Evanilson",
+      "team_name": "Bournemouth",
       "direction": "rise",
-      "old_price": 80,
-      "new_price": 81
+      "old_price": 63,
+      "new_price": 64
     },
     {
-      "id": 262,
-      "web_name": "Smith Rowe",
-      "team_name": "Fulham",
-      "direction": "fall",
-      "old_price": 53,
-      "new_price": 52
-    },
-    {
-      "id": 634,
-      "web_name": "Fernandez-Pardo",
-      "team_name": "Newcastle",
-      "direction": "fall",
-      "old_price": 60,
-      "new_price": 59
-    },
-    {
-      "id": 167,
-      "web_name": "Delap",
-      "team_name": "Nott'm Forest",
-      "direction": "fall",
-      "old_price": 55,
-      "new_price": 54
-    },
-    {
-      "id": 601,
-      "web_name": "Williams-Barnett",
-      "team_name": "Spurs",
+      "id": 107,
+      "web_name": "Furo",
+      "team_name": "Brentford",
       "direction": "fall",
       "old_price": 45,
       "new_price": 44
+    },
+    {
+      "id": 115,
+      "web_name": "De Cuyper",
+      "team_name": "Brighton",
+      "direction": "rise",
+      "old_price": 53,
+      "new_price": 54
+    },
+    {
+      "id": 165,
+      "web_name": "João Pedro",
+      "team_name": "Chelsea",
+      "direction": "fall",
+      "old_price": 78,
+      "new_price": 77
+    },
+    {
+      "id": 268,
+      "web_name": "King",
+      "team_name": "Fulham",
+      "direction": "fall",
+      "old_price": 56,
+      "new_price": 55
+    },
+    {
+      "id": 286,
+      "web_name": "Belloumi",
+      "team_name": "Hull City",
+      "direction": "rise",
+      "old_price": 52,
+      "new_price": 53
+    },
+    {
+      "id": 379,
+      "web_name": "Isak",
+      "team_name": "Liverpool",
+      "direction": "rise",
+      "old_price": 91,
+      "new_price": 92
+    },
+    {
+      "id": 399,
+      "web_name": "Cherki",
+      "team_name": "Man City",
+      "direction": "fall",
+      "old_price": 80,
+      "new_price": 79
+    },
+    {
+      "id": 469,
+      "web_name": "N.Williams",
+      "team_name": "Nott'm Forest",
+      "direction": "fall",
+      "old_price": 50,
+      "new_price": 49
+    },
+    {
+      "id": 491,
+      "web_name": "Igor Jesus",
+      "team_name": "Nott'm Forest",
+      "direction": "fall",
+      "old_price": 57,
+      "new_price": 56
+    },
+    {
+      "id": 112,
+      "web_name": "Van Hecke",
+      "team_name": "Spurs",
+      "direction": "rise",
+      "old_price": 49,
+      "new_price": 50
+    },
+    {
+      "id": 532,
+      "web_name": "Ballard",
+      "team_name": "Sunderland",
+      "direction": "fall",
+      "old_price": 48,
+      "new_price": 47
     }
   ]
 }
