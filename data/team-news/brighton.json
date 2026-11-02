@@ -1,75 +1,33 @@
 {
   "slug": "brighton",
-  "updated": "2026-11-01T21:33:11.178Z",
+  "updated": "2026-11-02T14:17:13.009Z",
   "articles": [
     {
-      "title": "Manchester City vs Brighton & Hove Albion: Premier League preview, team news, stats & head-to-head",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE40WnphYnI2S2FZbXlBQW40U3RtYjJydTZvMnBnTm1vNnNWa1hzR1BNeHI5TXNnOTF1bWZfQmVha09nZHM5OG8xWldRNEI0a0ZFRjhZVE5mT1pMeEw0ZFFWeW5BOA?oc=5",
-      "pubDate": "Sat, 31 Oct 2026 16:19:41 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Highlights - WSL - Brighton & Hove Albion 2-1 Crystal Palace",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE91ajFHSEtNeC1SS2VvU0gzQS1UaFRYQnprRHBoR1BJMi1vajhQbzNyejJsZGdYeXdSeFBFR1JJZ2JPVWpGSXc5Q3k1cUxiZnE2SWpsT1dWaUlvSGd0Ny0wTmZzY2U3alUw?oc=5",
-      "pubDate": "Sun, 01 Nov 2026 20:17:01 GMT",
+      "title": "Five Things Learned: Manchester City 0-1 Brighton & Hove Albion (Premier League)",
+      "source": "City Xtra",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRUk1dnF5TFpzRE5WNlBjd2lyS2d5U3M1cEszN29PUE9rcmc4X2dMS0o3d2g2aTh3eHRrSk9TZVNRVmU1d09IeUJIOUlESDR2QWhxMWYzNENWajFrV0VISjNQcWt6dURVc3VqazBHUS11TnZ4eVRvV202OERJRmp6SHZ1MG90RGtWRnVuMUN3R2xNeTlGek01TnBkRHhNRXg2Mk5JY0NqNVFXNG9UMUNHWTQtZw?oc=5",
+      "pubDate": "Sun, 01 Nov 2026 01:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "Premier League Forum: Who will be the first manager sacked? Are Brighton the best team in England?",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZnNvLUV0U0haaGRfV2pmejBUVXRwdUNQY0xRQjFCelVGaElaRU56Q0t4NzJ2YVhKODUzRW4xUm9Ic25CYU4wT3JUUHVuUG5qRlMza0JINlQ0ZG5VMi1MWXJubnJVdEtZM0VTbGdEUzRIQl96bzN6Z0xlb2g2eFliN1EtV0NjUDN6NlVDdjhmdWVUSG1nTTE0NTRB?oc=5",
-      "pubDate": "Sat, 31 Oct 2026 22:06:41 GMT",
-      "category": "manager"
-    },
-    {
-      "title": "What we learned from Saturday's matches",
-      "source": "Premier League",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWnBTZ3p3Ql9ZOWpBM0ZMN0dqMWpUTnFBcXNBTnhIRW9OUzlOU1JWaTN4dUE3di04VlFRNG5ES0NuMUN0NzE4d0hHZ295bkxkcm8tWldvS25vTHYxQTNRVVM0MVhEM1B4ZzNlejNnYWdOeUdwU3U0amdTSkhURlJNSDFPc2JZcGY5Yi1fYQ?oc=5",
-      "pubDate": "Sat, 31 Oct 2026 23:04:08 GMT",
+      "title": "Opta predicts final Premier League table - where Brighton will finish",
+      "source": "SussexWorld",
+      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPeHZOY1pvUlFMaWF4REt6a1lBc0w5UnRFYnVYeE1rYVhGZEJpSkF5cWNsS0VJdjlHRzJiQUtVeHBTMmJQT0tCWXh3RXMtQ3FTNmhEcFVfRTBBaUtQNGxfQWZaRVJFRWk0Y0dGejNQeHVwd1pRcHJQV0lGZF9jZjVlUUVIRklQWFdibGZwb3dCVl9TQUp3ZlVDd1VnQThMYjV6RVo4WVY0R3NTcVVWbWtWRGx0c2dVemtHMk9jVHV0cUVlUFVvdEVIb2FTUXlpQ3J1S21VZi1sN0R1TDZfNTVnY055LWFiUWlnLThiNG1aSlJRMGtnRi1VTFVmY3EtOF9i?oc=5",
+      "pubDate": "Mon, 02 Nov 2026 10:40:00 GMT",
       "category": "general"
     },
     {
-      "title": "Inside Brighton's unlikely title bid and Fabian Hurzeler's stance on Man Utd job",
-      "source": "The Mirror",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZzhPdERkdlQ5dzhGY295aU9ULTZrSks5OXc3Ym5Bb1lsZThyQ3RpeXlzQXNsMm1QeUJGd21XR1hIQ3hzcnVKYTBFSkdMcGVjNVRGQ1JUTG9xZ2ppUWl5SDBjamNIclFxY2NGbmhfdEdFT2VnRjhnLV9TX05zc0JMUU93T0pIb3NpT1FJX01ORV9raG5GTVFMaVFHeWs?oc=5",
-      "pubDate": "Sun, 01 Nov 2026 11:36:00 GMT",
+      "title": "Brighton and Hove Albion Women",
+      "source": "Crystal Palace F.C.",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNdUlKdU4teC1oaXRvMkJkQ2d4b1hiNDVzOGRsNTFZV2Z3dUlzRFR0bGMxLW9NMDU4RWVnVFJRTDBHU2M2anpBX1hFbDV0Q0RValBzMmZMOHhac3dQSVJfMUVDZVNJdE1nZHdFd1pkdlhSY3l6VUktZUdkRVRqTlA4RkJxTUZMemF2SFc4ajlEbW56UzJPMmVQaHdieWlSQWU5MXlLbmlRRWZPbVprNU1GU2JaYjhRbUtmN1pZSVFCYm9NRjZvZ2piNTVXSnEwWjBuU1JDeTQ0aUgyUmhvWjNJ?oc=5",
+      "pubDate": "Mon, 02 Nov 2026 00:40:53 GMT",
       "category": "general"
     },
     {
-      "title": "Was Manchester City wronged? Former head of the referees' body cannot believe what happened",
-      "source": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMHg2dHFETVktTnV5cXZGcS13dkJ2dTZYaHZlNlFUUzBwUDlFNWNfdnFGYWh1MDJFdk1lM3lvbjlNaVFMeW10dkVJcUYwZmc5dTRwUGwtdVNLZWlBaXA5b0pTTFFMTVNkMGNDNmRiOWlqVTlNQkJkTFFZMEQ3WVhqaXJpVkxIZ0NPTHc4Y2dhOWljQjNXZllkZzU5M2lLYjVxRjg2RUwtZWd2TjhQbDNZaHR1QkJleXBFRHN4SG1Td3EzQU5xRXc?oc=5",
-      "pubDate": "Sun, 01 Nov 2026 14:45:37 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Match Centre - Manchester City : Brighton & Hove Albion",
-      "source": "Transfermarkt",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5wU0tma2ZpWl9KbTlhc1ZtcHU4WkhJeThwSDdQZWNnbEVtWko5UFJJNjRpRUtfNm1PemJGWmRhT3NPTmVfb0xST3dGcC01emtnbDBxUGNXcDNtOVNlRzQtYlhpenhKMjQ5MWJR?oc=5",
-      "pubDate": "Sat, 31 Oct 2026 14:01:53 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Brighton 2-1 Crystal Palace: Seagulls score two in five minutes in comeback win",
+      "title": "Highlights - Premier League - Manchester City 0-1 Brighton & Hove Albion",
       "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE90ZG44ZDBwQTQwZENxMlotbFlwaURUbk1lZGtwNFJZeDcwX05QcEhwaW5aTXVQeTJ6UlhMclJWRm9IUmZZNjlkRHNKR3lYbkVwYkNJc185NUZTekxnUHZCTWUtZw?oc=5",
-      "pubDate": "Sun, 01 Nov 2026 16:24:38 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Brighton sent Champions League warning by Gus Poyet after Man City win (exclusive)",
-      "source": "Sports Mole",
-      "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOTURpSk42aWdVTS04ZlVEaUJnQ1BTR1B5YWh0M0stU0hRWWFXa1JfZ05teHZpRHFveU1sYUNCSWVZNHlBQTJtSXJldzN1dkFKYUNYak94OXZSRVZYSHdqajBsdjB3bnNDQUsyU1hENC16VVVKRjlmUVR1R1haQ2xFTTNwMDhybDZnQUxJY2VGcXVOc0RkMG5xX1EtN19vaml1alRRWmpBZnl4YUFENmlFNVlnSC1pY05zczlkcE5JVkpfNFNsR1l3SDFSZ3FoVWtDTWhscUU4V180REFvdnItYW5ScDNoOE82QUZzcnVXOUc0WUNjaGNKcFNKTVdud0NW?oc=5",
-      "pubDate": "Sat, 31 Oct 2026 18:23:08 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Women's Super League",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdkVwU3RZN0ljZVRtMmpodUhyeG1IY2MzaWI1RmZlakVKV3paYm9aQkFYMXQ0NWlURTIxakNqTFJpN252UExvQWhoVGl3MWhaMV9OR1ZvZnNLd0Q1UnIwS2Jvb1dISWVZckhsQ1ZmeGFuN0d0d1JaSDJUOFhmYlFPTk0xWGxfb2p5emxoelFUU01JS0h5ZVJsOVhLdVFnWDdYTmJuQVZLc1BUZmRkdlFWWXk2M3NVZw?oc=5",
-      "pubDate": "Sun, 01 Nov 2026 20:18:37 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPdGlOZU84LVFFTFA4d2Z3U2N0QXU0c01wajUtVGl2MTRBWHNRdVRmbHhwZm54UU9fR3gycmkydDJBbUJza01PMmcwcXUzOC11WGlCdFdpb1RCQWNxNDVEY2NOTUxmNnNN?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 22:30:05 GMT",
       "category": "general"
     },
     {
@@ -80,10 +38,38 @@
       "category": "general"
     },
     {
-      "title": "Brighton & Hove Albion 2–1 Crystal Palace | WSL highlights",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUFotUDl2WFp4OVJnbGxlZHdYOFRQeUJjcWxmWG1mX091SVA1YjhVYUl6UVhXWUg3N0xIQjFIZlcxUHJCNHRlMmtUanUtQ2tOS2dFTUVrVGROcnJqNTJ2Xy00QmtFVk45N0hxX09kQVR3eTlvUmJHX1kzYTd0bTZYdEk2eXZobDJLRjB5dHd1Uk51aWRXc082b0t1N25PZTlQczRPa016dTlzZHdY?oc=5",
-      "pubDate": "Sun, 01 Nov 2026 16:11:03 GMT",
+      "title": "Kadioglu, Azeez, Struijk - Brighton injury update and expected return dates",
+      "source": "SussexWorld",
+      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOb091Tk9PQzJKN2kySG1CZWJCbWJJbWYzOEF3ejZIWjN2c0Vpd00ta0tZSkJOWXpFamJlVEZZS3ZTNFptYlVyUkQyaEF3bE9KaUFIeml4NlRzZ2VVOFFuV29QQnd3MlNuZjZvOUJEZHkwSDFfYWNFajRBMHE5dnA4SEpZTG9Ob1E2eGVMRGF3YzlYS2FQczZ4elhieFBWU1pWNjJsdkptYTJWM0ctR01VUlhzb1NaUXc4cVh1RW15X1p6Uk5zYlRYdnlsal91WlVpWG1aRG9RbDdzS1JTTHQ4R2g4a21SU1pjczBubS10WU5FQ0Uza2ZZWWhVYmxLRUlLaXk4ck82dmc5X19VeWc?oc=5",
+      "pubDate": "Mon, 02 Nov 2026 14:07:00 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "City 0-1 Brighton: 8-minute highlights",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOX3NLNzZyZkpzaVNtVXBPSEtJMWxBUEs2aXF5cmhSSGZweU41bTI3ZWltVjFPaThkX2VfZGRrRURWLXBHQ21Ia250TUxVYWdxbVk3bG9aaG9oNlhWVjZBVV9YVDhJLXJoNTBicU5iNnlaTjVCTVlHdENMTUFsQ2dwdUtfVUJROWZaNEE?oc=5",
+      "pubDate": "Sun, 01 Nov 2026 00:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Highlights - WSL - Brighton & Hove Albion 2-1 Crystal Palace",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE91ajFHSEtNeC1SS2VvU0gzQS1UaFRYQnprRHBoR1BJMi1vajhQbzNyejJsZGdYeXdSeFBFR1JJZ2JPVWpGSXc5Q3k1cUxiZnE2SWpsT1dWaUlvSGd0Ny0wTmZzY2U3alUw?oc=5",
+      "pubDate": "Sun, 01 Nov 2026 20:17:01 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Women's Super League",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdkVwU3RZN0ljZVRtMmpodUhyeG1IY2MzaWI1RmZlakVKV3paYm9aQkFYMXQ0NWlURTIxakNqTFJpN252UExvQWhoVGl3MWhaMV9OR1ZvZnNLd0Q1UnIwS2Jvb1dISWVZckhsQ1ZmeGFuN0d0d1JaSDJUOFhmYlFPTk0xWGxfb2p5emxoelFUU01JS0h5ZVJsOVhLdVFnWDdYTmJuQVZLc1BUZmRkdlFWWXk2M3NVZw?oc=5",
+      "pubDate": "Sun, 01 Nov 2026 20:18:37 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Premier League: Can Brighton and Hove Albion push Manchester City and Arsenal for the title?",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1Mb0o3Q2Y2a3kwV2dJYnk0bklmci1kUEpiMjhjdHdPSGdrOTNDUTBVemtKVkVMS1M2dVdPT01pcVRuNEIzbV85am82a3I2djlDWWtTcW0wdWhNOXEzb2FqQ0trMW5YTXlT?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 19:42:29 GMT",
       "category": "general"
     },
     {
@@ -94,17 +80,31 @@
       "category": "match"
     },
     {
+      "title": "Seagulls come from behind | Brighton & Hove Albion v Crystal Palace | Barclays WSL 26/27",
+      "source": "WSL Football",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNTTVjS2ZGaDVoR25acWRqaGQ1XzRSWlBwaXpiV20ySWQyOGhYWWcxamtsRGo0ZWg4dENaYjR2a3VOTWFCR1g2elFTQWQ5OXBuZzR4Rk5jYmxxZ2RfbHh5X1FULXNxWkJ4NEpkbG8wOXZfLUtxMVd1a1dtelNXdmdaSkN2VEthWWNqTDBQa1lFRWwta0RnTWhYbFJLT2ZZbUtfU2M0dURBSFVNZm5iZEt5LWhCYjk0Vkk?oc=5",
+      "pubDate": "Sun, 01 Nov 2026 17:53:11 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Brighton & Hove Albion 2–1 Crystal Palace | WSL highlights",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUFotUDl2WFp4OVJnbGxlZHdYOFRQeUJjcWxmWG1mX091SVA1YjhVYUl6UVhXWUg3N0xIQjFIZlcxUHJCNHRlMmtUanUtQ2tOS2dFTUVrVGROcnJqNTJ2Xy00QmtFVk45N0hxX09kQVR3eTlvUmJHX1kzYTd0bTZYdEk2eXZobDJLRjB5dHd1Uk51aWRXc082b0t1N25PZTlQczRPa016dTlzZHdY?oc=5",
+      "pubDate": "Sun, 01 Nov 2026 16:11:03 GMT",
+      "category": "general"
+    },
+    {
+      "title": "LIVE BLOG: Manchester City vs Brighton & Hove Albion | Premier League",
+      "source": "beIN SPORTS",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYnkyNk9tRllOUXBRaVBPeHBvUDY4MXhtTWRPeGFLbjVnbXZFQXlDWW5NR1lPbXg4b1BTTmUzYlZiVTRXeXNTRkhGdm1pbFluVlFEMnhtdzBldFpZTGpESmpYSWc0a2VqVmhJbnBOMTJKRU5YVWJhVzhHNF9ueXY3N0Qtd2ZXUUtMNjFwaGR4SW9hQTlvVTltUF9WaUs0WUN6SkE4ZDdMX0wwZVhJOUdqbHZVMlNzM1VrU01EWWw5TjhFWjlTMnJaS1A0bmxjRlhxVWxWdEd3?oc=5",
+      "pubDate": "Sat, 31 Oct 2026 14:58:11 GMT",
+      "category": "match"
+    },
+    {
       "title": "++(LIVESTREAMs!) FREE]# Brighton & Hove Albion - Manchester City Live Streaming free",
       "source": "Port of Rotterdam",
       "link": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxNc2FXTVUtZzMyLVVnNlZfRVpjdzVsYld3NTdqVm1jc01zcDFnNnEyTWhiRW1XaC1sWXJNVVE3MVdLNTdsT0FQaTRIVmZmZUlCTkg4ay1jYVpfUGRva0ZxRndWSnhqUFg3bExrSWFsYmdKV3d6LUxUWHJSa3EwZnZsRE5ERXNfYVdnUzRmNExSRkl1SVd4dXh3b1dxTXloU2tyb3FBSjJPaTRNQjViU3VNaXJNLWlweGc1VFJ3TWN6VGZzay1RbTBtQXBvbDRuWlBfYUFkbklBWllaQWJwUEk0QXZYQlZueFFaZ2Y0ajY4emx0RlNvT3R6a25XRWlEQTlLVVpHRWl1YmlCc0tVc2c4c3VzS0o3YVNmZjcyMG96d1FVY2lfUHBtSnEyZGRWU0pjejFQSUpDdWdOOGFMd004Z2RaM2g3NDFpVmpmX3JWRHlGRGNCMGlVUGZLTUJPX1dNNGZGZi1TNGZJSVgxNlFpVjdVOU92R0NVRFJaZTY0RQ?oc=5",
       "pubDate": "Sat, 31 Oct 2026 14:48:07 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Enzo Maresca Defends Toothless Manchester City Display Despite Brighton and Hove Albion Disappointment",
-      "source": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUWhWMFo0T0xxZm9FNUdDRVh6TDhDcC1aSHhsRmY0NjdEcDdGb3FkQ1ZsLTljOXd6eUFJN2pSVkZOaFdfNmF4N1VJRDh1aXI2WmM0cVdtX0NKZWgybnFMTXJMZ1BCMVQtQ2NVMDU5R3g5eXBKRTRkaDlWcGtFTzZtSk44eWYxZTJtUnZOWkU5S29pZGVQ?oc=5",
-      "pubDate": "Sun, 01 Nov 2026 12:00:00 GMT",
       "category": "general"
     }
   ],
