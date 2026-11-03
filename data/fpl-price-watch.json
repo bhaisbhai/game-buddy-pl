@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T10:37:50.892Z",
+  "updated": "2026-11-03T10:29:58.370Z",
   "snapshot": {
     "1": 62,
     "2": 49,
@@ -11,7 +11,7 @@
     "8": 59,
     "9": 52,
     "10": 54,
-    "11": 52,
+    "11": 51,
     "12": 95,
     "13": 74,
     "14": 62,
@@ -568,8 +568,8 @@
     "565": 54,
     "566": 50,
     "567": 50,
-    "568": 54,
-    "569": 60,
+    "568": 53,
+    "569": 59,
     "570": 53,
     "571": 48,
     "572": 47,
@@ -674,28 +674,28 @@
   },
   "changes": [
     {
-      "id": 7,
-      "web_name": "Lewis-Skelly",
+      "id": 11,
+      "web_name": "Mosquera",
       "team_name": "Arsenal",
+      "direction": "fall",
+      "old_price": 52,
+      "new_price": 51
+    },
+    {
+      "id": 568,
+      "web_name": "Barco",
+      "team_name": "Chelsea",
       "direction": "fall",
       "old_price": 54,
       "new_price": 53
     },
     {
-      "id": 285,
-      "web_name": "McNair",
-      "team_name": "Hull City",
+      "id": 569,
+      "web_name": "Gonzalo",
+      "team_name": "Fulham",
       "direction": "fall",
-      "old_price": 40,
-      "new_price": 39
-    },
-    {
-      "id": 361,
-      "web_name": "Lucky",
-      "team_name": "Liverpool",
-      "direction": "fall",
-      "old_price": 40,
-      "new_price": 39
+      "old_price": 60,
+      "new_price": 59
     }
   ]
 }
