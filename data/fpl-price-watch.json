@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T10:26:10.336Z",
+  "updated": "2026-11-06T10:27:42.477Z",
   "snapshot": {
     "1": 62,
     "2": 49,
@@ -53,14 +53,14 @@
     "50": 44,
     "51": 44,
     "52": 49,
-    "53": 61,
+    "53": 62,
     "54": 55,
     "55": 78,
     "56": 55,
     "57": 45,
     "58": 40,
     "59": 40,
-    "60": 55,
+    "60": 56,
     "61": 54,
     "62": 49,
     "63": 49,
@@ -222,7 +222,7 @@
     "219": 49,
     "220": 45,
     "221": 44,
-    "222": 60,
+    "222": 59,
     "223": 63,
     "224": 54,
     "225": 50,
@@ -674,36 +674,28 @@
   },
   "changes": [
     {
-      "id": 329,
-      "web_name": "Rodon",
-      "team_name": "Leeds",
-      "direction": "fall",
-      "old_price": 43,
-      "new_price": 42
+      "id": 53,
+      "web_name": "Manzambi",
+      "team_name": "Aston Villa",
+      "direction": "rise",
+      "old_price": 61,
+      "new_price": 62
     },
     {
-      "id": 418,
-      "web_name": "Maguire",
-      "team_name": "Man Utd",
-      "direction": "fall",
-      "old_price": 47,
-      "new_price": 46
+      "id": 60,
+      "web_name": "Hill",
+      "team_name": "Bournemouth",
+      "direction": "rise",
+      "old_price": 55,
+      "new_price": 56
     },
     {
-      "id": 480,
-      "web_name": "Gibbs-White",
-      "team_name": "Nott'm Forest",
+      "id": 222,
+      "web_name": "Strand Larsen",
+      "team_name": "Crystal Palace",
       "direction": "fall",
-      "old_price": 79,
-      "new_price": 78
-    },
-    {
-      "id": 668,
-      "web_name": "Tutierov",
-      "team_name": "Sunderland",
-      "direction": "fall",
-      "old_price": 50,
-      "new_price": 49
+      "old_price": 60,
+      "new_price": 59
     }
   ]
 }
