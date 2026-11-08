@@ -1,69 +1,27 @@
 {
   "slug": "fulham",
-  "updated": "2026-11-08T12:29:16.863Z",
+  "updated": "2026-11-08T21:32:07.259Z",
   "articles": [
     {
-      "title": "Fulham 1-1 Newcastle United: Rodrigo Muniz equaliser denies visitors much-needed win",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE11UUp0TkJJblJoeDY1Z01YMmZaQk9mcFN4cU95Q2ZfRmlMZWRhdHBSci16WllzWDk1Qkw0NHM1TmtQbVZGTFVVeUVHMTh6YV9MSnZfRWNiOTZ2dGh6SmtLcXBsQllKZw?oc=5",
-      "pubDate": "Sat, 07 Nov 2026 15:00:31 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Fulham vs Newcastle LIVE! Premier League updates, news, prediction and line-ups",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSUVqS3R0cnA3MzJMcGkzNThZTUVPUFpEc0JkdEJHV0Fzam1odUZDZlkzZ0hPSkgxcTFqSzdXNXlyODBwVGJaSkQtOTBIcXpQN3BXZk0yaDlJUFdFelhsNEdFTzJVRVJScTk0OHNKRkJuWWkyYjNlU3F5Nk9JUGU1Q3Vid05pczlDUjVLRUVHTjhiN3pXc3dwS3ZFY2FYblRuM2RhdmZlNlIwd1BFUk1yNWF4YXRKZVhkX1NhU3NKZzBnSzgwMGc4bWpn?oc=5",
-      "pubDate": "Sat, 07 Nov 2026 17:26:05 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Matthias Jaissle not amused by 'slapstick' moment in Newcastle's Fulham draw",
-      "source": "The Northern Echo",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUUx2UXJXTDZRelplN0JBUU5waUg0U2tDaXBNT3FnclBSV2hIaEczRGJzNnkxdm1SRFhuTklCT01MM21XRnl4WXhSMkstcU82SGNicUdSMmFlQVAwRkNMUGxQZjEybG9jS3d3aWJVN1QtN2VvTEYyeDVHWnkxd1BTcmxILVVfMF9nNmIzWUZ0c0pRNlhQTGVtRGxLQ0hIUTg?oc=5",
-      "pubDate": "Sat, 07 Nov 2026 18:47:41 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Muniz salvages point but Arbeloa sweating over Fulham injury concern",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbnd1R29ZZXdocURhY0cxRlJmUzlITXRTeUVWNzJUSjA2X0ljRGZhMTNDWEl0WnViTC1aY3ZzTjIxa1pQM1k4cmc5bTFvekFwb1lBS2hwNVR0cWMtV0hubDFCcWd5a2tLeEdnQ3RSTmR4OWRRTUs4cHBjTTF0OUJpSnpaTG16bjVENld6MGo2TU1OM21IT1gwakpkdGk0aWcySGh3?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 05:27:48 GMT",
-      "category": "fitness"
-    },
-    {
-      "title": "Newcastle United line-ups vs Fulham as Sean Steur decision made and new Malick Thiaw role",
-      "source": "Chronicle Live",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNc29yODF0SFdLTmpVZ1BtdmNvaXBzeFJMZS1DNy1LM0hrdXZ5QVZ5NkVwNFdaTFhGdXhBMHF2M3FZSDFoanFYM3ZyUWxCMW5TOWJTUXg5Rk10ZUU1Q3FqNUxBcVg3aTZ1ZURBRDlwU3k3ZkthSFBWWXFQMkZYMDR3OTlyRHBvVk54UTNqRFZ0VGoxZXppQlc3bXBGYkExUE1DdFNJX9IBqgFBVV95cUxQaXdURm9UZnN2MTFkZlZ4UzJuOGpsdGozMmxmN1VoNzlObGN1X3lma2NOSG1TNnEwdmc1ZUZoZGFKUFh3alpjRlV2cjVuWDhJd0xHa3ZsVUczcjhXRlIzZkd5LVBRN3E3VzZqSC1rZnVXanlWQndlMjExNVU5VzIzbkJBdDYtaE1VS1UtVHBFSE1CVTMyVWNaTnFTQVVUSjJ6WDFGYm9Rc3A0QQ?oc=5",
-      "pubDate": "Sat, 07 Nov 2026 08:04:55 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Latest. How to watch Fulham vs Newcastle United: TV details, kick-off time and team news",
-      "source": "Newcastle United",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUWROT0IteEprQ01oMHotZVVsLWxNZnE3M29XZy1WSm15TTd5cUNJUGZsb0VyMDA3Tm5Ua3ZvZUZialMtRGVDMUtQQW5NaHdHSkpNbW44c09kQXJ3TlVYS2t4cmMzcF9EZzVjVXMzS2hpUTFKaFFibndRWHRwQUs4eFc2YnZVTnJLcnV5MHExSzUwaHpVUGFDQmpGSDNHbHZyQzFVRHNXYllPMzRUQlg0c0dYRzVnT2p4VHc?oc=5",
-      "pubDate": "Sat, 07 Nov 2026 08:17:35 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Newcastle held at Fulham after late drama. But was this a missed opportunity?",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSHA1MXZxSWZlM2FtMGxoWXc3aVV0S0RXWXV3b0FscFo0TW5DVWZsdkhRcF9HNEpUd2hPM3NzZUIxMm84RE5Lc0l2eUdEYllOLXlyZkFJbTUzV2lLQnNGekVHSS1wMjk0dUV0elF2WWVKdTVaeW43TVNyanFpWFhaUmtBRlpJa29Xa0xUUkd3?oc=5",
-      "pubDate": "Sat, 07 Nov 2026 23:49:25 GMT",
+      "title": "Fulham star Rodrigo Muniz bravely reveals wife suffered miscarriage in emotional interview",
+      "source": "The Mirror",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNmlwWHBrYjNGbWVSTEZ1R1pWbkFxMFVxakpkRFlIV3JwTVpvRW5Kc1VxUzVrWUdwY3hKR0VENG9oSnNmMzFHOEhvaUxUWHplYXVHTEluRUw4dk1ia1BSNWpzRVFmcTl0cWlKaDFmbm13dnhPR0FYWi1ra3VuY1hFVThwM0xBSFNnNXdKeHJ2YjZ2VjhmR2fSAZsBQVVfeXFMTWgtWTBqVHQ2RXJBbGw1dXRqV2pHblh5UlFpMThXWTJuZmNDQThlaU02emhuR3RFUlNMX3JvZG5vWU1XWDZpQVdGZ0FFYlg1Nk9hV3EzWjVxUDhfdUVlU2Q2aFV3b3MtVnp2WEYwVk5ZMDZRNThxUUFBZ1lCelp6SlpXa1Q3Nkd4Ui12M1R3RGF4V01qLW10Um81aE0?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 16:08:00 GMT",
       "category": "general"
     },
     {
       "title": "Arbeloa issues Fulham update after King injury worry",
       "source": "London Evening Standard",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRUQwdko5ZW1LQzhDazBVc1E4MFpSV2dna2cxQnpsYVliM0NZZXpBbUJTSzVSRHhXTkV3YzlvRWRqeVoyWDBuSEt0RW5hUjc1eGZXQ2lrNTFkRzhqNzItZjhDal9JV3A3b1VwSGxwSGZMcWowYnRrWm4zYlhBTEd3c19WRFBxRzJpUjk3djluaXBiUURzakRZ?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 09:04:29 GMT",
+      "pubDate": "Sun, 08 Nov 2026 17:05:46 GMT",
       "category": "fitness"
     },
     {
-      "title": "How to watch Fulham vs Newcastle United for FREE: Live stream Premier League 3pm kick-off online from anywhere",
-      "source": "FourFourTwo",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeUFBRnR5M1ZsR3NoQ21CTHI2WkR5QmZpVDFuMmNfejVnX2ZWYkJ2VU95bzBlVF9IVXN1TTVOa1BQaGZjOThkeW9JdWVCbVc2RUxxU0xkZXZYSzNPUG0xZFpTRnpGYWRjdjFFT1JPX1p5aHNjS0N1Z2NCcE41bjJnUkNNMnVzTEk5Ml91N2c3a3hZaFlzeU9obXdHcDBMcHZ1LXc?oc=5",
-      "pubDate": "Sat, 07 Nov 2026 12:00:00 GMT",
-      "category": "match"
+      "title": "Fulham 1-1 Newcastle | Premier League highlights",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVFoyNmZ4V0ppWmQ0RmwwckI2cVBGRVEyU3dNY2VreFU3bEcwYnM4QjZZSl9qdXZLWW0tU25La2NzVXk0QXphN0pkeDdJNGZsMkE2TDRzQmwtQi01a3Q1UExOcHdwRVZoakhydnpXZmRrM0Y2U2tyZ3RIcE5NbVY0TVYtcEFOeVowMjYxMDZ3VGwtWjVHUjNyaFdlelA?oc=5",
+      "pubDate": "Sat, 07 Nov 2026 17:16:22 GMT",
+      "category": "general"
     },
     {
       "title": "Ipswich score two late goals to leave Fulham winless",
@@ -73,18 +31,60 @@
       "category": "general"
     },
     {
-      "title": "Muniz: Working Hard",
+      "title": "Matthias Jaissle not amused by 'slapstick' moment in Newcastle's Fulham draw",
+      "source": "The Northern Echo",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUUx2UXJXTDZRelplN0JBUU5waUg0U2tDaXBNT3FnclBSV2hIaEczRGJzNnkxdm1SRFhuTklCT01MM21XRnl4WXhSMkstcU82SGNicUdSMmFlQVAwRkNMUGxQZjEybG9jS3d3aWJVN1QtN2VvTEYyeDVHWnkxd1BTcmxILVVfMF9nNmIzWUZ0c0pRNlhQTGVtRGxLQ0hIUTg?oc=5",
+      "pubDate": "Sat, 07 Nov 2026 18:47:41 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Newcastle United line-ups vs Fulham as Sean Steur decision made and new Malick Thiaw role",
+      "source": "Chronicle Live",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNc29yODF0SFdLTmpVZ1BtdmNvaXBzeFJMZS1DNy1LM0hrdXZ5QVZ5NkVwNFdaTFhGdXhBMHF2M3FZSDFoanFYM3ZyUWxCMW5TOWJTUXg5Rk10ZUU1Q3FqNUxBcVg3aTZ1ZURBRDlwU3k3ZkthSFBWWXFQMkZYMDR3OTlyRHBvVk54UTNqRFZ0VGoxZXppQlc3bXBGYkExUE1DdFNJX9IBqgFBVV95cUxQaXdURm9UZnN2MTFkZlZ4UzJuOGpsdGozMmxmN1VoNzlObGN1X3lma2NOSG1TNnEwdmc1ZUZoZGFKUFh3alpjRlV2cjVuWDhJd0xHa3ZsVUczcjhXRlIzZkd5LVBRN3E3VzZqSC1rZnVXanlWQndlMjExNVU5VzIzbkJBdDYtaE1VS1UtVHBFSE1CVTMyVWNaTnFTQVVUSjJ6WDFGYm9Rc3A0QQ?oc=5",
+      "pubDate": "Sat, 07 Nov 2026 08:04:55 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Coventry City 0-1 Fulham: Oscar Bobb scores late winner in Premier League",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1SdzZIQ056Q0hmMDJFMzE0dEptWnBRSVpxS2VSQ2tIZDUzNTFaRGtHNXRkZlROUjgyc2hYR0FRRXZ4Y1NoNkVVQ25RSnItMndrRl9yekVKN05xUjNaVUh4VnJLRGVUUQ?oc=5",
+      "pubDate": "Sat, 24 Oct 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Muniz salvages point but Arbeloa sweating over Fulham injury concern",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbnd1R29ZZXdocURhY0cxRlJmUzlITXRTeUVWNzJUSjA2X0ljRGZhMTNDWEl0WnViTC1aY3ZzTjIxa1pQM1k4cmc5bTFvekFwb1lBS2hwNVR0cWMtV0hubDFCcWd5a2tLeEdnQ3RSTmR4OWRRTUs4cHBjTTF0OUJpSnpaTG16bjVENld6MGo2TU1OM21IT1gwakpkdGk0aWcySGh3?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 11:27:48 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "Fulham vs Newcastle LIVE! Premier League updates, news, prediction and line-ups",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSUVqS3R0cnA3MzJMcGkzNThZTUVPUFpEc0JkdEJHV0Fzam1odUZDZlkzZ0hPSkgxcTFqSzdXNXlyODBwVGJaSkQtOTBIcXpQN3BXZk0yaDlJUFdFelhsNEdFTzJVRVJScTk0OHNKRkJuWWkyYjNlU3F5Nk9JUGU1Q3Vid05pczlDUjVLRUVHTjhiN3pXc3dwS3ZFY2FYblRuM2RhdmZlNlIwd1BFUk1yNWF4YXRKZVhkX1NhU3NKZzBnSzgwMGc4bWpn?oc=5",
+      "pubDate": "Sat, 07 Nov 2026 17:26:05 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Dean: The team have been excellent",
       "source": "Fulham FC",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5OVUx4eEc4WXVZUV9KR1dwdzdXZy1qbUhEYlZvdE9JU3huQXplMEp5MXViY1psS2J2S1B1NE9obTJtVWZHZ01LTHktVF9vZlg0czJpY0gteE9XLVJGXzNKdzJpU2R5eU9oRG9meGNPWm9lZ09Mamc?oc=5",
-      "pubDate": "Sat, 07 Nov 2026 20:08:50 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOOXpULU9ZTmhjSHZ2cUxIRzNwMmx1STBjemd3QzdtazZpSVhSUUt5MjQwenlrdGJhT2RMN2FmYlRFOU1KVzZzZk9nNjJGb1NLZ3NjeVF1OHM5OHhGUDBWbklaLTc3dkxoLWtGUmR3QXVwNkU5UTFFNHNuZk52MnhhcS1lSXRXN00xRWc?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 21:07:33 GMT",
       "category": "general"
     },
     {
       "title": "Official Club Website",
       "source": "Fulham FC",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNLUVWcmlSREFsaUJmdnNXclJnR0piWG1abEtReTNKVUFlbm5lVW9uMnVBNnctenNZc3NRZ1dGVG02ekhtcUJEbllVdXN1SnN0R3hJbGNaQkpCaU5BYU8yYjN1NjZSbEIwa19zX05SSlQ5cFZyUFpUdFMxOWNXbFdxUA?oc=5",
-      "pubDate": "Sat, 07 Nov 2026 18:25:59 GMT",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB4cG8tN0pvU09mekw3elU2M0FUVFBqdEZWUG5teXIySWZsQ0l6Rld0X3Y3VjlyYWdnOWlzcW5hRDl3YUE5c1FSTUp6ZVdjWnI4TjFWSWJ3ZE5kY3hoeHpXRnVVRFdqZDlZdl8wNUI4TlNXd1JMRmF4d0lRSzg?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 21:07:33 GMT",
       "category": "general"
+    },
+    {
+      "title": "Latest. How to watch Fulham vs Newcastle United: TV details, kick-off time and team news",
+      "source": "Newcastle United",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUWROT0IteEprQ01oMHotZVVsLWxNZnE3M29XZy1WSm15TTd5cUNJUGZsb0VyMDA3Tm5Ua3ZvZUZialMtRGVDMUtQQW5NaHdHSkpNbW44c09kQXJ3TlVYS2t4cmMzcF9EZzVjVXMzS2hpUTFKaFFibndRWHRwQUs4eFc2YnZVTnJLcnV5MHExSzUwaHpVUGFDQmpGSDNHbHZyQzFVRHNXYllPMzRUQlg0c0dYRzVnT2p4VHc?oc=5",
+      "pubDate": "Sat, 07 Nov 2026 08:17:35 GMT",
+      "category": "match"
     },
     {
       "title": "Everton v Fulham Ticket News",
@@ -101,11 +101,11 @@
       "category": "general"
     },
     {
-      "title": "Fulham 1-1 Newcastle | Premier League highlights",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVFoyNmZ4V0ppWmQ0RmwwckI2cVBGRVEyU3dNY2VreFU3bEcwYnM4QjZZSl9qdXZLWW0tU25La2NzVXk0QXphN0pkeDdJNGZsMkE2TDRzQmwtQi01a3Q1UExOcHdwRVZoakhydnpXZmRrM0Y2U2tyZ3RIcE5NbVY0TVYtcEFOeVowMjYxMDZ3VGwtWjVHUjNyaFdlelA?oc=5",
-      "pubDate": "Sat, 07 Nov 2026 17:16:22 GMT",
-      "category": "general"
+      "title": "Royal Caribbean Legend of the Match Result: Newcastle",
+      "source": "Fulham FC",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeEtmS1Q2ekhrU2ZYM2JkNFhhQlpYTDl3TS1rdDEyNzNKTXg0eUFfRXpTM2Y1bV9nSjBSTmd4TDhMRXRBekRPYUlEeGNqX0Q4b1pOQXNFUkl2SzdIS0JUUmw3ZlFVOVk2U0dRUDJmS203dENLbm9uYmg5WmZ5TTg5Z290b09IZDhaTkVoQWJuNnROaXR2Tjl3NTZQamtvOXNBUmc?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 00:08:50 GMT",
+      "category": "match"
     }
   ],
   "reddit": []
