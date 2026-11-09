@@ -1,48 +1,76 @@
 {
   "slug": "crystal-palace",
-  "updated": "2026-11-08T21:32:07.259Z",
+  "updated": "2026-11-09T14:44:41.574Z",
   "articles": [
-    {
-      "title": "Crystal Palace vs Liverpool: Premier League preview, team news, stats & head-to-head",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1zYjFDMmVlREhSREMyblR1OXhySHQ3Tzh1bnB6MVVZdmh4eDlXZXJ1eUZ6b2Y2dnVuVUd4ZmhaTllMUkc2Vi1vNFpTOE51QWhBMVpjanhFeEFtUGM0UmN2WmxWbUotUQ?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 03:01:38 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Potter on WSL win",
-      "source": "Crystal Palace F.C.",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZ2VzejB5QzFkaW9oUTA1M19CUkVIOHUyQ2dVMUdvakhmX2pKVTNSdnBnUDdOcjVoUTJSeVRvd3dDc1Niblh1dS01MXpqdmJsS2c1YU51Q3dmaDIyV01HSUE2dGZ0dElqdXhwRkNpTmtfVGRXbV9pM1UtNnNCZzRhOGdzMFlXMExJSm9FYmVR?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 20:37:38 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Pierre Sage under pressure: How Crystal Palace and last season's Ligue 1 manager of the year are both suffering",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPN1RpREowdmpmWWNwdWpmN2V1bVlETl9yWmo4WXRaWW92b3pwcWpnVmgwM1AzcGVTQ1JkdTJnTzV3bzVValg4SXFRNjItRldudDcydW8wS2p6RkVxVHZzelYzRFUtajVDLUdLRkczd1pPb0tocHcyakp2TEk1TVdvUHhraHlKeUFYYno4RGxUbG9wdDFXOHVQd2ZRMzRFNmY1LXhwVnJYX1BUQU44bVgtSFRDR3pTVEU1UmZkR2VkMENqMWE0QngwWGVVR0tpb2JPQUJkaEx0UmdXSXhUTHJrRTBxajh1dUswNXdDZjljaw?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 20:57:23 GMT",
-      "category": "manager"
-    },
-    {
-      "title": "CRYSTAL PALACE 1-3 LIVERPOOL: Reds return to winning ways",
-      "source": "This Is Anfield",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaU1rWE9TOUphdWdMbzNucC1IVFl2Rl9mc293ZlJxRzdBcFVLNGZLV1d1YWVtdlllRVRvZklEbzlFeGpzeE1ySlROR0RXQVlCWVJPampXeUVhTmhTcEtQanNOb09kN2t6alRObU16NWdIV3FIb05uVGZvckYyUTdwWUlXalpUYVhNaFRnaEtqb3BaX0dMYXpxRFlGTQ?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 15:57:14 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Match Action: Crystal Palace 1-3 Liverpool",
-      "source": "Crystal Palace F.C.",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONXAzVzlGSnlJVVVmRTVpNUdsX2owTktaWnd2OWNJMlV0QTRxM3lCa25RTXM2bzBTMnRDUTlXR3pGS2NFZ3lBbW1rMDBHNGJWZUxDSTBycWlWUC1iY0tCSzRta29oN3V5dXdhMV9zVS1MVC14WUQ4Wnc3aHlDSmNJMEVfbnVYVjd2Zl9FQmM1Mm9DVm5yT2NrWWx6ZlN0NDBaZ2ZoX0tPYVVQVkxhOTRr?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 17:17:45 GMT",
-      "category": "match"
-    },
     {
       "title": "Premier League highlights: Crystal Palace 1-3 Liverpool",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9GaXhzZXZmb3ZQcEdPcEhyWkhSQ2dNdEVpVzVVTFFTeVVzT1NJbVFnZXRlei1acGxIdWg2UnFRdktJVWF6M19QMTU0UmVRcGV4SUxpMUhOcTlpUW5pTG5WeWZFUk9VTWc0?oc=5",
       "pubDate": "Sun, 08 Nov 2026 19:58:46 GMT",
       "category": "general"
+    },
+    {
+      "title": "Thomas Frank: Former Spurs and Brentford boss leading contender to take over at Crystal Palace if Pierre Sage is sacked",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQWjBuNGcwTEtkVDFHX3VVTjNoalU1cUl1S2kyN0syMGRSbzBOc1RvVERjRGtWTzgwdUh2ZXdFSHhSS3VrSUI3UVVfQUVqYVVRNjh0SXllcHlJMFpfZDJEX0hxOFZMM0dSd3hRcHJROGlGYTQzNkFxbHdLZnVmOF9QdHk5T0Y0M2NidjZHNmFxbTlsWFVrY3Ztb2RZR1F5NmJ5d0ZuTGlqbkZvdk1yb3psRkNiZmYyZXlkb05FNG14VS10NWNlenhnZDFESFA0elFmRkE2clRHVzU5TjBsZzVLQ1ZKZVVoWEhPOFBRVlAwcUxEMEE4cDR6ckstSQ?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 21:27:10 GMT",
+      "category": "manager"
+    },
+    {
+      "title": "Team news: Confirmed Liverpool line-up v Crystal Palace",
+      "source": "Liverpool FC",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMkFISWwwU0ZvQVVEZ1g3TnB4N0RnT3FzMmpCMFhfLWh3LU1fZGhELTF3cmUxd2RwWG1xM1o0cVU1U1k2UkszVG9MdzlCVEdVTm9HU2RLaFMybWd1Q1Myc2dObkVGNjk1WmJSa3o1bk9la1FQQWtyQjJvM1hlaDRLWHUzS3NhWHhiUDNCM0gxLW0?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 10:52:34 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Pierre Sage on the brink: How things have gone so wrong for Crystal Palace and last season's French manager of the year",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPN1RpREowdmpmWWNwdWpmN2V1bVlETl9yWmo4WXRaWW92b3pwcWpnVmgwM1AzcGVTQ1JkdTJnTzV3bzVValg4SXFRNjItRldudDcydW8wS2p6RkVxVHZzelYzRFUtajVDLUdLRkczd1pPb0tocHcyakp2TEk1TVdvUHhraHlKeUFYYno4RGxUbG9wdDFXOHVQd2ZRMzRFNmY1LXhwVnJYX1BUQU44bVgtSFRDR3pTVEU1UmZkR2VkMENqMWE0QngwWGVVR0tpb2JPQUJkaEx0UmdXSXhUTHJrRTBxajh1dUswNXdDZjljaw?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 14:09:03 GMT",
+      "category": "manager"
+    },
+    {
+      "title": "England reacts to last minute winner",
+      "source": "Crystal Palace F.C.",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUEFoNVR5NENHamFpbUlKMTJjWjJ1OXNubDNMblA0bmdfMkp5RlhpamwwejdKVGJaaDA5cUZidFNjMXUwU0Y5dVlqRVBvR3lnTFQ1ZUNmYVNSb2Ntc0p6blptZ2doZllyUjJDYTlJWWNmYjBNWWtaN1BCX2xXUllUV1hLdHpQNE15S1ZUNThkNjZ5MDNMRjlJWjlscVc2Umt4NmdSZzVUTQ?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 10:18:11 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Crystal Palace 1-3 Liverpool: Pierre Sage under pressure as Reds win at Selhurst Park",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5pWTRYeHJiMEpKd3g3WUlZeTM3TnFqa0FIbHVkYzVnR0pQSy1DZm1NdTBYSndSWWVhcU9LYi1mNG55S1JaMWM2V3ZJUW5vWnczY1kxZC1KUURKY3hUalRfTWtCNA?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 16:56:22 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Highlights: Crystal Palace U21s 1-1 Everton U21s",
+      "source": "Everton FC",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbUlwQUdkd3RIZy03WnJ5Mm9Dbl8zcG1zMUVmeWZrNGdWX1k3ekNqeHFseW5YOFhJdVlGenViTVVsYkxBbEJ2WEs0elZiU0VrWEhjR2YtNEpYR29uaDEwZExDaVpKMWtvdXI0RlhzY3hkUC1iRkFDVExJd2NEUXpneV9TUkFBSUlMTEZCVkVsYWxxSVhWdjBkNTFRald1dw?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:21:17 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Crystal Palace vs Liverpool LIVE! Premier League score updates, news, prediction, line-ups and how to watch or stream",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQVjI3MTRrMlJLYTU0bHJ0dzA1eEpNSVNvUTZleGp6d0hVSGZtOHpiWFhrcnNCNzc5VUJUWWdLTjF3azBlYjZnSnlybmM2bXFQbzZHOVNIam5FZmtaeENmbHJXZVBhUWhyS0VlZWMwOFJqS295R1VpSG8tWi1fSDkyempFR01zRXlFOGNncFQ1WjV2RE1qandvclpiZGhCNDU2YzN4YWo1bUNHZGpXd093WU1fd1c5RkdaM1Q5MlgybGlwcl8wX3drZ3JwNFFqQ2U0SkN2dzZYdVNpa19BZmtlckp2WXBKYWYxcUNDaEMyaFJESjVIaU8walNCTQ?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 20:19:14 GMT",
+      "category": "match"
+    },
+    {
+      "title": "England: I love a knee slide!",
+      "source": "Crystal Palace F.C.",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5wRmFycUplTENHa1lqa05kS3piT2ZJbmp1RGtXYUJ4RUgwcUI2b3pxMlUweHVhWUR1NGZCTVVVTEc3NHo2RWc0QzRra2lmYjVRSmRHenJhMGdHZmt0WWJoMGg5cUo4NnR5NnZOZ2F5SQ?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 11:46:34 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Revealed: Liverpool's Carlsberg Player of the Match against Crystal Palace",
+      "source": "Liverpool FC",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWGZ3UzZZV2w1WUZld25Rb3BCdlZjaVNTc0tsSmRYWHRpSVc5azVuVmZ5NmwwMXlTVGpZT0pKZ2Z4MmdCTHZsSVp3ZUdhTXdmdEpMMkpOd2M1R0FFNHhPd0ptRkM3LU1ZNG94SWpvdTFaNjg3TmJVSExQVlRMYzYtZ3hnLVM1X0pUQS1oVm5zREtPZlBQRllB?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 01:19:28 GMT",
+      "category": "match"
     },
     {
       "title": "Match report: Liverpool return to winning ways with victory at Crystal Palace",
@@ -59,53 +87,25 @@
       "category": "general"
     },
     {
-      "title": "Crystal Palace 1-3 Liverpool: How the players rated",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1jX3N3SUd0UnBtSzdGMk1zZ3d0SHhUX2I2WFZhN29CYlZ5Ymo1VmM0Q1hkdHhuajJGNlFGaEY5LVR6N1poLTZCN2RKZzNxSXJLNl9TbllOT2RQOHdURE5wX2txMzJrU2JTQXVN?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 16:04:18 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Revealed: Liverpool's Carlsberg Player of the Match against Crystal Palace",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWGZ3UzZZV2w1WUZld25Rb3BCdlZjaVNTc0tsSmRYWHRpSVc5azVuVmZ5NmwwMXlTVGpZT0pKZ2Z4MmdCTHZsSVp3ZUdhTXdmdEpMMkpOd2M1R0FFNHhPd0ptRkM3LU1ZNG94SWpvdTFaNjg3TmJVSExQVlRMYzYtZ3hnLVM1X0pUQS1oVm5zREtPZlBQRllB?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 19:05:32 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Crystal Palace vs Liverpool LIVE! Premier League score updates, news, prediction, line-ups and how to watch or stream",
+      "title": "Crystal Palace transfers, latest news, rumours and gossip: Live updates, goals and highlights",
       "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQVjI3MTRrMlJLYTU0bHJ0dzA1eEpNSVNvUTZleGp6d0hVSGZtOHpiWFhrcnNCNzc5VUJUWWdLTjF3azBlYjZnSnlybmM2bXFQbzZHOVNIam5FZmtaeENmbHJXZVBhUWhyS0VlZWMwOFJqS295R1VpSG8tWi1fSDkyempFR01zRXlFOGNncFQ1WjV2RE1qandvclpiZGhCNDU2YzN4YWo1bUNHZGpXd093WU1fd1c5RkdaM1Q5MlgybGlwcl8wX3drZ3JwNFFqQ2U0SkN2dzZYdVNpa19BZmtlckp2WXBKYWYxcUNDaEMyaFJESjVIaU8walNCTQ?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 16:34:12 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Liverpool line-ups for Crystal Palace as big Dominik Szoboszlai and Bradley Barcola calls made",
-      "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdGZjbUdXVWV4LWpld0xyd2ZDTENxTVVJNWRISlRTZTZ3MTA4V3BsM1pYb2wydHlwcGNzY1pLOVVxMDFFa1lOUzVaQWwwZThmVl9GRHlSVjdWTGlaRkNOSGxjREV3UnJseWUyMXZsU3dQczdhM2s3MVM0QzN1RUpXaV9sUFlwYlcwUVZSUTYzcWNOTjZ6R3N3YTIxS1JUVDhGRmZwd0N30gGrAUFVX3lxTE1pUU9sN1ptaC1vaURLUndpeWpURHBWQk4wTWN4QVZpZ3JUWWY2cG5qZktzc3lCYy1xejBHR09hX3NjOWg0bHFQdklNRGFiZ3F5dzlTaHdrbTJuVkdJdm9xX1duU2hzb0taZ0hzLVlzSk1obGlxOVluemljRlNLVUdEUDE3SW1vOFpVZGZocy1fMUZqRTBKT2VyeVJSbjJUeEFNLW50Rml0VWRabw?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 11:48:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTWdqUjMtVWh1alMtV0FiLWoxNjN2MzVWQ2V5VWE4eXN1ZmxxYzNaQWthdktxeG0yVktQZ0g4NEstV0VZQzc5cTJ6OFgzRXJlS2xhcFpxQ1FvYk15QUNmYnlyLVdJM1dPQXZvQXdVczUxRFdoQ0g4ZUhPT2w2Y1dvRmNQUWhhMVpheFZyZmF2UEV6M0lubDJpLVFjMFJKNGpSNzA1QWNCNmRTWVB5dVdyNllJR1Q4dXljVmVhcE9MUU9VcTF0T1pQbU80bDZ2ejU3S2tVLXJSUDRqdW8?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 21:14:49 GMT",
       "category": "general"
     },
     {
-      "title": "Vote now | Crystal Palace v Liverpool - Carlsberg Player of the Match",
+      "title": "Video: Andoni Iraola's press conference after Crystal Palace 1-3 Liverpool",
       "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaEtyOTh5dUk0QkoxRzlFODdsNnZTZTE0Qk15TjJ1NGptTXBremd1RnFqeWZ4dUhpZ0ZRNnZ5QU43akpqRjkyVV9JY0NZOUhKeC0yeGRlRDhVSWFvOWtBTjUwXzhzTWtscmlSQXZJemJqZ0hrSFA4a29RY3BzMjBBRXJYS05KWVhNUUZBdTJlUkI0QQ?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 12:53:36 GMT",
-      "category": "match"
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQmVST190R2lNYnQ2TVJUTUhjWVZjVmNiMjJ2bE5WSGQyVVd4b1J0S3hVUFRzUUhOM2JZaThQdklDcUxrQUlCa2RWOTBLakpVZFNqTEM0R1o4R3NnU1lGY2t6eUplWWc4MFh5U2xCRjlWQ1dMOUxUaUEwT29DX2lGSnl5VUJ3QWFXeC1OMVY2MG5scHEtMzdjQnlKUDY0c2JiYlc1NnlJbFRPTE1VYXc?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 20:18:58 GMT",
+      "category": "manager"
     },
     {
-      "title": "Confirmed Liverpool XI vs. Crystal Palace: 5 changes, Szoboszlai & Gakpo start",
+      "title": "CRYSTAL PALACE 1-3 LIVERPOOL: Reds return to winning ways",
       "source": "This Is Anfield",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObXplQzg1YWgyMmJmbGZ6dXJsWWRFWnRLb0hwcXlTSFBRUjA2Nkp2OGZERGVVTlNQeVBCVUpJOWJTaWhicXpmREVicVdGRVdiamFSMzNTQXBtdUhkZXlHYk5yNjVYbDIyUkh3WEQ5N0p6QnZNLTRraDRIdGFNa2xJQWJVc0VvT0EtdS1YdGhIdHljQ0Fsd1lzQ3FqSW1JOTJUTlptbGcyaGk?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 12:51:57 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Crystal Palace vs. Liverpool: How to watch, live stream, kick-off time & TV channels",
-      "source": "This Is Anfield",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZy1Vckk4OVFGckFydENzaWM1cE5mMzFWb1lxLWRlSm4wOWpvcFlMYzROTG9yM0JCaUVjMl9UMWxURmV2TmkyMWsxQTVhZkp0Q3haeDVsY2dnam1nSS1EZHRic3NscHZrek50eDFDWE40WDJ2TnNzS05XZWFDY3RtNXBVbU9HeU1XeW0wWUgzeEJtRXZ0WEZHRWhrQzFxYnVTOEtvb2k5WFNSRjJ5S1BpLXR6UjVqM21I?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 11:32:12 GMT",
-      "category": "match"
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaU1rWE9TOUphdWdMbzNucC1IVFl2Rl9mc293ZlJxRzdBcFVLNGZLV1d1YWVtdlllRVRvZklEbzlFeGpzeE1ySlROR0RXQVlCWVJPampXeUVhTmhTcEtQanNOb09kN2t6alRObU16NWdIV3FIb05uVGZvckYyUTdwWUlXalpUYVhNaFRnaEtqb3BaX0dMYXpxRFlGTQ?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 15:57:14 GMT",
+      "category": "general"
     }
   ],
   "reddit": []
