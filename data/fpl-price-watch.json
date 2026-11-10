@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T10:58:20.741Z",
+  "updated": "2026-11-10T10:49:40.017Z",
   "snapshot": {
     "1": 62,
     "2": 49,
@@ -210,7 +210,7 @@
     "207": 43,
     "208": 62,
     "209": 58,
-    "210": 54,
+    "210": 53,
     "211": 55,
     "212": 43,
     "213": 48,
@@ -218,7 +218,7 @@
     "215": 50,
     "216": 50,
     "217": 49,
-    "218": 48,
+    "218": 47,
     "219": 49,
     "220": 45,
     "221": 44,
@@ -260,7 +260,7 @@
     "257": 45,
     "258": 45,
     "259": 39,
-    "260": 62,
+    "260": 61,
     "261": 54,
     "262": 52,
     "263": 52,
@@ -481,7 +481,7 @@
     "478": 44,
     "479": 40,
     "480": 78,
-    "481": 63,
+    "481": 62,
     "482": 57,
     "483": 55,
     "484": 54,
@@ -582,7 +582,7 @@
     "579": 55,
     "580": 50,
     "581": 53,
-    "582": 54,
+    "582": 53,
     "583": 49,
     "584": 53,
     "585": 39,
@@ -676,140 +676,44 @@
   },
   "changes": [
     {
-      "id": 74,
-      "web_name": "Brooks",
-      "team_name": "Bournemouth",
+      "id": 582,
+      "web_name": "Madjo",
+      "team_name": "Aston Villa",
       "direction": "fall",
-      "old_price": 50,
-      "new_price": 49
-    },
-    {
-      "id": 113,
-      "web_name": "F.Kadıoğlu",
-      "team_name": "Brighton",
-      "direction": "fall",
-      "old_price": 44,
-      "new_price": 43
-    },
-    {
-      "id": 115,
-      "web_name": "De Cuyper",
-      "team_name": "Brighton",
-      "direction": "rise",
       "old_price": 54,
-      "new_price": 55
-    },
-    {
-      "id": 504,
-      "web_name": "Vuskovic",
-      "team_name": "Brighton",
-      "direction": "rise",
-      "old_price": 52,
       "new_price": 53
     },
     {
-      "id": 605,
-      "web_name": "Yalcouyé",
-      "team_name": "Brighton",
+      "id": 210,
+      "web_name": "Wharton",
+      "team_name": "Crystal Palace",
       "direction": "fall",
-      "old_price": 45,
-      "new_price": 44
+      "old_price": 54,
+      "new_price": 53
     },
     {
-      "id": 165,
-      "web_name": "João Pedro",
-      "team_name": "Chelsea",
-      "direction": "fall",
-      "old_price": 77,
-      "new_price": 76
-    },
-    {
-      "id": 265,
-      "web_name": "Berge",
-      "team_name": "Fulham",
-      "direction": "fall",
-      "old_price": 49,
-      "new_price": 48
-    },
-    {
-      "id": 288,
-      "web_name": "Dowell",
-      "team_name": "Hull City",
-      "direction": "fall",
-      "old_price": 44,
-      "new_price": 43
-    },
-    {
-      "id": 294,
-      "web_name": "Zambrano",
-      "team_name": "Hull City",
-      "direction": "fall",
-      "old_price": 45,
-      "new_price": 44
-    },
-    {
-      "id": 316,
-      "web_name": "Emersonn",
-      "team_name": "Ipswich Town",
-      "direction": "fall",
-      "old_price": 55,
-      "new_price": 54
-    },
-    {
-      "id": 324,
-      "web_name": "Mehmeti",
-      "team_name": "Ipswich Town",
+      "id": 218,
+      "web_name": "Doucouré",
+      "team_name": "Crystal Palace",
       "direction": "fall",
       "old_price": 48,
       "new_price": 47
     },
     {
-      "id": 379,
-      "web_name": "Isak",
-      "team_name": "Liverpool",
-      "direction": "rise",
-      "old_price": 92,
-      "new_price": 93
+      "id": 260,
+      "web_name": "Wilson",
+      "team_name": "Leeds",
+      "direction": "fall",
+      "old_price": 62,
+      "new_price": 61
     },
     {
-      "id": 384,
-      "web_name": "Donnarumma",
+      "id": 481,
+      "web_name": "Anderson",
       "team_name": "Man City",
       "direction": "fall",
-      "old_price": 55,
-      "new_price": 54
-    },
-    {
-      "id": 391,
-      "web_name": "Gvardiol",
-      "team_name": "Man City",
-      "direction": "fall",
-      "old_price": 57,
-      "new_price": 56
-    },
-    {
-      "id": 392,
-      "web_name": "Aït-Nouri",
-      "team_name": "Man City",
-      "direction": "fall",
-      "old_price": 52,
-      "new_price": 51
-    },
-    {
-      "id": 112,
-      "web_name": "Van Hecke",
-      "team_name": "Spurs",
-      "direction": "rise",
-      "old_price": 50,
-      "new_price": 51
-    },
-    {
-      "id": 668,
-      "web_name": "Tutierov",
-      "team_name": "Sunderland",
-      "direction": "fall",
-      "old_price": 49,
-      "new_price": 48
+      "old_price": 63,
+      "new_price": 62
     }
   ]
 }
