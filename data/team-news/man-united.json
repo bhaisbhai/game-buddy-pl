@@ -1,82 +1,47 @@
 {
   "slug": "man-united",
-  "updated": "2026-11-09T14:44:41.574Z",
+  "updated": "2026-11-10T01:01:46.797Z",
   "articles": [
     {
-      "title": "Manchester United",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1vS1VTTEM4UFFZVnp5bjVuRExhdVJTQnlhb1hhcTcyNkY2N2x0NU15a1FNdHY5UmFqSGFPb1pfVG14SHpqc2VJMWFzT0MyeGRxVGdTaTJlVWxROFNCdHc2dnppVUI2WEEwcF9CemVyVQ?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 21:53:50 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Michael Carrick sack news LIVE: Man Utd latest as meeting booked to decide manager's future",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRVVtZjQ0aXB5YmNIdWtWTzVES29VSGZfaEhJOThneVpmMXVpSE9wU2pGaG4zNHBFUkVtNG9MaEw1T0tLQzFWZUlVT2VubDlJQzZITTd3cUlLbXl2aEVyNFFQRVZGX2pBeFJPbzhSUFViQW5IaFVGd0FVaWxaWVhkSlB5N1ozWGFUUEVDMGdOM1gzM0hmT1h0VWdfdGxJZExIeWow?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 13:10:11 GMT",
-      "category": "manager"
-    },
-    {
-      "title": "Man United LIVE: Michael Carrick sack meeting as high-profile manager ‘becomes new favourite’",
+      "title": "Man United LIVE: Michael Carrick 'moving towards' sack as high-profile manager ‘becomes new favourite’",
       "source": "Manchester Evening News",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQcnVKRENVMFVfWjNHYnZtNzd2NTR4Q29CNWFLTVNyeVJvQ3hXeWFHUFZRUGlzeHp2WkpLUmJTemJJSzY0VnJleFdETGtyYmg2SFJneXZqTDdKUGl0cFduc0w1WGdPVkpRaVdpQ1NYR0pnQl93TkZUTF9fRzM4TllUbmlrOUZReVVvblMxT2NTTWRXUlptSWNubkF6SEEwMzNjMU41dVZIWTEzcWJnenc?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 14:18:55 GMT",
+      "pubDate": "Mon, 09 Nov 2026 23:01:22 GMT",
       "category": "manager"
     },
     {
-      "title": "Man Utd are in relegation trouble and Carrick must be sacked",
-      "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQamRqd0J2TjVJeWVfcmpBLXhVZmNCTlF1bVp0Q0MxaXp1Rk9CNWdUanBweUFKVlRVcmU1TVFIc0VLR0tWMDFWbDVEYnAteGJXM1IxTzU2dnk1dzJ3TnNESHN0X0xUdkV4VnFZSGc3WHFYaUl6TWswTExMWXBqUkUyRmx2SXE3V1V2YVlDVXBPb1VtVHdUNHBUMExBR3NPX29kaDJrVHpDN0w1dw?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 19:33:39 GMT",
+      "title": "Manchester United 4-4 Aston Villa: Premier League – as it happened",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMm5XM0FwdUQ0bksxY1phU1RSR0FuX1QzdnJsdDZlRjhEaFhxRmpNWGJtNWl2M1M2SVNhYUcxd01RTnc5VDlKOU5XOV8tdzEwMDNPVnNiRWxCOWdubFNIV2d2dUN2aElEMXV1ejBMSVBtcDh1UnlUVmpfUExfWVp3b3pKRG90b3VkWExadnlZbW1PQ01zc2RuNFRfSQ?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 15:11:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Michael Carrick facing Manchester United axe amid review by Jason Wilcox",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZnkxaHRsYXRWZ3lZZVpQRTR1aFliOV9GUy1tYVJreWk5NlpCOUoxemMwaUhqaUUtM0cwVGZ0MkNETkxkOU1sMHdXMTg1Q2xNenlERkdBcTAtVkZ6TXhrUE45ZXNVT3c5QWxFQVJNenUtaUhORHRaMzdFYm9SWGlFUEdxYWx3S2xTNEVNSnZHQ0hYa3VZb2pibVlJajlxNDdjYVFuTVBnbzBoSWxuOEtr?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 16:21:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Michael Carrick: Manchester United yet to make decision on whether to sack manager",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1XUDJzM2JJNjBDTHpfUFNzQUxVWkRYU3V5Y3l3YWlEZFoydzRvYndLNi1KN0NvMzAwY21EOG8xM0s0eTVGZy1fbHFmd1RfeGNqaEtralh4MnJfTF96eFJ1aWYxekk3d3d1?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 17:49:05 GMT",
       "category": "manager"
     },
     {
-      "title": "Manchester United: Why are some fans wearing green and gold?",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1tdVBFYkNlOHZEYUZxQU5sVkk3dkVUcndsd0pzdDBQcFk0b3N4cjFXZ0h2WUlIbVhlQWFsS05tNVY4TzduNmdzeGcxc0RnSFkzQUw2R3BoWlExbHZWbFNTMGliQW9MM3YySnVj?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 12:54:09 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Man Utd 4-4 Aston Villa: Bizarre and thrilling theatre as Carrick's future still in limbo",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2b1JLMnlrMnFJWTZNSFNvVFFaMS04LTF2OWVleTlhUXBWMTJOamhLeXkyWEFYcDRrS2RkNkVlRXlIZElQblRyc2ZDcUFFMUhaM2w0U0dlaWVsQmRXQ3BSYjhnU0VrMEx2?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 21:50:05 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Carrick explains Maguire change",
+      "title": "Report: Manchester United 4 Aston Villa 4",
       "source": "Manchester United",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOREtUdzBlMlZDSFVJaWJVMGJzYzZIU1BvSEZKQU14VDNMamZZQWlLTnBQRU5MLVhES3h3REhsUWdEd2k3Qk5Qa0xmNlFQeERtZGhtZFk2dFlzSFlaV3g4ZElaTHFVWU94QS1LYmpoWnBVZEtrNjVBeXFGOXdVVVJXWTF3?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 07:49:05 GMT",
-      "category": "general"
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORHA0WGNrMEZkTU8wUmxOMmZqY094dlUyNjQ0M1JiSU0yZUxRaUp1aUdlLU9OSkNobUFkWUp0cTF1NHJzdUlkaHpfbnozYmJoOWZmTE5ZV2ZqM0h6YzlLS1N0TG1fTEtqV3A3dERVOHBZcS1GOV9aVnM2TmRMTmxNVkZDUTZiTVlBV3pCTW85SUQxdw?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 16:48:08 GMT",
+      "category": "match"
     },
     {
-      "title": "Michael Carrick future LIVE: Man Utd 'appointment plan' as Mauricio Pochettino leads race",
-      "source": "The Mirror",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMDB0MWJhdFJ3aEt1SHhQcDdPekdTOWgwbmxiSURIMUZZLTEwaDV0a0VZM3NCam9KdHlral9yMVVpaVlCbXp4c1R4Vi1NdUpZbjBNZHZRNERXRlRLalQwazF3UzFEQWZjRW5FT1EzT3RxWWdWZGh2c3VoVm9reVUzdGpxcS1EQQ?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 14:07:38 GMT",
-      "category": "manager"
-    },
-    {
-      "title": "Man Utd: January move for 'the answer' to defensive woes gathers pace - personal terms 'not an issue'",
-      "source": "TEAMtalk",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWF9ybTJwVkRManlZOS1NclllbGFjem1zVWFOQXJKYlByeVBMZkVQMWU1dzBTUTFQLUJYYjVmdkJrX0ZzVUZTeTVBWEpFYXlXV1otek9IMy1zWWM3cFJHRWVzeXNCTDZxanFnYjhDUmhuVVRxc3VfSzh1MDhOMjU1SkJXNEVoZjB5Q1BpQU84S2M1ZHhra1dyWjk4WlliRXNYdHhIc0tqaw?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 13:50:44 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Manchester United Scores & Latest Results Today",
-      "source": "LiveScore",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPWk9sU3VYR25PMXVHcGRhMXdJLVFSUk51T0otOFlrRDR2NzlyZW00WlhuYWRyNl9fR0RUM1lfTkoxN0ZVeGpoNVhDUi1MQk1ndmtabXpJTGdFNEZ2NjdBMGs4ZVpKZW5sMUhvRW1JRFdNUXRQTC10RTJLNnAzUHgzNg?oc=5",
-      "pubDate": "Sat, 09 Apr 2022 15:01:51 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Michael Carrick: Manchester United boss 'expects' to stay on despite club sitting in relegation zone after Aston Villa draw",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOX0FLZTd5Z2hRVU1ERGJIWU9uRzZhb0dGd1JNV21Fb0hnbVJHUnJ0Q2VJanlEclBMUmNqdFFyWWhlOGw0ZlRVX0hLN3ZGUFI2WnhGV2hEbWRjNm9ZOTFtNW11MmVNUUE1UWQ5U1RxNm5JYTkxcjc3R09KUGpDaC1wYW80bEhsbDh2bnpwYksycEhYbVhrVU5ZVXUtZ2FDTEFDM3FKa1VuOEpLZGRtdG45ZTBISjIzcFBoVkRIRmdzSkhCOXQ0dG12NE9qVGNWeGxNVThEU0R4Y090SUlCMzJ4YTNzdUMwekNWcWhjX3BnVWNMdDJwNmc5a1R4anQ4Zw?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 11:56:41 GMT",
+      "title": "With the start of the international break: Manchester United settle their decision on Carrick's future",
+      "source": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQVkRjQ3JuaUFTeFUxRGkxcHl3V1lSNng0YzlMaHN5SG1oUWN2SkJ4VG1ISmNfZWxPNHBERUwtUTd1ejdwQm1aTGQ1Y2ZuWXhMT3dkbV9pNXQyTXJ5Z1VxSUV1RDR3SUVqb0dtc0hocVNEX214cVFWaEpoTGs3SURIeFRqZFZXcEt3dkUyRTRaMG84cTRTV3AzUFdGWmoxdTNCMTJ4cklXR1NsV0ozcUtTQkdGbjB4R2V4d3F0eE8wSUZPN3dXNUhlUFd5WmJXTEktRGIyM3p1WmpxUHN5Y3dyUTNYaHg?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 13:41:56 GMT",
       "category": "match"
     },
     {
@@ -87,24 +52,59 @@
       "category": "general"
     },
     {
-      "title": "Man United rescue 4-4 draw vs. Aston Villa but remain in relegation zone",
-      "source": "ESPN",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONlcwS3pZdkFfTDQ4cW1rUE9BU3pYYlRNQ0FOMlFENndGMkVJdkZ1eU5feEItSXQ2NkN2c2sxUm45M2JyVVByRkQzWndfZHdRTVBTd1V1aUZyM04tLVlMb3lqbXdzS0Juc2pZRkRDV1dUTlVrZUdfQzdKNk1SRTJjM0pWMkpGUFFkZGI2eG9jaXBMeGc?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 19:12:00 GMT",
+      "title": "Michael Carrick: Manchester United boss 'expects' to stay on despite club sitting in relegation zone after Aston Villa draw",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOX0FLZTd5Z2hRVU1ERGJIWU9uRzZhb0dGd1JNV21Fb0hnbVJHUnJ0Q2VJanlEclBMUmNqdFFyWWhlOGw0ZlRVX0hLN3ZGUFI2WnhGV2hEbWRjNm9ZOTFtNW11MmVNUUE1UWQ5U1RxNm5JYTkxcjc3R09KUGpDaC1wYW80bEhsbDh2bnpwYksycEhYbVhrVU5ZVXUtZ2FDTEFDM3FKa1VuOEpLZGRtdG45ZTBISjIzcFBoVkRIRmdzSkhCOXQ0dG12NE9qVGNWeGxNVThEU0R4Y090SUlCMzJ4YTNzdUMwekNWcWhjX3BnVWNMdDJwNmc5a1R4anQ4Zw?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 11:56:41 GMT",
       "category": "match"
+    },
+    {
+      "title": "Carrick explains Maguire change",
+      "source": "Manchester United",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOREtUdzBlMlZDSFVJaWJVMGJzYzZIU1BvSEZKQU14VDNMamZZQWlLTnBQRU5MLVhES3h3REhsUWdEd2k3Qk5Qa0xmNlFQeERtZGhtZFk2dFlzSFlaV3g4ZElaTHFVWU94QS1LYmpoWnBVZEtrNjVBeXFGOXdVVVJXWTF3?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 20:32:17 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Manchester United 4-4 Aston Villa: Michael Carrick post-match interview",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBXWFdMcDBBZkpSRWhUTjRuVzlzbUhrT0R6SWtKc281MEVETTR0S2RsMXFMMGE3RE15N2FKYW14TmN3Xzk2NU5jNkg0SUw0a2JTbzRnLUJrYnNNNzJqejYzQjhSaVZMaUJp?oc=5",
+      "pubDate": "Sun, 08 Nov 2026 19:13:46 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Michael Carrick future: Man Utd will not rush decision over head coach's tenure despite dropping into relegation zone",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPRl8tOGhHNWJxd3ZxcGREY2VJQ2VvU1UxNkI4WmtNUkhFU0ZLQWRKbjhGcXlFNnFQdWdWUUpRX0NwQ2MtVE1tQ0FzejlvNFl0NFhNcWtxUmkxNVlDUmhPWl9wd3dxZFZXR2NiWFNCUDBQS0VyUkRwaC1MVkgzZ0RSNWpoN0ZLdXozLXBvbmljQ0pfVEp6c2p1dWVXS3ZKU2pWSGp0a3lNRno4cC1WZktqbjZ4c1ltbjA0QjBEZ3U3YjBxNnhrT2Z5WG11dTFDSkdvdFBwNEpQVWlnYXhRdnN5bnlka0M2aGdMZXRpVlAyVDFrc3hicTMw?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 20:42:26 GMT",
+      "category": "manager"
+    },
+    {
+      "title": "Carrick: There's some character in that dressing room",
+      "source": "Manchester United",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQTZqWl9IOGR5UFRiMDQ4QzN0cUxmVXBnbXNDQ0tfX1hlZkFzMlREVVB4NG9BYmxnZ3hNcjUydzdhd1lXMmc1TGtoaXUtVFRuWXhtMVJhTDljSjd5TllScktZeXBqTy1XdWFGVVkxZE9aMVowX0tHZ0JXQTNRQzh3eHJmNlMwcTNuLUVMUzE4cE93MFVLSFJXcWRnZw?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 14:57:37 GMT",
+      "category": "general"
+    },
+    {
+      "title": "The DAMNING statistics behind Manchester United's historically bad start to the season",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRVNfU0JTUnpMbE1VWkhmZDkxM1ZIeDhobVJUMHdzaEZLYTc4ejBNSVVjamRoV2JDU2VuVWFWOGVOMHpSZVFNcG43ZDMtb21aVHAzQU1CUWhxb3JEM0VFT3FNS1RSazZWWTBrYkFhekF1TGZVMGtiRlNaWG9aMkk3QVltX3k2NENZdzh5bDF0SGFvdFJDUy1UQV9nakt0ajBqbm53YWJObUpyNW5ndU5zeGtqVndRdEsyczdEemFyM19VT1JIbE5WVjBMTG9OTVFVMnpWMg?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 15:33:49 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Villa clash makes Premier League history",
+      "source": "Manchester United",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRm9ESlU5QzNkY1ZDWlpDdnhtU1NFZmhzSTc0SDBBS2kzTk9nMHY3RU5BRTM2czJwNmNVbjBBbUs0ajlQVUkya2sxcU44WHQ3V1ZUUjBic1ZaN2d6ekVPLXE2VFNGZDkwdkdHNW9WNVlHMEx2R3ZmTTc3SlV1cEdXYUFYek0tMlRfczEtM3V5NmJCUTFPUHI0?oc=5",
+      "pubDate": "Mon, 09 Nov 2026 18:13:01 GMT",
+      "category": "general"
     },
     {
       "title": "Man United: Did Senne Lammens foul Zion Suzuki for Man Utd's late equaliser against Aston Villa? | Ref Watch",
       "source": "Sky Sports",
       "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOSWhVR0pLSnEtMnprOHVWc0NhVjJ6bWdVOTliU0pUYkFNbGdXYmNvb1VNeXNsaUg2NzFHbHV2c2xCZWlQTjhScHNILWJjdVZlWjNjWkhXdVRNbG5LUkdvY3hwaUdxSzJhZG5feFF1c0ZFWXFtSmNsa3hFXzMwS01QeDZKdHhHbUI5cDJUM3p2Q1JGUVRMdElScnNibnFEa2FBNGg4QWhZbm5pYS1yY2ZzRmVGMlJIZWRpb0FjMTdDUVdONzJ1WlpncFFWeGQ1N0ZUMV9hX1ZGbjB5am9CalMtUzI1X1JBWi1sTE84c3J0NWN4TEJIWnBlbmhuX0JWUDVuNDNJME1R?oc=5",
-      "pubDate": "Mon, 09 Nov 2026 12:40:51 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Premier League highlights: Manchester United 4-4 Aston Villa",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYM1RJQ0VTeVFqVlNNNnFsOXhBbFVwY2U5emg5bHZ5YnVMQXBvSlExYUgzRUxJYlFadG40ZURDRkVaVnNaSGFuZUFTWXhja2NmTHpqcjNKRjg0MVFXdTZ5QlB3LVNCYW9E?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 20:01:16 GMT",
+      "pubDate": "Mon, 09 Nov 2026 11:25:59 GMT",
       "category": "general"
     }
   ],
