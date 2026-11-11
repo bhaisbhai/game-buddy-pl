@@ -142,6 +142,7 @@ html,body{margin:0;height:100%;overflow:hidden;background:radial-gradient(circle
 
   let conn=null,peer=null,bits=0,touchSteer=0,tiltSteer=0,autoGas=1,joined=false;
   let rawTilt=0,tiltZero=0,tiltInited=false,tiltEventCount=0,lastBeta=0,lastGamma=0;
+  const TILT_RANGE_DEG=40; // degrees of tilt to reach full left/right lock -- higher = less sensitive
   let tiltFlip=1;
   try{if(localStorage.getItem('wf.padTiltFlip')==='-1')tiltFlip=-1;}catch(e){}
   flipBtn.classList.toggle('on',tiltFlip===-1);
@@ -315,7 +316,7 @@ html,body{margin:0;height:100%;overflow:hidden;background:radial-gradient(circle
     if(steerMode!=='tilt')return;
     if(!tiltGranted){tiltGranted=true;applyMode();}
     if(!tiltInited){tiltZero=rawTilt;tiltInited=true;}
-    tiltSteer=Math.max(-1,Math.min(1,tiltFlip*(rawTilt-tiltZero)/28));
+    tiltSteer=Math.max(-1,Math.min(1,tiltFlip*(rawTilt-tiltZero)/TILT_RANGE_DEG));
     updateGauge(tiltSteer);
     send();
   });
