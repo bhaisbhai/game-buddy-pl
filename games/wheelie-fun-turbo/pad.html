@@ -26,6 +26,7 @@ html,body{margin:0;height:100%;overflow:hidden;background:radial-gradient(circle
 
 .pad{flex:1;display:grid;grid-template-columns:1fr auto 1fr;gap:8px;min-height:0}
 .pad.mode-touch{grid-template-columns:1.5fr auto 1fr}
+.pad.mode-touch .side.left{align-items:center;justify-content:center}
 .side{display:flex;flex-direction:column;gap:8px;min-height:0}
 .side.grid2x2{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr}
 .b{font-family:'Bungee',sans-serif;border:0;border-radius:18px;color:var(--night);background:var(--ember);box-shadow:0 5px 0 #9a3c0a;font-size:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;touch-action:none}
@@ -56,9 +57,9 @@ html,body{margin:0;height:100%;overflow:hidden;background:radial-gradient(circle
 .okback{display:flex;gap:4px;width:100%}
 .okback .b.mini{flex:1;height:30px}
 
-.steerBox{flex:1;min-height:0;background:rgba(255,255,255,.05);border:3px solid rgba(255,255,255,.16);border-radius:24px;position:relative;display:flex;align-items:center;justify-content:space-between;padding:0 14px}
-.steerBox span{font-family:'Bungee',sans-serif;font-size:24px;opacity:.45;pointer-events:none}
-.knob{position:absolute;top:50%;left:50%;width:58px;height:58px;margin:-29px 0 0 -29px;border-radius:50%;background:radial-gradient(circle at 35% 35%,var(--ember),var(--lava));box-shadow:0 5px 0 #7c1d0b,0 0 20px rgba(255,91,31,.5);pointer-events:none;transition:transform .04s linear}
+.joystick{position:relative;width:min(80%,210px);aspect-ratio:1;margin:auto;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.09),rgba(255,255,255,.03));border:3px solid rgba(255,255,255,.2);box-shadow:inset 0 0 24px rgba(0,0,0,.35);touch-action:none}
+.joystick .ring{position:absolute;inset:16%;border-radius:50%;border:2px dashed rgba(255,255,255,.14);pointer-events:none}
+.joystick .stick{position:absolute;top:50%;left:50%;width:42%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 35% 35%,var(--ember),var(--lava));box-shadow:0 5px 0 #7c1d0b,0 0 20px rgba(255,91,31,.5);pointer-events:none;transform:translate(-50%,-50%)}
 
 .noRoom{flex:1;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;font-size:15px;color:var(--muted)}
 
@@ -109,9 +110,9 @@ html,body{margin:0;height:100%;overflow:hidden;background:radial-gradient(circle
       <button class="b brake big" data-bit="2" id="gasBrakeBtn">BRAKE<small>REVERSE</small></button>
     </div>
   </div>
-  <div class="steerBox" id="steerZone" hidden>
-    <span>◀</span><span>▶</span>
-    <div class="knob" id="knob"></div>
+  <div class="joystick" id="joystick" hidden>
+    <div class="ring"></div>
+    <div class="stick" id="stick"></div>
   </div>
 </div>
 <script>
@@ -121,7 +122,7 @@ html,body{margin:0;height:100%;overflow:hidden;background:radial-gradient(circle
   const nameIn=document.getElementById('nameIn'),autoBtn=document.getElementById('autoBtn');
   const gasBrakeBtn=document.getElementById('gasBrakeBtn');
   const padArea=document.getElementById('padArea');
-  const steerZone=document.getElementById('steerZone'),knob=document.getElementById('knob');
+  const joystick=document.getElementById('joystick'),stick=document.getElementById('stick');
   const steerFill=document.getElementById('steerFill');
   const modeBtn=document.getElementById('modeBtn'),recenterBtn=document.getElementById('recenterBtn'),flipBtn=document.getElementById('flipBtn');
   const diagTxt=document.getElementById('diagTxt');
@@ -163,14 +164,14 @@ html,body{margin:0;height:100%;overflow:hidden;background:radial-gradient(circle
     padArea.classList.toggle('mode-touch',steerMode==='touch');
     padArea.classList.toggle('mode-tilt',steerMode==='tilt');
     if(steerMode==='touch'){
-      leftSide.appendChild(steerZone);
-      steerZone.hidden=false;
+      leftSide.appendChild(joystick);
+      joystick.hidden=false;
       rightSide.classList.add('grid2x2');
       rightSide.insertBefore(driftBtn,hypeBtn);
       rightSide.insertBefore(itemBtn,hypeBtn);
     }else{
-      document.getElementById('centerCol').appendChild(steerZone);
-      steerZone.hidden=true;
+      document.getElementById('centerCol').appendChild(joystick);
+      joystick.hidden=true;
       rightSide.classList.remove('grid2x2');
       leftSide.appendChild(driftBtn);
       leftSide.appendChild(itemBtn);
@@ -179,7 +180,7 @@ html,body{margin:0;height:100%;overflow:hidden;background:radial-gradient(circle
     document.getElementById('tiltRow').hidden=steerMode!=='tilt';
     modeBtn.textContent=tiltWaiting?'TAP TO ENABLE TILT':('STEER: '+(steerMode==='tilt'?'TILT':'TOUCH'));
     modeBtn.classList.toggle('needsTap',tiltWaiting);
-    touchSteer=0;tiltSteer=0;knob.style.transform='translateX(0px)';updateGauge(0);
+    touchSteer=0;tiltSteer=0;joyReset();updateGauge(0);
     updateDiag();
     send();
   }
@@ -321,18 +322,38 @@ html,body{margin:0;height:100%;overflow:hidden;background:radial-gradient(circle
     send();
   });
 
-  let steerTouchId=null;
-  function updateSteer(clientX){
-    const r=steerZone.getBoundingClientRect();
-    const rel=(clientX-(r.left+r.width/2))/(r.width*0.42);
-    touchSteer=Math.max(-1,Math.min(1,rel));
-    knob.style.transform='translateX('+(touchSteer*(r.width*0.34))+'px)';
+  // Standard mobile analog-stick behaviour: fixed circular base, knob clamped
+  // to the base's radius, a small deadzone near center so a resting thumb
+  // doesn't add drift, and a spring-back-to-center animation on release.
+  const JOY_DEADZONE=0.14;
+  let joyTouchId=null;
+  function joyUpdate(clientX,clientY){
+    const r=joystick.getBoundingClientRect();
+    const cx=r.left+r.width/2,cy=r.top+r.height/2;
+    const maxDist=r.width/2-stick.offsetWidth/2;
+    let dx=clientX-cx,dy=clientY-cy;
+    const dist=Math.hypot(dx,dy);
+    if(dist>maxDist&&dist>0){const k=maxDist/dist;dx*=k;dy*=k;}
+    stick.style.left='calc(50% + '+dx+'px)';
+    stick.style.top='calc(50% + '+dy+'px)';
+    const norm=maxDist>0?dx/maxDist:0;
+    touchSteer=Math.abs(norm)<JOY_DEADZONE?0:Math.max(-1,Math.min(1,norm));
     send();
   }
-  steerZone.addEventListener('pointerdown',e=>{e.preventDefault();steerZone.setPointerCapture(e.pointerId);steerTouchId=e.pointerId;updateSteer(e.clientX);});
-  steerZone.addEventListener('pointermove',e=>{if(e.pointerId===steerTouchId)updateSteer(e.clientX);});
-  const endSteer=e=>{if(e.pointerId===steerTouchId){steerTouchId=null;touchSteer=0;knob.style.transform='translateX(0px)';send();}};
-  steerZone.addEventListener('pointerup',endSteer);steerZone.addEventListener('pointercancel',endSteer);
+  function joyReset(){
+    stick.style.transition='left .15s ease-out, top .15s ease-out';
+    stick.style.left='50%';
+    stick.style.top='50%';
+    touchSteer=0;
+  }
+  joystick.addEventListener('pointerdown',e=>{
+    e.preventDefault();joystick.setPointerCapture(e.pointerId);joyTouchId=e.pointerId;
+    stick.style.transition='none';
+    joyUpdate(e.clientX,e.clientY);
+  });
+  joystick.addEventListener('pointermove',e=>{if(e.pointerId===joyTouchId)joyUpdate(e.clientX,e.clientY);});
+  const endJoy=e=>{if(e.pointerId===joyTouchId){joyTouchId=null;joyReset();send();}};
+  joystick.addEventListener('pointerup',endJoy);joystick.addEventListener('pointercancel',endJoy);
 
   document.querySelectorAll('[data-bit]').forEach(btn=>{
     const down=e=>{e.preventDefault();const b=+btn.dataset.bit;bits|=(1<<b);btn.classList.add('down');send();};
