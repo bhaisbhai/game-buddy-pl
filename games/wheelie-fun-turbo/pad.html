@@ -46,8 +46,11 @@ html,body{margin:0;height:100%;overflow:hidden;background:radial-gradient(circle
 .modeBtn{width:100%;font-family:'Bungee',sans-serif;font-size:12px;letter-spacing:.03em;border:2px solid var(--lagoon);background:rgba(38,211,208,.16);color:var(--cream);border-radius:10px;padding:8px 4px;cursor:pointer;flex-shrink:0}
 .modeBtn.needsTap{border-color:var(--ember);background:rgba(255,178,46,.2);animation:pulseBtn 1s infinite alternate}
 @keyframes pulseBtn{to{opacity:.6}}
-.recenterBtn{width:100%;font-family:'Bungee',sans-serif;font-size:11px;border:2px solid rgba(255,255,255,.22);background:rgba(255,255,255,.06);color:var(--cream);border-radius:10px;padding:7px 4px;cursor:pointer;flex-shrink:0}
+.tiltRow{display:flex;gap:4px;width:100%;flex-shrink:0}
+.recenterBtn{flex:1;font-family:'Bungee',sans-serif;font-size:10px;border:2px solid rgba(255,255,255,.22);background:rgba(255,255,255,.06);color:var(--cream);border-radius:10px;padding:7px 2px;cursor:pointer}
 .recenterBtn:active{background:var(--ember);color:var(--night)}
+.recenterBtn.on{border-color:var(--lagoon);background:rgba(38,211,208,.18)}
+.diag{width:100%;font-size:9.5px;color:var(--muted);opacity:.75;text-align:center;line-height:1.35;flex-shrink:0;min-height:2.6em}
 .midSpacer{flex:1;min-height:4px}
 .dpad{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,30px);gap:4px;width:100%}
 .okback{display:flex;gap:4px;width:100%}
@@ -86,7 +89,11 @@ html,body{margin:0;height:100%;overflow:hidden;background:radial-gradient(circle
     <div class="center" id="centerCol">
       <div class="steerGauge" id="steerGauge"><div class="mid"></div><div class="fill" id="steerFill"></div></div>
       <button class="modeBtn" id="modeBtn">STEER: TILT</button>
-      <button class="recenterBtn" id="recenterBtn">↻ RECENTER TILT</button>
+      <div class="tiltRow" id="tiltRow">
+        <button class="recenterBtn" id="recenterBtn">↻ CENTER</button>
+        <button class="recenterBtn" id="flipBtn">⇄ FLIP</button>
+      </div>
+      <div class="diag" id="diagTxt"></div>
       <div class="midSpacer"></div>
       <div class="dpad">
         <div></div><button class="b mini" data-bit="12">▲</button><div></div>
@@ -116,7 +123,8 @@ html,body{margin:0;height:100%;overflow:hidden;background:radial-gradient(circle
   const padArea=document.getElementById('padArea');
   const steerZone=document.getElementById('steerZone'),knob=document.getElementById('knob');
   const steerFill=document.getElementById('steerFill');
-  const modeBtn=document.getElementById('modeBtn'),recenterBtn=document.getElementById('recenterBtn');
+  const modeBtn=document.getElementById('modeBtn'),recenterBtn=document.getElementById('recenterBtn'),flipBtn=document.getElementById('flipBtn');
+  const diagTxt=document.getElementById('diagTxt');
   const leftSide=document.getElementById('leftSide'),rightSide=document.getElementById('rightSide');
   const driftBtn=document.getElementById('driftBtn'),itemBtn=document.getElementById('itemBtn'),hypeBtn=document.getElementById('hypeBtn');
 
@@ -133,9 +141,15 @@ html,body{margin:0;height:100%;overflow:hidden;background:radial-gradient(circle
   let tiltGranted=!CAN_GATE_TILT;
 
   let conn=null,peer=null,bits=0,touchSteer=0,tiltSteer=0,autoGas=1,joined=false;
-  let rawTilt=0,tiltZero=0,tiltInited=false;
-  let orientation=screen.orientation&&screen.orientation.angle!=null?screen.orientation.angle:(window.orientation||0);
-  window.addEventListener('orientationchange',()=>{orientation=screen.orientation&&screen.orientation.angle!=null?screen.orientation.angle:(window.orientation||0);});
+  let rawTilt=0,tiltZero=0,tiltInited=false,tiltEventCount=0,lastBeta=0,lastGamma=0;
+  let tiltFlip=1;
+  try{if(localStorage.getItem('wf.padTiltFlip')==='-1')tiltFlip=-1;}catch(e){}
+  flipBtn.classList.toggle('on',tiltFlip===-1);
+  flipBtn.addEventListener('click',()=>{
+    tiltFlip=-tiltFlip;
+    try{localStorage.setItem('wf.padTiltFlip',String(tiltFlip));}catch(e){}
+    flipBtn.classList.toggle('on',tiltFlip===-1);
+  });
 
   function updateGauge(x){
     const pct=Math.round(Math.abs(x)*50);
@@ -161,10 +175,11 @@ html,body{margin:0;height:100%;overflow:hidden;background:radial-gradient(circle
       leftSide.appendChild(itemBtn);
     }
     document.getElementById('steerGauge').hidden=steerMode!=='tilt';
-    recenterBtn.hidden=steerMode!=='tilt';
+    document.getElementById('tiltRow').hidden=steerMode!=='tilt';
     modeBtn.textContent=tiltWaiting?'TAP TO ENABLE TILT':('STEER: '+(steerMode==='tilt'?'TILT':'TOUCH'));
     modeBtn.classList.toggle('needsTap',tiltWaiting);
     touchSteer=0;tiltSteer=0;knob.style.transform='translateX(0px)';updateGauge(0);
+    updateDiag();
     send();
   }
 
@@ -271,13 +286,36 @@ html,body{margin:0;height:100%;overflow:hidden;background:radial-gradient(circle
     send();
   });
 
+  function computeTiltAxis(beta,gamma){
+    // gamma (left-right lean in the phone's own portrait-reference frame) is
+    // the right signal held upright; rotated into landscape, gamma pins near
+    // +/-90 and beta becomes the live left-right signal instead -- blended
+    // smoothly so there's no snap at the boundary. This reads the raw sensor
+    // values directly rather than screen.orientation/window.orientation,
+    // which can stay stuck reporting "portrait" when the OS has rotation
+    // lock on even though the phone is physically held sideways.
+    const landscapeWeight=Math.max(0,Math.min(1,(Math.abs(gamma)-30)/30));
+    const landscapeSigned=gamma>=0?beta:-beta;
+    return gamma*(1-landscapeWeight)+landscapeSigned*landscapeWeight;
+  }
+
+  function updateDiag(){
+    if(steerMode!=='tilt'){diagTxt.textContent='';return;}
+    if(!tiltGranted){diagTxt.textContent='Tap the button above to enable tilt';return;}
+    if(tiltEventCount===0){diagTxt.textContent='No motion data from this phone/browser yet…';return;}
+    diagTxt.textContent='β'+lastBeta.toFixed(0)+'° γ'+lastGamma.toFixed(0)+'° · steer '+tiltSteer.toFixed(2);
+  }
+  setInterval(updateDiag,200);
+
   window.addEventListener('deviceorientation',e=>{
-    const g=(orientation===90?e.beta:orientation===-90?-e.beta:e.gamma)||0;
-    rawTilt=g;
+    tiltEventCount++;
+    const beta=e.beta||0,gamma=e.gamma||0;
+    lastBeta=beta;lastGamma=gamma;
+    rawTilt=computeTiltAxis(beta,gamma);
     if(steerMode!=='tilt')return;
-    if(!tiltGranted)tiltGranted=true,applyMode();
+    if(!tiltGranted){tiltGranted=true;applyMode();}
     if(!tiltInited){tiltZero=rawTilt;tiltInited=true;}
-    tiltSteer=Math.max(-1,Math.min(1,(rawTilt-tiltZero)/28));
+    tiltSteer=Math.max(-1,Math.min(1,tiltFlip*(rawTilt-tiltZero)/28));
     updateGauge(tiltSteer);
     send();
   });
