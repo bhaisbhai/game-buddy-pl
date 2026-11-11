@@ -7094,7 +7094,7 @@ async function startPhonePadHost(){PL.mode='p2p';PL.up=false;
   let PeerCtor;try{PeerCtor=await loadPhonePeerJs();}catch(e){setTimeout(startPhonePadHost,8000);return;}
   const code=phonePadCode();let peer;try{peer=new PeerCtor('wfpad-'+code);}catch(e){setTimeout(startPhonePadHost,8000);return;}
   PL.peer=peer;let nextId=1;
-  peer.on('open',()=>{PL.up=true;PL.url=location.origin+location.pathname.replace(/[^/]*$/,'')+'pad.html?room='+code;partyRefresh();});
+  peer.on('open',()=>{PL.up=true;const base=location.pathname.endsWith('/')?location.pathname:location.pathname+'/';PL.url=location.origin+base+'pad.html?room='+code;partyRefresh();});
   peer.on('connection',(conn)=>{const id='ph'+(nextId++);
     conn.on('data',(m)=>{if(!m||typeof m!=='object')return;
       if(m.t==='join'){phonePadJoin(id,m.name,conn);}
