@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<title>Wheelie Fun · Phone Pad</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --night:#1a0f2b;--night2:#2c1846;--lava:#ff5b1f;--ember:#ffb22e;--lagoon:#26d3d0;--cream:#fff4df;--muted:#c9b6e4;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent;user-select:none;-webkit-user-select:none}
+html,body{margin:0;height:100%;overflow:hidden;background:radial-gradient(circle at 50% 20%,var(--night2),var(--night));color:var(--cream);font-family:'Fredoka',system-ui,sans-serif;touch-action:none}
+.wrap{display:flex;flex-direction:column;height:100%;padding:calc(10px + env(safe-area-inset-top,0px)) calc(14px + env(safe-area-inset-right,0px)) calc(12px + env(safe-area-inset-bottom,0px)) calc(14px + env(safe-area-inset-left,0px));gap:10px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:10px;background:rgba(26,15,43,.85);border:2px solid rgba(255,255,255,.15);border-radius:14px;padding:8px 12px}
+.badge{font-family:'Bungee',sans-serif;font-size:16px;padding:4px 10px;border-radius:9px;background:var(--ember);color:var(--night)}
+.stat{font-size:14px;color:var(--muted);font-weight:600;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.stat b{font-family:'Bungee',sans-serif;color:var(--cream);font-weight:400}
+.cfg{display:flex;gap:8px;align-items:center}
+.cfg input{background:rgba(255,255,255,.1);border:2px solid rgba(255,255,255,.2);border-radius:8px;color:var(--cream);padding:5px 8px;font-family:inherit;font-weight:600;width:105px;font-size:13px}
+.tog{background:rgba(38,211,208,.18);border:2px solid var(--lagoon);color:var(--cream);border-radius:8px;padding:5px 9px;font-size:12px;font-weight:700;cursor:pointer}
+.tog.off{opacity:.5;border-color:rgba(255,255,255,.2);background:transparent}
+.pad{flex:1;display:grid;grid-template-columns:1.1fr .8fr 1.1fr;gap:12px;align-items:center}
+.steerBox{height:100%;max-height:240px;background:rgba(255,255,255,.05);border:3px solid rgba(255,255,255,.16);border-radius:24px;position:relative;display:flex;align-items:center;justify-content:space-between;padding:0 18px}
+.steerBox span{font-family:'Bungee',sans-serif;font-size:28px;opacity:.45;pointer-events:none}
+.knob{position:absolute;top:50%;left:50%;width:68px;height:68px;margin:-34px 0 0 -34px;border-radius:50%;background:radial-gradient(circle at 35% 35%,var(--ember),var(--lava));box-shadow:0 5px 0 #7c1d0b,0 0 20px rgba(255,91,31,.5);pointer-events:none;transition:transform .04s linear}
+.midCol{display:flex;flex-direction:column;gap:10px;align-items:center;justify-content:center}
+.dpad{display:grid;grid-template-columns:repeat(3,44px);grid-template-rows:repeat(2,42px);gap:5px}
+.actGrid{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:10px;height:100%;max-height:240px}
+.b{font-family:'Bungee',sans-serif;border:0;border-radius:18px;color:var(--night);background:var(--ember);box-shadow:0 5px 0 #9a3c0a;font-size:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;touch-action:none}
+.b small{font-family:'Fredoka',sans-serif;font-size:11px;font-weight:700;opacity:.82}
+.b.drift{background:var(--lagoon);box-shadow:0 5px 0 #0c6c70}
+.b.item{background:#ff4fd8;color:#fff;box-shadow:0 5px 0 #7a1868}
+.b.hype{background:#ffe14a;box-shadow:0 5px 0 #9e7f08}
+.b.brake{background:#ff5b1f;color:#fff;box-shadow:0 5px 0 #7c1d0b}
+.b.mini{background:rgba(255,255,255,.14);color:var(--cream);box-shadow:0 3px 0 rgba(0,0,0,.4);font-size:12px;border-radius:10px;padding:8px 12px}
+.b.down{transform:translateY(4px);filter:brightness(1.15)}
+.noRoom{flex:1;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;font-size:15px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div style="display:flex;align-items:center;gap:10px">
+      <span class="badge" id="slotBadge">PAD</span>
+      <div class="stat" id="statTxt"><span>Connecting…</span></div>
+    </div>
+    <div class="cfg">
+      <input id="nameIn" maxlength="14" placeholder="Your name" value="Racer">
+      <button class="tog" id="autoBtn">AUTO-GAS: ON</button>
+      <button class="tog off" id="tiltBtn">TILT: OFF</button>
+      <button class="b mini" data-bit="9">PAUSE</button>
+    </div>
+  </div>
+  <div class="pad" id="padArea">
+    <div class="steerBox" id="steerZone">
+      <span>◀</span><span>▶</span>
+      <div class="knob" id="knob"></div>
+    </div>
+    <div class="midCol">
+      <div class="dpad">
+        <div></div><button class="b mini" data-bit="12">▲</button><div></div>
+        <button class="b mini" data-bit="14">◀</button><button class="b mini" data-bit="13">▼</button><button class="b mini" data-bit="15">▶</button>
+      </div>
+      <div style="display:flex;gap:6px">
+        <button class="b mini" data-bit="0">✕ OK</button>
+        <button class="b mini" data-bit="1">○ BACK</button>
+      </div>
+    </div>
+    <div class="actGrid">
+      <button class="b drift" data-bit="5">DRIFT<small>HOP / R1</small></button>
+      <button class="b item" data-bit="4">ITEM<small>FIRE / L1</small></button>
+      <button class="b hype" data-bit="3">HYPE<small>TURBO / △</small></button>
+      <button class="b brake" data-bit="2" id="gasBrakeBtn">BRAKE<small>REVERSE</small></button>
+    </div>
+  </div>
+</div>
+<script>
+(function(){
+  const room=(new URLSearchParams(location.search)).get('room');
+  const slotBadge=document.getElementById('slotBadge'),statTxt=document.getElementById('statTxt');
+  const nameIn=document.getElementById('nameIn'),autoBtn=document.getElementById('autoBtn'),tiltBtn=document.getElementById('tiltBtn');
+  const steerZone=document.getElementById('steerZone'),knob=document.getElementById('knob'),gasBrakeBtn=document.getElementById('gasBrakeBtn');
+
+  if(!room||!/^[A-Z0-9]{4,8}$/i.test(room)){
+    document.getElementById('padArea').outerHTML='<div class="noRoom">No room code in the link.<br>Scan the QR code from the Local Party screen on the host device.</div>';
+    return;
+  }
+
+  try{const saved=localStorage.getItem('wf.padName');if(saved)nameIn.value=saved;}catch(e){}
+  let conn=null,peer=null,bits=0,steer=0,touchSteer=0,tiltSteer=0,autoGas=1,useTilt=false,joined=false;
+
+  function send(){
+    if(conn&&conn.open){
+      const x=Math.max(-1,Math.min(1,useTilt&&!steerTouchId?tiltSteer:touchSteer));
+      steer=x;
+      conn.send({t:'in',b:bits,x:+x.toFixed(3),auto:autoGas});
+    }
+  }
+
+  function loadPeerJs(){
+    if(window.Peer)return Promise.resolve(window.Peer);
+    return new Promise((resolve,reject)=>{
+      const s=document.createElement('script');
+      s.src='https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js';
+      s.onload=()=>resolve(window.Peer);
+      s.onerror=()=>{
+        const s2=document.createElement('script');
+        s2.src='https://cdn.jsdelivr.net/npm/peerjs@1.5.4/dist/peerjs.min.js';
+        s2.onload=()=>resolve(window.Peer);
+        s2.onerror=()=>reject(new Error('Could not load PeerJS from CDN.'));
+        document.head.appendChild(s2);
+      };
+      document.head.appendChild(s);
+    });
+  }
+
+  async function connect(){
+    statTxt.innerHTML='<span>Connecting…</span>';
+    let PeerCtor;
+    try{PeerCtor=await loadPeerJs();}
+    catch(e){statTxt.innerHTML='<span>Could not load P2P library — retrying…</span>';setTimeout(connect,4000);return;}
+    peer=new PeerCtor();
+    peer.on('open',()=>{
+      conn=peer.connect('wfpad-'+room.toUpperCase(),{reliable:true});
+      conn.on('open',()=>{
+        joined=true;
+        conn.send({t:'join',name:nameIn.value.trim()||'Phone'});
+        statTxt.innerHTML='<span>Connected! Press <b>✕ OK</b> in Party Lobby</span>';
+        send();
+      });
+      conn.on('data',m=>{
+        if(!m||typeof m!=='object')return;
+        if(m.t==='you'||m.t==='stat'){
+          if(m.slot){slotBadge.textContent='P'+m.slot;slotBadge.style.background=m.col||'#ffb22e';}
+          const parts=[];
+          if(m.racer)parts.push('<b>'+m.racer+'</b>');
+          if(m.pos)parts.push('Pos <b>'+m.pos+'</b>');
+          if(m.lap)parts.push('Lap <b>'+m.lap+'</b>');
+          if(m.item)parts.push('Item: <b>'+m.item+'</b>');
+          statTxt.innerHTML=parts.length?parts.map(p=>'<span>'+p+'</span>').join(' · '):'<span>'+(m.mode==='race'?'RACING!':'MENU MODE')+'</span>';
+        }else if(m.t==='buzz'&&navigator.vibrate){
+          navigator.vibrate(m.ms||120);
+        }
+      });
+      conn.on('close',()=>{joined=false;statTxt.innerHTML='<span>Disconnected — retrying…</span>';setTimeout(connect,2000);});
+      conn.on('error',()=>{joined=false;statTxt.innerHTML='<span>Connection error — retrying…</span>';setTimeout(connect,2000);});
+    });
+    peer.on('error',(err)=>{
+      const msg=err&&err.type==='peer-unavailable'?'Host not found — ask them to reopen Local Party.':'Connection error — retrying…';
+      statTxt.innerHTML='<span>'+msg+'</span>';
+      setTimeout(connect,3000);
+    });
+    peer.on('disconnected',()=>{if(!joined)setTimeout(connect,3000);});
+  }
+
+  nameIn.addEventListener('change',()=>{
+    try{localStorage.setItem('wf.padName',nameIn.value.trim());}catch(e){}
+    if(conn&&conn.open)conn.send({t:'name',name:nameIn.value.trim()||'Phone'});
+  });
+  autoBtn.addEventListener('click',()=>{
+    autoGas=autoGas?0:1;
+    autoBtn.textContent='AUTO-GAS: '+(autoGas?'ON':'OFF');
+    autoBtn.classList.toggle('off',!autoGas);
+    gasBrakeBtn.dataset.bit=autoGas?'2':'0';
+    gasBrakeBtn.innerHTML=autoGas?'BRAKE<small>REVERSE</small>':'GAS<small>ACCELERATE</small>';
+    send();
+  });
+  let orientation=screen.orientation&&screen.orientation.angle!=null?screen.orientation.angle:(window.orientation||0);
+  window.addEventListener('orientationchange',()=>{orientation=screen.orientation&&screen.orientation.angle!=null?screen.orientation.angle:(window.orientation||0);});
+  tiltBtn.addEventListener('click',async()=>{
+    if(!useTilt&&typeof DeviceOrientationEvent!=='undefined'&&typeof DeviceOrientationEvent.requestPermission==='function'){
+      try{const r=await DeviceOrientationEvent.requestPermission();if(r!=='granted')return;}catch(e){}
+    }
+    useTilt=!useTilt;
+    tiltBtn.textContent='TILT: '+(useTilt?'ON':'OFF');
+    tiltBtn.classList.toggle('off',!useTilt);
+  });
+  window.addEventListener('deviceorientation',e=>{
+    if(!useTilt)return;
+    const g=(orientation===90?e.beta:orientation===-90?-e.beta:e.gamma)||0;
+    tiltSteer=Math.max(-1,Math.min(1,g/28));
+    if(!steerTouchId){knob.style.transform='translateX('+(tiltSteer*70)+'px)';send();}
+  });
+
+  let steerTouchId=null;
+  function updateSteer(clientX){
+    const r=steerZone.getBoundingClientRect();
+    const rel=(clientX-(r.left+r.width/2))/(r.width*0.42);
+    touchSteer=Math.max(-1,Math.min(1,rel));
+    knob.style.transform='translateX('+(touchSteer*(r.width*0.34))+'px)';
+    send();
+  }
+  steerZone.addEventListener('pointerdown',e=>{e.preventDefault();steerZone.setPointerCapture(e.pointerId);steerTouchId=e.pointerId;updateSteer(e.clientX);});
+  steerZone.addEventListener('pointermove',e=>{if(e.pointerId===steerTouchId)updateSteer(e.clientX);});
+  const endSteer=e=>{if(e.pointerId===steerTouchId){steerTouchId=null;touchSteer=0;knob.style.transform='translateX(0px)';send();}};
+  steerZone.addEventListener('pointerup',endSteer);steerZone.addEventListener('pointercancel',endSteer);
+
+  document.querySelectorAll('[data-bit]').forEach(btn=>{
+    const down=e=>{e.preventDefault();const b=+btn.dataset.bit;bits|=(1<<b);btn.classList.add('down');send();};
+    const up=e=>{e.preventDefault();const b=+btn.dataset.bit;bits&=~(1<<b);btn.classList.remove('down');send();};
+    btn.addEventListener('pointerdown',down);btn.addEventListener('pointerup',up);
+    btn.addEventListener('pointercancel',up);btn.addEventListener('pointerleave',up);
+  });
+  setInterval(send,120);
+  connect();
+})();
+</script>
+</body>
+</html>
