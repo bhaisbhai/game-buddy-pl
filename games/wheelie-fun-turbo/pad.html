@@ -12,77 +12,113 @@
   --night:#1a0f2b;--night2:#2c1846;--lava:#ff5b1f;--ember:#ffb22e;--lagoon:#26d3d0;--cream:#fff4df;--muted:#c9b6e4;
 }
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;user-select:none;-webkit-user-select:none}
+[hidden]{display:none!important}
 html,body{margin:0;height:100%;overflow:hidden;background:radial-gradient(circle at 50% 20%,var(--night2),var(--night));color:var(--cream);font-family:'Fredoka',system-ui,sans-serif;touch-action:none}
-.wrap{display:flex;flex-direction:column;height:100%;padding:calc(10px + env(safe-area-inset-top,0px)) calc(14px + env(safe-area-inset-right,0px)) calc(12px + env(safe-area-inset-bottom,0px)) calc(14px + env(safe-area-inset-left,0px));gap:10px}
-.top{display:flex;align-items:center;justify-content:space-between;gap:10px;background:rgba(26,15,43,.85);border:2px solid rgba(255,255,255,.15);border-radius:14px;padding:8px 12px}
-.badge{font-family:'Bungee',sans-serif;font-size:16px;padding:4px 10px;border-radius:9px;background:var(--ember);color:var(--night)}
-.stat{font-size:14px;color:var(--muted);font-weight:600;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.wrap{display:flex;flex-direction:column;height:100%;padding:calc(8px + env(safe-area-inset-top,0px)) calc(10px + env(safe-area-inset-right,0px)) calc(8px + env(safe-area-inset-bottom,0px)) calc(10px + env(safe-area-inset-left,0px));gap:8px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:8px;background:rgba(26,15,43,.85);border:2px solid rgba(255,255,255,.15);border-radius:14px;padding:6px 10px;flex-wrap:wrap}
+.badge{font-family:'Bungee',sans-serif;font-size:15px;padding:4px 9px;border-radius:9px;background:var(--ember);color:var(--night);flex-shrink:0}
+.stat{font-size:13px;color:var(--muted);font-weight:600;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .stat b{font-family:'Bungee',sans-serif;color:var(--cream);font-weight:400}
-.cfg{display:flex;gap:8px;align-items:center}
-.cfg input{background:rgba(255,255,255,.1);border:2px solid rgba(255,255,255,.2);border-radius:8px;color:var(--cream);padding:5px 8px;font-family:inherit;font-weight:600;width:105px;font-size:13px}
-.tog{background:rgba(38,211,208,.18);border:2px solid var(--lagoon);color:var(--cream);border-radius:8px;padding:5px 9px;font-size:12px;font-weight:700;cursor:pointer}
+.cfg{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.cfg input{background:rgba(255,255,255,.1);border:2px solid rgba(255,255,255,.2);border-radius:8px;color:var(--cream);padding:6px 8px;font-family:inherit;font-weight:600;width:84px;font-size:13px}
+.tog{background:rgba(38,211,208,.18);border:2px solid var(--lagoon);color:var(--cream);border-radius:8px;padding:6px 9px;font-size:12px;font-weight:700;cursor:pointer;min-height:34px}
 .tog.off{opacity:.5;border-color:rgba(255,255,255,.2);background:transparent}
-.pad{flex:1;display:grid;grid-template-columns:1.1fr .8fr 1.1fr;gap:12px;align-items:center}
-.steerBox{height:100%;max-height:240px;background:rgba(255,255,255,.05);border:3px solid rgba(255,255,255,.16);border-radius:24px;position:relative;display:flex;align-items:center;justify-content:space-between;padding:0 18px}
-.steerBox span{font-family:'Bungee',sans-serif;font-size:28px;opacity:.45;pointer-events:none}
-.knob{position:absolute;top:50%;left:50%;width:68px;height:68px;margin:-34px 0 0 -34px;border-radius:50%;background:radial-gradient(circle at 35% 35%,var(--ember),var(--lava));box-shadow:0 5px 0 #7c1d0b,0 0 20px rgba(255,91,31,.5);pointer-events:none;transition:transform .04s linear}
-.midCol{display:flex;flex-direction:column;gap:10px;align-items:center;justify-content:center}
-.dpad{display:grid;grid-template-columns:repeat(3,44px);grid-template-rows:repeat(2,42px);gap:5px}
-.actGrid{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:10px;height:100%;max-height:240px}
+
+.pad{flex:1;display:grid;grid-template-columns:1fr auto 1fr;gap:8px;min-height:0}
+.pad.mode-touch{grid-template-columns:1.5fr auto 1fr}
+.side{display:flex;flex-direction:column;gap:8px;min-height:0}
+.side.grid2x2{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr}
 .b{font-family:'Bungee',sans-serif;border:0;border-radius:18px;color:var(--night);background:var(--ember);box-shadow:0 5px 0 #9a3c0a;font-size:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;touch-action:none}
 .b small{font-family:'Fredoka',sans-serif;font-size:11px;font-weight:700;opacity:.82}
+.b.big{flex:1;font-size:clamp(17px,4.4vw,24px);border-radius:22px}
+.b.big small{font-size:clamp(10px,2.4vw,13px)}
 .b.drift{background:var(--lagoon);box-shadow:0 5px 0 #0c6c70}
 .b.item{background:#ff4fd8;color:#fff;box-shadow:0 5px 0 #7a1868}
 .b.hype{background:#ffe14a;box-shadow:0 5px 0 #9e7f08}
 .b.brake{background:#ff5b1f;color:#fff;box-shadow:0 5px 0 #7c1d0b}
-.b.mini{background:rgba(255,255,255,.14);color:var(--cream);box-shadow:0 3px 0 rgba(0,0,0,.4);font-size:12px;border-radius:10px;padding:8px 12px}
+.b.mini{background:rgba(255,255,255,.14);color:var(--cream);box-shadow:0 3px 0 rgba(0,0,0,.4);font-size:12px;border-radius:10px;padding:0}
 .b.down{transform:translateY(4px);filter:brightness(1.15)}
+
+.center{width:clamp(96px,26vw,150px);display:flex;flex-direction:column;align-items:center;gap:8px;min-height:0}
+.steerGauge{width:100%;height:30px;background:rgba(255,255,255,.07);border:2px solid rgba(255,255,255,.18);border-radius:999px;position:relative;flex-shrink:0}
+.steerGauge .mid{position:absolute;left:50%;top:2px;bottom:2px;width:2px;background:rgba(255,255,255,.25);transform:translateX(-50%)}
+.steerGauge .fill{position:absolute;top:3px;bottom:3px;left:50%;width:0;border-radius:999px;background:linear-gradient(90deg,var(--lagoon),var(--ember));transition:width .03s linear,left .03s linear}
+.modeBtn{width:100%;font-family:'Bungee',sans-serif;font-size:12px;letter-spacing:.03em;border:2px solid var(--lagoon);background:rgba(38,211,208,.16);color:var(--cream);border-radius:10px;padding:8px 4px;cursor:pointer;flex-shrink:0}
+.modeBtn.needsTap{border-color:var(--ember);background:rgba(255,178,46,.2);animation:pulseBtn 1s infinite alternate}
+@keyframes pulseBtn{to{opacity:.6}}
+.recenterBtn{width:100%;font-family:'Bungee',sans-serif;font-size:11px;border:2px solid rgba(255,255,255,.22);background:rgba(255,255,255,.06);color:var(--cream);border-radius:10px;padding:7px 4px;cursor:pointer;flex-shrink:0}
+.recenterBtn:active{background:var(--ember);color:var(--night)}
+.midSpacer{flex:1;min-height:4px}
+.dpad{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(2,30px);gap:4px;width:100%}
+.okback{display:flex;gap:4px;width:100%}
+.okback .b.mini{flex:1;height:30px}
+
+.steerBox{flex:1;min-height:0;background:rgba(255,255,255,.05);border:3px solid rgba(255,255,255,.16);border-radius:24px;position:relative;display:flex;align-items:center;justify-content:space-between;padding:0 14px}
+.steerBox span{font-family:'Bungee',sans-serif;font-size:24px;opacity:.45;pointer-events:none}
+.knob{position:absolute;top:50%;left:50%;width:58px;height:58px;margin:-29px 0 0 -29px;border-radius:50%;background:radial-gradient(circle at 35% 35%,var(--ember),var(--lava));box-shadow:0 5px 0 #7c1d0b,0 0 20px rgba(255,91,31,.5);pointer-events:none;transition:transform .04s linear}
+
 .noRoom{flex:1;display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;font-size:15px;color:var(--muted)}
+
+.portraitHint{position:fixed;left:0;right:0;top:calc(4px + env(safe-area-inset-top,0px));display:none;justify-content:center;pointer-events:none;z-index:9}
+.portraitHint span{background:rgba(255,91,31,.92);color:#fff;font-weight:700;font-size:12.5px;padding:6px 14px;border-radius:999px;box-shadow:0 4px 14px rgba(0,0,0,.4)}
+@media (orientation:portrait){.portraitHint{display:flex}}
 </style>
 </head>
 <body>
+<div class="portraitHint" id="portraitHint"><span>📱 Turn your phone sideways for the best controls</span></div>
 <div class="wrap">
   <div class="top">
-    <div style="display:flex;align-items:center;gap:10px">
+    <div style="display:flex;align-items:center;gap:8px">
       <span class="badge" id="slotBadge">PAD</span>
       <div class="stat" id="statTxt"><span>Connecting…</span></div>
     </div>
     <div class="cfg">
       <input id="nameIn" maxlength="14" placeholder="Your name" value="Racer">
       <button class="tog" id="autoBtn">AUTO-GAS: ON</button>
-      <button class="tog off" id="tiltBtn">TILT: OFF</button>
-      <button class="b mini" data-bit="9">PAUSE</button>
+      <button class="b mini" data-bit="9" style="padding:6px 10px;min-height:34px">PAUSE</button>
     </div>
   </div>
   <div class="pad" id="padArea">
-    <div class="steerBox" id="steerZone">
-      <span>◀</span><span>▶</span>
-      <div class="knob" id="knob"></div>
+    <div class="side left" id="leftSide">
+      <button class="b drift big" id="driftBtn" data-bit="5">DRIFT<small>HOP / R1</small></button>
+      <button class="b item big" id="itemBtn" data-bit="4">ITEM<small>FIRE / L1</small></button>
     </div>
-    <div class="midCol">
+    <div class="center" id="centerCol">
+      <div class="steerGauge" id="steerGauge"><div class="mid"></div><div class="fill" id="steerFill"></div></div>
+      <button class="modeBtn" id="modeBtn">STEER: TILT</button>
+      <button class="recenterBtn" id="recenterBtn">↻ RECENTER TILT</button>
+      <div class="midSpacer"></div>
       <div class="dpad">
         <div></div><button class="b mini" data-bit="12">▲</button><div></div>
         <button class="b mini" data-bit="14">◀</button><button class="b mini" data-bit="13">▼</button><button class="b mini" data-bit="15">▶</button>
       </div>
-      <div style="display:flex;gap:6px">
+      <div class="okback">
         <button class="b mini" data-bit="0">✕ OK</button>
         <button class="b mini" data-bit="1">○ BACK</button>
       </div>
     </div>
-    <div class="actGrid">
-      <button class="b drift" data-bit="5">DRIFT<small>HOP / R1</small></button>
-      <button class="b item" data-bit="4">ITEM<small>FIRE / L1</small></button>
-      <button class="b hype" data-bit="3">HYPE<small>TURBO / △</small></button>
-      <button class="b brake" data-bit="2" id="gasBrakeBtn">BRAKE<small>REVERSE</small></button>
+    <div class="side right" id="rightSide">
+      <button class="b hype big" id="hypeBtn" data-bit="3">HYPE<small>TURBO / △</small></button>
+      <button class="b brake big" data-bit="2" id="gasBrakeBtn">BRAKE<small>REVERSE</small></button>
     </div>
+  </div>
+  <div class="steerBox" id="steerZone" hidden>
+    <span>◀</span><span>▶</span>
+    <div class="knob" id="knob"></div>
   </div>
 </div>
 <script>
 (function(){
   const room=(new URLSearchParams(location.search)).get('room');
   const slotBadge=document.getElementById('slotBadge'),statTxt=document.getElementById('statTxt');
-  const nameIn=document.getElementById('nameIn'),autoBtn=document.getElementById('autoBtn'),tiltBtn=document.getElementById('tiltBtn');
-  const steerZone=document.getElementById('steerZone'),knob=document.getElementById('knob'),gasBrakeBtn=document.getElementById('gasBrakeBtn');
+  const nameIn=document.getElementById('nameIn'),autoBtn=document.getElementById('autoBtn');
+  const gasBrakeBtn=document.getElementById('gasBrakeBtn');
+  const padArea=document.getElementById('padArea');
+  const steerZone=document.getElementById('steerZone'),knob=document.getElementById('knob');
+  const steerFill=document.getElementById('steerFill');
+  const modeBtn=document.getElementById('modeBtn'),recenterBtn=document.getElementById('recenterBtn');
+  const leftSide=document.getElementById('leftSide'),rightSide=document.getElementById('rightSide');
+  const driftBtn=document.getElementById('driftBtn'),itemBtn=document.getElementById('itemBtn'),hypeBtn=document.getElementById('hypeBtn');
 
   if(!room||!/^[A-Z0-9]{4,8}$/i.test(room)){
     document.getElementById('padArea').outerHTML='<div class="noRoom">No room code in the link.<br>Scan the QR code from the Local Party screen on the host device.</div>';
@@ -90,12 +126,78 @@ html,body{margin:0;height:100%;overflow:hidden;background:radial-gradient(circle
   }
 
   try{const saved=localStorage.getItem('wf.padName');if(saved)nameIn.value=saved;}catch(e){}
-  let conn=null,peer=null,bits=0,steer=0,touchSteer=0,tiltSteer=0,autoGas=1,useTilt=false,joined=false;
+
+  const CAN_GATE_TILT=typeof DeviceOrientationEvent!=='undefined'&&typeof DeviceOrientationEvent.requestPermission==='function';
+  let steerMode='tilt';
+  try{const savedMode=localStorage.getItem('wf.padSteerMode');if(savedMode==='touch'||savedMode==='tilt')steerMode=savedMode;}catch(e){}
+  let tiltGranted=!CAN_GATE_TILT;
+
+  let conn=null,peer=null,bits=0,touchSteer=0,tiltSteer=0,autoGas=1,joined=false;
+  let rawTilt=0,tiltZero=0,tiltInited=false;
+  let orientation=screen.orientation&&screen.orientation.angle!=null?screen.orientation.angle:(window.orientation||0);
+  window.addEventListener('orientationchange',()=>{orientation=screen.orientation&&screen.orientation.angle!=null?screen.orientation.angle:(window.orientation||0);});
+
+  function updateGauge(x){
+    const pct=Math.round(Math.abs(x)*50);
+    steerFill.style.width=pct+'%';
+    steerFill.style.left=x<0?(50-pct)+'%':'50%';
+  }
+
+  function applyMode(){
+    const tiltWaiting=steerMode==='tilt'&&!tiltGranted;
+    padArea.classList.toggle('mode-touch',steerMode==='touch');
+    padArea.classList.toggle('mode-tilt',steerMode==='tilt');
+    if(steerMode==='touch'){
+      leftSide.appendChild(steerZone);
+      steerZone.hidden=false;
+      rightSide.classList.add('grid2x2');
+      rightSide.insertBefore(driftBtn,hypeBtn);
+      rightSide.insertBefore(itemBtn,hypeBtn);
+    }else{
+      document.getElementById('centerCol').appendChild(steerZone);
+      steerZone.hidden=true;
+      rightSide.classList.remove('grid2x2');
+      leftSide.appendChild(driftBtn);
+      leftSide.appendChild(itemBtn);
+    }
+    document.getElementById('steerGauge').hidden=steerMode!=='tilt';
+    recenterBtn.hidden=steerMode!=='tilt';
+    modeBtn.textContent=tiltWaiting?'TAP TO ENABLE TILT':('STEER: '+(steerMode==='tilt'?'TILT':'TOUCH'));
+    modeBtn.classList.toggle('needsTap',tiltWaiting);
+    touchSteer=0;tiltSteer=0;knob.style.transform='translateX(0px)';updateGauge(0);
+    send();
+  }
+
+  async function requestTiltPermission(){
+    if(!CAN_GATE_TILT){tiltGranted=true;return true;}
+    try{
+      const r=await DeviceOrientationEvent.requestPermission();
+      tiltGranted=r==='granted';
+    }catch(e){tiltGranted=false;}
+    return tiltGranted;
+  }
+
+  modeBtn.addEventListener('click',async()=>{
+    if(steerMode==='tilt'&&!tiltGranted){
+      const ok=await requestTiltPermission();
+      if(!ok){steerMode='touch';try{localStorage.setItem('wf.padSteerMode','touch');}catch(e){}}
+      applyMode();
+      return;
+    }
+    steerMode=steerMode==='tilt'?'touch':'tilt';
+    try{localStorage.setItem('wf.padSteerMode',steerMode);}catch(e){}
+    tiltInited=false;
+    if(steerMode==='tilt'&&!tiltGranted)await requestTiltPermission();
+    applyMode();
+  });
+  recenterBtn.addEventListener('click',()=>{tiltZero=rawTilt;updateGauge(0);});
+
+  applyMode();
+  if(steerMode==='tilt'&&!CAN_GATE_TILT)tiltGranted=true;
 
   function send(){
     if(conn&&conn.open){
-      const x=Math.max(-1,Math.min(1,useTilt&&!steerTouchId?tiltSteer:touchSteer));
-      steer=x;
+      const x=steerMode==='tilt'?tiltSteer:touchSteer;
       conn.send({t:'in',b:bits,x:+x.toFixed(3),auto:autoGas});
     }
   }
@@ -168,21 +270,16 @@ html,body{margin:0;height:100%;overflow:hidden;background:radial-gradient(circle
     gasBrakeBtn.innerHTML=autoGas?'BRAKE<small>REVERSE</small>':'GAS<small>ACCELERATE</small>';
     send();
   });
-  let orientation=screen.orientation&&screen.orientation.angle!=null?screen.orientation.angle:(window.orientation||0);
-  window.addEventListener('orientationchange',()=>{orientation=screen.orientation&&screen.orientation.angle!=null?screen.orientation.angle:(window.orientation||0);});
-  tiltBtn.addEventListener('click',async()=>{
-    if(!useTilt&&typeof DeviceOrientationEvent!=='undefined'&&typeof DeviceOrientationEvent.requestPermission==='function'){
-      try{const r=await DeviceOrientationEvent.requestPermission();if(r!=='granted')return;}catch(e){}
-    }
-    useTilt=!useTilt;
-    tiltBtn.textContent='TILT: '+(useTilt?'ON':'OFF');
-    tiltBtn.classList.toggle('off',!useTilt);
-  });
+
   window.addEventListener('deviceorientation',e=>{
-    if(!useTilt)return;
     const g=(orientation===90?e.beta:orientation===-90?-e.beta:e.gamma)||0;
-    tiltSteer=Math.max(-1,Math.min(1,g/28));
-    if(!steerTouchId){knob.style.transform='translateX('+(tiltSteer*70)+'px)';send();}
+    rawTilt=g;
+    if(steerMode!=='tilt')return;
+    if(!tiltGranted)tiltGranted=true,applyMode();
+    if(!tiltInited){tiltZero=rawTilt;tiltInited=true;}
+    tiltSteer=Math.max(-1,Math.min(1,(rawTilt-tiltZero)/28));
+    updateGauge(tiltSteer);
+    send();
   });
 
   let steerTouchId=null;
