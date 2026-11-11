@@ -4767,7 +4767,7 @@ window.registerWheelieNewTracks = function (api) {
 
   const S = {
     initialized: false,
-    transport: 'ws', // 'ws' | 'tab' | 'p2p'
+    transport: 'p2p', // 'ws' | 'tab' | 'p2p' -- p2p is the only mode surfaced in the UI; ws/tab stay reachable via ?transport= for self-hosted servers
     wsUrl: defaultWsUrl(),
     ws: null,
     bc: null,
@@ -4800,7 +4800,6 @@ window.registerWheelieNewTracks = function (api) {
     statusMsg: '',
     errorMsg: '',
     autoJoinCode: null,
-    serverDetected: false,
   };
 
   function getApi() {
@@ -4857,22 +4856,6 @@ window.registerWheelieNewTracks = function (api) {
 .wfoHead { display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:12px; }
 .wfoHead h2 { font-family:var(--display,'Bungee',sans-serif); font-size:clamp(22px,3vw,34px); color:var(--ember,#ffb22e); margin:0; text-shadow:0 4px 0 #1a0f2b; }
 .wfoBadge { font-family:var(--display,'Bungee',sans-serif); font-size:12px; letter-spacing:.08em; padding:5px 11px; border-radius:999px; background:rgba(38,211,208,.18); border:2px solid var(--lagoon,#26d3d0); color:var(--lagoon,#26d3d0); }
-.wfoTabs { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin-bottom:14px; }
-.wfoTab {
-  background: rgba(255,255,255,.06);
-  border: 2px solid rgba(255,255,255,.14);
-  border-radius: 14px;
-  padding: 10px 10px;
-  color: var(--cream,#fff4df);
-  cursor: pointer;
-  text-align: left;
-  font-family: var(--body,'Fredoka',sans-serif);
-  transition: transform .1s, border-color .15s, background .15s;
-}
-.wfoTab b { display:block; font-family:var(--display,'Bungee',sans-serif); font-size:13px; color:var(--ember,#ffb22e); margin-bottom:2px; font-weight:400; }
-.wfoTab small { display:block; font-size:12px; color:var(--muted,#c9b6e4); line-height:1.25; }
-.wfoTab.active { border-color:var(--lagoon,#26d3d0); background:rgba(38,211,208,.15); box-shadow:0 0 18px rgba(38,211,208,.2); }
-.wfoTab.active b { color:var(--lagoon,#26d3d0); }
 .wfoRow { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-bottom:12px; }
 .wfoField { display:flex; flex-direction:column; gap:4px; flex:1; min-width:170px; }
 .wfoField label { font-family:var(--display,'Bungee',sans-serif); font-size:11px; letter-spacing:.08em; color:var(--muted,#c9b6e4); }
@@ -4955,7 +4938,7 @@ window.registerWheelieNewTracks = function (api) {
 }
 #wfoModal { z-index:35; }
 @media (max-width:740px) {
-  .wfoTabs, .wfoSplit, .wfoPlayers { grid-template-columns:1fr; }
+  .wfoSplit, .wfoPlayers { grid-template-columns:1fr; }
   .wfoChars { grid-template-columns:repeat(4,1fr); }
 }
 `;
@@ -5051,34 +5034,15 @@ window.registerWheelieNewTracks = function (api) {
       <div class="wfoCard">
         <div class="wfoHead">
           <h2>ONLINE CUP &amp; MULTIPLAYER</h2>
-          <span class="wfoBadge">${S.serverDetected ? 'SERVER ONLINE' : 'READY TO RACE'}</span>
+          <span class="wfoBadge">PEER-TO-PEER</span>
         </div>
         ${alertHtml}
-        <div class="wfoTabs">
-          <button type="button" class="wfoTab${S.transport === 'ws' ? ' active' : ''}" data-wfo-tr="ws">
-            <b>1 · SERVER RELAY (WS)</b>
-            <small>Fastest LAN / localhost / tunnel Cup server (/ws-online)</small>
-          </button>
-          <button type="button" class="wfoTab${S.transport === 'tab' ? ' active' : ''}" data-wfo-tr="tab">
-            <b>2 · MULTI-TAB INSTANT</b>
-            <small>Zero-setup! Open 2 tabs on this device &amp; race now</small>
-          </button>
-          <button type="button" class="wfoTab${S.transport === 'p2p' ? ' active' : ''}" data-wfo-tr="p2p">
-            <b>3 · INTERNET P2P</b>
-            <small>Serverless WebRTC via PeerJS — play anywhere online</small>
-          </button>
-        </div>
 
         <div class="wfoRow">
           <div class="wfoField">
             <label>YOUR RACER NAME</label>
             <input class="wfoInput" id="wfoNameIn" maxlength="16" value="${escapeAttr(S.playerName)}" placeholder="Your Name">
           </div>
-          ${S.transport === 'ws' ? `
-          <div class="wfoField" style="flex:2">
-            <label>SERVER WEBSOCKET URL (LAN / NGROK / CLOUDFLARE)</label>
-            <input class="wfoInput" id="wfoWsIn" value="${escapeAttr(S.wsUrl)}" placeholder="ws://localhost:8780/ws-online">
-          </div>` : ''}
         </div>
 
         <div class="wfoField">
@@ -5236,16 +5200,6 @@ window.registerWheelieNewTracks = function (api) {
         try { localStorage.setItem('wheeliefun.wsUrl', S.wsUrl); } catch (e) {}
       }
     };
-
-    root.querySelectorAll('[data-wfo-tr]').forEach((btn) => {
-      btn.addEventListener('click', () => {
-        saveIdentity();
-        S.transport = btn.dataset.wfoTr;
-        S.errorMsg = '';
-        S.statusMsg = '';
-        renderLobby();
-      });
-    });
 
     root.querySelectorAll('[data-wfo-ch]').forEach((btn) => {
       btn.addEventListener('click', () => {
@@ -6582,23 +6536,7 @@ window.registerWheelieNewTracks = function (api) {
     const urlRoom = params.get('room');
 
     if (urlWs) S.wsUrl = urlWs;
-    if (urlTr && ['ws', 'tab', 'p2p'].includes(urlTr)) {
-      S.transport = urlTr;
-    } else if (location.protocol === 'http:' || location.protocol === 'https:') {
-      try {
-        const res = await fetch('/api/status', { cache: 'no-store' });
-        if (res.ok) {
-          S.serverDetected = true;
-          S.transport = 'ws';
-        } else {
-          S.transport = 'tab';
-        }
-      } catch (e) {
-        S.transport = 'tab';
-      }
-    } else {
-      S.transport = 'tab';
-    }
+    S.transport = (urlTr && ['ws', 'tab', 'p2p'].includes(urlTr)) ? urlTr : 'p2p';
 
     if (urlRoom && /^[A-Z0-9]{4,8}$/i.test(urlRoom.trim())) {
       S.autoJoinCode = urlRoom.trim().toUpperCase();
