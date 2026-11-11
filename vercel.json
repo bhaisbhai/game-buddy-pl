@@ -6,9 +6,17 @@
     { "src": "data/*.json", "use": "@vercel/static" },
     { "src": "data/team-news/*.json", "use": "@vercel/static" },
     { "src": "games/**/*.html", "use": "@vercel/static" },
-    { "src": "api/**/*.js", "use": "@vercel/node" }
+    { "src": "api/scoreboard.js", "use": "@vercel/node" },
+    { "src": "api/standings.js", "use": "@vercel/node" },
+    { "src": "api/summary.js", "use": "@vercel/node" },
+    { "src": "api/highlights.js", "use": "@vercel/node" },
+    { "src": "api/team-news.js", "use": "@vercel/node" },
+    { "src": "api/roster.js", "use": "@vercel/node" },
+    { "src": "api/player.js", "use": "@vercel/node" },
+    { "src": "api/fpl.js", "use": "@vercel/node" }
   ],
   "routes": [
+    { "src": "/api/fpl-(.*)", "dest": "/api/fpl.js" },
     { "src": "/api/(.*)", "dest": "/api/$1.js" },
     { "src": "/(.*)", "dest": "/$1" }
   ]
