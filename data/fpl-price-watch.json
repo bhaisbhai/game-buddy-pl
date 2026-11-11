@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T10:49:40.017Z",
+  "updated": "2026-11-11T10:25:44.518Z",
   "snapshot": {
     "1": 62,
     "2": 49,
@@ -109,7 +109,7 @@
     "106": 78,
     "107": 44,
     "108": 53,
-    "109": 46,
+    "109": 47,
     "110": 45,
     "111": 40,
     "112": 51,
@@ -236,7 +236,7 @@
     "233": 46,
     "234": 45,
     "235": 40,
-    "236": 66,
+    "236": 67,
     "237": 58,
     "238": 65,
     "239": 60,
@@ -424,7 +424,7 @@
     "421": 43,
     "422": 43,
     "423": 42,
-    "424": 40,
+    "424": 39,
     "425": 40,
     "426": 116,
     "427": 79,
@@ -676,44 +676,28 @@
   },
   "changes": [
     {
-      "id": 582,
-      "web_name": "Madjo",
-      "team_name": "Aston Villa",
-      "direction": "fall",
-      "old_price": 54,
-      "new_price": 53
-    },
-    {
-      "id": 210,
-      "web_name": "Wharton",
-      "team_name": "Crystal Palace",
-      "direction": "fall",
-      "old_price": 54,
-      "new_price": 53
-    },
-    {
-      "id": 218,
-      "web_name": "Doucouré",
-      "team_name": "Crystal Palace",
-      "direction": "fall",
-      "old_price": 48,
+      "id": 109,
+      "web_name": "Verbruggen",
+      "team_name": "Brighton",
+      "direction": "rise",
+      "old_price": 46,
       "new_price": 47
     },
     {
-      "id": 260,
-      "web_name": "Wilson",
-      "team_name": "Leeds",
-      "direction": "fall",
-      "old_price": 62,
-      "new_price": 61
+      "id": 236,
+      "web_name": "Dewsbury-Hall",
+      "team_name": "Everton",
+      "direction": "rise",
+      "old_price": 66,
+      "new_price": 67
     },
     {
-      "id": 481,
-      "web_name": "Anderson",
-      "team_name": "Man City",
+      "id": 424,
+      "web_name": "Amass",
+      "team_name": "Man Utd",
       "direction": "fall",
-      "old_price": 63,
-      "new_price": 62
+      "old_price": 40,
+      "new_price": 39
     }
   ]
 }
