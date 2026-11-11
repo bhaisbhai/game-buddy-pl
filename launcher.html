@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Retro Front</title>
+<style>
+  :root {
+    --bg: #0a0a0b;
+    --panel: #15151a;
+    --accent: #00ff87;
+    --text: #f2f2f2;
+    --text-dim: #9a9aa2;
+    --mono: ui-monospace, "SF Mono", "Cascadia Code", "Roboto Mono", Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--mono);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 16px 32px;
+  }
+  h1 {
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin: 0 0 4px;
+    color: var(--accent);
+    text-shadow: 0 0 12px rgba(0, 255, 135, 0.4);
+  }
+  .tagline {
+    color: var(--text-dim);
+    font-size: 13px;
+    margin: 0 0 40px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 720px;
+  }
+  .card {
+    background: var(--panel);
+    border: 1px solid #262630;
+    border-radius: 10px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    transition: border-color 0.15s, transform 0.15s;
+  }
+  .card.ready:hover {
+    border-color: var(--accent);
+    transform: translateY(-2px);
+  }
+  .card h2 {
+    margin: 0;
+    font-size: 18px;
+    color: var(--text);
+  }
+  .card p {
+    margin: 0;
+    font-size: 13px;
+    color: var(--text-dim);
+    line-height: 1.5;
+    flex-grow: 1;
+  }
+  .play-btn {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background: var(--accent);
+    color: #04140c;
+  }
+  .card.soon .play-btn {
+    background: #2a2a33;
+    color: var(--text-dim);
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+  footer {
+    margin-top: 48px;
+    color: var(--text-dim);
+    font-size: 11px;
+  }
+</style>
+</head>
+<body>
+  <h1>RETRO FRONT</h1>
+  <p class="tagline">pick a game</p>
+
+  <div class="grid">
+    <div class="card ready">
+      <h2>Wheelie Fun Turbo</h2>
+      <p>Three.js kart racer — 44 tracks, 11 Grand Prix cups, 10 racers, Kart Garage, Time Trials, split-screen, and online cups.</p>
+      <a class="play-btn" href="/games/wheelie-fun-turbo/">PLAY</a>
+    </div>
+
+    <div class="card soon">
+      <h2>Arms House</h2>
+      <p>Coming soon.</p>
+      <a class="play-btn" href="#" tabindex="-1">SOON</a>
+    </div>
+  </div>
+
+  <footer>Retro Front</footer>
+</body>
+</html>
