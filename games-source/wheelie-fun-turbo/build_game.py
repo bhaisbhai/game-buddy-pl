@@ -108,11 +108,16 @@ def build():
       <button class="btn alt" data-act="party">Local Party (2–4)</button>
       <button class="btn battle" data-act="battle">Battle</button>
       <button class="btn battle" data-act="death">Death Race</button>
-      <button class="btn ghost" data-act="diff" id="diffBtn">Difficulty: Normal</button>
-      <button class="btn ghost" data-act="items" id="itemsBtn">Items: All (37)</button>
       <button class="btn ghost" data-act="how">How to Play</button>
-      <button class="btn ghost" data-act="gfx" id="gfxBtn">Graphics: Ultra</button>"""
+      <button class="btn ghost" data-act="settings" id="settingsBtn">⚙ Settings</button>"""
     html = must_replace(html, old_title_btns, new_title_btns, "title_btns")
+
+    old_settings_btns = """      <button class="btn ghost" data-act="diff" id="diffBtn">Difficulty: Normal</button>
+      <button class="btn ghost" data-act="gfx" id="gfxBtn">Graphics: Ultra</button>"""
+    new_settings_btns = """      <button class="btn ghost" data-act="diff" id="diffBtn">Difficulty: Normal</button>
+      <button class="btn ghost" data-act="items" id="itemsBtn">Items: All (37)</button>
+      <button class="btn ghost" data-act="gfx" id="gfxBtn">Graphics: Ultra</button>"""
+    html = must_replace(html, old_settings_btns, new_settings_btns, "settings_btns")
 
     html = must_replace(
         html,
@@ -1001,7 +1006,7 @@ function respawn(k){k.slide=null;k.slideL=null;k.boat=false;const i=k.rescueTo!=
 
     old_menus_block = """const screens=['title','how','select','tracks','pause','results','cup','bmode','arenas','party','dmode'];
 function show(id){for(const s of screens)$('#'+s).hidden=s!==id;G.focus=0;refreshFocus();}"""
-    new_menus_block = """const screens=['title','how','select','tracks','pause','results','cup','bmode','arenas','party','dmode','online'];
+    new_menus_block = """const screens=['title','how','select','tracks','pause','results','cup','bmode','arenas','party','dmode','online','settings'];
 function show(id){for(const s of screens){const el=$('#'+s);if(el)el.hidden=s!==id;}G.focus=0;refreshFocus();}"""
     html = must_replace(html, old_menus_block, new_menus_block, "screens_online")
 
@@ -1081,7 +1086,7 @@ function show(id){for(const s of screens){const el=$('#'+s);if(el)el.hidden=s!==
     )
 
     old_click_acts = """if(a==='p1'){G.battleNext=false;G.deathNext=false;G.bind=null;goSelect(1);}else if(a==='death'){G.state='dmode';show('dmode');}else if(a==='d1'){G.battleNext=false;G.deathNext=true;G.bind=null;goSelect(1);}else if(a==='dparty'){G.deathNext=true;goParty(false);G.deathNext=true;}else if(a==='diff'){cycleDiff();}else if(a==='party'){G.deathNext=false;goParty(false);}else if(a==='bparty'){goParty(true);}else if(a==='partyGo'){partyGo();}else if(a==='battle'){G.state='bmode';show('bmode');}"""
-    new_click_acts = """if(a==='online'){G.timeTrial=false;if(window.WFOnline)WFOnline.openMenu(WF_API_BRIDGE);return;}else if(a==='tt'){G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.timeTrial=true;G.bind=null;goSelect(1);return;}else if(a==='cc'){if(window.WFV2)WFV2.cycleCC();return;}else if(a==='copyGhost'){if(window.WFV2&&WFV2.GHOSTS.lastCode){try{navigator.clipboard.writeText(WFV2.GHOSTS.lastCode);}catch(e){}const gb=$('#copyGhostBtn');if(gb)gb.textContent='Copied Ghost Code! ✓';}return;}else if(a==='importGhost'){const code=typeof prompt==='function'?prompt('Paste a Friend Ghost Code (WFG1:...):'):'';if(code&&window.WFV2){const imp=WFV2.importGhostCode(code);if(imp){const tIdx=LEVELS.findIndex(L=>L.id===imp.trk);if(tIdx>=0){G.timeTrial=true;startLevel(tIdx);}else startRace();}}return;}else if(a==='items'){cycleItemsMode();return;}else if(a==='randTrk'){G.cup=null;const ri=Math.floor(Math.random()*LEVELS.length);if(LEVELS[ri].random)G.level=-1;startLevel(ri);return;}else if(a==='p1'){G.timeTrial=false;G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.bind=null;goSelect(1);}else if(a==='death'){G.timeTrial=false;G.state='dmode';show('dmode');}else if(a==='d1'){G.timeTrial=false;G.battleNext=false;G.deathNext=true;G.bind=null;goSelect(1);}else if(a==='dparty'){G.timeTrial=false;G.deathNext=true;goParty(false);G.deathNext=true;}else if(a==='diff'){cycleDiff();}else if(a==='party'){G.timeTrial=false;G.deathNext=false;goParty(false);}else if(a==='bparty'){G.timeTrial=false;goParty(true);}else if(a==='partyGo'){partyGo();}else if(a==='battle'){G.timeTrial=false;G.state='bmode';show('bmode');}"""
+    new_click_acts = """if(a==='online'){G.timeTrial=false;if(window.WFOnline)WFOnline.openMenu(WF_API_BRIDGE);return;}else if(a==='tt'){G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.timeTrial=true;G.bind=null;goSelect(1);return;}else if(a==='cc'){if(window.WFV2)WFV2.cycleCC();return;}else if(a==='copyGhost'){if(window.WFV2&&WFV2.GHOSTS.lastCode){try{navigator.clipboard.writeText(WFV2.GHOSTS.lastCode);}catch(e){}const gb=$('#copyGhostBtn');if(gb)gb.textContent='Copied Ghost Code! ✓';}return;}else if(a==='importGhost'){const code=typeof prompt==='function'?prompt('Paste a Friend Ghost Code (WFG1:...):'):'';if(code&&window.WFV2){const imp=WFV2.importGhostCode(code);if(imp){const tIdx=LEVELS.findIndex(L=>L.id===imp.trk);if(tIdx>=0){G.timeTrial=true;startLevel(tIdx);}else startRace();}}return;}else if(a==='items'){cycleItemsMode();return;}else if(a==='settings'){G.state='settings';show('settings');return;}else if(a==='randTrk'){G.cup=null;const ri=Math.floor(Math.random()*LEVELS.length);if(LEVELS[ri].random)G.level=-1;startLevel(ri);return;}else if(a==='p1'){G.timeTrial=false;G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.bind=null;goSelect(1);}else if(a==='death'){G.timeTrial=false;G.state='dmode';show('dmode');}else if(a==='d1'){G.timeTrial=false;G.battleNext=false;G.deathNext=true;G.bind=null;goSelect(1);}else if(a==='dparty'){G.timeTrial=false;G.deathNext=true;goParty(false);G.deathNext=true;}else if(a==='diff'){cycleDiff();}else if(a==='party'){G.timeTrial=false;G.deathNext=false;goParty(false);}else if(a==='bparty'){G.timeTrial=false;goParty(true);}else if(a==='partyGo'){partyGo();}else if(a==='battle'){G.timeTrial=false;G.state='bmode';show('bmode');}"""
     html = must_replace(html, old_click_acts, new_click_acts, "click_actions")
 
     new_subsystems = """
