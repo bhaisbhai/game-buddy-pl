@@ -603,7 +603,8 @@ function phoneConnect(){if(PL.ws||location.protocol==='https:')return;let ws;try
       ph.on=true;ph.name=m.name||ph.name;if(G.state==='party')partyJoin({kind:'pad',id,label:'Phone: '+ph.name});partyRefresh();phoneSync(id);updatePadInfo&&updatePadInfo();}
     else if(m.t==='leave'){const ph=PHONES.get('ph'+m.id);if(ph){ph.on=false;for(const b of ph.pad.buttons){b.pressed=false;b.value=0;}ph.pad.axes[0]=0;}if(G.state==='party')partyLeave('ph'+m.id);partyRefresh();}
     else if(m.t==='in'){const ph=PHONES.get('ph'+m.id);if(!ph)return;const P=ph.pad;for(let i=0;i<17;i++){const on=!!(m.b&(1<<i));P.buttons[i].pressed=on;P.buttons[i].value=on?1:0;}P.axes[0]=clamp(+m.x||0,-1,1);P.auto=m.auto!==0;}};}"""
-    new_phone_connect = """const PHONE_PORT=8777;const PL={ws:null,peer:null,url:'',up:false,mode:'lan',retry:0,lastStat:0};
+    new_phone_connect = """const PHONE_PORT=8777;const PAD_VERSION=2;/* bump when pad.html changes, so cached copies on phones/CDNs don't linger */
+const PL={ws:null,peer:null,url:'',up:false,mode:'lan',retry:0,lastStat:0};
 function phoneMsg(m){if(PL.ws&&PL.ws.readyState===1)PL.ws.send(JSON.stringify(m));}
 function phoneTo(id,m){const ph=PHONES.get(id);if(ph&&ph.conn&&ph.conn.open){ph.conn.send(m);return;}phoneMsg({t:'to',id:id.replace(/^ph/,''),m});}
 function phonePadJoin(id,name,conn){let ph=PHONES.get(id);if(!ph){ph={id,name:name||'Phone',on:true,conn:conn||null,pad:{phone:true,id,index:-1,connected:true,auto:true,buttons:Array.from({length:17},()=>({pressed:false,value:0})),axes:[0,0,0,0]}};PHONES.set(id,ph);}
@@ -616,7 +617,7 @@ async function startPhonePadHost(){PL.mode='p2p';PL.up=false;
   let PeerCtor;try{PeerCtor=await loadPhonePeerJs();}catch(e){setTimeout(startPhonePadHost,8000);return;}
   const code=phonePadCode();let peer;try{peer=new PeerCtor('wfpad-'+code);}catch(e){setTimeout(startPhonePadHost,8000);return;}
   PL.peer=peer;let nextId=1;
-  peer.on('open',()=>{PL.up=true;const base=location.pathname.endsWith('/')?location.pathname:location.pathname+'/';PL.url=location.origin+base+'pad.html?room='+code;partyRefresh();});
+  peer.on('open',()=>{PL.up=true;const base=location.pathname.endsWith('/')?location.pathname:location.pathname+'/';PL.url=location.origin+base+'pad.html?v='+PAD_VERSION+'&room='+code;partyRefresh();});
   peer.on('connection',(conn)=>{const id='ph'+(nextId++);
     conn.on('data',(m)=>{if(!m||typeof m!=='object')return;
       if(m.t==='join'){phonePadJoin(id,m.name,conn);}

@@ -18,6 +18,11 @@
   "routes": [
     { "src": "/api/fpl-(.*)", "dest": "/api/fpl.js" },
     { "src": "/api/(.*)", "dest": "/api/$1.js" },
+    {
+      "src": "/games/wheelie-fun-turbo/pad.html",
+      "headers": { "Cache-Control": "no-cache, must-revalidate" },
+      "continue": true
+    },
     { "src": "/(.*)", "dest": "/$1" }
   ]
 }
