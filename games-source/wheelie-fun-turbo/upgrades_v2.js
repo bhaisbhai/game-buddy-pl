@@ -821,8 +821,8 @@
 .vaultLine{font-size:14px;color:var(--muted);font-weight:500}
 .vaultLine::before{content:'·';margin:0 10px;opacity:.5}
 .vaultLine b{color:var(--ember)}
-.btn.tt{background:rgba(255,244,223,.1);color:var(--cream);box-shadow:none;border:2px solid rgba(255,244,223,.4);font-size:clamp(13px,1.3vw,16px);padding:12px 22px 11px}
-.btn.tt:hover,.btn.tt.focus{background:rgba(255,244,223,.2)}
+.btn.tt{background:var(--panel);color:var(--cream);border:2px solid rgba(255,244,223,.55);box-shadow:0 5px 0 rgba(0,0,0,.45),0 8px 16px rgba(0,0,0,.3);font-size:clamp(13px,1.3vw,16px);font-weight:700;padding:12px 22px 10px}
+.btn.tt:hover,.btn.tt.focus{background:rgba(58,33,86,.95);border-color:var(--ember)}
 @media (max-width:760px){.garageBar{grid-template-columns:repeat(2,1fr)}}
 `;
         document.head.appendChild(st);
