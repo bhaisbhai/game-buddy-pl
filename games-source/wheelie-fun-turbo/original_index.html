@@ -317,6 +317,10 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
   <div class="card" style="max-width:560px">
     <h2>LEADERBOARDS</h2>
     <p style="color:var(--muted);font-size:13px;margin:0">Solo play only &middot; best lap per track, and total cup points across every cup you've won.</p>
+    <div class="wfoField" style="margin:14px 0 4px;max-width:240px">
+      <label>YOUR LEADERBOARD NAME</label>
+      <input class="wfoInput" id="lbNameIn" maxlength="16" placeholder="Your Name">
+    </div>
     <div class="lbTabs">
       <button type="button" class="chipBtn on" data-lb="laptime">⏱ Time Trial</button>
       <button type="button" class="chipBtn" data-lb="cup">🏆 Cup Points</button>
@@ -5376,7 +5380,19 @@ function updateShelf(){const won=CUPS.map(c=>[c,trophyOf(c.id)]).filter(([,t])=>
 // Times/points submitted here always come from the game's own race state (me.finishTime,
 // G.cup.pts) -- there is no input anywhere a player can type a time or score directly.
 const WFT_API='https://www.game-buddy.co.uk/api/wft-scores';
-function lbName(){try{return (localStorage.getItem('wheeliefun.onlineName')||'Racer').slice(0,16);}catch(e){return 'Racer';}}
+function lbName(){
+  try{
+    let n=localStorage.getItem('wheeliefun.onlineName');
+    if(!n){n='Racer '+Math.floor(10+Math.random()*89);localStorage.setItem('wheeliefun.onlineName',n);}
+    return n.slice(0,16);
+  }catch(e){return 'Racer';}
+}
+function setLbName(n){
+  n=(n||'').trim().slice(0,16);
+  if(!n)return lbName();
+  try{localStorage.setItem('wheeliefun.onlineName',n);}catch(e){}
+  return n;
+}
 function submitLapTime(trackId,finishTimeSec){
   if(!trackId||!isFinite(finishTimeSec))return;
   fetch(WFT_API+'?board=laptime',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({track:trackId,timeMs:Math.round(finishTimeSec*1000),name:lbName()})}).catch(()=>{});
@@ -5392,13 +5408,19 @@ async function loadLeaderboard(){
   const url=lbBoard==='laptime'?`${WFT_API}?board=laptime&track=${encodeURIComponent(lbTrack||'')}`:`${WFT_API}?board=cup`;
   try{
     const r=await fetch(url,{cache:'no-store'});
-    if(!r.ok)throw new Error('bad status');
-    const data=await r.json();
+    const text=await r.text();
+    if(!r.ok){
+      console.error('Leaderboard load failed:',r.status,text);
+      list.innerHTML=`<p style="color:var(--muted);text-align:center">Couldn't load the leaderboard (HTTP ${r.status}). Try again later.</p>`;
+      return;
+    }
+    let data;try{data=JSON.parse(text);}catch(e){throw new Error('bad json: '+text.slice(0,200));}
     const rows=data.scores||[];
     if(!rows.length){list.innerHTML='<p style="color:var(--muted);text-align:center">No scores yet — be the first!</p>';return;}
     list.innerHTML=rows.map(s=>`<div class="lbRow${s.rank<=3?' top'+s.rank:''}"><span class="rank">${s.rank}</span><span class="nm">${escLbName(s.name)}</span><span class="val">${lbBoard==='laptime'?fmt(s.timeMs/1000):s.points+' pts'}</span></div>`).join('');
   }catch(e){
-    list.innerHTML='<p style="color:var(--muted);text-align:center">Couldn\'t load the leaderboard — try again later.</p>';
+    console.error('Leaderboard load error:',e);
+    list.innerHTML='<p style="color:var(--muted);text-align:center">Couldn\'t load the leaderboard — network or server error. Try again later.</p>';
   }
 }
 function openLeaderboards(){
@@ -5408,10 +5430,12 @@ function openLeaderboards(){
   if(!lbTrack)lbTrack=sel.value;else sel.value=lbTrack;
   sel.hidden=lbBoard!=='laptime';
   document.querySelectorAll('[data-lb]').forEach(b=>b.classList.toggle('on',b.dataset.lb===lbBoard));
+  const nameIn=$('#lbNameIn');if(nameIn)nameIn.value=lbName();
   loadLeaderboard();
 }
 document.querySelectorAll('[data-lb]').forEach(b=>b.addEventListener('click',()=>{lbBoard=b.dataset.lb;openLeaderboards();}));
 $('#lbTrackSel').addEventListener('change',e=>{lbTrack=e.target.value;loadLeaderboard();});
+$('#lbNameIn').addEventListener('change',e=>{e.target.value=setLbName(e.target.value);});
 document.addEventListener('click',e=>{const b=e.target.closest('[data-act]');if(!b)return;audioInit();const a=b.dataset.act;
   if(a==='p1'){G.battleNext=false;G.deathNext=false;G.bind=null;goSelect(1);}else if(a==='death'){G.state='dmode';show('dmode');}else if(a==='d1'){G.battleNext=false;G.deathNext=true;G.bind=null;goSelect(1);}else if(a==='dparty'){G.deathNext=true;goParty(false);G.deathNext=true;}else if(a==='diff'){cycleDiff();}else if(a==='party'){G.deathNext=false;goParty(false);}else if(a==='bparty'){goParty(true);}else if(a==='partyGo'){partyGo();}else if(a==='battle'){G.state='bmode';show('bmode');}else if(a==='b1'){G.battleNext=true;G.bind=null;goSelect(1);}else if(a==='b2'){G.battleNext=true;goSelect(2);}else if(a==='arenas')goArenas();else if(a==='how'){G.state='how';show('how');}else if(a==='gfx'){Q.ultra=!Q.ultra;store.set('tikiturbo.gfx',Q.ultra?'ultra':'fast');applyQuality();}else if(a==='back'){G.state='title';show('title');}
   else if(a==='resume')resume();else if(a==='restart'){if(G.cup)G.cup.scored=G.state==='results'?(()=>{for(const[ci,p]of Object.entries(G.cup.lastGain||{}))G.cup.pts[ci]-=p;G.cup.lastGain={};return false;})():G.cup.scored;startRace();}
