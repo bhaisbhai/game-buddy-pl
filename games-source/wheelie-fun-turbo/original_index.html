@@ -4138,6 +4138,7 @@ if(mx-mn>.06){vec2 dir=vec2(-((a+b)-(c2+d)),(a+c2)-(b+d));float red=max((a+b+c2+
 vec3 bl=texture2D(tBloom,vUv).rgb*bloomStr;col+=bl*(1.-col*.5);col=clamp(col,0.,1.);
 float l=dot(col,L);col=mix(vec3(l),col,1.14);col=mix(col,col*col*(3.-2.*col),.18);
 float v=smoothstep(.95,.32,length((vUv-.5)*vec2(1.15,1.)));col*=mix(.8,1.,v);
+float dn=fract(sin(dot(gl_FragCoord.xy,vec2(12.9898,78.233)))*43758.5453)-.5;col+=dn/255.;
 gl_FragColor=vec4(clamp(col,0.,1.),1.);}`};
 // Light-weight glow: bright parts at quarter resolution, blurred twice, added back in the final pass.
 THREE.BloomLite=class BloomLite extends THREE.Pass{
