@@ -32,12 +32,14 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .coins{display:flex;align-items:center;gap:6px;font-family:var(--display);font-size:clamp(15px,1.8vw,20px);margin-top:4px}
 .coins i{width:18px;height:18px;border-radius:50%;background:radial-gradient(circle at 35% 35%,#fff6b0,#ffc627 45%,#c77a08);box-shadow:0 2px 0 var(--night)}
 .item{position:absolute;top:calc(12px + env(safe-area-inset-top,0px));left:50%;transform:translateX(-50%);width:clamp(62px,7vw,86px);aspect-ratio:1;border-radius:18px;background:var(--panel);border:3px solid var(--ember);box-shadow:0 6px 0 rgba(0,0,0,.35),inset 0 0 0 3px rgba(255,255,255,.06);display:grid;place-items:center}
-.item svg{width:72%;height:72%}
+.item .ic{width:100%;height:100%;display:flex;align-items:center;justify-content:center}
+.item svg{width:72%;height:72%;display:block}
 .item .tag{position:absolute;bottom:-20px;left:50%;transform:translateX(-50%);white-space:nowrap;font-size:12px;font-weight:600;color:var(--ember);text-shadow:0 2px 0 var(--night)}
 .item.rolling{border-color:var(--lagoon)}
 .item2{position:absolute;top:calc(20px + env(safe-area-inset-top,0px));left:calc(50% + clamp(40px,4.6vw,56px));width:clamp(40px,4.4vw,54px);aspect-ratio:1;border-radius:13px;background:var(--panel);border:3px solid rgba(255,255,255,.18);box-shadow:0 4px 0 rgba(0,0,0,.35);display:grid;place-items:center;opacity:.7;transition:opacity .15s}
 .item2.full{opacity:1;border-color:var(--ember)}.item2.rolling{opacity:1;border-color:var(--lagoon)}
-.item2 svg{width:74%;height:74%}.item2 small{position:absolute;bottom:-17px;left:50%;transform:translateX(-50%);font-size:10px;font-weight:700;letter-spacing:.08em;color:var(--muted)}
+.item2 .ic2{width:100%;height:100%;display:flex;align-items:center;justify-content:center}
+.item2 svg{width:74%;height:74%;display:block}.item2 small{position:absolute;bottom:-17px;left:50%;transform:translateX(-50%);font-size:10px;font-weight:700;letter-spacing:.08em;color:var(--muted)}
 .br{position:absolute;right:calc(18px + env(safe-area-inset-right,0px));bottom:calc(14px + env(safe-area-inset-bottom,0px));text-align:right}
 .pos{font-family:var(--display);font-size:clamp(46px,8vw,96px);line-height:.9;color:var(--ember);text-shadow:0 5px 0 var(--night),0 0 24px rgba(255,91,31,.6)}
 .pos sup{font-size:.38em;vertical-align:top;margin-left:2px}
