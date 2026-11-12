@@ -79,8 +79,6 @@ def build():
 .tTag{font-size:10px;font-weight:700;padding:1px 6px;border-radius:6px;background:rgba(255,255,255,.1);color:var(--cream);letter-spacing:.03em}
 .tTag.new{background:var(--lava);color:#fff;font-family:var(--display)}
 .tTag.stars{background:rgba(255,178,46,.18);color:var(--ember);margin-left:auto}
-#tLook{left:calc(212px + env(safe-area-inset-left,0px));bottom:calc(36px + env(safe-area-inset-bottom,0px));width:60px;height:60px;font-size:11px}
-#tAimF{right:calc(184px + env(safe-area-inset-right,0px));bottom:calc(128px + env(safe-area-inset-bottom,0px));width:58px;height:58px;font-size:10px}
 /* Track & Cup Atlas: readable from the sofa on big screens (TV mirrored at 1080p) */
 @media (min-width:1280px){
 #tracks .trkWrap{max-width:min(1640px,92vw)}
@@ -164,13 +162,6 @@ def build():
   </div>
 </div>"""
     html = must_replace(html, old_tracks_div, new_tracks_div, "tracks_div")
-
-    html = must_replace(
-        html,
-        '<div class="tb" id="tB">BRAKE</div><div class="tb" id="tH">HYPE</div>',
-        '<div class="tb" id="tB">BRAKE</div><div class="tb" id="tH">HYPE</div><div class="tb" id="tLook">LOOK</div><div class="tb" id="tAimF">LOB↑</div>',
-        "touch_btns",
-    )
 
     html = must_replace(
         html,
@@ -324,7 +315,7 @@ addEventListener('keydown',e=>{if(e.target&&(e.target.tagName==='INPUT'||e.targe
 addEventListener('keyup',e=>keys.delete(e.code));
 addEventListener('blur',()=>keys.clear());
 const touch={l:0,r:0,drift:0,item:0,brake:0,hype:0,look:0,aimF:0,on:false};
-for(const[id,k]of[['tL','l'],['tR','r'],['tD','drift'],['tI','item'],['tB','brake'],['tH','hype'],['tLook','look'],['tAimF','aimF']]){const el=document.getElementById(id);if(!el)continue;"""
+for(const[id,k]of[['tL','l'],['tR','r'],['tD','drift'],['tI','item'],['tB','brake'],['tH','hype']]){const el=document.getElementById(id);if(!el)continue;"""
     html = must_replace(html, old_input, new_input, "input_defs")
 
     old_read_input = """function readPad(p,o){if(!p)return;let sx=p.axes[0]||0;if(Math.abs(sx)>.16)o.steer+=Math.sign(sx)*(Math.abs(sx)-.16)/.84;if(btn(p,14))o.steer-=1;if(btn(p,15))o.steer+=1;

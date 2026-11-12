@@ -264,8 +264,6 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .tTag{font-size:10px;font-weight:700;padding:1px 6px;border-radius:6px;background:rgba(255,255,255,.1);color:var(--cream);letter-spacing:.03em}
 .tTag.new{background:var(--lava);color:#fff;font-family:var(--display)}
 .tTag.stars{background:rgba(255,178,46,.18);color:var(--ember);margin-left:auto}
-#tLook{left:calc(212px + env(safe-area-inset-left,0px));bottom:calc(36px + env(safe-area-inset-bottom,0px));width:60px;height:60px;font-size:11px}
-#tAimF{right:calc(184px + env(safe-area-inset-right,0px));bottom:calc(128px + env(safe-area-inset-bottom,0px));width:58px;height:58px;font-size:10px}
 /* Track & Cup Atlas: readable from the sofa on big screens (TV mirrored at 1080p) */
 @media (min-width:1280px){
 #tracks .trkWrap{max-width:min(1640px,92vw)}
@@ -510,7 +508,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 <div class="touch" id="touch">
   <div class="tb" id="tL">◀</div><div class="tb" id="tR">▶</div>
   <div class="tb" id="tD">DRIFT</div><div class="tb" id="tI">ITEM</div>
-  <div class="tb" id="tB">BRAKE</div><div class="tb" id="tH">HYPE</div><div class="tb" id="tLook">LOOK</div><div class="tb" id="tAimF">LOB↑</div>
+  <div class="tb" id="tB">BRAKE</div><div class="tb" id="tH">HYPE</div>
 </div>
 <div id="loading">Warming up the volcano…</div>
 
@@ -896,7 +894,7 @@ addEventListener('keydown',e=>{if(e.target&&(e.target.tagName==='INPUT'||e.targe
 addEventListener('keyup',e=>keys.delete(e.code));
 addEventListener('blur',()=>keys.clear());
 const touch={l:0,r:0,drift:0,item:0,brake:0,hype:0,look:0,aimF:0,on:false};
-for(const[id,k]of[['tL','l'],['tR','r'],['tD','drift'],['tI','item'],['tB','brake'],['tH','hype'],['tLook','look'],['tAimF','aimF']]){const el=document.getElementById(id);if(!el)continue;
+for(const[id,k]of[['tL','l'],['tR','r'],['tD','drift'],['tI','item'],['tB','brake'],['tH','hype']]){const el=document.getElementById(id);if(!el)continue;
   const dn=e=>{e.preventDefault();audioInit();touch[k]=1;el.classList.add('down');},up=e=>{e.preventDefault();touch[k]=0;el.classList.remove('down');};
   el.addEventListener('pointerdown',dn);el.addEventListener('pointerup',up);el.addEventListener('pointercancel',up);el.addEventListener('pointerleave',up);}
 const isTouch=matchMedia('(pointer: coarse)').matches;
