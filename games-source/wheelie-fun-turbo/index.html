@@ -6006,7 +6006,8 @@ function renderTrackAtlas(){
   const showCups=!G.deathNext&&!G.timeTrial&&(ATLAS.view==='all'||ATLAS.view==='cups')&&ATLAS.cat==='all'&&!ATLAS.diff&&!q;
   g.classList.toggle('cupsView',ATLAS.view==='cups');
   if(showCups){
-    CUPS.forEach((c,ci)=>{
+    CUPS.map((c,ci)=>ci).sort((a,b)=>(cupLocked(a)?1:0)-(cupLocked(b)?1:0)).forEach(ci=>{
+      const c=CUPS[ci];
       const locked=cupLocked(ci);
       const t=trophyOf(c.id);const ordIdx=cupOrder(c);if(!ordIdx.length)return;
       const names=ordIdx.map(i=>LEVELS[i].name).join(' · ');
@@ -6019,7 +6020,8 @@ function renderTrackAtlas(){
     });
   }
   if(ATLAS.view==='all'||ATLAS.view==='tracks'||G.timeTrial||q||ATLAS.cat!=='all'||ATLAS.diff){
-    LEVELS.forEach((L,i)=>{
+    LEVELS.map((L,i)=>i).sort((a,b)=>(trackLocked(LEVELS[a])?1:0)-(trackLocked(LEVELS[b])?1:0)).forEach(i=>{
+      const L=LEVELS[i];
       const m=inferMeta(L);
       if(ATLAS.cat==='new'&&!m.isNew)return;
       if(ATLAS.cat!=='all'&&ATLAS.cat!=='new'&&m.cat!==ATLAS.cat)return;
