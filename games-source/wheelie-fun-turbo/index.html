@@ -129,6 +129,31 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .ctrl dt{color:var(--cream);font-weight:600;white-space:nowrap}
 .ctrl dd{margin:0;color:var(--muted)}
 .tips{display:grid;gap:8px;margin:0 0 20px;padding:0;list-style:none;font-size:14px;color:var(--muted)}
+.ctrlLegend{display:grid;grid-template-columns:1fr 1fr;gap:12px 20px;margin:18px 0 22px}
+.ctrlLegend .row{display:flex;align-items:center;gap:12px}
+.ctrlLegend .key{font-family:var(--display);font-weight:400;display:flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:12px;background:var(--cream);color:var(--night);font-size:14px;box-shadow:0 5px 0 rgba(0,0,0,.4);flex-shrink:0}
+.ctrlLegend .key.wide{width:72px;font-size:11px}
+.ctrlLegend .label{font-size:14px;font-weight:600;color:var(--cream)}
+.ctrlLegend .label small{display:block;font-size:11px;font-weight:700;color:var(--muted);letter-spacing:.04em}
+.miniArrows{display:grid;grid-template-columns:repeat(3,14px);grid-template-rows:repeat(2,14px);gap:2px;width:42px;flex-shrink:0}
+.miniArrows .k{width:14px;height:14px;border-radius:4px;background:var(--cream);color:var(--night);font-size:7px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 0 rgba(0,0,0,.4)}
+.miniArrows .k:nth-child(1){grid-column:2}
+.miniArrows .k:nth-child(2){grid-column:1;grid-row:2}
+.miniArrows .k:nth-child(3){grid-column:2;grid-row:2}
+.miniArrows .k:nth-child(4){grid-column:3;grid-row:2}
+@media (max-width:620px){.ctrlLegend{grid-template-columns:1fr}}
+.lbTabs{display:flex;gap:8px;margin:14px 0 12px;flex-wrap:wrap}
+.lbTrackRow{margin-bottom:12px}
+.lbTrackRow select{width:100%;background:rgba(12,6,22,.78);border:2px solid rgba(255,255,255,.2);border-radius:12px;padding:10px 12px;color:var(--cream);font-family:var(--body);font-size:14px;font-weight:600}
+.lbList{min-height:200px;max-height:360px;overflow-y:auto}
+.lbRow{display:flex;align-items:center;gap:12px;padding:8px 10px;border-radius:10px;background:rgba(255,255,255,.04)}
+.lbRow+.lbRow{margin-top:6px}
+.lbRow .rank{font-family:var(--display);color:var(--ember);width:28px;flex-shrink:0;text-align:center}
+.lbRow .nm{flex:1;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lbRow .val{font-family:var(--display);color:var(--lagoon);flex-shrink:0}
+.lbRow.top1 .rank{color:#ffd700}
+.lbRow.top2 .rank{color:#c7c7c7}
+.lbRow.top3 .rank{color:#cd7f32}
 .tips b{color:var(--cream)}
 /* character select */
 #select{align-items:flex-end}
@@ -180,7 +205,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .trkGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;width:100%}
 #tracks .trkGrid{grid-template-columns:repeat(5,minmax(0,1fr));gap:9px}#tracks .trk{padding:7px 7px 8px;gap:3px}#tracks .trk svg{aspect-ratio:2.7}#tracks .trk span{display:none}#tracks .trk.cup span{display:block;font-size:11px}#tracks .trk b{font-size:clamp(12px,1.2vw,15px)}#tracks .trk em{font-size:11px}
 #tracks{overflow-y:auto;align-items:flex-start;padding-top:18px}
-.trk{font-family:var(--body);color:var(--cream);background:var(--panel);border:3px solid rgba(255,255,255,.12);border-radius:18px;padding:10px 10px 12px;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:6px;transition:transform .12s,border-color .12s}
+.trk{position:relative;font-family:var(--body);color:var(--cream);background:var(--panel);border:3px solid rgba(255,255,255,.12);border-radius:18px;padding:10px 10px 12px;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:6px;transition:transform .12s,border-color .12s}
 .trk.focus,.trk:hover{transform:translateY(-6px);border-color:var(--ember);outline:none}
 .trk.focus{box-shadow:0 0 0 4px var(--cream)}
 .trk svg{width:100%;aspect-ratio:2.1;display:block;border-radius:10px}
@@ -189,6 +214,10 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .trk em{font-style:normal;font-size:12px;color:var(--lagoon);font-weight:600;margin-top:auto}
 .trk.cup{border-color:rgba(255,178,46,.55)}
 .trk.cup b{color:var(--ember)}
+.trk.locked{cursor:not-allowed;opacity:.42;filter:grayscale(.7)}
+.trk.locked:hover,.trk.locked.focus{transform:none;border-color:rgba(255,255,255,.12);box-shadow:none}
+.trk.locked em{color:var(--muted)}
+.lockBadge{position:absolute;top:10px;right:10px;font-size:20px;filter:drop-shadow(0 2px 3px rgba(0,0,0,.7));z-index:2}
 @media (max-width:900px){.trkGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .standings{margin-top:-6px}
 .standings h3{font-family:var(--display);font-weight:400;font-size:15px;letter-spacing:.06em;color:var(--lagoon);margin:0 0 4px}
@@ -265,10 +294,9 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
       <button class="btn alt" data-act="party">Local Party (2–4)</button>
       <button class="btn battle" data-act="battle">Battle</button>
       <button class="btn battle" data-act="death">Death Race</button>
-      <button class="btn ghost" data-act="diff" id="diffBtn">Difficulty: Normal</button>
-      <button class="btn ghost" data-act="items" id="itemsBtn">Items: All (37)</button>
       <button class="btn ghost" data-act="how">How to Play</button>
-      <button class="btn ghost" data-act="gfx" id="gfxBtn">Graphics: Ultra</button>
+      <button class="btn ghost" data-act="settings" id="settingsBtn">⚙ Settings</button>
+      <button class="btn ghost" data-act="lb" id="lbBtn">🏆 Leaderboards</button>
     </div>
     <div class="pads" id="padInfo"><span class="dot" id="d1"></span><span class="dot" id="d2"></span><span id="padTxt">Press any button on a controller to connect it</span></div>
     <div class="shelf" id="shelf"></div>
@@ -285,8 +313,10 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
         <dt>R1</dt><dd>Hop &amp; drift, trick in the air</dd><dt>L1 or ○</dt><dd>Use item</dd><dt>D-pad ↑</dt><dd>Swap your two items</dd>
         <dt>△</dt><dd>Fire Hyper mode</dd><dt>Options</dt><dd>Pause</dd></dl></div>
       <div><h3>KEYBOARD · P1</h3><dl>
-        <dt>W A S D</dt><dd>Drive and steer</dd><dt>Space</dt><dd>Hop &amp; drift</dd>
-        <dt>Hold E</dt><dd>Trail shield / release to fire</dd><dt>Shift+E / X+E</dt><dd>Lob ahead / shoot back</dd><dt>C</dt><dd>Look back mirror</dd><dt>R / Q</dt><dd>Swap items / Signature Hype</dd></dl></div>
+        <dt>WASD or Arrows</dt><dd>Drive, steer &amp; accelerate</dd><dt>V</dt><dd>Hop &amp; drift</dd>
+        <dt>B or S</dt><dd>Brake / reverse</dd><dt>Space or E</dt><dd>Hold: trail shield &middot; release: fire item</dd>
+        <dt>Shift+F / X</dt><dd>Lob ahead / shoot back</dd><dt>C or Q</dt><dd>Hyper mode</dd>
+        <dt>Z</dt><dd>Look back</dd><dt>R</dt><dd>Swap items</dd><dt>Esc</dt><dd>Pause</dd></dl></div>
       <div><h3>KEYBOARD · P2</h3><dl>
         <dt>Arrows</dt><dd>Drive and steer</dd><dt>/ or R-Shift</dt><dd>Hop &amp; drift</dd>
         <dt>.</dt><dd>Use item</dd><dt>;</dt><dd>Swap items</dd><dt>,</dt><dd>Hyper mode</dd></dl></div>
@@ -315,6 +345,51 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
       <li><b>Items:</b> Chili (boost), Triple Chili, Goo (drop behind), Bee (hunts the racer ahead), Bubble (blocks one hit), Bouncy Ball (curves towards the kart in front, bounces off walls), Boomerang (flies out and comes back, hits up to two), Rainbow Rush (invincible and faster for 7 seconds; flatten anyone you touch), Duck Flood (giant rubber ducks rain down on the track ahead and bounce everywhere), Slow Motion (rare, and never more than one per race: everyone except you drops to slow motion for 5 seconds), Golden Chili (tap for unlimited boosts for 7 seconds), Triple Goo, Triple Bouncy Balls and Bee Swarm (three shots; while you hold them they block hits), Comet (flies to the leader and crashes down on them), Cherry Bomb (short fuse, big blast), Rocket Ride (autopilot rocket: very fast and invincible), Shrink Ray (everyone else shrinks and can be squashed), Paint Splat (paints the screens of everyone ahead), Ghost Sheet (become a ghost and steal someone's item), Hungry Lunchbox (snaps at karts and items in front of you), Fireballs (throw fireballs for 8 seconds), Party Bag (eight assorted specials), Sunshine Cloud (a happy little cloud makes you drive better for 8 seconds: more grip, faster, steers you away from walls, and clears stink and splats, and it rains gold coins on you the whole time), Spring (battle: jump on someone to steal a balloon), Monster Truck (battle: giant tyres, can't be hit, crushes anyone you touch), Balloon Pump (battle: get a balloon back), Sticky Mine (battle: drop a mine that blows up whoever drives near it) and Freeze Ray (battle: freezes the nearest rival; ram them to pop a balloon) and Coin Bag (+4 coins), Rain Cloud (rains on the leader: slower and slippery), Stinky Cheese (drop behind; green haze and wobbly steering), Jumbo (grow giant and flatten karts), Big Slap (a giant hand slaps everyone right next to you), Belly Flop (a giant hippo flops down ahead: everyone in front who's on the ground slows down and drops their item; hop to dodge), Prank Box (drop a fake item box; its question mark is upside down) and Spare Tyres (two tyres circle your kart for 15 seconds and each one soaks up a hit). You can carry two at once: the big box is the one you fire, the small NEXT box moves up after. Press d-pad ↑ to swap them. Coins raise your top speed.</li>
     </ul>
     <div class="btns"><button class="btn" data-act="back">Got it</button></div>
+  </div>
+</div>
+
+<div class="screen shade" id="settings" hidden>
+  <div class="card" style="max-width:480px;text-align:center">
+    <h2>Settings</h2>
+    <div class="btns">
+      <button class="btn ghost" data-act="diff" id="diffBtn">Difficulty: Normal</button>
+      <button class="btn ghost" data-act="items" id="itemsBtn">Items: All (37)</button>
+      <button class="btn ghost" data-act="gfx" id="gfxBtn">Graphics: Ultra</button>
+    </div>
+    <div class="btns" style="margin-top:14px"><button class="btn" data-act="back">Done</button></div>
+  </div>
+</div>
+
+<div class="screen shade" id="ctrlTut" hidden>
+  <div class="card" style="max-width:480px">
+    <h2>YOUR CONTROLS</h2>
+    <p style="color:var(--muted);font-size:13px;margin:0 0 4px">Shown once, before your first race.</p>
+    <div class="ctrlLegend">
+      <div class="row"><div class="miniArrows"><div class="k">▲</div><div class="k">◀</div><div class="k">▼</div><div class="k">▶</div></div><div class="label">Steer &amp; Accelerate<small>ARROWS OR WASD</small></div></div>
+      <div class="row"><div class="key" style="background:#ff5b1f;color:#fff">B</div><div class="label">Brake<small>HOLD TO SLOW</small></div></div>
+      <div class="row"><div class="key wide" style="background:#ff4fd8;color:#fff">SPACE</div><div class="label">Specials<small>USE ITEM</small></div></div>
+      <div class="row"><div class="key" style="background:var(--lagoon)">V</div><div class="label">Drift<small>HOP &amp; CORNER</small></div></div>
+      <div class="row"><div class="key" style="background:#ffe14a">C</div><div class="label">Boost<small>HYPER MODE</small></div></div>
+    </div>
+    <div class="btns"><button class="btn" data-act="ctrlTutGo">GOT IT — START RACE</button></div>
+  </div>
+</div>
+
+<div class="screen shade" id="lb" hidden>
+  <div class="card" style="max-width:560px">
+    <h2>LEADERBOARDS</h2>
+    <p style="color:var(--muted);font-size:13px;margin:0">Solo play only &middot; best lap per track, and total cup points across every cup you've won.</p>
+    <div class="wfoField" style="margin:14px 0 4px;max-width:240px">
+      <label>YOUR LEADERBOARD NAME</label>
+      <input class="wfoInput" id="lbNameIn" maxlength="16" placeholder="Your Name">
+    </div>
+    <div class="lbTabs">
+      <button type="button" class="chipBtn on" data-lb="laptime">⏱ Time Trial</button>
+      <button type="button" class="chipBtn" data-lb="cup">🏆 Cup Points</button>
+    </div>
+    <div class="lbTrackRow"><select id="lbTrackSel"></select></div>
+    <div id="lbList" class="lbList"><p style="color:var(--muted);text-align:center">Loading…</p></div>
+    <div class="btns" style="margin-top:14px"><button class="btn ghost" data-act="back">Back</button></div>
   </div>
 </div>
 
@@ -807,7 +882,7 @@ function musicTick(){const c=AU.ctx;if(!c||!AU.playing)return;const M2=SONG||MUS
     AU.next+=stepDur;AU.step++;}}
 // ================= input =================
 const keys=new Set();
-const KA={l:['KeyA'],r:['KeyD'],gas:['KeyW'],brake:['KeyS'],drift:['Space'],item:['KeyE'],hype:['KeyQ'],swap:['KeyR'],look:['KeyC'],aimF:['ShiftLeft','KeyF'],aimB:['KeyX']};
+const KA={l:['KeyA'],r:['KeyD'],gas:['KeyW'],brake:['KeyS','KeyB'],drift:['KeyV'],item:['KeyE','Space'],hype:['KeyQ','KeyC'],swap:['KeyR'],look:['KeyZ'],aimF:['ShiftLeft','KeyF'],aimB:['KeyX']};
 const KB={l:['ArrowLeft'],r:['ArrowRight'],gas:['ArrowUp'],brake:['ArrowDown'],drift:['Slash','ShiftRight'],item:['Period'],hype:['Comma'],swap:['Semicolon'],look:['Quote'],aimF:['BracketRight'],aimB:['BracketLeft']};
 const anyK=a=>a&&a.some(k=>keys.has(k));
 addEventListener('keydown',e=>{if(e.target&&(e.target.tagName==='INPUT'||e.target.tagName==='SELECT'||e.target.tagName==='TEXTAREA'))return;audioInit();if(['Space','ArrowUp','ArrowDown','ArrowLeft','ArrowRight','Slash'].includes(e.code))e.preventDefault();if(!keys.has(e.code))menuKey(e.code);keys.add(e.code);if(e.code==='KeyM'){AU.muted=!AU.muted;if(AU.master)AU.master.gain.value=AU.muted?0:.82;}});
@@ -902,19 +977,41 @@ function itemRoll0(k){if(G.battle){const t=[['goo',6],['bee',5],['chili',5],['tr
 
 // ================= phone controllers: link to wheelie_phones.py on the laptop =================
 // The laptop runs a tiny server (port 8777). This page connects as the "game"; phones open http://<laptop>:8777 and send button states.
-const PHONE_PORT=8777;const PL={ws:null,url:'',up:false,retry:0,lastStat:0};
+const PHONE_PORT=8777;const PAD_VERSION=2;/* bump when pad.html changes, so cached copies on phones/CDNs don't linger */
+const PL={ws:null,peer:null,url:'',up:false,mode:'lan',retry:0,lastStat:0};
 function phoneMsg(m){if(PL.ws&&PL.ws.readyState===1)PL.ws.send(JSON.stringify(m));}
-function phoneTo(id,m){phoneMsg({t:'to',id:id.replace(/^ph/,''),m});}
-function phoneConnect(){if(PL.ws||location.protocol==='https:')return;let ws;try{const phUrl=location.protocol==='http:'&&location.host?'ws://'+location.host+'/ws?role=game':'ws://127.0.0.1:'+PHONE_PORT+'/ws?role=game';ws=new WebSocket(phUrl);}catch(e){return;}PL.ws=ws;
+function phoneTo(id,m){const ph=PHONES.get(id);if(ph&&ph.conn&&ph.conn.open){ph.conn.send(m);return;}phoneMsg({t:'to',id:id.replace(/^ph/,''),m});}
+function phonePadJoin(id,name,conn){let ph=PHONES.get(id);if(!ph){ph={id,name:name||'Phone',on:true,conn:conn||null,pad:{phone:true,id,index:-1,connected:true,auto:true,buttons:Array.from({length:17},()=>({pressed:false,value:0})),axes:[0,0,0,0]}};PHONES.set(id,ph);}
+  ph.on=true;ph.name=name||ph.name;if(conn)ph.conn=conn;if(G.state==='party')partyJoin({kind:'pad',id,label:'Phone: '+ph.name});partyRefresh();phoneSync(id);updatePadInfo&&updatePadInfo();}
+function phonePadLeave(id){const ph=PHONES.get(id);if(ph){ph.on=false;ph.conn=null;for(const b of ph.pad.buttons){b.pressed=false;b.value=0;}ph.pad.axes[0]=0;}if(G.state==='party')partyLeave(id);partyRefresh();}
+function phonePadInput(id,m){const ph=PHONES.get(id);if(!ph)return;const P=ph.pad;for(let i=0;i<17;i++){const on=!!(m.b&(1<<i));P.buttons[i].pressed=on;P.buttons[i].value=on?1:0;}P.axes[0]=clamp(+m.x||0,-1,1);P.auto=m.auto!==0;}
+function loadPhonePeerJs(){if(window.Peer)return Promise.resolve(window.Peer);return new Promise((resolve,reject)=>{const s=document.createElement('script');s.src='https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js';s.onload=()=>resolve(window.Peer);s.onerror=()=>{const s2=document.createElement('script');s2.src='https://cdn.jsdelivr.net/npm/peerjs@1.5.4/dist/peerjs.min.js';s2.onload=()=>resolve(window.Peer);s2.onerror=()=>reject(new Error('offline'));document.head.appendChild(s2);};document.head.appendChild(s);});}
+function phonePadCode(){const L='ABCDEFGHJKLMNPQRSTUVWXYZ',A='ABCDEFGHJKLMNPQRSTUVWXYZ23456789';let o='';for(let i=0;i<4;i++)o+=L[Math.floor(Math.random()*L.length)];for(let i=0;i<2;i++)o+=A[Math.floor(Math.random()*A.length)];return o;}
+async function startPhonePadHost(){PL.mode='p2p';PL.up=false;
+  let PeerCtor;try{PeerCtor=await loadPhonePeerJs();}catch(e){setTimeout(startPhonePadHost,8000);return;}
+  const code=phonePadCode();let peer;try{peer=new PeerCtor('wfpad-'+code);}catch(e){setTimeout(startPhonePadHost,8000);return;}
+  PL.peer=peer;let nextId=1;
+  peer.on('open',()=>{PL.up=true;const base=location.pathname.endsWith('/')?location.pathname:location.pathname+'/';PL.url=location.origin+base+'pad.html?v='+PAD_VERSION+'&room='+code;partyRefresh();});
+  peer.on('connection',(conn)=>{const id='ph'+(nextId++);
+    conn.on('data',(m)=>{if(!m||typeof m!=='object')return;
+      if(m.t==='join'){phonePadJoin(id,m.name,conn);}
+      else if(m.t==='name'){const ph=PHONES.get(id);if(ph)ph.name=m.name||ph.name;}
+      else if(m.t==='in')phonePadInput(id,m);});
+    conn.on('close',()=>phonePadLeave(id));
+    conn.on('error',()=>phonePadLeave(id));});
+  peer.on('error',()=>{PL.up=false;PL.peer=null;partyRefresh();setTimeout(startPhonePadHost,6000);});
+  peer.on('disconnected',()=>{PL.up=false;partyRefresh();});}
+function phoneConnect(){if(PL.ws||PL.peer)return;
+  if(location.protocol==='https:'){startPhonePadHost();return;}
+  let ws;try{const phUrl=location.protocol==='http:'&&location.host?'ws://'+location.host+'/ws?role=game':'ws://127.0.0.1:'+PHONE_PORT+'/ws?role=game';ws=new WebSocket(phUrl);}catch(e){return;}PL.ws=ws;PL.mode='lan';
   ws.onopen=()=>{PL.up=true;partyRefresh();};
   ws.onclose=()=>{PL.ws=null;PL.up=false;for(const ph of PHONES.values())ph.on=false;partyRefresh();setTimeout(phoneConnect,4000);};
   ws.onerror=()=>{};
   ws.onmessage=e=>{let m;try{m=JSON.parse(e.data);}catch(x){return;}
     if(m.t==='hello'){PL.url=m.url;partyRefresh();}
-    else if(m.t==='join'){const id='ph'+m.id;let ph=PHONES.get(id);if(!ph){ph={id,name:m.name||'Phone',on:true,pad:{phone:true,id,index:-1,connected:true,auto:true,buttons:Array.from({length:17},()=>({pressed:false,value:0})),axes:[0,0,0,0]}};PHONES.set(id,ph);}
-      ph.on=true;ph.name=m.name||ph.name;if(G.state==='party')partyJoin({kind:'pad',id,label:'Phone: '+ph.name});partyRefresh();phoneSync(id);updatePadInfo&&updatePadInfo();}
-    else if(m.t==='leave'){const ph=PHONES.get('ph'+m.id);if(ph){ph.on=false;for(const b of ph.pad.buttons){b.pressed=false;b.value=0;}ph.pad.axes[0]=0;}if(G.state==='party')partyLeave('ph'+m.id);partyRefresh();}
-    else if(m.t==='in'){const ph=PHONES.get('ph'+m.id);if(!ph)return;const P=ph.pad;for(let i=0;i<17;i++){const on=!!(m.b&(1<<i));P.buttons[i].pressed=on;P.buttons[i].value=on?1:0;}P.axes[0]=clamp(+m.x||0,-1,1);P.auto=m.auto!==0;}};}
+    else if(m.t==='join'){phonePadJoin('ph'+m.id,m.name);}
+    else if(m.t==='leave'){phonePadLeave('ph'+m.id);}
+    else if(m.t==='in'){phonePadInput('ph'+m.id,m);}};}
 // tell a phone who it is and what to show (menu d-pad vs race controls)
 function phoneSync(id){const pi=G.bind?G.bind.findIndex(b=>b.id===id):-1;const racing=['race','countdown'].includes(G.state);
   const k=pi>=0&&G.humans_k?G.humans_k.find(q=>q.pi===pi):null;phoneTo(id,{t:'you',slot:pi>=0?pi+1:0,col:PCOL[pi]||'#7a5aa0',racer:k?k.ch.name:'',mode:racing?'race':'menu'});}
@@ -5405,9 +5502,9 @@ ARENAS.push(
   atmo:{bg:0x0a0a14,fog:[0x2a2a30,260,1200],sky:[0x05060c,0x141428,0x3a2a4a],sunCol:[.7,.7,.9],sun:[.2,.9,.3],stars:.4,hemi:[0xf0fff4,0x6a6a60,.72],light:[0xfff8f0,.45],fill:[0xbfe8ff,.35],
     env:{top:'#7a8088',mid:'#b8b4ac',hor:'#e0dcd4',ground:'#8a8478',spots:['#ffd21f','#c8202a','#26d3d0','#ff8ad8'],sunSpot:'rgba(255,255,255,1)'}}});
 // ================= menus =================
-const screens=['title','how','select','tracks','pause','results','cup','bmode','arenas','party','dmode','online'];
+const screens=['title','how','select','tracks','pause','results','cup','bmode','arenas','party','dmode','online','settings','ctrlTut','lb'];
 function show(id){for(const s of screens){const el=$('#'+s);if(el)el.hidden=s!==id;}G.focus=0;refreshFocus();}
-function focusables(){const id=screens.find(s=>{const el=$('#'+s);return el&&!el.hidden;});if(!id)return[];return[...$('#'+id).querySelectorAll(id==='select'?'.ch':(id==='tracks'||id==='arenas')?'.trk':'.btn')];}
+function focusables(){const id=screens.find(s=>{const el=$('#'+s);return el&&!el.hidden;});if(!id)return[];return[...$('#'+id).querySelectorAll(id==='select'?'.ch':(id==='tracks'||id==='arenas')?'.trk':'.btn')].filter(el=>!el.disabled);}
 function refreshFocus(){const f=focusables();f.forEach((el,i)=>el.classList.toggle('focus',i===G.focus&&!(G.state==='select'&&G.garFocus!=null)));if(G.state==='select')markGarage();if(f[G.focus]&&f[G.focus].scrollIntoView)f[G.focus].scrollIntoView({block:'nearest',behavior:'smooth'});if(G.state==='select')updateWho();}
 // ---- Kart Garage on the racer-select screen, reachable by controller/keyboard ----
 // ▲ from the top row of racers enters the garage row, ◀ ▶ picks a slot, Ⓐ/Enter changes it, ▼ or Ⓑ goes back.
@@ -5453,7 +5550,7 @@ let QRLIB=null;function qrSVG(url,cb){if(window.qrcode){const q=qrcode(0,'M');q.
 function partyRefresh(){if(G.state!=='party')return;const B=G.bind||[];
   $('#slots').innerHTML=[0,1,2,3].map(i=>{const b=B[i];return b?`<div class="slot on" style="border-color:${PCOL[i]}"><b style="color:${PCOL[i]}">P${i+1}</b><span>${b.label}</span></div>`:`<div class="slot"><b style="opacity:.35">P${i+1}</b><span>Press ✕ to join</span></div>`;}).join('');
   const go=$('#partyGo');go.textContent=B.length?`Start: ${B.length} player${B.length>1?'s':''}`:'Start';go.classList.toggle('dim',!B.length);
-  if(PL.up&&PL.url){$('#joinUrl').textContent=PL.url.replace(/^http:\/\//,'');$('#joinHint').textContent='Same Wi-Fi as this laptop. Point the phone camera at the code.';if($('#qr').dataset.u!==PL.url){$('#qr').dataset.u=PL.url;$('#qr').textContent='…';qrSVG(PL.url,svg=>{$('#qr').innerHTML=svg;});}}
+  if(PL.up&&PL.url){$('#joinUrl').textContent=PL.url.replace(/^https?:\/\//,'');$('#joinHint').textContent=PL.mode==='p2p'?'Scan from anywhere \u2014 the phone just needs internet.':'Same Wi-Fi as this laptop. Point the phone camera at the code.';if($('#qr').dataset.u!==PL.url){$('#qr').dataset.u=PL.url;$('#qr').textContent='…';qrSVG(PL.url,svg=>{$('#qr').innerHTML=svg;});}}
   else{$('#joinUrl').textContent='Phone link is offline';$('#joinHint').textContent='Start Wheelie Fun from the Retro Front launcher to let phones join.';$('#qr').innerHTML='📵';$('#qr').dataset.u='';}}
 // ---- track select ----
 const bestKey=L=>'wheeliefun.best.'+L.id;
@@ -5474,6 +5571,13 @@ const CUPS=[{id:'wheeldeal',name:'Wheel Deal Cup',ids:['lava','mumbai','himalaya
 const trophyOf=id=>+(store.get('wheeliefun.trophy.'+id)||0);
 const cupOrder=c=>c.ids.map(id=>LEVELS.findIndex(L=>L.id===id)).filter(i=>i>=0);
 function newCup(ci){const c=CUPS[ci];return{race:0,pts:{},order:cupOrder(c),id:c.id,name:c.name,ci};}
+// Mario-Kart-style progression: start with Cup 1 unlocked, finishing a cup (any placement) unlocks the next.
+// unlockedCups is a plain count (how many cups from the start are open), kept in localStorage per-browser.
+function unlockedCupCount(){return Math.max(1,parseInt(store.get('wheeliefun.unlockedCups')||'1',10)||1);}
+function unlockCupsUpTo(n){if(n>unlockedCupCount())store.set('wheeliefun.unlockedCups',String(n));}
+function cupLocked(ci){return ci>=unlockedCupCount();}
+function trackCupIndex(id){return CUPS.findIndex(c=>c.ids.includes(id));}
+function trackLocked(L){if(L.random)return false;const ci=trackCupIndex(L.id);return ci>=0&&cupLocked(ci);}
 function goTracks(){G.state='tracks';renderTrackAtlas();show('tracks');}
 $('#trkGrid').addEventListener('click',e=>{const b=e.target.closest('[data-trk]');if(!b)return;audioInit();SFX.box();const i=+b.dataset.trk;
   if(i<0){G.cup=newCup(-1-i);startLevel(G.cup.order[0]);}else{G.cup=null;if(LEVELS[i].random)G.level=-1;startLevel(i);}});
@@ -5481,9 +5585,11 @@ $('#trkGrid').addEventListener('mouseover',e=>{const b=e.target.closest('[data-t
 function startLevel(li,sync){const go=()=>{G.battle=false;G.death=!!G.deathNext&&!G.cup;if(!LV||G.level!==li)buildLevel(li);$('#loading').hidden=true;G.state='title';startRace();};
   if(sync||(LV&&G.level===li)){go();return;}
   for(const s of screens){const el=$('#'+s);if(el)el.hidden=true;}G.state='loading';$('#loading').textContent='Loading '+LEVELS[li].name+'…';$('#loading').hidden=false;setTimeout(go,60);}
-function startRace(){show(null);for(const s of screens){const el=$('#'+s);if(el)el.hidden=true;}clearCeremony();podium.visible=!G.battle;setupRace();touch.on=isTouch&&G.humans.length===1;$('#touch').classList.toggle('on',touch.on);
+function startRace(){if(!store.get('wheeliefun.seenCtrlTut')){for(const s of screens){const el=$('#'+s);if(el)el.hidden=true;}G.state='ctrlTut';show('ctrlTut');return;}
+  show(null);for(const s of screens){const el=$('#'+s);if(el)el.hidden=true;}clearCeremony();podium.visible=!G.battle;setupRace();touch.on=isTouch&&G.humans.length===1;$('#touch').classList.toggle('on',touch.on);
   if(G.battle)for(const k of G.humans_k)say(k.pi,AR.name.toUpperCase()+' · POP THEIR BALLOONS!',2.4);
   if(G.cup)for(const k of G.humans_k)say(k.pi,'RACE '+(G.cup.race+1)+' OF '+G.cup.order.length+' · '+LV.name.toUpperCase(),2.4);}
+function dismissCtrlTut(){store.set('wheeliefun.seenCtrlTut','1');startRace();}
 function pauseGame(){G.state='paused';show('pause');engineStop();}
 function resume(){for(const s of screens){const el=$('#'+s);if(el)el.hidden=true;}G.state=G.raceT>0?'race':'countdown';engineStart(G.humans.length);for(const k of G.humans_k)k.prev=readInput(k.pi);}
 function quit(){engineStop();finReset();G.battle=false;G.timeTrial=false;if(window.WFV2)WFV2.clearGhosts();for(const k of G.karts)scene.remove(k.v.root);G.karts=[];G.humans_k=[];views.innerHTML='';clearCeremony();podium.visible=true;G.cup=null;G.state='title';show('title');$('#touch').classList.remove('on');touch.on=false;updateShelf();}
@@ -5505,23 +5611,84 @@ function showResults(){G.state='results';engineStop();
   const humIdx=G.humans;
   if(G.cup){const rows=standingsRows();$('#standings').innerHTML=`<h3>CUP STANDINGS · ${qual?'AFTER':'BEFORE'} RACE ${G.cup.race+1} OF ${G.cup.order.length}</h3><table class="res">${rows.map((r,i)=>`<tr class="${humIdx.includes(r.i)?'me':''}"><td>${i+1}</td><td><i style="background:${hexCss(r.c.kart)}"></i>${r.c.name}</td><td class="pts">${r.p}</td></tr>`).join('')}</table>`;
     const last=G.cup.race>=G.cup.order.length-1;$('#resBtns').innerHTML=!qual?`<button class="btn" data-act="restart">Try again: ${LV.name}</button><button class="btn ghost" data-act="quit">Quit cup</button>`:last?`<button class="btn" data-act="podium">See the podium</button><button class="btn ghost" data-act="quit">Quit cup</button>`:`<button class="btn" data-act="next">Next race: ${LEVELS[G.cup.order[G.cup.race+1]].name}</button><button class="btn alt" data-act="restart">Redo this race</button><button class="btn ghost" data-act="quit">Quit cup</button>`;}
-  else if(G.timeTrial){const tt=window.WFV2?WFV2.saveTimeTrialFinish(LV,me.finishTime,G.humans[0]):null;const stT=window.WFV2&&WFV2.GHOSTS.lastStaffTime;$('#resTitle').textContent=tt&&tt.beatStaff?'★ BEAT THE DEV STAFF GHOST!':'⏱ '+LV.name+' Time Trial';$('#standings').innerHTML=`<div style="margin:8px 0;font-size:14px;color:var(--cream)">Total Time: <b style="color:var(--ember)">${fmt(me.finishTime)}</b>${stT?` · Dev Staff Ghost: <b style="color:var(--lagoon)">${fmt(stT)}</b>`:''}${tt&&tt.beatPB?' · <span class="qual ok">NEW PERSONAL BEST!</span>':''}</div>`;$('#resBtns').innerHTML=`<button class="btn" data-act="restart">Retry Time Trial</button><button class="btn alt" data-act="copyGhost" id="copyGhostBtn">Copy Ghost Code</button><button class="btn alt" data-act="importGhost">Import Rival Ghost</button><button class="btn ghost" data-act="tracks">Change track</button><button class="btn ghost" data-act="quit">Title</button>`;}else{$('#standings').innerHTML='';$('#resBtns').innerHTML=`<button class="btn" data-act="restart">Race again</button><button class="btn alt" data-act="tracks">Change track</button><button class="btn ghost" data-act="reselect">Change racers</button><button class="btn ghost" data-act="quit">Title</button>`;}
+  else if(G.timeTrial){if(G.humans.length===1)submitLapTime(LV.id,me.finishTime);const tt=window.WFV2?WFV2.saveTimeTrialFinish(LV,me.finishTime,G.humans[0]):null;const stT=window.WFV2&&WFV2.GHOSTS.lastStaffTime;$('#resTitle').textContent=tt&&tt.beatStaff?'★ BEAT THE DEV STAFF GHOST!':'⏱ '+LV.name+' Time Trial';$('#standings').innerHTML=`<div style="margin:8px 0;font-size:14px;color:var(--cream)">Total Time: <b style="color:var(--ember)">${fmt(me.finishTime)}</b>${stT?` · Dev Staff Ghost: <b style="color:var(--lagoon)">${fmt(stT)}</b>`:''}${tt&&tt.beatPB?' · <span class="qual ok">NEW PERSONAL BEST!</span>':''}</div>`;$('#resBtns').innerHTML=`<button class="btn" data-act="restart">Retry Time Trial</button><button class="btn alt" data-act="copyGhost" id="copyGhostBtn">Copy Ghost Code</button><button class="btn alt" data-act="importGhost">Import Rival Ghost</button><button class="btn ghost" data-act="tracks">Change track</button><button class="btn ghost" data-act="quit">Title</button>`;}else{$('#standings').innerHTML='';$('#resBtns').innerHTML=`<button class="btn" data-act="restart">Race again</button><button class="btn alt" data-act="tracks">Change track</button><button class="btn ghost" data-act="reselect">Change racers</button><button class="btn ghost" data-act="quit">Title</button>`;}
   show('results');}
 let cupKarts=[];
 function clearCeremony(){for(const v of cupKarts)steps.remove(v.root);cupKarts=[];steps.visible=false;}
-function showCup(){engineStop();G.lastCup=G.cup&&G.cup.ci||0;const rows=standingsRows();G.state='cup';for(const k of G.karts)scene.remove(k.v.root);G.karts=[];G.humans_k=[];views.innerHTML='';
+function showCup(){engineStop();G.lastCup=G.cup&&G.cup.ci||0;const rows=standingsRows();const newlyUnlocked=!!(G.cup&&cupLocked((G.cup.ci||0)+1)&&(G.cup.ci||0)+1<CUPS.length);if(G.cup)unlockCupsUpTo((G.cup.ci||0)+2);if(G.humans.length===1&&G.cup)submitCupPoints(G.cup.pts[G.humans[0]]||0);G.state='cup';for(const k of G.karts)scene.remove(k.v.root);G.karts=[];G.humans_k=[];views.innerHTML='';
   clearCeremony();steps.visible=true;podium.visible=false;
   [[0,4.4],[-9,3],[9,2]].forEach(([x,y],n)=>{const v=makeKart(rows[n].c);v.root.position.set(x,y,0);v.root.rotation.y=0;steps.add(v.root);cupKarts.push(v);});
   const hb=Math.min(...G.humans.map(h=>rows.findIndex(r=>r.i===h)))+1;
   const cid=G.cup.id||'wheeldeal';if(hb<=3){const prevT=trophyOf(cid);if(!prevT||hb<prevT)store.set('wheeliefun.trophy.'+cid,String(hb));}
   $('#cupTrophy').innerHTML=TROPHY(hb<=3?TCOL[hb-1]:'#665a78');
   $('#cupTitle').textContent=rows[0].c.name+' wins the '+(G.cup.name||'Wheel Deal Cup')+'!';
-  $('#cupSub').textContent=hb===1?(G.humans.length>1?'A player takes the gold trophy!':'Gold trophy! Saved to your shelf.'):hb<=3?(['','','Silver','Bronze'][hb]+' trophy. Saved to your shelf.'):'Off the podium this time. Have another go!';
+  $('#cupSub').textContent=(hb===1?(G.humans.length>1?'A player takes the gold trophy!':'Gold trophy! Saved to your shelf.'):hb<=3?(['','','Silver','Bronze'][hb]+' trophy. Saved to your shelf.'):'Off the podium this time. Have another go!')+(newlyUnlocked?' 🔓 New cup unlocked!':'');
   $('#cupTable').innerHTML=rows.map((r,i)=>`<tr class="${G.humans.includes(r.i)?'me':''}"><td>${i+1}</td><td><i style="background:${hexCss(r.c.kart)}"></i>${r.c.name}</td><td class="pts">${r.p}</td></tr>`).join('');
   show('cup');SFX.finish();}
 function updateShelf(){const won=CUPS.map(c=>[c,trophyOf(c.id)]).filter(([,t])=>t);$('#shelf').innerHTML=won.length?'Trophy shelf: '+won.map(([c,t])=>`<b>${['Gold','Silver','Bronze'][t-1]} ${c.name}</b>`).join(' · '):'';}
+
+// ================= global leaderboards (Redis-backed, shared with Keepy Uppy's infra) =================
+// Times/points submitted here always come from the game's own race state (me.finishTime,
+// G.cup.pts) -- there is no input anywhere a player can type a time or score directly.
+const WFT_API='https://www.game-buddy.co.uk/api/wft-scores';
+function lbName(){
+  try{
+    let n=localStorage.getItem('wheeliefun.onlineName');
+    if(!n){n='Racer '+Math.floor(10+Math.random()*89);localStorage.setItem('wheeliefun.onlineName',n);}
+    return n.slice(0,16);
+  }catch(e){return 'Racer';}
+}
+function setLbName(n){
+  n=(n||'').trim().slice(0,16);
+  if(!n)return lbName();
+  try{localStorage.setItem('wheeliefun.onlineName',n);}catch(e){}
+  return n;
+}
+function submitLapTime(trackId,finishTimeSec){
+  if(!trackId||!isFinite(finishTimeSec))return;
+  fetch(WFT_API+'?board=laptime',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({track:trackId,timeMs:Math.round(finishTimeSec*1000),name:lbName()})}).catch(()=>{});
+}
+function submitCupPoints(points){
+  if(!points)return;
+  fetch(WFT_API+'?board=cup',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({points,name:lbName()})}).catch(()=>{});
+}
+function escLbName(s){const d=document.createElement('div');d.textContent=s||'Racer';return d.innerHTML;}
+let lbBoard='laptime',lbTrack=null;
+async function loadLeaderboard(){
+  const list=$('#lbList');list.innerHTML='<p style="color:var(--muted);text-align:center">Loading…</p>';
+  const url=lbBoard==='laptime'?`${WFT_API}?board=laptime&track=${encodeURIComponent(lbTrack||'')}`:`${WFT_API}?board=cup`;
+  try{
+    const r=await fetch(url,{cache:'no-store'});
+    const text=await r.text();
+    if(!r.ok){
+      console.error('Leaderboard load failed:',r.status,text);
+      list.innerHTML=`<p style="color:var(--muted);text-align:center">Couldn't load the leaderboard (HTTP ${r.status}). Try again later.</p>`;
+      return;
+    }
+    let data;try{data=JSON.parse(text);}catch(e){throw new Error('bad json: '+text.slice(0,200));}
+    const rows=data.scores||[];
+    if(!rows.length){list.innerHTML='<p style="color:var(--muted);text-align:center">No scores yet — be the first!</p>';return;}
+    list.innerHTML=rows.map(s=>`<div class="lbRow${s.rank<=3?' top'+s.rank:''}"><span class="rank">${s.rank}</span><span class="nm">${escLbName(s.name)}</span><span class="val">${lbBoard==='laptime'?fmt(s.timeMs/1000):s.points+' pts'}</span></div>`).join('');
+  }catch(e){
+    console.error('Leaderboard load error:',e);
+    list.innerHTML='<p style="color:var(--muted);text-align:center">Couldn\'t load the leaderboard — network or server error. Try again later.</p>';
+  }
+}
+function openLeaderboards(){
+  G.state='lb';show('lb');
+  const sel=$('#lbTrackSel');
+  if(!sel.dataset.filled){sel.innerHTML=LEVELS.filter(l=>!l.random).map(l=>`<option value="${l.id}">${escLbName(l.name)}</option>`).join('');sel.dataset.filled='1';}
+  if(!lbTrack)lbTrack=sel.value;else sel.value=lbTrack;
+  sel.hidden=lbBoard!=='laptime';
+  document.querySelectorAll('[data-lb]').forEach(b=>b.classList.toggle('on',b.dataset.lb===lbBoard));
+  const nameIn=$('#lbNameIn');if(nameIn)nameIn.value=lbName();
+  loadLeaderboard();
+}
+document.querySelectorAll('[data-lb]').forEach(b=>b.addEventListener('click',()=>{lbBoard=b.dataset.lb;openLeaderboards();}));
+$('#lbTrackSel').addEventListener('change',e=>{lbTrack=e.target.value;loadLeaderboard();});
+$('#lbNameIn').addEventListener('change',e=>{e.target.value=setLbName(e.target.value);});
 document.addEventListener('click',e=>{const b=e.target.closest('[data-act]');if(!b)return;audioInit();const a=b.dataset.act;
-  if(a==='online'){G.timeTrial=false;if(window.WFOnline)WFOnline.openMenu(WF_API_BRIDGE);return;}else if(a==='tt'){G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.timeTrial=true;G.bind=null;goSelect(1);return;}else if(a==='cc'){if(window.WFV2)WFV2.cycleCC();return;}else if(a==='copyGhost'){if(window.WFV2&&WFV2.GHOSTS.lastCode){try{navigator.clipboard.writeText(WFV2.GHOSTS.lastCode);}catch(e){}const gb=$('#copyGhostBtn');if(gb)gb.textContent='Copied Ghost Code! ✓';}return;}else if(a==='importGhost'){const code=typeof prompt==='function'?prompt('Paste a Friend Ghost Code (WFG1:...):'):'';if(code&&window.WFV2){const imp=WFV2.importGhostCode(code);if(imp){const tIdx=LEVELS.findIndex(L=>L.id===imp.trk);if(tIdx>=0){G.timeTrial=true;startLevel(tIdx);}else startRace();}}return;}else if(a==='items'){cycleItemsMode();return;}else if(a==='randTrk'){G.cup=null;const ri=Math.floor(Math.random()*LEVELS.length);if(LEVELS[ri].random)G.level=-1;startLevel(ri);return;}else if(a==='p1'){G.timeTrial=false;G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.bind=null;goSelect(1);}else if(a==='death'){G.timeTrial=false;G.state='dmode';show('dmode');}else if(a==='d1'){G.timeTrial=false;G.battleNext=false;G.deathNext=true;G.bind=null;goSelect(1);}else if(a==='dparty'){G.timeTrial=false;G.deathNext=true;goParty(false);G.deathNext=true;}else if(a==='diff'){cycleDiff();}else if(a==='party'){G.timeTrial=false;G.deathNext=false;goParty(false);}else if(a==='bparty'){G.timeTrial=false;goParty(true);}else if(a==='partyGo'){partyGo();}else if(a==='battle'){G.timeTrial=false;G.state='bmode';show('bmode');}else if(a==='b1'){G.battleNext=true;G.bind=null;goSelect(1);}else if(a==='b2'){G.battleNext=true;goSelect(2);}else if(a==='arenas')goArenas();else if(a==='how'){G.state='how';show('how');}else if(a==='gfx'){Q.ultra=!Q.ultra;store.set('tikiturbo.gfx',Q.ultra?'ultra':'fast');applyQuality();}else if(a==='back'){G.state='title';show('title');}
+  if(a==='online'){G.timeTrial=false;if(window.WFOnline)WFOnline.openMenu(WF_API_BRIDGE);return;}else if(a==='tt'){G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.timeTrial=true;G.bind=null;goSelect(1);return;}else if(a==='cc'){if(window.WFV2)WFV2.cycleCC();return;}else if(a==='copyGhost'){if(window.WFV2&&WFV2.GHOSTS.lastCode){try{navigator.clipboard.writeText(WFV2.GHOSTS.lastCode);}catch(e){}const gb=$('#copyGhostBtn');if(gb)gb.textContent='Copied Ghost Code! ✓';}return;}else if(a==='importGhost'){const code=typeof prompt==='function'?prompt('Paste a Friend Ghost Code (WFG1:...):'):'';if(code&&window.WFV2){const imp=WFV2.importGhostCode(code);if(imp){const tIdx=LEVELS.findIndex(L=>L.id===imp.trk);if(tIdx>=0){G.timeTrial=true;startLevel(tIdx);}else startRace();}}return;}else if(a==='items'){cycleItemsMode();return;}else if(a==='settings'){G.state='settings';show('settings');return;}else if(a==='lb'){openLeaderboards();return;}else if(a==='ctrlTutGo'){dismissCtrlTut();return;}else if(a==='randTrk'){G.cup=null;const avail=LEVELS.map((L,i)=>i).filter(i=>!trackLocked(LEVELS[i]));const ri=avail[Math.floor(Math.random()*avail.length)];if(LEVELS[ri].random)G.level=-1;startLevel(ri);return;}else if(a==='p1'){G.timeTrial=false;G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.bind=null;goSelect(1);}else if(a==='death'){G.timeTrial=false;G.state='dmode';show('dmode');}else if(a==='d1'){G.timeTrial=false;G.battleNext=false;G.deathNext=true;G.bind=null;goSelect(1);}else if(a==='dparty'){G.timeTrial=false;G.deathNext=true;goParty(false);G.deathNext=true;}else if(a==='diff'){cycleDiff();}else if(a==='party'){G.timeTrial=false;G.deathNext=false;goParty(false);}else if(a==='bparty'){G.timeTrial=false;goParty(true);}else if(a==='partyGo'){partyGo();}else if(a==='battle'){G.timeTrial=false;G.state='bmode';show('bmode');}else if(a==='b1'){G.battleNext=true;G.bind=null;goSelect(1);}else if(a==='b2'){G.battleNext=true;goSelect(2);}else if(a==='arenas')goArenas();else if(a==='how'){G.state='how';show('how');}else if(a==='gfx'){Q.ultra=!Q.ultra;store.set('tikiturbo.gfx',Q.ultra?'ultra':'fast');applyQuality();}else if(a==='back'){G.state='title';show('title');}
   else if(a==='resume')resume();else if(a==='restart'){if(G.cup)G.cup.scored=G.state==='results'?(()=>{for(const[ci,p]of Object.entries(G.cup.lastGain||{}))G.cup.pts[ci]-=p;G.cup.lastGain={};return false;})():G.cup.scored;startRace();}
   else if(a==='quit')quit();else if(a==='reselect')goSelect(G.mode);else if(a==='tracks')goTracks();
   else if(a==='next'){G.cup.race++;G.cup.scored=false;G.cup.lastGain={};startLevel(G.cup.order[G.cup.race]);}
@@ -5840,8 +6007,14 @@ function renderTrackAtlas(){
   g.classList.toggle('cupsView',ATLAS.view==='cups');
   if(showCups){
     CUPS.forEach((c,ci)=>{
+      const locked=cupLocked(ci);
       const t=trophyOf(c.id);const ordIdx=cupOrder(c);if(!ordIdx.length)return;
       const names=ordIdx.map(i=>LEVELS[i].name).join(' · ');
+      if(locked){
+        const prevName=ci>0?CUPS[ci-1].name:'the previous cup';
+        html+=`<button class="trk cup locked" data-trk="${-1-ci}" disabled><svg viewBox="0 0 200 94"><rect width="200" height="94" fill="${c.col}" opacity=".5"/></svg><i class="lockBadge">🔒</i><b>${c.name}</b><span class="desc">${names}</span><em>Complete ${prevName} to unlock</em></button>`;
+        return;
+      }
       html+=`<button class="trk cup" data-trk="${-1-ci}"><svg viewBox="0 0 200 94"><rect width="200" height="94" fill="${c.col}"/><g transform="translate(68 14) scale(1)">${TROPHY(t?TCOL[t-1]:'#ffb22e')}</g></svg><b>🏆 ${c.name}</b><span class="desc">${names}</span><em>${t?['Gold','Silver','Bronze'][t-1]+' trophy won':'4-Race Cup · No trophy yet'}</em></button>`;
     });
   }
@@ -5852,6 +6025,12 @@ function renderTrackAtlas(){
       if(ATLAS.cat!=='all'&&ATLAS.cat!=='new'&&m.cat!==ATLAS.cat)return;
       if(ATLAS.diff&&m.diff!==ATLAS.diff)return;
       if(q&&!(L.name.toLowerCase().includes(q)||L.tag.toLowerCase().includes(q)||L.mech.toLowerCase().includes(q)||(m.tags||[]).some(t=>t.toLowerCase().includes(q))))return;
+      const locked=trackLocked(L);
+      if(locked){
+        const ci=trackCupIndex(L.id);const cupName=ci>=0?CUPS[ci].name:'its cup';
+        html+=`<button class="trk locked" data-trk="${i}" disabled><svg viewBox="0 0 200 94"><rect width="200" height="94" fill="#15101c" opacity=".6"/></svg><i class="lockBadge">🔒</i><b>${L.name}</b><span class="desc">${L.tag}</span><em>Unlock via ${cupName}</em></button>`;
+        return;
+      }
       const b=getBest(L);
       const stars='★'.repeat(m.diff||2)+'☆'.repeat(3-(m.diff||2));
       const chips=(m.isNew?'<i class="tTag new">NEW</i>':'')+(m.tags||[]).slice(0,3).map(t=>`<i class="tTag">${t}</i>`).join('')+`<i class="tTag stars">${stars}</i>`;
