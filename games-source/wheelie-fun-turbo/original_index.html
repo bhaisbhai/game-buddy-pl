@@ -238,7 +238,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 <div class="screen shade" id="title">
   <div class="logoWrap">
     <h1 class="logo">WHEELIE<span>FUN</span></h1>
-    <div class="sub">THE WHEEL DEAL · 33 TRACKS</div>
+    <div class="sub">It wheelie is</div>
     <div class="btns">
       <button class="btn" data-act="p1">1 Player</button>
       <button class="btn alt" data-act="party">Multiplayer (2–4)</button>
@@ -3129,7 +3129,6 @@ function buildLevel(li){
   if(podiumSpot.y>0&&LV.id!=='sky'){const col=LV.id==='sky'?[0x9a7a6a,0x84685a]:LV.id==='himalaya'?[0x6a6470,0x5a5562]:[0x6b6577,0x625c6e];pedestal(podiumSpot.x,podiumSpot.z,podiumSpot.y,13,col[0],col[1]);}
   if(LV.id==='sky'){const isl=addL(new THREE.Mesh(islandGeo(31,0x6fd062,0x9a7a6a,0x7a5e52,false),vcPhong));isl.position.copy(podiumSpot);isl.position.y-=.5;isl.scale.set(24,50,24);}
   mmBounds();applyQuality();
-  for(const s of document.querySelectorAll('.sub'))s.textContent=CUPS.length+' CUPS · '+LEVELS.length+' TRACKS';
 }
 
 // ================= the Nov 2026 batch of 11 tracks =================

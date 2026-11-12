@@ -820,7 +820,8 @@
 .gSpin b{font-size:12.5px;font-weight:700;text-align:center;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .vaultLine{font-size:12.5px;color:var(--muted);background:var(--panel);padding:6px 14px;border-radius:999px;border:1px solid rgba(255,178,46,.28)}
 .vaultLine b{color:var(--ember)}
-.btn.tt{background:linear-gradient(180deg,#ffe14a,#ff9a1f);color:var(--night);box-shadow:0 6px 0 #9a5208,0 10px 18px rgba(0,0,0,.35)}
+.btn.tt{background:rgba(255,244,223,.1);color:var(--cream);box-shadow:none;border:2px solid rgba(255,244,223,.4);font-size:clamp(13px,1.3vw,16px);padding:12px 22px 11px}
+.btn.tt:hover,.btn.tt.focus{background:rgba(255,244,223,.2)}
 @media (max-width:760px){.garageBar{grid-template-columns:repeat(2,1fr)}}
 `;
         document.head.appendChild(st);
@@ -830,7 +831,7 @@
       const onlineBtn = document.getElementById('onlineBtn');
       if (onlineBtn && !document.getElementById('ttBtn')) {
         const tt = document.createElement('button');
-        tt.className = 'btn tt';
+        tt.className = 'btn chip tt';
         tt.id = 'ttBtn';
         tt.dataset.act = 'tt';
         tt.textContent = '⏱ Time Trials';

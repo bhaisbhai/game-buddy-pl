@@ -90,25 +90,53 @@ def build():
 #tracks .trk em{font-size:clamp(12px,.78vw,15px)}
 #tracks .tTag{font-size:clamp(10px,.68vw,13px);padding:2px 7px}
 }
+/* Title screen redesign: one clear primary action; every other mode shares one calm outline
+   style instead of a different bright color each; utility actions move to a de-emphasized,
+   labeled icon row in the corner instead of competing as full-size buttons. */
+.btn.primary{width:100%;max-width:420px;font-size:clamp(22px,2.6vw,32px);padding:20px 0 18px;background:linear-gradient(180deg,#ffd166,var(--ember));box-shadow:0 8px 0 #a3420c,0 18px 30px rgba(255,120,40,.45)}
+.btn.chip{background:rgba(255,244,223,.1);color:var(--cream);box-shadow:none;border:2px solid rgba(255,244,223,.4);font-size:clamp(13px,1.3vw,16px);padding:12px 22px 11px}
+.btn.chip:hover,.btn.chip.focus{background:rgba(255,244,223,.2);box-shadow:none}
+.utilityIcons{position:absolute;left:calc(24px + env(safe-area-inset-left,0px));top:calc(24px + env(safe-area-inset-top,0px));display:flex;gap:14px;z-index:2}
+.iconBtn{display:flex;flex-direction:column;align-items:center;gap:6px;background:none;border:0;box-shadow:none;color:var(--cream);cursor:pointer;padding:0;font-family:var(--body)}
+.iconCircle{width:42px;height:42px;border-radius:50%;background:rgba(26,15,43,.55);border:1.5px solid rgba(255,244,223,.22);display:flex;align-items:center;justify-content:center;transition:border-color .12s}
+.iconBtn:hover .iconCircle,.iconBtn.focus .iconCircle{border-color:var(--ember)}
+.iconLabel{font-size:11px;font-weight:600;letter-spacing:.02em;color:rgba(255,244,223,.78);white-space:nowrap}
 #loading[hidden]{display:none}
 """
     html = must_replace(html, "#loading[hidden]{display:none}\n</style>", extra_css + "</style>", "extra_css")
 
-    old_title_btns = """      <button class="btn" data-act="p1">1 Player</button>
+    old_title_btns = """    <div class="btns">
+      <button class="btn" data-act="p1">1 Player</button>
       <button class="btn alt" data-act="party">Multiplayer (2–4)</button>
       <button class="btn battle" data-act="battle">Battle</button>
       <button class="btn battle" data-act="death">Death Race</button>
       <button class="btn ghost" data-act="diff" id="diffBtn">Difficulty: Normal</button>
       <button class="btn ghost" data-act="how">How to Play</button>
-      <button class="btn ghost" data-act="gfx" id="gfxBtn">Graphics: Ultra</button>"""
-    new_title_btns = """      <button class="btn" data-act="p1">1 Player</button>
-      <button class="btn online" data-act="online" id="onlineBtn">Online Cup</button>
-      <button class="btn alt" data-act="party">Local Party (2–4)</button>
-      <button class="btn battle" data-act="battle">Battle</button>
-      <button class="btn battle" data-act="death">Death Race</button>
-      <button class="btn ghost" data-act="how">How to Play</button>
-      <button class="btn ghost" data-act="settings" id="settingsBtn">⚙ Settings</button>
-      <button class="btn ghost" data-act="lb" id="lbBtn">🏆 Leaderboards</button>"""
+      <button class="btn ghost" data-act="gfx" id="gfxBtn">Graphics: Ultra</button>
+    </div>"""
+    new_title_btns = """    <div class="btns primaryRow">
+      <button class="btn primary" data-act="p1">1 Player</button>
+    </div>
+    <div class="btns">
+      <button class="btn chip online" data-act="online" id="onlineBtn">Online Cup</button>
+      <button class="btn chip alt" data-act="party">Multiplayer</button>
+      <button class="btn chip battle" data-act="battle">Battle</button>
+      <button class="btn chip battle" data-act="death">Death Race</button>
+    </div>
+    <div class="utilityIcons" id="utilityIcons">
+      <button class="btn iconBtn" data-act="how">
+        <span class="iconCircle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5c2-1 5-1 8 0v14c-3-1-6-1-8 0V5z"/><path d="M20 5c-2-1-5-1-8 0v14c3-1 6-1 8 0V5z"/></svg></span>
+        <span class="iconLabel">How to Play</span>
+      </button>
+      <button class="btn iconBtn" data-act="settings" id="settingsBtn">
+        <span class="iconCircle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3.2"/><path d="M12 2.5v3M12 18.5v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M1.5 12h3M19.5 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg></span>
+        <span class="iconLabel">Settings</span>
+      </button>
+      <button class="btn iconBtn" data-act="lb" id="lbBtn">
+        <span class="iconCircle"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4h8v4a4 4 0 0 1-8 0V4z"/><path d="M8 5H5a2 2 0 0 0 2 4M16 5h3a2 2 0 0 1-2 4"/><path d="M12 12v4M9 20h6M10 16h4l1 4H9l1-4z"/></svg></span>
+        <span class="iconLabel">Leaderboards</span>
+      </button>
+    </div>"""
     html = must_replace(html, old_title_btns, new_title_btns, "title_btns")
 
     old_settings_btns = """      <button class="btn ghost" data-act="diff" id="diffBtn">Difficulty: Normal</button>
