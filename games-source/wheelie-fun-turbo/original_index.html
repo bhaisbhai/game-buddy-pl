@@ -137,6 +137,18 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .miniArrows .k:nth-child(3){grid-column:2;grid-row:2}
 .miniArrows .k:nth-child(4){grid-column:3;grid-row:2}
 @media (max-width:620px){.ctrlLegend{grid-template-columns:1fr}}
+.lbTabs{display:flex;gap:8px;margin:14px 0 12px;flex-wrap:wrap}
+.lbTrackRow{margin-bottom:12px}
+.lbTrackRow select{width:100%;background:rgba(12,6,22,.78);border:2px solid rgba(255,255,255,.2);border-radius:12px;padding:10px 12px;color:var(--cream);font-family:var(--body);font-size:14px;font-weight:600}
+.lbList{min-height:200px;max-height:360px;overflow-y:auto}
+.lbRow{display:flex;align-items:center;gap:12px;padding:8px 10px;border-radius:10px;background:rgba(255,255,255,.04)}
+.lbRow+.lbRow{margin-top:6px}
+.lbRow .rank{font-family:var(--display);color:var(--ember);width:28px;flex-shrink:0;text-align:center}
+.lbRow .nm{flex:1;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lbRow .val{font-family:var(--display);color:var(--lagoon);flex-shrink:0}
+.lbRow.top1 .rank{color:#ffd700}
+.lbRow.top2 .rank{color:#c7c7c7}
+.lbRow.top3 .rank{color:#cd7f32}
 .tips b{color:var(--cream)}
 /* character select */
 #select{align-items:flex-end}
@@ -298,6 +310,20 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
       <div class="row"><div class="key" style="background:#ffe14a">C</div><div class="label">Boost<small>HYPER MODE</small></div></div>
     </div>
     <div class="btns"><button class="btn" data-act="ctrlTutGo">GOT IT — START RACE</button></div>
+  </div>
+</div>
+
+<div class="screen shade" id="lb" hidden>
+  <div class="card" style="max-width:560px">
+    <h2>LEADERBOARDS</h2>
+    <p style="color:var(--muted);font-size:13px;margin:0">Solo play only &middot; best lap per track, and total cup points across every cup you've won.</p>
+    <div class="lbTabs">
+      <button type="button" class="chipBtn on" data-lb="laptime">⏱ Time Trial</button>
+      <button type="button" class="chipBtn" data-lb="cup">🏆 Cup Points</button>
+    </div>
+    <div class="lbTrackRow"><select id="lbTrackSel"></select></div>
+    <div id="lbList" class="lbList"><p style="color:var(--muted);text-align:center">Loading…</p></div>
+    <div class="btns" style="margin-top:14px"><button class="btn ghost" data-act="back">Back</button></div>
   </div>
 </div>
 
@@ -5345,6 +5371,47 @@ function showCup(){engineStop();G.lastCup=G.cup&&G.cup.ci||0;const rows=standing
   $('#cupTable').innerHTML=rows.map((r,i)=>`<tr class="${G.humans.includes(r.i)?'me':''}"><td>${i+1}</td><td><i style="background:${hexCss(r.c.kart)}"></i>${r.c.name}</td><td class="pts">${r.p}</td></tr>`).join('');
   show('cup');SFX.finish();}
 function updateShelf(){const won=CUPS.map(c=>[c,trophyOf(c.id)]).filter(([,t])=>t);$('#shelf').innerHTML=won.length?'Trophy shelf: '+won.map(([c,t])=>`<b>${['Gold','Silver','Bronze'][t-1]} ${c.name}</b>`).join(' · '):'';}
+
+// ================= global leaderboards (Redis-backed, shared with Keepy Uppy's infra) =================
+// Times/points submitted here always come from the game's own race state (me.finishTime,
+// G.cup.pts) -- there is no input anywhere a player can type a time or score directly.
+const WFT_API='https://www.game-buddy.co.uk/api/wft-scores';
+function lbName(){try{return (localStorage.getItem('wheeliefun.onlineName')||'Racer').slice(0,16);}catch(e){return 'Racer';}}
+function submitLapTime(trackId,finishTimeSec){
+  if(!trackId||!isFinite(finishTimeSec))return;
+  fetch(WFT_API+'?board=laptime',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({track:trackId,timeMs:Math.round(finishTimeSec*1000),name:lbName()})}).catch(()=>{});
+}
+function submitCupPoints(points){
+  if(!points)return;
+  fetch(WFT_API+'?board=cup',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({points,name:lbName()})}).catch(()=>{});
+}
+function escLbName(s){const d=document.createElement('div');d.textContent=s||'Racer';return d.innerHTML;}
+let lbBoard='laptime',lbTrack=null;
+async function loadLeaderboard(){
+  const list=$('#lbList');list.innerHTML='<p style="color:var(--muted);text-align:center">Loading…</p>';
+  const url=lbBoard==='laptime'?`${WFT_API}?board=laptime&track=${encodeURIComponent(lbTrack||'')}`:`${WFT_API}?board=cup`;
+  try{
+    const r=await fetch(url,{cache:'no-store'});
+    if(!r.ok)throw new Error('bad status');
+    const data=await r.json();
+    const rows=data.scores||[];
+    if(!rows.length){list.innerHTML='<p style="color:var(--muted);text-align:center">No scores yet — be the first!</p>';return;}
+    list.innerHTML=rows.map(s=>`<div class="lbRow${s.rank<=3?' top'+s.rank:''}"><span class="rank">${s.rank}</span><span class="nm">${escLbName(s.name)}</span><span class="val">${lbBoard==='laptime'?fmt(s.timeMs/1000):s.points+' pts'}</span></div>`).join('');
+  }catch(e){
+    list.innerHTML='<p style="color:var(--muted);text-align:center">Couldn\'t load the leaderboard — try again later.</p>';
+  }
+}
+function openLeaderboards(){
+  G.state='lb';show('lb');
+  const sel=$('#lbTrackSel');
+  if(!sel.dataset.filled){sel.innerHTML=LEVELS.filter(l=>!l.random).map(l=>`<option value="${l.id}">${escLbName(l.name)}</option>`).join('');sel.dataset.filled='1';}
+  if(!lbTrack)lbTrack=sel.value;else sel.value=lbTrack;
+  sel.hidden=lbBoard!=='laptime';
+  document.querySelectorAll('[data-lb]').forEach(b=>b.classList.toggle('on',b.dataset.lb===lbBoard));
+  loadLeaderboard();
+}
+document.querySelectorAll('[data-lb]').forEach(b=>b.addEventListener('click',()=>{lbBoard=b.dataset.lb;openLeaderboards();}));
+$('#lbTrackSel').addEventListener('change',e=>{lbTrack=e.target.value;loadLeaderboard();});
 document.addEventListener('click',e=>{const b=e.target.closest('[data-act]');if(!b)return;audioInit();const a=b.dataset.act;
   if(a==='p1'){G.battleNext=false;G.deathNext=false;G.bind=null;goSelect(1);}else if(a==='death'){G.state='dmode';show('dmode');}else if(a==='d1'){G.battleNext=false;G.deathNext=true;G.bind=null;goSelect(1);}else if(a==='dparty'){G.deathNext=true;goParty(false);G.deathNext=true;}else if(a==='diff'){cycleDiff();}else if(a==='party'){G.deathNext=false;goParty(false);}else if(a==='bparty'){goParty(true);}else if(a==='partyGo'){partyGo();}else if(a==='battle'){G.state='bmode';show('bmode');}else if(a==='b1'){G.battleNext=true;G.bind=null;goSelect(1);}else if(a==='b2'){G.battleNext=true;goSelect(2);}else if(a==='arenas')goArenas();else if(a==='how'){G.state='how';show('how');}else if(a==='gfx'){Q.ultra=!Q.ultra;store.set('tikiturbo.gfx',Q.ultra?'ultra':'fast');applyQuality();}else if(a==='back'){G.state='title';show('title');}
   else if(a==='resume')resume();else if(a==='restart'){if(G.cup)G.cup.scored=G.state==='results'?(()=>{for(const[ci,p]of Object.entries(G.cup.lastGain||{}))G.cup.pts[ci]-=p;G.cup.lastGain={};return false;})():G.cup.scored;startRace();}

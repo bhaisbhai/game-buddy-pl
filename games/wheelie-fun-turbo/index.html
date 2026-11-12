@@ -159,6 +159,18 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .miniArrows .k:nth-child(3){grid-column:2;grid-row:2}
 .miniArrows .k:nth-child(4){grid-column:3;grid-row:2}
 @media (max-width:620px){.ctrlLegend{grid-template-columns:1fr}}
+.lbTabs{display:flex;gap:8px;margin:14px 0 12px;flex-wrap:wrap}
+.lbTrackRow{margin-bottom:12px}
+.lbTrackRow select{width:100%;background:rgba(12,6,22,.78);border:2px solid rgba(255,255,255,.2);border-radius:12px;padding:10px 12px;color:var(--cream);font-family:var(--body);font-size:14px;font-weight:600}
+.lbList{min-height:200px;max-height:360px;overflow-y:auto}
+.lbRow{display:flex;align-items:center;gap:12px;padding:8px 10px;border-radius:10px;background:rgba(255,255,255,.04)}
+.lbRow+.lbRow{margin-top:6px}
+.lbRow .rank{font-family:var(--display);color:var(--ember);width:28px;flex-shrink:0;text-align:center}
+.lbRow .nm{flex:1;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lbRow .val{font-family:var(--display);color:var(--lagoon);flex-shrink:0}
+.lbRow.top1 .rank{color:#ffd700}
+.lbRow.top2 .rank{color:#c7c7c7}
+.lbRow.top3 .rank{color:#cd7f32}
 .tips b{color:var(--cream)}
 /* character select */
 #select{align-items:flex-end}
@@ -297,6 +309,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
       <button class="btn battle" data-act="death">Death Race</button>
       <button class="btn ghost" data-act="how">How to Play</button>
       <button class="btn ghost" data-act="settings" id="settingsBtn">⚙ Settings</button>
+      <button class="btn ghost" data-act="lb" id="lbBtn">🏆 Leaderboards</button>
     </div>
     <div class="pads" id="padInfo"><span class="dot" id="d1"></span><span class="dot" id="d2"></span><span id="padTxt">Press any button on a controller to connect it</span></div>
     <div class="shelf" id="shelf"></div>
@@ -372,6 +385,20 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
       <div class="row"><div class="key" style="background:#ffe14a">C</div><div class="label">Boost<small>HYPER MODE</small></div></div>
     </div>
     <div class="btns"><button class="btn" data-act="ctrlTutGo">GOT IT — START RACE</button></div>
+  </div>
+</div>
+
+<div class="screen shade" id="lb" hidden>
+  <div class="card" style="max-width:560px">
+    <h2>LEADERBOARDS</h2>
+    <p style="color:var(--muted);font-size:13px;margin:0">Solo play only &middot; best lap per track, and total cup points across every cup you've won.</p>
+    <div class="lbTabs">
+      <button type="button" class="chipBtn on" data-lb="laptime">⏱ Time Trial</button>
+      <button type="button" class="chipBtn" data-lb="cup">🏆 Cup Points</button>
+    </div>
+    <div class="lbTrackRow"><select id="lbTrackSel"></select></div>
+    <div id="lbList" class="lbList"><p style="color:var(--muted);text-align:center">Loading…</p></div>
+    <div class="btns" style="margin-top:14px"><button class="btn ghost" data-act="back">Back</button></div>
   </div>
 </div>
 
@@ -11636,7 +11663,7 @@ ARENAS.push(
   atmo:{bg:0x0a0a14,fog:[0x2a2a30,260,1200],sky:[0x05060c,0x141428,0x3a2a4a],sunCol:[.7,.7,.9],sun:[.2,.9,.3],stars:.4,hemi:[0xf0fff4,0x6a6a60,.72],light:[0xfff8f0,.45],fill:[0xbfe8ff,.35],
     env:{top:'#7a8088',mid:'#b8b4ac',hor:'#e0dcd4',ground:'#8a8478',spots:['#ffd21f','#c8202a','#26d3d0','#ff8ad8'],sunSpot:'rgba(255,255,255,1)'}}});
 // ================= menus =================
-const screens=['title','how','select','tracks','pause','results','cup','bmode','arenas','party','dmode','online','settings','ctrlTut'];
+const screens=['title','how','select','tracks','pause','results','cup','bmode','arenas','party','dmode','online','settings','ctrlTut','lb'];
 function show(id){for(const s of screens){const el=$('#'+s);if(el)el.hidden=s!==id;}G.focus=0;refreshFocus();}
 function focusables(){const id=screens.find(s=>{const el=$('#'+s);return el&&!el.hidden;});if(!id)return[];return[...$('#'+id).querySelectorAll(id==='select'?'.ch':(id==='tracks'||id==='arenas')?'.trk':'.btn')];}
 function refreshFocus(){const f=focusables();f.forEach((el,i)=>el.classList.toggle('focus',i===G.focus&&!(G.state==='select'&&G.garFocus!=null)));if(G.state==='select')markGarage();if(f[G.focus]&&f[G.focus].scrollIntoView)f[G.focus].scrollIntoView({block:'nearest',behavior:'smooth'});if(G.state==='select')updateWho();}
@@ -11738,11 +11765,11 @@ function showResults(){G.state='results';engineStop();
   const humIdx=G.humans;
   if(G.cup){const rows=standingsRows();$('#standings').innerHTML=`<h3>CUP STANDINGS · ${qual?'AFTER':'BEFORE'} RACE ${G.cup.race+1} OF ${G.cup.order.length}</h3><table class="res">${rows.map((r,i)=>`<tr class="${humIdx.includes(r.i)?'me':''}"><td>${i+1}</td><td><i style="background:${hexCss(r.c.kart)}"></i>${r.c.name}</td><td class="pts">${r.p}</td></tr>`).join('')}</table>`;
     const last=G.cup.race>=G.cup.order.length-1;$('#resBtns').innerHTML=!qual?`<button class="btn" data-act="restart">Try again: ${LV.name}</button><button class="btn ghost" data-act="quit">Quit cup</button>`:last?`<button class="btn" data-act="podium">See the podium</button><button class="btn ghost" data-act="quit">Quit cup</button>`:`<button class="btn" data-act="next">Next race: ${LEVELS[G.cup.order[G.cup.race+1]].name}</button><button class="btn alt" data-act="restart">Redo this race</button><button class="btn ghost" data-act="quit">Quit cup</button>`;}
-  else if(G.timeTrial){const tt=window.WFV2?WFV2.saveTimeTrialFinish(LV,me.finishTime,G.humans[0]):null;const stT=window.WFV2&&WFV2.GHOSTS.lastStaffTime;$('#resTitle').textContent=tt&&tt.beatStaff?'★ BEAT THE DEV STAFF GHOST!':'⏱ '+LV.name+' Time Trial';$('#standings').innerHTML=`<div style="margin:8px 0;font-size:14px;color:var(--cream)">Total Time: <b style="color:var(--ember)">${fmt(me.finishTime)}</b>${stT?` · Dev Staff Ghost: <b style="color:var(--lagoon)">${fmt(stT)}</b>`:''}${tt&&tt.beatPB?' · <span class="qual ok">NEW PERSONAL BEST!</span>':''}</div>`;$('#resBtns').innerHTML=`<button class="btn" data-act="restart">Retry Time Trial</button><button class="btn alt" data-act="copyGhost" id="copyGhostBtn">Copy Ghost Code</button><button class="btn alt" data-act="importGhost">Import Rival Ghost</button><button class="btn ghost" data-act="tracks">Change track</button><button class="btn ghost" data-act="quit">Title</button>`;}else{$('#standings').innerHTML='';$('#resBtns').innerHTML=`<button class="btn" data-act="restart">Race again</button><button class="btn alt" data-act="tracks">Change track</button><button class="btn ghost" data-act="reselect">Change racers</button><button class="btn ghost" data-act="quit">Title</button>`;}
+  else if(G.timeTrial){if(G.humans.length===1)submitLapTime(LV.id,me.finishTime);const tt=window.WFV2?WFV2.saveTimeTrialFinish(LV,me.finishTime,G.humans[0]):null;const stT=window.WFV2&&WFV2.GHOSTS.lastStaffTime;$('#resTitle').textContent=tt&&tt.beatStaff?'★ BEAT THE DEV STAFF GHOST!':'⏱ '+LV.name+' Time Trial';$('#standings').innerHTML=`<div style="margin:8px 0;font-size:14px;color:var(--cream)">Total Time: <b style="color:var(--ember)">${fmt(me.finishTime)}</b>${stT?` · Dev Staff Ghost: <b style="color:var(--lagoon)">${fmt(stT)}</b>`:''}${tt&&tt.beatPB?' · <span class="qual ok">NEW PERSONAL BEST!</span>':''}</div>`;$('#resBtns').innerHTML=`<button class="btn" data-act="restart">Retry Time Trial</button><button class="btn alt" data-act="copyGhost" id="copyGhostBtn">Copy Ghost Code</button><button class="btn alt" data-act="importGhost">Import Rival Ghost</button><button class="btn ghost" data-act="tracks">Change track</button><button class="btn ghost" data-act="quit">Title</button>`;}else{$('#standings').innerHTML='';$('#resBtns').innerHTML=`<button class="btn" data-act="restart">Race again</button><button class="btn alt" data-act="tracks">Change track</button><button class="btn ghost" data-act="reselect">Change racers</button><button class="btn ghost" data-act="quit">Title</button>`;}
   show('results');}
 let cupKarts=[];
 function clearCeremony(){for(const v of cupKarts)steps.remove(v.root);cupKarts=[];steps.visible=false;}
-function showCup(){engineStop();G.lastCup=G.cup&&G.cup.ci||0;const rows=standingsRows();G.state='cup';for(const k of G.karts)scene.remove(k.v.root);G.karts=[];G.humans_k=[];views.innerHTML='';
+function showCup(){engineStop();G.lastCup=G.cup&&G.cup.ci||0;const rows=standingsRows();if(G.humans.length===1&&G.cup)submitCupPoints(G.cup.pts[G.humans[0]]||0);G.state='cup';for(const k of G.karts)scene.remove(k.v.root);G.karts=[];G.humans_k=[];views.innerHTML='';
   clearCeremony();steps.visible=true;podium.visible=false;
   [[0,4.4],[-9,3],[9,2]].forEach(([x,y],n)=>{const v=makeKart(rows[n].c);v.root.position.set(x,y,0);v.root.rotation.y=0;steps.add(v.root);cupKarts.push(v);});
   const hb=Math.min(...G.humans.map(h=>rows.findIndex(r=>r.i===h)))+1;
@@ -11753,8 +11780,49 @@ function showCup(){engineStop();G.lastCup=G.cup&&G.cup.ci||0;const rows=standing
   $('#cupTable').innerHTML=rows.map((r,i)=>`<tr class="${G.humans.includes(r.i)?'me':''}"><td>${i+1}</td><td><i style="background:${hexCss(r.c.kart)}"></i>${r.c.name}</td><td class="pts">${r.p}</td></tr>`).join('');
   show('cup');SFX.finish();}
 function updateShelf(){const won=CUPS.map(c=>[c,trophyOf(c.id)]).filter(([,t])=>t);$('#shelf').innerHTML=won.length?'Trophy shelf: '+won.map(([c,t])=>`<b>${['Gold','Silver','Bronze'][t-1]} ${c.name}</b>`).join(' · '):'';}
+
+// ================= global leaderboards (Redis-backed, shared with Keepy Uppy's infra) =================
+// Times/points submitted here always come from the game's own race state (me.finishTime,
+// G.cup.pts) -- there is no input anywhere a player can type a time or score directly.
+const WFT_API='https://www.game-buddy.co.uk/api/wft-scores';
+function lbName(){try{return (localStorage.getItem('wheeliefun.onlineName')||'Racer').slice(0,16);}catch(e){return 'Racer';}}
+function submitLapTime(trackId,finishTimeSec){
+  if(!trackId||!isFinite(finishTimeSec))return;
+  fetch(WFT_API+'?board=laptime',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({track:trackId,timeMs:Math.round(finishTimeSec*1000),name:lbName()})}).catch(()=>{});
+}
+function submitCupPoints(points){
+  if(!points)return;
+  fetch(WFT_API+'?board=cup',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({points,name:lbName()})}).catch(()=>{});
+}
+function escLbName(s){const d=document.createElement('div');d.textContent=s||'Racer';return d.innerHTML;}
+let lbBoard='laptime',lbTrack=null;
+async function loadLeaderboard(){
+  const list=$('#lbList');list.innerHTML='<p style="color:var(--muted);text-align:center">Loading…</p>';
+  const url=lbBoard==='laptime'?`${WFT_API}?board=laptime&track=${encodeURIComponent(lbTrack||'')}`:`${WFT_API}?board=cup`;
+  try{
+    const r=await fetch(url,{cache:'no-store'});
+    if(!r.ok)throw new Error('bad status');
+    const data=await r.json();
+    const rows=data.scores||[];
+    if(!rows.length){list.innerHTML='<p style="color:var(--muted);text-align:center">No scores yet — be the first!</p>';return;}
+    list.innerHTML=rows.map(s=>`<div class="lbRow${s.rank<=3?' top'+s.rank:''}"><span class="rank">${s.rank}</span><span class="nm">${escLbName(s.name)}</span><span class="val">${lbBoard==='laptime'?fmt(s.timeMs/1000):s.points+' pts'}</span></div>`).join('');
+  }catch(e){
+    list.innerHTML='<p style="color:var(--muted);text-align:center">Couldn\'t load the leaderboard — try again later.</p>';
+  }
+}
+function openLeaderboards(){
+  G.state='lb';show('lb');
+  const sel=$('#lbTrackSel');
+  if(!sel.dataset.filled){sel.innerHTML=LEVELS.filter(l=>!l.random).map(l=>`<option value="${l.id}">${escLbName(l.name)}</option>`).join('');sel.dataset.filled='1';}
+  if(!lbTrack)lbTrack=sel.value;else sel.value=lbTrack;
+  sel.hidden=lbBoard!=='laptime';
+  document.querySelectorAll('[data-lb]').forEach(b=>b.classList.toggle('on',b.dataset.lb===lbBoard));
+  loadLeaderboard();
+}
+document.querySelectorAll('[data-lb]').forEach(b=>b.addEventListener('click',()=>{lbBoard=b.dataset.lb;openLeaderboards();}));
+$('#lbTrackSel').addEventListener('change',e=>{lbTrack=e.target.value;loadLeaderboard();});
 document.addEventListener('click',e=>{const b=e.target.closest('[data-act]');if(!b)return;audioInit();const a=b.dataset.act;
-  if(a==='online'){G.timeTrial=false;if(window.WFOnline)WFOnline.openMenu(WF_API_BRIDGE);return;}else if(a==='tt'){G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.timeTrial=true;G.bind=null;goSelect(1);return;}else if(a==='cc'){if(window.WFV2)WFV2.cycleCC();return;}else if(a==='copyGhost'){if(window.WFV2&&WFV2.GHOSTS.lastCode){try{navigator.clipboard.writeText(WFV2.GHOSTS.lastCode);}catch(e){}const gb=$('#copyGhostBtn');if(gb)gb.textContent='Copied Ghost Code! ✓';}return;}else if(a==='importGhost'){const code=typeof prompt==='function'?prompt('Paste a Friend Ghost Code (WFG1:...):'):'';if(code&&window.WFV2){const imp=WFV2.importGhostCode(code);if(imp){const tIdx=LEVELS.findIndex(L=>L.id===imp.trk);if(tIdx>=0){G.timeTrial=true;startLevel(tIdx);}else startRace();}}return;}else if(a==='items'){cycleItemsMode();return;}else if(a==='settings'){G.state='settings';show('settings');return;}else if(a==='ctrlTutGo'){dismissCtrlTut();return;}else if(a==='randTrk'){G.cup=null;const ri=Math.floor(Math.random()*LEVELS.length);if(LEVELS[ri].random)G.level=-1;startLevel(ri);return;}else if(a==='p1'){G.timeTrial=false;G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.bind=null;goSelect(1);}else if(a==='death'){G.timeTrial=false;G.state='dmode';show('dmode');}else if(a==='d1'){G.timeTrial=false;G.battleNext=false;G.deathNext=true;G.bind=null;goSelect(1);}else if(a==='dparty'){G.timeTrial=false;G.deathNext=true;goParty(false);G.deathNext=true;}else if(a==='diff'){cycleDiff();}else if(a==='party'){G.timeTrial=false;G.deathNext=false;goParty(false);}else if(a==='bparty'){G.timeTrial=false;goParty(true);}else if(a==='partyGo'){partyGo();}else if(a==='battle'){G.timeTrial=false;G.state='bmode';show('bmode');}else if(a==='b1'){G.battleNext=true;G.bind=null;goSelect(1);}else if(a==='b2'){G.battleNext=true;goSelect(2);}else if(a==='arenas')goArenas();else if(a==='how'){G.state='how';show('how');}else if(a==='gfx'){Q.ultra=!Q.ultra;store.set('tikiturbo.gfx',Q.ultra?'ultra':'fast');applyQuality();}else if(a==='back'){G.state='title';show('title');}
+  if(a==='online'){G.timeTrial=false;if(window.WFOnline)WFOnline.openMenu(WF_API_BRIDGE);return;}else if(a==='tt'){G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.timeTrial=true;G.bind=null;goSelect(1);return;}else if(a==='cc'){if(window.WFV2)WFV2.cycleCC();return;}else if(a==='copyGhost'){if(window.WFV2&&WFV2.GHOSTS.lastCode){try{navigator.clipboard.writeText(WFV2.GHOSTS.lastCode);}catch(e){}const gb=$('#copyGhostBtn');if(gb)gb.textContent='Copied Ghost Code! ✓';}return;}else if(a==='importGhost'){const code=typeof prompt==='function'?prompt('Paste a Friend Ghost Code (WFG1:...):'):'';if(code&&window.WFV2){const imp=WFV2.importGhostCode(code);if(imp){const tIdx=LEVELS.findIndex(L=>L.id===imp.trk);if(tIdx>=0){G.timeTrial=true;startLevel(tIdx);}else startRace();}}return;}else if(a==='items'){cycleItemsMode();return;}else if(a==='settings'){G.state='settings';show('settings');return;}else if(a==='lb'){openLeaderboards();return;}else if(a==='ctrlTutGo'){dismissCtrlTut();return;}else if(a==='randTrk'){G.cup=null;const ri=Math.floor(Math.random()*LEVELS.length);if(LEVELS[ri].random)G.level=-1;startLevel(ri);return;}else if(a==='p1'){G.timeTrial=false;G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.bind=null;goSelect(1);}else if(a==='death'){G.timeTrial=false;G.state='dmode';show('dmode');}else if(a==='d1'){G.timeTrial=false;G.battleNext=false;G.deathNext=true;G.bind=null;goSelect(1);}else if(a==='dparty'){G.timeTrial=false;G.deathNext=true;goParty(false);G.deathNext=true;}else if(a==='diff'){cycleDiff();}else if(a==='party'){G.timeTrial=false;G.deathNext=false;goParty(false);}else if(a==='bparty'){G.timeTrial=false;goParty(true);}else if(a==='partyGo'){partyGo();}else if(a==='battle'){G.timeTrial=false;G.state='bmode';show('bmode');}else if(a==='b1'){G.battleNext=true;G.bind=null;goSelect(1);}else if(a==='b2'){G.battleNext=true;goSelect(2);}else if(a==='arenas')goArenas();else if(a==='how'){G.state='how';show('how');}else if(a==='gfx'){Q.ultra=!Q.ultra;store.set('tikiturbo.gfx',Q.ultra?'ultra':'fast');applyQuality();}else if(a==='back'){G.state='title';show('title');}
   else if(a==='resume')resume();else if(a==='restart'){if(G.cup)G.cup.scored=G.state==='results'?(()=>{for(const[ci,p]of Object.entries(G.cup.lastGain||{}))G.cup.pts[ci]-=p;G.cup.lastGain={};return false;})():G.cup.scored;startRace();}
   else if(a==='quit')quit();else if(a==='reselect')goSelect(G.mode);else if(a==='tracks')goTracks();
   else if(a==='next'){G.cup.race++;G.cup.scored=false;G.cup.lastGain={};startLevel(G.cup.order[G.cup.race]);}
