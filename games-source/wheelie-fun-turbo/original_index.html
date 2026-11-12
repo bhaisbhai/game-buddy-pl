@@ -5382,6 +5382,14 @@ function showResults(){G.state='results';engineStop();
   show('results');}
 let cupKarts=[];
 function clearCeremony(){for(const v of cupKarts)steps.remove(v.root);cupKarts=[];steps.visible=false;}
+// Debug cheat (Shift+L, mid-race): jump straight to the cup podium screen without finishing
+// the race, so the podium's name field/leaderboard button can be checked without a full cup.
+function cheatToPodium(){
+  if(!['race','countdown','paused','results'].includes(G.state))return;
+  if(!G.cup)G.cup=newCup(0);
+  G.humans.forEach(h=>{if(G.cup.pts[h]==null)G.cup.pts[h]=40;});
+  showCup();
+}
 function showCup(){engineStop();G.lastCup=G.cup&&G.cup.ci||0;const rows=standingsRows();G.state='cup';for(const k of G.karts)scene.remove(k.v.root);G.karts=[];G.humans_k=[];views.innerHTML='';
   clearCeremony();steps.visible=true;podium.visible=false;
   [[0,4.4],[-9,3],[9,2]].forEach(([x,y],n)=>{const v=makeKart(rows[n].c);v.root.position.set(x,y,0);v.root.rotation.y=0;steps.add(v.root);cupKarts.push(v);});
