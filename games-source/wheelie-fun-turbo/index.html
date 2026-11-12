@@ -385,8 +385,8 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
       <button type="button" class="btn alt" data-act="lbNameSave" style="margin-top:4px;padding:8px 16px;font-size:13px;align-self:flex-start">Update Name</button>
     </div>
     <div class="lbTabs">
-      <button type="button" class="chipBtn on" data-lb="laptime">⏱ Time Trial</button>
-      <button type="button" class="chipBtn" data-lb="cup">🏆 Cup Points</button>
+      <button type="button" class="chipBtn" data-lb="laptime">⏱ Time Trial</button>
+      <button type="button" class="chipBtn on" data-lb="cup">🏆 Cup Points</button>
     </div>
     <div class="lbTrackRow"><select id="lbTrackSel"></select></div>
     <div id="lbList" class="lbList"><p style="color:var(--muted);text-align:center">Loading…</p></div>
@@ -5684,7 +5684,7 @@ function submitCupPoints(points){
   fetch(WFT_API+'?board=cup',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({points,name:lbName()})}).catch(()=>{});
 }
 function escLbName(s){const d=document.createElement('div');d.textContent=s||'Racer';return d.innerHTML;}
-let lbBoard='laptime',lbTrack=null;
+let lbBoard='cup',lbTrack=null;
 async function loadLeaderboard(){
   const list=$('#lbList');list.innerHTML='<p style="color:var(--muted);text-align:center">Loading…</p>';
   const url=lbBoard==='laptime'?`${WFT_API}?board=laptime&track=${encodeURIComponent(lbTrack||'')}`:`${WFT_API}?board=cup`;
@@ -5708,7 +5708,8 @@ async function loadLeaderboard(){
 function openLeaderboards(){
   G.state='lb';show('lb');
   const sel=$('#lbTrackSel');
-  if(!sel.dataset.filled){sel.innerHTML=LEVELS.filter(l=>!l.random).map(l=>`<option value="${l.id}">${escLbName(l.name)}</option>`).join('');sel.dataset.filled='1';}
+  // Rebuilt every open (not cached) since which tracks are unlocked can change mid-session.
+  sel.innerHTML=LEVELS.filter(l=>!l.random&&!trackLocked(l)).map(l=>`<option value="${l.id}">${escLbName(l.name)}</option>`).join('');
   if(!lbTrack)lbTrack=sel.value;else sel.value=lbTrack;
   sel.hidden=lbBoard!=='laptime';
   document.querySelectorAll('[data-lb]').forEach(b=>b.classList.toggle('on',b.dataset.lb===lbBoard));
