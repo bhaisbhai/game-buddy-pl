@@ -124,7 +124,7 @@ def build():
         <dt>E</dt><dd>Use item</dd><dt>R</dt><dd>Swap items</dd><dt>Q</dt><dd>Hyper mode</dd><dt>Esc</dt><dd>Pause</dd>"""
     new_how_controls_p1 = """<dt>WASD or Arrows</dt><dd>Drive, steer &amp; accelerate</dd><dt>V</dt><dd>Hop &amp; drift</dd>
         <dt>B or S</dt><dd>Brake / reverse</dd><dt>Space or E</dt><dd>Hold: trail shield &middot; release: fire item</dd>
-        <dt>Shift+F / X</dt><dd>Lob ahead / shoot back</dd><dt>C or Q</dt><dd>Hyper mode</dd>
+        <dt>Shift+F / X</dt><dd>Lob ahead / shoot back</dd><dt>N or Q</dt><dd>Hyper mode</dd>
         <dt>Z</dt><dd>Look back</dd><dt>R</dt><dd>Swap items</dd><dt>Esc</dt><dd>Pause</dd>"""
     html = must_replace(html, old_how_controls_p1, new_how_controls_p1, "how_controls")
 
@@ -317,7 +317,7 @@ addEventListener('keyup',e=>keys.delete(e.code));
 addEventListener('blur',()=>keys.clear());
 const touch={l:0,r:0,drift:0,item:0,brake:0,hype:0,on:false};
 for(const[id,k]of[['tL','l'],['tR','r'],['tD','drift'],['tI','item'],['tB','brake'],['tH','hype']]){const el=document.getElementById(id);"""
-    new_input = """const KA={l:['KeyA'],r:['KeyD'],gas:['KeyW'],brake:['KeyS','KeyB'],drift:['KeyV'],item:['KeyE','Space'],hype:['KeyQ','KeyC'],swap:['KeyR'],look:['KeyZ'],aimF:['ShiftLeft','KeyF'],aimB:['KeyX']};
+    new_input = """const KA={l:['KeyA'],r:['KeyD'],gas:['KeyW'],brake:['KeyS','KeyB'],drift:['KeyV'],item:['KeyE','Space'],hype:['KeyQ','KeyN'],swap:['KeyR'],look:['KeyZ'],aimF:['ShiftLeft','KeyF'],aimB:['KeyX']};
 const KB={l:['ArrowLeft'],r:['ArrowRight'],gas:['ArrowUp'],brake:['ArrowDown'],drift:['Slash','ShiftRight'],item:['Period'],hype:['Comma'],swap:['Semicolon'],look:['Quote'],aimF:['BracketRight'],aimB:['BracketLeft']};
 const anyK=a=>a&&a.some(k=>keys.has(k));
 addEventListener('keydown',e=>{if(e.target&&(e.target.tagName==='INPUT'||e.target.tagName==='SELECT'||e.target.tagName==='TEXTAREA'))return;audioInit();if(['Space','ArrowUp','ArrowDown','ArrowLeft','ArrowRight','Slash'].includes(e.code))e.preventDefault();if(!keys.has(e.code))menuKey(e.code);keys.add(e.code);if(e.code==='KeyM'){AU.muted=!AU.muted;if(AU.master)AU.master.gain.value=AU.muted?0:.82;}});
