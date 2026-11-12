@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <title>Wheelie Fun</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%F0%9F%9B%9E</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -220,7 +221,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .lockBadge{position:absolute;top:10px;right:10px;font-size:20px;filter:drop-shadow(0 2px 3px rgba(0,0,0,.7));z-index:2}
 .portraitHint{position:fixed;left:0;right:0;top:calc(4px + env(safe-area-inset-top,0px));display:none;justify-content:center;pointer-events:none;z-index:999}
 .portraitHint span{background:rgba(255,91,31,.92);color:#fff;font-weight:700;font-size:12.5px;padding:6px 14px;border-radius:999px;box-shadow:0 4px 14px rgba(0,0,0,.4);font-family:var(--body)}
-@media (orientation:portrait){.portraitHint{display:flex}}
+@media (orientation:portrait) and (pointer:coarse){.portraitHint{display:flex}}
 @media (max-width:900px){.trkGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .standings{margin-top:-6px}
 .standings h3{font-family:var(--display);font-weight:400;font-size:15px;letter-spacing:.06em;color:var(--lagoon);margin:0 0 4px}

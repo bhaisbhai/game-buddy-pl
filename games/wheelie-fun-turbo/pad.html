@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
 <title>Wheelie Fun · Phone Pad</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>%F0%9F%9B%9E</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
@@ -65,7 +66,7 @@ html,body{margin:0;height:100%;overflow:hidden;background:radial-gradient(circle
 
 .portraitHint{position:fixed;left:0;right:0;top:calc(4px + env(safe-area-inset-top,0px));display:none;justify-content:center;pointer-events:none;z-index:9}
 .portraitHint span{background:rgba(255,91,31,.92);color:#fff;font-weight:700;font-size:12.5px;padding:6px 14px;border-radius:999px;box-shadow:0 4px 14px rgba(0,0,0,.4)}
-@media (orientation:portrait){.portraitHint{display:flex}}
+@media (orientation:portrait) and (pointer:coarse){.portraitHint{display:flex}}
 </style>
 </head>
 <body>
