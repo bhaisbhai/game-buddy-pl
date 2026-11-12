@@ -493,9 +493,14 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
     <h2 id="cupTitle">Wheel Deal Cup</h2>
     <div class="rec" id="cupSub"></div>
     <table class="res" id="cupTable"></table>
+    <div class="wfoField" id="cupNameField" style="margin:12px auto 0;max-width:240px">
+      <label>YOUR LEADERBOARD NAME</label>
+      <input class="wfoInput" id="cupNameIn" maxlength="16" placeholder="Your Name">
+    </div>
     <div class="btns">
       <button class="btn" data-act="quit">Back to title</button>
       <button class="btn alt" data-act="cupagain">Race the cup again</button>
+      <button class="btn ghost" data-act="lb">🏆 Leaderboards</button>
     </div>
   </div>
 </div>
@@ -5624,6 +5629,7 @@ function showCup(){engineStop();G.lastCup=G.cup&&G.cup.ci||0;const rows=standing
   $('#cupTitle').textContent=rows[0].c.name+' wins the '+(G.cup.name||'Wheel Deal Cup')+'!';
   $('#cupSub').textContent=(hb===1?(G.humans.length>1?'A player takes the gold trophy!':'Gold trophy! Saved to your shelf.'):hb<=3?(['','','Silver','Bronze'][hb]+' trophy. Saved to your shelf.'):'Off the podium this time. Have another go!')+(newlyUnlocked?' 🔓 New cup unlocked!':'');
   $('#cupTable').innerHTML=rows.map((r,i)=>`<tr class="${G.humans.includes(r.i)?'me':''}"><td>${i+1}</td><td><i style="background:${hexCss(r.c.kart)}"></i>${r.c.name}</td><td class="pts">${r.p}</td></tr>`).join('');
+  const cupNameIn=$('#cupNameIn');if(cupNameIn)cupNameIn.value=lbName();
   show('cup');SFX.finish();}
 function updateShelf(){const won=CUPS.map(c=>[c,trophyOf(c.id)]).filter(([,t])=>t);$('#shelf').innerHTML=won.length?'Trophy shelf: '+won.map(([c,t])=>`<b>${['Gold','Silver','Bronze'][t-1]} ${c.name}</b>`).join(' · '):'';}
 
@@ -5643,6 +5649,21 @@ function setLbName(n){
   if(!n)return lbName();
   try{localStorage.setItem('wheeliefun.onlineName',n);}catch(e){}
   return n;
+}
+// Renaming only changes what gets saved locally for *future* submissions -- past entries on
+// the server are still filed under the old name (a sorted-set member IS the name, there's no
+// separate player id for it to follow). So: update the local name, then ask the server to
+// move every board this player has an entry on (career cup points, and a best lap time on
+// each non-random track) from the old name onto the new one.
+function renameLbName(newRaw){
+  const oldName=lbName();
+  const newName=setLbName(newRaw);
+  if(newName===oldName)return newName;
+  const tracks=LEVELS.filter(l=>!l.random).map(l=>l.id);
+  fetch(WFT_API+'?board=rename',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({name:newName,oldName,tracks})}).then(()=>{
+    if(G.state==='lb')loadLeaderboard();
+  }).catch(()=>{});
+  return newName;
 }
 function submitLapTime(trackId,finishTimeSec){
   if(!trackId||!isFinite(finishTimeSec))return;
@@ -5686,7 +5707,8 @@ function openLeaderboards(){
 }
 document.querySelectorAll('[data-lb]').forEach(b=>b.addEventListener('click',()=>{lbBoard=b.dataset.lb;openLeaderboards();}));
 $('#lbTrackSel').addEventListener('change',e=>{lbTrack=e.target.value;loadLeaderboard();});
-$('#lbNameIn').addEventListener('change',e=>{e.target.value=setLbName(e.target.value);});
+$('#lbNameIn').addEventListener('change',e=>{e.target.value=renameLbName(e.target.value);});
+const _cupNameIn=$('#cupNameIn');if(_cupNameIn)_cupNameIn.addEventListener('change',e=>{e.target.value=renameLbName(e.target.value);});
 document.addEventListener('click',e=>{const b=e.target.closest('[data-act]');if(!b)return;audioInit();const a=b.dataset.act;
   if(a==='online'){G.timeTrial=false;if(window.WFOnline)WFOnline.openMenu(WF_API_BRIDGE);return;}else if(a==='tt'){G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.timeTrial=true;G.bind=null;goSelect(1);return;}else if(a==='cc'){if(window.WFV2)WFV2.cycleCC();return;}else if(a==='copyGhost'){if(window.WFV2&&WFV2.GHOSTS.lastCode){try{navigator.clipboard.writeText(WFV2.GHOSTS.lastCode);}catch(e){}const gb=$('#copyGhostBtn');if(gb)gb.textContent='Copied Ghost Code! ✓';}return;}else if(a==='importGhost'){const code=typeof prompt==='function'?prompt('Paste a Friend Ghost Code (WFG1:...):'):'';if(code&&window.WFV2){const imp=WFV2.importGhostCode(code);if(imp){const tIdx=LEVELS.findIndex(L=>L.id===imp.trk);if(tIdx>=0){G.timeTrial=true;startLevel(tIdx);}else startRace();}}return;}else if(a==='items'){cycleItemsMode();return;}else if(a==='settings'){G.state='settings';show('settings');return;}else if(a==='lb'){openLeaderboards();return;}else if(a==='ctrlTutGo'){dismissCtrlTut();return;}else if(a==='randTrk'){G.cup=null;const avail=LEVELS.map((L,i)=>i).filter(i=>!trackLocked(LEVELS[i]));const ri=avail[Math.floor(Math.random()*avail.length)];if(LEVELS[ri].random)G.level=-1;startLevel(ri);return;}else if(a==='p1'){G.timeTrial=false;G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.bind=null;goSelect(1);}else if(a==='death'){G.timeTrial=false;G.state='dmode';show('dmode');}else if(a==='d1'){G.timeTrial=false;G.battleNext=false;G.deathNext=true;G.bind=null;goSelect(1);}else if(a==='dparty'){G.timeTrial=false;G.deathNext=true;goParty(false);G.deathNext=true;}else if(a==='diff'){cycleDiff();}else if(a==='party'){G.timeTrial=false;G.deathNext=false;goParty(false);}else if(a==='bparty'){G.timeTrial=false;goParty(true);}else if(a==='partyGo'){partyGo();}else if(a==='battle'){G.timeTrial=false;G.state='bmode';show('bmode');}else if(a==='b1'){G.battleNext=true;G.bind=null;goSelect(1);}else if(a==='b2'){G.battleNext=true;goSelect(2);}else if(a==='arenas')goArenas();else if(a==='how'){G.state='how';show('how');}else if(a==='gfx'){Q.ultra=!Q.ultra;store.set('tikiturbo.gfx',Q.ultra?'ultra':'fast');applyQuality();}else if(a==='back'){G.state='title';show('title');}
   else if(a==='resume')resume();else if(a==='restart'){if(G.cup)G.cup.scored=G.state==='results'?(()=>{for(const[ci,p]of Object.entries(G.cup.lastGain||{}))G.cup.pts[ci]-=p;G.cup.lastGain={};return false;})():G.cup.scored;startRace();}
