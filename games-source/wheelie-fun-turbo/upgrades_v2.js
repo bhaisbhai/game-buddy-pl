@@ -818,7 +818,8 @@
 .gSpin button{border:0;background:rgba(255,178,46,.22);color:var(--cream);font-family:var(--display);font-size:12px;width:24px;height:24px;border-radius:6px;cursor:pointer}
 .gSpin button:hover{background:var(--ember);color:var(--night)}
 .gSpin b{font-size:12.5px;font-weight:700;text-align:center;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.vaultLine{font-size:12.5px;color:var(--muted);background:var(--panel);padding:6px 14px;border-radius:999px;border:1px solid rgba(255,178,46,.28)}
+.vaultLine{font-size:14px;color:var(--muted);font-weight:500}
+.vaultLine::before{content:'·';margin:0 10px;opacity:.5}
 .vaultLine b{color:var(--ember)}
 .btn.tt{background:rgba(255,244,223,.1);color:var(--cream);box-shadow:none;border:2px solid rgba(255,244,223,.4);font-size:clamp(13px,1.3vw,16px);padding:12px 22px 11px}
 .btn.tt:hover,.btn.tt.focus{background:rgba(255,244,223,.2)}
@@ -845,12 +846,12 @@
         cb.dataset.act = 'cc';
         diffBtn.insertAdjacentElement('beforebegin', cb);
       }
-      const shelf = document.getElementById('shelf');
-      if (shelf && !document.getElementById('vaultBadge')) {
-        const vb = document.createElement('div');
+      const padInfo = document.getElementById('padInfo');
+      if (padInfo && !document.getElementById('vaultBadge')) {
+        const vb = document.createElement('span');
         vb.className = 'vaultLine';
         vb.id = 'vaultBadge';
-        shelf.insertAdjacentElement('beforebegin', vb);
+        padInfo.appendChild(vb);
       }
 
       // Add Class badge button in Track Atlas bar

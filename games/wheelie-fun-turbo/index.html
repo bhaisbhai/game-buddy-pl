@@ -126,15 +126,15 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .logoWrap{display:flex;flex-direction:column;align-items:center;gap:22px;text-align:center}
 .logo{font-family:var(--display);font-size:clamp(54px,12vw,150px);line-height:.85;margin:0;color:var(--ember);transform:rotate(-4deg);text-shadow:0 4px 0 #c2410c,0 8px 0 #7c1d0b,0 12px 0 var(--night),0 0 60px rgba(255,91,31,.55);letter-spacing:.02em}
 .logo span{display:block;color:var(--lagoon);font-size:.82em;text-shadow:0 4px 0 #0e7f86,0 8px 0 #0a4a58,0 12px 0 var(--night),0 0 50px rgba(38,211,208,.45)}
-.sub{font-family:var(--display);font-size:clamp(12px,1.6vw,17px);letter-spacing:.3em;color:var(--cream);background:var(--panel);padding:8px 16px;border-radius:10px}
+.sub{font-family:var(--body);font-weight:600;font-style:italic;font-size:clamp(13px,1.5vw,17px);letter-spacing:.04em;color:rgba(255,244,223,.68);text-shadow:0 2px 6px rgba(0,0,0,.4)}
 .btns{display:flex;flex-wrap:wrap;gap:14px;justify-content:center}
 .btn{font-family:var(--display);font-size:clamp(15px,1.8vw,20px);color:var(--night);background:var(--ember);border:0;border-radius:14px;padding:14px 26px 12px;box-shadow:0 6px 0 #a3420c,0 10px 18px rgba(0,0,0,.35);cursor:pointer;transition:transform .12s,background .12s;letter-spacing:.03em}
 .btn.alt{background:var(--lagoon);box-shadow:0 6px 0 #0b6f72,0 10px 18px rgba(0,0,0,.35)}
 .btn.ghost{background:var(--cream);box-shadow:0 6px 0 #8f7c9e,0 10px 18px rgba(0,0,0,.35)}
 .btn:hover,.btn.focus{transform:translateY(-3px) scale(1.04)}
-.btn.focus{outline:4px solid var(--cream);outline-offset:4px}
+.btn.focus{outline:4px solid var(--cream);outline-offset:0}
 .btn:focus-visible{outline:4px solid var(--cream);outline-offset:4px}
-.pads{font-size:14px;color:var(--muted);font-weight:500;background:var(--panel);padding:8px 14px;border-radius:10px;display:flex;gap:10px;align-items:center}
+.pads{font-size:14px;color:var(--muted);font-weight:500;background:var(--panel);padding:8px 16px;border-radius:10px;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center;justify-content:center}
 .pads b{color:var(--lagoon)}
 .dot{width:9px;height:9px;border-radius:50%;background:#665a78}
 .dot.on{background:var(--lagoon);box-shadow:0 0 8px var(--lagoon)}
@@ -4048,7 +4048,8 @@ window.registerWheelieNewTracks = function (api) {
 .gSpin button{border:0;background:rgba(255,178,46,.22);color:var(--cream);font-family:var(--display);font-size:12px;width:24px;height:24px;border-radius:6px;cursor:pointer}
 .gSpin button:hover{background:var(--ember);color:var(--night)}
 .gSpin b{font-size:12.5px;font-weight:700;text-align:center;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.vaultLine{font-size:12.5px;color:var(--muted);background:var(--panel);padding:6px 14px;border-radius:999px;border:1px solid rgba(255,178,46,.28)}
+.vaultLine{font-size:14px;color:var(--muted);font-weight:500}
+.vaultLine::before{content:'·';margin:0 10px;opacity:.5}
 .vaultLine b{color:var(--ember)}
 .btn.tt{background:rgba(255,244,223,.1);color:var(--cream);box-shadow:none;border:2px solid rgba(255,244,223,.4);font-size:clamp(13px,1.3vw,16px);padding:12px 22px 11px}
 .btn.tt:hover,.btn.tt.focus{background:rgba(255,244,223,.2)}
@@ -4075,12 +4076,12 @@ window.registerWheelieNewTracks = function (api) {
         cb.dataset.act = 'cc';
         diffBtn.insertAdjacentElement('beforebegin', cb);
       }
-      const shelf = document.getElementById('shelf');
-      if (shelf && !document.getElementById('vaultBadge')) {
-        const vb = document.createElement('div');
+      const padInfo = document.getElementById('padInfo');
+      if (padInfo && !document.getElementById('vaultBadge')) {
+        const vb = document.createElement('span');
         vb.className = 'vaultLine';
         vb.id = 'vaultBadge';
-        shelf.insertAdjacentElement('beforebegin', vb);
+        padInfo.appendChild(vb);
       }
 
       // Add Class badge button in Track Atlas bar
