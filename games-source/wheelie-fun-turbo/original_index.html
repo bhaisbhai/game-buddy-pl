@@ -124,6 +124,19 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .ctrl dt{color:var(--cream);font-weight:600;white-space:nowrap}
 .ctrl dd{margin:0;color:var(--muted)}
 .tips{display:grid;gap:8px;margin:0 0 20px;padding:0;list-style:none;font-size:14px;color:var(--muted)}
+.ctrlLegend{display:grid;grid-template-columns:1fr 1fr;gap:12px 20px;margin:18px 0 22px}
+.ctrlLegend .row{display:flex;align-items:center;gap:12px}
+.ctrlLegend .key{font-family:var(--display);font-weight:400;display:flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:12px;background:var(--cream);color:var(--night);font-size:14px;box-shadow:0 5px 0 rgba(0,0,0,.4);flex-shrink:0}
+.ctrlLegend .key.wide{width:72px;font-size:11px}
+.ctrlLegend .label{font-size:14px;font-weight:600;color:var(--cream)}
+.ctrlLegend .label small{display:block;font-size:11px;font-weight:700;color:var(--muted);letter-spacing:.04em}
+.miniArrows{display:grid;grid-template-columns:repeat(3,14px);grid-template-rows:repeat(2,14px);gap:2px;width:42px;flex-shrink:0}
+.miniArrows .k{width:14px;height:14px;border-radius:4px;background:var(--cream);color:var(--night);font-size:7px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 0 rgba(0,0,0,.4)}
+.miniArrows .k:nth-child(1){grid-column:2}
+.miniArrows .k:nth-child(2){grid-column:1;grid-row:2}
+.miniArrows .k:nth-child(3){grid-column:2;grid-row:2}
+.miniArrows .k:nth-child(4){grid-column:3;grid-row:2}
+@media (max-width:620px){.ctrlLegend{grid-template-columns:1fr}}
 .tips b{color:var(--cream)}
 /* character select */
 #select{align-items:flex-end}
@@ -270,6 +283,21 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
       <button class="btn ghost" data-act="gfx" id="gfxBtn">Graphics: Ultra</button>
     </div>
     <div class="btns" style="margin-top:14px"><button class="btn" data-act="back">Done</button></div>
+  </div>
+</div>
+
+<div class="screen shade" id="ctrlTut" hidden>
+  <div class="card" style="max-width:480px">
+    <h2>YOUR CONTROLS</h2>
+    <p style="color:var(--muted);font-size:13px;margin:0 0 4px">Shown once, before your first race.</p>
+    <div class="ctrlLegend">
+      <div class="row"><div class="miniArrows"><div class="k">▲</div><div class="k">◀</div><div class="k">▼</div><div class="k">▶</div></div><div class="label">Steer &amp; Accelerate<small>ARROWS OR WASD</small></div></div>
+      <div class="row"><div class="key" style="background:#ff5b1f;color:#fff">B</div><div class="label">Brake<small>HOLD TO SLOW</small></div></div>
+      <div class="row"><div class="key wide" style="background:#ff4fd8;color:#fff">SPACE</div><div class="label">Specials<small>USE ITEM</small></div></div>
+      <div class="row"><div class="key" style="background:var(--lagoon)">V</div><div class="label">Drift<small>HOP &amp; CORNER</small></div></div>
+      <div class="row"><div class="key" style="background:#ffe14a">C</div><div class="label">Boost<small>HYPER MODE</small></div></div>
+    </div>
+    <div class="btns"><button class="btn" data-act="ctrlTutGo">GOT IT — START RACE</button></div>
   </div>
 </div>
 

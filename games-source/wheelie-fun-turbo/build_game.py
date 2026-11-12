@@ -119,12 +119,13 @@ def build():
       <button class="btn ghost" data-act="gfx" id="gfxBtn">Graphics: Ultra</button>"""
     html = must_replace(html, old_settings_btns, new_settings_btns, "settings_btns")
 
-    html = must_replace(
-        html,
-        "<dt>E</dt><dd>Use item</dd><dt>R</dt><dd>Swap items</dd><dt>Q</dt><dd>Hyper mode</dd><dt>Esc</dt><dd>Pause</dd>",
-        "<dt>Hold E</dt><dd>Trail shield / release to fire</dd><dt>Shift+E / X+E</dt><dd>Lob ahead / shoot back</dd><dt>C</dt><dd>Look back mirror</dd><dt>R / Q</dt><dd>Swap items / Signature Hype</dd>",
-        "how_controls",
-    )
+    old_how_controls_p1 = """<dt>W A S D</dt><dd>Drive and steer</dd><dt>Space</dt><dd>Hop &amp; drift</dd>
+        <dt>E</dt><dd>Use item</dd><dt>R</dt><dd>Swap items</dd><dt>Q</dt><dd>Hyper mode</dd><dt>Esc</dt><dd>Pause</dd>"""
+    new_how_controls_p1 = """<dt>WASD or Arrows</dt><dd>Drive, steer &amp; accelerate</dd><dt>V</dt><dd>Hop &amp; drift</dd>
+        <dt>B or S</dt><dd>Brake / reverse</dd><dt>Space or E</dt><dd>Hold: trail shield &middot; release: fire item</dd>
+        <dt>Shift+F / X</dt><dd>Lob ahead / shoot back</dd><dt>C or Q</dt><dd>Hyper mode</dd>
+        <dt>Z</dt><dd>Look back</dd><dt>R</dt><dd>Swap items</dd><dt>Esc</dt><dd>Pause</dd>"""
+    html = must_replace(html, old_how_controls_p1, new_how_controls_p1, "how_controls")
 
     old_tracks_div = """<div class="screen shade" id="tracks" hidden>
   <div class="trkWrap">
@@ -315,7 +316,7 @@ addEventListener('keyup',e=>keys.delete(e.code));
 addEventListener('blur',()=>keys.clear());
 const touch={l:0,r:0,drift:0,item:0,brake:0,hype:0,on:false};
 for(const[id,k]of[['tL','l'],['tR','r'],['tD','drift'],['tI','item'],['tB','brake'],['tH','hype']]){const el=document.getElementById(id);"""
-    new_input = """const KA={l:['KeyA'],r:['KeyD'],gas:['KeyW'],brake:['KeyS'],drift:['Space'],item:['KeyE'],hype:['KeyQ'],swap:['KeyR'],look:['KeyC'],aimF:['ShiftLeft','KeyF'],aimB:['KeyX']};
+    new_input = """const KA={l:['KeyA'],r:['KeyD'],gas:['KeyW'],brake:['KeyS','KeyB'],drift:['KeyV'],item:['KeyE','Space'],hype:['KeyQ','KeyC'],swap:['KeyR'],look:['KeyZ'],aimF:['ShiftLeft','KeyF'],aimB:['KeyX']};
 const KB={l:['ArrowLeft'],r:['ArrowRight'],gas:['ArrowUp'],brake:['ArrowDown'],drift:['Slash','ShiftRight'],item:['Period'],hype:['Comma'],swap:['Semicolon'],look:['Quote'],aimF:['BracketRight'],aimB:['BracketLeft']};
 const anyK=a=>a&&a.some(k=>keys.has(k));
 addEventListener('keydown',e=>{if(e.target&&(e.target.tagName==='INPUT'||e.target.tagName==='SELECT'||e.target.tagName==='TEXTAREA'))return;audioInit();if(['Space','ArrowUp','ArrowDown','ArrowLeft','ArrowRight','Slash'].includes(e.code))e.preventDefault();if(!keys.has(e.code))menuKey(e.code);keys.add(e.code);if(e.code==='KeyM'){AU.muted=!AU.muted;if(AU.master)AU.master.gain.value=AU.muted?0:.82;}});
@@ -1053,7 +1054,7 @@ function phoneConnect(){if(PL.ws||PL.peer)return;
 
     old_menus_block = """const screens=['title','how','select','tracks','pause','results','cup','bmode','arenas','party','dmode'];
 function show(id){for(const s of screens)$('#'+s).hidden=s!==id;G.focus=0;refreshFocus();}"""
-    new_menus_block = """const screens=['title','how','select','tracks','pause','results','cup','bmode','arenas','party','dmode','online','settings'];
+    new_menus_block = """const screens=['title','how','select','tracks','pause','results','cup','bmode','arenas','party','dmode','online','settings','ctrlTut'];
 function show(id){for(const s of screens){const el=$('#'+s);if(el)el.hidden=s!==id;}G.focus=0;refreshFocus();}"""
     html = must_replace(html, old_menus_block, new_menus_block, "screens_online")
 
@@ -1132,8 +1133,18 @@ function show(id){for(const s of screens){const el=$('#'+s);if(el)el.hidden=s!==
         "engine_set_drift_arg",
     )
 
+    old_start_race = """function startRace(){show(null);for(const s of screens){const el=$('#'+s);if(el)el.hidden=true;}clearCeremony();podium.visible=!G.battle;setupRace();touch.on=isTouch&&G.humans.length===1;$('#touch').classList.toggle('on',touch.on);
+  if(G.battle)for(const k of G.humans_k)say(k.pi,AR.name.toUpperCase()+' · POP THEIR BALLOONS!',2.4);
+  if(G.cup)for(const k of G.humans_k)say(k.pi,'RACE '+(G.cup.race+1)+' OF '+G.cup.order.length+' · '+LV.name.toUpperCase(),2.4);}"""
+    new_start_race = """function startRace(){if(!store.get('wheeliefun.seenCtrlTut')){for(const s of screens){const el=$('#'+s);if(el)el.hidden=true;}G.state='ctrlTut';show('ctrlTut');return;}
+  show(null);for(const s of screens){const el=$('#'+s);if(el)el.hidden=true;}clearCeremony();podium.visible=!G.battle;setupRace();touch.on=isTouch&&G.humans.length===1;$('#touch').classList.toggle('on',touch.on);
+  if(G.battle)for(const k of G.humans_k)say(k.pi,AR.name.toUpperCase()+' · POP THEIR BALLOONS!',2.4);
+  if(G.cup)for(const k of G.humans_k)say(k.pi,'RACE '+(G.cup.race+1)+' OF '+G.cup.order.length+' · '+LV.name.toUpperCase(),2.4);}
+function dismissCtrlTut(){store.set('wheeliefun.seenCtrlTut','1');startRace();}"""
+    html = must_replace(html, old_start_race, new_start_race, "ctrl_tutorial_gate")
+
     old_click_acts = """if(a==='p1'){G.battleNext=false;G.deathNext=false;G.bind=null;goSelect(1);}else if(a==='death'){G.state='dmode';show('dmode');}else if(a==='d1'){G.battleNext=false;G.deathNext=true;G.bind=null;goSelect(1);}else if(a==='dparty'){G.deathNext=true;goParty(false);G.deathNext=true;}else if(a==='diff'){cycleDiff();}else if(a==='party'){G.deathNext=false;goParty(false);}else if(a==='bparty'){goParty(true);}else if(a==='partyGo'){partyGo();}else if(a==='battle'){G.state='bmode';show('bmode');}"""
-    new_click_acts = """if(a==='online'){G.timeTrial=false;if(window.WFOnline)WFOnline.openMenu(WF_API_BRIDGE);return;}else if(a==='tt'){G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.timeTrial=true;G.bind=null;goSelect(1);return;}else if(a==='cc'){if(window.WFV2)WFV2.cycleCC();return;}else if(a==='copyGhost'){if(window.WFV2&&WFV2.GHOSTS.lastCode){try{navigator.clipboard.writeText(WFV2.GHOSTS.lastCode);}catch(e){}const gb=$('#copyGhostBtn');if(gb)gb.textContent='Copied Ghost Code! ✓';}return;}else if(a==='importGhost'){const code=typeof prompt==='function'?prompt('Paste a Friend Ghost Code (WFG1:...):'):'';if(code&&window.WFV2){const imp=WFV2.importGhostCode(code);if(imp){const tIdx=LEVELS.findIndex(L=>L.id===imp.trk);if(tIdx>=0){G.timeTrial=true;startLevel(tIdx);}else startRace();}}return;}else if(a==='items'){cycleItemsMode();return;}else if(a==='settings'){G.state='settings';show('settings');return;}else if(a==='randTrk'){G.cup=null;const ri=Math.floor(Math.random()*LEVELS.length);if(LEVELS[ri].random)G.level=-1;startLevel(ri);return;}else if(a==='p1'){G.timeTrial=false;G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.bind=null;goSelect(1);}else if(a==='death'){G.timeTrial=false;G.state='dmode';show('dmode');}else if(a==='d1'){G.timeTrial=false;G.battleNext=false;G.deathNext=true;G.bind=null;goSelect(1);}else if(a==='dparty'){G.timeTrial=false;G.deathNext=true;goParty(false);G.deathNext=true;}else if(a==='diff'){cycleDiff();}else if(a==='party'){G.timeTrial=false;G.deathNext=false;goParty(false);}else if(a==='bparty'){G.timeTrial=false;goParty(true);}else if(a==='partyGo'){partyGo();}else if(a==='battle'){G.timeTrial=false;G.state='bmode';show('bmode');}"""
+    new_click_acts = """if(a==='online'){G.timeTrial=false;if(window.WFOnline)WFOnline.openMenu(WF_API_BRIDGE);return;}else if(a==='tt'){G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.timeTrial=true;G.bind=null;goSelect(1);return;}else if(a==='cc'){if(window.WFV2)WFV2.cycleCC();return;}else if(a==='copyGhost'){if(window.WFV2&&WFV2.GHOSTS.lastCode){try{navigator.clipboard.writeText(WFV2.GHOSTS.lastCode);}catch(e){}const gb=$('#copyGhostBtn');if(gb)gb.textContent='Copied Ghost Code! ✓';}return;}else if(a==='importGhost'){const code=typeof prompt==='function'?prompt('Paste a Friend Ghost Code (WFG1:...):'):'';if(code&&window.WFV2){const imp=WFV2.importGhostCode(code);if(imp){const tIdx=LEVELS.findIndex(L=>L.id===imp.trk);if(tIdx>=0){G.timeTrial=true;startLevel(tIdx);}else startRace();}}return;}else if(a==='items'){cycleItemsMode();return;}else if(a==='settings'){G.state='settings';show('settings');return;}else if(a==='ctrlTutGo'){dismissCtrlTut();return;}else if(a==='randTrk'){G.cup=null;const ri=Math.floor(Math.random()*LEVELS.length);if(LEVELS[ri].random)G.level=-1;startLevel(ri);return;}else if(a==='p1'){G.timeTrial=false;G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.bind=null;goSelect(1);}else if(a==='death'){G.timeTrial=false;G.state='dmode';show('dmode');}else if(a==='d1'){G.timeTrial=false;G.battleNext=false;G.deathNext=true;G.bind=null;goSelect(1);}else if(a==='dparty'){G.timeTrial=false;G.deathNext=true;goParty(false);G.deathNext=true;}else if(a==='diff'){cycleDiff();}else if(a==='party'){G.timeTrial=false;G.deathNext=false;goParty(false);}else if(a==='bparty'){G.timeTrial=false;goParty(true);}else if(a==='partyGo'){partyGo();}else if(a==='battle'){G.timeTrial=false;G.state='bmode';show('bmode');}"""
     html = must_replace(html, old_click_acts, new_click_acts, "click_actions")
 
     new_subsystems = """
