@@ -146,7 +146,14 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .ctrl dl{display:grid;grid-template-columns:auto 1fr;gap:5px 12px;margin:0;font-size:14px}
 .ctrl dt{color:var(--cream);font-weight:600;white-space:nowrap}
 .ctrl dd{margin:0;color:var(--muted)}
-.tips{display:grid;gap:8px;margin:0 0 20px;padding:0;list-style:none;font-size:14px;color:var(--muted)}
+.tips{display:grid;gap:8px;margin:0 0 18px;padding:0;list-style:none;font-size:14px;color:var(--muted)}
+.tips li{background:rgba(255,255,255,.045);border-radius:10px;padding:9px 13px;line-height:1.42}
+.sectionLabel{font-family:var(--display);font-weight:400;font-size:13px;letter-spacing:.1em;color:var(--lagoon);margin:24px 0 10px;padding-top:20px;border-top:2px solid rgba(255,255,255,.1)}
+.sectionLabel.first{margin-top:6px;padding-top:0;border-top:none}
+.itemsGrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:8px;margin:0 0 4px;padding:0;list-style:none}
+.itemCard{background:rgba(255,255,255,.045);border-radius:10px;padding:8px 11px}
+.itemCard b{display:block;color:var(--cream);font-size:13px;margin-bottom:2px}
+.itemCard span{display:block;color:var(--muted);font-size:11px;line-height:1.3}
 .ctrlLegend{display:grid;grid-template-columns:1fr 1fr;gap:12px 20px;margin:18px 0 22px}
 .ctrlLegend .row{display:flex;align-items:center;gap:12px}
 .ctrlLegend .key{font-family:var(--display);font-weight:400;display:flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:12px;background:var(--cream);color:var(--night);font-size:14px;box-shadow:0 5px 0 rgba(0,0,0,.4);flex-shrink:0}
@@ -365,9 +372,21 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
         <dt>Arrows</dt><dd>Drive and steer</dd><dt>/ or R-Shift</dt><dd>Hop &amp; drift</dd>
         <dt>.</dt><dd>Use item</dd><dt>;</dt><dd>Swap items</dd><dt>,</dt><dd>Hyper mode</dd></dl></div>
     </div>
+    <h3 class="sectionLabel first">GAME MODES</h3>
     <ul class="tips">
       <li><b>Death Race:</b> a race where every kart has three balloons. Hits and falls pop them; lose all three and you're out. First over the line, or last kart standing, wins.</li>
+      <li><b>Battle mode:</b> three balloons each, last one standing wins. Chili and drift boosts let you ram a balloon off. Arenas: Nani's Thali (look out for the spoon), Car Park 2am (stay out of the searchlight), Moon Base (low gravity, meteors), Yeti's Ice Rink (no grip, snowballs), plus two arenas built over three floors: Dream Sequence Studio (red-carpet stairs, a top stage and a wind machine that blows you off ledges) and the Shopping Centre at closing time (escalators, a food court and a floor polisher that leaves slippery wet patches).</li>
       <li><b>Difficulty</b> (title screen): Easy, Normal, Hard or Expert changes how fast and clever the computer racers are in every mode.</li>
+    </ul>
+    <h3 class="sectionLabel">ADVANCED TECHNIQUES</h3>
+    <ul class="tips">
+      <li><b>Drift boosts:</b> hold drift while steering. Sparks go blue, orange, then purple. Let go for a bigger boost each time.</li>
+      <li><b>Rocket start:</b> press accelerate just as "1" vanishes. Too early and you stall.</li>
+      <li><b>Final lap twist:</b> when the leader starts the last lap, every track turns nasty: the volcano erupts, Mumbai floods, a blizzard and mega avalanche hit the pass, a storm rolls over the Sky Temple, a dust storm blows tumbleweeds across Manteca, and Streatham's fireworks start landing on the road.</li>
+      <li><b>Water and sky:</b> In Splashdown Park's pools your kart turns into a boat, and its propeller keeps you moving even off the accelerator. In Dogfight Canyon, press the item button while gliding to fire foam darts at the other gliders.</li>
+    </ul>
+    <h3 class="sectionLabel">TRACK TIPS</h3>
+    <ul class="tips">
       <li><b>Lava Lagoon:</b> hit the boost pad to clear the lava bridge and dodge the volcano's fireballs.</li>
       <li><b>Monsoon Mumbai:</b> jump the rooftop gaps, and stop for the local train at the level crossing. Wet patches make drifts slide further and charge faster.</li>
       <li><b>Himalaya Pass:</b> the frozen lake is slippery, so steer early. On the way down, an avalanche chases the pack to the finish line.</li>
@@ -378,15 +397,56 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
       <li><b>Gorilla Jungle:</b> the giant gorilla on the temple throws coconuts (spin) and poo (splat) at you, and his chest-beats shake the ground. Jump the river.</li>
       <li><b>Space Station:</b> low gravity, so jumps go a long way. Drive into a wormhole: usually it's a shortcut, sometimes it sends you back. Keep out of the UFO's green beam, and watch for frozen wee from the runaway space toilet.</li>
       <li><b>Kitchen Counter &amp; Bathroom Dash:</b> toy-sized racing. Dodge the flying toast and the cockroach; slide on soap, and keep away from the toilet when it flushes.</li>
-      <li><b>Aztec Temple:</b> outrun the rolling boulder, time the fire jets, and watch out for the llamas. <b>Sunny Beach:</b> waves wash over the road and the seagulls pinch your items.</li>
-      <li><b>Santa's Village:</b> drive through Santa's falling presents for free items; dodge snowballs and coal. <b>Pinball Panic:</b> bumpers bounce you and steel balls roll across. <b>Coral Reef:</b> floaty jumps, bubble boosts, jellyfish and an octopus.</li>
-      <li><b>Whispering Forest:</b> trees come crashing down across the road and the red mushrooms bounce you high. <b>Starship:</b> dodge the laser turrets and get through the blast doors before they slam. <b>Glider Peaks:</b> four glider jumps; ride the updrafts and fly through the golden rings. <b>Mystery Track:</b> a new random track every time.</li>
-      <li><b>Final lap twist:</b> when the leader starts the last lap, every track turns nasty: the volcano erupts, Mumbai floods, a blizzard and mega avalanche hit the pass, a storm rolls over the Sky Temple, a dust storm blows tumbleweeds across Manteca, and Streatham's fireworks start landing on the road.</li>
-      <li><b>Battle mode:</b> three balloons each, last one standing wins. Chili and drift boosts let you ram a balloon off. Arenas: Nani's Thali (look out for the spoon), Car Park 2am (stay out of the searchlight), Moon Base (low gravity, meteors), Yeti's Ice Rink (no grip, snowballs), plus two arenas built over three floors: Dream Sequence Studio (red-carpet stairs, a top stage and a wind machine that blows you off ledges) and the Shopping Centre at closing time (escalators, a food court and a floor polisher that leaves slippery wet patches).</li>
-      <li><b>Drift boosts:</b> hold drift while steering. Sparks go blue, orange, then purple. Let go for a bigger boost each time.</li>
-      <li><b>Rocket start:</b> press accelerate just as "1" vanishes. Too early and you stall.</li>
-      <li><b>Water and sky:</b> In Splashdown Park's pools your kart turns into a boat, and its propeller keeps you moving even off the accelerator. In Dogfight Canyon, press the item button while gliding to fire foam darts at the other gliders.</li>
-      <li><b>Items:</b> Chili (boost), Triple Chili, Goo (drop behind), Bee (hunts the racer ahead), Bubble (blocks one hit), Bouncy Ball (curves towards the kart in front, bounces off walls), Boomerang (flies out and comes back, hits up to two), Rainbow Rush (invincible and faster for 7 seconds; flatten anyone you touch), Duck Flood (giant rubber ducks rain down on the track ahead and bounce everywhere), Slow Motion (rare, and never more than one per race: everyone except you drops to slow motion for 5 seconds), Golden Chili (tap for unlimited boosts for 7 seconds), Triple Goo, Triple Bouncy Balls and Bee Swarm (three shots; while you hold them they block hits), Comet (flies to the leader and crashes down on them), Cherry Bomb (short fuse, big blast), Rocket Ride (autopilot rocket: very fast and invincible), Shrink Ray (everyone else shrinks and can be squashed), Paint Splat (paints the screens of everyone ahead), Ghost Sheet (become a ghost and steal someone's item), Hungry Lunchbox (snaps at karts and items in front of you), Fireballs (throw fireballs for 8 seconds), Party Bag (eight assorted specials), Sunshine Cloud (a happy little cloud makes you drive better for 8 seconds: more grip, faster, steers you away from walls, and clears stink and splats, and it rains gold coins on you the whole time), Spring (battle: jump on someone to steal a balloon), Monster Truck (battle: giant tyres, can't be hit, crushes anyone you touch), Balloon Pump (battle: get a balloon back), Sticky Mine (battle: drop a mine that blows up whoever drives near it) and Freeze Ray (battle: freezes the nearest rival; ram them to pop a balloon) and Coin Bag (+4 coins), Rain Cloud (rains on the leader: slower and slippery), Stinky Cheese (drop behind; green haze and wobbly steering), Jumbo (grow giant and flatten karts), Big Slap (a giant hand slaps everyone right next to you), Belly Flop (a giant hippo flops down ahead: everyone in front who's on the ground slows down and drops their item; hop to dodge), Prank Box (drop a fake item box; its question mark is upside down) and Spare Tyres (two tyres circle your kart for 15 seconds and each one soaks up a hit). You can carry two at once: the big box is the one you fire, the small NEXT box moves up after. Press d-pad ↑ to swap them. Coins raise your top speed.</li>
+      <li><b>Aztec Temple:</b> outrun the rolling boulder, time the fire jets, and watch out for the llamas.</li>
+      <li><b>Sunny Beach:</b> waves wash over the road and the seagulls pinch your items.</li>
+      <li><b>Santa's Village:</b> drive through Santa's falling presents for free items; dodge snowballs and coal.</li>
+      <li><b>Pinball Panic:</b> bumpers bounce you and steel balls roll across.</li>
+      <li><b>Coral Reef:</b> floaty jumps, bubble boosts, jellyfish and an octopus.</li>
+      <li><b>Whispering Forest:</b> trees come crashing down across the road and the red mushrooms bounce you high.</li>
+      <li><b>Starship:</b> dodge the laser turrets and get through the blast doors before they slam.</li>
+      <li><b>Glider Peaks:</b> four glider jumps; ride the updrafts and fly through the golden rings.</li>
+      <li><b>Mystery Track:</b> a new random track every time.</li>
+    </ul>
+    <h3 class="sectionLabel">ITEMS</h3>
+    <p>You can carry two at once: the big box is the one you fire, the small NEXT box moves up after. Press d-pad &uarr; to swap them. Coins raise your top speed.</p>
+    <ul class="itemsGrid">
+      <li class="itemCard"><b>Chili</b><span>Boost</span></li>
+      <li class="itemCard"><b>Triple Chili</b><span>Three boosts</span></li>
+      <li class="itemCard"><b>Goo</b><span>Drop behind</span></li>
+      <li class="itemCard"><b>Triple Goo</b><span>Three shots; blocks hits while held</span></li>
+      <li class="itemCard"><b>Bee</b><span>Hunts the racer ahead</span></li>
+      <li class="itemCard"><b>Bee Swarm</b><span>Three shots; blocks hits while held</span></li>
+      <li class="itemCard"><b>Bubble</b><span>Blocks one hit</span></li>
+      <li class="itemCard"><b>Bouncy Ball</b><span>Curves towards the kart in front, bounces off walls</span></li>
+      <li class="itemCard"><b>Triple Bouncy Balls</b><span>Three shots; blocks hits while held</span></li>
+      <li class="itemCard"><b>Boomerang</b><span>Flies out and comes back, hits up to two</span></li>
+      <li class="itemCard"><b>Rainbow Rush</b><span>Invincible and faster for 7s; flatten anyone you touch</span></li>
+      <li class="itemCard"><b>Golden Chili</b><span>Tap for unlimited boosts for 7s</span></li>
+      <li class="itemCard"><b>Duck Flood</b><span>Giant rubber ducks rain down ahead and bounce everywhere</span></li>
+      <li class="itemCard"><b>Slow Motion</b><span>Rare, max one per race: everyone but you slows for 5s</span></li>
+      <li class="itemCard"><b>Comet</b><span>Flies to the leader and crashes down on them</span></li>
+      <li class="itemCard"><b>Cherry Bomb</b><span>Short fuse, big blast</span></li>
+      <li class="itemCard"><b>Rocket Ride</b><span>Autopilot rocket: very fast and invincible</span></li>
+      <li class="itemCard"><b>Shrink Ray</b><span>Everyone else shrinks and can be squashed</span></li>
+      <li class="itemCard"><b>Paint Splat</b><span>Paints the screens of everyone ahead</span></li>
+      <li class="itemCard"><b>Ghost Sheet</b><span>Become a ghost and steal someone's item</span></li>
+      <li class="itemCard"><b>Hungry Lunchbox</b><span>Snaps at karts and items in front of you</span></li>
+      <li class="itemCard"><b>Fireballs</b><span>Throw fireballs for 8s</span></li>
+      <li class="itemCard"><b>Party Bag</b><span>Eight assorted specials</span></li>
+      <li class="itemCard"><b>Sunshine Cloud</b><span>8s of more grip, more speed, steers you from walls, clears stink/splats, rains coins</span></li>
+      <li class="itemCard"><b>Coin Bag</b><span>+4 coins</span></li>
+      <li class="itemCard"><b>Rain Cloud</b><span>Rains on the leader: slower and slippery</span></li>
+      <li class="itemCard"><b>Stinky Cheese</b><span>Drop behind; green haze and wobbly steering</span></li>
+      <li class="itemCard"><b>Jumbo</b><span>Grow giant and flatten karts</span></li>
+      <li class="itemCard"><b>Big Slap</b><span>A giant hand slaps everyone right next to you</span></li>
+      <li class="itemCard"><b>Belly Flop</b><span>A giant hippo flops down ahead; slows grounded karts, hop to dodge</span></li>
+      <li class="itemCard"><b>Prank Box</b><span>Drop a fake item box; its question mark is upside down</span></li>
+      <li class="itemCard"><b>Spare Tyres</b><span>Two tyres circle you for 15s, each soaks up a hit</span></li>
+      <li class="itemCard"><b>Spring</b><span>Battle: jump on someone to steal a balloon</span></li>
+      <li class="itemCard"><b>Monster Truck</b><span>Battle: giant tyres, can't be hit, crushes anyone you touch</span></li>
+      <li class="itemCard"><b>Balloon Pump</b><span>Battle: get a balloon back</span></li>
+      <li class="itemCard"><b>Sticky Mine</b><span>Battle: drop a mine that blows up whoever drives near it</span></li>
+      <li class="itemCard"><b>Freeze Ray</b><span>Battle: freezes the nearest rival; ram them to pop a balloon</span></li>
     </ul>
     <div class="btns"><button class="btn" data-act="back">Got it</button></div>
   </div>
