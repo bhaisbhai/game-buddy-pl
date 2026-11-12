@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T10:25:44.518Z",
+  "updated": "2026-11-12T10:42:32.888Z",
   "snapshot": {
     "1": 62,
     "2": 49,
@@ -462,7 +462,7 @@
     "459": 55,
     "460": 50,
     "461": 57,
-    "462": 48,
+    "462": 47,
     "463": 59,
     "464": 59,
     "465": 58,
@@ -676,28 +676,12 @@
   },
   "changes": [
     {
-      "id": 109,
-      "web_name": "Verbruggen",
-      "team_name": "Brighton",
-      "direction": "rise",
-      "old_price": 46,
-      "new_price": 47
-    },
-    {
-      "id": 236,
-      "web_name": "Dewsbury-Hall",
-      "team_name": "Everton",
-      "direction": "rise",
-      "old_price": 66,
-      "new_price": 67
-    },
-    {
-      "id": 424,
-      "web_name": "Amass",
-      "team_name": "Man Utd",
+      "id": 462,
+      "web_name": "Steur",
+      "team_name": "Newcastle",
       "direction": "fall",
-      "old_price": 40,
-      "new_price": 39
+      "old_price": 48,
+      "new_price": 47
     }
   ]
 }
