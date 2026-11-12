@@ -200,7 +200,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .trkGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;width:100%}
 #tracks .trkGrid{grid-template-columns:repeat(5,minmax(0,1fr));gap:9px}#tracks .trk{padding:7px 7px 8px;gap:3px}#tracks .trk svg{aspect-ratio:2.7}#tracks .trk span{display:none}#tracks .trk.cup span{display:block;font-size:11px}#tracks .trk b{font-size:clamp(12px,1.2vw,15px)}#tracks .trk em{font-size:11px}
 #tracks{overflow-y:auto;align-items:flex-start;padding-top:18px}
-.trk{font-family:var(--body);color:var(--cream);background:var(--panel);border:3px solid rgba(255,255,255,.12);border-radius:18px;padding:10px 10px 12px;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:6px;transition:transform .12s,border-color .12s}
+.trk{position:relative;font-family:var(--body);color:var(--cream);background:var(--panel);border:3px solid rgba(255,255,255,.12);border-radius:18px;padding:10px 10px 12px;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:6px;transition:transform .12s,border-color .12s}
 .trk.focus,.trk:hover{transform:translateY(-6px);border-color:var(--ember);outline:none}
 .trk.focus{box-shadow:0 0 0 4px var(--cream)}
 .trk svg{width:100%;aspect-ratio:2.1;display:block;border-radius:10px}
@@ -209,6 +209,10 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .trk em{font-style:normal;font-size:12px;color:var(--lagoon);font-weight:600;margin-top:auto}
 .trk.cup{border-color:rgba(255,178,46,.55)}
 .trk.cup b{color:var(--ember)}
+.trk.locked{cursor:not-allowed;opacity:.42;filter:grayscale(.7)}
+.trk.locked:hover,.trk.locked.focus{transform:none;border-color:rgba(255,255,255,.12);box-shadow:none}
+.trk.locked em{color:var(--muted)}
+.lockBadge{position:absolute;top:10px;right:10px;font-size:20px;filter:drop-shadow(0 2px 3px rgba(0,0,0,.7));z-index:2}
 @media (max-width:900px){.trkGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .standings{margin-top:-6px}
 .standings h3{font-family:var(--display);font-weight:400;font-size:15px;letter-spacing:.06em;color:var(--lagoon);margin:0 0 4px}
@@ -5261,7 +5265,7 @@ ARENAS.push(
 // ================= menus =================
 const screens=['title','how','select','tracks','pause','results','cup','bmode','arenas','party','dmode'];
 function show(id){for(const s of screens)$('#'+s).hidden=s!==id;G.focus=0;refreshFocus();}
-function focusables(){const id=screens.find(s=>!$('#'+s).hidden);if(!id)return[];return[...$('#'+id).querySelectorAll(id==='select'?'.ch':(id==='tracks'||id==='arenas')?'.trk':'.btn')];}
+function focusables(){const id=screens.find(s=>!$('#'+s).hidden);if(!id)return[];return[...$('#'+id).querySelectorAll(id==='select'?'.ch':(id==='tracks'||id==='arenas')?'.trk':'.btn')].filter(el=>!el.disabled);}
 function refreshFocus(){const f=focusables();f.forEach((el,i)=>el.classList.toggle('focus',i===G.focus&&!(G.state==='select'&&G.garFocus!=null)));if(G.state==='select')markGarage();if(f[G.focus]&&f[G.focus].scrollIntoView)f[G.focus].scrollIntoView({block:'nearest',behavior:'smooth'});if(G.state==='select')updateWho();}
 // ---- Kart Garage on the racer-select screen, reachable by controller/keyboard ----
 // ▲ from the top row of racers enters the garage row, ◀ ▶ picks a slot, Ⓐ/Enter changes it, ▼ or Ⓑ goes back.
@@ -5326,6 +5330,13 @@ const CUPS=[{id:'wheeldeal',name:'Wheel Deal Cup',ids:['lava','mumbai','himalaya
 const trophyOf=id=>+(store.get('wheeliefun.trophy.'+id)||0);
 const cupOrder=c=>c.ids.map(id=>LEVELS.findIndex(L=>L.id===id)).filter(i=>i>=0);
 function newCup(ci){const c=CUPS[ci];return{race:0,pts:{},order:cupOrder(c),id:c.id,name:c.name,ci};}
+// Mario-Kart-style progression: start with Cup 1 unlocked, finishing a cup (any placement) unlocks the next.
+// unlockedCups is a plain count (how many cups from the start are open), kept in localStorage per-browser.
+function unlockedCupCount(){return Math.max(1,parseInt(store.get('wheeliefun.unlockedCups')||'1',10)||1);}
+function unlockCupsUpTo(n){if(n>unlockedCupCount())store.set('wheeliefun.unlockedCups',String(n));}
+function cupLocked(ci){return ci>=unlockedCupCount();}
+function trackCupIndex(id){return CUPS.findIndex(c=>c.ids.includes(id));}
+function trackLocked(L){if(L.random)return false;const ci=trackCupIndex(L.id);return ci>=0&&cupLocked(ci);}
 function goTracks(){G.state='tracks';const g=$('#trkGrid');
   let html='';if(!G.deathNext)CUPS.forEach((c,ci)=>{const t=trophyOf(c.id);const names=cupOrder(c).map(i=>LEVELS[i].name).join(', ');html+=`<button class="trk cup" data-trk="${-1-ci}"><svg viewBox="0 0 200 94"><rect width="200" height="94" fill="${c.col}"/><g transform="translate(68 14) scale(1)">${TROPHY(t?TCOL[t-1]:'#ffb22e')}</g></svg><b>${c.name}</b><span>${names}</span><em>${t?['Gold','Silver','Bronze'][t-1]+' trophy won':'No trophy yet'}</em></button>`;});
   LEVELS.forEach((L,i)=>{const b=getBest(L);html+=`<button class="trk" data-trk="${i}">${L.random?'<svg viewBox="0 0 200 94"><defs><linearGradient id="grnd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff4fd8"/><stop offset=".5" stop-color="#9f3dff"/><stop offset="1" stop-color="#26d3d0"/></linearGradient></defs><rect width="200" height="94" fill="url(#grnd)"/><text x="100" y="74" text-anchor="middle" font-family="Bungee,Impact" font-size="72" fill="#fff" opacity=".92">?</text></svg>':trackSVG(L)}<b>${L.random?'Mystery Track':L.name}</b><span>${L.tag}</span><em>${isFinite(b)?'Best lap '+fmt(b):L.mech}</em></button>`;});

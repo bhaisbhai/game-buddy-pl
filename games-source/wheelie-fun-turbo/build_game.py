@@ -1102,8 +1102,15 @@ function show(id){for(const s of screens){const el=$('#'+s);if(el)el.hidden=s!==
     html = must_replace(
         html,
         "function showCup(){engineStop();G.lastCup=G.cup&&G.cup.ci||0;const rows=standingsRows();G.state='cup';",
-        "function showCup(){engineStop();G.lastCup=G.cup&&G.cup.ci||0;const rows=standingsRows();if(G.humans.length===1&&G.cup)submitCupPoints(G.cup.pts[G.humans[0]]||0);G.state='cup';",
+        "function showCup(){engineStop();G.lastCup=G.cup&&G.cup.ci||0;const rows=standingsRows();const newlyUnlocked=!!(G.cup&&cupLocked((G.cup.ci||0)+1)&&(G.cup.ci||0)+1<CUPS.length);if(G.cup)unlockCupsUpTo((G.cup.ci||0)+2);if(G.humans.length===1&&G.cup)submitCupPoints(G.cup.pts[G.humans[0]]||0);G.state='cup';",
         "cup_leaderboard_submit",
+    )
+
+    html = must_replace(
+        html,
+        "$('#cupSub').textContent=hb===1?(G.humans.length>1?'A player takes the gold trophy!':'Gold trophy! Saved to your shelf.'):hb<=3?(['','','Silver','Bronze'][hb]+' trophy. Saved to your shelf.'):'Off the podium this time. Have another go!';",
+        "$('#cupSub').textContent=(hb===1?(G.humans.length>1?'A player takes the gold trophy!':'Gold trophy! Saved to your shelf.'):hb<=3?(['','','Silver','Bronze'][hb]+' trophy. Saved to your shelf.'):'Off the podium this time. Have another go!')+(newlyUnlocked?' 🔓 New cup unlocked!':'');",
+        "cup_unlock_announce",
     )
 
     html = must_replace(
@@ -1152,7 +1159,7 @@ function dismissCtrlTut(){store.set('wheeliefun.seenCtrlTut','1');startRace();}"
     html = must_replace(html, old_start_race, new_start_race, "ctrl_tutorial_gate")
 
     old_click_acts = """if(a==='p1'){G.battleNext=false;G.deathNext=false;G.bind=null;goSelect(1);}else if(a==='death'){G.state='dmode';show('dmode');}else if(a==='d1'){G.battleNext=false;G.deathNext=true;G.bind=null;goSelect(1);}else if(a==='dparty'){G.deathNext=true;goParty(false);G.deathNext=true;}else if(a==='diff'){cycleDiff();}else if(a==='party'){G.deathNext=false;goParty(false);}else if(a==='bparty'){goParty(true);}else if(a==='partyGo'){partyGo();}else if(a==='battle'){G.state='bmode';show('bmode');}"""
-    new_click_acts = """if(a==='online'){G.timeTrial=false;if(window.WFOnline)WFOnline.openMenu(WF_API_BRIDGE);return;}else if(a==='tt'){G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.timeTrial=true;G.bind=null;goSelect(1);return;}else if(a==='cc'){if(window.WFV2)WFV2.cycleCC();return;}else if(a==='copyGhost'){if(window.WFV2&&WFV2.GHOSTS.lastCode){try{navigator.clipboard.writeText(WFV2.GHOSTS.lastCode);}catch(e){}const gb=$('#copyGhostBtn');if(gb)gb.textContent='Copied Ghost Code! ✓';}return;}else if(a==='importGhost'){const code=typeof prompt==='function'?prompt('Paste a Friend Ghost Code (WFG1:...):'):'';if(code&&window.WFV2){const imp=WFV2.importGhostCode(code);if(imp){const tIdx=LEVELS.findIndex(L=>L.id===imp.trk);if(tIdx>=0){G.timeTrial=true;startLevel(tIdx);}else startRace();}}return;}else if(a==='items'){cycleItemsMode();return;}else if(a==='settings'){G.state='settings';show('settings');return;}else if(a==='lb'){openLeaderboards();return;}else if(a==='ctrlTutGo'){dismissCtrlTut();return;}else if(a==='randTrk'){G.cup=null;const ri=Math.floor(Math.random()*LEVELS.length);if(LEVELS[ri].random)G.level=-1;startLevel(ri);return;}else if(a==='p1'){G.timeTrial=false;G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.bind=null;goSelect(1);}else if(a==='death'){G.timeTrial=false;G.state='dmode';show('dmode');}else if(a==='d1'){G.timeTrial=false;G.battleNext=false;G.deathNext=true;G.bind=null;goSelect(1);}else if(a==='dparty'){G.timeTrial=false;G.deathNext=true;goParty(false);G.deathNext=true;}else if(a==='diff'){cycleDiff();}else if(a==='party'){G.timeTrial=false;G.deathNext=false;goParty(false);}else if(a==='bparty'){G.timeTrial=false;goParty(true);}else if(a==='partyGo'){partyGo();}else if(a==='battle'){G.timeTrial=false;G.state='bmode';show('bmode');}"""
+    new_click_acts = """if(a==='online'){G.timeTrial=false;if(window.WFOnline)WFOnline.openMenu(WF_API_BRIDGE);return;}else if(a==='tt'){G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.timeTrial=true;G.bind=null;goSelect(1);return;}else if(a==='cc'){if(window.WFV2)WFV2.cycleCC();return;}else if(a==='copyGhost'){if(window.WFV2&&WFV2.GHOSTS.lastCode){try{navigator.clipboard.writeText(WFV2.GHOSTS.lastCode);}catch(e){}const gb=$('#copyGhostBtn');if(gb)gb.textContent='Copied Ghost Code! ✓';}return;}else if(a==='importGhost'){const code=typeof prompt==='function'?prompt('Paste a Friend Ghost Code (WFG1:...):'):'';if(code&&window.WFV2){const imp=WFV2.importGhostCode(code);if(imp){const tIdx=LEVELS.findIndex(L=>L.id===imp.trk);if(tIdx>=0){G.timeTrial=true;startLevel(tIdx);}else startRace();}}return;}else if(a==='items'){cycleItemsMode();return;}else if(a==='settings'){G.state='settings';show('settings');return;}else if(a==='lb'){openLeaderboards();return;}else if(a==='ctrlTutGo'){dismissCtrlTut();return;}else if(a==='randTrk'){G.cup=null;const avail=LEVELS.map((L,i)=>i).filter(i=>!trackLocked(LEVELS[i]));const ri=avail[Math.floor(Math.random()*avail.length)];if(LEVELS[ri].random)G.level=-1;startLevel(ri);return;}else if(a==='p1'){G.timeTrial=false;G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.bind=null;goSelect(1);}else if(a==='death'){G.timeTrial=false;G.state='dmode';show('dmode');}else if(a==='d1'){G.timeTrial=false;G.battleNext=false;G.deathNext=true;G.bind=null;goSelect(1);}else if(a==='dparty'){G.timeTrial=false;G.deathNext=true;goParty(false);G.deathNext=true;}else if(a==='diff'){cycleDiff();}else if(a==='party'){G.timeTrial=false;G.deathNext=false;goParty(false);}else if(a==='bparty'){G.timeTrial=false;goParty(true);}else if(a==='partyGo'){partyGo();}else if(a==='battle'){G.timeTrial=false;G.state='bmode';show('bmode');}"""
     html = must_replace(html, old_click_acts, new_click_acts, "click_actions")
 
     new_subsystems = """
@@ -1457,8 +1464,14 @@ function renderTrackAtlas(){
   g.classList.toggle('cupsView',ATLAS.view==='cups');
   if(showCups){
     CUPS.forEach((c,ci)=>{
+      const locked=cupLocked(ci);
       const t=trophyOf(c.id);const ordIdx=cupOrder(c);if(!ordIdx.length)return;
       const names=ordIdx.map(i=>LEVELS[i].name).join(' · ');
+      if(locked){
+        const prevName=ci>0?CUPS[ci-1].name:'the previous cup';
+        html+=`<button class="trk cup locked" data-trk="${-1-ci}" disabled><svg viewBox="0 0 200 94"><rect width="200" height="94" fill="${c.col}" opacity=".5"/></svg><i class="lockBadge">🔒</i><b>${c.name}</b><span class="desc">${names}</span><em>Complete ${prevName} to unlock</em></button>`;
+        return;
+      }
       html+=`<button class="trk cup" data-trk="${-1-ci}"><svg viewBox="0 0 200 94"><rect width="200" height="94" fill="${c.col}"/><g transform="translate(68 14) scale(1)">${TROPHY(t?TCOL[t-1]:'#ffb22e')}</g></svg><b>🏆 ${c.name}</b><span class="desc">${names}</span><em>${t?['Gold','Silver','Bronze'][t-1]+' trophy won':'4-Race Cup · No trophy yet'}</em></button>`;
     });
   }
@@ -1469,6 +1482,12 @@ function renderTrackAtlas(){
       if(ATLAS.cat!=='all'&&ATLAS.cat!=='new'&&m.cat!==ATLAS.cat)return;
       if(ATLAS.diff&&m.diff!==ATLAS.diff)return;
       if(q&&!(L.name.toLowerCase().includes(q)||L.tag.toLowerCase().includes(q)||L.mech.toLowerCase().includes(q)||(m.tags||[]).some(t=>t.toLowerCase().includes(q))))return;
+      const locked=trackLocked(L);
+      if(locked){
+        const ci=trackCupIndex(L.id);const cupName=ci>=0?CUPS[ci].name:'its cup';
+        html+=`<button class="trk locked" data-trk="${i}" disabled><svg viewBox="0 0 200 94"><rect width="200" height="94" fill="#15101c" opacity=".6"/></svg><i class="lockBadge">🔒</i><b>${L.name}</b><span class="desc">${L.tag}</span><em>Unlock via ${cupName}</em></button>`;
+        return;
+      }
       const b=getBest(L);
       const stars='★'.repeat(m.diff||2)+'☆'.repeat(3-(m.diff||2));
       const chips=(m.isNew?'<i class="tTag new">NEW</i>':'')+(m.tags||[]).slice(0,3).map(t=>`<i class="tTag">${t}</i>`).join('')+`<i class="tTag stars">${stars}</i>`;
