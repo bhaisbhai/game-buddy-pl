@@ -4172,7 +4172,14 @@ function spareQuarter(){const x=FW/2,y=FH/2,w=FW/2,h=FH/2;fctx.fillStyle='#1a0f2
 const fx=$('#fx'),fctx=fx.getContext('2d');let FW=0,FH=0,DPR=1;
 const MMC={key:'',cv:null,m:8};const mm={minx:1e9,maxx:-1e9,minz:1e9,maxz:-1e9};function mmBounds(){Object.assign(mm,{minx:1e9,maxx:-1e9,minz:1e9,maxz:-1e9});for(const p of TP){mm.minx=Math.min(mm.minx,p.x);mm.maxx=Math.max(mm.maxx,p.x);mm.minz=Math.min(mm.minz,p.z);mm.maxz=Math.max(mm.maxz,p.z);}}
 function resize(){DPR=Math.min(window.devicePixelRatio||1,2);for(const P of POST)if(P)P.w=0;FW=innerWidth;FH=innerHeight;renderer.setSize(FW,FH,false);fx.width=FW*DPR;fx.height=FH*DPR;}
-addEventListener('resize',resize);resize();
+addEventListener('resize',resize);
+// Rotating a phone can fire 'resize' (or the orientationchange below) before the browser has
+// actually settled on the new innerWidth/innerHeight -- iOS Safari in particular can report
+// stale dimensions right at the moment of rotation, sizing the canvas for the old orientation
+// while the page itself has already rotated, which stretches the whole render. Re-run resize()
+// a couple of times after the event to catch up once the viewport has actually settled.
+addEventListener('orientationchange',()=>{resize();setTimeout(resize,120);setTimeout(resize,400);});
+resize();
 function drawOverlay(){fctx.setTransform(DPR,0,0,DPR,0,0);fctx.clearRect(0,0,FW,FH);
   if(!(G.state==='race'||G.state==='countdown'||G.state==='paused'))return;
   for(const k of G.humans_k){if(!(k.stinkT>0))continue;const R0=vpx(k.pi),vh=R0.h,oy=R0.y,a=Math.min(1,k.stinkT)*.5;const g=fctx.createRadialGradient(R0.x+R0.w/2,oy+vh/2,vh*.15,R0.x+R0.w/2,oy+vh/2,vh*.9);g.addColorStop(0,`rgba(120,200,40,${a*.25})`);g.addColorStop(1,`rgba(70,140,20,${a})`);fctx.fillStyle=g;fctx.fillRect(R0.x,oy,R0.w,vh);}
