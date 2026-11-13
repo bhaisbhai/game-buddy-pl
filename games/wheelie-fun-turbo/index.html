@@ -7065,17 +7065,22 @@ const SFX={
   glide(){noise(.6,900,.25,0,null,1.2,2);tone(500,.4,'triangle',.1,1.6);},
   wind(){noise(1.2,600,.22,0,null,.8,1.8);},
 };
-function engineStart(n){const c=AU.ctx;if(!c)return;engineStop();for(let i=0;i<n;i++){const o=c.createOscillator(),o2=c.createOscillator(),f=c.createBiquadFilter(),g=c.createGain();o.type='sawtooth';o2.type='triangle';o2.detune.value=-1200;f.type='lowpass';f.frequency.value=700;f.Q.value=2.2;g.gain.value=0;
-  o.connect(f);o2.connect(f);f.connect(g);g.connect(AU.sfx);o.start();o2.start();AU.engines.push({o,o2,f,g,gear:0,prevSpd:0,popCD:0});}}
-function engineStop(){for(const e of AU.engines){try{e.o.stop();e.o2.stop();}catch(x){}}AU.engines=[];}
+function engineStart(n){const c=AU.ctx;if(!c)return;engineStop();for(let i=0;i<n;i++){const o=c.createOscillator(),o2=c.createOscillator(),lfo=c.createOscillator(),lfoGain=c.createGain(),f=c.createBiquadFilter(),g=c.createGain(),nz=c.createBufferSource(),nzF=c.createBiquadFilter(),nzG=c.createGain(),pan=c.createStereoPanner?c.createStereoPanner():null;
+  o.type='sawtooth';o2.type='triangle';o2.detune.value=-1200;f.type='lowpass';f.frequency.value=650;f.Q.value=.6;g.gain.value=0;
+  lfo.type='sine';lfo.frequency.value=5.6+Math.random()*1.4;lfoGain.gain.value=1.1;lfo.connect(lfoGain);lfoGain.connect(o.frequency);lfoGain.connect(o2.frequency);
+  nz.buffer=AU.noise;nz.loop=true;nzF.type='bandpass';nzF.frequency.value=720;nzF.Q.value=.9;nzG.gain.value=0;nz.connect(nzF);nzF.connect(nzG);nzG.connect(g);
+  o.connect(f);o2.connect(f);f.connect(g);if(pan){g.connect(pan);pan.connect(AU.sfx);pan.pan.value=n>1?(i-(n-1)/2)*.3:0;}else g.connect(AU.sfx);
+  o.start();o2.start();lfo.start();nz.start();AU.engines.push({o,o2,lfo,nz,f,g,nzF,nzG,gear:0,prevSpd:0,popCD:0});}}
+function engineStop(){for(const e of AU.engines){try{e.o.stop();e.o2.stop();e.lfo.stop();e.nz.stop();}catch(x){}}AU.engines=[];}
 function engineSet(i,spd,boost,on,drift){const e=AU.engines[i];if(!e)return;const c=AU.ctx,t=c.currentTime,as=Math.abs(spd);
   const gear=clamp(Math.floor(as/15.5),0,4),inGear=(as-gear*15.5)/15.5;
-  if(gear>e.gear&&on){tone(240+gear*45,.06,'triangle',.05,.75);}
-  if(on&&e.prevSpd-as>0.8&&as>24&&t>(e.popCD||0)){e.popCD=t+.14;noise(.05,360,.08,0,null,1.6,.5);}
+  if(gear>e.gear&&on){tone(220+gear*40,.1,'triangle',.032,.68);}
+  if(on&&e.prevSpd-as>4.5&&as>24&&t>(e.popCD||0)){e.popCD=t+.4;noise(.07,300,.05,0,null,2.2,.6);}
   e.gear=gear;e.prevSpd=as;
   const rpm=52+gear*17+inGear*54+(boost?36:0)+(drift?14:0);
-  e.o.frequency.setTargetAtTime(rpm,t,.04);e.o2.frequency.setTargetAtTime(rpm*.5,t,.04);
-  e.f.frequency.setTargetAtTime(460+rpm*8.5+(boost?600:0),t,.07);
+  e.o.frequency.setTargetAtTime(rpm,t,.06);e.o2.frequency.setTargetAtTime(rpm*.5,t,.06);
+  e.f.frequency.setTargetAtTime(420+rpm*5.5+(boost?260:0),t,.08);
+  e.nzF.frequency.setTargetAtTime(650+as*7,t,.08);e.nzG.gain.setTargetAtTime(on?Math.min(.1,.025+as/900+(boost?.03:0)):0,t,.1);
   e.g.gain.setTargetAtTime(on?.042+Math.min(.052,as/1300)+(boost?.015:0):0,t,.08);}
 // music: one groove per track (prog = 4 chords, mel = 64 sixteenth steps, perc style)
 const NOTE=n=>440*Math.pow(2,(n-69)/12);
