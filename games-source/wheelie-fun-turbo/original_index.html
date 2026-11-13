@@ -194,8 +194,11 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .touch.on{display:block}
 .tb{position:absolute;pointer-events:auto;border-radius:50%;background:rgba(26,15,43,.45);border:3px solid rgba(255,244,223,.45);color:var(--cream);font-family:var(--display);font-size:14px;display:grid;place-items:center;touch-action:none}
 .tb.down{background:rgba(255,91,31,.6)}
-#tL{left:calc(16px + env(safe-area-inset-left,0px));bottom:calc(26px + env(safe-area-inset-bottom,0px));width:84px;height:84px}
-#tR{left:calc(116px + env(safe-area-inset-left,0px));bottom:calc(26px + env(safe-area-inset-bottom,0px));width:84px;height:84px}
+.joyZone{position:absolute;left:0;bottom:0;width:calc(100% - 206px - env(safe-area-inset-right,0px));height:100%;pointer-events:auto;touch-action:none}
+.joyBase{position:absolute;left:0;top:0;width:128px;height:128px;margin:-64px 0 0 -64px;border-radius:50%;background:rgba(26,15,43,.4);border:3px solid rgba(255,244,223,.4);opacity:0;transition:opacity .08s}
+.joyBase.show{opacity:1}
+.joyKnob{position:absolute;left:50%;top:50%;width:56px;height:56px;margin:-28px 0 0 -28px;border-radius:50%;background:rgba(255,244,223,.55);border:3px solid rgba(255,244,223,.7)}
+.joyKnob.active{background:rgba(255,91,31,.7)}
 #tD{right:calc(16px + env(safe-area-inset-right,0px));bottom:calc(26px + env(safe-area-inset-bottom,0px));width:92px;height:92px}
 #tI{right:calc(122px + env(safe-area-inset-right,0px));bottom:calc(60px + env(safe-area-inset-bottom,0px));width:70px;height:70px}
 #tB{right:calc(40px + env(safe-area-inset-right,0px));bottom:calc(132px + env(safe-area-inset-bottom,0px));width:60px;height:60px;font-size:11px}
@@ -459,7 +462,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 </div>
 
 <div class="touch" id="touch">
-  <div class="tb" id="tL">◀</div><div class="tb" id="tR">▶</div>
+  <div class="joyZone" id="joyZone"><div class="joyBase" id="joyBase"><div class="joyKnob" id="joyKnob"></div></div></div>
   <div class="tb" id="tD">DRIFT</div><div class="tb" id="tI">ITEM</div>
   <div class="tb" id="tB">BRAKE</div><div class="tb" id="tH">HYPE</div>
 </div>
@@ -507,9 +510,10 @@ function canvasTex(w,h,draw,rep){const c=document.createElement('canvas');c.widt
 
 
 // ================= renderer & scene =================
+const isTouch=matchMedia('(pointer: coarse)').matches;
 const canvas=$('#gl');
 const renderer=new THREE.WebGLRenderer({canvas,antialias:true,powerPreference:'high-performance'});
-renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,2));
+renderer.setPixelRatio(Math.min(window.devicePixelRatio||1,isTouch?1:2));
 renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;
 const maxAniso=renderer.capabilities.getMaxAnisotropy();
 const scene=new THREE.Scene();
@@ -529,7 +533,8 @@ scene.add(sun,sun.target);
 const vcPhong=new THREE.MeshPhongMaterial({vertexColors:true,flatShading:true,shininess:28,specular:0x2a2a2a});
 const vcLambert=new THREE.MeshLambertMaterial({vertexColors:true});
 const vcLambertDS=new THREE.MeshLambertMaterial({vertexColors:true,side:THREE.DoubleSide});
-const Q={ultra:store.get('tikiturbo.gfx')!=='fast',post:!!THREE.EffectComposer&&!!THREE.FullScreenQuad};
+const gfxPref=store.get('tikiturbo.gfx');
+const Q={ultra:gfxPref?gfxPref!=='fast':!isTouch,post:!!THREE.EffectComposer&&!!THREE.FullScreenQuad};
 const timeU={value:0};
 const fill=new THREE.DirectionalLight(0x9fc8ff,.28);fill.position.set(-.5,.4,-.6);scene.add(fill);
 // hand-painted reflection cube (PMREM gave NaNs in SwiftShader); repainted per track
@@ -815,10 +820,18 @@ addEventListener('keydown',e=>{audioInit();if(['Space','ArrowUp','ArrowDown','Ar
 addEventListener('keyup',e=>keys.delete(e.code));
 addEventListener('blur',()=>keys.clear());
 const touch={l:0,r:0,drift:0,item:0,brake:0,hype:0,on:false};
-for(const[id,k]of[['tL','l'],['tR','r'],['tD','drift'],['tI','item'],['tB','brake'],['tH','hype']]){const el=document.getElementById(id);
+for(const[id,k]of[['tL','l'],['tR','r'],['tD','drift'],['tI','item'],['tB','brake'],['tH','hype']]){const el=document.getElementById(id);if(!el)continue;
   const dn=e=>{e.preventDefault();audioInit();touch[k]=1;el.classList.add('down');},up=e=>{e.preventDefault();touch[k]=0;el.classList.remove('down');};
   el.addEventListener('pointerdown',dn);el.addEventListener('pointerup',up);el.addEventListener('pointercancel',up);el.addEventListener('pointerleave',up);}
-const isTouch=matchMedia('(pointer: coarse)').matches;
+// floating analog joystick: appears wherever the thumb lands in the left touch zone, rather than
+// a fixed-position stick, since a pinned stick drifts out from under the thumb on long holds.
+{const zone=document.getElementById('joyZone'),base=document.getElementById('joyBase'),knob=document.getElementById('joyKnob');
+  const JR=52,DEAD=.18;let jId=null,jx=0,jy=0;
+  const setKnob=(dx,dy)=>{knob.style.transform='translate('+dx+'px,'+dy+'px)';};
+  const jDown=e=>{if(jId!=null)return;e.preventDefault();audioInit();jId=e.pointerId;jx=e.clientX;jy=e.clientY;base.style.left=jx+'px';base.style.top=jy+'px';base.classList.add('show');knob.classList.add('active');try{zone.setPointerCapture(jId);}catch(err){}};
+  const jMove=e=>{if(jId==null||e.pointerId!==jId)return;e.preventDefault();let dx=e.clientX-jx,dy=e.clientY-jy;const d=Math.hypot(dx,dy);if(d>JR){dx=dx/d*JR;dy=dy/d*JR;}setKnob(dx,dy);const v=dx/JR;touch.steer=Math.abs(v)<DEAD?0:clamp(Math.sign(v)*(Math.abs(v)-DEAD)/(1-DEAD),-1,1);};
+  const jUp=e=>{if(jId==null||e.pointerId!==jId)return;jId=null;base.classList.remove('show');knob.classList.remove('active');setKnob(0,0);touch.steer=0;};
+  zone.addEventListener('pointerdown',jDown);zone.addEventListener('pointermove',jMove);zone.addEventListener('pointerup',jUp);zone.addEventListener('pointercancel',jUp);}
 // phones (joined through wheelie_phones.py on the laptop) appear as extra virtual gamepads, so menus and races treat them like a DualShock
 const PHONES=new Map();
 function pads(){const out=[];const g=navigator.getGamepads?navigator.getGamepads():[];for(const p of g)if(p&&p.connected)out.push(p);for(const ph of PHONES.values())if(ph.on)out.push(ph.pad);return out;}
@@ -900,7 +913,8 @@ function phoneTick(){if(!PL.up)return;const now=performance.now();if(now-PL.last
     const m={t:'stat',mode:racing?'race':'menu',slot:pi>=0?pi+1:0,col:PCOL[pi]||'#7a5aa0'};
     if(k){m.racer=k.ch.name;m.pos=ord(k.rank+1);m.lap=G.battle?(k.out?'OUT':'●'.repeat(k.balloons)):Math.min(G.laps,Math.max(1,k.lap))+'/'+G.laps;m.item=k.item?ITEMS[k.item].name:'';m.next=k.item2?ITEMS[k.item2].name:'';}
     phoneTo(ph.id,m);}}
-function phoneBuzz(k,ms){if(!k||!k.human||!G.bind)return;const B=G.bind[k.pi];if(B&&B.kind==='pad'&&B.id.startsWith('ph'))phoneTo(B.id,{t:'buzz',ms});}
+function localBuzz(ms){if(touch.on&&navigator.vibrate){try{navigator.vibrate(ms);}catch(e){}}}
+function phoneBuzz(k,ms){if(!k||!k.human)return;if(k.pi===0)localBuzz(ms);if(!G.bind)return;const B=G.bind[k.pi];if(B&&B.kind==='pad'&&B.id.startsWith('ph'))phoneTo(B.id,{t:'buzz',ms});}
 
 // ================= track (rebuilt per level) =================
 const ROAD=13,CURB=2.2,WALL=25,LIM=23.6,N=1800;
@@ -3866,7 +3880,7 @@ function updateKart(k,inp,dt){
   if(k.respawnT>0){k.respawnT-=dt;if(k.respawnT<=0)respawn(k);k.prev=inp;return;}
   if(k.cannon){featCannon(k,dt);k.prev=inp;return;}
   if(k.frozenT>0){k.frozenT-=dt;k.speed=0;k.driftDir=0;k.prev=inp;return;}
-  if(k.rollT>0){k.rollT-=dt;if(k.rollT<=0){const it=itemRoll(k),n=['triple','goo3','ball3','bee3'].includes(it)?3:it==='bag'?8:1;if(!k.item){k.item=it;k.itemN=n;}else{k.item2=it;k.item2N=n;}if(it==='bag')k.bag=null;if(k.human)SFX.box();}}
+  if(k.rollT>0){k.rollT-=dt;if(k.rollT<=0){const it=itemRoll(k),n=['triple','goo3','ball3','bee3'].includes(it)?3:it==='bag'?8:1;if(!k.item){k.item=it;k.itemN=n;}else{k.item2=it;k.item2N=n;}if(it==='bag')k.bag=null;if(k.human){SFX.box();localBuzz(16);}}}
   let steer=inp.steer,gas=inp.gas,brake=inp.brake;
   if(k.sunT>0){k.stinkT=0;k.paintT=0;k.rainT=0;if(!G.battle&&k.onGround&&k.speed>5){const edge=Math.abs(k.lat||0)-(ROAD-4);if(edge>0){const li=wrapI(k.idx+15),want=Math.atan2(TP[li].x-k.x,TP[li].z-k.z),d=adiff(k.heading,want),w=Math.min(.85,edge*.3);steer=clamp(steer*(1-w)+clamp(-d*2.4,-1,1)*w,-1,1);}}}
   if(k.stinkT>0){k.stinkT-=dt;steer=clamp(steer+Math.sin(G.time*6.5+k.seed)*.6,-1,1);}
@@ -4186,8 +4200,8 @@ function render(){applyTrackTone();const w=innerWidth,h=innerHeight;renderer.set
   featRestore();if(far4){scene.fog.far=fog0;scene.fog.near=fogN0;}
 }
 let LIGHT=false;const LIGHT_PR=.8,LIGHT_FAR=900;function lightMode(on){if(on===LIGHT)return;LIGHT=on;sun.castShadow=!on;applyQuality();}
-function applyQuality(){const u=Q.ultra;renderer.setPixelRatio(LIGHT?(LIGHT===2?LIGHT_PR:1):Math.min(window.devicePixelRatio||1,u?1.5:1));if(LR.ultra)LR.ultra.visible=u&&!LIGHT;
-  const ms=2048;if(sun.shadow.mapSize.x!==ms){sun.shadow.mapSize.set(ms,ms);if(sun.shadow.map){sun.shadow.map.dispose();sun.shadow.map=null;}}
+function applyQuality(){const u=Q.ultra;renderer.setPixelRatio(LIGHT?(LIGHT===2?LIGHT_PR:1):Math.min(window.devicePixelRatio||1,isTouch?1:(u?1.5:1)));if(LR.ultra)LR.ultra.visible=u&&!LIGHT;
+  const ms=isTouch?1024:2048;if(sun.shadow.mapSize.x!==ms){sun.shadow.mapSize.set(ms,ms);if(sun.shadow.map){sun.shadow.map.dispose();sun.shadow.map=null;}}
   FX.mat.uniforms.gain.value=u&&Q.post?1.7:1;for(const[c,r,g,b]of HDRS){const m=u&&Q.post?1:Math.max(r,g,b);c.setRGB(r/m,g/m,b/m);}const b=document.getElementById('gfxBtn');if(b)b.textContent='Graphics: '+(u?'Ultra':'Fast');if(typeof resize==='function'&&FW)resize();}
 
 // ================= overlay: minimap + speed lines =================
@@ -4199,7 +4213,7 @@ function spareQuarter(){const x=FW/2,y=FH/2,w=FW/2,h=FH/2;fctx.fillStyle='#1a0f2
     fctx.fillStyle=k.human?'#fff4df':'rgba(255,244,223,.65)';fctx.font=`${k.human?'bold ':''}${fs}px Fredoka, "Trebuchet MS", sans-serif`;fctx.fillText(k.ch.name+(k.human?'  P'+(k.pi+1):''),x+w*.05+fs*2.5,ty);});}
 const fx=$('#fx'),fctx=fx.getContext('2d');let FW=0,FH=0,DPR=1;
 const MMC={key:'',cv:null,m:8};const mm={minx:1e9,maxx:-1e9,minz:1e9,maxz:-1e9};function mmBounds(){Object.assign(mm,{minx:1e9,maxx:-1e9,minz:1e9,maxz:-1e9});for(const p of TP){mm.minx=Math.min(mm.minx,p.x);mm.maxx=Math.max(mm.maxx,p.x);mm.minz=Math.min(mm.minz,p.z);mm.maxz=Math.max(mm.maxz,p.z);}}
-function resize(){DPR=Math.min(window.devicePixelRatio||1,2);for(const P of POST)if(P)P.w=0;FW=innerWidth;FH=innerHeight;renderer.setSize(FW,FH,false);fx.width=FW*DPR;fx.height=FH*DPR;}
+function resize(){DPR=Math.min(window.devicePixelRatio||1,isTouch?1:2);for(const P of POST)if(P)P.w=0;FW=innerWidth;FH=innerHeight;renderer.setSize(FW,FH,false);fx.width=FW*DPR;fx.height=FH*DPR;}
 addEventListener('resize',resize);
 // Rotating a phone can fire 'resize' (or the orientationchange below) before the browser has
 // actually settled on the new innerWidth/innerHeight -- iOS Safari in particular can report
@@ -4315,7 +4329,7 @@ function strikeTick(dt){for(let n=STRIKES.length-1;n>=0;n--){const s=STRIKES[n];
     scene.remove(s.w);
     if(s.SK){const SK=s.SK;scene.remove(s.m);if(SK.burst)burst(SMOKE,s.x,s.y+1,s.z,22,10,.7,2.4,...SK.burst,6,4);if(SK.sound)SK.sound();
       for(const k of G.karts){if(k.respawnT>0||k.out||k.hyperT>0||k.ghostT>0)continue;if(Math.hypot(k.x-s.x,k.z-s.z)<s.r&&Math.abs(k.y-s.y)<5){k[s.kind+'Hits']=(k[s.kind+'Hits']||0)+1;
-        if(SK.gift){if(!k.item){k.item=itemRoll(k);k.itemN=['triple','goo3','ball3','bee3'].includes(k.item)?3:k.item==='bag'?8:1;}else if(!k.item2){k.item2=itemRoll(k);k.item2N=1;}if(k.human)SFX.box();}
+        if(SK.gift){if(!k.item){k.item=itemRoll(k);k.itemN=['triple','goo3','ball3','bee3'].includes(k.item)?3:k.item==='bag'?8:1;}else if(!k.item2){k.item2=itemRoll(k);k.item2N=1;}if(k.human){SFX.box();localBuzz(16);}}
         else if(SK.splat){if(splat(k,SK.splatT||2.6,SK.splat)){k.speed*=SK.slow||.65;if(SK.steal){k.item=null;k.item2=null;}}}else if(hit(k,null)){k.vy=SK.pop||6;k.onGround=false;}}}STRIKES.splice(n,1);continue;}
     if(s.kind==='poo'){if(s.m)scene.remove(s.m);burst(SMOKE,s.x,s.y+1,s.z,26,12,.8,2.6,.42,.27,.12,8,4);noise(.5,220,.45,0,null,.6,.4);for(const k of G.karts){if(k.respawnT>0||k.out||k.hyperT>0||k.ghostT>0)continue;if(Math.hypot(k.x-s.x,k.z-s.z)<s.r&&Math.abs(k.y-s.y)<5){if(brownSplat(k,3)){k.speed*=.6;k.pooed=(k.pooed||0)+1;if(k.human)say(k.pi,'SPLAT! GORILLA POO!',1.2);}}}STRIKES.splice(n,1);continue;}
     if(s.kind==='coco'){if(s.m)scene.remove(s.m);burst(FX,s.x,s.y+1,s.z,30,16,.5,.9,.95,.9,.8,20,4);tone(220,.15,'square',.2,.5);}

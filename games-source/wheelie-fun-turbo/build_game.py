@@ -335,14 +335,14 @@ addEventListener('keydown',e=>{audioInit();if(['Space','ArrowUp','ArrowDown','Ar
 addEventListener('keyup',e=>keys.delete(e.code));
 addEventListener('blur',()=>keys.clear());
 const touch={l:0,r:0,drift:0,item:0,brake:0,hype:0,on:false};
-for(const[id,k]of[['tL','l'],['tR','r'],['tD','drift'],['tI','item'],['tB','brake'],['tH','hype']]){const el=document.getElementById(id);"""
+for(const[id,k]of[['tL','l'],['tR','r'],['tD','drift'],['tI','item'],['tB','brake'],['tH','hype']]){const el=document.getElementById(id);if(!el)continue;"""
     new_input = """const KA={l:['KeyA'],r:['KeyD'],gas:['KeyW'],brake:['KeyS','KeyB'],drift:['KeyV'],item:['KeyE','Space'],hype:['KeyQ','KeyN'],swap:['KeyR'],look:['KeyZ'],aimF:['ShiftLeft','KeyF'],aimB:['KeyX']};
 const KB={l:['ArrowLeft'],r:['ArrowRight'],gas:['ArrowUp'],brake:['ArrowDown'],drift:['Slash','ShiftRight'],item:['Period'],hype:['Comma'],swap:['Semicolon'],look:['Quote'],aimF:['BracketRight'],aimB:['BracketLeft']};
 const anyK=a=>a&&a.some(k=>keys.has(k));
 addEventListener('keydown',e=>{if(e.target&&(e.target.tagName==='INPUT'||e.target.tagName==='SELECT'||e.target.tagName==='TEXTAREA'))return;audioInit();if(['Space','ArrowUp','ArrowDown','ArrowLeft','ArrowRight','Slash'].includes(e.code))e.preventDefault();if(!keys.has(e.code))menuKey(e.code);keys.add(e.code);if(e.code==='KeyM'){AU.muted=!AU.muted;if(AU.master)AU.master.gain.value=AU.muted?0:.82;}if(e.code==='KeyL'&&e.shiftKey)cheatToPodium();});
 addEventListener('keyup',e=>keys.delete(e.code));
 addEventListener('blur',()=>keys.clear());
-const touch={l:0,r:0,drift:0,item:0,brake:0,hype:0,look:0,aimF:0,on:false};
+const touch={steer:0,l:0,r:0,drift:0,item:0,brake:0,hype:0,look:0,aimF:0,on:false};
 for(const[id,k]of[['tL','l'],['tR','r'],['tD','drift'],['tI','item'],['tB','brake'],['tH','hype']]){const el=document.getElementById(id);if(!el)continue;"""
     html = must_replace(html, old_input, new_input, "input_defs")
 
@@ -372,7 +372,7 @@ function readInput(pi){const o={steer:0,gas:0,brake:0,drift:0,item:0,hype:0,paus
   for(const s of schemes){if(anyK(s.l))o.steer-=1;if(anyK(s.r))o.steer+=1;if(anyK(s.gas))o.gas=1;if(anyK(s.brake))o.brake=1;if(anyK(s.drift))o.drift=1;if(anyK(s.item))o.item=1;if(anyK(s.hype))o.hype=1;if(anyK(s.swap))o.swap=1;if(anyK(s.look))o.look=1;if(anyK(s.aimF))o.aimF=1;if(anyK(s.aimB))o.aimB=1;}
   if(keys.has('Escape')||keys.has('KeyP'))o.pause=1;
   const ps=pads();if(two)readPad(ps[pi],o);else ps.forEach(p=>readPad(p,o));
-  if(pi===0&&touch.on){o.gas=(touch.brake||G.state!=='race')?0:1;o.brake=touch.brake;if(touch.l)o.steer-=1;if(touch.r)o.steer+=1;if(touch.drift)o.drift=1;if(touch.item)o.item=1;if(touch.hype)o.hype=1;if(touch.look)o.look=1;if(touch.aimF)o.aimF=1;}
+  if(pi===0&&touch.on){o.gas=(touch.brake||G.state!=='race')?0:1;o.brake=touch.brake;o.steer+=touch.steer||0;if(touch.drift)o.drift=1;if(touch.item)o.item=1;if(touch.hype)o.hype=1;if(touch.look)o.look=1;if(touch.aimF)o.aimF=1;}
   o.steer=clamp(o.steer,-1,1);return o;}"""
     html = must_replace(html, old_read_input, new_read_input, "read_input")
 
@@ -696,6 +696,7 @@ function phoneConnect(){if(PL.ws||PL.peer)return;
   else if(pressed('item')&&LR.fire&&LR.fire(k)){}
   else if(pressed('item')&&k.spinT<=0&&(k.goldT>0||k.fireT>0))powerPress(k,aimDir);
   else if(pressed('item')&&k.item&&k.spinT<=0&&(k.rollT<=0||k.rollSlot===2)){
+    if(k.human)localBuzz(14);
     if(k.human&&!G.auto&&TRAILABLE.has(k.item)&&aimDir===0)startTrailItem(k);
     else useItemDir(k,aimDir);
   }
