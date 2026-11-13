@@ -195,7 +195,10 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .tb{position:absolute;pointer-events:auto;border-radius:50%;background:rgba(26,15,43,.45);border:3px solid rgba(255,244,223,.45);color:var(--cream);font-family:var(--display);font-size:14px;display:grid;place-items:center;touch-action:none}
 .tb.down{background:rgba(255,91,31,.6)}
 .joyZone{position:absolute;left:0;bottom:0;width:calc(100% - 206px - env(safe-area-inset-right,0px));height:100%;pointer-events:auto;touch-action:none}
-.joyBase{position:absolute;left:0;top:0;width:128px;height:128px;margin:-64px 0 0 -64px;border-radius:50%;background:rgba(26,15,43,.4);border:3px solid rgba(255,244,223,.4);opacity:0;transition:opacity .08s}
+.joyHint{position:absolute;left:76px;bottom:calc(42px + env(safe-area-inset-bottom,0px));width:120px;height:120px;margin:0 0 0 -60px;border-radius:50%;border:3px dashed rgba(255,244,223,.4);display:flex;align-items:center;justify-content:center;pointer-events:none}
+.joyHint::after{content:'';width:44px;height:44px;border-radius:50%;background:rgba(255,244,223,.22)}
+.joyHint.hide{opacity:0}
+.joyBase{position:absolute;left:0;top:0;width:128px;height:128px;margin:-64px 0 0 -64px;border-radius:50%;background:rgba(26,15,43,.4);border:3px solid rgba(255,244,223,.4);opacity:0}
 .joyBase.show{opacity:1}
 .joyKnob{position:absolute;left:50%;top:50%;width:56px;height:56px;margin:-28px 0 0 -28px;border-radius:50%;background:rgba(255,244,223,.55);border:3px solid rgba(255,244,223,.7)}
 .joyKnob.active{background:rgba(255,91,31,.7)}
@@ -229,6 +232,13 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .portraitHint{position:fixed;left:0;right:0;top:calc(4px + env(safe-area-inset-top,0px));display:none;justify-content:center;pointer-events:none;z-index:999}
 .portraitHint span{background:rgba(255,91,31,.92);color:#fff;font-weight:700;font-size:12.5px;padding:6px 14px;border-radius:999px;box-shadow:0 4px 14px rgba(0,0,0,.4);font-family:var(--body)}
 @media (orientation:portrait) and (pointer:coarse){.portraitHint{display:flex}}
+/* touch HUD: the live standings list isn't worth the vertical space on a phone, and the player's
+   own position/speed used to sit bottom-right, right under the drift/item/brake/hype buttons. */
+@media (pointer:coarse){
+  .board{display:none}
+  .br{bottom:auto;top:calc(14px + env(safe-area-inset-top,0px))}
+  .pos{font-size:30px}
+}
 @media (max-width:900px){.trkGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .standings{margin-top:-6px}
 .standings h3{font-family:var(--display);font-weight:400;font-size:15px;letter-spacing:.06em;color:var(--lagoon);margin:0 0 4px}
@@ -462,7 +472,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 </div>
 
 <div class="touch" id="touch">
-  <div class="joyZone" id="joyZone"><div class="joyBase" id="joyBase"><div class="joyKnob" id="joyKnob"></div></div></div>
+  <div class="joyZone" id="joyZone"><div class="joyHint" id="joyHint"></div><div class="joyBase" id="joyBase"><div class="joyKnob" id="joyKnob"></div></div></div>
   <div class="tb" id="tD">DRIFT</div><div class="tb" id="tI">ITEM</div>
   <div class="tb" id="tB">BRAKE</div><div class="tb" id="tH">HYPE</div>
 </div>
@@ -825,12 +835,14 @@ for(const[id,k]of[['tL','l'],['tR','r'],['tD','drift'],['tI','item'],['tB','brak
   el.addEventListener('pointerdown',dn);el.addEventListener('pointerup',up);el.addEventListener('pointercancel',up);el.addEventListener('pointerleave',up);}
 // floating analog joystick: appears wherever the thumb lands in the left touch zone, rather than
 // a fixed-position stick, since a pinned stick drifts out from under the thumb on long holds.
-{const zone=document.getElementById('joyZone'),base=document.getElementById('joyBase'),knob=document.getElementById('joyKnob');
-  const JR=52,DEAD=.18;let jId=null,jx=0,jy=0;
+{const zone=document.getElementById('joyZone'),base=document.getElementById('joyBase'),knob=document.getElementById('joyKnob'),hint=document.getElementById('joyHint');
+  // JR is how far the knob graphic can travel; STEER_R is the (smaller) drag distance that already
+  // reaches full steering lock, so hard corners don't need a drag all the way out to the knob's edge.
+  const JR=52,STEER_R=30,DEAD=.1;let jId=null,jx=0,jy=0;
   const setKnob=(dx,dy)=>{knob.style.transform='translate('+dx+'px,'+dy+'px)';};
-  const jDown=e=>{if(jId!=null)return;e.preventDefault();audioInit();jId=e.pointerId;jx=e.clientX;jy=e.clientY;base.style.left=jx+'px';base.style.top=jy+'px';base.classList.add('show');knob.classList.add('active');try{zone.setPointerCapture(jId);}catch(err){}};
-  const jMove=e=>{if(jId==null||e.pointerId!==jId)return;e.preventDefault();let dx=e.clientX-jx,dy=e.clientY-jy;const d=Math.hypot(dx,dy);if(d>JR){dx=dx/d*JR;dy=dy/d*JR;}setKnob(dx,dy);const v=dx/JR;touch.steer=Math.abs(v)<DEAD?0:clamp(Math.sign(v)*(Math.abs(v)-DEAD)/(1-DEAD),-1,1);};
-  const jUp=e=>{if(jId==null||e.pointerId!==jId)return;jId=null;base.classList.remove('show');knob.classList.remove('active');setKnob(0,0);touch.steer=0;};
+  const jDown=e=>{if(jId!=null)return;e.preventDefault();audioInit();jId=e.pointerId;jx=e.clientX;jy=e.clientY;base.style.left=jx+'px';base.style.top=jy+'px';base.classList.add('show');knob.classList.add('active');hint.classList.add('hide');try{zone.setPointerCapture(jId);}catch(err){}};
+  const jMove=e=>{if(jId==null||e.pointerId!==jId)return;e.preventDefault();let dx=e.clientX-jx,dy=e.clientY-jy;const d=Math.hypot(dx,dy);if(d>JR){dx=dx/d*JR;dy=dy/d*JR;}setKnob(dx,dy);const v=dx/STEER_R;touch.steer=Math.abs(v)<DEAD?0:clamp(Math.sign(v)*(Math.abs(v)-DEAD)/(1-DEAD),-1,1);};
+  const jUp=e=>{if(jId==null||e.pointerId!==jId)return;jId=null;base.classList.remove('show');knob.classList.remove('active');hint.classList.remove('hide');setKnob(0,0);touch.steer=0;};
   zone.addEventListener('pointerdown',jDown);zone.addEventListener('pointermove',jMove);zone.addEventListener('pointerup',jUp);zone.addEventListener('pointercancel',jUp);}
 // phones (joined through wheelie_phones.py on the laptop) appear as extra virtual gamepads, so menus and races treat them like a DualShock
 const PHONES=new Map();
