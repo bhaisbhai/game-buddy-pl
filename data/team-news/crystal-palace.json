@@ -1,14 +1,7 @@
 {
   "slug": "crystal-palace",
-  "updated": "2026-11-13T13:40:12.969Z",
+  "updated": "2026-11-13T23:05:45.070Z",
   "articles": [
-    {
-      "title": "Pierre Sage: Crystal Palace sack manager with club bottom of Premier League table after 10 matches",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZ2RJdURVY2pKMWdnZVRmZ1lINjJiNXJLaUhKMGEySWJfS2tnWXhPdE11YjNXTFo5T3J1b0Z6dm5DOUFBRmVoT0FodW1EWUtXTERfSm9GZnQxU1FqRFFZX2VDUEZOMG9pakxZV2E2a0d4SWxSdHRaWWRUXzhTM2ZwUlZyYkRTa2daeFRTaHN3ZERMUklDQXZEQkJKSG9EdEszSzFhT2dnM3ZPS1BzZnFSanBIZkFWQU9EYXRmX0hfdHNIRFJpeGNHbjFmYW9qa2FPckZPaXZpNzRKNUk4VVBv?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:34:43 GMT",
-      "category": "manager"
-    },
     {
       "title": "Darren Ambrose backs Thomas Frank to turn around Crystal Palace’s fortunes after insisting club made right call on Pierre Sage",
       "source": "Sky Sports",
@@ -17,39 +10,53 @@
       "category": "general"
     },
     {
-      "title": "Women's Pre match Presser - Manchester United (A)",
-      "source": "Crystal Palace F.C.",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcERFWDdxVFFud3R3WjZwNTY1UWxKMWlYNnFEbjZXeEloU3g5cnZDOUJVZUFJVHkxLWw5TFJEWjJQWGRVTGZ3WnFLYmFYY2NKdVo1djNUWFhScVJxUzVraEZBYVotQ2JJaU1HSmx6ZzhzMFo0ems2dzFmaWZORF8wSFBXYlNzZlhyUlphUi13VXBJeHljRm9KZ1lCcUFOSks2OWprZnAzdG42WjlUN3JhTUhTUnd4ZE1wZEE?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 17:09:28 GMT",
-      "category": "match"
-    },
-    {
-      "title": "The real reason Crystal Palace are seeking funding to help finish Main Stand redevelopment revealed",
-      "source": "Football Ground Guide",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPX0ktUkRWbTc2NzlMbmNFc251NzRIVXhXdndZTFU3c0YwMEhUbFpQTE42Mml3WE1YYTN1VkZvVHZuUjZuWVVpSy0tUlBzOFRHT0o5emt0ZndQWGJ3Nmhzd2pKaFNUYzlOcFpBZmhmUjNRUXYtSG5zNk9kTmVoVGVtWUNZaXRCemExcG1KN1pfVzZRazMydmxvd2VsV1RZUkxuMUVxaGU3YW9nZGNhVDFVWDMyeGg1WC1YUUE3ZUIxRkNOS3ZBUnp4WHBRM1ctd2Z3RHk5N3ZIOEs?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 08:45:56 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Pierre Sage lined up for immediate new job after Crystal Palace sacking which could see Eagles avoid pay-off",
-      "source": "The Sun",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZFMtdEZTcDgwV0pxS1VIT2s2LUl0VVQtV29ONFh2Ynl4T21GaUdzcjQ1Um9VMG9ZVmw4Q25nUk10eFhFRUJ4elBJVFU0cFdKX0N6VjQweG9jOW1BdHJ0WERJNVdTc0NMN3BWNHM4aTdCVi10V0lwQV92bk5GdUk0T0s4T1lUM0h5dUVET2VqVWFIMjdobnFnQzFsUGw?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 15:15:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Thomas Frank set to become new Crystal Palace manager",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOd1ZrQ1FERVV0Tm1HWjBjU2szUkI2Zm1GcDA2ZDc2TGhIdjNHZWswY2hEakMxNGtWbXR6d183ekFHVnF3cDN0TnRMRlU1X2RSNFE1RjBqR0dPVWZ4cW5oWkZXdFplWnBzZnpiZUZ1cE5jeTViOW8xUmxkWUFITUkycjhCU1lhV1ZzNFRtNkowaVZyNkQ1UnA3aXAwdw?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 02:41:27 GMT",
+      "title": "Pierre Sage: Crystal Palace sack manager with club bottom of Premier League table after 10 matches",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZ2RJdURVY2pKMWdnZVRmZ1lINjJiNXJLaUhKMGEySWJfS2tnWXhPdE11YjNXTFo5T3J1b0Z6dm5DOUFBRmVoT0FodW1EWUtXTERfSm9GZnQxU1FqRFFZX2VDUEZOMG9pakxZV2E2a0d4SWxSdHRaWWRUXzhTM2ZwUlZyYkRTa2daeFRTaHN3ZERMUklDQXZEQkJKSG9EdEszSzFhT2dnM3ZPS1BzZnFSanBIZkFWQU9EYXRmX0hfdHNIRFJpeGNHbjFmYW9qa2FPckZPaXZpNzRKNUk4VVBv?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 12:34:43 GMT",
       "category": "manager"
     },
     {
-      "title": "Crystal Palace transfer news: Eagles lead race for Bartosz Mazurek despite relegation battle",
-      "source": "Read Crystal Palace",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPX09nb0pCdlVMaHRZOTdfdWtfWjhIZmVYQUxZVUYwY09XZ0laWjM4bUdiMHFXRHp2WjA0NnotWjU1ZzV4RWVLLVl5R1MtU1E0U1dwaGNZTnQzM0M4WGctS3k1aGVWblZkRkRyckVqUU40aXlyQy1fUTYzUVNyWmtobXJMVE1UaTlyQjl4cWNNdHV3YUZtX1ZsemY1QQ?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 12:12:16 GMT",
+      "title": "Why Crystal Palace’s move to hire Thomas Frank is being held up",
+      "source": "CaughtOffside",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWEZXczhwQlVjRUFuY3lfdHFDejF3S2tkcnFSaXNEa3VNMFBwU2VHbnhLdDFpcTJhUUJVY0N4eGtBTWFhRGhJcWkxTldVTVBYcUVMMU1STU91UDFPd19EU2VYUjM2dmgyVS12NkVpaE90MWpDQmZERUxtcmhuREJsYXJ4YWRXdzjSAYwBQVVfeXFMTUxUSXNVRzIxUnFtbnNRdFh6S1p2dUlwZk40OXZnbjQza0drVWUtN0JCV293aXpVcUxuOERvNmVxdVVHQ2lTWGJEcXdsZVM4VEQ0NERYRXdjZlNjNF9WSFhvbjg2SktjWnVGajJfSWc3NEtDb0g0T0dTX1I4M1lWRXNEeDBKQWlBUGtIclg?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 08:56:18 GMT",
       "category": "transfer"
+    },
+    {
+      "title": "Two changes Frank will make at Crystal Palace – with four players set to benefit",
+      "source": "The i Paper",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNlpTWlZOdXRpcHZ1cW1MaTRyaW9ZMnZieHg1aU51TnJFT0VtMzV1VDdWZlVRZXhjR29Sb1J0S0xYYnNVRDlWVTk1a1BNd1BHZWZZUzY2eDdQYWRiNVg4WEllSzBiSnI1cC1iZ2VBVmJBcFJZWXBBT2xsTFNFb0tRZVZreGw?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 12:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Crystal Palace vs Hoffenheim | UEFA Europa League 2026/27",
+      "source": "UEFA.com",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQTXZURTdCMEpGcWt3S2NNQlo3OURXcUJMMm1MT21QT21zQVNpVVlPdk9nOEIzWU1SaGlLYjZBZkRrQk84SWZJcmpDcW9JakxOMTFqYnFzMEtMOHVYelNrYUxSSWNkQi1UcWp6UkJQcXB5RnFLUGN0Yk1GaWIxT1FSLUQ3RXRpdnMwaXc?oc=5",
+      "pubDate": "Thu, 05 Nov 2026 08:00:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Crystal Palace 0-2 Newcastle United: Pressure mounts on Pierre Sage",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9NTU1yZ2JyeVJCSUJGLVRxaHk1b0F6R2M2WXJJSjBPd09mMEJnVHBQVldCUkR3RDBOM0NLa3BLNXYzQjZ3WUZSOGhEcUJpUDdDUDdSSTFfWHZNSmc1N1l6TXNUcEp3QQ?oc=5",
+      "pubDate": "Sun, 25 Oct 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "RC Lens reach agreement to re-hire Pierre Sage",
+      "source": "Get French Football News",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWFFWVlJsSWNGVTZURmoyS0dsdXQ3dmVyb1BPMjFjM19tTk9IS2JoM1VhaVRZYjYxVXJla3ZicU54T29URWhWZjIxZ0N3aVlVSVNHQnpJcnI0WGk0a2NqaDZhcG9DUm00cGNYeWNHcmtwZmc0akJzdUJpOEVhWTJxMWFDTEgxczRIVS1Ob0dQcVRuUUhn?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 13:06:35 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Christmas gifts for every Palace fan",
+      "source": "The Holmesdale Online",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE84NGVJcThfUlk3cmpzQjl3Nnh1Ym5DT0Q3TTc2WV9teUNNYXVaZW5WRS1VNmxFTFFPT1Q3Qm1ienBEdEZWVktWMzg3YlU5T0FkRDdRT1VtQ1NMUU9WM3ZkWlR3?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 21:24:29 GMT",
+      "category": "general"
     },
     {
       "title": "WATCH LIVE: Spurs v Palace Women",
@@ -59,25 +66,18 @@
       "category": "general"
     },
     {
-      "title": "Crystal Palace sack Sage with Frank in advanced talks over job",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTHRneDdzM2NnaTl5WmRPbHdkbDBmYWNsWmZFMHZDTFFicGpYaG4xMGt6LVZhaWloTU50cU16TGVST05jcHJIUWxYc1FzU1ZRaFpCdTNyQVFEdjFnZXVFbjBjOERvV2dFSm1KTXZkXy10UVpUeG4weU1DUUNKM2xHcmhkbUo3T1o0NnhFYjB4Z3k5M2VDZW1aZg?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 02:43:54 GMT",
+      "title": "Glasner loses on Eagles return - but should Palace goal have been ruled out?",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1CY3JDM1g4UzJTbVJjTlo1S0Y4UVIzTzYtZ096OUZSSEU4RXVqREZtbzRrcXM1MGh4S2FJcUVXQ2ZTVjdYQ3BzejJBN3hFcTl6a2xrVUNzY0JWVTRhNHRrNVIzVE1Ydw?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 07:00:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Pierre Sage leads race to become RC Lens manager; Thiago Motta also considered",
+      "source": "Get French Football News",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQWQxZXRhQTFuRVVfV0hRZkw0VncyRWZkdTE4dllsVS1fZ0lkRmVLZjFCTWVtMkRsNWFhUXRSbzNRSVdpVnhtQ2lsN2ExbFRVS1F1QmpLM0lQdncxZEhxX3h2SWxlbS1xN3BtajhFbE0zRkpfZjBNMkFxSk9oS2tNYVRPSWdtZlUtUVJlX1Bmc2dTU0tXSmdGWEgwUjRuTVd3YkhRU3BQM0xyS0hfVW16WG9WeDdDUG1DSWQ2TGJB?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 11:47:52 GMT",
       "category": "manager"
-    },
-    {
-      "title": "The Eagles Shop Ft. Jørgen Strand-Larsen & Caitlin Cosme",
-      "source": "Crystal Palace F.C.",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPRkVIYmExM1hHa3hNbHk4NVo0eDBsT0ljNkdqbUtsWkYtM0FabTNOdjdRY3dSTkgxU3ZYZFVXNXF0SHBPVmhmaXhwcllnX1hNTURfeWtvTExYY2E2QjliTEJ1MUtDYXNhNGVXc3IyVFF6LUYzdE5SVGVuc0FOSWZteTZHaU1EYUh0TUQ2UVJxcjkxVVRfSUxReURFOERyeU0yaGRuUEtWYVhCTmNGcTFmQ3IwUEdWb0QxTFpVeUFwQzBNQQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 23:51:46 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Crystal Palace transfers, latest news, rumours and gossip: Live updates, goals and highlights",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOTWdqUjMtVWh1alMtV0FiLWoxNjN2MzVWQ2V5VWE4eXN1ZmxxYzNaQWthdktxeG0yVktQZ0g4NEstV0VZQzc5cTJ6OFgzRXJlS2xhcFpxQ1FvYk15QUNmYnlyLVdJM1dPQXZvQXdVczUxRFdoQ0g4ZUhPT2w2Y1dvRmNQUWhhMVpheFZyZmF2UEV6M0lubDJpLVFjMFJKNGpSNzA1QWNCNmRTWVB5dVdyNllJR1Q4dXljVmVhcE9MUU9VcTF0T1pQbU80bDZ2ejU3S2tVLXJSUDRqdW8?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 15:35:00 GMT",
-      "category": "general"
     },
     {
       "title": "Crystal Palace latest: Pierre Sage sacked, Thomas Frank favourite to replace him",
@@ -87,25 +87,25 @@
       "category": "manager"
     },
     {
-      "title": "Jo Potter on Man Utd: We have to be adaptable",
-      "source": "Crystal Palace F.C.",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOWVpWRy1FWTk0WFVHS29HdjVQdGwtbVJldmhkWTlLSUZBRDdJa2NCdmE1eEZxMkc2RDRQWEZkOVFUbUo1dExyRWd2ZGdFV3RYWmludkRNaEtlYXhQN204MWhjUkVId0NTd2UxZHMzQUt0bWdrSm5KVEdPSUtyNmF2T0ZQRDBEZw?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 09:20:11 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Extended Highlights | Crystal Palace 1-3 Liverpool | Palace TV+",
-      "source": "Crystal Palace F.C.",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQOU94ZVk4NDJDV0xNMGs0dUxsa2ZMQUU2NzBRUzFNMXd1djN2WUdyQWlJd0lFQ2YyM1ZQT2EyZDk3b1N1Q2Vha2MwbnlreWt2YXpJaFdkMi1SeVJ6emlEa0JrX1UzdGhGQ05pdzVVTFYzSWVCTFRyUFFMeGU5cnJnOEFPcDJNeElZajlfU1REY2hfOFZ2czEzZWN5MnFiQXpKVmpiVlZFLThkeEFvRUZZSEh5bXpDQ1dmQVdaMDFGajhzVmRIbkFNTGRrYw?oc=5",
-      "pubDate": "Sun, 08 Nov 2026 17:20:50 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Pierre Sage sacked by Crystal Palace",
-      "source": "The Independent",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMExiSmFDSGY4Yi05akt1M3JyZUNZNU81RGVZbE5xc2ZMMmE5di14Ui1vZEtkc0YtSGtJY2ZPY0RXTTEza2oyVFlwOVR5TzJudGxaVlg5N2ZpUFBzeUc1bUhlb3pBLTFOZW5MLW5RM09oWDY2TVpNUVk4MmtMQmZHeTVZVFJ5c24xMG1rb0VNTEQzd21xaXc1NHVUeFVDdUo1SGJoMzFuSWdzczg?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 12:37:00 GMT",
+      "title": "Thomas Frank set to become new Crystal Palace manager",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOd1ZrQ1FERVV0Tm1HWjBjU2szUkI2Zm1GcDA2ZDc2TGhIdjNHZWswY2hEakMxNGtWbXR6d183ekFHVnF3cDN0TnRMRlU1X2RSNFE1RjBqR0dPVWZ4cW5oWkZXdFplWnBzZnpiZUZ1cE5jeTViOW8xUmxkWUFITUkycjhCU1lhV1ZzNFRtNkowaVZyNkQ1UnA3aXAwdw?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 13:27:26 GMT",
       "category": "manager"
+    },
+    {
+      "title": "Crystal Palace sack boss Sage after 16 games",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9ISFdRdVVTbTh6Vm9oSmRhOHN4eTFod19LRDVOVlFmNHRjTW5PR1JHWW1STzYza0xwbEwwUWsyeGRWdzVsbFZmNGNKcE02dGJxUmFqUkllTEdCMmdMM0Y1ekZrWmNZbzg4OS1v?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 12:23:47 GMT",
+      "category": "manager"
+    },
+    {
+      "title": "Manchester United Women vs Crystal Palace Women: TV channel, live stream and kick-off time | Goal.com UK",
+      "source": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOTVlTWlhFcWNzUE5YWGJEUTVhZUdPeTZ6QjFhOG1Cc2pKUlVnN3d2bXNjZWxjLWNEU29jOU9kSHBzVzlnWmU1MUNESFI3bGRKdTlhZzZWTHkyaDMwb1EySXdqS3VWM2czWXliQVZwLS1iTU5hT0Q4UC1PLS1xX1BBdjVydnExVWlxaURxTzJvSTA1WFQxNVg1RXhINGVzQU9ZLS1qWElEaENSWmd4bS0tcTRwS3lPWTcyMmJxMUtoSEJVZTJ6WDFkdkdVeGYtLUdleUlyUA?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 15:41:50 GMT",
+      "category": "match"
     }
   ],
   "reddit": []
