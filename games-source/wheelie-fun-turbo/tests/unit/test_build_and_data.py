@@ -140,5 +140,80 @@ class TestServerVsClientData(unittest.TestCase):
         self.assertEqual(int(re.search(r"GRACE_MS = (\d+)", self.oc).group(1)), int(wf.OnlineCupHub().grace_seconds * 1000))
 
 
+class TestCrazyGamesSaveBridge(unittest.TestCase):
+    """build_crazygames.py injects a save-data bridge keyed off a hardcoded list of cup/track
+    ids (CrazyGames.SDK.data has no way to enumerate keys, so the build can't discover them at
+    build time). These tests make sure that list hasn't drifted from the game's real cups and
+    tracks, and that the generated bridge is well-formed."""
+
+    @classmethod
+    def setUpClass(cls):
+        import build_crazygames as bc
+        cls.bc = bc
+
+    def test_cup_ids_match_server(self):
+        self.assertEqual(self.bc.CUP_IDS, [c["id"] for c in wf.CUPS])
+
+    def test_track_ids_match_server(self):
+        self.assertEqual(sorted(self.bc.TRACK_IDS), sorted(wf.TRACK_IDS))
+        self.assertEqual(len(self.bc.TRACK_IDS), len(set(self.bc.TRACK_IDS)), "duplicate track id")
+
+    def test_fixed_keys_all_use_a_recognized_prefix(self):
+        for k in self.bc.FIXED_KEYS:
+            with self.subTest(k):
+                self.assertTrue(k.startswith("wheeliefun.") or k.startswith("tikiturbo."))
+
+    def _build_fresh(self) -> str:
+        """Runs build_crazygames.main() against the current wheelie-fun-standalone.html, into a
+        throwaway temp dir, and returns the resulting html (both files are gitignored build
+        artifacts, so this never depends on -- or pollutes -- anything already on disk)."""
+        with tempfile.TemporaryDirectory() as tmp:
+            (Path(tmp) / "wheelie-fun-standalone.html").write_text(read("wheelie-fun-standalone.html"), encoding="utf-8")
+            old = (self.bc.SRC, self.bc.ROOT)
+            self.bc.SRC, self.bc.ROOT = Path(tmp) / "wheelie-fun-standalone.html", Path(tmp)
+            try:
+                self.bc.main()
+            finally:
+                self.bc.SRC, self.bc.ROOT = old
+            return (Path(tmp) / "wheelie-fun-crazygames.html").read_text(encoding="utf-8")
+
+    def test_build_produces_bridge_before_the_sdk_script_runs(self):
+        html = self._build_fresh()
+        self.assertEqual(html.count("__KEYS__"), 0, "the __KEYS__ placeholder was left unsubstituted")
+        sdk_at = html.index(self.bc.SDK_TAG)
+        bridge_at = html.index("CrazyGames save-data bridge")
+        self.assertLess(sdk_at, bridge_at, "the bridge must come after the SDK tag (it calls CrazyGames.SDK.*)")
+        # both must still be ahead of every other script on the page (three.js, the game itself)
+        first_other_script = html.index("<script", html.index("</script>", bridge_at) + len("</script>"))
+        self.assertGreater(first_other_script, bridge_at)
+        keys = json.loads(re.search(r"var KEYS=(\[.*?\]);", html).group(1).replace("'", '"'))
+        self.assertEqual(len(keys), len(set(keys)), "duplicate key in the generated KEYS list")
+        self.assertEqual(
+            set(keys),
+            set(self.bc.FIXED_KEYS)
+            | {"wheeliefun.trophy." + c for c in self.bc.CUP_IDS}
+            | {"wheeliefun.best." + t for t in self.bc.TRACK_IDS},
+        )
+
+    @unittest.skipUnless(NODE, "node is not installed")
+    def test_bridge_script_is_valid_javascript(self):
+        code = next(c for c in inline_scripts(self._build_fresh()) if "CrazyGames save-data bridge" in c)
+        with tempfile.TemporaryDirectory() as tmp:
+            p = Path(tmp) / "bridge.js"
+            p.write_text(code, encoding="utf-8")
+            r = subprocess.run([NODE, "--check", str(p)], capture_output=True, text=True)
+            self.assertEqual(r.returncode, 0, r.stderr)
+
+    def test_standalone_build_itself_has_no_bridge(self):
+        """The save-data bridge and SDK script tag must only ever appear in the crazygames-
+        specific output -- the regular site build (wheelie-fun-standalone.html, and
+        games/wheelie-fun-turbo/index.html copied from it) must stay untouched by this feature.
+        (The game's own guarded `if(window.CrazyGames)` calls already exist in every build and
+        are a no-op there; this checks for the bridge itself, not those.)"""
+        html = read("wheelie-fun-standalone.html")
+        self.assertNotIn("CrazyGames save-data bridge", html)
+        self.assertNotIn(self.bc.SDK_TAG, html)
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)
