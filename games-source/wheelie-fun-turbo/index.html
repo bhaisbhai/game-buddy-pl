@@ -227,7 +227,16 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .lockBadge{position:absolute;top:10px;right:10px;font-size:20px;filter:drop-shadow(0 2px 3px rgba(0,0,0,.7));z-index:2}
 .portraitHint{position:fixed;left:0;right:0;top:calc(4px + env(safe-area-inset-top,0px));display:none;justify-content:center;pointer-events:none;z-index:999}
 .portraitHint span{background:rgba(255,91,31,.92);color:#fff;font-weight:700;font-size:12.5px;padding:6px 14px;border-radius:999px;box-shadow:0 4px 14px rgba(0,0,0,.4);font-family:var(--body)}
-@media (orientation:portrait) and (pointer:coarse){.portraitHint{display:flex}}
+@media (orientation:portrait) and (pointer:coarse){.portraitHint{display:flex}
+  /* the hint banner is fixed/overlaid, not in-flow, so menu screens need to shrink away from the
+  top on narrow portrait phones or their titles/stat panels render underneath it. Shrinking via
+  `top` (rather than padding-top) also clips flex-end screens like #select correctly -- their
+  overflow spills past the padding box regardless, but not past a smaller box. */
+  .screen{top:calc(56px + env(safe-area-inset-top,0px))}
+  /* #select's own content (name, blurb, stat bars, kart grid) can be taller than a narrow portrait
+  phone's viewport; it isn't scrollable by default, which leaves the top of it (the racer's name)
+  permanently unreachable rather than just tight. Let it scroll instead of silently clipping. */
+  #select{overflow-y:auto}}
 /* touch HUD: the live standings list isn't worth the vertical space on a phone, and the player's
    own position/speed used to sit bottom-right, right under the drift/item/brake/hype buttons. */
 @media (pointer:coarse){
