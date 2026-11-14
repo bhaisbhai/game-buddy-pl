@@ -38,7 +38,7 @@ def build():
         html = (
             "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n"
             "<meta charset=\"utf-8\">\n"
-            "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no\">\n"
+            "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover\">\n"
             + html
             + "\n</body>\n</html>\n"
         )

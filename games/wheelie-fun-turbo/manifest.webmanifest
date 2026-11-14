@@ -1,0 +1,18 @@
+{
+  "name": "Wheelie Fun Turbo",
+  "short_name": "Wheelie Fun",
+  "description": "Arcade kart racer with trick jumps, items, and Signature Hype moves.",
+  "id": "/games/wheelie-fun-turbo/index.html",
+  "start_url": "/games/wheelie-fun-turbo/index.html",
+  "scope": "/games/wheelie-fun-turbo/",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#1a0f2b",
+  "theme_color": "#1a0f2b",
+  "icons": [
+    { "src": "/games/wheelie-fun-turbo/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/games/wheelie-fun-turbo/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/games/wheelie-fun-turbo/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/games/wheelie-fun-turbo/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "uk.co.gamebuddy.wheeliefunturbo",
+      "sha256_cert_fingerprints": ["3E:81:8D:FE:51:88:19:16:26:D3:C1:2A:C3:E8:ED:A4:11:8C:A9:01:19:92:70:31:94:09:94:A1:9F:99:C2:86"]
+    }
+  }
+]
