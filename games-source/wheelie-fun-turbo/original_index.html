@@ -478,6 +478,12 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 const $=s=>document.querySelector(s);
 if(!window.THREE){$('#loading').textContent='Could not load the 3D engine. Check your connection and reload.';return;}
 
+// CrazyGames SDK: only present when this build is hosted on their portal (the script tag is
+// injected by build_crazygames.py, never on our own site) -- everywhere else window.CrazyGames
+// is undefined and every call below is a no-op.
+let cgReady=false,cgPlaying=false;
+if(window.CrazyGames)window.CrazyGames.SDK.init().then(()=>{cgReady=true;}).catch(()=>{});
+
 // ================= utilities =================
 const clamp=(v,a,b)=>v<a?a:v>b?b:v, lerp=(a,b,t)=>a+(b-a)*t;
 const toward=(v,t,d)=>v<t?Math.min(t,v+d):Math.max(t,v-d);
@@ -5557,6 +5563,10 @@ function frame(now){requestAnimationFrame(frame);phoneTick();let dt=Math.min(.05
   // pause/results/menus so taps there reach the real buttons underneath, not the joystick/pedals.
   {const wantTouch=isTouch&&G.humans.length===1&&(G.state==='race'||G.state==='countdown');
     if(touch.on!==wantTouch){touch.on=wantTouch;$('#touch').classList.toggle('on',wantTouch);}}
+  // CrazyGames gameplay signal: fires once per edge, covering every way in/out of actual driving
+  // (race start, pause/resume, quit, results, battle/death modes) without patching each call site.
+  if(cgReady){const nowPlaying=G.state==='race';
+    if(nowPlaying!==cgPlaying){cgPlaying=nowPlaying;try{nowPlaying?CrazyGames.SDK.game.gameplayStart():CrazyGames.SDK.game.gameplayStop();}catch(e){}}}
   if((G.state==='race'||G.state==='countdown')&&!G.freeze){const steps2=dt>1/45?2:1;for(let s=0;s<steps2;s++)updateRace(dt/steps2);}
   if(G.state==='cup'){for(const [n,v] of cupKarts.entries())v.body.position.y=Math.abs(Math.sin(G.time*4+n))*.5;if(R()<dt*3){const p=steps.position;burst(FX,p.x+rr(-25,25),p.y+rr(18,30),p.z+rr(-25,25),70,22,1.1,1.3,R(),R(),R(),14,4);SFX.pop();}}
   updateWorld(dt);updateCameras(dt);render();drawOverlay();updateHUD(dt);
