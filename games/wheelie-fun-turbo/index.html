@@ -10618,7 +10618,13 @@ function refreshPreviewGarage(){previewIdx=-1;if(G.state==='select')updateWho();
 function updateCameras(dt){
   if(G.state==='title'||G.state==='how'||G.state==='bmode'||G.state==='dmode'||G.state==='party'||G.state==='online'){const a=G.time*.06;const c=cams[0].c;c.fov=55;c.position.set(LR.center.x+Math.cos(a)*LR.orbitR,LR.titleH,LR.center.y+Math.sin(a)*LR.orbitR);c.lookAt(LR.look);return;}
   if(G.state==='cup'){const c=cams[0].c;c.fov=42;const a=G.time*.25;c.position.set(steps.position.x+Math.sin(a)*30,steps.position.y+11,steps.position.z+Math.cos(a)*30);c.lookAt(steps.position.x,steps.position.y+5,steps.position.z);return;}
-  if(G.state==='select'){const c=cams[0].c;c.fov=40;const a=-.55;c.position.set(podium.position.x+Math.sin(a)*18,podium.position.y+7,podium.position.z+Math.cos(a)*18);c.lookAt(podium.position.x+2.5,podium.position.y+3.6,podium.position.z);if(preview)preview.root.rotation.y+=dt*.8;return;}
+  if(G.state==='select'){const c=cams[0].c;const a=-.55;
+    // mobile's stats+grid UI covers most of the screen, leaving only a strip up top for the live
+    // preview -- zoom in and frame higher so the kart actually reads in what's left, instead of
+    // mostly showing scenery like the desktop framing does.
+    if(isTouch){c.fov=42;c.position.set(podium.position.x+Math.sin(a)*12,podium.position.y+4,podium.position.z+Math.cos(a)*12);c.lookAt(podium.position.x+1.2,podium.position.y+3.4,podium.position.z);}
+    else{c.fov=40;c.position.set(podium.position.x+Math.sin(a)*18,podium.position.y+7,podium.position.z+Math.cos(a)*18);c.lookAt(podium.position.x+2.5,podium.position.y+3.6,podium.position.z);}
+    if(preview)preview.root.rotation.y+=dt*.8;return;}
   for(const k of G.humans_k){const cam=cams[k.pi],c=cam.c;
     if(G.state==='countdown'&&G.cd>3){const u=clamp((G.cd-3)/1.2,0,1);const hx=Math.sin(k.heading),hz=Math.cos(k.heading);c.position.set(k.x-hx*lerp(10,-30,u)+hz*u*20,k.y+lerp(4.5,25,u),k.z-hz*lerp(10,-30,u)-hx*u*20);c.lookAt(k.x,k.y+1.5,k.z);c.fov=70;c.updateProjectionMatrix();continue;}
     if(k.finished){if(window.WFOnline&&WFOnline.isOnline()&&WFOnline.updateSpectatorCam&&WFOnline.updateSpectatorCam(k,cam,c,dt))continue;if(window.WFV2&&WFV2.updateTvReplayCam(k,cam,c,dt))continue;cam.yaw+=dt*.5;c.position.lerp(tmpV.set(k.x+Math.sin(cam.yaw)*14,k.y+6,k.z+Math.cos(cam.yaw)*14),Math.min(1,dt*3));c.lookAt(k.x,k.y+1.5,k.z);continue;}
