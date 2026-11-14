@@ -241,6 +241,23 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
   /* the track/cup filter bar (cup/track tabs, category chips, difficulty + search) eats a lot of
   vertical space on a phone; mobile players browse the full list instead. Desktop keeps it. */
   #atlasBar{display:none}
+  /* racer select: the stat panel + kart grid together covered almost the whole phone screen,
+  leaving barely a sliver of the actual 3D kart preview behind them visible. Drop the two
+  upgrade-derived stats (Off-Road/Mini-Turbo are the least useful at a glance) and shrink
+  everything else so more of the live preview shows through. */
+  .selWrap{gap:8px}
+  .who{padding:8px 12px;min-width:0}
+  .who .nm{font-size:19px}
+  .who .sp{font-size:12px;margin:1px 0 5px}
+  .stat{grid-template-columns:58px 1fr;gap:6px;font-size:10.5px;margin-top:2px}
+  .stat i{height:6px}
+  .who .stat:nth-last-child(-n+2){display:none}
+  /* a 4-row character grid was most of what buried the kart preview -- a single scrollable row
+  gets every racer down to one compact strip instead. */
+  .grid{display:flex;overflow-x:auto;flex-wrap:nowrap;-webkit-overflow-scrolling:touch;gap:6px;padding:8px}
+  .ch{flex:0 0 62px;padding:5px 2px 4px;font-size:9.5px;gap:3px}
+  .ch .sw{width:22px;height:22px}
+  .gLocked{font-size:11px;padding:4px}
 }
 @media (max-width:900px){.trkGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .standings{margin-top:-6px}
