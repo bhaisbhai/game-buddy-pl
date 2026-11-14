@@ -243,6 +243,9 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
   .board{display:none}
   .br{bottom:auto;top:calc(14px + env(safe-area-inset-top,0px))}
   .pos{font-size:30px}
+  /* the track/cup filter bar (cup/track tabs, category chips, difficulty + search) eats a lot of
+  vertical space on a phone; mobile players browse the full list instead. Desktop keeps it. */
+  #atlasBar{display:none}
 }
 @media (max-width:900px){.trkGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .standings{margin-top:-6px}
