@@ -285,6 +285,10 @@ item box, measured in both orientations) and above .simpleZone so the tap reache
   .ch{flex:0 0 62px;padding:5px 2px 4px;font-size:9.5px;gap:3px}
   .ch .sw{width:22px;height:22px}
   .gLocked{font-size:11px;padding:4px}
+  /* the Kart Garage unlock panel is just clutter on a phone, on top of an already tight screen;
+  its own unconditional .garageBar{display:grid} (injected later, by upgrades_v2.js) has equal
+  class specificity and would otherwise win on source order, so this needs the #id to beat it. */
+  #garageBar{display:none}
 }
 @media (max-width:900px){.trkGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .standings{margin-top:-6px}
