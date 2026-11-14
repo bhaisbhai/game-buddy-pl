@@ -43,7 +43,7 @@
 html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var(--cream);font-family:var(--body);-webkit-user-select:none;user-select:none;touch-action:none}
 #gl,#fx{position:fixed;inset:0;width:100%;height:100%;display:block}
 #fx{pointer-events:none}
-.views{position:fixed;inset:0;pointer-events:none}
+.views{position:fixed;inset:0;pointer-events:none;z-index:1}
 .view{position:absolute;left:0;right:0;overflow:hidden}
 .hud{position:absolute;inset:0;font-variant-numeric:tabular-nums}
 .hud[hidden]{display:none!important}
@@ -68,7 +68,8 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .pos.p1{color:#ffe14a}
 .spd{font-weight:600;font-size:clamp(12px,1.4vw,16px);color:var(--muted)}
 .spd b{font-family:var(--display);color:var(--cream);font-size:1.4em;font-weight:400}
-.bl{position:absolute;left:calc(16px + env(safe-area-inset-left,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));width:clamp(150px,22vw,260px)}
+.bl{position:absolute;left:calc(16px + env(safe-area-inset-left,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));width:clamp(150px,22vw,260px);z-index:5;pointer-events:none}
+.bl.ready{pointer-events:auto}
 .hypeLbl{display:flex;justify-content:space-between;font-family:var(--display);font-size:13px;letter-spacing:.08em;margin-bottom:5px;text-shadow:0 2px 0 var(--night)}
 .hypeLbl span:last-child{color:var(--muted);font-family:var(--body);font-weight:600;letter-spacing:0}
 .hypeBar{height:14px;border-radius:8px;background:rgba(26,15,43,.8);border:2px solid rgba(255,255,255,.25);overflow:hidden}
@@ -122,7 +123,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .view.small:first-child .br{bottom:auto;top:calc(12px + env(safe-area-inset-top,0px))}
 
 /* ===== Menus ===== */
-.screen{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;padding:calc(16px + env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) calc(16px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));box-sizing:border-box;pointer-events:auto}
+.screen{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;padding:calc(16px + env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) calc(16px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));box-sizing:border-box;pointer-events:auto;z-index:2}
 .screen[hidden]{display:none!important}
 .shade{background:radial-gradient(ellipse at center,rgba(26,15,43,.2),rgba(26,15,43,.75))}
 .logoWrap{display:flex;flex-direction:column;align-items:center;gap:22px;text-align:center}
@@ -7144,6 +7145,10 @@ for(const[id,k]of[['tL','l'],['tR','r'],['tD','drift'],['tI','item'],['tB','brak
     if(!trickFired&&moved<TAP_MOVE&&performance.now()-jt<TAP_TIME){touch.item=1;setTimeout(()=>touch.item=0,150);}};
   const jCancel=()=>{jId=null;touch.steer=0;touch.drift=0;};
   zone.addEventListener('pointerdown',jDown);zone.addEventListener('pointermove',jMove);zone.addEventListener('pointerup',jUp);zone.addEventListener('pointercancel',jCancel);}
+// tapping the HYPE meter once it's full fires Signature Hype on mobile, where there's no button
+// for it any more; sits above the full-screen steer/item/trick surface via .bl's z-index so the
+// tap actually reaches it instead of being swallowed as a steer gesture.
+function hypeTap(e){const k=G.humans_k&&G.humans_k[0];if(!touch.on||!k||!(k.hype>=1&&k.spinT<=0&&!specialActive(k)))return;e.preventDefault();e.stopPropagation();audioInit();localBuzz(20);touch.hype=1;setTimeout(()=>touch.hype=0,150);}
 // phones (joined through wheelie_phones.py on the laptop) appear as extra virtual gamepads, so menus and races treat them like a DualShock
 const PHONES=new Map();
 function pads(){const out=[];const g=navigator.getGamepads?navigator.getGamepads():[];for(const p of g)if(p&&p.connected)out.push(p);for(const ph of PHONES.values())if(ph.on)out.push(ph.pad);return out;}
@@ -7179,7 +7184,8 @@ function makeHUD(n){views.innerHTML='';VIEWS=[];
       <div class="bl"><div class="hypeLbl"><span>HYPE</span><span class="hk">fill me up</span></div><div class="hypeBar"><i></i></div></div>
       <div class="br"><div class="pos"><span class="pn">1</span><sup class="ps">st</sup></div><div class="spd"><b class="sv">0</b> km/h</div></div><div class="msg"></div></div>`;
     views.appendChild(v);const q=s=>v.querySelector(s);
-    VIEWS.push({el:v,lv:q('.lv'),clock:q('.clock'),cn:q('.cn'),trailB:q('.trailBadge'),item:q('.item'),item2:q('.item2'),ic2:q('.ic2'),lastIcon2:'',ic:q('.ic'),tag:q('.tag'),board:q('.board'),ww:q('.wrongWay'),toasts:q('.toastFeed'),pillList:[],bl:q('.bl'),hk:q('.hk'),hb:q('.hypeBar i'),pos:q('.pos'),pn:q('.pn'),ps:q('.ps'),sv:q('.sv'),msg:q('.msg'),msgT:0,lastIcon:''});}}
+    VIEWS.push({el:v,lv:q('.lv'),clock:q('.clock'),cn:q('.cn'),trailB:q('.trailBadge'),item:q('.item'),item2:q('.item2'),ic2:q('.ic2'),lastIcon2:'',ic:q('.ic'),tag:q('.tag'),board:q('.board'),ww:q('.wrongWay'),toasts:q('.toastFeed'),pillList:[],bl:q('.bl'),hk:q('.hk'),hb:q('.hypeBar i'),pos:q('.pos'),pn:q('.pn'),ps:q('.ps'),sv:q('.sv'),msg:q('.msg'),msgT:0,lastIcon:''});
+    if(p===0)q('.bl').addEventListener('pointerdown',hypeTap);}}
 const SHOW_TOASTS=false;
 function say(p,text,dur=1.2,cls=''){const v=VIEWS[p];if(!v||!text)return;
   if(cls==='cd'||cls==='fin'){v.msg.textContent=text;v.msg.className='msg show '+cls;v.msgT=dur;return;}
@@ -10707,7 +10713,7 @@ function updateHUD(dt){if(!(G.state==='race'||G.state==='countdown'))return;
     let icon='',tag='';if(k.goldT>0){icon='gold';tag='Golden Chili '+Math.ceil(k.goldT)+'s';}else if(k.fireT>0){icon='fire';tag='Fireballs '+Math.ceil(k.fireT)+'s';}else if(r1){icon=spin;}else if(k.item){icon=k.item;tag=ITEMS[k.item].name+(['triple','goo3','ball3','bee3','bag'].includes(k.item)?' ×'+k.itemN:'');}
     const key=icon+tag+r1;if(v.lastIcon!==key){v.ic.innerHTML=icon?ICON[icon]:'';v.tag.textContent=tag;v.lastIcon=key;v.item.classList.toggle('rolling',r1);}
     const icon2=r2?spin:(k.item2||''),key2=icon2+r2+(k.item2==='triple'?k.item2N:'');if(v.lastIcon2!==key2){v.ic2.innerHTML=icon2?ICON[icon2]:'';v.lastIcon2=key2;v.item2.classList.toggle('rolling',r2);v.item2.classList.toggle('full',!!icon2);}
-    v.hb.style.width=(k.hype*100)+'%';const ready=k.hype>=1;v.bl.classList.toggle('ready',ready);v.hk.textContent=k.hyperT>0?(k.ch.name.toUpperCase()+' HYPE!'):ready?(pads().length?'△ SIGNATURE HYPE':'Q SIGNATURE HYPE'):Math.round(k.hype*100)+'%';
+    v.hb.style.width=(k.hype*100)+'%';const ready=k.hype>=1;v.bl.classList.toggle('ready',ready);v.hk.textContent=k.hyperT>0?(k.ch.name.toUpperCase()+' HYPE!'):ready?(touch.on?'TAP TO HYPE':pads().length?'△ SIGNATURE HYPE':'Q SIGNATURE HYPE'):Math.round(k.hype*100)+'%';
     if(v.ww)v.ww.hidden=!((k.wrongT||0)>1.0&&!G.battle&&!k.finished);
     if(v.trailB){v.trailB.hidden=!k.trailItem;if(k.trailItem)v.trailB.textContent='🛡 '+ITEMS[k.trailItem].name.toUpperCase();}
     for(let pi=v.pillList.length-1;pi>=0;pi--){const pl=v.pillList[pi];pl.t-=dt;if(pl.t<.25)pl.el.style.opacity=String(Math.max(0,pl.t/.25));if(pl.t<=0){pl.el.remove();v.pillList.splice(pi,1);}}

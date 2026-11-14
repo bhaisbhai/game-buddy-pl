@@ -421,7 +421,8 @@ function itemRoll0(k){if(G.battle){const t=[['goo',6],['bee',5],['chili',5],['tr
       <div class="bl"><div class="hypeLbl"><span>HYPE</span><span class="hk">fill me up</span></div><div class="hypeBar"><i></i></div></div>
       <div class="br"><div class="pos"><span class="pn">1</span><sup class="ps">st</sup></div><div class="spd"><b class="sv">0</b> km/h</div></div><div class="msg"></div></div>`;
     views.appendChild(v);const q=s=>v.querySelector(s);
-    VIEWS.push({el:v,lv:q('.lv'),clock:q('.clock'),cn:q('.cn'),trailB:q('.trailBadge'),item:q('.item'),item2:q('.item2'),ic2:q('.ic2'),lastIcon2:'',ic:q('.ic'),tag:q('.tag'),board:q('.board'),ww:q('.wrongWay'),toasts:q('.toastFeed'),pillList:[],bl:q('.bl'),hk:q('.hk'),hb:q('.hypeBar i'),pos:q('.pos'),pn:q('.pn'),ps:q('.ps'),sv:q('.sv'),msg:q('.msg'),msgT:0,lastIcon:''});}}
+    VIEWS.push({el:v,lv:q('.lv'),clock:q('.clock'),cn:q('.cn'),trailB:q('.trailBadge'),item:q('.item'),item2:q('.item2'),ic2:q('.ic2'),lastIcon2:'',ic:q('.ic'),tag:q('.tag'),board:q('.board'),ww:q('.wrongWay'),toasts:q('.toastFeed'),pillList:[],bl:q('.bl'),hk:q('.hk'),hb:q('.hypeBar i'),pos:q('.pos'),pn:q('.pn'),ps:q('.ps'),sv:q('.sv'),msg:q('.msg'),msgT:0,lastIcon:''});
+    if(p===0)q('.bl').addEventListener('pointerdown',hypeTap);}}
 const SHOW_TOASTS=false;
 function say(p,text,dur=1.2,cls=''){const v=VIEWS[p];if(!v||!text)return;
   if(cls==='cd'||cls==='fin'){v.msg.textContent=text;v.msg.className='msg show '+cls;v.msgT=dur;return;}
@@ -1052,7 +1053,7 @@ function phoneConnect(){if(PL.ws||PL.peer)return;
     if(G.humans.length===1){let html='';for(const o of order)html+=`<div class="${o.human?'me':''}"><b>${o.rank+1}</b><i style="background:${hexCss(o.ch.kart)}"></i>${o.ch.name}${G.battle||G.death?' <em class="bb">'+(o.out?'✖':'●'.repeat(o.balloons))+'</em>':''}</div>`;if(v.boardHTML!==html){v.board.innerHTML=html;v.boardHTML=html;}}
     if(v.msgT>0){v.msgT-=dt;if(v.msgT<=0)v.msg.classList.remove('show');}}
 }"""
-    new_hud_end = """    v.hb.style.width=(k.hype*100)+'%';const ready=k.hype>=1;v.bl.classList.toggle('ready',ready);v.hk.textContent=k.hyperT>0?(k.ch.name.toUpperCase()+' HYPE!'):ready?(pads().length?'△ SIGNATURE HYPE':'Q SIGNATURE HYPE'):Math.round(k.hype*100)+'%';
+    new_hud_end = """    v.hb.style.width=(k.hype*100)+'%';const ready=k.hype>=1;v.bl.classList.toggle('ready',ready);v.hk.textContent=k.hyperT>0?(k.ch.name.toUpperCase()+' HYPE!'):ready?(touch.on?'TAP TO HYPE':pads().length?'△ SIGNATURE HYPE':'Q SIGNATURE HYPE'):Math.round(k.hype*100)+'%';
     if(v.ww)v.ww.hidden=!((k.wrongT||0)>1.0&&!G.battle&&!k.finished);
     if(v.trailB){v.trailB.hidden=!k.trailItem;if(k.trailItem)v.trailB.textContent='🛡 '+ITEMS[k.trailItem].name.toUpperCase();}
     for(let pi=v.pillList.length-1;pi>=0;pi--){const pl=v.pillList[pi];pl.t-=dt;if(pl.t<.25)pl.el.style.opacity=String(Math.max(0,pl.t/.25));if(pl.t<=0){pl.el.remove();v.pillList.splice(pi,1);}}

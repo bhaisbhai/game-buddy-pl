@@ -21,7 +21,7 @@
 html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var(--cream);font-family:var(--body);-webkit-user-select:none;user-select:none;touch-action:none}
 #gl,#fx{position:fixed;inset:0;width:100%;height:100%;display:block}
 #fx{pointer-events:none}
-.views{position:fixed;inset:0;pointer-events:none}
+.views{position:fixed;inset:0;pointer-events:none;z-index:1}
 .view{position:absolute;left:0;right:0;overflow:hidden}
 .hud{position:absolute;inset:0;font-variant-numeric:tabular-nums}
 .hud[hidden]{display:none!important}
@@ -46,7 +46,8 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .pos.p1{color:#ffe14a}
 .spd{font-weight:600;font-size:clamp(12px,1.4vw,16px);color:var(--muted)}
 .spd b{font-family:var(--display);color:var(--cream);font-size:1.4em;font-weight:400}
-.bl{position:absolute;left:calc(16px + env(safe-area-inset-left,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));width:clamp(150px,22vw,260px)}
+.bl{position:absolute;left:calc(16px + env(safe-area-inset-left,0px));bottom:calc(16px + env(safe-area-inset-bottom,0px));width:clamp(150px,22vw,260px);z-index:5;pointer-events:none}
+.bl.ready{pointer-events:auto}
 .hypeLbl{display:flex;justify-content:space-between;font-family:var(--display);font-size:13px;letter-spacing:.08em;margin-bottom:5px;text-shadow:0 2px 0 var(--night)}
 .hypeLbl span:last-child{color:var(--muted);font-family:var(--body);font-weight:600;letter-spacing:0}
 .hypeBar{height:14px;border-radius:8px;background:rgba(26,15,43,.8);border:2px solid rgba(255,255,255,.25);overflow:hidden}
@@ -100,7 +101,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .view.small:first-child .br{bottom:auto;top:calc(12px + env(safe-area-inset-top,0px))}
 
 /* ===== Menus ===== */
-.screen{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;padding:calc(16px + env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) calc(16px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));box-sizing:border-box;pointer-events:auto}
+.screen{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;padding:calc(16px + env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) calc(16px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));box-sizing:border-box;pointer-events:auto;z-index:2}
 .screen[hidden]{display:none!important}
 .shade{background:radial-gradient(ellipse at center,rgba(26,15,43,.2),rgba(26,15,43,.75))}
 .logoWrap{display:flex;flex-direction:column;align-items:center;gap:22px;text-align:center}
@@ -833,6 +834,10 @@ for(const[id,k]of[['tL','l'],['tR','r'],['tD','drift'],['tI','item'],['tB','brak
     if(!trickFired&&moved<TAP_MOVE&&performance.now()-jt<TAP_TIME){touch.item=1;setTimeout(()=>touch.item=0,150);}};
   const jCancel=()=>{jId=null;touch.steer=0;touch.drift=0;};
   zone.addEventListener('pointerdown',jDown);zone.addEventListener('pointermove',jMove);zone.addEventListener('pointerup',jUp);zone.addEventListener('pointercancel',jCancel);}
+// tapping the HYPE meter once it's full fires Signature Hype on mobile, where there's no button
+// for it any more; sits above the full-screen steer/item/trick surface via .bl's z-index so the
+// tap actually reaches it instead of being swallowed as a steer gesture.
+function hypeTap(e){const k=G.humans_k&&G.humans_k[0];if(!touch.on||!k||!(k.hype>=1&&k.spinT<=0&&!specialActive(k)))return;e.preventDefault();e.stopPropagation();audioInit();localBuzz(20);touch.hype=1;setTimeout(()=>touch.hype=0,150);}
 // phones (joined through wheelie_phones.py on the laptop) appear as extra virtual gamepads, so menus and races treat them like a DualShock
 const PHONES=new Map();
 function pads(){const out=[];const g=navigator.getGamepads?navigator.getGamepads():[];for(const p of g)if(p&&p.connected)out.push(p);for(const ph of PHONES.values())if(ph.on)out.push(ph.pad);return out;}
