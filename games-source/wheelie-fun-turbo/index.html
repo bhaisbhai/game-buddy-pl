@@ -229,14 +229,10 @@ item box, measured in both orientations) and above .simpleZone so the tap reache
 .trk.locked:hover,.trk.locked.focus{transform:none;border-color:rgba(255,255,255,.12);box-shadow:none}
 .trk.locked em{color:var(--muted)}
 .lockBadge{position:absolute;top:10px;right:10px;font-size:20px;filter:drop-shadow(0 2px 3px rgba(0,0,0,.7));z-index:2}
-.portraitHint{position:fixed;left:0;right:0;top:calc(4px + env(safe-area-inset-top,0px));display:none;justify-content:center;pointer-events:none;z-index:999}
-.portraitHint span{background:rgba(255,91,31,.92);color:#fff;font-weight:700;font-size:12.5px;padding:6px 14px;border-radius:999px;box-shadow:0 4px 14px rgba(0,0,0,.4);font-family:var(--body)}
-@media (orientation:portrait) and (pointer:coarse){.portraitHint{display:flex}
-  /* the hint banner is fixed/overlaid, not in-flow, so menu screens need to shrink away from the
-  top on narrow portrait phones or their titles/stat panels render underneath it. Shrinking via
-  `top` (rather than padding-top) also clips flex-end screens like #select correctly -- their
-  overflow spills past the padding box regardless, but not past a smaller box. */
-  .screen{top:calc(56px + env(safe-area-inset-top,0px))}
+@media (orientation:portrait) and (pointer:coarse){
+  /* a little top clearance on narrow portrait phones for the notch/status bar area, and so
+  flex-end screens like #select don't start flush with the very top edge. */
+  .screen{top:calc(16px + env(safe-area-inset-top,0px))}
   /* #select's own content (name, blurb, stat bars, kart grid) can be taller than a narrow portrait
   phone's viewport; it isn't scrollable by default, which leaves the top of it (the racer's name)
   permanently unreachable rather than just tight. Let it scroll instead of silently clipping. */
@@ -345,7 +341,6 @@ item box, measured in both orientations) and above .simpleZone so the tap reache
 
 <canvas id="gl"></canvas>
 <canvas id="fx"></canvas>
-<div class="portraitHint" id="portraitHint"><span>📱 Turn your phone sideways for the best experience</span></div>
 <div class="views" id="views"></div>
 
 <div class="screen shade" id="title">
