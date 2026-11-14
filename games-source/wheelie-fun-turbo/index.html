@@ -4389,7 +4389,7 @@ function afterKarts(dt){
   for(const k of G.karts){if(k.respawnT>0)continue;
     for(const b of boxes){if(b.t>0)continue;const dx=b.x-k.x,dz=b.z-k.z;if(dx*dx+dz*dz<9&&Math.abs(b.y-k.y-1.5)<3){b.t=3.5;b.m.visible=false;burst(FX,b.x,b.y,b.z,20,14,.5,1,.6,.9,1);
         if((!k.item||!k.item2)&&k.rollT<=0){k.rollSlot=k.item?2:1;k.rollT=k.human?1.1:.6;if(k.human)SFX.item();}}}
-    for(const c of coins){if(c.t>0)continue;const dx=c.x-k.x,dz=c.z-k.z;if(dx*dx+dz*dz<7&&Math.abs(H[c.i]-k.y)<3){c.t=12;c.m.visible=false;k.coins=Math.min(10,k.coins+1);if(k.human){SFX.coin();if(window.WFV2)WFV2.VAULT.add(1);}burst(FX,c.x,H[c.i]+1.5,c.z,8,8,.35,.8,1,.85,.2);}}
+    for(const c of coins){if(c.t>0)continue;const dx=c.x-k.x,dz=c.z-k.z;if(dx*dx+dz*dz<7&&Math.abs(H[c.i]-k.y)<3){c.t=12;c.m.visible=false;k.coins=Math.min(10,k.coins+1);if(k.human)SFX.coin();burst(FX,c.x,H[c.i]+1.5,c.z,8,8,.35,.8,1,.85,.2);}}
     for(let gI=goos.length-1;gI>=0;gI--){const g=goos[gI];if(g.owner===k&&g.t<.6)continue;const dx=g.x-k.x,dz=g.z-k.z;if(g.kind==='mine'){if(g.t>1.2&&dx*dx+dz*dz<16&&(g.y==null||Math.abs(g.y-k.y)<4)){goos.splice(gI,1);mineBoom(g);}continue;}if(dx*dx+dz*dz<(g.kind==='tiffin'?6.2:18.5)&&k.onGround&&(g.y==null||Math.abs(g.y-k.y)<3)){if(g.kind==='tiffin'){stink(k);scene.remove(g.m);goos.splice(gI,1);continue;}if(hit(k,g.owner)){scene.remove(g.m);goos.splice(gI,1);burst(SMOKE,g.x,k.y+.5,g.z,14,8,.6,1.6,.45,.8,.2,8,4);}}}}
   for(const g of goos){g.t+=dt;if(g.i==null&&!G.battle){let best=1e9;for(let i=0;i<N;i+=2){const q=(TP[i].x-g.x)**2+(TP[i].z-g.z)**2;if(q<best){best=q;g.i=i;}}g.lat=(g.x-TP[g.i].x)*TR[g.i].x+(g.z-TP[g.i].z)*TR[g.i].z;}}
   // bees
@@ -4829,7 +4829,7 @@ const COMETS=[];
 function attach(k,key,geo,mat,pos){if(!k.v[key]){const m=new THREE.Mesh(geo,mat||vcPhong);k.v.root.add(m);k.v[key]=m;if(pos)m.position.set(...pos);}k.v[key].visible=true;return k.v[key];}
 function detach(k,key){if(k.v[key])k.v[key].visible=false;}
 function othersAhead(k){return G.karts.filter(q=>q!==k&&!q.out&&!q.finished&&q.respawnT<=0&&(G.battle||q.rank<k.rank));}
-function giveCoins(k,n){k.coins=Math.min(10,k.coins+n);if(k.human&&window.WFV2&&n>0)WFV2.VAULT.add(n);}
+function giveCoins(k,n){k.coins=Math.min(10,k.coins+n);}
 // --- using the new items (returns true if it handled it) ---
 function useNewItem(k,it){if(useBattleItem(k,it))return true;if(useExtraItem(k,it))return true;if(it==='slowmo'){slowMotion(k);return true;}if(it==='swap'){teleportSwap(k);return true;}if(it==='jumbo'){jumbo(k);k.item=null;return true;}if(it==='slap'){bigSlap(k);k.item=null;return true;}if(it==='sun'){sunshine(k);k.item=null;return true;}
   const take=()=>{k.itemN--;if(k.itemN<=0){k.item=null;k.itemN=0;}};

@@ -199,7 +199,7 @@ BROWSER_TEST_JS = r"""
     T.G.death = false;
     T.G.humans = [0];
     V2.setCC('150cc');
-    V2.setLoadout(0, 0, 0, false);
+    V2.setLoadout(0, 0, 0);
     T.startLevel(0, true);
     assert(T.G.karts.length === 8, 'Expected 8-kart pack in race, got ' + T.G.karts.length);
     const hk = T.G.humans_k[0];
@@ -387,7 +387,7 @@ BROWSER_TEST_JS = r"""
     T.buildLevel(0);
   });
 
-  await test('10. Kart Customization Garage (Frames, Tires, Gliders & Golden Chassis)', () => {
+  await test('10. Kart Customization Garage (Frames, Tires & Gliders)', () => {
     assert(document.getElementById('garageBar') != null, 'Garage UI bar must be injected on #select');
     // Verify #select screen & updateWho() 6-stat preview render cleanly
     T.goSelect(1);
@@ -395,7 +395,7 @@ BROWSER_TEST_JS = r"""
     assert(whoTxt.includes('Off-Road') && whoTxt.includes('Mini-Turbo'), 'Select screen #who must display combined 6-stat Garage bars');
 
     // Cyber Moto (inside drift + 2-wheel inline tuck) + Monster Off-Road + Nimbus Chute
-    V2.setLoadout(1, 2, 2, false);
+    V2.setLoadout(1, 2, 2);
     T.startLevel(0, true);
     const hk = T.G.humans_k[0];
     assert(hk.insideDrift === true, 'Cyber Moto frame must enable inside-drift');
@@ -403,14 +403,12 @@ BROWSER_TEST_JS = r"""
     assert(Math.abs(hk.offroadMult - 0.82) < 0.02, 'Monster Off-Road tires must grant 0.82 offroad retention, got ' + hk.offroadMult);
     assert(hk.glideSinkMult < 0.8 && hk.trickBoostMult > 1.15, 'Nimbus Chute glider stats must apply');
 
-    // Mini Rollers spark rate + Golden Chassis unlock
-    V2.VAULT.unlockAll();
-    assert(V2.VAULT.hasGoldKart() === true, 'Vault unlockAll must unlock Gold Chassis');
-    V2.setLoadout(3, 3, 1, true);
+    // Mini Rollers spark rate
+    V2.setLoadout(3, 3, 1);
     T.startRace();
     const hk2 = T.G.humans_k[0];
     assert(hk2.sparkRate > 1.2 && hk2.mtMult > 1.2, 'Bumble Pod + Mini Rollers must boost sparkRate & mtMult');
-    V2.setLoadout(0, 0, 0, false);
+    V2.setLoadout(0, 0, 0);
   });
 
   await test('11. Time Trials Mode, Dev Staff Ghost, 10Hz Recording & Ghost Code Share', () => {
@@ -481,9 +479,9 @@ BROWSER_TEST_JS = r"""
     hk.rank = 4;
     assert(V2.isFrontrunning() === false, 'isFrontrunning must be false when human is mid-pack');
 
-    const c0 = V2.VAULT.coins;
+    const c0 = hk.coins;
     T.WF_API_BRIDGE.giveCoins(hk, 4);
-    assert(V2.VAULT.coins === c0 + 4, 'giveCoins on human kart must persist coins in WFV2.VAULT');
+    assert(hk.coins === Math.min(10, c0 + 4), 'giveCoins must add to the kart\'s own coin count');
 
     hk.finished = true;
     const tvOk = V2.updateTvReplayCam(hk, T.cams[0], T.cams[0].c, 1/60);

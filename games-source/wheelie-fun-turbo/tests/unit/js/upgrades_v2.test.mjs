@@ -1,5 +1,5 @@
-// Unit tests for upgrades_v2.js: speed classes, garage parts & physics, coin vault,
-// time-trial personal bests, ghost share codes and anti-gravity zones.
+// Unit tests for upgrades_v2.js: speed classes, garage parts & physics, time-trial personal
+// bests, ghost share codes and anti-gravity zones.
 import { test, describe } from 'node:test';
 import assert from 'node:assert/strict';
 import { loadUpgradesV2, memoryStore, anything } from './harness.mjs';
@@ -114,8 +114,8 @@ describe('garage', () => {
 
   test('setLoadout wraps negative and large indices', () => {
     const { v2 } = load();
-    v2.setLoadout(-1, 5, -6, true);
-    assert.deepEqual([v2.loadout.frame, v2.loadout.tire, v2.loadout.glider, v2.loadout.goldSkin], [3, 1, 2, true]);
+    v2.setLoadout(-1, 5, -6);
+    assert.deepEqual([v2.loadout.frame, v2.loadout.tire, v2.loadout.glider], [3, 1, 2]);
   });
 
   test('garage buttons cycle parts and save them', () => {
@@ -130,36 +130,12 @@ describe('garage', () => {
     assert.equal(v2.loadout.tire, 2);
   });
 
-  test('gold paint only shows once it is unlocked', () => {
-    const { v2 } = load({ store: trophies(4) });
-    v2.setLoadout(null, null, null, true);
-    assert.equal(v2.getPartsForKart(true, 0).gold, false);
-    v2.VAULT.coins = 50;
-    assert.equal(v2.getPartsForKart(true, 0).gold, true);
-  });
-
-  test('the gold slot cannot unlock gold for free; it toggles once earned', () => {
-    const { v2, ctx } = load({ store: trophies(4) });
-    const bar = ctx.document.getElementById('garageBar');
-    const click = () => bar.dispatch('click', { target: { closest: () => ({ dataset: { gpart: 'gold', gdir: '1' } }) } });
-    v2.VAULT.coins = 20;
-    click();
-    assert.equal(v2.VAULT.hasGoldKart(), false);
-    assert.equal(v2.VAULT.coins, 20);
-    assert.equal(v2.loadout.goldSkin, false);
-    assert.match(bar.innerHTML, /Gold at 50 coins · 20\/50/);
-    v2.VAULT.coins = 50;
-    click();
-    assert.equal(v2.loadout.goldSkin, true);
-  });
-
   test('AI karts get valid, repeatable parts for any index', () => {
     const { v2 } = load();
     for (const i of [0, 1, 7, -3, 1000]) {
       const a = v2.getPartsForKart(false, 0, i), b = v2.getPartsForKart(false, 0, i);
       assert.ok(a.frame && a.tire && a.glider, `index ${i}`);
       assert.equal(a.frame.id, b.frame.id);
-      assert.equal(a.gold, false);
     }
   });
 
@@ -185,35 +161,6 @@ describe('garage', () => {
     v2.setCC('150cc');
     v2.applyGaragePhysics(k, parts);
     assert.ok(Math.abs(k.maxS - 58 * (0.94 + 3 * 0.028) * 1.05) < 1e-9);
-  });
-});
-
-describe('coin vault', () => {
-  test('rewards unlock at 50 / 100 / 150 coins', () => {
-    const { v2 } = load();
-    const V = v2.VAULT;
-    const state = () => [V.hasGoldKart(), V.hasPlasmaTrails(), V.hasMasterBadge()];
-    V.coins = 49; assert.deepEqual(state(), [false, false, false]);
-    V.coins = 50; assert.deepEqual(state(), [true, false, false]);
-    V.coins = 100; assert.deepEqual(state(), [true, true, false]);
-    V.coins = 150; assert.deepEqual(state(), [true, true, true]);
-  });
-
-  test('coins are whole, never negative, and persisted', () => {
-    const { v2, store } = load();
-    v2.VAULT.add(7.9);
-    assert.equal(v2.VAULT.coins, 7);
-    v2.VAULT.coins = -20;
-    assert.equal(v2.VAULT.coins, 0);
-    assert.equal(store.data['wheeliefun.vault'], '0');
-  });
-
-  test('unlockAll unlocks everything and tops coins up to 200', () => {
-    const { v2 } = load();
-    v2.VAULT.coins = 20;
-    v2.VAULT.unlockAll();
-    assert.equal(v2.VAULT.coins, 200);
-    assert.ok(v2.VAULT.hasMasterBadge());
   });
 });
 

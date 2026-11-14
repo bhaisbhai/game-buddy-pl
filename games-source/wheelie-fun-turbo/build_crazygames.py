@@ -32,8 +32,7 @@ TRACK_IDS = [
 FIXED_KEYS = [
     "wheeliefun.unlockedCups", "wheeliefun.diff", "wheeliefun.cc", "wheeliefun.items",
     "tikiturbo.gfx", "wheeliefun.frame", "wheeliefun.tire", "wheeliefun.glider",
-    "wheeliefun.goldSkin", "wheeliefun.garageSeen", "wheeliefun.seenCtrlTut", "wheeliefun.vault",
-    "wheeliefun.unlockAll", "wheeliefun.onlineName", "tikiturbo.bestlap",
+    "wheeliefun.garageSeen", "wheeliefun.seenCtrlTut", "wheeliefun.onlineName", "tikiturbo.bestlap",
 ]
 
 SAVE_BRIDGE_TAG = """<script>

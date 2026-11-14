@@ -3417,20 +3417,6 @@ window.registerWheelieNewTracks = function (api) {
       frame: savedIdx('wheeliefun.frame', GARAGE_FRAMES.length),
       tire: savedIdx('wheeliefun.tire', GARAGE_TIRES.length),
       glider: savedIdx('wheeliefun.glider', GARAGE_GLIDERS.length),
-      goldSkin: store.get('wheeliefun.goldSkin') === '1',
-    };
-
-    const GOLD_COINS = 50;
-    const VAULT = {
-      get coins() { return parseInt(store.get('wheeliefun.vault') || '0', 10) || 0; },
-      set coins(v) { store.set('wheeliefun.vault', String(Math.max(0, Math.floor(v)))); },
-      get unlockedAll() { return store.get('wheeliefun.unlockAll') === '1'; },
-      set unlockedAll(v) { store.set('wheeliefun.unlockAll', v ? '1' : '0'); },
-      add(n) { this.coins = this.coins + n; updateVaultUI(); },
-      hasGoldKart() { return this.unlockedAll || this.coins >= GOLD_COINS; },
-      hasPlasmaTrails() { return this.unlockedAll || this.coins >= 100; },
-      hasMasterBadge() { return this.unlockedAll || this.coins >= 150; },
-      unlockAll() { this.unlockedAll = true; this.coins = Math.max(this.coins, 200); updateVaultUI(); },
     };
 
     function getCC() { return CC_CONFIG[curCC] || CC_CONFIG['150cc']; }
@@ -3453,28 +3439,12 @@ window.registerWheelieNewTracks = function (api) {
       const ab = document.getElementById('atlasCcBtn');
       if (ab) ab.textContent = (cfg.mirror ? '🪞 ' : '⚡ ') + cfg.label;
     }
-    function updateVaultUI() {
-      const el = document.getElementById('vaultBadge');
-      if (!el) return;
-      const c = VAULT.coins;
-      const perks = [];
-      if (VAULT.hasGoldKart()) perks.push('✨ Gold Chassis');
-      if (VAULT.hasPlasmaTrails()) perks.push('⚡ Plasma Trails');
-      if (VAULT.hasMasterBadge()) perks.push('👑 200cc Ace');
-      el.innerHTML = `🪙 Vault: <b>${c}</b> coins` + (perks.length ? ` · Unlocked: <b>${perks.join(' · ')}</b>` : ' · <i>50🪙 unlocks Gold Chassis!</i>');
-    }
-
     G.cc = curCC;
     G.mirror = !!CC_CONFIG[curCC].mirror;
 
     // ------------------------------------------------------------------------
     // 6A. Stylized Rim-Light Pop Shader on Karts & Drivers
     // ------------------------------------------------------------------------
-    const goldPaintMat = new THREE.MeshStandardMaterial({
-      color: 0xffd24a, roughness: 0.16, metalness: 0.88,
-      envMap: paintMat.envMap, envMapIntensity: 1.75,
-    });
-
     function enhanceKartShader(mat, rimStrength) {
       mat.onBeforeCompile = (sh) => {
         sh.fragmentShader = sh.fragmentShader.replace(
@@ -3489,7 +3459,6 @@ window.registerWheelieNewTracks = function (api) {
     }
     enhanceKartShader(paintMat, 0.28);
     enhanceKartShader(skinMat, 0.20);
-    enhanceKartShader(goldPaintMat, 0.34);
 
     // ------------------------------------------------------------------------
     // 6B. Procedural Tangent-Space Road Normal Map Generator
@@ -3597,7 +3566,7 @@ window.registerWheelieNewTracks = function (api) {
           const sx = Math.sin(k.heading), cx = Math.cos(k.heading), rx = -cx, rz = sx;
           const boosting = k.boostT > 0 || k.hyperT > 0 || (k.spinBoostT || 0) > 0;
           if (boosting && Math.abs(k.speed) > 12) {
-            const plasma = VAULT.hasPlasmaTrails() || (k.spinBoostT || 0) > 0 || k.antiGrav;
+            const plasma = (k.spinBoostT || 0) > 0 || k.antiGrav;
             const c = k.hyperT > 0
               ? new THREE.Color().setHSL((G.time * 2.2) % 1, 1, 0.6)
               : plasma ? new THREE.Color(0.2, 0.92, 1.0) : new THREE.Color(1.0, 0.52, 0.14);
@@ -3677,14 +3646,13 @@ window.registerWheelieNewTracks = function (api) {
 
     function getPartsForKart(human, pi, aiIdx) {
       if (human && !garageUnlocked()) {
-        return { frame: GARAGE_FRAMES[0], tire: GARAGE_TIRES[0], glider: GARAGE_GLIDERS[0], gold: false };
+        return { frame: GARAGE_FRAMES[0], tire: GARAGE_TIRES[0], glider: GARAGE_GLIDERS[0] };
       }
       if (human) {
         return {
           frame: GARAGE_FRAMES[loadout.frame] || GARAGE_FRAMES[0],
           tire: GARAGE_TIRES[loadout.tire] || GARAGE_TIRES[0],
           glider: GARAGE_GLIDERS[loadout.glider] || GARAGE_GLIDERS[0],
-          gold: loadout.goldSkin && VAULT.hasGoldKart(),
         };
       }
       const seed = Math.abs(aiIdx || 0);
@@ -3692,17 +3660,15 @@ window.registerWheelieNewTracks = function (api) {
         frame: GARAGE_FRAMES[seed % GARAGE_FRAMES.length],
         tire: GARAGE_TIRES[(seed * 3 + 1) % GARAGE_TIRES.length],
         glider: GARAGE_GLIDERS[(seed * 2) % GARAGE_GLIDERS.length],
-        gold: false,
       };
     }
 
     function applyGarageVisuals(v, parts) {
       if (!v || !parts) return;
       const fr = parts.frame, tr = parts.tire, gl = parts.glider;
-      // Optional Golden Chassis unlock skin
       const chassisMesh = v.body.children[0];
       if (chassisMesh && chassisMesh.isMesh) {
-        chassisMesh.material = parts.gold ? goldPaintMat : paintMat;
+        chassisMesh.material = paintMat;
         chassisMesh.scale.set(fr.id === 'moto' ? 0.54 : fr.id === 'coupe' ? 1.08 : 1, fr.id === 'coupe' ? 0.86 : 1, 1);
       }
       if (v.frameExtra) { v.body.remove(v.frameExtra); v.frameExtra = null; }
@@ -4141,16 +4107,13 @@ window.registerWheelieNewTracks = function (api) {
         const st = document.createElement('style');
         st.id = 'wf-v2-style';
         st.textContent = `
-.garageBar{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;background:var(--panel);border:2px solid rgba(255,255,255,.14);border-radius:16px;padding:9px 12px;align-items:center}
+.garageBar{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;background:var(--panel);border:2px solid rgba(255,255,255,.14);border-radius:16px;padding:9px 12px;align-items:center}
 .gSlot{display:flex;flex-direction:column;gap:3px;border-radius:12px;padding:2px 4px;border:2px solid transparent}.gSlot.gfocus{border-color:var(--ember);box-shadow:0 0 14px rgba(255,178,46,.45)}.gHint{grid-column:1/-1;font-size:11px;color:var(--muted);text-align:center}.gHint em{color:var(--ember);font-style:normal;font-weight:700}.garageBar.locked{display:block}.gLocked{font-size:13px;color:var(--muted);text-align:center;padding:6px}.gLocked b{color:var(--cream)}.gLocked span{color:var(--ember)}
 .gSlot small{font-family:var(--display);font-size:10px;letter-spacing:.08em;color:var(--lagoon)}
 .gSpin{display:flex;align-items:center;justify-content:space-between;gap:4px;background:rgba(255,255,255,.07);border-radius:10px;padding:4px 6px}
 .gSpin button{border:0;background:rgba(255,178,46,.22);color:var(--cream);font-family:var(--display);font-size:12px;width:24px;height:24px;border-radius:6px;cursor:pointer}
 .gSpin button:hover{background:var(--ember);color:var(--night)}
 .gSpin b{font-size:12.5px;font-weight:700;text-align:center;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.vaultLine{font-size:14px;color:var(--muted);font-weight:500}
-.vaultLine::before{content:'·';margin:0 10px;opacity:.5}
-.vaultLine b{color:var(--ember)}
 .btn.tt{background:var(--panel);color:var(--cream);border:2px solid rgba(255,244,223,.55);box-shadow:0 5px 0 rgba(0,0,0,.45),0 8px 16px rgba(0,0,0,.3);font-size:clamp(13px,1.3vw,16px);font-weight:700;padding:12px 22px 10px}
 .btn.tt:hover,.btn.tt.focus{background:rgba(58,33,86,.95);border-color:var(--ember)}
 @media (max-width:760px){.garageBar{grid-template-columns:repeat(2,1fr)}}
@@ -4176,14 +4139,6 @@ window.registerWheelieNewTracks = function (api) {
         cb.dataset.act = 'cc';
         diffBtn.insertAdjacentElement('beforebegin', cb);
       }
-      const padInfo = document.getElementById('padInfo');
-      if (padInfo && !document.getElementById('vaultBadge')) {
-        const vb = document.createElement('span');
-        vb.className = 'vaultLine';
-        vb.id = 'vaultBadge';
-        padInfo.appendChild(vb);
-      }
-
       // Add Class badge button in Track Atlas bar
       const atlasTabs = document.getElementById('atlasTabs');
       if (atlasTabs && !document.getElementById('atlasCcBtn')) {
@@ -4218,18 +4173,12 @@ window.registerWheelieNewTracks = function (api) {
           } else if (part === 'glider') {
             loadout.glider = (loadout.glider + dir + GARAGE_GLIDERS.length) % GARAGE_GLIDERS.length;
             store.set('wheeliefun.glider', String(loadout.glider));
-          } else if (part === 'gold') {
-            if (VAULT.hasGoldKart()) { // earned at GOLD_COINS vault coins; no free unlock
-              loadout.goldSkin = !loadout.goldSkin;
-              store.set('wheeliefun.goldSkin', loadout.goldSkin ? '1' : '0');
-            }
           }
           renderGarageBar();
           api.refreshPreviewGarage();
         });
       }
       updateCCButtons();
-      updateVaultUI();
       renderGarageBar();
     }
 
@@ -4244,12 +4193,10 @@ window.registerWheelieNewTracks = function (api) {
       bar.classList.remove('locked');
       const isNew = store.get('wheeliefun.garageSeen') !== '1';
       const fr = GARAGE_FRAMES[loadout.frame], tr = GARAGE_TIRES[loadout.tire], gl = GARAGE_GLIDERS[loadout.glider];
-      const goldTxt = loadout.goldSkin && VAULT.hasGoldKart() ? '✨ Gold Paint ON' : (VAULT.hasGoldKart() ? 'Paint: Standard' : `🔒 Gold at ${GOLD_COINS} coins · ${Math.min(VAULT.coins, GOLD_COINS)}/${GOLD_COINS}`);
       bar.innerHTML = `
         <div class="gSlot"><small>CHASSIS FRAME</small><div class="gSpin"><button type="button" data-gpart="frame" data-gdir="-1">◀</button><b>${fr.name}</b><button type="button" data-gpart="frame" data-gdir="1">▶</button></div></div>
         <div class="gSlot"><small>TIRES</small><div class="gSpin"><button type="button" data-gpart="tire" data-gdir="-1">◀</button><b>${tr.name}</b><button type="button" data-gpart="tire" data-gdir="1">▶</button></div></div>
         <div class="gSlot"><small>GLIDER</small><div class="gSpin"><button type="button" data-gpart="glider" data-gdir="-1">◀</button><b>${gl.name}</b><button type="button" data-gpart="glider" data-gdir="1">▶</button></div></div>
-        <div class="gSlot"><small>VAULT CUSTOM</small><div class="gSpin"><button type="button" data-gpart="gold" data-gdir="1" style="width:100%">${goldTxt}</button></div></div>
         <div class="gHint">${isNew ? '<em>NEW! Garage unlocked</em> · ' : ''}Controller: ▲ from the racers, ◀ ▶ pick a part, Ⓐ change it, ▼ back</div>
       `;
     }
@@ -4265,16 +4212,14 @@ window.registerWheelieNewTracks = function (api) {
       ANTIGRAV,
       RIBBONS,
       GHOSTS,
-      VAULT,
       loadout,
       getCC,
       setCC,
       cycleCC,
-      setLoadout(f, t, g, gold) {
+      setLoadout(f, t, g) {
         if (f != null) loadout.frame = ((f % GARAGE_FRAMES.length) + GARAGE_FRAMES.length) % GARAGE_FRAMES.length;
         if (t != null) loadout.tire = ((t % GARAGE_TIRES.length) + GARAGE_TIRES.length) % GARAGE_TIRES.length;
         if (g != null) loadout.glider = ((g % GARAGE_GLIDERS.length) + GARAGE_GLIDERS.length) % GARAGE_GLIDERS.length;
-        if (gold != null) loadout.goldSkin = !!gold;
         renderGarageBar();
       },
       getPartsForKart,
@@ -4308,7 +4253,6 @@ window.registerWheelieNewTracks = function (api) {
       playFrontrunLayer,
       updateTvReplayCam,
       renderGarageBar,
-      updateVaultUI,
     };
   };
 })();
@@ -10560,7 +10504,7 @@ function afterKarts(dt){
   for(const k of G.karts){if(k.respawnT>0)continue;
     for(const b of boxes){if(b.t>0)continue;const dx=b.x-k.x,dz=b.z-k.z;if(dx*dx+dz*dz<9&&Math.abs(b.y-k.y-1.5)<3){b.t=3.5;b.m.visible=false;burst(FX,b.x,b.y,b.z,20,14,.5,1,.6,.9,1);
         if((!k.item||!k.item2)&&k.rollT<=0){k.rollSlot=k.item?2:1;k.rollT=k.human?1.1:.6;if(k.human)SFX.item();}}}
-    for(const c of coins){if(c.t>0)continue;const dx=c.x-k.x,dz=c.z-k.z;if(dx*dx+dz*dz<7&&Math.abs(H[c.i]-k.y)<3){c.t=12;c.m.visible=false;k.coins=Math.min(10,k.coins+1);if(k.human){SFX.coin();if(window.WFV2)WFV2.VAULT.add(1);}burst(FX,c.x,H[c.i]+1.5,c.z,8,8,.35,.8,1,.85,.2);}}
+    for(const c of coins){if(c.t>0)continue;const dx=c.x-k.x,dz=c.z-k.z;if(dx*dx+dz*dz<7&&Math.abs(H[c.i]-k.y)<3){c.t=12;c.m.visible=false;k.coins=Math.min(10,k.coins+1);if(k.human)SFX.coin();burst(FX,c.x,H[c.i]+1.5,c.z,8,8,.35,.8,1,.85,.2);}}
     for(let gI=goos.length-1;gI>=0;gI--){const g=goos[gI];if(g.owner===k&&g.t<.6)continue;const dx=g.x-k.x,dz=g.z-k.z;if(g.kind==='mine'){if(g.t>1.2&&dx*dx+dz*dz<16&&(g.y==null||Math.abs(g.y-k.y)<4)){goos.splice(gI,1);mineBoom(g);}continue;}if(dx*dx+dz*dz<(g.kind==='tiffin'?6.2:18.5)&&k.onGround&&(g.y==null||Math.abs(g.y-k.y)<3)){if(g.kind==='tiffin'){stink(k);scene.remove(g.m);goos.splice(gI,1);continue;}if(hit(k,g.owner)){scene.remove(g.m);goos.splice(gI,1);burst(SMOKE,g.x,k.y+.5,g.z,14,8,.6,1.6,.45,.8,.2,8,4);}}}}
   for(const g of goos){g.t+=dt;if(g.i==null&&!G.battle){let best=1e9;for(let i=0;i<N;i+=2){const q=(TP[i].x-g.x)**2+(TP[i].z-g.z)**2;if(q<best){best=q;g.i=i;}}g.lat=(g.x-TP[g.i].x)*TR[g.i].x+(g.z-TP[g.i].z)*TR[g.i].z;}}
   // bees
@@ -11000,7 +10944,7 @@ const COMETS=[];
 function attach(k,key,geo,mat,pos){if(!k.v[key]){const m=new THREE.Mesh(geo,mat||vcPhong);k.v.root.add(m);k.v[key]=m;if(pos)m.position.set(...pos);}k.v[key].visible=true;return k.v[key];}
 function detach(k,key){if(k.v[key])k.v[key].visible=false;}
 function othersAhead(k){return G.karts.filter(q=>q!==k&&!q.out&&!q.finished&&q.respawnT<=0&&(G.battle||q.rank<k.rank));}
-function giveCoins(k,n){k.coins=Math.min(10,k.coins+n);if(k.human&&window.WFV2&&n>0)WFV2.VAULT.add(n);}
+function giveCoins(k,n){k.coins=Math.min(10,k.coins+n);}
 // --- using the new items (returns true if it handled it) ---
 function useNewItem(k,it){if(useBattleItem(k,it))return true;if(useExtraItem(k,it))return true;if(it==='slowmo'){slowMotion(k);return true;}if(it==='swap'){teleportSwap(k);return true;}if(it==='jumbo'){jumbo(k);k.item=null;return true;}if(it==='slap'){bigSlap(k);k.item=null;return true;}if(it==='sun'){sunshine(k);k.item=null;return true;}
   const take=()=>{k.itemN--;if(k.itemN<=0){k.item=null;k.itemN=0;}};

@@ -932,18 +932,6 @@ function phoneConnect(){if(PL.ws||PL.peer)return;
     )
     html = must_replace(
         html,
-        "c.t=12;c.m.visible=false;k.coins=Math.min(10,k.coins+1);if(k.human)SFX.coin();",
-        "c.t=12;c.m.visible=false;k.coins=Math.min(10,k.coins+1);if(k.human){SFX.coin();if(window.WFV2)WFV2.VAULT.add(1);}",
-        "coin_vault_pickup",
-    )
-    html = must_replace(
-        html,
-        "function giveCoins(k,n){k.coins=Math.min(10,k.coins+n);}",
-        "function giveCoins(k,n){k.coins=Math.min(10,k.coins+n);if(k.human&&window.WFV2&&n>0)WFV2.VAULT.add(n);}",
-        "give_coins_vault",
-    )
-    html = must_replace(
-        html,
         "if(LR.hazard)LR.hazard(dt);if(!G.battle)featTick(dt);strikeTick(dt);projTick(dt);duckTick(dt);extraTick(dt);battleItemTick(dt);sunTick(dt);jumboTick(dt);",
         "if(LR.hazard)LR.hazard(dt);if(!G.battle)featTick(dt);strikeTick(dt);projTick(dt);duckTick(dt);extraTick(dt);battleItemTick(dt);sunTick(dt);jumboTick(dt);trailAndOrbitTick(dt);if(window.WFV2){WFV2.tickAntiGrav(dt);WFV2.tickTimeTrial(dt);}if(window.WFOnline&&WFOnline.isOnline())WFOnline.tick(dt);",
         "after_karts_trail_online",
