@@ -168,10 +168,11 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 /* character select */
 #select{align-items:flex-end}
 .selBackBtn{position:absolute;left:calc(24px + env(safe-area-inset-left,0px));top:calc(24px + env(safe-area-inset-top,0px));padding:10px 18px;font-size:14px;z-index:2}
-/* mirrors .selBackBtn on the opposite corner, so Back/confirm stay in the same reachable spot
-regardless of how tall the stat card below gets -- it used to sit at the bottom of that card,
-which buried it under the stat bars on longer blurbs/signature text. */
-.selGoBtn{position:absolute;right:calc(24px + env(safe-area-inset-right,0px));top:calc(24px + env(safe-area-inset-top,0px));padding:10px 18px;font-size:14px;z-index:2}
+/* touch only -- mirrors .selBackBtn on the opposite corner, so Back/confirm stay in the same
+reachable spot regardless of how tall the stat card below gets. Desktop skips the confirm step
+entirely (a click already commits), so this would just be unnecessary friction there. */
+.selGoBtn{display:none;position:absolute;right:calc(24px + env(safe-area-inset-right,0px));top:calc(24px + env(safe-area-inset-top,0px));padding:10px 18px;font-size:14px;z-index:2}
+@media (pointer:coarse){.selGoBtn{display:flex}}
 .selWrap{width:100%;max-width:980px;display:flex;flex-direction:column;gap:14px}
 .selHead{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .selHead h2{font-family:var(--display);font-weight:400;margin:0;font-size:clamp(22px,3vw,34px);color:var(--cream);text-shadow:0 4px 0 var(--night)}
@@ -5448,11 +5449,12 @@ addEventListener('gamepadconnected',updatePadInfo);addEventListener('gamepaddisc
 function charLocked(i){return i>=4&&unlockedCupCount()<i-2;}
 function buildGrid(){G.garFocus=null;if(window.WFV2&&WFV2.renderGarageBar)WFV2.renderGarageBar(); /* garage lock + coins may have changed since the last visit */const g=$('#grid');g.innerHTML='';const tk=new Set(G.sel.slice(0,G.selP));const taken=G.selP>0?G.sel[0]:-1;
   CHARS.forEach((c,i)=>{const locked=charLocked(i);const b=document.createElement('button');b.className='ch'+(tk.has(i)?' taken':'')+(locked?' locked':'');b.innerHTML=`<span class="sw" style="background:${hexCss(c.kart)}"></span>${c.name}`;
-    /* a real pointer click (mouse or touch) just previews, same on every platform -- picking
-    still needs the confirm button below. Only a synthetic click (e.isTrusted===false), which is
-    how keyboard Enter / gamepad A reach here via activate()'s f.click(), commits immediately:
-    those players already moved focus deliberately, and there's no separate button to reach them. */
-    b.addEventListener('click',e=>{if(tk.has(i)||locked)return;if(e.isTrusted){G.focus=i;SFX.menu&&AU.ctx&&SFX.menu();refreshFocus();}else commitPick(i);});
+    /* touch just previews (there's no hover to preview with first, so tapping a racer by
+    mistake and immediately locking it in was too easy) -- picking still needs the confirm
+    button below. Desktop keeps the original single-click-commits behavior: a mouse click is a
+    deliberate choice, hovering already previewed it, and the confirm button was extra friction
+    for no benefit there -- mistakes are a click away from fixing via the Back button anyway. */
+    b.addEventListener('click',()=>{if(tk.has(i)||locked)return;if(isTouch){G.focus=i;SFX.menu&&AU.ctx&&SFX.menu();refreshFocus();}else commitPick(i);});
     b.addEventListener('mouseenter',()=>{G.focus=i;refreshFocus();});g.appendChild(b);});
   const who=G.bind&&G.bind[G.selP]?' <small style="opacity:.7">('+G.bind[G.selP].label+')</small>':'';$('#selTitle').innerHTML=`<em style="color:${G.mode>1?PCOL[G.selP]:''}">P${G.selP+1}</em> Pick your racer${who}`;G.focus=G.sel[G.selP]!=null&&!tk.has(G.sel[G.selP])&&!charLocked(G.sel[G.selP])?G.sel[G.selP]:0;while(tk.has(G.focus)||charLocked(G.focus))G.focus=(G.focus+1)%CHARS.length;refreshFocus();}
 function updateWho(){const c=CHARS[G.focus];if(!c)return;setPreview(G.focus);const lab=['Speed','Accel','Handling','Weight'];
