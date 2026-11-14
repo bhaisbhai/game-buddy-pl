@@ -184,6 +184,8 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .ch.focus{border-color:var(--ember);transform:translateY(-4px);background:rgba(255,178,46,.15)}
 .ch.taken{opacity:.45}
 .ch.taken::after{content:'P1';font-family:var(--display);font-size:10px;color:var(--ember)}
+.ch.locked{opacity:.45;cursor:default}
+.ch.locked::after{content:'🔒';font-size:12px}
 @media (max-width:720px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 /* results */
 .res{width:100%;border-collapse:collapse;margin:8px 0 20px;font-variant-numeric:tabular-nums}
@@ -5421,15 +5423,18 @@ function pollMenuPads(){if(BLOCK.includes(G.state)){padPrev.length=0;return;}
     if(now.a&&!pr.a){audioInit();activate();}if(now.b&&!pr.b)back();if(now.st&&!pr.st&&G.state==='paused')resume();padPrev[i]=now;});}
 function updatePadInfo(){const n=pads().length;$('#d1').className='dot'+(n>0?' on':'');$('#d2').className='dot'+(n>1?' on':'');$('#padTxt').innerHTML=n?`<b>${n} controller${n>1?'s':''}</b> connected`:'Press any button on a controller to connect it';}
 addEventListener('gamepadconnected',updatePadInfo);addEventListener('gamepaddisconnected',updatePadInfo);
+// roster unlock: the first 4 racers are free; each one after that needs one more cup win than
+// the last (same "winning a cup unlocks more" rule tracks already use, just one racer at a time).
+function charLocked(i){return i>=4&&unlockedCupCount()<i-2;}
 function buildGrid(){G.garFocus=null;if(window.WFV2&&WFV2.renderGarageBar)WFV2.renderGarageBar(); /* garage lock + coins may have changed since the last visit */const g=$('#grid');g.innerHTML='';const tk=new Set(G.sel.slice(0,G.selP));const taken=G.selP>0?G.sel[0]:-1;
-  CHARS.forEach((c,i)=>{const b=document.createElement('button');b.className='ch'+(tk.has(i)?' taken':'');b.innerHTML=`<span class="sw" style="background:${hexCss(c.kart)}"></span>${c.name}`;
-    b.addEventListener('click',()=>{if(tk.has(i))return;if(isTouch){G.focus=i;SFX.menu&&AU.ctx&&SFX.menu();refreshFocus();}else commitPick(i);});
+  CHARS.forEach((c,i)=>{const locked=charLocked(i);const b=document.createElement('button');b.className='ch'+(tk.has(i)?' taken':'')+(locked?' locked':'');b.innerHTML=`<span class="sw" style="background:${hexCss(c.kart)}"></span>${c.name}`;
+    b.addEventListener('click',()=>{if(tk.has(i)||locked)return;if(isTouch){G.focus=i;SFX.menu&&AU.ctx&&SFX.menu();refreshFocus();}else commitPick(i);});
     b.addEventListener('mouseenter',()=>{G.focus=i;refreshFocus();});g.appendChild(b);});
-  const who=G.bind&&G.bind[G.selP]?' <small style="opacity:.7">('+G.bind[G.selP].label+')</small>':'';$('#selTitle').innerHTML=`<em style="color:${G.mode>1?PCOL[G.selP]:''}">P${G.selP+1}</em> Pick your racer${who}`;G.focus=G.sel[G.selP]!=null&&!tk.has(G.sel[G.selP])?G.sel[G.selP]:0;while(tk.has(G.focus))G.focus=(G.focus+1)%CHARS.length;refreshFocus();}
+  const who=G.bind&&G.bind[G.selP]?' <small style="opacity:.7">('+G.bind[G.selP].label+')</small>':'';$('#selTitle').innerHTML=`<em style="color:${G.mode>1?PCOL[G.selP]:''}">P${G.selP+1}</em> Pick your racer${who}`;G.focus=G.sel[G.selP]!=null&&!tk.has(G.sel[G.selP])&&!charLocked(G.sel[G.selP])?G.sel[G.selP]:0;while(tk.has(G.focus)||charLocked(G.focus))G.focus=(G.focus+1)%CHARS.length;refreshFocus();}
 function updateWho(){const c=CHARS[G.focus];if(!c)return;setPreview(G.focus);const lab=['Speed','Accel','Handling','Weight'];
   $('#who').innerHTML=`<div class="nm" style="color:${hexCss(c.kart)}">${c.name}</div><div class="sp">${c.blurb}</div>`+c.st.map((v,i)=>`<div class="stat">${lab[i]}<i><u style="width:${Math.min(100,v*20)}%${v>5?';background:linear-gradient(90deg,#ffd23f,#fff4a8)':''}"></u></i></div>`).join('');}
 // touch taps a racer to preview it (see updateWho); this actually locks it in and advances, same as a desktop click always did
-function commitPick(i){G.sel[G.selP]=i;SFX.box();if(G.selP+1<G.mode){G.selP++;buildGrid();}else{G.humans=G.sel.slice(0,G.mode);if(G.battleNext)goArenas();else goTracks();}}
+function commitPick(i){if(charLocked(i))return;G.sel[G.selP]=i;SFX.box();if(G.selP+1<G.mode){G.selP++;buildGrid();}else{G.humans=G.sel.slice(0,G.mode);if(G.battleNext)goArenas();else goTracks();}}
 function confirmSelect(){const tk=new Set(G.sel.slice(0,G.selP));if(tk.has(G.focus))return;commitPick(G.focus);}
 function goSelect(mode){G.mode=mode;G.selP=0;G.state='select';show('select');buildGrid();}
 // ---- multiplayer lobby: controllers press X, keyboards press Enter / Right Shift, phones scan the QR code ----
