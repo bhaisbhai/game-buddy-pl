@@ -211,23 +211,10 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .qual{display:inline-block;padding:2px 10px;border-radius:6px;margin-right:6px;font-size:15px}.qual.ok{background:#2f9e44;color:#fff}.qual.no{background:#c8202a;color:#fff}
 .res i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:8px;vertical-align:-1px}
 .rec{font-family:var(--display);color:var(--lagoon);font-size:14px;letter-spacing:.05em;min-height:1em;margin-bottom:12px}
-/* touch */
-.touch{position:fixed;inset:auto 0 0 0;height:42%;pointer-events:none;display:none}
+/* touch: whole screen is the control -- drag anywhere to steer, quick tap anywhere fires the item */
+.touch{position:fixed;inset:0;pointer-events:none;display:none}
 .touch.on{display:block}
-.tb{position:absolute;pointer-events:auto;border-radius:50%;background:rgba(26,15,43,.45);border:3px solid rgba(255,244,223,.45);color:var(--cream);font-family:var(--display);font-size:14px;display:grid;place-items:center;touch-action:none}
-.tb.down{background:rgba(255,91,31,.6)}
-.joyZone{position:absolute;left:0;bottom:0;width:calc(100% - 206px - env(safe-area-inset-right,0px));height:100%;pointer-events:auto;touch-action:none}
-.joyHint{position:absolute;left:76px;bottom:calc(42px + env(safe-area-inset-bottom,0px));width:120px;height:120px;margin:0 0 0 -60px;border-radius:50%;border:3px dashed rgba(255,244,223,.4);display:flex;align-items:center;justify-content:center;pointer-events:none}
-.joyHint::after{content:'';width:44px;height:44px;border-radius:50%;background:rgba(255,244,223,.22)}
-.joyHint.hide{opacity:0}
-.joyBase{position:absolute;left:0;top:0;width:128px;height:128px;margin:-64px 0 0 -64px;border-radius:50%;background:rgba(26,15,43,.4);border:3px solid rgba(255,244,223,.4);opacity:0}
-.joyBase.show{opacity:1}
-.joyKnob{position:absolute;left:50%;top:50%;width:56px;height:56px;margin:-28px 0 0 -28px;border-radius:50%;background:rgba(255,244,223,.55);border:3px solid rgba(255,244,223,.7)}
-.joyKnob.active{background:rgba(255,91,31,.7)}
-#tD{right:calc(16px + env(safe-area-inset-right,0px));bottom:calc(26px + env(safe-area-inset-bottom,0px));width:92px;height:92px}
-#tI{right:calc(122px + env(safe-area-inset-right,0px));bottom:calc(60px + env(safe-area-inset-bottom,0px));width:70px;height:70px}
-#tB{right:calc(40px + env(safe-area-inset-right,0px));bottom:calc(132px + env(safe-area-inset-bottom,0px));width:60px;height:60px;font-size:11px}
-#tH{right:calc(110px + env(safe-area-inset-right,0px));bottom:calc(150px + env(safe-area-inset-bottom,0px));width:60px;height:60px;font-size:11px}
+.simpleZone{position:absolute;inset:0;pointer-events:auto;touch-action:none}
 .hint{position:fixed;left:50%;bottom:calc(12px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);font-size:13px;color:var(--muted);background:var(--panel);padding:6px 12px;border-radius:9px;white-space:nowrap}
 #loading{position:fixed;inset:0;display:grid;place-items:center;font-family:var(--display);font-size:22px;color:var(--ember);background:var(--night)}
 @media (prefers-reduced-motion:reduce){.msg,.btn,.ch{transition:none}}
@@ -592,9 +579,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 </div>
 
 <div class="touch" id="touch">
-  <div class="joyZone" id="joyZone"><div class="joyHint" id="joyHint"></div><div class="joyBase" id="joyBase"><div class="joyKnob" id="joyKnob"></div></div></div>
-  <div class="tb" id="tD">DRIFT</div><div class="tb" id="tI">ITEM</div>
-  <div class="tb" id="tB">BRAKE</div><div class="tb" id="tH">HYPE</div>
+  <div class="simpleZone" id="simpleZone"></div>
 </div>
 <div id="loading">Warming up the volcano…</div>
 
@@ -7144,17 +7129,18 @@ const touch={steer:0,l:0,r:0,drift:0,item:0,brake:0,hype:0,look:0,aimF:0,on:fals
 for(const[id,k]of[['tL','l'],['tR','r'],['tD','drift'],['tI','item'],['tB','brake'],['tH','hype']]){const el=document.getElementById(id);if(!el)continue;
   const dn=e=>{e.preventDefault();audioInit();touch[k]=1;el.classList.add('down');},up=e=>{e.preventDefault();touch[k]=0;el.classList.remove('down');};
   el.addEventListener('pointerdown',dn);el.addEventListener('pointerup',up);el.addEventListener('pointercancel',up);el.addEventListener('pointerleave',up);}
-// floating analog joystick: appears wherever the thumb lands in the left touch zone, rather than
-// a fixed-position stick, since a pinned stick drifts out from under the thumb on long holds.
-{const zone=document.getElementById('joyZone'),base=document.getElementById('joyBase'),knob=document.getElementById('joyKnob'),hint=document.getElementById('joyHint');
-  // JR is how far the knob graphic can travel; STEER_R is the (smaller) drag distance that already
-  // reaches full steering lock, so hard corners don't need a drag all the way out to the knob's edge.
-  const JR=52,STEER_R=30,DEAD=.1;let jId=null,jx=0,jy=0;
-  const setKnob=(dx,dy)=>{knob.style.transform='translate('+dx+'px,'+dy+'px)';};
-  const jDown=e=>{if(jId!=null)return;e.preventDefault();audioInit();jId=e.pointerId;jx=e.clientX;jy=e.clientY;base.style.left=jx+'px';base.style.top=jy+'px';base.classList.add('show');knob.classList.add('active');hint.classList.add('hide');try{zone.setPointerCapture(jId);}catch(err){}};
-  const jMove=e=>{if(jId==null||e.pointerId!==jId)return;e.preventDefault();let dx=e.clientX-jx,dy=e.clientY-jy;const d=Math.hypot(dx,dy);if(d>JR){dx=dx/d*JR;dy=dy/d*JR;}setKnob(dx,dy);const v=dx/STEER_R;touch.steer=Math.abs(v)<DEAD?0:clamp(Math.sign(v)*(Math.abs(v)-DEAD)/(1-DEAD),-1,1);};
-  const jUp=e=>{if(jId==null||e.pointerId!==jId)return;jId=null;base.classList.remove('show');knob.classList.remove('active');hint.classList.remove('hide');setKnob(0,0);touch.steer=0;};
-  zone.addEventListener('pointerdown',jDown);zone.addEventListener('pointermove',jMove);zone.addEventListener('pointerup',jUp);zone.addEventListener('pointercancel',jUp);}
+// simplified mobile scheme: the whole screen is one surface. Dragging anywhere steers (same
+// feel as the old joystick -- STEER_R is the drag distance that already reaches full lock), and a
+// quick tap that never turns into a drag fires the held item, so "tap the kart" works from anywhere
+// since the chase camera keeps it in roughly the same spot on screen anyway.
+{const zone=document.getElementById('simpleZone');
+  const STEER_R=30,DEAD=.1,TAP_MOVE=14,TAP_TIME=300;let jId=null,jx=0,jy=0,jt=0,moved=0;
+  const jDown=e=>{if(jId!=null)return;e.preventDefault();audioInit();jId=e.pointerId;jx=e.clientX;jy=e.clientY;jt=performance.now();moved=0;try{zone.setPointerCapture(jId);}catch(err){}};
+  const jMove=e=>{if(jId==null||e.pointerId!==jId)return;e.preventDefault();const dx=e.clientX-jx,dy=e.clientY-jy;moved=Math.max(moved,Math.hypot(dx,dy));const v=dx/STEER_R;touch.steer=Math.abs(v)<DEAD?0:clamp(Math.sign(v)*(Math.abs(v)-DEAD)/(1-DEAD),-1,1);};
+  const jUp=e=>{if(jId==null||e.pointerId!==jId)return;jId=null;touch.steer=0;
+    if(moved<TAP_MOVE&&performance.now()-jt<TAP_TIME){touch.item=1;setTimeout(()=>touch.item=0,150);}};
+  const jCancel=()=>{jId=null;touch.steer=0;};
+  zone.addEventListener('pointerdown',jDown);zone.addEventListener('pointermove',jMove);zone.addEventListener('pointerup',jUp);zone.addEventListener('pointercancel',jCancel);}
 // phones (joined through wheelie_phones.py on the laptop) appear as extra virtual gamepads, so menus and races treat them like a DualShock
 const PHONES=new Map();
 function pads(){const out=[];const g=navigator.getGamepads?navigator.getGamepads():[];for(const p of g)if(p&&p.connected)out.push(p);for(const ph of PHONES.values())if(ph.on)out.push(ph.pad);return out;}
