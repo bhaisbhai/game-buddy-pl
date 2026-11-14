@@ -1,96 +1,61 @@
 {
   "slug": "newcastle",
-  "updated": "2026-11-14T12:44:35.709Z",
+  "updated": "2026-11-14T21:51:54.224Z",
   "articles": [
+    {
+      "title": "Newcastle United problems laid bare with 'fair bit of unrest on Tyneside' claim",
+      "source": "Chronicle Live",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVFNaQ19tXzdySHRCd2swSTdJOTN6ZE51UWtuQVhEdHFqUkFJSnVfYTVMdk9Yb3NOSWxacW8zamVwaUhRMVhybEJ4eHNLaVlrVkp2ZTl4QnBsX1FFYVNEcUxiZE13UzRtUF93c3pTdU12WE9ydzRBYkRCS01tdWhwUG9YaGU4RTVqd2FENGVzV2VISjhfUno0UWVRVGJxUnE2TnV6VWlMRErSAa4BQVVfeXFMTWFPSVJlUHFCaGpzX1NnRHRBTUN0NFpDNnBMLWY1THM1a3k1cEozVjF0Z2dfQmR0aXd0aWNEUy1JaXIwWkxJQ2xEZUNXSmNKMVltaUhKY3lwME5HQzl1eEN0eW1yc2EzX095eFJKWFplRF9pY3FEMFY2WmgzV01TOE8yX2hOeS1IOE1Bd1BWTEZBeGxtMXFIOGkyNTFrUTJkclA5UXh0VTRJRlZYNXRn?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 18:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "‘I love him’ - Newcastle United get £15m striker approval",
+      "source": "Shields Gazette",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQUxfRzZpNWFza3NOVDNjcFpZeDhsOUZiS3FWQ2xWLWlqM2xTdHVRX2pxRnVEYnpydGJHejFrYWhpaGxFOWNGQ3NNSTBvWlJUaGVxMGI5Nm5CT05FMnZ2MnVJM1BZNFBpTHotdkRPZGNEWjJmYk1XdjZuMmRIbnNveDNfYXQ0OVgtT1dZYnhObWV0VE9BYjdPSl9lR2dmYklqMzdjaDhBQlZVbUFzUVpCMHRqV3RnaXNsZElaT0RR?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 16:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Meet the 'big fan' of Jamie Vardy who is banging in goals for Newcastle's academy",
+      "source": "Chronicle Live",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQN2dtMGNST2tvTXpZeFVUY2NMVnk2X2trRVBaWGFTZnRTZ1dVT1ZqVEgwd1l6SmVBMkZNWUZTbV94cmdwaGZoQUZfV0p3Uy1ucU9SZXc2VWxMT28wcVRPck9FSmMwR3pMMUkzOWFrY3d6d3Z5M2ROWG5neVM4UHBMeElYSHpXZWRrZXAwcnJ1QUhVN0MwbndhMC130gGfAUFVX3lxTFBfLTJBSWh0Z3NreUZwaEstdjFFZ0ZVM2VtLWNlQjE4X0s5VHVjY0c0MGU0NTRvMGt1eGI4WmVvMEdHV2szbS16eVF4MU5TN2ROWFJsMmYxdklCd3d6ZVVIdGhvYVVHY0tucEszeVE0WWZBME9Gb01ScHRjckdxbVI4aFZrZ1g4TWVoQllsNlBEaW83UXlWdEtFMzU1VkF5aw?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 19:30:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Newcastle make firm decision on £30m summer signing ahead of January window",
+      "source": "LiveScore",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQlFlN3V0VTVndE1ieUpTSndhZm1QLXY3NzlPV05OU3hQNW1rempDNVlnWThnR25LYXBoRE5kUG0zanlqaDdPdGFIazZMdVpRQWVnM2tCbjRkMUY4ZkpvejduMU1mVVBTMWJpTzdOU3JrTk1lOUg0MTJRdjNZOS1od2k5a2hwRFlTMWFjTWVxMkpSeFpYOUExLVl4NkZuNkdUcGMzZlVzRGtIMmJCeENNcHFlMTgxcHV4aVJYWVdmY1FETmhWZEpiTFZiTDd5c1V5WVAydDI5bVBvMEM0N0E3RQ?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 20:16:41 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Arsenal receive huge injury boost ahead of Newcastle United clash",
+      "source": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNN3ZYVzlxanZ6RGdtWjBVVG5OQjhERkp3T2NCc3ZPZFJrQjZrV3Z3NXdnem9QY2RTblBNYzVPSnY4eklTbThmTlk2UHc0LTRpRVltZXIxNFBNRl9SRklUSVh6TW1xODlFdUVHdFJwdi1ZZDJGTW5URXVQTV92cV9SZ0Z6MlN4eVhRa1E?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 17:50:00 GMT",
+      "category": "fitness"
+    },
     {
       "title": "Match Report. Peterborough United Under-21s 1 Newcastle United Under-21s 0",
       "source": "Newcastle United",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdEZyVHhxMEZJRzRqejJDbm5lM0JUTG8xQkh4aWcxTmJjREtGSXEtRlRMdHdlRHZsZVZ3aGhWQ1lVQlFJREdoQXE2VkFhejlOZFBKM21nc0F6MlF6UDRGZjhhazRiRGdGQXZRWUpSdldYMWQ5Ykt0ZG9TOXVESFo5QWJFM3dpb0FIa0gwZHJGd3pRcDRkOWJ0dWY4WkJTMTNwTFE?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 21:47:06 GMT",
+      "pubDate": "Sat, 14 Nov 2026 16:51:16 GMT",
       "category": "match"
     },
     {
-      "title": "Manchester United release official statement as Newcastle United impacted",
-      "source": "Shields Gazette",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNT19UT0ZxQ1U4dTZSN08zQWl2Vlk3dDkyVkxrOHpFTHMyT3dHbWhhZTB4Njc4aExpRjRMb2VfYzFaS1BPYzNQN0xUX1MzQ2VTYU9yOFpfM3cyRmk4V1ZCWjZWVkxLRG5kTGxBcG1rNGkyWHphYlV4TmNMYWRBQnF3Zl9Tak82ZU5FUnZqOGg2YXlpaEpuWTd5UVBMUmRyWTlyQUU1MDlXM1Q0Vmx0S2lBMEIzcDlheGFLSm90VjI1M29SVVNrR05pTXU0VjlqOGsyazcxNGlxZ0FqME0z?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 08:00:00 GMT",
+      "title": "Newcastle United Women will have one hand on Title and Super League if winning this Sunderland derby",
+      "source": "The Mag",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNaUJzRGt0LWJ6djdickd0MHQ5Ulh4Q3ZMQi1CWmJYNXBrWTQzc04xYkhna0ZSbmFWbHRIT09fQjBiV1RJTmNZalFoVG9SaDE1cXUzV3BpY0JGQXl4M3pxMEpadk1CS2Jzd0NHTXZkM05wN3RGME5faU40YmI1bHQ0eDVFOTlmTGw4V21oRmRyMDFfcGxlQVhwQm5sRDdUOXZEaG5EQTBDUDA0eDBoRzZFNE01LTJ0MGNJTDgzSEYyRDFQU2RtZC1fXzVuZXhpRUE?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 14:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "Newcastle United offered Bilal El Khannouss as January transfer talk hots up",
-      "source": "Chronicle Live",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPY1k1RmdZNUVUOUVHem0yYlNQcEtYNll6RWdLZDBKSFhBdHRlTkJvc2lybFRlOU80aDlSaElWVmIyQ0dGM1h2MWEyRUxFVTQzSUR2WW5sU1Y0UHgxM3FtRHIyMEhHWVVpbEhqeTNxWlFIMWFsT2VaZmJTdVdiYW42aTFFdWlLZng4aWx1MTdWQmxKbmYyd1BGeEtiWmtwTlpmZXR5QVV3?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 10:12:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Alexander Isak responds to financial crime probe linked to Newcastle United transfer - Liverpool watch on",
-      "source": "NewcastleWorld",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOVExU2gtWXZPeVVHWG92QzF6T3dZQnZMaTlYSklXZHhvZXpfeE1SRnAtSTVBYUppTTYxWjNzM2N6WmtvbTRmMVgxckJpSDdYRGpfQ0ttcVhTY2lxWFNyXzBRNWx5SFQ1V2pXSFB4Mktkc21JX3FIZmN4SElfS2U2T0hkeFNyeWZ4TWZwNUVnNTA4ZkxkSk5fRzQ4QWstRkcxTWZwZWtQWmc5SG5zTG1ubVY1YUxhTmph?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 08:15:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "One night in Rotterdam 24 years ago today Feyenoord 2 Newcastle 3",
-      "source": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX09Hb3UtZmo2ZXdhSkJXMUN5anNrRTlQSlBlODFwME5OaHZtWk82VzU0YjhKOWFBYk01LTY2Vmxyck5aNWQySDZWcTFLRVp6LTg5MnlOdVNqaDJ4Ump4WFYweHN6MEpZemVZa2ozdWJtYUQ3N1dqVVJCZXhlNmU5bncwMA?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 07:23:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Approach made: Newcastle United working on signing Spanish star in January",
-      "source": "LiveScore",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPemFxRVBDYTB6Z0ZtWndaOHZscS1XRDVBTXAySk1uaExGTUxYSlJmZkR0RDl6UTIzdkk0b19JdnRMUExIUTV1cm1aQmZ0TEZBcWdCMmVCb0ZnbFNQVXpXUjJYcDV5MlVDcnNEN0ZsaUs3dHIyZmZhdE9qM2p6ZXRaU2FnSEF3cHExbE0wSy1RVlN3WHMzSXZ4N1NMbG9tMFo0eUxhd2MzeVhsQ2tpS09BT0gyZzk4bldvSjRlWVJ6aEhiS1RRWVNqS1l2T01ZWFNfdEtpMVIxWWJvbTBYcEFF?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 04:07:47 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Newcastle United fight Sunderland for ‘game-changing’ £35m star who can transform Matthias Jaissle attack",
-      "source": "NewcastleWorld",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYzZKUFk3dmFDRXRHaEdvTjFpSXFIOElLQjVLVV90WVRFVTlGeExNUUl0RjdKR2pydlhkSUNFVnFyMko2VUNBd1M5Nzdkb2c4NklsMFBrRUFYaERaQUJPRlZ5cDdZS2dYUTVMZXdycFhOdVRZajgxczdpMXZUN0Z3a1QtaWt3M05ZVkVoQ2xKXzAtSmY0OFJWYmJDX1NZX1o0WkpIQUl3?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 10:30:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Matthias Jaissle clears up truth on Newcastle United tactics and makes it clear what's NOT banned",
-      "source": "Chronicle Live",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdTRFTjd5ZHFfTnh1N2dPb1ZOeVpWS2N1Sy04N3gzbWpRbzhfTjBZQ1pjaFBFYU9TQkJQQWtrYk1VeUxEMlpXZ3BqV19QbW5uS1kxQ09JZHNFRXdBNmU2d0c3NW1sdml4d2o5blVEZW9fbU5CcGt3c0JSbU4zano2S292NVNrMzY2Q3l1eUdBUTU5Q1JnZXhzcE01NXdVdjdXMnlMUtIBqgFBVV95cUxNSnpqZGwyVVRtd1pyZnBpbnFvWEZNMm84cU5YOXFUdDdWVy1qaEJPdDg5ajFBaFhmYjJqOWhhNVh5NEItVnJVQ0RfWWF1T0NzVGdjSjUzOHVvYTZOSEE5d2tNNC1Md3huekVmd0JxN2E0TklRYV9sbnc5UjUxV0RKUXZOSk1zR29HTDRVb2xOVWFCMlhxWHJrZ2JWaDlPR2VjblVrLURhYXE2dw?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 07:00:00 GMT",
-      "category": "manager"
-    },
-    {
-      "title": "Newcastle United fans will love what Sean Steur did last night - take note Matthias Jaissle",
-      "source": "Shields Gazette",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONndzRUdSOFA1OFlwUGRVTERvMGFSU2FkTnI3enB4ay1EV2JtY216ZldXc0VPc3ljYkVTdnJfZ2dEczRDVnhtQk1UcEg1TzY2RXVmdDQwRkJoYWJhTGNueS0wcWUwN2JjbTdOT2RheGtGRGF4d0FuekF1dFlrRGdjSnZTUllscHdqN0l6LTlwM0VXZkZGbW1PT3BwYXRhd3FIRm5sUFhB?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 10:48:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Expensive striker wins the game for Peterborough United Under 21s against Newcastle United",
-      "source": "Peterborough Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPdHlPRE9KZGZ5WktYUmxtVUMtY28zUzZqejF3Rnl5dXc0Z2JkMThYWE1TOXBjbDdJVWdYY013OXdYODNZdDZGNFdEMDY2MVMzRloyYUZIY3ZWR3lWei13WUMyRVA4SlZ4YVpObXF2MWF4Rkw1UmozUzA2dkhZRDkwUzlvQUY1Z0Rva1NhbGMxVVdzWjVMZlV1Mkd4aHc4Vlc3NWJUZEFaaDUtYVVDRzItU0ZfdllESmRmWTJJWkUzbGc1WVc1UVpwcFZEcnJua1pqV1JUSFY2RDloYXBNOFVOQXMwT0VFQ3pKd0VxZlo3TjdHQ2ExbGVaN05pY1FTdw?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 21:25:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Newcastle United 0-1 Everton - reaction as Thierno Barry scores winner",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5hS2stdlFNb21HancxLXpCLTl0Y3NxamwteUp4eklEQ1pRVGtKUmZKdHZTTUJlM0l6UVlsUDdITUxLQXhsQUNCR2IwYXl0TnZhcXEwVDE4UlBLSTR0TEpPX2FmRGZuUQ?oc=5",
-      "pubDate": "Mon, 02 Nov 2026 08:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Newcastle United 2-2 Bournemouth: Premier League – as it happened",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTF9xY0ZFRDMzOTdhU3hYdW1qYUVjaUlfSmFoWms4TXplWEtiQjVoUHNHVDNTeXdoMXBUMjJ5bWxtenFGenlNcVNSa3paNHpBWTJFb0p0aW5rV1djN2hoQ3RtWVV3Nnktd240T2ZqZGtQZUx5WjZ1Qk5ENnJwdmJzb1FBVEVGVUdWOWZKQmZ2VHA5OVVjQ2tNS3BmMGo3cnhwUXdLSGVwQQ?oc=5",
-      "pubDate": "Sat, 05 Sep 2026 07:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Features. From Berwick to Brazil: Matheos Ferreira reflects on first international call-up",
-      "source": "Newcastle United",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa0d6V2hCQTBmWjZZYmJpU2xJb293STlKeWlKRmQzZExJbXBjcG9Bb1dRNEx6SkZsYVQxQ2JHdDk1bG1WMjgyWHZlVnV6ZkRQOWFsRzBmU2dvS0JQNE5WNDNDUXBvSkM2VlVwbGJmMTBWMTVMa0pFekVjN0xkYnp4SVAwT29KZEZvQlNHcEZKVFhhNEdLNW9hdW10bHVtb1Y0Z1F4eW1LNDBKcDFoTWZXNy1MblB0QnRBTTU4?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 22:12:31 GMT",
+      "title": "Matthias Jaissle’s assistant opens up on Newcastle United battles",
+      "source": "NUFC Blog",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNV0Z5eV80VlR2NVZCcjkyVTBqSWI1d2lPenpMWmpUb01nRDJiN3VrajRtbHlpeGRsREJxMV9UeDg5NEhBNUc0dmljWmZMSUp6ZnZRdnpiRmhzYjBBYlZKRHh1NWstRXhZVnJKTWVBYjBxMk5KMlEwM2pXZEZUeXFzeW9CM2FnZXVrQWNCbTUwU2YtUEdfUEVSSg?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 11:22:00 GMT",
       "category": "general"
     },
     {
@@ -101,11 +66,46 @@
       "category": "general"
     },
     {
-      "title": "Ormerod Penalty Secures Under 21 Victory",
-      "source": "Peterborough United",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1iaDdTcVhEbnlCcGJZdWMxczRqbFdINjFtbW9uN0lnVzBWNXdFdEtWU09CWTZSRkVsRnlrYVRoZkdYcDRHcjBJeGxoMkRZZFNtM3NkNGR5bkpvX1BPT2x1V0I1b2RiQkVPOEg2cFFJV3dtOWVmTGZkaQ?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 21:56:47 GMT",
+      "title": "Newcastle United 0-1 Everton - reaction as Thierno Barry scores winner",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5hS2stdlFNb21HancxLXpCLTl0Y3NxamwteUp4eklEQ1pRVGtKUmZKdHZTTUJlM0l6UVlsUDdITUxLQXhsQUNCR2IwYXl0TnZhcXEwVDE4UlBLSTR0TEpPX2FmRGZuUQ?oc=5",
+      "pubDate": "Mon, 02 Nov 2026 08:00:00 GMT",
       "category": "general"
+    },
+    {
+      "title": "Women. Joel eyeing more derby day delight",
+      "source": "Newcastle United",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxSzNjaGdxeEJhUUtEOUYxWGx4NHBQN0lCSDBjcFFmcHp3TVRrNTVzbzBManZDNjgzaHJuRXBWWnhPZi0tdVNSZ3JtSjk1UG83S3cxYzNuSEl1aEU2UmdUUktELU5fUkEzYzhIMXBKajI2Q1JScXpxZThZYi1RUkU?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 11:42:57 GMT",
+      "category": "rumour"
+    },
+    {
+      "title": "Posh Under 21s v Newcastle United: Match Preview",
+      "source": "Peterborough United",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU1pjc0wzNXNiR0ZFcVlaTVpUczl1dFlWMzNPQnMybDRuUDJUMXAySWd2RFoxQWhQWlBET0I5LXBIYjVYeTctWFJ4S3BVbHJMZ3dITDZ1UWdadlNfREVyWE9ZRFdhSEVtTEoxXy1acG55a0QwZDRxTXEwOG8zYjc5VFBB?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 04:13:33 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Who Will Newcastle United Sign in January 2027?",
+      "source": "www.nufcblog.com",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JRm9wb1duMWVBUmNlUmZ3TThVbVU4TktRLVlHY2tCaEFmM3JORGljNG9JaHhwcl9fWXAzOHBlZ3RsYmZtNnVzYk9wc3JjaFV0Mkk5R01tUTRBQkpSYXJpczZjZGpnX082Qi00RE1SazR0dEpr?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 11:56:54 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Features. From Berwick to Brazil: Matheos Ferreira reflects on first international call-up",
+      "source": "Newcastle United",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQa0d6V2hCQTBmWjZZYmJpU2xJb293STlKeWlKRmQzZExJbXBjcG9Bb1dRNEx6SkZsYVQxQ2JHdDk1bG1WMjgyWHZlVnV6ZkRQOWFsRzBmU2dvS0JQNE5WNDNDUXBvSkM2VlVwbGJmMTBWMTVMa0pFekVjN0xkYnp4SVAwT29KZEZvQlNHcEZKVFhhNEdLNW9hdW10bHVtb1Y0Z1F4eW1LNDBKcDFoTWZXNy1MblB0QnRBTTU4?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 11:04:08 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Approach made: Newcastle United working on signing Spanish star in January",
+      "source": "LiveScore",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPemFxRVBDYTB6Z0ZtWndaOHZscS1XRDVBTXAySk1uaExGTUxYSlJmZkR0RDl6UTIzdkk0b19JdnRMUExIUTV1cm1aQmZ0TEZBcWdCMmVCb0ZnbFNQVXpXUjJYcDV5MlVDcnNEN0ZsaUs3dHIyZmZhdE9qM2p6ZXRaU2FnSEF3cHExbE0wSy1RVlN3WHMzSXZ4N1NMbG9tMFo0eUxhd2MzeVhsQ2tpS09BT0gyZzk4bldvSjRlWVJ6aEhiS1RRWVNqS1l2T01ZWFNfdEtpMVIxWWJvbTBYcEFF?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 04:07:47 GMT",
+      "category": "transfer"
     }
   ],
   "reddit": []
