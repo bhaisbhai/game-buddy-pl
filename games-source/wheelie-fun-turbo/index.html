@@ -203,6 +203,9 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .touch{position:fixed;inset:0;pointer-events:none;display:none}
 .touch.on{display:block}
 .simpleZone{position:absolute;inset:0;pointer-events:auto;touch-action:none}
+/* pause: sits in the one consistently clear gap in the HUD (between the lap counter and the
+item box, measured in both orientations) and above .simpleZone so the tap reaches it. */
+.pauseBtn{position:absolute;left:calc(70px + env(safe-area-inset-left,0px));top:calc(16px + env(safe-area-inset-top,0px));width:40px;height:40px;border-radius:50%;border:none;background:rgba(26,15,43,.75);color:var(--cream);font-size:14px;letter-spacing:1px;display:flex;align-items:center;justify-content:center;z-index:2;pointer-events:auto}
 .hint{position:fixed;left:50%;bottom:calc(12px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);font-size:13px;color:var(--muted);background:var(--panel);padding:6px 12px;border-radius:9px;white-space:nowrap}
 #loading{position:fixed;inset:0;display:grid;place-items:center;font-family:var(--display);font-size:22px;color:var(--ember);background:var(--night)}
 @media (prefers-reduced-motion:reduce){.msg,.btn,.ch{transition:none}}
@@ -607,6 +610,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 
 <div class="touch" id="touch">
   <div class="simpleZone" id="simpleZone"></div>
+  <button class="pauseBtn" id="pauseBtn" aria-label="Pause">❚❚</button>
 </div>
 <div id="loading">Warming up the volcano…</div>
 
@@ -1023,10 +1027,14 @@ for(const[id,k]of[['tL','l'],['tR','r'],['tD','drift'],['tI','item'],['tB','brak
     if(!trickFired&&moved<TAP_MOVE&&performance.now()-jt<TAP_TIME){touch.item=1;setTimeout(()=>touch.item=0,150);}};
   const jCancel=()=>{jId=null;touch.steer=0;touch.drift=0;};
   zone.addEventListener('pointerdown',jDown);zone.addEventListener('pointermove',jMove);zone.addEventListener('pointerup',jUp);zone.addEventListener('pointercancel',jCancel);}
+document.getElementById('pauseBtn').addEventListener('pointerdown',e=>pauseTap(e));
 // tapping the HYPE meter once it's full fires Signature Hype on mobile, where there's no button
 // for it any more; sits above the full-screen steer/item/trick surface via .bl's z-index so the
 // tap actually reaches it instead of being swallowed as a steer gesture.
 function hypeTap(e){const k=G.humans_k&&G.humans_k[0];if(!touch.on||!k||!(k.hype>=1&&k.spinT<=0&&!specialActive(k)))return;e.preventDefault();e.stopPropagation();audioInit();localBuzz(20);touch.hype=1;setTimeout(()=>touch.hype=0,150);}
+// mobile has no keyboard/gamepad pause key, so this is the only way to pause or get back to the
+// menu on touch devices; only live while touch.on is (i.e. mid-race), same as the gesture zone.
+function pauseTap(e){if(!touch.on||!(G.state==='race'||G.state==='countdown'))return;e.preventDefault();e.stopPropagation();audioInit();localBuzz(20);pauseGame();}
 // phones (joined through wheelie_phones.py on the laptop) appear as extra virtual gamepads, so menus and races treat them like a DualShock
 const PHONES=new Map();
 function pads(){const out=[];const g=navigator.getGamepads?navigator.getGamepads():[];for(const p of g)if(p&&p.connected)out.push(p);for(const ph of PHONES.values())if(ph.on)out.push(ph.pad);return out;}
