@@ -73,14 +73,13 @@ def build():
 #tracks .trkGrid{grid-template-columns:repeat(4,minmax(0,1fr));gap:11px;padding-bottom:24px}
 #tracks .trkGrid.cupsView{grid-template-columns:repeat(4,minmax(0,1fr));gap:13px}
 @media (max-width:980px){#tracks .trkGrid,#tracks .trkGrid.cupsView{grid-template-columns:repeat(2,minmax(0,1fr))}}
-.atlasTabsMobile{display:none}
-@media (pointer:coarse){
-  /* mobile: the full filter bar (categories, difficulty, search) is too much for a phone screen,
-  so it stays hidden (see #atlasBar in the main mobile media query) in favor of these two simple
-  tabs, which default to Cups so players keep unlocking cups/characters before browsing freely. */
-  .atlasTabsMobile{display:flex;gap:8px;width:100%}
-  .atlasTabsMobile .chipBtn{flex:1;text-align:center;font-size:15px;padding:10px 12px 9px}
-}
+/* the full filter bar (categories, difficulty, search) was more than players needed on a phone,
+and once it was simplified to two tabs there, it made sense to drop it everywhere for the same
+clean, consistent Cups/Tracks switch -- defaulting to Cups so players keep unlocking cups/
+characters before browsing freely. */
+#atlasBar{display:none}
+.atlasTabsMobile{display:flex;gap:8px;width:100%}
+.atlasTabsMobile .chipBtn{flex:1;text-align:center;font-size:15px;padding:10px 12px 9px}
 #tracks .trk{padding:9px 10px 10px;gap:5px;position:relative}
 #tracks .trk span.desc{display:block;font-size:11.5px;color:var(--muted);line-height:1.28;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .trkMeta{display:flex;flex-wrap:wrap;gap:4px;align-items:center;margin-top:2px}
@@ -1127,7 +1126,7 @@ function show(id){for(const s of screens){const el=$('#'+s);if(el)el.hidden=s!==
   let html='';if(!G.deathNext)CUPS.forEach((c,ci)=>{const t=trophyOf(c.id);const names=cupOrder(c).map(i=>LEVELS[i].name).join(', ');html+=`<button class="trk cup" data-trk="${-1-ci}"><svg viewBox="0 0 200 94"><rect width="200" height="94" fill="${c.col}"/><g transform="translate(68 14) scale(1)">${TROPHY(t?TCOL[t-1]:'#ffb22e')}</g></svg><b>${c.name}</b><span>${names}</span><em>${t?['Gold','Silver','Bronze'][t-1]+' trophy won':'No trophy yet'}</em></button>`;});
   LEVELS.forEach((L,i)=>{const b=getBest(L);html+=`<button class="trk" data-trk="${i}">${L.random?'<svg viewBox="0 0 200 94"><defs><linearGradient id="grnd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff4fd8"/><stop offset=".5" stop-color="#9f3dff"/><stop offset="1" stop-color="#26d3d0"/></linearGradient></defs><rect width="200" height="94" fill="url(#grnd)"/><text x="100" y="74" text-anchor="middle" font-family="Bungee,Impact" font-size="72" fill="#fff" opacity=".92">?</text></svg>':trackSVG(L)}<b>${L.random?'Mystery Track':L.name}</b><span>${L.tag}</span><em>${isFinite(b)?'Best lap '+fmt(b):L.mech}</em></button>`;});
   g.innerHTML=html;show('tracks');}"""
-    new_go_tracks = """function goTracks(){G.state='tracks';if(isTouch)ATLAS.view=(G.deathNext||G.timeTrial)?'tracks':'cups';renderTrackAtlas();show('tracks');}"""
+    new_go_tracks = """function goTracks(){G.state='tracks';ATLAS.view=(G.deathNext||G.timeTrial)?'tracks':'cups';renderTrackAtlas();show('tracks');}"""
     html = must_replace(html, old_go_tracks, new_go_tracks, "go_tracks_atlas")
 
     html = must_replace(
