@@ -167,6 +167,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .lbRow.top3 .rank{color:#cd7f32}
 /* character select */
 #select{align-items:flex-end}
+.selBackBtn{position:absolute;left:calc(24px + env(safe-area-inset-left,0px));top:calc(24px + env(safe-area-inset-top,0px));padding:10px 18px;font-size:14px;z-index:2}
 .selWrap{width:100%;max-width:980px;display:flex;flex-direction:column;gap:14px}
 .selHead{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap}
 .selHead h2{font-family:var(--display);font-weight:400;margin:0;font-size:clamp(22px,3vw,34px);color:var(--cream);text-shadow:0 4px 0 var(--night)}
@@ -431,6 +432,7 @@ fallback so nothing is ever unreachably clipped on a phone narrower than tested 
 </div>
 
 <div class="screen" id="select" hidden>
+  <button class="btn ghost selBackBtn" data-act="selBack">← Back</button>
   <div class="selWrap">
     <div class="selHead">
       <h2 id="selTitle"><em>P1</em> Pick your racer</h2>
@@ -5441,7 +5443,11 @@ addEventListener('gamepadconnected',updatePadInfo);addEventListener('gamepaddisc
 function charLocked(i){return i>=4&&unlockedCupCount()<i-2;}
 function buildGrid(){G.garFocus=null;if(window.WFV2&&WFV2.renderGarageBar)WFV2.renderGarageBar(); /* garage lock + coins may have changed since the last visit */const g=$('#grid');g.innerHTML='';const tk=new Set(G.sel.slice(0,G.selP));const taken=G.selP>0?G.sel[0]:-1;
   CHARS.forEach((c,i)=>{const locked=charLocked(i);const b=document.createElement('button');b.className='ch'+(tk.has(i)?' taken':'')+(locked?' locked':'');b.innerHTML=`<span class="sw" style="background:${hexCss(c.kart)}"></span>${c.name}`;
-    b.addEventListener('click',()=>{if(tk.has(i)||locked)return;if(isTouch){G.focus=i;SFX.menu&&AU.ctx&&SFX.menu();refreshFocus();}else commitPick(i);});
+    /* a real pointer click (mouse or touch) just previews, same on every platform -- picking
+    still needs the confirm button below. Only a synthetic click (e.isTrusted===false), which is
+    how keyboard Enter / gamepad A reach here via activate()'s f.click(), commits immediately:
+    those players already moved focus deliberately, and there's no separate button to reach them. */
+    b.addEventListener('click',e=>{if(tk.has(i)||locked)return;if(e.isTrusted){G.focus=i;SFX.menu&&AU.ctx&&SFX.menu();refreshFocus();}else commitPick(i);});
     b.addEventListener('mouseenter',()=>{G.focus=i;refreshFocus();});g.appendChild(b);});
   const who=G.bind&&G.bind[G.selP]?' <small style="opacity:.7">('+G.bind[G.selP].label+')</small>':'';$('#selTitle').innerHTML=`<em style="color:${G.mode>1?PCOL[G.selP]:''}">P${G.selP+1}</em> Pick your racer${who}`;G.focus=G.sel[G.selP]!=null&&!tk.has(G.sel[G.selP])&&!charLocked(G.sel[G.selP])?G.sel[G.selP]:0;while(tk.has(G.focus)||charLocked(G.focus))G.focus=(G.focus+1)%CHARS.length;refreshFocus();}
 function updateWho(){const c=CHARS[G.focus];if(!c)return;setPreview(G.focus);const lab=['Speed','Accel','Handling','Weight'];
@@ -5626,7 +5632,7 @@ const _cupNameIn=$('#cupNameIn');if(_cupNameIn)_cupNameIn.addEventListener('chan
 document.addEventListener('click',e=>{const b=e.target.closest('[data-act]');if(!b)return;audioInit();const a=b.dataset.act;
   if(a==='p1'){G.battleNext=false;G.deathNext=false;G.bind=null;goSelect(1);}else if(a==='death'){G.state='dmode';show('dmode');}else if(a==='d1'){G.battleNext=false;G.deathNext=true;G.bind=null;goSelect(1);}else if(a==='dparty'){G.deathNext=true;goParty(false);G.deathNext=true;}else if(a==='diff'){cycleDiff();}else if(a==='party'){G.deathNext=false;goParty(false);}else if(a==='bparty'){goParty(true);}else if(a==='partyGo'){partyGo();}else if(a==='battle'){G.state='bmode';show('bmode');}else if(a==='b1'){G.battleNext=true;G.bind=null;goSelect(1);}else if(a==='b2'){G.battleNext=true;goSelect(2);}else if(a==='arenas')goArenas();else if(a==='how'){G.state='how';show('how');}else if(a==='gfx'){Q.ultra=!Q.ultra;store.set('tikiturbo.gfx',Q.ultra?'ultra':'fast');applyQuality();}else if(a==='back'){G.state='title';show('title');}
   else if(a==='resume')resume();else if(a==='restart'){if(G.cup)G.cup.scored=G.state==='results'?(()=>{for(const[ci,p]of Object.entries(G.cup.lastGain||{}))G.cup.pts[ci]-=p;G.cup.lastGain={};return false;})():G.cup.scored;startRace();}
-  else if(a==='quit')quit();else if(a==='reselect')goSelect(G.mode);else if(a==='tracks')goTracks();else if(a==='selGo')confirmSelect();
+  else if(a==='quit')quit();else if(a==='reselect')goSelect(G.mode);else if(a==='tracks')goTracks();else if(a==='selGo')confirmSelect();else if(a==='selBack')back();
   else if(a==='next'){G.cup.race++;G.cup.scored=false;G.cup.lastGain={};startLevel(G.cup.order[G.cup.race]);}
   else if(a==='podium')showCup();else if(a==='cupagain'){G.cup=newCup(G.lastCup||0);startLevel(G.cup.order[0]);}});
 
