@@ -292,6 +292,19 @@ item box, measured in both orientations) and above .simpleZone so the tap reache
   class specificity and would otherwise win on source order, so this needs the #id to beat it. */
   #garageBar{display:none}
 }
+/* title screen: the logo is sized off viewport WIDTH (vw), which is exactly backwards on a
+landscape phone -- wide but short -- where it's the only screen tall enough to actually overflow.
+Re-size it off height instead, and tighten the stack around it; #title also gets a scroll
+fallback so nothing is ever unreachably clipped on a phone narrower than tested here. */
+@media (orientation:landscape) and (pointer:coarse){
+  #title{overflow-y:auto}
+  .logoWrap{gap:10px}
+  .logo{font-size:clamp(30px,9vh,54px)}
+  /* .btn.primary/.btn.chip are defined later (by build_game.py) with equal class specificity,
+  so plain selectors here would lose to those on source order -- #title's own #id wins instead. */
+  #title .btn.primary{padding:9px 0 8px}
+  #title .btn.chip{padding:8px 16px 7px}
+}
 @media (max-width:900px){.trkGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .standings{margin-top:-6px}
 .standings h3{font-family:var(--display);font-weight:400;font-size:15px;letter-spacing:.06em;color:var(--lagoon);margin:0 0 4px}
