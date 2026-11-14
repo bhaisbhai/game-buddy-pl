@@ -1120,7 +1120,7 @@ function show(id){for(const s of screens){const el=$('#'+s);if(el)el.hidden=s!==
     new_update_who = """function updateWho(){const c=CHARS[G.focus];if(!c)return;setPreview(G.focus);
   let vals=c.st.slice(),lab=['Speed','Accel','Handling','Weight'];
   if(window.WFV2){const P=WFV2.getPartsForKart(true,0,0),fr=P.frame,tr=P.tire;vals=[c.st[0]*fr.spd*tr.spd,c.st[1]*fr.acc*tr.acc,c.st[2]*fr.hand*tr.hand,c.st[3]*fr.wt,tr.off*6.0,fr.mt*tr.chg*3.8];lab=['Speed','Accel','Handling','Weight','Off-Road','Mini-Turbo'];}
-  $('#who').innerHTML=`<div class="nm" style="color:${hexCss(c.kart)}">${c.name}</div><div class="sp">${c.blurb}</div>${c.sig?`<div class="sig">⚡ ${c.sig}</div>`:''}`+vals.map((v,i)=>`<div class="stat">${lab[i]}<i><u style="width:${Math.min(100,v*20)}%${v>5?';background:linear-gradient(90deg,#ffd23f,#fff4a8)':''}"></u></i></div>`).join('');}"""
+  $('#who').innerHTML=`<div class="nm" style="color:${hexCss(c.kart)}">${c.name}</div><div class="sp">${c.blurb}</div>${c.sig?`<div class="sig">⚡ ${c.sig}</div>`:''}`+vals.map((v,i)=>`<div class="stat">${lab[i]}<i><u style="width:${Math.min(100,v*20)}%${v>5?';background:linear-gradient(90deg,#ffd23f,#fff4a8)':''}"></u></i></div>`).join('')+(isTouch?`<button class="btn selGoBtn" data-act="selGo">Pick ${c.name} →</button>`:'');}"""
     html = must_replace(html, old_update_who, new_update_who, "update_who_sig")
 
     old_go_tracks = """function goTracks(){G.state='tracks';const g=$('#trkGrid');

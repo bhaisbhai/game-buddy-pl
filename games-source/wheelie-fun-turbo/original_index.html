@@ -174,6 +174,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .who{background:var(--panel);border-radius:16px;padding:12px 18px;min-width:220px}
 .who .nm{font-family:var(--display);font-size:clamp(24px,3vw,34px);line-height:1}
 .who .sp{color:var(--muted);font-size:14px;margin:2px 0 8px}
+.selGoBtn{display:block;width:100%;margin-top:10px;padding:10px 14px 9px;font-size:15px}
 .stat{display:grid;grid-template-columns:72px 1fr;align-items:center;gap:8px;font-size:12px;font-weight:600;color:var(--muted);margin-top:4px}
 .stat i{height:8px;border-radius:4px;background:rgba(255,255,255,.12);overflow:hidden;display:block}
 .stat i u{display:block;height:100%;background:var(--lagoon)}
@@ -5418,11 +5419,14 @@ function updatePadInfo(){const n=pads().length;$('#d1').className='dot'+(n>0?' o
 addEventListener('gamepadconnected',updatePadInfo);addEventListener('gamepaddisconnected',updatePadInfo);
 function buildGrid(){G.garFocus=null;if(window.WFV2&&WFV2.renderGarageBar)WFV2.renderGarageBar(); /* garage lock + coins may have changed since the last visit */const g=$('#grid');g.innerHTML='';const tk=new Set(G.sel.slice(0,G.selP));const taken=G.selP>0?G.sel[0]:-1;
   CHARS.forEach((c,i)=>{const b=document.createElement('button');b.className='ch'+(tk.has(i)?' taken':'');b.innerHTML=`<span class="sw" style="background:${hexCss(c.kart)}"></span>${c.name}`;
-    b.addEventListener('click',()=>{if(tk.has(i))return;G.sel[G.selP]=i;SFX.box();if(G.selP+1<G.mode){G.selP++;buildGrid();}else{G.humans=G.sel.slice(0,G.mode);if(G.battleNext)goArenas();else goTracks();}});
+    b.addEventListener('click',()=>{if(tk.has(i))return;if(isTouch){G.focus=i;SFX.menu&&AU.ctx&&SFX.menu();refreshFocus();}else commitPick(i);});
     b.addEventListener('mouseenter',()=>{G.focus=i;refreshFocus();});g.appendChild(b);});
   const who=G.bind&&G.bind[G.selP]?' <small style="opacity:.7">('+G.bind[G.selP].label+')</small>':'';$('#selTitle').innerHTML=`<em style="color:${G.mode>1?PCOL[G.selP]:''}">P${G.selP+1}</em> Pick your racer${who}`;G.focus=G.sel[G.selP]!=null&&!tk.has(G.sel[G.selP])?G.sel[G.selP]:0;while(tk.has(G.focus))G.focus=(G.focus+1)%CHARS.length;refreshFocus();}
 function updateWho(){const c=CHARS[G.focus];if(!c)return;setPreview(G.focus);const lab=['Speed','Accel','Handling','Weight'];
   $('#who').innerHTML=`<div class="nm" style="color:${hexCss(c.kart)}">${c.name}</div><div class="sp">${c.blurb}</div>`+c.st.map((v,i)=>`<div class="stat">${lab[i]}<i><u style="width:${Math.min(100,v*20)}%${v>5?';background:linear-gradient(90deg,#ffd23f,#fff4a8)':''}"></u></i></div>`).join('');}
+// touch taps a racer to preview it (see updateWho); this actually locks it in and advances, same as a desktop click always did
+function commitPick(i){G.sel[G.selP]=i;SFX.box();if(G.selP+1<G.mode){G.selP++;buildGrid();}else{G.humans=G.sel.slice(0,G.mode);if(G.battleNext)goArenas();else goTracks();}}
+function confirmSelect(){const tk=new Set(G.sel.slice(0,G.selP));if(tk.has(G.focus))return;commitPick(G.focus);}
 function goSelect(mode){G.mode=mode;G.selP=0;G.state='select';show('select');buildGrid();}
 // ---- multiplayer lobby: controllers press X, keyboards press Enter / Right Shift, phones scan the QR code ----
 function goParty(battle){G.battleNext=battle;G.bind=[];G.state='party';show('party');for(const ph of PHONES.values())if(ph.on)partyJoin({kind:'pad',id:ph.id,label:'Phone: '+ph.name});padPrev.length=0;partyRefresh();}
@@ -5600,7 +5604,7 @@ const _cupNameIn=$('#cupNameIn');if(_cupNameIn)_cupNameIn.addEventListener('chan
 document.addEventListener('click',e=>{const b=e.target.closest('[data-act]');if(!b)return;audioInit();const a=b.dataset.act;
   if(a==='p1'){G.battleNext=false;G.deathNext=false;G.bind=null;goSelect(1);}else if(a==='death'){G.state='dmode';show('dmode');}else if(a==='d1'){G.battleNext=false;G.deathNext=true;G.bind=null;goSelect(1);}else if(a==='dparty'){G.deathNext=true;goParty(false);G.deathNext=true;}else if(a==='diff'){cycleDiff();}else if(a==='party'){G.deathNext=false;goParty(false);}else if(a==='bparty'){goParty(true);}else if(a==='partyGo'){partyGo();}else if(a==='battle'){G.state='bmode';show('bmode');}else if(a==='b1'){G.battleNext=true;G.bind=null;goSelect(1);}else if(a==='b2'){G.battleNext=true;goSelect(2);}else if(a==='arenas')goArenas();else if(a==='how'){G.state='how';show('how');}else if(a==='gfx'){Q.ultra=!Q.ultra;store.set('tikiturbo.gfx',Q.ultra?'ultra':'fast');applyQuality();}else if(a==='back'){G.state='title';show('title');}
   else if(a==='resume')resume();else if(a==='restart'){if(G.cup)G.cup.scored=G.state==='results'?(()=>{for(const[ci,p]of Object.entries(G.cup.lastGain||{}))G.cup.pts[ci]-=p;G.cup.lastGain={};return false;})():G.cup.scored;startRace();}
-  else if(a==='quit')quit();else if(a==='reselect')goSelect(G.mode);else if(a==='tracks')goTracks();
+  else if(a==='quit')quit();else if(a==='reselect')goSelect(G.mode);else if(a==='tracks')goTracks();else if(a==='selGo')confirmSelect();
   else if(a==='next'){G.cup.race++;G.cup.scored=false;G.cup.lastGain={};startLevel(G.cup.order[G.cup.race]);}
   else if(a==='podium')showCup();else if(a==='cupagain'){G.cup=newCup(G.lastCup||0);startLevel(G.cup.order[0]);}});
 
