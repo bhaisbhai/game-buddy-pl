@@ -162,6 +162,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .itemText b{color:var(--cream);font-size:13.5px;margin-bottom:1px}
 .itemText span{color:var(--muted);font-size:11.5px;line-height:1.32}
 .ctrlLegend{display:grid;grid-template-columns:1fr 1fr;gap:12px 20px;margin:18px 0 22px}
+#ctrlLegendTouch{display:none}
 .ctrlLegend .row{display:flex;align-items:center;gap:12px}
 .ctrlLegend .key{font-family:var(--display);font-weight:400;display:flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:12px;background:var(--cream);color:var(--night);font-size:14px;box-shadow:0 5px 0 rgba(0,0,0,.4);flex-shrink:0}
 .ctrlLegend .key.wide{width:72px;font-size:11px}
@@ -263,6 +264,10 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
   /* the track/cup filter bar (cup/track tabs, category chips, difficulty + search) eats a lot of
   vertical space on a phone; mobile players browse the full list instead. Desktop keeps it. */
   #atlasBar{display:none}
+  /* the first-race controls tutorial showed keyboard bindings (arrows/WASD, B, Space, V, N) even
+  on touch devices, where none of those exist -- swap in the actual touch gesture legend instead. */
+  #ctrlLegendKeys{display:none}
+  #ctrlLegendTouch{display:grid}
   /* racer select: the stat panel + kart grid together covered almost the whole phone screen,
   leaving barely a sliver of the actual 3D kart preview behind them visible. Drop the two
   upgrade-derived stats (Off-Road/Mini-Turbo are the least useful at a glance) and shrink
@@ -468,12 +473,18 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
   <div class="card" style="max-width:480px">
     <h2>YOUR CONTROLS</h2>
     <p style="color:var(--muted);font-size:13px;margin:0 0 4px">Shown once, before your first race.</p>
-    <div class="ctrlLegend">
+    <div class="ctrlLegend" id="ctrlLegendKeys">
       <div class="row"><div class="miniArrows"><div class="k">▲</div><div class="k">◀</div><div class="k">▼</div><div class="k">▶</div></div><div class="label">Steer &amp; Accelerate<small>ARROWS OR WASD</small></div></div>
       <div class="row"><div class="key" style="background:#ff5b1f;color:#fff">B</div><div class="label">Brake<small>HOLD TO SLOW</small></div></div>
       <div class="row"><div class="key wide" style="background:#ff4fd8;color:#fff">SPACE</div><div class="label">Specials<small>USE ITEM</small></div></div>
       <div class="row"><div class="key" style="background:var(--lagoon)">V</div><div class="label">Drift<small>HOP &amp; CORNER</small></div></div>
       <div class="row"><div class="key" style="background:#ffe14a">N</div><div class="label">Boost<small>HYPER MODE</small></div></div>
+    </div>
+    <div class="ctrlLegend" id="ctrlLegendTouch">
+      <div class="row"><div class="key wide" style="background:var(--lagoon)">↔</div><div class="label">Steer<small>SWIPE LEFT / RIGHT ANYWHERE</small></div></div>
+      <div class="row"><div class="key wide" style="background:#ff4fd8;color:#fff">TAP</div><div class="label">Use Item<small>TAP ANYWHERE</small></div></div>
+      <div class="row"><div class="key wide" style="background:#ffe14a">HOLD</div><div class="label">Trick Boost<small>TAP &amp; HOLD WHILE AIRBORNE</small></div></div>
+      <div class="row"><div class="key wide" style="background:#ff5b1f;color:#fff">⚡</div><div class="label">Signature Hype<small>TAP THE HYPE BAR WHEN FULL</small></div></div>
     </div>
     <div class="btns"><button class="btn" data-act="ctrlTutGo">GOT IT — START RACE</button></div>
   </div>
