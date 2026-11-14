@@ -7130,16 +7130,19 @@ for(const[id,k]of[['tL','l'],['tR','r'],['tD','drift'],['tI','item'],['tB','brak
   const dn=e=>{e.preventDefault();audioInit();touch[k]=1;el.classList.add('down');},up=e=>{e.preventDefault();touch[k]=0;el.classList.remove('down');};
   el.addEventListener('pointerdown',dn);el.addEventListener('pointerup',up);el.addEventListener('pointercancel',up);el.addEventListener('pointerleave',up);}
 // simplified mobile scheme: the whole screen is one surface. Dragging anywhere steers (same
-// feel as the old joystick -- STEER_R is the drag distance that already reaches full lock), and a
-// quick tap that never turns into a drag fires the held item, so "tap the kart" works from anywhere
-// since the chase camera keeps it in roughly the same spot on screen anyway.
+// feel as the old joystick -- STEER_R is the drag distance that already reaches full lock); a
+// quick tap that never turns into a drag fires the held item; and holding still (not dragging)
+// while the kart is airborne off a ramp does the air trick for the landing boost, same as the
+// desktop/gamepad drift button does when airborne -- checked every frame (not just on move events)
+// since the ramp launch can happen mid-hold, well after the finger first went down.
 {const zone=document.getElementById('simpleZone');
-  const STEER_R=30,DEAD=.1,TAP_MOVE=14,TAP_TIME=300;let jId=null,jx=0,jy=0,jt=0,moved=0;
-  const jDown=e=>{if(jId!=null)return;e.preventDefault();audioInit();jId=e.pointerId;jx=e.clientX;jy=e.clientY;jt=performance.now();moved=0;try{zone.setPointerCapture(jId);}catch(err){}};
+  const STEER_R=30,DEAD=.1,TAP_MOVE=14,TAP_TIME=300;let jId=null,jx=0,jy=0,jt=0,moved=0,trickFired=false;
+  const tickHold=()=>{if(jId==null)return;if(moved<TAP_MOVE){const hk=G.humans_k&&G.humans_k[0];const want=!!(hk&&hk.rampAir&&!hk.trickDone&&hk.spinT<=0);if(want)trickFired=true;touch.drift=want?1:0;}else touch.drift=0;requestAnimationFrame(tickHold);};
+  const jDown=e=>{if(jId!=null)return;e.preventDefault();audioInit();jId=e.pointerId;jx=e.clientX;jy=e.clientY;jt=performance.now();moved=0;trickFired=false;try{zone.setPointerCapture(jId);}catch(err){}tickHold();};
   const jMove=e=>{if(jId==null||e.pointerId!==jId)return;e.preventDefault();const dx=e.clientX-jx,dy=e.clientY-jy;moved=Math.max(moved,Math.hypot(dx,dy));const v=dx/STEER_R;touch.steer=Math.abs(v)<DEAD?0:clamp(Math.sign(v)*(Math.abs(v)-DEAD)/(1-DEAD),-1,1);};
-  const jUp=e=>{if(jId==null||e.pointerId!==jId)return;jId=null;touch.steer=0;
-    if(moved<TAP_MOVE&&performance.now()-jt<TAP_TIME){touch.item=1;setTimeout(()=>touch.item=0,150);}};
-  const jCancel=()=>{jId=null;touch.steer=0;};
+  const jUp=e=>{if(jId==null||e.pointerId!==jId)return;jId=null;touch.steer=0;touch.drift=0;
+    if(!trickFired&&moved<TAP_MOVE&&performance.now()-jt<TAP_TIME){touch.item=1;setTimeout(()=>touch.item=0,150);}};
+  const jCancel=()=>{jId=null;touch.steer=0;touch.drift=0;};
   zone.addEventListener('pointerdown',jDown);zone.addEventListener('pointermove',jMove);zone.addEventListener('pointerup',jUp);zone.addEventListener('pointercancel',jCancel);}
 // phones (joined through wheelie_phones.py on the laptop) appear as extra virtual gamepads, so menus and races treat them like a DualShock
 const PHONES=new Map();
