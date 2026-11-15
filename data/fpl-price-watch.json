@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T09:51:39.947Z",
+  "updated": "2026-11-15T10:27:29.057Z",
   "snapshot": {
     "1": 62,
     "2": 49,
@@ -31,7 +31,7 @@
     "28": 49,
     "29": 45,
     "30": 45,
-    "31": 48,
+    "31": 49,
     "32": 43,
     "33": 45,
     "34": 44,
@@ -111,7 +111,7 @@
     "108": 53,
     "109": 47,
     "110": 45,
-    "111": 40,
+    "111": 39,
     "112": 51,
     "113": 43,
     "114": 45,
@@ -357,7 +357,7 @@
     "354": 40,
     "355": 40,
     "356": 64,
-    "357": 52,
+    "357": 51,
     "358": 53,
     "359": 49,
     "360": 49,
@@ -676,12 +676,28 @@
   },
   "changes": [
     {
-      "id": 529,
-      "web_name": "Roefs",
-      "team_name": "Sunderland",
+      "id": 31,
+      "web_name": "Konsa",
+      "team_name": "Arsenal",
+      "direction": "rise",
+      "old_price": 48,
+      "new_price": 49
+    },
+    {
+      "id": 111,
+      "web_name": "Steele",
+      "team_name": "Brighton",
       "direction": "fall",
-      "old_price": 49,
-      "new_price": 48
+      "old_price": 40,
+      "new_price": 39
+    },
+    {
+      "id": 357,
+      "web_name": "Frimpong",
+      "team_name": "Liverpool",
+      "direction": "fall",
+      "old_price": 52,
+      "new_price": 51
     }
   ]
 }
