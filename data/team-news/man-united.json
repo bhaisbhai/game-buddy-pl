@@ -1,48 +1,55 @@
 {
   "slug": "man-united",
-  "updated": "2026-11-14T21:51:54.224Z",
+  "updated": "2026-11-15T13:12:10.172Z",
   "articles": [
     {
-      "title": "Man Utd 2-0 Crystal Palace: Maya Le Tissier's fine strike helps United to dominant victory",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcThMcHZOeGhGOHRORUlKUUpOMHN0dFZFdWs1akZGaW5zVGxnNTJtbC1HTlkyVlBualJJemUycTJheVdyTnRGS2gyWmdyeDFxQk1OSVgxQV9nMXBKYnoyUm5jSEtzeGRnUHM3UllhSmNsdzlBTEJodmJfVjZYN2VhZm9EVktYMWViaDhvR3k4SGNIdnlUX2t2emJnLUlCRURBVHphOXdFNDNfNmt6VWktejZ3dUtqdWVFNktjS2ZJZWVyM1h2VTdFbldPSnpPUVdNaFZj?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 21:39:44 GMT",
-      "category": "general"
-    },
-    {
-      "title": "WSL: Man Utd 2-0 Crystal Palace - Maya le Tissier & Elisabeth Terland secure win",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4zd3kzVlhram51T2QtNTZYLWVGQzA5X3FMZGZoQWdEUXJJUERuRDZzbXVOOEd6c25GUWg4YV9ZN1loZFpMcjBlRl9Yd2lkdVhGR2tsaHF4dzVwaUhOQ2EzMXJLZw?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 15:42:20 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Maya: To play 150 times for United is a dream",
-      "source": "Manchester United",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaWp6Z0NqVm00U0Z3Ukc3SHAxRk9ZWkRUS1padmlVWEs5SXRmcjVyOW5XOHhKVkpnbnhIUHl4OHZQSUJqRDN3c3JuWjZRVUc1NW1MS0NTc2gwTFVHdzB2VjB0SnNLSG9DTnVROEc0czFzcWdLZW9lVzhZZUpHeTJUWg?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 06:48:56 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Mauricio Pochettino: What can Manchester United fans expect from new boss?",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FMHZpR2VjR1JfVXVKdlVoRFhfR0FWcHZDbUpGdG1Xa19fWEpEd3NGeE5xb2xyQUxyakxQVlVWOVctd0lZQTZPTFBaY3FpbEZFcjFGd0N0V1QtdzYya201bFlRTXpMNTVI?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 22:53:17 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Transfer news LIVE: Arsenal striker target; Man Utd eye Paz; Chelsea, Liverpool latest",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQUtKVU5WOGNYaXFuanNneENkNkRkekdQcGdBRjhaX2NpaG81R2ZrUUlTaUdkUmREQXZGNzFrUmUxMkZQTlhTSWtneWlSbFJ5amFkWHhuY25tX1c2S3VyNkZ1YXlxTXZJY0tPNUttVnd2NHp1bEJLODA0NUhiQ3FnTFVMQmJTU09HeU5SSkZEWWdQRnpGQmxUOWRzSFJ0LWwxOVprZEJGd2huWG9ZZ3lDNEMtQ1FYLXNwNzBkREg2Q3o?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 10:45:10 GMT",
+      "title": "Man United news: Bruno Fernandes rejects offer as Mauricio Pochettino transfer plans drawn up",
+      "source": "Manchester Evening News",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWnZ0dGpURmNTY1B2SFVYSW1Ra2tXWTQ1a2VzU0NFMmMxcnpJcVNfMlc3ellGUUtLd3Vtb0xGTXkweGcxZEQ0dmc0cjFvTWVZdmtWdHFWcjFfMTJBN0ZVM2J5aVlXOHY2eVpNWVhWUE9fN1RlRmFFT1BJUUxMTzk0cXI4Zkx2Q2FwQW9STkFsMUlybDBmSmFJMmxHLW5iLTJnb1JtTGR1S0c1R25Wb2pYeTlNdw?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 22:57:00 GMT",
       "category": "transfer"
     },
     {
-      "title": "Cristiano Ronaldo’s ex-boss reveals he was twice interviewed for Manchester United job",
-      "source": "talkSPORT",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYTcwd0J0eVAwcUh1SHU2OFJ5c0JucjlEc1ZfUU5VLUdxcWk0cUpVX2hlNlMyUVU5R3BVQ25aTktfbEliTmxHS0VDSFJBNXJkN0JDbGlxX3NkUXpHOVp1QkxsM0ZqTThQaWpyd1ExRzVrclNmekdoTXVFTlFMdXBTd1lTQXpxWGY4OFp2T01aQVFqV0xUdjBYcUEteEFTdTg?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 20:59:50 GMT",
+      "title": "Liverpool handed major injury boost for Man Utd showdown",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPV0lwbDJsYzZxYVJBblhXNDVmd20xWHFaSjlmZTljbks0bVQwa2xSV3UwVlVkZXlqeFp6djJFclhaZWRUOTRMV0FmbkFNZ0dGdVBDQTlFcFNDejlnSm5iZFA4NkpTdWMzUW1nWFlWemxwODVzQnNESmpvcDNnMDZiSUd1cHhwVEFWb3FxYm50X2xXelpmWnNYODhWVEp5SjN3Z0F0NUxzVlRRZjE5?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 10:02:52 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "Every Manchester United player, manager, executive since Glazers' takeover: Where are they now?",
+      "source": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOX0NLVml0SkpBU2JibWhhanBLN3FwdGdNVFhTSkZfamZDeDFvbllMT3hObGFtSjByekdjV3pfRTA4YTFNSUI0aFplM2N6NnRzOGhqT0JkdURwYWJvVlItV0xZVHVBTHpCNGppaXlNajRRU3cybE85a25fZWFvZTlXUUJwLXF6dmxkSHUtWDRzc0czelU3OUFNX2dtVmpKZ21IbHlQd1VRQQ?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 08:46:00 GMT",
+      "category": "manager"
+    },
+    {
+      "title": "Women's Super League highlights: Manchester United 2-0 Crystal Palace",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5YTHNfMExSZ2pnd0VRdHNwS1hpMHpUWlNsTmEwSExreG9wT0ZadFgzd3h4S05NODhLc0JwT0pMYUV5T21kdGFFdzdOZzNPN2Q4UGJlV0RnRlBMcG5fblQtblRveHo0VkVI?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 18:27:23 GMT",
       "category": "general"
+    },
+    {
+      "title": "Women's Super League LIVE! Chelsea vs Man City and Man Utd vs Crystal Palace match updates, news and score",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQX3lXbTdKQm9JVkJzTzVkbHhodlE4SzdGOFByM01vQVRPTUJsdTY4cEtHZG42NHpuQnl5OUJ1U1RFOUI5SGxZbVJUZEIyRnQ2TGhycmJoQTRjdk5oVUtaTTV3c2NSeGdvWFZWVFJmTkpvT3ljWDBFVkRKbmN5LXZaem0wNjFwbHlhVXRqNkZ6SGZ6bFdSNUQtZGp3S0g3eDB0cEVZblZYMUc5NDRDZ0FGWTZWaEROQk5hUXFoTFlaaXc2RVgyT2psQnN1VGxvSDhnYldyNXFxU1hRMFhaTUhIRjA0Umk0MHJlbnBqbUJB?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 15:44:17 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Report: United Women 2 Crystal Palace 0",
+      "source": "Manchester United",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPX2ViOG9iNV82Unc4Qjc3VU9jSGVVbUdWX2FSbDNiSmI3ZW1DU2h3MG1aRU5NcjFCVHFkY2NMT0lNcXJkcHdDTGtLU3UzeW9oeFpfQjF5QVRpZUY0M0ZmTEZ4MTFyUEJHVFFNa0pjOE9tS2drZUR5MU9MbmF4aDFOc3J3dWs?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 18:06:24 GMT",
+      "category": "match"
+    },
+    {
+      "title": "15 goals in 16 games: Man United monitor prolific young striker ahead of potential transfer",
+      "source": "utdreport",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaE1fTVoyekNBNzVZZ2xQTjdaS0YxQ2JFM2xGUFZGVzJkWFBjX3owbjVyMFItY2trd2YybzRveVhZUHlXVFVwMGE0MHBKcFV6aWVna0pFUzFUSTFxcUYxdlZCWHdPWWw5NjM1MzRHSU1lNFc5dTBDemNLeVg0cVhtcTd2b1YzVFRERXM0M3U0RnRxVjJUajZlTEpxcGplaFF1TjFVR19HR09qSVNMLTlXSDZJeEd4dHRMV0pvVUFoSHlXZ1JU0gHKAUFVX3lxTE9YTTFkOGZ1WmY3cDVMU3E5Y1MxQkZGWXZoQVc0dDNjNngxMjFPMGc3aVlhYXpnX2NaamJkZU1RVlZwc3YwOXlaVWlKc3RpNWIydUViWTdvYmhmMDZISm9iRzl1M0JlNV9fN0xQMXRRcS05bWwtbTBnOXd1VEwtY2RuQ3hTTmdKV3JpZERhVzRmNFZJWEc1S2ZqdHNkREo0T2RXc192cm1nZ2o2VnMxRTZhTUZKQng1MVZBemxnUmEwZ0NLR0tfa0ZndkE?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 06:50:21 GMT",
+      "category": "transfer"
     },
     {
       "title": "Manchester United complete move for Reading FC academy prospect",
@@ -52,59 +59,52 @@
       "category": "general"
     },
     {
-      "title": "Youri Tielemans Revelation Speaks Volumes for Chaos at Man Utd",
-      "source": "Sports Illustrated",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBoN0E5M1lqaUZlUUpROWlESmxYS05GdlBCRzFmeFVBRUlxZlpnYTF6anU1TWw4UzFrZVNNQUdHb2lPRnVMaGdHdXlhZHlwb3lGNlFlRDlENnZzVDFEWnlzSG5vSm9lZklUQ29KZmFDZ2pBUHM2R3ptRDR6WUlUdw?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 23:00:00 GMT",
+      "title": "Man United ‘make contact’ to sign £67m-rated machine as Leeds ‘plot’ to snatch Bundesliga gem",
+      "source": "3 Added Minutes",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdHlabkVDR2VWQkxlLWtDanlOV0FNdDJ5THFNVXdlRTNkLWpyVk9Ca1E0alVxdlE1UlFtMUthRG5kRTlOWmpvbFY1bk90dTdrWnl6Q0s4ZjJKdjNkemJjNVNacDlWTktNc1NSc2JsREhvM3h6TjFDV0diVzZZSzhWbGVaaTVjMWdzcGxSMlVkLVdQOXV5ZHRGQjBwRE5LSFdGOFpKUWtNeXBhSnRGTWtpM1RfQ3Q1dDJ2SGxvRQ?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 07:00:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "NUFC favourite ‘absolutely gone’ in 2027 after Man Utd links - on one condition",
+      "source": "Shields Gazette",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNd25RYXVWYzVwOEVMdDAwSVJGSDZXWk83cG4xdjdXVHc5cDBXYVJ0eVlKb2xySGgwUTJCQkFzcVBmYVZNSkEwN3B3MFBlQmJ0dDFJNEVSOGFLYlFnZENyRmpmSzJ2Rnl1bV9sLVBRQ3IxQUphcExPbnVtT1dvNm9OdVV4MWNEcEVaZ01oMzlpMFJraC0xSmd3NEZndXRRZkpvYnBMRkd2YzBJRFZIVmZzMU5vR1ZfbFAxdC1FVw?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 10:56:00 GMT",
       "category": "general"
     },
     {
-      "title": "Manchester United told how they have 'disrespected' club legend Michael Carrick",
-      "source": "Manchester Evening News",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWnRUaVBGMUVNUEZSbUs0NFRVMUVBREJYTlhEdVJ3ZmN0bi1IaGU2ZWV2M3JEcVJ2VlRqNzlRblh0eEczZ3RoTmZwUVk5Z0JwUzZjTVhuSmZ4clA4TmxXendLMlJlUmFpZU9fQ3Q4ODk1ZUEtaTk1bm8xUEVIX3VvR0hkcndaUGJFcDd4OGk0SEE3OHNwOUpsUjVLeTZpTWVyTVE4NjlB0gGrAUFVX3lxTE5RajNMTXBQeGZCbVQ1aEZCZXNzbjlOTkJjRVc2WW5QSEhnUmpYY05TRVdYMDQ2OGhUNXJZc2ViRVdVX21TbXo1dGFOUUNhbWV3QTlDVFJhTzdMc1Rsai1veHpLNGd3N0hxaUJPN0h6MndPWDl2WFVhMEE3bmpnN1hIM3N3T0R1ckZseUdEdnJ2UmQwZkNubzZyQkdEQnNmSm5OVkRoLWJTalZZcw?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 05:00:00 GMT",
+      "title": "Roy Keane isn’t angry, he’s just disappointed",
+      "source": "The i Paper",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBLUlNEcExXUWpjcE1MRXpvXzVpWXZmSEROUmlBU2M3UVJBc2JyZGZLam1FRWJ2TXctSHc0TWtvcGhSM1RzUkpvbUNBQkVOQ3BlZU5HTm90S3p4WElYUVRBdDNxSEcyNmtVRnFXZ1ZJVk5ybTRS?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 08:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "I was going to join Chelsea but the deal fell through - I wasn't happy with Man Utd",
-      "source": "Football London",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOb0Nudkd2Z0VsYldHcVlUeU1ORkhING1RR1MwbWtodnozTHliV1ZSdDI2YlNOcEVlbU1udDAyNk1ISmM1LTllWGlHbXdfSUpiWDFZYjZSZEc1X2xNRWNUdWFUZ2gwWjFsZWVyRGU3S2dGcmtkb0FYa1BZb2hzbGkxbTNJQnhXZXNh0gGOAUFVX3lxTFBEUml4cDFMQjZZRlJsMkE5MVZFTFZhSDNudnM2bl8tMUh4N2hKR2prOWJfTWQySk5lVFRsS1M4TUFhVXV5WU0xNmFhZjZURmhpRThRekJpSzMzRm1FT3VaS3d3TVBHY1F0ZmZYZjF4MVNfNWpJdWd6UnFkeS1OMFhTMVZUMUpXY2ZlcWJuMnc?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 06:02:28 GMT",
+      "title": "Club statement on Michael Carrick",
+      "source": "Manchester United",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XaFV6VEFMY2loVmNZY0xHWUZUNmdVcV9CQUM0ZWV2QkZEWWF2LUhTeFZDSjhSVkZ4WndMQlFTMmhtRlhXT2N0VFo3VmtHYlFNa2VHWHNCZlJoenI0LVZ4ek9FOVQ5dmdRMTN6MXB3SzU0TDgteHI3d1NKVGpTOUE?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 10:38:57 GMT",
       "category": "general"
     },
     {
-      "title": "Alex Ferguson’s old clubs enduring endless struggles",
-      "source": "The Times",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPd3NlQ0NlZTVxbXJramtxaEY2UExKdDhhVXQxMHRxM1Nya1BTM3gyY2o4Rm1VS2tXQmFfVGVkX0ZETWZCTTJZWUJmNXRmbnVSUjdVeC1YT3RYOUhEam5IMmoyVDNhWkJMRUxOT1NYanhQRDhMOGVFOG1BZzNISEZUNm1rVDNaTV9FV0U2V2FyWUpobnNuRGtBTVF2UGFhMjg3Vm5yaFJkVmJaM042TExYdkdQVk1IWG8?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 20:36:18 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Man United quickly finding out what Chelsea already knew about Andrey Santos",
-      "source": "The Pride of London",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcGs4QmFJd055T1B0SWpUYUtfcTF4T2I1a3FfVi1OMkFNSktpVzE5OV8tZjJJTzdNMXNoR01tLVhNRkVRUHV6YlZvX191dDNOSVQ4WnExZFp1SEZPNHR5SUVZd1UyZTJaSnJESS05bjdRNGhrNzVkME55bTNDOENTTlJDZGlBLUNRTnJuWWlHOUY4WWVXRWRwaDlpekcxSUNHaVBXYkt1OUk?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 15:30:00 GMT",
+      "title": "Pochettino: It's difficult to turn down United",
+      "source": "Manchester United",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQamZEN2ZhQi1Ra0Z1U004VGpzSkkyNlFrWmNGSlpIeGZKZmFfd01RWlpCSmthNWhtcEtPUmxZbHlyUzVqODNHd05UajJ2QWhZTEdzTVRFOEE4N0VydWtodGRiQlJSLVRlcTZkOE1ZVnRwRGRuak9NUnVxaVpEaU1YeGNNWkZ4UGRkMlRkNUN3ME9OcG5zNUVmTmZIdw?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 11:12:21 GMT",
       "category": "general"
     },
     {
       "title": "Mauricio Pochettino to Man Utd: What does a Pochettino team look like and how will he set up struggling Red Devils?",
       "source": "Sky Sports",
       "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQTDMyN2dCcDRCVld1Rk1YeGxCa2RINmZiZVh1X1dxNWNNYTV2QTFvSEUxbFprM2hWVmp1UGlCMXNPYTltdmhCeF9aY0JjYUJva2xwRlkwLUswdnQxb3piUTZxY0dVd2pVcUdWR256Snc3TjJmWGdrTGp4c2ZtakliWGtmRURtUC1DZUlGTnRETkhzZ04wNEtkcWlvWGpBRklnSGc0d3gwN1QyRG51VkJaTlBjcVZ1OVF6Skh6UUFSelB0Yy0xSUJTU1pLTmZIempaOUZFY3lGd2lVSWliSjAzZEpkWk05d3BuVEo2QnlyU29NYUxM?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 21:47:36 GMT",
+      "pubDate": "Sun, 15 Nov 2026 10:21:17 GMT",
       "category": "general"
     },
     {
-      "title": "Pochettino to become head coach",
-      "source": "Manchester United",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSFFvWHZpZXdDSThUZ2JCNzlwc1ZSbGJaaTZPUkM4N2poaFhWSF92Y1VMMC1tQ29OOWtlRHd5Qk55WGJrRjlObkI4ZkNUSERGM1VRNHhoRGdDMWVoYW9GaG5ycDUydHpTd1dlYkZjSHFublpSSnIxQ0JZYW9sYjduNi1jd0RkU0Z3SnZXLWpB?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 21:51:28 GMT",
-      "category": "manager"
-    },
-    {
-      "title": "Man Utd tracking Como star Nico Paz but Real Madrid have £67m buy-back clause",
-      "source": "The Sun",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1nd2xvOVBMTFFQT01pYVZ4QXdBc1UtUkJjTnNGLUJmTHpkRkdxREc0ZEhydlpwWUhWcHJhZnpFVVZYZFBVdkt3WUVhczdFQXFINkpVTTIyNlp2NEswNHpKTGRxbURhMjZRSFcxeVhSaldQdmI0UWROOTZ5ZlZadw?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 10:24:00 GMT",
+      "title": "Here Manchester United go again, taking the Two Ronnies route to hiring a new boss | Jonathan Wilson",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZ3R5MTVBWkZoaXdrN3MzZTNtVG85aXUwbG0wM1pOemIzYkxKZnIzdEdTN1lteV9Kbk1WOVVKUThEbGtlSml2VkxBVzN1Q3NuYzk4Z2dpUFZwSlVuVFBKRVU4Z0RCV0FEMzJKSTRrdk9MYWlQMlZPaVBhcVNZbXF2WFNWZEUxZjg4ZTZRYVFsNXBEMEFKN2ZIUkU4OXNjMGdRTkFvZ2pBRjh1SHJDbkFqTnlNbjZITkNNdTY0QXRxRjA0T2ZQcnhIUWxB?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 20:00:00 GMT",
       "category": "general"
     }
   ],
