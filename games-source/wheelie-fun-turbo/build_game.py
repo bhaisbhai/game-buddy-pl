@@ -1082,7 +1082,7 @@ function phoneConnect(){if(PL.ws||PL.peer)return;
 
     old_menus_block = """const screens=['title','how','select','tracks','pause','results','cup','bmode','arenas','party','dmode'];
 function show(id){for(const s of screens)$('#'+s).hidden=s!==id;G.focus=0;refreshFocus();}"""
-    new_menus_block = """const screens=['title','how','select','tracks','pause','results','cup','bmode','arenas','party','dmode','online','settings','ctrlTut','lb'];
+    new_menus_block = """const screens=['title','how','select','tracks','pause','pauseHow','results','cup','bmode','arenas','party','dmode','online','settings','ctrlTut','lb'];
 function show(id){for(const s of screens){const el=$('#'+s);if(el)el.hidden=s!==id;}G.focus=0;refreshFocus();}"""
     html = must_replace(html, old_menus_block, new_menus_block, "screens_online")
 

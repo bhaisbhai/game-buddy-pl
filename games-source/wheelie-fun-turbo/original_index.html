@@ -254,6 +254,8 @@ Escape/P or gamepad Start they'd otherwise have no visible way to discover). A s
   on touch devices, where none of those exist -- swap in the actual touch gesture legend instead. */
   #ctrlLegendKeys{display:none}
   #ctrlLegendTouch{display:grid}
+  #pauseCtrlKeys{display:none}
+  #pauseCtrlTouch{display:grid}
   /* racer select: the stat panel + kart grid together covered almost the whole phone screen,
   leaving barely a sliver of the actual 3D kart preview behind them visible. Drop the two
   upgrade-derived stats (Off-Road/Mini-Turbo are the least useful at a glance) and shrink
@@ -5459,7 +5461,7 @@ function garNav(dx,dy){
   return false;}
 function moveFocus(dx,dy){if(G.state==='select'&&garNav(dx,dy))return;const f=focusables();if(!f.length)return;if(G.state==='select'||G.state==='tracks'||G.state==='arenas'){const cols=G.state==='tracks'?(innerWidth<=900?2:5):G.state!=='select'?(innerWidth<=900?2:4):(innerWidth<=720?3:7);let i=G.focus+dx+dy*cols;G.focus=clamp(i,0,f.length-1);}else{G.focus=(G.focus+(dx||dy)+f.length)%f.length;}SFX.menu&&AU.ctx&&SFX.menu();refreshFocus();}
 function activate(){if(G.state==='select'&&G.garFocus!=null&&garAvail()){const sl=$('#garageBar').querySelectorAll('.gSlot')[G.garFocus];const b=sl&&sl.querySelector('[data-gdir="1"]');if(b)b.click();updateWho();markGarage();return;}const f=focusables()[G.focus];if(f)f.click();}
-function back(){if(G.state==='select'&&G.garFocus!=null){G.garFocus=null;refreshFocus();return;}if(G.state==='party'){G.bind=null;G.state=G.battleNext?'bmode':G.deathNext?'dmode':'title';show(G.state);}else if(G.state==='bmode'||G.state==='dmode'){G.state='title';show('title');}else if(G.state==='arenas'){goSelect(G.mode);}else if(G.state==='how'){G.state='title';show('title');}else if(G.state==='select'){if(G.selP>0){G.selP--;buildGrid();}else if(G.bind){goParty(G.battleNext);}else{G.state='title';show('title');}}else if(G.state==='tracks'){goSelect(G.mode);}else if(G.state==='paused')resume();}
+function back(){if(G.state==='select'&&G.garFocus!=null){G.garFocus=null;refreshFocus();return;}if(G.state==='party'){G.bind=null;G.state=G.battleNext?'bmode':G.deathNext?'dmode':'title';show(G.state);}else if(G.state==='bmode'||G.state==='dmode'){G.state='title';show('title');}else if(G.state==='arenas'){goSelect(G.mode);}else if(G.state==='how'){G.state='title';show('title');}else if(G.state==='select'){if(G.selP>0){G.selP--;buildGrid();}else if(G.bind){goParty(G.battleNext);}else{G.state='title';show('title');}}else if(G.state==='tracks'){goSelect(G.mode);}else if(G.state==='pauseHow'){G.state='paused';show('pause');}else if(G.state==='paused')resume();}
 const BLOCK=['race','countdown','loading'];
 function menuKey(code){if(BLOCK.includes(G.state))return;
   if(['ArrowUp','KeyW'].includes(code))moveFocus(0,-1);else if(['ArrowDown','KeyS'].includes(code))moveFocus(0,1);else if(['ArrowLeft','KeyA'].includes(code))moveFocus(-1,0);else if(['ArrowRight','KeyD'].includes(code))moveFocus(1,0);
@@ -5669,6 +5671,7 @@ const _cupNameIn=$('#cupNameIn');if(_cupNameIn)_cupNameIn.addEventListener('chan
 document.addEventListener('click',e=>{const b=e.target.closest('[data-act]');if(!b)return;audioInit();const a=b.dataset.act;
   if(a==='p1'){G.battleNext=false;G.deathNext=false;G.bind=null;goSelect(1);}else if(a==='death'){G.state='dmode';show('dmode');}else if(a==='d1'){G.battleNext=false;G.deathNext=true;G.bind=null;goSelect(1);}else if(a==='dparty'){G.deathNext=true;goParty(false);G.deathNext=true;}else if(a==='diff'){cycleDiff();}else if(a==='party'){G.deathNext=false;goParty(false);}else if(a==='bparty'){goParty(true);}else if(a==='partyGo'){partyGo();}else if(a==='battle'){G.state='bmode';show('bmode');}else if(a==='b1'){G.battleNext=true;G.bind=null;goSelect(1);}else if(a==='b2'){G.battleNext=true;goSelect(2);}else if(a==='arenas')goArenas();else if(a==='how'){G.state='how';show('how');}else if(a==='gfx'){Q.ultra=!Q.ultra;store.set('tikiturbo.gfx',Q.ultra?'ultra':'fast');applyQuality();}else if(a==='back'){G.state='title';show('title');}
   else if(a==='resume')resume();else if(a==='restart'){if(G.cup)G.cup.scored=G.state==='results'?(()=>{for(const[ci,p]of Object.entries(G.cup.lastGain||{}))G.cup.pts[ci]-=p;G.cup.lastGain={};return false;})():G.cup.scored;startRace();}
+  else if(a==='pauseHow'){G.state='pauseHow';show('pauseHow');}else if(a==='pauseHowBack'){G.state='paused';show('pause');}
   else if(a==='quit')quit();else if(a==='reselect')goSelect(G.mode);else if(a==='tracks')goTracks();else if(a==='selGo')confirmSelect();else if(a==='selBack')back();
   else if(a==='next'){G.cup.race++;G.cup.scored=false;G.cup.lastGain={};startLevel(G.cup.order[G.cup.race]);}
   else if(a==='podium')showCup();else if(a==='cupagain'){G.cup=newCup(G.lastCup||0);startLevel(G.cup.order[0]);}});
