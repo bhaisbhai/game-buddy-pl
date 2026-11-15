@@ -1,14 +1,16 @@
 #!/usr/bin/env python3
-"""Builds wheelie-fun-crazygames.html: wheelie-fun-standalone.html plus the CrazyGames SDK script
-tag and a save-data bridge. The game's own code (original_index.html) already calls the SDK's
-init/gameplayStart/gameplayStop methods, but only when window.CrazyGames exists -- so the regular
-standalone build stays dependency-free, and this is the one file that actually loads their SDK.
+"""Builds wheelie-fun.html, the single file that ships everywhere: our own site, any other host, and
+the CrazyGames portal. It is wheelie-fun-standalone.html plus a save-data adapter that checks where
+it is running and loads the CrazyGames SDK only on CrazyGames -- everywhere else it never touches
+their servers and saves stay in the browser, exactly like the plain standalone build.
 Run build_standalone.py first. Usage: python build_crazygames.py"""
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 SRC = ROOT / "wheelie-fun-standalone.html"
-SDK_TAG = '<script src="https://sdk.crazygames.com/crazygames-sdk-v3.js"></script>'
+OUT_NAME = "wheelie-fun.html"
+SDK_URL = "https://sdk.crazygames.com/crazygames-sdk-v3.js"
+SDK_TAG = f'<script src="{SDK_URL}"></script>'
 ANCHOR = '<meta charset="utf-8">'
 
 # The game's progression/settings keys. Everything the game persists routes through
@@ -51,8 +53,27 @@ SAVE_BRIDGE_TAG = r"""<script>// Game-owned adapter: never patch Storage.prototy
 // has a ~1MB cap, and the game's manual Ghost Code export/import already covers sharing one.
 (function(){
 'use strict';
-// A downloaded file is not a CrazyGames SDK environment. Never block local play on it.
-let sdk=(window.location&&window.location.protocol==='file:')?null:(window.CrazyGames&&window.CrazyGames.SDK);
+// One file runs everywhere, so only a page actually on CrazyGames loads their SDK. They serve the
+// game inside an iframe on a crazygames.com host; the parent-origin and referrer checks cover any
+// other domain they serve it from. A downloaded file is never a CrazyGames environment.
+const SDK_URL='__SDK_URL__';
+const ON_CG=(function(){try{
+ if(location.protocol==='file:')return false;
+ const cg=/^([^.]+\.)*crazygames\.(com|io)$/i;
+ if(cg.test(location.hostname))return true;
+ const ao=location.ancestorOrigins;
+ if(ao)for(let i=0;i<ao.length;i++){try{if(cg.test(new URL(ao[i]).hostname))return true}catch(e){}}
+ return !!document.referrer&&cg.test(new URL(document.referrer).hostname);
+}catch(e){return false}})();
+let sdk=null;
+// Resolves null if the SDK can't load (an ad blocker, no connection): the game then just plays
+// with browser saves instead of retrying forever.
+function loadSdk(){
+ if(window.CrazyGames&&window.CrazyGames.SDK)return Promise.resolve(window.CrazyGames.SDK);
+ return new Promise(res=>{const s=document.createElement('script');s.src=SDK_URL;
+  s.onload=()=>res(window.CrazyGames&&window.CrazyGames.SDK||null);s.onerror=()=>res(null);
+  (document.head||document.documentElement).appendChild(s);});
+}
 const INDEX='__wheeliefun_keys_v1', MIGRATED='__wheeliefun_migrated_v1';
 const KNOWN=__KEYS__;
 const pending=new Map();let active=false,timer=null,resolveReady;
@@ -100,9 +121,10 @@ const storage={
  keys(){const keys=new Set();try{for(let n=0;n<local().length;n++){const k=local().key(n);if(!sdk||!relevant(k))keys.add(k)}}catch(e){}if(active)for(const k of index())if(storage.getItem(k)!==null)keys.add(k);for(const [k,v] of pending)if(v!==null)keys.add(k);return [...keys]},
  get length(){return storage.keys().length}
 };
-window.WFSave={storage,ready:boot,sdkReady:false,flush,message:''};
+window.WFSave={storage,ready:boot,sdkReady:false,flush,message:'',onCrazyGames:ON_CG};
 async function initialize(){
  try{
+  if(ON_CG&&!sdk)sdk=await loadSdk();
   if(sdk){
    if(sdk.environment==='disabled'){sdk=null;resolveReady();return}
    await sdk.init();
@@ -131,17 +153,16 @@ initialize();
 def main() -> None:
     html = SRC.read_text(encoding="utf-8")
     assert html.count(ANCHOR) == 1, "charset meta tag not found"
-    assert SDK_TAG not in html, "SDK tag already present"
+    assert SDK_URL not in html, "SDK already referenced"
     keys = FIXED_KEYS + ["wheeliefun.trophy." + c for c in CUP_IDS] + ["wheeliefun.best." + t for t in TRACK_IDS]
     # repr() of a list of plain strings (none contain a quote) is also valid JS array syntax.
-    bridge = SAVE_BRIDGE_TAG.replace("__KEYS__", repr(keys))
+    bridge = SAVE_BRIDGE_TAG.replace("__KEYS__", repr(keys)).replace("__SDK_URL__", SDK_URL)
     html = html.replace(
         ANCHOR,
-        ANCHOR + "\n<!-- Load the SDK before the game code -->\n" + SDK_TAG
-        + "\n<!-- Game-owned CrazyGames Data adapter; game startup awaits save readiness. -->\n" + bridge,
+        ANCHOR + "\n<!-- Save adapter: loads the CrazyGames SDK only when running on CrazyGames; game startup awaits it. -->\n" + bridge,
         1,
     )
-    out = ROOT / "wheelie-fun-crazygames.html"
+    out = ROOT / OUT_NAME
     out.write_text(html, encoding="utf-8", newline="")
     print(f"Built {out.name} ({out.stat().st_size:,} bytes)")
 

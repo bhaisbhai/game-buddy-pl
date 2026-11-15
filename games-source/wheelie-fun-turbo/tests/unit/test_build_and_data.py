@@ -176,15 +176,21 @@ class TestCrazyGamesSaveBridge(unittest.TestCase):
                 self.bc.main()
             finally:
                 self.bc.SRC, self.bc.ROOT = old
-            return (Path(tmp) / "wheelie-fun-crazygames.html").read_text(encoding="utf-8")
+            return (Path(tmp) / self.bc.OUT_NAME).read_text(encoding="utf-8")
 
-    def test_build_produces_bridge_before_the_sdk_script_runs(self):
+    def test_single_file_loads_sdk_only_on_crazygames(self):
+        """One file ships everywhere: no unconditional SDK <script> tag, only the adapter's
+        on-CrazyGames loader, which must be the first script on the page."""
         html = self._build_fresh()
         self.assertEqual(html.count("__KEYS__"), 0, "the __KEYS__ placeholder was left unsubstituted")
-        sdk_at = html.index(self.bc.SDK_TAG)
+        self.assertEqual(html.count("__SDK_URL__"), 0, "the __SDK_URL__ placeholder was left unsubstituted")
+        self.assertNotIn(self.bc.SDK_TAG, html, "the SDK must not load unconditionally on every host")
+        self.assertIn("const ON_CG=", html)
+        self.assertIn(self.bc.SDK_URL, html)
+        first = html.index("<script")
+        self.assertIn("const ON_CG=", html[first:html.index("</script>", first)], "the adapter must be the first script")
         bridge_at = html.index("window.WFSave")
-        self.assertLess(sdk_at, bridge_at, "the bridge must come after the SDK tag (it calls CrazyGames.SDK.*)")
-        # both must still be ahead of every other script on the page (three.js, the game itself)
+        # the adapter must still be ahead of every other script on the page (three.js, the game)
         first_other_script = html.index("<script", html.index("</script>", bridge_at) + len("</script>"))
         self.assertGreater(first_other_script, bridge_at)
         keys = json.loads(re.search(r"const KNOWN=(\[.*?\]);", html).group(1).replace("'", '"'))

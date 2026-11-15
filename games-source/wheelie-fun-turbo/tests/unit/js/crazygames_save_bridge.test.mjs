@@ -1,9 +1,10 @@
-// Boots the real CrazyGames build (wheelie-fun-crazygames.html) in headless Chrome with
+// Boots the single shipped build (wheelie-fun.html) in headless Chrome. On a CrazyGames address
+// (a stand-in https://games.crazygames.com/ URL, served from this folder) it runs with
 // window.CrazyGames mocked -- the real SDK needs their CDN and a live portal session, so it's
 // faithfully stubbed instead -- and checks the save-data bridge build_crazygames.py injects
-// actually round-trips progress through it. Builds a fresh copy from current source first (both
-// wheelie-fun-standalone.html and wheelie-fun-crazygames.html are gitignored artifacts, so this
-// never depends on a stale leftover from a previous manual build).
+// actually round-trips progress through it. On any other address it must never load the SDK.
+// Builds a fresh copy from current source first (wheelie-fun-standalone.html and wheelie-fun.html
+// are gitignored artifacts, so this never depends on a stale leftover from a previous manual build).
 //
 // Uses Playwright (pre-installed in this environment) rather than this project's usual raw
 // DevTools-protocol driver (see game_runtime.test.mjs), because it needs to inject the SDK mock
@@ -23,7 +24,20 @@ import { ROOT } from './harness.mjs';
 const PLAYWRIGHT_PATHS = ['playwright', pathToFileURL('/opt/node-tools/node_modules/playwright/index.js').href];
 const PW_CHROMIUM = '/opt/pw-browsers/chromium-1243/chrome-linux64/chrome';
 
-let chromium, browser, server, GAME_URL, skipReason = null;
+let chromium, browser, server, SITE_URL, skipReason = null;
+// The adapter only switches CrazyGames on when the page is on a CrazyGames host, so the tests load
+// it from one; newGameContext() answers that host from this folder (nothing goes over the network).
+const CG_URL = 'https://games.crazygames.com/wheelie-fun/wheelie-fun.html';
+const SDK_HOST = 'https://sdk.crazygames.com/**';
+
+async function newGameContext() {
+  const context = await browser.newContext();
+  await context.route('https://games.crazygames.com/**', (route) => {
+    const file = path.join(ROOT, path.basename(new URL(route.request().url()).pathname));
+    route.fulfill({ status: 200, contentType: 'text/html', body: fs.readFileSync(file) });
+  });
+  return context;
+}
 
 // Served over http://, not file:// -- the real CrazyGames portal always serves the game over
 // https, and the save bridge itself treats location.protocol === 'file:' as "not a real CrazyGames
@@ -68,7 +82,7 @@ before(async () => {
     return;
   }
   server = await serveRoot();
-  GAME_URL = `http://127.0.0.1:${server.address().port}/wheelie-fun-crazygames.html`;
+  SITE_URL = `http://127.0.0.1:${server.address().port}/wheelie-fun.html`;
 });
 
 after(async () => {
@@ -80,7 +94,7 @@ const live = (name, fn) => test(name, async (t) => { if (skipReason) return t.sk
 
 /** Opens the game with a mocked CrazyGames SDK seeded with `cloudSeed` as its starting cloud data. */
 async function openWithMockSdk(cloudSeed = {}) {
-  const context = await browser.newContext();
+  const context = await newGameContext();
   const page = await context.newPage();
   const errors = [];
   page.on('pageerror', (e) => errors.push(e.message));
@@ -103,7 +117,7 @@ async function openWithMockSdk(cloudSeed = {}) {
   // is enough, since the mock above already defines everything the game actually calls.
   await page.route('https://sdk.crazygames.com/**', (route) =>
     route.fulfill({ status: 200, contentType: 'application/javascript', body: '' }));
-  await page.goto(GAME_URL, { waitUntil: 'load', timeout: 60000 });
+  await page.goto(CG_URL, { waitUntil: 'load', timeout: 60000 });
   await page.waitForFunction(() => !!window.__tiki, null, { timeout: 15000 });
   return { context, page, errors };
 }
@@ -179,7 +193,7 @@ live('a lower (better) best lap time wins the merge instead of the last write', 
 });
 
 live('pre-existing local-only progress is migrated into the cloud on first SDK-active load', async () => {
-  const context = await browser.newContext();
+  const context = await newGameContext();
   const page = await context.newPage();
   const errors = [];
   page.on('pageerror', (e) => errors.push(e.message));
@@ -200,7 +214,7 @@ live('pre-existing local-only progress is migrated into the cloud on first SDK-a
   });
   await page.route('https://sdk.crazygames.com/**', (route) =>
     route.fulfill({ status: 200, contentType: 'application/javascript', body: '' }));
-  await page.goto(GAME_URL, { waitUntil: 'load', timeout: 60000 });
+  await page.goto(CG_URL, { waitUntil: 'load', timeout: 60000 });
   await page.waitForFunction(() => !!window.__tiki, null, { timeout: 15000 });
   await page.waitForTimeout(200);
   assert.equal(await page.evaluate(() => window.__cloud['wheeliefun.trophy.wheeldeal']), '2');
@@ -209,7 +223,7 @@ live('pre-existing local-only progress is migrated into the cloud on first SDK-a
 });
 
 live('a save that keeps failing shows a retry status message, then clears it once it succeeds', async () => {
-  const context = await browser.newContext();
+  const context = await newGameContext();
   const page = await context.newPage();
   await page.addInitScript(() => {
     const cloud = {};
@@ -228,7 +242,7 @@ live('a save that keeps failing shows a retry status message, then clears it onc
   });
   await page.route('https://sdk.crazygames.com/**', (route) =>
     route.fulfill({ status: 200, contentType: 'application/javascript', body: '' }));
-  await page.goto(GAME_URL, { waitUntil: 'load', timeout: 60000 });
+  await page.goto(CG_URL, { waitUntil: 'load', timeout: 60000 });
   await page.waitForFunction(() => !!window.__tiki, null, { timeout: 15000 });
   await page.evaluate(() => window.__tiki.ev("store.set('wheeliefun.unlockedCups','6');"));
   await page.waitForFunction(() => !!(window.WFSave && window.WFSave.message), null, { timeout: 5000 });
@@ -240,7 +254,7 @@ live('a save that keeps failing shows a retry status message, then clears it onc
 });
 
 live('a CrazyGames SDK that never resolves init() still lets the game boot (bounded by the game\'s own timeout)', async () => {
-  const context = await browser.newContext();
+  const context = await newGameContext();
   const page = await context.newPage();
   const errors = [];
   page.on('pageerror', (e) => errors.push(e.message));
@@ -255,24 +269,66 @@ live('a CrazyGames SDK that never resolves init() still lets the game boot (boun
   });
   await page.route('https://sdk.crazygames.com/**', (route) =>
     route.fulfill({ status: 200, contentType: 'application/javascript', body: '' }));
-  await page.goto(GAME_URL, { waitUntil: 'load', timeout: 60000 });
+  await page.goto(CG_URL, { waitUntil: 'load', timeout: 60000 });
   // The game's boot sequence races window.WFSave.ready against its own 8s timeout.
   await page.waitForFunction(() => !!window.__tiki, null, { timeout: 15000 });
   assert.deepEqual(errors, []);
   await context.close();
 });
 
-live('the game boots and the racer-select/confirm flow works with no CrazyGames SDK at all', async () => {
-  const context = await browser.newContext();
+live('on CrazyGames with the SDK blocked (ad blocker), the game still boots and plays on browser saves', async () => {
+  const context = await newGameContext();
   const page = await context.newPage();
   const errors = [];
   page.on('pageerror', (e) => errors.push(e.message));
-  await page.route('https://sdk.crazygames.com/**', (route) => route.abort());
-  await page.goto(GAME_URL, { waitUntil: 'load', timeout: 60000 });
+  await page.route(SDK_HOST, (route) => route.abort());
+  await page.goto(CG_URL, { waitUntil: 'load', timeout: 60000 });
   await page.waitForFunction(() => !!window.__tiki, null, { timeout: 15000 });
   await page.evaluate(() => window.__tiki.ev('document.querySelector(\'[data-act="p1"]\').click();'));
   await page.evaluate(() => document.querySelectorAll('#grid .ch')[0].click());
   assert.equal(await page.evaluate(() => window.__tiki.ev('G.state')), 'tracks');
+  assert.equal(await page.evaluate(() => window.WFSave.onCrazyGames), true);
+  assert.equal(await page.evaluate(() => window.WFSave.sdkReady), false);
+  assert.equal(await page.evaluate(() => window.WFSave.message), '', 'no stuck "retrying" banner');
+  assert.deepEqual(errors, []);
+  await context.close();
+});
+
+live('on CrazyGames, the SDK is loaded by the page itself and gameplay start is reported', async () => {
+  const context = await newGameContext();
+  const page = await context.newPage();
+  // No window.CrazyGames mock up front: the page must fetch the SDK script on its own, which
+  // here is a stub that defines the SDK and records gameplayStart.
+  await page.route(SDK_HOST, (route) => route.fulfill({ status: 200, contentType: 'application/javascript', body: `
+    window.__gameplay = [];
+    const cloud = {};
+    window.CrazyGames = { SDK: {
+      init: () => Promise.resolve(),
+      data: { getItem: (k) => (k in cloud ? cloud[k] : null), setItem: (k, v) => { cloud[k] = v; }, removeItem: (k) => { delete cloud[k]; } },
+      game: { gameplayStart() { window.__gameplay.push('start'); }, gameplayStop() { window.__gameplay.push('stop'); } },
+    } };` }));
+  await page.goto(CG_URL, { waitUntil: 'load', timeout: 60000 });
+  await page.waitForFunction(() => !!window.__tiki && window.WFSave.sdkReady, null, { timeout: 20000 });
+  await page.evaluate(() => window.__tiki.ev("G.state='race';"));
+  await page.waitForFunction(() => window.__gameplay.includes('start'), null, { timeout: 10000 });
+  await context.close();
+});
+
+live('on our own site (any non-CrazyGames address) the CrazyGames SDK is never requested', async () => {
+  const context = await browser.newContext();
+  const page = await context.newPage();
+  const errors = [];
+  const sdkRequests = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+  page.on('request', (r) => { if (r.url().includes('crazygames')) sdkRequests.push(r.url()); });
+  await page.goto(SITE_URL, { waitUntil: 'load', timeout: 60000 });
+  await page.waitForFunction(() => !!window.__tiki, null, { timeout: 15000 });
+  await page.waitForTimeout(500);
+  assert.deepEqual(sdkRequests, []);
+  assert.equal(await page.evaluate(() => window.WFSave.onCrazyGames), false);
+  assert.equal(await page.evaluate(() => window.WFSave.sdkReady), false);
+  await page.evaluate(() => window.WFSave.storage.setItem('wheeliefun.unlockedCups', '3'));
+  assert.equal(await page.evaluate(() => localStorage.getItem('wheeliefun.unlockedCups')), '3', 'saves stay in the browser');
   assert.deepEqual(errors, []);
   await context.close();
 });
