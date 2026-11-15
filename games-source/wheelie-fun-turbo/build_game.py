@@ -662,7 +662,7 @@ async function startPhonePadHost(){PL.mode='p2p';PL.up=false;
   let PeerCtor;try{PeerCtor=await loadPhonePeerJs();}catch(e){setTimeout(startPhonePadHost,8000);return;}
   const code=phonePadCode();let peer;try{peer=new PeerCtor('wfpad-'+code,PHONE_PEER_ICE_CONFIG);}catch(e){setTimeout(startPhonePadHost,8000);return;}
   PL.peer=peer;let nextId=1;
-  peer.on('open',()=>{PL.up=true;const base=location.pathname.endsWith('/')?location.pathname:location.pathname+'/';PL.url=location.origin+base+'pad.html?v='+PAD_VERSION+'&room='+code;partyRefresh();});
+  peer.on('open',()=>{PL.up=true;PL.url=phonePadHome()+'?v='+PAD_VERSION+'&room='+code;partyRefresh();});
   peer.on('connection',(conn)=>{const id='ph'+(nextId++);
     conn.on('data',(m)=>{if(!m||typeof m!=='object')return;
       if(m.t==='join'){phonePadJoin(id,m.name,conn);}
@@ -675,8 +675,13 @@ async function startPhonePadHost(){PL.mode='p2p';PL.up=false;
   // socket, not phones already connected -- reconnect it quietly instead of treating the whole
   // lobby as dead.
   peer.on('disconnected',()=>{PL.up=false;partyRefresh();try{peer.reconnect();}catch(e){}});}
+// Phones always load the pad page from our own site: when the game itself is a downloaded file or
+// hosted on someone else's domain (CrazyGames), there is no pad.html next to it to point at.
+function phonePadHome(){if(location.protocol==='https:'&&/(^|\\.)game-buddy\\.co\\.uk$/.test(location.hostname)){const p=location.pathname,base=/\\.html?$/i.test(p)?p.replace(/[^/]*$/,''):p.endsWith('/')?p:p+'/';return location.origin+base+'pad.html';}return 'https://www.game-buddy.co.uk/wheelie-fun/pad.html';}
 function phoneConnect(){if(PL.ws||PL.peer)return;
-  if(location.protocol==='https:'){startPhonePadHost();return;}
+  // Only a page served by the local launcher (plain http on a LAN host) has a phone relay socket to
+  // talk to; everywhere else -- the live site, CrazyGames, a downloaded file -- use the internet relay.
+  if(!(location.protocol==='http:'&&location.host)){startPhonePadHost();return;}
   let ws;try{const phUrl=location.protocol==='http:'&&location.host?'ws://'+location.host+'/ws?role=game':'ws://127.0.0.1:'+PHONE_PORT+'/ws?role=game';ws=new WebSocket(phUrl);}catch(e){return;}PL.ws=ws;PL.mode='lan';
   ws.onopen=()=>{PL.up=true;partyRefresh();};
   ws.onclose=()=>{PL.ws=null;PL.up=false;for(const ph of PHONES.values())ph.on=false;partyRefresh();setTimeout(phoneConnect,4000);};

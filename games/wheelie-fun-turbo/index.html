@@ -120,7 +120,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .slots{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:8px 0 16px}
 .slot{border-radius:16px;padding:14px 8px;background:rgba(255,255,255,.06);border:3px dashed rgba(255,255,255,.18);min-height:92px;display:flex;flex-direction:column;justify-content:center;gap:6px}
 .slot b{font-family:var(--display);font-size:26px}.slot span{font-size:14px;opacity:.85}.slot.on{border-style:solid;background:rgba(255,255,255,.1)}
-.join{display:flex;gap:18px;align-items:center;justify-content:center;margin:0 auto 14px;text-align:left}.qr{width:150px;height:150px;background:#fff;border-radius:12px;padding:6px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;color:#1a0f2b;font-size:12px}
+.join{display:flex;gap:18px;align-items:center;justify-content:center;margin:0 auto 14px;text-align:left}.qr{width:150px;height:150px;flex-shrink:0;background:#fff;border-radius:12px;padding:6px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;color:#1a0f2b;font-size:12px}
 .qr svg,.qr img{width:100%;height:100%}.joinTxt{display:flex;flex-direction:column;gap:6px}.joinTxt span{font-family:var(--display);font-size:20px;color:var(--lagoon)}.joinTxt small{opacity:.75}
 .view.small .pos{font-size:clamp(36px,5vw,64px)}
 .view.small:first-child .br{bottom:auto;top:calc(12px + env(safe-area-inset-top,0px))}
@@ -282,6 +282,12 @@ Escape/P or gamepad Start they'd otherwise have no visible way to discover). A s
   exist on a touch-only host -- the real touch join path is a friend's phone scanning the QR. */
   #partyHelpKeys{display:none}
   #partyHelpTouch{display:block}
+  /* the long join link squeezed the QR into an unscannable sliver beside it -- on a phone, friends
+  scan this screen, so the code gets the full width and the link drops underneath, smaller. */
+  .join{flex-direction:column;align-items:center;text-align:center;gap:10px}
+  .qr{width:200px;height:200px}
+  .joinTxt{align-items:center}
+  .joinTxt span{font-size:12px;word-break:break-all}
   /* "Race school"'s controls reference listed PS4/Xbox pad and two keyboard schemes -- none of
   which exist on a touch screen -- with no touch equivalent at all; swap in the real gestures. */
   #howCtrlKeys{display:none}
@@ -7369,7 +7375,7 @@ async function startPhonePadHost(){PL.mode='p2p';PL.up=false;
   let PeerCtor;try{PeerCtor=await loadPhonePeerJs();}catch(e){setTimeout(startPhonePadHost,8000);return;}
   const code=phonePadCode();let peer;try{peer=new PeerCtor('wfpad-'+code,PHONE_PEER_ICE_CONFIG);}catch(e){setTimeout(startPhonePadHost,8000);return;}
   PL.peer=peer;let nextId=1;
-  peer.on('open',()=>{PL.up=true;const base=location.pathname.endsWith('/')?location.pathname:location.pathname+'/';PL.url=location.origin+base+'pad.html?v='+PAD_VERSION+'&room='+code;partyRefresh();});
+  peer.on('open',()=>{PL.up=true;PL.url=phonePadHome()+'?v='+PAD_VERSION+'&room='+code;partyRefresh();});
   peer.on('connection',(conn)=>{const id='ph'+(nextId++);
     conn.on('data',(m)=>{if(!m||typeof m!=='object')return;
       if(m.t==='join'){phonePadJoin(id,m.name,conn);}
@@ -7382,8 +7388,13 @@ async function startPhonePadHost(){PL.mode='p2p';PL.up=false;
   // socket, not phones already connected -- reconnect it quietly instead of treating the whole
   // lobby as dead.
   peer.on('disconnected',()=>{PL.up=false;partyRefresh();try{peer.reconnect();}catch(e){}});}
+// Phones always load the pad page from our own site: when the game itself is a downloaded file or
+// hosted on someone else's domain (CrazyGames), there is no pad.html next to it to point at.
+function phonePadHome(){if(location.protocol==='https:'&&/(^|\.)game-buddy\.co\.uk$/.test(location.hostname)){const p=location.pathname,base=/\.html?$/i.test(p)?p.replace(/[^/]*$/,''):p.endsWith('/')?p:p+'/';return location.origin+base+'pad.html';}return 'https://www.game-buddy.co.uk/wheelie-fun/pad.html';}
 function phoneConnect(){if(PL.ws||PL.peer)return;
-  if(location.protocol==='https:'){startPhonePadHost();return;}
+  // Only a page served by the local launcher (plain http on a LAN host) has a phone relay socket to
+  // talk to; everywhere else -- the live site, CrazyGames, a downloaded file -- use the internet relay.
+  if(!(location.protocol==='http:'&&location.host)){startPhonePadHost();return;}
   let ws;try{const phUrl=location.protocol==='http:'&&location.host?'ws://'+location.host+'/ws?role=game':'ws://127.0.0.1:'+PHONE_PORT+'/ws?role=game';ws=new WebSocket(phUrl);}catch(e){return;}PL.ws=ws;PL.mode='lan';
   ws.onopen=()=>{PL.up=true;partyRefresh();};
   ws.onclose=()=>{PL.ws=null;PL.up=false;for(const ph of PHONES.values())ph.on=false;partyRefresh();setTimeout(phoneConnect,4000);};
@@ -11989,6 +12000,7 @@ function partyRefresh(){if(G.state!=='party')return;const B=G.bind||[];
     // the code permanently stuck on '…' with no retry, since later refreshes saw the same PL.url
     // and never tried again.
     if($('#qr').dataset.u!==PL.url){$('#qr').textContent='…';qrSVG(PL.url,svg=>{$('#qr').dataset.u=PL.url;$('#qr').innerHTML=svg;},()=>{$('#qr').innerHTML='Use the link →';});}}
+  else if(PL.mode==='p2p'){$('#joinUrl').textContent='Setting up phone link…';$('#joinHint').textContent='This needs an internet connection. It retries on its own.';$('#qr').textContent='…';$('#qr').dataset.u='';}
   else{$('#joinUrl').textContent='Phone link is offline';$('#joinHint').textContent='Start Wheelie Fun from the Retro Front launcher to let phones join.';$('#qr').innerHTML='📵';$('#qr').dataset.u='';}}
 // ---- track select ----
 const bestKey=L=>'wheeliefun.best.'+L.id;

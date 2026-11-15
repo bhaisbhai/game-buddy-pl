@@ -98,7 +98,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .slots{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:8px 0 16px}
 .slot{border-radius:16px;padding:14px 8px;background:rgba(255,255,255,.06);border:3px dashed rgba(255,255,255,.18);min-height:92px;display:flex;flex-direction:column;justify-content:center;gap:6px}
 .slot b{font-family:var(--display);font-size:26px}.slot span{font-size:14px;opacity:.85}.slot.on{border-style:solid;background:rgba(255,255,255,.1)}
-.join{display:flex;gap:18px;align-items:center;justify-content:center;margin:0 auto 14px;text-align:left}.qr{width:150px;height:150px;background:#fff;border-radius:12px;padding:6px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;color:#1a0f2b;font-size:12px}
+.join{display:flex;gap:18px;align-items:center;justify-content:center;margin:0 auto 14px;text-align:left}.qr{width:150px;height:150px;flex-shrink:0;background:#fff;border-radius:12px;padding:6px;box-sizing:border-box;display:flex;align-items:center;justify-content:center;color:#1a0f2b;font-size:12px}
 .qr svg,.qr img{width:100%;height:100%}.joinTxt{display:flex;flex-direction:column;gap:6px}.joinTxt span{font-family:var(--display);font-size:20px;color:var(--lagoon)}.joinTxt small{opacity:.75}
 .view.small .pos{font-size:clamp(36px,5vw,64px)}
 .view.small:first-child .br{bottom:auto;top:calc(12px + env(safe-area-inset-top,0px))}
@@ -260,6 +260,12 @@ Escape/P or gamepad Start they'd otherwise have no visible way to discover). A s
   exist on a touch-only host -- the real touch join path is a friend's phone scanning the QR. */
   #partyHelpKeys{display:none}
   #partyHelpTouch{display:block}
+  /* the long join link squeezed the QR into an unscannable sliver beside it -- on a phone, friends
+  scan this screen, so the code gets the full width and the link drops underneath, smaller. */
+  .join{flex-direction:column;align-items:center;text-align:center;gap:10px}
+  .qr{width:200px;height:200px}
+  .joinTxt{align-items:center}
+  .joinTxt span{font-size:12px;word-break:break-all}
   /* "Race school"'s controls reference listed PS4/Xbox pad and two keyboard schemes -- none of
   which exist on a touch screen -- with no touch equivalent at all; swap in the real gestures. */
   #howCtrlKeys{display:none}
@@ -5552,6 +5558,7 @@ function partyRefresh(){if(G.state!=='party')return;const B=G.bind||[];
     // the code permanently stuck on '…' with no retry, since later refreshes saw the same PL.url
     // and never tried again.
     if($('#qr').dataset.u!==PL.url){$('#qr').textContent='…';qrSVG(PL.url,svg=>{$('#qr').dataset.u=PL.url;$('#qr').innerHTML=svg;},()=>{$('#qr').innerHTML='Use the link →';});}}
+  else if(PL.mode==='p2p'){$('#joinUrl').textContent='Setting up phone link…';$('#joinHint').textContent='This needs an internet connection. It retries on its own.';$('#qr').textContent='…';$('#qr').dataset.u='';}
   else{$('#joinUrl').textContent='Phone link is offline';$('#joinHint').textContent='Start Wheelie Fun from the Retro Front launcher to let phones join.';$('#qr').innerHTML='📵';$('#qr').dataset.u='';}}
 // ---- track select ----
 const bestKey=L=>'wheeliefun.best.'+L.id;
