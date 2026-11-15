@@ -130,7 +130,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .card{background:var(--panel);border:3px solid rgba(255,255,255,.12);border-radius:22px;padding:clamp(18px,3vw,32px);max-width:760px;width:100%;box-sizing:border-box;max-height:100%;overflow:auto}
 .card h2{font-family:var(--display);font-weight:400;margin:0 0 6px;font-size:clamp(24px,3.4vw,38px);color:var(--ember);text-wrap:balance}
 .card p{margin:0 0 14px;line-height:1.45;color:var(--muted);max-width:62ch}
-.ctrl{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:16px 0 22px}#howCtrlTouch{display:none}
+.ctrl{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:16px 0 22px}#howCtrlTouch{display:none}#howItemsTouch{display:none}
 .ctrl h3{font-family:var(--display);font-weight:400;font-size:14px;letter-spacing:.08em;color:var(--lagoon);margin:0 0 8px}
 .ctrl dl{display:grid;grid-template-columns:auto 1fr;gap:5px 12px;margin:0;font-size:14px}
 .ctrl dt{color:var(--cream);font-weight:600;white-space:nowrap}
@@ -269,6 +269,10 @@ Escape/P or gamepad Start they'd otherwise have no visible way to discover). A s
   which exist on a touch screen -- with no touch equivalent at all; swap in the real gestures. */
   #howCtrlKeys{display:none}
   #howCtrlTouch{display:grid}
+  /* touch has no swap-items gesture at all (steer/item/drift/hype only) -- the d-pad instruction
+  describes a control that doesn't exist here, not just one that's phrased wrong. */
+  #howItemsKeys{display:none}
+  #howItemsTouch{display:block}
   /* the title screen's "connect a controller" readout is equally irrelevant there. */
   #padInfo{display:none}
   /* racer select: the stat panel + kart grid together covered almost the whole phone screen,
@@ -445,7 +449,8 @@ characters before browsing freely. */
       <div class="row"><div class="key wide" style="background:#ff5b1f;color:#fff">⚡</div><div class="label">Signature Hype<small>TAP THE HYPE BAR WHEN FULL</small></div></div>
     </div>
     <h3 class="sectionLabel first">ITEMS</h3>
-    <p>You can carry two at once: the big box is the one you fire, the small NEXT box moves up after. Press d-pad &uarr; to swap them. Coins raise your top speed.</p>
+    <p id="howItemsKeys">You can carry two at once: the big box is the one you fire, the small NEXT box moves up after. Press d-pad &uarr; to swap them. Coins raise your top speed.</p>
+    <p id="howItemsTouch">You can carry two at once: the big box is the one you fire, the small NEXT box moves up after. Coins raise your top speed.</p>
     <ul class="itemsGrid">
       <li class="itemCard"><i class="itemIcon"><svg viewBox="0 0 64 64"><g transform="translate(-2.55 -3.2)"><path d="M22 18c2-7 9-9 13-5" stroke="#2fae4a" stroke-width="5" fill="none" stroke-linecap="round"/><path d="M30 17c15 1 22 15 18 29-3 10-14 15-28 13 12-6 15-14 13-24-1-7-4-12-3-18z" fill="#ff3b2f"/><path d="M36 24c5 2 8 7 8 12" stroke="#ffb3a8" stroke-width="3" fill="none" stroke-linecap="round"/></g></svg></i><div class="itemText"><b>Chili</b><span>Boost</span></div></li>
       <li class="itemCard"><i class="itemIcon"><svg viewBox="0 0 64 64"><g transform="translate(2.58 -0.69)"><g transform="translate(-6 6) scale(.62)"><path d="M30 17c15 1 22 15 18 29-3 10-14 15-28 13 12-6 15-14 13-24-1-7-4-12-3-18z" fill="#ff3b2f"/></g><g transform="translate(14 -4) scale(.62)"><path d="M30 17c15 1 22 15 18 29-3 10-14 15-28 13 12-6 15-14 13-24-1-7-4-12-3-18z" fill="#ff6a1f"/></g><g transform="translate(22 22) scale(.62)"><path d="M30 17c15 1 22 15 18 29-3 10-14 15-28 13 12-6 15-14 13-24-1-7-4-12-3-18z" fill="#ff3b2f"/></g></g></svg></i><div class="itemText"><b>Triple Chili</b><span>Three boosts</span></div></li>
