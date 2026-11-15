@@ -130,6 +130,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .card{background:var(--panel);border:3px solid rgba(255,255,255,.12);border-radius:22px;padding:clamp(18px,3vw,32px);max-width:760px;width:100%;box-sizing:border-box;max-height:100%;overflow:auto}
 .card h2{font-family:var(--display);font-weight:400;margin:0 0 6px;font-size:clamp(24px,3.4vw,38px);color:var(--ember);text-wrap:balance}
 .card p{margin:0 0 14px;line-height:1.45;color:var(--muted);max-width:62ch}
+#cup .btns{margin-top:18px}
 .ctrl{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:16px 0 22px}#howCtrlTouch{display:none}#howItemsTouch{display:none}
 .ctrl h3{font-family:var(--display);font-weight:400;font-size:14px;letter-spacing:.08em;color:var(--lagoon);margin:0 0 8px}
 .ctrl dl{display:grid;grid-template-columns:auto 1fr;gap:5px 12px;margin:0;font-size:14px}
@@ -687,8 +688,9 @@ characters before browsing freely. */
       <button type="button" class="btn alt" data-act="cupNameSave" style="margin-top:4px;padding:8px 16px;font-size:13px;align-self:flex-start">Update Name</button>
     </div>
     <div class="btns">
-      <button class="btn" data-act="quit">Back to title</button>
+      <button class="btn" data-act="cupnext" id="cupNextBtn">Next cup ▶</button>
       <button class="btn alt" data-act="cupagain">Race the cup again</button>
+      <button class="btn ghost" data-act="quit">Back to title</button>
       <button class="btn ghost" data-act="lb">🏆 Leaderboards</button>
     </div>
   </div>
@@ -5781,7 +5783,7 @@ ARENAS.push(
 // ================= menus =================
 const screens=['title','how','select','tracks','pause','pauseHow','results','cup','bmode','arenas','party','dmode','online','settings','ctrlTut','lb'];
 function show(id){for(const s of screens){const el=$('#'+s);if(el)el.hidden=s!==id;}G.focus=0;refreshFocus();}
-function focusables(){const id=screens.find(s=>{const el=$('#'+s);return el&&!el.hidden;});if(!id)return[];return[...$('#'+id).querySelectorAll(id==='select'?'.ch':(id==='tracks'||id==='arenas')?'.trk':'.btn')].filter(el=>!el.disabled);}
+function focusables(){const id=screens.find(s=>{const el=$('#'+s);return el&&!el.hidden;});if(!id)return[];return[...$('#'+id).querySelectorAll(id==='select'?'.ch':(id==='tracks'||id==='arenas')?'.trk':'.btn')].filter(el=>!el.disabled&&!el.hidden);}
 function refreshFocus(){const f=focusables();f.forEach((el,i)=>el.classList.toggle('focus',i===G.focus&&!(G.state==='select'&&G.garFocus!=null)));if(G.state==='select')markGarage();if(f[G.focus]&&f[G.focus].scrollIntoView)f[G.focus].scrollIntoView({block:'nearest',behavior:'smooth'});if(G.state==='select')updateWho();}
 // ---- Kart Garage on the racer-select screen, reachable by controller/keyboard ----
 // ▲ from the top row of racers enters the garage row, ◀ ▶ picks a slot, Ⓐ/Enter changes it, ▼ or Ⓑ goes back.
@@ -5948,7 +5950,12 @@ function showCup(){engineStop();G.lastCup=G.cup&&G.cup.ci||0;const rows=standing
   $('#cupSub').textContent=(hb===1?(G.humans.length>1?'A player takes the gold trophy!':'Gold trophy! Saved to your shelf.'):hb<=3?(['','','Silver','Bronze'][hb]+' trophy. Saved to your shelf.'):'Off the podium this time. Have another go!')+(newlyUnlocked?' 🔓 New cup unlocked!':'');
   $('#cupTable').innerHTML=rows.map((r,i)=>`<tr class="${G.humans.includes(r.i)?'me':''}"><td>${i+1}</td><td><i style="background:${hexCss(r.c.kart)}"></i>${r.c.name}</td><td class="pts">${r.p}</td></tr>`).join('');
   const cupNameIn=$('#cupNameIn');if(cupNameIn)cupNameIn.value=lbName();
-  show('cup');SFX.finish();}
+  // straight on to the next cup in the series, once it's unlocked (there's none after the last)
+  const nextCi=(G.lastCup||0)+1,nextBtn=$('#cupNextBtn');
+  if(nextBtn){nextBtn.hidden=!(nextCi<CUPS.length&&!cupLocked(nextCi));if(!nextBtn.hidden)nextBtn.textContent='Next: '+CUPS[nextCi].name+' ▶';}
+  show('cup');SFX.finish();
+  // controller/keyboard highlight starts on "Next cup" (not the leaderboard name box above it)
+  const fl=focusables(),fi=nextBtn&&!nextBtn.hidden?fl.indexOf(nextBtn):-1;if(fi>=0){G.focus=fi;refreshFocus();}}
 function updateShelf(){const won=CUPS.map(c=>[c,trophyOf(c.id)]).filter(([,t])=>t);$('#shelf').innerHTML=won.length?'Trophy shelf: '+won.map(([c,t])=>`<b>${['Gold','Silver','Bronze'][t-1]} ${c.name}</b>`).join(' · '):'';}
 
 // ================= global leaderboards (Redis-backed, shared with Keepy Uppy's infra) =================
@@ -6034,7 +6041,8 @@ document.addEventListener('click',e=>{const b=e.target.closest('[data-act]');if(
   else if(a==='pauseHow'){G.state='pauseHow';show('pauseHow');}else if(a==='pauseHowBack'){G.state='paused';show('pause');}
   else if(a==='quit')quit();else if(a==='reselect')goSelect(G.mode);else if(a==='tracks')goTracks();else if(a==='selGo')confirmSelect();else if(a==='selBack')back();
   else if(a==='next'){G.cup.race++;G.cup.scored=false;G.cup.lastGain={};startLevel(G.cup.order[G.cup.race]);}
-  else if(a==='podium')showCup();else if(a==='cupagain'){G.cup=newCup(G.lastCup||0);startLevel(G.cup.order[0]);}});
+  else if(a==='podium')showCup();else if(a==='cupagain'){G.cup=newCup(G.lastCup||0);startLevel(G.cup.order[0]);}
+  else if(a==='cupnext'){const ni=(G.lastCup||0)+1;if(ni<CUPS.length&&!cupLocked(ni)){G.cup=newCup(ni);startLevel(G.cup.order[0]);}}});
 
 // ================= main loop =================
 let last=performance.now(),pauseBtnOn=false;
