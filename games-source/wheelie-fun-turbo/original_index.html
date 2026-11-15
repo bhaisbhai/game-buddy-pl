@@ -276,6 +276,10 @@ Escape/P or gamepad Start they'd otherwise have no visible way to discover). A s
   #howItemsTouch{display:block}
   /* the title screen's "connect a controller" readout is equally irrelevant there. */
   #padInfo{display:none}
+  /* on a phone everyone races on their own device: "Multiplayer" opens the online room screen
+  itself, so the separate Online Cup button is redundant, and Battle/Death Race (not supported
+  online) lose their couch split-screen option. */
+  #onlineBtn,[data-act="bparty"],[data-act="dparty"]{display:none}
   /* racer select: the stat panel + kart grid together covered almost the whole phone screen,
   leaving barely a sliver of the actual 3D kart preview behind them visible. Drop the two
   upgrade-derived stats (Off-Road/Mini-Turbo are the least useful at a glance) and shrink

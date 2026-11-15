@@ -20,6 +20,12 @@
   // relay (https://www.metered.ca/tools/openrelay/) gives WebRTC a fallback path when a direct
   // connection can't be punched through, at the cost of relaying through their servers instead of
   // going direct -- the standard fix for "P2P works on WiFi, not on mobile data".
+  // On phones every player races on their own device, so this lobby is the whole multiplayer UI
+  // there (the couch split-screen lobby is desktop-only) and gets a simpler, share-first layout.
+  const IS_TOUCH = typeof matchMedia === 'function' && matchMedia('(pointer: coarse)').matches;
+  // Invite links must open the real game: from a downloaded file or a third-party host (CrazyGames)
+  // the page's own address is useless to a friend.
+  const LIVE_GAME_URL = 'https://www.game-buddy.co.uk/wheelie-fun/';
   const PEER_ICE_CONFIG = {
     config: {
       iceServers: [
@@ -843,6 +849,22 @@
   min-width:40px; min-height:40px; /* tappable with a thumb mid-race, alongside the steering zone */
 }
 #wfoEmoteBar button:hover { background:var(--ember,#ffb22e); color:#1a0f2b; }
+/* on a phone, bottom-centre is where the HYPE bar lives (tap it to fire signature hype) and where
+thumbs steer -- park the emotes in a slim column on the right edge instead. */
+@media (pointer:coarse) {
+  #wfoEmoteBar {
+    left:auto; right:calc(6px + env(safe-area-inset-right,0px)); top:42%; bottom:auto; transform:none;
+    flex-direction:column; border-radius:18px; padding:5px; gap:5px;
+  }
+  #wfoEmoteBar button { min-width:0; min-height:0; padding:7px 9px; font-size:11px; line-height:1.15; max-width:74px; }
+  /* the room banner sat over the item box at the top of a phone screen; under the coin counter
+  on the left is the one empty spot (the HYPE meter owns the bottom). */
+  #wfoHudPill {
+    top:calc(98px + env(safe-area-inset-top,0px)); right:auto; left:calc(12px + env(safe-area-inset-left,0px));
+    font-size:9px; padding:4px 9px; max-width:44vw; white-space:normal; line-height:1.3;
+  }
+  #wfoEmoteFeed { top:calc(150px + env(safe-area-inset-top,0px)); }
+}
 #wfoSpecBtn {
   position:fixed; top:calc(52px + env(safe-area-inset-top,0px)); left:50%; transform:translateX(-50%);
   z-index:23; border:2px solid var(--ember,#ffb22e); background:rgba(26,15,43,.9); color:var(--cream,#fff4df);
@@ -854,6 +876,39 @@
   .wfoSplit, .wfoPlayers { grid-template-columns:1fr; }
   .wfoChars { grid-template-columns:repeat(4,1fr); }
 }
+.wfoMobile { padding:18px 14px; }
+.wfoMobile .wfoHead { justify-content:center; margin-bottom:4px; }
+.wfoLead { font-size:14px; color:var(--muted,#c9b6e4); margin:0 0 12px; text-align:center; line-height:1.4; }
+.wfoMobile .wfoField { min-width:0; margin-bottom:12px; }
+.wfoMobile .wfoBox { margin-bottom:12px; }
+.wfoMobile .wfoChars { display:flex; overflow-x:auto; gap:8px; padding-bottom:4px; -webkit-overflow-scrolling:touch; margin:4px 0 0; }
+.wfoMobile .wfoCh { flex:0 0 72px; padding:9px 4px; }
+.wfoMobile .wfoPlayers { grid-template-columns:1fr; }
+.wfoSeg { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-bottom:12px; }
+.wfoSeg button {
+  border:2px solid rgba(255,255,255,.18); background:rgba(255,255,255,.05); color:var(--cream,#fff4df);
+  border-radius:14px; padding:12px 8px; font-family:var(--display,'Bungee',sans-serif); font-size:15px; cursor:pointer;
+  display:flex; flex-direction:column; align-items:center; gap:3px;
+}
+.wfoSeg button small { font-family:var(--body,'Fredoka',sans-serif); font-size:12px; color:var(--muted,#c9b6e4); }
+.wfoSeg button.sel { border-color:var(--ember,#ffb22e); background:rgba(255,178,46,.18); }
+.wfoWide { width:100%; box-sizing:border-box; }
+.wfoStack { display:flex; flex-direction:column; gap:10px; }
+#wfoShareBtn { margin-bottom:12px; }
+.wfoJoinRow { flex-wrap:nowrap; margin-bottom:0; }
+.wfoJoinRow .wfoCodeIn { flex:1; min-width:0; max-width:none; }
+.wfoInvite { display:flex; gap:14px; align-items:center; margin-bottom:12px; }
+.wfoInviteQr {
+  width:150px; height:150px; flex-shrink:0; background:#fff; border-radius:12px; padding:6px; box-sizing:border-box;
+  display:flex; align-items:center; justify-content:center; color:#1a0f2b; font-size:12px; text-align:center;
+}
+.wfoInviteQr svg { width:100%; height:100%; }
+.wfoInviteTxt { display:flex; flex-direction:column; gap:4px; min-width:0; }
+.wfoInviteTxt label { font-family:var(--display,'Bungee',sans-serif); font-size:11px; letter-spacing:.08em; color:var(--muted,#c9b6e4); }
+.wfoInviteTxt small { font-size:12px; color:var(--muted,#c9b6e4); line-height:1.35; }
+.wfoRaceInfo { display:flex; flex-direction:column; gap:2px; }
+.wfoRaceInfo b { font-family:var(--display,'Bungee',sans-serif); font-weight:400; color:var(--ember,#ffb22e); }
+.wfoRaceInfo small { color:var(--muted,#c9b6e4); font-size:12px; }
 `;
       document.head.appendChild(st);
     }
@@ -884,7 +939,7 @@
       bar.id = 'wfoEmoteBar';
       bar.hidden = true;
       bar.innerHTML = Object.keys(EMOTE_PRESETS)
-        .map((k) => `<button type="button" data-wfo-emote="${k}">[${k}] ${EMOTE_PRESETS[k]}</button>`)
+        .map((k) => `<button type="button" data-wfo-emote="${k}">${IS_TOUCH ? '' : `[${k}] `}${EMOTE_PRESETS[k]}</button>`)
         .join('');
       bar.addEventListener('click', (e) => {
         const b = e.target.closest('[data-wfo-emote]');
@@ -942,7 +997,111 @@
       .map((k) => `<option value="${k}"${cur === k ? ' selected' : ''}>${escapeHtml(CC_LABELS[k])}</option>`)
       .join('');
 
-    if (!inRoom) {
+    const modeSegHtml = (cur, attr) => `
+      <div class="wfoSeg">
+        <button type="button" ${attr}="cup" class="${cur === 'cup' ? 'sel' : ''}">Race Cup<small>4 races</small></button>
+        <button type="button" ${attr}="single" class="${cur === 'single' ? 'sel' : ''}">Single Track<small>1 race</small></button>
+      </div>`;
+
+    if (!inRoom && IS_TOUCH) {
+      root.innerHTML = `
+      <div class="wfoCard wfoMobile">
+        <div class="wfoHead"><h2>MULTIPLAYER</h2></div>
+        <p class="wfoLead">Everyone races on their own phone. AI racers fill any empty spots.</p>
+        ${alertHtml}
+        <div class="wfoField">
+          <label>YOUR NAME</label>
+          <input class="wfoInput" id="wfoNameIn" maxlength="16" value="${escapeAttr(S.playerName)}" placeholder="Your Name">
+        </div>
+        <div class="wfoField">
+          <label>YOUR DRIVER</label>
+          <div class="wfoChars">${charPickerHtml}</div>
+        </div>
+        <div class="wfoBox">
+          <h3>HOST A RACE</h3>
+          ${modeSegHtml(S.mode, 'data-wfo-mode')}
+          <div class="wfoField">
+            <label>${S.mode === 'cup' ? 'CUP' : 'TRACK'}</label>
+            ${S.mode === 'cup' ? `
+              <select class="wfoSelect" id="wfoCupSel">
+                ${cups.map((c, i) => `<option value="${i}"${S.cupIdx === i ? ' selected' : ''}>${escapeHtml(c.name)}</option>`).join('')}
+              </select>` : `
+              <select class="wfoSelect" id="wfoTrackSel">
+                ${levels.map((l, i) => `<option value="${i}"${S.trackIdx === i ? ' selected' : ''}>${escapeHtml(l.name || l.id)}</option>`).join('')}
+              </select>`}
+          </div>
+          <button type="button" class="btn wfoWide" id="wfoCreateBtn">Create Room</button>
+        </div>
+        <div class="wfoBox">
+          <h3>JOIN A FRIEND</h3>
+          <p class="wfoLead" style="margin-bottom:10px">Tap their invite link or scan their code. Or type their room code:</p>
+          <div class="wfoRow wfoJoinRow">
+            <input class="wfoInput wfoCodeIn" id="wfoJoinCodeIn" maxlength="6" placeholder="KART42" value="${escapeAttr(S.autoJoinCode || '')}">
+            <button type="button" class="btn alt" id="wfoJoinBtn">Join</button>
+          </div>
+        </div>
+        <div class="btns"><button type="button" class="btn ghost wfoWide" id="wfoBackBtn">Back</button></div>
+      </div>`;
+    } else if (inRoom && IS_TOUCH) {
+      const R = S.room;
+      const isHost = R.you === R.hostId;
+      const me = mySlot();
+      const cup = cups[clamp(R.cupIdx, 0, cups.length - 1)] || cups[0];
+      const humans = R.players.filter((p) => p.connected).length;
+      const playersHtml = R.players.map((p) => {
+        const ch = chars[clamp(p.ch, 0, chars.length - 1)] || chars[0];
+        const tag = !p.connected ? '<span class="tg">OFFLINE</span>'
+          : p.ready ? '<span class="tg rdy">READY</span>' : '';
+        return `<div class="wfoPl${p.id === R.you ? ' me' : ''}" style="${p.connected ? '' : 'opacity:.5'}">
+          <span class="sw" style="background:${hexCss(ch.kart)}"></span>
+          <span class="nm">${escapeHtml(p.name)}${p.id === R.you ? ' (you)' : ''}</span>
+          ${p.id === R.hostId ? '<span class="tg host">HOST</span>' : ''}${tag}
+        </div>`;
+      }).join('');
+      const raceName = R.mode === 'cup' ? cup.name : ((levels[R.trackIdx] && levels[R.trackIdx].name) || 'Track');
+      root.innerHTML = `
+      <div class="wfoCard wfoMobile">
+        <div class="wfoInvite">
+          <div class="wfoInviteQr" id="wfoInviteQr">…</div>
+          <div class="wfoInviteTxt">
+            <label>ROOM CODE</label>
+            <div class="wfoCodeBig">${escapeHtml(R.roomCode)}</div>
+            <small>Friends scan this code, tap your invite, or type the room code.</small>
+          </div>
+        </div>
+        <button type="button" class="btn alt wfoWide" id="wfoShareBtn">Share Invite</button>
+        ${alertHtml}
+        <div class="wfoBox">
+          <h3>RACERS (${humans}) · AI FILLS THE REST</h3>
+          <div class="wfoPlayers">${playersHtml}</div>
+        </div>
+        <div class="wfoBox">
+          <h3>${isHost ? 'RACE SETTINGS' : 'RACE'}</h3>
+          ${isHost ? `
+            ${modeSegHtml(R.mode, 'data-wfo-lmode')}
+            <div class="wfoField">
+              <label>${R.mode === 'cup' ? 'CUP' : 'TRACK'}</label>
+              ${R.mode === 'cup' ? `
+                <select class="wfoSelect" id="wfoLobbyCup">
+                  ${cups.map((c, i) => `<option value="${i}"${R.cupIdx === i ? ' selected' : ''}>${escapeHtml(c.name)}</option>`).join('')}
+                </select>` : `
+                <select class="wfoSelect" id="wfoLobbyTrack">
+                  ${levels.map((l, i) => `<option value="${i}"${R.trackIdx === i ? ' selected' : ''}>${escapeHtml(l.name || l.id)}</option>`).join('')}
+                </select>`}
+            </div>` : `
+            <div class="wfoRaceInfo"><b>${escapeHtml(raceName)}</b><small>${R.mode === 'cup' ? 'Race Cup · 4 races' : 'Single Track · 1 race'}</small></div>`}
+        </div>
+        <div class="wfoField">
+          <label>YOUR DRIVER</label>
+          <div class="wfoChars">${charPickerHtml}</div>
+        </div>
+        <div class="wfoStack">
+          <button type="button" class="btn alt wfoWide" id="wfoReadyBtn">${me && me.ready ? 'Ready ✓ (tap to undo)' : 'Ready Up'}</button>
+          ${isHost ? `<button type="button" class="btn wfoWide" id="wfoStartBtn">${R.mode === 'cup' ? 'Start Race Cup ▶' : 'Start Race ▶'}</button>` : ''}
+          <button type="button" class="btn ghost wfoWide" id="wfoLeaveBtn">Leave Room</button>
+        </div>
+      </div>`;
+    } else if (!inRoom) {
       root.innerHTML = `
       <div class="wfoCard">
         <div class="wfoHead">
@@ -1098,6 +1257,7 @@
     }
 
     bindLobbyEvents(root);
+    if (inRoom && IS_TOUCH) renderInviteQr(root);
   }
 
   function bindLobbyEvents(root) {
@@ -1183,6 +1343,27 @@
 
     const backBtn = root.querySelector('#wfoBackBtn');
     if (backBtn) backBtn.addEventListener('click', () => closeMenu());
+
+    root.querySelectorAll('[data-wfo-mode]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        saveIdentity();
+        S.mode = btn.dataset.wfoMode;
+        renderLobby();
+      });
+    });
+    root.querySelectorAll('[data-wfo-lmode]').forEach((btn) => {
+      btn.addEventListener('click', () => sendProtocol({ t: 'update_lobby', mode: btn.dataset.wfoLmode }));
+    });
+
+    const shareBtn = root.querySelector('#wfoShareBtn');
+    if (shareBtn) {
+      shareBtn.addEventListener('click', async () => {
+        const res = await shareInvite();
+        if (res === 'cancelled' || res === 'shared') return;
+        shareBtn.textContent = res === 'copied' ? 'Invite link copied ✓' : 'Could not share, read out the code';
+        setTimeout(() => { if (shareBtn.isConnected) shareBtn.textContent = 'Share Invite'; }, 2200);
+      });
+    }
 
     const copyBtn = root.querySelector('#wfoCopyBtn');
     if (copyBtn) {
@@ -2175,9 +2356,10 @@
     if (onlineEl && !onlineEl.hidden) renderLobby();
   }
 
-  async function copyInviteLink() {
+  function inviteUrl() {
     if (!S.room) return '';
-    const u = new URL(location.href);
+    const onOurSite = location.protocol === 'https:' && /(^|\.)game-buddy\.co\.uk$/.test(location.hostname);
+    const u = new URL(S.transport === 'p2p' && !onOurSite ? LIVE_GAME_URL : location.href);
     u.searchParams.set('room', S.room.roomCode);
     u.searchParams.set('transport', S.transport);
     if (S.transport === 'ws' && S.wsUrl) {
@@ -2185,7 +2367,67 @@
     } else {
       u.searchParams.delete('ws');
     }
-    const link = u.toString();
+    return u.toString();
+  }
+
+  // The phone share sheet (Messages, WhatsApp...) where there is one, else copy to clipboard.
+  async function shareInvite() {
+    const link = inviteUrl();
+    if (!link) return 'none';
+    if (navigator.share) {
+      try {
+        await navigator.share({ title: 'Wheelie Fun', text: 'Race me in Wheelie Fun! Room ' + S.room.roomCode, url: link });
+        return 'shared';
+      } catch (e) {
+        if (e && e.name === 'AbortError') return 'cancelled';
+      }
+    }
+    return (await copyInviteLink()) ? 'copied' : 'none';
+  }
+
+  let qrLibP = null;
+  const qrCache = { u: '', svg: '' };
+  function loadQrLib() {
+    if (window.qrcode) return Promise.resolve();
+    if (qrLibP) return qrLibP;
+    qrLibP = new Promise((resolve, reject) => {
+      const s = document.createElement('script');
+      s.src = 'https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js';
+      s.onload = resolve;
+      s.onerror = () => {
+        const s2 = document.createElement('script');
+        s2.src = 'https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js';
+        s2.onload = resolve;
+        s2.onerror = () => { qrLibP = null; reject(new Error('qr lib failed')); };
+        document.head.appendChild(s2);
+      };
+      document.head.appendChild(s);
+    });
+    return qrLibP;
+  }
+  function renderInviteQr(root) {
+    const box = root.querySelector('#wfoInviteQr');
+    if (!box) return;
+    const link = inviteUrl();
+    if (qrCache.u === link) { box.innerHTML = qrCache.svg; return; }
+    box.textContent = '…';
+    loadQrLib().then(() => {
+      const q = window.qrcode(0, 'M');
+      q.addData(link);
+      q.make();
+      qrCache.u = link;
+      qrCache.svg = q.createSvgTag({ cellSize: 4, margin: 2 });
+      const cur = document.getElementById('wfoInviteQr');
+      if (cur) cur.innerHTML = qrCache.svg;
+    }).catch(() => {
+      const cur = document.getElementById('wfoInviteQr');
+      if (cur) cur.textContent = 'Use Share Invite below';
+    });
+  }
+
+  async function copyInviteLink() {
+    if (!S.room) return '';
+    const link = inviteUrl();
     try {
       window.history.replaceState(null, '', link);
     } catch (e) {}
