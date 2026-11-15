@@ -141,10 +141,11 @@ class TestServerVsClientData(unittest.TestCase):
 
 
 class TestCrazyGamesSaveBridge(unittest.TestCase):
-    """build_crazygames.py injects a save-data bridge keyed off a hardcoded list of cup/track
-    ids (CrazyGames.SDK.data has no way to enumerate keys, so the build can't discover them at
-    build time). These tests make sure that list hasn't drifted from the game's real cups and
-    tracks, and that the generated bridge is well-formed."""
+    """build_crazygames.py injects a save-data bridge (window.WFSave) whose baseline key list is
+    seeded from CUP_IDS/TRACK_IDS (CrazyGames.SDK.data has no way to enumerate keys on its own, so
+    an index of previously-seen keys is also tracked in the cloud at runtime -- see the bridge's
+    own INDEX constant). These tests make sure the baseline list hasn't drifted from the game's
+    real cups and tracks, and that the generated bridge is well-formed."""
 
     @classmethod
     def setUpClass(cls):
@@ -181,23 +182,26 @@ class TestCrazyGamesSaveBridge(unittest.TestCase):
         html = self._build_fresh()
         self.assertEqual(html.count("__KEYS__"), 0, "the __KEYS__ placeholder was left unsubstituted")
         sdk_at = html.index(self.bc.SDK_TAG)
-        bridge_at = html.index("CrazyGames save-data bridge")
+        bridge_at = html.index("window.WFSave")
         self.assertLess(sdk_at, bridge_at, "the bridge must come after the SDK tag (it calls CrazyGames.SDK.*)")
         # both must still be ahead of every other script on the page (three.js, the game itself)
         first_other_script = html.index("<script", html.index("</script>", bridge_at) + len("</script>"))
         self.assertGreater(first_other_script, bridge_at)
-        keys = json.loads(re.search(r"var KEYS=(\[.*?\]);", html).group(1).replace("'", '"'))
-        self.assertEqual(len(keys), len(set(keys)), "duplicate key in the generated KEYS list")
+        keys = json.loads(re.search(r"const KNOWN=(\[.*?\]);", html).group(1).replace("'", '"'))
+        self.assertEqual(len(keys), len(set(keys)), "duplicate key in the generated KNOWN list")
         self.assertEqual(
             set(keys),
             set(self.bc.FIXED_KEYS)
             | {"wheeliefun.trophy." + c for c in self.bc.CUP_IDS}
             | {"wheeliefun.best." + t for t in self.bc.TRACK_IDS},
         )
+        # Ghost-replay keys are deliberately left local-only (sizeable, and the cloud store has a
+        # ~1MB cap); the game's own manual Ghost Code export/import already covers sharing one.
+        self.assertFalse(any(k.startswith("wheeliefun.ghost.") for k in keys), "ghost keys must not be cloud-synced")
 
     @unittest.skipUnless(NODE, "node is not installed")
     def test_bridge_script_is_valid_javascript(self):
-        code = next(c for c in inline_scripts(self._build_fresh()) if "CrazyGames save-data bridge" in c)
+        code = next(c for c in inline_scripts(self._build_fresh()) if "window.WFSave" in c)
         with tempfile.TemporaryDirectory() as tmp:
             p = Path(tmp) / "bridge.js"
             p.write_text(code, encoding="utf-8")
@@ -208,11 +212,12 @@ class TestCrazyGamesSaveBridge(unittest.TestCase):
         """The save-data bridge and SDK script tag must only ever appear in the crazygames-
         specific output -- the regular site build (wheelie-fun-standalone.html, and
         games/wheelie-fun-turbo/index.html copied from it) must stay untouched by this feature.
-        (The game's own guarded `if(window.CrazyGames)` calls already exist in every build and
-        are a no-op there; this checks for the bridge itself, not those.)"""
+        It gets its own no-op WFSave fallback shim instead (a plain localStorage-backed stub),
+        injected by build_game.py, which this checks for separately."""
         html = read("wheelie-fun-standalone.html")
-        self.assertNotIn("CrazyGames save-data bridge", html)
         self.assertNotIn(self.bc.SDK_TAG, html)
+        self.assertIn("window.WFSave=window.WFSave||", html, "the plain-build WFSave fallback shim must still be present")
+        self.assertNotIn("sdk.data.getItem(INDEX)", html, "the real cloud-backed adapter must not leak into the plain build")
 
 
 if __name__ == "__main__":

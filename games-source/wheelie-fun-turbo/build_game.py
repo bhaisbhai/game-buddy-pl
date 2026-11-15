@@ -202,7 +202,7 @@ characters before browsing freely. */
     html = must_replace(
         html,
         '<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/RenderPass.js"></script>\n<script>',
-        '<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/RenderPass.js"></script>\n<script src="new_tracks.js"></script>\n<script src="upgrades_v2.js"></script>\n<script src="online_client.js"></script>\n<script>',
+        '<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/RenderPass.js"></script>\n<script>window.WFSave=window.WFSave||{storage:window.localStorage,ready:Promise.resolve(),sdkReady:false,flush(){},message:\'\'};</script>\n<script src="new_tracks.js"></script>\n<script src="upgrades_v2.js"></script>\n<script src="online_client.js"></script>\n<script>',
         "module_scripts",
     )
 

@@ -14,6 +14,7 @@ import { test, before, after } from 'node:test';
 import assert from 'node:assert/strict';
 import { execFileSync } from 'node:child_process';
 import fs from 'node:fs';
+import http from 'node:http';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { ROOT } from './harness.mjs';
@@ -21,9 +22,28 @@ import { ROOT } from './harness.mjs';
 // Playwright lives in a shared tools location, not this project's own node_modules.
 const PLAYWRIGHT_PATHS = ['playwright', pathToFileURL('/opt/node-tools/node_modules/playwright/index.js').href];
 const PW_CHROMIUM = '/opt/pw-browsers/chromium-1243/chrome-linux64/chrome';
-const GAME_URL = `file://${path.join(ROOT, 'wheelie-fun-crazygames.html')}`;
 
-let chromium, browser, skipReason = null;
+let chromium, browser, server, GAME_URL, skipReason = null;
+
+// Served over http://, not file:// -- the real CrazyGames portal always serves the game over
+// https, and the save bridge itself treats location.protocol === 'file:' as "not a real CrazyGames
+// environment" (so a player's locally-downloaded copy never blocks on a fake cloud session). A
+// file:// test URL would silently hit that same guard and disable the mocked SDK entirely.
+function serveRoot() {
+  return new Promise((resolve) => {
+    const s = http.createServer((req, res) => {
+      const filePath = path.join(ROOT, decodeURIComponent(new URL(req.url, 'http://localhost').pathname));
+      fs.readFile(filePath, (err, data) => {
+        if (err) { res.writeHead(404); res.end(); return; }
+        const ext = path.extname(filePath);
+        const type = ext === '.html' ? 'text/html' : ext === '.js' ? 'application/javascript' : 'application/octet-stream';
+        res.writeHead(200, { 'Content-Type': type });
+        res.end(data);
+      });
+    });
+    s.listen(0, '127.0.0.1', () => resolve(s));
+  });
+}
 
 before(async () => {
   for (const p of PLAYWRIGHT_PATHS) {
@@ -45,10 +65,16 @@ before(async () => {
     browser = await chromium.launch({ executablePath: fs.existsSync(PW_CHROMIUM) ? PW_CHROMIUM : undefined });
   } catch (e) {
     skipReason = 'no Chromium available: ' + e.message;
+    return;
   }
+  server = await serveRoot();
+  GAME_URL = `http://127.0.0.1:${server.address().port}/wheelie-fun-crazygames.html`;
 });
 
-after(async () => { await browser?.close(); });
+after(async () => {
+  await browser?.close();
+  await new Promise((resolve) => (server ? server.close(resolve) : resolve()));
+});
 
 const live = (name, fn) => test(name, async (t) => { if (skipReason) return t.skip(skipReason); await fn(); });
 
@@ -77,7 +103,7 @@ async function openWithMockSdk(cloudSeed = {}) {
   // is enough, since the mock above already defines everything the game actually calls.
   await page.route('https://sdk.crazygames.com/**', (route) =>
     route.fulfill({ status: 200, contentType: 'application/javascript', body: '' }));
-  await page.goto(GAME_URL, { waitUntil: 'load' });
+  await page.goto(GAME_URL, { waitUntil: 'load', timeout: 60000 });
   await page.waitForFunction(() => !!window.__tiki, null, { timeout: 15000 });
   return { context, page, errors };
 }
@@ -133,12 +159,106 @@ live('a local write during the startup wait beats a stale cloud read for the sam
   await context.close();
 });
 
-live('the online display name (set via raw localStorage, not store.set) also mirrors to the cloud', async () => {
+live('the online display name (set via window.WFSave.storage, not store.set) also mirrors to the cloud', async () => {
   const { context, page } = await openWithMockSdk();
   await page.waitForTimeout(200);
-  await page.evaluate(() => localStorage.setItem('wheeliefun.onlineName', 'TestRacer42'));
+  await page.evaluate(() => window.WFSave.storage.setItem('wheeliefun.onlineName', 'TestRacer42'));
   await page.waitForTimeout(100);
   assert.equal(await page.evaluate(() => window.__cloud['wheeliefun.onlineName']), 'TestRacer42');
+  await context.close();
+});
+
+live('a lower (better) best lap time wins the merge instead of the last write', async () => {
+  const { context, page } = await openWithMockSdk({ 'wheeliefun.best.lava': '50' });
+  await page.waitForTimeout(200);
+  await page.evaluate(() => window.__tiki.ev("store.set('wheeliefun.best.lava','75');"));
+  await page.waitForTimeout(100);
+  // 50 (cloud) is better than 75 (the new write), so the merge must keep 50.
+  assert.equal(await page.evaluate(() => window.__cloud['wheeliefun.best.lava']), '50');
+  await context.close();
+});
+
+live('pre-existing local-only progress is migrated into the cloud on first SDK-active load', async () => {
+  const context = await browser.newContext();
+  const page = await context.newPage();
+  const errors = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+  await page.addInitScript(() => {
+    localStorage.setItem('wheeliefun.trophy.wheeldeal', '2');
+    window.__cloud = {};
+    window.__cloudSetCalls = [];
+    window.CrazyGames = {
+      SDK: {
+        init: () => Promise.resolve(),
+        data: {
+          getItem: (k) => (k in window.__cloud ? window.__cloud[k] : null),
+          setItem: (k, v) => { window.__cloud[k] = v; window.__cloudSetCalls.push([k, v]); },
+        },
+        game: { gameplayStart() {}, gameplayStop() {} },
+      },
+    };
+  });
+  await page.route('https://sdk.crazygames.com/**', (route) =>
+    route.fulfill({ status: 200, contentType: 'application/javascript', body: '' }));
+  await page.goto(GAME_URL, { waitUntil: 'load', timeout: 60000 });
+  await page.waitForFunction(() => !!window.__tiki, null, { timeout: 15000 });
+  await page.waitForTimeout(200);
+  assert.equal(await page.evaluate(() => window.__cloud['wheeliefun.trophy.wheeldeal']), '2');
+  assert.deepEqual(errors, []);
+  await context.close();
+});
+
+live('a save that keeps failing shows a retry status message, then clears it once it succeeds', async () => {
+  const context = await browser.newContext();
+  const page = await context.newPage();
+  await page.addInitScript(() => {
+    const cloud = {};
+    window.__cloud = cloud;
+    window.__failWrites = true;
+    window.CrazyGames = {
+      SDK: {
+        init: () => Promise.resolve(),
+        data: {
+          getItem: (k) => (k in cloud ? cloud[k] : null),
+          setItem: (k, v) => { if (window.__failWrites) throw new Error('simulated write failure'); cloud[k] = v; },
+        },
+        game: { gameplayStart() {}, gameplayStop() {} },
+      },
+    };
+  });
+  await page.route('https://sdk.crazygames.com/**', (route) =>
+    route.fulfill({ status: 200, contentType: 'application/javascript', body: '' }));
+  await page.goto(GAME_URL, { waitUntil: 'load', timeout: 60000 });
+  await page.waitForFunction(() => !!window.__tiki, null, { timeout: 15000 });
+  await page.evaluate(() => window.__tiki.ev("store.set('wheeliefun.unlockedCups','6');"));
+  await page.waitForFunction(() => !!(window.WFSave && window.WFSave.message), null, { timeout: 5000 });
+  assert.match(await page.evaluate(() => window.WFSave.message), /retrying/i);
+  await page.evaluate(() => { window.__failWrites = false; });
+  await page.waitForFunction(() => window.WFSave && window.WFSave.message === '', null, { timeout: 5000 });
+  assert.equal(await page.evaluate(() => window.__cloud['wheeliefun.unlockedCups']), '6');
+  await context.close();
+});
+
+live('a CrazyGames SDK that never resolves init() still lets the game boot (bounded by the game\'s own timeout)', async () => {
+  const context = await browser.newContext();
+  const page = await context.newPage();
+  const errors = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+  await page.addInitScript(() => {
+    window.CrazyGames = {
+      SDK: {
+        init: () => new Promise(() => {}), // never resolves or rejects
+        data: { getItem: () => null, setItem() {} },
+        game: { gameplayStart() {}, gameplayStop() {} },
+      },
+    };
+  });
+  await page.route('https://sdk.crazygames.com/**', (route) =>
+    route.fulfill({ status: 200, contentType: 'application/javascript', body: '' }));
+  await page.goto(GAME_URL, { waitUntil: 'load', timeout: 60000 });
+  // The game's boot sequence races window.WFSave.ready against its own 8s timeout.
+  await page.waitForFunction(() => !!window.__tiki, null, { timeout: 15000 });
+  assert.deepEqual(errors, []);
   await context.close();
 });
 
@@ -148,7 +268,7 @@ live('the game boots and the racer-select/confirm flow works with no CrazyGames 
   const errors = [];
   page.on('pageerror', (e) => errors.push(e.message));
   await page.route('https://sdk.crazygames.com/**', (route) => route.abort());
-  await page.goto(GAME_URL, { waitUntil: 'load' });
+  await page.goto(GAME_URL, { waitUntil: 'load', timeout: 60000 });
   await page.waitForFunction(() => !!window.__tiki, null, { timeout: 15000 });
   await page.evaluate(() => window.__tiki.ev('document.querySelector(\'[data-act="p1"]\').click();'));
   await page.evaluate(() => document.querySelectorAll('#grid .ch')[0].click());

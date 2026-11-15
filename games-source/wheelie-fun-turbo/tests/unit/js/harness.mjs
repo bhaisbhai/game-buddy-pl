@@ -45,6 +45,7 @@ export function makeSandbox({ readyState = 'loading', localStorage = {}, ids = [
     addEventListener() {}, removeEventListener() {},
   };
   const ls = memoryStore(localStorage);
+  const lsApi = { getItem: ls.get, setItem: ls.set, removeItem: (k) => { delete ls.data[k]; }, key: (n) => Object.keys(ls.data)[n] ?? null, get length() { return Object.keys(ls.data).length; } };
   const sandbox = {
     console, Math, JSON, Date, Promise, Array, Object, String, Number, Boolean, Set, Map, RegExp, Error,
     isFinite, isNaN, parseInt, parseFloat, escape, unescape, encodeURIComponent, decodeURIComponent,
@@ -55,7 +56,10 @@ export function makeSandbox({ readyState = 'loading', localStorage = {}, ids = [
     requestAnimationFrame: () => 0,
     document,
     location: { protocol: 'file:', host: '', href: 'file:///game.html', search: '', hash: '' },
-    localStorage: { getItem: ls.get, setItem: ls.set, removeItem: (k) => { delete ls.data[k]; } },
+    localStorage: lsApi,
+    // Off CrazyGames, WFSave.storage is just localStorage -- matches the fallback shim
+    // build_game.py injects, which is what the real game relies on outside the CrazyGames build.
+    WFSave: { storage: lsApi, ready: Promise.resolve(), sdkReady: false, flush() {}, message: '' },
     navigator: { userAgent: 'node-test', clipboard: { writeText: async () => {} } },
     addEventListener() {}, removeEventListener() {},
     __elements: elements,

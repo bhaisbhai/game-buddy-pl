@@ -11,12 +11,12 @@ SRC = ROOT / "wheelie-fun-standalone.html"
 SDK_TAG = '<script src="https://sdk.crazygames.com/crazygames-sdk-v3.js"></script>'
 ANCHOR = '<meta charset="utf-8">'
 
-# The game's progression/settings keys. Everything the game persists goes through
-# localStorage one way or another (either the main script's store.get/set wrapper, or a
-# couple of call sites -- the online display name -- that hit localStorage directly), so the
-# save-data bridge below patches Storage.prototype itself rather than needing every call site
-# updated. CUP_IDS/TRACK_IDS generate the per-cup trophy and per-track best-lap keys; update
-# these two lists if cups or tracks are ever added, renamed, or removed.
+# The game's progression/settings keys. Everything the game persists routes through
+# window.WFSave.storage (original_index.html and online_client.js both call it instead of
+# localStorage directly), so the save-data bridge below only needs to know which keys exist --
+# it never has to patch Storage.prototype. CUP_IDS/TRACK_IDS generate the per-cup trophy and
+# per-track best-lap keys; update these two lists if cups or tracks are ever added, renamed, or
+# removed.
 CUP_IDS = [
     "wheeldeal", "home", "wild", "holiday", "adventure", "spooky", "everyday", "bonkers",
     "feast", "neon", "summit",
@@ -35,46 +35,95 @@ FIXED_KEYS = [
     "wheeliefun.garageSeen", "wheeliefun.seenCtrlTut", "wheeliefun.onlineName", "tikiturbo.bestlap",
 ]
 
-SAVE_BRIDGE_TAG = """<script>
-// CrazyGames save-data bridge: makes the game's persisted keys (unlocked cups/racers, trophies,
-// best times, garage parts, vault coins, settings) round-trip through CrazyGames' cross-device
-// cloud save (CrazyGames.SDK.data), so progress survives a cleared cache or a different device
-// or browser -- without touching any of the game's own store.get/set calls. It works by patching
-// Storage.prototype itself (installed before any other script on the page runs), which also
-// catches the couple of call sites that read/write localStorage directly (the online display
-// name). A player's existing local-only progress is left alone the first time this runs (the
-// cloud has nothing to overwrite it with yet) and starts mirroring to the cloud from their next
-// write onward. No-op entirely off CrazyGames (window.CrazyGames undefined), so the regular
-// build this is based on is untouched.
+SAVE_BRIDGE_TAG = r"""<script>// Game-owned adapter: never patch Storage.prototype (the SDK may use it internally).
+// Exposes window.WFSave = {storage, ready, sdkReady, flush, message} -- original_index.html's
+// boot sequence awaits WFSave.ready (bounded by its own 8s timeout, independent of this file) and
+// routes every persisted key through WFSave.storage instead of localStorage directly. Off
+// CrazyGames (window.CrazyGames undefined) storage is just localStorage and ready resolves at
+// once, so the regular build this is based on behaves exactly as before. On CrazyGames, keys are
+// mirrored through CrazyGames.SDK.data (a cross-device cloud store that can't enumerate its own
+// keys), tracked via a small index key of its own (INDEX) so they can be found again later; writes
+// queue in `pending` and are merged against the last-known cloud value with per-key semantics
+// (merge()) rather than blindly overwritten, and a failed flush retries every 2s with a status
+// message rather than silently dropping the write. A one-time migration folds any pre-existing
+// local-only progress into the cloud the first time a player is seen there. Ghost-replay keys
+// (wheeliefun.ghost.*) are deliberately left local-only -- they're sizeable and the cloud store
+// has a ~1MB cap, and the game's manual Ghost Code export/import already covers sharing one.
 (function(){
-if(!window.CrazyGames)return;
-var PREFIXES=['wheeliefun.','tikiturbo.'];
-function relevant(k){return typeof k==='string'&&PREFIXES.some(function(p){return k.indexOf(p)===0;});}
-var cache=Object.create(null),ready=false;
-var nativeGet=Storage.prototype.getItem,nativeSet=Storage.prototype.setItem;
-Storage.prototype.getItem=function(key){
-  if(this===window.localStorage&&ready&&relevant(key)&&Object.prototype.hasOwnProperty.call(cache,key))return cache[key];
-  return nativeGet.call(this,key);
+'use strict';
+// A downloaded file is not a CrazyGames SDK environment. Never block local play on it.
+let sdk=(window.location&&window.location.protocol==='file:')?null:(window.CrazyGames&&window.CrazyGames.SDK);
+const INDEX='__wheeliefun_keys_v1', MIGRATED='__wheeliefun_migrated_v1';
+const KNOWN=__KEYS__;
+const pending=new Map();let active=false,timer=null,resolveReady;
+const boot=new Promise(r=>resolveReady=r);
+function relevant(k){return /^(wheeliefun\.|tikiturbo\.)/.test(k)}
+function local(){return window.localStorage}
+function status(message){
+ window.WFSave.message=message;
+ if(!window.document)return;
+ let el=document.getElementById('wfSaveStatus');
+ if(!el&&document.body){el=document.createElement('div');el.id='wfSaveStatus';el.setAttribute('role','status');el.style.cssText='position:fixed;bottom:8px;left:8px;z-index:99999;background:#241737;color:white;padding:8px;border-radius:8px;font:14px sans-serif;max-width:90vw';document.body.appendChild(el)}
+ if(el){el.textContent=message;el.hidden=!message}
+}
+function merge(k,a,b){
+ if(a==null)return b;if(b==null)return a;
+ if(k==='wheeliefun.unlockedCups')return String(Math.max(+a||1,+b||1));
+ if(/^wheeliefun\.trophy\./.test(k)){const v=[+a,+b].filter(n=>Number.isFinite(n)&&n>0);return v.length?String(Math.min(...v)):b}
+ if(/^wheeliefun\.best\./.test(k)||k==='tikiturbo.bestlap'){const v=[+a,+b].filter(n=>Number.isFinite(n)&&n>0);return v.length?String(Math.min(...v)):b}
+ if(/^wheeliefun\.ghost\./.test(k)){try{const x=JSON.parse(a),y=JSON.parse(b);if(Number.isFinite(x.t)&&x.t>0&&(!Number.isFinite(y.t)||y.t<=0||x.t<=y.t))return a}catch(e){}return b}
+ if(/\.(seenCtrlTut|garageSeen|moved)$/.test(k))return a==='1'||b==='1'?'1':b;
+ return b;
+}
+function index(){const raw=sdk.data.getItem(INDEX);if(raw==null)return [...KNOWN];const a=JSON.parse(raw);if(!Array.isArray(a))throw Error('Invalid save index');return [...new Set([...KNOWN,...a.filter(k=>typeof k==='string'&&relevant(k))])]}
+function retry(){if(!timer)timer=setTimeout(()=>{timer=null;flush()},2000)}
+function flush(){
+ if(!active)return;
+ for(const [k,v] of pending){try{
+  const keys=new Set(index());keys.add(k);
+  // Register first: if a later write fails, the retry can still discover this key.
+  sdk.data.setItem(INDEX,JSON.stringify([...keys]));
+  if(v===null)sdk.data.removeItem(k);else sdk.data.setItem(k,merge(k,sdk.data.getItem(k),v));
+  pending.delete(k);
+ }catch(e){status('Save pending — retrying. Keep this game open.');retry();return}}
+ status('');
+}
+const storage={
+ getItem(key){const k=String(key);if(!sdk||!relevant(k))return local().getItem(k);
+  if(!active)return pending.has(k)?pending.get(k):null;
+  const value=sdk.data.getItem(k);return pending.has(k)?(pending.get(k)===null?null:merge(k,value,pending.get(k))):value;
+ },
+ setItem(key,value){const k=String(key),v=String(value);if(!sdk||!relevant(k)){local().setItem(k,v);return}pending.set(k,pending.has(k)&&pending.get(k)!==null?merge(k,pending.get(k),v):v);flush()},
+ removeItem(key){const k=String(key);if(!sdk||!relevant(k)){local().removeItem(k);return}pending.set(k,null);flush()},
+ clear(){if(!sdk){local().clear();return}const keys=new Set([...index(),...pending.keys()]);for(const k of keys)pending.set(k,null);flush()},
+ key(n){return storage.keys()[n]??null},
+ keys(){const keys=new Set();try{for(let n=0;n<local().length;n++){const k=local().key(n);if(!sdk||!relevant(k))keys.add(k)}}catch(e){}if(active)for(const k of index())if(storage.getItem(k)!==null)keys.add(k);for(const [k,v] of pending)if(v!==null)keys.add(k);return [...keys]},
+ get length(){return storage.keys().length}
 };
-Storage.prototype.setItem=function(key,value){
-  nativeSet.call(this,key,value);
-  if(this===window.localStorage&&relevant(key)){
-    cache[key]=value;
-    if(ready){try{CrazyGames.SDK.data.setItem(key,value);}catch(e){}}
+window.WFSave={storage,ready:boot,sdkReady:false,flush,message:''};
+async function initialize(){
+ try{
+  if(sdk){
+   if(sdk.environment==='disabled'){sdk=null;resolveReady();return}
+   await sdk.init();
+   if(sdk.environment==='disabled'){sdk=null;resolveReady();return}
+   // Verify Data access before allowing the game to create defaults.
+   sdk.data.getItem(INDEX);active=true;
+   let migrated=false;try{migrated=local().getItem(MIGRATED)==='1'}catch(e){}
+   if(!migrated){
+    const legacy=[];try{for(let n=0;n<local().length;n++){const k=local().key(n);if(relevant(k))legacy.push([k,local().getItem(k)])}}catch(e){}
+    for(const [k,v] of legacy){const remote=sdk.data.getItem(k);const merged=merge(k,v,remote);if(!pending.has(k))pending.set(k,merged);else pending.set(k,merge(k,merged,pending.get(k)))}
+    flush();if(pending.size)throw Error('Migration pending');
+    try{local().setItem(MIGRATED,'1')}catch(e){}
+   }
+   flush();
+   if(sdk.user&&typeof sdk.user.addAuthListener==='function')sdk.user.addAuthListener(()=>{active=false;pending.clear();status('Account changed — loading your progress…');window.location.reload()});
+   window.WFSave.sdkReady=true;
   }
-};
-var KEYS=__KEYS__;
-CrazyGames.SDK.init().then(function(){
-  KEYS.forEach(function(k){
-    if(Object.prototype.hasOwnProperty.call(cache,k))return; // a local write already landed for this key during the wait above -- it wins over a stale cloud read
-    try{var v=CrazyGames.SDK.data.getItem(k);if(v!=null)cache[k]=v;}catch(e){}
-  });
-  ready=true;
-  // the title screen's trophy shelf may have already rendered from local-only data before the
-  // cloud pull above landed -- refresh it now. Garage part choices and graphics quality are
-  // cached once at boot and aren't worth a full reflow for what's a cosmetic mismatch at worst.
-  try{if(window.__tiki)window.__tiki.ev('if(typeof updateShelf==="function")updateShelf();');}catch(e){}
-}).catch(function(){});
+  resolveReady();
+ }catch(e){active=false;status('Could not load your saved progress — retrying…');setTimeout(initialize,2000)}
+}
+initialize();
 })();
 </script>"""
 
@@ -89,7 +138,7 @@ def main() -> None:
     html = html.replace(
         ANCHOR,
         ANCHOR + "\n<!-- Load the SDK before the game code -->\n" + SDK_TAG
-        + "\n<!-- Cross-device cloud save, also before the game code -->\n" + bridge,
+        + "\n<!-- Game-owned CrazyGames Data adapter; game startup awaits save readiness. -->\n" + bridge,
         1,
     )
     out = ROOT / "wheelie-fun-crazygames.html"

@@ -145,7 +145,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .itemText b{color:var(--cream);font-size:13.5px;margin-bottom:1px}
 .itemText span{color:var(--muted);font-size:11.5px;line-height:1.32}
 .ctrlLegend{display:grid;grid-template-columns:1fr 1fr;gap:12px 20px;margin:18px 0 22px}
-#ctrlLegendTouch{display:none}
+#ctrlLegendTouch,#pauseCtrlTouch{display:none}
 .ctrlLegend .row{display:flex;align-items:center;gap:12px}
 .ctrlLegend .key{font-family:var(--display);font-weight:400;display:flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:12px;background:var(--cream);color:var(--night);font-size:14px;box-shadow:0 5px 0 rgba(0,0,0,.4);flex-shrink:0}
 .ctrlLegend .key.wide{width:72px;font-size:11px}
@@ -605,8 +605,29 @@ characters before browsing freely. */
     <div class="btns" style="flex-direction:column;align-items:stretch">
       <button class="btn" data-act="resume">Resume</button>
       <button class="btn alt" data-act="restart">Restart race</button>
+      <button class="btn ghost" data-act="pauseHow">Controls</button>
       <button class="btn ghost" data-act="quit">Quit to title</button>
     </div>
+  </div>
+</div>
+
+<div class="screen shade" id="pauseHow" hidden>
+  <div class="card" style="max-width:480px">
+    <h2>Controls</h2>
+    <div class="ctrlLegend" id="pauseCtrlKeys">
+      <div class="row"><div class="miniArrows"><div class="k">▲</div><div class="k">◀</div><div class="k">▼</div><div class="k">▶</div></div><div class="label">Steer &amp; Accelerate<small>ARROWS OR WASD</small></div></div>
+      <div class="row"><div class="key" style="background:#ff5b1f;color:#fff">B</div><div class="label">Brake<small>HOLD TO SLOW</small></div></div>
+      <div class="row"><div class="key wide" style="background:#ff4fd8;color:#fff">SPACE</div><div class="label">Specials<small>USE ITEM</small></div></div>
+      <div class="row"><div class="key" style="background:var(--lagoon)">V</div><div class="label">Drift<small>HOP &amp; CORNER</small></div></div>
+      <div class="row"><div class="key" style="background:#ffe14a">N</div><div class="label">Boost<small>HYPER MODE</small></div></div>
+    </div>
+    <div class="ctrlLegend" id="pauseCtrlTouch">
+      <div class="row"><div class="key wide" style="background:var(--lagoon)">↔</div><div class="label">Steer<small>SWIPE LEFT / RIGHT ANYWHERE</small></div></div>
+      <div class="row"><div class="key wide" style="background:#ff4fd8;color:#fff">TAP</div><div class="label">Use Item<small>TAP ANYWHERE</small></div></div>
+      <div class="row"><div class="key wide" style="background:#ffe14a">HOLD</div><div class="label">Trick Boost<small>TAP &amp; HOLD WHILE AIRBORNE</small></div></div>
+      <div class="row"><div class="key wide" style="background:#ff5b1f;color:#fff">⚡</div><div class="label">Signature Hype<small>TAP THE HYPE BAR WHEN FULL</small></div></div>
+    </div>
+    <div class="btns"><button class="btn" data-act="pauseHowBack">Back</button></div>
   </div>
 </div>
 
@@ -650,20 +671,30 @@ characters before browsing freely. */
 <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/EffectComposer.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/ShaderPass.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/RenderPass.js"></script>
+<script>window.WFSave=window.WFSave||{storage:window.localStorage,ready:Promise.resolve(),sdkReady:false,flush(){},message:''};</script>
 <script src="new_tracks.js"></script>
 <script src="upgrades_v2.js"></script>
 <script src="online_client.js"></script>
 <script>
-(function(){
+(async function(){
 'use strict';
+// window.WFSave is a cross-device save adapter: on the CrazyGames build, build_crazygames.py
+// injects a real one (backed by CrazyGames.SDK.data) as the very first script on the page,
+// before this one loads; everywhere else (including this file's own standalone build) nothing
+// defines it, so this falls back to plain localStorage. Either way, awaiting .ready here is what
+// used to be the fire-and-forget CrazyGames.SDK.init() call below -- it's done (or has failed
+// and given up for now) by the time the game actually starts reading saved progress. Bounded by
+// a timeout: a game that never finishes loading because a save check hung would be far worse
+// than one that boots with whatever's cached locally and lets the adapter catch up in the background.
+window.WFSave=window.WFSave||{storage:window.localStorage,ready:Promise.resolve(),sdkReady:false,flush(){},message:''};
+await Promise.race([window.WFSave.ready,new Promise(r=>setTimeout(r,8000))]);
 const $=s=>document.querySelector(s);
 if(!window.THREE){$('#loading').textContent='Could not load the 3D engine. Check your connection and reload.';return;}
 
 // CrazyGames SDK: only present when this build is hosted on their portal (the script tag is
 // injected by build_crazygames.py, never on our own site) -- everywhere else window.CrazyGames
-// is undefined and every call below is a no-op.
-let cgReady=false,cgPlaying=false;
-if(window.CrazyGames)window.CrazyGames.SDK.init().then(()=>{cgReady=true;}).catch(()=>{});
+// is undefined and WFSave's fallback above already made cgReady false and store plain localStorage.
+let cgReady=window.WFSave.sdkReady,cgPlaying=false;
 
 // ================= utilities =================
 const clamp=(v,a,b)=>v<a?a:v>b?b:v, lerp=(a,b,t)=>a+(b-a)*t;
@@ -674,7 +705,7 @@ const R=rng(7331);
 const rr=(a,b)=>a+R()*(b-a);
 const fmt=t=>{if(!isFinite(t))return '--:--.---';const m=Math.floor(t/60),s=t-m*60;return m+':'+(s<10?'0':'')+s.toFixed(3);};
 const ord=n=>n+(['th','st','nd','rd'][(n%100-20)%10]||['th','st','nd','rd'][n%100]||'th');
-const store={get(k){try{return localStorage.getItem(k)}catch(e){return null}},set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+const store={get(k){try{return window.WFSave.storage.getItem(k)}catch(e){return null}},set(k,v){try{window.WFSave.storage.setItem(k,v)}catch(e){}}};
 
 function M(x=0,y=0,z=0,rx=0,ry=0,rz=0,sx=1,sy=sx,sz=sx){const m=new THREE.Matrix4();m.compose(new THREE.Vector3(x,y,z),new THREE.Quaternion().setFromEuler(new THREE.Euler(rx,ry,rz)),new THREE.Vector3(sx,sy,sz));return m;}
 // merge [geometry,color,matrix] parts into one vertex-coloured, flat-faceted geometry
@@ -5769,11 +5800,11 @@ const TROPHY=c=>`<path d="M18 8h28v10c0 10-6 17-14 17S18 28 18 18z" fill="${c}"/
 const TCOL=['#ffc23a','#d8dde8','#d08a4a'];
 const CUPS=[{id:'wheeldeal',name:'Wheel Deal Cup',ids:['lava','mumbai','himalaya','sky'],col:'#2c1846'},{id:'home',name:'Hometown Cup',ids:['manteca','streatham','kitchen','bathroom'],col:'#3a2a10'},{id:'wild',name:'Wild Cup',ids:['dino','jungle','space','aztec'],col:'#10301a'},{id:'holiday',name:'Holiday Cup',ids:['beach','winter','pinball','reef'],col:'#102a3a'},{id:'adventure',name:'Adventure Cup',ids:['forest','starship','glider','random'],col:'#2a1a3a'},{id:'spooky',name:'Spooky Cup',ids:['pumpkins','scary','doomtemple','cookie'],col:'#1a0a1a'},{id:'everyday',name:'Everyday Cup',ids:['supermarket','farm','connecticut','seasons'],col:'#1a3a2a'},{id:'bonkers',name:'Bonkers Cup',ids:['cats','circus','gut','collider'],col:'#3a1a2a'}];
 // saves from before the rename (any '<oldname>kart.' key) move across once, so best times and trophies are kept
-(()=>{try{if(localStorage.getItem('wheeliefun.moved'))return;const cupIds=new Set(CUPS.map(c=>c.id));const keys=[];for(let n=0;n<localStorage.length;n++)keys.push(localStorage.key(n));
+(()=>{try{if(window.WFSave.storage.getItem('wheeliefun.moved'))return;const cupIds=new Set(CUPS.map(c=>c.id));const keys=[];for(let n=0;n<window.WFSave.storage.length;n++)keys.push(window.WFSave.storage.key(n));
   for(const k of keys){const m=/^[a-z]+kart\.(.*)$/.exec(k);if(!m)continue;let rest=m[1];
     if(rest==='trophy')rest='trophy.wheeldeal';else if(rest.startsWith('trophy.')&&!cupIds.has(rest.slice(7)))rest='trophy.wheeldeal';
-    if(localStorage.getItem('wheeliefun.'+rest)==null)localStorage.setItem('wheeliefun.'+rest,localStorage.getItem(k));}
-  localStorage.setItem('wheeliefun.moved','1');}catch(e){}})();
+    if(window.WFSave.storage.getItem('wheeliefun.'+rest)==null)window.WFSave.storage.setItem('wheeliefun.'+rest,window.WFSave.storage.getItem(k));}
+  window.WFSave.storage.setItem('wheeliefun.moved','1');}catch(e){}})();
 const trophyOf=id=>+(store.get('wheeliefun.trophy.'+id)||0);
 const cupOrder=c=>c.ids.map(id=>LEVELS.findIndex(L=>L.id===id)).filter(i=>i>=0);
 function newCup(ci){const c=CUPS[ci];return{race:0,pts:{},order:cupOrder(c),id:c.id,name:c.name,ci};}
@@ -5848,15 +5879,15 @@ function updateShelf(){const won=CUPS.map(c=>[c,trophyOf(c.id)]).filter(([,t])=>
 const WFT_API='https://www.game-buddy.co.uk/api/wft-scores';
 function lbName(){
   try{
-    let n=localStorage.getItem('wheeliefun.onlineName');
-    if(!n){n='Racer '+Math.floor(10+Math.random()*89);localStorage.setItem('wheeliefun.onlineName',n);}
+    let n=window.WFSave.storage.getItem('wheeliefun.onlineName');
+    if(!n){n='Racer '+Math.floor(10+Math.random()*89);window.WFSave.storage.setItem('wheeliefun.onlineName',n);}
     return n.slice(0,16);
   }catch(e){return 'Racer';}
 }
 function setLbName(n){
   n=(n||'').trim().slice(0,16);
   if(!n)return lbName();
-  try{localStorage.setItem('wheeliefun.onlineName',n);}catch(e){}
+  try{window.WFSave.storage.setItem('wheeliefun.onlineName',n);}catch(e){}
   return n;
 }
 // Renaming only changes what gets saved locally for *future* submissions -- past entries on

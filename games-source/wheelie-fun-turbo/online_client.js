@@ -13,6 +13,24 @@
   const GRACE_MS = 15000;
   const STATE_SEND_INTERVAL = 0.05; // 20 Hz kart state sync
   const AI_SYNC_INTERVAL = 0.10; // 10 Hz host AI bot sync
+  // PeerJS defaults to STUN only (Google's public servers), which can't traverse the symmetric/
+  // carrier-grade NAT that's near-universal on mobile data connections -- the handshake completes
+  // but the actual data channel never opens, so two players on cellular (or one on cellular, one
+  // on a strict home NAT) silently fail to connect. Open Relay Project's free, signup-free TURN
+  // relay (https://www.metered.ca/tools/openrelay/) gives WebRTC a fallback path when a direct
+  // connection can't be punched through, at the cost of relaying through their servers instead of
+  // going direct -- the standard fix for "P2P works on WiFi, not on mobile data".
+  const PEER_ICE_CONFIG = {
+    config: {
+      iceServers: [
+        { urls: 'stun:stun.l.google.com:19302' },
+        { urls: 'stun:openrelay.metered.ca:80' },
+        { urls: 'turn:openrelay.metered.ca:80', username: 'openrelayproject', credential: 'openrelayproject' },
+        { urls: 'turn:openrelay.metered.ca:443', username: 'openrelayproject', credential: 'openrelayproject' },
+        { urls: 'turn:openrelay.metered.ca:443?transport=tcp', username: 'openrelayproject', credential: 'openrelayproject' },
+      ],
+    },
+  };
 
   const CC_LABELS = {
     '50cc': '50cc · Chill',
@@ -104,7 +122,7 @@
   }
   function defaultWsUrl() {
     try {
-      const saved = localStorage.getItem('wheeliefun.wsUrl');
+      const saved = window.WFSave.storage.getItem('wheeliefun.wsUrl');
       if (saved) return saved;
     } catch (e) {}
     if (location.protocol === 'http:' || location.protocol === 'https:') {
@@ -670,7 +688,7 @@
     peerConns: new Map(), // clientId -> DataConnection (host)
     virtualHost: null,
     playerName: (function () {
-      try { return localStorage.getItem('wheeliefun.onlineName') || 'Racer ' + Math.floor(10 + Math.random() * 89); }
+      try { return window.WFSave.storage.getItem('wheeliefun.onlineName') || 'Racer ' + Math.floor(10 + Math.random() * 89); }
       catch (e) { return 'Racer'; }
     })(),
     myChar: 0,
@@ -757,10 +775,10 @@
   background: rgba(12,6,22,.78);
   border: 2px solid rgba(255,255,255,.2);
   border-radius: 12px;
-  padding: 10px 12px;
+  padding: 11px 12px;
   color: var(--cream,#fff4df);
   font-family: var(--body,'Fredoka',sans-serif);
-  font-size: 15px;
+  font-size: 16px; /* iOS Safari auto-zooms the page on focus below 16px -- even with user-scalable=no */
   font-weight: 600;
   outline: none;
 }
@@ -821,7 +839,8 @@
 }
 #wfoEmoteBar button {
   border:0; background:rgba(255,255,255,.08); color:var(--cream,#fff4df); border-radius:999px;
-  padding:4px 9px; font-family:var(--body,'Fredoka',sans-serif); font-size:12px; font-weight:700; cursor:pointer;
+  padding:8px 12px; font-family:var(--body,'Fredoka',sans-serif); font-size:12px; font-weight:700; cursor:pointer;
+  min-width:40px; min-height:40px; /* tappable with a thumb mid-race, alongside the steering zone */
 }
 #wfoEmoteBar button:hover { background:var(--ember,#ffb22e); color:#1a0f2b; }
 #wfoSpecBtn {
@@ -1086,12 +1105,12 @@
       const nmEl = root.querySelector('#wfoNameIn');
       if (nmEl) {
         S.playerName = nmEl.value.trim() || 'Racer';
-        try { localStorage.setItem('wheeliefun.onlineName', S.playerName); } catch (e) {}
+        try { window.WFSave.storage.setItem('wheeliefun.onlineName', S.playerName); } catch (e) {}
       }
       const wsEl = root.querySelector('#wfoWsIn');
       if (wsEl) {
         S.wsUrl = wsEl.value.trim() || defaultWsUrl();
-        try { localStorage.setItem('wheeliefun.wsUrl', S.wsUrl); } catch (e) {}
+        try { window.WFSave.storage.setItem('wheeliefun.wsUrl', S.wsUrl); } catch (e) {}
       }
     };
 
@@ -1435,7 +1454,7 @@
 
     if (isHost) {
       const peerId = 'wf-room-' + code;
-      const peer = new PeerCtor(peerId);
+      const peer = new PeerCtor(peerId, PEER_ICE_CONFIG);
       S.peer = peer;
       const host = new VirtualRoomHost(
         code,
@@ -1470,8 +1489,12 @@
         S.errorMsg = 'P2P Error: ' + (err && err.message ? err.message : String(err));
         renderLobby();
       });
+      // A brief signal drop (common switching WiFi<->cellular, or a backgrounded mobile tab) only
+      // kills the signaling socket, not the already-open data connections to other players -- so
+      // reconnect it quietly instead of treating the whole room as dead.
+      peer.on('disconnected', () => { try { peer.reconnect(); } catch (e) {} });
     } else {
-      const peer = new PeerCtor();
+      const peer = new PeerCtor(undefined, PEER_ICE_CONFIG);
       S.peer = peer;
       peer.on('open', () => {
         S.statusMsg = 'Connecting P2P to room ' + code + '…';
@@ -1501,6 +1524,7 @@
         S.errorMsg = 'Could not connect to P2P room ' + code + ' (' + (err.type || err.message) + ').';
         renderLobby();
       });
+      peer.on('disconnected', () => { try { peer.reconnect(); } catch (e) {} });
     }
   }
 
