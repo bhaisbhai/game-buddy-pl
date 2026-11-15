@@ -648,9 +648,19 @@ function phonePadLeave(id){const ph=PHONES.get(id);if(ph){ph.on=false;ph.conn=nu
 function phonePadInput(id,m){const ph=PHONES.get(id);if(!ph)return;const P=ph.pad;for(let i=0;i<17;i++){const on=!!(m.b&(1<<i));P.buttons[i].pressed=on;P.buttons[i].value=on?1:0;}P.axes[0]=clamp(+m.x||0,-1,1);P.auto=m.auto!==0;}
 function loadPhonePeerJs(){if(window.Peer)return Promise.resolve(window.Peer);return new Promise((resolve,reject)=>{const s=document.createElement('script');s.src='https://unpkg.com/peerjs@1.5.4/dist/peerjs.min.js';s.onload=()=>resolve(window.Peer);s.onerror=()=>{const s2=document.createElement('script');s2.src='https://cdn.jsdelivr.net/npm/peerjs@1.5.4/dist/peerjs.min.js';s2.onload=()=>resolve(window.Peer);s2.onerror=()=>reject(new Error('offline'));document.head.appendChild(s2);};document.head.appendChild(s);});}
 function phonePadCode(){const L='ABCDEFGHJKLMNPQRSTUVWXYZ',A='ABCDEFGHJKLMNPQRSTUVWXYZ23456789';let o='';for(let i=0;i<4;i++)o+=L[Math.floor(Math.random()*L.length)];for(let i=0;i<2;i++)o+=A[Math.floor(Math.random()*A.length)];return o;}
+// PeerJS defaults to STUN only, which can't traverse the carrier-grade NAT that's near-universal
+// on mobile data -- a friend's phone could complete signaling and still never open a data channel
+// to this host. Open Relay Project's free, signup-free TURN relay gives WebRTC a fallback path.
+const PHONE_PEER_ICE_CONFIG={config:{iceServers:[
+  {urls:'stun:stun.l.google.com:19302'},
+  {urls:'stun:openrelay.metered.ca:80'},
+  {urls:'turn:openrelay.metered.ca:80',username:'openrelayproject',credential:'openrelayproject'},
+  {urls:'turn:openrelay.metered.ca:443',username:'openrelayproject',credential:'openrelayproject'},
+  {urls:'turn:openrelay.metered.ca:443?transport=tcp',username:'openrelayproject',credential:'openrelayproject'},
+]}};
 async function startPhonePadHost(){PL.mode='p2p';PL.up=false;
   let PeerCtor;try{PeerCtor=await loadPhonePeerJs();}catch(e){setTimeout(startPhonePadHost,8000);return;}
-  const code=phonePadCode();let peer;try{peer=new PeerCtor('wfpad-'+code);}catch(e){setTimeout(startPhonePadHost,8000);return;}
+  const code=phonePadCode();let peer;try{peer=new PeerCtor('wfpad-'+code,PHONE_PEER_ICE_CONFIG);}catch(e){setTimeout(startPhonePadHost,8000);return;}
   PL.peer=peer;let nextId=1;
   peer.on('open',()=>{PL.up=true;const base=location.pathname.endsWith('/')?location.pathname:location.pathname+'/';PL.url=location.origin+base+'pad.html?v='+PAD_VERSION+'&room='+code;partyRefresh();});
   peer.on('connection',(conn)=>{const id='ph'+(nextId++);
@@ -661,7 +671,10 @@ async function startPhonePadHost(){PL.mode='p2p';PL.up=false;
     conn.on('close',()=>phonePadLeave(id));
     conn.on('error',()=>phonePadLeave(id));});
   peer.on('error',()=>{PL.up=false;PL.peer=null;partyRefresh();setTimeout(startPhonePadHost,6000);});
-  peer.on('disconnected',()=>{PL.up=false;partyRefresh();});}
+  // A brief signal drop (switching WiFi<->cellular, a backgrounded tab) only kills the signaling
+  // socket, not phones already connected -- reconnect it quietly instead of treating the whole
+  // lobby as dead.
+  peer.on('disconnected',()=>{PL.up=false;partyRefresh();try{peer.reconnect();}catch(e){}});}
 function phoneConnect(){if(PL.ws||PL.peer)return;
   if(location.protocol==='https:'){startPhonePadHost();return;}
   let ws;try{const phUrl=location.protocol==='http:'&&location.host?'ws://'+location.host+'/ws?role=game':'ws://127.0.0.1:'+PHONE_PORT+'/ws?role=game';ws=new WebSocket(phUrl);}catch(e){return;}PL.ws=ws;PL.mode='lan';
@@ -674,10 +687,6 @@ function phoneConnect(){if(PL.ws||PL.peer)return;
     else if(m.t==='leave'){phonePadLeave('ph'+m.id);}
     else if(m.t==='in'){phonePadInput('ph'+m.id,m);}};}"""
     html = must_replace(html, old_phone_connect, new_phone_connect, "phone_ws_host")
-
-    old_party_hint = """  if(PL.up&&PL.url){$('#joinUrl').textContent=PL.url.replace(/^http:\\/\\//,'');$('#joinHint').textContent='Same Wi-Fi as this laptop. Point the phone camera at the code.';if($('#qr').dataset.u!==PL.url){$('#qr').dataset.u=PL.url;$('#qr').textContent='…';qrSVG(PL.url,svg=>{$('#qr').innerHTML=svg;});}}"""
-    new_party_hint = """  if(PL.up&&PL.url){$('#joinUrl').textContent=PL.url.replace(/^https?:\\/\\//,'');$('#joinHint').textContent=PL.mode==='p2p'?'Scan from anywhere \\u2014 the phone just needs internet.':'Same Wi-Fi as this laptop. Point the phone camera at the code.';if($('#qr').dataset.u!==PL.url){$('#qr').dataset.u=PL.url;$('#qr').textContent='…';qrSVG(PL.url,svg=>{$('#qr').innerHTML=svg;});}}"""
-    html = must_replace(html, old_party_hint, new_party_hint, "party_hint_p2p")
 
     old_items_hype = """  let steer=inp.steer,gas=inp.gas,brake=inp.brake;
   if(k.sunT>0){k.stinkT=0;k.paintT=0;k.rainT=0;if(!G.battle&&k.onGround&&k.speed>5){const edge=Math.abs(k.lat||0)-(ROAD-4);if(edge>0){const li=wrapI(k.idx+15),want=Math.atan2(TP[li].x-k.x,TP[li].z-k.z),d=adiff(k.heading,want),w=Math.min(.85,edge*.3);steer=clamp(steer*(1-w)+clamp(-d*2.4,-1,1)*w,-1,1);}}}

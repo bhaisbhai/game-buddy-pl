@@ -94,7 +94,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .view.quad .tl{transform:scale(.72);transform-origin:top left}.view.quad .item{width:clamp(44px,4.6vw,62px);border-radius:13px}.view.quad .item2{width:clamp(30px,3vw,40px);left:calc(50% + clamp(28px,3vw,40px))}
 .view.quad .bl{transform:scale(.7);transform-origin:bottom left}.view.quad .br{transform:scale(.72);transform-origin:bottom right;top:auto!important;bottom:calc(14px + env(safe-area-inset-bottom,0px))!important}
 .view.quad .msg{font-size:clamp(22px,3.4vw,44px)}.view.quad{border:2px solid #1a0f2b;box-sizing:border-box}
-.partyCard{max-width:880px;text-align:center}.partyHelp{margin:0 auto 14px;max-width:720px}
+.partyCard{max-width:880px;text-align:center}.partyHelp{margin:0 auto 14px;max-width:720px}#partyHelpTouch{display:none}
 .slots{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:8px 0 16px}
 .slot{border-radius:16px;padding:14px 8px;background:rgba(255,255,255,.06);border:3px dashed rgba(255,255,255,.18);min-height:92px;display:flex;flex-direction:column;justify-content:center;gap:6px}
 .slot b{font-family:var(--display);font-size:26px}.slot span{font-size:14px;opacity:.85}.slot.on{border-style:solid;background:rgba(255,255,255,.1)}
@@ -125,7 +125,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .card{background:var(--panel);border:3px solid rgba(255,255,255,.12);border-radius:22px;padding:clamp(18px,3vw,32px);max-width:760px;width:100%;box-sizing:border-box;max-height:100%;overflow:auto}
 .card h2{font-family:var(--display);font-weight:400;margin:0 0 6px;font-size:clamp(24px,3.4vw,38px);color:var(--ember);text-wrap:balance}
 .card p{margin:0 0 14px;line-height:1.45;color:var(--muted);max-width:62ch}
-.ctrl{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:16px 0 22px}
+.ctrl{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:16px 0 22px}#howCtrlTouch{display:none}
 .ctrl h3{font-family:var(--display);font-weight:400;font-size:14px;letter-spacing:.08em;color:var(--lagoon);margin:0 0 8px}
 .ctrl dl{display:grid;grid-template-columns:auto 1fr;gap:5px 12px;margin:0;font-size:14px}
 .ctrl dt{color:var(--cream);font-weight:600;white-space:nowrap}
@@ -256,6 +256,16 @@ Escape/P or gamepad Start they'd otherwise have no visible way to discover). A s
   #ctrlLegendTouch{display:grid}
   #pauseCtrlKeys{display:none}
   #pauseCtrlTouch{display:grid}
+  /* the local party lobby's instructions named controller buttons and keyboard keys that don't
+  exist on a touch-only host -- the real touch join path is a friend's phone scanning the QR. */
+  #partyHelpKeys{display:none}
+  #partyHelpTouch{display:block}
+  /* "Race school"'s controls reference listed PS4/Xbox pad and two keyboard schemes -- none of
+  which exist on a touch screen -- with no touch equivalent at all; swap in the real gestures. */
+  #howCtrlKeys{display:none}
+  #howCtrlTouch{display:grid}
+  /* the title screen's "connect a controller" readout is equally irrelevant there. */
+  #padInfo{display:none}
   /* racer select: the stat panel + kart grid together covered almost the whole phone screen,
   leaving barely a sliver of the actual 3D kart preview behind them visible. Drop the two
   upgrade-derived stats (Off-Road/Mini-Turbo are the least useful at a glance) and shrink
@@ -330,7 +340,7 @@ fallback so nothing is ever unreachably clipped on a phone narrower than tested 
   <div class="card">
     <h2>Race school</h2>
     <p>Three laps per race, twenty wild tracks in five cups, including a Mystery Track that's different every time. Drift through corners, launch over the gaps and learn each track's trick. Win a cup by scoring the most points over all four races of a cup. You must finish in the top 4 of each cup race to qualify for the next one; finish 5th or 6th and you race it again. On every track the final lap has a twist, so save something for the end.</p>
-    <div class="ctrl">
+    <div class="ctrl" id="howCtrlKeys">
       <div><h3>PS4 / XBOX PAD</h3><dl>
         <dt>R2 or ✕</dt><dd>Accelerate</dd><dt>L2 or ▢</dt><dd>Brake / reverse</dd>
         <dt>R1</dt><dd>Hop &amp; drift, trick in the air</dd><dt>L1 or ○</dt><dd>Use item</dd><dt>D-pad ↑</dt><dd>Swap your two items</dd>
@@ -341,6 +351,12 @@ fallback so nothing is ever unreachably clipped on a phone narrower than tested 
       <div><h3>KEYBOARD · P2</h3><dl>
         <dt>Arrows</dt><dd>Drive and steer</dd><dt>/ or R-Shift</dt><dd>Hop &amp; drift</dd>
         <dt>.</dt><dd>Use item</dd><dt>;</dt><dd>Swap items</dd><dt>,</dt><dd>Hyper mode</dd></dl></div>
+    </div>
+    <div class="ctrlLegend" id="howCtrlTouch">
+      <div class="row"><div class="key wide" style="background:var(--lagoon)">↔</div><div class="label">Steer<small>SWIPE LEFT / RIGHT ANYWHERE</small></div></div>
+      <div class="row"><div class="key wide" style="background:#ff4fd8;color:#fff">TAP</div><div class="label">Use Item<small>TAP ANYWHERE</small></div></div>
+      <div class="row"><div class="key wide" style="background:#ffe14a">HOLD</div><div class="label">Trick Boost<small>TAP &amp; HOLD WHILE AIRBORNE</small></div></div>
+      <div class="row"><div class="key wide" style="background:#ff5b1f;color:#fff">⚡</div><div class="label">Signature Hype<small>TAP THE HYPE BAR WHEN FULL</small></div></div>
     </div>
     <h3 class="sectionLabel first">ITEMS</h3>
     <p>You can carry two at once: the big box is the one you fire, the small NEXT box moves up after. Press d-pad &uarr; to swap them. Coins raise your top speed.</p>
@@ -453,7 +469,8 @@ fallback so nothing is ever unreachably clipped on a phone narrower than tested 
 <div class="screen shade" id="party" hidden>
   <div class="card partyCard">
     <h2>Who's playing?</h2>
-    <p class="partyHelp"><b>Controller:</b> press ✕ to join, ○ to leave. <b>Keyboard:</b> Enter (W A S D) or Right Shift (arrow keys). <b>Phone:</b> scan the code.</p>
+    <p class="partyHelp" id="partyHelpKeys"><b>Controller:</b> press ✕ to join, ○ to leave. <b>Keyboard:</b> Enter (W A S D) or Right Shift (arrow keys). <b>Phone:</b> scan the code.</p>
+    <p class="partyHelp" id="partyHelpTouch">Ask up to 4 friends to scan the code below with their own phones to join in.</p>
     <div class="slots" id="slots"></div>
     <div class="join"><div class="qr" id="qr"></div><div class="joinTxt"><b>Join on your phone</b><span id="joinUrl">Phone link is offline</span><small id="joinHint">Phones need the same Wi-Fi as this laptop.</small></div></div>
     <div class="btns"><button class="btn" data-act="partyGo" id="partyGo">Start</button><button class="btn ghost" data-act="back">Back</button></div>
@@ -5500,11 +5517,36 @@ function goParty(battle){G.battleNext=battle;G.bind=[];G.state='party';show('par
 function partyJoin(b){if(G.state!=='party'||!G.bind||G.bind.length>=4||G.bind.some(x=>x.id===b.id))return;G.bind.push(b);if(AU.ctx)SFX.box();partyRefresh();if(b.id.startsWith('ph'))phoneSync(b.id);}
 function partyLeave(id){if(!G.bind)return;const i=G.bind.findIndex(x=>x.id===id);if(i>=0){G.bind.splice(i,1);partyRefresh();for(const b of G.bind)if(b.id.startsWith('ph'))phoneSync(b.id);if(id.startsWith('ph'))phoneSync(id);}}
 function partyGo(){if(!G.bind||!G.bind.length)return;G.mode=G.bind.length;G.selP=0;G.sel=[0,1,2,3];G.state='select';show('select');buildGrid();for(const b of G.bind)if(b.id.startsWith('ph'))phoneSync(b.id);}
-let QRLIB=null;function qrSVG(url,cb){if(window.qrcode){const q=qrcode(0,'M');q.addData(url);q.make();cb(q.createSvgTag({cellSize:4,margin:2}));return;}if(QRLIB)return;QRLIB=document.createElement('script');QRLIB.src='https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js';QRLIB.onload=()=>qrSVG(url,cb);QRLIB.onerror=()=>{QRLIB=null;};document.head.appendChild(QRLIB);}
+let QRLIB=null;
+// Loads the qrcode-generator lib once (two CDNs, like loadPeerJs) and caches the in-flight
+// promise so concurrent/retried calls share one attempt instead of racing duplicate <script> tags.
+function loadQrLib(){
+  if(window.qrcode)return Promise.resolve();
+  if(QRLIB)return QRLIB;
+  QRLIB=new Promise((resolve,reject)=>{
+    const s=document.createElement('script');
+    s.src='https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js';
+    s.onload=resolve;
+    s.onerror=()=>{
+      const s2=document.createElement('script');
+      s2.src='https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.min.js';
+      s2.onload=resolve;s2.onerror=()=>{QRLIB=null;reject(new Error('qr lib failed'));};
+      document.head.appendChild(s2);
+    };
+    document.head.appendChild(s);
+  });
+  return QRLIB;
+}
+function qrSVG(url,cb,errCb){loadQrLib().then(()=>{const q=qrcode(0,'M');q.addData(url);q.make();cb(q.createSvgTag({cellSize:4,margin:2}));}).catch(()=>{if(errCb)errCb();});}
 function partyRefresh(){if(G.state!=='party')return;const B=G.bind||[];
-  $('#slots').innerHTML=[0,1,2,3].map(i=>{const b=B[i];return b?`<div class="slot on" style="border-color:${PCOL[i]}"><b style="color:${PCOL[i]}">P${i+1}</b><span>${b.label}</span></div>`:`<div class="slot"><b style="opacity:.35">P${i+1}</b><span>Press ✕ to join</span></div>`;}).join('');
+  $('#slots').innerHTML=[0,1,2,3].map(i=>{const b=B[i];return b?`<div class="slot on" style="border-color:${PCOL[i]}"><b style="color:${PCOL[i]}">P${i+1}</b><span>${b.label}</span></div>`:`<div class="slot"><b style="opacity:.35">P${i+1}</b><span>${isTouch?'Scan to join':'Press ✕ to join'}</span></div>`;}).join('');
   const go=$('#partyGo');go.textContent=B.length?`Start: ${B.length} player${B.length>1?'s':''}`:'Start';go.classList.toggle('dim',!B.length);
-  if(PL.up&&PL.url){$('#joinUrl').textContent=PL.url.replace(/^http:\/\//,'');$('#joinHint').textContent='Same Wi-Fi as this laptop. Point the phone camera at the code.';if($('#qr').dataset.u!==PL.url){$('#qr').dataset.u=PL.url;$('#qr').textContent='…';qrSVG(PL.url,svg=>{$('#qr').innerHTML=svg;});}}
+  if(PL.up&&PL.url){$('#joinUrl').textContent=PL.url.replace(/^https?:\/\//,'');$('#joinHint').textContent=PL.mode==='p2p'?'Scan from anywhere — the phone just needs internet.':'Same Wi-Fi as this laptop. Point the phone camera at the code.';
+    // dataset.u is only marked once the QR actually renders -- previously it was set before the
+    // attempt, so a single blocked/failed CDN load (ad blockers, a flaky mobile connection) left
+    // the code permanently stuck on '…' with no retry, since later refreshes saw the same PL.url
+    // and never tried again.
+    if($('#qr').dataset.u!==PL.url){$('#qr').textContent='…';qrSVG(PL.url,svg=>{$('#qr').dataset.u=PL.url;$('#qr').innerHTML=svg;},()=>{$('#qr').innerHTML='Use the link →';});}}
   else{$('#joinUrl').textContent='Phone link is offline';$('#joinHint').textContent='Start Wheelie Fun from the Retro Front launcher to let phones join.';$('#qr').innerHTML='📵';$('#qr').dataset.u='';}}
 // ---- track select ----
 const bestKey=L=>'wheeliefun.best.'+L.id;
