@@ -1,20 +1,69 @@
 {
   "slug": "man-united",
-  "updated": "2026-11-15T13:12:10.172Z",
+  "updated": "2026-11-15T22:21:29.272Z",
   "articles": [
     {
-      "title": "Man United news: Bruno Fernandes rejects offer as Mauricio Pochettino transfer plans drawn up",
-      "source": "Manchester Evening News",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNWnZ0dGpURmNTY1B2SFVYSW1Ra2tXWTQ1a2VzU0NFMmMxcnpJcVNfMlc3ellGUUtLd3Vtb0xGTXkweGcxZEQ0dmc0cjFvTWVZdmtWdHFWcjFfMTJBN0ZVM2J5aVlXOHY2eVpNWVhWUE9fN1RlRmFFT1BJUUxMTzk0cXI4Zkx2Q2FwQW9STkFsMUlybDBmSmFJMmxHLW5iLTJnb1JtTGR1S0c1R25Wb2pYeTlNdw?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 22:57:00 GMT",
+      "title": "Pochettino: I will talk with Sir Alex Ferguson about Man Utd job",
+      "source": "The Telegraph",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQTZrOUs0OXUxTE1sRjB0TW5SSzkyMERJcnJ4VFIxVUYwbE5ybS1zdlV3S1lHRTJlamxaNW5DbE5hUXo3QjNaUFJWRnR5bk1vYnY3Zk9qd0VzV2RrbzVHb0FiTGhRNlo2dm9EWnRnY3I0aEd0YWI5cnBMOUY5RXlqMFlOeXNXMmQxWWJiMEtCTkxTNFhfVnJZ?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 03:08:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Mauricio Pochettino slaps ban on Man Utd players as Michael Carrick rule scrapped",
+      "source": "Daily Express",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSzBWM28xb0VJeU5GdnBKWjVudHczWXJKRGlDM1lrUFhRNU1fX2NyOGVxNU9IMVhPcmtTb21tbjNPcE15R2taSVJFenhlRUtZZ2VVSnFJdFZzeGlQem0tOTQwOFNRamF2LWQzb2M2dDJ4UzNYaVVZUFJ3cWlaSk1vVXgtZG1kM0ZyTnc1S1B3YWQyWFRxNGZ0T1NzRmzSAaIBQVVfeXFMT2gzeW5tc2plVlh6Um5YdVBkeVB3YWZmcEk3dzM2V29CdThvdUNHR1VINi1pbGFRemhZMU9sbWtncnNJNERDdnlnSUF4MGE1clFpTHpnNm5EUU55MWVqdktPR2pUVHNJREtvc05qZUZ5bEhTNWthdGkwcTNCZGJKLWljVnNSd2RjbHRmTjI2d1pOVWN4bW83NVpUbDJFR1VkNTdR?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 12:56:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Mauricio Pochettino confirmed as new Man Utd manager on two-and-a-half year contract",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5UV1VCQ3JQMjROaDV4c1ZkdW8tdU1mSVB6aXdBekJZUU9VeWJpekdQcnZzU0ZtbEpjQzFrZDNyUGQxTzVGWHVzODlUQ2Q0c2x1cURwSVhVZlZ5T29rZ3JlUS1UMlQxdw?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 07:28:52 GMT",
+      "category": "manager"
+    },
+    {
+      "title": "Here Manchester United go again, taking the Two Ronnies route to hiring a new boss | Jonathan Wilson",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZ3R5MTVBWkZoaXdrN3MzZTNtVG85aXUwbG0wM1pOemIzYkxKZnIzdEdTN1lteV9Kbk1WOVVKUThEbGtlSml2VkxBVzN1Q3NuYzk4Z2dpUFZwSlVuVFBKRVU4Z0RCV0FEMzJKSTRrdk9MYWlQMlZPaVBhcVNZbXF2WFNWZEUxZjg4ZTZRYVFsNXBEMEFKN2ZIUkU4OXNjMGdRTkFvZ2pBRjh1SHJDbkFqTnlNbjZITkNNdTY0QXRxRjA0T2ZQcnhIUWxB?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 20:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Football gossip: Bassey, Collins, Mazraoui, McKennie, Endrick, Paz, Lino",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9QNk1PQTNiQVN1RDdUME5CSVNXV29BYzF1VzVFZzJIYUl0cW00Nm5uUkg0X2FIa2Q1UGZGSEhqOW9OTW9DYktTUEs0Zi1lU3JldEh5UzBJXzNIbDYxMzZXREpIZUFxSHFs?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 20:47:44 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Man Utd target Pochettino-approved January signing who would become their best defender",
+      "source": "LiveScore",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQT3BXM0JkRG51dnZobEdBS1c5UW9QbUdFQlBIR3c5dzZ1SXJ0T1p6TVR6eVRaV1JnRVdFbjhvS2FLcG5oN3h4VFNSQUV5R3Z0bDdrLXdwU3JXMl90eEdZS0RwTjhZNTJzdE1qbk9NaWgxbzFGS3Jia3dnOFVsSGYyVUo4emUxUFFaQmV5U0tLOFhLYXRLNF9sYkIxQk5WblhkRVByVUcxVVI5LTdiN0hQUnBDQWYtR1VxRXdodVZvUVdKRnZjWTVpWGFDQVNqeGpQcjJDOGRudVh3UTZRMV9fbEkzVEdzWl9nX0cxb1dxWjJSbDJZMS1Z?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 19:13:32 GMT",
       "category": "transfer"
     },
     {
-      "title": "Liverpool handed major injury boost for Man Utd showdown",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPV0lwbDJsYzZxYVJBblhXNDVmd20xWHFaSjlmZTljbks0bVQwa2xSV3UwVlVkZXlqeFp6djJFclhaZWRUOTRMV0FmbkFNZ0dGdVBDQTlFcFNDejlnSm5iZFA4NkpTdWMzUW1nWFlWemxwODVzQnNESmpvcDNnMDZiSUd1cHhwVEFWb3FxYm50X2xXelpmWnNYODhWVEp5SjN3Z0F0NUxzVlRRZjE5?oc=5",
-      "pubDate": "Sun, 15 Nov 2026 10:02:52 GMT",
-      "category": "fitness"
+      "title": "Five Center Backs Man Utd Should Target in January—Ranked",
+      "source": "Sports Illustrated",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV1JUa0Fwd0xYbzBLN1o4VkZMcG1IYUNpNll5RUtta0R6c3VlNzZOQWlBUGtnMC1idmxPT2N1cDdrSFNrcGdfZS1WYVQ0YUs5VzRQOGhMUThoY0ZpUF9hdjZNekVrVldTX1BWUHZFSG1SdXBkVWg0ZVlJeHFEdTVhVFBKV2dSbHM?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 21:00:01 GMT",
+      "category": "rumour"
+    },
+    {
+      "title": "Liverpool v United preview: Pochettino’s first game in charge",
+      "source": "Manchester United",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTGJxVWlEMlQyZWFaU05zZmdFaWd5TlNvamJvSy1hUG1iTDZhQnQxOEhtTG54cDBkWV90YjY2MHBEV3drem1DNE11N0hEOHBNU0t0eGVhZmE3TEUyNFdUbkJ2WmFYc01tTGpSRS1WYXNYTXV2dnpza0dUX1N5eFRQbTUxSFRvRzBBbDZiVk0zNkVSZXRqSXV6TXR3cTNVc0JmSER1ZVBBOHVlQQ?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 21:49:02 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Calvin Bassey among Pochettino’s Man Utd targets",
+      "source": "The Telegraph",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONFVaSS1rTjd2VEF5N3lSTmw2bE1oWFZPUzU0VVBOZXowTi14SmxsamYwMXZCVF9VVlQ5dEVOVGpCMlhubHFjTElXVUZ1V2tEeWVERW5sRFZTUmRrSnRQX0M5aXhKYWdTbmlEMFJ2c3JySGFOM2NLV2FWRkpJQWROYmxuRFhHMXVHUUROMW5peWhNdGg5WHZBdG5VSkY?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 13:42:00 GMT",
+      "category": "general"
     },
     {
       "title": "Every Manchester United player, manager, executive since Glazers' takeover: Where are they now?",
@@ -24,87 +73,38 @@
       "category": "manager"
     },
     {
-      "title": "Women's Super League highlights: Manchester United 2-0 Crystal Palace",
+      "title": "Man Utd 2-0 Crystal Palace: Maya Le Tissier's fine strike helps United to dominant victory",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcThMcHZOeGhGOHRORUlKUUpOMHN0dFZFdWs1akZGaW5zVGxnNTJtbC1HTlkyVlBualJJemUycTJheVdyTnRGS2gyWmdyeDFxQk1OSVgxQV9nMXBKYnoyUm5jSEtzeGRnUHM3UllhSmNsdzlBTEJodmJfVjZYN2VhZm9EVktYMWViaDhvR3k4SGNIdnlUX2t2emJnLUlCRURBVHphOXdFNDNfNmt6VWktejZ3dUtqdWVFNktjS2ZJZWVyM1h2VTdFbldPSnpPUVdNaFZj?oc=5",
+      "pubDate": "Sat, 14 Nov 2026 08:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Liverpool handed major injury boost for Man Utd showdown",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPV0lwbDJsYzZxYVJBblhXNDVmd20xWHFaSjlmZTljbks0bVQwa2xSV3UwVlVkZXlqeFp6djJFclhaZWRUOTRMV0FmbkFNZ0dGdVBDQTlFcFNDejlnSm5iZFA4NkpTdWMzUW1nWFlWemxwODVzQnNESmpvcDNnMDZiSUd1cHhwVEFWb3FxYm50X2xXelpmWnNYODhWVEp5SjN3Z0F0NUxzVlRRZjE5?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 11:03:54 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "Pochettino to become head coach",
+      "source": "Manchester United",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSFFvWHZpZXdDSThUZ2JCNzlwc1ZSbGJaaTZPUkM4N2poaFhWSF92Y1VMMC1tQ29OOWtlRHd5Qk55WGJrRjlObkI4ZkNUSERGM1VRNHhoRGdDMWVoYW9GaG5ycDUydHpTd1dlYkZjSHFublpSSnIxQ0JZYW9sYjduNi1jd0RkU0Z3SnZXLWpB?oc=5",
+      "pubDate": "Fri, 13 Nov 2026 12:01:16 GMT",
+      "category": "manager"
+    },
+    {
+      "title": "Man Utd: Bruno Fernandes puts contract talks on hold until he finds out if Mauricio Pochettino is 'the real deal' - Paper Talk | Football News",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVTFhenpfR3EybWNDcWZhT0twaThDWDctb3hUMWxVcnVFRmxLazRWV2U2eDFWemUyLUhpQkx6aERTZEVFRWtqTloyTjVRVGRDN296T1Z3cXEzR1BqZF9VcDVIYWpVR1VIMWNUR2FwRE85RTJTVFpYM2IxREdXYkxTMkFB?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 22:14:03 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Man Utd's Mauricio Pochettino pursuit and Michael Carrick decisions",
       "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5YTHNfMExSZ2pnd0VRdHNwS1hpMHpUWlNsTmEwSExreG9wT0ZadFgzd3h4S05NODhLc0JwT0pMYUV5T21kdGFFdzdOZzNPN2Q4UGJlV0RnRlBMcG5fblQtblRveHo0VkVI?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 18:27:23 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Women's Super League LIVE! Chelsea vs Man City and Man Utd vs Crystal Palace match updates, news and score",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQX3lXbTdKQm9JVkJzTzVkbHhodlE4SzdGOFByM01vQVRPTUJsdTY4cEtHZG42NHpuQnl5OUJ1U1RFOUI5SGxZbVJUZEIyRnQ2TGhycmJoQTRjdk5oVUtaTTV3c2NSeGdvWFZWVFJmTkpvT3ljWDBFVkRKbmN5LXZaem0wNjFwbHlhVXRqNkZ6SGZ6bFdSNUQtZGp3S0g3eDB0cEVZblZYMUc5NDRDZ0FGWTZWaEROQk5hUXFoTFlaaXc2RVgyT2psQnN1VGxvSDhnYldyNXFxU1hRMFhaTUhIRjA0Umk0MHJlbnBqbUJB?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 15:44:17 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Report: United Women 2 Crystal Palace 0",
-      "source": "Manchester United",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPX2ViOG9iNV82Unc4Qjc3VU9jSGVVbUdWX2FSbDNiSmI3ZW1DU2h3MG1aRU5NcjFCVHFkY2NMT0lNcXJkcHdDTGtLU3UzeW9oeFpfQjF5QVRpZUY0M0ZmTEZ4MTFyUEJHVFFNa0pjOE9tS2drZUR5MU9MbmF4aDFOc3J3dWs?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 18:06:24 GMT",
-      "category": "match"
-    },
-    {
-      "title": "15 goals in 16 games: Man United monitor prolific young striker ahead of potential transfer",
-      "source": "utdreport",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaE1fTVoyekNBNzVZZ2xQTjdaS0YxQ2JFM2xGUFZGVzJkWFBjX3owbjVyMFItY2trd2YybzRveVhZUHlXVFVwMGE0MHBKcFV6aWVna0pFUzFUSTFxcUYxdlZCWHdPWWw5NjM1MzRHSU1lNFc5dTBDemNLeVg0cVhtcTd2b1YzVFRERXM0M3U0RnRxVjJUajZlTEpxcGplaFF1TjFVR19HR09qSVNMLTlXSDZJeEd4dHRMV0pvVUFoSHlXZ1JU0gHKAUFVX3lxTE9YTTFkOGZ1WmY3cDVMU3E5Y1MxQkZGWXZoQVc0dDNjNngxMjFPMGc3aVlhYXpnX2NaamJkZU1RVlZwc3YwOXlaVWlKc3RpNWIydUViWTdvYmhmMDZISm9iRzl1M0JlNV9fN0xQMXRRcS05bWwtbTBnOXd1VEwtY2RuQ3hTTmdKV3JpZERhVzRmNFZJWEc1S2ZqdHNkREo0T2RXc192cm1nZ2o2VnMxRTZhTUZKQng1MVZBemxnUmEwZ0NLR0tfa0ZndkE?oc=5",
-      "pubDate": "Sun, 15 Nov 2026 06:50:21 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Manchester United complete move for Reading FC academy prospect",
-      "source": "Reading Chronicle",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdzVuVFJaNEF1bTVhbktEVl85N00zNE5LNXc0eWcxeVFoUTlDcFNqNGVXdl83RF9PNXhydUhxb3djejZ0VEljRWhUSE5oMDVGaEcxajJMVUhvcm1KUmpaV3NuNFJYYWJvdkxaVEk3N2RZS3lnSElEaGZDcDFWMW1fYjJTaDNkTHN5bWtnbHhESExkNWl2Qk9hUGZxZjhxS1E0b2c?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 13:00:52 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Man United ‘make contact’ to sign £67m-rated machine as Leeds ‘plot’ to snatch Bundesliga gem",
-      "source": "3 Added Minutes",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdHlabkVDR2VWQkxlLWtDanlOV0FNdDJ5THFNVXdlRTNkLWpyVk9Ca1E0alVxdlE1UlFtMUthRG5kRTlOWmpvbFY1bk90dTdrWnl6Q0s4ZjJKdjNkemJjNVNacDlWTktNc1NSc2JsREhvM3h6TjFDV0diVzZZSzhWbGVaaTVjMWdzcGxSMlVkLVdQOXV5ZHRGQjBwRE5LSFdGOFpKUWtNeXBhSnRGTWtpM1RfQ3Q1dDJ2SGxvRQ?oc=5",
-      "pubDate": "Sun, 15 Nov 2026 07:00:00 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "NUFC favourite ‘absolutely gone’ in 2027 after Man Utd links - on one condition",
-      "source": "Shields Gazette",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNd25RYXVWYzVwOEVMdDAwSVJGSDZXWk83cG4xdjdXVHc5cDBXYVJ0eVlKb2xySGgwUTJCQkFzcVBmYVZNSkEwN3B3MFBlQmJ0dDFJNEVSOGFLYlFnZENyRmpmSzJ2Rnl1bV9sLVBRQ3IxQUphcExPbnVtT1dvNm9OdVV4MWNEcEVaZ01oMzlpMFJraC0xSmd3NEZndXRRZkpvYnBMRkd2YzBJRFZIVmZzMU5vR1ZfbFAxdC1FVw?oc=5",
-      "pubDate": "Sun, 15 Nov 2026 10:56:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Roy Keane isn’t angry, he’s just disappointed",
-      "source": "The i Paper",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBLUlNEcExXUWpjcE1MRXpvXzVpWXZmSEROUmlBU2M3UVJBc2JyZGZLam1FRWJ2TXctSHc0TWtvcGhSM1RzUkpvbUNBQkVOQ3BlZU5HTm90S3p4WElYUVRBdDNxSEcyNmtVRnFXZ1ZJVk5ybTRS?oc=5",
-      "pubDate": "Sun, 15 Nov 2026 08:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Club statement on Michael Carrick",
-      "source": "Manchester United",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XaFV6VEFMY2loVmNZY0xHWUZUNmdVcV9CQUM0ZWV2QkZEWWF2LUhTeFZDSjhSVkZ4WndMQlFTMmhtRlhXT2N0VFo3VmtHYlFNa2VHWHNCZlJoenI0LVZ4ek9FOVQ5dmdRMTN6MXB3SzU0TDgteHI3d1NKVGpTOUE?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 10:38:57 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Pochettino: It's difficult to turn down United",
-      "source": "Manchester United",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQamZEN2ZhQi1Ra0Z1U004VGpzSkkyNlFrWmNGSlpIeGZKZmFfd01RWlpCSmthNWhtcEtPUmxZbHlyUzVqODNHd05UajJ2QWhZTEdzTVRFOEE4N0VydWtodGRiQlJSLVRlcTZkOE1ZVnRwRGRuak9NUnVxaVpEaU1YeGNNWkZ4UGRkMlRkNUN3ME9OcG5zNUVmTmZIdw?oc=5",
-      "pubDate": "Sun, 15 Nov 2026 11:12:21 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Mauricio Pochettino to Man Utd: What does a Pochettino team look like and how will he set up struggling Red Devils?",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQTDMyN2dCcDRCVld1Rk1YeGxCa2RINmZiZVh1X1dxNWNNYTV2QTFvSEUxbFprM2hWVmp1UGlCMXNPYTltdmhCeF9aY0JjYUJva2xwRlkwLUswdnQxb3piUTZxY0dVd2pVcUdWR256Snc3TjJmWGdrTGp4c2ZtakliWGtmRURtUC1DZUlGTnRETkhzZ04wNEtkcWlvWGpBRklnSGc0d3gwN1QyRG51VkJaTlBjcVZ1OVF6Skh6UUFSelB0Yy0xSUJTU1pLTmZIempaOUZFY3lGd2lVSWliSjAzZEpkWk05d3BuVEo2QnlyU29NYUxM?oc=5",
-      "pubDate": "Sun, 15 Nov 2026 10:21:17 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Here Manchester United go again, taking the Two Ronnies route to hiring a new boss | Jonathan Wilson",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZ3R5MTVBWkZoaXdrN3MzZTNtVG85aXUwbG0wM1pOemIzYkxKZnIzdEdTN1lteV9Kbk1WOVVKUThEbGtlSml2VkxBVzN1Q3NuYzk4Z2dpUFZwSlVuVFBKRVU4Z0RCV0FEMzJKSTRrdk9MYWlQMlZPaVBhcVNZbXF2WFNWZEUxZjg4ZTZRYVFsNXBEMEFKN2ZIUkU4OXNjMGdRTkFvZ2pBRjh1SHJDbkFqTnlNbjZITkNNdTY0QXRxRjA0T2ZQcnhIUWxB?oc=5",
-      "pubDate": "Sat, 14 Nov 2026 20:00:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB5SHE1ZndSWnJiUWhxV0pTVlRHZi10M0JyYWstd0xWRnY4TC1KbjVEVFFfNXFGYlhiajdFZjQ2enU4a2dsR2VJR29uQUo3ZmN4VFdldlJsMDRnbWZFTENQRm9NYWVBMHJxM3BJ?oc=5",
+      "pubDate": "Thu, 12 Nov 2026 16:12:39 GMT",
       "category": "general"
     }
   ],
