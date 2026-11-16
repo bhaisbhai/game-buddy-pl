@@ -971,10 +971,18 @@ for(const[id,k]of[['tL','l'],['tR','r'],['tD','drift'],['tI','item'],['tB','brak
   // STEER_R/DEAD/STEER_CURVE: players found 30px-to-full-lock with a linear response too twitchy;
   // a slightly longer throw plus a curve keeps small finger wobbles gentle while a firm swipe still
   // reaches full lock for hairpins.
-  const STEER_R=36,DEAD=.12,STEER_CURVE=1.3,TAP_MOVE=14,TAP_TIME=300;let jId=null,jx=0,jy=0,jt=0,moved=0,trickFired=false;
-  const tickHold=()=>{if(jId==null)return;if(moved<TAP_MOVE){const hk=G.humans_k&&G.humans_k[0];const want=!!(hk&&hk.rampAir&&!hk.trickDone&&hk.spinT<=0);if(want)trickFired=true;touch.drift=want?1:0;}else touch.drift=0;requestAnimationFrame(tickHold);};
-  const jDown=e=>{if(jId!=null)return;e.preventDefault();audioInit();jId=e.pointerId;jx=e.clientX;jy=e.clientY;jt=performance.now();moved=0;trickFired=false;try{zone.setPointerCapture(jId);}catch(err){}tickHold();};
-  const jMove=e=>{if(jId==null||e.pointerId!==jId)return;e.preventDefault();const dx=e.clientX-jx,dy=e.clientY-jy;moved=Math.max(moved,Math.hypot(dx,dy));const v=dx/STEER_R;touch.steer=Math.abs(v)<DEAD?0:Math.sign(v)*Math.pow(clamp((Math.abs(v)-DEAD)/(1-DEAD),0,1),STEER_CURVE);};
+  const STEER_R=36,DEAD=.12,STEER_CURVE=1.3,TAP_MOVE=14,TAP_TIME=300;let jId=null,jx=0,jy=0,jt=0,moved=0,trickFired=false,fx=0,lastT=0;
+  // floating centre: a resting thumb creeps a few pixels (usually the same way), which read as a
+  // small constant steer and a slow veer to one side. While the finger is only slightly off its
+  // start point, the start point slowly follows it, so creep fades out; a deliberate swipe (past
+  // RECENTRE_BAND of full lock) is left alone, so a held corner keeps its steering.
+  const RECENTRE_BAND=.4,RECENTRE_S=.7;
+  const applySteer=()=>{const v=(fx-jx)/STEER_R;touch.steer=Math.abs(v)<DEAD?0:Math.sign(v)*Math.pow(clamp((Math.abs(v)-DEAD)/(1-DEAD),0,1),STEER_CURVE);};
+  const tickHold=()=>{if(jId==null)return;
+    const now=performance.now(),dt=Math.min(.1,(now-(lastT||now))/1000);lastT=now;
+    if(Math.abs(fx-jx)<RECENTRE_BAND*STEER_R){jx+=(fx-jx)*Math.min(1,dt/RECENTRE_S);applySteer();}if(moved<TAP_MOVE){const hk=G.humans_k&&G.humans_k[0];const want=!!(hk&&hk.rampAir&&!hk.trickDone&&hk.spinT<=0);if(want)trickFired=true;touch.drift=want?1:0;}else touch.drift=0;requestAnimationFrame(tickHold);};
+  const jDown=e=>{if(jId!=null)return;e.preventDefault();audioInit();jId=e.pointerId;jx=e.clientX;jy=e.clientY;fx=e.clientX;lastT=0;jt=performance.now();moved=0;trickFired=false;try{zone.setPointerCapture(jId);}catch(err){}tickHold();};
+  const jMove=e=>{if(jId==null||e.pointerId!==jId)return;e.preventDefault();const dx=e.clientX-jx,dy=e.clientY-jy;moved=Math.max(moved,Math.hypot(dx,dy));fx=e.clientX;applySteer();};
   const jUp=e=>{if(jId==null||e.pointerId!==jId)return;jId=null;touch.steer=0;touch.drift=0;
     if(!trickFired&&moved<TAP_MOVE&&performance.now()-jt<TAP_TIME){touch.item=1;setTimeout(()=>touch.item=0,150);}};
   const jCancel=()=>{jId=null;touch.steer=0;touch.drift=0;};
@@ -1073,6 +1081,11 @@ function phoneBuzz(k,ms){if(!k||!k.human)return;if(k.pi===0)localBuzz(ms);if(!G.
 
 // ================= track (rebuilt per level) =================
 const ROAD=13,CURB=2.2,WALL=25,LIM=23.6,N=1800;
+// phone-only steering assist tuning (used in the kart update): kp/kd = pull toward the road ahead and
+// damping against overshoot; smooth = how fast the correction can change (per second); from/ramp/max =
+// assist weight starts `from` units off the centreline, grows by `ramp` per unit, caps at `max`;
+// floor = minimum weight while the player isn't steering at all.
+const WF_ASSIST={kp:2.0,kd:.6,smooth:8,from:6,ramp:.1,max:.5,floor:.22};
 const wrapI=i=>((i%N)+N)%N;
 let LV=null,LR={},S=1.7,RAW=null,curve=null,TP=[],SP=1,TT=[],TR=[];
 const TA=new Float32Array(N),H=new Float32Array(N),GAP=new Uint8Array(N),CURV=new Float32Array(N),SURF=new Uint8Array(N),WIND=new Int8Array(N),LIPG=new Int8Array(N),DIST=new Float32Array(N);

@@ -713,14 +713,18 @@ function phoneConnect(){if(PL.ws||PL.peer)return;
     new_items_hype = """  k.lookBack=!!inp.look;
   let steer=inp.steer,gas=inp.gas,brake=inp.brake;
   if(k.sunT>0){k.stinkT=0;k.paintT=0;k.rainT=0;if(!G.battle&&k.onGround&&k.speed>5){const edge=Math.abs(k.lat||0)-(ROAD-4);if(edge>0){const li=wrapI(k.idx+15),want=Math.atan2(TP[li].x-k.x,TP[li].z-k.z),d=adiff(k.heading,want),w=Math.min(.85,edge*.3);steer=clamp(steer*(1-w)+clamp(-d*2.4,-1,1)*w,-1,1);}}}
-  // mobile-only steering assist: touch steering has no fine control, so nudge the kart back toward the
-  // centreline once it's within 7 units of the edge (vs. the sunshine power-up's 4, since this runs always
-  // rather than for a few seconds), topping out at a 60% blend rather than the sunshine item's 85% so it's
-  // a safety net, not an autopilot -- the player's own steering still dominates. With no finger steering
-  // at all (and not drifting), it also gently lines the kart up with the road ahead so straights hold.
-  else if(touch.on&&k.human&&!G.battle&&k.onGround&&k.speed>5){const li=wrapI(k.idx+15),want=Math.atan2(TP[li].x-k.x,TP[li].z-k.z),d=adiff(k.heading,want),fix=clamp(-d*2.4,-1,1);const edge=Math.abs(k.lat||0)-(ROAD-7);
-    if(edge>0){const w=Math.min(.6,edge*.15);steer=clamp(steer*(1-w)+fix*w,-1,1);}
-    else if(Math.abs(steer)<.05&&!k.driftDir)steer=clamp(steer+fix*.22,-1,1);}
+  // mobile-only steering assist (touch steering has no fine control): blends the player's steering with
+  // a correction toward the road ahead, a safety net rather than an autopilot. The correction is damped
+  // (it eases off while the kart is already turning back) and low-passed, and its weight ramps smoothly
+  // with distance from the centreline instead of switching on at a hard edge -- an undamped, switching
+  // version made the kart weave left-right. With no finger steering (and not drifting) it keeps a small
+  // floor so straights hold their line; while the player steers, it only grows near the edge.
+  else if(touch.on&&k.human&&!G.battle&&k.onGround&&k.speed>5){const li=wrapI(k.idx+22),want=Math.atan2(TP[li].x-k.x,TP[li].z-k.z),d=adiff(k.heading,want);
+    const dd=k.asD==null?0:adiff(k.asD,d)/Math.max(dt,1e-3);k.asD=d;
+    const A=WF_ASSIST,fix=clamp(-d*A.kp-dd*A.kd,-1,1);k.asFix=(k.asFix||0)+(fix-(k.asFix||0))*Math.min(1,dt*A.smooth);
+    let w=clamp((Math.abs(k.lat||0)-A.from)*A.ramp,0,A.max);const hands=Math.abs(steer)<.05&&!k.driftDir;if(hands)w=Math.max(w,A.floor);
+    if(w>0)steer=clamp(steer*(1-w)+k.asFix*w,-1,1);}
+  else{k.asD=null;k.asFix=0;}
   if(k.stinkT>0){k.stinkT-=dt;steer=clamp(steer+Math.sin(G.time*6.5+k.seed)*.6,-1,1);}
   if(!k.human&&k.paintT>0)steer=clamp(steer+Math.sin(G.time*5+k.seed)*.35,-1,1);
   if(k.rainT>0)k.rainT-=dt;
