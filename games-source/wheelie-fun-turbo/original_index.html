@@ -968,10 +968,13 @@ for(const[id,k]of[['tL','l'],['tR','r'],['tD','drift'],['tI','item'],['tB','brak
 // desktop/gamepad drift button does when airborne -- checked every frame (not just on move events)
 // since the ramp launch can happen mid-hold, well after the finger first went down.
 {const zone=document.getElementById('simpleZone');
-  const STEER_R=30,DEAD=.1,TAP_MOVE=14,TAP_TIME=300;let jId=null,jx=0,jy=0,jt=0,moved=0,trickFired=false;
+  // STEER_R/DEAD/STEER_CURVE: players found 30px-to-full-lock with a linear response too twitchy;
+  // a slightly longer throw plus a curve keeps small finger wobbles gentle while a firm swipe still
+  // reaches full lock for hairpins.
+  const STEER_R=36,DEAD=.12,STEER_CURVE=1.3,TAP_MOVE=14,TAP_TIME=300;let jId=null,jx=0,jy=0,jt=0,moved=0,trickFired=false;
   const tickHold=()=>{if(jId==null)return;if(moved<TAP_MOVE){const hk=G.humans_k&&G.humans_k[0];const want=!!(hk&&hk.rampAir&&!hk.trickDone&&hk.spinT<=0);if(want)trickFired=true;touch.drift=want?1:0;}else touch.drift=0;requestAnimationFrame(tickHold);};
   const jDown=e=>{if(jId!=null)return;e.preventDefault();audioInit();jId=e.pointerId;jx=e.clientX;jy=e.clientY;jt=performance.now();moved=0;trickFired=false;try{zone.setPointerCapture(jId);}catch(err){}tickHold();};
-  const jMove=e=>{if(jId==null||e.pointerId!==jId)return;e.preventDefault();const dx=e.clientX-jx,dy=e.clientY-jy;moved=Math.max(moved,Math.hypot(dx,dy));const v=dx/STEER_R;touch.steer=Math.abs(v)<DEAD?0:clamp(Math.sign(v)*(Math.abs(v)-DEAD)/(1-DEAD),-1,1);};
+  const jMove=e=>{if(jId==null||e.pointerId!==jId)return;e.preventDefault();const dx=e.clientX-jx,dy=e.clientY-jy;moved=Math.max(moved,Math.hypot(dx,dy));const v=dx/STEER_R;touch.steer=Math.abs(v)<DEAD?0:Math.sign(v)*Math.pow(clamp((Math.abs(v)-DEAD)/(1-DEAD),0,1),STEER_CURVE);};
   const jUp=e=>{if(jId==null||e.pointerId!==jId)return;jId=null;touch.steer=0;touch.drift=0;
     if(!trickFired&&moved<TAP_MOVE&&performance.now()-jt<TAP_TIME){touch.item=1;setTimeout(()=>touch.item=0,150);}};
   const jCancel=()=>{jId=null;touch.steer=0;touch.drift=0;};

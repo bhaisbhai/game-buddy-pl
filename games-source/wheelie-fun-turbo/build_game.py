@@ -714,10 +714,13 @@ function phoneConnect(){if(PL.ws||PL.peer)return;
   let steer=inp.steer,gas=inp.gas,brake=inp.brake;
   if(k.sunT>0){k.stinkT=0;k.paintT=0;k.rainT=0;if(!G.battle&&k.onGround&&k.speed>5){const edge=Math.abs(k.lat||0)-(ROAD-4);if(edge>0){const li=wrapI(k.idx+15),want=Math.atan2(TP[li].x-k.x,TP[li].z-k.z),d=adiff(k.heading,want),w=Math.min(.85,edge*.3);steer=clamp(steer*(1-w)+clamp(-d*2.4,-1,1)*w,-1,1);}}}
   // mobile-only steering assist: touch steering has no fine control, so nudge the kart back toward the
-  // centreline once it's within 5 units of the edge (vs. the sunshine power-up's 4, since this runs always
-  // rather than for a few seconds), topping out at a 50% blend rather than the sunshine item's 85% so it's
-  // a safety net, not an autopilot -- the player's own steering still dominates.
-  else if(touch.on&&k.human&&!G.battle&&k.onGround&&k.speed>5){const edge=Math.abs(k.lat||0)-(ROAD-5);if(edge>0){const li=wrapI(k.idx+15),want=Math.atan2(TP[li].x-k.x,TP[li].z-k.z),d=adiff(k.heading,want),w=Math.min(.5,edge*.18);steer=clamp(steer*(1-w)+clamp(-d*2.4,-1,1)*w,-1,1);}}
+  // centreline once it's within 7 units of the edge (vs. the sunshine power-up's 4, since this runs always
+  // rather than for a few seconds), topping out at a 60% blend rather than the sunshine item's 85% so it's
+  // a safety net, not an autopilot -- the player's own steering still dominates. With no finger steering
+  // at all (and not drifting), it also gently lines the kart up with the road ahead so straights hold.
+  else if(touch.on&&k.human&&!G.battle&&k.onGround&&k.speed>5){const li=wrapI(k.idx+15),want=Math.atan2(TP[li].x-k.x,TP[li].z-k.z),d=adiff(k.heading,want),fix=clamp(-d*2.4,-1,1);const edge=Math.abs(k.lat||0)-(ROAD-7);
+    if(edge>0){const w=Math.min(.6,edge*.15);steer=clamp(steer*(1-w)+fix*w,-1,1);}
+    else if(Math.abs(steer)<.05&&!k.driftDir)steer=clamp(steer+fix*.22,-1,1);}
   if(k.stinkT>0){k.stinkT-=dt;steer=clamp(steer+Math.sin(G.time*6.5+k.seed)*.6,-1,1);}
   if(!k.human&&k.paintT>0)steer=clamp(steer+Math.sin(G.time*5+k.seed)*.35,-1,1);
   if(k.rainT>0)k.rainT-=dt;
