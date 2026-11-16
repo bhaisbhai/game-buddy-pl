@@ -1,19 +1,26 @@
 {
   "slug": "bournemouth",
-  "updated": "2026-11-15T22:21:29.272Z",
+  "updated": "2026-11-16T14:21:00.967Z",
   "articles": [
-    {
-      "title": "Women's Report | Norwich City v AFC Bournemouth (FA Cup)",
-      "source": "Norwich City Football Club",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNejd0bXJ4SHhlVkN2ekJWTndnMjBMTHFxVFlNVzJmNUNGeEc3aHZsN1p1aWp0X1NKbVczWXBRbHpFekljQ0toQzBZcGlTUXVOMGUtQ2RpRUhJSG4tYTQ0WHAwUTZHX2FMLVBEckhRLUhTNUIyX3p2NlRtNzhFMjV1ZzJ0dkZRNGRNYmw0?oc=5",
-      "pubDate": "Sun, 15 Nov 2026 14:55:30 GMT",
-      "category": "match"
-    },
     {
       "title": "Hill receives maiden England call",
       "source": "AFC Bournemouth",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRTM1WGdvOWUxenBRYV9YVW92V0ZFTW1wQTJQbmpNRUVtMDJDYzFjQ2VtcFh6d0NDaXQzdThSU2Yxdi15R2FUaTNoLXhGSzN0bXlNVThUYnBVTWVtdjR6bjZNZFhZOEtYak1kaHJKZjZPcndIUG1ocy1Od3FEcXJwRzF6QkFIUQ?oc=5",
       "pubDate": "Wed, 11 Nov 2026 07:34:42 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Women's Report | Norwich City 2-1 AFC Bournemouth (FA Cup)",
+      "source": "Norwich City Football Club",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNN0VYWEpUeEVCb1VFNjZlSGFObExfUGI1dlNYY1ZKMUVnZDJFR3F3VFlBYmZQUm5VLUtOVkM2WmJMRU9rN0pFVEgzOU5zNXNDWVlSVTlncVppZUp4SEFzN0JrY0htYmdqWXEwZjAtRVVQMzJMV0kyZ3BhRVlGWUwtaFc1M3VTYTZubHhYSkpR?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 15:29:51 GMT",
+      "category": "match"
+    },
+    {
+      "title": "How Cherries' loanees are getting on so far this season",
+      "source": "Bournemouth Echo",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNLVNlcU5raGtHbEdjWV9pZmVEM25TT2FkZ3VIRm5feDhiZ1k0YTBWZWttTlVjM1BjQi0xOXozRmNIM29EZE5qZ2VkNW5VSW92MTNBM2h1VlJSN0NTRVZJcHVFOVQ2MjJNWjNqNVJ3emdMUS1ER2xISHl1b0RNS3dJUzdhR0NOeTJTWGtkXy16b0tCZw?oc=5",
+      "pubDate": "Mon, 16 Nov 2026 00:00:00 GMT",
       "category": "general"
     },
     {
@@ -24,20 +31,6 @@
       "category": "general"
     },
     {
-      "title": "Bournemouth will not sell star trio in January",
-      "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONmZjeTh6VGtQM0ppY0YxOUhzcGd6VHNpWkExaUtHYThUVXZGZmhBb1ZMVGthWlh4M0djUGZuV2QwZ05RTlJwXzV4QklOY3BZV0FDLS1wZ0FtbXFIdThjQjJaOUpwZkI5Nk85cnJIVGNJSmhNNERyempzY1I4U1g1Y01lZHFRWkxJZkhMMGp6Z3JDdnN6RUNBejZ3TQ?oc=5",
-      "pubDate": "Thu, 12 Nov 2026 13:08:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Brooks scores in defeat as Cherries impress on international duty",
-      "source": "Bournemouth Echo",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPS0VydFgwYWJRcG5wdlhuUGJtalU5U3RQWEREVEs0cEF5V2hsZkVOZmowMFNoSUJTbnNiM09MeURRcHpWaDM2S2ZIcXcweUQxU05wT09iQW1XaHRaVFZjQWxWOHptSy01STV5bkJ5SE9sOHd3OEpjdlg5eWs4SDM4WW5aUTRDalBicHpnYy0tSU1HdTBNcjhuVWtuWUlzR0s0OXN1NFVnOC1mMmZz?oc=5",
-      "pubDate": "Sun, 15 Nov 2026 12:30:37 GMT",
-      "category": "match"
-    },
-    {
       "title": "Highlights: Magical night for Bournemouth as they cruise to victory over Sturm Graz",
       "source": "TNT Sports",
       "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOb1I1WVdZZmpMVFlkY3BPV0hXRnpKWEh1Z1V4b3Y0a0pnWlg4VC0tVTY4My1HVXRYWFVuQ0hnSHUtU1Zla2VBMF8zQVFoYW9IdGY0UExGcTFxMXd5cUZiODBkQXotRjhfa2VwN3k5R3Vxdk9VaHBMRGFxUU9zNjdacVphek5RV3BrVXJMMG9nSnNDbFo3OXY2RVE0bFA2Yzg3WXF6V1lJM0c0T2l3VG9BZkwyRzIzRTQ4c29UQmxLdEluR09MWW4tSFRGeFF0OEg3VWpRMW9BNk9wclJHU2lCMlJLZU9BdHpnbTFKVHAtWm1HdUlPSnBEWnVuM0lZLWZYRGVyU3NKSm1IWjlQSkRj?oc=5",
@@ -45,11 +38,11 @@
       "category": "general"
     },
     {
-      "title": "How to watch Fulham vs Bournemouth: TV channel and kick-off",
-      "source": "Dave.Sport",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1YV2g1VF9pb0NoOWV4VmVFVXl2X2loZGxJSzNqLTh4MURER19ldnkwaXVUUklmRm5GZ1I2dDU3ZGF0MnhpcFFyOWYwMEtOUkdoU0VZVHN1d1duQmhtRmJldHRCR28yM3VtWlA4?oc=5",
-      "pubDate": "Sun, 15 Nov 2026 14:07:27 GMT",
-      "category": "match"
+      "title": "AFC Bournemouth fans handed key South Stand update as Vitality Stadium expansion gathers pace",
+      "source": "Football Ground Guide",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQWDdpdno2emhkUnF0UUhLcUs4RmpOUHBkSEEzUzBPYlQyMFdzRWg0NU1EX19wMGRXdXlUVVFxanRxOHJjWEY5akFTWUdyaUNtbjFvaktTaXBzUXRpeTZhMlhQT005dWhtbzhGYWowZzEwcDBPY0tzZkZDT0FWbWZkSEtxaE0wLUMxQTB1ZlltMzNmcW9TS0tYUHBHbEpuMVdOT1owN0pHdW9YbllKNVNvTUNQY2tUdlY1ZDltcG9pMm9qcVhacUZreDc4bnFDTlhj?oc=5",
+      "pubDate": "Wed, 11 Nov 2026 13:35:18 GMT",
+      "category": "general"
     },
     {
       "title": "Sparta Praha v AFC Bournemouth: Everything you need to know",
@@ -66,10 +59,10 @@
       "category": "match"
     },
     {
-      "title": "Bournemouth knocked out after Norwich's late FA Cup comeback",
+      "title": "AFC Bournemouth face Norwich City in FA Cup second round",
       "source": "Bournemouth Echo",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdEVoNmJXT08wYVFmVUl5QVZSbEI0UzFxOU55NDI0djhJOEF1SFBwaHJjdDAxWjlQQkNkZ2E0R1UxVVk2WERIajB1V0JRSzZfUTBhRUpoZktWNkIwUVhCOG4zT0ltQmtGV25zNkZaSW9EbVdtRHJTczVVdmhRcDlvaFlOQWwtaFcxNU93SFJVTVB6SUpPXzVZTW13?oc=5",
-      "pubDate": "Sun, 15 Nov 2026 14:15:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYU1jY25Dcy0wbVd5dU5SS3dXR3dFOXg4Nmk4ekxVd1drTDB4dzVfczFJTVpTd1NmZXRGUS1YdTd4WnhybHo3UndNUDA5b2R3UkYwT01zamNHUUZvY05CeEVXS3JsbWMzSUpNbUpxbklCT1NWVEczUFZhNzVLSDN3RWw5QnI4RE9naXRqM01vb2RVMnVVdTAtZkk3bHJBaDVNOGZWRk1R?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 00:00:00 GMT",
       "category": "general"
     },
     {
@@ -80,11 +73,11 @@
       "category": "general"
     },
     {
-      "title": "AFC Bournemouth face Norwich City in FA Cup second round",
+      "title": "Brooks scores in defeat as Cherries impress on international duty",
       "source": "Bournemouth Echo",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYU1jY25Dcy0wbVd5dU5SS3dXR3dFOXg4Nmk4ekxVd1drTDB4dzVfczFJTVpTd1NmZXRGUS1YdTd4WnhybHo3UndNUDA5b2R3UkYwT01zamNHUUZvY05CeEVXS3JsbWMzSUpNbUpxbklCT1NWVEczUFZhNzVLSDN3RWw5QnI4RE9naXRqM01vb2RVMnVVdTAtZkk3bHJBaDVNOGZWRk1R?oc=5",
-      "pubDate": "Sun, 15 Nov 2026 00:00:00 GMT",
-      "category": "general"
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPS0VydFgwYWJRcG5wdlhuUGJtalU5U3RQWEREVEs0cEF5V2hsZkVOZmowMFNoSUJTbnNiM09MeURRcHpWaDM2S2ZIcXcweUQxU05wT09iQW1XaHRaVFZjQWxWOHptSy01STV5bkJ5SE9sOHd3OEpjdlg5eWs4SDM4WW5aUTRDalBicHpnYy0tSU1HdTBNcjhuVWtuWUlzR0s0OXN1NFVnOC1mMmZz?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 12:30:37 GMT",
+      "category": "match"
     },
     {
       "title": "AFC Bournemouth",
@@ -94,16 +87,23 @@
       "category": "general"
     },
     {
-      "title": "Gallery: Cherries prepare for Leeds test",
-      "source": "AFC Bournemouth",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQ3hZbTl4aDJoQlpkWjJDcVRNdDdTbkRrakx5UnUta2dLRTVwZ0ozT3EwTUJMTDZHekRtOEVaNkpLNENta0NFSlh4dnEyZTAwMERlRmR2YzlmTHdRaUJUcUw3TGp6RWJHNlMyZG1sZ1dmbHVtenR5dS1nRVJmNTNoeUhtS19BaHZkUlh2RHVR?oc=5",
-      "pubDate": "Fri, 30 Oct 2026 07:00:00 GMT",
-      "category": "general"
-    },
-    {
       "title": "Information & points drop: Real Sociedad (A)",
       "source": "AFC Bournemouth",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObDNuaXhydVJteHVWcGFVZklqNGN4QmlxXzkxX1J4dUIyeEZfbEczam1OM29NQ2Z0ZUEyQkZSNGxGNS1nM3pLQUdzUVJZWHBfczlFM0dCODdnRVYxdVkxRDZQLW51RmpHeXZKMWdLX2lOV2tpOGp0TkprZ2p3bm1JQzdUVkk5U0t5Sm5aRTRRamIteWh5a3c?oc=5",
+      "pubDate": "Fri, 04 Sep 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Information & points drop: Sturm Graz (H)",
+      "source": "AFC Bournemouth",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUzVqZHluaXM4R1E4c0tsb1I1QkprRHpmckJTUm0yeXltbVdJQWpjOTVFRlBHdnFJRC14bWZoTEZXX2I1d1h5UVUxdnB3MkFGQklLTWJ2dlIwUG5GSVoxazY4Y0R4SW1NMWxxZklIaG9uZHoxX3VWaHU0V3c2bFZNRW1qSm9HMmk0R2VRbVpvMjI?oc=5",
+      "pubDate": "Mon, 21 Sep 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Cherries’ Europa League league phase squad confirmed",
+      "source": "AFC Bournemouth",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSTZROTdoLWxscEZHeG5vZEFrdUVfOUc5cGpBYVBjZmF1bHRybU5rbU5jVVE4Um93RGhubTNSSDY3NUxON01EVWt5cThsU0I2SDhhaHlSSldEWW54NG9MLVgydmhFd3Q0U25QaWgyNWZpVHFpUFBMWWZYTm1HWW9LcFRKb3JJaEpnRUdlaXM0Sld1aV9rY3ZRYnczYUQ0X2l6?oc=5",
       "pubDate": "Fri, 04 Sep 2026 07:00:00 GMT",
       "category": "general"
     }
