@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T10:42:46.729Z",
+  "updated": "2026-11-17T11:31:19.453Z",
   "snapshot": {
     "1": 62,
     "2": 49,
@@ -71,7 +71,7 @@
     "68": 67,
     "69": 59,
     "70": 59,
-    "71": 50,
+    "71": 49,
     "72": 48,
     "73": 50,
     "74": 49,
@@ -207,7 +207,7 @@
     "204": 45,
     "205": 45,
     "206": 43,
-    "207": 43,
+    "207": 42,
     "208": 62,
     "209": 58,
     "210": 53,
@@ -434,7 +434,7 @@
     "431": 57,
     "432": 55,
     "433": 50,
-    "434": 49,
+    "434": 48,
     "435": 49,
     "436": 50,
     "437": 44,
@@ -676,12 +676,28 @@
   },
   "changes": [
     {
-      "id": 584,
-      "web_name": "Hamer",
-      "team_name": "Coventry City",
+      "id": 71,
+      "web_name": "Cook",
+      "team_name": "Bournemouth",
       "direction": "fall",
-      "old_price": 53,
-      "new_price": 52
+      "old_price": 50,
+      "new_price": 49
+    },
+    {
+      "id": 207,
+      "web_name": "Mingueza",
+      "team_name": "Crystal Palace",
+      "direction": "fall",
+      "old_price": 43,
+      "new_price": 42
+    },
+    {
+      "id": 434,
+      "web_name": "J.Fletcher",
+      "team_name": "Man Utd",
+      "direction": "fall",
+      "old_price": 49,
+      "new_price": 48
     }
   ]
 }
