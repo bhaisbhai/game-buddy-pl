@@ -154,6 +154,38 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .unlockGoal b{color:var(--ember);white-space:nowrap}
 .unlockGoal b i{display:inline-block;width:10px;height:10px;border-radius:50%;margin:0 4px 0 2px;vertical-align:0}
 .unlockGoal.done{margin:10px 0 4px;text-align:center;font-size:15px}
+.rec:empty{display:none}
+/* results + podium never overflow: header and buttons stay put, only the tables scroll if they must */
+#results .card,#cup .card{display:flex;flex-direction:column;overflow:auto}
+#results .card>*,#cup .card>*{flex-shrink:0}
+.resScroll{flex:1 1 auto!important;min-height:0;overflow:auto;margin:0 -6px;padding:0 6px}
+#results .btns,#cup .btns{margin-top:10px}
+.res.cupRes{margin:4px 0 6px}
+.res.cupRes th{font-size:11px;font-weight:700;letter-spacing:.06em;color:var(--muted);text-align:right;padding:0 8px 4px}
+.res.cupRes th:nth-child(2){text-align:left}
+.res.cupRes td{padding:6px 8px;white-space:nowrap}
+.res.cupRes td.nm{overflow:hidden;text-overflow:ellipsis;max-width:42vw}
+.res.cupRes td.t{text-align:right;color:var(--muted)}
+.res.cupRes tr.gap td{padding:0;border:0;text-align:center;color:var(--muted);font-size:12px;line-height:14px}
+@media (max-height:640px){#results .card,#cup .card{padding:14px 20px}#results h2,#cup h2{font-size:24px;margin:0 0 4px}.res td{padding:4px 8px;font-size:14px}.unlockGoal{padding:7px 10px;font-size:13px;margin:0 0 6px}}
+#results .resScroll,#cup .resScroll{min-height:min(130px,22vh)}
+@media (max-height:700px){
+  #results .btns,#cup .btns{gap:8px}
+  #results .btns .btn,#cup .btns .btn{padding:10px 14px 9px;font-size:14px;white-space:nowrap}
+  #results .btns{flex-wrap:nowrap}
+}
+@media (max-height:820px){
+  #cup .card{padding:14px 20px}
+  #cup .btns{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px}
+  #cup .btns .btn{width:100%;margin:0;padding:10px 12px 9px;font-size:14px;white-space:nowrap}
+  #cup .trophy{width:52px;height:52px;margin:-2px -2px 0 8px}
+  #cup h2{font-size:22px;margin:0 0 4px}
+  #cup .resScroll{min-height:96px}
+  #cup .res td{padding:4px 8px;font-size:14px}
+}
+@media (max-width:480px){#cup .btns .btn{white-space:normal;font-size:12px;padding:9px 6px 8px;min-width:0}#cup .btns{grid-template-columns:1fr 1fr}}
+@media (max-height:700px) and (max-width:480px){#results .btns{flex-wrap:wrap}#results .btns .btn[data-act="next"],#results .btns .btn[data-act="podium"]{flex-basis:100%}}
+@media (max-width:480px){.res.cupRes td{padding:6px 5px;font-size:14px}.res.cupRes th{padding:0 5px 4px}}
 .ugBar{height:8px;border-radius:4px;background:rgba(255,255,255,.12);margin-top:8px;overflow:hidden}
 .ugBar i{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,#ffd166,var(--ember))}
 .specTip.out{opacity:0}
@@ -723,8 +755,8 @@ characters before browsing freely. */
   <div class="card" style="max-width:600px">
     <h2 id="resTitle">Results</h2>
     <div class="rec" id="resRec"></div>
-    <table class="res" id="resTable"></table>
-    <div class="standings" id="standings"></div>
+    <div class="resScroll"><table class="res" id="resTable"></table>
+    <div class="standings" id="standings"></div></div>
     <div class="btns" id="resBtns"></div>
   </div>
 </div>
@@ -734,12 +766,12 @@ characters before browsing freely. */
     <svg class="trophy" id="cupTrophy" viewBox="0 0 64 64"></svg>
     <h2 id="cupTitle">Wheel Deal Cup</h2>
     <div class="rec" id="cupSub"></div>
-    <table class="res" id="cupTable"></table>
+    <div class="resScroll"><table class="res" id="cupTable"></table>
     <div class="wfoField" id="cupNameField" style="margin:12px auto 0;max-width:240px">
       <label>YOUR LEADERBOARD NAME</label>
       <input class="wfoInput" id="cupNameIn" maxlength="16" placeholder="Your Name">
       <button type="button" class="btn alt" data-act="cupNameSave" style="margin-top:4px;padding:8px 16px;font-size:13px;align-self:flex-start">Update Name</button>
-    </div>
+    </div></div>
     <div class="btns">
       <button class="btn" data-act="cupnext" id="cupNextBtn">Next cup ▶</button>
       <button class="btn alt" data-act="cupagain">Race the cup again</button>
@@ -6055,7 +6087,7 @@ function unlockList(u){return[...u.racers.map(i=>`<b><i style="background:${hexC
 function unlockGoalHTML(){if(!G.cup||G.cup.ci==null||G.onlineGrid)return'';const u=cupUnlocks(G.cup.ci);if(!u.racers.length&&!u.cup)return'';
   const total=G.cup.order.length,done=G.cup.scored?G.cup.race+1:G.cup.race,left=total-done;
   return `<div class="unlockGoal"><div>🔓 ${left===1?'Finish the last race':'Finish '+left+' more races'} to unlock ${unlockList(u)}</div><div class="ugBar"><i style="width:${Math.round(done/total*100)}%"></i></div></div>`;}
-function showCupUnlocked(u){const old=$('#cupUnlock');if(old)old.remove();if(!u||(!u.racers.length&&!u.cup))return;const sub=$('#cupSub');if(!sub)return;
+function showCupUnlocked(u){requestAnimationFrame(()=>document.querySelectorAll('#cup .resScroll').forEach(e=>e.scrollTop=0));const old=$('#cupUnlock');if(old)old.remove();if(!u||(!u.racers.length&&!u.cup))return;const sub=$('#cupSub');if(!sub)return;
   sub.insertAdjacentHTML('afterend',`<div class="unlockGoal done" id="cupUnlock">🎉 Unlocked: ${unlockList(u)}</div>`);}
 // results screen counts down into the next race (or the podium) unless the player does anything
 const AUTO_NEXT_S=5;let autoNextIv=0;
@@ -6084,16 +6116,19 @@ function showResults(){G.state='results';engineStop();
   if(G.death)deathRank();const order=G.death?G.karts.slice().sort((a,b)=>a.rank-b.rank):G.karts.slice().sort((a,b)=>est(a)-est(b));
   const hum=G.humans_k;const best=Math.min(...hum.map(h=>h.bestLap));const prev=getBest(LV);
   let rec='Best lap '+fmt(best);if(best<prev&&!LV.noBest){store.set(bestKey(LV),String(best));rec='New lap record on '+LV.name+'! '+fmt(best);}else if(isFinite(prev))rec+=' · record '+fmt(prev);
-  $('#resRec').textContent=rec;
+  $('#resRec').textContent='';
   const me=hum[0];const place=order.indexOf(me)+1;$('#resTitle').textContent=G.humans.length>1?LV.name+' results':(place===1?LV.champ:place<=3?ord(place)+' place. On the podium!':ord(place)+' place');
   const qual=!G.cup||hum.some(h=>order.indexOf(h)<QUAL_PLACE);if(G.cup)G.cup.qual=qual;
-  if(G.cup)$('#resRec').innerHTML=(qual?`<span class="qual ok">QUALIFIED ✓</span> `:`<span class="qual no">NOT QUALIFIED</span> Finish in the top ${QUAL_PLACE} to go through.`)+'<br>'+$('#resRec').textContent;
+  if(G.cup)$('#resRec').innerHTML=(qual?`<span class="qual ok">QUALIFIED ✓</span> `:`<span class="qual no">NOT QUALIFIED</span> Finish in the top ${QUAL_PLACE} to go through.`);
   const gained={};if(G.cup&&!G.cup.scored&&qual){order.forEach((k,i)=>{const ci=CHARS.indexOf(k.ch);gained[ci]=PTS[i];G.cup.pts[ci]=(G.cup.pts[ci]||0)+PTS[i];});G.cup.scored=true;G.cup.lastGain=gained;if(G.cup.race+1<G.cup.order.length)saveCupRun(G.cup.race+1);}
-  const gain=G.cup?G.cup.lastGain:{};
+  const gain=G.cup?G.cup.lastGain:{};$('#resTable').classList.remove('cupRes');
   $('#resTable').innerHTML=order.map((k,i)=>`<tr class="${k.human?'me':''}${G.cup&&i===QUAL_PLACE-1?' cut':''}"><td>${i+1}</td><td><i style="background:${hexCss(k.ch.kart)}"></i>${k.ch.name}${k.human?(G.humans.length>1?' (P'+(k.pi+1)+')':' (you)'):''}</td><td>${G.death&&k.out?'OUT':G.death&&k.lastStanding?'LAST ONE STANDING':(k.finished?'':'~')+fmt(est(k))}</td>${G.cup?`<td class="plus">${qual?'+'+(gain[CHARS.indexOf(k.ch)]||0):'–'}</td>`:''}</tr>`).join('');
   const humIdx=G.humans;
-  if(G.cup){const rows=standingsRows();$('#standings').innerHTML=`<h3>CUP STANDINGS · ${qual?'AFTER':'BEFORE'} RACE ${G.cup.race+1} OF ${G.cup.order.length}</h3><table class="res">${rows.map((r,i)=>`<tr class="${humIdx.includes(r.i)?'me':''}"><td>${i+1}</td><td><i style="background:${hexCss(r.c.kart)}"></i>${r.c.name}</td><td class="pts">${r.p}</td></tr>`).join('')}</table>`;
-    const last=G.cup.race>=G.cup.order.length-1;$('#resBtns').innerHTML=!qual?`<button class="btn" data-act="restart">Try again: ${LV.name}</button><button class="btn ghost" data-act="quit">Quit cup</button>`:last?`<button class="btn" data-act="podium">See the podium</button><button class="btn ghost" data-act="quit">Quit cup</button>`:`<button class="btn" data-act="next">Next race: ${LEVELS[G.cup.order[G.cup.race+1]].name}</button><button class="btn alt" data-act="restart">Redo this race</button><button class="btn ghost" data-act="quit">Quit cup</button>`;$('#standings').insertAdjacentHTML('afterbegin',unlockGoalHTML());setTimeout(startAutoNext,0);}
+  if(G.cup){const show=order.map((k,i)=>({k,i})).filter(r=>r.i<5||r.k.human);let prev=-1,t='<tr class="hd"><th></th><th>RACER</th><th>TIME</th><th>+PTS</th><th>CUP</th></tr>';
+    for(const r of show){const ci=CHARS.indexOf(r.k.ch);if(r.i>prev+1)t+='<tr class="gap"><td colspan="5">⋯</td></tr>';prev=r.i;
+      t+=`<tr class="${r.k.human?'me':''}${r.i===QUAL_PLACE-1?' cut':''}"><td>${r.i+1}</td><td class="nm"><i style="background:${hexCss(r.k.ch.kart)}"></i>${r.k.ch.name}${r.k.human?(G.humans.length>1?' (P'+(r.k.pi+1)+')':' (you)'):''}</td><td class="t">${(r.k.finished?'':'~')+fmt(est(r.k))}</td><td class="plus">${qual?'+'+(gain[ci]||0):'–'}</td><td class="pts">${G.cup.pts[ci]||0}</td></tr>`;}
+    $('#resTable').innerHTML=t;$('#resTable').classList.add('cupRes');$('#standings').innerHTML='';
+    const last=G.cup.race>=G.cup.order.length-1;$('#resBtns').innerHTML=!qual?`<button class="btn" data-act="restart">Try again: ${LV.name}</button><button class="btn ghost" data-act="quit">Quit cup</button>`:last?`<button class="btn" data-act="podium">See the podium</button><button class="btn ghost" data-act="quit">Quit cup</button>`:`<button class="btn" data-act="next">Next race: ${LEVELS[G.cup.order[G.cup.race+1]].name}</button><button class="btn alt" data-act="restart">Redo this race</button><button class="btn ghost" data-act="quit">Quit cup</button>`;document.querySelectorAll('#results .unlockGoal').forEach(e=>e.remove());$('#resRec').insertAdjacentHTML('afterend',unlockGoalHTML());setTimeout(startAutoNext,0);}
   else if(G.timeTrial){if(G.humans.length===1)submitLapTime(LV.id,me.finishTime);const tt=window.WFV2?WFV2.saveTimeTrialFinish(LV,me.finishTime,G.humans[0]):null;const stT=window.WFV2&&WFV2.GHOSTS.lastStaffTime;$('#resTitle').textContent=tt&&tt.beatStaff?'★ BEAT THE DEV STAFF GHOST!':'⏱ '+LV.name+' Time Trial';$('#standings').innerHTML=`<div style="margin:8px 0;font-size:14px;color:var(--cream)">Total Time: <b style="color:var(--ember)">${fmt(me.finishTime)}</b>${stT?` · Dev Staff Ghost: <b style="color:var(--lagoon)">${fmt(stT)}</b>`:''}${tt&&tt.beatPB?' · <span class="qual ok">NEW PERSONAL BEST!</span>':''}</div>`;$('#resBtns').innerHTML=`<button class="btn" data-act="restart">Retry Time Trial</button><button class="btn alt" data-act="copyGhost" id="copyGhostBtn">Copy Ghost Code</button><button class="btn alt" data-act="importGhost">Import Rival Ghost</button><button class="btn ghost" data-act="tracks">Change track</button><button class="btn ghost" data-act="quit">Title</button>`;}else{$('#standings').innerHTML='';$('#resBtns').innerHTML=`<button class="btn" data-act="restart">Race again</button><button class="btn alt" data-act="tracks">Change track</button><button class="btn ghost" data-act="reselect">Change racers</button><button class="btn ghost" data-act="quit">Title</button>`;}
   show('results');}
 let cupKarts=[];
