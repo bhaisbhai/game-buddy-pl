@@ -260,12 +260,21 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .card h2{font-family:var(--display);font-weight:400;margin:0 0 6px;font-size:clamp(24px,3.4vw,38px);color:var(--ember);text-wrap:balance}
 .card p{margin:0 0 14px;line-height:1.45;color:var(--muted);max-width:62ch}
 #cup .btns{margin-top:18px}
-/* first-race controls overlay: sits over the countdown, never blocks a tap or a swipe */
-.ctrlTip{position:fixed;left:50%;top:calc(22% + env(safe-area-inset-top,0px));transform:translateX(-50%);z-index:20;pointer-events:none;
-  background:rgba(26,15,43,.82);border:2px solid rgba(255,178,46,.45);border-radius:18px;padding:12px 18px;max-width:92vw;box-sizing:border-box;transition:opacity .6s}
+/* first-race driving tip: small arrow keys in the bottom-right, above the race position; ▲ pulses
+   during the countdown. Phones get a drag-to-steer hint, controllers a stick hint. Never blocks input. */
+.ctrlTip{position:fixed;right:28px;bottom:calc(150px + env(safe-area-inset-bottom,0px));z-index:20;pointer-events:none;
+  display:flex;flex-direction:column;align-items:center;gap:8px;font-family:var(--display);transition:opacity .6s}
 .ctrlTip.out{opacity:0}
-.ctrlTip .ctrlLegend{margin:0}
-.ctrlTip .ctrlTipTouch{display:none}
+.ctrlTip small{font-size:13px;letter-spacing:.06em;color:var(--cream);text-shadow:0 2px 0 #1a0f2b;white-space:nowrap}
+.dtKeys{display:grid;grid-template-columns:repeat(3,46px);grid-template-rows:46px 46px;gap:6px}
+.dtKeys .kc{grid-row:2;width:46px;height:46px;border-radius:10px;background:linear-gradient(180deg,#fff4df,#e5d9c4);color:#1a0f2b;display:flex;align-items:center;justify-content:center;font-size:18px;box-shadow:0 5px 0 #8f80a6,0 9px 16px rgba(0,0,0,.4)}
+.dtKeys .kc.up{grid-row:1;grid-column:2;background:linear-gradient(180deg,#ffd77a,#f5a623);animation:dtPress 1s ease-in-out infinite}
+@keyframes dtPress{0%,100%{transform:translateY(0);box-shadow:0 5px 0 #a8631a,0 9px 16px rgba(0,0,0,.4)}50%{transform:translateY(3px);box-shadow:0 2px 0 #a8631a,0 5px 10px rgba(0,0,0,.4)}}
+.dtThumb{width:64px;height:64px;border-radius:50%;background:rgba(77,208,225,.92);color:#1a0f2b;display:none;align-items:center;justify-content:center;font-size:26px;animation:dtSwipe 1.4s ease-in-out infinite}
+@keyframes dtSwipe{0%,100%{transform:translateX(-14px)}50%{transform:translateX(14px)}}
+.ctrlTip .dtTouch,.ctrlTip .dtPad{display:none}
+.ctrlTip.pad .dtKeys,.ctrlTip.pad .dtTxtKeys{display:none}
+.ctrlTip.pad .dtPad{display:block}
 /* first-special tip, under the item box: a spacebar being pressed (desktop) or a pulsing TAP (touch) */
 .specTip{position:fixed;z-index:21;pointer-events:none;display:flex;flex-direction:column;align-items:center;gap:6px;transform:translateX(-50%);transition:opacity .4s;font-family:var(--display)}
 .specTip[hidden],.ctrlTip[hidden]{display:none!important}
@@ -425,8 +434,10 @@ Escape/P or gamepad Start they'd otherwise have no visible way to discover). A s
   describes a control that doesn't exist here, not just one that's phrased wrong. */
   #howItemsKeys{display:none}
   #howItemsTouch{display:block}
-  .ctrlTip .ctrlTipKeys{display:none}
-  .ctrlTip .ctrlTipTouch{display:grid}
+  .ctrlTip{right:20px;bottom:calc(110px + env(safe-area-inset-bottom,0px))}
+  .ctrlTip .dtKeys,.ctrlTip .dtTxtKeys,.ctrlTip .dtPad{display:none!important}
+  .ctrlTip .dtThumb{display:flex}
+  .ctrlTip .dtTouch{display:block}
   .specTip .specKey,.specTip .specTxtKeys{display:none}
   .specTip .specTap{display:flex}
   .specTip .specTxtTouch{display:block}
@@ -851,16 +862,11 @@ characters before browsing freely. */
 </div>
 <button class="pauseBtn" id="pauseBtn" aria-label="Pause">❚❚</button>
 <div class="ctrlTip" id="ctrlTip" hidden>
-  <div class="ctrlLegend ctrlTipKeys">
-    <div class="row"><div class="miniArrows"><div class="k">▲</div><div class="k">◀</div><div class="k">▼</div><div class="k">▶</div></div><div class="label">Steer &amp; Accelerate<small>ARROWS OR WASD</small></div></div>
-    <div class="row"><div class="key" style="background:#ff5b1f;color:#fff">B</div><div class="label">Brake<small>HOLD TO SLOW</small></div></div>
-    <div class="row"><div class="key wide" style="background:#ff4fd8;color:#fff">SPACE</div><div class="label">Specials<small>USE ITEM</small></div></div>
-    <div class="row"><div class="key" style="background:var(--lagoon)">V</div><div class="label">Drift<small>HOP &amp; CORNER</small></div></div>
-  </div>
-  <div class="ctrlLegend ctrlTipTouch">
-    <div class="row"><div class="key wide" style="background:var(--lagoon)">↔</div><div class="label">Steer<small>SWIPE LEFT / RIGHT</small></div></div>
-    <div class="row"><div class="key wide" style="background:#ff4fd8;color:#fff">TAP</div><div class="label">Use Item<small>TAP ANYWHERE</small></div></div>
-  </div>
+  <div class="dtKeys"><div class="kc up">▲</div><div class="kc">◀</div><div class="kc">▼</div><div class="kc">▶</div></div>
+  <div class="dtThumb">👆</div>
+  <small class="dtTxtKeys">HOLD ▲ TO GO · ◀ ▶ TO STEER</small>
+  <small class="dtPad">STICK TO STEER</small>
+  <small class="dtTouch">DRAG LEFT / RIGHT TO STEER</small>
 </div>
 <div class="specTip" id="specTip" hidden>
   <div class="specKey" id="specKey">SPACE</div>
@@ -10995,7 +11001,7 @@ function aiInput(k,dt){if(G.battle)return aiBattle(k,dt);
   return aiPower(k,o);}
 // the opening track (Lava) is most players' first race: AI there runs a touch slower so a new
 // player has a fair shot at the podium
-const FIRST_TRACK_EASE=.97;
+const FIRST_TRACK_EASE=.95;
 function rubber(){if(G.battle){for(const k of G.karts)k.rubber=k.human?1:DIFF.battle[diffLvl()]*k.skill;return;}const hs=G.humans_k;if(!hs.length)return;let hp=0;for(const h of hs)hp+=h.progress;hp/=hs.length;const easeFirst=LEVELS[G.level]&&LEVELS[G.level].id==='lava'?FIRST_TRACK_EASE:1;
   for(const k of G.karts){if(k.human&&!k.finished){k.rubber=1;continue;}const gap=(hp-k.progress)/N;const rb=DIFF.rubber[diffLvl()];k.rubber=clamp(1+gap*.55,rb[0],rb[1])*k.skill*easeFirst;}}
 
@@ -12493,10 +12499,10 @@ function specialTipWatch(){clearInterval(specTipIv);specTipUnhook();const tip=$(
         t.hidden=false;shownItem=k.item;shownN=k.itemN||0;t0=performance.now();hook();store.set('wheeliefun.seenSpecialTip','1');}
       return;}
     if(k.item!==shownItem||(k.itemN||0)!==shownN||performance.now()-t0>6000)stop();},150);}
-// first-race controls overlay: visible for the countdown and the first few seconds of driving,
+// first-race driving tip (bottom-right): visible for the countdown and the first few seconds of driving,
 // then fades; gone at once if the player leaves the race first
 let ctrlTipIv=0;
-function showCtrlTip(){const t=$('#ctrlTip');if(!t)return;t.hidden=false;t.classList.remove('out');const t0=performance.now();clearInterval(ctrlTipIv);
+function showCtrlTip(){const t=$('#ctrlTip');if(!t)return;t.classList.toggle('pad',pads().length>0);t.hidden=false;t.classList.remove('out');const t0=performance.now();clearInterval(ctrlTipIv);
   ctrlTipIv=setInterval(()=>{const live=G.state==='race'||G.state==='countdown'||G.state==='paused';
     if(!live){t.hidden=true;clearInterval(ctrlTipIv);return;}
     if(performance.now()-t0>8000){t.classList.add('out');if(performance.now()-t0>8700){t.hidden=true;clearInterval(ctrlTipIv);}}},200);}
