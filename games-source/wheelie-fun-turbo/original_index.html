@@ -4218,8 +4218,11 @@ function aiInput(k,dt){if(G.battle)return aiBattle(k,dt);
       if(use){o.item=1;k.aiItemT=rr(.4,2.5)*DIFF.itemWait[diffLvl()];}}}
   if(k.hype>=1&&R()<dt*.5)o.hype=1;
   return aiPower(k,o);}
-function rubber(){if(G.battle){for(const k of G.karts)k.rubber=k.human?1:DIFF.battle[diffLvl()]*k.skill;return;}const hs=G.humans_k;if(!hs.length)return;let hp=0;for(const h of hs)hp+=h.progress;hp/=hs.length;
-  for(const k of G.karts){if(k.human&&!k.finished){k.rubber=1;continue;}const gap=(hp-k.progress)/N;const rb=DIFF.rubber[diffLvl()];k.rubber=clamp(1+gap*.55,rb[0],rb[1])*k.skill;}}
+// the opening track (Lava) is most players' first race: AI there runs a touch slower so a new
+// player has a fair shot at the podium
+const FIRST_TRACK_EASE=.97;
+function rubber(){if(G.battle){for(const k of G.karts)k.rubber=k.human?1:DIFF.battle[diffLvl()]*k.skill;return;}const hs=G.humans_k;if(!hs.length)return;let hp=0;for(const h of hs)hp+=h.progress;hp/=hs.length;const easeFirst=LEVELS[G.level]&&LEVELS[G.level].id==='lava'?FIRST_TRACK_EASE:1;
+  for(const k of G.karts){if(k.human&&!k.finished){k.rubber=1;continue;}const gap=(hp-k.progress)/N;const rb=DIFF.rubber[diffLvl()];k.rubber=clamp(1+gap*.55,rb[0],rb[1])*k.skill*easeFirst;}}
 
 // ================= race update =================
 function updateRace(dt){
