@@ -348,6 +348,15 @@ fallback so nothing is ever unreachably clipped on a phone narrower than tested 
   #title .btn.primary{padding:9px 0 8px}
   #title .btn.chip{padding:8px 16px 7px}
 }
+/* short windows on any device (e.g. the CrazyGames player, ~480px tall on a laptop): the logo is
+sized off width, so on a wide-but-short frame it pushed the stack past the top. Cap it by height
+and slim the Start button so the whole title screen fits. */
+@media (max-height:640px){
+  #title .logo{font-size:min(12vw,16vh)}
+  #title .logoWrap{gap:8px}
+  #title .btn.primary{padding:12px 0 10px}
+  #title .pickRow{margin:-6px 0 4px}
+}
 @media (max-width:900px){.trkGrid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .standings{margin-top:-6px}
 .standings h3{font-family:var(--display);font-weight:400;font-size:15px;letter-spacing:.06em;color:var(--lagoon);margin:0 0 4px}
