@@ -1,41 +1,76 @@
 {
   "slug": "man-united",
-  "updated": "2026-11-17T15:13:13.705Z",
+  "updated": "2026-11-18T00:19:27.764Z",
   "articles": [
     {
-      "title": "Manchester United and Mauricio Pochettino have a Bruno Fernandes predicament - The Athletic",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZzhvd1FrN1B3ZFhCS2ZkdkdDVHl5SjV0YnJSUGFraGwtTHEwakFjMG5GaWtmZ1UydXRxMzhYLUxrQ2NjSEYzcXpfSHI3UWhFUE1BYnRuTmtBR0E1MmsybkhYaG1GZTQ1RVMtLVNvcGNLMG0wZUZXaXRwTjZsSm5NeWpYNllvQXU2N3FkNDNOcWRQVE5qSFRoOFlmd253Y2JsVDJ1SDB1UQ?oc=5",
-      "pubDate": "Tue, 17 Nov 2026 11:44:50 GMT",
+      "title": "JJ Gabriel transfer news: Manchester United teenager announces departure from club amid Real Madrid agreement",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNLU5ZVmt2QWJtYVE0bTM4bDRSRmxKSHR1MVpwN0FXb0RYdTZNOUQ4aWhGQm9RZHRGVWdya2VLZE9tX2NSNGJjYk0xbVFlX3l0VUlWeXR5WUZuN29CdmRseVhnWTd2V0RPVGNDZFJfT0tFWk5FRmNhLVJDYlJnamdzeGU3aTZNNmxIalFKb1pYeDVEbmU5U0JrRGF1anljZDk2RGU1WTYwYXNIVXE0alNIc1ZNVFFZOXdad3dmNFNSdHc3SmpoYVYwVGlzRGlTSGJtN1dKOXpsWkxPZEtCSXFGQUpoX205WW9NaC12NlBn?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 19:21:58 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Man United news LIVE: Mauricio Pochettino U-turn as Jason Wilcox told ‘he’s getting demoted’",
+      "source": "Manchester Evening News",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQjBDaWFoSTV4cjlCWXJpTmp6d2RDRC1rNWo3SlBRTU5hZzJ6TTNwYkFxTkNrX3h2NHI4Q1c4c3JXbzFIdFhPOXppX2F6T3BWd1hxZ2h2Rk5GVEVyVXhvRXZQMUJpVF80ZVJfbXItQmRDOFpBOU9KZ2NMNXNDemt3U0h5Q05sTURHMm5lbXlUWExPYnBkX2FBQ1ROVjZNM3ZGdDdhdUN1SnRxclpaM0E?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 23:04:49 GMT",
       "category": "general"
     },
     {
-      "title": "Wayne Rooney: I considered suicide while playing for Man Utd",
+      "title": "Mauricio Pochettino can't fix Man United on his own, the owners have to do their jobs",
+      "source": "ESPN",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWWVpRzAxaHdMYVhMbGlHT3plVXo0OF9sSUpxSnlIT3NsLXVEeWxYUEszWHFwdndhYVZOb0VwM3daSDZhRGdiSTNjSHkxaEI3WThOTEI1dmVTejJWeTZmMGVGVl9waF83MV9OYTRQMFN2a1ZNa3JqVTRpU3FPYy02ZWZXTXFiTDlBYm5UT2dPQ0pjM1RfcUVqS0dzZUFlc3dscGVDdmp3U2pKM24yQTBzQkE3Nm1KbUdhRExkbFNR?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 08:56:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Man Utd boss Mauricio Pochettino to appoint club's first-ever female coach - Paper Talk",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPM1dhbXExNkUyNjk5M3N6OThuNGZFRkowZU9vRnVsWEtxYzg5ZkRaMmpMTzBrTEx6aWZmaTNWWXZkWWtKaEpGdExyS3JMcWE4M0w5UDN5LUZWR18tRnhIQWY0dzl6cHFqSFhNWHZZOFlGN2Uwejc3d1ZKclJVV2FFSWpvblRqdDJTcFhPRWlNTmJCT2QwbDh5TlNkelR4allKN1o3MzlxemN3TmwyRTQza05hekFEcEtYeU93NGxhQ3lXOWpkTDBwazdaRnF2b2pRVW9rVk82T1hpMURlNnZObVZn?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 23:13:47 GMT",
+      "category": "manager"
+    },
+    {
+      "title": "Transfer news LIVE: Arsenal revive Vinicius talks; Man Utd want Hall",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVGNPcWxVWkV0YnNiTl9pSG1GZmN0dzd6a25jQ3lBTnR1UVBpQUwtaWhrQmZabDZ0UjZGQjhISkl2cXZEYzRKQ1p4M0swOGUzTzJ6SWQ5ZS13V1J0SFEwaHN3eXgwNGdPYUEwS1RlSmhDZGhsZG9JSy1Kc0dPc1FZUGlpZWVmQlUwVlY4dXhDMHFJSzdaUGpEZkhNU0lwM1M2UVZFallrWURGN3VzV3BqSjUwSEI4Uk5yNm5sOGU1YURSR2c?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 15:57:43 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Newcastle’s hands-off warning over Lewis Hall",
       "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUzY5V0FWZG5OYU9zOWpFbldUTm56UHM3dkxuci1rUjlWbHptYXZFTWdjYWhQTng2QktyOWR4N2dsQTd6Q2s3ejVZLUljdjNfMDJ0Z0dKX3h1WkFGS2RHZHRta0h6WE53Z0tXd3BzanhVT1pzY3J2QWVuRnhBWUVXcFRhV0FXNkZkOG5Xb09aaEZ1ajFJQXl1WkNXUDRQSEtlSGttWE5IdkhpeDdl?oc=5",
-      "pubDate": "Tue, 17 Nov 2026 14:22:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX2FLeDU2eVNTajBjZ21SVVZ0ODJWX1BCLWNYc1lJU1o0OG1tUlNiMFM0cnJ3SzhjSVFicXl6YnR6d3daWWp2RGMzTTV6MFo4UHhob3J2bmcyNExUbzV5YlhEM0VjNkxXWTNLcFlacjBCcG01Q3k4LUd2Y3IwX2VWWXJmSnk4djl2X1VoV2RLYmJWU19jdFNTMA?oc=5",
+      "pubDate": "Mon, 16 Nov 2026 15:20:00 GMT",
       "category": "general"
     },
     {
-      "title": "Man United make decision on January move for Serie A midfielder",
-      "source": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQa0dDWnFpZnkwNTluT0wydmlYQ09Ka3R4SWU5ZDc0bXBzbnM3SnhaQ0xDSExaaDkyMjM5eURCQk1NTlB2d1B4SDJiMTdLWjU5WDJqR0dvaWN4RHBJSHlFX0R0ZTFhT0F2VkxvaVM2QXBKcXU2RWdmTkZ5emZiMDdmUXBBWEM3TWts?oc=5",
-      "pubDate": "Tue, 17 Nov 2026 14:50:00 GMT",
+      "title": "Lewis Hall desperate to leave Newcastle United and join Manchester United relegation scrap...really?",
+      "source": "The Mag",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNV25MU0J5d2FFcFdaWGVYX1p3SklHVWdlcFJLWmdXZFhGS015dGd5dkZVdDNJUmZUd0UxUUI1aElnTjdzVF9zeGlXX3ctUlpnTjFqcmVwNWloVWdpWnNjUF9XcUFKTElqMy1NZFNXeFZDTUNlMzR5UThfeHNyTVdJM2FMczVpcWxmYWpER0txY1VqQnBKX2hNZDhtVmtJX2ozMzZIZ0NIdUJvdzV0UkNocUJVMXhWRElXdzZYWEJuTHB6WUo2cU9aN0p4QQ?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 15:57:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Newcastle make fresh decision on selling Lewis Hall to Man Utd and Mauricio Pochettino",
+      "source": "Daily Express",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcmFIUkFROEQ2YmJXZDl1Q1BxY0N3RW9ETzc0VmZNUFVnc1hQcGJaaC03bG1KYk5ITDV6N3I3c1JCcFVFN3ExTXpCWEhodVlwTU1wdWUyeGRENkkwWjVzQzRtbE5ua3p4MmdwLWFfM0Rla0UxV1YxdmhQUE0tS09JaklRekYxdElPcmRuM3g5OGU5OWd4SXkwYXhKbGtzZ9IBowFBVV95cUxOZkVPUDRVMDdCRm0yZWZ4ODk4cXNWNmdmX3Q0bl90UldhMUVvUFV2OUpvSjc5NWNNY2tja1U4SnNuYUtnSTNHTXBjTHVHMUR6Mm5EbU1RQTVhOXZtd3VWRjMyT0hmVlBYeGZwT0RZUk90cmthWUlPUlZvS1VleEU3bDMwQnRYUzBKYTVaTlNFY1BTc1hfWkdoN0tZbUNCWW92dUxR?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 09:06:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Nyoni hails Wirtz & Man United referee announced – Latest Liverpool FC News",
+      "source": "This Is Anfield",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOaFo2aDdWb0F6aEdJV0tuX19idmFHMkVRQVF2cXRuNm1zenB3YktCaVA2ck00bUY4Zk0zeEdtWlE5dVpzNEJFVGZscU5tdFhiMWJNdzdNanBxTnhHd052M3RnYWE4MVNMQ2pLVVRDYlB1YkhWbGJpUU1kMnlJQVlZTnhwLWwyakFSVmpiVFdFckI4TGRITXlUMEwwczc2Ulh2eWdvLWIyc09sVzRDWGNv?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 17:05:56 GMT",
       "category": "general"
     },
     {
       "title": "Liverpool and Man United monitor 24-year-old Serie A star",
       "source": "Liverpool FC",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOX2RaS1A2OGNYUnNzdzBCVDRneG82cU5HdEFyc21uQTR3RUhJY0g0TktIaGtyNGhKR3VEbVJzTXJBQlhGMDEySWkwVVFKczZTaVlzS0pQVzVibE9pUXdtQnd5dmN3aE51Y1dGT3F5ZVI0VVRzdlJfdUc4LWhYYWdicDZ6NjFwTVk?oc=5",
-      "pubDate": "Tue, 17 Nov 2026 10:25:32 GMT",
+      "pubDate": "Tue, 17 Nov 2026 10:25:56 GMT",
       "category": "general"
-    },
-    {
-      "title": "Kaveh Solhekol Q&A: Manchester United ownership and January transfer plans",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOd0diVERxUjJUV3JGdDNNU0hVZTJDQ09LTU1mT0xPaDFGQk0tXzh4Qm5UME5IMHhDc0lYX2U3Rmo0anVhUExXU1V1bUtRNUJMbGlpLXduczcyNUJVNGowS1RqQXVaU0RuZzVkLVBfMmpvaENhaE9XNGRGelJhVlktam5FSEpPVmREYkFaS2RkbFpzSkpHWjNzcDRNM25HSW1DUmdpczJGYnJoeVhZZ2wzYllUc3UzUmpwNUlvd2Zkdm0wVjNDY2c?oc=5",
-      "pubDate": "Mon, 16 Nov 2026 16:25:47 GMT",
-      "category": "transfer"
     },
     {
       "title": "Liverpool midfield decision made vs Manchester United after injury concerns",
@@ -45,67 +80,32 @@
       "category": "fitness"
     },
     {
-      "title": "Newcastle reach verdict on selling Malick Thiaw to Man Utd as asking price is set",
-      "source": "Football365",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTXZnRW5BX2pPYkp1WldEcVM5SnhZWTh1NHlQSWJxMzZCZnRwYzZTd0oxelltUGo3WnE1a3VKajhsZTRhWWZMQzh3Uk5iU3M0TkVMc05lX1Bic0pUVUpTMVFsRkttcVlDVmZoNkhpUy1vNEk2MGRXZDRMRWtJVVNUU05kS1VwWlp1N1RMMUNuTm5TQQ?oc=5",
-      "pubDate": "Mon, 16 Nov 2026 23:28:34 GMT",
+      "title": "“Has to go” – Neville names three Man Utd defenders INEOS should get rid of before Dalot",
+      "source": "utdreport",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQV1FuOFgyWmxma2ZEMFdTNUN3SDVRREg0bHJxQnR3Q0l1MWp3RXgwcnd4aVR4d0tCZDN4N1lJUjUyV3ZhVlZEWEFrRTIxZ1M4emJWWWktNl9hbmh2YjByYm5SUXFBTHRFTGNua0ZyaTZxVFJORXhLQWxZVjgyWWVfcHF5TjfSAYoBQVVfeXFMUFRLbDZkc2l0bzcydzlkMHMtSC1zc3VKUkY1YUY2MXgwYWc5T3JLNUl4WGQwdG0xLXZyZWpDNHJkS29rdWRmZWppYlREdkJmRkZvN3I3aXNFT19zTi1lazktMmh3bXJHekdTM1Nhd3Uydkh6Y29SYy1WSkpMZHVKa1VsMGNZMGpkdVJ3?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 11:19:38 GMT",
       "category": "general"
     },
     {
-      "title": "Man Utd unfazed by target’s contract extension, will try again for his signature in Jan amid fresh conversations",
-      "source": "LiveScore",
-      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNaDdZbkdlczgyTmVsYU14RU4yZXpvTVJtZ3NaNU1BcXNxNUx1cU5jNEZlbDZmSTRKRlBlaWJ5emdEV3E5dm1jelFySW4tZTRHVC1jenY1QmFyUG1HTWlldTlhYlVpcnd0a3BzU0RiWHF4RHFKZmU1WkpGc3RXNHZ1VklkR01VUmFBNUlPbVBaMDIzX3Z3VERzcmN3NlN1WEMyRUg2bUdiZzZYY3ZUQUVaeUVWbDFLSTY5RmhEZnRwUVo1TWJVSzdmXzdsdW54a3RaMzlfZWtQV2xwNkduaEM0REMzUzUyMEljRkhOa2lVZE1NRENvZW9iY0tNbnhYdTAtZmw5MUwzTHJ1Rlk?oc=5",
-      "pubDate": "Tue, 17 Nov 2026 12:58:53 GMT",
-      "category": "rumour"
+      "title": "Premier League transfer LATEST: Chelsea join race for Zubimendi, Man Utd chase left back",
+      "source": "Transfermarkt",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcWJCekVWN0g4TmhvYVl2clp3WFk0SDRKaFd0X1RUd3BqanJWR2R5a2N2Q09JNjR0SUg5ZHdZUmdtNV9lWkl2X0NsRjNxanFkc0F6N1ZfQklQclVGYTF4MHJ2V2pZTWIwbU9pMGlndHNJQ3g5RXlmeWlHZG9rbWlHQlpueUthMkdCcnZ2WXBvTXFmaWFXYk5jUHo2QlNaZHVWMjNXdzdlY1VnaHZkdmFSZUFVVGpJeVI2ZGNSOUlwREJwLWJrNWRxeTR5N1BKS01o?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 20:42:32 GMT",
+      "category": "transfer"
     },
     {
-      "title": "Chelsea 2-0 Manchester United: Visitors' second-half slump adds to Michael Carrick's misery",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBTeGpMSlQ2UXo5QWItbFFYUEtkRnFUejZxaTFOM2x4SkJKZFdXb3pLVzdtX1dROGdtM25wWXNKZXRPcjFJMTJwNnhGbGhwV3FQN250dlJFQXJrRld1REw3ZTVkbW1fUQ?oc=5",
-      "pubDate": "Sat, 31 Oct 2026 07:00:00 GMT",
+      "title": "Wayne Rooney reveals he contemplated suicide at the height of his Manchester United playing career",
+      "source": "LBC",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQY21VbGVkV3lVbGpfUEUtcG5WdWJBelpEWS1GRUxNS2VXamNxNWtWRi1EQ1NSbWRVWnZ0eDFsRC01d0RmUm5vaFBGQXUtQ1FrZ0ZpYXZTWndodUYwZWJGcUg5dDlLSU1RMXhCeW1QUkc3ZnJ1cEVXQWRHeEJsRjNiOFhHVVNhNVk1cFZBZDdDcGxjdGxEYTVORW5yb2hmTVIzTEE?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 20:35:55 GMT",
       "category": "general"
     },
     {
-      "title": "Video: Piers Morgan reveals details of ex-England coach’s rows with Arsenal & Man United stars",
-      "source": "CaughtOffside",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRGZ2c1lyVUlwZkJlNFVpUTRIQ2FnMGV2Z183dV9yMjBWdll6OFU5dmFUOXNvYmZwWElQZmtPQ1NVX05yMVFkWmJxa1V2V2JuanZJel9uSWxlUU5ja19OWjZxb3pxOHpYaXFjRHFiRUViVkQwbHZCTXpCX01vUjROSlBNSjFVLU83U0F6U1hheGVyV0JpY1J2dWRPeEFVaHNX0gGmAUFVX3lxTE9XOWxEWGZLSVl5STJqaFV2MW5xWm9lbHp0Y3p3d25HWmV4dWJXLUE3VW5nakY4TjZuZ2JpVVc0TFA1d204YS1naE56VzZOLTNFOHhsNHlpVzdRVzVULThYSkRtQ3JHNmxGcGRoQlA2NUFhT0Y5Y0VRYi1palhjX05aTGFEaEh2c3ZoWWJNYTVlR2c4UXc0RFpEUi16RVB5MmQ4QTlMY3c?oc=5",
-      "pubDate": "Tue, 17 Nov 2026 06:57:25 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Player of the Month shortlist revealed",
+      "title": "Watch United Women v Everton live on MUTV",
       "source": "Manchester United",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSFMwTmJGaGtmT1hFNV9VSkdtS1JNZEpVQVlNbkR5WGpFcW8xdTRTYVRwSEs1eDRHaURVaU1KZ2RQallVaXFzN0pwUmJDbGNCQ3lFeFJoZmVLZEx2ZmpvOG5CTjRNdTFiRXBUQ2QzS1p0SGhtQl8xUm96dHg4NjdPenNaSGthaUFHUlJN?oc=5",
-      "pubDate": "Mon, 16 Nov 2026 20:55:09 GMT",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE81OVBOWGxjc3EyTkpPQ3lvdDUxcmJEak5tU0NCY2FSVWJObWlKakpCanJEM0tTQW42bmlnT0V4Tk5GM0lSSzIyaUtwOU9STjF3N0ZwZEZKWFdNaDBGek4wcjdUSnQ5RmJ6d2lKa21ObEo3RlBzWVhBMlhvcmo?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 03:05:14 GMT",
       "category": "general"
-    },
-    {
-      "title": "Wayne Rooney: Ex-Manchester United captain considered taking own life during playing career",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5XNVR5Y0JRQ0J0WG1DRDNjbGdwTHR4TmFCTjR3cFZ5LTk0XzFwdGNTVkQ0OWk1Y3puNWVzZE9scXhfeGUtRmZEUGxDc0xILWllVVUzTnJVb2ZHZlRwby1UY3gtNHIyVDFrZ0Zr?oc=5",
-      "pubDate": "Tue, 17 Nov 2026 14:09:19 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Man Utd’s finances are a mess and will not be fixed while Glazers remain",
-      "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZVVaSW9QQV9wbEJSN2ZjTTVSdjNsV2NaYVFIQkNwM1FoaEVod01jczdiVDl3bE55bXpYZmJ4bU94N1NwdGxnZlNlU3M1aXJpdDRTbHlmM0V4NUhvS1pxTUNhU0VzWVRVVnJ4WWZrckdDWWpCWW1VeHFXcW5sc1dEWUdmVWhMOGFVUEdzemlVN1BlZ29XRG5IMEZzWm5lT0U2?oc=5",
-      "pubDate": "Tue, 17 Nov 2026 07:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "How Man Utd hired Pochettino: Glazers’ role, £15m Hurzeler price tag, Fabregas on shortlist - The Athletic",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZTdOaGRqRXNUeUxaZGMxa2w1bFp2NGlfaHZHVzNpYXppSnU0eEJ0bWU5TEJ0dmRhbUtjcEp1Q09TME1ISGxsNVpqaUt5U2g2Q0w3UkI2cmR1dC0zU0g4S2F6UnlFUjNyWkpOeERvOEp0bi1kWGNuTmZWUmFqME8zQWU4T3h4YjI4Tk1EZkxZUkhjLWFqYlZWWnJrd2g?oc=5",
-      "pubDate": "Tue, 17 Nov 2026 13:47:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Liverpool v United preview: Pochettino’s first game in charge",
-      "source": "Manchester United",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTGJxVWlEMlQyZWFaU05zZmdFaWd5TlNvamJvSy1hUG1iTDZhQnQxOEhtTG54cDBkWV90YjY2MHBEV3drem1DNE11N0hEOHBNU0t0eGVhZmE3TEUyNFdUbkJ2WmFYc01tTGpSRS1WYXNYTXV2dnpza0dUX1N5eFRQbTUxSFRvRzBBbDZiVk0zNkVSZXRqSXV6TXR3cTNVc0JmSER1ZVBBOHVlQQ?oc=5",
-      "pubDate": "Sun, 15 Nov 2026 15:53:32 GMT",
-      "category": "match"
     }
   ],
   "reddit": []

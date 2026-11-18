@@ -1,6 +1,6 @@
 {
   "slug": "wolves",
-  "updated": "2026-11-17T15:13:13.705Z",
+  "updated": "2026-11-18T00:19:27.764Z",
   "articles": [
     {
       "title": "Wolves legend receives legacy England cap | Club | Latest News",
@@ -10,11 +10,11 @@
       "category": "general"
     },
     {
-      "title": "U18S CUP REPORT | Charlton 0 Wolverhampton Wanderers 2",
-      "source": "Charlton Athletic Football Club",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZFk5NDViZmVXMHhwTUdHbzBQUGZ1M3lLSWpDSnVhekV0RGVwMEFUNEV2REVkNDFZbmtTYl9PU0RYb0xxT1YweWpyVl9RM0JUakZZUlZ5Tk1TN0taV1VMOVZYSnVlM2VybUlLY3lVRlpNVTM3OXl4dHZpTjdpUk1FeFZydWg3Vnc?oc=5",
-      "pubDate": "Tue, 17 Nov 2026 12:14:55 GMT",
-      "category": "match"
+      "title": "Training Gallery | Warming up for Wolves",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1oWHdLQ3BBXzJURHJlOEVDa3VkaXNQV25KWC01QVUxUFFTZWxZTk9JdWMtVEtVVzJ0MWUyQ3hqemUzY0V3QUdXYjVnUm40WV9tTnlaLUlCb3N3bmRGTTFfUmwyREs4OGRLb0pBS0ltRDd3ajh6eGJ2QkZJMA?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 17:07:04 GMT",
+      "category": "general"
     },
     {
       "title": "Feature | Doyle using his experience back at Wolves",
@@ -22,20 +22,6 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZWFuenJ5WUZHWERPME9nLTJ1ZHE4RjV6dFBYT1hSS0E1UTRvV0owTmpEOFFzeTliM2VkbGpuS1pwdGpJcDNHd1RUMTdQQlJobHRsT0JvZ0piaEJYZFJEZWtzSUcwU3NXTFNFaGE1WTFpNlpqZUYyYy05eEZZN2RFc1NzcC1yazFSXzJueDVDSF9hRF94T0hyTlB2X1JpZnM?oc=5",
       "pubDate": "Tue, 17 Nov 2026 08:14:59 GMT",
       "category": "general"
-    },
-    {
-      "title": "Women's Preview | West Ham United | Women's First-Team | Latest News",
-      "source": "Wolverhampton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQczNMVS0zTGh2LUpBT1NGTnF4T2NrM0lDWFJma1l0RUlabXpJVGhzeV85c2Iwalhnd08wZktxd3F2UURjWGdxM1hUVWlOdmJ2YkV4cDBnNW9WbmRaMllucUQxd1RYR3V2MmM3X1pmTFpLOWpmM3dKeGJTTVdKX19BYVRGTFI3dE1xQl9qYmxxLXZZaDk5?oc=5",
-      "pubDate": "Tue, 17 Nov 2026 09:29:59 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Wolverhampton Wanderers vs Durham: WSL 2 stats & head-to-head",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1NbjVuX2JkSkU3a20zTksya3NvVE5oN3N3N1ZweVpJZmZPODVvOTFhY2lVenFlOEVrLTBjb0J5V3BUVVFnakFSVWVjYkNkR0VTNWU0WUNFOGpVZ2s4YXZqRnRoS1ZxQQ?oc=5",
-      "pubDate": "Sun, 15 Nov 2026 08:00:00 GMT",
-      "category": "match"
     },
     {
       "title": "Women's FA Cup Draw | Wolves to host Cambridge United in Third Round | Women's First-Team | Latest News",
@@ -52,10 +38,24 @@
       "category": "match"
     },
     {
+      "title": "Women's Preview | West Ham United | Women's First-Team | Latest News",
+      "source": "Wolverhampton Wanderers FC",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQczNMVS0zTGh2LUpBT1NGTnF4T2NrM0lDWFJma1l0RUlabXpJVGhzeV85c2Iwalhnd08wZktxd3F2UURjWGdxM1hUVWlOdmJ2YkV4cDBnNW9WbmRaMllucUQxd1RYR3V2MmM3X1pmTFpLOWpmM3dKeGJTTVdKX19BYVRGTFI3dE1xQl9qYmxxLXZZaDk5?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 09:29:59 GMT",
+      "category": "match"
+    },
+    {
       "title": "Women's Report | Wolves 4-2 Durham | Women's First-Team | Latest News",
       "source": "Wolverhampton Wanderers FC",
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPN2pTNV9nYVlnMjMtcXRrZU1pUGV2N19YWTJfOTBWcHlIenJBbklnZjVvQUtRVWRkUnlzX3BxTzh0UjZpSklrMXFXODNqM016NXVaQ0FzU3U3MVJ2Y0g4Y2UtRzlZeVU4U3htRk96S3Y0UnJ3cHhrTjJ4UnZpdXpjLTlkR29SdzNCZnlJbmFwdzFDYUxxdVE?oc=5",
       "pubDate": "Sun, 15 Nov 2026 16:53:33 GMT",
+      "category": "match"
+    },
+    {
+      "title": "U18S CUP REPORT | Charlton 0 Wolverhampton Wanderers 2",
+      "source": "Charlton Athletic Football Club",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZFk5NDViZmVXMHhwTUdHbzBQUGZ1M3lLSWpDSnVhekV0RGVwMEFUNEV2REVkNDFZbmtTYl9PU0RYb0xxT1YweWpyVl9RM0JUakZZUlZ5Tk1TN0taV1VMOVZYSnVlM2VybUlLY3lVRlpNVTM3OXl4dHZpTjdpUk1FeFZydWg3Vnc?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 10:24:06 GMT",
       "category": "match"
     },
     {
@@ -73,6 +73,20 @@
       "category": "general"
     },
     {
+      "title": "Official Programme | Wolves Subway Players Cup issue available now!",
+      "source": "West Ham United",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMGJyVTNjU01Xa0R0TkJFc3l1S0pCcDAxY2lpaUFvYlUtNlFWZTE5bGNScE9HZ1BDSTl2MDE4bnlNUUpfM2JHNzJjdEMtQk1KT0Z3dU9jbEpTcWhzM0hLeGoyU202ZXNwTzU4NlNyWWdLaU5MWWtIT2lCVGVVV2tBdUlPRXRQeTlaNUFNMGJteFFEcl9mVXpKTDRHM1dYdw?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 17:12:04 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Wolves midfielder Chirewa scores in Zimbabwe win",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1CTVQwbklxcEZiRWNaSlV1WFpCdVVDN2REeVpGR21wWmhKZXhDbUpNRTRsWUdUMU0xc3NkaExHUjZkUjZOX2NOb3pvaFp0Skstdlh6UnhjQ0JPdXRERHoxUnYtTm1sU1dPWHdv?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 11:14:28 GMT",
+      "category": "match"
+    },
+    {
       "title": "On This Day | Five-star Hammers sweep Wolves aside",
       "source": "West Ham United",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ19BRVNPM1hkVnlsU0d5U1ZpSC13UGZRS2Q5OVFkTGNvNE9MRkx3LVVWZC1OQ0JuX0w3T1YzdFZ1WG56dkxLbHktaVZEaHFWTGlUNzZ0dGxhcV9zR2dYWVRfQllzX3NkUVRHdnNWTWt4RmdIalJ2ZlhiWGN3cFlFT0tCeFM?oc=5",
@@ -80,11 +94,11 @@
       "category": "general"
     },
     {
-      "title": "Wolverhampton Wanderers opinion: Could bad week have lasting consequences?",
+      "title": "Wolverhampton Wanderers vs Durham: WSL 2 stats & head-to-head",
       "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBUS3BPQUdiUlBTcGVEdnVxbmNYdVVCMFNtelRRWktZUWVwV2FvXzI5b1FOSGxXWGFaR1NwOWFyWVpJMVdhNmZqUGRwTkF5WnBrb0wzemVnemEzcnRhQmp3MkdMTXh1WlNk?oc=5",
-      "pubDate": "Thu, 15 Oct 2026 07:00:00 GMT",
-      "category": "general"
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1NbjVuX2JkSkU3a20zTksya3NvVE5oN3N3N1ZweVpJZmZPODVvOTFhY2lVenFlOEVrLTBjb0J5V3BUVVFnakFSVWVjYkNkR0VTNWU0WUNFOGpVZ2s4YXZqRnRoS1ZxQQ?oc=5",
+      "pubDate": "Sun, 15 Nov 2026 08:00:00 GMT",
+      "category": "match"
     },
     {
       "title": "Lopez | 'It has to be the standard' | Men's First-Team | Latest News",
@@ -92,20 +106,6 @@
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVW9PcFBiVEhWSGxUVlhXY01jNFh4XzE4WjJuc0p6eVk5LU9tRzNJNThwME9FMEJqWTNEdkktd1loUXZYekktOHVibjZvWmsxRU9kY24wbW1qQmJHa0I0clNPWWRBRVVBai1pbVZzOU1zNUREaWZPbkUwcElON0s2ZjhON0EweF85R0I0Q3pIOEM?oc=5",
       "pubDate": "Tue, 03 Nov 2026 08:00:00 GMT",
       "category": "general"
-    },
-    {
-      "title": "Women's Preview | Durham | Women's First-Team | Latest News",
-      "source": "Wolverhampton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUDBhaGUwcFc0X1lybVVsSHFEaXFIMmV0anlJZVlJOTRSN1Z6NEpIWEZQZ0EwdXJtc2NFU3RTMWRsQ0xSQjBnSFJUV1BUM1JtSzNSYWs0WGVnTUNJQmtHUHJETTFpUjU1TEVkbEhQY3AzdmJCdElBTWYyMXg1T09SZWctaUZvSUJa?oc=5",
-      "pubDate": "Fri, 13 Nov 2026 13:37:21 GMT",
-      "category": "match"
-    },
-    {
-      "title": "How to watch Wolves vs Cardiff | Men's First-Team | Latest News",
-      "source": "Wolverhampton Wanderers FC",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRlc0WlpINnhtcW11MlVac014Z2RDRE1qMGNxYVZ6OEoxRHRaeWRtSmYyVHgtSmNsWWUweGZLVVBkT1ZSX1NXc3FKSEROT3d2NnF3WFZTM1VINTBha1pVYWIyTXhCVGdkcHo0bnVfVWVqNTZLVGFXU2lUWU1PRms3OUtzbTVHUmRJX0VmdXdMaw?oc=5",
-      "pubDate": "Sat, 31 Oct 2026 07:00:00 GMT",
-      "category": "match"
     }
   ],
   "reddit": []
