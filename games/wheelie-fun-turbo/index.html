@@ -278,6 +278,13 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 /* first-special tip, under the item box: a spacebar being pressed (desktop) or a pulsing TAP (touch) */
 .specTip{position:fixed;z-index:21;pointer-events:none;display:flex;flex-direction:column;align-items:center;gap:6px;transform:translateX(-50%);transition:opacity .4s;font-family:var(--display)}
 .specTip[hidden],.ctrlTip[hidden]{display:none!important}
+/* cup goal: what finishing this cup unlocks, with progress through its races */
+.unlockGoal{margin:2px 0 12px;padding:10px 12px;border-radius:12px;background:rgba(255,178,46,.12);border:1px solid rgba(255,178,46,.45);font-size:14px;font-weight:600;color:var(--cream);text-align:left}
+.unlockGoal b{color:var(--ember);white-space:nowrap}
+.unlockGoal b i{display:inline-block;width:10px;height:10px;border-radius:50%;margin:0 4px 0 2px;vertical-align:0}
+.unlockGoal.done{margin:10px 0 4px;text-align:center;font-size:15px}
+.ugBar{height:8px;border-radius:4px;background:rgba(255,255,255,.12);margin-top:8px;overflow:hidden}
+.ugBar i{display:block;height:100%;border-radius:4px;background:linear-gradient(90deg,#ffd166,var(--ember))}
 .specTip.out{opacity:0}
 .specTip small{font-size:13px;letter-spacing:.06em;color:var(--cream);text-shadow:0 2px 0 #1a0f2b;white-space:nowrap}
 .specTip .specKey{min-width:220px;height:46px;padding:0 18px;box-sizing:border-box;border-radius:12px;background:linear-gradient(180deg,#fff4df,#e5d9c4);color:#1a0f2b;display:flex;align-items:center;justify-content:center;font-size:16px;letter-spacing:.2em;box-shadow:0 6px 0 #8f80a6,0 10px 18px rgba(0,0,0,.4);animation:specPress 1.2s ease-in-out infinite}
@@ -12394,7 +12401,8 @@ addEventListener('gamepadconnected',updatePadInfo);addEventListener('gamepaddisc
 // mark the player as having played.
 function rosterFloor(){let f=store.get('wheeliefun.rosterFloor');if(f==null){f=(store.get('wheeliefun.seenCtrlTut')||unlockedCupCount()>1)?'4':'1';store.set('wheeliefun.rosterFloor',f);}return +f||1;}
 rosterFloor();
-function charLocked(i){return rosterFloor()>=4?(i>=4&&unlockedCupCount()<i-2):i>=unlockedCupCount();}
+function charLockedAt(i,n){return rosterFloor()>=4?(i>=4&&n<i-2):i>=n;}
+function charLocked(i){return charLockedAt(i,unlockedCupCount());}
 function buildGrid(){G.garFocus=null;if(window.WFV2&&WFV2.renderGarageBar)WFV2.renderGarageBar(); /* garage lock + coins may have changed since the last visit */const g=$('#grid');g.innerHTML='';const tk=new Set(G.sel.slice(0,G.selP));const taken=G.selP>0?G.sel[0]:-1;
   CHARS.forEach((c,i)=>{const locked=charLocked(i);const b=document.createElement('button');b.className='ch'+(tk.has(i)?' taken':'')+(locked?' locked':'');b.innerHTML=`<span class="sw" style="background:${hexCss(c.kart)}"></span>${c.name}`;
     /* touch just previews (there's no hover to preview with first, so tapping a racer by
@@ -12530,6 +12538,28 @@ function specialTipWatch(){clearInterval(specTipIv);specTipUnhook();const tip=$(
         t.hidden=false;shownItem=k.item;shownN=k.itemN||0;t0=performance.now();hook();store.set('wheeliefun.seenSpecialTip','1');}
       return;}
     if(k.item!==shownItem||(k.itemN||0)!==shownN||performance.now()-t0>6000)stop();},150);}
+// ---- keep the cup moving ----
+// what finishing a cup opens up: the next cup and (for players who started with one racer) racers.
+// showCup() unlocks up to cup ci+2, whatever the placing, so "finish the cup" is the honest wording.
+function cupUnlocks(ci){const n=unlockedCupCount(),after=Math.max(n,Math.min(CUPS.length,ci+2));
+  const racers=CHARS.map((c,i)=>i).filter(i=>!CHARS[i].fly&&charLockedAt(i,n)&&!charLockedAt(i,after));
+  return{racers,cup:ci+1<CUPS.length&&cupLocked(ci+1)?CUPS[ci+1]:null};}
+function unlockList(u){return[...u.racers.map(i=>`<b><i style="background:${hexCss(CHARS[i].kart)}"></i>${CHARS[i].name}</b>`),u.cup?`<b>${u.cup.name}</b>`:''].filter(Boolean).join(' + ');}
+function unlockGoalHTML(){if(!G.cup||G.cup.ci==null||G.onlineGrid)return'';const u=cupUnlocks(G.cup.ci);if(!u.racers.length&&!u.cup)return'';
+  const total=G.cup.order.length,done=G.cup.scored?G.cup.race+1:G.cup.race,left=total-done;
+  return `<div class="unlockGoal"><div>🔓 ${left===1?'Finish the last race':'Finish '+left+' more races'} to unlock ${unlockList(u)}</div><div class="ugBar"><i style="width:${Math.round(done/total*100)}%"></i></div></div>`;}
+function showCupUnlocked(u){const old=$('#cupUnlock');if(old)old.remove();if(!u||(!u.racers.length&&!u.cup))return;const sub=$('#cupSub');if(!sub)return;
+  sub.insertAdjacentHTML('afterend',`<div class="unlockGoal done" id="cupUnlock">🎉 Unlocked: ${unlockList(u)}</div>`);}
+// results screen counts down into the next race (or the podium) unless the player does anything
+const AUTO_NEXT_S=5;let autoNextIv=0;
+function autoNextKey(e){if(!e.repeat)cancelAutoNext();}
+function cancelAutoNext(){if(!autoNextIv)return;clearInterval(autoNextIv);autoNextIv=0;removeEventListener('keydown',autoNextKey,true);removeEventListener('pointerdown',cancelAutoNext,true);
+  const b=$('#autoNextBtn');if(b){b.textContent=b.dataset.base;b.removeAttribute('id');}}
+function startAutoNext(){cancelAutoNext();if(G.onlineGrid||G.state!=='results')return;const b=$('#resBtns [data-act="next"],#resBtns [data-act="podium"]');if(!b)return;
+  b.id='autoNextBtn';b.dataset.base=b.textContent;let n=AUTO_NEXT_S;const paint=()=>{b.textContent=b.dataset.base+' ('+n+')';};paint();
+  // ignore input for a moment: a key still held from the finish line shouldn't count as "stay here"
+  setTimeout(()=>{if(autoNextIv){addEventListener('keydown',autoNextKey,true);addEventListener('pointerdown',cancelAutoNext,true);}},700);
+  autoNextIv=setInterval(()=>{if(G.state!=='results'||!b.isConnected){cancelAutoNext();return;}n--;if(n<=0){cancelAutoNext();b.click();}else paint();},1000);}
 // first-race driving tip (bottom-right): visible for the countdown and the first few seconds of driving,
 // then fades; gone at once if the player leaves the race first
 let ctrlTipIv=0;
@@ -12556,7 +12586,7 @@ function showResults(){G.state='results';engineStop();
   $('#resTable').innerHTML=order.map((k,i)=>`<tr class="${k.human?'me':''}${G.cup&&i===QUAL_PLACE-1?' cut':''}"><td>${i+1}</td><td><i style="background:${hexCss(k.ch.kart)}"></i>${k.ch.name}${k.human?(G.humans.length>1?' (P'+(k.pi+1)+')':' (you)'):''}</td><td>${G.death&&k.out?'OUT':G.death&&k.lastStanding?'LAST ONE STANDING':(k.finished?'':'~')+fmt(est(k))}</td>${G.cup?`<td class="plus">${qual?'+'+(gain[CHARS.indexOf(k.ch)]||0):'–'}</td>`:''}</tr>`).join('');
   const humIdx=G.humans;
   if(G.cup){const rows=standingsRows();$('#standings').innerHTML=`<h3>CUP STANDINGS · ${qual?'AFTER':'BEFORE'} RACE ${G.cup.race+1} OF ${G.cup.order.length}</h3><table class="res">${rows.map((r,i)=>`<tr class="${humIdx.includes(r.i)?'me':''}"><td>${i+1}</td><td><i style="background:${hexCss(r.c.kart)}"></i>${r.c.name}</td><td class="pts">${r.p}</td></tr>`).join('')}</table>`;
-    const last=G.cup.race>=G.cup.order.length-1;$('#resBtns').innerHTML=!qual?`<button class="btn" data-act="restart">Try again: ${LV.name}</button><button class="btn ghost" data-act="quit">Quit cup</button>`:last?`<button class="btn" data-act="podium">See the podium</button><button class="btn ghost" data-act="quit">Quit cup</button>`:`<button class="btn" data-act="next">Next race: ${LEVELS[G.cup.order[G.cup.race+1]].name}</button><button class="btn alt" data-act="restart">Redo this race</button><button class="btn ghost" data-act="quit">Quit cup</button>`;}
+    const last=G.cup.race>=G.cup.order.length-1;$('#resBtns').innerHTML=!qual?`<button class="btn" data-act="restart">Try again: ${LV.name}</button><button class="btn ghost" data-act="quit">Quit cup</button>`:last?`<button class="btn" data-act="podium">See the podium</button><button class="btn ghost" data-act="quit">Quit cup</button>`:`<button class="btn" data-act="next">Next race: ${LEVELS[G.cup.order[G.cup.race+1]].name}</button><button class="btn alt" data-act="restart">Redo this race</button><button class="btn ghost" data-act="quit">Quit cup</button>`;$('#standings').insertAdjacentHTML('afterbegin',unlockGoalHTML());setTimeout(startAutoNext,0);}
   else if(G.timeTrial){if(G.humans.length===1)submitLapTime(LV.id,me.finishTime);const tt=window.WFV2?WFV2.saveTimeTrialFinish(LV,me.finishTime,G.humans[0]):null;const stT=window.WFV2&&WFV2.GHOSTS.lastStaffTime;$('#resTitle').textContent=tt&&tt.beatStaff?'★ BEAT THE DEV STAFF GHOST!':'⏱ '+LV.name+' Time Trial';$('#standings').innerHTML=`<div style="margin:8px 0;font-size:14px;color:var(--cream)">Total Time: <b style="color:var(--ember)">${fmt(me.finishTime)}</b>${stT?` · Dev Staff Ghost: <b style="color:var(--lagoon)">${fmt(stT)}</b>`:''}${tt&&tt.beatPB?' · <span class="qual ok">NEW PERSONAL BEST!</span>':''}</div>`;$('#resBtns').innerHTML=`<button class="btn" data-act="restart">Retry Time Trial</button><button class="btn alt" data-act="copyGhost" id="copyGhostBtn">Copy Ghost Code</button><button class="btn alt" data-act="importGhost">Import Rival Ghost</button><button class="btn ghost" data-act="tracks">Change track</button><button class="btn ghost" data-act="quit">Title</button>`;}else{$('#standings').innerHTML='';$('#resBtns').innerHTML=`<button class="btn" data-act="restart">Race again</button><button class="btn alt" data-act="tracks">Change track</button><button class="btn ghost" data-act="reselect">Change racers</button><button class="btn ghost" data-act="quit">Title</button>`;}
   show('results');}
 let cupKarts=[];
@@ -12675,7 +12705,7 @@ document.addEventListener('click',e=>{const b=e.target.closest('[data-act]');if(
   else if(a==='quit')quit();else if(a==='reselect')goSelect(G.mode);else if(a==='tracks')goTracks();else if(a==='selGo')confirmSelect();else if(a==='selBack')back();
   else if(a==='next'){G.cup.race++;G.cup.scored=false;G.cup.lastGain={};startLevel(G.cup.order[G.cup.race]);}
   else if(a==='p1pick')pickerStart();
-  else if(a==='podium'){clearCupRun();showCup();}else if(a==='cupagain'){G.cup=newCup(G.lastCup||0);startLevel(G.cup.order[0]);}
+  else if(a==='podium'){const u=G.cup&&G.cup.ci!=null&&!G.onlineGrid?cupUnlocks(G.cup.ci):null;clearCupRun();showCup();showCupUnlocked(u);}else if(a==='cupagain'){G.cup=newCup(G.lastCup||0);startLevel(G.cup.order[0]);}
   else if(a==='cupnext'){const ni=(G.lastCup||0)+1;if(ni<CUPS.length&&!cupLocked(ni)){G.cup=newCup(ni);startLevel(G.cup.order[0]);}}});
 
 // ================= main loop =================
