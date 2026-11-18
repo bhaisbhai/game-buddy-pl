@@ -278,6 +278,12 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 /* first-special tip, under the item box: a spacebar being pressed (desktop) or a pulsing TAP (touch) */
 .specTip{position:fixed;z-index:21;pointer-events:none;display:flex;flex-direction:column;align-items:center;gap:6px;transform:translateX(-50%);transition:opacity .4s;font-family:var(--display)}
 .specTip[hidden],.ctrlTip[hidden]{display:none!important}
+/* wind streaks while airborne: thin radial lines at the screen edge, opacity driven from airFx() */
+.airLines{position:fixed;inset:-10%;z-index:4;pointer-events:none;opacity:0;
+  background:repeating-conic-gradient(from 0deg at 50% 52%,transparent 0deg 3deg,rgba(255,255,255,.5) 3.2deg 3.6deg,transparent 3.8deg 9deg);
+  -webkit-mask-image:radial-gradient(ellipse at 50% 52%,transparent 38%,#000 78%);mask-image:radial-gradient(ellipse at 50% 52%,transparent 38%,#000 78%);
+  animation:airSpin .35s steps(3) infinite}
+@keyframes airSpin{0%{transform:rotate(0)}100%{transform:rotate(4deg)}}
 /* cup goal: what finishing this cup unlocks, with progress through its races */
 .unlockGoal{margin:2px 0 12px;padding:10px 12px;border-radius:12px;background:rgba(255,178,46,.12);border:1px solid rgba(255,178,46,.45);font-size:14px;font-weight:600;color:var(--cream);text-align:left}
 .unlockGoal b{color:var(--ember);white-space:nowrap}
@@ -615,6 +621,7 @@ characters before browsing freely. */
 <canvas id="gl"></canvas>
 <canvas id="fx"></canvas>
 <div class="views" id="views"></div>
+<div class="airLines" id="airLines"></div>
 
 <div class="screen shade" id="title">
   <div class="logoWrap">
@@ -11182,6 +11189,30 @@ function updateWorld(dt){
 let preview=null,previewIdx=-1;
 function setPreview(ci){if(ci===previewIdx)return;if(preview)podium.remove(preview.root);preview=makeKart(CHARS[ci]);if(window.WFV2)WFV2.applyGarageVisuals(preview,WFV2.getPartsForKart(true,0,0));preview.root.position.y=1.9;podium.add(preview.root);previewIdx=ci;}
 function refreshPreviewGarage(){previewIdx=-1;if(G.state==='select')updateWho();}
+// ---- jump feel: every time a player's kart is in the air (ramp jumps and glides) ----
+// takeoff: the camera eases back and widens, wind streaks and a whoosh; landing: camera thump,
+// a dust ring and a rumble; a long jump gets a small BIG AIR boost. Camera motion is skipped for
+// players who ask the OS for reduced motion; the streaks are a single CSS layer, so cheap on phones.
+const AIR_RM=matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+function padRumble(ms,strong){try{if(G.humans.length!==1)return;for(const p of navigator.getGamepads?navigator.getGamepads():[]){if(p&&p.vibrationActuator&&p.vibrationActuator.playEffect)p.vibrationActuator.playEffect('dual-rumble',{duration:ms,strongMagnitude:strong,weakMagnitude:Math.min(1,strong+.2)});}}catch(e){}}
+function airFxUndo(){for(const k of G.humans_k||[]){const cam=cams[k.pi];if(cam&&cam.airOff){cam.c.position.sub(cam.airOff);cam.airOff.set(0,0,0);}}}
+function airFx(dt){const solo=G.humans.length===1;let lines=0;
+  for(const k of G.humans_k||[]){const cam=cams[k.pi];if(!cam)continue;const c=cam.c;if(!cam.airOff)cam.airOff=new THREE.Vector3();
+    const racing=G.state==='race'&&!k.finished&&k.respawnT<=0&&!k.cannon;
+    const air=racing&&!k.onGround&&(k.rampAir||k.glide);
+    if(air){k.airS=(k.airS||0)+dt;if(!k.wasAir){k.wasAir=true;k.airGlide=!!k.glide;if(!k.glide)noise(.7,700,.14,0,null,.9,1.8);padRumble(80,.25);}}
+    else if(k.wasAir){k.wasAir=false;const t=k.airS||0;k.airS=0;
+      if(racing&&k.onGround&&t>.35){cam.shake=Math.max(cam.shake,Math.min(.55,.22+t*.12));
+        burst(SMOKE,k.x,k.y+.3,k.z,18,12,.7,2.6,.9,.86,.78,0,3);burst(FX,k.x,k.y+.4,k.z,10,9,.35,.8,1,.95,.8,2,2);
+        tone(70,.25,'sine',.28,.5);noise(.25,300,.16,0,null,.8,.4);phoneBuzz(k,45);padRumble(160,.7);
+        if(t>.9&&k.boostT<1){k.boostT=Math.max(k.boostT,.6);k.hype=Math.min(1,k.hype+.08);say(k.pi,k.airGlide?'SMOOTH LANDING!':'BIG AIR!',.8);SFX.boost();}}}
+    if(!racing){k.wasAir=false;k.airS=0;}
+    const want=air?Math.min(1,(k.airS||0)/.35):0;k.airFxV=lerp(k.airFxV||0,want,Math.min(1,dt*(air?5:7)));const f=k.airFxV;
+    if(f>.01&&!AIR_RM){const hx=Math.sin(cam.yaw),hz=Math.cos(cam.yaw),g=k.glide?1:.7;
+      cam.airOff.set(-hx*3.2*f*g,1.4*f*g,-hz*3.2*f*g);c.position.add(cam.airOff);
+      c.fov+=f*(k.glide?13:8);c.updateProjectionMatrix();}
+    if(solo)lines=f;}
+  const el=document.getElementById('airLines');if(el){const o=solo?Math.min(.85,lines*(AIR_RM?.4:.85)):0;if(Math.abs((+el.style.opacity||0)-o)>.01)el.style.opacity=o.toFixed(2);}}
 function updateCameras(dt){
   if(G.state==='title'||G.state==='how'||G.state==='bmode'||G.state==='dmode'||G.state==='party'||G.state==='online'){const a=G.time*.06;const c=cams[0].c;c.fov=55;c.position.set(LR.center.x+Math.cos(a)*LR.orbitR,LR.titleH,LR.center.y+Math.sin(a)*LR.orbitR);c.lookAt(LR.look);return;}
   if(G.state==='cup'){const c=cams[0].c;c.fov=42;const a=G.time*.25;c.position.set(steps.position.x+Math.sin(a)*30,steps.position.y+11,steps.position.z+Math.cos(a)*30);c.lookAt(steps.position.x,steps.position.y+5,steps.position.z);return;}
@@ -12761,7 +12792,7 @@ function frame(now){requestAnimationFrame(frame);phoneTick();let dt=Math.min(.05
     if(nowPlaying!==cgPlaying){cgPlaying=nowPlaying;try{nowPlaying?CrazyGames.SDK.game.gameplayStart():CrazyGames.SDK.game.gameplayStop();}catch(e){}}}
   if((G.state==='race'||G.state==='countdown')&&!G.freeze){const steps2=dt>1/45?2:1;for(let s=0;s<steps2;s++)updateRace(dt/steps2);}
   if(G.state==='cup'){for(const [n,v] of cupKarts.entries())v.body.position.y=Math.abs(Math.sin(G.time*4+n))*.5;if(R()<dt*3){const p=steps.position;burst(FX,p.x+rr(-25,25),p.y+rr(18,30),p.z+rr(-25,25),70,22,1.1,1.3,R(),R(),R(),14,4);SFX.pop();}}
-  updateWorld(dt);updateCameras(dt);render();drawOverlay();updateHUD(dt);
+  updateWorld(dt);airFxUndo();updateCameras(dt);airFx(dt);render();drawOverlay();updateHUD(dt);
   if(G.state==='results'&&window.WFOnline&&WFOnline.isOnline())WFOnline.tick(dt);
   for(const k of(G.humans_k||[])){engineSet(k.pi,k.speed,k.boostT>0||k.hyperT>0,k.respawnT<=0&&G.state!=='results',k.driftDir!==0);}
   musicTick();if(G.state==='title'&&Math.floor(G.time*2)%4===0)updatePadInfo();}
