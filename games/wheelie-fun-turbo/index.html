@@ -266,6 +266,15 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .ctrlTip.out{opacity:0}
 .ctrlTip .ctrlLegend{margin:0}
 .ctrlTip .ctrlTipTouch{display:none}
+/* first-special tip, under the item box: a spacebar being pressed (desktop) or a pulsing TAP (touch) */
+.specTip{position:fixed;z-index:21;pointer-events:none;display:flex;flex-direction:column;align-items:center;gap:6px;transform:translateX(-50%);transition:opacity .4s;font-family:var(--display)}
+.specTip.out{opacity:0}
+.specTip small{font-size:13px;letter-spacing:.06em;color:var(--cream);text-shadow:0 2px 0 #1a0f2b;white-space:nowrap}
+.specTip .specKey{min-width:220px;height:46px;padding:0 18px;box-sizing:border-box;border-radius:12px;background:linear-gradient(180deg,#fff4df,#e5d9c4);color:#1a0f2b;display:flex;align-items:center;justify-content:center;font-size:16px;letter-spacing:.2em;box-shadow:0 6px 0 #8f80a6,0 10px 18px rgba(0,0,0,.4);animation:specPress 1.2s ease-in-out infinite}
+@keyframes specPress{0%,60%,100%{transform:translateY(0);box-shadow:0 6px 0 #8f80a6,0 10px 18px rgba(0,0,0,.4)}75%{transform:translateY(5px);box-shadow:0 1px 0 #8f80a6,0 4px 8px rgba(0,0,0,.4)}}
+.specTip .specTap{width:64px;height:64px;border-radius:50%;background:rgba(255,79,216,.9);color:#fff;display:none;align-items:center;justify-content:center;font-size:14px;animation:specRing 1.2s ease-out infinite}
+@keyframes specRing{0%{box-shadow:0 0 0 0 rgba(255,79,216,.6)}100%{box-shadow:0 0 0 22px rgba(255,79,216,0)}}
+.specTip .specTxtTouch{display:none}
 .ctrl{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:16px 0 22px}#howCtrlTouch{display:none}#howItemsTouch{display:none}
 .ctrl h3{font-family:var(--display);font-weight:400;font-size:14px;letter-spacing:.08em;color:var(--lagoon);margin:0 0 8px}
 .ctrl dl{display:grid;grid-template-columns:auto 1fr;gap:5px 12px;margin:0;font-size:14px}
@@ -417,6 +426,9 @@ Escape/P or gamepad Start they'd otherwise have no visible way to discover). A s
   #howItemsTouch{display:block}
   .ctrlTip .ctrlTipKeys{display:none}
   .ctrlTip .ctrlTipTouch{display:grid}
+  .specTip .specKey,.specTip .specTxtKeys{display:none}
+  .specTip .specTap{display:flex}
+  .specTip .specTxtTouch{display:block}
   /* the title screen's "connect a controller" readout is equally irrelevant there. */
   #padInfo{display:none}
   /* on a phone everyone races on their own device: "Multiplayer" opens the online room screen
@@ -848,6 +860,12 @@ characters before browsing freely. */
     <div class="row"><div class="key wide" style="background:var(--lagoon)">↔</div><div class="label">Steer<small>SWIPE LEFT / RIGHT</small></div></div>
     <div class="row"><div class="key wide" style="background:#ff4fd8;color:#fff">TAP</div><div class="label">Use Item<small>TAP ANYWHERE</small></div></div>
   </div>
+</div>
+<div class="specTip" id="specTip" hidden>
+  <div class="specKey" id="specKey">SPACE</div>
+  <div class="specTap">TAP</div>
+  <small class="specTxtKeys">USE YOUR SPECIAL</small>
+  <small class="specTxtTouch">TAP ANYWHERE TO USE IT</small>
 </div>
 <div id="loading">Warming up the volcano…</div>
 
@@ -12446,10 +12464,25 @@ function startRace(){
   show(null);for(const s of screens){const el=$('#'+s);if(el)el.hidden=true;}clearCeremony();podium.visible=!G.battle;setupRace();touch.on=isTouch&&G.humans.length===1;$('#touch').classList.toggle('on',touch.on);
   /* first race: the controls show over the countdown instead of on a screen you had to dismiss first */
   if(!store.get('wheeliefun.seenCtrlTut')&&G.humans.length===1){store.set('wheeliefun.seenCtrlTut','1');showCtrlTip();}
+  specialTipWatch();
   if(G.battle)for(const k of G.humans_k)say(k.pi,AR.name.toUpperCase()+' · POP THEIR BALLOONS!',2.4);
   if(G.cup)for(const k of G.humans_k)say(k.pi,'RACE '+(G.cup.race+1)+' OF '+G.cup.order.length+' · '+LV.name.toUpperCase(),2.4);}
 function dismissCtrlTut(){store.set('wheeliefun.seenCtrlTut','1');startRace();}
 function pauseGame(){G.state='paused';show('pause');engineStop();}
+// first-special tip: the first time a player ever has a special ready, show how to use it under the
+// item box, until they use it or ~6s pass. Single local player only (split screen has no one box).
+let specTipIv=0;
+function specialTipWatch(){clearInterval(specTipIv);if(store.get('wheeliefun.seenSpecialTip')||G.humans.length!==1)return;
+  const t=$('#specTip');let shownItem=null,t0=0;
+  const stop=()=>{clearInterval(specTipIv);t.classList.add('out');setTimeout(()=>{t.hidden=true;t.classList.remove('out');},400);};
+  specTipIv=setInterval(()=>{const k=G.humans_k&&G.humans_k[0];const live=G.state==='race'||G.state==='paused';
+    if(!k||!live){if(shownItem!==null){clearInterval(specTipIv);t.hidden=true;}else if(G.state!=='countdown')clearInterval(specTipIv);return;}
+    if(shownItem===null){if(G.state==='race'&&k.item&&k.rollT<=0){
+        const box=document.querySelector('.item');if(!box)return;const r=box.getBoundingClientRect();
+        $('#specKey').textContent=pads().length?'L1':'SPACE';t.style.left=(r.left+r.width/2)+'px';t.style.top=(r.bottom+28)+'px';
+        t.hidden=false;shownItem=k.item;t0=performance.now();store.set('wheeliefun.seenSpecialTip','1');}
+      return;}
+    if(k.item!==shownItem||performance.now()-t0>6000)stop();},150);}
 // first-race controls overlay: visible for the countdown and the first few seconds of driving,
 // then fades; gone at once if the player leaves the race first
 let ctrlTipIv=0;

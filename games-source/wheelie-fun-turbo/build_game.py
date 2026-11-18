@@ -1204,6 +1204,7 @@ function show(id){for(const s of screens){const el=$('#'+s);if(el)el.hidden=s!==
   show(null);for(const s of screens){const el=$('#'+s);if(el)el.hidden=true;}clearCeremony();podium.visible=!G.battle;setupRace();touch.on=isTouch&&G.humans.length===1;$('#touch').classList.toggle('on',touch.on);
   /* first race: the controls show over the countdown instead of on a screen you had to dismiss first */
   if(!store.get('wheeliefun.seenCtrlTut')&&G.humans.length===1){store.set('wheeliefun.seenCtrlTut','1');showCtrlTip();}
+  specialTipWatch();
   if(G.battle)for(const k of G.humans_k)say(k.pi,AR.name.toUpperCase()+' · POP THEIR BALLOONS!',2.4);
   if(G.cup)for(const k of G.humans_k)say(k.pi,'RACE '+(G.cup.race+1)+' OF '+G.cup.order.length+' · '+LV.name.toUpperCase(),2.4);}
 function dismissCtrlTut(){store.set('wheeliefun.seenCtrlTut','1');startRace();}"""
