@@ -12472,7 +12472,7 @@ function pauseGame(){G.state='paused';show('pause');engineStop();}
 // first-special tip: the first time a player ever has a special ready, show how to use it under the
 // item box, until they use it or ~6s pass. Single local player only (split screen has no one box).
 let specTipIv=0;
-function specialTipWatch(){clearInterval(specTipIv);if(store.get('wheeliefun.seenSpecialTip')||G.humans.length!==1)return;
+function specialTipWatch(){clearInterval(specTipIv);const tip=$('#specTip');if(tip){tip.hidden=true;tip.classList.remove('out');}if(store.get('wheeliefun.seenSpecialTip')||G.humans.length!==1)return;
   const t=$('#specTip');let shownItem=null,t0=0;
   const stop=()=>{clearInterval(specTipIv);t.classList.add('out');setTimeout(()=>{t.hidden=true;t.classList.remove('out');},400);};
   specTipIv=setInterval(()=>{const k=G.humans_k&&G.humans_k[0];const live=G.state==='race'||G.state==='paused';
