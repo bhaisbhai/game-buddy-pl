@@ -284,9 +284,10 @@ live('on CrazyGames with the SDK blocked (ad blocker), the game still boots and 
   await page.route(SDK_HOST, (route) => route.abort());
   await page.goto(CG_URL, { waitUntil: 'load', timeout: 60000 });
   await page.waitForFunction(() => !!window.__tiki, null, { timeout: 15000 });
+  // a brand-new player has one racer, so 1 Player goes straight into the first cup
   await page.evaluate(() => window.__tiki.ev('document.querySelector(\'[data-act="p1"]\').click();'));
-  await page.evaluate(() => document.querySelectorAll('#grid .ch')[0].click());
-  assert.equal(await page.evaluate(() => window.__tiki.ev('G.state')), 'tracks');
+  assert.equal(await page.evaluate(() => window.__tiki.ev('G.state')), 'countdown');
+  assert.equal(await page.evaluate(() => window.__tiki.ev('G.cup.ci')), 0);
   assert.equal(await page.evaluate(() => window.WFSave.onCrazyGames), true);
   assert.equal(await page.evaluate(() => window.WFSave.sdkReady), false);
   assert.equal(await page.evaluate(() => window.WFSave.message), '', 'no stuck "retrying" banner');

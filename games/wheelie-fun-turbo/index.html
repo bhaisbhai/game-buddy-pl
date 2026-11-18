@@ -260,6 +260,12 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .card h2{font-family:var(--display);font-weight:400;margin:0 0 6px;font-size:clamp(24px,3.4vw,38px);color:var(--ember);text-wrap:balance}
 .card p{margin:0 0 14px;line-height:1.45;color:var(--muted);max-width:62ch}
 #cup .btns{margin-top:18px}
+/* first-race controls overlay: sits over the countdown, never blocks a tap or a swipe */
+.ctrlTip{position:fixed;left:50%;top:calc(22% + env(safe-area-inset-top,0px));transform:translateX(-50%);z-index:20;pointer-events:none;
+  background:rgba(26,15,43,.82);border:2px solid rgba(255,178,46,.45);border-radius:18px;padding:12px 18px;max-width:92vw;box-sizing:border-box;transition:opacity .6s}
+.ctrlTip.out{opacity:0}
+.ctrlTip .ctrlLegend{margin:0}
+.ctrlTip .ctrlTipTouch{display:none}
 .ctrl{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:16px 0 22px}#howCtrlTouch{display:none}#howItemsTouch{display:none}
 .ctrl h3{font-family:var(--display);font-weight:400;font-size:14px;letter-spacing:.08em;color:var(--lagoon);margin:0 0 8px}
 .ctrl dl{display:grid;grid-template-columns:auto 1fr;gap:5px 12px;margin:0;font-size:14px}
@@ -409,6 +415,8 @@ Escape/P or gamepad Start they'd otherwise have no visible way to discover). A s
   describes a control that doesn't exist here, not just one that's phrased wrong. */
   #howItemsKeys{display:none}
   #howItemsTouch{display:block}
+  .ctrlTip .ctrlTipKeys{display:none}
+  .ctrlTip .ctrlTipTouch{display:grid}
   /* the title screen's "connect a controller" readout is equally irrelevant there. */
   #padInfo{display:none}
   /* on a phone everyone races on their own device: "Multiplayer" opens the online room screen
@@ -829,6 +837,18 @@ characters before browsing freely. */
   <div class="simpleZone" id="simpleZone"></div>
 </div>
 <button class="pauseBtn" id="pauseBtn" aria-label="Pause">❚❚</button>
+<div class="ctrlTip" id="ctrlTip" hidden>
+  <div class="ctrlLegend ctrlTipKeys">
+    <div class="row"><div class="miniArrows"><div class="k">▲</div><div class="k">◀</div><div class="k">▼</div><div class="k">▶</div></div><div class="label">Steer &amp; Accelerate<small>ARROWS OR WASD</small></div></div>
+    <div class="row"><div class="key" style="background:#ff5b1f;color:#fff">B</div><div class="label">Brake<small>HOLD TO SLOW</small></div></div>
+    <div class="row"><div class="key wide" style="background:#ff4fd8;color:#fff">SPACE</div><div class="label">Specials<small>USE ITEM</small></div></div>
+    <div class="row"><div class="key" style="background:var(--lagoon)">V</div><div class="label">Drift<small>HOP &amp; CORNER</small></div></div>
+  </div>
+  <div class="ctrlLegend ctrlTipTouch">
+    <div class="row"><div class="key wide" style="background:var(--lagoon)">↔</div><div class="label">Steer<small>SWIPE LEFT / RIGHT</small></div></div>
+    <div class="row"><div class="key wide" style="background:#ff4fd8;color:#fff">TAP</div><div class="label">Use Item<small>TAP ANYWHERE</small></div></div>
+  </div>
+</div>
 <div id="loading">Warming up the volcano…</div>
 
 <script>
@@ -12326,9 +12346,13 @@ function pollMenuPads(){if(BLOCK.includes(G.state)){padPrev.length=0;return;}
     if(now.a&&!pr.a){audioInit();activate();}if(now.b&&!pr.b)back();if(now.st&&!pr.st&&G.state==='paused')resume();padPrev[i]=now;});}
 function updatePadInfo(){const n=pads().length;$('#d1').className='dot'+(n>0?' on':'');$('#d2').className='dot'+(n>1?' on':'');$('#padTxt').innerHTML=n?`<b>${n} controller${n>1?'s':''}</b> connected`:'Press any button on a controller to connect it';}
 addEventListener('gamepadconnected',updatePadInfo);addEventListener('gamepaddisconnected',updatePadInfo);
-// roster unlock: the first 4 racers are free; each one after that needs one more cup win than
-// the last (same "winning a cup unlocks more" rule tracks already use, just one racer at a time).
-function charLocked(i){return i>=4&&unlockedCupCount()<i-2;}
+// roster unlock: new players start with one racer and each completed cup unlocks the next one (the
+// same rule cups use). Players from before that change keep the old rule -- 4 free, then one more
+// per cup -- so nobody loses a racer they already had. Decided once, at load, before any race can
+// mark the player as having played.
+function rosterFloor(){let f=store.get('wheeliefun.rosterFloor');if(f==null){f=(store.get('wheeliefun.seenCtrlTut')||unlockedCupCount()>1)?'4':'1';store.set('wheeliefun.rosterFloor',f);}return +f||1;}
+rosterFloor();
+function charLocked(i){return rosterFloor()>=4?(i>=4&&unlockedCupCount()<i-2):i>=unlockedCupCount();}
 function buildGrid(){G.garFocus=null;if(window.WFV2&&WFV2.renderGarageBar)WFV2.renderGarageBar(); /* garage lock + coins may have changed since the last visit */const g=$('#grid');g.innerHTML='';const tk=new Set(G.sel.slice(0,G.selP));const taken=G.selP>0?G.sel[0]:-1;
   CHARS.forEach((c,i)=>{const locked=charLocked(i);const b=document.createElement('button');b.className='ch'+(tk.has(i)?' taken':'')+(locked?' locked':'');b.innerHTML=`<span class="sw" style="background:${hexCss(c.kart)}"></span>${c.name}`;
     /* touch just previews (there's no hover to preview with first, so tapping a racer by
@@ -12418,12 +12442,21 @@ $('#trkGrid').addEventListener('mouseover',e=>{const b=e.target.closest('[data-t
 function startLevel(li,sync){const go=()=>{G.battle=false;G.death=!!G.deathNext&&!G.cup;if(!LV||G.level!==li)buildLevel(li);$('#loading').hidden=true;G.state='title';startRace();};
   if(sync||(LV&&G.level===li)){go();return;}
   for(const s of screens){const el=$('#'+s);if(el)el.hidden=true;}G.state='loading';$('#loading').textContent='Loading '+LEVELS[li].name+'…';$('#loading').hidden=false;setTimeout(go,60);}
-function startRace(){if(!store.get('wheeliefun.seenCtrlTut')&&!(window.WFOnline&&WFOnline.isOnline())){for(const s of screens){const el=$('#'+s);if(el)el.hidden=true;}G.state='ctrlTut';show('ctrlTut');return;}
+function startRace(){
   show(null);for(const s of screens){const el=$('#'+s);if(el)el.hidden=true;}clearCeremony();podium.visible=!G.battle;setupRace();touch.on=isTouch&&G.humans.length===1;$('#touch').classList.toggle('on',touch.on);
+  /* first race: the controls show over the countdown instead of on a screen you had to dismiss first */
+  if(!store.get('wheeliefun.seenCtrlTut')&&G.humans.length===1){store.set('wheeliefun.seenCtrlTut','1');showCtrlTip();}
   if(G.battle)for(const k of G.humans_k)say(k.pi,AR.name.toUpperCase()+' · POP THEIR BALLOONS!',2.4);
   if(G.cup)for(const k of G.humans_k)say(k.pi,'RACE '+(G.cup.race+1)+' OF '+G.cup.order.length+' · '+LV.name.toUpperCase(),2.4);}
 function dismissCtrlTut(){store.set('wheeliefun.seenCtrlTut','1');startRace();}
 function pauseGame(){G.state='paused';show('pause');engineStop();}
+// first-race controls overlay: visible for the countdown and the first few seconds of driving,
+// then fades; gone at once if the player leaves the race first
+let ctrlTipIv=0;
+function showCtrlTip(){const t=$('#ctrlTip');if(!t)return;t.hidden=false;t.classList.remove('out');const t0=performance.now();clearInterval(ctrlTipIv);
+  ctrlTipIv=setInterval(()=>{const live=G.state==='race'||G.state==='countdown'||G.state==='paused';
+    if(!live){t.hidden=true;clearInterval(ctrlTipIv);return;}
+    if(performance.now()-t0>8000){t.classList.add('out');if(performance.now()-t0>8700){t.hidden=true;clearInterval(ctrlTipIv);}}},200);}
 function resume(){for(const s of screens){const el=$('#'+s);if(el)el.hidden=true;}G.state=G.raceT>0?'race':'countdown';engineStart(G.humans.length);for(const k of G.humans_k)k.prev=readInput(k.pi);}
 function quit(){engineStop();finReset();G.battle=false;G.timeTrial=false;if(window.WFV2)WFV2.clearGhosts();for(const k of G.karts)scene.remove(k.v.root);G.karts=[];G.humans_k=[];views.innerHTML='';clearCeremony();podium.visible=true;G.cup=null;G.state='title';show('title');$('#touch').classList.remove('on');touch.on=false;updateShelf();}
 const PTS=[15,12,10,8,6,4,2,1,1,1];
@@ -12552,7 +12585,11 @@ $('#lbTrackSel').addEventListener('change',e=>{lbTrack=e.target.value;loadLeader
 $('#lbNameIn').addEventListener('change',e=>{e.target.value=renameLbName(e.target.value);});
 const _cupNameIn=$('#cupNameIn');if(_cupNameIn)_cupNameIn.addEventListener('change',e=>{e.target.value=renameLbName(e.target.value);});
 document.addEventListener('click',e=>{const b=e.target.closest('[data-act]');if(!b)return;audioInit();const a=b.dataset.act;
-  if(a==='online'){G.timeTrial=false;if(window.WFOnline)WFOnline.openMenu(WF_API_BRIDGE);return;}else if(a==='tt'){G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.timeTrial=true;G.bind=null;goSelect(1);return;}else if(a==='cc'){if(window.WFV2)WFV2.cycleCC();return;}else if(a==='copyGhost'){if(window.WFV2&&WFV2.GHOSTS.lastCode){try{navigator.clipboard.writeText(WFV2.GHOSTS.lastCode);}catch(e){}const gb=$('#copyGhostBtn');if(gb)gb.textContent='Copied Ghost Code! ✓';}return;}else if(a==='importGhost'){const code=typeof prompt==='function'?prompt('Paste a Friend Ghost Code (WFG1:...):'):'';if(code&&window.WFV2){const imp=WFV2.importGhostCode(code);if(imp){const tIdx=LEVELS.findIndex(L=>L.id===imp.trk);if(tIdx>=0){G.timeTrial=true;startLevel(tIdx);}else startRace();}}return;}else if(a==='items'){cycleItemsMode();return;}else if(a==='settings'){G.state='settings';show('settings');return;}else if(a==='lb'){openLeaderboards();return;}else if(a==='lbNameSave'){const el=$('#lbNameIn');if(el){el.value=renameLbName(el.value);b.textContent='Saved ✓';setTimeout(()=>{b.textContent='Update Name';},1200);}return;}else if(a==='cupNameSave'){const el=$('#cupNameIn');if(el){el.value=renameLbName(el.value);b.textContent='Saved ✓';setTimeout(()=>{b.textContent='Update Name';},1200);}return;}else if(a==='ctrlTutGo'){dismissCtrlTut();return;}else if(a==='trkBack'){back();return;}else if(a==='p1'){G.timeTrial=false;G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.bind=null;goSelect(1);}else if(a==='death'){G.timeTrial=false;G.state='dmode';show('dmode');}else if(a==='d1'){G.timeTrial=false;G.battleNext=false;G.deathNext=true;G.bind=null;goSelect(1);}else if(a==='dparty'){G.timeTrial=false;G.deathNext=true;goParty(false);G.deathNext=true;}else if(a==='diff'){cycleDiff();}else if(a==='party'){G.timeTrial=false;G.deathNext=false;if(isTouch){if(window.WFOnline)WFOnline.openMenu(WF_API_BRIDGE);return;}goParty(false);}else if(a==='bparty'){G.timeTrial=false;goParty(true);}else if(a==='partyGo'){partyGo();}else if(a==='battle'){G.timeTrial=false;G.state='bmode';show('bmode');}else if(a==='b1'){G.battleNext=true;G.bind=null;goSelect(1);}else if(a==='b2'){G.battleNext=true;goSelect(2);}else if(a==='arenas')goArenas();else if(a==='how'){G.state='how';show('how');}else if(a==='gfx'){Q.ultra=!Q.ultra;store.set('tikiturbo.gfx',Q.ultra?'ultra':'fast');applyQuality();}else if(a==='back'){G.state='title';show('title');}
+  if(a==='online'){G.timeTrial=false;if(window.WFOnline)WFOnline.openMenu(WF_API_BRIDGE);return;}else if(a==='tt'){G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.timeTrial=true;G.bind=null;goSelect(1);return;}else if(a==='cc'){if(window.WFV2)WFV2.cycleCC();return;}else if(a==='copyGhost'){if(window.WFV2&&WFV2.GHOSTS.lastCode){try{navigator.clipboard.writeText(WFV2.GHOSTS.lastCode);}catch(e){}const gb=$('#copyGhostBtn');if(gb)gb.textContent='Copied Ghost Code! ✓';}return;}else if(a==='importGhost'){const code=typeof prompt==='function'?prompt('Paste a Friend Ghost Code (WFG1:...):'):'';if(code&&window.WFV2){const imp=WFV2.importGhostCode(code);if(imp){const tIdx=LEVELS.findIndex(L=>L.id===imp.trk);if(tIdx>=0){G.timeTrial=true;startLevel(tIdx);}else startRace();}}return;}else if(a==='items'){cycleItemsMode();return;}else if(a==='settings'){G.state='settings';show('settings');return;}else if(a==='lb'){openLeaderboards();return;}else if(a==='lbNameSave'){const el=$('#lbNameIn');if(el){el.value=renameLbName(el.value);b.textContent='Saved ✓';setTimeout(()=>{b.textContent='Update Name';},1200);}return;}else if(a==='cupNameSave'){const el=$('#cupNameIn');if(el){el.value=renameLbName(el.value);b.textContent='Saved ✓';setTimeout(()=>{b.textContent='Update Name';},1200);}return;}else if(a==='ctrlTutGo'){dismissCtrlTut();return;}else if(a==='trkBack'){back();return;}else if(a==='p1'){G.timeTrial=false;G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.bind=null;
+    /* quick start: with only the starting racer unlocked there's nothing to pick yet, so go straight
+    into the first cup -- new players were leaving during the menus before they ever raced. */
+    if(charLocked(1)){G.mode=1;G.selP=0;G.sel=[0,1,2,3];G.humans=[0];G.cup=newCup(0);startLevel(G.cup.order[0]);return;}
+    goSelect(1);}else if(a==='death'){G.timeTrial=false;G.state='dmode';show('dmode');}else if(a==='d1'){G.timeTrial=false;G.battleNext=false;G.deathNext=true;G.bind=null;goSelect(1);}else if(a==='dparty'){G.timeTrial=false;G.deathNext=true;goParty(false);G.deathNext=true;}else if(a==='diff'){cycleDiff();}else if(a==='party'){G.timeTrial=false;G.deathNext=false;if(isTouch){if(window.WFOnline)WFOnline.openMenu(WF_API_BRIDGE);return;}goParty(false);}else if(a==='bparty'){G.timeTrial=false;goParty(true);}else if(a==='partyGo'){partyGo();}else if(a==='battle'){G.timeTrial=false;G.state='bmode';show('bmode');}else if(a==='b1'){G.battleNext=true;G.bind=null;goSelect(1);}else if(a==='b2'){G.battleNext=true;goSelect(2);}else if(a==='arenas')goArenas();else if(a==='how'){G.state='how';show('how');}else if(a==='gfx'){Q.ultra=!Q.ultra;store.set('tikiturbo.gfx',Q.ultra?'ultra':'fast');applyQuality();}else if(a==='back'){G.state='title';show('title');}
   else if(a==='resume')resume();else if(a==='restart'){if(G.cup)G.cup.scored=G.state==='results'?(()=>{for(const[ci,p]of Object.entries(G.cup.lastGain||{}))G.cup.pts[ci]-=p;G.cup.lastGain={};return false;})():G.cup.scored;startRace();}
   else if(a==='pauseHow'){G.state='pauseHow';show('pauseHow');}else if(a==='pauseHowBack'){G.state='paused';show('pause');}
   else if(a==='quit')quit();else if(a==='reselect')goSelect(G.mode);else if(a==='tracks')goTracks();else if(a==='selGo')confirmSelect();else if(a==='selBack')back();
