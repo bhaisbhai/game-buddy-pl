@@ -12471,18 +12471,24 @@ function dismissCtrlTut(){store.set('wheeliefun.seenCtrlTut','1');startRace();}
 function pauseGame(){G.state='paused';show('pause');engineStop();}
 // first-special tip: the first time a player ever has a special ready, show how to use it under the
 // item box, until they use it or ~6s pass. Single local player only (split screen has no one box).
-let specTipIv=0;
-function specialTipWatch(){clearInterval(specTipIv);const tip=$('#specTip');if(tip){tip.hidden=true;tip.classList.remove('out');}if(store.get('wheeliefun.seenSpecialTip')||G.humans.length!==1)return;
-  const t=$('#specTip');let shownItem=null,t0=0;
-  const stop=()=>{clearInterval(specTipIv);t.classList.add('out');setTimeout(()=>{t.hidden=true;t.classList.remove('out');},400);};
+let specTipIv=0,specTipUnhook=()=>{};
+function specialTipWatch(){clearInterval(specTipIv);specTipUnhook();const tip=$('#specTip');if(tip){tip.hidden=true;tip.classList.remove('out');}if(store.get('wheeliefun.seenSpecialTip')||G.humans.length!==1)return;
+  const t=$('#specTip');let shownItem=null,shownN=0,t0=0;
+  // a tap (or the item key) dismisses it straight away, even for items that take several uses
+  let pd=null;const onDn=e=>{pd={x:e.clientX,y:e.clientY,t:performance.now()};};
+  const onUp=e=>{if(pd&&Math.hypot(e.clientX-pd.x,e.clientY-pd.y)<20&&performance.now()-pd.t<400)stop();pd=null;};
+  const onKey=e=>{if(e.code==='Space'||e.code==='KeyE')stop();};
+  const hook=()=>{addEventListener('pointerdown',onDn,true);addEventListener('pointerup',onUp,true);addEventListener('keydown',onKey,true);
+    specTipUnhook=()=>{removeEventListener('pointerdown',onDn,true);removeEventListener('pointerup',onUp,true);removeEventListener('keydown',onKey,true);specTipUnhook=()=>{};};};
+  const stop=()=>{clearInterval(specTipIv);specTipUnhook();t.classList.add('out');setTimeout(()=>{t.hidden=true;t.classList.remove('out');},400);};
   specTipIv=setInterval(()=>{const k=G.humans_k&&G.humans_k[0];const live=G.state==='race'||G.state==='paused';
-    if(!k||!live){if(shownItem!==null){clearInterval(specTipIv);t.hidden=true;}else if(G.state!=='countdown')clearInterval(specTipIv);return;}
+    if(!k||!live){if(shownItem!==null){clearInterval(specTipIv);specTipUnhook();t.hidden=true;}else if(G.state!=='countdown')clearInterval(specTipIv);return;}
     if(shownItem===null){if(G.state==='race'&&k.item&&k.rollT<=0){
         const box=document.querySelector('.item');if(!box)return;const r=box.getBoundingClientRect();
         $('#specKey').textContent=pads().length?'L1':'SPACE';t.style.left=(r.left+r.width/2)+'px';t.style.top=(r.bottom+28)+'px';
-        t.hidden=false;shownItem=k.item;t0=performance.now();store.set('wheeliefun.seenSpecialTip','1');}
+        t.hidden=false;shownItem=k.item;shownN=k.itemN||0;t0=performance.now();hook();store.set('wheeliefun.seenSpecialTip','1');}
       return;}
-    if(k.item!==shownItem||performance.now()-t0>6000)stop();},150);}
+    if(k.item!==shownItem||(k.itemN||0)!==shownN||performance.now()-t0>6000)stop();},150);}
 // first-race controls overlay: visible for the countdown and the first few seconds of driving,
 // then fades; gone at once if the player leaves the race first
 let ctrlTipIv=0;
