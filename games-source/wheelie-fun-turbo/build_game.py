@@ -107,6 +107,9 @@ characters before browsing freely. */
 .iconBtn{display:flex;flex-direction:column;align-items:center;gap:6px;background:none;border:0;box-shadow:none;color:var(--cream);cursor:pointer;padding:0;font-family:var(--body)}
 .iconCircle{width:42px;height:42px;border-radius:50%;background:rgba(26,15,43,.55);border:1.5px solid rgba(255,244,223,.22);display:flex;align-items:center;justify-content:center;transition:border-color .12s}
 .iconBtn:hover .iconCircle,.iconBtn.focus .iconCircle{border-color:var(--ember)}
+.pickRow{display:flex;justify-content:center;margin:-4px 0 10px}
+.btn.pickLink{background:none;border:0;box-shadow:none;padding:6px 10px;min-height:0;font-size:13px;font-weight:700;letter-spacing:.03em;color:rgba(255,244,223,.85);text-decoration:underline;text-underline-offset:3px}
+.btn.pickLink[hidden]{display:none}
 .iconLabel{font-size:11px;font-weight:600;letter-spacing:.02em;color:rgba(255,244,223,.78);white-space:nowrap}
 #loading[hidden]{display:none}
 """
@@ -124,6 +127,7 @@ characters before browsing freely. */
     new_title_btns = """    <div class="btns primaryRow">
       <button class="btn primary" data-act="p1">1 Player</button>
     </div>
+    <div class="pickRow"><button class="btn pickLink" data-act="p1pick" id="pickBtn" hidden>Choose racer &amp; track</button></div>
     <div class="btns">
       <button class="btn chip online" data-act="online" id="onlineBtn">Online Cup</button>
       <button class="btn chip alt" data-act="party">Multiplayer</button>
@@ -1214,7 +1218,7 @@ function dismissCtrlTut(){store.set('wheeliefun.seenCtrlTut','1');startRace();}"
     new_click_acts = """if(a==='online'){G.timeTrial=false;if(window.WFOnline)WFOnline.openMenu(WF_API_BRIDGE);return;}else if(a==='tt'){G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.timeTrial=true;G.bind=null;goSelect(1);return;}else if(a==='cc'){if(window.WFV2)WFV2.cycleCC();return;}else if(a==='copyGhost'){if(window.WFV2&&WFV2.GHOSTS.lastCode){try{navigator.clipboard.writeText(WFV2.GHOSTS.lastCode);}catch(e){}const gb=$('#copyGhostBtn');if(gb)gb.textContent='Copied Ghost Code! ✓';}return;}else if(a==='importGhost'){const code=typeof prompt==='function'?prompt('Paste a Friend Ghost Code (WFG1:...):'):'';if(code&&window.WFV2){const imp=WFV2.importGhostCode(code);if(imp){const tIdx=LEVELS.findIndex(L=>L.id===imp.trk);if(tIdx>=0){G.timeTrial=true;startLevel(tIdx);}else startRace();}}return;}else if(a==='items'){cycleItemsMode();return;}else if(a==='settings'){G.state='settings';show('settings');return;}else if(a==='lb'){openLeaderboards();return;}else if(a==='lbNameSave'){const el=$('#lbNameIn');if(el){el.value=renameLbName(el.value);b.textContent='Saved ✓';setTimeout(()=>{b.textContent='Update Name';},1200);}return;}else if(a==='cupNameSave'){const el=$('#cupNameIn');if(el){el.value=renameLbName(el.value);b.textContent='Saved ✓';setTimeout(()=>{b.textContent='Update Name';},1200);}return;}else if(a==='ctrlTutGo'){dismissCtrlTut();return;}else if(a==='trkBack'){back();return;}else if(a==='p1'){G.timeTrial=false;G.onlineGrid=null;G.battleNext=false;G.deathNext=false;G.bind=null;
     /* quick start: with only the starting racer unlocked there's nothing to pick yet, so go straight
     into the first cup -- new players were leaving during the menus before they ever raced. */
-    if(charLocked(1)){G.mode=1;G.selP=0;G.sel=[0,1,2,3];G.humans=[0];G.cup=newCup(0);startLevel(G.cup.order[0]);return;}
+    quickStart();return;
     goSelect(1);}else if(a==='death'){G.timeTrial=false;G.state='dmode';show('dmode');}else if(a==='d1'){G.timeTrial=false;G.battleNext=false;G.deathNext=true;G.bind=null;goSelect(1);}else if(a==='dparty'){G.timeTrial=false;G.deathNext=true;goParty(false);G.deathNext=true;}else if(a==='diff'){cycleDiff();}else if(a==='party'){G.timeTrial=false;G.deathNext=false;if(isTouch){if(window.WFOnline)WFOnline.openMenu(WF_API_BRIDGE);return;}goParty(false);}else if(a==='bparty'){G.timeTrial=false;goParty(true);}else if(a==='partyGo'){partyGo();}else if(a==='battle'){G.timeTrial=false;G.state='bmode';show('bmode');}"""
     html = must_replace(html, old_click_acts, new_click_acts, "click_actions")
 
