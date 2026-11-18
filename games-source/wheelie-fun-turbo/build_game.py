@@ -107,6 +107,7 @@ characters before browsing freely. */
 .iconBtn{display:flex;flex-direction:column;align-items:center;gap:6px;background:none;border:0;box-shadow:none;color:var(--cream);cursor:pointer;padding:0;font-family:var(--body)}
 .iconCircle{width:42px;height:42px;border-radius:50%;background:rgba(26,15,43,.55);border:1.5px solid rgba(255,244,223,.22);display:flex;align-items:center;justify-content:center;transition:border-color .12s}
 .iconBtn:hover .iconCircle,.iconBtn.focus .iconCircle{border-color:var(--ember)}
+.primaryRow .btn.primary{min-width:min(260px,70vw)}
 .pickRow{display:flex;justify-content:center;margin:-4px 0 10px}
 .btn.pickLink{background:none;border:0;box-shadow:none;padding:6px 10px;min-height:0;font-size:13px;font-weight:700;letter-spacing:.03em;color:rgba(255,244,223,.85);text-decoration:underline;text-underline-offset:3px}
 .btn.pickLink[hidden]{display:none}
@@ -125,7 +126,7 @@ characters before browsing freely. */
       <button class="btn ghost" data-act="gfx" id="gfxBtn">Graphics: Ultra</button>
     </div>"""
     new_title_btns = """    <div class="btns primaryRow">
-      <button class="btn primary" data-act="p1">1 Player</button>
+      <button class="btn primary" data-act="p1">Start</button>
     </div>
     <div class="pickRow"><button class="btn pickLink" data-act="p1pick" id="pickBtn" hidden>Choose racer &amp; track</button></div>
     <div class="btns">
