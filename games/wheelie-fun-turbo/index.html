@@ -12575,7 +12575,7 @@ function specialTipWatch(){clearInterval(specTipIv);specTipUnhook();const tip=$(
 // player's first item box is always a bee; one "rabbit" car stays ahead so the bee has someone to
 // hit; AI use no specials at all. Everything else about the race (track, controls) is unchanged.
 // Sunny Beach opens the first cup (straightest start, gentlest lap); its seagulls can't steal the bee here.
-const FR={keepAI:3,slowT:15,rampT:40,slow:.72,full:.8,after:.9,earlyBoxF:.05,grab:9};
+const FR={keepAI:3,slowT:15,rampT:40,slow:.72,full:.8,after:1,earlyBoxF:.05,grab:9};
 function isFirstRace(){return !!(G.cup&&G.cup.ci===0&&G.cup.race===0&&G.mode===1&&G.humans.length===1&&!G.battle&&!G.death&&!G.timeTrial&&!G.onlineGrid
   &&rosterFloor()<4&&!store.get('wheeliefun.firstRaceDone'));}
 function frBoxesClear(){if(!G.frBoxes)return;for(const b of G.frBoxes){scene.remove(b.m);if(b.m.parent)b.m.parent.remove(b.m);const j=boxes.indexOf(b);if(j>=0)boxes.splice(j,1);}G.frBoxes=null;}
@@ -12587,7 +12587,7 @@ function firstRaceSetup(){G.fr=null;frBoxesClear();if(!isFirstRace())return;cons
   G.karts=[keep[0],me,...keep.slice(1)];G.karts.forEach((k,s)=>k.reset(wrapI(-Math.round((10+s*7.2+(s?30:0))/SP)),s%2?-5.5:5.5)); // target car gets a 30m head start (all still behind the line)
   G.fr={rabbit:keep[0],beeGiven:false,beeUsed:false};}
 function frPace(k){const f=G.fr;if(!f)return 1;const t=G.raceT;
-  // once the player starts lap 2 the pack goes to 90% of normal (catch-up included), easing in over ~6s
+  // once the player starts lap 2 the pack goes back to normal pace (catch-up included), easing in over ~6s
   const me=G.humans_k[0];if(me&&me.lap>=2){if(f.lap2At==null)f.lap2At=t;const e=Math.min(1,(t-f.lap2At)/6);return lerp(f.lap2Pace||FR.full,FR.after,e);}
   return f.lap2Pace=t<FR.slowT?FR.slow:t<FR.rampT?FR.slow+(t-FR.slowT)/(FR.rampT-FR.slowT)*(FR.full-FR.slow):FR.full;}
 // the bee's target: one car kept 25-80m ahead of the player (ignoring the usual catch-up slowdown)
