@@ -5743,7 +5743,7 @@ function pauseGame(){G.state='paused';show('pause');engineStop();}
 // first-special tip: the first time a player ever has a special ready, show how to use it under the
 // item box, until they use it or ~6s pass. Single local player only (split screen has no one box).
 let specTipIv=0,specTipUnhook=()=>{};
-function specialTipWatch(){clearInterval(specTipIv);specTipUnhook();const tip=$('#specTip');if(tip){tip.hidden=true;tip.classList.remove('out');}if(store.get('wheeliefun.seenSpecialTip')||G.humans.length!==1)return;
+function specialTipWatch(){clearInterval(specTipIv);specTipUnhook();const tip=$('#specTip');if(tip){tip.hidden=true;tip.classList.remove('out');}if((store.get('wheeliefun.seenSpecialTip')&&!G.fr)||G.humans.length!==1)return; // the scripted first race always shows it
   const t=$('#specTip');let shownItem=null,shownN=0,t0=0;
   // a tap (or the item key) dismisses it straight away, even for items that take several uses
   let pd=null;const onDn=e=>{pd={x:e.clientX,y:e.clientY,t:performance.now()};};
