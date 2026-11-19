@@ -4562,7 +4562,7 @@ function aiInput(k,dt){if(G.battle)return aiBattle(k,dt);
 // the opening track (Lava) is most players' first race: AI there runs a touch slower so a new
 // player has a fair shot at the podium
 const FIRST_TRACK_EASE=.95;
-function rubber(){if(G.fr)frTick();if(G.battle){for(const k of G.karts)k.rubber=k.human?1:DIFF.battle[diffLvl()]*k.skill;return;}const hs=G.humans_k;if(!hs.length)return;let hp=0;for(const h of hs)hp+=h.progress;hp/=hs.length;const easeFirst=LEVELS[G.level]&&LEVELS[G.level].id===CUPS[0].ids[0]?FIRST_TRACK_EASE:1;
+function rubber(){if(G.battle){for(const k of G.karts)k.rubber=k.human?1:DIFF.battle[diffLvl()]*k.skill;return;}const hs=G.humans_k;if(!hs.length)return;let hp=0;for(const h of hs)hp+=h.progress;hp/=hs.length;const easeFirst=LEVELS[G.level]&&LEVELS[G.level].id===CUPS[0].ids[0]?FIRST_TRACK_EASE:1;
   for(const k of G.karts){if(k.human&&!k.finished){k.rubber=1;continue;}const gap=(hp-k.progress)/N;const rb=DIFF.rubber[diffLvl()];k.rubber=frRabbit(k)||clamp(1+gap*.55,rb[0],rb[1])*k.skill*easeFirst*frPace(k);}}
 
 // ================= race update =================
@@ -4600,7 +4600,7 @@ function afterKarts(dt){
         if((A.human||B.human)&&(A.bumpCD<=0)){SFX.bump();A.bumpCD=.4;}}}}
   // pickups
   for(const k of G.karts){if(k.respawnT>0)continue;
-    for(const b of boxes){if(b.t>0)continue;const dx=b.x-k.x,dz=b.z-k.z;if(dx*dx+dz*dz<9&&Math.abs(b.y-k.y-1.5)<3){b.t=3.5;b.m.visible=false;burst(FX,b.x,b.y,b.z,20,14,.5,1,.6,.9,1);
+    for(const b of boxes){if(b.t>0)continue;const dx=b.x-k.x,dz=b.z-k.z;if(dx*dx+dz*dz<(G.fr&&k.human?FR.grab*FR.grab:9)&&Math.abs(b.y-k.y-1.5)<3){b.t=3.5;b.m.visible=false;burst(FX,b.x,b.y,b.z,20,14,.5,1,.6,.9,1);
         if((!k.item||!k.item2)&&k.rollT<=0){k.rollSlot=k.item?2:1;k.rollT=k.human?1.1:.6;if(k.human)SFX.item();}}}
     for(const c of coins){if(c.t>0)continue;const dx=c.x-k.x,dz=c.z-k.z;if(dx*dx+dz*dz<7&&Math.abs(H[c.i]-k.y)<3){c.t=12;c.m.visible=false;k.coins=Math.min(10,k.coins+1);if(k.human)SFX.coin();burst(FX,c.x,H[c.i]+1.5,c.z,8,8,.35,.8,1,.85,.2);}}
     for(let gI=goos.length-1;gI>=0;gI--){const g=goos[gI];if(g.owner===k&&g.t<.6)continue;const dx=g.x-k.x,dz=g.z-k.z;if(g.kind==='mine'){if(g.t>1.2&&dx*dx+dz*dz<16&&(g.y==null||Math.abs(g.y-k.y)<4)){goos.splice(gI,1);mineBoom(g);}continue;}if(dx*dx+dz*dz<(g.kind==='tiffin'?6.2:18.5)&&k.onGround&&(g.y==null||Math.abs(g.y-k.y)<3)){if(g.kind==='tiffin'){stink(k);scene.remove(g.m);goos.splice(gI,1);continue;}if(hit(k,g.owner)){scene.remove(g.m);goos.splice(gI,1);burst(SMOKE,g.x,k.y+.5,g.z,14,8,.6,1.6,.45,.8,.2,8,4);}}}}
@@ -6082,23 +6082,24 @@ function specialTipWatch(){clearInterval(specTipIv);specTipUnhook();const tip=$(
 // player's first item box is always a bee; one "rabbit" car stays ahead so the bee has someone to
 // hit; AI use no specials at all. Everything else about the race (track, controls) is unchanged.
 // Sunny Beach opens the first cup (straightest start, gentlest lap); its seagulls can't steal the bee here.
-const FR={keepAI:3,slowT:15,rampT:40,slow:.72,full:.8,after:.9,beeBy:10};
+const FR={keepAI:3,slowT:15,rampT:40,slow:.72,full:.8,after:.9,earlyBoxF:.05,grab:9};
 function isFirstRace(){return !!(G.cup&&G.cup.ci===0&&G.cup.race===0&&G.mode===1&&G.humans.length===1&&!G.battle&&!G.death&&!G.timeTrial&&!G.onlineGrid
   &&rosterFloor()<4&&!store.get('wheeliefun.firstRaceDone'));}
-function firstRaceSetup(){G.fr=null;if(!isFirstRace())return;const me=G.humans_k[0];if(!me)return;
+function frBoxesClear(){if(!G.frBoxes)return;for(const b of G.frBoxes){scene.remove(b.m);if(b.m.parent)b.m.parent.remove(b.m);const j=boxes.indexOf(b);if(j>=0)boxes.splice(j,1);}G.frBoxes=null;}
+function frBoxesAdd(){G.frBoxes=[];const i=laneIndexSafe(Math.floor(FR.earlyBoxF*N));
+  for(const l0 of[-9,-3,3,9]){const l=l0*LW[i];const m=addL(new THREE.Mesh(boxGeo,boxMat));const x=TP[i].x+TR[i].x*l,z=TP[i].z+TR[i].z*l;
+    m.position.set(x,H[i]+2,z);m.castShadow=true;const b={m,x,z,i,l,y:H[i]+2,t:0};boxes.push(b);G.frBoxes.push(b);}}
+function firstRaceSetup(){G.fr=null;frBoxesClear();if(!isFirstRace())return;const me=G.humans_k[0];if(!me)return;frBoxesAdd();
   const ai=G.karts.filter(k=>!k.human),keep=ai.slice(0,FR.keepAI);for(const k of ai)if(!keep.includes(k))scene.remove(k.v.root);
   G.karts=[...keep,me];G.karts.forEach((k,s)=>k.reset(wrapI(-Math.round((10+s*7.2)/SP)),s%2?-5.5:5.5));
   G.fr={rabbit:keep[0],beeGiven:false,beeUsed:false};}
-// missed the first item boxes? the bee arrives anyway, by ~10s
-function frTick(){const f=G.fr;if(!f||f.beeGiven||G.raceT<FR.beeBy)return;const me=G.humans_k[0];
-  if(me&&!me.item&&me.rollT<=0){f.beeGiven=true;me.item='bee';me.itemN=1;try{SFX.box();}catch(e){}}}
 function frPace(k){const f=G.fr;if(!f)return 1;const t=G.raceT;
   // once the player starts lap 2 the pack goes to 90% of normal (catch-up included), easing in over ~6s
   const me=G.humans_k[0];if(me&&me.lap>=2){if(f.lap2At==null)f.lap2At=t;const e=Math.min(1,(t-f.lap2At)/6);return lerp(f.lap2Pace||FR.full,FR.after,e);}
   return f.lap2Pace=t<FR.slowT?FR.slow:t<FR.rampT?FR.slow+(t-FR.slowT)/(FR.rampT-FR.slowT)*(FR.full-FR.slow):FR.full;}
 // the bee's target: one car kept 25-80m ahead of the player (ignoring the usual catch-up slowdown)
 // until the bee has been fired and landed, so there is always someone in front to sting
-function frRabbit(k){const f=G.fr;if(!f||k!==f.rabbit||f.stung)return 0;if(f.beeUsed)return G.raceT-f.firedAt<6?.8:0; // let the bee catch it
+function frRabbit(k){const f=G.fr;if(!f||k!==f.rabbit||f.stung||(!f.beeGiven&&G.raceT>40))return 0;if(f.beeUsed)return G.raceT-f.firedAt<6?.8:0; // let the bee catch it
   const me=G.humans_k[0];if(!me)return 0;const d=(k.progress-me.progress)*SP;
   return d<10?1.5:d<25?1.25:d<50?1.08:d<80?1:d<130?.75:.4;}
 function frItem(k){const f=G.fr;if(!f||!k.human||f.beeGiven)return null;f.beeGiven=true;return 'bee';}
