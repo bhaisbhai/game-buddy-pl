@@ -4068,7 +4068,7 @@ function setupRace(){
   const slots=CHARS.filter(c=>!c.fly).length;let hi=0,ai=0;const layout=[];for(let s=0;s<slots;s++){if(s>=slots-Math.max(3,hs.length)&&hi<hs.length&&!(s===slots-1&&hs.length===1)){layout.push({ch:hs[hi],human:true,pi:hi});hi++;}else layout.push({ch:order[ai++],human:false});}
   layout.forEach((L,s)=>{const k=new Kart(CHARS[L.ch],L.human,L.human?L.pi:-1);const i=wrapI(-Math.round((10+s*7.5)/SP));k.reset(i,s%2?-5.5:5.5);G.karts.push(k);});
   if(G.battle)arenaGrid();else if(G.death)deathGrid();
-  G.humans_k=G.karts.filter(k=>k.human).sort((a,b)=>a.pi-b.pi);
+  G.humans_k=G.karts.filter(k=>k.human).sort((a,b)=>a.pi-b.pi);firstRaceSetup();
   for(const b of boxes){b.t=0;b.m.visible=true;}for(const c of coins){c.t=0;c.m.visible=true;}
   G.laps=(!G.battle&&LV&&LV.laps)||3;G.raceT=0;G.cd=4.2;G.finishedAt=0;G.ducksOut=false;extraReset();G.swapOut=false;G.slowOut=false;G.slowOK=R()<.35;G.slowT=0;G.slowBy=null;G.state='countdown';G.lastCd=5;G.finalSaid=false;AU.tempo=132;
   makeHUD(G.humans.length);if(FT.sections&&!G.battle)VIEWS.forEach((v,p)=>{v.el.querySelector('.lap small').textContent=(G.humans.length>1?'P'+(p+1)+' · ':'')+'SECTION';});
@@ -4114,7 +4114,7 @@ function useItem(k){const it=k.item;if(!it)return;const cur=activeSpecial(k);
   if(useNewItem(k,it))return;
   if(it==='chili'||it==='triple'){k.boostT=Math.max(k.boostT,1.3);if(k.human)SFX.boost();if(it==='triple'&&--k.itemN>0){}else k.item=null;}
   else if(it==='goo'){const d=4.5;const x=k.x-Math.sin(k.heading)*d,z=k.z-Math.cos(k.heading)*d;const m=new THREE.Mesh(gooGeo,vcPhong);m.scale.set(1.75,1,1.75);m.position.set(x,groundY(k)+.05,z);m.rotation.y=R()*6;scene.add(m);goos.push({m,x,z,y:groundY(k),owner:k,t:0});if(goos.length>14){scene.remove(goos[0].m);goos.shift();}k.item=null;if(k.human)SFX.throw();}
-  else if(it==='bee'){const tgt=G.battle?nearestFoe(k):(G.karts.find(o=>o.rank===k.rank-1&&!o.finished)||null);const m=new THREE.Mesh(beeGeo,vcPhong);m.castShadow=true;scene.add(m);
+  else if(it==='bee'){const tgt=G.battle?nearestFoe(k):(G.karts.find(o=>o.rank===k.rank-1&&!o.finished)||(G.fr&&k.human&&G.fr.rabbit.rank<k.rank?G.fr.rabbit:null));if(G.fr&&k.human)G.fr.beeUsed=true;const m=new THREE.Mesh(beeGeo,vcPhong);m.castShadow=true;scene.add(m);
     bees.push({m,owner:k,target:tgt,t:k.idx+3,lat:0,x:k.x,y:k.y+2,z:k.z,life:9});k.item=null;if(k.human){SFX.throw();say(k.pi,tgt?'BEE AWAY → '+tgt.ch.name:'BEE AWAY',.9);}}
   else if(it==='bubble'){k.shieldT=12;k.item=null;if(k.human)SFX.pop();}
   else if(it==='ball'||it==='chappal'){launch(k,it);k.item=null;if(k.human){SFX.throw();say(k.pi,it==='ball'?'BOUNCY BALL!':'BOOMERANG!',.8);}}
@@ -4141,7 +4141,7 @@ function updateKart(k,inp,dt){
   if(k.respawnT>0){k.respawnT-=dt;if(k.respawnT<=0)respawn(k);k.prev=inp;return;}
   if(k.cannon){featCannon(k,dt);k.prev=inp;return;}
   if(k.frozenT>0){k.frozenT-=dt;k.speed=0;k.driftDir=0;k.prev=inp;return;}
-  if(k.rollT>0){k.rollT-=dt;if(k.rollT<=0){const it=itemRoll(k),n=['triple','goo3','ball3','bee3'].includes(it)?3:it==='bag'?8:1;if(!k.item){k.item=it;k.itemN=n;}else{k.item2=it;k.item2N=n;}if(it==='bag')k.bag=null;if(k.human){SFX.box();localBuzz(16);}}}
+  if(k.rollT>0){k.rollT-=dt;if(k.rollT<=0){const it=frItem(k)||itemRoll(k),n=['triple','goo3','ball3','bee3'].includes(it)?3:it==='bag'?8:1;if(!k.item){k.item=it;k.itemN=n;}else{k.item2=it;k.item2N=n;}if(it==='bag')k.bag=null;if(k.human){SFX.box();localBuzz(16);}}}
   let steer=inp.steer,gas=inp.gas,brake=inp.brake;
   if(k.sunT>0){k.stinkT=0;k.paintT=0;k.rainT=0;if(!G.battle&&k.onGround&&k.speed>5){const edge=Math.abs(k.lat||0)-(ROAD-4);if(edge>0){const li=wrapI(k.idx+15),want=Math.atan2(TP[li].x-k.x,TP[li].z-k.z),d=adiff(k.heading,want),w=Math.min(.85,edge*.3);steer=clamp(steer*(1-w)+clamp(-d*2.4,-1,1)*w,-1,1);}}}
   if(k.stinkT>0){k.stinkT-=dt;steer=clamp(steer+Math.sin(G.time*6.5+k.seed)*.6,-1,1);}
@@ -4264,7 +4264,7 @@ function aiInput(k,dt){if(G.battle)return aiBattle(k,dt);
   if(cv>.5&&!k.corner&&k.speed>30){k.corner=true;k.cornerT=0;}
   if(k.corner){k.cornerT+=dt;if(cv<.22){if(k.cornerT>.7&&R()<k.skill*.85){k.boostT=Math.max(k.boostT,k.cornerT>1.6?1:.6);}k.corner=false;}}
   // items
-  if(k.item){k.aiItemT-=dt;if(k.aiItemT<=0){let use=true;
+  if(k.item&&!G.fr){k.aiItemT-=dt;if(k.aiItemT<=0){let use=true;
       if(k.item==='goo'){use=G.karts.some(q=>q!==k&&wrapI(k.idx-q.idx)<30)||k.aiItemT<-6;}
       if(k.item==='bee'&&k.rank===0)use=false;
       if((k.item==='chili'||k.item==='triple')&&cv>.4)use=false;
@@ -4276,7 +4276,7 @@ function aiInput(k,dt){if(G.battle)return aiBattle(k,dt);
 // player has a fair shot at the podium
 const FIRST_TRACK_EASE=.95;
 function rubber(){if(G.battle){for(const k of G.karts)k.rubber=k.human?1:DIFF.battle[diffLvl()]*k.skill;return;}const hs=G.humans_k;if(!hs.length)return;let hp=0;for(const h of hs)hp+=h.progress;hp/=hs.length;const easeFirst=LEVELS[G.level]&&LEVELS[G.level].id==='lava'?FIRST_TRACK_EASE:1;
-  for(const k of G.karts){if(k.human&&!k.finished){k.rubber=1;continue;}const gap=(hp-k.progress)/N;const rb=DIFF.rubber[diffLvl()];k.rubber=clamp(1+gap*.55,rb[0],rb[1])*k.skill*easeFirst;}}
+  for(const k of G.karts){if(k.human&&!k.finished){k.rubber=1;continue;}const gap=(hp-k.progress)/N;const rb=DIFF.rubber[diffLvl()];k.rubber=clamp(1+gap*.55,rb[0],rb[1])*k.skill*easeFirst*frPace(k);}}
 
 // ================= race update =================
 function updateRace(dt){
@@ -4326,7 +4326,7 @@ function afterKarts(dt){
       b.m.lookAt(nx,ny,nz);b.x=nx;b.y=ny;b.z=nz;}
     b.m.position.set(b.x,b.y,b.z);b.m.rotateZ(Math.sin(G.time*30)*.2);
     if(R()<.6)FX.emit(b.x,b.y,b.z,0,0,0,.3,.6,1,.85,.2,.8);
-    for(const k of G.karts){if(k===b.owner||k.respawnT>0)continue;const dx=k.x-b.x,dz=k.z-b.z;if(dx*dx+dz*dz<8&&Math.abs(k.y+1.5-b.y)<3.5){if(hit(k,b.owner)){}done=true;burst(FX,b.x,b.y,b.z,30,20,.5,1.1,1,.8,.2);break;}}
+    for(const k of G.karts){if(k===b.owner||k.respawnT>0)continue;const dx=k.x-b.x,dz=k.z-b.z;if(dx*dx+dz*dz<8&&Math.abs(k.y+1.5-b.y)<3.5){if(hit(k,b.owner)){if(G.fr&&b.owner&&b.owner.human)frHitPop(b.owner,k);}done=true;burst(FX,b.x,b.y,b.z,30,20,.5,1.1,1,.8,.2);break;}}
     if(done){scene.remove(b.m);bees.splice(bI,1);}}
   if(LR.hazard)LR.hazard(dt);if(!G.battle)featTick(dt);strikeTick(dt);projTick(dt);duckTick(dt);extraTick(dt);battleItemTick(dt);sunTick(dt);jumboTick(dt);
   // timers on props
@@ -5760,6 +5760,24 @@ function specialTipWatch(){clearInterval(specTipIv);specTipUnhook();const tip=$(
         t.hidden=false;shownItem=k.item;shownN=k.itemN||0;t0=performance.now();hook();store.set('wheeliefun.seenSpecialTip','1');}
       return;}
     if(k.item!==shownItem||(k.itemN||0)!==shownN||performance.now()-t0>6000)stop();},150);}
+// ---- a brand-new player's first race: gentle and scripted (race 1 of the first cup, one player) ----
+// Three AI instead of seven; the pack starts slow and builds to a touch under normal pace; the
+// player's first item box is always a bee; one "rabbit" car stays ahead so the bee has someone to
+// hit; AI use no specials at all. Everything else about the race (track, controls) is unchanged.
+const FR={keepAI:3,slowT:20,rampT:50,slow:.6,full:.78,rabbit:1.08,rabbitT:30,beeBy:10};
+function isFirstRace(){return !!(G.cup&&G.cup.ci===0&&G.cup.race===0&&G.mode===1&&G.humans.length===1&&!G.battle&&!G.death&&!G.timeTrial&&!G.onlineGrid
+  &&rosterFloor()<4&&!store.get('wheeliefun.firstRaceDone'));}
+function firstRaceSetup(){G.fr=null;if(!isFirstRace())return;const me=G.humans_k[0];if(!me)return;
+  const ai=G.karts.filter(k=>!k.human),keep=ai.slice(0,FR.keepAI);for(const k of ai)if(!keep.includes(k))scene.remove(k.v.root);
+  G.karts=[...keep,me];G.karts.forEach((k,s)=>k.reset(wrapI(-Math.round((10+s*7.2)/SP)),s%2?-5.5:5.5));
+  G.fr={rabbit:keep[0],beeGiven:false,beeUsed:false};}
+function frPace(k){const f=G.fr;if(!f)return 1;const t=G.raceT;
+  // missed the first item boxes? the bee arrives anyway, by ~10s
+  if(k===f.rabbit&&!f.beeGiven&&t>=FR.beeBy){const me=G.humans_k[0];if(me&&!me.item&&me.rollT<=0){f.beeGiven=true;me.item='bee';me.itemN=1;try{SFX.box();}catch(e){}}}
+  if(k===f.rabbit&&!f.beeUsed&&t<FR.rabbitT)return FR.rabbit;
+  return t<FR.slowT?FR.slow:t<FR.rampT?FR.slow+(t-FR.slowT)/(FR.rampT-FR.slowT)*(FR.full-FR.slow):FR.full;}
+function frItem(k){const f=G.fr;if(!f||!k.human||f.beeGiven)return null;f.beeGiven=true;return 'bee';}
+function frHitPop(me,k){say(me.pi,"GOT 'EM! 🐝 "+k.ch.name.toUpperCase()+' GOT STUNG',1.8);try{localBuzz(40);}catch(e){}}
 // ---- keep the cup moving ----
 // what finishing a cup opens up: the next cup and (for players who started with one racer) racers.
 // showCup() unlocks up to cup ci+2, whatever the placing, so "finish the cup" is the honest wording.
@@ -5811,7 +5829,7 @@ function showResults(){G.state='results';engineStop();
     for(const r of show){const ci=CHARS.indexOf(r.k.ch);if(r.i>prev+1)t+='<tr class="gap"><td colspan="5">⋯</td></tr>';prev=r.i;
       t+=`<tr class="${r.k.human?'me':''}${r.i===QUAL_PLACE-1?' cut':''}"><td>${r.i+1}</td><td class="nm"><i style="background:${hexCss(r.k.ch.kart)}"></i>${r.k.ch.name}${r.k.human?(G.humans.length>1?' (P'+(r.k.pi+1)+')':' (you)'):''}</td><td class="t">${(r.k.finished?'':'~')+fmt(est(r.k))}</td><td class="plus">${qual?'+'+(gain[ci]||0):'–'}</td><td class="pts">${G.cup.pts[ci]||0}</td></tr>`;}
     $('#resTable').innerHTML=t;$('#resTable').classList.add('cupRes');$('#standings').innerHTML='';
-    const last=G.cup.race>=G.cup.order.length-1;$('#resBtns').innerHTML=!qual?`<button class="btn" data-act="restart">Try again: ${LV.name}</button><button class="btn ghost" data-act="quit">Quit cup</button>`:last?`<button class="btn" data-act="podium">See the podium</button><button class="btn ghost" data-act="quit">Quit cup</button>`:`<button class="btn" data-act="next">Next race: ${LEVELS[G.cup.order[G.cup.race+1]].name}</button><button class="btn alt" data-act="restart">Redo this race</button><button class="btn ghost" data-act="quit">Quit cup</button>`;document.querySelectorAll('#results .unlockGoal').forEach(e=>e.remove());$('#resRec').insertAdjacentHTML('afterend',unlockGoalHTML());setTimeout(startAutoNext,0);}
+    const last=G.cup.race>=G.cup.order.length-1;$('#resBtns').innerHTML=!qual?`<button class="btn" data-act="restart">Try again: ${LV.name}</button><button class="btn ghost" data-act="quit">Quit cup</button>`:last?`<button class="btn" data-act="podium">See the podium</button><button class="btn ghost" data-act="quit">Quit cup</button>`:`<button class="btn" data-act="next">Next race: ${LEVELS[G.cup.order[G.cup.race+1]].name}</button><button class="btn alt" data-act="restart">Redo this race</button><button class="btn ghost" data-act="quit">Quit cup</button>`;if(G.fr){store.set('wheeliefun.firstRaceDone','1');G.fr=null;}document.querySelectorAll('#results .unlockGoal').forEach(e=>e.remove());$('#resRec').insertAdjacentHTML('afterend',unlockGoalHTML());setTimeout(startAutoNext,0);}
   else{$('#standings').innerHTML='';$('#resBtns').innerHTML=`<button class="btn" data-act="restart">Race again</button><button class="btn alt" data-act="tracks">Change track</button><button class="btn ghost" data-act="reselect">Change racers</button><button class="btn ghost" data-act="quit">Title</button>`;}
   show('results');}
 let cupKarts=[];
