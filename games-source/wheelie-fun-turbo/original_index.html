@@ -5776,7 +5776,9 @@ function firstRaceSetup(){G.fr=null;if(!isFirstRace())return;const me=G.humans_k
 function frTick(){const f=G.fr;if(!f||f.beeGiven||G.raceT<FR.beeBy)return;const me=G.humans_k[0];
   if(me&&!me.item&&me.rollT<=0){f.beeGiven=true;me.item='bee';me.itemN=1;try{SFX.box();}catch(e){}}}
 function frPace(k){const f=G.fr;if(!f)return 1;const t=G.raceT;
-  return t<FR.slowT?FR.slow:t<FR.rampT?FR.slow+(t-FR.slowT)/(FR.rampT-FR.slowT)*(FR.full-FR.slow):FR.full;}
+  // once the player starts lap 2 the pack goes back to normal (catch-up included), easing in over ~6s
+  const me=G.humans_k[0];if(me&&me.lap>=2){if(f.lap2At==null)f.lap2At=t;const e=Math.min(1,(t-f.lap2At)/6);return lerp(f.lap2Pace||FR.full,1,e);}
+  return f.lap2Pace=t<FR.slowT?FR.slow:t<FR.rampT?FR.slow+(t-FR.slowT)/(FR.rampT-FR.slowT)*(FR.full-FR.slow):FR.full;}
 // the bee's target: one car kept 25-80m ahead of the player (ignoring the usual catch-up slowdown)
 // until the bee has been fired and landed, so there is always someone in front to sting
 function frRabbit(k){const f=G.fr;if(!f||k!==f.rabbit||f.stung)return 0;if(f.beeUsed)return G.raceT-f.firedAt<6?.8:0; // let the bee catch it
