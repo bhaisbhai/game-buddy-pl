@@ -60,7 +60,7 @@ describe('helpers', () => {
 
   test('getTrackIdxForCup maps cup + race to the track list (fallback data)', () => {
     T.setApi(null);
-    assert.equal(T.getTrackIdxForCup(0, 0), T.FALLBACK_TRACK_IDS.indexOf('lava'));
+    assert.equal(T.getTrackIdxForCup(0, 0), T.FALLBACK_TRACK_IDS.indexOf('beach'));
     assert.equal(T.getTrackIdxForCup(10, 3), T.FALLBACK_TRACK_IDS.indexOf('rainbow'));
     assert.equal(T.getTrackIdxForCup(99, 99), T.FALLBACK_TRACK_IDS.indexOf('rainbow'), 'out-of-range is clamped');
   });

@@ -4562,7 +4562,7 @@ function aiInput(k,dt){if(G.battle)return aiBattle(k,dt);
 // the opening track (Lava) is most players' first race: AI there runs a touch slower so a new
 // player has a fair shot at the podium
 const FIRST_TRACK_EASE=.95;
-function rubber(){if(G.battle){for(const k of G.karts)k.rubber=k.human?1:DIFF.battle[diffLvl()]*k.skill;return;}const hs=G.humans_k;if(!hs.length)return;let hp=0;for(const h of hs)hp+=h.progress;hp/=hs.length;const easeFirst=LEVELS[G.level]&&LEVELS[G.level].id==='lava'?FIRST_TRACK_EASE:1;
+function rubber(){if(G.battle){for(const k of G.karts)k.rubber=k.human?1:DIFF.battle[diffLvl()]*k.skill;return;}const hs=G.humans_k;if(!hs.length)return;let hp=0;for(const h of hs)hp+=h.progress;hp/=hs.length;const easeFirst=LEVELS[G.level]&&LEVELS[G.level].id===CUPS[0].ids[0]?FIRST_TRACK_EASE:1;
   for(const k of G.karts){if(k.human&&!k.finished){k.rubber=1;continue;}const gap=(hp-k.progress)/N;const rb=DIFF.rubber[diffLvl()];k.rubber=clamp(1+gap*.55,rb[0],rb[1])*k.skill*easeFirst*frPace(k);}}
 
 // ================= race update =================
@@ -4912,7 +4912,7 @@ function strikeTick(dt){for(let n=STRIKES.length-1;n>=0;n--){const s=STRIKES[n];
     if(s.SK){const SK=s.SK;scene.remove(s.m);if(SK.burst)burst(SMOKE,s.x,s.y+1,s.z,22,10,.7,2.4,...SK.burst,6,4);if(SK.sound)SK.sound();
       for(const k of G.karts){if(k.respawnT>0||k.out||k.hyperT>0||k.ghostT>0)continue;if(Math.hypot(k.x-s.x,k.z-s.z)<s.r&&Math.abs(k.y-s.y)<5){k[s.kind+'Hits']=(k[s.kind+'Hits']||0)+1;
         if(SK.gift){if(!k.item){k.item=itemRoll(k);k.itemN=['triple','goo3','ball3','bee3'].includes(k.item)?3:k.item==='bag'?8:1;}else if(!k.item2){k.item2=itemRoll(k);k.item2N=1;}if(k.human){SFX.box();localBuzz(16);}}
-        else if(SK.splat){if(splat(k,SK.splatT||2.6,SK.splat)){k.speed*=SK.slow||.65;if(SK.steal){k.item=null;k.item2=null;}}}else if(hit(k,null)){k.vy=SK.pop||6;k.onGround=false;}}}STRIKES.splice(n,1);continue;}
+        else if(SK.splat){if(splat(k,SK.splatT||2.6,SK.splat)){k.speed*=SK.slow||.65;if(SK.steal&&!(G.fr&&k.human)){k.item=null;k.item2=null;}}}else if(hit(k,null)){k.vy=SK.pop||6;k.onGround=false;}}}STRIKES.splice(n,1);continue;}
     if(s.kind==='poo'){if(s.m)scene.remove(s.m);burst(SMOKE,s.x,s.y+1,s.z,26,12,.8,2.6,.42,.27,.12,8,4);noise(.5,220,.45,0,null,.6,.4);for(const k of G.karts){if(k.respawnT>0||k.out||k.hyperT>0||k.ghostT>0)continue;if(Math.hypot(k.x-s.x,k.z-s.z)<s.r&&Math.abs(k.y-s.y)<5){if(brownSplat(k,3)){k.speed*=.6;k.pooed=(k.pooed||0)+1;if(k.human)say(k.pi,'SPLAT! GORILLA POO!',1.2);}}}STRIKES.splice(n,1);continue;}
     if(s.kind==='coco'){if(s.m)scene.remove(s.m);burst(FX,s.x,s.y+1,s.z,30,16,.5,.9,.95,.9,.8,20,4);tone(220,.15,'square',.2,.5);}
     for(const k of G.karts){if(k.respawnT>0||k.out)continue;if(Math.hypot(k.x-s.x,k.z-s.z)<(s.r||5.6)&&Math.abs(k.y-s.y)<5){if(hit(k,null)){k.vy=s.kind==='spoon'?4:9;k.onGround=false;k.strikes=(k.strikes||0)+1;if(k.human)say(k.pi,{bolt:'ZAPPED!',rocket:'BANGER!',spoon:'SPLAT! SPOON!',meteor:'METEOR!',snow:'SNOWBALL!',cooker:'FIZZ BOMB!',bomb:'KABOOM!',coco:'BONK! COCONUT!'}[s.kind],1);if(s.kind==='cooker')k.cooked=(k.cooked||0)+1;}}}
@@ -6007,7 +6007,7 @@ function trackSVG(L){const c=new THREE.CatmullRomCurve3(L.RAW.map(p=>new THREE.V
   return`<svg viewBox="0 0 200 94"><defs><linearGradient id="g${L.id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${hexCss(L.atmo.sky[0])}"/><stop offset="1" stop-color="${hexCss(L.atmo.sky[2])}"/></linearGradient></defs><rect width="200" height="94" fill="url(#g${L.id})"/><polyline points="${pts}" fill="none" stroke="#1a0f2b" stroke-width="9" stroke-linejoin="round" opacity=".7"/><polyline points="${pts}" fill="none" stroke="${u[0]}" stroke-width="4" stroke-linejoin="round"/><polyline points="${pts}" fill="none" stroke="${u[1]}" stroke-width="1.4" stroke-dasharray="3 5" stroke-linejoin="round"/></svg>`;}
 const TROPHY=c=>`<path d="M18 8h28v10c0 10-6 17-14 17S18 28 18 18z" fill="${c}"/><path d="M18 12H9c0 8 4 13 11 14M46 12h9c0 8-4 13-11 14" stroke="${c}" stroke-width="4" fill="none"/><rect x="29" y="34" width="6" height="10" fill="${c}"/><rect x="20" y="44" width="24" height="7" rx="2" fill="${c}"/><rect x="16" y="51" width="32" height="6" rx="2" fill="#5a3a20"/><path d="M25 14c0 6 2 10 5 12" stroke="#fff" stroke-width="2.5" fill="none" opacity=".6"/>`;
 const TCOL=['#ffc23a','#d8dde8','#d08a4a'];
-const CUPS=[{id:'wheeldeal',name:'Wheel Deal Cup',ids:['lava','mumbai','himalaya','sky'],col:'#2c1846'},{id:'home',name:'Hometown Cup',ids:['manteca','streatham','kitchen','bathroom'],col:'#3a2a10'},{id:'wild',name:'Wild Cup',ids:['dino','jungle','space','aztec'],col:'#10301a'},{id:'holiday',name:'Holiday Cup',ids:['beach','winter','pinball','reef'],col:'#102a3a'},{id:'adventure',name:'Adventure Cup',ids:['forest','starship','glider','random'],col:'#2a1a3a'},{id:'spooky',name:'Spooky Cup',ids:['pumpkins','scary','doomtemple','cookie'],col:'#1a0a1a'},{id:'everyday',name:'Everyday Cup',ids:['supermarket','farm','connecticut','seasons'],col:'#1a3a2a'},{id:'bonkers',name:'Bonkers Cup',ids:['cats','circus','gut','collider'],col:'#3a1a2a'}];
+const CUPS=[{id:'wheeldeal',name:'Wheel Deal Cup',ids:['beach','mumbai','himalaya','sky'],col:'#2c1846'},{id:'home',name:'Hometown Cup',ids:['manteca','streatham','kitchen','bathroom'],col:'#3a2a10'},{id:'wild',name:'Wild Cup',ids:['dino','jungle','space','aztec'],col:'#10301a'},{id:'holiday',name:'Holiday Cup',ids:['lava','winter','pinball','reef'],col:'#102a3a'},{id:'adventure',name:'Adventure Cup',ids:['forest','starship','glider','random'],col:'#2a1a3a'},{id:'spooky',name:'Spooky Cup',ids:['pumpkins','scary','doomtemple','cookie'],col:'#1a0a1a'},{id:'everyday',name:'Everyday Cup',ids:['supermarket','farm','connecticut','seasons'],col:'#1a3a2a'},{id:'bonkers',name:'Bonkers Cup',ids:['cats','circus','gut','collider'],col:'#3a1a2a'}];
 // saves from before the rename (any '<oldname>kart.' key) move across once, so best times and trophies are kept
 (()=>{try{if(window.WFSave.storage.getItem('wheeliefun.moved'))return;const cupIds=new Set(CUPS.map(c=>c.id));const keys=[];for(let n=0;n<window.WFSave.storage.length;n++)keys.push(window.WFSave.storage.key(n));
   for(const k of keys){const m=/^[a-z]+kart\.(.*)$/.exec(k);if(!m)continue;let rest=m[1];
@@ -6081,7 +6081,8 @@ function specialTipWatch(){clearInterval(specTipIv);specTipUnhook();const tip=$(
 // Three AI instead of seven; the pack starts slow and builds to a touch under normal pace; the
 // player's first item box is always a bee; one "rabbit" car stays ahead so the bee has someone to
 // hit; AI use no specials at all. Everything else about the race (track, controls) is unchanged.
-const FR={keepAI:3,slowT:20,rampT:50,slow:.6,full:.78,rabbit:1.08,rabbitT:30,beeBy:10};
+// Sunny Beach opens the first cup (straightest start, gentlest lap); its seagulls can't steal the bee here.
+const FR={keepAI:3,slowT:20,rampT:50,slow:.6,full:.7,rabbit:1.08,rabbitT:30,beeBy:10};
 function isFirstRace(){return !!(G.cup&&G.cup.ci===0&&G.cup.race===0&&G.mode===1&&G.humans.length===1&&!G.battle&&!G.death&&!G.timeTrial&&!G.onlineGrid
   &&rosterFloor()<4&&!store.get('wheeliefun.firstRaceDone'));}
 function firstRaceSetup(){G.fr=null;if(!isFirstRace())return;const me=G.humans_k[0];if(!me)return;

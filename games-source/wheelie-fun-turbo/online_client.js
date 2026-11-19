@@ -78,10 +78,10 @@
   ];
 
   const FALLBACK_CUPS = [
-    { id: 'wheeldeal', name: 'Wheel Deal Cup', ids: ['lava', 'mumbai', 'himalaya', 'sky'], col: '#2c1846' },
+    { id: 'wheeldeal', name: 'Wheel Deal Cup', ids: ['beach', 'mumbai', 'himalaya', 'sky'], col: '#2c1846' },
     { id: 'home', name: 'Hometown Cup', ids: ['manteca', 'streatham', 'kitchen', 'bathroom'], col: '#3a2a10' },
     { id: 'wild', name: 'Wild Cup', ids: ['dino', 'jungle', 'space', 'aztec'], col: '#10301a' },
-    { id: 'holiday', name: 'Holiday Cup', ids: ['beach', 'winter', 'pinball', 'reef'], col: '#102a3a' },
+    { id: 'holiday', name: 'Holiday Cup', ids: ['lava', 'winter', 'pinball', 'reef'], col: '#102a3a' },
     { id: 'adventure', name: 'Adventure Cup', ids: ['forest', 'starship', 'glider', 'random'], col: '#2a1a3a' },
     { id: 'spooky', name: 'Spooky Cup', ids: ['pumpkins', 'scary', 'doomtemple', 'cookie'], col: '#1a0a1a' },
     { id: 'everyday', name: 'Everyday Cup', ids: ['supermarket', 'farm', 'connecticut', 'seasons'], col: '#1a3a2a' },
