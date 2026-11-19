@@ -11064,7 +11064,7 @@ function updateRace(dt){
     if(G.cd<=3&&n!==G.lastCd&&n>0){G.lastCd=n;for(let p=0;p<G.humans.length;p++)say(p,String(n),.85,'cd');SFX.beep(false);}
     for(const k of G.humans_k){const inp=readInput(k.pi);if(inp.gas&&k.gasT<0)k.gasT=G.cd;if(!inp.gas)k.gasT=-1;}
     if(G.cd<=0){G.state='race';for(let p=0;p<G.humans.length;p++)say(p,'GO!',1,'cd');SFX.beep(true);
-      for(const k of G.karts){if(k.human){if(k.gasT>=0&&k.gasT<.6){k.boostT=1.3;say(k.pi,'ROCKET START!',1.1);SFX.boost();}else if(k.gasT>1.3){k.stallT=.8;say(k.pi,'STALLED…',.9);}}else if(R()<.5)k.boostT=rr(.5,1.1);}}
+      for(const k of G.karts){if(k.human){if(k.gasT>=0&&k.gasT<.6){k.boostT=1.3;say(k.pi,'ROCKET START!',1.1);SFX.boost();}else if(k.gasT>1.3){k.stallT=.8;say(k.pi,'STALLED…',.9);}}else{const r=R();if(r<.3)k.boostT=rr(.8,1.1);else if(r<.55)k.boostT=rr(.25,.5);else if(r<.85){}else k.stallT=rr(.3,.6);}}}
     for(const k of G.karts)k.prev=k.human?readInput(k.pi):{};
     rankKarts();return;}
   G.raceT+=dt;
@@ -12575,7 +12575,7 @@ function specialTipWatch(){clearInterval(specTipIv);specTipUnhook();const tip=$(
 // player's first item box is always a bee; one "rabbit" car stays ahead so the bee has someone to
 // hit; AI use no specials at all. Everything else about the race (track, controls) is unchanged.
 // Sunny Beach opens the first cup (straightest start, gentlest lap); its seagulls can't steal the bee here.
-const FR={keepAI:3,slowT:15,rampT:40,slow:.72,full:.8,after:1,earlyBoxF:.05,grab:9};
+const FR={keepAI:4,slowT:15,rampT:40,slow:.72,full:.8,after:1,earlyBoxF:.05,grab:9};
 function isFirstRace(){return !!(G.cup&&G.cup.ci===0&&G.cup.race===0&&G.mode===1&&G.humans.length===1&&!G.battle&&!G.death&&!G.timeTrial&&!G.onlineGrid
   &&rosterFloor()<4&&!store.get('wheeliefun.firstRaceDone'));}
 function frBoxesClear(){if(!G.frBoxes)return;for(const b of G.frBoxes){scene.remove(b.m);if(b.m.parent)b.m.parent.remove(b.m);const j=boxes.indexOf(b);if(j>=0)boxes.splice(j,1);}G.frBoxes=null;}
@@ -12613,13 +12613,14 @@ function showCupUnlocked(u){requestAnimationFrame(()=>document.querySelectorAll(
   sub.insertAdjacentHTML('afterend',`<div class="unlockGoal done" id="cupUnlock">🎉 Unlocked: ${unlockList(u)}</div>`);}
 // results screen counts down into the next race (or the podium) unless the player does anything
 const AUTO_NEXT_S=5;let autoNextIv=0;
-function autoNextKey(e){if(!e.repeat)cancelAutoNext();}
-function cancelAutoNext(){if(!autoNextIv)return;clearInterval(autoNextIv);autoNextIv=0;removeEventListener('keydown',autoNextKey,true);removeEventListener('pointerdown',cancelAutoNext,true);
+function autoNextKey(e){if(e.code==='Escape')cancelAutoNext();}
+function autoNextTap(e){if(e.target&&e.target.closest&&e.target.closest('#results .card'))cancelAutoNext();}
+function cancelAutoNext(){if(!autoNextIv)return;clearInterval(autoNextIv);autoNextIv=0;removeEventListener('keydown',autoNextKey,true);removeEventListener('pointerdown',autoNextTap,true);
   const b=$('#autoNextBtn');if(b){b.textContent=b.dataset.base;b.removeAttribute('id');}}
 function startAutoNext(){cancelAutoNext();if(G.onlineGrid||G.state!=='results')return;const b=$('#resBtns [data-act="next"],#resBtns [data-act="podium"]');if(!b)return;
   b.id='autoNextBtn';b.dataset.base=b.textContent;let n=AUTO_NEXT_S;const paint=()=>{b.textContent=b.dataset.base+' ('+n+')';};paint();
   // ignore input for a moment: a key still held from the finish line shouldn't count as "stay here"
-  setTimeout(()=>{if(autoNextIv){addEventListener('keydown',autoNextKey,true);addEventListener('pointerdown',cancelAutoNext,true);}},700);
+  setTimeout(()=>{if(autoNextIv){addEventListener('keydown',autoNextKey,true);addEventListener('pointerdown',autoNextTap,true);}},700);
   autoNextIv=setInterval(()=>{if(G.state!=='results'||!b.isConnected){cancelAutoNext();return;}n--;if(n<=0){cancelAutoNext();b.click();}else paint();},1000);}
 // first-race driving tip (bottom-right): visible for the countdown and the first few seconds of driving,
 // then fades; gone at once if the player leaves the race first
@@ -12650,7 +12651,7 @@ function showResults(){G.state='results';engineStop();
     for(const r of show){const ci=CHARS.indexOf(r.k.ch);if(r.i>prev+1)t+='<tr class="gap"><td colspan="5">⋯</td></tr>';prev=r.i;
       t+=`<tr class="${r.k.human?'me':''}${r.i===QUAL_PLACE-1?' cut':''}"><td>${r.i+1}</td><td class="nm"><i style="background:${hexCss(r.k.ch.kart)}"></i>${r.k.ch.name}${r.k.human?(G.humans.length>1?' (P'+(r.k.pi+1)+')':' (you)'):''}</td><td class="t">${(r.k.finished?'':'~')+fmt(est(r.k))}</td><td class="plus">${qual?'+'+(gain[ci]||0):'–'}</td><td class="pts">${G.cup.pts[ci]||0}</td></tr>`;}
     $('#resTable').innerHTML=t;$('#resTable').classList.add('cupRes');$('#standings').innerHTML='';
-    const last=G.cup.race>=G.cup.order.length-1;$('#resBtns').innerHTML=!qual?`<button class="btn" data-act="restart">Try again: ${LV.name}</button><button class="btn ghost" data-act="quit">Quit cup</button>`:last?`<button class="btn" data-act="podium">See the podium</button><button class="btn ghost" data-act="quit">Quit cup</button>`:`<button class="btn" data-act="next">Next race: ${LEVELS[G.cup.order[G.cup.race+1]].name}</button><button class="btn alt" data-act="restart">Redo this race</button><button class="btn ghost" data-act="quit">Quit cup</button>`;if(G.fr){store.set('wheeliefun.firstRaceDone','1');G.fr=null;}document.querySelectorAll('#results .unlockGoal').forEach(e=>e.remove());$('#resRec').insertAdjacentHTML('afterend',unlockGoalHTML());setTimeout(startAutoNext,0);}
+    const last=G.cup.race>=G.cup.order.length-1;$('#resBtns').innerHTML=!qual?`<button class="btn" data-act="restart">Try again: ${LV.name}</button><button class="btn ghost" data-act="quit">Quit cup</button>`:last?`<button class="btn" data-act="podium">See the podium</button><button class="btn ghost" data-act="quit">Quit cup</button>`:`<button class="btn" data-act="next">Next race: ${LEVELS[G.cup.order[G.cup.race+1]].name}</button><button class="btn alt" data-act="restart">Redo this race</button><button class="btn ghost" data-act="quit">Quit cup</button>`;if(G.fr){if(qual)store.set('wheeliefun.firstRaceDone','1');G.fr=null;}document.querySelectorAll('#results .unlockGoal').forEach(e=>e.remove());$('#resRec').insertAdjacentHTML('afterend',unlockGoalHTML());setTimeout(startAutoNext,0);}
   else if(G.timeTrial){if(G.humans.length===1)submitLapTime(LV.id,me.finishTime);const tt=window.WFV2?WFV2.saveTimeTrialFinish(LV,me.finishTime,G.humans[0]):null;const stT=window.WFV2&&WFV2.GHOSTS.lastStaffTime;$('#resTitle').textContent=tt&&tt.beatStaff?'★ BEAT THE DEV STAFF GHOST!':'⏱ '+LV.name+' Time Trial';$('#standings').innerHTML=`<div style="margin:8px 0;font-size:14px;color:var(--cream)">Total Time: <b style="color:var(--ember)">${fmt(me.finishTime)}</b>${stT?` · Dev Staff Ghost: <b style="color:var(--lagoon)">${fmt(stT)}</b>`:''}${tt&&tt.beatPB?' · <span class="qual ok">NEW PERSONAL BEST!</span>':''}</div>`;$('#resBtns').innerHTML=`<button class="btn" data-act="restart">Retry Time Trial</button><button class="btn alt" data-act="copyGhost" id="copyGhostBtn">Copy Ghost Code</button><button class="btn alt" data-act="importGhost">Import Rival Ghost</button><button class="btn ghost" data-act="tracks">Change track</button><button class="btn ghost" data-act="quit">Title</button>`;}else{$('#standings').innerHTML='';$('#resBtns').innerHTML=`<button class="btn" data-act="restart">Race again</button><button class="btn alt" data-act="tracks">Change track</button><button class="btn ghost" data-act="reselect">Change racers</button><button class="btn ghost" data-act="quit">Title</button>`;}
   show('results');}
 let cupKarts=[];
