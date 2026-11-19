@@ -4264,7 +4264,7 @@ function aiInput(k,dt){if(G.battle)return aiBattle(k,dt);
   if(cv>.5&&!k.corner&&k.speed>30){k.corner=true;k.cornerT=0;}
   if(k.corner){k.cornerT+=dt;if(cv<.22){if(k.cornerT>.7&&R()<k.skill*.85){k.boostT=Math.max(k.boostT,k.cornerT>1.6?1:.6);}k.corner=false;}}
   // items
-  if(k.item&&!G.fr){k.aiItemT-=dt;if(k.aiItemT<=0){let use=true;
+  if(k.item&&!(G.fr&&!frNormal())){k.aiItemT-=dt;if(k.aiItemT<=0){let use=true;
       if(k.item==='goo'){use=G.karts.some(q=>q!==k&&wrapI(k.idx-q.idx)<30)||k.aiItemT<-6;}
       if(k.item==='bee'&&k.rank===0)use=false;
       if((k.item==='chili'||k.item==='triple')&&cv>.4)use=false;
@@ -4313,7 +4313,7 @@ function afterKarts(dt){
         if((A.human||B.human)&&(A.bumpCD<=0)){SFX.bump();A.bumpCD=.4;}}}}
   // pickups
   for(const k of G.karts){if(k.respawnT>0)continue;
-    for(const b of boxes){if(b.t>0||(G.fr&&!k.human))continue;const dx=b.x-k.x,dz=b.z-k.z;if(dx*dx+dz*dz<(G.fr&&k.human?FR.grab*FR.grab:9)&&Math.abs(b.y-k.y-1.5)<3){b.t=3.5;b.m.visible=false;burst(FX,b.x,b.y,b.z,20,14,.5,1,.6,.9,1);
+    for(const b of boxes){if(b.t>0||(G.fr&&!k.human&&!G.fr.beeGiven))continue;const dx=b.x-k.x,dz=b.z-k.z;if(dx*dx+dz*dz<(G.fr&&k.human?FR.grab*FR.grab:9)&&Math.abs(b.y-k.y-1.5)<3){b.t=3.5;b.m.visible=false;burst(FX,b.x,b.y,b.z,20,14,.5,1,.6,.9,1);
         if((!k.item||!k.item2)&&k.rollT<=0){k.rollSlot=k.item?2:1;k.rollT=k.human?1.1:.6;if(k.human)SFX.item();}}}
     for(const c of coins){if(c.t>0)continue;const dx=c.x-k.x,dz=c.z-k.z;if(dx*dx+dz*dz<7&&Math.abs(H[c.i]-k.y)<3){c.t=12;c.m.visible=false;k.coins=Math.min(10,k.coins+1);if(k.human)SFX.coin();burst(FX,c.x,H[c.i]+1.5,c.z,8,8,.35,.8,1,.85,.2);}}
     for(let gI=goos.length-1;gI>=0;gI--){const g=goos[gI];if(g.owner===k&&g.t<.6)continue;const dx=g.x-k.x,dz=g.z-k.z;if(g.kind==='mine'){if(g.t>1.2&&dx*dx+dz*dz<16&&(g.y==null||Math.abs(g.y-k.y)<4)){goos.splice(gI,1);mineBoom(g);}continue;}if(dx*dx+dz*dz<(g.kind==='tiffin'?6.2:18.5)&&k.onGround&&(g.y==null||Math.abs(g.y-k.y)<3)){if(g.kind==='tiffin'){stink(k);scene.remove(g.m);goos.splice(gI,1);continue;}if(hit(k,g.owner)){scene.remove(g.m);goos.splice(gI,1);burst(SMOKE,g.x,k.y+.5,g.z,14,8,.6,1.6,.45,.8,.2,8,4);}}}}
@@ -5785,6 +5785,8 @@ function frPace(k){const f=G.fr;if(!f)return 1;const t=G.raceT;
 function frRabbit(k){const f=G.fr;if(!f||k!==f.rabbit||f.stung||(!f.beeGiven&&G.raceT>40))return 0;if(f.beeUsed)return G.raceT-f.firedAt<6?.8:0; // let the bee catch it
   const me=G.humans_k[0];if(!me)return 0;const d=(k.progress-me.progress)*SP;
   return d<10?1.5:d<25?1.25:d<50?1.08:d<80?1:d<130?.75:.4;}
+// first race, lap 2 on: everything (pace, AI specials) is back to normal
+function frNormal(){const me=G.humans_k&&G.humans_k[0];return !!(me&&me.lap>=2);}
 function frItem(k){const f=G.fr;if(!f||!k.human||f.beeGiven)return null;f.beeGiven=true;return 'bee';}
 function frHitPop(me,k){if(G.fr)G.fr.stung=true;say(me.pi,"GOT 'EM! 🐝 "+k.ch.name.toUpperCase()+' GOT STUNG',1.8);try{localBuzz(40);}catch(e){}}
 // ---- keep the cup moving ----
