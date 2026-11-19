@@ -108,10 +108,10 @@ TRACK_IDS = [
 ]
 
 CUPS = [
-    {"id": "wheeldeal", "name": "Wheel Deal Cup", "ids": ["lava", "mumbai", "himalaya", "sky"]},
+    {"id": "wheeldeal", "name": "Wheel Deal Cup", "ids": ["beach", "mumbai", "himalaya", "sky"]},
     {"id": "home", "name": "Hometown Cup", "ids": ["manteca", "streatham", "kitchen", "bathroom"]},
     {"id": "wild", "name": "Wild Cup", "ids": ["dino", "jungle", "space", "aztec"]},
-    {"id": "holiday", "name": "Holiday Cup", "ids": ["beach", "winter", "pinball", "reef"]},
+    {"id": "holiday", "name": "Holiday Cup", "ids": ["lava", "winter", "pinball", "reef"]},
     {"id": "adventure", "name": "Adventure Cup", "ids": ["forest", "starship", "glider", "random"]},
     {"id": "spooky", "name": "Spooky Cup", "ids": ["pumpkins", "scary", "doomtemple", "cookie"]},
     {"id": "everyday", "name": "Everyday Cup", "ids": ["supermarket", "farm", "connecticut", "seasons"]},

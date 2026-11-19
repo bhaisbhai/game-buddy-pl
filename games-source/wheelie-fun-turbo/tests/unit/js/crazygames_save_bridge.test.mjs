@@ -286,7 +286,8 @@ live('on CrazyGames with the SDK blocked (ad blocker), the game still boots and 
   await page.waitForFunction(() => !!window.__tiki, null, { timeout: 15000 });
   // a brand-new player has one racer, so 1 Player goes straight into the first cup
   await page.evaluate(() => window.__tiki.ev('document.querySelector(\'[data-act="p1"]\').click();'));
-  assert.equal(await page.evaluate(() => window.__tiki.ev('G.state')), 'countdown');
+  // the first track may still be loading for a moment
+  await page.waitForFunction(() => window.__tiki.ev('G.state') === 'countdown', null, { timeout: 60000 });
   assert.equal(await page.evaluate(() => window.__tiki.ev('G.cup.ci')), 0);
   assert.equal(await page.evaluate(() => window.WFSave.onCrazyGames), true);
   assert.equal(await page.evaluate(() => window.WFSave.sdkReady), false);
