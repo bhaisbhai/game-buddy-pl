@@ -1,20 +1,55 @@
 {
   "slug": "bournemouth",
-  "updated": "2026-11-20T00:06:30.537Z",
+  "updated": "2026-11-20T14:38:48.989Z",
   "articles": [
+    {
+      "title": "Wimborne's Diaz on trial at Cherries with plenty of interest in Chilean",
+      "source": "Bournemouth Echo",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZlNaQ2tvVE8yM3JVaW1DbDlmY1pIbmlkZ2J4YnpwUUlXeXZoQWJDZF81OFYtRzJmSUpnelZzajAyaFdRLWdIeklSUnJIbFdiQ2MxbjcyYnZQekljZ2xBQmFCWkZKREdJY3hEb0JXdmU3NHQta1BoeUxJdl9kSDBBbUFzUHExTVdTcHluaFg2Z2h4Q2I0eW40?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 10:00:00 GMT",
+      "category": "rumour"
+    },
+    {
+      "title": "Marco Rose: I was a nasty, average player — but I took care of locker room",
+      "source": "The Times",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbnBnZGVGWFBEVWtHZUN0aTNIRGd3M3NGM1B3VHBQSnhjSXU4MnBYUFhiUVNHUHVobXVteWFvMUlYcVkwVlZya0cyNWtYRzV5OVZIclpqVUlKQ2VpQ1Z5SW5JdW5BR0hRelE0bVBGWmd5S3FneFBQSmlUZk1zdmZjcHNrM0w4aXp0MzR6YVNNUEVpcXpxbldPd3RZZw?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Dundee January transfer latest as link with Premier League high-flyers takes step forward",
+      "source": "The Courier",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQV3pyQzRKWThzSzNJcF9aY1NNU0Q4TkhJRjFjV0pFVUN6eWpKZVZzdC1VZmZCVXI3Y3QxOEVPN2c5QXlNb0dSenFqSWsxU0ktVS1NT1hUNmNSellFdkJ3bmh4ZUo3UEw3SUpEQ3RlbkNzZlExSk1PbXBJVHFrbE12ZDVpOXpvSkJxXzE3cW1ycGNwYWJXUVYtMGlJai1MYmZ2VWhSQVFVU3ZNTW1v?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 06:00:18 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "'We Know How It Works': Head Coach Makes Transfer Claim Amid Chelsea Midfielder Interest",
+      "source": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcjNmMGpQR0doMnhfcEdNM29wZWJUMUVKYlFzaEJSNVlpMHp5cldNY213dFl6T0xIc3drWERhSEd0ZnRpUUYzR3JlOHZDTU5XQXNveU5JNTh5RXQ2OTk0cFlRS1R4cGJ2TEp6ckVWa1JQZzZJWENKVHc5REk4UjQzZWFn?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 12:34:55 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Marco Rose reveals Tottenham Hotspur sounded him out over the interim job",
+      "source": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWVRMaEk3T0ppYWFPODZfU0ZHQ3o3YWlRSG90Z1lrZUlXbENEbnd5ZzlsTHhoUm1TVmU2OFFCcUx3b1NXRW9iWGRNNnZLYWJvdTU2X051dFhSMEs3UzdtdDlpcURYWUYydXRJRlpWVUh2eVlPWGRLZ3I5OW9vS3FOMlpoV2NrbWFxaURoX0lR?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 00:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Preview: Bournemouth vs Nottingham Forest - prediction, team news, lineups",
+      "source": "Sports Mole",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNa1RhM3JnVlJSODFQeGkzckxacml5ckFmNk51aEdYQzBHVkYxTTdDTXlBaENVa3FKSTVHSEkzVjlOOWZGbTktWWpVYWE1dEpJRlRHMUZSdV94enY1Tk53MGRnZldJTHpTS01VYnlPLXIxSlIwN294ZERvdmZpT09QWFk1Y2RhZXp5Y2QwUkZkN1FHUjZvLVNzNkZoSEVtM19lZE0zSUJyX0g4RC1zdmJ0V1RaU1N0eHMzLWdtTjFfbkJ4QW11?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 21:00:00 GMT",
+      "category": "match"
+    },
     {
       "title": "Eli Junior Kroupi stance on Arsenal transfer revealed as Bournemouth make decision for January window",
       "source": "Metro.co.uk",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPOW9LRUhNZG14MjQwU1FhN1l4ZkNPLURfNzdmdll4N3NEQ1Q1RHE0dS12SFE4XzJicVQxYU4ya3ZQeHlhc24xZGREdm5YdDdKSVdfM3ZCM1FlMDNtMk9xcGVvQmVLV0tWUnFGVjkxbjJBc01jUVdjTjhMX3BKMWVpalFBQ3A0NEpzU182b2p1bGNMUWdKMk1tRExkaElFdDVkNkdkWkRockZjUlFXc2J0ZUtuVXpIZ3g5WFhZRVM2MXNKWFZVaFBWQ29GUFDSAdIBQVVfeXFMUERNanloWTVlVGNTdW5jMUVQX0t5emI4dFYyNmU2VFZRdFVtY21uYjRKOWhzSmJKZlF2RWJUamNza1VZUU1aQjd2S0Rrdm43OTBZNUlLT0dqanlxbUJRSEZXNW9wNGpvUVR5cDcwQ0xKY3R2V1E0c0xfZUsyOFBzTU52UmdjOU11dUdrYzdpX3NkSjZPWjhwYk0yRU9hRFB6WVIzSnhnNnRzdkZ1NndVOGZWc3hYblJEX0kwZmxia3BmVEZsaExCOUdsS1JDbEE5T1dR?oc=5",
       "pubDate": "Wed, 18 Nov 2026 16:33:00 GMT",
       "category": "transfer"
-    },
-    {
-      "title": "Football fan banned for three years after pitch invasion at Bournemouth stadium",
-      "source": "Bournemouth Echo",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbkc0UzZaZEp4UTl1dUF3U0xvbDROTHJIZlFSQzl5XzRFLVREbDU1LUdJel93SDdZU0kydHdmekdfWFVIbFlMaWtIVFVNWkZ5RW5RSDB2ZjV1d0drck1KbXZIckRiYjQ3VWQxTzhLWjhoemdCbjBPVHQ1c3dGZEY1OFkwLV85M194dnlLR2Z3VXpKdFkzTEFURVYyOA?oc=5",
-      "pubDate": "Thu, 19 Nov 2026 11:05:43 GMT",
-      "category": "general"
     },
     {
       "title": "Bournemouth Trip Moves For Sky",
@@ -24,18 +59,25 @@
       "category": "general"
     },
     {
-      "title": "England star told to snub Chelsea and join 'bigger' club Arsenal",
-      "source": "Metro.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYjlqbnR3M0tzMmJiRGRzTnF0WjltOWxNemdSSXdGNFllQS05NjhfdWloenkxbWtpMkhlSmlmc3FrUFJJb21IdWp2dExCNEJjZXVDU1g4NVJHM2RHSFBMaGtvRW03cE83YXN6S3k2U2Rsc2JBMnpFdmlnNFI4VFB3Z2N6YlhieEtadnFmRlB3MnNOcFR3aHVwWms3Sk_SAaIBQVVfeXFMT2xlM1l3dHZKZThVWkVGNmFqZHZvTVN0dnJqcG80S2NRMjNJbG9vcDZNTUtYak5MemszUzRlRjZqaERzVXlwaU10VjNJUUFDclVDT3VtdGd5QnRBWHlXcTl2TDJFclR6aXQ0cmdSam43T1hvcDZTWUh4cFN3Yzh1QXBWQ0EyX2d2RVB2cWJRU2ZucTRuV1dZR25sWWtDUXlzTTVR?oc=5",
-      "pubDate": "Tue, 17 Nov 2026 16:35:00 GMT",
+      "title": "AFC Bournemouth Scores & Latest Results Today",
+      "source": "LiveScore",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1yczd3WXNiWk1YXzBIUU9iM2JjYU5JZmIwYklZQ3k2NU5BRWJCZjJyNU5YZVJodGM2VGNrQUhVRVJyczZ4X0hBS055UGk1VU4yelBqOEc4TXY5RzNQanFHNWdqZGh1M0FjSmhpS2tBZUZuUzFPZmJ2RnlqcjJVQQ?oc=5",
+      "pubDate": "Tue, 12 Apr 2022 05:58:24 GMT",
       "category": "general"
     },
     {
-      "title": "Arsenal still in for Bournemouth January signing",
-      "source": "Daily Cannon",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8yNUFhMHE0X0FueGVMdG9tN1FxcWVJdHYzNkp6VHpOQVA2bXhLT1pwdGF0bDlTWXhRbTdvTEozX3VmajdNeVNxTl8zVWlLNk9rbDc3RDctZ1U2UVFySmlaemNZV2loT1Y0cmNpaUlHSVFsS2ltUW0w?oc=5",
-      "pubDate": "Thu, 19 Nov 2026 11:31:00 GMT",
-      "category": "transfer"
+      "title": "Rose 'can't change' Scott rumours but midfielder is 'committed' to Cherries",
+      "source": "Bournemouth Echo",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNc2FsZUp6Y09KMGRxY2h5VVR5ZlNWOHkwV3M1cnlpY29qV1ZhM0JpWkRWVUowU3ZyUEhmMTF1LW1oemM1S0VCSHJEak5lTXBqSThMYVhlVkx2MTlnX0lqZHN3NkRvbXJyUUJkVzJlc3R1VzVoZ3ZGMXFIbU1kUUEtOTVBcjBIeFUxM2tRaGtCbFdaenY1cFJBLTk0VHRYajMzLVlV?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 00:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Where should £100m Arsenal, Chelsea and Liverpool target Alex Scott go if Bournemouth sell?",
+      "source": "The Mirror",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdWhfeVlvZXNBZWpyTkgxY3k4UERrbjZKeHBCQldnaktuV1AzQmNOaHp1cm1HNVBVS0dnZFU3T2JPU28xemJ6V2pYQzFEbmE0ajFmUDR5bjlfcWtfWi0xLUpBU2hwbzFyVnZySVR4eEI0X2dBYWJ5V1R1anNRUmpGeXdBRnBMUlJjR1ZteUVmRUNjVTJxeDJfbWxxWXV2eEtF?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 17:16:00 GMT",
+      "category": "rumour"
     },
     {
       "title": "Rose responds to reports of Arsenal, Chelsea and Liverpool interest in Scott",
@@ -45,67 +87,25 @@
       "category": "rumour"
     },
     {
-      "title": "Just in: Arsenal battle PSG for £100m-rated France international",
-      "source": "CaughtOffside",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS1J2T2QxN2d2ZER6SGZCcTZMQm5iTlBnLWhhSGtnX0FlcHhyY3VKMUt0OU01T1kwV3RPUGo1OWFZUHFWaC1PaGdlVkhKUUFIQnJkeVI3cWJVTFo0cmZvMHMzc0RfeWQ4RVc5R0dndEdQVU5DdS1EOFpvVlJCUlI5LUNpUHFlem53ZzdpbzhRMVJGWkhrdzdTNzhudG5ER3VKSWtCTWUta9IBrAFBVV95cUxPem5FZ25zeDhtMktrV1NoTHNYVEtvYlRoZXZ1QVVCdnllSDgwZDI3YktQeUhmMnlfTzViU0Uxem96emc4R3hYZW1ESE1XU3QwUkpqZU5SOV9ZOE9uNXZmZTN2OWZHUWZuSTFva0dkU0FEMUY0QVRUVlFaUDVSVE9Ma0JPRktYUkpQYTc4akdvOW5tcXJXSkNnUzN2MHhMWUxPTUp5bkFmdW5BNVlk?oc=5",
-      "pubDate": "Thu, 19 Nov 2026 06:34:13 GMT",
+      "title": "Cherries fans to run 100 miles from Bournemouth to London for three charities",
+      "source": "Bournemouth Echo",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcmNCcVhmbTg3Z1JUa0p3WGhrUE0tMUcyaHJNYzdlWGpMaWRMUnNldVUzeGZ4VkZUeUJCbUhGOXZBallLVms5ZG9iX1VZVnRyNS1Od0hXbzUwamc1Wk9FbDdSbV8tUW4yb2tITVk1Qmw2UThqc2ZkdXFmZlZmeGlkQzBZbEtaaS1yekZoTzl3dFNNQ1pvSFVBenpJMDBvaFkyUWtWelR3?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 05:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "Arsenal transfer news: David Ornstein drops interesting update on Eli Junior Kroupi ahead of January",
-      "source": "Sports Mole",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOeHBlU1BNVGNveTN6THpJQmhfRFkzdzhlVU0yUVVFSHd4Q0phcHVBTmpOWmFSMnJpYlpLYzFOWE5od2d5ZnE3bmxadzdtbmY4X0xkMVA3SjNyMUZsR0lLWHRZZmZrMlUzUEVtZmxMajVkUVQ3NFZnNGYtT3FCR1JUYUhIVXJLRy1nNUNtdFZhTTFWeDlodldXbjNMM29vMlV5X2lkdWxkZ25Na0U0QW9fMEZmUnViZUlXNjBCam80aDZFZlhWSVY1VGVCbmUwTWtXbEdHTVFwdXRMMXZuOWVXdUZJUHRyQXR3ZVpGbWhQYXJqNU0?oc=5",
-      "pubDate": "Wed, 18 Nov 2026 06:57:18 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Wimborne's Diaz on trial at Cherries with plenty of interest in Chilean",
-      "source": "Bournemouth Echo",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZlNaQ2tvVE8yM3JVaW1DbDlmY1pIbmlkZ2J4YnpwUUlXeXZoQWJDZF81OFYtRzJmSUpnelZzajAyaFdRLWdIeklSUnJIbFdiQ2MxbjcyYnZQekljZ2xBQmFCWkZKREdJY3hEb0JXdmU3NHQta1BoeUxJdl9kSDBBbUFzUHExTVdTcHluaFg2Z2h4Q2I0eW40?oc=5",
-      "pubDate": "Thu, 19 Nov 2026 10:00:00 GMT",
-      "category": "rumour"
-    },
-    {
-      "title": "Three Cherries games in January moved for television",
-      "source": "Bournemouth Echo",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVVNMRkZqa0lwbndqN1VFQVM2cElmVHdKQ21vVk1sSS1QeUJ5SC1hZVpKc256cUxYdVg4SElsTlpaVzFiakNTYmlwamx3STBrOUl0U3gzaGRxZXFZQ0JWbk1tRnFaVHZiWjFyTVFpaXI4YjJ0MGt2d3BhZWJabFZMUTNvTTEzRlNTS3hfMlZHWnh0cjRGRzM3dVRTOUlSQ0hTZUFfeg?oc=5",
-      "pubDate": "Thu, 19 Nov 2026 12:06:32 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Key Match Incidents Panel: Penalty Wrong Decision, Bournemouth Should Have Been Down to 10 - Ipswich Town News",
-      "source": "TWTD",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOa2M4U1VqZGtyNmRnYVhreTBMeHZqUnByNldvLWxxT0F6SW5Dd2E5M01DRWxRZjVodF9iNEJsX1pkd0daM0s1OXJRZUxOeUVmU0pFSnBtLUVkaERMY1h6cmVXbmE4b1d4d25ILU1GSjRKcUU4c0wxdkNTMXR5ZVRBbHBJMVpuOWVxdHp6MmExNGY3dkM2cEc1NkJfdS1LeUROU1NSU0R2MklDTEczNjk0S1lCa0JkamRfaFN6dkt1Z0oxZl9oYWNXeWw1RnlyX0RY?oc=5",
-      "pubDate": "Wed, 18 Nov 2026 11:14:00 GMT",
+      "title": "Women's Report | Norwich City 2-1 AFC Bournemouth (FA Cup)",
+      "source": "Norwich City Football Club",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNN0VYWEpUeEVCb1VFNjZlSGFObExfUGI1dlNYY1ZKMUVnZDJFR3F3VFlBYmZQUm5VLUtOVkM2WmJMRU9rN0pFVEgzOU5zNXNDWVlSVTlncVppZUp4SEFzN0JrY0htYmdqWXEwZjAtRVVQMzJMV0kyZ3BhRVlGWUwtaFc1M3VTYTZubHhYSkpR?oc=5",
+      "pubDate": "Mon, 16 Nov 2026 10:31:45 GMT",
       "category": "match"
     },
     {
-      "title": "Will Scott or Kroupi start as Cherries return from break v Forest? Predicted team",
-      "source": "Bournemouth Echo",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbDJrWXFpaGVBRmRGZUVQZHVaRHhHckpsRDZfWEFWenY2dFo1WjhkWnNQT2FhOXRxVkVSZ20tSDNqZGptOUg5RVFBZkhXYTU3NGJubnQ0X2FjLVBOSGpoaExYcGFsUmVTUFNPSVE4d1lNNXRKdnBqMkw0TU0zcFRzNUdqeTlOamNzb0RYTnEwZ0FhTXVNa2oxQXpFQjMxX0dRTjZ3?oc=5",
-      "pubDate": "Wed, 18 Nov 2026 00:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "AFC Bournemouth announce renewal of Sandbanks clothing partnership",
-      "source": "AFC Bournemouth",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUFdNU1p6TkhtRFphR1JrNWRyaGd6RkJtTXlFakNHMjYzSjZLWkprbTBIR3NLUTlWQmFNQy1yeW5IZ2xPS0RQOXhmQ01NNkVnOXBQSl94WUVHcmdFZExzOUJ4cV9ITGZYMlh3VzlqYmI5elZUcGxKVjhaeU9MMVRVaFluNmhWRnBBenNLVjZEWFVKdWFwcjA0YnRqMlNyYzBSelQwd00wZ2dnUjlOMFV2QmlB?oc=5",
-      "pubDate": "Sun, 15 Nov 2026 20:28:58 GMT",
-      "category": "general"
-    },
-    {
-      "title": "BOURNEMOUTH TRIP RESCHEDULED",
-      "source": "Ipswich Town FC",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1PVEp1bUV3Z3Rodm5qVVlQN19pb0ItQktnQ05Ibnc5c21HbURYTHVmOEx2R3dTenlRUkYzYjd3eDJSTUVoSzhVVktzRXNqVlp1ak9hSVprUGU2Y2hORi03alhsbzM0RmJhOWV3UVdaU1VPNV9zVzJLNjk2NVZHMjg?oc=5",
-      "pubDate": "Thu, 19 Nov 2026 12:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Cherries fans can follow every game for £6 for six months in Black Friday sale",
-      "source": "Bournemouth Echo",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeldkR1l4eFpicERJRFlaWUV3RnhBb0dreU8tVXRuWGJsRUk0aWE3TU53a2wwOTF2ZmI3c1RmZUlEdm8xeWJpMmVkcWs1eUh2REJrTVhhN1BqTEFaVDNZa1ppbkF4RGhpZnBuWWF0ZHA3b1R2bDZyQVRoZGh3ekwwSnhwY1BsQkdyVnVjSHdtUGx3M0JITjZubUEtRTA2ejg4UWZkYUhiSGs?oc=5",
-      "pubDate": "Fri, 20 Nov 2026 00:00:00 GMT",
-      "category": "general"
+      "title": "Bournemouth vs Nottingham Forest: Predictions, Picks, Odds & Lineups",
+      "source": "Squawka",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQODktcWZYc19zbVFrRkVkR3lvMVZfZ2F6dnREaVdDckVJZUFPR3h0SUZtYURnekFISUNZeTQxZE55WlU5Tjh6TE00R0JMWWdvQjQxamVjWEg3UG1SRmJYNEZEQURFR1BJUkVUcVpaX21LYzVMcGpCeC1wQzJzR3M3ZWJ6cU1Wa2t5TmcyM09US2hvcTgySzR0VUZHT1UtdHJBQU55U3pCaWxqenppcXVQYkNnU09UZGtaTnc?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 14:00:53 GMT",
+      "category": "match"
     }
   ],
   "reddit": []
