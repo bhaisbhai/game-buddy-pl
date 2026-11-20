@@ -167,7 +167,9 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .mkTitle{font-family:var(--display);font-weight:400;color:var(--ember);font-size:clamp(26px,4vw,44px);margin:0;text-shadow:0 3px 0 #a3420c,0 6px 12px rgba(0,0,0,.35);text-transform:uppercase}
 .mkBank{display:flex;align-items:center;gap:8px;background:var(--panel);border:2px solid rgba(255,178,46,.55);border-radius:999px;padding:6px 14px;font-family:var(--display);font-size:18px;color:var(--ember)}
 .mkPanel{background:var(--panel);border:3px solid rgba(255,255,255,.12);border-radius:22px;padding:14px;width:min(480px,42vw);box-sizing:border-box;display:flex;flex-direction:column;gap:12px;max-height:100%;align-self:center}
-.mkTabs{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.mkTabs{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.mkSw.wh{background:none;box-shadow:none;display:flex;align-items:center;justify-content:center;font-size:clamp(26px,3.4vw,40px);line-height:1}
+.mkGoal .mkSw.wh{font-size:20px}
 .mkTab{background:rgba(255,255,255,.06);border:0;border-radius:14px;padding:8px 4px 7px;color:var(--muted);font-family:var(--display);font-size:13px;letter-spacing:.04em;text-transform:uppercase;display:flex;flex-direction:column;align-items:center;gap:3px;cursor:pointer}
 .mkTab i{font-style:normal;font-size:24px;line-height:1}
 .mkTab.on{background:var(--ember);color:var(--night)}
@@ -204,6 +206,29 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 button.walletChip{cursor:pointer}
 body.mk #views,body.mk #fx,body.mk .ctrlTip{visibility:hidden}
 .wcKart{font-size:13px;color:var(--night);background:var(--ember);border-radius:999px;padding:3px 9px;margin:-2px -8px -2px 2px;letter-spacing:.04em}
+/* daily bonus */
+.ceChip.day{background:rgba(38,211,208,.18);color:var(--lagoon)}
+.btn .dayBadge{position:absolute;top:-10px;right:-10px;background:var(--lagoon);color:var(--night);font-size:13px;border-radius:999px;padding:3px 8px;box-shadow:0 3px 0 #0b6f72;transform:rotate(8deg);animation:dayBob 1.6s ease-in-out infinite}
+#title [data-act="p1"]{position:relative}
+@keyframes dayBob{50%{transform:rotate(8deg) translateY(-3px)}}
+@media (prefers-reduced-motion:reduce){.btn .dayBadge{animation:none}}
+.syt{position:fixed;inset:0;z-index:6;display:flex;align-items:center;justify-content:center;padding:16px;background:rgba(26,15,43,.72)}
+.sytCard{position:relative;max-width:440px;text-align:center;display:flex;flex-direction:column;gap:14px;background:#241737}
+.sytCard h2{margin:0;font-size:clamp(22px,3vw,30px)}
+.sytX{position:absolute;top:10px;right:12px;background:none;border:0;color:var(--muted);font-size:20px;cursor:pointer;padding:6px}
+.sytTiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}
+.sytTile{background:rgba(255,255,255,.06);border-radius:16px;padding:14px 8px;display:flex;flex-direction:column;align-items:center;gap:6px}
+.sytTile b{font-family:var(--display);font-weight:400;color:var(--cream);font-size:16px}
+.sytTile small{color:var(--muted);font-weight:600}
+.sytTile .mkSw{width:46px}
+.sytTile .mkSw.wh{font-size:38px}
+.sytBig{font-size:40px;line-height:46px}
+.sytDots{display:flex;justify-content:center;gap:8px}
+.sytDot{width:34px;height:34px;border-radius:50%;background:rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;font-family:var(--display);color:var(--muted);font-size:14px}
+.sytDot.on{background:var(--lagoon);color:var(--night)}
+.sytDot.gift{border:2px dashed var(--ember);background:none;font-size:16px}
+.sytDot.gift.on{background:var(--ember);border-style:solid}
+.sytCard .btns{flex-wrap:nowrap}.sytCard .btns .btn{flex:1;white-space:nowrap;padding-left:12px;padding-right:12px}
 .rec:empty{display:none}
 /* results + podium never overflow: header and buttons stay put, only the tables scroll if they must */
 #results .card,#cup .card{display:flex;flex-direction:column;overflow:auto}
@@ -5833,10 +5858,11 @@ function raceCoinsAward(){
   const order=G.karts.slice().sort((a,b)=>(b.finished-a.finished)||(a.finishTime-b.finishTime)||(b.progress-a.progress));
   const place=order.indexOf(me);const fromPlace=WALLET.place[Math.min(place,WALLET.place.length-1)];
   const fromCoins=Math.round((me.coins||0)*WALLET.perCoin),fromHits=(me.hitsLanded||0)*WALLET.perHit;
-  const total=fromPlace+fromCoins+fromHits;G.coinPaid=true;const bank=walletAdd(total);
+  const base=fromPlace+fromCoins+fromHits;const day=dailyClaim();const total=base*(day?2:1)+(day&&day.gift?DAILY.gift:0);G.coinPaid=true;const bank=walletAdd(total);
   const chip=(icon,n)=>n>0?`<span class="ceChip">${icon} +${n}</span>`:'';
+  const dayChip=day?`<span class="ceChip day">🎁 ×2</span>${day.gift?`<span class="ceChip day">🔥 ${day.streak} +${DAILY.gift}</span>`:''}`:'';
   const html=`<div class="coinEarn"><div class="ceMain"><span class="ceCoin"></span>+${total}</div>
-    <div class="ceChips">${chip('🏁',fromPlace)}${chip('<span class="ceCoin sm"></span>',fromCoins)}${chip('💥',fromHits)}</div>
+    <div class="ceChips">${chip('🏁',fromPlace)}${chip('<span class="ceCoin sm"></span>',fromCoins)}${chip('💥',fromHits)}${dayChip}</div>
     <div class="ceBank">Bank <span class="ceCoin sm"></span> ${bank.toLocaleString()}</div>${cosmGoalHTML(bank)}</div>`;
   const t=$('#resTitle');if(t)t.insertAdjacentHTML('afterend',html);}
 const _showResultsOrig=showResults;
@@ -5863,18 +5889,41 @@ const COSM={
     {id:'lava',p:180,c:0xff5b1f},{id:'ice',p:180,c:0x9fd8ff},{id:'violet',p:180,c:0x9f5bff},{id:'gold',p:220,c:0xffc23a},
     {id:'galaxy',p:250,anim:'galaxy',c:0x7a5bff},{id:'strobe',p:250,anim:'strobe',c:0xffffff},
     {id:'rainbow',lock:'wild',anim:'rainbow',c:0xff4f6a},{id:'siren',lock:'holiday',anim:'siren',c:0xff2a2a}]},
+  wheels:{icon:'🛞',label:'Wheels',items:[
+    {id:'stock',e:'🛞'},{id:'neon',p:400,e:'💡'},{id:'donut',p:1000,e:'🍩'},{id:'dragster',p:1200,e:'🏎️'},
+    {id:'monster',p:1500,e:'🚜'},{id:'gold',lock:'adventure',e:'🏆'}]},
 };
-const COSM_CATS=['paint','helmet','glow'];
+const COSM_CATS=['paint','helmet','glow','wheels'];
 function cosmLoad(){let s={};try{s=JSON.parse(store.get('wheeliefun.kart')||'{}')||{};}catch(e){}
   const pick=(cat,id)=>{const it=COSM[cat].items.find(i=>i.id===id);return it&&cosmHas(cat,it)?it.id:COSM[cat].items[0].id;};
-  return{paint:pick('paint',s.paint),helmet:pick('helmet',s.helmet),glow:pick('glow',s.glow)};}
+  return{paint:pick('paint',s.paint),helmet:pick('helmet',s.helmet),glow:pick('glow',s.glow),wheels:pick('wheels',s.wheels)};}
 function cosmSave(sel){store.set('wheeliefun.kart',JSON.stringify(sel));}
 function cosmOwned(){try{const a=JSON.parse(store.get('wheeliefun.owned')||'[]');return new Set(Array.isArray(a)?a:[]);}catch(e){return new Set();}}
 function cosmItem(cat,id){return COSM[cat].items.find(i=>i.id===id)||COSM[cat].items[0];}
 function cosmHas(cat,it,own){if(!it.p&&!it.lock)return true;if(it.lock)return !!trophyOf(it.lock);return (own||cosmOwned()).has(cat+':'+it.id);}
-function cosmCh(ch,sel){sel=sel||cosmLoad();const p=cosmItem('paint',sel.paint),h=cosmItem('helmet',sel.helmet),g=cosmItem('glow',sel.glow);
-  if(!p.c&&!h.c&&!h.pat&&!g.c)return ch;
-  return Object.assign({},ch,{kart:p.c||ch.kart,helmet:h.c||ch.helmet,cosm:{grad:p.c2?[p.c,p.c2]:null,pat:h.pat||null,glow:g.c?g:null}});}
+function cosmCh(ch,sel){sel=sel||cosmLoad();const p=cosmItem('paint',sel.paint),h=cosmItem('helmet',sel.helmet),g=cosmItem('glow',sel.glow),w=cosmItem('wheels',sel.wheels);
+  const wh=w.id!=='stock'?w.id:null;if(!p.c&&!h.c&&!h.pat&&!g.c&&!wh)return ch;
+  return Object.assign({},ch,{kart:p.c||ch.kart,helmet:h.c||ch.helmet,cosm:{grad:p.c2?[p.c,p.c2]:null,pat:h.pat||null,glow:g.c?g:null,wheels:wh}});}
+// wheels go on after the garage's own tyre tweaks (which reset wheel size). The race sets body.y every
+// frame, so a lift moves the body's parts up instead; the wheels stay put on the ground.
+const WHEEL_MAT={};
+function wheelMat(id){if(WHEEL_MAT[id])return WHEEL_MAT[id];
+  if(id==='gold')return WHEEL_MAT[id]=new THREE.MeshStandardMaterial({vertexColors:true,color:0xffd060,metalness:.85,roughness:.22,envMap,envMapIntensity:1.8});
+  if(id==='donut')return WHEEL_MAT[id]=new THREE.MeshStandardMaterial({color:0xff7ab8,roughness:.35,metalness:0,envMap,envMapIntensity:.6});
+  if(id==='neon')return WHEEL_MAT[id]=new THREE.MeshBasicMaterial({color:0x3ff6ff});}
+let DONUT_GEO=null,NEON_GEO=null,SPRINKLE_GEO=null;
+function cosmWheels(v,ch){const id=ch&&ch.cosm&&ch.cosm.wheels;if(!id||!v.wheels)return;
+  const lift=n=>{let L=v.cosmLifter;if(!L){L=new THREE.Group();v.root.remove(v.body);L.add(v.body);v.root.add(L);v.cosmLifter=L;}L.position.y+=n;v.cosmLift=(v.cosmLift||0)+n;};
+  const setY=(w,y)=>{const y2=y-(v.cosmLift||0);w.y0=y2;w.piv.position.y=y2;};
+  if(id==='monster'){const S=2.1;lift(.74*(S-1));for(const w of v.wheels){const b=w.f?1:1.12;w.w.scale.setScalar(b*S);setY(w,.74*b*S);w.piv.position.x*=1.45;}}
+  else if(id==='dragster'){lift(.32);for(const w of v.wheels){const S=w.f?.62:2.05;w.w.scale.setScalar(S);setY(w,.74*S);if(!w.f)w.piv.position.x*=1.38;else w.piv.position.z+=.3;}}
+  else if(id==='donut'){if(!DONUT_GEO){DONUT_GEO=new THREE.TorusGeometry(.6,.32,14,28);DONUT_GEO.rotateY(Math.PI/2);SPRINKLE_GEO=new THREE.BoxGeometry(.07,.07,.24);}
+    const S=1.2;lift(.92*S-.74);const cols=[0xffffff,0x26d3d0,0xffd23f,0x7ad84a,0x8a5bff];
+    for(const w of v.wheels){w.w.geometry=DONUT_GEO;w.w.material=wheelMat('donut');w.w.scale.setScalar(S);setY(w,.92*S);const side=Math.sign(w.piv.position.x)||1;
+      for(let i=0;i<12;i++){const sp=new THREE.Mesh(SPRINKLE_GEO,new THREE.MeshBasicMaterial({color:cols[i%cols.length]}));const a=i/12*Math.PI*2+.3;sp.position.set(side*.3,Math.cos(a)*.62,Math.sin(a)*.62);sp.rotation.x=a+i;w.w.add(sp);}}}
+  else if(id==='neon'){if(!NEON_GEO){NEON_GEO=new THREE.TorusGeometry(.43,.065,8,28);NEON_GEO.rotateY(Math.PI/2);}
+    for(const w of v.wheels){const side=Math.sign(w.piv.position.x)||1;const r=new THREE.Mesh(NEON_GEO,wheelMat('neon'));r.position.x=side*.25;w.w.add(r);}}
+  else if(id==='gold'){lift(.74*.12);for(const w of v.wheels){w.w.material=wheelMat('gold');w.w.scale.multiplyScalar(1.12);setY(w,.74*(w.f?1:1.12)*1.12);}}}
 // helmet patterns: equirectangular canvas wrapped over a shell just outside the helmet (canvas top = crown, x=¼ = face)
 const PAT_MAT={};
 function drawPat(id,x,w,h){
@@ -5906,14 +5955,14 @@ const _makeKartOrig=makeKart;
 makeKart=function(ch){const v=_makeKartOrig(ch);if(ch&&ch.cosm){try{cosmDecorate(v,ch);}catch(e){console.warn('kart looks',e);}}return v;};
 // player 1's race kart wears the saved looks (the AI and other players never do)
 function cosmApplyRace(){const k=(G.humans_k||[]).find(q=>q.pi===0);if(!k||k.isRemote)return;const ch=cosmCh(k.ch);if(ch===k.ch)return;
-  const old=k.v,nv=makeKart(ch);if(window.WFV2&&k.parts){try{WFV2.applyGarageVisuals(nv,k.parts);}catch(e){}}
+  const old=k.v,nv=makeKart(ch);if(window.WFV2&&k.parts){try{WFV2.applyGarageVisuals(nv,k.parts);}catch(e){}}try{cosmWheels(nv,ch);}catch(e){}if(k.tag&&nv.cosmLift)k.tag.position.y=5.2+nv.cosmLift;
   nv.root.position.copy(old.root.position);nv.root.quaternion.copy(old.root.quaternion);nv.root.visible=old.root.visible;
   if(k.tag){old.root.remove(k.tag);nv.root.add(k.tag);}scene.remove(old.root);scene.add(nv.root);k.v=nv;}
 
 // ---- My Kart screen: kart on the podium, a panel of swatches; tap to try on, buy, it's yours ----
 const MK={cat:'paint',sel:null,try:null,from:'title',ci:0};
 function walletSpend(n){const v=walletGet();if(v<n)return false;store.set('wheeliefun.wallet',String(v-n));return true;}
-function swatchCSS(cat,it,ci){const hx=n=>hexCss(n);
+function swatchCSS(cat,it,ci){const hx=n=>hexCss(n);if(cat==='wheels')return'';
   if(cat==='paint'){if(!it.c)return`background:${hx(CHARS[ci].kart)}`;return it.c2?`background:linear-gradient(135deg,${hx(it.c)},${hx(it.c2)})`:`background:${hx(it.c)}`;}
   if(cat==='helmet'){if(it.pat==='stripe')return'background:linear-gradient(90deg,#f7f4ee 34%,#e8302a 34% 45%,#f7f4ee 45% 55%,#e8302a 55% 66%,#f7f4ee 66%)';
     if(it.pat==='stars')return'background:radial-gradient(circle at 30% 35%,#ffd23f 0 9%,transparent 10%),radial-gradient(circle at 68% 30%,#fff 0 7%,transparent 8%),radial-gradient(circle at 55% 65%,#ffd23f 0 9%,transparent 10%),#1d2a6b';
@@ -5948,7 +5997,7 @@ function mkClose(go){document.body.classList.remove('mk');if(preview){podium.rem
   else{G.state='title';show('title');updateShelf();if(go){const b=$('#title [data-act="p1"]');if(b)b.click();}}}
 function mkSelOf(cat){return MK.try!=null?COSM[cat].items[MK.try]:cosmItem(cat,MK.sel[cat]);}
 function mkPreview(){if(preview)podium.remove(preview.root);const sel=Object.assign({},MK.sel);if(MK.try!=null)sel[MK.cat]=COSM[MK.cat].items[MK.try].id;
-  preview=makeKart(cosmCh(CHARS[MK.ci],sel));if(window.WFV2){try{WFV2.applyGarageVisuals(preview,WFV2.getPartsForKart(true,0,0));}catch(e){}}preview.root.position.y=1.9;preview.root.rotation.y=MK.rot==null?-.35:MK.rot;podium.add(preview.root);previewIdx=-1;}
+  const pch=cosmCh(CHARS[MK.ci],sel);preview=makeKart(pch);if(window.WFV2){try{WFV2.applyGarageVisuals(preview,WFV2.getPartsForKart(true,0,0));}catch(e){}}try{cosmWheels(preview,pch);}catch(e){}preview.root.position.y=1.9;preview.root.rotation.y=MK.rot==null?-.35:MK.rot;podium.add(preview.root);previewIdx=-1;}
 function mkTap(i){const cat=MK.cat,it=COSM[cat].items[i];SFX.menu&&SFX.menu();
   if(cosmHas(cat,it)){MK.sel[cat]=it.id;cosmSave(MK.sel);MK.try=null;}
   else{MK.try=i;if(it.p&&walletGet()<it.p)store.set('wheeliefun.wish',JSON.stringify({cat,id:it.id}));}
@@ -5965,20 +6014,20 @@ function mkRender(popAt){const own=cosmOwned(),bank=walletGet(),cat=MK.cat;$('#m
   const eq=MK.sel[cat];
   $('#mkGrid').innerHTML=COSM[cat].items.map((it,i)=>{const has=cosmHas(cat,it,own),on=it.id===eq,tr=MK.try===i;
     const tag=on?'<span class="mkOk">✓</span>':has?'':it.lock?'<span class="mkP">🔒</span>':`<span class="mkP${bank>=it.p?' can':''}"><span class="ceCoin sm"></span>${it.p}</span>`;
-    return`<button class="mkTile${on&&MK.try==null?' sel':''}${tr?' sel try':''}${!has&&it.lock?' lock':''}${popAt&&popAt(i)?' pop':''}" data-mki="${i}" aria-label="${cat} ${it.id}"><span class="mkSw" style="${swatchCSS(cat,it,MK.ci)}"></span>${tag}</button>`;}).join('');
+    return`<button class="mkTile${on&&MK.try==null?' sel':''}${tr?' sel try':''}${!has&&it.lock?' lock':''}${popAt&&popAt(i)?' pop':''}" data-mki="${i}" aria-label="${cat} ${it.id}"><span class="mkSw${it.e?' wh':''}" style="${swatchCSS(cat,it,MK.ci)}">${it.e||''}</span>${tag}</button>`;}).join('');
   const go=$('#mkGo'),it=MK.try!=null?COSM[cat].items[MK.try]:null;go.disabled=false;go.className='btn';
   if(!it)go.innerHTML='Race ▶';
   else if(it.lock){go.disabled=true;go.innerHTML='🏆 '+(CUPS.find(c=>c.id===it.lock)||{name:''}).name;}
   else if(bank>=it.p){go.classList.add('buy');go.innerHTML=`Buy <span class="ceCoin"></span> ${it.p}`;}
   else{go.disabled=true;go.innerHTML=`<span class="ceCoin"></span> ${(it.p-bank).toLocaleString()} more`;}
-  if(G.state==='mykart'){const ix=COSM[cat].items.findIndex(x=>x.id===eq);G.focus=3+(MK.try!=null?MK.try:Math.max(0,ix));refreshFocus();}}
+  if(G.state==='mykart'){const ix=COSM[cat].items.findIndex(x=>x.id===eq);G.focus=COSM_CATS.length+(MK.try!=null?MK.try:Math.max(0,ix));refreshFocus();}}
 // results: the next thing to save up for (the last item the player tried on, else the cheapest one left)
 function cosmGoal(){const own=cosmOwned();let w=null;try{w=JSON.parse(store.get('wheeliefun.wish')||'null');}catch(e){}
   if(w&&COSM[w.cat]){const it=COSM[w.cat].items.find(i=>i.id===w.id);if(it&&it.p&&!cosmHas(w.cat,it,own))return{cat:w.cat,it};}
   let best=null;for(const cat of COSM_CATS)for(const it of COSM[cat].items){if(!it.p||cosmHas(cat,it,own))continue;if(!best||it.p<best.it.p)best={cat,it};}return best;}
 function cosmGoalHTML(bank){const g=cosmGoal();if(!g)return'';const ci=G.humans_k&&G.humans_k[0]?Math.max(0,CHARS.indexOf(G.humans_k[0].ch)):0;
   const pct=Math.min(100,Math.round(bank/g.it.p*100)),ready=bank>=g.it.p;
-  return`<button class="mkGoal${ready?' ready':''}" data-mkgoal="${g.cat}:${g.it.id}" aria-label="My Kart"><span class="mkSw" style="${swatchCSS(g.cat,g.it,ci)}"></span><span class="mkBar"><i style="width:${pct}%"></i></span><span class="mkNeed">${ready?'Ready ▶':(g.it.p-bank).toLocaleString()+' to go'}</span></button>`;}
+  return`<button class="mkGoal${ready?' ready':''}" data-mkgoal="${g.cat}:${g.it.id}" aria-label="My Kart"><span class="mkSw${g.it.e?' wh':''}" style="${swatchCSS(g.cat,g.it,ci)}">${g.it.e||''}</span><span class="mkBar"><i style="width:${pct}%"></i></span><span class="mkNeed">${ready?'Ready ▶':(g.it.p-bank).toLocaleString()+' to go'}</span></button>`;}
 document.addEventListener('click',e=>{const g=e.target.closest('[data-mkgoal]');if(g){audioInit();const[cat,id]=g.dataset.mkgoal.split(':');mkOpen('results',{cat,id});return;}
   if(e.target.closest('#walletChip')){audioInit();mkOpen('title');}},true);
 const _focusablesOrig=focusables;
@@ -5996,6 +6045,36 @@ updateCameras=function(dt){const c=cams[0].c;
   const a=-.62,p=podium.position;c.position.set(p.x+Math.sin(a)*d*.94,p.y+3.1+d*.34,p.z+Math.cos(a)*d*.94);c.lookAt(p.x,p.y+3.1,p.z);
   c.setViewOffset(W,H,side?(W-freeW)/2:0,side?0:(H-freeH)/2,W,H);mkOffset=true;
   if(preview)preview.root.rotation.y+=dt*.45;};
+// ---- daily bonus: the first paid race each day pays double; every 5th day in a row adds a gift ----
+// A "day" is the player's local calendar day. Missing a day restarts the streak (no penalty otherwise).
+const DAILY={gift:100,every:5};
+function dayKey(d){d=d||new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
+function dailyState(){try{const o=JSON.parse(store.get('wheeliefun.daily')||'{}')||{};return{last:o.last||'',streak:o.streak|0};}catch(e){return{last:'',streak:0};}}
+function dailyReady(){return dailyState().last!==dayKey();}
+function dailyStreakNow(){const d=dailyState(),y=new Date();y.setDate(y.getDate()-1);return d.last===dayKey()?d.streak:d.last===dayKey(y)?d.streak:0;}
+function dailyClaim(){const d=dailyState(),today=dayKey();if(d.last===today)return null;const y=new Date();y.setDate(y.getDate()-1);
+  const streak=d.last===dayKey(y)?d.streak+1:1;store.set('wheeliefun.daily',JSON.stringify({last:today,streak}));return{streak,gift:streak%DAILY.every===0};}
+// title: a "2×" badge on Start while today's bonus is waiting (only for players who have raced before)
+function dailyBadge(){const b=$('#title [data-act="p1"]');if(!b)return;let t=b.querySelector('.dayBadge');
+  const on=dailyReady()&&(parseInt(store.get('wheeliefun.walletLifetime')||'0',10)>0);
+  if(on&&!t){b.insertAdjacentHTML('beforeend','<span class="dayBadge">2×</span>');}else if(!on&&t)t.remove();}
+// see you tomorrow: once a day, when the player heads back to the title after using today's bonus
+function sytHTML(){const st=dailyStreakNow(),next=st%DAILY.every;const bank=walletGet();const g=cosmGoal();
+  const dots=[...Array(DAILY.every)].map((_,i)=>i===DAILY.every-1?`<span class="sytDot gift${next===0&&st>0?' on':''}">🎁</span>`:`<span class="sytDot${i<next||(next===0&&st>0)?' on':''}">${i+1}</span>`).join('');
+  const goal=g?`<div class="sytTile"><span class="mkSw${g.it.e?' wh':''}" style="${swatchCSS(g.cat,g.it,lastRacer())}">${g.it.e||''}</span><b>${bank>=g.it.p?'Ready':(g.it.p-bank).toLocaleString()+' to go'}</b></div>`:'';
+  return`<div class="sytCard card"><button class="sytX" data-syt="x" aria-label="Close">✕</button><h2>See you tomorrow!</h2>
+  <div class="sytTiles"><div class="sytTile"><span class="sytBig">🎁</span><b>2× coins</b><small>first race</small></div>${goal}</div>
+  <div class="sytDots">${dots}</div>
+  <div class="btns"><button class="btn ghost" data-syt="kart">My Kart</button><button class="btn" data-syt="race">One more race</button></div></div>`;}
+function sytClose(){const o=$('#syt');if(o)o.remove();removeEventListener('keydown',sytKey,true);}
+function sytKey(e){if(e.code==='Escape'){e.stopPropagation();sytClose();}}
+function sytShow(){if(!$('#title')||$('#syt'))return;$('#title').insertAdjacentHTML('beforeend',`<div class="syt" id="syt">${sytHTML()}</div>`);store.set('wheeliefun.sytShown',dayKey());addEventListener('keydown',sytKey,true);}
+function sytMaybe(){if(G.state!=='title'||dailyReady())return;if(store.get('wheeliefun.sytShown')===dayKey())return;if(!(parseInt(store.get('wheeliefun.walletLifetime')||'0',10)>0))return;sytShow();}
+document.addEventListener('click',e=>{const o=$('#syt');if(!o)return;const b=e.target.closest('[data-syt]');
+  if(!b){if(e.target===o)sytClose();return;}const a=b.dataset.syt;sytClose();
+  if(a==='kart')mkOpen('title');else if(a==='race'){const s=$('#title [data-act="p1"]');if(s)s.click();}},true);
+const _quitOrig=quit;
+quit=function(){const r=_quitOrig.apply(this,arguments);try{dailyBadge();sytMaybe();}catch(e){}return r;};
 // ---- a brand-new player's first race: gentle and scripted (race 1 of the first cup, one player) ----
 // Three AI instead of seven; the pack starts slow and builds to a touch under normal pace; the
 // player's first item box is always a bee; one "rabbit" car stays ahead so the bee has someone to
@@ -6106,7 +6185,7 @@ function showCup(){engineStop();G.lastCup=G.cup&&G.cup.ci||0;const rows=standing
   show('cup');SFX.finish();
   // controller/keyboard highlight starts on "Next cup" (not the leaderboard name box above it)
   const fl=focusables(),fi=nextBtn&&!nextBtn.hidden?fl.indexOf(nextBtn):-1;if(fi>=0){G.focus=fi;refreshFocus();}}
-function updateShelf(){try{walletChip();}catch(e){}const pk=$('#pickBtn');if(pk)pk.hidden=charLocked(1)&&unlockedCupCount()<2;const won=CUPS.map(c=>[c,trophyOf(c.id)]).filter(([,t])=>t);$('#shelf').innerHTML=won.length?'Trophy shelf: '+won.map(([c,t])=>`<b>${['Gold','Silver','Bronze'][t-1]} ${c.name}</b>`).join(' · '):'';}
+function updateShelf(){try{walletChip();dailyBadge();}catch(e){}const pk=$('#pickBtn');if(pk)pk.hidden=charLocked(1)&&unlockedCupCount()<2;const won=CUPS.map(c=>[c,trophyOf(c.id)]).filter(([,t])=>t);$('#shelf').innerHTML=won.length?'Trophy shelf: '+won.map(([c,t])=>`<b>${['Gold','Silver','Bronze'][t-1]} ${c.name}</b>`).join(' · '):'';}
 
 // ================= global leaderboards (Redis-backed, shared with Keepy Uppy's infra) =================
 // Times/points submitted here always come from the game's own race state (me.finishTime,
