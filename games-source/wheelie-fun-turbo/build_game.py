@@ -1060,7 +1060,7 @@ function phoneConnect(){if(PL.ws||PL.peer)return;
     html = must_replace(
         html,
         "const racing=!['title','how','select','tracks','cup','bmode','arenas','loading'].includes(G.state);",
-        "const racing=!['title','how','select','tracks','cup','bmode','dmode','party','online','arenas','loading'].includes(G.state);",
+        "const racing=!['title','how','select','tracks','cup','bmode','dmode','party','online','arenas','loading','mykart'].includes(G.state);",
         "render_racing_states",
     )
 
@@ -1198,7 +1198,7 @@ function show(id){for(const s of screens){const el=$('#'+s);if(el)el.hidden=s!==
     html = must_replace(
         html,
         "for(const k of(G.humans_k||[])){engineSet(k.pi,k.speed,k.boostT>0||k.hyperT>0,k.respawnT<=0&&G.state!=='results');}",
-        "if(G.state==='results'&&window.WFOnline&&WFOnline.isOnline())WFOnline.tick(dt);\n  for(const k of(G.humans_k||[])){engineSet(k.pi,k.speed,k.boostT>0||k.hyperT>0,k.respawnT<=0&&G.state!=='results',k.driftDir!==0);}",
+        "if(G.state==='results'&&window.WFOnline&&WFOnline.isOnline())WFOnline.tick(dt);\n  for(const k of(G.humans_k||[])){engineSet(k.pi,k.speed,k.boostT>0||k.hyperT>0,k.respawnT<=0&&G.state!=='results'&&G.state!=='mykart',k.driftDir!==0);}",
         "engine_set_drift_arg",
     )
 

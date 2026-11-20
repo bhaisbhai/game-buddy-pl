@@ -295,6 +295,49 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 @media (prefers-reduced-motion:reduce){.ceMain{animation:none}}
 .walletChip{position:absolute;top:calc(16px + env(safe-area-inset-top,0px));right:calc(18px + env(safe-area-inset-right,0px));display:flex;align-items:center;gap:8px;background:var(--panel);border:2px solid rgba(255,178,46,.55);border-radius:999px;padding:6px 14px;font-family:var(--display);font-size:18px;color:var(--ember);z-index:2}
 .walletChip[hidden]{display:none}
+/* My Kart: kart on the podium, swatch panel right (wide) or bottom (tall) */
+#mykart{justify-content:flex-end;align-items:stretch}
+.mkHead{position:absolute;top:calc(14px + env(safe-area-inset-top,0px));left:calc(18px + env(safe-area-inset-left,0px));display:flex;align-items:center;gap:12px;pointer-events:none}
+.mkTitle{font-family:var(--display);font-weight:400;color:var(--ember);font-size:clamp(26px,4vw,44px);margin:0;text-shadow:0 3px 0 #a3420c,0 6px 12px rgba(0,0,0,.35);text-transform:uppercase}
+.mkBank{display:flex;align-items:center;gap:8px;background:var(--panel);border:2px solid rgba(255,178,46,.55);border-radius:999px;padding:6px 14px;font-family:var(--display);font-size:18px;color:var(--ember)}
+.mkPanel{background:var(--panel);border:3px solid rgba(255,255,255,.12);border-radius:22px;padding:14px;width:min(480px,42vw);box-sizing:border-box;display:flex;flex-direction:column;gap:12px;max-height:100%;align-self:center}
+.mkTabs{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.mkTab{background:rgba(255,255,255,.06);border:0;border-radius:14px;padding:8px 4px 7px;color:var(--muted);font-family:var(--display);font-size:13px;letter-spacing:.04em;text-transform:uppercase;display:flex;flex-direction:column;align-items:center;gap:3px;cursor:pointer}
+.mkTab i{font-style:normal;font-size:24px;line-height:1}
+.mkTab.on{background:var(--ember);color:var(--night)}
+.mkGrid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;overflow:auto;padding:8px;background:rgba(0,0,0,.2);border-radius:16px;min-height:0}
+.mkTile{position:relative;aspect-ratio:1;border:3px solid transparent;border-radius:14px;background:rgba(255,255,255,.06);cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0 0 10%;box-sizing:border-box}
+.mkTile.sel{border-color:var(--cream)}
+.mkTile.try{border-style:dashed}
+.mkTile.focus,.mkTab.focus{outline:3px solid var(--lagoon);outline-offset:1px}
+.mkSw{display:block;width:56%;aspect-ratio:1;border-radius:50%;box-shadow:inset 0 -5px 0 rgba(0,0,0,.22);box-sizing:border-box}
+.mkTile.lock .mkSw{filter:grayscale(.85) brightness(.55)}
+.mkP{position:absolute;bottom:5%;left:0;right:0;font-family:var(--display);font-size:13px;color:var(--muted);display:flex;justify-content:center;align-items:center;gap:3px}
+.mkP.can{color:var(--ember)}
+.mkOk{position:absolute;top:4px;right:8px;color:var(--lagoon);font-size:16px;font-weight:700}
+.mkTile.pop .mkSw{animation:cePop .5s cubic-bezier(.2,1.6,.4,1) both}
+.mkBtns{display:flex;gap:10px}
+.mkBtns .btn{flex:1;padding-left:10px;padding-right:10px;white-space:nowrap}
+#mkGo{flex:1.8;display:inline-flex;align-items:center;justify-content:center;gap:6px}
+#mkGo.buy{background:var(--lagoon);box-shadow:0 6px 0 #0b6f72,0 10px 18px rgba(0,0,0,.35)}
+#mkGo[disabled]{background:#4a3d5c;color:var(--cream);box-shadow:0 6px 0 #2a2236;cursor:default;transform:none}
+@media (max-aspect-ratio:1/1){#mykart{justify-content:center;align-items:flex-end}.mkPanel{width:min(100%,520px);max-height:62%;align-self:flex-end}}
+@media (max-height:520px) and (min-aspect-ratio:1/1){.mkTab{flex-direction:row;justify-content:center;padding:6px 4px}.mkTab i{font-size:18px}.mkPanel{padding:10px;gap:8px}.mkGrid{grid-template-columns:repeat(6,1fr);gap:6px;padding:6px}.mkBtns .btn{padding-top:10px;padding-bottom:8px}}
+@media (prefers-reduced-motion:reduce){.mkTile.pop .mkSw{animation:none}}
+/* results: the next thing to save up for */
+.mkGoal{flex-basis:100%;display:flex;align-items:center;gap:10px;background:rgba(255,255,255,.06);border:2px solid rgba(255,255,255,.1);border-radius:12px;padding:6px 10px;cursor:pointer;color:var(--cream);font:600 13px var(--body)}
+.mkGoal .mkSw{width:24px;flex:none;box-shadow:inset 0 -3px 0 rgba(0,0,0,.22)}
+.mkBar{flex:1;height:8px;border-radius:99px;background:rgba(255,255,255,.12);overflow:hidden}
+.mkBar i{display:block;height:100%;background:var(--ember);border-radius:99px}
+.mkNeed{white-space:nowrap;color:var(--muted)}
+.mkGoal.ready{border-color:var(--lagoon);animation:mkGlow 1.4s ease-in-out infinite}
+.mkGoal.ready .mkBar i{background:var(--lagoon)}
+.mkGoal.ready .mkNeed{color:var(--lagoon);font-family:var(--display);font-weight:400}
+@keyframes mkGlow{50%{box-shadow:0 0 14px rgba(38,211,208,.55)}}
+@media (prefers-reduced-motion:reduce){.mkGoal.ready{animation:none}}
+button.walletChip{cursor:pointer}
+body.mk #views,body.mk #fx,body.mk .ctrlTip{visibility:hidden}
+.wcKart{font-size:13px;color:var(--night);background:var(--ember);border-radius:999px;padding:3px 9px;margin:-2px -8px -2px 2px;letter-spacing:.04em}
 .rec:empty{display:none}
 /* results + podium never overflow: header and buttons stay put, only the tables scroll if they must */
 #results .card,#cup .card{display:flex;flex-direction:column;overflow:auto}
@@ -10818,7 +10861,7 @@ function setupRace(){
   }
   layout.forEach((L,s)=>{const k=new Kart(CHARS[L.ch%CHARS.length],!!L.human,L.human?L.pi:-1);if(window.WFV2)WFV2.applyGaragePhysics(k,WFV2.getPartsForKart(!!L.human,L.pi||0,s));k.netId=L.netId||null;k.isRemote=!!L.remote;if(L.displayName){k.netName=L.displayName;if(k.tag)k.v.root.remove(k.tag);k.tag=nameTag({name:L.displayName,kart:k.ch.kart});k.v.root.add(k.tag);}const i=wrapI(-Math.round((10+s*7.2)/SP));k.reset(i,G.timeTrial?0:(s%2?-5.5:5.5));G.karts.push(k);});
   if(G.battle)arenaGrid();else if(G.death)deathGrid();
-  G.humans_k=G.karts.filter(k=>k.human).sort((a,b)=>a.pi-b.pi);firstRaceSetup();coinsReset();
+  G.humans_k=G.karts.filter(k=>k.human).sort((a,b)=>a.pi-b.pi);firstRaceSetup();coinsReset();try{cosmApplyRace();}catch(e){}
   for(const b of boxes){b.t=G.timeTrial?1e9:0;b.m.visible=!G.timeTrial;}for(const c of coins){c.t=0;c.m.visible=true;}if(G.timeTrial&&G.humans_k[0]&&!G.battle){G.humans_k[0].item='triple';G.humans_k[0].itemN=3;if(window.WFV2)WFV2.setupTimeTrialGhosts(LV);}
   G.laps=(!G.battle&&LV&&LV.laps)||3;G.raceT=0;G.cd=4.2;G.finishedAt=0;G.ducksOut=false;extraReset();G.swapOut=false;G.slowOut=false;G.slowOK=R()<.35;G.slowT=0;G.slowBy=null;G.state='countdown';G.lastCd=5;G.finalSaid=false;AU.tempo=132;
   makeHUD(G.humans.length);if(FT.sections&&!G.battle)VIEWS.forEach((v,p)=>{v.el.querySelector('.lap small').textContent=(G.humans.length>1?'P'+(p+1)+' · ':'')+'SECTION';});
@@ -11274,8 +11317,8 @@ function render(){applyTrackTone();const w=innerWidth,h=innerHeight;renderer.set
   lightMode(n>=4?2:(n>=3||(n===2&&Q.light2!==false))?1:0);const far4=n>=4;const fog0=scene.fog.far,fogN0=scene.fog.near;const usePost=Q.ultra&&Q.post&&n<3;G.frameNo=(G.frameNo||0)+1;const halfShadow=false;/* was Q.ultra&&n===1: updating shadows every other frame made the kart's self-shadow flicker (most visible on the wing) */sun.shadow.autoUpdate=!halfShadow;if(halfShadow)sun.shadow.needsUpdate=G.frameNo%2===0||G.state!=='race';
   for(let p=0;p<n;p++){const c=cams[p].c;const r=viewRect(p,n),vw=r.w*w,vh=r.h*h,vx=r.x*w,vy=h-(r.y+r.h)*h;c.aspect=vw/vh;const wantFar=far4?LIGHT_FAR:5000;if(c.far!==wantFar)c.far=wantFar;c.updateProjectionMatrix();renderer.setViewport(vx,vy,vw,vh);renderer.setScissor(vx,vy,vw,vh);kartLOD(c,vh/h);
     const ppx=vh*renderer.getPixelRatio()*.55;FX.mat.uniforms.scale.value=ppx;SMOKE.mat.uniforms.scale.value=ppx;
-    const racing=!['title','how','select','tracks','cup','bmode','dmode','party','online','arenas','loading'].includes(G.state);const f=racing&&G.humans_k?G.humans_k[p]:null;
-    if(f){sun.target.position.set(f.x,f.y,f.z);}else if(G.state==='select'){sun.target.position.copy(podium.position);}else if(G.state==='cup'){sun.target.position.copy(steps.position);}else sun.target.position.copy(LR.sunAt);
+    const racing=!['title','how','select','tracks','cup','bmode','dmode','party','online','arenas','loading','mykart'].includes(G.state);const f=racing&&G.humans_k?G.humans_k[p]:null;
+    if(f){sun.target.position.set(f.x,f.y,f.z);}else if(G.state==='select'||G.state==='mykart'){sun.target.position.copy(podium.position);}else if(G.state==='cup'){sun.target.position.copy(steps.position);}else sun.target.position.copy(LR.sunAt);
     sun.position.copy(sun.target.position).addScaledVector(SUN_DIR,260);
     if(LR.preView&&!G.battle)LR.preView(p,f);if(!G.battle)featView(p,f);if(far4){scene.fog.far=Math.min(LR.preView?scene.fog.far:fog0,LIGHT_FAR*.92);scene.fog.near=Math.min(scene.fog.near,scene.fog.far*.45);}
     if(usePost){try{const P=getPost(p);P.c.passes[0].camera=c;const pr=renderer.getPixelRatio();if(P.w!==vw||P.h!==vh||P.pr!==pr){P.c.setPixelRatio(pr);P.c.setSize(vw,vh);P.grade.uniforms.res.value.set(vw*pr,vh*pr);P.w=vw;P.h=vh;P.pr=pr;}P.c.render();continue;}catch(e){Q.post=false;console.warn('post-processing off',e);}}
@@ -12604,13 +12647,165 @@ function raceCoinsAward(){
   const chip=(icon,n)=>n>0?`<span class="ceChip">${icon} +${n}</span>`:'';
   const html=`<div class="coinEarn"><div class="ceMain"><span class="ceCoin"></span>+${total}</div>
     <div class="ceChips">${chip('🏁',fromPlace)}${chip('<span class="ceCoin sm"></span>',fromCoins)}${chip('💥',fromHits)}</div>
-    <div class="ceBank">Bank <span class="ceCoin sm"></span> ${bank.toLocaleString()}</div></div>`;
+    <div class="ceBank">Bank <span class="ceCoin sm"></span> ${bank.toLocaleString()}</div>${cosmGoalHTML(bank)}</div>`;
   const t=$('#resTitle');if(t)t.insertAdjacentHTML('afterend',html);}
 const _showResultsOrig=showResults;
 showResults=function(){const r=_showResultsOrig.apply(this,arguments);try{raceCoinsAward();}catch(e){}return r;};
 function walletChip(){let c=$('#walletChip');const n=walletGet();
-  if(!c){const t=$('#title');if(!t)return;t.insertAdjacentHTML('beforeend','<div class="walletChip" id="walletChip" hidden><span class="ceCoin"></span><b></b></div>');c=$('#walletChip');}
-  c.querySelector('b').textContent=n.toLocaleString();c.hidden=n<=0;}
+  if(!c){const t=$('#title');if(!t)return;t.insertAdjacentHTML('beforeend','<button class="walletChip" id="walletChip" hidden aria-label="My Kart"><span class="ceCoin"></span><b></b><span class="wcKart">My Kart</span></button>');c=$('#walletChip');}
+  c.querySelector('b').textContent=n.toLocaleString();c.hidden=n<=0&&!cosmOwned().size;}
+// ---- My Kart: spend saved coins on looks only (paint, helmet, under-glow). No stat changes. ----
+// Prices are set so the first buy comes after ~3 races and the whole shelf takes ~150; trophy
+// items can't be bought, only won (any trophy in that cup).
+const COSM={
+  paint:{icon:'🎨',label:'Paint',items:[
+    {id:'stock'},{id:'pink',p:120,c:0xff4fd8},{id:'lime',p:120,c:0x7bd531},{id:'sun',p:150,c:0xffc627},
+    {id:'ocean',p:150,c:0x1f8bff},{id:'cherry',p:150,c:0xe8302a},{id:'snow',p:200,c:0xf4f1ea},{id:'night',p:200,c:0x2a2636},
+    {id:'sunset',p:300,c:0xff8a1f,c2:0xff3b8a},{id:'galaxy',p:300,c:0x3a6aff,c2:0xb04fff},{id:'mint',p:300,c:0x26d3d0,c2:0x9be15d},
+    {id:'gold',lock:'wheeldeal',c:0xffb81f,c2:0xfff0a8}]},
+  helmet:{icon:'⛑️',label:'Helmet',items:[
+    {id:'stock'},{id:'red',p:100,c:0xe8302a},{id:'yellow',p:100,c:0xffd23f},{id:'white',p:100,c:0xf7f4ee},
+    {id:'black',p:120,c:0x24212c},{id:'pink',p:120,c:0xff6ad5},{id:'teal',p:120,c:0x26d3d0},
+    {id:'stripe',p:200,pat:'stripe'},{id:'stars',p:250,pat:'stars'},{id:'check',p:250,pat:'check'},{id:'flames',p:300,pat:'flames'},
+    {id:'champ',lock:'home',pat:'champ'}]},
+  glow:{icon:'✨',label:'Glow',items:[
+    {id:'none'},{id:'lagoon',p:150,c:0x26e3e0},{id:'pink',p:150,c:0xff4fd8},{id:'toxic',p:150,c:0x7bff3a},
+    {id:'lava',p:180,c:0xff5b1f},{id:'ice',p:180,c:0x9fd8ff},{id:'violet',p:180,c:0x9f5bff},{id:'gold',p:220,c:0xffc23a},
+    {id:'galaxy',p:250,anim:'galaxy',c:0x7a5bff},{id:'strobe',p:250,anim:'strobe',c:0xffffff},
+    {id:'rainbow',lock:'wild',anim:'rainbow',c:0xff4f6a},{id:'siren',lock:'holiday',anim:'siren',c:0xff2a2a}]},
+};
+const COSM_CATS=['paint','helmet','glow'];
+function cosmLoad(){let s={};try{s=JSON.parse(store.get('wheeliefun.kart')||'{}')||{};}catch(e){}
+  const pick=(cat,id)=>{const it=COSM[cat].items.find(i=>i.id===id);return it&&cosmHas(cat,it)?it.id:COSM[cat].items[0].id;};
+  return{paint:pick('paint',s.paint),helmet:pick('helmet',s.helmet),glow:pick('glow',s.glow)};}
+function cosmSave(sel){store.set('wheeliefun.kart',JSON.stringify(sel));}
+function cosmOwned(){try{const a=JSON.parse(store.get('wheeliefun.owned')||'[]');return new Set(Array.isArray(a)?a:[]);}catch(e){return new Set();}}
+function cosmItem(cat,id){return COSM[cat].items.find(i=>i.id===id)||COSM[cat].items[0];}
+function cosmHas(cat,it,own){if(!it.p&&!it.lock)return true;if(it.lock)return !!trophyOf(it.lock);return (own||cosmOwned()).has(cat+':'+it.id);}
+function cosmCh(ch,sel){sel=sel||cosmLoad();const p=cosmItem('paint',sel.paint),h=cosmItem('helmet',sel.helmet),g=cosmItem('glow',sel.glow);
+  if(!p.c&&!h.c&&!h.pat&&!g.c)return ch;
+  return Object.assign({},ch,{kart:p.c||ch.kart,helmet:h.c||ch.helmet,cosm:{grad:p.c2?[p.c,p.c2]:null,pat:h.pat||null,glow:g.c?g:null}});}
+// helmet patterns: equirectangular canvas wrapped over a shell just outside the helmet (canvas top = crown, x=¼ = face)
+const PAT_MAT={};
+function drawPat(id,x,w,h){
+  const star=(cx,cy,r,col)=>{x.fillStyle=col;x.beginPath();for(let i=0;i<10;i++){const a=-Math.PI/2+i*Math.PI/5,rr2=i%2?r*.45:r;x.lineTo(cx+Math.cos(a)*rr2,cy+Math.sin(a)*rr2*.7);}x.closePath();x.fill();};
+  if(id==='stripe'){x.fillStyle='#f7f4ee';x.fillRect(0,0,w,h);for(const u of[.25,.75]){x.fillStyle='#e8302a';x.fillRect(u*w-w*.05,0,w*.035,h);x.fillRect(u*w+w*.015,0,w*.035,h);}}
+  else if(id==='stars'){x.fillStyle='#1d2a6b';x.fillRect(0,0,w,h);let s=7;const rnd=()=>(s=(s*16807)%2147483647)/2147483647;for(let i=0;i<34;i++)star(rnd()*w,h*.08+rnd()*h*.5,8+rnd()*10,i%5?'#ffd23f':'#ffffff');}
+  else if(id==='check'){const n=16,m=8;for(let i=0;i<n;i++)for(let j=0;j<m;j++){x.fillStyle=(i+j)%2?'#141218':'#f7f4ee';x.fillRect(i*w/n,j*h/m,w/n+1,h/m+1);}}
+  else if(id==='flames'){x.fillStyle='#1a1418';x.fillRect(0,0,w,h);const base=h*.62;for(const[col,hh,ww]of[['#e8302a',.42,1],['#ff8a1f',.33,.8],['#ffd23f',.22,.55]]){x.fillStyle=col;x.beginPath();x.moveTo(0,h);x.lineTo(0,base);const n=14;for(let i=0;i<n;i++){const x0=i*w/n,xm=x0+w/n*.5,x1=x0+w/n;const tip=base-h*hh*(.75+.25*Math.sin(i*2.3));x.quadraticCurveTo(x0+w/n*.1,base-h*hh*.4*ww,xm,tip);x.quadraticCurveTo(x1-w/n*.25,base-h*hh*.3*ww,x1,base);}x.lineTo(w,h);x.closePath();x.fill();}}
+  else if(id==='champ'){const g=x.createLinearGradient(0,0,0,h);g.addColorStop(0,'#fff0a8');g.addColorStop(.5,'#ffb81f');g.addColorStop(1,'#c98a00');x.fillStyle=g;x.fillRect(0,0,w,h);x.fillStyle='#e8302a';x.fillRect(0,h*.36,w,h*.07);for(let i=0;i<8;i++)star((i+.5)*w/8,h*.2,12,'#ffffff');}
+}
+function cosmPatMat(id){return PAT_MAT[id]||(PAT_MAT[id]=new THREE.MeshStandardMaterial({map:canvasTex(512,256,(x,w,h)=>drawPat(id,x,w,h)),roughness:.3,metalness:.22,envMap,envMapIntensity:1.1}));}
+// under-glow: an additive pool of light on the ground under the kart (no real light: cheap on phones)
+let GLOW_TEX=null;const GLOW_GEO=new THREE.PlaneGeometry(8.6,11.4);GLOW_GEO.rotateX(-Math.PI/2);
+function glowTex(){return GLOW_TEX||(GLOW_TEX=canvasTex(128,128,(x,w,h)=>{const g=x.createRadialGradient(w/2,h/2,2,w/2,h/2,w/2);g.addColorStop(0,'rgba(255,255,255,1)');g.addColorStop(.55,'rgba(255,255,255,.9)');g.addColorStop(.8,'rgba(255,255,255,.35)');g.addColorStop(1,'rgba(255,255,255,0)');x.fillStyle=g;x.fillRect(0,0,w,h);}));}
+const GLOWS=new Set();
+function cosmDecorate(v,ch){const m=ch.cosm;
+  if(m.grad){const mesh=v.body.children[0],col=mesh.geometry.attributes.color,pos=mesh.geometry.attributes.position;const base=new THREE.Color(ch.kart),a=new THREE.Color(m.grad[0]),b=new THREE.Color(m.grad[1]),t=new THREE.Color();
+    for(let i=0;i<col.count;i++){if(Math.abs(col.getX(i)-base.r)+Math.abs(col.getY(i)-base.g)+Math.abs(col.getZ(i)-base.b)>1e-4)continue;t.copy(a).lerp(b,clamp((pos.getZ(i)+2.4)/5.4,0,1));col.setXYZ(i,t.r,t.g,t.b);}col.needsUpdate=true;}
+  if(m.pat){const s=ch.baby?1.22:1;const shell=new THREE.Mesh(new THREE.SphereGeometry(.855*s,36,24),cosmPatMat(m.pat));shell.position.set(0,.14*s,-.24*s);shell.scale.set(1,.95,1);shell.castShadow=true;v.head.add(shell);}
+  if(m.glow){const mat=new THREE.MeshBasicMaterial({map:glowTex(),color:m.glow.c,transparent:true,opacity:.8,depthWrite:false,polygonOffset:true,polygonOffsetFactor:-3});
+    const g=new THREE.Mesh(GLOW_GEO,mat);g.position.y=.09;g.renderOrder=2;v.root.add(g);v.glow=g;if(m.glow.anim)GLOWS.add({mat,anim:m.glow.anim,root:v.root});}}
+(function glowTick(){requestAnimationFrame(glowTick);if(!GLOWS.size)return;const t=performance.now()/1000,calm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  for(const e of GLOWS){if(!e.root.parent){GLOWS.delete(e);continue;}const M=e.mat;
+    if(e.anim==='rainbow')M.color.setHSL((t*.25)%1,1,.55);
+    else if(e.anim==='galaxy')M.color.setHSL(.66+.14*Math.sin(t*1.4),1,.6);
+    else if(e.anim==='siren')M.color.setHex(Math.floor(t*(calm?1:3))%2?0x2a6bff:0xff2a2a);
+    else if(e.anim==='strobe')M.opacity=calm?.5+.25*Math.sin(t*2):((t*4)%1<.5?.9:.12);}})();
+const _makeKartOrig=makeKart;
+makeKart=function(ch){const v=_makeKartOrig(ch);if(ch&&ch.cosm){try{cosmDecorate(v,ch);}catch(e){console.warn('kart looks',e);}}return v;};
+// player 1's race kart wears the saved looks (the AI and other players never do)
+function cosmApplyRace(){const k=(G.humans_k||[]).find(q=>q.pi===0);if(!k||k.isRemote)return;const ch=cosmCh(k.ch);if(ch===k.ch)return;
+  const old=k.v,nv=makeKart(ch);if(window.WFV2&&k.parts){try{WFV2.applyGarageVisuals(nv,k.parts);}catch(e){}}
+  nv.root.position.copy(old.root.position);nv.root.quaternion.copy(old.root.quaternion);nv.root.visible=old.root.visible;
+  if(k.tag){old.root.remove(k.tag);nv.root.add(k.tag);}scene.remove(old.root);scene.add(nv.root);k.v=nv;}
+
+// ---- My Kart screen: kart on the podium, a panel of swatches; tap to try on, buy, it's yours ----
+const MK={cat:'paint',sel:null,try:null,from:'title',ci:0};
+function walletSpend(n){const v=walletGet();if(v<n)return false;store.set('wheeliefun.wallet',String(v-n));return true;}
+function swatchCSS(cat,it,ci){const hx=n=>hexCss(n);
+  if(cat==='paint'){if(!it.c)return`background:${hx(CHARS[ci].kart)}`;return it.c2?`background:linear-gradient(135deg,${hx(it.c)},${hx(it.c2)})`:`background:${hx(it.c)}`;}
+  if(cat==='helmet'){if(it.pat==='stripe')return'background:linear-gradient(90deg,#f7f4ee 34%,#e8302a 34% 45%,#f7f4ee 45% 55%,#e8302a 55% 66%,#f7f4ee 66%)';
+    if(it.pat==='stars')return'background:radial-gradient(circle at 30% 35%,#ffd23f 0 9%,transparent 10%),radial-gradient(circle at 68% 30%,#fff 0 7%,transparent 8%),radial-gradient(circle at 55% 65%,#ffd23f 0 9%,transparent 10%),#1d2a6b';
+    if(it.pat==='check')return'background:repeating-conic-gradient(#141218 0 25%,#f7f4ee 0 50%) 0 0/40% 40%';
+    if(it.pat==='flames')return'background:radial-gradient(ellipse at 50% 110%,#ffd23f 0 25%,#ff8a1f 26% 42%,#e8302a 43% 58%,#1a1418 59%)';
+    if(it.pat==='champ')return'background:linear-gradient(180deg,#fff0a8,#ffb81f 50%,#c98a00)';
+    return`background:${hx(it.c||CHARS[ci].helmet)}`;}
+  if(!it.c)return'background:transparent;border:3px dashed rgba(255,255,255,.3);box-shadow:none';
+  const c=hx(it.c);
+  if(it.anim==='rainbow')return'background:conic-gradient(#ff4f6a,#ffd21f,#5ad84a,#26a8ff,#b04fff,#ff4f6a);box-shadow:0 0 18px rgba(255,255,255,.5)';
+  if(it.anim==='galaxy')return'background:radial-gradient(circle,#fff 0 6%,#b04fff 20%,#3a6aff 60%,#1a0f2b);box-shadow:0 0 18px #7a5bff';
+  if(it.anim==='siren')return'background:linear-gradient(90deg,#ff2a2a 50%,#2a6bff 50%);box-shadow:0 0 18px rgba(255,80,80,.6)';
+  return`background:radial-gradient(circle,#fff 0 12%,${c} 45%,${c}00 72%);box-shadow:none`;}
+function mkBuild(){if($('#mykart'))return;
+  document.body.insertAdjacentHTML('beforeend',`<div class="screen" id="mykart" hidden>
+  <div class="mkHead"><h2 class="mkTitle">My Kart</h2><div class="mkBank"><span class="ceCoin"></span><b id="mkBank">0</b></div></div>
+  <div class="mkPanel"><div class="mkTabs">${COSM_CATS.map(c=>`<button class="mkTab" data-mktab="${c}"><i>${COSM[c].icon}</i>${COSM[c].label}</button>`).join('')}</div>
+  <div class="mkGrid" id="mkGrid"></div>
+  <div class="mkBtns"><button class="btn ghost" id="mkBack">Back</button><button class="btn" id="mkGo">Race ▶</button></div></div></div>`);
+  if(typeof screens!=='undefined'&&!screens.includes('mykart'))screens.push('mykart');
+  const S=$('#mykart');
+  S.addEventListener('click',e=>{audioInit();const tab=e.target.closest('[data-mktab]');if(tab){MK.cat=tab.dataset.mktab;MK.try=null;mkPreview();mkRender();SFX.menu&&SFX.menu();return;}
+    const tile=e.target.closest('[data-mki]');if(tile){mkTap(+tile.dataset.mki);return;}
+    if(e.target.closest('#mkBack')){mkClose(false);return;}if(e.target.closest('#mkGo'))mkGo();});}
+function mkOpen(from,focus){mkBuild();cancelAutoNext&&cancelAutoNext();MK.from=from;MK.sel=cosmLoad();MK.try=null;
+  if(from==='results'&&G.humans_k&&G.humans_k[0])MK.ci=Math.max(0,CHARS.indexOf(G.humans_k[0].ch));else{let run=null;try{run=loadCupRun();}catch(e){}MK.ci=run&&okRacer(run.racer)?run.racer:lastRacer();}
+  if(focus){MK.cat=focus.cat;const i=COSM[focus.cat].items.findIndex(x=>x.id===focus.id);if(i>=0)MK.try=i;}
+  podium.visible=true;G.state='mykart';document.body.classList.add('mk');show('mykart');mkPreview();mkRender();}
+function mkClose(go){document.body.classList.remove('mk');if(preview){podium.remove(preview.root);preview=null;}previewIdx=-1;
+  if(MK.from==='results'){podium.visible=!G.battle;G.state='results';show('results');
+    if(go){const b=$('#resBtns [data-act="next"],#resBtns [data-act="podium"]')||$('#resBtns .btn:not(.ghost)');if(b)b.click();}}
+  else{G.state='title';show('title');updateShelf();if(go){const b=$('#title [data-act="p1"]');if(b)b.click();}}}
+function mkSelOf(cat){return MK.try!=null?COSM[cat].items[MK.try]:cosmItem(cat,MK.sel[cat]);}
+function mkPreview(){if(preview)podium.remove(preview.root);const sel=Object.assign({},MK.sel);if(MK.try!=null)sel[MK.cat]=COSM[MK.cat].items[MK.try].id;
+  preview=makeKart(cosmCh(CHARS[MK.ci],sel));if(window.WFV2){try{WFV2.applyGarageVisuals(preview,WFV2.getPartsForKart(true,0,0));}catch(e){}}preview.root.position.y=1.9;preview.root.rotation.y=MK.rot==null?-.35:MK.rot;podium.add(preview.root);previewIdx=-1;}
+function mkTap(i){const cat=MK.cat,it=COSM[cat].items[i];SFX.menu&&SFX.menu();
+  if(cosmHas(cat,it)){MK.sel[cat]=it.id;cosmSave(MK.sel);MK.try=null;}
+  else{MK.try=i;if(it.p&&walletGet()<it.p)store.set('wheeliefun.wish',JSON.stringify({cat,id:it.id}));}
+  MK.rot=preview?preview.root.rotation.y:null;mkPreview();mkRender();}
+function mkGo(){const cat=MK.cat,it=MK.try!=null?COSM[cat].items[MK.try]:null;
+  if(!it){mkClose(true);return;}
+  if(it.lock||!it.p||walletGet()<it.p)return;
+  if(!walletSpend(it.p))return;const own=cosmOwned();own.add(cat+':'+it.id);store.set('wheeliefun.owned',JSON.stringify([...own]));
+  MK.sel[cat]=it.id;cosmSave(MK.sel);MK.try=null;try{const w=JSON.parse(store.get('wheeliefun.wish')||'null');if(w&&w.cat===cat&&w.id===it.id)store.set('wheeliefun.wish','');}catch(e){}
+  try{SFX.coin();SFX.box();}catch(e){}if(preview){const p=podium.position;for(let n=0;n<40;n++)burst(FX,p.x+rr(-3,3),p.y+4+rr(0,2),p.z+rr(-3,3),1,18,1,1.2,R(),R(),R(),10,8);}
+  MK.rot=preview?preview.root.rotation.y:null;mkPreview();mkRender(i=>i===COSM[cat].items.indexOf(it));}
+function mkRender(popAt){const own=cosmOwned(),bank=walletGet(),cat=MK.cat;$('#mkBank').textContent=bank.toLocaleString();
+  document.querySelectorAll('#mykart .mkTab').forEach(t=>t.classList.toggle('on',t.dataset.mktab===cat));
+  const eq=MK.sel[cat];
+  $('#mkGrid').innerHTML=COSM[cat].items.map((it,i)=>{const has=cosmHas(cat,it,own),on=it.id===eq,tr=MK.try===i;
+    const tag=on?'<span class="mkOk">✓</span>':has?'':it.lock?'<span class="mkP">🔒</span>':`<span class="mkP${bank>=it.p?' can':''}"><span class="ceCoin sm"></span>${it.p}</span>`;
+    return`<button class="mkTile${on&&MK.try==null?' sel':''}${tr?' sel try':''}${!has&&it.lock?' lock':''}${popAt&&popAt(i)?' pop':''}" data-mki="${i}" aria-label="${cat} ${it.id}"><span class="mkSw" style="${swatchCSS(cat,it,MK.ci)}"></span>${tag}</button>`;}).join('');
+  const go=$('#mkGo'),it=MK.try!=null?COSM[cat].items[MK.try]:null;go.disabled=false;go.className='btn';
+  if(!it)go.innerHTML='Race ▶';
+  else if(it.lock){go.disabled=true;go.innerHTML='🏆 '+(CUPS.find(c=>c.id===it.lock)||{name:''}).name;}
+  else if(bank>=it.p){go.classList.add('buy');go.innerHTML=`Buy <span class="ceCoin"></span> ${it.p}`;}
+  else{go.disabled=true;go.innerHTML=`<span class="ceCoin"></span> ${(it.p-bank).toLocaleString()} more`;}
+  if(G.state==='mykart'){const ix=COSM[cat].items.findIndex(x=>x.id===eq);G.focus=3+(MK.try!=null?MK.try:Math.max(0,ix));refreshFocus();}}
+// results: the next thing to save up for (the last item the player tried on, else the cheapest one left)
+function cosmGoal(){const own=cosmOwned();let w=null;try{w=JSON.parse(store.get('wheeliefun.wish')||'null');}catch(e){}
+  if(w&&COSM[w.cat]){const it=COSM[w.cat].items.find(i=>i.id===w.id);if(it&&it.p&&!cosmHas(w.cat,it,own))return{cat:w.cat,it};}
+  let best=null;for(const cat of COSM_CATS)for(const it of COSM[cat].items){if(!it.p||cosmHas(cat,it,own))continue;if(!best||it.p<best.it.p)best={cat,it};}return best;}
+function cosmGoalHTML(bank){const g=cosmGoal();if(!g)return'';const ci=G.humans_k&&G.humans_k[0]?Math.max(0,CHARS.indexOf(G.humans_k[0].ch)):0;
+  const pct=Math.min(100,Math.round(bank/g.it.p*100)),ready=bank>=g.it.p;
+  return`<button class="mkGoal${ready?' ready':''}" data-mkgoal="${g.cat}:${g.it.id}" aria-label="My Kart"><span class="mkSw" style="${swatchCSS(g.cat,g.it,ci)}"></span><span class="mkBar"><i style="width:${pct}%"></i></span><span class="mkNeed">${ready?'Ready ▶':(g.it.p-bank).toLocaleString()+' to go'}</span></button>`;}
+document.addEventListener('click',e=>{const g=e.target.closest('[data-mkgoal]');if(g){audioInit();const[cat,id]=g.dataset.mkgoal.split(':');mkOpen('results',{cat,id});return;}
+  if(e.target.closest('#walletChip')){audioInit();mkOpen('title');}},true);
+const _focusablesOrig=focusables;
+focusables=function(){if(G.state==='mykart'){const S=$('#mykart');return S?[...S.querySelectorAll('.mkTab,.mkTile,.btn')].filter(el=>!el.disabled):[];}return _focusablesOrig.apply(this,arguments);};
+const _backOrig=back;
+back=function(){if(G.state==='mykart'){mkClose(false);return;}return _backOrig.apply(this,arguments);};
+// camera: the kart sits in whatever the panel leaves free (left of it on wide screens, above it on tall ones)
+let mkOffset=false;
+const _updateCamerasOrig=updateCameras;
+updateCameras=function(dt){const c=cams[0].c;
+  if(G.state!=='mykart'){if(mkOffset){c.clearViewOffset();mkOffset=false;}return _updateCamerasOrig.apply(this,arguments);}
+  const W=innerWidth,H=innerHeight,P=$('#mykart .mkPanel'),r=P?P.getBoundingClientRect():{width:0,height:0,top:H,left:W};const side=r.top<H*.3;
+  const freeW=side?r.left:W,freeH=side?H:r.top;const fov=40;c.fov=fov;
+  const worldH=Math.max(H*6.4/(.5*freeW),H*4.6/(.55*freeH)),d=clamp(worldH/(2*Math.tan(fov*Math.PI/360)),9,70);
+  const a=-.62,p=podium.position;c.position.set(p.x+Math.sin(a)*d*.94,p.y+3.1+d*.34,p.z+Math.cos(a)*d*.94);c.lookAt(p.x,p.y+3.1,p.z);
+  c.setViewOffset(W,H,side?(W-freeW)/2:0,side?0:(H-freeH)/2,W,H);mkOffset=true;
+  if(preview)preview.root.rotation.y+=dt*.45;};
 // ---- a brand-new player's first race: gentle and scripted (race 1 of the first cup, one player) ----
 // Three AI instead of seven; the pack starts slow and builds to a touch under normal pace; the
 // player's first item box is always a bee; one "rabbit" car stays ahead so the bee has someone to
@@ -12834,7 +13029,7 @@ function frame(now){requestAnimationFrame(frame);phoneTick();let dt=Math.min(.05
   if(G.state==='cup'){for(const [n,v] of cupKarts.entries())v.body.position.y=Math.abs(Math.sin(G.time*4+n))*.5;if(R()<dt*3){const p=steps.position;burst(FX,p.x+rr(-25,25),p.y+rr(18,30),p.z+rr(-25,25),70,22,1.1,1.3,R(),R(),R(),14,4);SFX.pop();}}
   updateWorld(dt);updateCameras(dt);render();drawOverlay();updateHUD(dt);
   if(G.state==='results'&&window.WFOnline&&WFOnline.isOnline())WFOnline.tick(dt);
-  for(const k of(G.humans_k||[])){engineSet(k.pi,k.speed,k.boostT>0||k.hyperT>0,k.respawnT<=0&&G.state!=='results',k.driftDir!==0);}
+  for(const k of(G.humans_k||[])){engineSet(k.pi,k.speed,k.boostT>0||k.hyperT>0,k.respawnT<=0&&G.state!=='results'&&G.state!=='mykart',k.driftDir!==0);}
   musicTick();if(G.state==='title'&&Math.floor(G.time*2)%4===0)updatePadInfo();}
 // boot: build the track Start will take the player to (so it opens without a loading pause),
 // and line karts up on the grid for the title attract
