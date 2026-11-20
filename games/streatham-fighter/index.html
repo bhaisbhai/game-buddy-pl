@@ -110,8 +110,9 @@ function goFullscreen(){
   .then(()=>screen.orientation&&screen.orientation.lock&&screen.orientation.lock('landscape'))
   .catch(()=>{});
 }
-document.addEventListener('visibilitychange',()=>{if(document.hidden)pause();});
-addEventListener('blur',()=>{keys.clear();last=0;if(!isTouch())pause();});
+// Phones: backgrounding the app pauses. Desktop keeps the original behaviour (game just freezes while the tab is hidden).
+document.addEventListener('visibilitychange',()=>{if(document.hidden&&isTouch())pause();});
+addEventListener('blur',()=>{keys.clear();last=0;});
 
 /* ---------- Keyboard ---------- */
 const bindings=['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','a','d','w','s','j','k',' '];
@@ -260,7 +261,7 @@ function street(now){
    rect(x+10,281,204,56,'#222830');for(let j=0;j<3;j++){rect(x+18+j*65,286,55,43,i===13?'#a77a49':'#3c4148');rect(x+18+j*65,307,55,3,'#282d34');}
  }
  rect(0,336,960,204,'#292e37');rect(0,336,960,28,'#53545a');rect(0,360,960,5,'#878086');rect(0,365,960,4,'#181e27');
- for(let i=0;i<30;i++){const x=i*139-camera;if(x<-80||x>960)continue;rect(x,475,73,4,'#8b784c');rect(x+32,405+i%4*11,56,2,'#3e4650');}
+ for(let i=0;i<30;i++){const x=i*139-camera;if(x<-88||x>960)continue;rect(x,475,73,4,'#8b784c');rect(x+32,405+i%4*11,56,2,'#3e4650');}
  const bus=1150-camera;
  if(bus>-170&&bus<960){rect(bus,285,165,83,'#a83938');rect(bus+6,291,151,20,'#252e35');rect(bus+6,320,151,20,'#252e35');label('159',bus+10,335,14,'#ffd38d');}
  // rain: one batched path instead of 39 separate strokes
