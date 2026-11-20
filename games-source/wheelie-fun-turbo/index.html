@@ -234,6 +234,41 @@ body.mk #views,body.mk #fx,body.mk .ctrlTip{visibility:hidden}
 .sytDot.gift{border:2px dashed var(--ember);background:none;font-size:16px}
 .sytDot.gift.on{background:var(--ember);border-style:solid}
 .sytCard .btns{flex-wrap:nowrap}.sytCard .btns .btn{flex:1;white-space:nowrap;padding-left:12px;padding-right:12px}
+/* results card v2 (one player, cup race) */
+#results.v2 .card{max-width:480px;text-align:center;padding:22px}
+body:has(#results.v2:not([hidden])) #views,body:has(#results.v2:not([hidden])) #fx{visibility:hidden}
+#results.v2 .card>*:not(#rc2):not(#resBtns){display:none!important}
+#rc2{display:flex;flex-direction:column;align-items:center;gap:12px}
+.r2Place{font-family:var(--display);font-size:84px;line-height:.85;color:var(--ember);text-shadow:0 5px 0 #a3420c,0 0 40px rgba(255,178,46,.4);animation:cePop .5s cubic-bezier(.2,1.6,.4,1) both}
+.r2Place sup{font-size:.38em;vertical-align:.95em}
+.r2Place.out{color:var(--muted);text-shadow:0 5px 0 #4a3d5c}
+#rc2 .r2Title{font-family:var(--display);font-weight:400;font-size:clamp(20px,2.6vw,26px);color:var(--ember);margin:0;line-height:1.1;text-shadow:0 3px 0 #a3420c}
+.r2Sub{display:flex;justify-content:center;align-items:center;gap:10px;flex-wrap:wrap}
+.r2Q{background:#2fae4a;color:#fff;font-family:var(--display);font-size:13px;border-radius:8px;padding:4px 10px}.r2Q.no{background:#c8323a}
+.r2Cup{font-family:var(--display);font-size:13px;color:var(--muted)}
+.r2Coins{font-family:var(--display);color:var(--ember);font-size:52px;line-height:1;display:flex;align-items:center;gap:12px}.r2Coins .ceCoin{width:.9em;height:.9em}
+#rc2 .ceChips{justify-content:center}
+.r2Rows{align-self:stretch;display:flex;flex-direction:column;gap:12px;background:rgba(0,0,0,.2);border-radius:16px;padding:14px}
+.r2Row{display:flex;align-items:center;gap:12px;text-align:left;background:none;border:0;padding:0;color:inherit;font:inherit;width:100%}
+button.r2Row{cursor:pointer}
+.r2Ic{width:40px;height:40px;flex:none;border-radius:12px;background:rgba(255,255,255,.07);display:flex;align-items:center;justify-content:center;font-size:24px}
+.r2Ic .mkSw{width:26px}.r2Ic .mkSw.wh{font-size:24px}
+.r2M{flex:1;display:flex;flex-direction:column;gap:7px;min-width:0}
+.r2L{display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+.r2L b{font-family:var(--display);font-weight:400;font-size:14px;color:var(--cream);line-height:1.2}.r2L b span{color:var(--ember)}
+.r2L em{font-style:normal;font-size:13px;color:var(--muted);font-weight:600;white-space:nowrap}
+.r2M .bar{height:9px;border-radius:99px;background:rgba(255,255,255,.12);overflow:hidden}.r2M .bar i{display:block;height:100%;background:linear-gradient(90deg,#ff8a1f,#ffb22e);border-radius:99px}.r2M .bar i.k{background:var(--lagoon)}
+.r2Kart.ready .r2L em{color:var(--lagoon);font-family:var(--display);font-weight:400}
+.r2Kart.ready .r2Ic{box-shadow:0 0 0 2px var(--lagoon);animation:mkGlow 1.4s ease-in-out infinite}
+#results.v2 #resBtns{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:16px}
+#results.v2 #resBtns .btn{white-space:nowrap;padding-left:10px;padding-right:10px;overflow:hidden;text-overflow:ellipsis}
+#results.v2 #resBtns .btn:first-child,#results.v2 #resBtns .btn:nth-child(2):last-child{grid-column:1/-1}
+#results.v2 #resBtns .btn.ghost{background:transparent;color:var(--muted);box-shadow:none;border:2px solid rgba(255,255,255,.15)}
+@media (max-height:640px){#results.v2 .card{padding:14px 18px}.r2Place{font-size:56px}.r2Coins{font-size:38px}#rc2{gap:8px}.r2Rows{padding:10px;gap:8px}#results.v2 #resBtns{margin-top:10px}}
+@media (max-height:460px){#results.v2 .card{max-width:760px}#rc2{display:grid;grid-template-columns:auto 1fr;column-gap:16px;row-gap:6px;align-items:center;text-align:left}
+  .r2Place{grid-row:span 2;font-size:52px}#rc2 .r2Title{font-size:20px}.r2Sub{justify-content:flex-start}.r2Coins{font-size:30px}#rc2 .ceChips{justify-content:flex-start}.r2Rows{grid-column:1/-1}
+  #results.v2 #resBtns{grid-template-columns:2fr 1fr 1fr}#results.v2 #resBtns .btn:first-child{grid-column:auto}}
+@media (prefers-reduced-motion:reduce){.r2Place{animation:none}}
 .rec:empty{display:none}
 /* results + podium never overflow: header and buttons stay put, only the tables scroll if they must */
 #results .card,#cup .card{display:flex;flex-direction:column;overflow:auto}
@@ -6166,7 +6201,7 @@ const WALLET={place:[25,20,16,13,10,8,6,5],perCoin:1.5,perHit:5};
 function walletGet(){return Math.max(0,parseInt(store.get('wheeliefun.wallet')||'0',10)||0);}
 function walletAdd(n){const v=walletGet()+n;store.set('wheeliefun.wallet',String(v));store.set('wheeliefun.walletLifetime',String((parseInt(store.get('wheeliefun.walletLifetime')||'0',10)||0)+n));return v;}
 function walletEligible(){return G.humans.length===1&&G.mode===1&&!G.battle&&!G.death&&!G.timeTrial&&!G.onlineGrid;}
-function coinsReset(){G.coinPaid=false;for(const k of G.karts)k.hitsLanded=0;}
+function coinsReset(){G.coinPaid=false;G.lastAward=null;for(const k of G.karts)k.hitsLanded=0;}
 const _hitOrig=hit;
 hit=function(k,by){const r=_hitOrig.apply(this,arguments);if(r&&by&&by.human&&by!==k)by.hitsLanded=(by.hitsLanded||0)+1;return r;};
 function raceCoinsAward(){
@@ -6175,7 +6210,7 @@ function raceCoinsAward(){
   const order=G.karts.slice().sort((a,b)=>(b.finished-a.finished)||(a.finishTime-b.finishTime)||(b.progress-a.progress));
   const place=order.indexOf(me);const fromPlace=WALLET.place[Math.min(place,WALLET.place.length-1)];
   const fromCoins=Math.round((me.coins||0)*WALLET.perCoin),fromHits=(me.hitsLanded||0)*WALLET.perHit;
-  const base=fromPlace+fromCoins+fromHits;const day=dailyClaim();const total=base*(day?2:1)+(day&&day.gift?DAILY.gift:0);G.coinPaid=true;const bank=walletAdd(total);
+  const base=fromPlace+fromCoins+fromHits;const day=dailyClaim();const total=base*(day?2:1)+(day&&day.gift?DAILY.gift:0);G.coinPaid=true;const bank=walletAdd(total);G.lastAward={total,fromPlace,fromCoins,fromHits,day};
   const chip=(icon,n)=>n>0?`<span class="ceChip">${icon} +${n}</span>`:'';
   const dayChip=day?`<span class="ceChip day">🎁 ×2</span>${day.gift?`<span class="ceChip day">🔥 ${day.streak} +${DAILY.gift}</span>`:''}`:'';
   const html=`<div class="coinEarn"><div class="ceMain"><span class="ceCoin"></span>+${total}</div>
@@ -6183,7 +6218,7 @@ function raceCoinsAward(){
     <div class="ceBank">Bank <span class="ceCoin sm"></span> ${bank.toLocaleString()}</div>${cosmGoalHTML(bank)}</div>`;
   const t=$('#resTitle');if(t)t.insertAdjacentHTML('afterend',html);}
 const _showResultsOrig=showResults;
-showResults=function(){const r=_showResultsOrig.apply(this,arguments);try{raceCoinsAward();}catch(e){}return r;};
+showResults=function(){const r=_showResultsOrig.apply(this,arguments);try{raceCoinsAward();}catch(e){}try{resV2();}catch(e){console.warn('results card',e);}return r;};
 function walletChip(){let c=$('#walletChip');const n=walletGet();
   if(!c){const t=$('#title');if(!t)return;t.insertAdjacentHTML('beforeend','<button class="walletChip" id="walletChip" hidden aria-label="My Kart"><span class="ceCoin"></span><b></b><span class="wcKart">My Kart</span></button>');c=$('#walletChip');}
   c.querySelector('b').textContent=n.toLocaleString();c.hidden=n<=0&&!cosmOwned().size;}
@@ -6392,6 +6427,30 @@ document.addEventListener('click',e=>{const o=$('#syt');if(!o)return;const b=e.t
   if(a==='kart')mkOpen('title');else if(a==='race'){const s=$('#title [data-act="p1"]');if(s)s.click();}},true);
 const _quitOrig=quit;
 quit=function(){const r=_quitOrig.apply(this,arguments);try{dailyBadge();sytMaybe();}catch(e){}return r;};
+// ---- results card (one player, cup races): place, coins, what's next to unlock. No standings table. ----
+const COSM_NAMES={paint:{pink:'Hot pink paint',lime:'Lime paint',sun:'Sunshine paint',ocean:'Ocean paint',cherry:'Cherry paint',snow:'Snow paint',night:'Midnight paint',sunset:'Sunset fade',galaxy:'Galaxy fade',mint:'Mint fade'},
+  helmet:{red:'Red helmet',yellow:'Yellow helmet',white:'White helmet',black:'Black helmet',pink:'Pink helmet',teal:'Teal helmet',stripe:'Stripe helmet',stars:'Star helmet',check:'Chequered helmet',flames:'Flame helmet'},
+  glow:{lagoon:'Lagoon glow',pink:'Pink glow',toxic:'Toxic glow',lava:'Lava glow',ice:'Ice glow',violet:'Violet glow',gold:'Gold glow',galaxy:'Galaxy glow',strobe:'Strobe glow'},
+  wheels:{neon:'Neon rims',donut:'Donut wheels',dragster:'Dragster wheels',monster:'Monster wheels'}};
+function cosmName(cat,it){return(COSM_NAMES[cat]&&COSM_NAMES[cat][it.id])||it.id;}
+function resV2(){const R=$('#results'),card=R&&R.querySelector('.card');if(!card)return;const old=$('#rc2');if(old)old.remove();
+  const on=!!(G.cup&&G.humans.length===1&&!G.onlineGrid&&!G.battle&&!G.death&&!G.timeTrial&&G.humans_k&&G.humans_k[0]);R.classList.toggle('v2',on);if(!on)return;
+  const me=G.humans_k[0];const order=G.karts.slice().sort((a,b)=>(b.finished-a.finished)||(a.finishTime-b.finishTime)||(b.progress-a.progress));
+  const place=order.indexOf(me)+1,qual=!!G.cup.qual;
+  const title=place===1?LV.champ:place<=3?'On the podium!':qual?'Made the cut!':'So close!';
+  const sfx=n=>{const v=n%100;return v>=11&&v<=13?'TH':['TH','ST','ND','RD'][n%10]||'TH';};
+  const mine=CHARS.indexOf(me.ch),pts=G.cup.pts||{};const cupPos=1+Object.keys(pts).filter(k=>+k!==mine&&(pts[k]||0)>(pts[mine]||0)).length;
+  const A=G.lastAward;const coin='<span class="ceCoin"></span>',chip=(i,n)=>n>0?`<span class="ceChip">${i} +${n}</span>`:'';
+  const coins=A?`<div class="r2Coins">${coin}+${A.total}</div><div class="ceChips">${chip('🏁',A.fromPlace)}${chip('<span class="ceCoin sm"></span>',A.fromCoins)}${chip('💥',A.fromHits)}${A.day?'<span class="ceChip day">🎁 ×2</span>':''}${A.day&&A.day.gift?`<span class="ceChip day">🔥 ${A.day.streak} +${DAILY.gift}</span>`:''}</div>`:'';
+  let rows='';
+  if(G.cup.ci!=null){const u=cupUnlocks(G.cup.ci);if(u.cup){const total=G.cup.order.length,done=G.cup.scored?G.cup.race+1:G.cup.race,left=total-done;
+    rows+=`<div class="r2Row"><span class="r2Ic">🏆</span><div class="r2M"><div class="r2L"><b><span>Unlock</span> ${u.cup.name}</b><em>${left<=0?'✓':left===1?'1 race':left+' races'}</em></div><div class="bar"><i style="width:${Math.round(done/total*100)}%"></i></div></div></div>`;}}
+  const g=cosmGoal();if(g){const bank=walletGet(),ready=bank>=g.it.p;
+    rows+=`<button class="r2Row r2Kart${ready?' ready':''}" data-mkgoal="${g.cat}:${g.it.id}"><span class="r2Ic"><span class="mkSw${g.it.e?' wh':''}" style="${swatchCSS(g.cat,g.it,Math.max(0,mine))}">${g.it.e||''}</span></span><div class="r2M"><div class="r2L"><b><span>Unlock</span> ${cosmName(g.cat,g.it)}</b><em>${ready?'Ready ▶':(g.it.p-bank).toLocaleString()+' to go'}</em></div><div class="bar"><i class="k" style="width:${Math.min(100,Math.round(bank/g.it.p*100))}%"></i></div></div></button>`;}
+  const html=`<div id="rc2"><div class="r2Place${qual?'':' out'}">${place}<sup>${sfx(place)}</sup></div><h2 class="r2Title">${title}</h2>
+    <div class="r2Sub">${qual?'<span class="r2Q">Qualified ✓</span>':`<span class="r2Q no">Top ${QUAL_PLACE} to qualify</span>`}${qual?`<span class="r2Cup">🏆 Cup ${ord(cupPos)}</span>`:''}</div>
+    ${coins}${rows?`<div class="r2Rows">${rows}</div>`:''}</div>`;
+  card.insertAdjacentHTML('afterbegin',html);const rd=$('#resBtns [data-act="restart"]');if(rd&&qual)rd.textContent='Redo race';}
 // ---- a brand-new player's first race: gentle and scripted (race 1 of the first cup, one player) ----
 // Three AI instead of seven; the pack starts slow and builds to a touch under normal pace; the
 // player's first item box is always a bee; one "rabbit" car stays ahead so the bee has someone to
@@ -6431,8 +6490,8 @@ function unlockList(u){return[...u.racers.map(i=>`<b><i style="background:${hexC
 function unlockGoalHTML(){if(!G.cup||G.cup.ci==null||G.onlineGrid)return'';const u=cupUnlocks(G.cup.ci);if(!u.racers.length&&!u.cup)return'';
   const total=G.cup.order.length,done=G.cup.scored?G.cup.race+1:G.cup.race,left=total-done;
   return `<div class="unlockGoal"><div>🔓 ${left===1?'Finish the last race':'Finish '+left+' more races'} to unlock ${unlockList(u)}</div><div class="ugBar"><i style="width:${Math.round(done/total*100)}%"></i></div></div>`;}
-function showCupUnlocked(u){requestAnimationFrame(()=>document.querySelectorAll('#cup .resScroll').forEach(e=>e.scrollTop=0));const old=$('#cupUnlock');if(old)old.remove();if(!u||(!u.racers.length&&!u.cup))return;const sub=$('#cupSub');if(!sub)return;
-  sub.insertAdjacentHTML('afterend',`<div class="unlockGoal done" id="cupUnlock">🎉 Unlocked: ${unlockList(u)}</div>`);}
+function showCupUnlocked(u){requestAnimationFrame(()=>document.querySelectorAll('#cup .resScroll').forEach(e=>e.scrollTop=0));const old=$('#cupUnlock');if(old)old.remove();if(!u||!u.cup)return;const sub=$('#cupSub');if(!sub)return;
+  sub.insertAdjacentHTML('afterend',`<div class="unlockGoal done" id="cupUnlock">🎉 Unlocked: <b>${u.cup.name}</b></div>`);}
 // results screen counts down into the next race (or the podium) unless the player does anything
 const AUTO_NEXT_S=5;let autoNextIv=0;
 function autoNextKey(e){if(e.code==='Escape')cancelAutoNext();}
