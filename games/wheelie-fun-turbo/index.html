@@ -12986,13 +12986,15 @@ function unlockGoalHTML(){if(!G.cup||G.cup.ci==null||G.onlineGrid)return'';const
 function showCupUnlocked(u){requestAnimationFrame(()=>document.querySelectorAll('#cup .resScroll').forEach(e=>e.scrollTop=0));const old=$('#cupUnlock');if(old)old.remove();if(!u||!u.cup)return;const sub=$('#cupSub');if(!sub)return;
   sub.insertAdjacentHTML('afterend',`<div class="unlockGoal done" id="cupUnlock">🎉 Unlocked: <b>${u.cup.name}</b></div>`);}
 // results screen counts down into the next race (or the podium) unless the player does anything
-const AUTO_NEXT_S=5;let autoNextIv=0;
+const AUTO_NEXT_S=5,AUTO_RETRY_S=10;let autoNextIv=0;
 function autoNextKey(e){if(e.code==='Escape')cancelAutoNext();}
 function autoNextTap(e){if(e.target&&e.target.closest&&e.target.closest('#results .card'))cancelAutoNext();}
 function cancelAutoNext(){if(!autoNextIv)return;clearInterval(autoNextIv);autoNextIv=0;removeEventListener('keydown',autoNextKey,true);removeEventListener('pointerdown',autoNextTap,true);
   const b=$('#autoNextBtn');if(b){b.textContent=b.dataset.base;b.removeAttribute('id');}}
-function startAutoNext(){cancelAutoNext();if(G.onlineGrid||G.state!=='results')return;const b=$('#resBtns [data-act="next"],#resBtns [data-act="podium"]');if(!b)return;
-  b.id='autoNextBtn';b.dataset.base=b.textContent;let n=AUTO_NEXT_S;const paint=()=>{b.textContent=b.dataset.base+' ('+n+')';};paint();
+function startAutoNext(){cancelAutoNext();if(G.onlineGrid||G.state!=='results')return;let b=$('#resBtns [data-act="next"],#resBtns [data-act="podium"]'),n=AUTO_NEXT_S;
+  // missed the cut: Try again counts down too, but slower, so there's time to see why
+  if(!b&&G.cup&&!G.cup.qual){b=$('#resBtns [data-act="restart"]');n=AUTO_RETRY_S;}if(!b)return;
+  b.id='autoNextBtn';b.dataset.base=b.textContent;const paint=()=>{b.textContent=b.dataset.base+' ('+n+')';};paint();
   // ignore input for a moment: a key still held from the finish line shouldn't count as "stay here"
   setTimeout(()=>{if(autoNextIv){addEventListener('keydown',autoNextKey,true);addEventListener('pointerdown',autoNextTap,true);}},700);
   autoNextIv=setInterval(()=>{if(G.state!=='results'||!b.isConnected){cancelAutoNext();return;}n--;if(n<=0){cancelAutoNext();b.click();}else paint();},1000);}
