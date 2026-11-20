@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
 <meta name="theme-color" content="#0d1014">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -11,6 +11,8 @@
 <style>
 *{box-sizing:border-box}
 html,body{height:100%;margin:0;overflow:hidden;background:#0d1014}
+/* iOS inflates text when rotated to landscape unless told not to */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 body{color:#fff4dd;font:16px system-ui;display:grid;place-items:center;
  padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
  -webkit-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent;
@@ -73,7 +75,7 @@ body.touch.playing #touch{display:block}
 </style></head>
 <body><main><div class="cabinet">
 <canvas id="game" width="1920" height="1080" aria-label="Streatham Fighter arcade game"></canvas>
-<div class="screen" id="screen"><div><div class="stamp" id="stamp">SOUTH LONDON · 08:28 AM</div><h1 id="title">Streatham<br><span>Fighter</span></h1><p id="message">Abacus shuts in 30 seconds. Sidestep the crowds, watch for street warnings, and squeeze past for a speed boost.</p><div id="level-picker" class="level-grid" aria-label="Choose a level"></div><button id="start">Start the school run</button><button id="menu">Levels</button></div></div>
+<div class="screen" id="screen"><div><div class="stamp" id="stamp">SOUTH LONDON · 08:28 AM</div><h1 id="title">Streatham<br><span>Fighter</span></h1><p id="message">Abacus shuts in 40 seconds. Sidestep the crowds, watch for street warnings, and squeeze past for a speed boost.</p><div id="level-picker" class="level-grid" aria-label="Choose a level"></div><button id="start">Start the school run</button><button id="menu">Levels</button></div></div>
 </div><div class="hint">Arrows / WASD to move · J to punch · K to dash · Shift / Q / E to sidestep · P to pause · Near misses boost speed</div></main>
 <div id="touch" aria-hidden="true">
  <div id="zone"><div id="stick"><div id="knob"></div></div></div>
@@ -89,13 +91,21 @@ let ctx=canvas.getContext('2d',{alpha:false}), scale=2;
 const screen=document.querySelector('#screen'), start=document.querySelector('#start');
 const keys=new Set(), end=3025;
 const levels=[
- {name:'The School Run',theme:'street',goal:'ABACUS',time:30,crowd:16,waves:[660,1450,2280],intro:'Abacus shuts in 30 seconds. Dodge the crowds and deal with the high street.',hint:'DODGE THE SCHOOL-RUN CROWD',types:['phone','trolley','bus','pigeons','phone','trolley','pigeons']},
- {name:'Common Shortcut',theme:'park',goal:'COMMON GATE',time:65,crowd:12,waves:[],intro:'Autumn on Streatham Common. Dodge dogs and joggers. The muddy shortcut is quicker — if you can keep your footing.',hint:'MUD SLOWS YOU • CHOOSE YOUR LINE',types:['dog','mud','jogger','dog','mud','jogger','dog']},
- {name:'The Big Shop',theme:'shop',goal:'CHECKOUT',time:60,crowd:15,waves:[],intro:'One quick shop. Obviously. Steer your trolley past shoppers, deliveries and spills before the checkout closes.',hint:'YOUR TROLLEY NEEDS ROOM TO TURN',types:['trolley','spill','queue','trolley','spill','queue','trolley']},
- {name:'Last Train Home',theme:'station',goal:'PLATFORM 2',time:55,crowd:20,waves:[],intro:'The last train is boarding. Thread through commuters, luggage and queues before the doors close.',hint:'MIND THE LUGGAGE • MAKE THE TRAIN',types:['luggage','phone','queue','luggage','phone','queue','luggage']},
- {name:'Saturday High Street',theme:'market',goal:'MARKET EXIT',time:55,crowd:23,waves:[],intro:'Market day on the high road. Squeeze past queues and delivery riders weaving between the stalls.',hint:'WATCH THE RIDERS • FIND THE GAPS',types:['queue','rider','trolley','queue','rider','trolley','rider']},
- {name:'The Pickup Sprint',theme:'sunset',goal:'ABACUS',time:35,crowd:25,waves:[660,1450,2280],intro:'35 seconds until Abacus locks up. Sunset, rain and the busiest pavement of the day. Everything you learned, one final sprint.',hint:'ONE LAST PUSH • ABACUS IS WAITING',types:['rider','bus','trolley','pigeons','phone','rider','queue','bus','pigeons']}
+ {name:'The School Run',theme:'street',goal:'ABACUS',time:40,crowd:16,waves:[660,1450,2280],intro:'Abacus shuts in 40 seconds. Dodge the crowds and deal with the high street.',hint:'DODGE THE SCHOOL-RUN CROWD',types:['phone','trolley','bus','pigeons','phone','trolley','pigeons']},
+ {name:'Common Shortcut',theme:'park',goal:'COMMON GATE',time:65,crowd:12,waves:[660,1450,2280],intro:'Autumn on Streatham Common. Dodge dogs and joggers. The muddy shortcut is quicker — if you can keep your footing.',hint:'MUD SLOWS YOU • CHOOSE YOUR LINE',types:['dog','mud','jogger','dog','mud','jogger','dog']},
+ {name:'The Big Shop',theme:'shop',goal:'CHECKOUT',time:60,crowd:15,waves:[660,1450,2280],intro:'One quick shop. Obviously. Steer your trolley past shoppers, deliveries and spills before the checkout closes.',hint:'YOUR TROLLEY NEEDS ROOM TO TURN',types:['trolley','spill','queue','trolley','spill','queue','trolley']},
+ {name:'Last Train Home',theme:'station',goal:'PLATFORM 2',time:55,crowd:20,waves:[660,1450,2280],intro:'The last train is boarding. Thread through commuters, luggage and queues before the doors close.',hint:'MIND THE LUGGAGE • MAKE THE TRAIN',types:['luggage','phone','queue','luggage','phone','queue','luggage']},
+ {name:'Saturday High Street',theme:'market',goal:'MARKET EXIT',time:55,crowd:23,waves:[660,1450,2280],intro:'Market day on the high road. Squeeze past queues and delivery riders weaving between the stalls.',hint:'WATCH THE RIDERS • FIND THE GAPS',types:['queue','rider','trolley','queue','rider','trolley','rider']},
+ {name:'The Pickup Sprint',theme:'sunset',goal:'ABACUS',time:55,crowd:25,waves:[660,1450,2280],intro:'55 seconds until Abacus locks up. Sunset, rain and the busiest pavement of the day. Everything you learned, one final sprint.',hint:'ONE LAST PUSH • ABACUS IS WAITING',types:['rider','bus','trolley','pigeons','phone','rider','queue','bus','pigeons']}
 ];
+const bosses=[
+ {name:'THE PTA CHAIR',hp:6,coat:'#7a3b6b',goon:'#437870',ambush:'HIGH STREET AMBUSH',clear:'CLEAR THE PAVEMENT'},
+ {name:'THE PARK KEEPER',hp:6,coat:'#3f5f2f',goon:'#6b5a3a',ambush:'AMBUSH ON THE COMMON',clear:'CLEAR THE PATH'},
+ {name:'THE STORE MANAGER',hp:7,coat:'#2f4f7a',goon:'#4a6e64',ambush:'AISLE AMBUSH',clear:'CLEAR THE AISLE'},
+ {name:'THE TICKET INSPECTOR',hp:7,coat:'#26384f',goon:'#5b4f6b',ambush:'PLATFORM AMBUSH',clear:'CLEAR THE PLATFORM'},
+ {name:'THE MARKET KING',hp:8,coat:'#8a4a26',goon:'#6b7040',ambush:'MARKET AMBUSH',clear:'CLEAR THE STALLS'},
+ {name:'BIG DAVE FROM THE PTA',hp:10,coat:'#5a1f2a',goon:'#437870',ambush:'HIGH STREET AMBUSH',clear:'CLEAR THE PAVEMENT'}];
+const BOSS_X=2700;
 let levelIndex=0,unlocked=0,completed=[],pendingNext=false,waves=[];
 try{const saved=JSON.parse(localStorage.getItem('streatham-campaign-v1')||'{}');unlocked=Math.max(0,Math.min(5,Number(saved.unlocked)||0));completed=Array.isArray(saved.completed)?saved.completed.filter(n=>Number.isInteger(n)&&n>=0&&n<6):[];}catch{}
 const level=()=>levels[levelIndex];
@@ -108,7 +118,7 @@ let parents=[], bump=0, elapsed=0, hazards=[], boost=0, clean=0, feedback='', fe
 let mode='title', player, foes, sparks, next, time, camera, shake, notice, last=0;
 const clamp=(n,min,max)=>Math.max(min,Math.min(max,n));
 function reset(){
- waves=[...level().waves];
+ waves=[...level().waves,BOSS_X];
  player={x:120,y:450,hp:100,face:1,attack:0,dash:0,dashWait:0,inv:0,step:0,stepWait:0,stepDir:-1};
  parents=Array.from({length:level().crowd},(_,i)=>({x:340+i*(2500/level().crowd),y:385+(i*47)%105,baseY:385+(i*47)%105,face:i%3===0?-1:1,phase:i*1.7,coat:['#507f9c','#a56b8b','#687e53','#b96f43'][i%4],skin:['#e2ad86','#916044','#c98e64'][i%3],wait:0}));bump=0;elapsed=0;
  hazards=level().types.map((type,i)=>({type,x:490+i*(2300/(level().types.length-1)),y:390+(i*47)%100,baseY:390+(i*47)%100,state:'idle',timer:0,wait:0,passed:false}));boost=0;clean=0;feedback='';feedbackTime=0;dodgeHeld=false;keys.clear();
@@ -146,6 +156,13 @@ const buzz=ms=>{if(isTouch()&&navigator.vibrate)navigator.vibrate(ms);};
 if(matchMedia('(pointer:coarse)').matches)body.classList.add('touch');
 addEventListener('pointerdown',e=>{if(e.pointerType==='touch'&&!isTouch())body.classList.add('touch');},{capture:true,passive:true});
 addEventListener('contextmenu',e=>{if(isTouch())e.preventDefault();});
+// iOS (Safari and Chrome both use WebKit) ignores user-scalable=no and treats two thumbs
+// (stick + button) as a pinch. Block pinch/double-tap zoom explicitly.
+for(const t of ['gesturestart','gesturechange','gestureend'])document.addEventListener(t,e=>e.preventDefault(),{passive:false});
+document.addEventListener('touchmove',e=>{if(e.touches.length>1||mode==='play')e.preventDefault();},{passive:false});
+document.addEventListener('dblclick',e=>e.preventDefault(),{passive:false});
+// After rotating, re-measure once the browser has settled its new viewport.
+addEventListener('resize',()=>requestAnimationFrame(fit));
 const zone=document.querySelector('#zone'), stick=document.querySelector('#stick'), knob=document.querySelector('#knob'), R=50;
 let stickId=null, ox=0, oy=0;
 function setDir(key,on){if(on)pad.add(key);else pad.delete(key);}
@@ -240,22 +257,24 @@ function update(dt){
  }
  updateHazards(dt);
  if(!foes.length&&next<waves.length&&player.x>=waves[next]){
-   for(let i=0;i<next+2;i++){
+   if(next===waves.length-1){const b=bosses[levelIndex];foes.push({x:player.x+150,y:clamp(player.y,380,495),hp:b.hp,maxHp:b.hp,boss:true,wind:0,wait:1,stun:0,face:-1});}
+   else for(let i=0;i<next+2;i++){
      const direction=i%2===0?1:-1;
      foes.push({x:player.x+direction*(105+i*14),y:clamp(player.y-52+i*36,370,502),hp:2+(next===2&&i===0?1:0),wind:0,wait:.4+i*.22,stun:0,face:-direction});
    }
-   next++;notice=1.2;
+   next++;notice=next===waves.length?2:1.2;
  }
  if(down('j',' ')&&!player.attack){
    player.attack=.28;
    for(const foe of foes){
      const distance=(foe.x-player.x)*player.face;
      if(distance>=-14&&distance<103&&Math.abs(foe.y-player.y)<42){
-       foe.hp--;foe.x+=player.face*38;foe.stun=.24;foe.wind=0;foe.wait=.43;
+       foe.hp--;if(foe.boss){foe.x+=player.face*12;}else{foe.x+=player.face*38;foe.stun=.24;foe.wind=0;foe.wait=.43;}
        burst(foe.x,foe.y-37,'#ffc040');shake=.14;
      }
    }
-   foes=foes.filter(foe=>foe.hp>0);
+   const before=foes.length;foes=foes.filter(foe=>foe.hp>0);
+   if(before&&!foes.length&&player.hp>0){player.hp=Math.min(100,player.hp+25);feedback=next===waves.length?'BOSS DOWN!  +25 ENERGY':'SECOND WIND  +25 ENERGY';feedbackTime=1.6;}
  }
  for(const foe of foes){
    foe.face=foe.x<player.x?1:-1;
@@ -265,17 +284,17 @@ function update(dt){
    if(foe.wind>0){
      foe.wind-=dt;
      if(foe.wind<=0){
-       foe.wait=.9;
-       if(Math.abs(x)<58&&Math.abs(y)<32&&!player.inv){
-         player.hp-=9;player.inv=.55;shake=.2;burst(player.x,player.y-38,'#ff5741');
+       foe.wait=foe.boss?1.1:.9;
+       if(Math.abs(x)<(foe.boss?80:58)&&Math.abs(y)<(foe.boss?40:32)&&!player.inv){
+         player.hp-=foe.boss?14:9;player.inv=.55;shake=foe.boss?.32:.2;burst(player.x,player.y-38,'#ff5741');
        }
      }
    }else{
      foe.wait-=dt;
-     if(Math.abs(x)<41&&Math.abs(y)<24){
-       if(foe.wait<=0)foe.wind=.34;
+     if(Math.abs(x)<(foe.boss?62:41)&&Math.abs(y)<(foe.boss?30:24)){
+       if(foe.wait<=0)foe.wind=foe.boss?.6:.34;
      }else{
-       if(Math.abs(x)>38)foe.x+=Math.sign(x)*(72+next*12)*dt;
+       if(Math.abs(x)>(foe.boss?55:38))foe.x+=Math.sign(x)*(foe.boss?82:72+next*12)*dt;
        if(Math.abs(y)>18)foe.y+=Math.sign(y)*72*dt;
      }
    }
@@ -462,8 +481,12 @@ function draw(){
    else if(parents.includes(f)){if(level().theme==='street'||level().theme==='sunset'||level().theme==='park')family(f);else actor(f.x,f.y,f.face,f.coat,f.skin,false,false,elapsed*5+f.phase,true);}
    else if(f.kid){ctx.save();ctx.translate(f.x-camera,f.y);ctx.scale(.57,.57);actor(camera,0,1,'#6852a1','#d4a77d',false);ctx.restore();}
    else if(f===player){actor(f.x,f.y,f.face,'#d98b31','#e2ad86',f.attack>.13,f.inv>0&&Math.floor(f.inv*25)%2===0,down('ArrowLeft','ArrowRight','ArrowUp','ArrowDown','a','d','w','s')?elapsed*12:0,true);if(level().theme==='shop'){rect(f.x-camera+24,f.y-28,39,20,'#97aaa5');ellipse(f.x-camera+29,f.y,5,5,'#24323b');ellipse(f.x-camera+57,f.y,5,5,'#24323b');line(f.x-camera+18,f.y-35,f.x-camera+24,f.y-18,'#bbc8bf',3);}}
+   else if(f.boss){
+     if(f.wind>0)ellipse(f.x-camera+f.face*40,f.y,70,16,'#ff3b2a40');
+     ctx.save();ctx.translate(f.x-camera,f.y);ctx.scale(1.4,1.4);actor(camera,0,f.face,f.wind>0?'#d0473f':bosses[levelIndex].coat,'#c08a6e',f.wind>0,false);ctx.restore();
+   }
    else{
-     actor(f.x,f.y,f.face,f.wind>0?'#bf524e':'#437870','#bc8e78',f.wind>0,f.stun>.15);
+     actor(f.x,f.y,f.face,f.wind>0?'#bf524e':bosses[levelIndex].goon,'#bc8e78',f.wind>0,f.stun>.15);
      rect(f.x-camera-13,f.y-81,26,3,'#222');rect(f.x-camera-13,f.y-81,Math.min(f.hp/2,1)*26,3,'#e36d53');
    }
  }
@@ -487,9 +510,16 @@ function draw(){
  if(feedbackTime>0)label(feedback,480,180,20,'#98e5cd','center');
  if(boost>0)label('NEAR MISS • SPEED BOOST',480,207,14,'#98e5cd','center');
  if(bump>0){label('EXCUSE ME!  •  SLOWED',480,148,20,'#ffd18b','center');}
- if(foes.length){
-   const text=notice>0?'HIGH STREET AMBUSH':'CLEAR THE PAVEMENT';label(text,480,114,24,'#ffc247','center');
- }else label(player.x>2700?level().goal+' AHEAD':level().hint,480,114,21,'#fff4de','center');
+ const boss=foes.find(f=>f.boss);
+ if(boss){
+   rect(300,90,360,boss.wind>0?88:52,'#11161ee0');
+   label((notice>0?'BOSS • ':'')+bosses[levelIndex].name,480,114,22,'#ffc247','center');
+   rect(330,124,300,10,'#3a2a2a');rect(330,124,300*Math.max(0,boss.hp)/boss.maxHp,10,'#e3533f');
+   if(boss.wind>0)label('GET OUT OF THE WAY!',480,166,17,'#ff8a70','center');
+ }else if(foes.length){
+   const text=notice>0?bosses[levelIndex].ambush:bosses[levelIndex].clear;rect(270,90,420,34,'#11161ee0');label(text,480,114,24,'#ffc247','center');
+ }else if(next===waves.length-1&&player.x>2420)label('BOSS AHEAD • '+bosses[levelIndex].name,480,114,21,'#ffc247','center');
+ else label(next===waves.length?level().goal+' AHEAD':level().hint,480,114,21,'#fff4de','center');
 }
 let lastDraw=0, shownMode='', prevHp=0, prevBump=0, prevFoeHp=0;
 function loop(now){
