@@ -1,61 +1,33 @@
 {
   "slug": "man-city",
-  "updated": "2026-11-20T00:06:30.537Z",
+  "updated": "2026-11-20T14:38:48.989Z",
   "articles": [
     {
-      "title": "Premier League clubs vote to cover legal costs if Man City sponsors sue competition's board members",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYUtDci1aZ0JLWG9jRzhnVy1waWZHZVNUS3o2RnZmT0RBZGNaaGVaUFR1ZVNyWGlqUlF2cExZLXNucFdMckR4X2tiN2hyX29FYUdIc1RHWFkzbW93a0JNNHVHVjRhbWJiRlFrNTNDNmVxbFV3YTdIWnZ2VlRkb3luS0VMaWpXaVU3NGxuWHctNlBfOG9MYVctMG9URjRfUGxyclIxNm9wMnYtaTBpMmdhdlpLSUgzQWZhbUE0NUFoQ254YThaMW1nVllFNWVnLVNMaHR3b29rWDRjd2JVb0I0VA?oc=5",
-      "pubDate": "Thu, 19 Nov 2026 19:15:20 GMT",
+      "title": "Wamser pays tribute to travelling City fans after BK Häcken win",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNzYyaDA5cWdFX0tlTDk1MlNVX3ktM1VqODFwWk4zRE9ubm1ObG0zZVVQR1VNVjFXR0FPWlo3WFhGcW5GTFNjUWticnBGNjhaa28tYTBaWTFSZkpib0QwLXEtYlVkNEo1YkhaWU1FZ0lRUEE1UXpYLUNxZElpbWJPdXJxWmRUX1dGM1FRSjlCWmpPdw?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 21:00:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "One moment in Time: Aguero's winter wonderland!",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPdUthcW5vR2o3SUFZbkU4ZERHLXE3bUZSZ25tSVpTRW1qQjhXOGhIRXRqbXlsUmdpSFJHTVpqRF95T2NnNGRIdy1XMDNHbno2cjRtOGloN1NtVUtuUDVwV05yUnk1ak1SekJmTEdKVWw1Mm1yd0V6VHVfeDJTN2hNNDFkM241c1hsZmJCVm5qaDdwT1U?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 11:50:00 GMT",
       "category": "general"
     },
     {
-      "title": "Premier League clubs reach agreement in vote on Man City punishment",
-      "source": "Daily Express",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTEpjYkZkMGVwUm5PeXBneFFHeV9FLU5tX2VQdmNrTmQxQ3hEM20yY3J6SzZXWTJQQWgyLVRsQ0pGdFZrZkNnMnctdmE1RXdJZ0R0ME41ZmtibHBXMGlYdHRibUh3VGhnSWxLYm82UmN1NTg4VVdGLXR4eFhOXzlqZFNLZ3p5eUNWZlgtTk5qa3g4clhOMngwTTBybE02ZUxWTVAwaE5uQXPSAa4BQVVfeXFMTi14bG9QTFlPbHNlUGNUVHpBRmFQTF9ma3NiWi1RMGhJMnV6aFh3MVRvTlhUQmdHakh5Mlh0SURaazQ5b3BjXzBEd3VEeGpZS1pXZ1IxeUp0NHlxUWdxYi1KUXFWSzQtbEZEMUNsOHFVQ21CdWRzdFFsdzh6TERJeDdSOG9tYU01NTh3RXRHVVM4ZXItd3A4N1JLY1I1b3BxWjhnZGctbXAyRDdOLU9B?oc=5",
-      "pubDate": "Thu, 19 Nov 2026 13:36:00 GMT",
+      "title": "Analysing Fulham ahead of Saturday’s Premier League clash",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRjRNZ0lwSmFZNk9SQ1ZTdUJEb0RpdEk5ZHlTOWt3Qmg4MjdVYjdDZnVwZmlRZTBTYkM5NU9qMkx0SWo2UmtfSWZOM3dZVnhoWk5LU3B2ZXBuWkRyZGR3TEp0b3RzXzQyMEFDMWVkbVJzVUZWbG5DQWxIUDF5S3FPeHdMOVBjMS1rdF9SbXBPV1dRMmhvVTYw?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 12:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "Premier League clubs to pay legal costs if Richard Masters sued by Man City sponsors",
-      "source": "The Telegraph",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNM21aWnV6b3VvZWRPdGVLcjE4U2o2VVI5dW5fRGc4NXpSd09vcThnc2hCdVZlZUtZMWF0S0dKUGIzamM1Qm1kZXJFWkZNLTU2M21FMmdQWlhLWUcyQThkdjhSQklKbGZlek04QVpnSGd3VUVUUVJCWE9mNHVvZTd2MTFjN2dNS0VPV0Y5VGM0TkkteGVNSW5LbUM3c1dxS3Z1M0NsUGRNLUU4bEZV?oc=5",
-      "pubDate": "Thu, 19 Nov 2026 20:30:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Apollo scraps planned $2bn loan to Manchester City owner after rule breaches",
-      "source": "Financial Times",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORGdSWlloVzAzUVVzeHFjSXlxdnpFeWh0WGtta0R1U3pWVzZGTlFWUEJfNWtGV1ptZEVNYXNPSHlJVWtjaDd0V01uazRBaDd1YzZfVFVyQzhCdXFLQThMckhPZU1CcnhTZWFobVlZb0hMc3J5VXJIUW56VUlvNzdheTQ1aEo?oc=5",
-      "pubDate": "Thu, 19 Nov 2026 05:00:28 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Lommel’s Matthias Pieklak Confirms Manchester City First-Team Plans Ahead of December Trial",
-      "source": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT2p5NFpCM3RycXF0S0w4Sm1RemNaUmtJSlhQbEw4QzJYU1RSalZyNm51VzNSdFpva2plU09ndDdtQ2Y3b3NzUmV3WFFkbndwRUtFQ09IcU4tNEZzRFNjamhiSmlHb1RzamIzaU9DNFhyYnpGd3JDR05xZU5XSENmTGFIUkZUb1VKekVLUzVaTXVrQ3NwbVJF?oc=5",
-      "pubDate": "Thu, 19 Nov 2026 21:00:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Haaland, Cherki, Ndiaye and more: City have lots of attacking options, can Fulham stop them?",
-      "source": "Yahoo Sports",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQM1pRUEhqOFdHelRWaW1UeE0zYkh5YzdVdDdnWUdSU1BCRGJkd2FhYWt1UWg0dGdpckNHZFlhTC12NDFrdDdfVEtZdi12WmtZQlZKMF91WC1ka1RtemEyUW1rc0hnLUxMNkpjTl85VDJpMUYzbTdSamN1SGhNTVdwMHZ0RTNlWVk?oc=5",
-      "pubDate": "Thu, 19 Nov 2026 19:00:04 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Women's Champions League LIVE: Chelsea 1-0 PSG, Hacken 0-2 Man City",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0xVzVDakxHb1JNbWpuSnJCSlRBWldfX2plSFpkVENRYnZHemtmUG9rZFhWNFdiQjNFeHNJTE1LcmJoYXZHdVN3Umctd3Nra3ljZk1TajQ4TnYyM0xuTFFqdTlRcGE0UQ?oc=5",
-      "pubDate": "Wed, 18 Nov 2026 20:57:53 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Maine Road offer non-league haven to fans of scandal-hit Manchester City",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQLUZWTmJqYUpmbjBpdjF5UlR5RXROUXEtazU3bk1TRnJ6X1gzNUV6Zi15eDNibVhENklKUjAzLW9MNFNyQUFsbkhBdEpTZkJNMkFrT1pZX2JmdzA0eGV4YTZrd3A0ck5ub2VxcUdkSV9uRnpKZEwyaURLV09oNDQ3UXoyUHFzU3RlZ0JwcDdMdm03MkxMLWxBRzZNQzRMU0drcmdvOGxxQm1vWURlbDVWWGlSckFDMS1CbmhTeUQxRlE4dw?oc=5",
-      "pubDate": "Thu, 19 Nov 2026 20:36:00 GMT",
+      "title": "Haaland on Vikings, The Row and Raccoons!",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdU9hMldyREFYWk9wclhfb1ZYU09YMXFfelZyS0tlRTF3MWVCT3lVMWxiNF9FelluWjdJRm14UDE5NlFIRXMyQUduMTRPZ0FoNmpDLWtveXdGWS0wLUVlRWtWc3Z6eklnTzF3OTlkUm54aUhiRExJV2E1T091NnpvZDNwUlpyRTVmSWVlcE1kQjVuQUY1T2ZzUg?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 17:00:00 GMT",
       "category": "general"
     },
     {
@@ -66,10 +38,66 @@
       "category": "general"
     },
     {
-      "title": "Inside Man City’s sudden collapse – with fears January won’t save them",
-      "source": "The i Paper",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBYNDRXTGZtYlBmenBHdU14NWo1WTBOTDJnZXRHMzFwU0I5X3Z6aUlrQWpzN2dfSUUxbjQ0Y2loU0ZKQkE1MXdqZmtsdUFzdUs3b2VtcFFHMGtfN3ZTME1hX2tQQkZYZWRvNEdOY3p6UU15VmNUM0pmN0pWYVN2aTQ?oc=5",
-      "pubDate": "Wed, 18 Nov 2026 12:00:00 GMT",
+      "title": "City to celebrate Once A Blue at Fulham game",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPblZrZ2lCYW9maWh6TXIzamtnTFJpMlMwSVNPRVh0d0JHM2JRUXctSXRaM0lCV005R1JfR0FzYk9iR0Y3R2J6RzhpTWRqQS1LNUVTLWpGSFM3RmIyZHJzMHdWc0RQc0hqMHZtRHZRLTJHRDRKNUYzSms3QnZtcmZIalQzdDU5amJh?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 08:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "BK Häcken travelling squad confirmed",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZ1I4V1RLRkVxQktMblpVUmtFR3RhdUF1bGo0X2tEUkVRZDhzaTZfUG5nYWROdFBTbktXTGh6aHhFMmpJaExwTmEwYkcyd1VITTR5bFRzRVZFQ0tpODBzRWZIbUtJd25OSlhnSlFQT2R6NThkRUNWRkZmY3VhalQwMUNlWENjb28?oc=5",
+      "pubDate": "Tue, 17 Nov 2026 13:15:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Manchester City: A statement win but does it carry weight in a season of limbo?",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1nTzVoeHc3bFZwb1JwMGxWTU5GamdLeWVmUEQydFNVVkF1cDk2YW9GdjlZQnl3THVxUW1vd3ZQUXhWZnpZeFNFTDlIak91TmFNZkV6LTh1RHNGY3lQS1gzYi1WNWtCYWU3QmNV?oc=5",
+      "pubDate": "Sun, 11 Oct 2026 07:00:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Man City charges: Premier League clubs do not expect City to be in Premier League next season if appeal fails",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOelFFd0FuUllWaUtyVjYtRjZKNWZodEUxSWlPVjZEZVcyamN0dGcwSFJmZWRYZnRYZW1oaDhpREZmNUFhdU4zTWFfS1lVY3N5VUNMSWNLY3VtSzZzeUZ4ckp0b3dJZ09rVGUwZ1pEWVducVhsaUtzRkoyc2V6dWNOak5DQnRlRWlEUUtfMUZ0emRJaEl2ZnBQZEY4ZEhiTDdtWGFQQ0FlM3VjbkZuQXNLRzlyQU1DdVdjSjVHSmtZX3JLMEpPUG50b19mWWpSMTRyVU5FeXJrLXVKWEhvdEV2TnF4cFBpWTVlWk5maDVn?oc=5",
+      "pubDate": "Wed, 07 Oct 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Premier League Statement: Manchester City FC",
+      "source": "Premier League",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNSFBweFBqWHkzUUNZN2JuZV9FZ2V4amgxRG1nc2FOSmU0T2FsM2Jzd1ZNNUJZeFkybzRIZlZ5ZjFLUWdhMWNEQnpuSGZFUVRYeHlBN3ZqSHk3Wm5pRVJFLS03OF9Ob1kwejREZWRQT0xHQnd1M3hCSXdkUGpSNlM3OVJJd1pwazJSd0RrakRGV0Y0ZVU?oc=5",
+      "pubDate": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Premier League clubs vote to cover legal costs if Man City sponsors sue competition's board members",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYUtDci1aZ0JLWG9jRzhnVy1waWZHZVNUS3o2RnZmT0RBZGNaaGVaUFR1ZVNyWGlqUlF2cExZLXNucFdMckR4X2tiN2hyX29FYUdIc1RHWFkzbW93a0JNNHVHVjRhbWJiRlFrNTNDNmVxbFV3YTdIWnZ2VlRkb3luS0VMaWpXaVU3NGxuWHctNlBfOG9MYVctMG9URjRfUGxyclIxNm9wMnYtaTBpMmdhdlpLSUgzQWZhbUE0NUFoQ254YThaMW1nVllFNWVnLVNMaHR3b29rWDRjd2JVb0I0VA?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 05:00:46 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Häcken Women",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbi1Xc01zV2RrSWY2Z2ZfZWpqZjEwX3IyeFM0dHVIeGhkLVFHYXhsRm9jVWQtNzQ0UXZvRDlvTG0tVThTYk1rYkFQc09qLXFiOW9lZzJnaUp4NkhvYllaTEpvVVgyZUFaczJMZ0RxdjJIN2tfc1lfcVo2UHBDeThWQUxLallWbHhuc1YzSWQ2QnBxUlhNdW1VTE1hRQ?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 08:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Apollo scraps planned $2bn loan to Manchester City owner after rule breaches",
+      "source": "Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORGdSWlloVzAzUVVzeHFjSXlxdnpFeWh0WGtta0R1U3pWVzZGTlFWUEJfNWtGV1ptZEVNYXNPSHlJVWtjaDd0V01uazRBaDd1YzZfVFVyQzhCdXFLQThMckhPZU1CcnhTZWFobVlZb0hMc3J5VXJIUW56VUlvNzdheTQ1aEo?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 05:01:23 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Every way football has been paralysed by Man City being in limbo",
+      "source": "The Telegraph",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeE9HVTVDZHRWNTJxRXpNdV9oLWlWek5YcGFZZkx0bHNKZzNYd0ZfSUtIa0hZSWhfRW95Rmg2YUdieEY1VDcwYlZzeUtULU40V0dsb3FGSXFhU1RiMFQ5Ynk5UHFwRE5TRDBMc1I2NHI2SmQxckhEejJsOUZ3RUozXzI2bG1jMXo0d3dFYUhnWW0yTVZHOTlEdVU3UXV3cVVqdHU2OFRjY01nRjA?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 12:00:00 GMT",
       "category": "general"
     },
     {
@@ -78,34 +106,6 @@
       "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQmhza05aSDNwLXM4X2FwWkdvX20ySlFRQ0lwUGxNd0FBTWc5MmxSSzlCai1WcG5TVVlBdXBBM05obTVGTWVnRzgwQko5RWthd1FKSUdITEJSUlhkQXNrc0ltMXRkRmFRc2tZV19mYURacFJVWng0WThvV2dvanNydGNKUDFsTXRxNHhZTDdYc1ExTmJnb0s1SW5vQnJJbDNsNC1aOTJ3?oc=5",
       "pubDate": "Thu, 19 Nov 2026 12:40:25 GMT",
       "category": "match"
-    },
-    {
-      "title": "Manchester council facing call for 'full transparency'",
-      "source": "Manchester Evening News",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOd0JxYVJXb3JicHdIMjZYRFpMeXNNdDV0R3AzRWtnMEVvRjdEbTVoUFFkTGhUNFEwVFF4aTNmTUx6SGtFNEY0emk5TTJ1c0NlSFBKa0dYZGx3ZlFwbzFvaUxGZ1hpRzdSblFKRmk0TDdZeVJfbjNvdy1XMVRnb1JGQldlcjgzRWZHMUVHNjFwOGdrbjI2RVdDZ2JLQXFUYk1ZMVN6SFh0X05JblNXMmpoTHd30gG3AUFVX3lxTE5yeVRlMFJTYjhmMU9aZXliNkI5bHhBMTBOSTZMV0RCbnlfcWN5RXFzM3ZaZ1pvZnh1WTRBWjRxSV8teW9iTXh1ZnhoQm5DZkZvcUlfVVFNenFUcEtUUGd4ajF2NVppTWYxa29SZllvS25HQUhfVERnUlZKTVN4em9NbjFmQjF5eUVrWmdkelM3Q25jVTB3MjhiUkctdGlNa0FBcV8tX0xvUFFXalNzVEU5ODNZVHJTQQ?oc=5",
-      "pubDate": "Wed, 18 Nov 2026 21:34:56 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Häcken Women",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbi1Xc01zV2RrSWY2Z2ZfZWpqZjEwX3IyeFM0dHVIeGhkLVFHYXhsRm9jVWQtNzQ0UXZvRDlvTG0tVThTYk1rYkFQc09qLXFiOW9lZzJnaUp4NkhvYllaTEpvVVgyZUFaczJMZ0RxdjJIN2tfc1lfcVo2UHBDeThWQUxLallWbHhuc1YzSWQ2QnBxUlhNdW1VTE1hRQ?oc=5",
-      "pubDate": "Thu, 19 Nov 2026 11:26:16 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Premier League clubs to cover board’s costs if Manchester City sponsors take legal action",
-      "source": "The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONUJ6Y3NjdnFSZW9MWXhST19pX1daNUhOZ2hoVFljOFppVTdUR1RaTXZFZlc1SG1YampSenNteW5uWDJXSFhhV2UyaWx5UkZMbndlNTFTclc3NGJMSW90c0ZwMEVYbzZMZGZ6OTJlQno4Y09VVzRPVEZ6d0tLak93VDlIRUxzb3BUVHI0aGc0dzQ2eklKTHc?oc=5",
-      "pubDate": "Thu, 19 Nov 2026 14:53:14 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Manchester City & Me: David White Q&A",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPV3dkdzlmYS1hUlZSS2xpRTdWTVYyNFdPYVlMRzFIYTdMN09VYmJpSVFiRmpvOEpOcjQ1b25pV2tod1NncVhJWlFQMVpOTmp4Y1FwMWY5TzBpbWpCYnc4N1NLZXJXc3RvTzU0Mzk2eDdTYS1lWFBCVVFoUlZvRy1YQi1BZw?oc=5",
-      "pubDate": "Thu, 19 Nov 2026 11:00:00 GMT",
-      "category": "general"
     }
   ],
   "reddit": []
