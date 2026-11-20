@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Streatham Fighter</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#0d1014;color:#fff4dd;font:16px system-ui;min-height:100svh;display:grid;place-items:center}main{width:min(1100px,100%);padding:14px}.cabinet{position:relative;overflow:hidden;border:1px solid #46515a;background:#151e26;box-shadow:0 20px 100px #000a}canvas{width:100%;display:block}.screen{position:absolute;inset:0;display:flex;align-items:center;padding:5%;background:linear-gradient(90deg,#0d1015f5,#101319bc 52%,#0e182333)}.screen[hidden]{display:none}.stamp{color:#ffc247;letter-spacing:.2em;font-weight:800}h1{font:italic 950 clamp(28px,8vw,108px)/.85 Impact,'Arial Black',sans-serif;letter-spacing:-.045em;margin:.14em 0;text-transform:uppercase;text-shadow:4px 4px #8b3025}h1 span{color:#ffae32}p{margin:.75em 0;max-width:34ch}button{border:1px solid #667783;border-radius:3px;background:#202b34;color:#fff4dd;padding:.6em .9em;font:800 1rem system-ui;cursor:pointer;touch-action:none}button:focus-visible{outline:3px solid white;outline-offset:3px}#start{background:#ffc247;color:#191411;border:0;box-shadow:3px 3px #963828}footer{display:flex;gap:6px;justify-content:space-between;align-items:center;margin-top:10px;flex-wrap:wrap}.pad{display:flex;gap:4px}small{color:#bac3cb}@media(max-width:570px){main{padding:5px}.screen p{font-size:.8rem;margin:.35em 0}.stamp{font-size:.65rem}button{padding:.45em .55em}small{display:none}}
+</style></head>
+<body><main><div class="cabinet">
+<canvas id="game" width="960" height="540" aria-label="Streatham Fighter arcade game"></canvas>
+<div class="screen" id="screen"><div><div class="stamp" id="stamp">SOUTH LONDON · 08:28 AM</div><h1 id="title">Streatham<br><span>Fighter</span></h1><p id="message">Your kid’s nursery shuts its gates in 90 seconds. The high street has other ideas.</p><button id="start">Start the school run</button></div></div>
+</div><footer><div class="pad" aria-label="Movement"><button data-key="ArrowLeft" aria-label="Left">◀</button><button data-key="ArrowUp" aria-label="Up">▲</button><button data-key="ArrowDown" aria-label="Down">▼</button><button data-key="ArrowRight" aria-label="Right">▶</button></div><small>Arrows / WASD to move · J to punch · K to dash</small><div class="pad"><button data-key="j">Punch</button><button data-key="k">Dash</button></div></footer></main>
+<script>
+'use strict';
+const canvas=document.querySelector('canvas'), ctx=canvas.getContext('2d');
+const screen=document.querySelector('#screen'), start=document.querySelector('#start');
+const keys=new Set(), waves=[660,1450,2280], end=3025;
+let mode='title', player, foes, sparks, next, time, camera, shake, notice, last=0;
+const clamp=(n,min,max)=>Math.max(min,Math.min(max,n));
+function reset(){
+ player={x:120,y:450,hp:100,face:1,attack:0,dash:0,dashWait:0,inv:0};
+ foes=[];sparks=[];next=0;time=90;camera=0;shake=0;notice=0;
+}
+function startRun(){reset();mode='play';screen.hidden=true;start.blur();}
+function finish(win){
+ mode='over';screen.hidden=false;
+ document.querySelector('#stamp').textContent=win?'08:29 AM · DROP-OFF COMPLETE':'SOUTH LONDON · RUN ENDED';
+ document.querySelector('#title').innerHTML=win?'Nailed<br><span>Drop-off</span>':'Nursery<br><span>Closed</span>';
+ document.querySelector('#message').textContent=win?'You made it. The little one wants to know if tomorrow can be a bus day.':time<=0?'The clock beat you. The gates are shut.':'You went down on the high street. Give the school run another go.';
+ start.textContent='Run it again';start.focus();
+}
+start.onclick=startRun;
+const bindings=['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','a','d','w','s','j','k',' '];
+function keydown(e){
+ const k=e.key.length===1?e.key.toLowerCase():e.key;
+ if(!bindings.includes(k)||(k===' '&&e.target instanceof HTMLButtonElement))return;
+ e.preventDefault();keys.add(k);
+}
+addEventListener('keydown',keydown);
+addEventListener('keyup',e=>keys.delete(e.key.length===1?e.key.toLowerCase():e.key));
+addEventListener('blur',()=>{keys.clear();last=0;});
+document.querySelectorAll('[data-key]').forEach(button=>{
+ const key=button.dataset.key;
+ button.onpointerdown=e=>{e.preventDefault();button.setPointerCapture(e.pointerId);keys.add(key);};
+ const release=()=>keys.delete(key);
+ button.onpointerup=button.onpointercancel=button.onlostpointercapture=release;
+ button.onclick=e=>{if(e.detail===0){keys.add(key);setTimeout(release,100);}};
+});
+const down=(...k)=>k.some(key=>keys.has(key));
+function burst(x,y,color){
+ for(let i=0;i<10;i++)sparks.push({x,y,vx:(Math.random()-.5)*380,vy:-Math.random()*240,life:.3+Math.random()*.2,color});
+}
+function update(dt){
+ time-=dt;
+ for(const k of ['attack','dash','dashWait','inv'])player[k]=Math.max(0,player[k]-dt);
+ shake=Math.max(0,shake-dt);notice=Math.max(0,notice-dt);
+ const dx=Number(down('ArrowRight','d'))-Number(down('ArrowLeft','a'));
+ const dy=Number(down('ArrowDown','s'))-Number(down('ArrowUp','w'));
+ if(dx&&!player.dash)player.face=dx;
+ if(down('k')&&!player.dashWait){player.dash=.17;player.dashWait=.65;player.inv=Math.max(player.inv,.2);}
+ const speed=dx&&dy?157:222;
+ const gate=foes.length?waves[next-1]+170:next<waves.length?waves[next]+10:end+20;
+ player.x=clamp(player.x+(player.dash?player.face*585:dx*speed)*dt,40,gate);
+ player.y=clamp(player.y+dy*speed*dt,365,503);
+ if(!foes.length&&next<waves.length&&player.x>=waves[next]){
+   for(let i=0;i<next+2;i++){
+     const direction=i%2===0?1:-1;
+     foes.push({x:player.x+direction*(105+i*14),y:clamp(player.y-52+i*36,370,502),hp:2+(next===2&&i===0?1:0),wind:0,wait:.4+i*.22,stun:0,face:-direction});
+   }
+   next++;notice=1.2;
+ }
+ if(down('j',' ')&&!player.attack){
+   player.attack=.28;
+   for(const foe of foes){
+     const distance=(foe.x-player.x)*player.face;
+     if(distance>=-14&&distance<103&&Math.abs(foe.y-player.y)<42){
+       foe.hp--;foe.x+=player.face*38;foe.stun=.24;foe.wind=0;foe.wait=.43;
+       burst(foe.x,foe.y-37,'#ffc040');shake=.14;
+     }
+   }
+   foes=foes.filter(foe=>foe.hp>0);
+ }
+ for(const foe of foes){
+   foe.face=foe.x<player.x?1:-1;
+   foe.stun=Math.max(0,foe.stun-dt);
+   if(foe.stun)continue;
+   const x=player.x-foe.x,y=player.y-foe.y;
+   if(foe.wind>0){
+     foe.wind-=dt;
+     if(foe.wind<=0){
+       foe.wait=.9;
+       if(Math.abs(x)<58&&Math.abs(y)<32&&!player.inv){
+         player.hp-=12;player.inv=.55;shake=.2;burst(player.x,player.y-38,'#ff5741');
+       }
+     }
+   }else{
+     foe.wait-=dt;
+     if(Math.abs(x)<41&&Math.abs(y)<24){
+       if(foe.wait<=0)foe.wind=.34;
+     }else{
+       if(Math.abs(x)>38)foe.x+=Math.sign(x)*(72+next*12)*dt;
+       if(Math.abs(y)>18)foe.y+=Math.sign(y)*72*dt;
+     }
+   }
+ }
+ for(const p of sparks){p.x+=p.vx*dt;p.y+=p.vy*dt;p.vy+=620*dt;p.life-=dt;}
+ sparks=sparks.filter(p=>p.life>0);
+ camera+=(clamp(player.x-285,0,end-637)-camera)*Math.min(1,8*dt);
+ if(player.hp<=0||time<=0)finish(false);
+ else if(next===waves.length&&!foes.length&&player.x>=end)finish(true);
+}
+function rect(x,y,w,h,color){ctx.fillStyle=color;ctx.fillRect(x,y,w,h);}
+function label(t,x,y,size,color='#fff4de',align='left'){ctx.font='900 '+size+'px system-ui';ctx.textAlign=align;ctx.fillStyle=color;ctx.fillText(t,x,y);}
+const signs=['STREATHAM','OFF LICENCE','CHICKEN & CHIPS','BARBERS','NIGHT BUS','CASH & CARRY','LAUNDERETTE','THE HIGH ROAD'];
+function street(){
+ const sky=ctx.createLinearGradient(0,0,0,360);sky.addColorStop(0,'#182836');sky.addColorStop(1,'#b66f5c');rect(0,0,960,360,sky);
+ for(let i=0;i<20;i++){const x=i*109-camera*.34;const h=82+(i*31)%114;rect(x,300-h,95,h,'#333541');for(let j=0;j<3;j++)rect(x+13+j*24,307-h,11,19,'#66606a');}
+ for(let i=0;i<15;i++){
+   const x=i*231-camera,h=109+(i*37)%68,y=284-h;
+   if(x<-240||x>960)continue;
+   rect(x,y,226,h+52,['#513937','#473e42','#604441'][i%3]);rect(x-3,y,232,9,'#292830');
+   for(let row=y+15;row<265;row+=12)rect(x,row,225,1,'#221f245c');
+   for(let j=0;j<3;j++){rect(x+21+j*71,y+24,39,47,'#252a32');rect(x+27+j*71,y+29,27,36,j%2?'#807260':'#3b4653');rect(x+39+j*71,y+29,2,36,'#22262b');}
+   rect(x+6,254,214,25,i===13?'#315d4e':'#272933');label(i===13?'LITTLE ACORNS NURSERY':signs[i%signs.length],x+113,272,14,i%2?'#fac579':'#dbd0be','center');
+   rect(x+10,281,204,56,'#222830');for(let j=0;j<3;j++){rect(x+18+j*65,286,55,43,i===13?'#a77a49':'#3c4148');rect(x+18+j*65,307,55,3,'#282d34');}
+ }
+ rect(0,336,960,204,'#292e37');rect(0,336,960,28,'#53545a');rect(0,360,960,5,'#878086');rect(0,365,960,4,'#181e27');
+ for(let i=0;i<30;i++){const x=i*139-camera;rect(x,475,73,4,'#8b784c');rect(x+32,405+i%4*11,56,2,'#3e4650');}
+ const bus=1150-camera;
+ rect(bus,285,165,83,'#a83938');rect(bus+6,291,151,20,'#252e35');rect(bus+6,320,151,20,'#252e35');label('159',bus+10,335,14,'#ffd38d');
+ for(let i=0;i<39;i++){const x=((i*191+Math.floor(performance.now()/20)*(i%3+1))%1000)-20;const y=(i*97+Math.floor(performance.now()/9)*(i%4+2))%540;ctx.strokeStyle='#c5d8ed32';ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x-6,y+17);ctx.stroke();}
+}
+function actor(x,y,f,coat,skin,pose,flash=false){
+ ctx.save();ctx.translate(x-camera,y);
+ ctx.fillStyle='#13171c99';ctx.beginPath();ctx.ellipse(0,0,25,7,0,0,7);ctx.fill();
+ ctx.scale(f,1);
+ rect(-16,-24,13,21,'#161c25');rect(4,-23,12,20,'#232833');rect(-18,-6,17,5,'#11151b');rect(4,-6,17,5,'#11151b');
+ rect(-18,-52,35,30,flash?'#fff3d3':coat);rect(-16,-50,7,25,'#191e2966');
+ rect(-10,-70,22,20,skin);rect(-12,-73,24,9,'#171b21');rect(5,-63,5,3,'#352626');
+ if(pose){rect(10,-49,27,10,coat);rect(34,-49,10,10,skin);}
+ else{rect(13,-48,9,22,coat);rect(14,-32,8,7,skin);}
+ ctx.restore();
+}
+function draw(){
+ ctx.save();
+ if(shake>0)ctx.translate(Math.random()*8-4,Math.random()*6-3);
+ street();
+ const kid={x:player.x-53,y:player.y+12,kid:true};
+ const figures=[...foes,player,kid].sort((a,b)=>a.y-b.y);
+ for(const f of figures){
+   if(f.kid){ctx.save();ctx.translate(f.x-camera,f.y);ctx.scale(.57,.57);actor(camera,0,1,'#6852a1','#d4a77d',false);ctx.restore();}
+   else if(f===player)actor(f.x,f.y,f.face,'#d98b31','#e2ad86',f.attack>.13,f.inv>0&&Math.floor(f.inv*25)%2===0);
+   else{
+     actor(f.x,f.y,f.face,f.wind>0?'#bf524e':'#437870','#bc8e78',f.wind>0,f.stun>.15);
+     rect(f.x-camera-13,f.y-81,26,3,'#222');rect(f.x-camera-13,f.y-81,Math.min(f.hp/2,1)*26,3,'#e36d53');
+   }
+ }
+ for(const p of sparks)rect(p.x-camera,p.y,5,4,p.color);
+ ctx.restore();
+ if(mode==='title')return;
+ rect(17,17,250,60,'#11161ee8');label('PARENT',29,40,17);rect(29,49,222,12,'#4b3235');rect(29,49,222*Math.max(0,player.hp)/100,12,'#ffb343');
+ rect(420,17,120,60,'#11161ee8');label(String(Math.max(0,Math.ceil(time))).padStart(2,'0'),480,58,39,time<20?'#ff6851':'#fff4de','center');
+ rect(703,17,240,60,'#11161ee8');label('LITTLE ACORNS',928,40,17,'#fff4de','right');rect(718,50,210,10,'#3d454b');rect(718,50,210*player.x/end,10,'#90c39e');
+ if(foes.length){
+   const text=notice>0?'HIGH STREET AMBUSH':'CLEAR THE PAVEMENT';label(text,480,114,24,'#ffc247','center');
+ }else label(next===3?'NURSERY GATES AHEAD':'KEEP MOVING RIGHT',480,114,21,'#fff4de','center');
+}
+function loop(now){
+ const dt=last?Math.min((now-last)/1000,.05):0;
+ last=now;if(mode==='play'&&!document.hidden)update(dt);
+ draw();requestAnimationFrame(loop);
+}
+reset();requestAnimationFrame(loop);
+</script>
+</body></html>
+

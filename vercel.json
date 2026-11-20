@@ -26,6 +26,7 @@
       "headers": { "Cache-Control": "no-cache, must-revalidate" },
       "continue": true
     },
+    { "src": "/streatham-fighter/?", "dest": "/games/streatham-fighter/index.html" },
     { "src": "/(.*)", "dest": "/$1" }
   ]
 }
