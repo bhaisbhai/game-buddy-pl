@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T11:12:10.222Z",
+  "updated": "2026-11-20T10:58:32.600Z",
   "snapshot": {
     "1": 62,
     "2": 49,
@@ -166,7 +166,7 @@
     "163": 45,
     "164": 52,
     "165": 76,
-    "166": 71,
+    "166": 72,
     "167": 53,
     "168": 50,
     "169": 45,
@@ -204,7 +204,7 @@
     "201": 52,
     "202": 49,
     "203": 48,
-    "204": 45,
+    "204": 44,
     "205": 45,
     "206": 43,
     "207": 42,
@@ -321,7 +321,7 @@
     "318": 54,
     "319": 50,
     "320": 50,
-    "321": 45,
+    "321": 44,
     "322": 50,
     "323": 43,
     "324": 47,
@@ -570,7 +570,7 @@
     "567": 50,
     "568": 53,
     "569": 58,
-    "570": 53,
+    "570": 52,
     "571": 48,
     "572": 47,
     "573": 44,
@@ -676,52 +676,36 @@
   },
   "changes": [
     {
-      "id": 45,
-      "web_name": "McGinn",
+      "id": 166,
+      "web_name": "N.Jackson",
       "team_name": "Aston Villa",
       "direction": "rise",
-      "old_price": 54,
-      "new_price": 55
+      "old_price": 71,
+      "new_price": 72
     },
     {
-      "id": 597,
-      "web_name": "Suzuki",
-      "team_name": "Aston Villa",
-      "direction": "rise",
-      "old_price": 50,
-      "new_price": 51
+      "id": 204,
+      "web_name": "Mitchell",
+      "team_name": "Crystal Palace",
+      "direction": "fall",
+      "old_price": 45,
+      "new_price": 44
     },
     {
-      "id": 125,
-      "web_name": "Georginio",
-      "team_name": "Brighton",
+      "id": 570,
+      "web_name": "Palacios",
+      "team_name": "Fulham",
       "direction": "fall",
       "old_price": 53,
       "new_price": 52
     },
     {
-      "id": 127,
-      "web_name": "Gomez",
-      "team_name": "Brighton",
-      "direction": "rise",
-      "old_price": 50,
-      "new_price": 51
-    },
-    {
-      "id": 569,
-      "web_name": "Gonzalo",
-      "team_name": "Fulham",
+      "id": 321,
+      "web_name": "Walle Egeli",
+      "team_name": "Ipswich Town",
       "direction": "fall",
-      "old_price": 59,
-      "new_price": 58
-    },
-    {
-      "id": 378,
-      "web_name": "McConnell",
-      "team_name": "Liverpool",
-      "direction": "fall",
-      "old_price": 44,
-      "new_price": 43
+      "old_price": 45,
+      "new_price": 44
     }
   ]
 }
