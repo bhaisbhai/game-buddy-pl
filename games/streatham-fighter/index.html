@@ -15,19 +15,29 @@ body{color:#fff4dd;font:16px system-ui;display:grid;place-items:center;
  padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
  -webkit-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent;
  overscroll-behavior:none;touch-action:manipulation}
-/* Fit a 16:9 cabinet inside the viewport, leaving room for the keyboard hint on desktop */
-main{padding:14px;width:min(1100px,100%,calc((100vh - 60px) * 16 / 9));
- width:min(1100px,100%,calc((100dvh - 60px - env(safe-area-inset-top) - env(safe-area-inset-bottom)) * 16 / 9))}
+/* 16:9 cabinet that always fits the viewport; room for the keyboard hint on desktop */
+main{padding:12px;width:min(1440px,100%,calc((100vh - 60px) * 16 / 9));
+ width:min(1440px,100%,calc((100dvh - 60px - env(safe-area-inset-top) - env(safe-area-inset-bottom)) * 16 / 9))}
 .cabinet{position:relative;overflow:hidden;border:1px solid #46515a;background:#151e26;box-shadow:0 20px 100px #000a;aspect-ratio:16/9;container-type:inline-size}
 canvas{width:100%;height:100%;display:block}
-.screen{position:absolute;inset:0;display:flex;align-items:center;padding:4% 5%;background:linear-gradient(90deg,#0d1015f5,#101319bc 52%,#0e182333)}
+.screen{position:absolute;inset:0;display:flex;align-items:center;padding:4% 5%;overflow:auto;background:linear-gradient(90deg,#0d1015f5,#101319bc 52%,#0e182333)}
 .screen[hidden]{display:none}
+.screen>div{width:100%;margin:auto 0}
 .stamp{color:#ffc247;letter-spacing:.2em;font-weight:800;font-size:clamp(9px,1.5cqw,15px)}
-h1{font:italic 950 clamp(28px,8vw,108px)/.85 Impact,'Arial Black',sans-serif;font-size:clamp(26px,10.5cqw,108px);letter-spacing:-.045em;margin:.14em 0;text-transform:uppercase;text-shadow:4px 4px #8b3025}
+h1{font:italic 950 clamp(28px,8vw,108px)/.85 Impact,'Arial Black',sans-serif;font-size:clamp(24px,10.5cqw,108px);letter-spacing:-.045em;margin:.14em 0;text-transform:uppercase;text-shadow:4px 4px #8b3025}
 h1 span{color:#ffae32}
-p{margin:.75em 0;max-width:34ch;font-size:clamp(11px,1.75cqw,17px)}
-#start{border:0;border-radius:3px;background:#ffc247;color:#191411;padding:.6em .9em;font:800 clamp(13px,1.8cqw,17px) system-ui;cursor:pointer;box-shadow:3px 3px #963828;min-height:40px}
-#start:focus-visible{outline:3px solid white;outline-offset:3px}
+.screen:has(#level-picker:not([hidden])) h1{font-size:clamp(22px,6.5cqw,90px)}
+p{margin:.6em 0;max-width:46ch;font-size:clamp(11px,1.6cqw,17px)}
+button{border:1px solid #667783;border-radius:3px;background:#202b34;color:#fff4dd;padding:.6em .9em;font:800 clamp(12px,1.6cqw,16px) system-ui;cursor:pointer;touch-action:manipulation;min-height:36px}
+button:focus-visible{outline:3px solid white;outline-offset:3px}
+#start{background:#ffc247;color:#191411;border:0;box-shadow:3px 3px #963828}
+#menu{margin-left:9px}
+.level-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(4px,.8cqw,8px);max-width:720px;margin:clamp(6px,1.3cqw,14px) 0}
+.level-grid button{text-align:left;font-size:clamp(10px,1.35cqw,14px);padding:clamp(5px,1cqw,10px);min-height:0}
+.level-grid button span{display:block;font-size:clamp(9px,1.1cqw,12px);font-weight:500;color:#c3cbd3;margin-top:3px}
+.level-grid button:disabled{opacity:.45;cursor:default}
+.level-grid button.selected{border-color:#ffc247;background:#3d3830}
+#level-picker[hidden]{display:none}
 .hint{text-align:center;color:#bac3cb;font-size:13px;margin-top:10px}
 
 /* ---- Touch mode ---- */
@@ -43,109 +53,115 @@ body.touch.playing #touch{display:block}
 #stick.on{opacity:1;transition:none}
 #knob{position:absolute;left:50%;top:50%;width:54px;height:54px;margin:-27px;border-radius:50%;background:#fff4dd55;border:2px solid #fff4dd99}
 .act{position:absolute;pointer-events:auto;touch-action:none;border-radius:50%;border:2px solid #fff4dd66;background:#202832aa;color:#fff4dd;
- font:900 12px system-ui;letter-spacing:.08em;display:grid;place-items:center;padding:0}
-.act::after{content:'';position:absolute;inset:-14px;border-radius:50%}
+ font:900 11px system-ui;letter-spacing:.06em;display:grid;place-items:center;padding:0;min-height:0}
+.act::after{content:'';position:absolute;inset:-12px;border-radius:50%}
 .act.on{transform:scale(.9);filter:brightness(1.35)}
-#punch{width:86px;height:86px;right:calc(env(safe-area-inset-right) + 24px);bottom:calc(env(safe-area-inset-bottom) + 30px);background:#ffc247bb;color:#191411;border-color:#963828}
-#dash{width:64px;height:64px;right:calc(env(safe-area-inset-right) + 124px);bottom:calc(env(safe-area-inset-bottom) + 96px)}
+#punch{width:86px;height:86px;right:calc(env(safe-area-inset-right) + 22px);bottom:calc(env(safe-area-inset-bottom) + 26px);background:#ffc247bb;color:#191411;border-color:#963828}
+#dash{width:62px;height:62px;right:calc(env(safe-area-inset-right) + 58px);bottom:calc(env(safe-area-inset-bottom) + 132px)}
+#dodge{width:62px;height:62px;right:calc(env(safe-area-inset-right) + 128px);bottom:calc(env(safe-area-inset-bottom) + 30px);background:#1f4a44bb;border-color:#98e5cd99}
 #turn{position:absolute;left:0;right:0;top:calc(env(safe-area-inset-top) + 56.25vw + 18px);text-align:center;color:#8f99a3;font-size:13px;display:none}
 @media (orientation:portrait){
  body.touch{place-items:start center}
  body.touch main{width:100%}
  #turn{display:block}
+ /* Menus get the whole phone screen instead of the short 16:9 strip */
+ body.touch .cabinet{container-type:normal;overflow:visible}
+ body.touch .screen{position:fixed;inset:0;z-index:6;padding:calc(env(safe-area-inset-top) + 24px) 20px calc(env(safe-area-inset-bottom) + 24px);
+  background:linear-gradient(180deg,#0d1015b0 0,#0d1015f2 45%,#0d1015fa)}
+ body.touch .level-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 </style></head>
 <body><main><div class="cabinet">
-<canvas id="game" width="960" height="540" aria-label="Streatham Fighter arcade game"></canvas>
-<div class="screen" id="screen"><div><div class="stamp" id="stamp">SOUTH LONDON · 08:28 AM</div><h1 id="title">Streatham<br><span>Fighter</span></h1><p id="message">Your kid’s nursery shuts its gates in 90 seconds. The high street has other ideas.</p><button id="start">Start the school run</button></div></div>
-</div><div class="hint">Arrows / WASD to move · J to punch · K to dash · P to pause</div></main>
+<canvas id="game" width="1920" height="1080" aria-label="Streatham Fighter arcade game"></canvas>
+<div class="screen" id="screen"><div><div class="stamp" id="stamp">SOUTH LONDON · 08:28 AM</div><h1 id="title">Streatham<br><span>Fighter</span></h1><p id="message">Abacus shuts in 30 seconds. Sidestep the crowds, watch for street warnings, and squeeze past for a speed boost.</p><div id="level-picker" class="level-grid" aria-label="Choose a level"></div><button id="start">Start the school run</button><button id="menu">Levels</button></div></div>
+</div><div class="hint">Arrows / WASD to move · J to punch · K to dash · Shift / Q / E to sidestep · P to pause · Near misses boost speed</div></main>
 <div id="touch" aria-hidden="true">
  <div id="zone"><div id="stick"><div id="knob"></div></div></div>
  <div id="turn">Turn sideways for a bigger high street ↻</div>
  <button class="act" id="dash" data-key="k" tabindex="-1">DASH</button>
+ <button class="act" id="dodge" data-key="Shift" tabindex="-1">SIDE<br>STEP</button>
  <button class="act" id="punch" data-key="j" tabindex="-1">PUNCH</button>
 </div>
 <script>
 'use strict';
-const $=q=>document.querySelector(q), body=document.body;
-const canvas=$('#game'), ctx=canvas.getContext('2d',{alpha:false});
-const overlay=$('#screen'), start=$('#start');
-const keys=new Set(), pad=new Set(), waves=[660,1450,2280], end=3025;
-let mode='title', player, foes, sparks, next, time, camera, shake, notice, last=0, lastDraw=0, scale=1;
-let stickX=0, stickY=0;
+const canvas=document.querySelector('canvas'), body=document.body;
+let ctx=canvas.getContext('2d',{alpha:false}), scale=2;
+const screen=document.querySelector('#screen'), start=document.querySelector('#start');
+const keys=new Set(), end=3025;
+const levels=[
+ {name:'The School Run',theme:'street',goal:'ABACUS',time:30,crowd:16,waves:[660,1450,2280],intro:'Abacus shuts in 30 seconds. Dodge the crowds and deal with the high street.',hint:'DODGE THE SCHOOL-RUN CROWD',types:['phone','trolley','bus','pigeons','phone','trolley','pigeons']},
+ {name:'Common Shortcut',theme:'park',goal:'COMMON GATE',time:65,crowd:12,waves:[],intro:'Autumn on Streatham Common. Dodge dogs and joggers. The muddy shortcut is quicker — if you can keep your footing.',hint:'MUD SLOWS YOU • CHOOSE YOUR LINE',types:['dog','mud','jogger','dog','mud','jogger','dog']},
+ {name:'The Big Shop',theme:'shop',goal:'CHECKOUT',time:60,crowd:15,waves:[],intro:'One quick shop. Obviously. Steer your trolley past shoppers, deliveries and spills before the checkout closes.',hint:'YOUR TROLLEY NEEDS ROOM TO TURN',types:['trolley','spill','queue','trolley','spill','queue','trolley']},
+ {name:'Last Train Home',theme:'station',goal:'PLATFORM 2',time:55,crowd:20,waves:[],intro:'The last train is boarding. Thread through commuters, luggage and queues before the doors close.',hint:'MIND THE LUGGAGE • MAKE THE TRAIN',types:['luggage','phone','queue','luggage','phone','queue','luggage']},
+ {name:'Saturday High Street',theme:'market',goal:'MARKET EXIT',time:55,crowd:23,waves:[],intro:'Market day on the high road. Squeeze past queues and delivery riders weaving between the stalls.',hint:'WATCH THE RIDERS • FIND THE GAPS',types:['queue','rider','trolley','queue','rider','trolley','rider']},
+ {name:'The Pickup Sprint',theme:'sunset',goal:'ABACUS',time:35,crowd:25,waves:[660,1450,2280],intro:'35 seconds until Abacus locks up. Sunset, rain and the busiest pavement of the day. Everything you learned, one final sprint.',hint:'ONE LAST PUSH • ABACUS IS WAITING',types:['rider','bus','trolley','pigeons','phone','rider','queue','bus','pigeons']}
+];
+let levelIndex=0,unlocked=0,completed=[],pendingNext=false,waves=[];
+try{const saved=JSON.parse(localStorage.getItem('streatham-campaign-v1')||'{}');unlocked=Math.max(0,Math.min(5,Number(saved.unlocked)||0));completed=Array.isArray(saved.completed)?saved.completed.filter(n=>Number.isInteger(n)&&n>=0&&n<6):[];}catch{}
+const level=()=>levels[levelIndex];
+const nurseryRun=()=>level().goal==='ABACUS';
+function saveProgress(){try{localStorage.setItem('streatham-campaign-v1',JSON.stringify({unlocked,completed}));}catch{}}
+function renderPicker(){const picker=document.querySelector('#level-picker');picker.innerHTML='';levels.forEach((l,i)=>{const b=document.createElement('button');b.type='button';b.disabled=i>unlocked;b.className=i===levelIndex?'selected':'';b.setAttribute('aria-pressed',String(i===levelIndex));b.textContent=(completed.includes(i)?'✓ ':'')+(i+1)+'. '+l.name;const detail=document.createElement('span');detail.textContent=i>unlocked?'Complete the previous level':l.time+' seconds · '+l.goal;b.appendChild(detail);b.onclick=()=>{levelIndex=i;pendingNext=false;reset();showMenu();};picker.appendChild(b);});}
+function showMenu(){mode='title';pendingNext=false;keys.clear();screen.hidden=false;document.querySelector('#level-picker').hidden=false;document.querySelector('#stamp').textContent='SOUTH LONDON • SIX-LEVEL CAMPAIGN';document.querySelector('#title').innerHTML=level().name.replace(/ (?!.* )/,'<br><span>')+'</span>';document.querySelector('#message').textContent=level().intro;start.textContent='Play '+level().name;renderPicker();}
+
+let parents=[], bump=0, elapsed=0, hazards=[], boost=0, clean=0, feedback='', feedbackTime=0, dodgeHeld=false;
+let mode='title', player, foes, sparks, next, time, camera, shake, notice, last=0;
 const clamp=(n,min,max)=>Math.max(min,Math.min(max,n));
-const isTouch=()=>body.classList.contains('touch');
-const buzz=ms=>{if(isTouch()&&navigator.vibrate)navigator.vibrate(ms);};
-
 function reset(){
- player={x:120,y:450,hp:100,face:1,attack:0,dash:0,dashWait:0,inv:0};
- foes=[];sparks=[];next=0;time=90;camera=0;shake=0;notice=0;
+ waves=[...level().waves];
+ player={x:120,y:450,hp:100,face:1,attack:0,dash:0,dashWait:0,inv:0,step:0,stepWait:0,stepDir:-1};
+ parents=Array.from({length:level().crowd},(_,i)=>({x:340+i*(2500/level().crowd),y:385+(i*47)%105,baseY:385+(i*47)%105,face:i%3===0?-1:1,phase:i*1.7,coat:['#507f9c','#a56b8b','#687e53','#b96f43'][i%4],skin:['#e2ad86','#916044','#c98e64'][i%3],wait:0}));bump=0;elapsed=0;
+ hazards=level().types.map((type,i)=>({type,x:490+i*(2300/(level().types.length-1)),y:390+(i*47)%100,baseY:390+(i*47)%100,state:'idle',timer:0,wait:0,passed:false}));boost=0;clean=0;feedback='';feedbackTime=0;dodgeHeld=false;keys.clear();
+ foes=[];sparks=[];next=0;time=level().time;camera=0;shake=0;notice=0;
 }
-
-/* ---------- Modes & overlay ---------- */
-function setMode(m){mode=m;body.classList.toggle('playing',m==='play');if(m!=='play')releaseTouch();}
-function showScreen(stamp,title,message,button){
- $('#stamp').textContent=stamp;$('#title').innerHTML=title;$('#message').textContent=message;
- start.textContent=button;overlay.hidden=false;if(!isTouch())start.focus();
-}
-function startRun(){reset();setMode('play');overlay.hidden=true;start.blur();last=0;goFullscreen();}
-function pause(){
- if(mode!=='play')return;setMode('paused');keys.clear();
- showScreen('PAUSED · '+Math.ceil(time)+'s ON THE CLOCK','Hold<br><span>Up</span>','The high street will wait. The nursery won’t.','Carry on');
-}
-function resume(){setMode('play');overlay.hidden=true;start.blur();last=0;}
+function startRun(){if(pendingNext){levelIndex=Math.min(levelIndex+1,5);pendingNext=false;}reset();mode='play';screen.hidden=true;document.querySelector('#level-picker').hidden=true;start.blur();last=0;}
 function finish(win){
- setMode('over');
- showScreen(win?'08:29 AM · DROP-OFF COMPLETE':'SOUTH LONDON · RUN ENDED',
-  win?'Nailed<br><span>Drop-off</span>':'Nursery<br><span>Closed</span>',
-  win?'You made it. The little one wants to know if tomorrow can be a bus day.':time<=0?'The clock beat you. The gates are shut.':'You went down on the high street. Give the school run another go.',
-  'Run it again');
- buzz(win?[30,60,30]:120);
+ mode='over';keys.clear();screen.hidden=false;document.querySelector('#level-picker').hidden=true;
+ pendingNext=win&&levelIndex<5;
+ if(win){if(!completed.includes(levelIndex))completed.push(levelIndex);unlocked=Math.max(unlocked,Math.min(5,levelIndex+1));saveProgress();}
+ document.querySelector('#stamp').textContent=win?'LEVEL '+(levelIndex+1)+' COMPLETE • '+Math.ceil(time)+' SECONDS TO SPARE':'LEVEL '+(levelIndex+1)+' • TRY AGAIN';
+ document.querySelector('#title').innerHTML=win?(levelIndex===5?'Streatham<br><span>Legend</span>':'Nicely<br><span>Done</span>'):'One more<br><span>Go?</span>';
+ document.querySelector('#message').textContent=win?(pendingNext?'Next: '+levels[levelIndex+1].name+'. '+levels[levelIndex+1].intro:'All six levels complete. Drop-off, shopping, last train and pickup — handled. Replay any level to perfect your run.'):(time<=0?(nurseryRun()?'The Abacus doors shut just before you arrived. ':'Time ran out. '):'You ran out of energy. ')+level().intro;
+ start.textContent=pendingNext?'Next: '+levels[levelIndex+1].name:win?'Replay the finale':'Retry '+level().name;start.focus();
 }
-start.onclick=()=>mode==='paused'?resume():startRun();
-function goFullscreen(){
- // Android Chrome: go fullscreen and lock landscape. iPhone Safari has no element fullscreen; no-op there.
- if(!isTouch()||document.fullscreenElement||!document.documentElement.requestFullscreen)return;
- document.documentElement.requestFullscreen({navigationUI:'hide'})
-  .then(()=>screen.orientation&&screen.orientation.lock&&screen.orientation.lock('landscape'))
-  .catch(()=>{});
-}
-// Phones: backgrounding the app pauses. Desktop keeps the original behaviour (game just freezes while the tab is hidden).
-document.addEventListener('visibilitychange',()=>{if(document.hidden&&isTouch())pause();});
-addEventListener('blur',()=>{keys.clear();last=0;});
-
-/* ---------- Keyboard ---------- */
-const bindings=['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','a','d','w','s','j','k',' '];
-addEventListener('keydown',e=>{
+start.onclick=()=>{if(mode==='paused')resume();else{startRun();goFullscreen();}};
+document.querySelector('#menu').onclick=showMenu;
+const bindings=['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','a','d','w','s','j','k',' ','Shift','q','e'];
+function keydown(e){
  const k=e.key.length===1?e.key.toLowerCase():e.key;
  if((k==='p'||k==='Escape')&&!e.repeat){if(mode==='play')pause();else if(mode==='paused')resume();return;}
  if(!bindings.includes(k)||(k===' '&&e.target instanceof HTMLButtonElement))return;
  e.preventDefault();keys.add(k);
-});
+}
+addEventListener('keydown',keydown);
 addEventListener('keyup',e=>keys.delete(e.key.length===1?e.key.toLowerCase():e.key));
+addEventListener('blur',()=>{keys.clear();last=0;});
 
-/* ---------- Touch: floating joystick + action buttons ---------- */
+/* ---------- Touch: floating 8-way joystick + action buttons ----------
+   The stick and buttons feed a separate "pad" set using the same key names the game
+   already reads, so touch play goes through exactly the same game code as the keyboard. */
+const pad=new Set();
+const isTouch=()=>body.classList.contains('touch');
+const buzz=ms=>{if(isTouch()&&navigator.vibrate)navigator.vibrate(ms);};
 if(matchMedia('(pointer:coarse)').matches)body.classList.add('touch');
-addEventListener('pointerdown',e=>{if(e.pointerType==='touch'&&!isTouch()){body.classList.add('touch');fit();}},{capture:true,passive:true});
+addEventListener('pointerdown',e=>{if(e.pointerType==='touch'&&!isTouch())body.classList.add('touch');},{capture:true,passive:true});
 addEventListener('contextmenu',e=>{if(isTouch())e.preventDefault();});
-const zone=$('#zone'), stick=$('#stick'), knob=$('#knob'), R=50;
+const zone=document.querySelector('#zone'), stick=document.querySelector('#stick'), knob=document.querySelector('#knob'), R=50;
 let stickId=null, ox=0, oy=0;
+function setDir(key,on){if(on)pad.add(key);else pad.delete(key);}
 function moveStick(e){
  let vx=e.clientX-ox, vy=e.clientY-oy;
  const len=Math.hypot(vx,vy);
- if(len>R){ // drag the base along with the thumb so direction changes stay instant
-   const k=1-R/len;ox+=vx*k;oy+=vy*k;vx=e.clientX-ox;vy=e.clientY-oy;
-   stick.style.left=ox+'px';stick.style.top=oy+'px';
- }
+ if(len>R){const k=1-R/len;ox+=vx*k;oy+=vy*k;vx=e.clientX-ox;vy=e.clientY-oy;stick.style.left=ox+'px';stick.style.top=oy+'px';}
  knob.style.transform='translate('+vx+'px,'+vy+'px)';
- const l=Math.hypot(vx,vy);
- // 8-way: an axis is active when within ~67.5° of it (sin 22.5° ≈ .38)
- stickX=l<12?0:Math.abs(vx)/l>.38?Math.sign(vx):0;
- stickY=l<12?0:Math.abs(vy)/l>.38?Math.sign(vy):0;
+ const l=Math.hypot(vx,vy), live=l>=12;
+ // 8-way: an axis is on within ~67.5° of it (sin 22.5° ≈ .38)
+ const ax=live&&Math.abs(vx)/l>.38?Math.sign(vx):0, ay=live&&Math.abs(vy)/l>.38?Math.sign(vy):0;
+ setDir('ArrowRight',ax>0);setDir('ArrowLeft',ax<0);setDir('ArrowDown',ay>0);setDir('ArrowUp',ay<0);
 }
 function endStick(){
- stickId=null;stickX=stickY=0;knob.style.transform='';
- stick.classList.remove('on');stick.style.left=stick.style.top='';
+ stickId=null;for(const k of ['ArrowLeft','ArrowRight','ArrowUp','ArrowDown'])pad.delete(k);
+ knob.style.transform='';stick.classList.remove('on');stick.style.left=stick.style.top='';
 }
 zone.addEventListener('pointerdown',e=>{
  if(stickId!==null)return;e.preventDefault();
@@ -163,49 +179,82 @@ document.querySelectorAll('.act').forEach(b=>{
 function releaseTouch(){endStick();pad.clear();document.querySelectorAll('.act.on').forEach(b=>b.classList.remove('on'));}
 const down=(...k)=>k.some(key=>keys.has(key)||pad.has(key));
 
-/* ---------- Crisp rendering on high-DPI screens ---------- */
+/* ---------- Pause (P / Esc on desktop; automatic on phones when the app is backgrounded) ---------- */
+function pause(){
+ if(mode!=='play')return;mode='paused';keys.clear();releaseTouch();
+ screen.hidden=false;document.querySelector('#level-picker').hidden=true;
+ document.querySelector('#stamp').textContent='PAUSED • LEVEL '+(levelIndex+1)+' • '+Math.ceil(time)+'s LEFT';
+ document.querySelector('#title').innerHTML='Hold<br><span>Up</span>';
+ document.querySelector('#message').textContent='Catch your breath. The clock is stopped.';
+ start.textContent='Carry on';if(!isTouch())start.focus();
+}
+function resume(){mode='play';screen.hidden=true;start.blur();last=0;}
+document.addEventListener('visibilitychange',()=>{if(document.hidden&&isTouch())pause();});
+function goFullscreen(){
+ // Android Chrome: fullscreen + landscape. iPhone Safari has no element fullscreen, so this is a no-op there.
+ const el=document.documentElement;
+ if(!isTouch()||document.fullscreenElement||!el.requestFullscreen)return;
+ el.requestFullscreen({navigationUI:'hide'})
+  .then(()=>window.screen.orientation&&window.screen.orientation.lock&&window.screen.orientation.lock('landscape'))
+  .catch(()=>{});
+}
+
+/* ---------- Crisp rendering sized to the actual screen ---------- */
 function fit(){
  const w=canvas.getBoundingClientRect().width||960;
  const s=clamp(Math.ceil(w*(devicePixelRatio||1)/960*4)/4,1,2);
- if(s===scale)return;
+ if(s===scale&&canvas.width===960*s)return;
  scale=s;canvas.width=960*s;canvas.height=540*s;
 }
-new ResizeObserver(fit).observe(canvas);
+new ResizeObserver(()=>fit()).observe(canvas);
 addEventListener('orientationchange',()=>setTimeout(fit,250));
-
-/* ---------- Game ---------- */
 function burst(x,y,color){
  for(let i=0;i<10;i++)sparks.push({x,y,vx:(Math.random()-.5)*380,vy:-Math.random()*240,life:.3+Math.random()*.2,color});
 }
 function update(dt){
- time-=dt;
- for(const k of ['attack','dash','dashWait','inv'])player[k]=Math.max(0,player[k]-dt);
+ time-=dt;elapsed+=dt;boost=Math.max(0,boost-dt);feedbackTime=Math.max(0,feedbackTime-dt);bump=Math.max(0,bump-dt);
+ for(const p of parents){p.x+=p.face*25*dt;p.y=clamp(p.baseY+Math.sin(elapsed*.7+p.phase)*23,378,495);p.wait=Math.max(0,p.wait-dt);}
+
+ for(const k of ['attack','dash','dashWait','inv','step','stepWait'])player[k]=Math.max(0,player[k]-dt);
  shake=Math.max(0,shake-dt);notice=Math.max(0,notice-dt);
- const dx=clamp(Number(down('ArrowRight','d'))-Number(down('ArrowLeft','a'))+stickX,-1,1);
- const dy=clamp(Number(down('ArrowDown','s'))-Number(down('ArrowUp','w'))+stickY,-1,1);
+ const dx=Number(down('ArrowRight','d'))-Number(down('ArrowLeft','a'));
+ const dy=Number(down('ArrowDown','s'))-Number(down('ArrowUp','w'));
  if(dx&&!player.dash)player.face=dx;
  if(down('k')&&!player.dashWait){player.dash=.17;player.dashWait=.65;player.inv=Math.max(player.inv,.2);}
- const speed=dx&&dy?157:222;
+ const dodge=down('Shift','q','e');
+ if(dodge&&!dodgeHeld&&!player.stepWait){player.step=.16;player.stepWait=.8;player.stepDir=down('e','ArrowDown','s')?1:down('q','ArrowUp','w')?-1:player.y<410?1:-1;}
+ dodgeHeld=dodge;
+ const onMud=hazards.some(h=>(h.type==='mud'||h.type==='spill')&&h.state==='active'&&Math.abs(h.x-player.x)<65&&Math.abs(h.y-player.y)<28);
+ const slow=(bump>0?.34:1)*(boost>0?1.32:1)*(onMud?.58:1)*(level().theme==='shop'?.9:1);
+ const speed=(dx&&dy?157:222)*slow;
  const gate=foes.length?waves[next-1]+170:next<waves.length?waves[next]+10:end+20;
- player.x=clamp(player.x+(player.dash?player.face*585:dx*speed)*dt,40,gate);
- player.y=clamp(player.y+dy*speed*dt,365,503);
+ player.x=clamp(player.x+(player.dash?player.face*585*slow:dx*speed)*dt,40,gate);
+ player.y=clamp(player.y+(player.step?player.stepDir*670:dy*speed)*dt,365,503);
+ for(const p of parents){
+   const gap=Math.abs(player.y-p.y);
+   if(!p.passed&&Math.abs(player.x-p.x)<48&&gap>=25&&gap<54){p.close=true;}
+   if(!p.passed&&player.x>p.x+48){p.passed=true;if(p.close&&!p.hit)nearMiss();}
+   if(Math.abs(player.x-p.x)<43&&Math.abs(player.y-p.y)<25&&!p.wait){
+     p.hit=true;clean=0;boost=0;bump=.6;p.wait=1.2;player.dash=0;player.x=clamp(player.x+(player.x<p.x?-16:16),40,gate);
+   }
+ }
+ updateHazards(dt);
  if(!foes.length&&next<waves.length&&player.x>=waves[next]){
    for(let i=0;i<next+2;i++){
      const direction=i%2===0?1:-1;
      foes.push({x:player.x+direction*(105+i*14),y:clamp(player.y-52+i*36,370,502),hp:2+(next===2&&i===0?1:0),wind:0,wait:.4+i*.22,stun:0,face:-direction});
    }
-   next++;notice=1.2;buzz(25);
+   next++;notice=1.2;
  }
  if(down('j',' ')&&!player.attack){
-   player.attack=.28;let landed=false;
+   player.attack=.28;
    for(const foe of foes){
      const distance=(foe.x-player.x)*player.face;
      if(distance>=-14&&distance<103&&Math.abs(foe.y-player.y)<42){
-       foe.hp--;foe.x+=player.face*38;foe.stun=.24;foe.wind=0;foe.wait=.43;landed=true;
+       foe.hp--;foe.x+=player.face*38;foe.stun=.24;foe.wind=0;foe.wait=.43;
        burst(foe.x,foe.y-37,'#ffc040');shake=.14;
      }
    }
-   if(landed)buzz(12);
    foes=foes.filter(foe=>foe.hp>0);
  }
  for(const foe of foes){
@@ -218,7 +267,7 @@ function update(dt){
      if(foe.wind<=0){
        foe.wait=.9;
        if(Math.abs(x)<58&&Math.abs(y)<32&&!player.inv){
-         player.hp-=12;player.inv=.55;shake=.2;burst(player.x,player.y-38,'#ff5741');buzz(45);
+         player.hp-=9;player.inv=.55;shake=.2;burst(player.x,player.y-38,'#ff5741');
        }
      }
    }else{
@@ -237,60 +286,182 @@ function update(dt){
  if(player.hp<=0||time<=0)finish(false);
  else if(next===waves.length&&!foes.length&&player.x>=end)finish(true);
 }
+function nearMiss(){clean++;boost=1.15;feedback='NICE SQUEEZE!  ×'+clean;feedbackTime=1.1;}
+function updateHazards(dt){
+ for(const h of hazards){
+   h.wait=Math.max(0,h.wait-dt);
+   if(h.state==='active'&&['dog','jogger','rider'].includes(h.type)){h.y=clamp(h.baseY+Math.sin(elapsed*2+h.x)*42,375,495);if(h.type==='rider')h.x-=70*dt;}
 
-/* ---------- Rendering ---------- */
-let font='';
-function rect(x,y,w,h,color){ctx.fillStyle=color;ctx.fillRect(x,y,w,h);}
-function label(t,x,y,size,color='#fff4de',align='left'){
- const f='900 '+size+'px system-ui';if(f!==font){ctx.font=font=f;}
- ctx.textAlign=align;ctx.fillStyle=color;ctx.fillText(t,x,y);
-}
-const signs=['STREATHAM','OFF LICENCE','CHICKEN & CHIPS','BARBERS','NIGHT BUS','CASH & CARRY','LAUNDERETTE','THE HIGH ROAD'];
-let sky;
-function street(now){
- sky=sky||(()=>{const g=ctx.createLinearGradient(0,0,0,360);g.addColorStop(0,'#182836');g.addColorStop(1,'#b66f5c');return g;})();
- rect(0,0,960,360,sky);
- for(let i=0;i<20;i++){const x=i*109-camera*.34;if(x<-100||x>960)continue;const h=82+(i*31)%114;rect(x,300-h,95,h,'#333541');for(let j=0;j<3;j++)rect(x+13+j*24,307-h,11,19,'#66606a');}
- for(let i=0;i<15;i++){
-   const x=i*231-camera,h=109+(i*37)%68,y=284-h;
-   if(x<-240||x>960)continue;
-   rect(x,y,226,h+52,['#513937','#473e42','#604441'][i%3]);rect(x-3,y,232,9,'#292830');
-   for(let row=y+15;row<265;row+=12)rect(x,row,225,1,'#221f245c');
-   for(let j=0;j<3;j++){rect(x+21+j*71,y+24,39,47,'#252a32');rect(x+27+j*71,y+29,27,36,j%2?'#807260':'#3b4653');rect(x+39+j*71,y+29,2,36,'#22262b');}
-   rect(x+6,254,214,25,i===13?'#315d4e':'#272933');label(i===13?'LITTLE ACORNS NURSERY':signs[i%signs.length],x+113,272,14,i%2?'#fac579':'#dbd0be','center');
-   rect(x+10,281,204,56,'#222830');for(let j=0;j<3;j++){rect(x+18+j*65,286,55,43,i===13?'#a77a49':'#3c4148');rect(x+18+j*65,307,55,3,'#282d34');}
+   if(h.state==='idle'&&player.x>h.x-390){h.state='warning';h.timer=1.25;}
+   else if(h.state==='warning'){h.timer-=dt;if(h.timer<=0){h.state='active';h.timer=['mud','spill','queue'].includes(h.type)?14:h.type==='pigeons'?2:5;}}
+   else if(h.state==='active'){h.timer-=dt;if(h.timer<=0)h.state='done';}
+   const radius=h.type==='bus'?72:['trolley','queue'].includes(h.type)?48:['mud','spill'].includes(h.type)?65:35;
+   const height=h.type==='bus'?38:['pigeons','mud','spill'].includes(h.type)?28:24;
+   const gap=Math.abs(player.y-h.y);
+   if(h.state==='active'){
+     if(Math.abs(player.x-h.x)<radius&&gap<height&&!h.wait){h.hit=true;h.wait=1.2;bump=.6;boost=0;clean=0;player.dash=0;feedback=h.type==='pigeons'?'PIGEON PANIC!':'EXCUSE ME!';feedbackTime=.8;}
+     else if(Math.abs(player.x-h.x)<radius&&gap<height+30)h.close=true;
+   }
+   if(!h.passed&&player.x>h.x+radius){h.passed=true;if(h.close&&!h.hit)nearMiss();}
  }
- rect(0,336,960,204,'#292e37');rect(0,336,960,28,'#53545a');rect(0,360,960,5,'#878086');rect(0,365,960,4,'#181e27');
- for(let i=0;i<30;i++){const x=i*139-camera;if(x<-88||x>960)continue;rect(x,475,73,4,'#8b784c');rect(x+32,405+i%4*11,56,2,'#3e4650');}
- const bus=1150-camera;
- if(bus>-170&&bus<960){rect(bus,285,165,83,'#a83938');rect(bus+6,291,151,20,'#252e35');rect(bus+6,320,151,20,'#252e35');label('159',bus+10,335,14,'#ffd38d');}
- // rain: one batched path instead of 39 separate strokes
- ctx.strokeStyle='#c5d8ed32';ctx.lineWidth=1;ctx.beginPath();
- const a=Math.floor(now/20),b=Math.floor(now/9);
- for(let i=0;i<39;i++){const x=((i*191+a*(i%3+1))%1000)-20;const y=(i*97+b*(i%4+2))%540;ctx.moveTo(x,y);ctx.lineTo(x-6,y+17);}
- ctx.stroke();
 }
-function actor(x,y,f,coat,skin,pose,flash=false){
- ctx.save();ctx.translate(x-camera,y);
- ctx.fillStyle='#13171c99';ctx.beginPath();ctx.ellipse(0,0,25,7,0,0,7);ctx.fill();
- ctx.scale(f,1);
- rect(-16,-24,13,21,'#161c25');rect(4,-23,12,20,'#232833');rect(-18,-6,17,5,'#11151b');rect(4,-6,17,5,'#11151b');
- rect(-18,-52,35,30,flash?'#fff3d3':coat);rect(-16,-50,7,25,'#191e2966');
- rect(-10,-70,22,20,skin);rect(-12,-73,24,9,'#171b21');rect(5,-63,5,3,'#352626');
- if(pose){rect(10,-49,27,10,coat);rect(34,-49,10,10,skin);}
- else{rect(13,-48,9,22,coat);rect(14,-32,8,7,skin);}
+function drawHazard(h){
+ if(h.state==='idle'||h.state==='done')return;
+ const x=h.x-camera,y=h.y;
+ if(x<-160||x>1100)return;
+ const warning=h.state==='warning';
+ ctx.save();ctx.globalAlpha=warning?.4:1;
+ ellipse(x,y,h.type==='bus'?75:48,h.type==='bus'?38:25,warning?'#ffbf4c55':'#d3933b2a');
+ if(h.type==='mud'||h.type==='spill'){
+   ellipse(x,y,65,23,h.type==='mud'?'#765740':'#9dc5d4');ellipse(x-15,y-4,30,7,'#ffffff22');
+ }else if(h.type==='dog'){
+   ellipse(x,y-15,20,10,'#b8824a');ellipse(x+18,y-23,9,9,'#bc8b51');line(x-15,y-9,x-20,y,'#85552e',5);line(x+13,y-9,x+18,y,'#85552e',5);line(x-20,y-18,x-29,y-31,'#b8824a',5);
+ }else if(h.type==='jogger'){
+   actor(h.x,y,-1,'#e47e65','#ac7653',false,false,elapsed*13);rect(x-12,y-75,24,4,'#9de0d5');
+ }else if(h.type==='queue'){
+   for(let i=0;i<3;i++)actor(h.x-28+i*28,y+(i%2)*7,-1,['#567f9d','#946d85','#658575'][i],'#c59070',false,false,0,true);
+ }else if(h.type==='luggage'){
+   rect(x-19,y-36,38,32,'#805c83');line(x-10,y-36,x-10,y-49,'#c8c5c9',3);line(x+10,y-36,x+10,y-49,'#c8c5c9',3);line(x-10,y-49,x+10,y-49,'#c8c5c9',3);ellipse(x-12,y,4,4,'#1b2b35');ellipse(x+12,y,4,4,'#1b2b35');
+ }else if(h.type==='rider'){
+   ellipse(x-24,y-2,16,16,'#172c39');ellipse(x+24,y-2,16,16,'#172c39');line(x-24,y-2,x,y-26,'#99bba9',4);line(x,y-26,x+24,y-2,'#99bba9',4);actor(h.x,y-16,-1,'#65aa99','#b78061',false,false,elapsed*8);rect(x+13,y-70,28,25,'#e0ac58');
+ }else if(h.type==='phone'){
+   actor(h.x,y,1,'#8b6a98','#c58b66',true,false,0,true);rect(x+29,y-53,10,15,'#162733');rect(x+31,y-51,6,10,'#a8e6ec');
+ }else if(h.type==='trolley'){
+   rect(x-35,y-28,70,23,'#7d929b');for(let j=0;j<5;j++)line(x-30+j*14,y-27,x-30+j*14,y-5,'#263e4a',2);
+   for(let j=0;j<3;j++){rect(x-31+j*23,y-53+(j%2)*8,23,25,'#b78958');line(x-20+j*23,y-53+(j%2)*8,x-20+j*23,y-29,'#e1bb7c',2);}
+   ellipse(x-24,y,6,6,'#243543');ellipse(x+24,y,6,6,'#243543');line(x+35,y-28,x+44,y-45,'#91aab2',4);
+ }else if(h.type==='bus'){
+   rect(x-72,y-92,144,85,'#b04440');rect(x-65,y-84,130,27,'#203c50');rect(x-65,y-49,90,25,'#203c50');rect(x+34,y-49,29,42,'#273a42');line(x+49,y-49,x+49,y-7,'#b87c58',2);label('159',x-58,y-12,16,'#ffda86');ellipse(x-46,y-5,11,11,'#1e2b36');ellipse(x+47,y-5,11,11,'#1e2b36');
+ }else{
+   for(let i=0;i<7;i++){const fly=warning?0:Math.sin(elapsed*9+i)*12;const bx=x-35+i*11,by=y+(i%3)*9-15-Math.abs(fly);ellipse(bx,by,6,4,'#9ba8ac');line(bx,by,bx-8,by-fly,'#526b7d',3);line(bx,by,bx+8,by-fly,'#526b7d',3);}
+ }
+ ctx.globalAlpha=1;
+ if(warning){const text={phone:'! PHONE STOP',trolley:'! DELIVERY CROSSING',bus:'! BUS PULLING IN',pigeons:'! PIGEONS',dog:'! DOG CROSSING',jogger:'! JOGGER',mud:'! MUDDY PATH',spill:'! SPILL',queue:'! QUEUE AHEAD',luggage:'! LUGGAGE',rider:'! RIDER CROSSING'}[h.type];const w=h.type==='trolley'?206:180;rect(x-w/2,y-125,w,27,'#f3ba52');label(text,x,y-106,14,'#30271d','center');line(x-35,y+8,x+35,y+8,'#f3ba52',3);}
  ctx.restore();
 }
-function draw(now){
- ctx.setTransform(scale,0,0,scale,0,0);
+function rect(x,y,w,h,color){ctx.fillStyle=color;ctx.fillRect(x,y,w,h);}
+function label(t,x,y,size,color='#fff4de',align='left'){ctx.font='900 '+size+'px system-ui';ctx.textAlign=align;ctx.fillStyle=color;ctx.fillText(t,x,y);}
+const shops=[{name:"JACKSON’S",sub:'ESTATE AGENT',color:'#233d59'},{name:'PIZA BISTRO',sub:'WOOD-FIRED • PIZZA • COFFEE',color:'#a44839'},{name:'CALI',sub:'COFFEE & GOOD COMPANY',color:'#577b60'},{name:'MIND AND MOTION',sub:'MOVE • BREATHE • BELONG',color:'#75648b'},{name:'VAPE SHOP',sub:'STREATHAM HIGH ROAD',color:'#34656c'},{name:'STREATHAM LOCAL',sub:'YOUR NEIGHBOURHOOD STORE',color:'#aa843b'}];
+function ellipse(x,y,rx,ry,color){ctx.fillStyle=color;ctx.beginPath();ctx.ellipse(x,y,rx,ry,0,0,Math.PI*2);ctx.fill();}
+function line(x,y,x2,y2,color,width=1){ctx.strokeStyle=color;ctx.lineWidth=width;ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x2,y2);ctx.stroke();}
+function building(i,x){
+   const h=155+(i*37)%45,y=255-h,nursery=i===13,shop=shops[i%shops.length];
+   const brick=['#956959','#a4826c','#766b6c'][i%3];rect(x,y,229,285-y,brick);
+   for(let row=0;row<(248-y)/9;row++)for(let col=0;col<12;col++){rect(x+col*22+(row%2?11:0),y+row*9,20,7,(row+col)%3?'#ffffff09':'#251c2029');}
+   rect(x-3,y-7,235,9,'#493e43');rect(x+3,y+3,223,4,'#e9c7a47a');rect(x+18,y-25,22,19,'#604d48');rect(x+15,y-29,28,5,'#453b40');
+   for(let r=0;r<2;r++)for(let j=0;j<3;j++){
+     const wx=x+22+j*69,wy=y+19+r*62;rect(wx-4,wy-4,44,51,'#c5ad91');rect(wx,wy,36,43,'#273b50');
+     const glass=ctx.createLinearGradient(wx,wy,wx+36,wy+43);glass.addColorStop(0,'#6f8b9e');glass.addColorStop(1,(i+j)%3?'#293b4c':'#d2a86c');rect(wx+3,wy+3,30,37,glass);rect(wx+17,wy,2,43,'#cfb99a');rect(wx,wy+21,36,2,'#cfb99a');rect(wx-5,wy+45,46,5,'#ded0b0');
+   }
+   rect(x+4,239,221,41,nursery?'#375f69':shop.color);rect(x+7,242,215,1,'#ffffff66');label(nursery?'ABACUS NURSERY':shop.name,x+114,261,nursery?17:18,'#fff3d6','center');label(nursery?'LITTLE PEOPLE. BIG ADVENTURES.':shop.sub,x+114,274,8,'#ecdcc4','center');
+   rect(x+7,281,215,65,'#182b37');
+   for(let j=0;j<3;j++){const wx=x+13+j*69;const glass=ctx.createLinearGradient(wx,284,wx,344);glass.addColorStop(0,'#ddcba4');glass.addColorStop(.45,'#667982');glass.addColorStop(1,'#293c49');rect(wx,284,62,58,glass);line(wx+3,286,wx+47,339,'#ffffff25',4);rect(wx,340,62,4,'#d0b48c');
+     if(i%6===0)for(let k=0;k<2;k++){rect(wx+6+k*26,298,21,28,'#f2e7d0');rect(wx+9+k*26,301,15,11,'#526a73');rect(wx+9+k*26,316,15,2,'#989184');}
+     if(i%6===1){ellipse(wx+30,312,18,18,'#d8a35c');for(let k=0;k<5;k++)ellipse(wx+23+(k*11)%20,303+(k*9)%23,3,3,'#a94c3b');}
+   }
+   rect(x+93,281,5,65,'#e6cfaa');rect(x+158,281,4,65,'#e6cfaa');rect(x+146,312,3,9,'#edcd8a');
+   if(i%3===1){for(let k=0;k<11;k++)rect(x+5+k*20,279,20,10,k%2?'#dfcfac':shop.color);}
+   if(nursery){for(let k=0;k<7;k++){ellipse(x+23+k*29,302,7,7,['#e8b759','#8cb8a1','#c88989'][k%3]);}rect(x+31,347,173,8,'#f5d78c');label('WELCOME TO ABACUS',x+115,365,12,'#fff5cf','center');}
+}
+/* Shopfronts are static, so each is drawn once into its own small canvas and reused every
+   frame (they were the bulk of the per-frame cost: ~300 brick rects + 9 gradients each).
+   Only the handful on screen are kept. */
+const bcache=new Map();let bscale=0;
+function cachedBuilding(i,x){
+ if(bscale!==scale){bcache.clear();bscale=scale;}
+ let c=bcache.get(i);
+ if(c)bcache.delete(i);
+ else{
+   c=document.createElement('canvas');c.width=Math.ceil(282*scale);c.height=Math.ceil(352*scale);
+   const main=ctx;ctx=c.getContext('2d');ctx.setTransform(scale,0,0,scale,0,0);ctx.translate(4,-20);
+   try{building(i,0);}finally{ctx=main;}
+ }
+ bcache.set(i,c);if(bcache.size>7)bcache.delete(bcache.keys().next().value);
+ ctx.drawImage(c,x-4,20,282,352);
+}
+function street(){
+ const sky=ctx.createLinearGradient(0,0,0,350);sky.addColorStop(0,'#283e58');sky.addColorStop(.6,'#bc8e88');sky.addColorStop(1,'#f5c694');rect(0,0,960,350,sky);
+ ellipse(760-camera*.06,140,52,52,'#ffdab387');
+ for(let i=0;i<24;i++){const x=i*130-camera*.28,h=80+(i*31)%90;rect(x,290-h,117,h,'#3b43546b');rect(x+12,280-h,14,14,'#3b43546b');for(let j=0;j<4;j++)rect(x+12+j*25,310-h,9,20,'#edbd9138');}
+ for(let i=0;i<15;i++){const x=i*231-camera;if(x<-240||x>960)continue;cachedBuilding(i,x);}
+ const ground=ctx.createLinearGradient(0,346,0,540);ground.addColorStop(0,'#7c7a78');ground.addColorStop(.72,'#4f5966');ground.addColorStop(1,'#263647');rect(0,346,960,194,ground);
+ for(let y=354;y<540;y+=27){line(0,y,960,y,'#c2bbae26');for(let x=-(camera%89)+(y%2)*40;x<960;x+=89)line(x,y,x+9,y+27,'#1b2c3c35');}
+ for(let i=0;i<22;i++){const x=i*157-camera;ellipse(x+30,472+(i%3)*18,43,5,'#acc4d31b');line(x,526,x+87,526,'#d4b865',3);line(x,533,x+87,533,'#d4b865',2);}
+ for(let i=0;i<8;i++){
+   const x=i*460+180-camera;if(x<-90||x>1060)continue;
+   rect(x,201,5,146,'#273943');rect(x-12,197,29,5,'#344752');ellipse(x+2,192,11,8,'#f5dca4');ellipse(x+2,196,25,20,'#ffd79214');
+   rect(x+50,314,24,34,'#324745');rect(x+48,310,28,5,'#536359');
+   if(i%2===0){rect(x+95,329,34,18,'#8b6652');for(let j=0;j<5;j++)ellipse(x+95+j*8,320-(j%2)*8,10,14,'#4b6c52');}
+ }
+ const bus=1140-camera;rect(bus,241,174,99,'#ad3d3c');rect(bus+6,247,162,28,'#243d4c');rect(bus+6,284,162,27,'#263b49');for(let i=1;i<7;i++){rect(bus+i*23,247,3,63,'#ca6552');}rect(bus+6,315,63,14,'#1c2933');label('159  STREATHAM',bus+10,325,9,'#f7d389');ellipse(bus+30,341,12,12,'#1d2730');ellipse(bus+143,341,12,12,'#1d2730');
+ const glow=ctx.createLinearGradient(0,0,960,540);glow.addColorStop(0,'#ffdcab0b');glow.addColorStop(1,'#102e501b');rect(0,0,960,540,glow);
+}
+function drawScene(){
+ const theme=level().theme;
+ if(theme==='street'||theme==='sunset'||theme==='market'){
+   street();
+   if(theme==='sunset'){rect(0,0,960,346,'#c5604a36');for(let i=0;i<65;i++){const x=(i*193+elapsed*120)%1000-20,y=(i*73+elapsed*410)%540;line(x,y,x-8,y+18,'#c8dcf64a');}}
+   if(theme==='market')for(let i=0;i<13;i++){const x=i*250-camera;rect(x,284,188,60,'#754f40');for(let j=0;j<9;j++)rect(x+j*21,266,21,20,j%2?'#ead7ab':'#af5a45');for(let j=0;j<12;j++)ellipse(x+12+j*14,308+(j%2)*10,8,7,['#dba854','#85a267','#bc5e50'][j%3]);label(['FRESH PRODUCE','FLOWERS','STREET FOOD'][i%3],x+94,338,12,'#fff1d2','center');}
+ }else if(theme==='park'){
+   const sky=ctx.createLinearGradient(0,0,0,350);sky.addColorStop(0,'#7b9aaf');sky.addColorStop(1,'#e7c99b');rect(0,0,960,540,sky);ellipse(730-camera*.05,140,46,46,'#ffe2ad');
+   for(let i=0;i<25;i++){const x=i*180-camera*.45;rect(x+38,185,15,180,'#5d5546');ellipse(x+45,210,75,89,['#ad8652','#8a8e61','#c1945c'][i%3]);}
+   rect(0,325,960,215,'#7b865e');rect(0,371,960,132,'#b29b7c');
+   for(let i=0;i<30;i++){const x=i*119-camera;ellipse(x,352,65,7,'#b2b49d22');ellipse(x+42,520,4,2,'#d1a257');ellipse(x+11,375,5,2,'#7b503c');}
+   for(let i=0;i<11;i++){const x=i*320-camera;rect(x,338,65,5,'#5c493a');rect(x,355,65,5,'#5c493a');rect(x+5,338,5,31,'#453c33');rect(x+55,338,5,31,'#453c33');}
+   rect(2920-camera,286,160,62,'#3d6859');label('STREATHAM COMMON',3000-camera,312,12,'#f9dfad','center');label('EXIT',3000-camera,335,16,'#fff3cf','center');
+ }else if(theme==='shop'){
+   rect(0,0,960,540,'#e1dccc');rect(0,0,960,110,'#b8c0bc');
+   for(let i=0;i<12;i++){const x=i*290-camera*.7;rect(x,40,155,9,'#fff8db');}
+   for(let i=0;i<15;i++){const x=i*230-camera;rect(x,149,211,185,'#788682');for(let r=0;r<4;r++){rect(x,177+r*39,211,7,'#b9b6a4');for(let j=0;j<10;j++)rect(x+6+j*20,154+r*39,14,23,['#a05e4e','#d5b768','#679781','#81708b'][(i+j+r)%4]);}rect(x,115,211,27,'#346952');label(['FRESH & LOCAL','BAKERY','CUPBOARD ESSENTIALS'][i%3],x+105,134,12,'#fff5dd','center');}
+   rect(0,346,960,194,'#b8b7a9');for(let y=346;y<540;y+=32){line(0,y,960,y,'#7d8b8555');for(let x=-(camera%80);x<960;x+=80)line(x,y,x,y+32,'#7d8b8555');}
+   rect(2900-camera,278,180,65,'#467861');label('CHECKOUT OPEN',2990-camera,310,17,'#fff4cf','center');
+ }else{
+   rect(0,0,960,540,'#162b40');rect(0,113,960,210,'#7b8788');
+   for(let i=0;i<18;i++){const x=i*230-camera;rect(x+5,132,207,131,'#254d63');rect(x+12,140,193,80,'#496b7b');rect(x+26,234,163,20,'#ddb77d');rect(x+216,112,14,239,'#c5c1ad');rect(x+11,110,130,5,'#fff4c4');}
+   rect(0,327,960,213,'#566876');line(0,516,960,516,'#e4c46d',5);for(let i=0;i<28;i++){const x=i*130-camera;rect(x,524,70,5,'#d1cdb8');}
+   rect(70,145,250,98,'#17232b');label('STREATHAM',90,170,17,'#f3d090');label('LAST TRAIN • PLATFORM 2',90,196,12,'#f3d090');label('DEPARTS IN '+Math.max(0,Math.ceil(time))+'s',90,224,16,'#f3d090');
+   rect(2910-camera,255,170,80,'#cfaf63');rect(2935-camera,265,53,68,'#324756');rect(2998-camera,265,53,68,'#324756');label('BOARD HERE',2995-camera,248,17,'#ffe5a4','center');
+ }
+ if(nurseryRun()){
+   const gx=end-camera,closed=clamp(1-time/8,0,1);
+   rect(gx-72,258,144,90,'#152e39');rect(gx-77,253,154,7,'#e7cc98');
+   rect(gx-72,258,72*closed,90,'#477979');rect(gx+72-72*closed,258,72*closed,90,'#477979');
+   for(let j=0;j<4;j++){rect(gx-68+j*17*closed,265,3,72,'#d6d2ae88');rect(gx+68-j*17*closed,265,3,72,'#d6d2ae88');}
+   rect(gx-96,218,192,30,time<=10?'#a33d32':'#264e51');label('DOORS SHUT IN '+Math.max(0,Math.ceil(time))+'s',gx,239,16,'#fff0c2','center');
+ }
+ const gx=end-camera;rect(gx-7,352,7,151,'#f5df9b');for(let j=0;j<8;j++)rect(gx-7,352+j*18,7,9,'#334c58');
+}
+function actor(x,y,f,coat,skin,pose,flash=false,walk=0,bag=false){
+ ctx.save();ctx.translate(x-camera,y);ellipse(0,0,24,6,'#10202c70');ctx.scale(f,1);
+ const stride=Math.sin(walk)*7;
+ function limb(x1,y1,x2,y2,color,w){line(x1,y1,x2,y2,color,w);}
+ ctx.lineCap='round';limb(-7,-25,-9+stride,-5,'#273444',11);limb(7,-25,10-stride,-5,'#1e2c3b',11);limb(-11+stride,-3,-3+stride,-3,'#131e2b',7);limb(8-stride,-3,18-stride,-3,'#172331',7);
+ if(bag){rect(-24,-53,16,27,'#be8c61');rect(-22,-49,12,2,'#ebc58d');}
+ const fabric=ctx.createLinearGradient(-17,-53,18,-24);fabric.addColorStop(0,flash?'#fff3d3':coat);fabric.addColorStop(1,flash?'#fff3d3':'#29394c');
+ ctx.fillStyle=fabric;ctx.beginPath();ctx.roundRect(-17,-54,34,32,7);ctx.fill();line(0,-49,0,-25,'#ffffff35');line(-10,-29,-4,-29,'#ffffff40',2);
+ limb(-12,-47,-18-stride*.3,-30,coat,9);ellipse(-18-stride*.3,-27,4,5,skin);
+ ellipse(0,-64,12,14,skin);ellipse(-1,-72,12,7,'#292631');rect(-12,-70,5,8,'#292631');ellipse(11,-62,3,4,skin);rect(5,-67,3,2,'#2a2931');line(5,-58,9,-59,'#8c564a');
+ if(pose){limb(12,-46,34,-46,coat,11);ellipse(39,-46,6,6,skin);}else{limb(12,-47,18+stride*.3,-29,coat,9);ellipse(18+stride*.3,-26,4,5,skin);}
+ ctx.restore();
+}
+function family(p){
+ actor(p.x,p.y,p.face,p.coat,p.skin,false,false,elapsed*5+p.phase,true);
+ ctx.save();ctx.translate(p.x-camera-p.face*34,p.y+6);ctx.scale(.56,.56);actor(camera,0,p.face,'#cf9f58',p.skin,false,false,elapsed*7+p.phase,true);ctx.restore();
+ line(p.x-camera-p.face*18,p.y-27,p.x-camera-p.face*28,p.y-12,p.skin,3);
+}
+function draw(){
  ctx.save();
  if(shake>0)ctx.translate(Math.random()*8-4,Math.random()*6-3);
- street(now);
+ drawScene();
+ if(boost>0||player.step>0){for(let i=1;i<=4;i++)ellipse(player.x-camera-player.face*i*12,player.y,19,4,'#8ce5d3'+(40-i*7).toString(16));}
  const kid={x:player.x-53,y:player.y+12,kid:true};
- const figures=[...foes,player,kid].sort((a,b)=>a.y-b.y);
+ const figures=[...foes,...parents,...hazards,player,...(level().theme==='street'||level().theme==='sunset'?[kid]:[])].sort((a,b)=>a.y-b.y);
  for(const f of figures){
-   if(f.kid){ctx.save();ctx.translate(f.x-camera,f.y);ctx.scale(.57,.57);actor(camera,0,1,'#6852a1','#d4a77d',false);ctx.restore();}
-   else if(f===player)actor(f.x,f.y,f.face,'#d98b31','#e2ad86',f.attack>.13,f.inv>0&&Math.floor(f.inv*25)%2===0);
+   if(f!==player&&!f.kid&&(f.x-camera<-140||f.x-camera>1100))continue; // off-screen: skip drawing only
+   if(hazards.includes(f)){drawHazard(f);}
+   else if(parents.includes(f)){if(level().theme==='street'||level().theme==='sunset'||level().theme==='park')family(f);else actor(f.x,f.y,f.face,f.coat,f.skin,false,false,elapsed*5+f.phase,true);}
+   else if(f.kid){ctx.save();ctx.translate(f.x-camera,f.y);ctx.scale(.57,.57);actor(camera,0,1,'#6852a1','#d4a77d',false);ctx.restore();}
+   else if(f===player){actor(f.x,f.y,f.face,'#d98b31','#e2ad86',f.attack>.13,f.inv>0&&Math.floor(f.inv*25)%2===0,down('ArrowLeft','ArrowRight','ArrowUp','ArrowDown','a','d','w','s')?elapsed*12:0,true);if(level().theme==='shop'){rect(f.x-camera+24,f.y-28,39,20,'#97aaa5');ellipse(f.x-camera+29,f.y,5,5,'#24323b');ellipse(f.x-camera+57,f.y,5,5,'#24323b');line(f.x-camera+18,f.y-35,f.x-camera+24,f.y-18,'#bbc8bf',3);}}
    else{
      actor(f.x,f.y,f.face,f.wind>0?'#bf524e':'#437870','#bc8e78',f.wind>0,f.stun>.15);
      rect(f.x-camera-13,f.y-81,26,3,'#222');rect(f.x-camera-13,f.y-81,Math.min(f.hp/2,1)*26,3,'#e36d53');
@@ -299,22 +470,46 @@ function draw(now){
  for(const p of sparks)rect(p.x-camera,p.y,5,4,p.color);
  ctx.restore();
  if(mode==='title')return;
+ if(nurseryRun()){
+   const critical=time<=10,pulse=.5+.5*Math.sin(elapsed*(critical?12:5));
+   rect(0,0,960,5,'#3f3b38');rect(0,0,960*Math.max(0,time)/level().time,5,critical?'#ff6550':'#ffcc67');
+   if(time<=15){
+     ctx.save();ctx.globalAlpha=.12+pulse*.18;rect(0,0,960,8,'#ff493d');rect(0,532,960,8,'#ff493d');rect(0,0,8,540,'#ff493d');rect(952,0,8,540,'#ff493d');ctx.restore();
+     label(time<=5?'THE DOORS ARE CLOSING!':critical?'LAST CHANCE — KEEP MOVING!':'ABACUS CLOSES SOON',480,238,critical?23:18,'#ffd08c','center');
+   }
+ }
+
+ label('LEVEL '+(levelIndex+1)+' / 6 • '+level().name.toUpperCase(),928,100,12,'#eadcc3','right');
  rect(17,17,250,60,'#11161ee8');label('PARENT',29,40,17);rect(29,49,222,12,'#4b3235');rect(29,49,222*Math.max(0,player.hp)/100,12,'#ffb343');
- rect(420,17,120,60,'#11161ee8');label(String(Math.max(0,Math.ceil(time))).padStart(2,'0'),480,58,39,time<20?'#ff6851':'#fff4de','center');
- rect(703,17,240,60,'#11161ee8');label('LITTLE ACORNS',928,40,17,'#fff4de','right');rect(718,50,210,10,'#3d454b');rect(718,50,210*player.x/end,10,'#90c39e');
+ rect(400,7,160,74,nurseryRun()&&time<=10?'#a1372de8':'#11161ee8');label(nurseryRun()?'DOORS SHUT IN':'TIME LEFT',480,23,11,'#ffdc9c','center');label(String(Math.max(0,Math.ceil(time))).padStart(2,'0'),480,58,39,time<20?'#ff6851':'#fff4de','center');
+ rect(703,17,240,60,'#11161ee8');label(level().goal,928,40,17,'#fff4de','right');rect(718,50,210,10,'#3d454b');rect(718,50,210*player.x/end,10,'#90c39e');
+ rect(17,85,250,43,'#11161ee8');label(player.stepWait>0?'SIDESTEP RECHARGING':'SIDESTEP READY',29,105,13,player.stepWait>0?'#a8b6c4':'#98e5cd');rect(29,113,222*(1-player.stepWait/.8),4,'#98e5cd');
+ if(feedbackTime>0)label(feedback,480,180,20,'#98e5cd','center');
+ if(boost>0)label('NEAR MISS • SPEED BOOST',480,207,14,'#98e5cd','center');
+ if(bump>0){label('EXCUSE ME!  •  SLOWED',480,148,20,'#ffd18b','center');}
  if(foes.length){
    const text=notice>0?'HIGH STREET AMBUSH':'CLEAR THE PAVEMENT';label(text,480,114,24,'#ffc247','center');
- }else label(next===3?'NURSERY GATES AHEAD':'KEEP MOVING RIGHT',480,114,21,'#fff4de','center');
+ }else label(player.x>2700?level().goal+' AHEAD':level().hint,480,114,21,'#fff4de','center');
 }
+let lastDraw=0, shownMode='', prevHp=0, prevBump=0, prevFoeHp=0;
 function loop(now){
  requestAnimationFrame(loop);
- // Behind menus the scene is only ambience: draw at ~30fps to save battery.
+ if(mode!==shownMode){shownMode=mode;body.classList.toggle('playing',mode==='play');if(mode!=='play')releaseTouch();}
+ // Behind menus the scene is just ambience: ~30fps to save battery.
  if(mode!=='play'&&now-lastDraw<32)return;
  const dt=last?Math.min((now-last)/1000,.05):0;
  last=now;lastDraw=now;
- if(mode==='play'&&!document.hidden)update(dt);
- draw(now);
+ if(mode==='play'&&!document.hidden){
+   update(dt);
+   // Haptics (phones only), read from game state so the game code itself is untouched.
+   const foeHp=foes.reduce((n,f)=>n+f.hp,0);
+   if(player.hp<prevHp)buzz(45);else if(bump>prevBump)buzz(25);else if(foeHp<prevFoeHp)buzz(12);
+   prevHp=player.hp;prevBump=bump;prevFoeHp=foeHp;
+ }else{prevHp=player.hp;prevBump=bump;prevFoeHp=foes.reduce((n,f)=>n+f.hp,0);}
+ ctx.setTransform(scale,0,0,scale,0,0);
+ draw();
 }
-reset();fit();requestAnimationFrame(loop);
+fit();reset();showMenu();requestAnimationFrame(loop);
 </script>
 </body></html>
+
