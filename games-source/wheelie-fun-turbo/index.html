@@ -154,6 +154,18 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .unlockGoal b{color:var(--ember);white-space:nowrap}
 .unlockGoal b i{display:inline-block;width:10px;height:10px;border-radius:50%;margin:0 4px 0 2px;vertical-align:0}
 .unlockGoal.done{margin:10px 0 4px;text-align:center;font-size:15px}
+/* wallet: coins earned on the results screen, balance on the title screen */
+.ceCoin{display:inline-block;width:1em;height:1em;border-radius:50%;background:radial-gradient(circle at 35% 35%,#fff3b0,#ffcf3a 45%,#c98a00);box-shadow:inset 0 -.1em 0 rgba(0,0,0,.25);vertical-align:-.12em}
+.coinEarn{display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px;margin:2px 0 8px}
+.ceMain{font-family:var(--display);font-size:30px;line-height:1;color:var(--ember);display:flex;align-items:center;gap:8px;animation:cePop .5s cubic-bezier(.2,1.6,.4,1) both}
+.ceChips{display:flex;gap:6px;flex-wrap:wrap}
+.ceChip{background:rgba(255,255,255,.08);border-radius:999px;padding:4px 10px;font-weight:600;font-size:14px;display:inline-flex;align-items:center;gap:5px}
+.ceCoin.sm{width:.9em;height:.9em}
+.ceBank{margin-left:auto;font-size:13px;font-weight:600;color:var(--muted);display:inline-flex;align-items:center;gap:5px}
+@keyframes cePop{0%{transform:scale(.4);opacity:0}100%{transform:scale(1);opacity:1}}
+@media (prefers-reduced-motion:reduce){.ceMain{animation:none}}
+.walletChip{position:absolute;top:calc(16px + env(safe-area-inset-top,0px));right:calc(18px + env(safe-area-inset-right,0px));display:flex;align-items:center;gap:8px;background:var(--panel);border:2px solid rgba(255,178,46,.55);border-radius:999px;padding:6px 14px;font-family:var(--display);font-size:18px;color:var(--ember);z-index:2}
+.walletChip[hidden]{display:none}
 .rec:empty{display:none}
 /* results + podium never overflow: header and buttons stay put, only the tables scroll if they must */
 #results .card,#cup .card{display:flex;flex-direction:column;overflow:auto}
@@ -4313,7 +4325,7 @@ function setupRace(){
   }
   layout.forEach((L,s)=>{const k=new Kart(CHARS[L.ch%CHARS.length],!!L.human,L.human?L.pi:-1);if(window.WFV2)WFV2.applyGaragePhysics(k,WFV2.getPartsForKart(!!L.human,L.pi||0,s));k.netId=L.netId||null;k.isRemote=!!L.remote;if(L.displayName){k.netName=L.displayName;if(k.tag)k.v.root.remove(k.tag);k.tag=nameTag({name:L.displayName,kart:k.ch.kart});k.v.root.add(k.tag);}const i=wrapI(-Math.round((10+s*7.2)/SP));k.reset(i,G.timeTrial?0:(s%2?-5.5:5.5));G.karts.push(k);});
   if(G.battle)arenaGrid();else if(G.death)deathGrid();
-  G.humans_k=G.karts.filter(k=>k.human).sort((a,b)=>a.pi-b.pi);firstRaceSetup();
+  G.humans_k=G.karts.filter(k=>k.human).sort((a,b)=>a.pi-b.pi);firstRaceSetup();coinsReset();
   for(const b of boxes){b.t=G.timeTrial?1e9:0;b.m.visible=!G.timeTrial;}for(const c of coins){c.t=0;c.m.visible=true;}if(G.timeTrial&&G.humans_k[0]&&!G.battle){G.humans_k[0].item='triple';G.humans_k[0].itemN=3;if(window.WFV2)WFV2.setupTimeTrialGhosts(LV);}
   G.laps=(!G.battle&&LV&&LV.laps)||3;G.raceT=0;G.cd=4.2;G.finishedAt=0;G.ducksOut=false;extraReset();G.swapOut=false;G.slowOut=false;G.slowOK=R()<.35;G.slowT=0;G.slowBy=null;G.state='countdown';G.lastCd=5;G.finalSaid=false;AU.tempo=132;
   makeHUD(G.humans.length);if(FT.sections&&!G.battle)VIEWS.forEach((v,p)=>{v.el.querySelector('.lap small').textContent=(G.humans.length>1?'P'+(p+1)+' · ':'')+'SECTION';});
@@ -6077,6 +6089,35 @@ function specialTipWatch(){clearInterval(specTipIv);specTipUnhook();const tip=$(
         t.hidden=false;shownItem=k.item;shownN=k.itemN||0;t0=performance.now();hook();store.set('wheeliefun.seenSpecialTip','1');}
       return;}
     if(k.item!==shownItem||(k.itemN||0)!==shownN||performance.now()-t0>6000)stop();},150);}
+// ---- coins you keep (wallet) ----
+// Every single-player race pays coins into a saved wallet: finishing place, coins still held at the
+// finish (in-race coins, max 10) and special hits on rivals. Shown as "+42" with a breakdown on the
+// results screen and as a balance on the title screen. Not for battle, death race, time trial,
+// online or local multiplayer (one shared screen can't have one wallet per player).
+const WALLET={place:[25,20,16,13,10,8,6,5],perCoin:1.5,perHit:5};
+function walletGet(){return Math.max(0,parseInt(store.get('wheeliefun.wallet')||'0',10)||0);}
+function walletAdd(n){const v=walletGet()+n;store.set('wheeliefun.wallet',String(v));store.set('wheeliefun.walletLifetime',String((parseInt(store.get('wheeliefun.walletLifetime')||'0',10)||0)+n));return v;}
+function walletEligible(){return G.humans.length===1&&G.mode===1&&!G.battle&&!G.death&&!G.timeTrial&&!G.onlineGrid;}
+function coinsReset(){G.coinPaid=false;for(const k of G.karts)k.hitsLanded=0;}
+const _hitOrig=hit;
+hit=function(k,by){const r=_hitOrig.apply(this,arguments);if(r&&by&&by.human&&by!==k)by.hitsLanded=(by.hitsLanded||0)+1;return r;};
+function raceCoinsAward(){
+  document.querySelectorAll('#results .coinEarn').forEach(e=>e.remove());
+  if(!walletEligible()||G.coinPaid)return;const me=G.humans_k&&G.humans_k[0];if(!me)return;
+  const order=G.karts.slice().sort((a,b)=>(b.finished-a.finished)||(a.finishTime-b.finishTime)||(b.progress-a.progress));
+  const place=order.indexOf(me);const fromPlace=WALLET.place[Math.min(place,WALLET.place.length-1)];
+  const fromCoins=Math.round((me.coins||0)*WALLET.perCoin),fromHits=(me.hitsLanded||0)*WALLET.perHit;
+  const total=fromPlace+fromCoins+fromHits;G.coinPaid=true;const bank=walletAdd(total);
+  const chip=(icon,n)=>n>0?`<span class="ceChip">${icon} +${n}</span>`:'';
+  const html=`<div class="coinEarn"><div class="ceMain"><span class="ceCoin"></span>+${total}</div>
+    <div class="ceChips">${chip('🏁',fromPlace)}${chip('<span class="ceCoin sm"></span>',fromCoins)}${chip('💥',fromHits)}</div>
+    <div class="ceBank">Bank <span class="ceCoin sm"></span> ${bank.toLocaleString()}</div></div>`;
+  const t=$('#resTitle');if(t)t.insertAdjacentHTML('afterend',html);}
+const _showResultsOrig=showResults;
+showResults=function(){const r=_showResultsOrig.apply(this,arguments);try{raceCoinsAward();}catch(e){}return r;};
+function walletChip(){let c=$('#walletChip');const n=walletGet();
+  if(!c){const t=$('#title');if(!t)return;t.insertAdjacentHTML('beforeend','<div class="walletChip" id="walletChip" hidden><span class="ceCoin"></span><b></b></div>');c=$('#walletChip');}
+  c.querySelector('b').textContent=n.toLocaleString();c.hidden=n<=0;}
 // ---- a brand-new player's first race: gentle and scripted (race 1 of the first cup, one player) ----
 // Three AI instead of seven; the pack starts slow and builds to a touch under normal pace; the
 // player's first item box is always a bee; one "rabbit" car stays ahead so the bee has someone to
@@ -6187,7 +6228,7 @@ function showCup(){engineStop();G.lastCup=G.cup&&G.cup.ci||0;const rows=standing
   show('cup');SFX.finish();
   // controller/keyboard highlight starts on "Next cup" (not the leaderboard name box above it)
   const fl=focusables(),fi=nextBtn&&!nextBtn.hidden?fl.indexOf(nextBtn):-1;if(fi>=0){G.focus=fi;refreshFocus();}}
-function updateShelf(){const pk=$('#pickBtn');if(pk)pk.hidden=charLocked(1)&&unlockedCupCount()<2;const won=CUPS.map(c=>[c,trophyOf(c.id)]).filter(([,t])=>t);$('#shelf').innerHTML=won.length?'Trophy shelf: '+won.map(([c,t])=>`<b>${['Gold','Silver','Bronze'][t-1]} ${c.name}</b>`).join(' · '):'';}
+function updateShelf(){try{walletChip();}catch(e){}const pk=$('#pickBtn');if(pk)pk.hidden=charLocked(1)&&unlockedCupCount()<2;const won=CUPS.map(c=>[c,trophyOf(c.id)]).filter(([,t])=>t);$('#shelf').innerHTML=won.length?'Trophy shelf: '+won.map(([c,t])=>`<b>${['Gold','Silver','Bronze'][t-1]} ${c.name}</b>`).join(' · '):'';}
 
 // ================= global leaderboards (Redis-backed, shared with Keepy Uppy's infra) =================
 // Times/points submitted here always come from the game's own race state (me.finishTime,
