@@ -1,20 +1,41 @@
 {
   "slug": "brighton",
-  "updated": "2026-11-19T14:56:45.615Z",
+  "updated": "2026-11-20T00:06:30.537Z",
   "articles": [
-    {
-      "title": "Two Premier League games in January moved for TV coverage",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRXhkVVVnVTJFaE9VSkpiVXNuMEE5WExjSDRUcjZzaEJSaXFpUG9XQ1BzQUlLQkxFeG9GY1VXdG5DZVdrTjBselVkQk5mZTZZOWZWZzdiRTZrZWRJSGRIbUZuR09NLVRCbTk4NENMYllNcXR2VVR6dDRNUDg5dms4VndfdzFJUQ?oc=5",
-      "pubDate": "Thu, 19 Nov 2026 12:00:00 GMT",
-      "category": "general"
-    },
     {
       "title": "London City Lionesses vs Brighton & Hove Albion: Women's Players Cup stats & head-to-head",
       "source": "BBC",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5INm1ta2w5TW45VjZEcWVwTl9idFJmM2c0M0JUSk1LTVMwU21kWEptUDBaOWdad05qX0Y3Um94c2laOVhjVlRXWENFYUdaTmczVFJVLW1TODFWYzY4cVI1aXBRYXlXUQ?oc=5",
-      "pubDate": "Wed, 18 Nov 2026 22:24:16 GMT",
+      "pubDate": "Wed, 18 Nov 2026 08:00:00 GMT",
       "category": "match"
+    },
+    {
+      "title": "Merseyside derby among big Premier League games live on TNT Sports in January",
+      "source": "TNT Sports",
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPdTFJTHZseFY4Y0diVEJUdHJ1R05UWldKYUdtbUZGQUp2djQ4V0JLWmZFMHN0amNtdzNZd2UxN0ZmYlVJeF8yN084dGVTWlVzTGkzTjVnV3gwZUFNMnAtcEhGbkJmWURRSWlOTGgyd3ByRXI1bG8zYlo1SDRYRF9XajJVWVNnRWFNb0dqNFlKWldYNXRYMVdEZkZoYzZFMjNSNGoxZHZvRVVmVThIMXV2VXM2elduNUFScFZodVJkZG55c0JUSHBQa0VkMm5aMzhYdWYwVlZ0RzZkZ09HNEZud3MxUE94bGdYVUJiSEloeXRXWHhHYzZqcnY5eW1qbzRfV2Vxd0JWRQ?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 12:02:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Brighton owner backs high-flying Seagulls to follow Leicester and win Prem",
+      "source": "The Sun",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOeXd1WWswc1kyQklhRXRvSnBhWXFjdjhEZjBFUzV5MldncGFEVUdIeHV0QWk3MjlKWEVxU1FtTVNBYm84eVJ3c0RTRWhmQUw2Z3l5UG8tTkpMeUd0T29BaWdPZF9XcUZyRzVmTTJnTzJHSW9pd09OQkE0bnc2NEFJZjJB?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 16:40:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Barcelona step up efforts to sign Premier League sensation",
+      "source": "Yahoo Sports",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZmh1TkhiLVFyVTkxWFNWVmhUa0p0UF9jbnR1QVk5UXFWN2V5eEdYZC15cXlvWW9XdW44c1NjSE0tTTlMbkhlWlJ5UmlIelJ4U20tZWtINnpZaDNiX2hEUUZRbmNQODdjZE5EM0s2THlaanhveENiWFU2bmVIM1czY3RhZ19Bazl5Y0RpSg?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 21:15:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Brighton & Hove Albion live score, schedule & player stats",
+      "source": "Sofascore",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1HeGJiSWhncC1KSlcwZDBZcnlpWGFQaHRJRzZlSGl3OGdkaU00aWpXQTdUYUxRWEFqMU10anl5bnYxSTJRRWwxNjZEZ3JmU2trdy1RdmRIem9QcUhlVmpsWjZDdTc2QUlQMHVnQXg3UFlVdkZSdWc?oc=5",
+      "pubDate": "Wed, 05 Nov 2025 14:08:07 GMT",
+      "category": "general"
     },
     {
       "title": "Barcelona make fresh contact for £50m Brighton centre-back Luka Vuskovic amid Real Madrid and Liverpool interest",
@@ -28,13 +49,6 @@
       "source": "TEAMtalk",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9qNTk0YVhMZkg1RXdYblkyR1M3a3lsZlVSZFFadHBMTm1FOXYzd0RBVlJCQUdfNDg0NlR6VmV3RmZUMElRdG9iS3FNX3ZLT3ZhNFQzRWUtOWd0M0IxU2pITUpFM21oUWtMc0lYdjZjU3U?oc=5",
       "pubDate": "Wed, 18 Nov 2026 15:56:26 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Man United transfer news: Brighton star Yasin Ayari responds to transfer speculation",
-      "source": "Sports Mole",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPSGlLRzBzSHp4TmVIYjU5dmVyVDd6dldVUkRmbFotSDEwUlNydHpEckhGWUloUzFlVGFBSEl3c2RMTnBxZFl4WjJ1OHowbS1EZ1lKNVdXOXhHWW94QjA5Y282TDg5Um1PWUpPbk5MbDhEbmp2WllWaEpSTXAxMDZYVXNISWFfS29NWmstRGJNMEpiUXhKWFg3cDdhS1dzT0VoXzNDUF9tUklULWlVeUg2SnUzbVhLVFozMUhKT2QtYUVYZVloTFBMRHFmTkhFdw?oc=5",
-      "pubDate": "Wed, 18 Nov 2026 17:30:05 GMT",
       "category": "transfer"
     },
     {
@@ -52,20 +66,6 @@
       "category": "match"
     },
     {
-      "title": "Real Madrid make Brighton midfielder Chema Andres their main transfer focus alongside teenage defender Luka Vuskovic",
-      "source": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUXV0a294WGg0OHNYUDgyT196aXlUZUpGX2JMcTdDcHlJMjVEam9OZUZ1YVRMSlYyMDJJdGhEVlhhRVVuNzFFMjFvRWhlLVNJZk0tb3BxOGsyc185QnUxOGZHV3hzV2FQMzZlTkx5LVlfOXRHS0hiam9fRXdaN2NtNG5NNmRNYUxRVHdmbGp2ckhhbW1LQnZ3dHJpanMweUZWQWN2UlNkVk9ocHQyQ1lqQjVjZ003eDkyUkI2SXVlMG9yNGh4bUh2VXZfLWg?oc=5",
-      "pubDate": "Tue, 17 Nov 2026 08:52:38 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Liverpool join Arsenal and PSG in race for £50m-rated Brighton left-back Maxim De Cuyper ahead of potential 2027 move",
-      "source": "Goal.com",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNlg5QTQ1dlYtaC1wYzlVdGIzSHRRaTd2SHJ0S3ZVangwWTFoaFFWazVobVI5bzA1dk5nR25OSHlZUE4ycTZvMnJTa2ZULWxWN1JEb0lSc1NkVkhEclk1ZnJJUFh4bUVDczJucEJpS1pFdVcyVDUwMHkwWllVUVBnYkpvckdXY0YzVVp5U2RFLUNhSGV6Zzg4cHBlYjl2bDJMTzJzQ1R0cGxHQ05BRFZkRmNnNmx6ZEFzejNJXy1aZHJBR0E?oc=5",
-      "pubDate": "Tue, 17 Nov 2026 10:25:19 GMT",
-      "category": "match"
-    },
-    {
       "title": "Barcelona make contact to sign £50m star Tottenham sold last summer",
       "source": "TEAMtalk",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUG5RRVhuRGVqS0Y5N1BnNFFRX1JSQkx2Nm5RR1BodDlocnBVc3Vsci1LMlZZcGtBVVdDMW5YaHdqanNwdUxJc0p5cXM1c2tUTV9zbjJXdVZBN2Zjb3lOS09ZVmdnTTNXWUFsZ1hRSmh4NE93ckVFYm42WlBjdktTb25iaXdiY2ZSczdDSVdiWVBqem9lTVRTVDFFWU5HbVVqTXZmcA?oc=5",
@@ -80,13 +80,6 @@
       "category": "match"
     },
     {
-      "title": "Merseyside derby among big Premier League games live on TNT Sports in January",
-      "source": "TNT Sports",
-      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPdTFJTHZseFY4Y0diVEJUdHJ1R05UWldKYUdtbUZGQUp2djQ4V0JLWmZFMHN0amNtdzNZd2UxN0ZmYlVJeF8yN084dGVTWlVzTGkzTjVnV3gwZUFNMnAtcEhGbkJmWURRSWlOTGgyd3ByRXI1bG8zYlo1SDRYRF9XajJVWVNnRWFNb0dqNFlKWldYNXRYMVdEZkZoYzZFMjNSNGoxZHZvRVVmVThIMXV2VXM2elduNUFScFZodVJkZG55c0JUSHBQa0VkMm5aMzhYdWYwVlZ0RzZkZ09HNEZud3MxUE94bGdYVUJiSEloeXRXWHhHYzZqcnY5eW1qbzRfV2Vxd0JWRQ?oc=5",
-      "pubDate": "Thu, 19 Nov 2026 12:54:00 GMT",
-      "category": "general"
-    },
-    {
       "title": "Blog",
       "source": "London City Lionesses",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUHA1bTZ2ZG5aeTQ2dFFMc2FWMEFndFRRSHpDNXdUS09Cc2dCWHkwLWxCQ0NKYjcwbV9DblNfRjExZEMwTEcwdDE0Z0lXYUphRFVPNWFtYnl4X3dydmYzUzROaG02Z3VYbG1VSWN4SVJXLUJXZkNGUmlubVRYb2pOM0FLWng3U3NOcFkwT3BzUFR6MnVa?oc=5",
@@ -94,18 +87,25 @@
       "category": "general"
     },
     {
-      "title": "REVEALED: Premier League Team of the Season so far",
-      "source": "Premier League",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNMjk5UEctWlN5eEE0YVBYZjNmci1aU2N4a2RvUlZLLUltU280dEhDd3k0Nko5bUJsMDF4c0xZaTc3OFRKc3hGVEFhODN1Y0liclVMWnFKYWRfTXcyMUx1QlBEUUI0TnpwOUJOY29ack1oVkZTZ0FwRThDeURoNjJHVnRSX3R2b2tpTkNVY2I3QlJQMTlWUzZsdWJkWQ?oc=5",
-      "pubDate": "Thu, 19 Nov 2026 10:39:19 GMT",
+      "title": "Two Premier League games in January moved for TV coverage",
+      "source": "Manchester City FC",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRXhkVVVnVTJFaE9VSkpiVXNuMEE5WExjSDRUcjZzaEJSaXFpUG9XQ1BzQUlLQkxFeG9GY1VXdG5DZVdrTjBselVkQk5mZTZZOWZWZzdiRTZrZWRJSGRIbUZuR09NLVRCbTk4NENMYllNcXR2VVR6dDRNUDg5dms4VndfdzFJUQ?oc=5",
+      "pubDate": "Thu, 19 Nov 2026 12:00:00 GMT",
       "category": "general"
     },
     {
-      "title": "Hull City handed major injury boost with key duo ready for Premier League return",
-      "source": "Hull Live",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbkhiVWlMazFXUXdzWDJfQXZsVEJtejM5N296cmdub0F3TjFXMndCY0M2TkxhVG5HVTNoYTktR2xOOER5M3VWXzI2RkNsb3Jjb085VWZROVliM1JJMjFkdFBIMC0yTEVEc3lGaXVnU2pqWEFzWGN4dVI2VDBwM2RzbXFjWWNIVmVUeURfb1VncHdoRU1KSmppSExaVnNRZEJN?oc=5",
-      "pubDate": "Thu, 19 Nov 2026 09:48:00 GMT",
-      "category": "fitness"
+      "title": "TICKET DETAILS | BRIGHTON (A)",
+      "source": "Ipswich Town FC",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQTdYSTdQQ0xJUVFuN0M0Z0MwdnRPVVE3OTZZaG5iT1pKYWhIVUlDS0c3dXJiRVlaNlZTYS1jaC1jWVRJQUJHbnI5Ukw5akZRZm5IZ3cteS1ja1g4UXJ1UTUyS3pFcHlrWGw0QWxVeVcyTkJ1c1FIemU4Sk5JNnMwYg?oc=5",
+      "pubDate": "Mon, 16 Nov 2026 14:52:12 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Meet the new Brighton & Hove Albion fan club in Ukraine",
+      "source": "WeAreBrighton.com",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZ05sYXROWDI4c1Z2d0JIOTRHZ0ZhYy1aalZhUngyZWwycnl3eC13Q2hGZkNHOGUyVi1Pak50VDJOUm1oelZKMHpmTi1ESVNmb2U0cFJ5VDFRcGY4RnMwZFRvXzJiU2lIRkdpV0NFalpVQ1FKRVdUbG9kbm40UDh0NHVDMjFjazdQWXp3SGpaRUhwQWl1T2RWOVlGeGs?oc=5",
+      "pubDate": "Wed, 18 Nov 2026 11:28:35 GMT",
+      "category": "general"
     }
   ],
   "reddit": []
