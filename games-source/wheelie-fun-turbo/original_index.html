@@ -211,7 +211,9 @@ body.mk #views,body.mk #fx,body.mk .ctrlTip{visibility:hidden}
 .walletChip.compact .wcKart i{display:inline}.walletChip.compact .wcKart em{display:none}.walletChip.compact .wcKart{padding:3px 7px}
 /* daily bonus */
 .ceChip.day{background:rgba(38,211,208,.18);color:var(--lagoon)}
-.btn .dayBadge{position:absolute;top:-12px;right:-12px;white-space:nowrap;background:var(--lagoon);color:var(--night);font-size:13px;border-radius:999px;padding:3px 8px;box-shadow:0 3px 0 #0b6f72;transform:rotate(8deg);animation:dayBob 1.6s ease-in-out infinite}
+.pickRow.daily #pickBtn{display:none!important}
+.dayLine{font-family:var(--display);font-size:clamp(13px,1.6vw,16px);color:var(--cream);background:rgba(26,15,43,.72);border:2px solid rgba(38,211,208,.6);border-radius:999px;padding:7px 16px;letter-spacing:.02em;text-shadow:none;white-space:nowrap}
+.dayLine b{font-weight:400;color:var(--lagoon)}
 #title [data-act="p1"]{position:relative}
 @keyframes dayBob{50%{transform:rotate(8deg) translateY(-3px)}}
 @media (prefers-reduced-motion:reduce){.btn .dayBadge{animation:none}}
@@ -6105,9 +6107,13 @@ function dailyStreakNow(){const d=dailyState(),y=new Date();y.setDate(y.getDate(
 function dailyClaim(){const d=dailyState(),today=dayKey();if(d.last===today)return null;const y=new Date();y.setDate(y.getDate()-1);
   const streak=d.last===dayKey(y)?d.streak+1:1;store.set('wheeliefun.daily',JSON.stringify({last:today,streak}));return{streak,gift:streak%DAILY.every===0};}
 // title: a "2×" badge on Start while today's bonus is waiting (only for players who have raced before)
-function dailyBadge(){const b=$('#title [data-act="p1"]');if(!b)return;let t=b.querySelector('.dayBadge');
+// title: while today's bonus is waiting, the line under Start says so (and shows the streak) in place of
+// "Choose racer & track", which comes back once the bonus is used
+function dailyBadge(){const row=$('#title .pickRow');if(!row)return;let t=row.querySelector('.dayLine');
   const on=dailyReady()&&(parseInt(store.get('wheeliefun.walletLifetime')||'0',10)>0);
-  if(on&&!t){b.insertAdjacentHTML('beforeend','<span class="dayBadge">2× coins</span>');}else if(!on&&t)t.remove();}
+  row.classList.toggle('daily',on);if(!on){if(t)t.remove();return;}
+  const st=dailyStreakNow(),txt=st>0?`🔥 ${st}-day streak · <b>Double coins</b> today`:`🎁 <b>Double coins</b> on today's first race`;
+  if(!t){row.insertAdjacentHTML('beforeend','<div class="dayLine"></div>');t=row.querySelector('.dayLine');}t.innerHTML=txt;}
 // see you tomorrow: once a day, when the player heads back to the title after using today's bonus
 function sytHTML(){const st=dailyStreakNow(),next=st%DAILY.every;const bank=walletGet();const g=cosmGoal();
   const dots=[...Array(DAILY.every)].map((_,i)=>i===DAILY.every-1?`<span class="sytDot gift${next===0&&st>0?' on':''}">🎁</span>`:`<span class="sytDot${i<next||(next===0&&st>0)?' on':''}">${i+1}</span>`).join('');
@@ -6261,7 +6267,7 @@ function showCup(){engineStop();G.lastCup=G.cup&&G.cup.ci||0;const rows=standing
   show('cup');SFX.finish();
   // controller/keyboard highlight starts on "Next cup" (not the leaderboard name box above it)
   const fl=focusables(),fi=nextBtn&&!nextBtn.hidden?fl.indexOf(nextBtn):-1;if(fi>=0){G.focus=fi;refreshFocus();}}
-function updateShelf(){try{walletChip();dailyBadge();}catch(e){}const pk=$('#pickBtn');if(pk)pk.hidden=charLocked(1)&&unlockedCupCount()<2;const won=CUPS.map(c=>[c,trophyOf(c.id)]).filter(([,t])=>t);$('#shelf').innerHTML=won.length?'Trophy shelf: '+won.map(([c,t])=>`<b>${['Gold','Silver','Bronze'][t-1]} ${c.name}</b>`).join(' · '):'';}
+function updateShelf(){try{dailyBadge();walletChip();}catch(e){}const pk=$('#pickBtn');if(pk)pk.hidden=charLocked(1)&&unlockedCupCount()<2;const won=CUPS.map(c=>[c,trophyOf(c.id)]).filter(([,t])=>t);$('#shelf').innerHTML=won.length?'Trophy shelf: '+won.map(([c,t])=>`<b>${['Gold','Silver','Bronze'][t-1]} ${c.name}</b>`).join(' · '):'';}
 
 // ================= global leaderboards (Redis-backed, shared with Keepy Uppy's infra) =================
 // Times/points submitted here always come from the game's own race state (me.finishTime,
