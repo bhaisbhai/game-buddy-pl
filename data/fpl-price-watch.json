@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-20T10:58:32.600Z",
+  "updated": "2026-11-21T10:42:06.575Z",
   "snapshot": {
-    "1": 62,
+    "1": 63,
     "2": 49,
     "3": 49,
     "4": 81,
@@ -20,7 +20,7 @@
     "17": 57,
     "18": 63,
     "19": 52,
-    "20": 53,
+    "20": 52,
     "21": 48,
     "22": 54,
     "23": 55,
@@ -46,7 +46,7 @@
     "43": 56,
     "44": 54,
     "45": 55,
-    "46": 50,
+    "46": 49,
     "47": 50,
     "48": 49,
     "49": 50,
@@ -195,7 +195,7 @@
     "192": 45,
     "193": 53,
     "194": 50,
-    "195": 49,
+    "195": 48,
     "196": 50,
     "197": 45,
     "198": 49,
@@ -268,7 +268,7 @@
     "265": 48,
     "266": 49,
     "267": 49,
-    "268": 55,
+    "268": 54,
     "269": 43,
     "270": 43,
     "271": 53,
@@ -366,7 +366,7 @@
     "363": 39,
     "364": 49,
     "365": 40,
-    "366": 72,
+    "366": 73,
     "367": 71,
     "368": 67,
     "369": 57,
@@ -388,7 +388,7 @@
     "385": 50,
     "386": 44,
     "387": 62,
-    "388": 60,
+    "388": 59,
     "389": 59,
     "390": 55,
     "391": 56,
@@ -427,7 +427,7 @@
     "424": 39,
     "425": 40,
     "426": 116,
-    "427": 79,
+    "427": 78,
     "428": 78,
     "429": 68,
     "430": 54,
@@ -438,7 +438,7 @@
     "435": 49,
     "436": 50,
     "437": 44,
-    "438": 44,
+    "438": 43,
     "439": 69,
     "440": 53,
     "441": 45,
@@ -497,7 +497,7 @@
     "494": 45,
     "495": 40,
     "496": 44,
-    "497": 40,
+    "497": 39,
     "498": 57,
     "499": 53,
     "500": 50,
@@ -574,7 +574,7 @@
     "571": 48,
     "572": 47,
     "573": 44,
-    "574": 48,
+    "574": 47,
     "575": 48,
     "576": 49,
     "577": 43,
@@ -676,36 +676,92 @@
   },
   "changes": [
     {
-      "id": 166,
-      "web_name": "N.Jackson",
-      "team_name": "Aston Villa",
+      "id": 1,
+      "web_name": "Raya",
+      "team_name": "Arsenal",
       "direction": "rise",
-      "old_price": 71,
-      "new_price": 72
+      "old_price": 62,
+      "new_price": 63
     },
     {
-      "id": 204,
-      "web_name": "Mitchell",
-      "team_name": "Crystal Palace",
-      "direction": "fall",
-      "old_price": 45,
-      "new_price": 44
-    },
-    {
-      "id": 570,
-      "web_name": "Palacios",
-      "team_name": "Fulham",
+      "id": 20,
+      "web_name": "Dowman",
+      "team_name": "Arsenal",
       "direction": "fall",
       "old_price": 53,
       "new_price": 52
     },
     {
-      "id": 321,
-      "web_name": "Walle Egeli",
-      "team_name": "Ipswich Town",
+      "id": 46,
+      "web_name": "Barkley",
+      "team_name": "Aston Villa",
       "direction": "fall",
-      "old_price": 45,
-      "new_price": 44
+      "old_price": 50,
+      "new_price": 49
+    },
+    {
+      "id": 195,
+      "web_name": "Simms",
+      "team_name": "Coventry City",
+      "direction": "fall",
+      "old_price": 49,
+      "new_price": 48
+    },
+    {
+      "id": 268,
+      "web_name": "King",
+      "team_name": "Fulham",
+      "direction": "fall",
+      "old_price": 55,
+      "new_price": 54
+    },
+    {
+      "id": 574,
+      "web_name": "Hjertø-Dahl",
+      "team_name": "Hull City",
+      "direction": "fall",
+      "old_price": 48,
+      "new_price": 47
+    },
+    {
+      "id": 366,
+      "web_name": "Wirtz",
+      "team_name": "Liverpool",
+      "direction": "rise",
+      "old_price": 72,
+      "new_price": 73
+    },
+    {
+      "id": 388,
+      "web_name": "Guéhi",
+      "team_name": "Man City",
+      "direction": "fall",
+      "old_price": 60,
+      "new_price": 59
+    },
+    {
+      "id": 427,
+      "web_name": "Mbeumo",
+      "team_name": "Man Utd",
+      "direction": "fall",
+      "old_price": 79,
+      "new_price": 78
+    },
+    {
+      "id": 438,
+      "web_name": "Fletcher",
+      "team_name": "Man Utd",
+      "direction": "fall",
+      "old_price": 44,
+      "new_price": 43
+    },
+    {
+      "id": 497,
+      "web_name": "Dubravka",
+      "team_name": "Spurs",
+      "direction": "fall",
+      "old_price": 40,
+      "new_price": 39
     }
   ]
 }
