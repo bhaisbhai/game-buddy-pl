@@ -210,10 +210,13 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 @media (prefers-reduced-motion:reduce){.mkGoal.ready{animation:none}}
 button.walletChip{cursor:pointer}
 body.mk #views,body.mk #fx,body.mk .ctrlTip{visibility:hidden}
-.wcKart{font-size:13px;color:var(--night);background:var(--ember);border-radius:999px;padding:3px 9px;margin:-2px -8px -2px 2px;letter-spacing:.04em}
+.wcKart{font-size:13px;color:var(--night);background:var(--ember);border-radius:999px;padding:3px 9px;margin:-2px -8px -2px 2px;letter-spacing:.04em;display:inline-flex;align-items:center;gap:4px}
+.wcKart i{font-style:normal;display:none}.wcKart em{font-style:normal}
+.walletChip.bottom{top:auto;bottom:calc(18px + env(safe-area-inset-bottom,0px));right:50%;transform:translateX(50%)}
+.walletChip.compact .wcKart i{display:inline}.walletChip.compact .wcKart em{display:none}.walletChip.compact .wcKart{padding:3px 7px}
 /* daily bonus */
 .ceChip.day{background:rgba(38,211,208,.18);color:var(--lagoon)}
-.btn .dayBadge{position:absolute;top:-10px;right:-10px;background:var(--lagoon);color:var(--night);font-size:13px;border-radius:999px;padding:3px 8px;box-shadow:0 3px 0 #0b6f72;transform:rotate(8deg);animation:dayBob 1.6s ease-in-out infinite}
+.btn .dayBadge{position:absolute;top:-12px;right:-12px;white-space:nowrap;background:var(--lagoon);color:var(--night);font-size:13px;border-radius:999px;padding:3px 8px;box-shadow:0 3px 0 #0b6f72;transform:rotate(8deg);animation:dayBob 1.6s ease-in-out infinite}
 #title [data-act="p1"]{position:relative}
 @keyframes dayBob{50%{transform:rotate(8deg) translateY(-3px)}}
 @media (prefers-reduced-motion:reduce){.btn .dayBadge{animation:none}}
@@ -6220,8 +6223,20 @@ function raceCoinsAward(){
 const _showResultsOrig=showResults;
 showResults=function(){const r=_showResultsOrig.apply(this,arguments);try{raceCoinsAward();}catch(e){}try{resV2();}catch(e){console.warn('results card',e);}return r;};
 function walletChip(){let c=$('#walletChip');const n=walletGet();
-  if(!c){const t=$('#title');if(!t)return;t.insertAdjacentHTML('beforeend','<button class="walletChip" id="walletChip" hidden aria-label="My Kart"><span class="ceCoin"></span><b></b><span class="wcKart">My Kart</span></button>');c=$('#walletChip');}
-  c.querySelector('b').textContent=n.toLocaleString();c.hidden=n<=0&&!cosmOwned().size;}
+  if(!c){const t=$('#title');if(!t)return;t.insertAdjacentHTML('beforeend','<button class="walletChip" id="walletChip" hidden aria-label="My Kart"><span class="ceCoin"></span><b></b><span class="wcKart"><i>🎨</i><em>My Kart</em></span></button>');c=$('#walletChip');}
+  c.querySelector('b').textContent=n.toLocaleString();c.hidden=n<=0&&!cosmOwned().size;walletFit();}
+// keep the chip clear of the How to Play / Settings / Leaderboards row: drop its label, then move it under the row
+function walletFit(){const c=$('#walletChip'),t=$('#title');if(!c||c.hidden||!t||t.hidden)return;
+  const others=[...t.querySelectorAll('#utilityIcons,.logo,.btn,.pickRow,.sub')].filter(e=>e!==c&&!c.contains(e));
+  const clash=()=>{const a=c.getBoundingClientRect();if(a.left<0||a.right>innerWidth||a.bottom>innerHeight)return true;
+    return others.some(e=>{const b=e.getBoundingClientRect();return b.width>0&&a.left<b.right+6&&a.right>b.left-6&&a.top<b.bottom+6&&a.bottom>b.top-6;});};
+  // top-right with its label, top-right compact, bottom-centre, then under the icon row
+  const tries=[[],['compact'],['compact','bottom'],['compact','below']];
+  for(const cls of tries){c.classList.remove('compact','bottom','below');c.style.top='';cls.forEach(k=>c.classList.add(k));
+    if(cls.includes('below')){const u=$('#utilityIcons');if(u)c.style.top=Math.round(u.getBoundingClientRect().bottom+8)+'px';}
+    if(!clash())return;}}
+addEventListener('resize',()=>{try{walletFit();}catch(e){}});
+const _showWOrig=show;show=function(id){const r=_showWOrig.apply(this,arguments);if(id==='title')requestAnimationFrame(()=>{try{walletFit();}catch(e){}});return r;};
 // ---- My Kart: spend saved coins on looks only (paint, helmet, under-glow). No stat changes. ----
 // Prices are set so the first buy comes after ~3 races and the whole shelf takes ~150; trophy
 // items can't be bought, only won (any trophy in that cup).
@@ -6409,7 +6424,7 @@ function dailyClaim(){const d=dailyState(),today=dayKey();if(d.last===today)retu
 // title: a "2×" badge on Start while today's bonus is waiting (only for players who have raced before)
 function dailyBadge(){const b=$('#title [data-act="p1"]');if(!b)return;let t=b.querySelector('.dayBadge');
   const on=dailyReady()&&(parseInt(store.get('wheeliefun.walletLifetime')||'0',10)>0);
-  if(on&&!t){b.insertAdjacentHTML('beforeend','<span class="dayBadge">2×</span>');}else if(!on&&t)t.remove();}
+  if(on&&!t){b.insertAdjacentHTML('beforeend','<span class="dayBadge">2× coins</span>');}else if(!on&&t)t.remove();}
 // see you tomorrow: once a day, when the player heads back to the title after using today's bonus
 function sytHTML(){const st=dailyStreakNow(),next=st%DAILY.every;const bank=walletGet();const g=cosmGoal();
   const dots=[...Array(DAILY.every)].map((_,i)=>i===DAILY.every-1?`<span class="sytDot gift${next===0&&st>0?' on':''}">🎁</span>`:`<span class="sytDot${i<next||(next===0&&st>0)?' on':''}">${i+1}</span>`).join('');
