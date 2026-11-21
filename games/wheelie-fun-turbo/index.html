@@ -12708,9 +12708,9 @@ function raceCoinsAward(){
   const order=G.karts.slice().sort((a,b)=>(b.finished-a.finished)||(a.finishTime-b.finishTime)||(b.progress-a.progress));
   const place=order.indexOf(me);const fromPlace=WALLET.place[Math.min(place,WALLET.place.length-1)];
   const fromCoins=Math.round((me.coins||0)*WALLET.perCoin),fromHits=(me.hitsLanded||0)*WALLET.perHit;
-  const base=fromPlace+fromCoins+fromHits;const day=dailyClaim();const total=base*(day?2:1)+(day&&day.gift?DAILY.gift:0);G.coinPaid=true;const bank=walletAdd(total);G.lastAward={total,fromPlace,fromCoins,fromHits,day};
+  const base=fromPlace+fromCoins+fromHits;const day=dailyClaim();const dayBonus=day?Math.min(base,DAILY.cap):0,total=base+dayBonus+(day&&day.gift?DAILY.gift:0);G.coinPaid=true;const bank=walletAdd(total);G.lastAward={total,fromPlace,fromCoins,fromHits,day,dayBonus};
   const chip=(icon,n)=>n>0?`<span class="ceChip">${icon} +${n}</span>`:'';
-  const dayChip=day?`<span class="ceChip day">🎁 ×2</span>${day.gift?`<span class="ceChip day">🔥 ${day.streak} +${DAILY.gift}</span>`:''}`:'';
+  const dayChip=day?`<span class="ceChip day">🎁 +${dayBonus}</span>${day.gift?`<span class="ceChip day">🔥 ${day.streak} +${DAILY.gift}</span>`:''}`:'';
   const html=`<div class="coinEarn"><div class="ceMain"><span class="ceCoin"></span>+${total}</div>
     <div class="ceChips">${chip('🏁',fromPlace)}${chip('<span class="ceCoin sm"></span>',fromCoins)}${chip('💥',fromHits)}${dayChip}</div>
     <div class="ceBank">Bank <span class="ceCoin sm"></span> ${bank.toLocaleString()}</div>${cosmGoalHTML(bank)}</div>`;
@@ -12733,27 +12733,28 @@ function walletFit(){const c=$('#walletChip'),t=$('#title');if(!c||c.hidden||!t|
 addEventListener('resize',()=>{try{walletFit();}catch(e){}});
 const _showWOrig=show;show=function(id){const r=_showWOrig.apply(this,arguments);if(id==='title')requestAnimationFrame(()=>{try{walletFit();}catch(e){}});return r;};
 // ---- My Kart: spend saved coins on looks only (paint, helmet, under-glow). No stat changes. ----
-// Prices are set so the first buy comes after ~3 races and the whole shelf takes ~150; trophy
-// items can't be bought, only won (any trophy in that cup).
+// Economy: a race pays ~35 coins; the whole shelf is ~10,400 (~300 races). The daily bonus (double coins, capped
+// at +30) and the 5-day streak gift (+50) add at most ~40 a day, and prices carry ~10% for that, so a player who
+// comes back every day finishes on the original ~270-race plan rather than faster. Trophy items can't be bought,
 const COSM={
   paint:{icon:'🎨',label:'Paint',items:[
-    {id:'stock'},{id:'pink',p:120,c:0xff4fd8},{id:'lime',p:120,c:0x7bd531},{id:'sun',p:150,c:0xffc627},
-    {id:'ocean',p:150,c:0x1f8bff},{id:'cherry',p:150,c:0xe8302a},{id:'snow',p:200,c:0xf4f1ea},{id:'night',p:200,c:0x2a2636},
-    {id:'sunset',p:300,c:0xff8a1f,c2:0xff3b8a},{id:'galaxy',p:300,c:0x3a6aff,c2:0xb04fff},{id:'mint',p:300,c:0x26d3d0,c2:0x9be15d},
+    {id:'stock'},{id:'pink',p:130,c:0xff4fd8},{id:'lime',p:130,c:0x7bd531},{id:'sun',p:170,c:0xffc627},
+    {id:'ocean',p:170,c:0x1f8bff},{id:'cherry',p:170,c:0xe8302a},{id:'snow',p:220,c:0xf4f1ea},{id:'night',p:220,c:0x2a2636},
+    {id:'sunset',p:330,c:0xff8a1f,c2:0xff3b8a},{id:'galaxy',p:330,c:0x3a6aff,c2:0xb04fff},{id:'mint',p:330,c:0x26d3d0,c2:0x9be15d},
     {id:'gold',lock:'wheeldeal',c:0xffb81f,c2:0xfff0a8}]},
   helmet:{icon:'⛑️',label:'Helmet',items:[
-    {id:'stock'},{id:'red',p:100,c:0xe8302a},{id:'yellow',p:100,c:0xffd23f},{id:'white',p:100,c:0xf7f4ee},
-    {id:'black',p:120,c:0x24212c},{id:'pink',p:120,c:0xff6ad5},{id:'teal',p:120,c:0x26d3d0},
-    {id:'stripe',p:200,pat:'stripe'},{id:'stars',p:250,pat:'stars'},{id:'check',p:250,pat:'check'},{id:'flames',p:300,pat:'flames'},
+    {id:'stock'},{id:'red',p:110,c:0xe8302a},{id:'yellow',p:110,c:0xffd23f},{id:'white',p:110,c:0xf7f4ee},
+    {id:'black',p:130,c:0x24212c},{id:'pink',p:130,c:0xff6ad5},{id:'teal',p:130,c:0x26d3d0},
+    {id:'stripe',p:220,pat:'stripe'},{id:'stars',p:280,pat:'stars'},{id:'check',p:280,pat:'check'},{id:'flames',p:330,pat:'flames'},
     {id:'champ',lock:'home',pat:'champ'}]},
   glow:{icon:'✨',label:'Glow',items:[
-    {id:'none'},{id:'lagoon',p:150,c:0x26e3e0},{id:'pink',p:150,c:0xff4fd8},{id:'toxic',p:150,c:0x7bff3a},
-    {id:'lava',p:180,c:0xff5b1f},{id:'ice',p:180,c:0x9fd8ff},{id:'violet',p:180,c:0x9f5bff},{id:'gold',p:220,c:0xffc23a},
-    {id:'galaxy',p:250,anim:'galaxy',c:0x7a5bff},{id:'strobe',p:250,anim:'strobe',c:0xffffff},
+    {id:'none'},{id:'lagoon',p:170,c:0x26e3e0},{id:'pink',p:170,c:0xff4fd8},{id:'toxic',p:170,c:0x7bff3a},
+    {id:'lava',p:200,c:0xff5b1f},{id:'ice',p:200,c:0x9fd8ff},{id:'violet',p:200,c:0x9f5bff},{id:'gold',p:240,c:0xffc23a},
+    {id:'galaxy',p:280,anim:'galaxy',c:0x7a5bff},{id:'strobe',p:280,anim:'strobe',c:0xffffff},
     {id:'rainbow',lock:'wild',anim:'rainbow',c:0xff4f6a},{id:'siren',lock:'holiday',anim:'siren',c:0xff2a2a}]},
   wheels:{icon:'🛞',label:'Wheels',items:[
-    {id:'stock',e:'🛞'},{id:'neon',p:400,e:'💡'},{id:'donut',p:1000,e:'🍩'},{id:'dragster',p:1200,e:'🏎️'},
-    {id:'monster',p:1500,e:'🚜'},{id:'gold',lock:'adventure',e:'🏆'}]},
+    {id:'stock',e:'🛞'},{id:'neon',p:450,e:'💡'},{id:'donut',p:1100,e:'🍩'},{id:'dragster',p:1300,e:'🏎️'},
+    {id:'monster',p:1650,e:'🚜'},{id:'gold',lock:'adventure',e:'🏆'}]},
 };
 const COSM_CATS=['paint','helmet','glow','wheels'];
 function cosmLoad(){let s={};try{s=JSON.parse(store.get('wheeliefun.kart')||'{}')||{};}catch(e){}
@@ -12909,7 +12910,7 @@ updateCameras=function(dt){const c=cams[0].c;
   if(preview)preview.root.rotation.y+=dt*.45;};
 // ---- daily bonus: the first paid race each day pays double; every 5th day in a row adds a gift ----
 // A "day" is the player's local calendar day. Missing a day restarts the streak (no penalty otherwise).
-const DAILY={gift:100,every:5};
+const DAILY={gift:50,every:5,cap:30};
 function dayKey(d){d=d||new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
 function dailyState(){try{const o=JSON.parse(store.get('wheeliefun.daily')||'{}')||{};return{last:o.last||'',streak:o.streak|0};}catch(e){return{last:'',streak:0};}}
 function dailyReady(){return dailyState().last!==dayKey();}
@@ -12955,7 +12956,7 @@ function resV2(){const R=$('#results'),card=R&&R.querySelector('.card');if(!card
   const sfx=n=>{const v=n%100;return v>=11&&v<=13?'TH':['TH','ST','ND','RD'][n%10]||'TH';};
   const mine=CHARS.indexOf(me.ch),pts=G.cup.pts||{};const cupPos=1+Object.keys(pts).filter(k=>+k!==mine&&(pts[k]||0)>(pts[mine]||0)).length;
   const A=G.lastAward;const coin='<span class="ceCoin"></span>',chip=(i,n)=>n>0?`<span class="ceChip">${i} +${n}</span>`:'';
-  const coins=A?`<div class="r2Coins">${coin}+${A.total}</div><div class="ceChips">${chip('🏁',A.fromPlace)}${chip('<span class="ceCoin sm"></span>',A.fromCoins)}${chip('💥',A.fromHits)}${A.day?'<span class="ceChip day">🎁 ×2</span>':''}${A.day&&A.day.gift?`<span class="ceChip day">🔥 ${A.day.streak} +${DAILY.gift}</span>`:''}</div>`:'';
+  const coins=A?`<div class="r2Coins">${coin}+${A.total}</div><div class="ceChips">${chip('🏁',A.fromPlace)}${chip('<span class="ceCoin sm"></span>',A.fromCoins)}${chip('💥',A.fromHits)}${A.day?`<span class="ceChip day">🎁 +${A.dayBonus}</span>`:''}${A.day&&A.day.gift?`<span class="ceChip day">🔥 ${A.day.streak} +${DAILY.gift}</span>`:''}</div>`:'';
   let rows='';
   if(G.cup.ci!=null){const u=cupUnlocks(G.cup.ci);if(u.cup){const total=G.cup.order.length,done=G.cup.scored?G.cup.race+1:G.cup.race,left=total-done;
     rows+=`<div class="r2Row"><span class="r2Ic">🏆</span><div class="r2M"><div class="r2L"><b><span>Unlock</span> ${u.cup.name}</b><em>${left<=0?'✓':left===1?'1 race':left+' races'}</em></div><div class="bar"><i style="width:${Math.round(done/total*100)}%"></i></div></div></div>`;}}
