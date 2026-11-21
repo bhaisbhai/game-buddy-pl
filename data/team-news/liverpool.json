@@ -1,55 +1,13 @@
 {
   "slug": "liverpool",
-  "updated": "2026-11-21T13:55:36.588Z",
+  "updated": "2026-11-21T22:39:19.803Z",
   "articles": [
-    {
-      "title": "'We know what this game means' - Virgil van Dijk previews Liverpool v Man Utd",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSEQxX1dDOS11UGZ0WGtONmpmbHNzT0ZfUktMWjRjMXV4dDA0ZkdfUEEzVDB1MmstUUV3eENtWWVlU08tTHJ1WHY0Tl9YNW9xbEthdlhfU0RTbDdQNlBCM3NHdjM4ZkNEQXloSlktcFFOV25zY2N4N3ZnM0NLR25Cc0xsS3Y0Z0I2YTNKZlNzQXI1eTFrbS1ERHdCbl8tcHB0bXVORl95VVVuMEhNanpLWGo2aGg?oc=5",
-      "pubDate": "Sat, 21 Nov 2026 12:03:58 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Andoni Iraola Liverpool press conference - Virgil van Dijk, Dominik Szoboszlai injury news",
-      "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNTByb184ejJXLS1nbUo3cjBkbE9fa0U0ZVBwUmQzcGZSWjhoYlJhbEhoSTlVd0k2ODZMcXl2aWZzVk9OUUZEVkhCZXBveEZLZllsRVgzZnVadmlneGRvY1haLWprLTFSQ3g5ck45clhjZ3l5OW1uUTRCOXVaQ2J0QnoyOGpzSmVhSi1LUzhvdF9xeWkwU0lhODQ0bHozb0hpWk1vZ3Y2RE01Z2FXUnFF?oc=5",
-      "pubDate": "Fri, 20 Nov 2026 13:54:54 GMT",
-      "category": "fitness"
-    },
-    {
-      "title": "Team news: Confirmed Liverpool line-up against Chelsea in the WSL",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZm8zNm5URW1kSGxqcW16eTNDVnhrbWk3anZBQktUWVhIQ3NzeVdvdzBGcy1kRWIweXQ2NzQ5TDhLWGY5WDBFQnN3UW1IeG9KU1Qtb1VhXzZHRHNabDQ2VDdZbEpTWGRDZzc3YzdGNGh0V0hlblRyVU91N3pOREhCellDUll1aHNBS0dSNWhBTXhEZ0kxcmgxRkRhT085QQ?oc=5",
-      "pubDate": "Sat, 21 Nov 2026 11:48:58 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Liverpool 0-1 Arsenal: Kai Havertz scores winner in rare Anfield win for Gunners",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5sSUZyZGpjTWluV2d5QmV6TEJUTThPUGw3elROMllxNmdwSU1CMkliNUdJeGMyZXFhWUY0ZGRHcllXV19lZGV5SFJCQzlXZzJpNmtOcDNkYTNjYmNwMWtvTWhNUnRIdw?oc=5",
-      "pubDate": "Sun, 01 Nov 2026 07:00:00 GMT",
-      "category": "match"
-    },
     {
       "title": "Hugo Ekitike injury update",
       "source": "Liverpool FC",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ENGlxZ0pRVU1VdDlyRXhpV0tkWWI2UExBN1dkUi1LTVlURXQyOGpPWFdSMU01SjZBTUlZYkpGZ0F2VmF4TXV4RERhU0Q5N1NIYWkxLTIzNnBPaHprSGM2WWNjbzBnR2R1eWJLRDNNLTZ2Rk0wTlZV?oc=5",
       "pubDate": "Sat, 21 Nov 2026 10:38:50 GMT",
       "category": "fitness"
-    },
-    {
-      "title": "Andoni Iraola reveals 'next steps' for Conor Bradley and Giovanni Leoni",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQlViZDRzWTliSXU3UUpraVNNR0paRmkyQS0wMDNqanNFcy16MGMycjlIdDRHVXJTenlkZ0NhbXI5VHBGSnR2TVJMbUhyenhBVWk0akluMm4yMFo5cWhfLVlxMVVsRXpDNGRCblIxVkU5UVlBLVlVakRoeTV2U3o0eEdlRmJFZzVxcXdiZWY0RnZ0RXZyeUpORERrOWE4SDV3aEhucQ?oc=5",
-      "pubDate": "Sat, 21 Nov 2026 10:38:50 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Milos Kerkez on Liverpool v Man Utd: 'It's a blessing to be involved in the biggest game in England'",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONWx6ay1EZ09EYTZlaElDZm1xQnowUWV3cXBHU205eFpJWUZiX2YxWkYtM1p5SkE1MmZXWmk2MFc0VWJGdW9JcjZQT0FhRDk5WVo0TTk5UE9Wamw1WGdVR3FrQm5DMUtsTDFJNnZtTjctcm1MQ3pWZFhQQVNYX3kwZHJWdUZlOXlSemljT2puYVhyMzJ6d0FqblI5a0FLcEtfcVEzTlJPY3g3SUhmMzh6RnpSbm90WW8?oc=5",
-      "pubDate": "Fri, 20 Nov 2026 18:01:12 GMT",
-      "category": "general"
     },
     {
       "title": "Liverpool v Manchester United: Team news",
@@ -59,53 +17,95 @@
       "category": "general"
     },
     {
-      "title": "Liverpool v Manchester United: 13 stats to know ahead of Anfield clash",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTlpKdVpITjZNd3Zydm14OEk5bjZ4RlI3R0s1WkVma3lkUmE0c0FKZmkxNFMwVHZXVGNTSzFyOXpTdEd6MzV5YTVNbjA4djNXZ2k3QnVWVFZlaG1jNUVrWXpDb2tJWV8tdTh6TEtCOUpPemphSFFKdHJBXzczTVV6ZjBUTVBxaXg3RDBCSXpxcFVfeEVnSUk1aGF3?oc=5",
-      "pubDate": "Sat, 21 Nov 2026 10:38:50 GMT",
+      "title": "Incredible! Liverpool wonderkid is set to be promoted, he's blown everyone away",
+      "source": "Anfield Watch",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMzFhZlA2RG1yUThPaDVuZXBYVWlwR3BxU1h6eWs1bllUeFZmaVJ5Zk5Ga1BpczBuTVo3am9CVHVyRGtBSHVJdU9IaG5FVG1WdEpsOUpNak5wTEZwX3RGWW9VY25HbzNGYm1aaTU3bS1QMmhES293WkhpV1hMdnZGeEFzUmJCSkpaVlBQVnlQZmhIenduYjctcXlQWHpaVTMxZHNhSkcyS19vekNENXQ5MVMtSXNWLXpsaDNIZi1qWVhoVkpj?oc=5",
+      "pubDate": "Sat, 21 Nov 2026 21:30:00 GMT",
       "category": "general"
     },
     {
-      "title": "Andoni Iraola's pre-Manchester United press conference: 'You don't find bigger games than this - I feel lucky'",
+      "title": "WSL roundup: Chelsea thwarted by Liverpool keeper, London City move to third",
+      "source": "The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQay1ZNHlzbjhKcC1XV0FpRWxIalVrWnZ0VEpEM0gtRWlHU2FHTHcwOW5kMzJZeUkzNUs3Y3hJZV8xX2hxZHZnQjVGQU5LWi12NGlDZXJtdDUxN2VKNU9ockNzLWREeG96aHJEV1I3QWl6bGp4SlVPb05BczktUzBxSklFWXQzaEd2MmFXVjZBUmVSN2NIcm1QeWR1eU1aMktEOHRZc3J5dWIzVFE?oc=5",
+      "pubDate": "Sat, 21 Nov 2026 15:03:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "WSL match report: Liverpool play out 0-0 draw with Chelsea in St Helens",
       "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOFFuUldzUTdXV0hSeTRBQU5DVDZUT1l4RlJaRTV1V080ZEk1QnFkbm15OGJCRjRMU1Y2NkNDNS1IYWJtdVY0Y0hDbVlEek5TRkI5NVktcjRxdU9FVzJoYjFhZGdPeDl0a05KM0dLRzNFenN6X19FelhlQm9jRkpNYXVzTW04RXJXbHJrcU9pVi1Za2ZCWW5NUTI4TFc?oc=5",
-      "pubDate": "Sat, 21 Nov 2026 08:01:19 GMT",
-      "category": "manager"
-    },
-    {
-      "title": "Chelsea Women's starting line up vs Liverpool confirmed | News | Official Site",
-      "source": "Chelsea Football Club",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPY3NfbTUtZnliX1NHbVBCbVVUQlY2M3NlSmc2bThqdUdyNmU5Z0JxdVV0dVQxQnhrRVFfSFBiOEh6bGxGOTd5UXBBalRydzFsbHVvWjVOVjJBU0lkZUtRS3FyZUxxSi1OTUlUWGFOSWJrZVpUSktfeXMwR0FKRlBkRFFvTjZTLTNWU3lLSHJNSHZfSHI1b253VkxSODY?oc=5",
-      "pubDate": "Sat, 21 Nov 2026 11:45:00 GMT",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE42S19RRXlSdTBPWnF6T1YtUlFrcjZFbWJRUjg5R3RqT3REdWZWS1lyMkpRc2VuN2xMYzYyS0NPdkhieVp3OFRQakNwTkZncTFfTEpDRE12N2h1TloyOEYyMnA4cTh3cVRMNExoYThyOVhlUURlanc?oc=5",
+      "pubDate": "Sat, 21 Nov 2026 15:09:35 GMT",
       "category": "match"
     },
     {
-      "title": "Liverpool XI vs Man Utd: Confirmed team news and predicted lineup",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOSWx0a0JITWdpWkxZeHR0b3JMMUw2bmxQLVBIMkJDbnlJQlZfakc3bTdwTDRnckRSYURCUTE2N3htVFVSdllIOHFDaFdCQWcyb05YR2dxY2hXODlKNmhQLVdzRlYtTXo1T2hnUFpZbFNfeEI1aW1vSzhicGMwZHBjcHkwQjdOdGNxYVh5emZJQkc3YU5GZ25nNVZ4c25PMzZDbG9jeHJrNGJOeVhyOEVnMl80UFgxQnRpLW0xMEZ1R3U4SDFMMU1PbWdVOEU4b0Q3Sk5NSEVab29Md1N4RDBDUGtEckRjd0xJ?oc=5",
-      "pubDate": "Sat, 21 Nov 2026 12:44:56 GMT",
+      "title": "Match commentary and highlights: Liverpool 0-0 Chelsea",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNkU4bHNoNkRWVDRNMV9MRF9xOVFkR0swdWxPb0ZPM3NLQkV0b3c1NklYZUhYY2tudEplemFPOWk5SDM0eThVQWpjdVpVVDU3d0hJcE5XdDVOR05OWWdlY1k4QXk2ckRKTnM2RjlKVjFOeFl6Y2Zmd0FDd1FVS1JyOV9uNTZab01lM3dCNXczTF9sWEdUM0NjQ1o5ME9YaHJsbkVIZG5mTGVYb2JPYS15czZSVC1zelhPaEZCcEo5RmJqdV9sbXVRTWRR?oc=5",
+      "pubDate": "Sat, 21 Nov 2026 15:34:15 GMT",
       "category": "match"
     },
     {
-      "title": "Liverpool injury update: Van Dijk, Leoni, Frimpong latest return dates",
+      "title": "Liverpool 0-1 Arsenal: Kai Havertz scores winner in rare Anfield win for Gunners",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5sSUZyZGpjTWluV2d5QmV6TEJUTThPUGw3elROMllxNmdwSU1CMkliNUdJeGMyZXFhWUY0ZGRHcllXV19lZGV5SFJCQzlXZzJpNmtOcDNkYTNjYmNwMWtvTWhNUnRIdw?oc=5",
+      "pubDate": "Sun, 01 Nov 2026 07:00:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Ismaila Sarr reflects on failed Liverpool transfer he took “seriously”",
+      "source": "This Is Anfield",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTnlBWjdVb3ZpVk95QW4wUVE1RDJidEl5TUJRS2p4OE8zcHpuYWZqYUNPZ053QXFfZG91ZTJsWkQ3eWJMOTVWZkIxOUxGV0NGRnZoYjJsOFVMZG1oUlhqWDRVbk5KalZxMUJ6eVVZNXhkQWN6MTRBVFFyemxlclpCbUtZSVYxSURJNkMzSllTWEY5NFlpNjQyTC1GcERvbEFsem5rMU1xMzJQaDQ?oc=5",
+      "pubDate": "Sat, 21 Nov 2026 11:03:20 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Ismaila Sarr opens up on failing to complete Liverpool transfer - 'One of the biggest'",
+      "source": "Liverpool Echo",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM0tyeDgzbnpnNmhWWFpCekEzdVlFUDRYV1JVOHQxN1lmRGdDS1ctUDZWdFBlN2tlUTFfeFctREo0Q0NpNXNTZU40M0pHbWJXc0YxaEctVjB4cW9uWk1oeEhtOFA2dXdqXzhwemozZk9aTVNpSy1oQ29wanAzU1N6UlZTZUlZbTJiWTd4dk9oaGNvRFVaYWtzbGd6NU9ZVW0t0gGmAUFVX3lxTE93SS1UZ202ZlAwODg4amhVd3BRZXlnWnQxbU5jdTRuWVlRbmNWWk9rVjZGTXJYSG1odVU3dXVQaldrOXMyZXRfb0ZCNFlYS1N2Mndmb3VSWGRvZmdrRWNBZXVnQldrc1JnM1J1NnVWN0ZVcmtWOTVWTWVXZzN0TXh4bFE2QURHSTdnanpVMXlIamg2NDYtampOUGdHYjZzVWZCQzFDMkE?oc=5",
+      "pubDate": "Sat, 21 Nov 2026 17:38:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Sarr breaks silence on failed Liverpool move as contract decision made",
       "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObHFnWERSTzlDNW8weWlZYTdhVlJzeXVDbXdKTnloMGUyNEd0aGl2NnpPSVlQQ2ZPZnJSLVp5dkJwTm9xTFk0Y0ZNWWh6c3B1eXVROTFBMDRESjE4alZUNEU0aHE0N0tfczVDQS1SR2YzTFlfUXRkS2hzRmswdEFOWTg3QUNGY3AxR3U2b0JLaXBPRjZ0ZE04TXNtVUFMMUpNNHdqWXljTms1UHZBZS1DaVJQMkZSUGpLTlVBMUdzRVFGTFZHYmpKbmVNcw?oc=5",
-      "pubDate": "Sat, 21 Nov 2026 11:21:40 GMT",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOVEtDZ0ZsbTB5Wl9rMWplTnNKSURIZ3liN3djMXplWE9XYzdha1U0dk5aalpDTzlGT2lqN2lqTzZiV2Z4elB5S3psLUY5QnRvcWNaS3ZiR0stLWt5ajNUb2ExNXlranQxbzFNdHdMeV9SUmp6cmF0N3I2TlBVUUlON1otbzlVZ2laR2R2YThVOGJ2WjJXdll6TVRjX0VuV2Fjc2RmU0pWQzdYVVhEYWxwSGoxUQ?oc=5",
+      "pubDate": "Sat, 21 Nov 2026 17:17:52 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Virgil van Dijk makes honest Liverpool exit admission and opens up on what's next",
+      "source": "The Mirror",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYUUtSzRxTTRDNVhqN19IZHBFWEZxRzdWdTlZRXZpYm9fOGVjN2V0Q1ZfSUJQZmdWY3dMb1d0bkVCaTA5T25ENjMtUnlvcmQxbHpGMUVMWUhNWGR5TGttTEZJd0Jrbzh2cFV5MmxmajhsS3ZHZkV6eXVEUUJENXRYbUY2WWNpU0R1N2fSAY8BQVVfeXFMTTc0R2h2STMzbVRYUmt4MjlUdm9fX1E5ZkF4R1VaeFdiRDdDdDJmVmEyY1VoMTBaMnZMUEpKZmNiNzh6ZVZqZWJZUTJZdjB1bUxMb1htU1pxdGFCSXF3RnhtUUROVk15cGZ1Q3N3WmcwcHZPN1ZMT1NPM3NHQ2VMakdQMDZlcEJSbE1FYkZTODA?oc=5",
+      "pubDate": "Sat, 21 Nov 2026 11:54:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Virgil van Dijk and Jeremy Jacquet feelings made clear as Liverpool duo help Andoni Iraola",
+      "source": "Liverpool.com",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNc2l0cEZsSTk4RUE5TDM2LWo5ZUxDUnVQZ3hObGRBblhGX1pQMFQ2UVNkaEgwd1Y1NjVIRlVxUUZKRWFydDc2Uk11Vy1wNjlmNjhnRW5kMF9IVkNmNElMX3R1ZGdiTzNhdHRlUXBxeWRYLUg3YjBZR1NkZTlMM1duSXI4bURaamw2aTFzVWUwQzVheURIWkFRS1JLc9IBoAFBVV95cUxOX1pqWF9lNWZodHdWbGdWdlBRaldfSXFNd0hqczVua3lKRmpqZjNrdk5xemRTcjU5bUx4b3JLenk2bGtVcmEtc0JjRG9xMnJROUdKSXB4MHdWMkQ3WFRINTFOekZ5UnIzdFFubk1tMEgyU0pCY2RQN3NwQ3p3ZDlDWVRjZzdSUmNhZ3VESUlLMWFXQnE3OEJKWkNCelktYXA4?oc=5",
+      "pubDate": "Sat, 21 Nov 2026 10:50:54 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Virgil van Dijk fit, Iraola on drone & fan ‘not guilty’ of racism – Latest Liverpool FC News",
+      "source": "This Is Anfield",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNVVqd1BrYndlemp4eTd3OVo0bzFtRnlldWVfaWxQZUF0U3d4bUNReXV2aDYxUk9aVS1aNnB1cHVDQ1hZcXYxTUkxN1pRX0o2cVVPa1FwcGo0R0ZwZmJkcHRCSzN1U3BmRFZDclIwSW42NTBLZzl6VTU5VE9nM1doS3docFdiQ2xfaTN4eFhGaFB6NWpmSjhMaldOc3JPWTdiVGxVcWJDSWJPeE1hZ091TkVFWnl5Mmxpa3ZGNVQ5aTR3Zw?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 17:13:01 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Liverpool’s transfer plans should change after release clause revelation",
+      "source": "Rousing The Kop",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdXRWdEhyejh4cmszc0hjdDY3Zzc5bXNPZVJZaGZFb1kzMi1mTS1WdkNkOUhqUHdRRnlXY05LdURPNlRlRFRIeGRaejZqS21zZTFxVUREeFVuM1ItSzFzZVhLWFd5TjYtSHNwdEZMTFZmenl1OVNzakRxclRKN0JzWUY5c1U0dEJhSUlLY2tad28zbnMyQjdzTnFKWjE3aVE?oc=5",
+      "pubDate": "Sat, 21 Nov 2026 12:00:00 GMT",
+      "category": "transfer"
+    },
+    {
+      "title": "Iraola reveals Ekitike’s Liverpool return date",
+      "source": "Click Liverpool",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdXZUZnhYYjZ5TjV0X3kyZndUcUlpWTBIRVdhSTQ2MjNyN1BvZ3A2d2xoalUxTmhaSU0wSk1ZRzR5NFBuSGM1UDA4LTg2Q2d1VlotdHdDVTllSnkyMW1qOFpjY2t2R29Rb25iWmF3d1hTSWwwZFJVY00yUkNVQmU3eUdsVEl4c3Z3Z1dhN3g5QjR1eXpDX2s4ZFdYNEI?oc=5",
+      "pubDate": "Fri, 20 Nov 2026 22:53:13 GMT",
       "category": "fitness"
-    },
-    {
-      "title": "Man Utd XI vs Liverpool: Confirmed team news and predicted lineup",
-      "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWUg0Ulg4ZE5LZFQxM01wSnUxWXpDbDIwUnZTMGZPQk9NSWpqc2NUM2lQbzZiMmg4X0E5Z2phSElmSzdJOHNTLURUU0xUT1FMdGFYekprRmxudGtxd215UDE1WEtEazJRZUtMYzZ4emRLenRCUldBM09TeUNKaGNQejZRVm5DSnhWWmJvSmt0bWQxOWEyMnBseXZOb01tejJHakJLZ2hIeGhPVGJ3Y3RQTFhNTmN1cDlmWmFlQXd4Q2xLVW1FYUVTeG1JR24wSDhzRHVBTkNQcTZkekloNGZnN0hjTTFWdjky?oc=5",
-      "pubDate": "Sat, 21 Nov 2026 09:16:30 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Watch: Liverpool's 10 best Premier League wins against Man Utd at Anfield",
-      "source": "Liverpool FC",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVWNxMy1udC1SUzRXek0xbDI3TzdhYVBPelIxRWJVQ3hvNEYwcUotRmNPWFd1Ul9OLTFuVG15QkVEaUVxMWoyTnlVMVB1UVRDTTUwRGxpRWhqYVVLbDZHMm9DWjktVjhJOHhXRDFCWV9iaHpPQTFMVmpsVmtJSW9jUzZBOGFZbzFBbk12OFR1cms3MjJwdW5wMTNmV1BhMVd2WlFrTEVR?oc=5",
-      "pubDate": "Sat, 21 Nov 2026 09:25:55 GMT",
-      "category": "general"
     }
   ],
   "reddit": []
