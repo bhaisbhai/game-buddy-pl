@@ -159,7 +159,7 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 .ceBank{margin-left:auto;font-size:13px;font-weight:600;color:var(--muted);display:inline-flex;align-items:center;gap:5px}
 @keyframes cePop{0%{transform:scale(.4);opacity:0}100%{transform:scale(1);opacity:1}}
 @media (prefers-reduced-motion:reduce){.ceMain{animation:none}}
-.walletChip{position:absolute;top:calc(16px + env(safe-area-inset-top,0px));right:calc(18px + env(safe-area-inset-right,0px));display:flex;align-items:center;gap:8px;background:var(--panel);border:2px solid rgba(255,178,46,.55);border-radius:999px;padding:6px 14px;font-family:var(--display);font-size:18px;color:var(--ember);z-index:2}
+.walletChip{position:fixed;top:calc(16px + env(safe-area-inset-top,0px));right:calc(18px + env(safe-area-inset-right,0px));display:flex;align-items:center;gap:8px;background:var(--panel);border:2px solid rgba(255,178,46,.55);border-radius:999px;padding:6px 14px;font-family:var(--display);font-size:18px;color:var(--ember);z-index:2}
 .walletChip[hidden]{display:none}
 /* My Kart: kart on the podium, swatch panel right (wide) or bottom (tall) */
 #mykart{justify-content:flex-end;align-items:stretch}
@@ -204,6 +204,16 @@ html,body{height:100%;margin:0;overflow:hidden;background:var(--night);color:var
 @keyframes mkGlow{50%{box-shadow:0 0 14px rgba(38,211,208,.55)}}
 @media (prefers-reduced-motion:reduce){.mkGoal.ready{animation:none}}
 button.walletChip{cursor:pointer}
+.walletChip .wcCircle{display:none}.walletChip .wcRow{display:inline-flex;align-items:center;gap:8px}
+/* phones: the chip joins the How to Play / Settings / Leaderboards row as a 4th icon, so it can never overlap anything */
+@media (max-width:600px){
+  .utilityIcons .walletChip{position:static;transform:none;flex-direction:column;align-items:center;gap:6px;background:none;border:0;padding:0;box-shadow:none;font-size:inherit}
+  .utilityIcons .walletChip .wcCircle{display:flex;width:42px;height:42px;border-radius:50%;background:rgba(255,178,46,.92);border:1.5px solid #fff4df;align-items:center;justify-content:center;font-size:20px}
+  .utilityIcons .walletChip .wcRow{gap:4px;font-family:var(--display);font-size:12px;color:var(--ember);white-space:nowrap}.utilityIcons .walletChip .wcRow .ceCoin{width:12px;height:12px}
+  .utilityIcons .walletChip .wcKart{display:none}
+  .utilityIcons{gap:12px}
+}
+
 body.mk #views,body.mk #fx,body.mk .ctrlTip{visibility:hidden}
 .wcKart{font-size:13px;color:var(--night);background:var(--ember);border-radius:999px;padding:3px 9px;margin:-2px -8px -2px 2px;letter-spacing:.04em;display:inline-flex;align-items:center;gap:4px}
 .wcKart i{font-style:normal;display:none}.wcKart em{font-style:normal}
@@ -212,7 +222,7 @@ body.mk #views,body.mk #fx,body.mk .ctrlTip{visibility:hidden}
 /* daily bonus */
 .ceChip.day{background:rgba(38,211,208,.18);color:var(--lagoon)}
 .pickRow.daily #pickBtn{display:none!important}
-.dayLine{font-family:var(--display);font-size:clamp(13px,1.6vw,16px);color:var(--cream);background:rgba(26,15,43,.72);border:2px solid rgba(38,211,208,.6);border-radius:999px;padding:7px 16px;letter-spacing:.02em;text-shadow:none;white-space:nowrap}
+.dayLine{font-family:var(--display);font-size:clamp(13px,1.6vw,16px);color:var(--cream);background:rgba(26,15,43,.72);border:2px solid rgba(38,211,208,.6);border-radius:999px;padding:7px 16px;letter-spacing:.02em;text-shadow:none;white-space:normal;text-align:center;max-width:calc(100vw - 32px);box-sizing:border-box}
 .dayLine b{font-weight:400;color:var(--lagoon)}
 #title [data-act="p1"]{position:relative}
 @keyframes dayBob{50%{transform:rotate(8deg) translateY(-3px)}}
@@ -5908,18 +5918,10 @@ function raceCoinsAward(){
 const _showResultsOrig=showResults;
 showResults=function(){const r=_showResultsOrig.apply(this,arguments);try{raceCoinsAward();}catch(e){}try{resV2();}catch(e){console.warn('results card',e);}return r;};
 function walletChip(){let c=$('#walletChip');const n=walletGet();
-  if(!c){const t=$('#title');if(!t)return;t.insertAdjacentHTML('beforeend','<button class="walletChip" id="walletChip" hidden aria-label="My Kart"><span class="ceCoin"></span><b></b><span class="wcKart"><i>🎨</i><em>My Kart</em></span></button>');c=$('#walletChip');}
+  if(!c){const t=$('#utilityIcons')||$('#title');if(!t)return;t.insertAdjacentHTML('beforeend','<button class="walletChip" id="walletChip" hidden aria-label="My Kart"><span class="wcCircle">🎨</span><span class="wcRow"><span class="ceCoin"></span><b></b></span><span class="wcKart"><i>🎨</i><em>My Kart</em></span></button>');c=$('#walletChip');}
   c.querySelector('b').textContent=n.toLocaleString();c.hidden=n<=0&&!cosmOwned().size;walletFit();}
 // keep the chip clear of the How to Play / Settings / Leaderboards row: drop its label, then move it under the row
-function walletFit(){const c=$('#walletChip'),t=$('#title');if(!c||c.hidden||!t||t.hidden)return;
-  const others=[...t.querySelectorAll('#utilityIcons,.logo,.btn,.pickRow,.sub')].filter(e=>e!==c&&!c.contains(e));
-  const clash=()=>{const a=c.getBoundingClientRect();if(a.left<0||a.right>innerWidth||a.bottom>innerHeight)return true;
-    return others.some(e=>{const b=e.getBoundingClientRect();return b.width>0&&a.left<b.right+6&&a.right>b.left-6&&a.top<b.bottom+6&&a.bottom>b.top-6;});};
-  // top-right with its label, top-right compact, bottom-centre, then under the icon row
-  const tries=[[],['compact'],['compact','bottom'],['compact','below']];
-  for(const cls of tries){c.classList.remove('compact','bottom','below');c.style.top='';cls.forEach(k=>c.classList.add(k));
-    if(cls.includes('below')){const u=$('#utilityIcons');if(u)c.style.top=Math.round(u.getBoundingClientRect().bottom+8)+'px';}
-    if(!clash())return;}}
+function walletFit(){}
 addEventListener('resize',()=>{try{walletFit();}catch(e){}});
 const _showWOrig=show;show=function(id){const r=_showWOrig.apply(this,arguments);if(id==='title')requestAnimationFrame(()=>{try{walletFit();}catch(e){}});return r;};
 // ---- My Kart: spend saved coins on looks only (paint, helmet, under-glow). No stat changes. ----
