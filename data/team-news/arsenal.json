@@ -1,33 +1,82 @@
 {
   "slug": "arsenal",
-  "updated": "2026-11-23T16:54:20.088Z",
+  "updated": "2026-11-24T03:41:07.560Z",
   "articles": [
     {
-      "title": "Arsenal face nervous wait for Raya injury news after weekend scans",
+      "title": "Arsenal handed David Raya injury boost after arriving back from Newcastle draw",
+      "source": "The Sun",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZXllQjRpUXFUUEFoUzMzaEljRE9rUHRYb3ZIWERoWFJKYTUwOUNZUGFZT21uNU1FbW9yZFoxNUc3T2kzVG9INUFKeVpzbzY2SGptUlJHVTVhalhrSXE2azRiUGxrbnNoNDUyMF95VHh1WEI0dENwdm5qTmpCdG5MelhEQXZkV2VtQ3AzelJYRU1nR0k?oc=5",
+      "pubDate": "Mon, 23 Nov 2026 11:24:00 GMT",
+      "category": "fitness"
+    },
+    {
+      "title": "Arteta sends Nwaneri loan warning ahead of Arsenal reunion",
       "source": "London Evening Standard",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQUXZNcFhwallCUDNrd1hhS3p5SDlDZ3JnSWdrQTVRVmZaMEIyaUt3eXpsWjhtUFFSenBqcmc1NWpZNV9RaFJ0SDlrc0pVc2NCVjFpc29XMWhzYkZiZ3J3ekd4aEpvZUlsemlGOGhFb1lHWEVIdDZ3UlNNYWZjc2ttZmQwRzdmWmJmWi05RTY0MnAweW5USnc?oc=5",
-      "pubDate": "Mon, 23 Nov 2026 09:29:29 GMT",
-      "category": "fitness"
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcGNrYlRBQkxNRFJ1M2xqdFYzN0w2M25CZDF2YmV4TlQwM0VPd3ktWFdUaklBTEhHUnMweEdMbEQ0WDQzU1h1ZlNRNjM2Wm1tczl2dG5FdVA5UVZHNnRHT2RVeG5nUDJzeEJQd0p3dGx0S0o5YUFUTXpwYzlMWUdXdGc4bzg4NWtSTUlXSENpeF82Q1dOTzdELVpYZzdrWnpldS1Lc2xXUUs?oc=5",
+      "pubDate": "Mon, 23 Nov 2026 23:35:09 GMT",
+      "category": "general"
     },
     {
-      "title": "Every word from Arteta's post-Newcastle press conference",
+      "title": "Every word from Mikel Arteta's pre-Dortmund presser",
       "source": "Arsenal.com",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNejlNeGFXaUh5OWhGNmIxc2Eta3oxQ2dISWRhQjZwLVFIN3lQWDQzSS1HanNmUm1SODF1bEMtVHJpbWxpVG8yR2dvRnNVSWFWRkEtS1VzNG9NNnhfZlZ0czE0ZFdvVzdLeTctN19oMVBnb1d5LTBOSERjcmNqVlo2cmsxZkNHZGY3M3ZWSG5KT21aN29uYzg2YXhYaXV3dw?oc=5",
-      "pubDate": "Sat, 21 Nov 2026 20:29:42 GMT",
-      "category": "manager"
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWnp4OXRwSDctMFNraHIxWFdOdUxwWjN5Z000TF9BLS1iVFRQRjk5YU9SLU9fSXhzWHZ3RGFkamEtYlNXVmNURUU5QmNlZWZERG80RDRLVkRkNUxQODcyUW5zSnRYbktnLXJTc2x6Tzk3a1lHV3ljMnU2LWhXbDI3Vlh2R0FkY2ZVQWx3aHhRYmJZa0VYWWVB?oc=5",
+      "pubDate": "Mon, 23 Nov 2026 15:12:56 GMT",
+      "category": "general"
     },
     {
-      "title": "David Raya Injury Update Offers Fresh Concern for Arsenal",
+      "title": "Arsenal loan watch: Ethan Nwaneri hits new low at Borussia Dortmund as goalie puts in man-of-match performance",
+      "source": "The Sun",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNmttbUUzUFFncXFPQTdkb1QzU0RZQmNYUUo3OHowQlVxNmpJb3B2b0stR29fdHhNOGUxWFRGUTFXUXFKUWMwd3VIMHlqU050X0hBdFJPS0FRc0R0S1BjbkI1RTJKcWV3cHBrYklLeUtvYVNiam10b3UwZzgxcncwazVwMzFXRXE0VVZjeXZYZmU?oc=5",
+      "pubDate": "Mon, 23 Nov 2026 11:19:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Whiff of arrogance as Arsenal unexpectedly implode at Newcastle",
+      "source": "The Telegraph",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMGJqSGw0UTNQX3FwMGl0TGFzS2lJUEFQa2ZZaGRZMEllUVo1Wk5hQWJ5Z3QyV1MxTmZSTkRQMldPYnJiemVCczlCamphUk5jZHNJTl9XOG9rM2gwNGZlZGRwZXMzM2ZqVmlsMTQxRndGWmlXS2lnOVNrTmhYQ0Y2RTNId2hVX2FjMDFlb0tWTlg0RUhCOW02OFhOdmk1SWdM?oc=5",
+      "pubDate": "Sat, 21 Nov 2026 22:19:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Arsenal vs. Borussia Dortmund Predictions: Premier League and Bundesliga Leaders Collide",
       "source": "Sports Illustrated",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9ZZDB6QmVxNkMxWElfM01xbDNOVFF1RFFjYXVkal9JT1ZFX0lEOUZNSWFzNW82Yl9WU1BES2pTQ3FkMHlGTlRHVW9RT3FVY3FNdkZpUmxWWlZuejhQeUNudnNoSU9FLVkwelA2aHktcEZCUUdoWkREaEFNc3k?oc=5",
-      "pubDate": "Mon, 23 Nov 2026 15:30:00 GMT",
-      "category": "fitness"
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTzVjMWZyMWFEZ2praDk3RGdVeUEzaVRRTkVuYUZFV1owUW1jSWVUWmhFamtyUkpJQi1sUF96WjB3MURPdTFSUUNybWVqc3lDbnMwMUZ1RVFtMHJuVkRyNXBfUE5WQkI1RHBXTzA0TTNVaGFPZ00tTEtvT2pzZXoxbHRtbWZiVWdDdkwxV2xPeDNFQUxsa2N5VnFURUR4VGZCdkJsOW9SbzgtczF2Y1E?oc=5",
+      "pubDate": "Tue, 24 Nov 2026 01:30:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Transfer news LIVE: Shock Arsenal move; Man Utd striker deal",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZWRJc2hPdG9CcktRUW1fWkRlV0p0OWtEZ3FMMFo3Y0lDU2hUZEtCU2Nlc2dDd1M4MHROOEtkRU10NXNFSEVTeXpQV2VwajlHeTZKNUhhXzByXzVTQnhjNmJBYVp2cDM1aEhjSTlyZS1BZ1ZtbG43SjBrdU92ejR1bHNzMDJVZlV5Z0VGd2JpOUdtSWo2VHo5d0ROTkl1cFdhSW0xT1dGQW9QOXlQRG5DcjV1ck9sR0ZjNHBXZ1ctTi1PSmo0R2ZEMHBsaVI?oc=5",
+      "pubDate": "Mon, 23 Nov 2026 22:31:24 GMT",
+      "category": "transfer"
     },
     {
       "title": "Man Utd hire Arsenal coach who helped Mikel Arteta transform Gunners into title winners",
       "source": "The Sun",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNT2swUXBFZ0VXNVE2cXZUdTdCS3Z6cVllS2ZJeFV1WU9MdU5mSW9iWVVjYTQxVWhhRW51VU5HZUNXRVc5MEg2Sjk4SXhmX1UtOTM3MHBxbXo0OHBKczBPdVZ2R2E5VDQ4OGVZSFJBQzVjRHE2UGpXdlpPcUM4REhLZlhoY2VnMnhuZHJfa3pvZW8?oc=5",
       "pubDate": "Mon, 23 Nov 2026 10:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Liverpool 0-1 Arsenal: Kai Havertz scores winner in rare Anfield win for Gunners",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5sSUZyZGpjTWluV2d5QmV6TEJUTThPUGw3elROMllxNmdwSU1CMkliNUdJeGMyZXFhWUY0ZGRHcllXV19lZGV5SFJCQzlXZzJpNmtOcDNkYTNjYmNwMWtvTWhNUnRIdw?oc=5",
+      "pubDate": "Sun, 01 Nov 2026 07:00:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Police to double number of officers for Arsenal vs. Manchester City on Sunday - The Athletic",
+      "source": "The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSS1mdE1sbVNlZWhZQzRYNU12YjZCTXdtczhFTW1hM2FjUlpuS0E0MzJwTnpWU2l0ajVBOFVhUlRab1FpUHlVVHdOUEVYazRDVm5BYktoc3lCMnh1NDc5aDhkeDBkV19PYzc3bTFieFZfWHdYd19yM3ZYTU1jZUpGeG9iSzZCbC1pOFBwUld5UjctUktYS1E?oc=5",
+      "pubDate": "Mon, 23 Nov 2026 15:11:16 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Arsenal boss Mikel Arteta hails Bellingham brothers and reveals hopes for his own sons",
+      "source": "The Mirror",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYk90QWlHdXlOS0VaaklLZXRRR1ZGNk5uUFU5dlBWanFrekxuMXhTV2hJRm9CVzRXQWNsMkVmRGRUUndSc3ZfWUpoa1hodG5OOHo0LTR2a0NTMFJNa2lWekhlay12N1hrbnA4RndhZWdLVzhCdkRPUUxDTUdCemo4MjNNdHdfQjV3cTIxVHlrNnFsdGJL?oc=5",
+      "pubDate": "Mon, 23 Nov 2026 22:30:00 GMT",
       "category": "general"
     },
     {
@@ -38,41 +87,6 @@
       "category": "general"
     },
     {
-      "title": "Arsenal winger stable after being stretchered off at Emirates",
-      "source": "Daily Cannon",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE44eWcxWkZxUmhBbnU4YmFDX3ZwRC1fSkRSR2pLVzNPbG9TaG5xS0sxNFo4alVHTk1FR1ZqR0dUQ241dTBERkZrcy0wbWhQQWVqeE43X285UnVnOC1iNVE?oc=5",
-      "pubDate": "Mon, 23 Nov 2026 09:37:13 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Liverpool's next 5 games compared to Man City and Brighton as chance to catch Arsenal emerges",
-      "source": "Liverpool.com",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYXcza3l6dEE2Z1ZteG85T05ETk1LXzFPdUZ6X3l3ZHFqQ2xrQ2Q2Wk8xTFdNM2RtRGt5WGpBQ1VlYk5LQ0xpZkR0cVRYaWlpNXZyRGJpRlpwWUNyMVhjUHg1TGY5SzlDQjBQZWdWM0QyVjVGcWsyZUh2YzJCRUN4TXo2c2JuWnc3VlQ3WDQ5UWxWamFjRVRBa1c5blfSAaIBQVVfeXFMT01kMVV2eHNXbzA1cEFJLW55ZHF0QnlFd1plaDdsZEZ6bjIwd2E4cmRpUll3UU9xTENIM1RTSkFKVWx1cDBPUUFkZmpJTUcwclNHaldocTBNaXpIWjdnTGNWMVRnQS1vMUpodzJLd2hNaUJPQk1Jb1oteG9qUFB6bndCWTROX1J5VFIxYThLN010VnM0dG8yNVNTVElsRVVqUTBB?oc=5",
-      "pubDate": "Mon, 23 Nov 2026 06:03:49 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Florian Wirtz shuts down Arsenal claim with blunt five-word remark after Liverpool win",
-      "source": "Liverpool Echo",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYTctN2JKNFlqdDZIMDRYM0lETVRXdnlBZVFuNU5VcUdiTWFWUVhxMmdGUGREaUlaaHhNR1BNMFE4NlJkREdEYU5kU3BpRjNYRE5jQ0ZNVHlvUnFFMjdHUFE5cWFleEVqMVFpZl93Mk5uNGUtZUhndWplZ2Utay1tTnMxZnk4RWQ5MjRYbHhkdDdrS1JHeVVkU2R6clItRnVoalVr0gGoAUFVX3lxTE41TUFPeXFRMjg5b0hwbEZTTllUczZ4bzRCZlpaYi1QUVF2TUdLNHo1b1Qxd3h5ZzhpNTdYOWNfUzVyUjgtVWtoVXNfXzAwakxfVXIteUlvNTAydF9XZWJYYVBxdG5sWjcwM2hMTVh2aC1sMlpmZ0dxZUxfT09sZWhUcjhYODJReWxlOFZOcWRfOUZfelBnX1NabERKcy10U25oaHJ2ME5TWg?oc=5",
-      "pubDate": "Mon, 23 Nov 2026 12:01:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Contract talks on hold: Arsenal in no rush to renew deals with two key players - fc",
-      "source": "fc-arsenal.com",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZWpHOXlvaWdaQ1d0amJZMUFmbmxDMk13RmxFWURlc3lOeGRFU081VkZOZEV4RTBEaDlIWXdRNXlCN0h0N0U4Mmx1bW9TbDZEUXJfTnU0VGVjLXVGUTlhY3NZVTBnZF9ra3AwYnZZcFJWaUhWWm9HbnY2aWoyRl8yc3VaYU9FSnAwQVpURHROZUllRkpnTzR2UDhSWDhldFdSdjdv?oc=5",
-      "pubDate": "Sun, 22 Nov 2026 17:10:12 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Premier League transfer LATEST: Man Utd chase Bundesliga star as Milan eye Bruno Fernandes",
-      "source": "Transfermarkt",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSk9tMVRXNlRKb0k4eGI2ZXhpYWE2Z1d5Unpwcmo1ZlNYVV81N25IX19YQzhKb3dFUFFuR3NPM3BkbTlucTNsSC1icHhUMDNiVDNtYjZkRVJHc09qOUNiS1pTR3ctRXFKNDB4c0w4ZDRxbG53c2Y3RmNXUHpMWEJvRGpROUZIRk9rcEwwcTA0LVk5bEtidW05MmEtUlR1aHVJcnNiYXJJa2NiQm94VGo3ZVpxcmNuNGRSdjE4NEYyNkVlTXROUUNrekk3RFlGU0dnMjh0Vg?oc=5",
-      "pubDate": "Mon, 23 Nov 2026 07:16:10 GMT",
-      "category": "transfer"
-    },
-    {
       "title": "Gallery: 32 shots from pre-Dortmund training",
       "source": "Arsenal.com",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZkpPV3g3OHRQWGMxaTBxVVdQT0otb1FvVDVYT3pNZF9vYnpmUnBFUkFPV2hRYXVZNnoyQldkQUpHR3FDSy1xS0NNdEpvU2Jza3RjckVQeUFjdFdYaFZOd3BlODR4LWtZam1ZaGlra1FzRGdVWjBrcWV2NGd5cVhENDEtRFZWZFRwRjgwR0F3?oc=5",
@@ -80,32 +94,18 @@
       "category": "general"
     },
     {
-      "title": "Emirates Stadium named as potential 2035 World Cup venue",
-      "source": "Arsenal.com",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdlNhMzA0b2VqOEk3a21RcXFoQjJ2TjRHNnRSbDROOVBjbHZVZFk3dHJtNDF0U1lEeFUyRzhjTklVXzlOVUlYTUdLT2lybEM2Um9NYWhuMjYzejduczBOOGxVcExMNzB5WExJOGZPa3lOUkV2RjQxMS1iYVRVN1I2RWd2UElCU2pzdENoRERtQ19hSm1ZLTBkb3p1NXV4U2c?oc=5",
-      "pubDate": "Mon, 23 Nov 2026 15:27:56 GMT",
-      "category": "general"
+      "title": "Arsenal injury update: Raya, Saka and Zubimendi latest return dates",
+      "source": "London Evening Standard",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPdU1EcjRVVzNYV0hzbDlVcVRrd2Y3TV9WY0xlLS1RaWlnNWhTSzJTaXhZb2dwc3Y1LWxsRjh5ekhNdEx4aDI3QmtfMXZyTTVZSVl1eEdCMDZDLW9VeEloUVJlVVllMnU5MnJpU0tLSWtrRC1TLUNVNHlVLVB0bFAwc056aFlhS01uaThUVjQtaVpYclhHSE4yaDRyRnN3Q0JRV1hvMjdnVWQ1dW0wYlhud0ROYkpqRUF1UWVJWWJ1d002UG8?oc=5",
+      "pubDate": "Mon, 23 Nov 2026 20:30:51 GMT",
+      "category": "fitness"
     },
     {
-      "title": "Arteta on Dortmund, Madueke and Bellingham",
+      "title": "Report: Newcastle United 2-2 Arsenal",
       "source": "Arsenal.com",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOaHJEZ0N5Z2FMR1ZwVzNnMU9lSXpRMUU0RXhpSDlvU2ItNGJ1cUhBRzBYR1kxRzFnRTd3U3NzZzU5cDk1dTBDamxJbjNZaTNZaGxRUjBZRkU0TXlFQTVXaHBpdUlOS1Q1R2MtRlBJWV9uOGg5emVzbkxtRnN5allLZU9nZEFERC1lZHhv?oc=5",
-      "pubDate": "Mon, 23 Nov 2026 15:36:58 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Loan Watch: Setford’s penalty heroics win it for Stevenage",
-      "source": "Arsenal.com",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdWZzSm5sNWRKbFFxVHE2dnFOcnV2bVhSQldweFcxRVZad0t6ZzZDZXpOUk1xSWNkMnJTekt4TXB4ekxlN2xXT2JHSldVdk9Kc1I1QW54eWNVSXIxcWttN1RkUmtZR3JlRnhDVk9ETlZuTEVVZnFIXzdTQ1pUQmEtWnZTTXRJeEZNSzVUYThfczBqd3d3LVVVeGZyZXZfSTQ?oc=5",
-      "pubDate": "Mon, 23 Nov 2026 09:26:32 GMT",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSmF1YjN0VExmTWY1SFE3YWNKVGtZQ1ZXbE9hWkMybkM4U0UwZDYyUHBId0FCVzc5LUs4NVhiN1RtMXNHa0xlaHdRRVdFRVA4cWhkbS0zS25UU2U2RGxhTjJpMWpULXFGejJ3T2V6djdPWGJjYlpKazc5Y2lESWVQbjFtNA?oc=5",
+      "pubDate": "Sat, 21 Nov 2026 19:49:32 GMT",
       "category": "match"
-    },
-    {
-      "title": "Mikel Arteta's pre-Borussia Dortmund press conference",
-      "source": "Arsenal.com",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5kS3VhRi1sV0lPVnMxZFJkWFZLeU9CWDZwNDNZczgtZWdrTGtIQ0VkOU1wUko3WlhPN003T1NTOXFUM3ZFNGJEQllNR2J1cjJCekhKYXZFNDZVaDRvamVV?oc=5",
-      "pubDate": "Mon, 23 Nov 2026 16:23:25 GMT",
-      "category": "manager"
     }
   ],
   "reddit": []
