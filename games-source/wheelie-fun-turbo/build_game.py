@@ -390,7 +390,7 @@ function readInput(pi){const o={steer:0,gas:0,brake:0,drift:0,item:0,hype:0,paus
   for(const s of schemes){if(anyK(s.l))o.steer-=1;if(anyK(s.r))o.steer+=1;if(anyK(s.gas))o.gas=1;if(anyK(s.brake))o.brake=1;if(anyK(s.drift))o.drift=1;if(anyK(s.item))o.item=1;if(anyK(s.hype))o.hype=1;if(anyK(s.swap))o.swap=1;if(anyK(s.look))o.look=1;if(anyK(s.aimF))o.aimF=1;if(anyK(s.aimB))o.aimB=1;}
   if(keys.has('Escape')||keys.has('KeyP'))o.pause=1;
   const ps=pads();if(two)readPad(ps[pi],o);else ps.forEach(p=>readPad(p,o));
-  if(pi===0&&touch.on){o.gas=(touch.brake||G.state!=='race')?0:1;o.brake=touch.brake;o.steer+=touch.steer||0;if(touch.drift)o.drift=1;if(touch.item)o.item=1;if(touch.hype)o.hype=1;if(touch.look)o.look=1;if(touch.aimF)o.aimF=1;}
+  if(pi===0&&touch.on){o.gas=(touch.brake||G.state!=='race')?0:1;o.brake=touch.brake;o.steer+=clamp((touch.steer||0)+(touch.bsteer||0),-1,1);if(touch.drift)o.drift=1;if(touch.item)o.item=1;if(touch.hype)o.hype=1;if(touch.look)o.look=1;if(touch.aimF)o.aimF=1;}
   o.steer=clamp(o.steer,-1,1);return o;}"""
     html = must_replace(html, old_read_input, new_read_input, "read_input")
 
@@ -1041,14 +1041,16 @@ function phoneConnect(){if(PL.ws||PL.peer)return;
 
     new_cam_follow = """    const targetYaw=k.spinT>0?cam.yaw:k.heading+adiff(k.heading,k.moveAng)*.32;cam.yaw+=adiff(cam.yaw,targetYaw)*Math.min(1,dt*(k.driftDir?4.2:6.5));
     const viewYaw=k.lookBack?k.heading+Math.PI:cam.yaw;
-    const sp=Math.abs(k.speed),dist=9.6+sp*.034+(G.battle?3:0),hgt=4.65+sp*.014+(G.battle?3:0);
+    // phones: camera sits further back and higher so the kart is mid-screen, clear of the thumb controls
+    const tall=innerHeight>innerWidth,cK=isTouch&&!k.lookBack?(tall?1.4:1.15):1,cH=isTouch&&!k.lookBack?(tall?1.45:1.15):1;
+    const sp=Math.abs(k.speed),dist=(9.6+sp*.034+(G.battle?3:0))*cK,hgt=(4.65+sp*.014+(G.battle?3:0))*cH;
     const hx=Math.sin(viewYaw),hz=Math.cos(viewYaw);
     const want=tmpV.set(k.x-hx*dist,k.y+hgt,k.z-hz*dist);
     if(G.battle&&AR.ceil){const cl=Math.min(AR.ceil(k.x,k.z,k.y),AR.ceil(want.x,want.z,k.y));if(want.y>cl-1.3)want.y=Math.max(k.y+2.2,cl-1.3);}
     if(k.lookBack)c.position.copy(want);else c.position.lerp(want,Math.min(1,dt*9.5));
     if(G.battle&&AR.ceil){const cl=AR.ceil(c.position.x,c.position.z,k.y);if(c.position.y>cl-1.3)c.position.y=cl-1.3;}c.position.y=Math.max(c.position.y,k.y+2.2);featCam(k,c);
     cam.shake=Math.max(0,cam.shake-dt*1.6);const sh=cam.shake*cam.shake;
-    c.lookAt(k.x+hx*8.2,k.y+(k.lookBack?1.9:2.85),k.z+hz*8.2);if(sh>0){c.rotation.z+=rr(-1,1)*sh*.15;c.position.x+=rr(-1,1)*sh*1.2;c.position.y+=rr(-1,1)*sh*1.2;}"""
+    c.lookAt(k.x+hx*8.2,k.y+(k.lookBack?1.9:isTouch?(innerHeight>innerWidth?1.2:2.2):2.85),k.z+hz*8.2);if(sh>0){c.rotation.z+=rr(-1,1)*sh*.15;c.position.x+=rr(-1,1)*sh*1.2;c.position.y+=rr(-1,1)*sh*1.2;}"""
     html = must_replace(html, old_cam_follow, new_cam_follow, "camera_lower_third_lookback")
 
     html = must_replace(

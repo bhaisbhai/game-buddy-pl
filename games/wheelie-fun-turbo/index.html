@@ -535,6 +535,29 @@ entirely (a click already commits), so this would just be unnecessary friction t
 .touch{position:fixed;inset:0;pointer-events:none;display:none}
 .touch.on{display:block}
 .simpleZone{position:absolute;inset:0;pointer-events:auto;touch-action:none}
+/* phone controls: see-through hold-to-steer buttons + a round special button */
+.tBtn{position:absolute;width:var(--tb);height:var(--tb);border-radius:26%;background:rgba(255,255,255,.28);border:2px solid rgba(255,255,255,.38);box-shadow:inset 0 -6px 0 rgba(0,0,0,.08);color:rgba(255,255,255,.95);display:flex;align-items:center;justify-content:center;pointer-events:auto;touch-action:none;-webkit-user-select:none;user-select:none;transition:transform .08s,background .08s}
+.tBtn svg{width:62%;height:62%;filter:drop-shadow(0 3px 0 rgba(0,0,0,.14));pointer-events:none}
+.tBtn.on{background:rgba(255,255,255,.55);border-color:rgba(255,255,255,.85)}
+.touch{--tb:min(29vw,124px);--ts:min(22vw,92px)}
+.tBtn.l{left:calc(14px + env(safe-area-inset-left,0px));bottom:calc(84px + env(safe-area-inset-bottom,0px))}
+.tBtn.r{right:calc(14px + env(safe-area-inset-right,0px));bottom:calc(84px + env(safe-area-inset-bottom,0px))}
+.tBtn.on{transform:scale(.94)}
+.tSpec{position:absolute;width:var(--ts);height:var(--ts);border-radius:50%;right:calc(14px + (var(--tb) - var(--ts))/2 + env(safe-area-inset-right,0px));bottom:calc(84px + var(--tb) + 22px + env(safe-area-inset-bottom,0px));display:flex;align-items:center;justify-content:center;pointer-events:auto;touch-action:none;background:radial-gradient(circle at 40% 35%,#ffd166,#ff8a1f 70%);border:4px solid #fff4df;box-shadow:0 6px 0 #a3420c,0 0 0 8px rgba(255,210,63,.35),0 0 30px rgba(255,178,46,.7);-webkit-user-select:none;user-select:none}
+.tSpec[hidden]{display:none}
+.tSpec svg{width:66%;height:66%;pointer-events:none}.tSpec b{font-size:40px;color:#fff}
+.tSpec.pop{animation:tsPop .45s cubic-bezier(.2,1.6,.4,1)}.tSpec.on{transform:scale(.9)}
+@keyframes tsPop{0%{transform:scale(.3);opacity:0}100%{transform:scale(1);opacity:1}}
+.touch.teach .tBtn{animation:tbTeach 1s ease-in-out infinite}.touch.teach .tBtn.r{animation-delay:.5s}
+@keyframes tbTeach{0%,100%{background:rgba(255,255,255,.28)}50%{background:rgba(255,255,255,.6);box-shadow:0 0 24px rgba(255,255,255,.7)}}
+@media (orientation:landscape){.touch{--tb:min(30vh,132px);--ts:min(24vh,104px)}
+  .tBtn.l,.tBtn.r{bottom:auto;top:50%;margin-top:calc(var(--tb) * -.32)}
+  .tBtn.l{left:calc(22px + env(safe-area-inset-left,0px))}.tBtn.r{right:calc(22px + env(safe-area-inset-right,0px))}
+  .tSpec{bottom:auto;top:50%;margin-top:calc(var(--ts) * -.2);right:calc(22px + var(--tb) + 22px + env(safe-area-inset-right,0px))}}
+@media (prefers-reduced-motion:reduce){.tSpec.pop,.touch.teach .tBtn{animation:none}}
+/* on a phone the buttons teach themselves: no corner tips */
+.touch.on ~ .ctrlTip,.touch.on ~ .specTip{display:none!important}
+
 /* pause: sits in the one consistently clear gap in the HUD (between the lap counter and the
 item box on touch, and between the lap counter and the live standings board on desktop/gamepad
 -- measured in both orientations, and mouse/gamepad players get it too, not just a keyboard
@@ -1042,6 +1065,8 @@ characters before browsing freely. */
 
 <div class="touch" id="touch">
   <div class="simpleZone" id="simpleZone"></div>
+  <div class="tBtn l" id="tbL" aria-label="Steer left"><svg viewBox="0 0 100 100"><path d="M62 18 L28 50 L62 82" fill="none" stroke="currentColor" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="tBtn r" id="tbR" aria-label="Steer right"><svg viewBox="0 0 100 100"><path d="M38 18 L72 50 L38 82" fill="none" stroke="currentColor" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+  <div class="tSpec" id="tbSpec" aria-label="Use special" hidden></div>
 </div>
 <button class="pauseBtn" id="pauseBtn" aria-label="Pause">❚❚</button>
 <div class="ctrlTip" id="ctrlTip" hidden>
@@ -7857,6 +7882,28 @@ for(const[id,k]of[['tL','l'],['tR','r'],['tD','drift'],['tI','item'],['tB','brak
     if(!trickFired&&moved<TAP_MOVE&&performance.now()-jt<TAP_TIME){touch.item=1;setTimeout(()=>touch.item=0,150);}};
   const jCancel=()=>{jId=null;touch.steer=0;touch.drift=0;};
   zone.addEventListener('pointerdown',jDown);zone.addEventListener('pointermove',jMove);zone.addEventListener('pointerup',jUp);zone.addEventListener('pointercancel',jCancel);}
+
+// visible phone controls: hold ◀ / ▶ to steer (a short hold gives a gentle turn that builds to full lock),
+// and a round button that fires the special you're holding (only shown while you have one). Dragging
+// anywhere else still steers, and a tap elsewhere still fires, exactly as before.
+{const BTN_MIN=.45,BTN_RAMP=.28;const held={l:null,r:null},since={l:0,r:0};
+  const tick=()=>{if(!held.l&&!held.r){touch.bsteer=0;return;}const now=performance.now();
+    const v=d=>held[d]?Math.min(1,BTN_MIN+(1-BTN_MIN)*(now-since[d])/1000/BTN_RAMP):0;
+    touch.bsteer=v('r')-v('l');requestAnimationFrame(tick);};
+  for(const d of['l','r']){const el=document.getElementById(d==='l'?'tbL':'tbR');if(!el)continue;
+    const dn=e=>{e.preventDefault();e.stopPropagation();audioInit();if(held[d]!=null)return;held[d]=e.pointerId;since[d]=performance.now();el.classList.add('on');try{el.setPointerCapture(e.pointerId);}catch(err){}try{localBuzz(12);}catch(err){}tick();};
+    const up=e=>{if(held[d]!==e.pointerId)return;held[d]=null;el.classList.remove('on');if(!held.l&&!held.r)touch.bsteer=0;};
+    el.addEventListener('pointerdown',dn);el.addEventListener('pointerup',up);el.addEventListener('pointercancel',up);el.addEventListener('lostpointercapture',up);}
+  const sp=document.getElementById('tbSpec');
+  if(sp){sp.addEventListener('pointerdown',e=>{e.preventDefault();e.stopPropagation();audioInit();try{localBuzz(20);}catch(err){}touch.item=1;setTimeout(()=>touch.item=0,150);sp.classList.add('on');setTimeout(()=>sp.classList.remove('on'),140);});
+    let shown='';
+    requestAnimationFrame(function specTick(){requestAnimationFrame(specTick);if(typeof G==='undefined')return;const me=G.humans_k&&G.humans_k[0];
+      const it=touch.on&&me&&(G.state==='race'||G.state==='countdown')&&me.item&&!(me.rollT>0)?me.item:'';
+      if(it===shown)return;shown=it;sp.hidden=!it;if(it){sp.innerHTML=(typeof ICON!=='undefined'&&ICON[it])||'<b>★</b>';sp.classList.remove('pop');void sp.offsetWidth;sp.classList.add('pop');}});}
+  // the first race's driving tip lives on the buttons themselves on a phone: they pulse while it would show
+  const tip=document.getElementById('ctrlTip');
+  requestAnimationFrame(function teachTick(){requestAnimationFrame(teachTick);const on=!!(touch.on&&tip&&!tip.hidden&&!tip.classList.contains('out'));document.getElementById('touch').classList.toggle('teach',on);});
+}
 document.getElementById('pauseBtn').addEventListener('pointerdown',e=>pauseTap(e));
 // tapping the HYPE meter once it's full fires Signature Hype on mobile, where there's no button
 // for it any more; sits above the full-screen steer/item/trick surface via .bl's z-index so the
@@ -7882,7 +7929,7 @@ function readInput(pi){const o={steer:0,gas:0,brake:0,drift:0,item:0,hype:0,paus
   for(const s of schemes){if(anyK(s.l))o.steer-=1;if(anyK(s.r))o.steer+=1;if(anyK(s.gas))o.gas=1;if(anyK(s.brake))o.brake=1;if(anyK(s.drift))o.drift=1;if(anyK(s.item))o.item=1;if(anyK(s.hype))o.hype=1;if(anyK(s.swap))o.swap=1;if(anyK(s.look))o.look=1;if(anyK(s.aimF))o.aimF=1;if(anyK(s.aimB))o.aimB=1;}
   if(keys.has('Escape')||keys.has('KeyP'))o.pause=1;
   const ps=pads();if(two)readPad(ps[pi],o);else ps.forEach(p=>readPad(p,o));
-  if(pi===0&&touch.on){o.gas=(touch.brake||G.state!=='race')?0:1;o.brake=touch.brake;o.steer+=touch.steer||0;if(touch.drift)o.drift=1;if(touch.item)o.item=1;if(touch.hype)o.hype=1;if(touch.look)o.look=1;if(touch.aimF)o.aimF=1;}
+  if(pi===0&&touch.on){o.gas=(touch.brake||G.state!=='race')?0:1;o.brake=touch.brake;o.steer+=clamp((touch.steer||0)+(touch.bsteer||0),-1,1);if(touch.drift)o.drift=1;if(touch.item)o.item=1;if(touch.hype)o.hype=1;if(touch.look)o.look=1;if(touch.aimF)o.aimF=1;}
   o.steer=clamp(o.steer,-1,1);return o;}
 
 // ================= game state =================
@@ -11328,14 +11375,16 @@ function updateCameras(dt){
     if(k.slide&&slideCam(k,cam,c,dt))continue;c.up.set(0,1,0);
     const targetYaw=k.spinT>0?cam.yaw:k.heading+adiff(k.heading,k.moveAng)*.32;cam.yaw+=adiff(cam.yaw,targetYaw)*Math.min(1,dt*(k.driftDir?4.2:6.5));
     const viewYaw=k.lookBack?k.heading+Math.PI:cam.yaw;
-    const sp=Math.abs(k.speed),dist=9.6+sp*.034+(G.battle?3:0),hgt=4.65+sp*.014+(G.battle?3:0);
+    // phones: camera sits further back and higher so the kart is mid-screen, clear of the thumb controls
+    const tall=innerHeight>innerWidth,cK=isTouch&&!k.lookBack?(tall?1.4:1.15):1,cH=isTouch&&!k.lookBack?(tall?1.45:1.15):1;
+    const sp=Math.abs(k.speed),dist=(9.6+sp*.034+(G.battle?3:0))*cK,hgt=(4.65+sp*.014+(G.battle?3:0))*cH;
     const hx=Math.sin(viewYaw),hz=Math.cos(viewYaw);
     const want=tmpV.set(k.x-hx*dist,k.y+hgt,k.z-hz*dist);
     if(G.battle&&AR.ceil){const cl=Math.min(AR.ceil(k.x,k.z,k.y),AR.ceil(want.x,want.z,k.y));if(want.y>cl-1.3)want.y=Math.max(k.y+2.2,cl-1.3);}
     if(k.lookBack)c.position.copy(want);else c.position.lerp(want,Math.min(1,dt*9.5));
     if(G.battle&&AR.ceil){const cl=AR.ceil(c.position.x,c.position.z,k.y);if(c.position.y>cl-1.3)c.position.y=cl-1.3;}c.position.y=Math.max(c.position.y,k.y+2.2);featCam(k,c);
     cam.shake=Math.max(0,cam.shake-dt*1.6);const sh=cam.shake*cam.shake;
-    c.lookAt(k.x+hx*8.2,k.y+(k.lookBack?1.9:2.85),k.z+hz*8.2);if(sh>0){c.rotation.z+=rr(-1,1)*sh*.15;c.position.x+=rr(-1,1)*sh*1.2;c.position.y+=rr(-1,1)*sh*1.2;}
+    c.lookAt(k.x+hx*8.2,k.y+(k.lookBack?1.9:isTouch?(innerHeight>innerWidth?1.2:2.2):2.85),k.z+hz*8.2);if(sh>0){c.rotation.z+=rr(-1,1)*sh*.15;c.position.x+=rr(-1,1)*sh*1.2;c.position.y+=rr(-1,1)*sh*1.2;}
     const fast=k.boostT>0||k.hyperT>0;cam.fov=lerp(cam.fov,68+clamp(sp/k.maxS,0,1.4)*12+(fast?9:0),Math.min(1,dt*4));c.fov=cam.fov;c.updateProjectionMatrix();}
 }
 const VS='varying vec2 vUv;void main(){vUv=uv;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}';
