@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-25T12:12:32.169Z",
+  "updated": "2026-11-26T11:57:23.848Z",
   "snapshot": {
-    "1": 63,
+    "1": 62,
     "2": 49,
     "3": 49,
     "4": 81,
@@ -203,7 +203,7 @@
     "200": 58,
     "201": 52,
     "202": 49,
-    "203": 48,
+    "203": 47,
     "204": 44,
     "205": 45,
     "206": 43,
@@ -273,7 +273,7 @@
     "270": 43,
     "271": 53,
     "272": 43,
-    "273": 40,
+    "273": 39,
     "274": 44,
     "275": 40,
     "276": 40,
@@ -325,7 +325,7 @@
     "322": 50,
     "323": 43,
     "324": 47,
-    "325": 45,
+    "325": 44,
     "326": 45,
     "327": 50,
     "328": 49,
@@ -379,7 +379,7 @@
     "376": 50,
     "377": 65,
     "378": 43,
-    "379": 93,
+    "379": 94,
     "380": 74,
     "381": 50,
     "382": 45,
@@ -643,7 +643,7 @@
     "640": 55,
     "641": 45,
     "642": 55,
-    "643": 44,
+    "643": 43,
     "644": 50,
     "645": 50,
     "646": 54,
@@ -678,52 +678,52 @@
   },
   "changes": [
     {
-      "id": 17,
-      "web_name": "Merino",
+      "id": 1,
+      "web_name": "Raya",
       "team_name": "Arsenal",
       "direction": "fall",
-      "old_price": 57,
-      "new_price": 56
+      "old_price": 63,
+      "new_price": 62
     },
     {
-      "id": 60,
-      "web_name": "Hill",
-      "team_name": "Bournemouth",
-      "direction": "rise",
-      "old_price": 56,
-      "new_price": 57
-    },
-    {
-      "id": 89,
-      "web_name": "Henry",
-      "team_name": "Brentford",
-      "direction": "fall",
-      "old_price": 44,
-      "new_price": 43
-    },
-    {
-      "id": 184,
-      "web_name": "Grimes",
-      "team_name": "Coventry City",
+      "id": 203,
+      "web_name": "Canvot",
+      "team_name": "Crystal Palace",
       "direction": "fall",
       "old_price": 48,
       "new_price": 47
     },
     {
-      "id": 162,
-      "web_name": "Andrey Santos",
-      "team_name": "Man Utd",
+      "id": 643,
+      "web_name": "Chilwell",
+      "team_name": "Crystal Palace",
       "direction": "fall",
-      "old_price": 47,
-      "new_price": 46
+      "old_price": 44,
+      "new_price": 43
     },
     {
-      "id": 558,
-      "web_name": "Schlager",
-      "team_name": "Nott'm Forest",
+      "id": 273,
+      "web_name": "Phillips",
+      "team_name": "Hull City",
       "direction": "fall",
-      "old_price": 50,
-      "new_price": 49
+      "old_price": 40,
+      "new_price": 39
+    },
+    {
+      "id": 379,
+      "web_name": "Isak",
+      "team_name": "Liverpool",
+      "direction": "rise",
+      "old_price": 93,
+      "new_price": 94
+    },
+    {
+      "id": 325,
+      "web_name": "Darlow",
+      "team_name": "Man Utd",
+      "direction": "fall",
+      "old_price": 45,
+      "new_price": 44
     }
   ]
 }
