@@ -1,97 +1,76 @@
 {
   "slug": "fulham",
-  "updated": "2026-11-27T01:22:08.981Z",
+  "updated": "2026-11-27T15:51:57.243Z",
   "articles": [
+    {
+      "title": "Who is Fulham’s new Assistant Manager, Jesús Rueda?",
+      "source": "Fulhamish",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9GdmkxaTJ3enlLczhhdS1sbzdXejJYYWNLQlhia3VOUDhlLXViYzl1ekZaRDFhbC04enVLeFB2WDNNaXFZdGpZTlhzTm1hNXh4Qk5pbk53UnFjTFBzTGplNkMwZmJxZXdOM3ZzRHpkc0xZcUtV?oc=5",
+      "pubDate": "Fri, 27 Nov 2026 14:09:48 GMT",
+      "category": "manager"
+    },
+    {
+      "title": "Fulham vs Bournemouth predictions: Premier League tips & 6/1 Bet Builder",
+      "source": "Ladbrokes",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQWkxoeHhaLS1CN0NKaDJNbmo5SkZmNDh3aWxpdHBSc1VhdklEOWRWTjBTenU1SEhxVkpHN1hOOWVNbG4xSjBNY09yYmNpR2U2TzJiSHNtakdVUUxtNEtoeXo4YUdkVHlUV01nbzZ3a3BYRG1iXzF0R1F0WXpGcVU2ZXVjRjNVYjRPX0tXN3NkY2d3d2FuRTFsZkU4Tmk?oc=5",
+      "pubDate": "Fri, 27 Nov 2026 10:43:20 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Fulham working on new deal for star defender amid Manchester United interest",
+      "source": "news.bet365.com",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxONnp4S1RHUXdLMk5wcmt4OE9sdlFTX0ctUGZuZlBTNnNHMTFrRm9pWFFobG1FWTlDMlJOZUFDMHJON29fU2NBd1JOa0V5Mnl2YWtqbFdKeEprMUVSODgyTU56QlZXLTdLSjk4V0NaZkdHeGlidFBtZkgxQUN6M2N0VFY4X0xSd3A2ODVpS1pQbDNlMXpIOHI3SXNOOEFObTFoUEFQSjBMVmVZdVVlZ2pfaElOMzlseVQ2Q05senVzcFBUTkk4SXRrU0FjV1IwWXM?oc=5",
+      "pubDate": "Fri, 27 Nov 2026 13:07:23 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Fulham FC - AFC Bournemouth prediction & tips 29.11.2026",
+      "source": "Transfermarkt",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUE5qX1c5eHR5MmJ5cHBIX2hsSkhqRkxnM0IwX09jT1gtemhXaDR4VlB3d3JfaHFQcXM3Nmt4TnhiUjIwMWVWQ1lTY1RCSDFaTGpnQmdycEltTzVnXzRSaGNLT3VoWlNUUjVQYjRuVF83b29DY0pSMm1UU0JfNDRTT3lkRHJLbzBVcDZ5WF9NUjR5TDVRWmR5NUlR?oc=5",
+      "pubDate": "Fri, 27 Nov 2026 13:03:59 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Official Club Website",
+      "source": "Fulham FC",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0zdGFFT0xtamlIVTJEWnpmWmgzSWhCX1lkaUw0TXV5RWFNTy1zMFBHV09XSG14eEtuYnEzUUJnT2VXY2tsSklLcEJjV1JxM0ppVzkycGgySkt5NUZHSUNGMndxbXF2Vk1iS2ozYjFWNG1ra1gwM04waWVlcnNRQQ?oc=5",
+      "pubDate": "Sat, 15 Aug 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Fulham v Bournemouth Match Stats, Hit Rates & Bet Builder Data",
+      "source": "Andy's Bet Club",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZmVVQngwMFB2SllkTFRoZHVRalZuMm95RUFodG92bXhLQUFwS3BCQ0Z1ODJ3RUVnZGlpRktiUlB6dkhlSjduQ2VqdndMbTJaVUlWUXNfdDhOcEFMaFE3SUdsZS1jT25hbHdubnRqS21FZjJUOFNzWTM3R3B1SVJ6MUtWMFRlV29YdVN6ZlFPcw?oc=5",
+      "pubDate": "Fri, 27 Nov 2026 13:03:27 GMT",
+      "category": "match"
+    },
+    {
+      "title": "United Suffer Late Heartbreak Against Fulham",
+      "source": "Oxford United Football Club",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9BUVhOSkgtQWdRZVJiMTI1NkhocGt6RG95cmxmRDA3Z0F0dXJJWFgxQUFydjBqSUdrZDVTcGUzbGpjSllJUUM1Tm1ELW5sY2VnTlVOeTRoN1o4OS1tR24yWmJZQlpqZFF4MHZZSlZzU0F3TzVLYkFkeHEwQ2U?oc=5",
+      "pubDate": "Mon, 23 Nov 2026 09:59:22 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Man Utd hold talks over January move for Fulham captain Calvin Bassey",
+      "source": "Goal.com",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdm85U3V2YUNMM21jVldQcHAySEp2cVZSNUZBc29lcnBtWUtqazFENzd5WnA3b1Bucm1abF84MWhHUkx2R05nXzVUU0NGUmtLbU5GYUl6bVYwdldrVFFELW5RWWJWWEJfN1l3Z2NySFpRRkpNeEtDbjdrVWZfN2RZWWNGNWpVWW92Y0hxTTR6cTQxRFlkczk4TXJ5OWZrYmM?oc=5",
+      "pubDate": "Fri, 27 Nov 2026 11:54:42 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Town and Fulham Watch Polish International Keeper",
+      "source": "TWTD",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMm44QTFDQS1QcXBENHVQZ2ZWWlE4ajFxZ1dyQzBSaFdYa285NHdETG9OcHRlRWYyM0JpTXdXNldOTHVxMVlHTThyYUF3V3VBZUQyUkg5WHdtT2RxU044Sk1FZHE2TVU1cGw0R1I5Y0pwWDl0R28tZXZqTExDbElhTlpMcFlYQ08zZlJsZnlQdUdCaGNwY2Uza09ENEw?oc=5",
+      "pubDate": "Fri, 27 Nov 2026 10:08:00 GMT",
+      "category": "general"
+    },
     {
       "title": "'The most impressed I've been by a young goalkeeper' - McNally makes impression",
       "source": "The York Press",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdGZHWE9kYlJucmhIWVRCaHdMOUo0amlweDZqdlVLWUFoSU43aDBIZFNrYkRoODZJQk5zaTJTNDZ5V3pxVVE0R09CRjcwa0NWbFBaMHQ1QlJZemFLV1R4ckhvUmlfaVk4dUluNk81Wm5vbUpnY3IyS0xnR0VjanF5SE9WT2NmTVhTbDM3LW85bFVZTVNoR2Y2R0pR?oc=5",
       "pubDate": "Thu, 26 Nov 2026 16:06:01 GMT",
       "category": "general"
-    },
-    {
-      "title": "Manchester City 1-1 Fulham: Premier League – as it happened",
-      "source": "The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbkVKcW02VWNKWHg0eEtPYXV5em00QjlPdEgzVGRid3RXZHdTdnE0UkI3UjI1RkZEYkY2MS0xckpldWtqaElTUDlvMUwzQmNfTXNsc1dXXzIzS1ZsdzJIZWZrTkJ1WThkbWRiVGtUT2J4UGtnaC10RXpUUHZhSEdnSnVDRldQNkQ3TnpBMmI2T25RWG9IUmtIbFN2WnhHaFk?oc=5",
-      "pubDate": "Sat, 21 Nov 2026 11:25:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Aston Villa 1-1 Fulham: Zion Suzuki own goal blunder after Nicolas Jackson scores again",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1OWC1COGFrRmNWdG9RdlZ6aEEyNGxHaDhXQjJUTWlaS0pzQVlBU2hFMTR0YWEwZlJJVlZrQ1BQN2tuVkF6WVcyVW5ZLWdTTXo0LVFUQ29wVmhRSFFNVkRCbjBFRDdvZw?oc=5",
-      "pubDate": "Sat, 31 Oct 2026 07:00:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Manchester City 1-1 Fulham: Anderson rescues point for hosts",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5DUDRwNGxrQWpZbmM0TEoxRWFONWNrNHlBX1VuaWZCMEx4WGpkcnFocTg0RG8xSTJ1dUJNT2ZUd3BEMW9wV2lGRjZ0MEZ4alUwVXlyMjdQSXlXdXBlT0dvSmk0WQ?oc=5",
-      "pubDate": "Sat, 21 Nov 2026 14:28:28 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Fulham vs Newcastle United live score, H2H and lineups",
-      "source": "Sofascore",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9HZXdNSEpCbzBwWXU0dmgzNEV1X21TeHZyM2VycHBDdl9uQlhpTDFQZ1Z5dndxWVg2aW10QkhnWTh5M2VZY0N5U1ZKdFlLQnNhSGdpck92UzI1YWcxUGhxaTlfcXIxamQ1c09QS0lYb0ZHVWFsRFhF?oc=5",
-      "pubDate": "Sat, 11 Jul 2026 07:00:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Ex-Rangers star tipped to be shrewd acquisition for Manchester United",
-      "source": "Glasgow Times",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdEd0UHE4VTRyVWVYT2ZrOGxwcHlRc19QazVPQ1Z3eTAtVm9qSDc1ZXpFbmNHYTd0Q0dxVjBuQ092bllKeHMyaU1Ua05PU09RckdZNUtTR0oyUlEtZE9oOE8yTjFOQzRsRllHM0pjd3h4ZDZQRFhoU29ZV2tJLXc2NURzakJRc0VZZUJOdVdmTDlFN2x0YjVLUmRpVFFZOVdC?oc=5",
-      "pubDate": "Thu, 26 Nov 2026 12:07:56 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Market value of €326m - Our Premier League team of week with Rio Ngumoha star man",
-      "source": "Transfermarkt",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNWmtSbjdZU2FfV0Z4SHVtMGU3RHpvNjlwRE9hencxcEdmUXZMVVppRHZWRl9JbTFlWWJLU180dmV1Uy13Wk1yTTdZdVBlY0VNSVN0V1NrODdyd0RXT0xEeXdBQzRyamFtdHJaejZHYlZkNXM4Y2piMGQ4VmRkbDRXaDVTZFBFSl9lY3ZHaEl6YzYzZFRkcVNvOW83ZWpRQ0F6NkVZdlFJek5SbEk3THAzbHFSaHVlY3k1ZWxtNl9HeDVjY1pzNHlJNHpHWDI?oc=5",
-      "pubDate": "Tue, 24 Nov 2026 13:27:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Man City vs Fulham highlights and reaction as Enzo Maresca and Elliot Anderson deliver verdicts",
-      "source": "Manchester Evening News",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSFAxQVNqX2tKZVVMLVBFOWZJdW05Sm52ZXZueV9KQ081OF9iQW85elZsLUZMbUQwekRxZ3NVU1EzdU45OHV5MmdZUWNpMzJrNDdsMXNYcWJuMlBiLTNSVEtYemRFQmdtWmJLcmc1eWVtYXVUYWNFRnJrbXNYQXFNaExCQWFzVUY2bHhmM0k5TWppVGJGcTJRSFRDYWdaeXF3eWJN?oc=5",
-      "pubDate": "Sat, 21 Nov 2026 14:47:07 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Manchester City v Fulham - Premier League result as Elliot Anderson rescues draw but fails to stop boos of City fans after Rodrigo Muniz opener",
-      "source": "TNT Sports",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSk9vYnZXTXdhenRubThtYTN2S3ZheG1fQlJlOGJhaWlBeHpPOTNVczUybDV0YlYyUjA0S0d3TktPMmhRNm5IallSSzdYYXNSdU51OXRMM2hBandvdFlkYjFzdU9iT0NweVFwRUR1QXNrMERDVE1ZblZ2d2tBS1Fza3oxa281TFl1UW1CR1EyWmsyQUdWRlp4STM5WGNScTd0SGZQY3FEcGJzX2RVMllLQjBGNTNHa2s4RHc?oc=5",
-      "pubDate": "Sat, 21 Nov 2026 15:39:33 GMT",
-      "category": "match"
-    },
-    {
-      "title": "“He’s brilliant” – Chelsea & Man United urged to sign “magnificent” Premier League star",
-      "source": "CaughtOffside",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSHpfUElReURoZUx3WE1ydjdVOTdQTXFWSjM0d3gwaTJBTEVtbVRJajd2dWlVQ0M4RXhGZmJDdEtfTVBaOHJ5UnN1LW5od0NNMDRrRUN5eG9MMmpRNjNsOHI1dzJya01fYjhfM2dRamVndkNRZ0pRLVJrUzhwX0k5ZGh6UWlDRndXVVhsUERJZ0RERjNfNG1yVW130gGfAUFVX3lxTE11YzQzbURCNmF2UkRTWEpHWWVhY19JdFo3MEdqVi1qLXpLcDNPeFJkZXExa1FhMjl2bG1aMGJ0VDc0U09Jd0x0N09vbng1WEFKMUNYRHN0NXZLd2t0LVA3YWo2SFRLYXppakxUcmdFdXVCcGNhWVItb3d0dDAwVGM1ZEJvNjdWUlZaRmd4YXZEb201S2xJc05DT3ZzZE9QTQ?oc=5",
-      "pubDate": "Thu, 26 Nov 2026 11:00:24 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "FUL ACCESS: Good form continues",
-      "source": "Fulham FC",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX3I5X2ZxUjFtVS15Rnd1YXBsRHJvejhSVDBiSDR0VDRUTW56cWNjcmlMWkJsUVBnZEVsdmpINW1CWHpadnUyeTZmTVk5MkpBWFRqS09OdzF3a1BLRm94WEJxR2hMbUNVbzMtVll5VG1MNGlqUWRDN2R6ZWc2aXBQcWlyLVE?oc=5",
-      "pubDate": "Tue, 10 Nov 2026 02:07:02 GMT",
-      "category": "general"
-    },
-    {
-      "title": "City held to frustrating draw by Fulham",
-      "source": "Manchester City FC",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNb3RQazF1Z29MVzd6eWNpckJ4LVBHeFp4bGtSV2x3aFRZTkRxNERnMFM1TnZ5SzJ3bmRjUFh0aUdsYW45QTBRMVdrZmZHYnlyZzJiWmdqUm1DaW52YlB6VlYyNEU0U1RkZ01Yc3VWWUt0VE4tckM4N0I1Q1hLcEdJc3ZRNF9CNUlwRFRQSWtWRFhrVTdXRjhDSjVRNGZXcncyY1pCdQ?oc=5",
-      "pubDate": "Sat, 21 Nov 2026 14:25:00 GMT",
-      "category": "match"
-    },
-    {
-      "title": "Man Utd transfer news: Fulham defender Calvin Bassey is in talks over new contract amid Man Utd links - Paper Talk",
-      "source": "Sky Sports",
-      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPYkNsNDlCMnFVQlE2cjl1TFZXN0J2OWlFY0tQbnROekpXeVJzMmhaU0kyX3YySGxHS09sVkJZY0F6T0hpbHlXX2xLc21tOWpZTXc5Q2JQbUlpOGtORzJIMmY0bFFEZDk4OUIxZEtucGxwbDJ2aXFtVXYzLWlHTWJBQ1VvRXlKWDI1TjE1V2k2TWRHQ3dxNjFPVnphckl5Qlg5OUM2aVhZSkhjQmtPU3V2XzJNNUM3UUxrT0RQaERBOTU1anllMFdReDlKZW5EcEs0LVpmREdsZWRpSWFsYmg5NkJXaHZzejF0eW1XQzJWLTF5eUZodTBUdEY5RGlub1FWVVVaX2F3?oc=5",
-      "pubDate": "Mon, 23 Nov 2026 08:00:00 GMT",
-      "category": "transfer"
     },
     {
       "title": "Ex-Man Utd star backs former Rangers ace to be 'smart signing' for EPL giants",
@@ -101,10 +80,31 @@
       "category": "transfer"
     },
     {
-      "title": "Manchester City - Fulham 1-1",
-      "source": "Flashscore.com",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQXAxTENydmJwX2FGUmJVMzZiOWpZX2NjWS12dTIzRXJqQ0RDTFI4V01hMXM2R0tvZWRjT0pQWEZ6ZTg2T0hOZEtKSFRnX3hlMkFHOFI0NTA3M0pSS0hVdlVRVHZ6V0Y4WGtOeENhRER0STNxT2ZuWTQ3X1drQ3ZVOE1uS0RTZEJWdF9B?oc=5",
-      "pubDate": "Sat, 21 Nov 2026 08:00:00 GMT",
+      "title": "Ref Watch: Why was Erling Haaland's goal for Man City vs Fulham disallowed?",
+      "source": "Sky Sports",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUjEwXzBHTzNZYzBWWTQ3c0V6WkxYVVRYTHN4Q3d2WDg0eFJiSDlVMkFDUXRoY2hiUHBiN0hTbUsyeVlUZFNIUmFCS3pqaU1Ka2ZIQmJGY290c3dRTjNlZmZRbGdFa2dIZDRvWktKYVFaeGR4V2VnNUJHQXR3dGZYUDdDYWFTVWVOQkJWV01OcW9Od003SE0xSnBPSWM4TGdpWTJpRUM4bW9XWHU4NmkxY0d1dDVPTEZRMHV4ay1SRQ?oc=5",
+      "pubDate": "Mon, 23 Nov 2026 11:30:36 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Thank you, Ella",
+      "source": "Fulham FC",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4xRlJIc3lKNDl3WmVzS1d1MkVkSS02VWdVZEI5QWlwS1Q3TExoQy03M3ZoV2wxTjdRbHpqX3lfbEtMX29JdHluUEVlUUVOVGFNUlZ2S1U0NTRwY2x1TldSNmhzNEVNT1p4?oc=5",
+      "pubDate": "Thu, 14 May 2026 07:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Arbeloa and Fulham are starting to find their feet this season",
+      "source": "Fulhamish",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBYNnFxeVg5elZNblNSZTNpQXpIcEpUdV95LUdzT1pGSjJ4SlhUSlVsM09tckU0VG5BekNraUxrRUhoWm9fVF84Szk0WmN4XzRiTlo1RXYtRXVOUnoycWtPblZqMUVNczFWTmV5ZUZOaTFIZw?oc=5",
+      "pubDate": "Mon, 23 Nov 2026 10:21:03 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Liverpool (A) sold out",
+      "source": "Fulham FC",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE95MDFoaXdibmQxN1d6eGkzWjBZN0V4dmhJUFhBdkE3Y2Rqb25XMUw1UGVwZGlGLUVUNzIyNjhpaEd0X1NBZ3IyZzJpZk5jRnVRY1lnM0Y5WWhaMnEtQnVDSVFuQ2pNY3hyUmdjR3ZJVDBtcDBlcHRv?oc=5",
+      "pubDate": "Fri, 10 Apr 2026 07:00:00 GMT",
       "category": "general"
     }
   ],
