@@ -1,34 +1,13 @@
 {
   "slug": "ipswich",
-  "updated": "2026-11-27T15:51:57.243Z",
+  "updated": "2026-11-28T00:55:32.577Z",
   "articles": [
-    {
-      "title": "'I think everyone connected with Ipswich...' - Steven Gerrard on Blues' dip in form",
-      "source": "East Anglian Daily Times",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaTczSV9LaHQzNnFzS2JaRDk1TTE1YUg3SlJ6emlSNFI4UjFmSl9TYWJHNjRtY1lTWC1kb05KSnl1c19Ld0ZIRlhMZTdIaVZxSjNxcjFObFRCSVhIbEYzWFpXXzhkYzJ6cW9kbTV4UFo0NzJzU21idVdaUGprWC1NbGpNV1d0RlNkNXotOEI5ZXdLSlR3allFeWd6NUVsVHdQUlNFdXFMRQ?oc=5",
-      "pubDate": "Tue, 24 Nov 2026 10:35:49 GMT",
-      "category": "general"
-    },
     {
       "title": "TOWN SIGN PRINCESS ADEMILUYI",
       "source": "Ipswich Town FC",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTzl6X0pMU3dSMm5qczc3Yy1EYTFVUlMwR0VFMDdQX1dQcnJRLWtNR21mSk9yUFFSSGtoQ1RPMVc3OGdENHVtM1VlREZtdWg0c2gtbmVQNFg2RnZyMXdhN25Wb0Q1bHVuLWJIUWJhY2JweFQ3M3FQbmxaaGF2eDBYWkwteXlDQmwzVGlVVzZsbjlyOU5S?oc=5",
       "pubDate": "Fri, 27 Nov 2026 11:57:00 GMT",
       "category": "transfer"
-    },
-    {
-      "title": "Ipswich Women sign Ademiluyi for record fee",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9IdkE4R3B5TzlOdHR2czU5d1FCdm1qLVRKdTMzUnZzcklROFE2Y0M3dHQ1dWM0OWFQOG1CcGV1R2NONmpjVEg5YWZGTHF6QnU0c1NDS1JfR050OVk5TVUwODFxdEd2MFVQa3lZ?oc=5",
-      "pubDate": "Fri, 27 Nov 2026 12:02:43 GMT",
-      "category": "transfer"
-    },
-    {
-      "title": "Preview: Ipswich Town vs Aston Villa - prediction, team news, lineups",
-      "source": "Sports Mole",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOWmNpcktSUElZZ0RIUXZscHZDeVdwakN4NWgzNjRFTm5xZ0dzLV90Y0NmY0U5LXVhNnBNSkdwYjk4MmJ6dDRnNndnSzJRNWFKSkhaZjJvTTZaeG16UEo5MnJmTk4wcVQwSTcycW1fN29FaC1yUjZPYXhNMTh3MjdTdFdnWE15aUZxTWVQcXJBX05YYTR4N3RSbVB1UU9KbUNiZnBmXzdNZVluR2lWYnk4NnViYXM4SGpqWUc1MHJXQQ?oc=5",
-      "pubDate": "Thu, 26 Nov 2026 19:00:00 GMT",
-      "category": "match"
     },
     {
       "title": "LEIF DAVIS FITNESS UPDATE",
@@ -38,32 +17,46 @@
       "category": "fitness"
     },
     {
+      "title": "Ipswich Town v Aston Villa: Key stats and talking points",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxc1R3QVJSalcyeW80bXRoMGJsRDBFWjFqNWV0d0hoR2FlNXZPVXRGNHZhZTJCSVJ6Q0l5ZjdPR2U5c0NnUFd1ZnA0N1NlTFUxb3VaNEdHTy15RnFJb0hrdzFBMDk2X0I1cmRz?oc=5",
+      "pubDate": "Fri, 27 Nov 2026 19:30:05 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Preparing for Portman Road",
+      "source": "Aston Villa",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPb1djd0MzQk5Ca0o5QVRhQW4zQ0JvTENFdHM0WS12MUpRTkVrVTJhRDRiYnRSMGJvdlFSekNXN3hpdlhzem5rQmRrUHpsR2NvZHRkNTNkRFN3OHBabml4MlF1TVRuVWdYS2hBakVCTjFWckZqNElqOVJUNEpTWG0yVnlOb1FfbnpUR251T3ZubkYwZlk?oc=5",
+      "pubDate": "Fri, 27 Nov 2026 10:05:59 GMT",
+      "category": "general"
+    },
+    {
+      "title": "'We need to control the momentum' - O'Neil on Town's form and fixtures",
+      "source": "East Anglian Daily Times",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNzRVUF9VWm10dUVoUHhRaXZUa0FvUnk0NXpGN1ptaGI0LTNpU2lqaUJXNFhXQVUtdkZSaWRQaUJhVmxDN25IN0Q2Ui1nR0hBSjRhOGFiN2VDaGRXeHAxeUpFa3lZblV2cTNNS2VsRXQyMDlpMEplaG1tN1ctU0JvampITUZVWF9iV2RUT0R6MEVPZHc?oc=5",
+      "pubDate": "Thu, 26 Nov 2026 13:00:00 GMT",
+      "category": "general"
+    },
+    {
+      "title": "Watch: Humphreys scores and captains Huddersfield in big win",
+      "source": "Ipswich Star",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNSVpYbFpMNlVJVXhmbW5telp3aXNkN3d1cm9DZ2pJbDFROEdZSWVQMkYtSzhCakNWY3lXVF9kMTdURzRFSTFzQTF4T0h2SGhLYzZPZWJ0TzdvdWtFLTNmakVKNGNySmJxOU1Id1FSc21uYUY1M3hSSGFEbmtUQXl2Q0FrUVBVa3hxZ28xZnZtMGtiY3Y4dkN4QWlxekZtQ1k?oc=5",
+      "pubDate": "Fri, 27 Nov 2026 10:35:00 GMT",
+      "category": "match"
+    },
+    {
+      "title": "Ipswich Women sign Ademiluyi for record fee",
+      "source": "BBC",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53TGo2VVB3WXhpOExhMUxWWG9BYWhfLW1zM25LMkdUZ0QyQVExY1lTNVZlQllTSFNIRm9wRkNsMFd3cjl2R0FlYTMyVnNZS0FSREFORnpVNkhJNl9RR3Z5TGZJb0xtV3p2?oc=5",
+      "pubDate": "Fri, 27 Nov 2026 12:02:43 GMT",
+      "category": "transfer"
+    },
+    {
       "title": "Cazoo to provide free coach travel for Brentford fans on Boxing Day",
       "source": "Brentford FC",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTFdQWWFvUjVKeWo4UWtrR3NVbWd5ZmZ3RHB5UWN0NFRhc0ZvUVpRUlotWkowbENjcUNPVDVMZ1dMRGFObVptaXdqM3B4T3U3V0JjNl9xejhFOFB6RnloVlBDOHZHbkRLZzd6RThaVVNwamtRa1BGTUprbm1OQjJLYjJMdFJpd1NIb0RaMV91MG5peFVtSGY1NGxHRS1NWjRiTFBtZ2NuNHN3bWs2YVRNR1FfM1JrUQ?oc=5",
       "pubDate": "Thu, 26 Nov 2026 18:05:49 GMT",
       "category": "general"
-    },
-    {
-      "title": "'Need to make Portman Road feel special again' - O'Neil on home clash with Villa",
-      "source": "Ipswich Star",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZl82Z0JBbFZaQUJQSFhDckxKV3kybC1CRHNRc2FaMjQ4RXYwbDBYZUJwZFZpb3N0YTJOZXVId2ZYTk5tQnBVUXB1OGpGQ0RMWFBsbUVwY19EVU1YOGtlZk0tSm41YnBZUzVSa1dnTjQzV2pnbVZpcENlMHlRcEEwR0lwSmozRFFYUTJmNV9LLXJEVjE3NU1sSENlT2NrUm1ZV1ZKTnBjWG5MREdB?oc=5",
-      "pubDate": "Fri, 27 Nov 2026 15:12:05 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Ipswich Town news: We will '100%' stay up - Lukic",
-      "source": "BBC",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9QamlDemppQUh2cUlYT3RyaGRwZXhtaURveTZWMlZvVkpRc3dtZjNkQWpvZlRVd2kyR3BQRnJTYmFFbmpyU09qbzd4a1Q2YVVOQW1mRmRIQjhBM0tubllvSzhUQTdicnJo?oc=5",
-      "pubDate": "Fri, 27 Nov 2026 10:59:36 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Ipswich vs Aston Villa Prediction, Betting Tips, Lineups & Odds | 28 Nov 2026",
-      "source": "Sportsgambler",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNLWRTRDRYOGNKZ25ESjc3Y29qZU1pZHo2N0FqWHVlWDZKU3ROa2xVNTRYZXo5WDZyM2h3OVpDOGlrMkxUVFBTd3BFZDB0LWU0cF9Ka09valVwSTRTQjJJOEpCWUNtNVd0R3pKb0QwWWNvRlhJSFpGT19xTEtqOUpRRVloeG42OXJOb2doTEszRjZBQ0w1Q1JDS2dkSU5yZW1mWV9pSlhFQmU3cTd5T1lV?oc=5",
-      "pubDate": "Fri, 27 Nov 2026 01:11:59 GMT",
-      "category": "match"
     },
     {
       "title": "FPL | GAMEWEEK 12 HINTS AND TIPS",
@@ -73,11 +66,25 @@
       "category": "general"
     },
     {
-      "title": "MATCHDAY GUIDE | ASTON VILLA (H)",
-      "source": "Ipswich Town FC",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNmRWeVJ2Vngxc2FlU2FnSzdVeU5iWUxNRTFaY3FqRFJCRVkydXhDRVJVUlJxZ2Rwdi1RQlQxQmVxUDFSbVBPWUxuRDVBbmI3akJtdlF6cG9Fb1hoVWtCNXdhZEhBODMtS2xDaVdhSFJEeDhoRmNxOC15OUZBUmZkYVF6M1U?oc=5",
-      "pubDate": "Fri, 27 Nov 2026 10:10:02 GMT",
+      "title": "Hot-headed Villa analyst banned from Town clash as FA hand out FOURTH charge",
+      "source": "East Anglian Daily Times",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMVpIRlREbGpSZHFUUC00LTFQT3BzblRWWDNrbDFNZFUtQXZCT3NxcE1KcGZ4ZGUzNThvaUE5dmZjS29wTUl6NVVvTzY1MmZ1X3U5U3UyODJMQTBBWUc2UVpIVVNYZXNXNXVJWUVINUlISjRjLWZyX1dELWJ5ZkhqVWd1ZHFyY1ZEd2pUZVRNUk1idzRiNGhVb21FWXdxa3pyeXRDSEplTQ?oc=5",
+      "pubDate": "Thu, 26 Nov 2026 16:40:00 GMT",
       "category": "general"
+    },
+    {
+      "title": "TICKETS ON SALE",
+      "source": "Ipswich Town FC",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNc09ncjNNanNQTTB2UVlqX29BUXpTMmgzRGE1RUVLd3lSZ3NkU0F2NkFkUHE3em1MTUpUeWRMcV95WkplYTYzTGRrTGpyYjAyeEJ4VnVfNDNEUmhkck92V2hOTVRXRkZ4LVFGRGdnazQ3Q2xuRU01TU9XcUxRUTdVcWoyRVMtSUx6bVJobUhzVQ?oc=5",
+      "pubDate": "Wed, 25 Nov 2026 14:39:54 GMT",
+      "category": "general"
+    },
+    {
+      "title": "On-loan Town winger set for new manager at Championship side",
+      "source": "East Anglian Daily Times",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPLW5YTUQyUEZHUndyNlExU0ZmZTFjTW5JS2RtdExHZC1WNzFkSng5UXVxNVlnZk96WjR0TUw0VmR6VEpZQV9zbGdHMm14Z2FMNVpVeGJxSU9pSnAtc0dXQV9zWUZRY091bzJ6WDJ4Q0I0M2hnY0Y1SGI5OWFPb09ZUzkwMWxBSHZDS1lZdVlxR0VQOFJnR3Zj?oc=5",
+      "pubDate": "Fri, 27 Nov 2026 10:43:00 GMT",
+      "category": "manager"
     },
     {
       "title": "Ipswich Town news: We will '100%' stay up - Lukic",
@@ -87,24 +94,17 @@
       "category": "general"
     },
     {
+      "title": "'So hard to call - Villa fan answers five key questions ahead of clash with Town",
+      "source": "East Anglian Daily Times",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWnFFQ0czZzhsMUV1MHFuSWpXS290ZXQ3NkU4Vm11Uy0za2lXTGF4VzRnc0ptLVk4aThkejdkUVBwU2h3VWg4QnF0WnNTSENLT3MzbEJ6ZEtXREVsN3QwY1ltc0JGTUlZQi01cmpNRmVQQUNSODBIeEhJa0M3eGRvSDEwNUNjX0FLM2F6VXVjOW1oRE9w?oc=5",
+      "pubDate": "Fri, 27 Nov 2026 19:00:00 GMT",
+      "category": "general"
+    },
+    {
       "title": "Ipswich Town - Aston Villa Live - Premier League: Football Scores & Highlights - 28/11/2026",
       "source": "TNT Sports",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaDBfMlJzazVxUWstRXp5WjBBVnp3TzIwTTJUS0J4VWF6LW9qZ1c0WGtFc292clJSZnRzbnZMaERQcUctcmNXWmQ1XzZCcXN1TUJZa0c2dl9sZy16c3d2YjRwZkpjbm1hZVE4NG5HVnlxdDRVc2oxbmxaQkxSZG5uc09GUmJNWTFwNU1jU1ZwRlN5ZFh1c19pM19ReHRvVGNxY3NIU0tJeV94aEhXT2c?oc=5",
       "pubDate": "Fri, 27 Nov 2026 12:11:00 GMT",
-      "category": "general"
-    },
-    {
-      "title": "'It can be a thing if you want, but...' - O'Neil on Town's five game winless run",
-      "source": "East Anglian Daily Times",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQ1BDdnhRVzFrbTVIbno4M0ZWMW1RUnlpWjU3bVBORngycFlvVktCQU40bkZ6ZEI1bHZCWHZwOFBnTGljR3doX0EzRDlpeENGNTBkU3lFZ1JLWjI1MVZ1TEhDUTBCOFlWZ00temVDbTBjVFd1RmQxR3lWQjVZdWVybUtGMUZhN2kwU1lFMkc1N3I0UTlkUHh4YVNybWpudHJFdVVV?oc=5",
-      "pubDate": "Fri, 27 Nov 2026 14:40:21 GMT",
-      "category": "general"
-    },
-    {
-      "title": "Team news for Tractor Boys test",
-      "source": "Aston Villa",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNcUNiRWJrZlV1Tm1rbTI1VWtHbjhNR09IaV91eGVwaFpyYmhBQUV6d3RSVEJoeC1yNVFPYmtnV3hSYUh4QW14UGhvODBZMWpBZS1MOXNHbDNDWXFyLVhLeTItQzhWdV9xU056TnFmZGt0enlKNld3VUg4RGNmeWNrNkdaNWM0emRVaUtLdi02dw?oc=5",
-      "pubDate": "Fri, 27 Nov 2026 14:24:46 GMT",
       "category": "general"
     }
   ],
